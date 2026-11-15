@@ -2916,7 +2916,8 @@
     "culture",
     "digital",
     "experiences"
-   ]
+   ],
+   "ptiersChecked": "2026-11-16"
   },
   "australian-open-golf": {
    "name": "Australian Open (golf)",
@@ -29084,7 +29085,14 @@
    "ptype": "Event",
    "k": "p",
    "domain": "usopen.org",
-   "logo": "assets/logos/us-open.svg"
+   "logo": "assets/logos/us-open.svg",
+   "ptiers": [
+    "Official Partners",
+    "Official Sponsors",
+    "Official Suppliers",
+    "Domestic Broadcast Partner"
+   ],
+   "ptiersChecked": "2026-11-16"
   },
   "us-sailgp-team": {
    "name": "US SailGP Team",
@@ -31786,6 +31794,81 @@
    "name": "La Roche-Posay",
    "domain": "laroche-posay.com",
    "cat": "Health & beauty",
+   "k": "b"
+  },
+  "mecca-cosmetica": {
+   "name": "MECCA Cosmetica",
+   "domain": "mecca.com",
+   "cat": "Health & beauty",
+   "k": "b",
+   "aliases": [
+    "MECCA Cosmetica Sun"
+   ]
+  },
+  "chase": {
+   "name": "Chase",
+   "domain": "chase.com",
+   "cat": "Banking & finance",
+   "k": "b"
+  },
+  "j-p-morgan": {
+   "name": "J.P. Morgan",
+   "domain": "jpmorgan.com",
+   "cat": "Banking & finance",
+   "k": "b"
+  },
+  "cadillac": {
+   "name": "Cadillac",
+   "domain": "cadillac.com",
+   "cat": "Automotive",
+   "k": "b"
+  },
+  "dobel-tequila": {
+   "name": "Dobel Tequila",
+   "domain": "dobeltequila.com",
+   "cat": "Alcohol",
+   "k": "b"
+  },
+  "harvey": {
+   "name": "Harvey",
+   "domain": "harvey.ai",
+   "cat": "Technology",
+   "k": "b"
+  },
+  "clos-du-bois": {
+   "name": "Clos du Bois",
+   "domain": "closdubois.com",
+   "cat": "Alcohol",
+   "k": "b"
+  },
+  "dove": {
+   "name": "Dove",
+   "domain": "dove.com",
+   "cat": "Health & beauty",
+   "k": "b"
+  },
+  "mount-sinai": {
+   "name": "Mount Sinai",
+   "domain": "mountsinai.org",
+   "cat": "Health & beauty",
+   "k": "b"
+  },
+  "tiffany-and-co": {
+   "name": "Tiffany & Co.",
+   "domain": "tiffany.com",
+   "cat": "Watches & luxury",
+   "k": "b"
+  },
+  "vital-proteins": {
+   "name": "Vital Proteins",
+   "domain": "vitalproteins.com",
+   "cat": "Food & nutrition",
+   "k": "b"
+  },
+  "wilson": {
+   "name": "Wilson",
+   "domain": "wilson.com",
+   "cat": "Sporting goods & equipment",
    "k": "b"
   }
  },
