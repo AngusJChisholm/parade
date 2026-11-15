@@ -23383,7 +23383,18 @@
    "bf": [
     "icon",
     "logo"
-   ]
+   ],
+   "aliases": [
+    "French Open",
+    "Roland-Garros"
+   ],
+   "ptiers": [
+    "Official Sponsor",
+    "Premium Partners",
+    "Official Partners",
+    "Official Suppliers"
+   ],
+   "ptiersChecked": "2026-11-16"
   },
   "rolex": {
    "name": "Rolex",
@@ -31869,6 +31880,61 @@
    "name": "Wilson",
    "domain": "wilson.com",
    "cat": "Sporting goods & equipment",
+   "k": "b"
+  },
+  "all-accor": {
+   "name": "ALL Accor",
+   "domain": "all.accor.com",
+   "cat": "Hospitality & entertainment",
+   "k": "b",
+   "aliases": [
+    "ALL",
+    "Accor Live Limitless"
+   ]
+  },
+  "perrier": {
+   "name": "Perrier",
+   "domain": "perrier.com",
+   "cat": "Non-alcoholic drinks",
+   "k": "b"
+  },
+  "hesperide": {
+   "name": "Hespéride",
+   "domain": "hesperide.com",
+   "cat": "Home & hardware",
+   "k": "b",
+   "aliases": [
+    "Hesperide"
+   ]
+  },
+  "isdin": {
+   "name": "ISDIN",
+   "domain": "isdin.com",
+   "cat": "Health & beauty",
+   "k": "b"
+  },
+  "magnum": {
+   "name": "Magnum",
+   "domain": "magnumicecream.com",
+   "cat": "Food & nutrition",
+   "k": "b"
+  },
+  "orange": {
+   "name": "Orange",
+   "domain": "orange.com",
+   "cat": "Telco",
+   "k": "b"
+  },
+  "potel-and-chabot": {
+   "name": "Potel & Chabot",
+   "domain": "potel-et-chabot.com",
+   "cat": "Hospitality & entertainment",
+   "k": "b"
+  },
+  "adecco": {
+   "name": "Adecco",
+   "domain": "adecco.com",
+   "cat": "Professional services",
    "k": "b"
   }
  },
