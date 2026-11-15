@@ -24,12 +24,12 @@
 <body data-id="champion-data">
 <header class="dk"><div class="wrap hd">
 <a href="./" class="logo" aria-label="Sport Sport Sport home"><img src="assets/wordmark-black.svg" alt="Sport Sport Sport" width="56" height="42"></a>
-<nav class="nav" aria-label="Main" id="mainNav"><a href="news">News</a><a href="deals">Partnerships</a><a href="brands" id="navB">Brands</a><a href="properties" id="navP">Properties</a><a href="insights">Insights</a><a href="pro">Pro</a></nav>
+<nav class="nav" aria-label="Main" id="mainNav"><a href="news">News</a><a href="partnerships">Partnerships</a><a href="brands" id="navB">Brands</a><a href="properties" id="navP">Properties</a><a href="insights">Insights</a><a href="pro">Pro</a></nav>
 <a href="#follow" class="btn">Follow</a>
 </div></header>
 
 <main class="wrap" id="main">
-<nav class="crumbs" aria-label="Breadcrumb"><a href="deals">Partnerships</a><span aria-hidden="true">/</span><a id="crKind" href="brands">Partners</a><span aria-hidden="true">/</span><span id="crName" style="color:var(--ink)">Champion Data</span></nav>
+<nav class="crumbs" aria-label="Breadcrumb"><a href="partnerships">Partnerships</a><span aria-hidden="true">/</span><a id="crKind" href="brands">Partners</a><span aria-hidden="true">/</span><span id="crName" style="color:var(--ink)">Champion Data</span></nav>
 <section class="top" id="top">
 <div id="bigLogo"></div>
 <div class="top-t">
@@ -56,7 +56,7 @@
 <div class="pills" id="pills" role="group" aria-label="Filter by sport" style="margin-bottom:28px"></div>
 <div class="al"><div class="ar-h"><span>Date</span><span>Partnership</span><span>Sport</span><span class="c-t">Partnership type</span><span>Ends</span></div><div id="list"><div class="ar-r"><span class="d">16 Oct 2026</span><span class="dl"><a href="https://www.insideworldfootball.com/2026/10/16/aussie-a-leagues-brings-in-champion-data-broadcast-graphics-provider/" target="_blank" rel="noopener"><b>Champion Data × A-Leagues</b></a></span><span class="s">Football</span><span class="t">Official partner</span><span class="d">2027</span></div></div></div>
 </section>
-<p class="note" id="none" hidden>We haven't filed any partnerships for this one yet. <a class="more" href="deals">Back to the database</a></p>
+<p class="note" id="none" hidden>We haven't filed any partnerships for this one yet. <a class="more" href="partnerships">Back to the database</a></p>
 <!-- follow:start -->
 <section class="sf" id="follow"><div class="sf-w">
 <div class="sf-r"><div><h2>All things sport business.</h2><p>Partnerships, news and analysis on LinkedIn and Instagram.</p></div>
@@ -69,7 +69,7 @@
 <footer class="dk"><div class="wrap">
 <div class="ft"><div><a href="./" class="logo logo-ft" aria-label="Sport Sport Sport home"><img src="assets/wordmark-black.svg" alt="Sport Sport Sport" width="120" height="90"></a>
 <p class="mute" style="margin:28px 0 0;font-size:16px;max-width:420px;line-height:1.5">The sponsorships and partnerships moving sport. Global &amp; ANZ.</p></div>
-<nav class="ft-l" aria-label="Footer"><a href="news">News</a><a href="deals">Partnerships</a><a href="brands">Brands</a><a href="properties">Properties</a><a href="insights">Insights</a><a href="renewals">Renewal watch</a><a href="categories">Categories</a><a href="leagues">League maps</a></nav></div>
+<nav class="ft-l" aria-label="Footer"><a href="news">News</a><a href="partnerships">Partnerships</a><a href="brands">Brands</a><a href="properties">Properties</a><a href="insights">Insights</a><a href="renewals">Renewal watch</a><a href="categories">Categories</a><a href="leagues">League maps</a></nav></div>
 <div class="ft-b"><span>Filed in Melbourne.</span><span>© <span id="yr">2026</span> Sport Sport Sport</span></div>
 </div></footer>
 
@@ -114,7 +114,7 @@ Promise.all([fetch("deals.json",{cache:"no-cache"}).then(r=>r.json()),L.load()])
   const dated=mine.filter(d=>d.date||d.month), first=dated[dated.length-1]||mine[mine.length-1], latest=dated[0]||mine[0];
   $("stats").innerHTML=[[mine.length,mine.length===1?"partnership filed":"partnerships filed"],[sports.length,sports.length===1?"sport":"sports"],[fmt(latest),"latest partnership"],[fmt(first),"first filed"]]
     .map(([v,l])=>`<div class="stat"><b>${esc(v)}</b><span>${esc(l)}</span></div>`).join("");
-  $("acts").innerHTML=`<a class="more" href="deals?club=${encodeURIComponent(id)}">See them in the database →</a>`+`<a class="more" href="compare?a=${encodeURIComponent(id)}">Compare →</a>`+(e.domain?`<a class="more" href="https://${esc(e.domain)}" target="_blank" rel="noopener">${esc(e.domain)} ↗</a>`:"");
+  $("acts").innerHTML=`<a class="more" href="partnerships?club=${encodeURIComponent(id)}">See them in the database →</a>`+`<a class="more" href="compare?a=${encodeURIComponent(id)}">Compare →</a>`+(e.domain?`<a class="more" href="https://${esc(e.domain)}" target="_blank" rel="noopener">${esc(e.domain)} ↗</a>`:"");
 
   // Who they've signed with: the other side of each deal, most deals first.
   const other=d=>onB(d)?d._p:d._b;

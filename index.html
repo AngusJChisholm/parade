@@ -311,7 +311,7 @@ a.st:hover b{box-shadow:inset 0 -.12em 0 var(--volt)}
 <body>
 <header class="dk"><div class="wrap hd">
 <a href="./" class="logo" aria-label="Sport Sport Sport home"><img src="assets/wordmark-black.svg" alt="Sport Sport Sport" width="56" height="42"></a>
-<nav class="nav" id="nav"><a href="news">News</a><a href="deals">Partnerships</a><a href="brands">Brands</a><a href="properties">Properties</a><a href="insights">Insights</a><a href="pro">Pro</a></nav>
+<nav class="nav" id="nav"><a href="news">News</a><a href="partnerships">Partnerships</a><a href="brands">Brands</a><a href="properties">Properties</a><a href="insights">Insights</a><a href="pro">Pro</a></nav>
 <a href="#follow" class="btn">Follow</a>
 <button class="menu" id="menu" aria-expanded="false" aria-controls="nav">Menu</button>
 </div></header>
@@ -330,7 +330,7 @@ a.st:hover b{box-shadow:inset 0 -.12em 0 var(--volt)}
 </div></section>
 
 <section class="sec" id="statsSec" hidden style="padding-top:0"><div class="wrap">
-<div class="sh"><div><span class="lbl mute-l">The database</span><h2 class="disp">By the numbers.</h2></div><a class="more" href="deals">Browse every partnership →</a></div>
+<div class="sh"><div><span class="lbl mute-l">The database</span><h2 class="disp">By the numbers.</h2></div><a class="more" href="partnerships">Browse every partnership →</a></div>
 <div class="sts" id="stats"></div>
 </div></section>
 
@@ -346,11 +346,11 @@ a.st:hover b{box-shadow:inset 0 -.12em 0 var(--volt)}
 <footer class="dk" id="about"><div class="wrap">
 <div class="ft"><div><a href="./" class="logo logo-ft" aria-label="Sport Sport Sport home"><img src="assets/wordmark-black.svg" alt="Sport Sport Sport" width="120" height="90"></a>
 <p class="mute" style="margin:28px 0 0;font-size:16px;max-width:420px;line-height:1.5">The sponsorships and partnerships moving sport. Global &amp; ANZ.</p></div>
-<nav class="ft-l" aria-label="Footer"><span id="ftLi" style="display:contents"></span><a href="news">News</a><a href="deals">Partnerships</a><a href="brands">Brands</a><a href="properties">Properties</a><a href="insights">Insights</a><a href="renewals">Renewal watch</a><a href="categories">Categories</a><a href="leagues">League maps</a></nav></div>
+<nav class="ft-l" aria-label="Footer"><span id="ftLi" style="display:contents"></span><a href="news">News</a><a href="partnerships">Partnerships</a><a href="brands">Brands</a><a href="properties">Properties</a><a href="insights">Insights</a><a href="renewals">Renewal watch</a><a href="categories">Categories</a><a href="leagues">League maps</a></nav></div>
 <div class="ft-b"><span>Filed in Melbourne.</span><span>© <span id="yr">2026</span> Sport Sport Sport</span></div>
 </div></footer>
 
-<script>if(location.hash==="#archive"&&!document.getElementById("list"))location.replace("deals"+location.search);</script>
+<script>if(location.hash==="#archive"&&!document.getElementById("list"))location.replace("partnerships"+location.search);</script>
 <script src="assets/logos.js?v=8"></script>
 <script>
 (function(){
@@ -428,7 +428,7 @@ function roundup(lead){
   $("rCount").textContent=`${same.length} partnership${same.length===1?"":"s"} · ${fmtDots(asPosted(lead))}`;
   const card=d=>{const tag=href(d)?"a":"div";
     return `<${tag} class="card"${attrs(d)}>${d._b?`<div class="cl">${L.pair(d,{px:44})}</div>`:""}<div class="tags"><span class="tag">${esc(d.sport)}</span><span class="tag r">${esc(d.market||d.region)}</span></div><h3>${esc(d.deal)}</h3><p>${esc(d.summary||d.type||"")}</p>${href(d)?`<span class="more">${d.article?"Read the story →":"Read →"}</span>`:""}</${tag}>`};
-  $("roundup").innerHTML=same.map(card).join("")+`<a href="deals" class="card all" style="--span:${3-(same.length%3)}"><span class="lbl">The database</span><h3>Every partnership. Since day one.</h3><span class="more">Browse the database →</span></a>`;
+  $("roundup").innerHTML=same.map(card).join("")+`<a href="partnerships" class="card all" style="--span:${3-(same.length%3)}"><span class="lbl">The database</span><h3>Every partnership. Since day one.</h3><span class="more">Browse the database →</span></a>`;
 }
 function features(){
   if(!FEATS.length)return;
@@ -479,7 +479,7 @@ function stats(){
   const top=Object.entries(mo.reduce((a,d)=>(a[d.sport]=(a[d.sport]||0)+1,a),{})).sort((a,b)=>b[1]-a[1])[0];
   const brands=new Set();DEALS.forEach(d=>(d._bs||[]).forEach(e=>e&&brands.add(e.slug)));
   const cells=[[DEALS.length.toLocaleString("en-AU"),"Partnerships in the database"],[wk.length,"Partnerships announced in the last 7 days"],[top?top[0]:"-","Busiest sport, last 30 days"],[brands.size?brands.size.toLocaleString("en-AU"):"-","Brands tracked"]];
-  $("stats").innerHTML=cells.map(([n,l])=>`<a class="st" href="deals"><b>${esc(n)}</b><span>${esc(l)}</span></a>`).join("");
+  $("stats").innerHTML=cells.map(([n,l])=>`<a class="st" href="partnerships"><b>${esc(n)}</b><span>${esc(l)}</span></a>`).join("");
   $("statsSec").hidden=false;
 }
 // Most active this year: top brands and properties by deals filed, linking to their pages.

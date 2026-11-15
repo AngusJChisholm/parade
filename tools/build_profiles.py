@@ -227,7 +227,7 @@ def main():
     if ent_changed:
         (ROOT / "entities.json").write_text(json.dumps(E, ensure_ascii=False, indent=1), encoding="utf-8")
 
-    static = ["", "news", "deals", "brands", "properties", "insights", "categories", "renewals", "leagues", "compare"]
+    static = ["", "news", "partnerships", "brands", "properties", "insights", "categories", "renewals", "leagues", "compare"]
     arts = sorted(p.stem for p in (ROOT / "articles").glob("*.html"))
     sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     sm += [f"<url><loc>{SITE}/{p}</loc></url>" for p in static]
