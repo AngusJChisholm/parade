@@ -5,6 +5,75 @@
  },
  "deals": [
   {
+   "date": "2026-05-25",
+   "added": "2026-11-16",
+   "deal": "Youi × State of Origin",
+   "sport": "NRL",
+   "type": "Fan engagement partner",
+   "region": "ANZ",
+   "summary": "Youi and the NRL launch Youi Origin Verified, a fan verification game with a live NSW v QLD leaderboard for the 2026 Origin series.",
+   "url": "https://nrl.com/news/2026/05/25/youi-challenges-state-of-origin-fans-to-prove-theyre-true-blues-or-maroons/",
+   "tier": "Official partner",
+   "status": "New",
+   "market": "ANZ"
+  },
+  {
+   "listed": "2026-11-16",
+   "added": "2026-11-16",
+   "deal": "Youi × NRL",
+   "sport": "NRL",
+   "type": "Official insurance partner",
+   "region": "ANZ",
+   "summary": "Youi has been the NRL's Official Insurance Partner since 2017.",
+   "url": "https://www.youi.com.au/about-us/partnerships/nrl",
+   "tier": "Official partner",
+   "status": "Current partner",
+   "market": "ANZ",
+   "ptier": "Official insurance partner"
+  },
+  {
+   "month": "2025-08",
+   "added": "2026-11-16",
+   "deal": "Youi × Brisbane Lions",
+   "sport": "AFL",
+   "type": "AFLW front-of-guernsey partner",
+   "region": "ANZ",
+   "summary": "Youi goes on the front of the Lions AFLW guernsey for five seasons from 2025, extending its Principal Partnership to the women's side.",
+   "url": "https://www.lions.com.au/news/1853156/youi-onboard-with-lions-for-2025-nab-aflw-season",
+   "tier": "Shirt & kit placement",
+   "status": "Expansion",
+   "term": 5,
+   "market": "ANZ"
+  },
+  {
+   "month": "2017-10",
+   "added": "2026-11-16",
+   "deal": "Youi × Rugby League World Cup 2017",
+   "sport": "Rugby league",
+   "type": "Official partner",
+   "region": "ANZ",
+   "summary": "Official partner of RLWC2017, branded on referee apparel at all 40 men's and women's matches.",
+   "url": "https://rlwc2017.com/news/world-cup-welcomes-youi-official-partner",
+   "tier": "Official partner",
+   "status": "New",
+   "market": "ANZ"
+  },
+  {
+   "date": "2017-02-10",
+   "added": "2026-11-16",
+   "deal": "Youi × NRL",
+   "sport": "NRL",
+   "type": "Referee partner",
+   "region": "ANZ",
+   "summary": "Youi signs as official partner of the NRL referees, with its brand on the match officials' main branding spot.",
+   "url": "https://nrl.com/news/2017/02/10/youi-to-sponsor-referees",
+   "tier": "Shirt & kit placement",
+   "status": "New",
+   "term": 2,
+   "market": "ANZ",
+   "ptier": "Official insurance partner"
+  },
+  {
    "sport": "Tennis",
    "region": "Global",
    "market": "Europe",
@@ -24661,7 +24730,8 @@
    "url": "https://ministryofsport.com/nrl-and-youi-launch-kick-for-a-cause-fundraising-drive-for-magic-round-2026/",
    "tier": "Official partner",
    "status": "New",
-   "market": "ANZ"
+   "market": "ANZ",
+   "ptier": "Official insurance partner"
   },
   {
    "date": "2026-04-29",

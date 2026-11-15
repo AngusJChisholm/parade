@@ -19680,7 +19680,8 @@
     "Official partner",
     "NRLW partner",
     "Government partner",
-    "Media partner"
+    "Media partner",
+    "Official insurance partner"
    ],
    "ptiersChecked": "2026-11-12"
   },
@@ -31936,6 +31937,11 @@
    "domain": "adecco.com",
    "cat": "Professional services",
    "k": "b"
+  },
+  "rugby-league-world-cup-2017": {
+   "name": "Rugby League World Cup 2017",
+   "ptype": "Event",
+   "k": "p"
   }
  },
  "leagues": [
