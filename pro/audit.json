@@ -2,16 +2,26 @@
  "generated": "2026-11-15",
  "summary": {
   "dup_entities": 15,
-  "no_category": 564,
+  "no_category": 583,
   "cat_mismatch": 102,
-  "slot_clash": 23,
-  "dup_deals": 2,
+  "slot_clash": 24,
+  "dup_deals": 0,
   "no_broadcaster": 13,
   "stale": 3,
-  "no_source": 662,
-  "anz_slot_clash": 21
+  "no_source": 661,
+  "anz_slot_clash": 22
  },
  "dup_entities": [
+  {
+   "names": [
+    "Hockey Australia",
+    "Hockey New Zealand"
+   ],
+   "slugs": [
+    "hockey-australia",
+    "hockey-new-zealand"
+   ]
+  },
   {
    "names": [
     "Special Olympics",
@@ -20,6 +30,46 @@
    "slugs": [
     "special-olympics",
     "special-olympics-australia"
+   ]
+  },
+  {
+   "names": [
+    "Courier Mail",
+    "The Courier-Mail"
+   ],
+   "slugs": [
+    "courier-mail",
+    "the-courier-mail"
+   ]
+  },
+  {
+   "names": [
+    "HYROX",
+    "HYROX Australia"
+   ],
+   "slugs": [
+    "hyrox",
+    "hyrox-australia"
+   ]
+  },
+  {
+   "names": [
+    "Star Sports",
+    "The Star"
+   ],
+   "slugs": [
+    "star-sports",
+    "the-star"
+   ]
+  },
+  {
+   "names": [
+    "TAB",
+    "TAB NZ"
+   ],
+   "slugs": [
+    "tab",
+    "tab-nz"
    ]
   },
   {
@@ -36,26 +86,6 @@
   },
   {
    "names": [
-    "HYROX",
-    "HYROX Australia"
-   ],
-   "slugs": [
-    "hyrox",
-    "hyrox-australia"
-   ]
-  },
-  {
-   "names": [
-    "Courier Mail",
-    "The Courier-Mail"
-   ],
-   "slugs": [
-    "courier-mail",
-    "the-courier-mail"
-   ]
-  },
-  {
-   "names": [
     "PURE Sports Nutrition",
     "Pure Nutrition"
    ],
@@ -66,42 +96,12 @@
   },
   {
    "names": [
-    "Harness Racing Australia",
-    "Harness Racing NZ"
+    "Ant Group",
+    "Ant International"
    ],
    "slugs": [
-    "harness-racing-australia",
-    "harness-racing-nz"
-   ]
-  },
-  {
-   "names": [
-    "TAB",
-    "TAB NZ"
-   ],
-   "slugs": [
-    "tab",
-    "tab-nz"
-   ]
-  },
-  {
-   "names": [
-    "Commonwealth Games",
-    "Commonwealth Games Australia"
-   ],
-   "slugs": [
-    "commonwealth-games",
-    "commonwealth-games-australia"
-   ]
-  },
-  {
-   "names": [
-    "Victor",
-    "Victor Sports"
-   ],
-   "slugs": [
-    "victor",
-    "victor-sports"
+    "ant-group",
+    "ant-international"
    ]
   },
   {
@@ -130,12 +130,12 @@
   },
   {
    "names": [
-    "Star Sports",
-    "The Star"
+    "Harness Racing Australia",
+    "Harness Racing NZ"
    ],
    "slugs": [
-    "star-sports",
-    "the-star"
+    "harness-racing-australia",
+    "harness-racing-nz"
    ]
   },
   {
@@ -150,22 +150,22 @@
   },
   {
    "names": [
-    "Ant Group",
-    "Ant International"
+    "Commonwealth Games",
+    "Commonwealth Games Australia"
    ],
    "slugs": [
-    "ant-group",
-    "ant-international"
+    "commonwealth-games",
+    "commonwealth-games-australia"
    ]
   },
   {
    "names": [
-    "Hockey Australia",
-    "Hockey New Zealand"
+    "Victor",
+    "Victor Sports"
    ],
    "slugs": [
-    "hockey-australia",
-    "hockey-new-zealand"
+    "victor",
+    "victor-sports"
    ]
   }
  ],
@@ -2989,6 +2989,101 @@
    "brand": "Pozitive",
    "slug": "pozitive",
    "deals": 1
+  },
+  {
+   "brand": "VERSO",
+   "slug": "verso",
+   "deals": 1
+  },
+  {
+   "brand": "Aussie Athlete Fund",
+   "slug": "aussie-athlete-fund",
+   "deals": 1
+  },
+  {
+   "brand": "Super Inspect",
+   "slug": "super-inspect",
+   "deals": 1
+  },
+  {
+   "brand": "MARQUEE Framing",
+   "slug": "marquee-framing",
+   "deals": 1
+  },
+  {
+   "brand": "Golfit",
+   "slug": "golfit",
+   "deals": 1
+  },
+  {
+   "brand": "Endomed",
+   "slug": "endomed",
+   "deals": 1
+  },
+  {
+   "brand": "Pride in Sport",
+   "slug": "pride-in-sport",
+   "deals": 1
+  },
+  {
+   "brand": "FNQ Podiatry",
+   "slug": "fnq-podiatry",
+   "deals": 1
+  },
+  {
+   "brand": "CCW Cabinet Works",
+   "slug": "ccw-cabinet-works",
+   "deals": 1
+  },
+  {
+   "brand": "Australian Sports Nutrition",
+   "slug": "australian-sports-nutrition",
+   "deals": 1
+  },
+  {
+   "brand": "Campaignware",
+   "slug": "campaignware",
+   "deals": 1
+  },
+  {
+   "brand": "RWS Global",
+   "slug": "rws-global",
+   "deals": 1
+  },
+  {
+   "brand": "SOPA",
+   "slug": "sopa",
+   "deals": 1
+  },
+  {
+   "brand": "Hard Yakka",
+   "slug": "hard-yakka",
+   "deals": 1
+  },
+  {
+   "brand": "ORIX",
+   "slug": "orix",
+   "deals": 1
+  },
+  {
+   "brand": "Right2Drive",
+   "slug": "right2drive",
+   "deals": 1
+  },
+  {
+   "brand": "This is Flow",
+   "slug": "this-is-flow",
+   "deals": 1
+  },
+  {
+   "brand": "Struddys",
+   "slug": "struddys",
+   "deals": 1
+  },
+  {
+   "brand": "Air Niugini",
+   "slug": "air-niugini",
+   "deals": 1
   }
  ],
  "cat_mismatch": [
@@ -4037,6 +4132,23 @@
    ]
   },
   {
+   "property": "Sydney Kings",
+   "anz": true,
+   "slot": "Car makers",
+   "partners": [
+    {
+     "brand": "JAECOO",
+     "since": "Nov 2026",
+     "ends": 2027
+    },
+    {
+     "brand": "Mitsubishi",
+     "since": "listed",
+     "ends": null
+    }
+   ]
+  },
+  {
    "property": "Sydney Swans",
    "anz": true,
    "slot": "Energy retail",
@@ -4105,20 +4217,11 @@
    ]
   }
  ],
- "dup_deals": [
-  {
-   "deal": "Youi × NRL",
-   "issue": "listed entry next to a dated one (drop the listed one)"
-  },
-  {
-   "deal": "Bendigo Bank × Rugby Victoria",
-   "issue": "listed entry next to a dated one (drop the listed one)"
-  }
- ],
+ "dup_deals": [],
  "no_broadcaster": [
   {
    "property": "Rugby Victoria",
-   "deals": 23
+   "deals": 22
   },
   {
    "property": "Golf Australia",
@@ -5278,10 +5381,6 @@
   },
   {
    "deal": "Silver Fern Sport × NSW Waratahs",
-   "issue": "needsSource"
-  },
-  {
-   "deal": "Santos × Queensland Reds",
    "issue": "needsSource"
   },
   {

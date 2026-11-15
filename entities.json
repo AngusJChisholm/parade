@@ -620,6 +620,12 @@
    "k": "b",
    "cat": "Construction & property"
   },
+  "adecco": {
+   "name": "Adecco",
+   "domain": "adecco.com",
+   "cat": "Professional services",
+   "k": "b"
+  },
   "adelaide-36ers": {
    "name": "Adelaide 36ers",
    "domain": "adelaide36ers.com",
@@ -1121,6 +1127,10 @@
     "logo"
    ]
   },
+  "air-niugini": {
+   "name": "Air Niugini",
+   "k": "b"
+  },
   "air-touch": {
    "name": "Air-touch",
    "k": "b"
@@ -1348,6 +1358,16 @@
    "name": "Alivio",
    "k": "b"
   },
+  "all-accor": {
+   "name": "ALL Accor",
+   "domain": "all.accor.com",
+   "cat": "Hospitality & entertainment",
+   "k": "b",
+   "aliases": [
+    "ALL",
+    "Accor Live Limitless"
+   ]
+  },
   "all-lifting": {
    "name": "All Lifting",
    "k": "b"
@@ -1524,6 +1544,12 @@
     "icon"
    ],
    "cat": "Alcohol",
+   "k": "b"
+  },
+  "altrad": {
+   "name": "Altrad",
+   "domain": "altrad.com",
+   "cat": "Industrial & manufacturing",
    "k": "b"
   },
   "always-made-special": {
@@ -2564,6 +2590,15 @@
    "ptype": "Club & team",
    "k": "p"
   },
+  "atlantis-headwear": {
+   "name": "Atlantis",
+   "domain": "atlantisheadwear.com",
+   "cat": "Apparel & footwear",
+   "k": "b",
+   "aliases": [
+    "Atlantis Headwear"
+   ]
+  },
   "atlas-building": {
    "name": "Atlas Building",
    "domain": "atlasbuilding.au",
@@ -2769,6 +2804,10 @@
     "logo"
    ]
   },
+  "aussie-athlete-fund": {
+   "name": "Aussie Athlete Fund",
+   "k": "b"
+  },
   "aussie-broadband": {
    "name": "Aussie Broadband",
    "cat": "Telco",
@@ -2929,6 +2968,10 @@
   },
   "australian-outdoor-living": {
    "name": "Australian Outdoor Living",
+   "k": "b"
+  },
+  "australian-sports-nutrition": {
+   "name": "Australian Sports Nutrition",
    "k": "b"
   },
   "australian-turf-club": {
@@ -3157,6 +3200,12 @@
     "icon",
     "logo"
    ]
+  },
+  "babolat": {
+   "name": "Babolat",
+   "domain": "babolat.com",
+   "cat": "Sporting goods & equipment",
+   "k": "b"
   },
   "bac": {
    "name": "BAC",
@@ -5268,6 +5317,12 @@
    "cat": "Food & nutrition",
    "k": "b"
   },
+  "cadillac": {
+   "name": "Cadillac",
+   "domain": "cadillac.com",
+   "cat": "Automotive",
+   "k": "b"
+  },
   "cadillac-f1": {
    "name": "Cadillac F1",
    "domain": "cadillacf1team.com",
@@ -5319,6 +5374,11 @@
     "Official supplier"
    ],
    "ptiersChecked": "2026-11-15"
+  },
+  "cairns-total-physio": {
+   "name": "Cairns Total Physio",
+   "k": "b",
+   "cat": "Health & beauty"
   },
   "caitlin-clark": {
    "name": "Caitlin Clark",
@@ -5382,6 +5442,10 @@
   "campa": {
    "name": "Campa",
    "cat": "Non-alcoholic drinks",
+   "k": "b"
+  },
+  "campaignware": {
+   "name": "Campaignware",
    "k": "b"
   },
   "campbell-s": {
@@ -5924,6 +5988,10 @@
    "k": "b",
    "cat": "Automotive"
   },
+  "ccw-cabinet-works": {
+   "name": "CCW Cabinet Works",
+   "k": "b"
+  },
   "cdc": {
    "name": "CDC",
    "k": "b"
@@ -6134,6 +6202,12 @@
     "icon",
     "logo"
    ]
+  },
+  "chase": {
+   "name": "Chase",
+   "domain": "chase.com",
+   "cat": "Banking & finance",
+   "k": "b"
   },
   "chatgpt": {
    "name": "ChatGPT",
@@ -6642,6 +6716,12 @@
    "bf": [
     "logo"
    ]
+  },
+  "clos-du-bois": {
+   "name": "Clos du Bois",
+   "domain": "closdubois.com",
+   "cat": "Alcohol",
+   "k": "b"
   },
   "cloud9-roofing-guttering": {
    "name": "Cloud9 Roofing & Guttering",
@@ -8481,6 +8561,12 @@
    "name": "DMK Forest Products",
    "k": "b"
   },
+  "dobel-tequila": {
+   "name": "Dobel Tequila",
+   "domain": "dobeltequila.com",
+   "cat": "Alcohol",
+   "k": "b"
+  },
   "dodo": {
    "name": "Dodo",
    "domain": "dodo.com",
@@ -8573,6 +8659,12 @@
   },
   "double-dare-group": {
    "name": "Double Dare Group",
+   "k": "b"
+  },
+  "dove": {
+   "name": "Dove",
+   "domain": "dove.com",
+   "cat": "Health & beauty",
    "k": "b"
   },
   "dp-world": {
@@ -9020,6 +9112,11 @@
    "ptype": "Athlete & talent",
    "k": "p"
   },
+  "edmonton-family-medical-centre": {
+   "name": "Edmonton Family Medical Centre",
+   "k": "b",
+   "cat": "Health & beauty"
+  },
   "edmonton-oilers": {
    "name": "Edmonton Oilers",
    "domain": "edmontonoilers.com",
@@ -9300,6 +9397,10 @@
   },
   "endeavour-fleet": {
    "name": "Endeavour Fleet",
+   "k": "b"
+  },
+  "endomed": {
+   "name": "Endomed",
    "k": "b"
   },
   "energizer": {
@@ -9737,6 +9838,12 @@
     "logo"
    ],
    "cat": "Automotive",
+   "k": "b"
+  },
+  "evian": {
+   "name": "Evian",
+   "domain": "evian.com",
+   "cat": "Non-alcoholic drinks",
    "k": "b"
   },
   "exact-technologies": {
@@ -10471,6 +10578,10 @@
     "logo"
    ],
    "cat": "Insurance",
+   "k": "b"
+  },
+  "fnq-podiatry": {
+   "name": "FNQ Podiatry",
    "k": "b"
   },
   "focus-construct": {
@@ -11529,6 +11640,10 @@
   "golf-australia-pga-of-australia": {
    "name": "Golf Australia / PGA of Australia"
   },
+  "golfit": {
+   "name": "Golfit",
+   "k": "b"
+  },
   "golootlo": {
    "name": "Golootlo",
    "cat": "Fintech, crypto & trading",
@@ -12134,6 +12249,10 @@
     "icon"
    ]
   },
+  "hard-yakka": {
+   "name": "Hard Yakka",
+   "k": "b"
+  },
   "hardee-s": {
    "name": "Hardee's",
    "domain": "hardees.com",
@@ -12180,6 +12299,12 @@
     "logo"
    ],
    "cat": "Sporting goods & equipment",
+   "k": "b"
+  },
+  "harvey": {
+   "name": "Harvey",
+   "domain": "harvey.ai",
+   "cat": "Technology",
    "k": "b"
   },
   "harvey-norman": {
@@ -12319,6 +12444,11 @@
     "logo"
    ]
   },
+  "health-management": {
+   "name": "Health Management",
+   "k": "b",
+   "cat": "Health & beauty"
+  },
   "health-partners": {
    "name": "Health Partners",
    "cat": "Health & beauty",
@@ -12333,6 +12463,12 @@
    "name": "Health & Safety Advisory Service",
    "k": "b",
    "cat": "Health & beauty"
+  },
+  "healthspan-elite": {
+   "name": "Healthspan Elite",
+   "domain": "healthspanelite.co.uk",
+   "cat": "Food & nutrition",
+   "k": "b"
   },
   "healthway": {
    "name": "Healthway",
@@ -12462,6 +12598,15 @@
    "bf": [
     "icon",
     "logo"
+   ]
+  },
+  "hesperide": {
+   "name": "Hespéride",
+   "domain": "hesperide.com",
+   "cat": "Home & hardware",
+   "k": "b",
+   "aliases": [
+    "Hesperide"
    ]
   },
   "hi-tec-batteries": {
@@ -13837,6 +13982,12 @@
     "logo"
    ]
   },
+  "isdin": {
+   "name": "ISDIN",
+   "domain": "isdin.com",
+   "cat": "Health & beauty",
+   "k": "b"
+  },
   "isla-vodka": {
    "name": "ISLA Vodka",
    "cat": "Alcohol",
@@ -13909,6 +14060,12 @@
     "icon",
     "logo"
    ]
+  },
+  "j-p-morgan": {
+   "name": "J.P. Morgan",
+   "domain": "jpmorgan.com",
+   "cat": "Banking & finance",
+   "k": "b"
   },
   "j-rgen-klopp": {
    "name": "Jürgen Klopp",
@@ -14597,6 +14754,12 @@
     "icon",
     "logo"
    ]
+  },
+  "keith-prowse": {
+   "name": "Keith Prowse",
+   "domain": "keithprowse.co.uk",
+   "cat": "Hospitality & entertainment",
+   "k": "b"
   },
   "kelme": {
    "name": "Kelme",
@@ -15288,6 +15451,12 @@
     "logo"
    ]
   },
+  "la-roche-posay": {
+   "name": "La Roche-Posay",
+   "domain": "laroche-posay.com",
+   "cat": "Health & beauty",
+   "k": "b"
+  },
   "la-trobe-financial": {
    "name": "La Trobe Financial",
    "domain": "latrobefinancial.com.au",
@@ -15395,6 +15564,15 @@
     "logo"
    ]
   },
+  "lanson": {
+   "name": "Lanson",
+   "domain": "lanson.com",
+   "cat": "Alcohol",
+   "k": "b",
+   "aliases": [
+    "Champagne Lanson"
+   ]
+  },
   "las-vegas": {
    "name": "Las Vegas",
    "cat": "Tourism & government",
@@ -15458,6 +15636,12 @@
   },
   "lauxes-grates": {
    "name": "Lauxes Grates",
+   "k": "b"
+  },
+  "lavazza": {
+   "name": "Lavazza",
+   "domain": "lavazza.com",
+   "cat": "Non-alcoholic drinks",
    "k": "b"
   },
   "laver-cup": {
@@ -16580,6 +16764,12 @@
     "logo"
    ]
   },
+  "magnum": {
+   "name": "Magnum",
+   "domain": "magnumicecream.com",
+   "cat": "Food & nutrition",
+   "k": "b"
+  },
   "mahindra": {
    "name": "Mahindra",
    "cat": "Automotive",
@@ -16722,6 +16912,10 @@
   },
   "marhill": {
    "name": "Marhill",
+   "k": "b"
+  },
+  "marquee-framing": {
+   "name": "MARQUEE Framing",
    "k": "b"
   },
   "marriott-bonvoy": {
@@ -16900,6 +17094,11 @@
    "name": "Maxigesic",
    "k": "b"
   },
+  "maxwell-media": {
+   "name": "Maxwell Media",
+   "k": "b",
+   "cat": "Media & broadcast"
+  },
   "may-point-development": {
    "name": "May Point Development",
    "cat": "Construction & property",
@@ -17014,6 +17213,11 @@
    "psrc": "https://www.mcdonalds.com/au/en-au/about-us/our-impact/community-connection/local-initiatives.html",
    "profiled": "2026-11-10"
   },
+  "mcgrath-foundation": {
+   "name": "McGrath Foundation",
+   "k": "b",
+   "cat": "Construction & property"
+  },
   "mchenry-hohnen": {
    "name": "McHenry Hohnen",
    "cat": "Alcohol",
@@ -17069,6 +17273,15 @@
    "name": "MECCA",
    "k": "b",
    "cat": "Health & beauty"
+  },
+  "mecca-cosmetica": {
+   "name": "MECCA Cosmetica",
+   "domain": "mecca.com",
+   "cat": "Health & beauty",
+   "k": "b",
+   "aliases": [
+    "MECCA Cosmetica Sun"
+   ]
   },
   "mecca-max": {
    "name": "MECCA MAX",
@@ -17765,6 +17978,12 @@
     "logo"
    ]
   },
+  "mitsui-fudosan": {
+   "name": "Mitsui Fudosan",
+   "domain": "mitsuifudosan.co.jp",
+   "cat": "Construction & property",
+   "k": "b"
+  },
   "mitti": {
    "name": "Mitti",
    "k": "b"
@@ -18204,6 +18423,12 @@
   },
   "mount-peter-estate": {
    "name": "Mount Peter Estate",
+   "k": "b"
+  },
+  "mount-sinai": {
+   "name": "Mount Sinai",
+   "domain": "mountsinai.org",
+   "cat": "Health & beauty",
    "k": "b"
   },
   "mountain-culture": {
@@ -19407,6 +19632,12 @@
     "logo"
    ]
   },
+  "nissui": {
+   "name": "Nissui",
+   "domain": "nissui.co.jp",
+   "cat": "Food & nutrition",
+   "k": "b"
+  },
   "niterra": {
    "name": "Niterra",
    "cat": "Automotive",
@@ -19912,6 +20143,12 @@
    ],
    "ptiersChecked": "2026-11-05"
   },
+  "nzcis": {
+   "name": "NZCIS",
+   "domain": "nzcis.co.nz",
+   "cat": "Professional services",
+   "k": "b"
+  },
   "nzcm": {
    "name": "NZCM",
    "k": "b"
@@ -20359,6 +20596,12 @@
    "cat": "Technology",
    "k": "b"
   },
+  "orange": {
+   "name": "Orange",
+   "domain": "orange.com",
+   "cat": "Telco",
+   "k": "b"
+  },
   "orbit-logistics": {
    "name": "Orbit Logistics",
    "cat": "Logistics & transport",
@@ -20410,6 +20653,10 @@
   },
   "original-threads": {
    "name": "Original Threads",
+   "k": "b"
+  },
+  "orix": {
+   "name": "ORIX",
    "k": "b"
   },
   "orlando-city-sc": {
@@ -21109,6 +21356,12 @@
     "logo"
    ]
   },
+  "perrier": {
+   "name": "Perrier",
+   "domain": "perrier.com",
+   "cat": "Non-alcoholic drinks",
+   "k": "b"
+  },
   "persil": {
    "name": "Persil",
    "k": "b"
@@ -21411,6 +21664,12 @@
   "pilot": {
    "name": "Pilot",
    "cat": "Other",
+   "k": "b"
+  },
+  "pimm-s": {
+   "name": "Pimm's",
+   "domain": "pimms.com",
+   "cat": "Alcohol",
    "k": "b"
   },
   "pinterest": {
@@ -21780,6 +22039,12 @@
     "icon"
    ]
   },
+  "potel-and-chabot": {
+   "name": "Potel & Chabot",
+   "domain": "potel-et-chabot.com",
+   "cat": "Hospitality & entertainment",
+   "k": "b"
+  },
   "potter-automotive": {
    "name": "Potter Automotive",
    "k": "b",
@@ -21952,6 +22217,10 @@
    ],
    "k": "b"
   },
+  "pride-in-sport": {
+   "name": "Pride in Sport",
+   "k": "b"
+  },
   "prima-art": {
    "name": "Prima Art",
    "k": "b"
@@ -21984,6 +22253,11 @@
    "bf": [
     "icon"
    ]
+  },
+  "pringles": {
+   "name": "Pringles",
+   "k": "b",
+   "cat": "Food & nutrition"
   },
   "printhie-wines": {
    "name": "Printhie Wines",
@@ -22304,7 +22578,8 @@
    "aliases": [
     "Qudos Bank Arena",
     "Sydney SuperDome"
-   ]
+   ],
+   "cat": "Fintech, crypto & trading"
   },
   "queanbeyan-leagues-club": {
    "name": "Queanbeyan Leagues Club",
@@ -23159,6 +23434,10 @@
    "cat": "Other",
    "k": "b"
   },
+  "right2drive": {
+   "name": "Right2Drive",
+   "k": "b"
+  },
   "rimmel-london": {
    "name": "Rimmel London",
    "cat": "Health & beauty",
@@ -23611,6 +23890,11 @@
     "icon"
    ]
   },
+  "rugby-league-world-cup-2017": {
+   "name": "Rugby League World Cup 2017",
+   "ptype": "Event",
+   "k": "p"
+  },
   "rugby-league-world-cup-2026": {
    "name": "Rugby League World Cup 2026",
    "domain": "rlwc2026.com",
@@ -23687,6 +23971,10 @@
     "icon",
     "logo"
    ]
+  },
+  "rws-global": {
+   "name": "RWS Global",
+   "k": "b"
   },
   "ryco": {
    "name": "RYCO",
@@ -23909,6 +24197,11 @@
    "bf": [
     "icon"
    ]
+  },
+  "salvation-army": {
+   "name": "Salvation Army",
+   "k": "b",
+   "cat": "Tourism & government"
   },
   "samoa-beverages": {
    "name": "Samoa Beverages",
@@ -25069,6 +25362,12 @@
     "logo"
    ]
   },
+  "slazenger": {
+   "name": "Slazenger",
+   "domain": "slazenger.com",
+   "cat": "Sporting goods & equipment",
+   "k": "b"
+  },
   "sleigh": {
    "name": "Sleigh",
    "cat": "Other",
@@ -25307,6 +25606,10 @@
     "logo"
    ],
    "cat": "Technology",
+   "k": "b"
+  },
+  "sopa": {
+   "name": "SOPA",
    "k": "b"
   },
   "sophie-de-goede": {
@@ -26054,6 +26357,12 @@
     "logo"
    ]
   },
+  "steinlager": {
+   "name": "Steinlager",
+   "domain": "steinlager.com",
+   "cat": "Alcohol",
+   "k": "b"
+  },
   "stella-artois": {
    "name": "Stella Artois",
    "cat": "Alcohol",
@@ -26197,6 +26506,10 @@
     "logo"
    ],
    "cat": "Fintech, crypto & trading",
+   "k": "b"
+  },
+  "struddys": {
+   "name": "Struddys",
    "k": "b"
   },
   "stsm-strata-management": {
@@ -26416,6 +26729,10 @@
   },
   "supaglass": {
    "name": "Supaglass",
+   "k": "b"
+  },
+  "super-inspect": {
+   "name": "Super Inspect",
    "k": "b"
   },
   "super-league": {
@@ -26972,6 +27289,15 @@
    "name": "Tailored Protection & Security",
    "k": "b",
    "cat": "Technology"
+  },
+  "taisho-pharmaceutical": {
+   "name": "Taisho Pharmaceutical",
+   "domain": "taisho.co.jp",
+   "cat": "Health & beauty",
+   "k": "b",
+   "aliases": [
+    "Taisho"
+   ]
   },
   "tait-communications": {
    "name": "Tait Communications",
@@ -27603,6 +27929,11 @@
    "name": "The Juniors",
    "k": "b"
   },
+  "the-kraken-black-spiced-rum": {
+   "name": "The Kraken Black Spiced Rum",
+   "k": "b",
+   "cat": "Fintech, crypto & trading"
+  },
   "the-lane-vineyard": {
    "name": "The Lane Vineyard",
    "cat": "Alcohol",
@@ -27817,6 +28148,10 @@
    "domain": "13cc.com.au",
    "k": "b"
   },
+  "this-is-flow": {
+   "name": "This is Flow",
+   "k": "b"
+  },
   "thomas-foods-international": {
    "name": "Thomas Foods International",
    "cat": "Food & nutrition",
@@ -27903,6 +28238,12 @@
    ],
    "ptype": "Club & team",
    "k": "p"
+  },
+  "tiffany-and-co": {
+   "name": "Tiffany & Co.",
+   "domain": "tiffany.com",
+   "cat": "Watches & luxury",
+   "k": "b"
   },
   "tiger-beer": {
    "name": "Tiger Beer",
@@ -28594,6 +28935,15 @@
    "name": "Tubi",
    "k": "b",
    "cat": "Media & broadcast"
+  },
+  "tudor": {
+   "name": "Tudor",
+   "domain": "tudorwatch.com",
+   "cat": "Watches & luxury",
+   "k": "b",
+   "aliases": [
+    "TUDOR"
+   ]
   },
   "turkish-airlines": {
    "name": "Turkish Airlines",
@@ -29464,6 +29814,10 @@
     "logo"
    ]
   },
+  "verso": {
+   "name": "VERSO",
+   "k": "b"
+  },
   "verso-projects": {
    "name": "Verso Projects",
    "cat": "Construction & property",
@@ -29901,6 +30255,12 @@
     "icon",
     "logo"
    ]
+  },
+  "vital-proteins": {
+   "name": "Vital Proteins",
+   "domain": "vitalproteins.com",
+   "cat": "Food & nutrition",
+   "k": "b"
   },
   "vitality": {
    "name": "Vitality",
@@ -30721,6 +31081,12 @@
   "willie-smith-s": {
    "name": "Willie Smith's",
    "cat": "Non-alcoholic drinks",
+   "k": "b"
+  },
+  "wilson": {
+   "name": "Wilson",
+   "domain": "wilson.com",
+   "cat": "Sporting goods & equipment",
    "k": "b"
   },
   "wilson-security": {
@@ -31730,363 +32096,6 @@
     "icon",
     "logo"
    ]
-  },
-  "altrad": {
-   "name": "Altrad",
-   "domain": "altrad.com",
-   "cat": "Industrial & manufacturing",
-   "k": "b"
-  },
-  "taisho-pharmaceutical": {
-   "name": "Taisho Pharmaceutical",
-   "domain": "taisho.co.jp",
-   "cat": "Health & beauty",
-   "k": "b",
-   "aliases": [
-    "Taisho"
-   ]
-  },
-  "tudor": {
-   "name": "Tudor",
-   "domain": "tudorwatch.com",
-   "cat": "Watches & luxury",
-   "k": "b",
-   "aliases": [
-    "TUDOR"
-   ]
-  },
-  "mitsui-fudosan": {
-   "name": "Mitsui Fudosan",
-   "domain": "mitsuifudosan.co.jp",
-   "cat": "Construction & property",
-   "k": "b"
-  },
-  "steinlager": {
-   "name": "Steinlager",
-   "domain": "steinlager.com",
-   "cat": "Alcohol",
-   "k": "b"
-  },
-  "atlantis-headwear": {
-   "name": "Atlantis",
-   "domain": "atlantisheadwear.com",
-   "cat": "Apparel & footwear",
-   "k": "b",
-   "aliases": [
-    "Atlantis Headwear"
-   ]
-  },
-  "healthspan-elite": {
-   "name": "Healthspan Elite",
-   "domain": "healthspanelite.co.uk",
-   "cat": "Food & nutrition",
-   "k": "b"
-  },
-  "nissui": {
-   "name": "Nissui",
-   "domain": "nissui.co.jp",
-   "cat": "Food & nutrition",
-   "k": "b"
-  },
-  "nzcis": {
-   "name": "NZCIS",
-   "domain": "nzcis.co.nz",
-   "cat": "Professional services",
-   "k": "b"
-  },
-  "slazenger": {
-   "name": "Slazenger",
-   "domain": "slazenger.com",
-   "cat": "Sporting goods & equipment",
-   "k": "b"
-  },
-  "lanson": {
-   "name": "Lanson",
-   "domain": "lanson.com",
-   "cat": "Alcohol",
-   "k": "b",
-   "aliases": [
-    "Champagne Lanson"
-   ]
-  },
-  "evian": {
-   "name": "Evian",
-   "domain": "evian.com",
-   "cat": "Non-alcoholic drinks",
-   "k": "b"
-  },
-  "lavazza": {
-   "name": "Lavazza",
-   "domain": "lavazza.com",
-   "cat": "Non-alcoholic drinks",
-   "k": "b"
-  },
-  "keith-prowse": {
-   "name": "Keith Prowse",
-   "domain": "keithprowse.co.uk",
-   "cat": "Hospitality & entertainment",
-   "k": "b"
-  },
-  "babolat": {
-   "name": "Babolat",
-   "domain": "babolat.com",
-   "cat": "Sporting goods & equipment",
-   "k": "b"
-  },
-  "pimm-s": {
-   "name": "Pimm's",
-   "domain": "pimms.com",
-   "cat": "Alcohol",
-   "k": "b"
-  },
-  "la-roche-posay": {
-   "name": "La Roche-Posay",
-   "domain": "laroche-posay.com",
-   "cat": "Health & beauty",
-   "k": "b"
-  },
-  "mecca-cosmetica": {
-   "name": "MECCA Cosmetica",
-   "domain": "mecca.com",
-   "cat": "Health & beauty",
-   "k": "b",
-   "aliases": [
-    "MECCA Cosmetica Sun"
-   ]
-  },
-  "chase": {
-   "name": "Chase",
-   "domain": "chase.com",
-   "cat": "Banking & finance",
-   "k": "b"
-  },
-  "j-p-morgan": {
-   "name": "J.P. Morgan",
-   "domain": "jpmorgan.com",
-   "cat": "Banking & finance",
-   "k": "b"
-  },
-  "cadillac": {
-   "name": "Cadillac",
-   "domain": "cadillac.com",
-   "cat": "Automotive",
-   "k": "b"
-  },
-  "dobel-tequila": {
-   "name": "Dobel Tequila",
-   "domain": "dobeltequila.com",
-   "cat": "Alcohol",
-   "k": "b"
-  },
-  "harvey": {
-   "name": "Harvey",
-   "domain": "harvey.ai",
-   "cat": "Technology",
-   "k": "b"
-  },
-  "clos-du-bois": {
-   "name": "Clos du Bois",
-   "domain": "closdubois.com",
-   "cat": "Alcohol",
-   "k": "b"
-  },
-  "dove": {
-   "name": "Dove",
-   "domain": "dove.com",
-   "cat": "Health & beauty",
-   "k": "b"
-  },
-  "mount-sinai": {
-   "name": "Mount Sinai",
-   "domain": "mountsinai.org",
-   "cat": "Health & beauty",
-   "k": "b"
-  },
-  "tiffany-and-co": {
-   "name": "Tiffany & Co.",
-   "domain": "tiffany.com",
-   "cat": "Watches & luxury",
-   "k": "b"
-  },
-  "vital-proteins": {
-   "name": "Vital Proteins",
-   "domain": "vitalproteins.com",
-   "cat": "Food & nutrition",
-   "k": "b"
-  },
-  "wilson": {
-   "name": "Wilson",
-   "domain": "wilson.com",
-   "cat": "Sporting goods & equipment",
-   "k": "b"
-  },
-  "all-accor": {
-   "name": "ALL Accor",
-   "domain": "all.accor.com",
-   "cat": "Hospitality & entertainment",
-   "k": "b",
-   "aliases": [
-    "ALL",
-    "Accor Live Limitless"
-   ]
-  },
-  "perrier": {
-   "name": "Perrier",
-   "domain": "perrier.com",
-   "cat": "Non-alcoholic drinks",
-   "k": "b"
-  },
-  "hesperide": {
-   "name": "Hespéride",
-   "domain": "hesperide.com",
-   "cat": "Home & hardware",
-   "k": "b",
-   "aliases": [
-    "Hesperide"
-   ]
-  },
-  "isdin": {
-   "name": "ISDIN",
-   "domain": "isdin.com",
-   "cat": "Health & beauty",
-   "k": "b"
-  },
-  "magnum": {
-   "name": "Magnum",
-   "domain": "magnumicecream.com",
-   "cat": "Food & nutrition",
-   "k": "b"
-  },
-  "orange": {
-   "name": "Orange",
-   "domain": "orange.com",
-   "cat": "Telco",
-   "k": "b"
-  },
-  "potel-and-chabot": {
-   "name": "Potel & Chabot",
-   "domain": "potel-et-chabot.com",
-   "cat": "Hospitality & entertainment",
-   "k": "b"
-  },
-  "adecco": {
-   "name": "Adecco",
-   "domain": "adecco.com",
-   "cat": "Professional services",
-   "k": "b"
-  },
-  "rugby-league-world-cup-2017": {
-   "name": "Rugby League World Cup 2017",
-   "ptype": "Event",
-   "k": "p"
-  },
-  "verso": {
-   "name": "VERSO",
-   "k": "b"
-  },
-  "aussie-athlete-fund": {
-   "name": "Aussie Athlete Fund",
-   "k": "b"
-  },
-  "super-inspect": {
-   "name": "Super Inspect",
-   "k": "b"
-  },
-  "marquee-framing": {
-   "name": "MARQUEE Framing",
-   "k": "b"
-  },
-  "golfit": {
-   "name": "Golfit",
-   "k": "b"
-  },
-  "endomed": {
-   "name": "Endomed",
-   "k": "b"
-  },
-  "pride-in-sport": {
-   "name": "Pride in Sport",
-   "k": "b"
-  },
-  "fnq-podiatry": {
-   "name": "FNQ Podiatry",
-   "k": "b"
-  },
-  "cairns-total-physio": {
-   "name": "Cairns Total Physio",
-   "k": "b"
-  },
-  "ccw-cabinet-works": {
-   "name": "CCW Cabinet Works",
-   "k": "b"
-  },
-  "health-management": {
-   "name": "Health Management",
-   "k": "b"
-  },
-  "maxwell-media": {
-   "name": "Maxwell Media",
-   "k": "b"
-  },
-  "australian-sports-nutrition": {
-   "name": "Australian Sports Nutrition",
-   "k": "b"
-  },
-  "campaignware": {
-   "name": "Campaignware",
-   "k": "b"
-  },
-  "edmonton-family-medical-centre": {
-   "name": "Edmonton Family Medical Centre",
-   "k": "b"
-  },
-  "rws-global": {
-   "name": "RWS Global",
-   "k": "b"
-  },
-  "sopa": {
-   "name": "SOPA",
-   "k": "b"
-  },
-  "hard-yakka": {
-   "name": "Hard Yakka",
-   "k": "b"
-  },
-  "orix": {
-   "name": "ORIX",
-   "k": "b"
-  },
-  "right2drive": {
-   "name": "Right2Drive",
-   "k": "b"
-  },
-  "this-is-flow": {
-   "name": "This is Flow",
-   "k": "b"
-  },
-  "mcgrath-foundation": {
-   "name": "McGrath Foundation",
-   "k": "b"
-  },
-  "salvation-army": {
-   "name": "Salvation Army",
-   "k": "b"
-  },
-  "pringles": {
-   "name": "Pringles",
-   "k": "b"
-  },
-  "the-kraken-black-spiced-rum": {
-   "name": "The Kraken Black Spiced Rum",
-   "k": "b"
-  },
-  "struddys": {
-   "name": "Struddys",
-   "k": "b"
-  },
-  "air-niugini": {
-   "name": "Air Niugini",
-   "k": "b"
   }
  },
  "leagues": [
