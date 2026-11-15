@@ -15,7 +15,8 @@
    "url": "https://nrl.com/news/2026/05/25/youi-challenges-state-of-origin-fans-to-prove-theyre-true-blues-or-maroons/",
    "tier": "Official partner",
    "status": "New",
-   "market": "ANZ"
+   "market": "ANZ",
+   "ends": 2026
   },
   {
    "listed": "2026-11-16",
@@ -43,7 +44,9 @@
    "tier": "Shirt & kit placement",
    "status": "Expansion",
    "term": 5,
-   "market": "ANZ"
+   "market": "ANZ",
+   "ends": 2030,
+   "endsEst": true
   },
   {
    "month": "2017-10",
@@ -71,7 +74,9 @@
    "status": "New",
    "term": 2,
    "market": "ANZ",
-   "ptier": "Official insurance partner"
+   "ptier": "Official insurance partner",
+   "ends": 2019,
+   "endsEst": true
   },
   {
    "sport": "Tennis",

@@ -5,41 +5,63 @@
   "no_category": 564,
   "cat_mismatch": 102,
   "slot_clash": 23,
-  "dup_deals": 1,
+  "dup_deals": 2,
   "no_broadcaster": 13,
-  "stale": 2,
+  "stale": 3,
   "no_source": 662,
   "anz_slot_clash": 21
  },
  "dup_entities": [
   {
    "names": [
-    "Ant Group",
-    "Ant International"
+    "Special Olympics",
+    "Special Olympics Australia"
    ],
    "slugs": [
-    "ant-group",
-    "ant-international"
+    "special-olympics",
+    "special-olympics-australia"
    ]
   },
   {
    "names": [
-    "Kia",
-    "Kia Australia"
+    "Athletics",
+    "Athletics Australia",
+    "Athletics New Zealand"
    ],
    "slugs": [
-    "kia",
-    "kia-australia"
+    "athletics",
+    "athletics-australia",
+    "athletics-new-zealand"
    ]
   },
   {
    "names": [
-    "Victor",
-    "Victor Sports"
+    "HYROX",
+    "HYROX Australia"
    ],
    "slugs": [
-    "victor",
-    "victor-sports"
+    "hyrox",
+    "hyrox-australia"
+   ]
+  },
+  {
+   "names": [
+    "Courier Mail",
+    "The Courier-Mail"
+   ],
+   "slugs": [
+    "courier-mail",
+    "the-courier-mail"
+   ]
+  },
+  {
+   "names": [
+    "PURE Sports Nutrition",
+    "Pure Nutrition"
+   ],
+   "slugs": [
+    "pure-nutrition",
+    "pure-sports-nutrition"
    ]
   },
   {
@@ -54,22 +76,42 @@
   },
   {
    "names": [
-    "Dolphins",
-    "Dolphins Group"
+    "TAB",
+    "TAB NZ"
    ],
    "slugs": [
-    "dolphins",
-    "dolphins-group"
+    "tab",
+    "tab-nz"
    ]
   },
   {
    "names": [
-    "HYROX",
-    "HYROX Australia"
+    "Commonwealth Games",
+    "Commonwealth Games Australia"
    ],
    "slugs": [
-    "hyrox",
-    "hyrox-australia"
+    "commonwealth-games",
+    "commonwealth-games-australia"
+   ]
+  },
+  {
+   "names": [
+    "Victor",
+    "Victor Sports"
+   ],
+   "slugs": [
+    "victor",
+    "victor-sports"
+   ]
+  },
+  {
+   "names": [
+    "Kia",
+    "Kia Australia"
+   ],
+   "slugs": [
+    "kia",
+    "kia-australia"
    ]
   },
   {
@@ -88,68 +130,6 @@
   },
   {
    "names": [
-    "Hockey Australia",
-    "Hockey New Zealand"
-   ],
-   "slugs": [
-    "hockey-australia",
-    "hockey-new-zealand"
-   ]
-  },
-  {
-   "names": [
-    "Commonwealth Games",
-    "Commonwealth Games Australia"
-   ],
-   "slugs": [
-    "commonwealth-games",
-    "commonwealth-games-australia"
-   ]
-  },
-  {
-   "names": [
-    "Athletics",
-    "Athletics Australia",
-    "Athletics New Zealand"
-   ],
-   "slugs": [
-    "athletics",
-    "athletics-australia",
-    "athletics-new-zealand"
-   ]
-  },
-  {
-   "names": [
-    "TAB",
-    "TAB NZ"
-   ],
-   "slugs": [
-    "tab",
-    "tab-nz"
-   ]
-  },
-  {
-   "names": [
-    "Special Olympics",
-    "Special Olympics Australia"
-   ],
-   "slugs": [
-    "special-olympics",
-    "special-olympics-australia"
-   ]
-  },
-  {
-   "names": [
-    "PURE Sports Nutrition",
-    "Pure Nutrition"
-   ],
-   "slugs": [
-    "pure-nutrition",
-    "pure-sports-nutrition"
-   ]
-  },
-  {
-   "names": [
     "Star Sports",
     "The Star"
    ],
@@ -160,12 +140,32 @@
   },
   {
    "names": [
-    "Courier Mail",
-    "The Courier-Mail"
+    "Dolphins",
+    "Dolphins Group"
    ],
    "slugs": [
-    "courier-mail",
-    "the-courier-mail"
+    "dolphins",
+    "dolphins-group"
+   ]
+  },
+  {
+   "names": [
+    "Ant Group",
+    "Ant International"
+   ],
+   "slugs": [
+    "ant-group",
+    "ant-international"
+   ]
+  },
+  {
+   "names": [
+    "Hockey Australia",
+    "Hockey New Zealand"
+   ],
+   "slugs": [
+    "hockey-australia",
+    "hockey-new-zealand"
    ]
   }
  ],
@@ -4107,6 +4107,10 @@
  ],
  "dup_deals": [
   {
+   "deal": "Youi × NRL",
+   "issue": "listed entry next to a dated one (drop the listed one)"
+  },
+  {
    "deal": "Bendigo Bank × Rugby Victoria",
    "issue": "listed entry next to a dated one (drop the listed one)"
   }
@@ -4166,6 +4170,10 @@
   }
  ],
  "stale": [
+  {
+   "deal": "Youi × Rugby League World Cup 2017",
+   "date": "2017-10"
+  },
   {
    "deal": "Westpac × NRL",
    "date": "2022-10-28"
