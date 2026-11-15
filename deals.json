@@ -19,20 +19,6 @@
    "ends": 2026
   },
   {
-   "listed": "2026-11-16",
-   "added": "2026-11-16",
-   "deal": "Youi × NRL",
-   "sport": "NRL",
-   "type": "Official insurance partner",
-   "region": "ANZ",
-   "summary": "Youi has been the NRL's Official Insurance Partner since 2017.",
-   "url": "https://www.youi.com.au/about-us/partnerships/nrl",
-   "tier": "Official partner",
-   "status": "Current partner",
-   "market": "ANZ",
-   "ptier": "Official insurance partner"
-  },
-  {
    "month": "2025-08",
    "added": "2026-11-16",
    "deal": "Youi × Brisbane Lions",
@@ -1113,21 +1099,6 @@
    "status": "New",
    "tier": "Official partner",
    "ptier": "Category partner",
-   "market": "ANZ"
-  },
-  {
-   "listed": "2026-11-14",
-   "added": "2026-11-14",
-   "deal": "Bendigo Bank × Rugby Victoria",
-   "sport": "Rugby union",
-   "type": "Naming rights",
-   "region": "ANZ",
-   "summary": "Bendigo Bank is naming rights partner of Rugby Victoria's Conference Cup.",
-   "url": "https://vic.rugby/partners",
-   "status": "Current partner",
-   "tier": "Naming rights",
-   "ptitle": "Naming Rights Partner of the Conference Cup",
-   "ptier": "Partners",
    "market": "ANZ"
   },
   {
@@ -12291,7 +12262,8 @@
    "status": "New",
    "ends": 2028,
    "needsSource": true,
-   "market": "ANZ"
+   "market": "ANZ",
+   "sourceTried": "2026-11-15"
   },
   {
    "date": "2026-09-22",
@@ -12304,22 +12276,23 @@
    "status": "New",
    "ends": 2028,
    "needsSource": true,
-   "market": "ANZ"
+   "market": "ANZ",
+   "sourceTried": "2026-11-15"
   },
   {
-   "date": "2026-09-22",
+   "date": "2026-09-21",
    "deal": "Santos × Queensland Reds",
    "sport": "Rugby union",
    "type": "Renewal",
    "region": "ANZ",
-   "summary": "Santos extends as a Queensland Rugby major partner for two years.",
+   "summary": "Santos extends its Queensland Rugby Union partnership by two years, keeping its logo on the Reds' jerseys.",
    "tier": "Principal & major",
    "status": "Renewal",
    "term": 2,
    "ends": 2028,
    "endsEst": true,
-   "needsSource": true,
-   "market": "ANZ"
+   "market": "ANZ",
+   "url": "https://www.rugby.com.au/news/santos-and-queensland-rugby-union-extend-positive-partnership-2026921"
   },
   {
    "date": "2026-09-22",
@@ -12331,7 +12304,8 @@
    "tier": "Principal & major",
    "status": "New",
    "needsSource": true,
-   "market": "ANZ"
+   "market": "ANZ",
+   "sourceTried": "2026-11-15"
   },
   {
    "date": "2026-09-22",
@@ -12562,7 +12536,8 @@
    "tier": "Official partner",
    "status": "New",
    "needsSource": true,
-   "market": "ANZ"
+   "market": "ANZ",
+   "sourceTried": "2026-11-15"
   },
   {
    "date": "2026-09-29",
@@ -12574,7 +12549,8 @@
    "tier": "Official partner",
    "status": "New",
    "needsSource": true,
-   "market": "ANZ"
+   "market": "ANZ",
+   "sourceTried": "2026-11-15"
   },
   {
    "date": "2025-08-21",
@@ -62522,6 +62498,326 @@
    "sport": "Rugby union",
    "region": "ANZ",
    "market": "ANZ"
+  },
+  {
+   "listed": "2026-11-15",
+   "deal": "VERSO × Brisbane Bullets",
+   "sport": "Basketball",
+   "type": "Major partner",
+   "region": "ANZ",
+   "summary": "Listed as a major partner on Brisbane Bullets's official partners page.",
+   "url": "https://www.brisbanebullets.com.au/partners",
+   "ptier": "Major partner"
+  },
+  {
+   "listed": "2026-11-15",
+   "deal": "Aussie Athlete Fund × Brisbane Bullets",
+   "sport": "Basketball",
+   "type": "Community partner",
+   "region": "ANZ",
+   "summary": "Listed as a community partner on Brisbane Bullets's official partners page.",
+   "url": "https://www.brisbanebullets.com.au/partners",
+   "ptier": "Community partner"
+  },
+  {
+   "listed": "2026-11-15",
+   "deal": "Super Inspect × Brisbane Bullets",
+   "sport": "Basketball",
+   "type": "Community partner",
+   "region": "ANZ",
+   "summary": "Listed as a community partner on Brisbane Bullets's official partners page.",
+   "url": "https://www.brisbanebullets.com.au/partners",
+   "ptier": "Community partner"
+  },
+  {
+   "listed": "2026-11-15",
+   "deal": "MARQUEE Framing × Brisbane Bullets",
+   "sport": "Basketball",
+   "type": "Community partner",
+   "region": "ANZ",
+   "summary": "Listed as a community partner on Brisbane Bullets's official partners page.",
+   "url": "https://www.brisbanebullets.com.au/partners",
+   "ptier": "Community partner"
+  },
+  {
+   "listed": "2026-11-15",
+   "deal": "Golfit × Brisbane Bullets",
+   "sport": "Basketball",
+   "type": "Community partner",
+   "region": "ANZ",
+   "summary": "Listed as a community partner on Brisbane Bullets's official partners page.",
+   "url": "https://www.brisbanebullets.com.au/partners",
+   "ptier": "Community partner"
+  },
+  {
+   "listed": "2026-11-15",
+   "deal": "Endomed × Brisbane Bullets",
+   "sport": "Basketball",
+   "type": "Community partner",
+   "region": "ANZ",
+   "summary": "Listed as a community partner on Brisbane Bullets's official partners page.",
+   "url": "https://www.brisbanebullets.com.au/partners",
+   "ptier": "Community partner"
+  },
+  {
+   "listed": "2026-11-15",
+   "deal": "Pride in Sport × Cairns Taipans",
+   "sport": "Basketball",
+   "type": "Community partner",
+   "region": "ANZ",
+   "summary": "Listed as a community partner on Cairns Taipans's official partners page.",
+   "url": "https://www.taipans.com/partners",
+   "ptier": "Community partner"
+  },
+  {
+   "listed": "2026-11-15",
+   "deal": "FNQ Podiatry × Cairns Taipans",
+   "sport": "Basketball",
+   "type": "Official supplier",
+   "region": "ANZ",
+   "summary": "Listed as a official supplier on Cairns Taipans's official partners page.",
+   "url": "https://www.taipans.com/partners",
+   "ptier": "Official supplier"
+  },
+  {
+   "listed": "2026-11-15",
+   "deal": "Cairns Total Physio × Cairns Taipans",
+   "sport": "Basketball",
+   "type": "Official supplier",
+   "region": "ANZ",
+   "summary": "Listed as a official supplier on Cairns Taipans's official partners page.",
+   "url": "https://www.taipans.com/partners",
+   "ptier": "Official supplier"
+  },
+  {
+   "listed": "2026-11-15",
+   "deal": "CCW Cabinet Works × Cairns Taipans",
+   "sport": "Basketball",
+   "type": "Official supplier",
+   "region": "ANZ",
+   "summary": "Listed as a official supplier on Cairns Taipans's official partners page.",
+   "url": "https://www.taipans.com/partners",
+   "ptier": "Official supplier"
+  },
+  {
+   "listed": "2026-11-15",
+   "deal": "Health Management × Cairns Taipans",
+   "sport": "Basketball",
+   "type": "Official supplier",
+   "region": "ANZ",
+   "summary": "Listed as a official supplier on Cairns Taipans's official partners page.",
+   "url": "https://www.taipans.com/partners",
+   "ptier": "Official supplier"
+  },
+  {
+   "listed": "2026-11-15",
+   "deal": "Maxwell Media × Cairns Taipans",
+   "sport": "Basketball",
+   "type": "Official supplier",
+   "region": "ANZ",
+   "summary": "Listed as a official supplier on Cairns Taipans's official partners page.",
+   "url": "https://www.taipans.com/partners",
+   "ptier": "Official supplier"
+  },
+  {
+   "listed": "2026-11-15",
+   "deal": "Australian Sports Nutrition × Cairns Taipans",
+   "sport": "Basketball",
+   "type": "Official supplier",
+   "region": "ANZ",
+   "summary": "Listed as a official supplier on Cairns Taipans's official partners page.",
+   "url": "https://www.taipans.com/partners",
+   "ptier": "Official supplier"
+  },
+  {
+   "listed": "2026-11-15",
+   "deal": "Campaignware × Cairns Taipans",
+   "sport": "Basketball",
+   "type": "Official supplier",
+   "region": "ANZ",
+   "summary": "Listed as a official supplier on Cairns Taipans's official partners page.",
+   "url": "https://www.taipans.com/partners",
+   "ptier": "Official supplier"
+  },
+  {
+   "listed": "2026-11-15",
+   "deal": "Edmonton Family Medical Centre × Cairns Taipans",
+   "sport": "Basketball",
+   "type": "Official supplier",
+   "region": "ANZ",
+   "summary": "Listed as a official supplier on Cairns Taipans's official partners page.",
+   "url": "https://www.taipans.com/partners",
+   "ptier": "Official supplier"
+  },
+  {
+   "listed": "2026-11-15",
+   "deal": "Beyond Bank × Sydney Kings",
+   "sport": "Basketball",
+   "type": "Major partner",
+   "region": "ANZ",
+   "summary": "Listed as a major partner on Sydney Kings's official partners page.",
+   "url": "https://www.sydneykings.com/corporatepartners",
+   "ptier": "Major partner"
+  },
+  {
+   "listed": "2026-11-15",
+   "deal": "Accor × Sydney Kings",
+   "sport": "Basketball",
+   "type": "Event and function partner",
+   "region": "ANZ",
+   "summary": "Listed as a event and function partner on Sydney Kings's official partners page.",
+   "url": "https://www.sydneykings.com/corporatepartners",
+   "ptier": "Event and function partner"
+  },
+  {
+   "listed": "2026-11-15",
+   "deal": "Qudos Bank Arena × Sydney Kings",
+   "sport": "Basketball",
+   "type": "Event and function partner",
+   "region": "ANZ",
+   "summary": "Listed as a event and function partner on Sydney Kings's official partners page.",
+   "url": "https://www.sydneykings.com/corporatepartners",
+   "ptier": "Event and function partner"
+  },
+  {
+   "listed": "2026-11-15",
+   "deal": "RWS Global × Sydney Kings",
+   "sport": "Basketball",
+   "type": "Event and function partner",
+   "region": "ANZ",
+   "summary": "Listed as a event and function partner on Sydney Kings's official partners page.",
+   "url": "https://www.sydneykings.com/corporatepartners",
+   "ptier": "Event and function partner"
+  },
+  {
+   "listed": "2026-11-15",
+   "deal": "SOPA × Sydney Kings",
+   "sport": "Basketball",
+   "type": "Event and function partner",
+   "region": "ANZ",
+   "summary": "Listed as a event and function partner on Sydney Kings's official partners page.",
+   "url": "https://www.sydneykings.com/corporatepartners",
+   "ptier": "Event and function partner"
+  },
+  {
+   "listed": "2026-11-15",
+   "deal": "Hard Yakka × Sydney Kings",
+   "sport": "Basketball",
+   "type": "Retail partner",
+   "region": "ANZ",
+   "summary": "Listed as a retail partner on Sydney Kings's official partners page.",
+   "url": "https://www.sydneykings.com/corporatepartners",
+   "ptier": "Retail partner"
+  },
+  {
+   "listed": "2026-11-15",
+   "deal": "ORIX × Sydney Kings",
+   "sport": "Basketball",
+   "type": "Transport partner",
+   "region": "ANZ",
+   "summary": "Listed as a transport partner on Sydney Kings's official partners page.",
+   "url": "https://www.sydneykings.com/corporatepartners",
+   "ptier": "Transport partner"
+  },
+  {
+   "listed": "2026-11-15",
+   "deal": "Right2Drive × Sydney Kings",
+   "sport": "Basketball",
+   "type": "Team partner",
+   "region": "ANZ",
+   "summary": "Listed as a team partner on Sydney Kings's official partners page.",
+   "url": "https://www.sydneykings.com/corporatepartners",
+   "ptier": "Team partner"
+  },
+  {
+   "listed": "2026-11-15",
+   "deal": "Mitsubishi × Sydney Kings",
+   "sport": "Basketball",
+   "type": "Vehicle partner",
+   "region": "ANZ",
+   "summary": "Listed as a vehicle partner on Sydney Kings's official partners page.",
+   "url": "https://www.sydneykings.com/corporatepartners",
+   "ptier": "Vehicle partner"
+  },
+  {
+   "listed": "2026-11-15",
+   "deal": "This is Flow × Sydney Kings",
+   "sport": "Basketball",
+   "type": "Media agency partner",
+   "region": "ANZ",
+   "summary": "Listed as a media agency partner on Sydney Kings's official partners page.",
+   "url": "https://www.sydneykings.com/corporatepartners",
+   "ptier": "Media agency partner"
+  },
+  {
+   "listed": "2026-11-15",
+   "deal": "McGrath Foundation × Sydney Kings",
+   "sport": "Basketball",
+   "type": "Charity partner",
+   "region": "ANZ",
+   "summary": "Listed as a charity partner on Sydney Kings's official partners page.",
+   "url": "https://www.sydneykings.com/corporatepartners",
+   "ptier": "Charity partner"
+  },
+  {
+   "listed": "2026-11-15",
+   "deal": "Salvation Army × Sydney Kings",
+   "sport": "Basketball",
+   "type": "Charity partner",
+   "region": "ANZ",
+   "summary": "Listed as a charity partner on Sydney Kings's official partners page.",
+   "url": "https://www.sydneykings.com/corporatepartners",
+   "ptier": "Charity partner"
+  },
+  {
+   "listed": "2026-11-15",
+   "deal": "Pringles × Sydney Kings",
+   "sport": "Basketball",
+   "type": "Salty snack partner",
+   "region": "ANZ",
+   "summary": "Listed as a salty snack partner on Sydney Kings's official partners page.",
+   "url": "https://www.sydneykings.com/corporatepartners",
+   "ptier": "Salty snack partner"
+  },
+  {
+   "listed": "2026-11-15",
+   "deal": "The Kraken Black Spiced Rum × Sydney Kings",
+   "sport": "Basketball",
+   "type": "Spirits partner",
+   "region": "ANZ",
+   "summary": "Listed as a spirits partner on Sydney Kings's official partners page.",
+   "url": "https://www.sydneykings.com/corporatepartners",
+   "ptier": "Spirits partner"
+  },
+  {
+   "date": "2026-09-24",
+   "deal": "Focus Construct × Brisbane Roar",
+   "sport": "Football",
+   "type": "Major partner",
+   "region": "ANZ",
+   "summary": "Focus Construct steps up from Platinum Partner to front-of-jersey Major Partner for 2026/27.",
+   "url": "https://brisbaneroar.com.au/news/focus-construct-steps-up-commitment-to-brisbane-roar-as-new-major-partner/",
+   "status": "Expansion"
+  },
+  {
+   "date": "2026-10-21",
+   "deal": "Struddys × PNG Chiefs",
+   "sport": "NRL",
+   "type": "Foundation partner",
+   "region": "ANZ",
+   "summary": "Struddys is named among the PNG Chiefs' foundation corporate partners on the inaugural supporter jersey.",
+   "url": "https://www.nrl.com/news/2026/10/21/png-chiefs-launch-inaugural-logo-and-supporter-jersey--ahead-of-nrl-entry-in-2028/",
+   "status": "New"
+  },
+  {
+   "date": "2026-10-26",
+   "deal": "Air Niugini × PNG Chiefs",
+   "sport": "NRL",
+   "type": "Major partner",
+   "region": "ANZ",
+   "summary": "Air Niugini is a major partner of the PNG Chiefs, with front-of-shorts branding.",
+   "url": "https://www.sportcal.com/news/png-chiefs-forms-10-brand-partnership-portfolio-ahead-of-2028-debut/",
+   "status": "New"
   }
  ]
 }

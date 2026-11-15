@@ -4735,9 +4735,11 @@
    "ptiers": [
     "Major partner",
     "Official partner",
+    "Official supplier",
     "Media partner",
-    "Official supplier"
-   ]
+    "Community partner"
+   ],
+   "ptiersChecked": "2026-11-15"
   },
   "brisbane-heat": {
    "name": "Brisbane Heat",
@@ -5313,8 +5315,10 @@
    "ptiers": [
     "Naming rights",
     "Major partner",
+    "Community partner",
     "Official supplier"
-   ]
+   ],
+   "ptiersChecked": "2026-11-15"
   },
   "caitlin-clark": {
    "name": "Caitlin Clark",
@@ -6173,7 +6177,18 @@
     "icon"
    ],
    "cat": "Retail",
-   "k": "b"
+   "k": "b",
+   "align": [
+    "health",
+    "community"
+   ],
+   "aud": [
+    "fans",
+    "community"
+   ],
+   "pnote": "Backs AFL as a long-term health and wellbeing partner, with a multi-year umpire pathway commitment, so it fits properties with grassroots and community reach.",
+   "psrc": "https://www.mediaweek.com.au/chemist-warehouse-renews-afl-deal-with-all-in-for-footy-push/",
+   "profiled": "2026-11-15"
   },
   "chempro": {
    "name": "Chempro",
@@ -26701,8 +26716,20 @@
    "ptype": "Club & team",
    "k": "p",
    "ptiers": [
-    "Official partner"
-   ]
+    "Principal partner",
+    "Major partner",
+    "Official partner",
+    "Event and function partner",
+    "Retail partner",
+    "Transport partner",
+    "Team partner",
+    "Vehicle partner",
+    "Media agency partner",
+    "Charity partner",
+    "Salty snack partner",
+    "Spirits partner"
+   ],
+   "ptiersChecked": "2026-11-15"
   },
   "sydney-marathon": {
    "name": "Sydney Marathon",
@@ -27250,7 +27277,17 @@
     "symbol",
     "icon",
     "logo"
-   ]
+   ],
+   "align": [
+    "community"
+   ],
+   "aud": [
+    "youth",
+    "community"
+   ],
+   "pnote": "Naming rights partner of the NRL and NRLW and invests in grassroots and regional rugby league through junior club packs and Footy Country.",
+   "psrc": "https://www.bandt.com.au/spotlight-on-sponsors-telstra-celebrates-inaugural-telstra-footy-country-round/",
+   "profiled": "2026-11-15"
   },
   "temporal": {
    "name": "Temporal",
@@ -31942,6 +31979,114 @@
    "name": "Rugby League World Cup 2017",
    "ptype": "Event",
    "k": "p"
+  },
+  "verso": {
+   "name": "VERSO",
+   "k": "b"
+  },
+  "aussie-athlete-fund": {
+   "name": "Aussie Athlete Fund",
+   "k": "b"
+  },
+  "super-inspect": {
+   "name": "Super Inspect",
+   "k": "b"
+  },
+  "marquee-framing": {
+   "name": "MARQUEE Framing",
+   "k": "b"
+  },
+  "golfit": {
+   "name": "Golfit",
+   "k": "b"
+  },
+  "endomed": {
+   "name": "Endomed",
+   "k": "b"
+  },
+  "pride-in-sport": {
+   "name": "Pride in Sport",
+   "k": "b"
+  },
+  "fnq-podiatry": {
+   "name": "FNQ Podiatry",
+   "k": "b"
+  },
+  "cairns-total-physio": {
+   "name": "Cairns Total Physio",
+   "k": "b"
+  },
+  "ccw-cabinet-works": {
+   "name": "CCW Cabinet Works",
+   "k": "b"
+  },
+  "health-management": {
+   "name": "Health Management",
+   "k": "b"
+  },
+  "maxwell-media": {
+   "name": "Maxwell Media",
+   "k": "b"
+  },
+  "australian-sports-nutrition": {
+   "name": "Australian Sports Nutrition",
+   "k": "b"
+  },
+  "campaignware": {
+   "name": "Campaignware",
+   "k": "b"
+  },
+  "edmonton-family-medical-centre": {
+   "name": "Edmonton Family Medical Centre",
+   "k": "b"
+  },
+  "rws-global": {
+   "name": "RWS Global",
+   "k": "b"
+  },
+  "sopa": {
+   "name": "SOPA",
+   "k": "b"
+  },
+  "hard-yakka": {
+   "name": "Hard Yakka",
+   "k": "b"
+  },
+  "orix": {
+   "name": "ORIX",
+   "k": "b"
+  },
+  "right2drive": {
+   "name": "Right2Drive",
+   "k": "b"
+  },
+  "this-is-flow": {
+   "name": "This is Flow",
+   "k": "b"
+  },
+  "mcgrath-foundation": {
+   "name": "McGrath Foundation",
+   "k": "b"
+  },
+  "salvation-army": {
+   "name": "Salvation Army",
+   "k": "b"
+  },
+  "pringles": {
+   "name": "Pringles",
+   "k": "b"
+  },
+  "the-kraken-black-spiced-rum": {
+   "name": "The Kraken Black Spiced Rum",
+   "k": "b"
+  },
+  "struddys": {
+   "name": "Struddys",
+   "k": "b"
+  },
+  "air-niugini": {
+   "name": "Air Niugini",
+   "k": "b"
   }
  },
  "leagues": [
