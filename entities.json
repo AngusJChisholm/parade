@@ -30684,7 +30684,12 @@
     "logo"
    ],
    "ptype": "Event",
-   "k": "p"
+   "k": "p",
+   "ptiers": [
+    "Official Partners",
+    "Exclusive Suppliers"
+   ],
+   "ptiersChecked": "2026-11-16"
   },
   "win": {
    "name": "WIN",
@@ -31730,6 +31735,57 @@
    "name": "NZCIS",
    "domain": "nzcis.co.nz",
    "cat": "Professional services",
+   "k": "b"
+  },
+  "slazenger": {
+   "name": "Slazenger",
+   "domain": "slazenger.com",
+   "cat": "Sporting goods & equipment",
+   "k": "b"
+  },
+  "lanson": {
+   "name": "Lanson",
+   "domain": "lanson.com",
+   "cat": "Alcohol",
+   "k": "b",
+   "aliases": [
+    "Champagne Lanson"
+   ]
+  },
+  "evian": {
+   "name": "Evian",
+   "domain": "evian.com",
+   "cat": "Non-alcoholic drinks",
+   "k": "b"
+  },
+  "lavazza": {
+   "name": "Lavazza",
+   "domain": "lavazza.com",
+   "cat": "Non-alcoholic drinks",
+   "k": "b"
+  },
+  "keith-prowse": {
+   "name": "Keith Prowse",
+   "domain": "keithprowse.co.uk",
+   "cat": "Hospitality & entertainment",
+   "k": "b"
+  },
+  "babolat": {
+   "name": "Babolat",
+   "domain": "babolat.com",
+   "cat": "Sporting goods & equipment",
+   "k": "b"
+  },
+  "pimm-s": {
+   "name": "Pimm's",
+   "domain": "pimms.com",
+   "cat": "Alcohol",
+   "k": "b"
+  },
+  "la-roche-posay": {
+   "name": "La Roche-Posay",
+   "domain": "laroche-posay.com",
+   "cat": "Health & beauty",
    "k": "b"
   }
  },
