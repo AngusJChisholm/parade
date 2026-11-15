@@ -1,6 +1,45 @@
 {
  "features": [
   {
+   "date": "2026-11-16",
+   "label": "Feature",
+   "headline": "The caps on private equity in sport.",
+   "descriptor": "Each US league's limit, side by side",
+   "topic": "Trend",
+   "sport": "Multi-sport",
+   "region": "Global",
+   "image": "https://images.unsplash.com/photo-1728188498253-b1d3e2267842",
+   "imageCredit": "Unsplash",
+   "related": [],
+   "article": {
+    "standfirst": "Arctos's Falcons stake is the latest sale, and every US league has set its own limit on how much of a team private equity can own.",
+    "body": [
+     "On 20 October, NFL owners approved private equity firm Arctos buying 7.5 per cent of the Atlanta Falcons, with a further 2.5 per cent committed subject to a separate owners' vote. Arctos joins as a limited partner, and the club says it is now a KKR business after KKR acquired it in 2026. Owner Arthur Blank, who holds about 73 per cent of the team, said the sale proceeds will go to his family's philanthropic causes. It is the latest in a run of stake sales that has put one firm in several NFL teams.",
+     "That run is easy to track. Arctos holds 8 per cent of the Chargers and 10 per cent of the Bills, and NFL owners approved a 3 per cent Browns stake at their May meeting in Orlando. The Falcons would make it four NFL teams. What caps how far that can go depends on the league, because each one wrote its own rulebook.",
+     "The NFL is the tightest. Owners voted in August 2024, at a special meeting in Minnesota, to let approved firms buy up to 10 per cent of a team. Each fund has to take at least 3 per cent, each purchase must be held for at least six years, and a fund can invest in up to six teams. Arctos, Ares Management and Sixth Street were among the firms approved.",
+     "The NBA is looser. From 3 December 2025 a financial investor can hold passive stakes in up to eight teams, up from five. A single investor can own up to 20 per cent of a team, and investors together are capped at 30 per cent. The NHL has run on much the same numbers since 2021: up to 30 per cent of a team can go to private firms in total, one firm can hold up to 20 per cent, and a firm can be in up to five teams.",
+     "MLB has just moved. Front Office Sports reported on 22 September that owners lifted the per-firm cap from 15 per cent to 20 per cent. Per that report the vote happened over the summer and was not publicly announced, and the source was unnamed. If a team's controlling owner holds less than 20 per cent, the cap drops to match that owner's stake. There is no limit on how many teams one firm can invest in.",
+     "Put side by side, the NFL's 10 per cent single-investor cap is half the 20 per cent allowed in the NBA, NHL and MLB. For brands and rights holders, the practical point is who sits in the register. A team with an institutional investor has a new audience for its commercial numbers, which makes sponsorship and media revenue part of how that stake gets judged. That is analysis, not something the leagues have said.",
+     "Why the caps matter more than any single stake: they set the ceiling on how much outside money a league can absorb, and who gets to compete for it. A 10 per cent limit with a six-year hold favours patient funds that take small slices of many teams. A 20 per cent limit with no cap on team numbers, as in MLB, leaves room for larger positions and wider portfolios. Neither says anything about price, and none of the sources above gives a valuation for these stakes, so this piece doesn't either.",
+     "The pattern across all four leagues is passive money. The rules talk about minority, non-controlling holders, and controlling owners keep running their clubs. That is the line that keeps the model acceptable to owners and fans alike, and each league adjusts the numbers without removing it. MLB's latest move was reported as matching the NBA's approach.",
+     "Two things worth watching: the vote on the extra 2.5 per cent of the Falcons, and whether the NFL ever shifts its 10 per cent line toward the other leagues."
+    ],
+    "close": "Ten per cent in the NFL, twenty in the NBA, NHL and MLB, and the lines keep moving."
+   },
+   "sources": [
+    "https://www.atlantafalcons.com/news/atlanta-falcons-add-arctos-as-limited-partner",
+    "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/owners-approve-arctos-purchasing-a-limited-stake-in-the-falcons",
+    "https://www.profootballrumors.com/2026/06/browns-3-sale-to-private-equity-firm-approved",
+    "https://abcnews.go.com/amp/Business/wireStory/nfl-owners-newly-endorse-private-equity-stakes-10-113195847",
+    "https://fortune.com/2024/08/27/nfl-private-equity-investment-vote-ares-arctos",
+    "https://www.cliffordchance.com/content/dam/cliffordchance/briefings/2026/01/2026%20-%201%20From%20Five%20to%20Eight%20-%20NBA%20Further%20Loosens%20Private%20Equity%20Ownership%20Rules.pdf",
+    "https://frontofficesports.com/article/nhl-allows-private-equity-funding-wild-and-lightning-jump-in/",
+    "https://frontofficesports.com/article/mlb-raises-private-equity-ownership-limit-to-up-to-20-percent/",
+    "https://www.cliffordchance.com/content/dam/cliffordchance/briefings/2026/09/From%20Fifteen%20Percent%20to%20Twenty%20Percent%20-%20MLB%20Expands%20Private%20Equity%20Ownership%20of%20Franchises.pdf"
+   ],
+   "slug": "2026-11-16-the-caps-on-private-equity-in-sport"
+  },
+  {
    "date": "2026-11-13",
    "label": "Breakdown",
    "headline": "Why ARN doubled down on tennis.",
