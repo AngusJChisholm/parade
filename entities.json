@@ -12744,6 +12744,9 @@
    "cat": "Not-for-profit",
    "k": "b"
   },
+  "edgar-snyder-and-associates": {
+   "name": "Edgar Snyder & Associates"
+  },
   "edge-physio": {
    "name": "Edge Physio",
    "cat": "Health & beauty",
@@ -16777,6 +16780,9 @@
    "k": "b",
    "logo": "assets/logos/gtech.png",
    "domain": "gtech.co.uk"
+  },
+  "guardian": {
+   "name": "Guardian"
   },
   "guardian-venue-management-international": {
    "name": "Guardian Venue Management International",
@@ -21022,6 +21028,9 @@
    "name": "King's Hawaiian",
    "k": "b"
   },
+  "king-swings": {
+   "name": "King Swings"
+  },
   "kingdom-bank": {
    "name": "Kingdom Bank",
    "cat": "Banking & finance",
@@ -22655,6 +22664,9 @@
   "loki-group": {
    "name": "Loki Group",
    "k": "b"
+  },
+  "lola-blankets": {
+   "name": "Lola Blankets"
   },
   "london-bet": {
    "name": "London.Bet",
@@ -24947,7 +24959,12 @@
     "logo"
    ],
    "ptype": "Club & team",
-   "k": "p"
+   "k": "p",
+   "ptiers": [
+    "Naming rights",
+    "Official partner",
+    "Media partner"
+   ]
   },
   "minnesota-vikings": {
    "name": "Minnesota Vikings",
@@ -25190,6 +25207,9 @@
    "name": "Modelo",
    "k": "b"
   },
+  "modern-office-methods": {
+   "name": "Modern Office Methods"
+  },
   "modoras": {
    "name": "Modoras",
    "cat": "Professional services",
@@ -25350,6 +25370,9 @@
   "moody-s": {
    "name": "Moody's",
    "k": "b"
+  },
+  "moomoo": {
+   "name": "moomoo"
   },
   "moondarra-cheese": {
    "name": "Moondarra Cheese",
@@ -26421,6 +26444,10 @@
     "logo"
    ]
   },
+  "nemours-children-s-health": {
+   "name": "Nemours Children's Health",
+   "cat": "Health & beauty"
+  },
   "neon-legal": {
    "name": "Neon Legal",
    "cat": "Professional services",
@@ -26837,6 +26864,9 @@
     "logo"
    ]
   },
+  "new-york-life": {
+   "name": "New York Life"
+  },
   "new-york-lottery": {
    "name": "New York Lottery",
    "cat": "Betting & wagering",
@@ -26850,7 +26880,11 @@
     "logo"
    ],
    "ptype": "Club & team",
-   "k": "p"
+   "k": "p",
+   "ptiers": [
+    "Naming rights",
+    "Official partner"
+   ]
   },
   "new-york-rangers": {
    "name": "New York Rangers",
@@ -26865,7 +26899,10 @@
     "icon"
    ],
    "ptype": "Club & team",
-   "k": "p"
+   "k": "p",
+   "ptiers": [
+    "Official partner"
+   ]
   },
   "new-zealand-campus-of-innovation-and-sport": {
    "name": "New Zealand Campus of Innovation and Sport",
@@ -27073,6 +27110,9 @@
    "k": "b",
    "logo": "assets/logos/nexen-tyre.png",
    "domain": "nexentire.com"
+  },
+  "nexgen-hyperbaric": {
+   "name": "NexGen Hyperbaric"
   },
   "nexia": {
    "name": "Nexia",
@@ -29973,6 +30013,9 @@
    ],
    "ptiersChecked": "2026-11-16"
   },
+  "petco": {
+   "name": "Petco"
+  },
   "pete-s-towing": {
    "name": "Pete's Towing",
    "k": "b"
@@ -30159,7 +30202,11 @@
     "logo"
    ],
    "ptype": "Club & team",
-   "k": "p"
+   "k": "p",
+   "ptiers": [
+    "Official partner",
+    "Media partner"
+   ]
   },
   "philips": {
    "name": "Philips",
@@ -30365,7 +30412,10 @@
     "logo"
    ],
    "ptype": "Club & team",
-   "k": "p"
+   "k": "p",
+   "ptiers": [
+    "Official partner"
+   ]
   },
   "pittsburgh-steelers": {
    "name": "Pittsburgh Steelers",
@@ -30410,6 +30460,9 @@
     "icon",
     "logo"
    ]
+  },
+  "pj-fitzpatrick": {
+   "name": "PJ Fitzpatrick"
   },
   "pkf": {
    "name": "PKF",
@@ -32074,6 +32127,10 @@
    "cat": "Energy & utilities",
    "k": "b"
   },
+  "re-max-select-realty": {
+   "name": "RE/MAX Select Realty",
+   "cat": "Construction & property"
+  },
   "reading": {
    "name": "Reading",
    "ptype": "Club & team",
@@ -32098,6 +32155,9 @@
     "icon",
     "logo"
    ]
+  },
+  "real-azul": {
+   "name": "Real Azul"
   },
   "real-madrid": {
    "name": "Real Madrid",
@@ -32954,6 +33014,9 @@
    "cat": "Not-for-profit",
    "k": "b"
   },
+  "rodney-strong-vineyards": {
+   "name": "Rodney Strong Vineyards"
+  },
   "rogers": {
    "name": "Rogers",
    "domain": "rogers.com",
@@ -33772,7 +33835,11 @@
     "logo"
    ],
    "ptype": "Club & team",
-   "k": "p"
+   "k": "p",
+   "ptiers": [
+    "Naming rights",
+    "Official partner"
+   ]
   },
   "san-francisco-49ers": {
    "name": "San Francisco 49ers",
@@ -34687,6 +34754,9 @@
   "shedex": {
    "name": "Shedex",
    "k": "b"
+  },
+  "sheetz": {
+   "name": "Sheetz"
   },
   "sheffield-united": {
    "name": "Sheffield United",
@@ -36296,6 +36366,9 @@
    "name": "Sportsmed Southland Physiotherapy",
    "cat": "Health & beauty",
    "k": "b"
+  },
+  "sportsnet-pittsburgh": {
+   "name": "SportsNet Pittsburgh"
   },
   "sportwest": {
    "name": "SportWest",
@@ -37926,6 +37999,9 @@
    "name": "Tactics",
    "k": "b"
   },
+  "taelor": {
+   "name": "Taelor"
+  },
   "tafe-nsw": {
    "name": "TAFE NSW",
    "cat": "Education",
@@ -38984,6 +39060,10 @@
    ],
    "ptype": "Governing body",
    "k": "p"
+  },
+  "the-farmer-s-dog": {
+   "name": "The Farmer's Dog",
+   "cat": "Agriculture"
   },
   "the-floatation-sanctuary": {
    "name": "The Floatation Sanctuary",
@@ -41358,6 +41438,9 @@
    "name": "UPMC",
    "k": "b"
   },
+  "uponor": {
+   "name": "Uponor"
+  },
   "uppingham-cairo": {
    "name": "Uppingham Cairo",
    "k": "b"
@@ -41638,6 +41721,10 @@
    "k": "b",
    "cat": "Apparel & footwear"
   },
+  "valr-energy": {
+   "name": "VALR Energy",
+   "cat": "Energy & utilities"
+  },
   "valspar": {
    "name": "Valspar",
    "cat": "Home & hardware",
@@ -41702,6 +41789,9 @@
   "vanguard": {
    "name": "Vanguard",
    "k": "b"
+  },
+  "vapur": {
+   "name": "Vapur"
   },
   "variety-sa": {
    "name": "Variety SA",
@@ -43604,6 +43694,10 @@
     "logo"
    ]
   },
+  "wigle-whiskey": {
+   "name": "Wigle Whiskey",
+   "cat": "Alcohol"
+  },
   "wil-valor": {
    "name": "Wil Valor",
    "k": "b"
@@ -43769,6 +43863,9 @@
    "k": "b",
    "domain": "winna.com",
    "logo": "assets/logos/winna-com.png"
+  },
+  "winnebago": {
+   "name": "Winnebago"
   },
   "winstar-world-casino-and-resort": {
    "name": "WinStar World Casino & Resort",
