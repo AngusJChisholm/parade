@@ -15483,7 +15483,16 @@
     "icon"
    ],
    "ptype": "Event",
-   "k": "p"
+   "k": "p",
+   "ptiers": [
+    "Worldwide Partners",
+    "Founding Partners",
+    "Official Partners",
+    "Official Supporters",
+    "Official Ticketing Provider",
+    "Official Hospitality Provider"
+   ],
+   "ptiersChecked": "2026-11-16"
   },
   "labour-connect": {
    "name": "Labour Connect",
@@ -32096,6 +32105,131 @@
     "icon",
     "logo"
    ]
+  },
+  "mengniu": {
+   "name": "Mengniu",
+   "domain": "mengniu.com.cn",
+   "cat": "Food & nutrition",
+   "k": "b"
+  },
+  "comcast": {
+   "name": "Comcast",
+   "domain": "comcast.com",
+   "cat": "Telco",
+   "k": "b"
+  },
+  "lilly": {
+   "name": "Lilly",
+   "aliases": [
+    "Eli Lilly"
+   ],
+   "domain": "lilly.com",
+   "cat": "Health & beauty",
+   "k": "b"
+  },
+  "phillips-66": {
+   "name": "Phillips 66",
+   "domain": "phillips66.com",
+   "cat": "Energy & utilities",
+   "k": "b"
+  },
+  "archer": {
+   "name": "Archer",
+   "aliases": [
+    "Archer Aviation"
+   ],
+   "domain": "archer.com",
+   "cat": "Airlines & travel",
+   "k": "b"
+  },
+  "autodesk": {
+   "name": "Autodesk",
+   "domain": "autodesk.com",
+   "cat": "Technology",
+   "k": "b"
+  },
+  "cedars-sinai": {
+   "name": "Cedars-Sinai",
+   "domain": "cedars-sinai.org",
+   "cat": "Health & beauty",
+   "k": "b"
+  },
+  "guild": {
+   "name": "Guild",
+   "domain": "guild.com",
+   "cat": "Education",
+   "k": "b"
+  },
+  "hershey": {
+   "name": "Hershey",
+   "aliases": [
+    "Hershey's",
+    "The Hershey Company"
+   ],
+   "domain": "thehersheycompany.com",
+   "cat": "Food & nutrition",
+   "k": "b"
+  },
+  "highland-electric-fleets": {
+   "name": "Highland Electric Fleets",
+   "domain": "highlandfleets.com",
+   "cat": "Automotive",
+   "k": "b"
+  },
+  "ottobock": {
+   "name": "Ottobock",
+   "domain": "ottobock.com",
+   "cat": "Health & beauty",
+   "k": "b"
+  },
+  "rapiscan": {
+   "name": "Rapiscan",
+   "aliases": [
+    "Rapiscan Systems"
+   ],
+   "domain": "rapiscansystems.com",
+   "cat": "Technology",
+   "k": "b"
+  },
+  "saatva": {
+   "name": "Saatva",
+   "domain": "saatva.com",
+   "cat": "Retail",
+   "k": "b"
+  },
+  "eventim": {
+   "name": "Eventim",
+   "aliases": [
+    "CTS Eventim"
+   ],
+   "domain": "eventim.de",
+   "cat": "Hospitality & entertainment",
+   "k": "b"
+  },
+  "brisbane-2032": {
+   "name": "Brisbane 2032",
+   "aliases": [
+    "Brisbane 2032 Olympic and Paralympic Games",
+    "Brisbane 2032 Olympics"
+   ],
+   "domain": "brisbane2032.com",
+   "ptype": "Event",
+   "k": "p",
+   "market": "ANZ",
+   "ptiers": [
+    "Worldwide Olympic and Paralympic Partners",
+    "Premium Partner"
+   ],
+   "ptiersChecked": "2026-11-16"
+  },
+  "corona-cero": {
+   "name": "Corona Cero",
+   "aliases": [
+    "Corona Cero 0.0"
+   ],
+   "domain": "corona.com",
+   "cat": "Alcohol",
+   "k": "b"
   }
  },
  "leagues": [

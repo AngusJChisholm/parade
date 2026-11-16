@@ -1,10 +1,10 @@
 {
- "generated": "2026-11-15",
+ "generated": "2026-11-16",
  "summary": {
   "dup_entities": 15,
   "no_category": 583,
-  "cat_mismatch": 102,
-  "slot_clash": 24,
+  "cat_mismatch": 103,
+  "slot_clash": 25,
   "dup_deals": 0,
   "no_broadcaster": 13,
   "stale": 3,
@@ -24,46 +24,6 @@
   },
   {
    "names": [
-    "Special Olympics",
-    "Special Olympics Australia"
-   ],
-   "slugs": [
-    "special-olympics",
-    "special-olympics-australia"
-   ]
-  },
-  {
-   "names": [
-    "Courier Mail",
-    "The Courier-Mail"
-   ],
-   "slugs": [
-    "courier-mail",
-    "the-courier-mail"
-   ]
-  },
-  {
-   "names": [
-    "HYROX",
-    "HYROX Australia"
-   ],
-   "slugs": [
-    "hyrox",
-    "hyrox-australia"
-   ]
-  },
-  {
-   "names": [
-    "Star Sports",
-    "The Star"
-   ],
-   "slugs": [
-    "star-sports",
-    "the-star"
-   ]
-  },
-  {
-   "names": [
     "TAB",
     "TAB NZ"
    ],
@@ -74,44 +34,22 @@
   },
   {
    "names": [
-    "Athletics",
-    "Athletics Australia",
-    "Athletics New Zealand"
+    "Dolphins",
+    "Dolphins Group"
    ],
    "slugs": [
-    "athletics",
-    "athletics-australia",
-    "athletics-new-zealand"
+    "dolphins",
+    "dolphins-group"
    ]
   },
   {
    "names": [
-    "PURE Sports Nutrition",
-    "Pure Nutrition"
+    "Special Olympics",
+    "Special Olympics Australia"
    ],
    "slugs": [
-    "pure-nutrition",
-    "pure-sports-nutrition"
-   ]
-  },
-  {
-   "names": [
-    "Ant Group",
-    "Ant International"
-   ],
-   "slugs": [
-    "ant-group",
-    "ant-international"
-   ]
-  },
-  {
-   "names": [
-    "Kia",
-    "Kia Australia"
-   ],
-   "slugs": [
-    "kia",
-    "kia-australia"
+    "special-olympics",
+    "special-olympics-australia"
    ]
   },
   {
@@ -130,22 +68,34 @@
   },
   {
    "names": [
+    "Athletics",
+    "Athletics Australia",
+    "Athletics New Zealand"
+   ],
+   "slugs": [
+    "athletics",
+    "athletics-australia",
+    "athletics-new-zealand"
+   ]
+  },
+  {
+   "names": [
+    "Victor",
+    "Victor Sports"
+   ],
+   "slugs": [
+    "victor",
+    "victor-sports"
+   ]
+  },
+  {
+   "names": [
     "Harness Racing Australia",
     "Harness Racing NZ"
    ],
    "slugs": [
     "harness-racing-australia",
     "harness-racing-nz"
-   ]
-  },
-  {
-   "names": [
-    "Dolphins",
-    "Dolphins Group"
-   ],
-   "slugs": [
-    "dolphins",
-    "dolphins-group"
    ]
   },
   {
@@ -160,12 +110,62 @@
   },
   {
    "names": [
-    "Victor",
-    "Victor Sports"
+    "Star Sports",
+    "The Star"
    ],
    "slugs": [
-    "victor",
-    "victor-sports"
+    "star-sports",
+    "the-star"
+   ]
+  },
+  {
+   "names": [
+    "Courier Mail",
+    "The Courier-Mail"
+   ],
+   "slugs": [
+    "courier-mail",
+    "the-courier-mail"
+   ]
+  },
+  {
+   "names": [
+    "Ant Group",
+    "Ant International"
+   ],
+   "slugs": [
+    "ant-group",
+    "ant-international"
+   ]
+  },
+  {
+   "names": [
+    "PURE Sports Nutrition",
+    "Pure Nutrition"
+   ],
+   "slugs": [
+    "pure-nutrition",
+    "pure-sports-nutrition"
+   ]
+  },
+  {
+   "names": [
+    "Kia",
+    "Kia Australia"
+   ],
+   "slugs": [
+    "kia",
+    "kia-australia"
+   ]
+  },
+  {
+   "names": [
+    "HYROX",
+    "HYROX Australia"
+   ],
+   "slugs": [
+    "hyrox",
+    "hyrox-australia"
    ]
   }
  ],
@@ -3137,6 +3137,13 @@
    "deals": 3
   },
   {
+   "brand": "On Location",
+   "slug": "on-location",
+   "cat": "Hospitality & entertainment",
+   "rules_say": "Apparel & footwear",
+   "deals": 2
+  },
+  {
    "brand": "Victorian Responsible Gambling Foundation",
    "slug": "victorian-responsible-gambling-foundation",
    "cat": "Tourism & government",
@@ -3275,6 +3282,13 @@
    "cat": "Hospitality & entertainment",
    "rules_say": "Apparel & footwear",
    "deals": 2
+  },
+  {
+   "brand": "Highland Electric Fleets",
+   "slug": "highland-electric-fleets",
+   "cat": "Automotive",
+   "rules_say": "Energy & utilities",
+   "deals": 1
   },
   {
    "brand": "ALL Accor",
@@ -3700,13 +3714,6 @@
    "brand": "STARZ ON",
    "slug": "starz-on",
    "cat": "Media & broadcast",
-   "rules_say": "Apparel & footwear",
-   "deals": 1
-  },
-  {
-   "brand": "On Location",
-   "slug": "on-location",
-   "cat": "Hospitality & entertainment",
    "rules_say": "Apparel & footwear",
    "deals": 1
   },
@@ -4212,6 +4219,23 @@
     {
      "brand": "NEVG",
      "since": "Nov 2024",
+     "ends": null
+    }
+   ]
+  },
+  {
+   "property": "LA28",
+   "anz": false,
+   "slot": "Telco",
+   "partners": [
+    {
+     "brand": "Comcast",
+     "since": "listed",
+     "ends": null
+    },
+    {
+     "brand": "T-Mobile",
+     "since": "Sep 2025",
      "ends": null
     }
    ]
