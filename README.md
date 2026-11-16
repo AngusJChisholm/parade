@@ -48,6 +48,18 @@ Every Monday, Wednesday and Friday a scheduled task writes one piece into `featu
 
 `python3 tools/build_articles.py` builds its page in `articles/` (labelled with its `label`). Features show in Key stories and the "Features" row on the homepage, but never in the deal archive. `related` lists deals already in `deals.json`; they appear under the article. Every feature has a photo, and slide 1 of its Instagram carousel (and the story) always uses the same photo as the article, pulled from `features.json`. The same task queues an Instagram carousel (`"kind": "feature"`, posts 7pm Mon/Wed, 6pm Fri) and a LinkedIn spec in `instagram/linkedin/<date>.json`.
 
+## Research & data (research.json)
+
+The database is more than a list of partnerships. `research.json` holds everything else we learn: valuations, audience splits, rights values, category benchmarks, market research. One entry per piece of research:
+
+```json
+{"id":"publisher-topic-year","added":"2026-11-16","month":"2026-11","kind":"Valuation research","publisher":"Gemba","method":"Turnstile","title":"Short headline.","summary":"One or two lines.","sport":"Tennis","market":"ANZ","entities":["australian-open","anz"],"categories":["Banking & finance"],"tags":["valuation"],"data":[{"title":"Table title","unit":"$","rows":[{"label":"Banking","value":2800000}],"note":"Optional"}],"findings":["The source's conclusions, in our words."],"source":{"name":"Who published it","url":"https://...","check":"How far it's verified"}}
+```
+
+- `entities` are slugs from `entities.json`. The entry shows in a "Research & data" section on each of their brand and property pages.
+- `unit` is `$`, `%`, `index` or plain text. Figures go in exactly as the source reports them; never work one out or fill a gap.
+- `categories` use the brand categories from `entities.json` (`cat`) so SSS Pro reports and category pages can pull benchmarks by category.
+
 ## Logos, brand pages and club pages
 
 Every deal shows the brand and club logos side by side in the archive. Click a logo for that brand or club's page (`profile.html?id=<slug>`): every deal they've done, who they've signed with, and a link back to the archive filtered to them. The strip above the archive (AFL, NRL, A-Leagues, NBL, BBL, Super Netball, Global clubs, Top brands) filters the archive by club or brand.

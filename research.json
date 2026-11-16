@@ -1,0 +1,74 @@
+{
+ "_help": "The SSS research library: valuations, audience data, market research and anything else that tells us more than who signed with who. One entry per piece of research. entities = slugs from entities.json (the entry shows on each of their brand/property pages). categories = brand categories from entities.json cat (used by SSS Pro and category pages). data = tables of figures exactly as the source reports them, never worked out by us. findings = the source's own conclusions in our words. source.url = the original release where we have it; source.check says how far it's been verified. Never invent a figure; leave it out if the source doesn't give it.",
+ "research": [
+  {
+   "id": "gemba-ao-associate-tier-value-2026",
+   "added": "2026-11-16",
+   "month": "2026-11",
+   "kind": "Valuation research",
+   "publisher": "Gemba",
+   "method": "Turnstile sponsorship valuation platform",
+   "title": "Same tier, different value: Gemba values the AO's second tier by category",
+   "summary": "Gemba used the Australian Open's associate tier (Rolex, Luzhou Laojiao and ANZ) to show that brands in the same tier can get very different value from the same rights, depending on their category, target markets and sales objectives.",
+   "sport": "Tennis",
+   "market": "ANZ",
+   "entities": ["australian-open", "tennis-australia", "rolex", "anz", "luzhou-laojiao"],
+   "categories": ["Banking & finance", "Alcohol", "Watches & luxury"],
+   "tags": ["valuation", "pricing", "audience", "rights value", "tiers"],
+   "data": [
+    {
+     "title": "Average value of second-tier benefits, by category",
+     "unit": "$",
+     "rows": [
+      {"label": "Banking", "value": 2800000},
+      {"label": "Alcohol", "value": 1700000},
+      {"label": "Luxury goods", "value": 1600000}
+     ],
+     "note": "Banking 75% above luxury goods, as reported. Currency not stated."
+    },
+    {
+     "title": "IP value index by category (average = 1.00)",
+     "unit": "index",
+     "rows": [
+      {"label": "Alcohol", "value": 1.40},
+      {"label": "Banking", "value": 1.28},
+      {"label": "Luxury goods", "value": 0.51}
+     ]
+    },
+    {
+     "title": "Where the AO audience is",
+     "unit": "%",
+     "rows": [
+      {"label": "Domestic (Australia)", "value": 13},
+      {"label": "Rest of Asia-Pacific", "value": 47},
+      {"label": "Rest of world", "value": 40}
+     ]
+    },
+    {
+     "title": "Most valuable rights, by category",
+     "unit": "$",
+     "rows": [
+      {"label": "Banking: player appearances", "value": 900000},
+      {"label": "Banking: digital, email and social", "value": 700000},
+      {"label": "Banking: tickets and hospitality", "value": 500000},
+      {"label": "Alcohol: digital, email and social", "value": 1100000},
+      {"label": "Luxury goods: tickets and hospitality", "value": 700000}
+     ]
+    }
+   ],
+   "findings": [
+    "Value in the same tier moves with three things: how crowded the brand's category is, the sales opportunity behind the partnership, and how relevant the property is to the sponsor.",
+    "Where the audience sits matters. Global brands like Rolex get value from the AO's international reach, while domestic and regional sponsors value the audience inside the markets they sell in.",
+    "Each category values different rights: banks rate player appearances highest, alcohol brands rate digital and social, luxury brands rate tickets and hospitality.",
+    "Gemba's advice to rights holders: price partnerships on each sponsor's objectives, not one flat rate per tier.",
+    "Gemba sees room for more revenue through market-specific virtual advertising, premium hospitality and digital rights."
+   ],
+   "source": {
+    "name": "Gemba research, as reported in trade press",
+    "url": null,
+    "via": "Shared by Angus, 16 Nov 2026",
+    "check": "Figures as reported. Gemba's original release not yet found; add its URL when it turns up."
+   }
+  }
+ ]
+}

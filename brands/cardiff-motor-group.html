@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;800&display=swap">
-<link rel="stylesheet" href="assets/profile.css?v=8">
+<link rel="stylesheet" href="assets/profile.css?v=9">
 <link rel="stylesheet" href="assets/follow.css?v=2">
 </head>
 <body data-id="cardiff-motor-group">
@@ -55,6 +55,10 @@
 <div class="sh"><div><span class="lbl mute-l">The record</span><h2 class="disp">Every partnership.</h2></div><span class="lbl mute-l" id="dCount">1 partnership</span></div>
 <div class="pills" id="pills" role="group" aria-label="Filter by sport" style="margin-bottom:28px"></div>
 <div class="al"><div class="ar-h"><span>Date</span><span>Partnership</span><span>Sport</span><span class="c-t">Partnership type</span><span>Ends</span></div><div id="list"><div class="ar-r"><span class="d">Current partner</span><span class="dl"><a href="https://newcastlejetsfc.com.au/our-partners/" target="_blank" rel="noopener"><b>Cardiff Motor Group × Newcastle Jets</b></a></span><span class="s">Football</span><span class="t">Principal &amp; major</span><span class="d">–</span></div></div></div>
+</section>
+<section class="sec" id="research" hidden style="padding-top:0">
+<div class="sh"><div><span class="lbl mute-l">Research &amp; data</span><h2 class="disp">Beyond the partnerships.</h2></div><span class="lbl mute-l" id="rCount"></span></div>
+<div id="rList"></div>
 </section>
 <p class="note" id="none" hidden>We haven't filed any partnerships for this one yet. <a class="more" href="partnerships">Back to the database</a></p>
 <!-- follow:start -->
@@ -157,6 +161,23 @@ Promise.all([fetch("deals.json",{cache:"no-cache"}).then(r=>r.json()),L.load()])
     $("cmGrid").innerHTML=filled.map(([c,m])=>`<div><h5><a href="categories?c=${encodeURIComponent(c)}">${esc(c)}</a></h5><span class="lgs">${[...m.values()].slice(0,6).map(b=>L.link(b,{px:36})).join("")}</span></div>`).join("")+open.map(c=>`<div class="open"><h5>${esc(c)}</h5><span>Open</span></div>`).join("");
     $("catmap").hidden=!cm.size;
   }
+
+  // Research and data: anything in research.json tagged with this brand or property (valuations, audience data, market research).
+  fetch("research.json",{cache:"no-cache"}).then(r=>r.json()).then(R=>{
+    const rs=(R.research||[]).filter(x=>(x.entities||[]).includes(id)).sort((a,b)=>String(b.month||b.added).localeCompare(String(a.month||a.added)));
+    if(!rs.length)return;
+    const num=(v,u)=>u==="$"?(v>=1e6?"$"+(v/1e6).toFixed(v%1e6?1:0)+"M":v>=1e3?"$"+Math.round(v/1e3)+"K":"$"+v):u==="%"?v+"%":u==="index"?Number(v).toFixed(2):String(v);
+    const mo=m=>m?new Date(m.slice(0,7)+"-01T00:00:00").toLocaleDateString("en-AU",{month:"short",year:"numeric"}):"";
+    $("rCount").textContent=`${rs.length} piece${rs.length===1?"":"s"}`;
+    $("rList").innerHTML=rs.map(x=>`<article class="rs">
+<span class="lbl mute-l">${esc([x.kind,x.publisher,mo(x.month||x.added)].filter(Boolean).join(" · "))}</span>
+<h3>${esc(x.title)}</h3><p class="rs-s">${esc(x.summary)}</p>
+<div class="rs-d">${(x.data||[]).map(t=>`<div class="rs-t"><h4>${esc(t.title)}</h4>${t.rows.map(r=>`<div class="rs-r"><span>${esc(r.label)}</span><b>${esc(num(r.value,t.unit))}</b></div>`).join("")}${t.note?`<p class="rs-n">${esc(t.note)}</p>`:""}</div>`).join("")}</div>
+${(x.findings||[]).length?`<ul class="rs-f">${x.findings.map(f=>`<li>${esc(f)}</li>`).join("")}</ul>`:""}
+<p class="rs-n">Source: ${x.source&&x.source.url?`<a href="${esc(x.source.url)}" target="_blank" rel="noopener" style="border-bottom:1px solid var(--line)">${esc(x.source.name)}</a>`:esc((x.source&&x.source.name)||x.publisher)}${x.method?" · "+esc(x.method):""}</p>
+</article>`).join("");
+    $("research").hidden=false;
+  }).catch(()=>{});
 
   // Every deal, with sport tabs when there's more than one sport.
   let sport="All";
