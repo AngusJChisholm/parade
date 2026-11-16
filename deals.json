@@ -889,21 +889,6 @@
    "market": "ANZ",
    "added": "2026-11-16",
    "listed": "2026-11-16",
-   "deal": "Asahi Super Dry × Rugby World Cup 2027",
-   "type": "Principal partner",
-   "summary": "Asahi Super Dry is a Principal Partner and Official Beer of the men's Rugby World Cup 2027 in Australia.",
-   "url": "https://www.rugbyworldcup.com/2027/en/partners/asahi",
-   "status": "Current partner",
-   "tier": "Principal & major",
-   "ptier": "Principal Partners",
-   "ptitle": "Official Beer"
-  },
-  {
-   "sport": "Rugby union",
-   "region": "ANZ",
-   "market": "ANZ",
-   "added": "2026-11-16",
-   "listed": "2026-11-16",
    "deal": "LIQUI MOLY × Rugby World Cup 2027",
    "type": "Official partner",
    "summary": "LIQUI MOLY is an Official Partner of the men's Rugby World Cup 2027 in Australia.",
@@ -9101,7 +9086,8 @@
    "tier": "Official partner",
    "status": "New",
    "market": "ANZ",
-   "ptier": "Principal Partners"
+   "ptier": "Principal Partners",
+   "url": "https://sportsmintmedia.com/visa-returns-to-rugby-world-cup-as-principal-partner-for-australia-2027-and-2029/"
   },
   {
    "date": "2026-09-15",
@@ -27603,7 +27589,7 @@
   },
   {
    "date": "2024-10-11",
-   "deal": "Asahi × Rugby World Cup",
+   "deal": "Asahi × Rugby World Cup 2027",
    "sport": "Rugby union",
    "type": "Extension",
    "region": "Global",
@@ -27612,7 +27598,9 @@
    "tier": "Official partner",
    "status": "Extension",
    "ends": 2029,
-   "market": "Global"
+   "market": "Global",
+   "ptier": "Principal Partners",
+   "ptitle": "Official Beer"
   },
   {
    "date": "2024-10-11",
@@ -28389,7 +28377,7 @@
   },
   {
    "date": "2025-04-03",
-   "deal": "Unilever × Rugby World Cup",
+   "deal": "Unilever × Rugby World Cup 2027",
    "sport": "Rugby union",
    "type": "Partnership",
    "region": "Global",
@@ -28397,7 +28385,8 @@
    "url": "https://ministryofsport.com/unilever-commits-to-sport-with-rugby-world-cup-partnership/",
    "tier": "Official partner",
    "status": "New",
-   "market": "Global"
+   "market": "Global",
+   "ptier": "Official Suppliers & Supporters"
   },
   {
    "date": "2025-04-03",
@@ -37858,19 +37847,6 @@
    "tier": "Official partner",
    "status": "New",
    "market": "Asia"
-  },
-  {
-   "date": "2026-09-16",
-   "deal": "Visa × Rugby World Cup",
-   "sport": "Rugby union",
-   "type": "Principal partner",
-   "region": "Global",
-   "summary": "Visa returns as principal partner for 2027 and 2029",
-   "url": "https://sportsmintmedia.com/visa-returns-to-rugby-world-cup-as-principal-partner-for-australia-2027-and-2029/",
-   "tier": "Principal & major",
-   "status": "Renewal",
-   "ends": 2029,
-   "market": "Global"
   },
   {
    "date": "2026-09-15",

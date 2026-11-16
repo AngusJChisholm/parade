@@ -24116,16 +24116,6 @@
    ],
    "k": "p"
   },
-  "rugby-world-cup": {
-   "name": "Rugby World Cup",
-   "ptype": "Event",
-   "k": "p",
-   "domain": "rugbyworldcup.com",
-   "bf": [
-    "icon",
-    "logo"
-   ]
-  },
   "rugby-world-cup-2027": {
    "name": "Rugby World Cup 2027",
    "domain": "rugbyworldcup.com",
@@ -24136,7 +24126,8 @@
    "ptype": "Event",
    "k": "p",
    "aliases": [
-    "Rugby World Cups (Australia)"
+    "Rugby World Cups (Australia)",
+    "Rugby World Cup"
    ],
    "ptiers": [
     "Principal Partners",
