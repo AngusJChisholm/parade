@@ -41,6 +41,10 @@ function renewal(d){
   const t=TYP[d.tier]||TYP_ALL;
   return {end:yearOf(d)+t,basis:"Estimate",t};
 }
+// Confidence (tools/confidence.py): Confirmed = official source, Reported = press, Unverified = no source yet. Shown with the last-checked date.
+const vfmt=v=>v?new Date(v+"T00:00:00").toLocaleDateString("en-AU",{day:"numeric",month:"short",year:"numeric"}):"";
+const confTag=d=>{const c=d.conf||(d.url?"":"Unverified");if(!c)return "";const k=c==="Confirmed"?"ok":c==="Reported"?"rp":"un";
+  return `<span class="cf cf-${k}" title="${c==="Confirmed"?"Official source (club, league or brand)":c==="Reported"?"Reported by trade press or news":"No source on file yet"}${d.verified?` · last checked ${vfmt(d.verified)}`:""}">${c==="Confirmed"?"Official":c==="Reported"?"Press":"No source"}</span>`};
 const basisTag=r=>r?`<span class="basis ${r.basis==="Confirmed"?"c":r.basis==="From term"?"t":""}" title="${r.basis==="Estimate"?`Typical ${r.t}-year term for this partnership type`:r.basis==="From term"?"Announced term added to the announcement year":"End date stated in the announcement"}">${r.basis}</span>`:"";
 
 /* ---------- Brand finder ---------- */
@@ -118,7 +122,7 @@ function renewals(){
     const firm=rows.filter(x=>x.r.basis!=="Estimate").length;
     $("rcount").textContent=`${rows.length} partnership${rows.length===1?"":"s"} · ${firm} confirmed or from term`;
     const shown=rows.slice(0,state.rMore?rows.length:200);
-    $("rlist").innerHTML=rows.length?`<div class="tw"><table class="t"><thead><tr><th>Ends</th><th>Basis</th><th>Partnership</th><th>Sport</th><th>Category</th><th>Partnership type</th><th>Status</th><th>Announced</th></tr></thead><tbody>${shown.map(({d,r})=>`<tr><td><span class="yr">${r.end}</span></td><td>${basisTag(r)}</td><td><span class="dl">${L.pair(d,{px:30})}${S.dealLink(d)}</span></td><td>${esc(d.sport||"")}</td><td>${esc((d._cats||[]).join(", "))}</td><td>${esc(d.tier||"")}</td><td class="d">${esc(d.status||"")}</td><td class="d">${esc(S.fmt(d))}</td></tr>`).join("")}</tbody></table></div>${rows.length>shown.length?`<p><button class="ghost" id="rmore">Show all ${rows.length}</button></p>`:""}`:`<p class="note">Nothing in that window.</p>`;
+    $("rlist").innerHTML=rows.length?`<div class="tw"><table class="t"><thead><tr><th>Ends</th><th>Basis</th><th>Partnership</th><th>Sport</th><th>Category</th><th>Partnership type</th><th>Status</th><th>Announced</th><th>Source</th></tr></thead><tbody>${shown.map(({d,r})=>`<tr><td><span class="yr">${r.end}</span></td><td>${basisTag(r)}</td><td><span class="dl">${L.pair(d,{px:30})}${S.dealLink(d)}</span></td><td>${esc(d.sport||"")}</td><td>${esc((d._cats||[]).join(", "))}</td><td>${esc(d.tier||"")}</td><td class="d">${esc(d.status||"")}</td><td class="d">${esc(S.fmt(d))}</td><td>${confTag(d)}</td></tr>`).join("")}</tbody></table></div>${rows.length>shown.length?`<p><button class="ghost" id="rmore">Show all ${rows.length}</button></p>`:""}`:`<p class="note">Nothing in that window.</p>`;
   };
   let t;$("rq").oninput=e=>{clearTimeout(t);t=setTimeout(()=>{f.q=e.target.value;draw()},150)};
   $("rsport").onchange=e=>{f.sport=e.target.value;draw()};
@@ -197,10 +201,10 @@ function property(){
   <div class="tw"><table class="t"><thead><tr><th>Property</th><th>Live partners</th><th>New, last 12 mo</th><th>Naming, title or major</th><th>Categories</th><th>Due ${yr}-${yr+1}</th></tr></thead><tbody>${bench.map(x=>`<tr class="${x.r===p?"me":""}"><td><span class="dl">${logo(x.r.e,30)}<a href="#" data-pick="${esc(x.r.e.slug)}"><b>${esc(x.r.e.name)}</b></a></span></td><td class="d">${x.live}</td><td class="d">${x.new12}</td><td class="d">${x.major}</td><td class="d">${x.cats}</td><td class="d">${x.due}</td></tr>`).join("")}</tbody></table></div>
 
   <div class="h3">Coming up for renewal</div>
-  ${due.length?`<div class="tw"><table class="t"><thead><tr><th>Ends</th><th>Basis</th><th>Partnership</th><th>Partnership type</th><th>Announced</th></tr></thead><tbody>${due.map(({d,r})=>`<tr><td><span class="yr">${r.end}</span></td><td>${basisTag(r)}</td><td><span class="dl">${L.pair(d,{px:30})}${S.dealLink(d)}</span></td><td>${esc(d.tier||"")}</td><td class="d">${esc(S.fmt(d))}</td></tr>`).join("")}</tbody></table></div>`:`<p class="note-s">Nothing due in the next two years on what's been announced.</p>`}
+  ${due.length?`<div class="tw"><table class="t"><thead><tr><th>Ends</th><th>Basis</th><th>Partnership</th><th>Partnership type</th><th>Announced</th><th>Source</th></tr></thead><tbody>${due.map(({d,r})=>`<tr><td><span class="yr">${r.end}</span></td><td>${basisTag(r)}</td><td><span class="dl">${L.pair(d,{px:30})}${S.dealLink(d)}</span></td><td>${esc(d.tier||"")}</td><td class="d">${esc(S.fmt(d))}</td><td>${confTag(d)}</td></tr>`).join("")}</tbody></table></div>`:`<p class="note-s">Nothing due in the next two years on what's been announced.</p>`}
 
   <div class="h3">Live partners (${partners.length})</div>
-  <div class="tw"><table class="t"><thead><tr><th>Brand</th><th>Category</th><th>Their tier</th><th>Partnership type</th><th>Since</th><th>Ends</th></tr></thead><tbody>${partners.sort((a,b)=>S.TIERS.indexOf(a.d.tier)-S.TIERS.indexOf(b.d.tier)||a.b.name.localeCompare(b.b.name)).map(x=>{const r=renewal(x.d);return `<tr><td><span class="dl">${logo(x.b,30)}<a href="${esc(L.page(x.b.slug))}"><b>${esc(x.b.name)}</b></a></span></td><td>${esc(catOf(x))}</td><td>${esc(x.d.ptier||"–")}</td><td>${esc(x.d.tier||"")}</td><td class="d">${esc(S.fmt(x.d))}</td><td class="d">${r?`${r.end} ${basisTag(r)}`:"–"}</td></tr>`}).join("")}</tbody></table></div>`;
+  <div class="tw"><table class="t"><thead><tr><th>Brand</th><th>Category</th><th>Their tier</th><th>Partnership type</th><th>Since</th><th>Ends</th><th>Source</th></tr></thead><tbody>${partners.sort((a,b)=>S.TIERS.indexOf(a.d.tier)-S.TIERS.indexOf(b.d.tier)||a.b.name.localeCompare(b.b.name)).map(x=>{const r=renewal(x.d);return `<tr><td><span class="dl">${logo(x.b,30)}<a href="${esc(L.page(x.b.slug))}"><b>${esc(x.b.name)}</b></a></span></td><td>${esc(catOf(x))}</td><td>${esc(x.d.ptier||"–")}</td><td>${esc(x.d.tier||"")}</td><td class="d">${esc(S.fmt(x.d))}</td><td class="d">${r?`${r.end} ${basisTag(r)}`:"–"}</td><td>${x.d.url?`<a href="${esc(x.d.url)}" target="_blank" rel="noopener">${confTag(x.d)}</a>`:confTag(x.d)}</td></tr>`}).join("")}</tbody></table></div>`;
   const inp=$("pq");
   inp.onchange=()=>{const v=inp.value.trim().toLowerCase();const r=D.props.find(x=>x.e.name.toLowerCase()===v)||D.props.find(x=>(x.e.aliases||[]).some(a=>a.toLowerCase()===v))||D.props.find(x=>x.e.name.toLowerCase().includes(v));if(r){state.p=r;property();window.scrollTo(0,0)}};
   $("view").onclick=e=>{
@@ -533,7 +537,7 @@ function namingPage(org,side){
     <td><span class="dl">${x.o[0]?logo(x.o[0],22):""}${esc(x.o.map(o=>o.name).join(", ")||"–")}</span></td>
     <td class="d">${start(x.d)}</td><td class="d">${x.d.term?`${x.d.term} yrs`:"–"}</td>
     <td class="d">${x.on?(x.r?`${x.r.end} ${basisTag(x.r)}${x.r.end<=yr+2?' <span class="rp-new">Renewal due</span>':""}`:"–"):esc(x.d.ended&&x.d.ended!==true?`Ended ${x.d.ended}`:"Ended")}</td>
-    <td>${val(x.d)}</td><td>${x.d.url?`<a href="${esc(x.d.url)}">Source</a>`:""}</td></tr>`;
+    <td>${val(x.d)}</td><td>${x.d.url?`<a href="${esc(x.d.url)}">Source</a> `:""}${confTag(x.d)}${x.d.verified?`<br><span class="mute-l">Checked ${vfmt(x.d.verified)}</span>`:""}</td></tr>`;
   const head=`<thead><tr><th>Partnership</th><th>${who}</th><th>Start</th><th>Term</th><th>Ends</th><th>Value</th><th></th></tr></thead>`;
   // Market context underneath: branded stadiums by state and recent naming rights deals.
   const br=V.filter(v=>v.brand), un=V.filter(v=>!v.brand);
