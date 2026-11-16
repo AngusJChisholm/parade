@@ -50,12 +50,14 @@ window.SSSLogos=(function(){
     const t=(w.length>1?w[0][0]+w[1][0]:(w[0]||"?").slice(0,1));
     return t.toUpperCase();
   }
-  function bfUrl(domain,type,px){
-    return `https://cdn.brandfetch.io/domain/${encodeURIComponent(domain)}/w/${px}/h/${px}/fallback/404/type/${type}?c=${encodeURIComponent(BF)}`;
+  // theme "dark" = the dark-coloured version, for light backgrounds ("light" is swapped in on .dk sections, see pump()).
+  // No theme = whatever Brandfetch has. PNG, so the background stays transparent.
+  function bfUrl(domain,type,px,theme){
+    return `https://cdn.brandfetch.io/domain/${encodeURIComponent(domain)}/w/${px}/h/${px}${theme?`/theme/${theme}`:""}/fallback/404/type/${type}.png?c=${encodeURIComponent(BF)}`;
   }
-  // Last resort: the organisation's own site icon (used only if it is big enough to look sharp; see ok()).
-  const favUrl=domain=>`https://www.google.com/s2/favicons?domain=${encodeURIComponent(domain)}&sz=128`;
-  // big=true asks for the wide logo first (profile page header); small marks try the symbol, then the icon.
+  // big=true asks for the wide logo first (profile page header); small marks try the symbol, then the wide logo.
+  // "icon" is Brandfetch's square social avatar, which sits on a coloured tile, so it is only ever the last resort.
+  // Site favicons are not used: they are small, boxy and often outdated. With nothing usable the monogram shows.
   function mark(e,opts){
     opts=opts||{};
     if(!e)return "";
@@ -68,21 +70,23 @@ window.SSSLogos=(function(){
     if(e.logo){src=e.logo}
     else if(BF&&e.domain){
       // e.bf lists the logo types Brandfetch is known to have (from the logo check), so most logos are one request.
-      const order=(big?["logo","symbol","icon"]:["symbol","icon","logo"]).filter(t=>!e.bf||e.bf.includes(t));
-      const urls=order.map(t=>bfUrl(e.domain,t,px*2)).concat(favUrl(e.domain));
-      src=urls[0];steps=urls.slice(1).join(" ");
+      const order=(big?["logo","symbol"]:["symbol","logo"]).filter(t=>!e.bf||e.bf.includes(t));
+      const urls=[...order.map(t=>bfUrl(e.domain,t,px*2,"dark")),...order.map(t=>bfUrl(e.domain,t,px*2,""))];
+      if(!e.bf||e.bf.includes("icon"))urls.push(bfUrl(e.domain,"icon",px*2,""));
+      if(urls.length){src=urls[0];steps=urls.slice(1).join(" ")}
     }
-    else if(e.domain){src=favUrl(e.domain)}
     // Images start without a src; the queue below loads them a few at a time as they come into view.
-    const img=src?`<img data-src="${esc(src)}" alt="" decoding="async" referrerpolicy="strict-origin-when-cross-origin"${steps?` data-next="${esc(steps)}"`:""} onload="SSSLogos.ok(this)" onerror="SSSLogos.fail(this)">`:"";
+    const img=src?`<img data-src="${esc(src)}"${/^https:/.test(src)?' crossorigin="anonymous"':""} alt="" decoding="async" referrerpolicy="strict-origin-when-cross-origin"${steps?` data-next="${esc(steps)}"`:""} onload="SSSLogos.ok(this)" onerror="SSSLogos.fail(this)">`:"";
     queueSoon();
     return `<span class="lg${img?" has-img":""}${big?" lg-big":""}">${mono}${img}</span>`;
   }
-  function fail(img){
+  function fail(img,skip){
     // Retry once after a short pause first: a busy page can be briefly rate-limited.
     // Brandfetch rate-limits bursts (a page of 100 logos), so retry up to 3 times with growing, jittered waits.
     const n=+(img.dataset.retried||0);
-    if(n<3&&/brandfetch\.io/.test(img.src)){img.dataset.retried=String(n+1);const u=img.src.replace(/&r=\d+$/,"")+"&r="+(n+1);done(img);setTimeout(()=>{img.dataset.src=u;want(img)},(1500+Math.random()*2500)*(n+1));return}
+    // A themed URL can fail simply because that brand has no dark/light version, so move straight on;
+    // the un-themed URLs are types Brandfetch is known to have, so a failure there is most likely throttling.
+    if(!skip&&n<3&&/brandfetch\.io/.test(img.src)&&!/\/theme\//.test(img.src)){img.dataset.retried=String(n+1);const u=img.src.replace(/&r=\d+$/,"")+"&r="+(n+1);done(img);setTimeout(()=>{img.dataset.src=u;want(img)},(1500+Math.random()*2500)*(n+1));return}
     img.dataset.retried="0";
     const next=(img.dataset.next||"").split(" ").filter(Boolean);
     done(img);
@@ -90,13 +94,45 @@ window.SSSLogos=(function(){
     const box=img.parentElement;img.remove();if(box)box.classList.remove("has-img");
   }
   // Tiny images (blank placeholders, 16px favicons) look worse than a monogram, so treat them as missing.
-  function ok(img){if(img.naturalWidth&&img.naturalWidth<48){fail(img);return}done(img)}
+  // The colour actually behind a logo (first ancestor with a solid background).
+  function bgOf(el){
+    for(;el&&el.nodeType===1;el=el.parentElement){
+      const m=getComputedStyle(el).backgroundColor.match(/[\d.]+/g);
+      if(m&&(m.length<4||+m[3]>.5))return m.slice(0,3).map(Number);
+    }
+    return [255,255,255];
+  }
+  const onDark=img=>{const [r,g,b]=bgOf(img.parentElement);return (.2126*r+.7152*g+.0722*b)/255<.4};
+  // A logo drawn in nearly the same colour as what's behind it (a white logo on a white card) is as good as missing.
+  // Brandfetch and local files allow reading pixels; anything that can't be read is assumed fine.
+  function visible(img){
+    try{
+      const w=40,h=Math.max(1,Math.round(40*img.naturalHeight/(img.naturalWidth||1)));
+      const c=document.createElement("canvas");c.width=w;c.height=h;
+      const x=c.getContext("2d",{willReadFrequently:true});x.drawImage(img,0,0,w,h);
+      const d=x.getImageData(0,0,w,h).data,bg=bgOf(img.parentElement);
+      let ink=0,seen=0;
+      for(let i=0;i<d.length;i+=4){if(d[i+3]<128)continue;ink++;if(Math.abs(d[i]-bg[0])+Math.abs(d[i+1]-bg[1])+Math.abs(d[i+2]-bg[2])>90)seen++}
+      return !ink||seen/ink>.08;
+    }catch(e){return true}
+  }
+  // Wide logos (wordmarks) get a wider box, up to 2.2x, so they aren't shrunk to a sliver; tall ones stay square.
+  function ok(img){
+    if(img.naturalWidth&&img.naturalWidth<48&&img.naturalHeight<48){fail(img,true);return}
+    if(!visible(img)){fail(img,true);return}
+    const box=img.parentElement,r=img.naturalWidth/(img.naturalHeight||1);
+    if(box){
+      box.classList.toggle("lg-ic",/\/type\/icon\./.test(img.src));
+      if(r>1.15&&!box.classList.contains("lg-big")){box.classList.add("lg-w");box.style.setProperty("--r",Math.min(r,2.2).toFixed(2))}
+    }
+    done(img)
+  }
   // Load queue: Brandfetch's free CDN throttles bursts, so at most MAX logos are in flight at once,
   // and only ones on (or near) the screen are requested.
   const MAX=4;let busy=0;const waiting=[];const inflight=new Set();
   const io=("IntersectionObserver" in window)?new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){io.unobserve(e.target);want(e.target)}}),{rootMargin:"300px"}):null;
   function want(img){if(!img.isConnected||!img.dataset.src)return;waiting.push(img);pump()}
-  function pump(){while(busy<MAX&&waiting.length){const img=waiting.shift();if(!img.isConnected||!img.dataset.src)continue;busy++;inflight.add(img);img.src=img.dataset.src;img.removeAttribute("data-src")}}
+  function pump(){while(busy<MAX&&waiting.length){const img=waiting.shift();if(!img.isConnected||!img.dataset.src)continue;busy++;inflight.add(img);if(onDark(img)){const lt=u=>u.replace("/theme/dark/","/theme/light/");img.dataset.src=lt(img.dataset.src);if(img.dataset.next)img.dataset.next=img.dataset.next.split(" ").map(lt).join(" ")}img.src=img.dataset.src;img.removeAttribute("data-src")}}
   function done(img){if(inflight.delete(img)){busy--;setTimeout(pump,60)}}
   let qt=0;
   function queueSoon(){if(qt)return;qt=setTimeout(()=>{qt=0;document.querySelectorAll("img[data-src]:not([data-q])").forEach(img=>{img.dataset.q="1";io?io.observe(img):want(img)})},0)}

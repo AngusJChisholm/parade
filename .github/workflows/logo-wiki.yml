@@ -1,0 +1,24 @@
+name: Logo wiki
+# Finds clean logos on Wikidata/Wikipedia (tools/logo_wiki.py). Never calls Brandfetch.
+# Runs when the logo-wiki-run branch is pushed (optional args in tools/logo_wiki.args) or by hand.
+# Results go to the logo-wiki-report branch for review; nothing touches the live site.
+on:
+  push:
+    branches: [logo-wiki-run]
+  workflow_dispatch:
+    inputs:
+      args: {description: "optional: a limit and/or slugs", required: false, default: ""}
+permissions: {contents: write}
+jobs:
+  find:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -q pillow numpy scipy && sudo apt-get install -y -q librsvg2-bin >/dev/null
+      - run: python3 tools/logo_wiki.py ${{ inputs.args }} $(cat tools/logo_wiki.args 2>/dev/null)
+        timeout-minutes: 330
+      - run: |
+          mv out /tmp/out
+          git checkout --orphan logo-wiki-report && git rm -rqf . && cp -r /tmp/out/. .
+          git add -A && git -c user.name="SSS bot" -c user.email="bot@sportsportsport.com.au" commit -qm "Logo wiki report"
+          git push -qf origin logo-wiki-report
