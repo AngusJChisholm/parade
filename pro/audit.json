@@ -1,10 +1,10 @@
 {
  "generated": "2026-11-16",
  "summary": {
-  "dup_entities": 27,
-  "no_category": 2094,
+  "dup_entities": 29,
+  "no_category": 2162,
   "cat_mismatch": 105,
-  "slot_clash": 66,
+  "slot_clash": 69,
   "dup_deals": 9,
   "no_broadcaster": 16,
   "stale": 3,
@@ -12,26 +12,6 @@
   "anz_slot_clash": 30
  },
  "dup_entities": [
-  {
-   "names": [
-    "Kia",
-    "Kia Australia"
-   ],
-   "slugs": [
-    "kia",
-    "kia-australia"
-   ]
-  },
-  {
-   "names": [
-    "Courier Mail",
-    "The Courier-Mail"
-   ],
-   "slugs": [
-    "courier-mail",
-    "the-courier-mail"
-   ]
-  },
   {
    "names": [
     "QMS",
@@ -44,24 +24,72 @@
   },
   {
    "names": [
-    "Star Group",
-    "Star Sports",
-    "The Star"
+    "Hong Kong Jockey Club",
+    "The Hong Kong Jockey Club"
    ],
    "slugs": [
-    "star-group",
-    "star-sports",
-    "the-star"
+    "hong-kong-jockey-club",
+    "the-hong-kong-jockey-club"
    ]
   },
   {
    "names": [
-    "Asahi Beverages",
-    "Asahi Beverages NZ"
+    "Salvation Army",
+    "The Salvation Army"
    ],
    "slugs": [
-    "asahi-beverages",
-    "asahi-beverages-nz"
+    "salvation-army",
+    "the-salvation-army"
+   ]
+  },
+  {
+   "names": [
+    "Ant Group",
+    "Ant International"
+   ],
+   "slugs": [
+    "ant-group",
+    "ant-international"
+   ]
+  },
+  {
+   "names": [
+    "Commonwealth Games",
+    "Commonwealth Games Australia"
+   ],
+   "slugs": [
+    "commonwealth-games",
+    "commonwealth-games-australia"
+   ]
+  },
+  {
+   "names": [
+    "Harness Racing Australia",
+    "Harness Racing NZ"
+   ],
+   "slugs": [
+    "harness-racing-australia",
+    "harness-racing-nz"
+   ]
+  },
+  {
+   "names": [
+    "Kia",
+    "Kia Australia"
+   ],
+   "slugs": [
+    "kia",
+    "kia-australia"
+   ]
+  },
+  {
+   "names": [
+    "Dolphins",
+    "Dolphins Group"
+   ],
+   "slugs": [
+    "dolphins",
+    "dolphins-group"
    ]
   },
   {
@@ -80,42 +108,12 @@
   },
   {
    "names": [
-    "Seven",
-    "Seven Group"
+    "Victor",
+    "Victor Sports"
    ],
    "slugs": [
-    "seven",
-    "seven-group"
-   ]
-  },
-  {
-   "names": [
-    "BDA",
-    "BDA Sports"
-   ],
-   "slugs": [
-    "bda",
-    "bda-sports"
-   ]
-  },
-  {
-   "names": [
-    "Dolphins",
-    "Dolphins Group"
-   ],
-   "slugs": [
-    "dolphins",
-    "dolphins-group"
-   ]
-  },
-  {
-   "names": [
-    "Dynasty",
-    "Dynasty Sport"
-   ],
-   "slugs": [
-    "dynasty",
-    "dynasty-sport"
+    "victor",
+    "victor-sports"
    ]
   },
   {
@@ -130,66 +128,6 @@
   },
   {
    "names": [
-    "Commonwealth Games",
-    "Commonwealth Games Australia"
-   ],
-   "slugs": [
-    "commonwealth-games",
-    "commonwealth-games-australia"
-   ]
-  },
-  {
-   "names": [
-    "HYROX",
-    "HYROX Australia"
-   ],
-   "slugs": [
-    "hyrox",
-    "hyrox-australia"
-   ]
-  },
-  {
-   "names": [
-    "Harness Racing Australia",
-    "Harness Racing NZ"
-   ],
-   "slugs": [
-    "harness-racing-australia",
-    "harness-racing-nz"
-   ]
-  },
-  {
-   "names": [
-    "Basketball Australia",
-    "Basketball New Zealand"
-   ],
-   "slugs": [
-    "basketball-australia",
-    "basketball-new-zealand"
-   ]
-  },
-  {
-   "names": [
-    "PURE Sports Nutrition",
-    "Pure Nutrition"
-   ],
-   "slugs": [
-    "pure-nutrition",
-    "pure-sports-nutrition"
-   ]
-  },
-  {
-   "names": [
-    "Ant Group",
-    "Ant International"
-   ],
-   "slugs": [
-    "ant-group",
-    "ant-international"
-   ]
-  },
-  {
-   "names": [
     "News Corp",
     "News Corp Australia"
    ],
@@ -200,32 +138,12 @@
   },
   {
    "names": [
-    "Salvation Army",
-    "The Salvation Army"
+    "Special Olympics",
+    "Special Olympics Australia"
    ],
    "slugs": [
-    "salvation-army",
-    "the-salvation-army"
-   ]
-  },
-  {
-   "names": [
-    "BMS",
-    "BMS Group"
-   ],
-   "slugs": [
-    "bms",
-    "bms-group"
-   ]
-  },
-  {
-   "names": [
-    "Compass",
-    "Compass Group"
-   ],
-   "slugs": [
-    "compass",
-    "compass-group"
+    "special-olympics",
+    "special-olympics-australia"
    ]
   },
   {
@@ -240,22 +158,104 @@
   },
   {
    "names": [
-    "Hong Kong Jockey Club",
-    "The Hong Kong Jockey Club"
+    "Clover",
+    "Clover Sport"
    ],
    "slugs": [
-    "hong-kong-jockey-club",
-    "the-hong-kong-jockey-club"
+    "clover",
+    "clover-sport"
    ]
   },
   {
    "names": [
-    "Victor",
-    "Victor Sports"
+    "Circa",
+    "Circa Sports"
    ],
    "slugs": [
-    "victor",
-    "victor-sports"
+    "circa",
+    "circa-sports"
+   ]
+  },
+  {
+   "names": [
+    "Compass",
+    "Compass Group"
+   ],
+   "slugs": [
+    "compass",
+    "compass-group"
+   ]
+  },
+  {
+   "names": [
+    "Basketball Australia",
+    "Basketball New Zealand"
+   ],
+   "slugs": [
+    "basketball-australia",
+    "basketball-new-zealand"
+   ]
+  },
+  {
+   "names": [
+    "Star Group",
+    "Star Sports",
+    "The Star"
+   ],
+   "slugs": [
+    "star-group",
+    "star-sports",
+    "the-star"
+   ]
+  },
+  {
+   "names": [
+    "TAB",
+    "TAB NZ"
+   ],
+   "slugs": [
+    "tab",
+    "tab-nz"
+   ]
+  },
+  {
+   "names": [
+    "Seven",
+    "Seven Group"
+   ],
+   "slugs": [
+    "seven",
+    "seven-group"
+   ]
+  },
+  {
+   "names": [
+    "PURE Sports Nutrition",
+    "Pure Nutrition"
+   ],
+   "slugs": [
+    "pure-nutrition",
+    "pure-sports-nutrition"
+   ]
+  },
+  {
+   "names": [
+    "BMS",
+    "BMS Group"
+   ],
+   "slugs": [
+    "bms",
+    "bms-group"
+   ]
+  },
+  {
+   "names": [
+    "Asahi Beverages",
+    "Asahi Beverages NZ"
+   ],
+   "slugs": [
+    "asahi-beverages",
+    "asahi-beverages-nz"
    ]
   },
   {
@@ -272,22 +272,42 @@
   },
   {
    "names": [
-    "TAB",
-    "TAB NZ"
+    "BDA",
+    "BDA Sports"
    ],
    "slugs": [
-    "tab",
-    "tab-nz"
+    "bda",
+    "bda-sports"
    ]
   },
   {
    "names": [
-    "Special Olympics",
-    "Special Olympics Australia"
+    "Dynasty",
+    "Dynasty Sport"
    ],
    "slugs": [
-    "special-olympics",
-    "special-olympics-australia"
+    "dynasty",
+    "dynasty-sport"
+   ]
+  },
+  {
+   "names": [
+    "HYROX",
+    "HYROX Australia"
+   ],
+   "slugs": [
+    "hyrox",
+    "hyrox-australia"
+   ]
+  },
+  {
+   "names": [
+    "Courier Mail",
+    "The Courier-Mail"
+   ],
+   "slugs": [
+    "courier-mail",
+    "the-courier-mail"
    ]
   }
  ],
@@ -310,7 +330,7 @@
   {
    "brand": "Audacy",
    "slug": "audacy",
-   "deals": 8
+   "deals": 9
   },
   {
    "brand": "Barfoot & Thompson",
@@ -331,6 +351,11 @@
    "brand": "Shift4",
    "slug": "shift4",
    "deals": 7
+  },
+  {
+   "brand": "Surfside",
+   "slug": "surfside",
+   "deals": 6
   },
   {
    "brand": "Alsco",
@@ -393,6 +418,21 @@
    "deals": 5
   },
   {
+   "brand": "TEGNA",
+   "slug": "tegna",
+   "deals": 4
+  },
+  {
+   "brand": "Salient Operations Group",
+   "slug": "salient-operations-group",
+   "deals": 4
+  },
+  {
+   "brand": "Nationwide",
+   "slug": "nationwide",
+   "deals": 4
+  },
+  {
    "brand": "Progressive",
    "slug": "progressive",
    "deals": 4
@@ -405,11 +445,6 @@
   {
    "brand": "PNC",
    "slug": "pnc",
-   "deals": 4
-  },
-  {
-   "brand": "Surfside",
-   "slug": "surfside",
    "deals": 4
   },
   {
@@ -523,6 +558,11 @@
    "deals": 4
   },
   {
+   "brand": "Acrisure",
+   "slug": "acrisure",
+   "deals": 3
+  },
+  {
    "brand": "Independence Blue Cross",
    "slug": "independence-blue-cross",
    "deals": 3
@@ -530,11 +570,6 @@
   {
    "brand": "Sherwin-Williams",
    "slug": "sherwin-williams",
-   "deals": 3
-  },
-  {
-   "brand": "TEGNA",
-   "slug": "tegna",
    "deals": 3
   },
   {
@@ -563,11 +598,6 @@
    "deals": 3
   },
   {
-   "brand": "Salient Operations Group",
-   "slug": "salient-operations-group",
-   "deals": 3
-  },
-  {
    "brand": "TickPick",
    "slug": "tickpick",
    "deals": 3
@@ -575,11 +605,6 @@
   {
    "brand": "Vivid Seats",
    "slug": "vivid-seats",
-   "deals": 3
-  },
-  {
-   "brand": "Nationwide",
-   "slug": "nationwide",
    "deals": 3
   },
   {
@@ -688,6 +713,61 @@
    "deals": 3
   },
   {
+   "brand": "NÜTRL",
+   "slug": "nutrl",
+   "deals": 2
+  },
+  {
+   "brand": "LECOM",
+   "slug": "lecom",
+   "deals": 2
+  },
+  {
+   "brand": "Labatt",
+   "slug": "labatt",
+   "deals": 2
+  },
+  {
+   "brand": "Up Top",
+   "slug": "up-top",
+   "deals": 2
+  },
+  {
+   "brand": "Scripps Sports",
+   "slug": "scripps-sports",
+   "deals": 2
+  },
+  {
+   "brand": "Edgar Snyder & Associates",
+   "slug": "edgar-snyder-and-associates",
+   "deals": 2
+  },
+  {
+   "brand": "NexGen Hyperbaric",
+   "slug": "nexgen-hyperbaric",
+   "deals": 2
+  },
+  {
+   "brand": "Yuengling",
+   "slug": "yuengling",
+   "deals": 2
+  },
+  {
+   "brand": "Tidal Wave Auto Spa",
+   "slug": "tidal-wave-auto-spa",
+   "deals": 2
+  },
+  {
+   "brand": "Twilio",
+   "slug": "twilio",
+   "deals": 2
+  },
+  {
+   "brand": "Spectrum",
+   "slug": "spectrum",
+   "deals": 2
+  },
+  {
    "brand": "FIS",
    "slug": "fis",
    "deals": 2
@@ -760,11 +840,6 @@
   {
    "brand": "RingCentral",
    "slug": "ringcentral",
-   "deals": 2
-  },
-  {
-   "brand": "Acrisure",
-   "slug": "acrisure",
    "deals": 2
   },
   {
@@ -1538,6 +1613,336 @@
    "deals": 2
   },
   {
+   "brand": "Evolv",
+   "slug": "evolv",
+   "deals": 1
+  },
+  {
+   "brand": "Comfort Windows",
+   "slug": "comfort-windows",
+   "deals": 1
+  },
+  {
+   "brand": "AAA Western and Central New York",
+   "slug": "aaa-western-and-central-new-york",
+   "deals": 1
+  },
+  {
+   "brand": "WellNow Urgent Care",
+   "slug": "wellnow-urgent-care",
+   "deals": 1
+  },
+  {
+   "brand": "Modern Corporation",
+   "slug": "modern-corporation",
+   "deals": 1
+  },
+  {
+   "brand": "CFBT Solutions",
+   "slug": "cfbt-solutions",
+   "deals": 1
+  },
+  {
+   "brand": "Tim Hortons",
+   "slug": "tim-hortons",
+   "deals": 1
+  },
+  {
+   "brand": "ConnectLife",
+   "slug": "connectlife",
+   "deals": 1
+  },
+  {
+   "brand": "Moog",
+   "slug": "moog",
+   "deals": 1
+  },
+  {
+   "brand": "Tops Markets",
+   "slug": "tops-markets",
+   "deals": 1
+  },
+  {
+   "brand": "Highmark Blue Cross Blue Shield of Western New York",
+   "slug": "highmark-blue-cross-blue-shield-of-western-new-york",
+   "deals": 1
+  },
+  {
+   "brand": "Coupang",
+   "slug": "coupang",
+   "deals": 1
+  },
+  {
+   "brand": "Venture Global",
+   "slug": "venture-global",
+   "deals": 1
+  },
+  {
+   "brand": "RBC",
+   "slug": "rbc",
+   "deals": 1
+  },
+  {
+   "brand": "BCLC",
+   "slug": "bclc",
+   "deals": 1
+  },
+  {
+   "brand": "Clio",
+   "slug": "clio",
+   "deals": 1
+  },
+  {
+   "brand": "Sportsnet",
+   "slug": "sportsnet",
+   "deals": 1
+  },
+  {
+   "brand": "SME Industries",
+   "slug": "sme-industries",
+   "deals": 1
+  },
+  {
+   "brand": "1Password",
+   "slug": "1password",
+   "deals": 1
+  },
+  {
+   "brand": "Filevine",
+   "slug": "filevine",
+   "deals": 1
+  },
+  {
+   "brand": "102.5 The Bone",
+   "slug": "102-5-the-bone",
+   "deals": 1
+  },
+  {
+   "brand": "Mosaic",
+   "slug": "mosaic",
+   "deals": 1
+  },
+  {
+   "brand": "Benchmark International",
+   "slug": "benchmark-international",
+   "deals": 1
+  },
+  {
+   "brand": "Oak View Group",
+   "slug": "oak-view-group",
+   "deals": 1
+  },
+  {
+   "brand": "Wild Alaska Pollock",
+   "slug": "wild-alaska-pollock",
+   "deals": 1
+  },
+  {
+   "brand": "F.N.B.",
+   "slug": "f-n-b",
+   "deals": 1
+  },
+  {
+   "brand": "Highmark",
+   "slug": "highmark",
+   "deals": 1
+  },
+  {
+   "brand": "Andrew Peller",
+   "slug": "andrew-peller",
+   "deals": 1
+  },
+  {
+   "brand": "Fullscript",
+   "slug": "fullscript",
+   "deals": 1
+  },
+  {
+   "brand": "Kinaxis",
+   "slug": "kinaxis",
+   "deals": 1
+  },
+  {
+   "brand": "Canadian Tire",
+   "slug": "canadian-tire",
+   "deals": 1
+  },
+  {
+   "brand": "Game 7",
+   "slug": "game-7",
+   "deals": 1
+  },
+  {
+   "brand": "Affina",
+   "slug": "affina",
+   "deals": 1
+  },
+  {
+   "brand": "Paylocity",
+   "slug": "paylocity",
+   "deals": 1
+  },
+  {
+   "brand": "Wettermark Keith",
+   "slug": "wettermark-keith",
+   "deals": 1
+  },
+  {
+   "brand": "DailyPay",
+   "slug": "dailypay",
+   "deals": 1
+  },
+  {
+   "brand": "PlayStar",
+   "slug": "playstar",
+   "deals": 1
+  },
+  {
+   "brand": "Lightpath",
+   "slug": "lightpath",
+   "deals": 1
+  },
+  {
+   "brand": "Air Canada",
+   "slug": "air-canada",
+   "deals": 1
+  },
+  {
+   "brand": "Fubo",
+   "slug": "fubo",
+   "deals": 1
+  },
+  {
+   "brand": "Solventum",
+   "slug": "solventum",
+   "deals": 1
+  },
+  {
+   "brand": "Priority Commerce Sports",
+   "slug": "priority-commerce-sports",
+   "deals": 1
+  },
+  {
+   "brand": "Clover Sport",
+   "slug": "clover-sport",
+   "deals": 1
+  },
+  {
+   "brand": "Fortra",
+   "slug": "fortra",
+   "deals": 1
+  },
+  {
+   "brand": "Woody Creek Distillers",
+   "slug": "woody-creek-distillers",
+   "deals": 1
+  },
+  {
+   "brand": "Custom One",
+   "slug": "custom-one",
+   "deals": 1
+  },
+  {
+   "brand": "Pentair",
+   "slug": "pentair",
+   "deals": 1
+  },
+  {
+   "brand": "TRIA Orthopedics",
+   "slug": "tria-orthopedics",
+   "deals": 1
+  },
+  {
+   "brand": "Trust & Will",
+   "slug": "trust-and-will",
+   "deals": 1
+  },
+  {
+   "brand": "Blue Shield of California",
+   "slug": "blue-shield-of-california",
+   "deals": 1
+  },
+  {
+   "brand": "Priority",
+   "slug": "priority",
+   "deals": 1
+  },
+  {
+   "brand": "PMG",
+   "slug": "pmg",
+   "deals": 1
+  },
+  {
+   "brand": "GovX",
+   "slug": "govx",
+   "deals": 1
+  },
+  {
+   "brand": "Culligan",
+   "slug": "culligan",
+   "deals": 1
+  },
+  {
+   "brand": "Circa Sports",
+   "slug": "circa-sports",
+   "deals": 1
+  },
+  {
+   "brand": "Feazel",
+   "slug": "feazel",
+   "deals": 1
+  },
+  {
+   "brand": "Diamond Cellar",
+   "slug": "diamond-cellar",
+   "deals": 1
+  },
+  {
+   "brand": "Pedialyte",
+   "slug": "pedialyte",
+   "deals": 1
+  },
+  {
+   "brand": "Greif",
+   "slug": "greif",
+   "deals": 1
+  },
+  {
+   "brand": "AEP",
+   "slug": "aep",
+   "deals": 1
+  },
+  {
+   "brand": "OhioHealth",
+   "slug": "ohiohealth",
+   "deals": 1
+  },
+  {
+   "brand": "99.9 The Fan",
+   "slug": "99-9-the-fan",
+   "deals": 1
+  },
+  {
+   "brand": "WRAL",
+   "slug": "wral",
+   "deals": 1
+  },
+  {
+   "brand": "Nucor",
+   "slug": "nucor",
+   "deals": 1
+  },
+  {
+   "brand": "SENNÉ",
+   "slug": "senne",
+   "deals": 1
+  },
+  {
+   "brand": "Rapid7",
+   "slug": "rapid7",
+   "deals": 1
+  },
+  {
    "brand": "AARP",
    "slug": "aarp",
    "deals": 1
@@ -1613,11 +2018,6 @@
    "deals": 1
   },
   {
-   "brand": "LECOM",
-   "slug": "lecom",
-   "deals": 1
-  },
-  {
    "brand": "Stifel",
    "slug": "stifel",
    "deals": 1
@@ -1635,11 +2035,6 @@
   {
    "brand": "Petco",
    "slug": "petco",
-   "deals": 1
-  },
-  {
-   "brand": "Edgar Snyder & Associates",
-   "slug": "edgar-snyder-and-associates",
    "deals": 1
   },
   {
@@ -1670,11 +2065,6 @@
   {
    "brand": "King Swings",
    "slug": "king-swings",
-   "deals": 1
-  },
-  {
-   "brand": "NexGen Hyperbaric",
-   "slug": "nexgen-hyperbaric",
    "deals": 1
   },
   {
@@ -1953,11 +2343,6 @@
    "deals": 1
   },
   {
-   "brand": "Tidal Wave Auto Spa",
-   "slug": "tidal-wave-auto-spa",
-   "deals": 1
-  },
-  {
    "brand": "Boehringer Ingelheim",
    "slug": "boehringer-ingelheim",
    "deals": 1
@@ -2000,11 +2385,6 @@
   {
    "brand": "Straight Bat Private Equity",
    "slug": "straight-bat-private-equity",
-   "deals": 1
-  },
-  {
-   "brand": "Up Top",
-   "slug": "up-top",
    "deals": 1
   },
   {
@@ -2898,11 +3278,6 @@
    "deals": 1
   },
   {
-   "brand": "Labatt",
-   "slug": "labatt",
-   "deals": 1
-  },
-  {
    "brand": "Fieldsheer",
    "slug": "fieldsheer",
    "deals": 1
@@ -3213,11 +3588,6 @@
    "deals": 1
   },
   {
-   "brand": "Spectrum",
-   "slug": "spectrum",
-   "deals": 1
-  },
-  {
    "brand": "Louisiana Cat",
    "slug": "louisiana-cat",
    "deals": 1
@@ -3480,11 +3850,6 @@
   {
    "brand": "Silver Eagle Distributors",
    "slug": "silver-eagle-distributors",
-   "deals": 1
-  },
-  {
-   "brand": "NÜTRL",
-   "slug": "nutrl",
    "deals": 1
   },
   {
@@ -4635,11 +5000,6 @@
   {
    "brand": "Genesis Employment",
    "slug": "genesis-employment",
-   "deals": 1
-  },
-  {
-   "brand": "Twilio",
-   "slug": "twilio",
    "deals": 1
   },
   {
@@ -12129,6 +12489,23 @@
    ]
   },
   {
+   "property": "Buffalo Sabres",
+   "anz": false,
+   "slot": "Car makers",
+   "partners": [
+    {
+     "brand": "Toyota",
+     "since": "listed",
+     "ends": null
+    },
+    {
+     "brand": "Ford",
+     "since": "listed",
+     "ends": null
+    }
+   ]
+  },
+  {
    "property": "Cleveland Browns",
    "anz": false,
    "slot": "Banks",
@@ -12140,6 +12517,23 @@
     },
     {
      "brand": "CrossCountry Mortgage",
+     "since": "listed",
+     "ends": null
+    }
+   ]
+  },
+  {
+   "property": "Columbus Blue Jackets",
+   "anz": false,
+   "slot": "Car makers",
+   "partners": [
+    {
+     "brand": "Hyundai",
+     "since": "listed",
+     "ends": null
+    },
+    {
+     "brand": "Lexus",
      "since": "listed",
      "ends": null
     }
@@ -12321,6 +12715,23 @@
     {
      "brand": "U.S. Bank",
      "since": "May 2025",
+     "ends": null
+    }
+   ]
+  },
+  {
+   "property": "Minnesota Wild",
+   "anz": false,
+   "slot": "Banks",
+   "partners": [
+    {
+     "brand": "Old National Bank",
+     "since": "listed",
+     "ends": null
+    },
+    {
+     "brand": "Blaze Credit Union",
+     "since": "listed",
      "ends": null
     }
    ]
