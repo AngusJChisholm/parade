@@ -2,7 +2,7 @@
  "generated": "2026-11-16",
  "summary": {
   "dup_entities": 16,
-  "no_category": 616,
+  "no_category": 626,
   "cat_mismatch": 104,
   "slot_clash": 27,
   "dup_deals": 9,
@@ -12,6 +12,96 @@
   "anz_slot_clash": 24
  },
  "dup_entities": [
+  {
+   "names": [
+    "Special Olympics",
+    "Special Olympics Australia"
+   ],
+   "slugs": [
+    "special-olympics",
+    "special-olympics-australia"
+   ]
+  },
+  {
+   "names": [
+    "TAB",
+    "TAB NZ"
+   ],
+   "slugs": [
+    "tab",
+    "tab-nz"
+   ]
+  },
+  {
+   "names": [
+    "Kia",
+    "Kia Australia"
+   ],
+   "slugs": [
+    "kia",
+    "kia-australia"
+   ]
+  },
+  {
+   "names": [
+    "Star Sports",
+    "The Star"
+   ],
+   "slugs": [
+    "star-sports",
+    "the-star"
+   ]
+  },
+  {
+   "names": [
+    "Courier Mail",
+    "The Courier-Mail"
+   ],
+   "slugs": [
+    "courier-mail",
+    "the-courier-mail"
+   ]
+  },
+  {
+   "names": [
+    "Commonwealth Games",
+    "Commonwealth Games Australia"
+   ],
+   "slugs": [
+    "commonwealth-games",
+    "commonwealth-games-australia"
+   ]
+  },
+  {
+   "names": [
+    "PURE Sports Nutrition",
+    "Pure Nutrition"
+   ],
+   "slugs": [
+    "pure-nutrition",
+    "pure-sports-nutrition"
+   ]
+  },
+  {
+   "names": [
+    "Dolphins",
+    "Dolphins Group"
+   ],
+   "slugs": [
+    "dolphins",
+    "dolphins-group"
+   ]
+  },
+  {
+   "names": [
+    "Harness Racing Australia",
+    "Harness Racing NZ"
+   ],
+   "slugs": [
+    "harness-racing-australia",
+    "harness-racing-nz"
+   ]
+  },
   {
    "names": [
     "Sky",
@@ -28,44 +118,12 @@
   },
   {
    "names": [
-    "Athletics",
-    "Athletics Australia",
-    "Athletics New Zealand"
+    "Asahi Beverages",
+    "Asahi Beverages NZ"
    ],
    "slugs": [
-    "athletics",
-    "athletics-australia",
-    "athletics-new-zealand"
-   ]
-  },
-  {
-   "names": [
-    "Dolphins",
-    "Dolphins Group"
-   ],
-   "slugs": [
-    "dolphins",
-    "dolphins-group"
-   ]
-  },
-  {
-   "names": [
-    "Ant Group",
-    "Ant International"
-   ],
-   "slugs": [
-    "ant-group",
-    "ant-international"
-   ]
-  },
-  {
-   "names": [
-    "Special Olympics",
-    "Special Olympics Australia"
-   ],
-   "slugs": [
-    "special-olympics",
-    "special-olympics-australia"
+    "asahi-beverages",
+    "asahi-beverages-nz"
    ]
   },
   {
@@ -80,12 +138,24 @@
   },
   {
    "names": [
-    "Asahi Beverages",
-    "Asahi Beverages NZ"
+    "Hockey Australia",
+    "Hockey New Zealand"
    ],
    "slugs": [
-    "asahi-beverages",
-    "asahi-beverages-nz"
+    "hockey-australia",
+    "hockey-new-zealand"
+   ]
+  },
+  {
+   "names": [
+    "Athletics",
+    "Athletics Australia",
+    "Athletics New Zealand"
+   ],
+   "slugs": [
+    "athletics",
+    "athletics-australia",
+    "athletics-new-zealand"
    ]
   },
   {
@@ -100,82 +170,12 @@
   },
   {
    "names": [
-    "Courier Mail",
-    "The Courier-Mail"
+    "Ant Group",
+    "Ant International"
    ],
    "slugs": [
-    "courier-mail",
-    "the-courier-mail"
-   ]
-  },
-  {
-   "names": [
-    "Harness Racing Australia",
-    "Harness Racing NZ"
-   ],
-   "slugs": [
-    "harness-racing-australia",
-    "harness-racing-nz"
-   ]
-  },
-  {
-   "names": [
-    "Star Sports",
-    "The Star"
-   ],
-   "slugs": [
-    "star-sports",
-    "the-star"
-   ]
-  },
-  {
-   "names": [
-    "TAB",
-    "TAB NZ"
-   ],
-   "slugs": [
-    "tab",
-    "tab-nz"
-   ]
-  },
-  {
-   "names": [
-    "Hockey Australia",
-    "Hockey New Zealand"
-   ],
-   "slugs": [
-    "hockey-australia",
-    "hockey-new-zealand"
-   ]
-  },
-  {
-   "names": [
-    "Commonwealth Games",
-    "Commonwealth Games Australia"
-   ],
-   "slugs": [
-    "commonwealth-games",
-    "commonwealth-games-australia"
-   ]
-  },
-  {
-   "names": [
-    "Kia",
-    "Kia Australia"
-   ],
-   "slugs": [
-    "kia",
-    "kia-australia"
-   ]
-  },
-  {
-   "names": [
-    "PURE Sports Nutrition",
-    "Pure Nutrition"
-   ],
-   "slugs": [
-    "pure-nutrition",
-    "pure-sports-nutrition"
+    "ant-group",
+    "ant-international"
    ]
   }
  ],
@@ -201,6 +201,11 @@
    "deals": 4
   },
   {
+   "brand": "GambleAware",
+   "slug": "gambleaware",
+   "deals": 3
+  },
+  {
    "brand": "CMS Australasia",
    "slug": "cms-australasia",
    "deals": 3
@@ -218,11 +223,6 @@
   {
    "brand": "imar",
    "slug": "imar",
-   "deals": 2
-  },
-  {
-   "brand": "GambleAware",
-   "slug": "gambleaware",
    "deals": 2
   },
   {
@@ -314,6 +314,56 @@
    "brand": "John R Turk",
    "slug": "john-r-turk",
    "deals": 2
+  },
+  {
+   "brand": "Starick",
+   "slug": "starick",
+   "deals": 1
+  },
+  {
+   "brand": "Shooting Stars",
+   "slug": "shooting-stars",
+   "deals": 1
+  },
+  {
+   "brand": "OMD",
+   "slug": "omd",
+   "deals": 1
+  },
+  {
+   "brand": "Australian Electoral Commission",
+   "slug": "australian-electoral-commission",
+   "deals": 1
+  },
+  {
+   "brand": "303 MullenLowe",
+   "slug": "303-mullenlowe",
+   "deals": 1
+  },
+  {
+   "brand": "Big Screen Video",
+   "slug": "big-screen-video",
+   "deals": 1
+  },
+  {
+   "brand": "Sunny Kids",
+   "slug": "sunny-kids",
+   "deals": 1
+  },
+  {
+   "brand": "Inclusive Kids",
+   "slug": "inclusive-kids",
+   "deals": 1
+  },
+  {
+   "brand": "Bishopp",
+   "slug": "bishopp",
+   "deals": 1
+  },
+  {
+   "brand": "Proud 2 Play",
+   "slug": "proud-2-play",
+   "deals": 1
   },
   {
    "brand": "Racism. It Stops With Me",
