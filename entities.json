@@ -496,6 +496,9 @@
     "logo"
    ]
   },
+  "acc": {
+   "name": "ACC"
+  },
   "accenture": {
    "name": "Accenture",
    "domain": "accenture.com",
@@ -3908,6 +3911,22 @@
     "icon"
    ]
   },
+  "basketball-new-zealand": {
+   "name": "Basketball New Zealand",
+   "domain": "nz.basketball",
+   "ptype": "Governing body",
+   "k": "p",
+   "aliases": [
+    "BBNZ",
+    "Tall Blacks",
+    "Tall Ferns"
+   ],
+   "ptiers": [
+    "Partner",
+    "Community partner"
+   ],
+   "ptiersChecked": "2026-11-16"
+  },
   "basketball-queensland": {
    "name": "Basketball Queensland",
    "domain": "queensland.basketball",
@@ -6828,6 +6847,9 @@
    "cat": "Sporting goods & equipment",
    "k": "b"
   },
+  "catch-design": {
+   "name": "Catch Design"
+  },
   "caterpillar": {
    "name": "Caterpillar",
    "k": "b"
@@ -9489,6 +9511,9 @@
     "logo"
    ]
   },
+  "david-levene-olympic-fund": {
+   "name": "David Levene Olympic Fund"
+  },
   "davis-cup": {
    "name": "Davis Cup",
    "domain": "daviscup.com",
@@ -9800,6 +9825,9 @@
    "bf": [],
    "ptype": "Club & team",
    "k": "p"
+  },
+  "dettol": {
+   "name": "Dettol"
   },
   "deutsche-bank": {
    "name": "Deutsche Bank",
@@ -10706,6 +10734,10 @@
    "name": "Eden Park",
    "k": "b"
   },
+  "edgar-olympic-foundation": {
+   "name": "Edgar Olympic Foundation",
+   "cat": "Not-for-profit"
+  },
   "edge-physio": {
    "name": "Edge Physio",
    "cat": "Health & beauty",
@@ -11434,6 +11466,9 @@
   "eve-dry-cleaning": {
    "name": "Eve Dry Cleaning",
    "k": "b"
+  },
+  "eveni-pacific": {
+   "name": "Eveni Pacific"
   },
   "event-cinemas": {
    "name": "Event Cinemas",
@@ -14912,6 +14947,9 @@
    "cat": "Construction & property",
    "k": "b"
   },
+  "high-performance-sport-new-zealand": {
+   "name": "High Performance Sport New Zealand"
+  },
   "high-sierra": {
    "name": "High Sierra",
    "cat": "Sporting goods & equipment",
@@ -16616,6 +16654,9 @@
    "cat": "Automotive",
    "k": "b"
   },
+  "jacanna": {
+   "name": "Jacanna"
+  },
   "jack-daniel-s": {
    "name": "Jack Daniel's",
    "cat": "Alcohol",
@@ -17313,6 +17354,9 @@
   "kas-australia": {
    "name": "KAS Australia",
    "k": "b"
+  },
+  "kathmandu": {
+   "name": "Kathmandu"
   },
   "katyb-jewellery": {
    "name": "Katyb Jewellery",
@@ -19241,6 +19285,10 @@
    "cat": "Betting & wagering",
    "k": "b"
   },
+  "lotto-nz": {
+   "name": "Lotto NZ",
+   "cat": "Betting & wagering"
+  },
   "lotus-living": {
    "name": "Lotus Living",
    "k": "b"
@@ -19663,6 +19711,9 @@
    ],
    "ptiersChecked": "2026-11-16"
   },
+  "mainstream": {
+   "name": "Mainstream"
+  },
   "majestic-hotels-and-apartments": {
    "name": "Majestic Hotels & Apartments",
    "cat": "Airlines & travel",
@@ -19803,6 +19854,9 @@
    "name": "Manu Bhaker",
    "ptype": "Athlete & talent",
    "k": "p"
+  },
+  "manuka-doctor": {
+   "name": "Manuka Doctor"
   },
   "manuka-performance": {
    "name": "Manuka Performance",
@@ -20150,6 +20204,9 @@
    "cat": "Food & nutrition",
    "k": "b",
    "domain": "mccoys.co.uk"
+  },
+  "mcdavid": {
+   "name": "McDavid"
   },
   "mcdermott-marine": {
    "name": "McDermott Marine",
@@ -21223,6 +21280,10 @@
     "logo"
    ],
    "sub": "Beer & cider"
+  },
+  "molten": {
+   "name": "Molten",
+   "cat": "Sporting goods & equipment"
   },
   "monaco-grand-prix": {
    "name": "Monaco Grand Prix",
@@ -22563,7 +22624,15 @@
     "logo"
    ],
    "ptype": "Governing body",
-   "k": "p"
+   "k": "p",
+   "ptiers": [
+    "Major partner",
+    "Broadcast partner",
+    "Commercial partner",
+    "Supplier",
+    "Funding partner"
+   ],
+   "ptiersChecked": "2026-11-16"
   },
   "new-zealand-custom-mouthguards": {
    "name": "New Zealand Custom Mouthguards",
@@ -22578,7 +22647,11 @@
    "bf": [
     "icon",
     "logo"
-   ]
+   ],
+   "ptiers": [
+    "Partner"
+   ],
+   "ptiersChecked": "2026-11-16"
   },
   "new-zealand-olympic-committee": {
    "name": "New Zealand Olympic Committee",
@@ -22588,7 +22661,14 @@
     "logo"
    ],
    "ptype": "Governing body",
-   "k": "p"
+   "k": "p",
+   "ptiers": [
+    "Premium partner",
+    "New Zealand partner",
+    "Funding partner",
+    "Supplier"
+   ],
+   "ptiersChecked": "2026-11-16"
   },
   "new-zealand-police": {
    "name": "New Zealand Police",
@@ -22617,7 +22697,7 @@
     "Supporters & suppliers",
     "Competition partners"
    ],
-   "ptiersChecked": "2026-11-14"
+   "ptiersChecked": "2026-11-16"
   },
   "newcastle-airport": {
    "name": "Newcastle Airport",
@@ -23596,9 +23676,17 @@
    "cat": "Media & broadcast",
    "k": "b"
   },
+  "nz-lottery-grants-board": {
+   "name": "NZ Lottery Grants Board",
+   "cat": "Betting & wagering"
+  },
   "nz-louvres": {
    "name": "NZ Louvres",
    "k": "b"
+  },
+  "nz-post": {
+   "name": "NZ Post",
+   "cat": "Logistics & transport"
   },
   "nz-rugby-foundation": {
    "name": "NZ Rugby Foundation",
@@ -23613,7 +23701,13 @@
     "logo"
    ],
    "ptype": "Governing body",
-   "k": "p"
+   "k": "p",
+   "ptiers": [
+    "Partner",
+    "Supply partner",
+    "Community partner"
+   ],
+   "ptiersChecked": "2026-11-16"
   },
   "nz-warriors": {
    "name": "NZ Warriors",
@@ -23945,6 +24039,10 @@
    "name": "One Foundation",
    "cat": "Not-for-profit",
    "k": "b"
+  },
+  "one-gaming": {
+   "name": "ONE Gaming",
+   "cat": "Gaming & esports"
   },
   "one-nz": {
    "name": "One NZ",
@@ -25094,6 +25192,10 @@
    "domain": "perrier.com",
    "cat": "Non-alcoholic drinks",
    "k": "b"
+  },
+  "perry-foundation": {
+   "name": "Perry Foundation",
+   "cat": "Not-for-profit"
   },
   "perseverance-estate": {
    "name": "Perseverance Estate",
@@ -27482,6 +27584,9 @@
    "ptype": "Governing body",
    "k": "p"
   },
+  "rgk": {
+   "name": "RGK"
+  },
   "rhino": {
    "name": "Rhino",
    "cat": "Sporting goods & equipment",
@@ -28735,6 +28840,9 @@
    "name": "ScenicNZ",
    "k": "b"
   },
+  "schick": {
+   "name": "Schick"
+  },
   "schwalbe": {
    "name": "Schwalbe",
    "k": "b"
@@ -29559,6 +29667,23 @@
    "cat": "Sporting goods & equipment",
    "k": "b"
   },
+  "silver-ferns": {
+   "name": "Silver Ferns",
+   "domain": "silverferns.co.nz",
+   "ptype": "National team",
+   "k": "p",
+   "aliases": [
+    "Netball New Zealand",
+    "Netball NZ"
+   ],
+   "ptiers": [
+    "Principal partner",
+    "Broadcast partner",
+    "Major partner",
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-16"
+  },
   "silvermoon": {
    "name": "Silvermoon",
    "k": "b"
@@ -29600,6 +29725,9 @@
     "icon",
     "logo"
    ]
+  },
+  "simpson-grierson": {
+   "name": "Simpson Grierson"
   },
   "sims-and-blue": {
    "name": "Sims & Blue",
@@ -29655,6 +29783,10 @@
     "icon",
     "logo"
    ]
+  },
+  "sir-owen-glenn-olympic-legacy": {
+   "name": "Sir Owen Glenn Olympic Legacy",
+   "cat": "Not-for-profit"
   },
   "siriusxm": {
    "name": "SiriusXM",
@@ -30310,6 +30442,9 @@
    "cat": "Construction & property",
    "k": "b"
   },
+  "southern-trust": {
+   "name": "Southern Trust"
+  },
   "southland-express": {
    "name": "Southland Express",
    "k": "b"
@@ -30512,6 +30647,9 @@
   "sport-nation": {
    "name": "Sport Nation",
    "k": "b"
+  },
+  "sport-nz": {
+   "name": "Sport NZ"
   },
   "sport-taranaki": {
    "name": "Sport Taranaki",
@@ -31352,6 +31490,9 @@
     "icon",
     "logo"
    ]
+  },
+  "summerset": {
+   "name": "Summerset"
   },
   "summit-fleet": {
    "name": "Summit Fleet",
@@ -32432,6 +32573,9 @@
    "name": "Te Rapa Wholesale Cars",
    "k": "b"
   },
+  "te-rau-ora": {
+   "name": "Te Rau Ora"
+  },
   "te-waka-whaiora-trust": {
    "name": "Te Waka Whaiora Trust",
    "k": "b"
@@ -32562,6 +32706,9 @@
   "teds-lights-and-fans": {
    "name": "TEDS Lights and Fans",
    "k": "b"
+  },
+  "tegel": {
+   "name": "Tegel"
   },
   "telcospec": {
    "name": "Telcospec",
@@ -35931,6 +36078,9 @@
    "name": "VOOST",
    "k": "b"
   },
+  "voyager": {
+   "name": "Voyager"
+  },
   "vpa": {
    "name": "VPA",
    "k": "b"
@@ -36969,6 +37119,9 @@
     "icon",
     "logo"
    ]
+  },
+  "wm-new-zealand": {
+   "name": "WM New Zealand"
   },
   "wnba": {
    "name": "WNBA",

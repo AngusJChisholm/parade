@@ -978,9 +978,9 @@
    "country": "NZ",
    "state": "NZ",
    "tier": 2,
-   "partnersUrl": null,
-   "lastChecked": null,
-   "onPage": null
+   "partnersUrl": "https://www.allblacks.com/partners",
+   "lastChecked": "2026-11-16",
+   "onPage": 26
   },
   {
    "name": "Fijian Drua",
@@ -1018,9 +1018,9 @@
    "country": "NZ",
    "state": "NZ",
    "tier": 2,
-   "partnersUrl": null,
-   "lastChecked": null,
-   "onPage": null
+   "partnersUrl": "https://www.nzfootball.co.nz/about/our-partners",
+   "lastChecked": "2026-11-16",
+   "onPage": 17
   },
   {
    "name": "New Zealand Cricket",
@@ -1028,9 +1028,9 @@
    "country": "NZ",
    "state": "NZ",
    "tier": 2,
-   "partnersUrl": null,
-   "lastChecked": null,
-   "onPage": null
+   "partnersUrl": "https://www.nzc.nz/corporate/commercial-partners/",
+   "lastChecked": "2026-11-16",
+   "onPage": 20
   },
   {
    "name": "Netball New Zealand",
@@ -1108,9 +1108,9 @@
    "country": "NZ",
    "state": "NZ",
    "tier": 2,
-   "partnersUrl": null,
-   "lastChecked": null,
-   "onPage": null
+   "partnersUrl": "https://nzrl.co.nz/about-us/our-partners",
+   "lastChecked": "2026-11-16",
+   "onPage": 29
   },
   {
    "name": "New Zealand Olympic Committee",
@@ -1118,9 +1118,9 @@
    "country": "NZ",
    "state": "NZ",
    "tier": 2,
-   "partnersUrl": null,
-   "lastChecked": null,
-   "onPage": null
+   "partnersUrl": "https://olympic.org.nz/more/about-us/premium-partners?tab=partners--suppliers",
+   "lastChecked": "2026-11-16",
+   "onPage": 26
   },
   {
    "name": "Basketball New Zealand",
@@ -1128,9 +1128,9 @@
    "country": "NZ",
    "state": "NZ",
    "tier": 2,
-   "partnersUrl": null,
-   "lastChecked": null,
-   "onPage": null
+   "partnersUrl": "https://nz.basketball/our-partners-powering-the-future-of-basketball-in-aotearoa/",
+   "lastChecked": "2026-11-16",
+   "onPage": 11
   },
   {
    "name": "Adelaide Lightning",
@@ -2131,6 +2131,16 @@
    "partnersUrl": "https://www.olympics.com.au/partners/",
    "lastChecked": "2026-11-16",
    "onPage": 31
+  },
+  {
+   "name": "Silver Ferns",
+   "sport": "Netball",
+   "country": "NZ",
+   "state": "National",
+   "tier": 2,
+   "partnersUrl": "https://www.silverferns.co.nz/",
+   "lastChecked": "2026-11-16",
+   "onPage": 19
   }
  ]
 }
