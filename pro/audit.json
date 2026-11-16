@@ -1,8 +1,8 @@
 {
  "generated": "2026-11-16",
  "summary": {
-  "dup_entities": 17,
-  "no_category": 650,
+  "dup_entities": 18,
+  "no_category": 701,
   "cat_mismatch": 104,
   "slot_clash": 27,
   "dup_deals": 9,
@@ -14,12 +14,124 @@
  "dup_entities": [
   {
    "names": [
-    "Asahi Beverages",
-    "Asahi Beverages NZ"
+    "Dynasty",
+    "Dynasty Sport"
    ],
    "slugs": [
-    "asahi-beverages",
-    "asahi-beverages-nz"
+    "dynasty",
+    "dynasty-sport"
+   ]
+  },
+  {
+   "names": [
+    "Athletics",
+    "Athletics Australia",
+    "Athletics New Zealand"
+   ],
+   "slugs": [
+    "athletics",
+    "athletics-australia",
+    "athletics-new-zealand"
+   ]
+  },
+  {
+   "names": [
+    "TAB",
+    "TAB NZ"
+   ],
+   "slugs": [
+    "tab",
+    "tab-nz"
+   ]
+  },
+  {
+   "names": [
+    "Special Olympics",
+    "Special Olympics Australia"
+   ],
+   "slugs": [
+    "special-olympics",
+    "special-olympics-australia"
+   ]
+  },
+  {
+   "names": [
+    "Hockey Australia",
+    "Hockey New Zealand"
+   ],
+   "slugs": [
+    "hockey-australia",
+    "hockey-new-zealand"
+   ]
+  },
+  {
+   "names": [
+    "Commonwealth Games",
+    "Commonwealth Games Australia"
+   ],
+   "slugs": [
+    "commonwealth-games",
+    "commonwealth-games-australia"
+   ]
+  },
+  {
+   "names": [
+    "HYROX",
+    "HYROX Australia"
+   ],
+   "slugs": [
+    "hyrox",
+    "hyrox-australia"
+   ]
+  },
+  {
+   "names": [
+    "Courier Mail",
+    "The Courier-Mail"
+   ],
+   "slugs": [
+    "courier-mail",
+    "the-courier-mail"
+   ]
+  },
+  {
+   "names": [
+    "Victor",
+    "Victor Sports"
+   ],
+   "slugs": [
+    "victor",
+    "victor-sports"
+   ]
+  },
+  {
+   "names": [
+    "Star Sports",
+    "The Star"
+   ],
+   "slugs": [
+    "star-sports",
+    "the-star"
+   ]
+  },
+  {
+   "names": [
+    "PURE Sports Nutrition",
+    "Pure Nutrition"
+   ],
+   "slugs": [
+    "pure-nutrition",
+    "pure-sports-nutrition"
+   ]
+  },
+  {
+   "names": [
+    "Harness Racing Australia",
+    "Harness Racing NZ"
+   ],
+   "slugs": [
+    "harness-racing-australia",
+    "harness-racing-nz"
    ]
   },
   {
@@ -38,36 +150,6 @@
   },
   {
    "names": [
-    "Dolphins",
-    "Dolphins Group"
-   ],
-   "slugs": [
-    "dolphins",
-    "dolphins-group"
-   ]
-  },
-  {
-   "names": [
-    "Dynasty",
-    "Dynasty Sport"
-   ],
-   "slugs": [
-    "dynasty",
-    "dynasty-sport"
-   ]
-  },
-  {
-   "names": [
-    "Hockey Australia",
-    "Hockey New Zealand"
-   ],
-   "slugs": [
-    "hockey-australia",
-    "hockey-new-zealand"
-   ]
-  },
-  {
-   "names": [
     "Ant Group",
     "Ant International"
    ],
@@ -78,54 +160,12 @@
   },
   {
    "names": [
-    "Athletics",
-    "Athletics Australia",
-    "Athletics New Zealand"
+    "Asahi Beverages",
+    "Asahi Beverages NZ"
    ],
    "slugs": [
-    "athletics",
-    "athletics-australia",
-    "athletics-new-zealand"
-   ]
-  },
-  {
-   "names": [
-    "PURE Sports Nutrition",
-    "Pure Nutrition"
-   ],
-   "slugs": [
-    "pure-nutrition",
-    "pure-sports-nutrition"
-   ]
-  },
-  {
-   "names": [
-    "Courier Mail",
-    "The Courier-Mail"
-   ],
-   "slugs": [
-    "courier-mail",
-    "the-courier-mail"
-   ]
-  },
-  {
-   "names": [
-    "Star Sports",
-    "The Star"
-   ],
-   "slugs": [
-    "star-sports",
-    "the-star"
-   ]
-  },
-  {
-   "names": [
-    "Victor",
-    "Victor Sports"
-   ],
-   "slugs": [
-    "victor",
-    "victor-sports"
+    "asahi-beverages",
+    "asahi-beverages-nz"
    ]
   },
   {
@@ -140,52 +180,22 @@
   },
   {
    "names": [
-    "Commonwealth Games",
-    "Commonwealth Games Australia"
+    "BMS",
+    "BMS Group"
    ],
    "slugs": [
-    "commonwealth-games",
-    "commonwealth-games-australia"
+    "bms",
+    "bms-group"
    ]
   },
   {
    "names": [
-    "Harness Racing Australia",
-    "Harness Racing NZ"
+    "Dolphins",
+    "Dolphins Group"
    ],
    "slugs": [
-    "harness-racing-australia",
-    "harness-racing-nz"
-   ]
-  },
-  {
-   "names": [
-    "Special Olympics",
-    "Special Olympics Australia"
-   ],
-   "slugs": [
-    "special-olympics",
-    "special-olympics-australia"
-   ]
-  },
-  {
-   "names": [
-    "HYROX",
-    "HYROX Australia"
-   ],
-   "slugs": [
-    "hyrox",
-    "hyrox-australia"
-   ]
-  },
-  {
-   "names": [
-    "TAB",
-    "TAB NZ"
-   ],
-   "slugs": [
-    "tab",
-    "tab-nz"
+    "dolphins",
+    "dolphins-group"
    ]
   }
  ],
@@ -194,6 +204,11 @@
    "brand": "Love The Game",
    "slug": "love-the-game",
    "deals": 7
+  },
+  {
+   "brand": "Enforcer",
+   "slug": "enforcer",
+   "deals": 5
   },
   {
    "brand": "Reclaim the Game",
@@ -231,6 +246,46 @@
    "deals": 3
   },
   {
+   "brand": "MWS",
+   "slug": "mws",
+   "deals": 2
+  },
+  {
+   "brand": "Retravision",
+   "slug": "retravision",
+   "deals": 2
+  },
+  {
+   "brand": "SNAP",
+   "slug": "snap",
+   "deals": 2
+  },
+  {
+   "brand": "What Ability",
+   "slug": "what-ability",
+   "deals": 2
+  },
+  {
+   "brand": "Forcast",
+   "slug": "forcast",
+   "deals": 2
+  },
+  {
+   "brand": "Fitness Outcomes",
+   "slug": "fitness-outcomes",
+   "deals": 2
+  },
+  {
+   "brand": "4BC",
+   "slug": "4bc",
+   "deals": 2
+  },
+  {
+   "brand": "Beiersdorf",
+   "slug": "beiersdorf",
+   "deals": 2
+  },
+  {
    "brand": "Snap Rentals",
    "slug": "snap-rentals",
    "deals": 2
@@ -243,11 +298,6 @@
   {
    "brand": "Grenade",
    "slug": "grenade",
-   "deals": 2
-  },
-  {
-   "brand": "Enforcer",
-   "slug": "enforcer",
    "deals": 2
   },
   {
@@ -329,6 +379,251 @@
    "brand": "John R Turk",
    "slug": "john-r-turk",
    "deals": 2
+  },
+  {
+   "brand": "Tactics",
+   "slug": "tactics",
+   "deals": 1
+  },
+  {
+   "brand": "DXBI",
+   "slug": "dxbi",
+   "deals": 1
+  },
+  {
+   "brand": "Shadeskin",
+   "slug": "shadeskin",
+   "deals": 1
+  },
+  {
+   "brand": "XP Maintenance",
+   "slug": "xp-maintenance",
+   "deals": 1
+  },
+  {
+   "brand": "Doolee",
+   "slug": "doolee",
+   "deals": 1
+  },
+  {
+   "brand": "Octavian Group",
+   "slug": "octavian-group",
+   "deals": 1
+  },
+  {
+   "brand": "My Elec Group",
+   "slug": "my-elec-group",
+   "deals": 1
+  },
+  {
+   "brand": "Margaret River Roasting Co",
+   "slug": "margaret-river-roasting-co",
+   "deals": 1
+  },
+  {
+   "brand": "Recyclers",
+   "slug": "recyclers",
+   "deals": 1
+  },
+  {
+   "brand": "Yokohama OTR",
+   "slug": "yokohama-otr",
+   "deals": 1
+  },
+  {
+   "brand": "Gripstar",
+   "slug": "gripstar",
+   "deals": 1
+  },
+  {
+   "brand": "Tattersalls Club",
+   "slug": "tattersalls-club",
+   "deals": 1
+  },
+  {
+   "brand": "Suitor",
+   "slug": "suitor",
+   "deals": 1
+  },
+  {
+   "brand": "People & Culture",
+   "slug": "people-and-culture",
+   "deals": 1
+  },
+  {
+   "brand": "Knight Frank",
+   "slug": "knight-frank",
+   "deals": 1
+  },
+  {
+   "brand": "Veolia",
+   "slug": "veolia",
+   "deals": 1
+  },
+  {
+   "brand": "Croft",
+   "slug": "croft",
+   "deals": 1
+  },
+  {
+   "brand": "Elite Maintenance Services",
+   "slug": "elite-maintenance-services",
+   "deals": 1
+  },
+  {
+   "brand": "Pickstar Works",
+   "slug": "pickstar-works",
+   "deals": 1
+  },
+  {
+   "brand": "Red Frogs Australia",
+   "slug": "red-frogs-australia",
+   "deals": 1
+  },
+  {
+   "brand": "Complete Scaffold Solutions",
+   "slug": "complete-scaffold-solutions",
+   "deals": 1
+  },
+  {
+   "brand": "The Butcher Shoppe",
+   "slug": "the-butcher-shoppe",
+   "deals": 1
+  },
+  {
+   "brand": "2BLimitless",
+   "slug": "2blimitless",
+   "deals": 1
+  },
+  {
+   "brand": "Golf24",
+   "slug": "golf24",
+   "deals": 1
+  },
+  {
+   "brand": "Cést Bon",
+   "slug": "cest-bon",
+   "deals": 1
+  },
+  {
+   "brand": "Fredon",
+   "slug": "fredon",
+   "deals": 1
+  },
+  {
+   "brand": "Morgans",
+   "slug": "morgans",
+   "deals": 1
+  },
+  {
+   "brand": "Niltech",
+   "slug": "niltech",
+   "deals": 1
+  },
+  {
+   "brand": "BMS",
+   "slug": "bms",
+   "deals": 1
+  },
+  {
+   "brand": "Ziggys Fresh",
+   "slug": "ziggys-fresh",
+   "deals": 1
+  },
+  {
+   "brand": "YARA",
+   "slug": "yara",
+   "deals": 1
+  },
+  {
+   "brand": "Works for you",
+   "slug": "works-for-you",
+   "deals": 1
+  },
+  {
+   "brand": "Vikings Group",
+   "slug": "vikings-group",
+   "deals": 1
+  },
+  {
+   "brand": "Victor Sports Club Supplies",
+   "slug": "victor-sports-club-supplies",
+   "deals": 1
+  },
+  {
+   "brand": "Truefitt & Hill",
+   "slug": "truefitt-and-hill",
+   "deals": 1
+  },
+  {
+   "brand": "Titan Containers Australia",
+   "slug": "titan-containers-australia",
+   "deals": 1
+  },
+  {
+   "brand": "Podiatry Professionals",
+   "slug": "podiatry-professionals",
+   "deals": 1
+  },
+  {
+   "brand": "Her Canberra",
+   "slug": "her-canberra",
+   "deals": 1
+  },
+  {
+   "brand": "GMD",
+   "slug": "gmd",
+   "deals": 1
+  },
+  {
+   "brand": "Garran Imaging Group",
+   "slug": "garran-imaging-group",
+   "deals": 1
+  },
+  {
+   "brand": "EAVS AV Services",
+   "slug": "eavs-av-services",
+   "deals": 1
+  },
+  {
+   "brand": "Deanes Coaches",
+   "slug": "deanes-coaches",
+   "deals": 1
+  },
+  {
+   "brand": "Caring Approach",
+   "slug": "caring-approach",
+   "deals": 1
+  },
+  {
+   "brand": "Canberra Weekly",
+   "slug": "canberra-weekly",
+   "deals": 1
+  },
+  {
+   "brand": "Canberra FM",
+   "slug": "canberra-fm",
+   "deals": 1
+  },
+  {
+   "brand": "Amplify",
+   "slug": "amplify",
+   "deals": 1
+  },
+  {
+   "brand": "Tiparra",
+   "slug": "tiparra",
+   "deals": 1
+  },
+  {
+   "brand": "SG Fleet",
+   "slug": "sg-fleet",
+   "deals": 1
+  },
+  {
+   "brand": "Allhomes",
+   "slug": "allhomes",
+   "deals": 1
   },
   {
    "brand": "Float Well",
@@ -656,16 +951,6 @@
    "deals": 1
   },
   {
-   "brand": "Forcast",
-   "slug": "forcast",
-   "deals": 1
-  },
-  {
-   "brand": "MWS",
-   "slug": "mws",
-   "deals": 1
-  },
-  {
    "brand": "Tradeify",
    "slug": "tradeify",
    "deals": 1
@@ -786,11 +1071,6 @@
    "deals": 1
   },
   {
-   "brand": "SNAP",
-   "slug": "snap",
-   "deals": 1
-  },
-  {
    "brand": "Dreamstreet",
    "slug": "dreamstreet",
    "deals": 1
@@ -823,11 +1103,6 @@
   {
    "brand": "Acryloc",
    "slug": "acryloc",
-   "deals": 1
-  },
-  {
-   "brand": "Beiersdorf",
-   "slug": "beiersdorf",
    "deals": 1
   },
   {
@@ -1693,11 +1968,6 @@
   {
    "brand": "Last Slice",
    "slug": "last-slice",
-   "deals": 1
-  },
-  {
-   "brand": "Retravision",
-   "slug": "retravision",
    "deals": 1
   },
   {
@@ -3116,11 +3386,6 @@
    "deals": 1
   },
   {
-   "brand": "4BC",
-   "slug": "4bc",
-   "deals": 1
-  },
-  {
    "brand": "Treasury Premium Brands",
    "slug": "treasury-premium-brands",
    "deals": 1
@@ -3478,6 +3743,20 @@
    "deals": 4
   },
   {
+   "brand": "SKG Radiology",
+   "slug": "skg-radiology",
+   "cat": "Health & beauty",
+   "rules_say": "Media & broadcast",
+   "deals": 3
+  },
+  {
+   "brand": "StoreLocal",
+   "slug": "storelocal",
+   "cat": "Construction & property",
+   "rules_say": "Retail",
+   "deals": 3
+  },
+  {
    "brand": "KPMG",
    "slug": "kpmg",
    "cat": "Professional services",
@@ -3497,6 +3776,13 @@
    "cat": "Non-alcoholic drinks",
    "rules_say": "Energy & utilities",
    "deals": 3
+  },
+  {
+   "brand": "Sydney Children's Hospitals Foundation",
+   "slug": "sydney-children-s-hospitals-foundation",
+   "cat": "Not-for-profit",
+   "rules_say": "Health & beauty",
+   "deals": 2
   },
   {
    "brand": "City of Greater Bendigo",
@@ -3545,13 +3831,6 @@
    "slug": "mova",
    "cat": "Home & hardware",
    "rules_say": "Technology",
-   "deals": 2
-  },
-  {
-   "brand": "SKG Radiology",
-   "slug": "skg-radiology",
-   "cat": "Health & beauty",
-   "rules_say": "Media & broadcast",
    "deals": 2
   },
   {
@@ -3678,13 +3957,6 @@
    "slug": "clos-du-bois",
    "cat": "Alcohol",
    "rules_say": "Telco",
-   "deals": 1
-  },
-  {
-   "brand": "StoreLocal",
-   "slug": "storelocal",
-   "cat": "Construction & property",
-   "rules_say": "Retail",
    "deals": 1
   },
   {
@@ -4115,13 +4387,6 @@
    "deals": 1
   },
   {
-   "brand": "Sydney Children's Hospitals Foundation",
-   "slug": "sydney-children-s-hospitals-foundation",
-   "cat": "Not-for-profit",
-   "rules_say": "Health & beauty",
-   "deals": 1
-  },
-  {
    "brand": "98 Gym",
    "slug": "98-gym",
    "cat": "Health & beauty",
@@ -4435,17 +4700,17 @@
   {
    "property": "Queensland Reds",
    "anz": true,
-   "slot": "Airlines",
+   "slot": "Beer & cider",
    "partners": [
     {
-     "brand": "China Airlines",
-     "since": "Sep 2026",
+     "brand": "Asahi",
+     "since": "listed",
      "ends": null
     },
     {
-     "brand": "Alliance Airlines",
-     "since": "Jun 2025",
-     "ends": 2028
+     "brand": "XXXX",
+     "since": "listed",
+     "ends": null
     }
    ]
   },

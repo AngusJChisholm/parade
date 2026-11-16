@@ -72,7 +72,8 @@
    "k": "p"
   },
   "2blimitless": {
-   "name": "2BLimitless"
+   "name": "2BLimitless",
+   "k": "b"
   },
   "2construct": {
    "name": "2Construct",
@@ -634,7 +635,8 @@
   },
   "add-building-group": {
    "name": "ADD Building Group",
-   "cat": "Construction & property"
+   "cat": "Construction & property",
+   "k": "b"
   },
   "adecco": {
    "name": "Adecco",
@@ -1440,7 +1442,8 @@
    "k": "b"
   },
   "allhomes": {
-   "name": "Allhomes"
+   "name": "Allhomes",
+   "k": "b"
   },
   "alliance-airlines": {
    "name": "Alliance Airlines",
@@ -1654,7 +1657,8 @@
   },
   "ambassador-apparel": {
    "name": "Ambassador Apparel",
-   "cat": "Apparel & footwear"
+   "cat": "Apparel & footwear",
+   "k": "b"
   },
   "ambra-spirits": {
    "name": "Ambra Spirits",
@@ -1751,10 +1755,12 @@
   },
   "amora-hotel-brisbane": {
    "name": "Amora Hotel Brisbane",
-   "cat": "Airlines & travel"
+   "cat": "Airlines & travel",
+   "k": "b"
   },
   "amplify": {
-   "name": "Amplify"
+   "name": "Amplify",
+   "k": "b"
   },
   "ampol": {
    "name": "Ampol",
@@ -3815,7 +3821,8 @@
   },
   "belbaker-bus-charter": {
    "name": "Belbaker Bus Charter",
-   "cat": "Logistics & transport"
+   "cat": "Logistics & transport",
+   "k": "b"
   },
   "belgravia": {
    "name": "Belgravia",
@@ -3893,7 +3900,8 @@
   },
   "bentspoke-brewing": {
    "name": "BentSpoke Brewing",
-   "cat": "Alcohol"
+   "cat": "Alcohol",
+   "k": "b"
   },
   "bernipave": {
    "name": "Bernipave",
@@ -4344,7 +4352,8 @@
   },
   "blackhawk-logistics": {
    "name": "Blackhawk Logistics",
-   "cat": "Apparel & footwear"
+   "cat": "Apparel & footwear",
+   "k": "b"
   },
   "blackmans-brewery": {
    "name": "Blackmans Brewery",
@@ -4499,7 +4508,8 @@
    ]
   },
   "bms": {
-   "name": "BMS"
+   "name": "BMS",
+   "k": "b"
   },
   "bms-group": {
    "name": "BMS Group",
@@ -5707,11 +5717,13 @@
    "k": "b"
   },
   "canberra-fm": {
-   "name": "Canberra FM"
+   "name": "Canberra FM",
+   "k": "b"
   },
   "canberra-milk": {
    "name": "Canberra Milk",
-   "cat": "Non-alcoholic drinks"
+   "cat": "Non-alcoholic drinks",
+   "k": "b"
   },
   "canberra-raiders": {
    "name": "Canberra Raiders",
@@ -5729,7 +5741,8 @@
    ]
   },
   "canberra-weekly": {
-   "name": "Canberra Weekly"
+   "name": "Canberra Weekly",
+   "k": "b"
   },
   "cancer-council": {
    "name": "Cancer Council",
@@ -5946,7 +5959,8 @@
    ]
   },
   "caring-approach": {
-   "name": "Caring Approach"
+   "name": "Caring Approach",
+   "k": "b"
   },
   "carling": {
    "name": "Carling",
@@ -6349,7 +6363,8 @@
    "k": "b"
   },
   "cest-bon": {
-   "name": "Cést Bon"
+   "name": "Cést Bon",
+   "k": "b"
   },
   "cff-project-management": {
    "name": "CFF Project Management",
@@ -7432,7 +7447,8 @@
    ]
   },
   "complete-scaffold-solutions": {
-   "name": "Complete Scaffold Solutions"
+   "name": "Complete Scaffold Solutions",
+   "k": "b"
   },
   "comsol": {
    "name": "COMSOL",
@@ -8010,7 +8026,8 @@
    ]
   },
   "croft": {
-   "name": "Croft"
+   "name": "Croft",
+   "k": "b"
   },
   "cromwell": {
    "name": "Cromwell",
@@ -8483,7 +8500,8 @@
    ]
   },
   "deanes-coaches": {
-   "name": "Deanes Coaches"
+   "name": "Deanes Coaches",
+   "k": "b"
   },
   "debet": {
    "name": "Debet",
@@ -8933,7 +8951,8 @@
   },
   "doma-hotels": {
    "name": "Doma Hotels",
-   "cat": "Airlines & travel"
+   "cat": "Airlines & travel",
+   "k": "b"
   },
   "dominance-guardian-services": {
    "name": "Dominance Guardian Services",
@@ -8976,7 +8995,8 @@
    "k": "b"
   },
   "doolee": {
-   "name": "Doolee"
+   "name": "Doolee",
+   "k": "b"
   },
   "doordash": {
    "name": "DoorDash",
@@ -9248,11 +9268,13 @@
    ]
   },
   "dxbi": {
-   "name": "DXBI"
+   "name": "DXBI",
+   "k": "b"
   },
   "dxc-technology": {
    "name": "DXC Technology",
-   "cat": "Technology"
+   "cat": "Technology",
+   "k": "b"
   },
   "dynamo-capital": {
    "name": "Dynamo Capital",
@@ -9368,7 +9390,8 @@
    "k": "b"
   },
   "eavs-av-services": {
-   "name": "EAVS AV Services"
+   "name": "EAVS AV Services",
+   "k": "b"
   },
   "eb-research-partnership": {
    "name": "EB Research Partnership",
@@ -9655,7 +9678,8 @@
    "cat": "Professional services"
   },
   "elite-maintenance-services": {
-   "name": "Elite Maintenance Services"
+   "name": "Elite Maintenance Services",
+   "k": "b"
   },
   "elite-solar": {
    "name": "ELITE Solar",
@@ -9759,7 +9783,8 @@
   },
   "endeavour-meats": {
    "name": "Endeavour Meats",
-   "cat": "Food & nutrition"
+   "cat": "Food & nutrition",
+   "k": "b"
   },
   "endomed": {
    "name": "Endomed",
@@ -10838,7 +10863,8 @@
    ]
   },
   "fitness-outcomes": {
-   "name": "Fitness Outcomes"
+   "name": "Fitness Outcomes",
+   "k": "b"
   },
   "five-guys": {
    "name": "Five Guys",
@@ -11190,7 +11216,8 @@
    ]
   },
   "fredon": {
-   "name": "Fredon"
+   "name": "Fredon",
+   "k": "b"
   },
   "freecity": {
    "name": "Freecity",
@@ -11530,7 +11557,8 @@
    "k": "b"
   },
   "garran-imaging-group": {
-   "name": "Garran Imaging Group"
+   "name": "Garran Imaging Group",
+   "k": "b"
   },
   "garrett-smithley": {
    "name": "Garrett Smithley",
@@ -11870,7 +11898,8 @@
    ]
   },
   "gmd": {
-   "name": "GMD"
+   "name": "GMD",
+   "k": "b"
   },
   "gmhba": {
    "name": "GMHBA",
@@ -12070,7 +12099,8 @@
    "name": "Golf Australia / PGA of Australia"
   },
   "golf24": {
-   "name": "Golf24"
+   "name": "Golf24",
+   "k": "b"
   },
   "golfit": {
    "name": "Golfit",
@@ -12347,7 +12377,8 @@
    "k": "b"
   },
   "gripstar": {
-   "name": "Gripstar"
+   "name": "Gripstar",
+   "k": "b"
   },
   "groq": {
    "name": "Groq",
@@ -12776,7 +12807,8 @@
   },
   "harvey-beef": {
    "name": "Harvey Beef",
-   "cat": "Food & nutrition"
+   "cat": "Food & nutrition",
+   "k": "b"
   },
   "harvey-norman": {
    "name": "Harvey Norman",
@@ -13029,7 +13061,8 @@
    ]
   },
   "her-canberra": {
-   "name": "Her Canberra"
+   "name": "Her Canberra",
+   "k": "b"
   },
   "herald-sun": {
    "name": "Herald Sun",
@@ -13425,7 +13458,8 @@
   },
   "hopgoodganim-lawyers": {
    "name": "HopgoodGanim Lawyers",
-   "cat": "Professional services"
+   "cat": "Professional services",
+   "k": "b"
   },
   "hostplus": {
    "name": "Hostplus",
@@ -13673,7 +13707,8 @@
   },
   "hyatt-hotel-canberra": {
    "name": "Hyatt Hotel Canberra",
-   "cat": "Airlines & travel"
+   "cat": "Airlines & travel",
+   "k": "b"
   },
   "hydraulic-distributors": {
    "name": "Hydraulic Distributors",
@@ -14289,7 +14324,8 @@
   },
   "international-sports-college-australia": {
    "name": "International Sports College Australia",
-   "cat": "Education"
+   "cat": "Education",
+   "k": "b"
   },
   "internetnz": {
    "name": "InternetNZ",
@@ -14553,7 +14589,8 @@
   },
   "it-s-real-estate": {
    "name": "It's Real Estate",
-   "cat": "Construction & property"
+   "cat": "Construction & property",
+   "k": "b"
   },
   "itv": {
    "name": "ITV",
@@ -15132,7 +15169,8 @@
   },
   "jubilee-hotel": {
    "name": "Jubilee Hotel",
-   "cat": "Airlines & travel"
+   "cat": "Airlines & travel",
+   "k": "b"
   },
   "judo-bank": {
    "name": "Judo Bank",
@@ -15281,7 +15319,8 @@
   },
   "kdl-property": {
    "name": "KDL Property",
-   "cat": "Construction & property"
+   "cat": "Construction & property",
+   "k": "b"
   },
   "keece-group": {
    "name": "Keece Group",
@@ -15647,7 +15686,8 @@
    ]
   },
   "knight-frank": {
-   "name": "Knight Frank"
+   "name": "Knight Frank",
+   "k": "b"
   },
   "knox-hydration": {
    "name": "KNOX Hydration",
@@ -17338,7 +17378,8 @@
   },
   "maddington-toyota": {
    "name": "Maddington Toyota",
-   "cat": "Automotive"
+   "cat": "Automotive",
+   "k": "b"
   },
   "madison-booker": {
    "name": "Madison Booker",
@@ -17527,7 +17568,8 @@
    ]
   },
   "margaret-river-roasting-co": {
-   "name": "Margaret River Roasting Co"
+   "name": "Margaret River Roasting Co",
+   "k": "b"
   },
   "marhill": {
    "name": "Marhill",
@@ -18965,7 +19007,8 @@
    ]
   },
   "morgans": {
-   "name": "Morgans"
+   "name": "Morgans",
+   "k": "b"
   },
   "moroccanoil": {
    "name": "Moroccanoil",
@@ -19366,7 +19409,8 @@
    ]
   },
   "my-elec-group": {
-   "name": "My Elec Group"
+   "name": "My Elec Group",
+   "k": "b"
   },
   "my-food-bag": {
    "name": "My Food Bag",
@@ -20273,7 +20317,8 @@
    "k": "b"
   },
   "niltech": {
-   "name": "Niltech"
+   "name": "Niltech",
+   "k": "b"
   },
   "nine": {
    "name": "Nine",
@@ -20961,7 +21006,8 @@
    ]
   },
   "octavian-group": {
-   "name": "Octavian Group"
+   "name": "Octavian Group",
+   "k": "b"
   },
   "ocular": {
    "name": "Ocular",
@@ -21839,7 +21885,8 @@
   },
   "patties-foods": {
    "name": "Patties Foods",
-   "cat": "Food & nutrition"
+   "cat": "Food & nutrition",
+   "k": "b"
   },
   "paul-and-shark": {
    "name": "Paul & Shark",
@@ -22017,7 +22064,8 @@
    ]
   },
   "people-and-culture": {
-   "name": "People & Culture"
+   "name": "People & Culture",
+   "k": "b"
   },
   "people-first-bank": {
    "name": "People First Bank",
@@ -22444,7 +22492,8 @@
    "k": "p"
   },
   "pickstar-works": {
-   "name": "Pickstar Works"
+   "name": "Pickstar Works",
+   "k": "b"
   },
   "picus-security": {
    "name": "Picus Security",
@@ -22503,7 +22552,8 @@
   },
   "pipeline-technics": {
    "name": "Pipeline Technics",
-   "cat": "Technology"
+   "cat": "Technology",
+   "k": "b"
   },
   "piper-heidsieck": {
    "name": "Piper-Heidsieck",
@@ -22709,7 +22759,8 @@
    ]
   },
   "podiatry-professionals": {
-   "name": "Podiatry Professionals"
+   "name": "Podiatry Professionals",
+   "k": "b"
   },
   "podium": {
    "name": "Podium",
@@ -22916,7 +22967,8 @@
   },
   "precision-hydration": {
    "name": "Precision Hydration",
-   "cat": "Non-alcoholic drinks"
+   "cat": "Non-alcoholic drinks",
+   "k": "b"
   },
   "predator-energy": {
    "name": "Predator Energy",
@@ -23914,7 +23966,8 @@
    "k": "b"
   },
   "recyclers": {
-   "name": "Recyclers"
+   "name": "Recyclers",
+   "k": "b"
   },
   "red-bull": {
    "name": "Red Bull",
@@ -23964,7 +24017,8 @@
    ]
   },
   "red-frogs-australia": {
-   "name": "Red Frogs Australia"
+   "name": "Red Frogs Australia",
+   "k": "b"
   },
   "red-hat": {
    "name": "Red Hat",
@@ -24086,7 +24140,8 @@
   },
   "rendezvous-hotel-perth-scarborough": {
    "name": "Rendezvous Hotel Perth Scarborough",
-   "cat": "Airlines & travel"
+   "cat": "Airlines & travel",
+   "k": "b"
   },
   "renewables-warehouse": {
    "name": "Renewables Warehouse",
@@ -24418,7 +24473,8 @@
   },
   "rivernet-communications": {
    "name": "Rivernet Communications",
-   "cat": "Professional services"
+   "cat": "Professional services",
+   "k": "b"
   },
   "rjo-earthworks": {
    "name": "RJO Earthworks",
@@ -25337,7 +25393,8 @@
   },
   "scarborough-wine-co": {
    "name": "Scarborough Wine Co",
-   "cat": "Alcohol"
+   "cat": "Alcohol",
+   "k": "b"
   },
   "schwalbe": {
    "name": "Schwalbe",
@@ -25715,7 +25772,8 @@
    "k": "b"
   },
   "sg-fleet": {
-   "name": "SG Fleet"
+   "name": "SG Fleet",
+   "k": "b"
   },
   "sgp-civil": {
    "name": "SGP Civil",
@@ -25732,7 +25790,8 @@
    ]
   },
   "shadeskin": {
-   "name": "Shadeskin"
+   "name": "Shadeskin",
+   "k": "b"
   },
   "shakhtar-donetsk": {
    "name": "Shakhtar Donetsk",
@@ -27551,7 +27610,8 @@
    ]
   },
   "suitor": {
-   "name": "Suitor"
+   "name": "Suitor",
+   "k": "b"
   },
   "suits-me": {
    "name": "Suits Me",
@@ -27579,7 +27639,8 @@
   },
   "sumo-energy": {
    "name": "Sumo Energy",
-   "cat": "Energy & utilities"
+   "cat": "Energy & utilities",
+   "k": "b"
   },
   "sumup": {
    "name": "SumUp",
@@ -27643,7 +27704,8 @@
   },
   "sunny-homes": {
    "name": "Sunny Homes",
-   "cat": "Construction & property"
+   "cat": "Construction & property",
+   "k": "b"
   },
   "sunny-kids": {
    "name": "Sunny Kids",
@@ -28220,7 +28282,8 @@
    "domain": "tac.vic.gov.au"
   },
   "tactics": {
-   "name": "Tactics"
+   "name": "Tactics",
+   "k": "b"
   },
   "tafe-nsw": {
    "name": "TAFE NSW",
@@ -28417,7 +28480,8 @@
    ]
   },
   "tattersalls-club": {
-   "name": "Tattersalls Club"
+   "name": "Tattersalls Club",
+   "k": "b"
   },
   "taxtalk": {
    "name": "taxtalk",
@@ -28450,7 +28514,8 @@
   },
   "taylors-wines": {
    "name": "Taylors Wines",
-   "cat": "Alcohol"
+   "cat": "Alcohol",
+   "k": "b"
   },
   "tcd-group": {
    "name": "TCD Group",
@@ -28821,7 +28886,8 @@
    "k": "b"
   },
   "the-butcher-shoppe": {
-   "name": "The Butcher Shoppe"
+   "name": "The Butcher Shoppe",
+   "k": "b"
   },
   "the-chambers": {
    "name": "The Chambers",
@@ -29330,7 +29396,8 @@
    "k": "b"
   },
   "tiparra": {
-   "name": "Tiparra"
+   "name": "Tiparra",
+   "k": "b"
   },
   "tismo-geneve": {
    "name": "TisMO Geneve",
@@ -29352,7 +29419,8 @@
    "k": "b"
   },
   "titan-containers-australia": {
-   "name": "Titan Containers Australia"
+   "name": "Titan Containers Australia",
+   "k": "b"
   },
   "titan-education": {
    "name": "Titan Education",
@@ -29975,7 +30043,8 @@
    "k": "b"
   },
   "truefitt-and-hill": {
-   "name": "Truefitt & Hill"
+   "name": "Truefitt & Hill",
+   "k": "b"
   },
   "truefuels": {
    "name": "truefuels",
@@ -30450,7 +30519,8 @@
   },
   "university-of-canberra": {
    "name": "University of Canberra",
-   "cat": "Education"
+   "cat": "Education",
+   "k": "b"
   },
   "university-of-newcastle": {
    "name": "University of Newcastle",
@@ -30690,7 +30760,8 @@
   },
   "uwa": {
    "name": "UWA",
-   "cat": "Education"
+   "cat": "Education",
+   "k": "b"
   },
   "v-energy": {
    "name": "V Energy",
@@ -30872,10 +30943,12 @@
   },
   "veo-technologies": {
    "name": "Veo Technologies",
-   "cat": "Technology"
+   "cat": "Technology",
+   "k": "b"
   },
   "veolia": {
-   "name": "Veolia"
+   "name": "Veolia",
+   "k": "b"
   },
   "vercel": {
    "name": "Vercel",
@@ -31010,7 +31083,8 @@
    "sub": "Sports medicine & strapping"
   },
   "victor-sports-club-supplies": {
-   "name": "Victor Sports Club Supplies"
+   "name": "Victor Sports Club Supplies",
+   "k": "b"
   },
   "victoria-racing-club": {
    "name": "Victoria Racing Club",
@@ -31121,7 +31195,8 @@
    ]
   },
   "vikings-group": {
-   "name": "Vikings Group"
+   "name": "Vikings Group",
+   "k": "b"
   },
   "vikram-pratap-singh": {
    "name": "Vikram Pratap Singh",
@@ -31870,7 +31945,8 @@
   },
   "west-coast-bus-charters": {
    "name": "West Coast Bus Charters",
-   "cat": "Logistics & transport"
+   "cat": "Logistics & transport",
+   "k": "b"
   },
   "west-coast-eagles": {
    "name": "West Coast Eagles",
@@ -32127,7 +32203,8 @@
    ]
   },
   "what-ability": {
-   "name": "What Ability"
+   "name": "What Ability",
+   "k": "b"
   },
   "whatability": {
    "name": "WhatAbility",
@@ -32469,7 +32546,8 @@
    ]
   },
   "works-for-you": {
-   "name": "Works for you"
+   "name": "Works for you",
+   "k": "b"
   },
   "worksafe-victoria": {
    "name": "WorkSafe Victoria",
@@ -32833,7 +32911,8 @@
    "k": "b"
   },
   "xp-maintenance": {
-   "name": "XP Maintenance"
+   "name": "XP Maintenance",
+   "k": "b"
   },
   "xpress-fleet": {
    "name": "Xpress Fleet",
@@ -32907,7 +32986,8 @@
    ]
   },
   "yara": {
-   "name": "YARA"
+   "name": "YARA",
+   "k": "b"
   },
   "yashasvi-jaiswal": {
    "name": "Yashasvi Jaiswal",
@@ -32978,7 +33058,8 @@
    ]
   },
   "yokohama-otr": {
-   "name": "Yokohama OTR"
+   "name": "Yokohama OTR",
+   "k": "b"
   },
   "yonex": {
    "name": "Yonex",
@@ -33176,7 +33257,8 @@
    ]
   },
   "ziggys-fresh": {
-   "name": "Ziggys Fresh"
+   "name": "Ziggys Fresh",
+   "k": "b"
   },
   "zilch": {
    "name": "Zilch",
