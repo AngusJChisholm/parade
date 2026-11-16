@@ -1760,6 +1760,9 @@
    "cat": "Apparel & footwear",
    "k": "b"
   },
+  "ambra": {
+   "name": "Ambra"
+  },
   "ambra-spirits": {
    "name": "Ambra Spirits",
    "cat": "Alcohol",
@@ -4174,6 +4177,9 @@
    "cat": "Telco",
    "k": "b"
   },
+  "belt-up": {
+   "name": "Belt Up"
+  },
   "belvedere": {
    "name": "Belvedere",
    "cat": "Alcohol",
@@ -5251,6 +5257,10 @@
    "bf": [
     "icon"
    ]
+  },
+  "breakthrough-mental-health-research-foundation": {
+   "name": "Breakthrough Mental Health Research Foundation",
+   "cat": "Health & beauty"
   },
   "breathe-stretch-float": {
    "name": "Breathe Stretch Float",
@@ -7951,6 +7961,9 @@
     "logo"
    ]
   },
+  "colcap": {
+   "name": "ColCap"
+  },
   "colcap-financial-group": {
    "name": "ColCap Financial Group",
    "domain": "colcap.com.au",
@@ -8779,7 +8792,10 @@
     "icon"
    ],
    "ptype": "Governing body",
-   "k": "p"
+   "k": "p",
+   "ptiers": [
+    "Official partner"
+   ]
   },
   "cricket-scotland": {
    "name": "Cricket Scotland",
@@ -8807,7 +8823,12 @@
     "icon"
    ],
    "ptype": "Governing body",
-   "k": "p"
+   "k": "p",
+   "ptiers": [
+    "Major partner",
+    "Other partner"
+   ],
+   "ptiersChecked": "2026-11-16"
   },
   "cricket-victoria": {
    "name": "Cricket Victoria",
@@ -8817,7 +8838,17 @@
     "logo"
    ],
    "ptype": "Governing body",
-   "k": "p"
+   "k": "p",
+   "ptiers": [
+    "Official partner",
+    "Official automotive partner",
+    "Official apparel supplier",
+    "Official helmet supplier",
+    "Government partner",
+    "Community partner",
+    "MCEA partner"
+   ],
+   "ptiersChecked": "2026-11-16"
   },
   "cricket-wellington": {
    "name": "Cricket Wellington",
@@ -9029,6 +9060,9 @@
    "bf": [
     "icon"
    ]
+  },
+  "csbp": {
+   "name": "CSBP"
   },
   "cska-sofia": {
    "name": "CSKA Sofia",
@@ -12761,6 +12795,9 @@
     "logo"
    ]
   },
+  "gabba-sporting-products": {
+   "name": "Gabba Sporting Products"
+  },
   "gac": {
    "name": "GAC",
    "domain": "gacmotor.com",
@@ -13512,6 +13549,9 @@
    "name": "Goodrich",
    "k": "b"
   },
+  "goodwe": {
+   "name": "GoodWe"
+  },
   "google": {
    "name": "Google",
    "domain": "google.com",
@@ -13552,6 +13592,10 @@
     "icon",
     "logo"
    ]
+  },
+  "government-of-western-australia": {
+   "name": "Government of Western Australia",
+   "cat": "Tourism & government"
   },
   "grammar-electrical": {
    "name": "Grammar Electrical",
@@ -13630,6 +13674,10 @@
     "logo"
    ],
    "parent": "carlton-and-united-breweries"
+  },
+  "great-northern-brewing-co": {
+   "name": "Great Northern Brewing Co",
+   "cat": "Alcohol"
   },
   "great-southern-bank": {
    "name": "Great Southern Bank",
@@ -15907,6 +15955,10 @@
    "cat": "Insurance",
    "k": "b"
   },
+  "insurance-commission-of-western-australia": {
+   "name": "Insurance Commission of Western Australia",
+   "cat": "Insurance"
+  },
   "int-workspaces": {
    "name": "Int Workspaces",
    "k": "b"
@@ -18094,6 +18146,9 @@
     "logo"
    ]
   },
+  "lawrenny": {
+   "name": "Lawrenny"
+  },
   "lawrenny-distillery": {
    "name": "Lawrenny Distillery",
    "k": "b"
@@ -18917,6 +18972,9 @@
     "icon",
     "logo"
    ]
+  },
+  "lord-s-taverners": {
+   "name": "Lord's Taverners"
   },
   "los-angeles-chargers": {
    "name": "Los Angeles Chargers",
@@ -23329,6 +23387,10 @@
     "logo"
    ]
   },
+  "oaks-hotels": {
+   "name": "Oaks Hotels",
+   "cat": "Airlines & travel"
+  },
   "object-1": {
    "name": "Object 1",
    "cat": "Construction & property",
@@ -24566,6 +24628,9 @@
    "name": "People & Culture",
    "k": "b"
   },
+  "people-culture-strategies": {
+   "name": "People + Culture Strategies"
+  },
   "people-first-bank": {
    "name": "People First Bank",
    "cat": "Banking & finance",
@@ -25296,6 +25361,9 @@
     "icon",
     "logo"
    ]
+  },
+  "pm-sport": {
+   "name": "PM Sport"
   },
   "pmy": {
    "name": "PMY",
@@ -26141,7 +26209,15 @@
     "icon"
    ],
    "ptype": "Governing body",
-   "k": "p"
+   "k": "p",
+   "ptiers": [
+    "Principal partner",
+    "Major partner",
+    "Official partner",
+    "Charity partner",
+    "Media partner"
+   ],
+   "ptiersChecked": "2026-11-16"
   },
   "queensland-firebirds": {
    "name": "Queensland Firebirds",
@@ -27242,6 +27318,10 @@
     "icon",
     "logo"
    ]
+  },
+  "rmit-university": {
+   "name": "RMIT University",
+   "cat": "Education"
   },
   "road-safety-advisory-council": {
    "name": "Road Safety Advisory Council",
@@ -28732,6 +28812,9 @@
    "name": "Shapes",
    "k": "b"
   },
+  "shark": {
+   "name": "Shark"
+  },
   "shark-beauty": {
    "name": "Shark Beauty",
    "cat": "Health & beauty",
@@ -29636,7 +29719,15 @@
    "domain": "saca.com.au",
    "bf": [
     "icon"
-   ]
+   ],
+   "ptiers": [
+    "Principal partner",
+    "Major partner",
+    "Official partner",
+    "Supply partner",
+    "Charity partner"
+   ],
+   "ptiersChecked": "2026-11-16"
   },
   "south-australian-tourism-commission": {
    "name": "South Australian Tourism Commission",
@@ -30119,6 +30210,9 @@
    "cat": "Health & beauty",
    "k": "b"
   },
+  "sportwest": {
+   "name": "SportWest"
+  },
   "sporty": {
    "name": "Sporty",
    "k": "b"
@@ -30507,6 +30601,10 @@
   "status-signs": {
    "name": "Status Signs",
    "k": "b"
+  },
+  "staying-alive-health": {
+   "name": "Staying Alive Health",
+   "cat": "Health & beauty"
   },
   "steeden": {
    "name": "Steeden",
@@ -31800,6 +31898,9 @@
    "name": "Tauranga Netball Centre",
    "k": "b"
   },
+  "taverners-victoria": {
+   "name": "Taverners Victoria"
+  },
   "taxtalk": {
    "name": "taxtalk",
    "cat": "Professional services",
@@ -32695,6 +32796,10 @@
   "thiess": {
    "name": "Thiess",
    "k": "b"
+  },
+  "think-mental-health": {
+   "name": "Think Mental Health",
+   "cat": "Health & beauty"
   },
   "think-renewable": {
    "name": "Think Renewable",
@@ -34836,6 +34941,9 @@
     "experiences"
    ]
   },
+  "victoria-s-container-deposit-scheme": {
+   "name": "Victoria's Container Deposit Scheme"
+  },
   "victoria-university": {
    "name": "Victoria University",
    "cat": "Education",
@@ -35368,7 +35476,13 @@
    "bf": [
     "icon",
     "logo"
-   ]
+   ],
+   "ptiers": [
+    "Major partner",
+    "Official partner",
+    "Official suppliers, media partners & industry supporters"
+   ],
+   "ptiersChecked": "2026-11-16"
   },
   "wa-football": {
    "name": "WA Football",
