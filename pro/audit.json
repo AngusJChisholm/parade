@@ -2,9 +2,9 @@
  "generated": "2026-11-16",
  "summary": {
   "dup_entities": 26,
-  "no_category": 1772,
+  "no_category": 1784,
   "cat_mismatch": 104,
-  "slot_clash": 47,
+  "slot_clash": 48,
   "dup_deals": 9,
   "no_broadcaster": 16,
   "stale": 3,
@@ -14,42 +14,22 @@
  "dup_entities": [
   {
    "names": [
-    "Basketball Australia",
-    "Basketball New Zealand"
+    "QMS",
+    "QMS NZ"
    ],
    "slugs": [
-    "basketball-australia",
-    "basketball-new-zealand"
+    "qms",
+    "qms-nz"
    ]
   },
   {
    "names": [
-    "Ant Group",
-    "Ant International"
+    "PURE Sports Nutrition",
+    "Pure Nutrition"
    ],
    "slugs": [
-    "ant-group",
-    "ant-international"
-   ]
-  },
-  {
-   "names": [
-    "Hong Kong Jockey Club",
-    "The Hong Kong Jockey Club"
-   ],
-   "slugs": [
-    "hong-kong-jockey-club",
-    "the-hong-kong-jockey-club"
-   ]
-  },
-  {
-   "names": [
-    "Asahi Beverages",
-    "Asahi Beverages NZ"
-   ],
-   "slugs": [
-    "asahi-beverages",
-    "asahi-beverages-nz"
+    "pure-nutrition",
+    "pure-sports-nutrition"
    ]
   },
   {
@@ -60,38 +40,6 @@
    "slugs": [
     "salvation-army",
     "the-salvation-army"
-   ]
-  },
-  {
-   "names": [
-    "Athletics",
-    "Athletics Australia",
-    "Athletics New Zealand"
-   ],
-   "slugs": [
-    "athletics",
-    "athletics-australia",
-    "athletics-new-zealand"
-   ]
-  },
-  {
-   "names": [
-    "Dynasty",
-    "Dynasty Sport"
-   ],
-   "slugs": [
-    "dynasty",
-    "dynasty-sport"
-   ]
-  },
-  {
-   "names": [
-    "Commonwealth Games",
-    "Commonwealth Games Australia"
-   ],
-   "slugs": [
-    "commonwealth-games",
-    "commonwealth-games-australia"
    ]
   },
   {
@@ -110,134 +58,12 @@
   },
   {
    "names": [
-    "News Corp",
-    "News Corp Australia"
+    "Dynasty",
+    "Dynasty Sport"
    ],
    "slugs": [
-    "news-corp",
-    "news-corp-australia"
-   ]
-  },
-  {
-   "names": [
-    "Dolphins",
-    "Dolphins Group"
-   ],
-   "slugs": [
-    "dolphins",
-    "dolphins-group"
-   ]
-  },
-  {
-   "names": [
-    "Courier Mail",
-    "The Courier-Mail"
-   ],
-   "slugs": [
-    "courier-mail",
-    "the-courier-mail"
-   ]
-  },
-  {
-   "names": [
-    "Victor",
-    "Victor Sports"
-   ],
-   "slugs": [
-    "victor",
-    "victor-sports"
-   ]
-  },
-  {
-   "names": [
-    "Hockey Australia",
-    "Hockey New Zealand"
-   ],
-   "slugs": [
-    "hockey-australia",
-    "hockey-new-zealand"
-   ]
-  },
-  {
-   "names": [
-    "BMS",
-    "BMS Group"
-   ],
-   "slugs": [
-    "bms",
-    "bms-group"
-   ]
-  },
-  {
-   "names": [
-    "Southern Trust",
-    "The Southern Trust"
-   ],
-   "slugs": [
-    "southern-trust",
-    "the-southern-trust"
-   ]
-  },
-  {
-   "names": [
-    "Kia",
-    "Kia Australia"
-   ],
-   "slugs": [
-    "kia",
-    "kia-australia"
-   ]
-  },
-  {
-   "names": [
-    "Star Group",
-    "Star Sports",
-    "The Star"
-   ],
-   "slugs": [
-    "star-group",
-    "star-sports",
-    "the-star"
-   ]
-  },
-  {
-   "names": [
-    "Seven",
-    "Seven Group"
-   ],
-   "slugs": [
-    "seven",
-    "seven-group"
-   ]
-  },
-  {
-   "names": [
-    "Compass",
-    "Compass Group"
-   ],
-   "slugs": [
-    "compass",
-    "compass-group"
-   ]
-  },
-  {
-   "names": [
-    "PURE Sports Nutrition",
-    "Pure Nutrition"
-   ],
-   "slugs": [
-    "pure-nutrition",
-    "pure-sports-nutrition"
-   ]
-  },
-  {
-   "names": [
-    "Special Olympics",
-    "Special Olympics Australia"
-   ],
-   "slugs": [
-    "special-olympics",
-    "special-olympics-australia"
+    "dynasty",
+    "dynasty-sport"
    ]
   },
   {
@@ -262,6 +88,26 @@
   },
   {
    "names": [
+    "Commonwealth Games",
+    "Commonwealth Games Australia"
+   ],
+   "slugs": [
+    "commonwealth-games",
+    "commonwealth-games-australia"
+   ]
+  },
+  {
+   "names": [
+    "Ant Group",
+    "Ant International"
+   ],
+   "slugs": [
+    "ant-group",
+    "ant-international"
+   ]
+  },
+  {
+   "names": [
     "TAB",
     "TAB NZ"
    ],
@@ -272,12 +118,166 @@
   },
   {
    "names": [
-    "QMS",
-    "QMS NZ"
+    "Dolphins",
+    "Dolphins Group"
    ],
    "slugs": [
-    "qms",
-    "qms-nz"
+    "dolphins",
+    "dolphins-group"
+   ]
+  },
+  {
+   "names": [
+    "Seven",
+    "Seven Group"
+   ],
+   "slugs": [
+    "seven",
+    "seven-group"
+   ]
+  },
+  {
+   "names": [
+    "Athletics",
+    "Athletics Australia",
+    "Athletics New Zealand"
+   ],
+   "slugs": [
+    "athletics",
+    "athletics-australia",
+    "athletics-new-zealand"
+   ]
+  },
+  {
+   "names": [
+    "Hong Kong Jockey Club",
+    "The Hong Kong Jockey Club"
+   ],
+   "slugs": [
+    "hong-kong-jockey-club",
+    "the-hong-kong-jockey-club"
+   ]
+  },
+  {
+   "names": [
+    "Victor",
+    "Victor Sports"
+   ],
+   "slugs": [
+    "victor",
+    "victor-sports"
+   ]
+  },
+  {
+   "names": [
+    "Asahi Beverages",
+    "Asahi Beverages NZ"
+   ],
+   "slugs": [
+    "asahi-beverages",
+    "asahi-beverages-nz"
+   ]
+  },
+  {
+   "names": [
+    "BMS",
+    "BMS Group"
+   ],
+   "slugs": [
+    "bms",
+    "bms-group"
+   ]
+  },
+  {
+   "names": [
+    "Star Group",
+    "Star Sports",
+    "The Star"
+   ],
+   "slugs": [
+    "star-group",
+    "star-sports",
+    "the-star"
+   ]
+  },
+  {
+   "names": [
+    "Basketball Australia",
+    "Basketball New Zealand"
+   ],
+   "slugs": [
+    "basketball-australia",
+    "basketball-new-zealand"
+   ]
+  },
+  {
+   "names": [
+    "Southern Trust",
+    "The Southern Trust"
+   ],
+   "slugs": [
+    "southern-trust",
+    "the-southern-trust"
+   ]
+  },
+  {
+   "names": [
+    "Courier Mail",
+    "The Courier-Mail"
+   ],
+   "slugs": [
+    "courier-mail",
+    "the-courier-mail"
+   ]
+  },
+  {
+   "names": [
+    "News Corp",
+    "News Corp Australia"
+   ],
+   "slugs": [
+    "news-corp",
+    "news-corp-australia"
+   ]
+  },
+  {
+   "names": [
+    "Special Olympics",
+    "Special Olympics Australia"
+   ],
+   "slugs": [
+    "special-olympics",
+    "special-olympics-australia"
+   ]
+  },
+  {
+   "names": [
+    "Hockey Australia",
+    "Hockey New Zealand"
+   ],
+   "slugs": [
+    "hockey-australia",
+    "hockey-new-zealand"
+   ]
+  },
+  {
+   "names": [
+    "Compass",
+    "Compass Group"
+   ],
+   "slugs": [
+    "compass",
+    "compass-group"
+   ]
+  },
+  {
+   "names": [
+    "Kia",
+    "Kia Australia"
+   ],
+   "slugs": [
+    "kia",
+    "kia-australia"
    ]
   }
  ],
@@ -453,6 +453,11 @@
    "deals": 4
   },
   {
+   "brand": "Vivid Seats",
+   "slug": "vivid-seats",
+   "deals": 3
+  },
+  {
    "brand": "Nationwide",
    "slug": "nationwide",
    "deals": 3
@@ -576,6 +581,21 @@
    "brand": "GSA",
    "slug": "gsa",
    "deals": 3
+  },
+  {
+   "brand": "Anheuser-Busch",
+   "slug": "anheuser-busch",
+   "deals": 2
+  },
+  {
+   "brand": "Batteries Plus",
+   "slug": "batteries-plus",
+   "deals": 2
+  },
+  {
+   "brand": "Abercrombie & Fitch",
+   "slug": "abercrombie-and-fitch",
+   "deals": 2
   },
   {
    "brand": "TicketManager",
@@ -1148,6 +1168,61 @@
    "deals": 2
   },
   {
+   "brand": "Ascension St. Vincent",
+   "slug": "ascension-st-vincent",
+   "deals": 1
+  },
+  {
+   "brand": "Invst",
+   "slug": "invst",
+   "deals": 1
+  },
+  {
+   "brand": "Everstream",
+   "slug": "everstream",
+   "deals": 1
+  },
+  {
+   "brand": "Thrivent",
+   "slug": "thrivent",
+   "deals": 1
+  },
+  {
+   "brand": "Shopko Optical",
+   "slug": "shopko-optical",
+   "deals": 1
+  },
+  {
+   "brand": "Trace3",
+   "slug": "trace3",
+   "deals": 1
+  },
+  {
+   "brand": "Empower",
+   "slug": "empower",
+   "deals": 1
+  },
+  {
+   "brand": "Dialpad",
+   "slug": "dialpad",
+   "deals": 1
+  },
+  {
+   "brand": "MDA Space",
+   "slug": "mda-space",
+   "deals": 1
+  },
+  {
+   "brand": "Bally's Interactive",
+   "slug": "bally-s-interactive",
+   "deals": 1
+  },
+  {
+   "brand": "Riddell",
+   "slug": "riddell",
+   "deals": 1
+  },
+  {
    "brand": "CBTS",
    "slug": "cbts",
    "deals": 1
@@ -1175,11 +1250,6 @@
   {
    "brand": "Abbott",
    "slug": "abbott",
-   "deals": 1
-  },
-  {
-   "brand": "Vivid Seats",
-   "slug": "vivid-seats",
    "deals": 1
   },
   {
@@ -1758,11 +1828,6 @@
    "deals": 1
   },
   {
-   "brand": "Abercrombie & Fitch",
-   "slug": "abercrombie-and-fitch",
-   "deals": 1
-  },
-  {
    "brand": "Moody's",
    "slug": "moody-s",
    "deals": 1
@@ -1915,11 +1980,6 @@
   {
    "brand": "Build-A-Bear Workshop",
    "slug": "build-a-bear-workshop",
-   "deals": 1
-  },
-  {
-   "brand": "Anheuser-Busch",
-   "slug": "anheuser-busch",
    "deals": 1
   },
   {
@@ -10429,6 +10489,23 @@
     {
      "brand": "Guinness",
      "since": "Aug 2025",
+     "ends": null
+    }
+   ]
+  },
+  {
+   "property": "Cleveland Browns",
+   "anz": false,
+   "slot": "Banks",
+   "partners": [
+    {
+     "brand": "Huntington Bank",
+     "since": "listed",
+     "ends": null
+    },
+    {
+     "brand": "CrossCountry Mortgage",
+     "since": "listed",
      "ends": null
     }
    ]
