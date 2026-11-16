@@ -2552,6 +2552,9 @@
     "logo"
    ]
   },
+  "anthem": {
+   "name": "Anthem"
+  },
   "anthony-greenwood-legal": {
    "name": "Anthony Greenwood Legal",
    "k": "b",
@@ -10247,6 +10250,9 @@
    "cat": "Health & beauty",
    "k": "b"
   },
+  "cleveland-avenue": {
+   "name": "Cleveland Avenue"
+  },
   "cleveland-browns": {
    "name": "Cleveland Browns",
    "domain": "clevelandbrowns.com",
@@ -11149,7 +11155,12 @@
    "domain": "connecticutsun.com",
    "bf": [
     "icon"
-   ]
+   ],
+   "ptiers": [
+    "Jersey partner",
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-17"
   },
   "connection-2-sports": {
    "name": "Connection 2 Sports",
@@ -12548,6 +12559,16 @@
     "Official partner"
    ]
   },
+  "dallas-wings": {
+   "name": "Dallas Wings",
+   "domain": "wings.wnba.com",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ]
+  },
   "dalton-hunt-dentistry": {
    "name": "Dalton Hunt Dentistry",
    "cat": "Health & beauty",
@@ -13662,6 +13683,10 @@
   "doppel": {
    "name": "Doppel",
    "k": "b"
+  },
+  "dos-caras-tequila": {
+   "name": "Dos Caras Tequila",
+   "cat": "Alcohol"
   },
   "double-dare-group": {
    "name": "Double Dare Group",
@@ -17267,6 +17292,10 @@
    "name": "Fruitist",
    "k": "b"
   },
+  "fry-s-food-stores": {
+   "name": "Fry's Food Stores",
+   "cat": "Food & nutrition"
+  },
   "fsu-athletics": {
    "name": "FSU Athletics",
    "domain": "seminoles.com",
@@ -18290,7 +18319,12 @@
    "bf": [
     "icon",
     "logo"
-   ]
+   ],
+   "ptiers": [
+    "Jersey partner",
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-17"
   },
   "golden-state-warriors": {
    "name": "Golden State Warriors",
@@ -19872,6 +19906,10 @@
    "name": "Hermes",
    "cat": "Watches & luxury",
    "k": "b"
+  },
+  "hero-bread": {
+   "name": "Hero Bread",
+   "cat": "Food & nutrition"
   },
   "hero-motocorp": {
    "name": "Hero MotoCorp",
@@ -21567,7 +21605,11 @@
    "domain": "feverbasketball.com",
    "bf": [
     "icon"
-   ]
+   ],
+   "ptiers": [
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-17"
   },
   "indiana-pacers": {
    "name": "Indiana Pacers",
@@ -22059,6 +22101,9 @@
    ],
    "ptiersChecked": "2026-11-16",
    "logo": "assets/logos/ipswich-town.png"
+  },
+  "ipsy": {
+   "name": "IPSY"
   },
   "iqoo": {
    "name": "iQOO",
@@ -22982,6 +23027,10 @@
     "icon",
     "logo"
    ]
+  },
+  "jordan-s-furniture": {
+   "name": "Jordan's Furniture",
+   "cat": "Retail"
   },
   "joseph-auto-group": {
    "name": "Joseph Auto Group",
@@ -24562,7 +24611,12 @@
    "domain": "lasvegasaces.com",
    "bf": [
     "icon"
-   ]
+   ],
+   "ptiers": [
+    "Jersey partner",
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-17"
   },
   "las-vegas-convention-and-visitors-authority": {
    "name": "Las Vegas Convention and Visitors Authority",
@@ -25734,6 +25788,19 @@
     "Official partner"
    ],
    "logo": "assets/logos/los-angeles-rams.png"
+  },
+  "los-angeles-sparks": {
+   "name": "Los Angeles Sparks",
+   "domain": "sparks.wnba.com",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "aliases": [
+    "LA Sparks"
+   ]
   },
   "los-angeles-times": {
    "name": "Los Angeles Times",
@@ -28078,6 +28145,21 @@
    "cat": "Betting & wagering",
    "k": "b"
   },
+  "minnesota-lynx": {
+   "name": "Minnesota Lynx",
+   "domain": "lynx.wnba.com",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "ptiers": [
+    "Jersey partner",
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-17"
+  },
   "minnesota-timberwolves": {
    "name": "Minnesota Timberwolves",
    "ptype": "Club & team",
@@ -28926,6 +29008,10 @@
    "domain": "mountsinai.org",
    "cat": "Health & beauty",
    "k": "b"
+  },
+  "mountain-america-credit-union": {
+   "name": "Mountain America Credit Union",
+   "cat": "Banking & finance"
   },
   "mountain-culture": {
    "name": "Mountain Culture",
@@ -32928,6 +33014,9 @@
    "cat": "Health & beauty",
    "k": "b"
   },
+  "pacific-science-center": {
+   "name": "Pacific Science Center"
+  },
   "pacificaus-sports": {
    "name": "PacificAus Sports",
    "k": "b"
@@ -34123,6 +34212,22 @@
    "name": "Philly's Best",
    "k": "b"
   },
+  "phoenix-mercury": {
+   "name": "Phoenix Mercury",
+   "domain": "mercury.wnba.com",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "ptiers": [
+    "Naming rights",
+    "Jersey partner",
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-17"
+  },
   "phoenix-suns": {
    "name": "Phoenix Suns",
    "domain": "suns.com",
@@ -34782,6 +34887,20 @@
   "portillo-s": {
    "name": "Portillo's",
    "k": "b"
+  },
+  "portland-fire": {
+   "name": "Portland Fire",
+   "domain": "portlandfire.com",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "ptiers": [
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-17"
   },
   "portland-pet-food-company": {
    "name": "Portland Pet Food Company",
@@ -36294,6 +36413,9 @@
   "rbfcu": {
    "name": "RBFCU",
    "k": "b"
+  },
+  "rca": {
+   "name": "RCA"
   },
   "rd-petroleum": {
    "name": "RD Petroleum",
@@ -38899,7 +39021,12 @@
    "bf": [
     "icon",
     "logo"
-   ]
+   ],
+   "ptiers": [
+    "Jersey partner",
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-17"
   },
   "seaworld": {
    "name": "SeaWorld",
@@ -39103,6 +39230,9 @@
    "name": "SEPTA",
    "k": "b"
   },
+  "sequel": {
+   "name": "Sequel"
+  },
   "serie-a": {
    "name": "Serie A",
    "domain": "legaseriea.it",
@@ -39189,6 +39319,9 @@
     "icon"
    ],
    "logo": "assets/logos/sevilla.png"
+  },
+  "sezzle": {
+   "name": "Sezzle"
   },
   "sfd": {
    "name": "SFD",
@@ -40274,6 +40407,10 @@
   "snipes": {
    "name": "Snipes",
    "k": "b"
+  },
+  "snoqualmie-casino-and-hotel": {
+   "name": "Snoqualmie Casino & Hotel",
+   "cat": "Betting & wagering"
   },
   "snowflake": {
    "name": "Snowflake",
@@ -42816,6 +42953,9 @@
    "cat": "Apparel & footwear",
    "k": "b"
   },
+  "symetra": {
+   "name": "Symetra"
+  },
   "symons-group": {
    "name": "Symons Group",
    "k": "b"
@@ -45246,6 +45386,20 @@
    ],
    "ptiersChecked": "2026-11-16"
   },
+  "toronto-tempo": {
+   "name": "Toronto Tempo",
+   "domain": "tempo.wnba.com",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "ptiers": [
+    "Jersey partner"
+   ],
+   "ptiersChecked": "2026-11-17"
+  },
   "torrens-university-australia": {
    "name": "Torrens University Australia",
    "cat": "Education",
@@ -47265,6 +47419,10 @@
    ],
    "ptiersChecked": "2026-11-17"
   },
+  "vanda-pharmaceuticals": {
+   "name": "Vanda Pharmaceuticals",
+   "cat": "Health & beauty"
+  },
   "vandenberg": {
    "name": "Vandenberg",
    "cat": "Other",
@@ -48637,6 +48795,20 @@
     "Naming rights",
     "Official partner"
    ]
+  },
+  "washington-mystics": {
+   "name": "Washington Mystics",
+   "domain": "mystics.wnba.com",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "ptiers": [
+    "Jersey partner"
+   ],
+   "ptiersChecked": "2026-11-17"
   },
   "washington-nationals": {
    "name": "Washington Nationals",
