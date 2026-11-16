@@ -1110,7 +1110,8 @@
     "Silver partner",
     "Official partner"
    ],
-   "logo": "assets/logos/adelaide-united.png"
+   "logo": "assets/logos/adelaide-united.png",
+   "ptiersChecked": "2026-11-17"
   },
   "adelaide-university": {
    "name": "Adelaide University",
@@ -9449,7 +9450,11 @@
    "name": "Central Pulse",
    "domain": "pulse.org.nz",
    "ptype": "Club & team",
-   "k": "p"
+   "k": "p",
+   "ptiers": [
+    "Naming rights"
+   ],
+   "ptiersChecked": "2026-11-17"
   },
   "central-roofing": {
    "name": "Central Roofing",
@@ -28048,6 +28053,9 @@
    "name": "Meet Boston",
    "k": "b"
   },
+  "mega": {
+   "name": "MEGA"
+  },
   "mega-rewards": {
    "name": "Mega Rewards",
    "domain": "megarewards.au",
@@ -44918,6 +44926,9 @@
    "name": "Te Waka Whaiora Trust",
    "k": "b"
   },
+  "te-wananga-o-raukawa": {
+   "name": "Te Wānanga o Raukawa"
+  },
   "te-whatu-ora": {
    "name": "Te Whatu Ora",
    "k": "b",
@@ -47858,6 +47869,9 @@
   "uc-online": {
    "name": "UC Online",
    "k": "b"
+  },
+  "ucan": {
+   "name": "UCAN"
   },
   "uchealth": {
    "name": "UCHealth",
