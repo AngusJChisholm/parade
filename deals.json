@@ -100,7 +100,8 @@
    "url": "https://ministryofsport.com/classic-sportswear-and-nrl-extend-representative-apparel-partnership/",
    "market": "ANZ",
    "tier": "Kit & apparel",
-   "status": "Extension"
+   "status": "Extension",
+   "ptier": "Official partner"
   },
   {
    "date": "2026-11-16",
@@ -2297,7 +2298,7 @@
    "status": "New",
    "term": 2,
    "market": "ANZ",
-   "ptier": "Official insurance partner",
+   "ptier": "Major partner",
    "ends": 2019,
    "endsEst": true
   },
@@ -11067,7 +11068,8 @@
    "term": 3,
    "ends": 2029,
    "endsEst": true,
-   "market": "ANZ"
+   "market": "ANZ",
+   "ptier": "Official partner"
   },
   {
    "date": "2026-04-29",
@@ -18134,7 +18136,8 @@
    "tier": "Naming rights",
    "status": "New",
    "needsSource": true,
-   "market": "ANZ"
+   "market": "ANZ",
+   "ptier": "Official partner"
   },
   {
    "date": "2025-02-18",
@@ -26987,7 +26990,7 @@
    "tier": "Official partner",
    "status": "New",
    "market": "ANZ",
-   "ptier": "Official insurance partner"
+   "ptier": "Major partner"
   },
   {
    "date": "2026-04-29",
@@ -28304,7 +28307,8 @@
    "term": 2,
    "ends": 2026,
    "endsEst": true,
-   "market": "ANZ"
+   "market": "ANZ",
+   "ptier": "Official partner"
   },
   {
    "date": "2025-01-16",
@@ -28648,7 +28652,8 @@
    "term": 4,
    "ends": 2029,
    "endsEst": true,
-   "market": "ANZ"
+   "market": "ANZ",
+   "ptier": "Major partner"
   },
   {
    "date": "2025-03-06",
@@ -31164,7 +31169,8 @@
    "tier": "Official partner",
    "status": "Extension",
    "ends": 2029,
-   "market": "ANZ"
+   "market": "ANZ",
+   "ptier": "Major partner"
   },
   {
    "date": "2025-10-03",
@@ -63349,7 +63355,8 @@
    "url": "https://nrl.com/news/2022/10/28/westpac--nrl-partnership-a-whole-new-ball-game-for-mens-and-womens-rugby-league",
    "status": "New",
    "market": "ANZ",
-   "tier": "Official partner"
+   "tier": "Official partner",
+   "ptier": "Major partner"
   },
   {
    "listed": "2026-11-12",
@@ -63438,7 +63445,8 @@
    "url": "https://nrl.com/news/2024/10/05/nrl-announces-red-bull-as-official-energy-drink-partner",
    "market": "ANZ",
    "tier": "Official partner",
-   "status": "New"
+   "status": "New",
+   "ptier": "Official partner"
   },
   {
    "listed": "2026-11-12",
@@ -63482,6 +63490,149 @@
   {
    "listed": "2026-11-12",
    "deal": "M.J. Bale × NRL",
+   "sport": "NRL",
+   "type": "Official partner",
+   "region": "ANZ",
+   "summary": "Listed as a official partner on NRL's official partners page.",
+   "url": "https://nrl.com/about-us/partners",
+   "ptier": "Official partner",
+   "market": "ANZ",
+   "tier": "Official partner",
+   "status": "Current partner"
+  },
+  {
+   "listed": "2026-11-16",
+   "deal": "Bundaberg Rum × NRL",
+   "sport": "NRL",
+   "type": "Major partner",
+   "region": "ANZ",
+   "summary": "Listed as a major partner on NRL's official partners page.",
+   "url": "https://nrl.com/about-us/partners",
+   "ptier": "Major partner",
+   "market": "ANZ",
+   "tier": "Principal & major",
+   "status": "Current partner"
+  },
+  {
+   "listed": "2026-11-16",
+   "deal": "Chemist Warehouse × NRL",
+   "sport": "NRL",
+   "type": "Major partner",
+   "region": "ANZ",
+   "summary": "Listed as a major partner on NRL's official partners page.",
+   "url": "https://nrl.com/about-us/partners",
+   "ptier": "Major partner",
+   "market": "ANZ",
+   "tier": "Principal & major",
+   "status": "Current partner"
+  },
+  {
+   "listed": "2026-11-16",
+   "deal": "VB × NRL",
+   "sport": "NRL",
+   "type": "Major partner",
+   "region": "ANZ",
+   "summary": "Listed as a major partner on NRL's official partners page.",
+   "url": "https://nrl.com/about-us/partners",
+   "ptier": "Major partner",
+   "market": "ANZ",
+   "tier": "Principal & major",
+   "status": "Current partner"
+  },
+  {
+   "listed": "2026-11-16",
+   "deal": "Westpac × NRL",
+   "sport": "NRL",
+   "type": "Major partner",
+   "region": "ANZ",
+   "summary": "Listed as a major partner on NRL's official partners page.",
+   "url": "https://nrl.com/about-us/partners",
+   "ptier": "Major partner",
+   "market": "ANZ",
+   "tier": "Principal & major",
+   "status": "Current partner"
+  },
+  {
+   "listed": "2026-11-16",
+   "deal": "Youi × NRL",
+   "sport": "NRL",
+   "type": "Major partner",
+   "region": "ANZ",
+   "summary": "Listed as a major partner on NRL's official partners page.",
+   "url": "https://nrl.com/about-us/partners",
+   "ptier": "Major partner",
+   "market": "ANZ",
+   "tier": "Principal & major",
+   "status": "Current partner"
+  },
+  {
+   "listed": "2026-11-16",
+   "deal": "Shapes × NRL",
+   "sport": "NRL",
+   "type": "Official partner",
+   "region": "ANZ",
+   "summary": "Listed as a official partner on NRL's official partners page.",
+   "url": "https://nrl.com/about-us/partners",
+   "ptier": "Official partner",
+   "market": "ANZ",
+   "tier": "Official partner",
+   "status": "Current partner"
+  },
+  {
+   "listed": "2026-11-16",
+   "deal": "Red Bull × NRL",
+   "sport": "NRL",
+   "type": "Official partner",
+   "region": "ANZ",
+   "summary": "Listed as a official partner on NRL's official partners page.",
+   "url": "https://nrl.com/about-us/partners",
+   "ptier": "Official partner",
+   "market": "ANZ",
+   "tier": "Official partner",
+   "status": "Current partner"
+  },
+  {
+   "listed": "2026-11-16",
+   "deal": "JD Sports × NRL",
+   "sport": "NRL",
+   "type": "Official partner",
+   "region": "ANZ",
+   "summary": "Listed as a official partner on NRL's official partners page.",
+   "url": "https://nrl.com/about-us/partners",
+   "ptier": "Official partner",
+   "market": "ANZ",
+   "tier": "Official partner",
+   "status": "Current partner"
+  },
+  {
+   "listed": "2026-11-16",
+   "deal": "Witzer × NRL",
+   "sport": "NRL",
+   "type": "Official partner",
+   "region": "ANZ",
+   "summary": "Listed as a official partner on NRL's official partners page.",
+   "url": "https://nrl.com/about-us/partners",
+   "ptier": "Official partner",
+   "market": "ANZ",
+   "tier": "Official partner",
+   "status": "Current partner"
+  },
+  {
+   "listed": "2026-11-16",
+   "deal": "Classic Sportswear × NRL",
+   "sport": "NRL",
+   "type": "Official partner",
+   "region": "ANZ",
+   "summary": "Listed as a official partner on NRL's official partners page.",
+   "url": "https://nrl.com/about-us/partners",
+   "ptier": "Official partner",
+   "market": "ANZ",
+   "tier": "Official partner",
+   "status": "Current partner"
+  },
+  {
+   "listed": "2026-11-16",
+   "deal": "Coca-Cola × NRL",
    "sport": "NRL",
    "type": "Official partner",
    "region": "ANZ",
