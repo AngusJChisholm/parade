@@ -29,13 +29,35 @@ S.load().then(D=>{
     });
     const cats=[...catClubs.entries()].sort((a,b)=>(a[0]==="Other")-(b[0]==="Other")||b[1]-a[1]).map(x=>x[0]);
     const n=clubs.length;
+    // Brands at two or more clubs get a fixed spot in the 2 x 2 block for that category, so the same brand lines up
+    // down the column (most widely held first, top-left). Everything else fills the spots left over.
+    const slots=new Map();
+    cats.forEach(cat=>{
+      const cells=[],freq=new Map();
+      clubs.forEach(c=>{const cm=grid.get(c.e.slug).get(cat);if(cm){cells.push(cm);cm.forEach((_,b)=>freq.set(b,(freq.get(b)||0)+1))}});
+      const used=cells.map(()=>new Set()),fixed=new Map();
+      [...freq].filter(([,f])=>f>1).sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0])).forEach(([b])=>{
+        const at=cells.map((cm,i)=>cm.has(b)?i:-1).filter(i=>i>=0);
+        for(let k=0;k<4;k++)if(at.every(i=>!used[i].has(k))){fixed.set(b,k);at.forEach(i=>used[i].add(k));break}
+      });
+      slots.set(cat,{fixed,freq});
+    });
+    const logo=x=>`<a class="lga" href="${esc(L.page(x.e.slug))}" title="${esc(x.e.name)} · ${esc(S.fmt(x.d))}" aria-label="${esc(x.e.name)}">${L.mark(x.e,{px:32})}</a>`;
+    function cellHtml(cat,cm){
+      const {fixed,freq}=slots.get(cat),box=[null,null,null,null],rest=[];
+      [...cm.entries()].sort((a,b)=>(freq.get(b[0])||0)-(freq.get(a[0])||0)||a[1].e.name.localeCompare(b[1].e.name)).forEach(([b,x])=>{
+        const k=fixed.get(b);if(k!=null&&!box[k])box[k]=x;else rest.push(x)});
+      for(let k=0;k<4&&rest.length;k++)if(!box[k])box[k]=rest.shift();
+      // No room left: the last spot becomes a "+n" tile.
+      let more="";if(rest.length){rest.unshift(box[3]);box[3]=null;more=`<span class="more4" title="${esc(rest.map(x=>x.e.name).join(", "))}">+${rest.length}</span>`}
+      const rows=box[2]||box[3]||more?4:2;
+      return `<td><span class="cell">${box.slice(0,rows).map((x,k)=>x?logo(x):k===3&&more?more:`<span class="sl"></span>`).join("")}</span></td>`;
+    }
     $("lgSel").innerHTML=S.lgOptions(leagues,st.league,lgCounts,false);$("lgSel").value=st.league;
     $("regPills").innerHTML=[["all","All partnerships filed"],["recent",`Current and since ${yr-1}`]].map(([k,l])=>`<button type="button" class="pill${st.span===k?" on":""}" data-sp="${k}" aria-pressed="${st.span===k}">${l}</button>`).join("");
     $("lgNote").textContent=`${n} ${lg.name} clubs × ${cats.length} categories. A dash means we haven't filed a partner in that category for the club, not that one definitely doesn't exist. Tap a logo for the brand's page.`;
     $("map").innerHTML=cats.length?`<table class="m"><thead><tr><th class="club">${esc(lg.name)}</th>${cats.map(c=>`<th scope="col"><a href="categories?c=${encodeURIComponent(c)}">${esc(c)}</a><br><span class="mute-l" style="font-weight:500;letter-spacing:0">${catClubs.get(c)}/${n} clubs</span></th>`).join("")}</tr></thead><tbody>${clubs.map(c=>{const m=grid.get(c.e.slug);return `<tr><th class="club" scope="row"><a href="${esc(L.page(c.e.slug))}">${L.mark(c.e,{px:30})}${esc(c.e.name)}</a></th>${cats.map(cat=>{const cm=m.get(cat);if(!cm)return `<td class="no"></td>`;
-      // Up to four logos in a 2 x 2 block; with five or more, three logos and a "+n" tile in the fourth spot.
-      const all=[...cm.values()],show=all.length>4?all.slice(0,3):all;
-      return `<td><span class="cell n${Math.min(all.length,4)}">${show.map(x=>`<a class="lga" href="${esc(L.page(x.e.slug))}" title="${esc(x.e.name)} · ${esc(S.fmt(x.d))}" aria-label="${esc(x.e.name)}">${L.mark(x.e,{px:32})}</a>`).join("")}${all.length>4?`<span class="more4" title="${esc(all.slice(3).map(x=>x.e.name).join(", "))}">+${all.length-3}</span>`:""}</span></td>`}).join("")}</tr>`}).join("")}</tbody></table>`:`<p class="note">No partnerships filed for these clubs yet.</p>`;
+      return cellHtml(cat,cm)}).join("")}</tr>`}).join("")}</tbody></table>`:`<p class="note">No partnerships filed for these clubs yet.</p>`;
     S.setQs({league:st.league,span:st.span!=="all"&&st.span});
   }
   document.querySelector("main").addEventListener("click",e=>{const b=e.target.closest("[data-sp]");if(!b)return;st.span=b.dataset.sp;draw()});
