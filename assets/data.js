@@ -6,7 +6,7 @@ window.SSSData=(function(){
   const L=window.SSSLogos;
   const sortKey=d=>d.date||((d.month||"0000-00")+"-00");
   const yearOf=d=>parseInt(sortKey(d).slice(0,4),10)||0;
-  const fmt=d=>{if(!d.date&&!d.month)return "Current partner";const o=d.date?new Date(d.date+"T00:00:00"):new Date((d.month||"2026-01")+"-01T00:00:00");
+  const fmt=d=>{if(!d.date&&!d.month)return d.announced?"Since "+new Date(d.announced+"T00:00:00").toLocaleDateString("en-AU",{month:"short",year:"numeric"}):"Current partner";const o=d.date?new Date(d.date+"T00:00:00"):new Date((d.month||"2026-01")+"-01T00:00:00");
     return d.date?o.toLocaleDateString("en-AU",{day:"2-digit",month:"short",year:"numeric"}):o.toLocaleDateString("en-AU",{month:"short",year:"numeric"})};
   // The order categories and property types are listed in.
   const CATS=["Banking & finance","Insurance","Betting & wagering","Fintech, crypto & trading","Automotive","Telco","Technology","Energy & utilities","Mining & resources","Airlines & travel","Tourism & government","Alcohol","Non-alcoholic drinks","Food & nutrition","Retail","Apparel & footwear","Sporting goods & equipment","Health & beauty","Media & broadcast","Gaming & esports","Construction & property","Home & hardware","Industrial & manufacturing","Logistics & transport","Professional services","Hospitality & entertainment","Education","Watches & luxury","Collectibles & licensing","Agriculture","Not-for-profit","Sport & events","Other"];
