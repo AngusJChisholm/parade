@@ -2068,6 +2068,10 @@
    "cat": "Construction & property",
    "k": "b"
   },
+  "aldi": {
+   "name": "Aldi",
+   "cat": "Retail"
+  },
   "aldrich-advisors": {
    "name": "Aldrich Advisors",
    "k": "b"
@@ -2546,6 +2550,9 @@
    "name": "Ambassador Cruise Line",
    "cat": "Airlines & travel",
    "k": "b"
+  },
+  "amber": {
+   "name": "Amber"
   },
   "ambra": {
    "name": "Ambra",
@@ -4961,6 +4968,9 @@
     "logo"
    ]
   },
+  "aviva": {
+   "name": "Aviva"
+  },
   "avl-car-leasing": {
    "name": "AVL Car Leasing",
    "k": "b"
@@ -5287,6 +5297,9 @@
     "icon",
     "logo"
    ]
+  },
+  "ballygowan": {
+   "name": "Ballygowan"
   },
   "balsam-hill": {
    "name": "Balsam Hill",
@@ -8316,6 +8329,10 @@
    "name": "Brit Systems",
    "k": "b"
   },
+  "british-airways": {
+   "name": "British Airways",
+   "cat": "Airlines & travel"
+  },
   "british-and-irish-lions": {
    "name": "British & Irish Lions",
    "domain": "lionsrugby.com",
@@ -8324,7 +8341,11 @@
     "logo"
    ],
    "ptype": "National team",
-   "k": "p"
+   "k": "p",
+   "ptiers": [
+    "Lions Women principal partner"
+   ],
+   "ptiersChecked": "2026-11-17"
   },
   "british-cycling": {
    "name": "British Cycling",
@@ -10537,6 +10558,9 @@
    "name": "Celtic Compare",
    "k": "b"
   },
+  "celtic-manor": {
+   "name": "Celtic Manor"
+  },
   "cenovus": {
    "name": "Cenovus",
    "k": "b"
@@ -10826,6 +10850,9 @@
    "k": "b",
    "logo": "assets/logos/channel-9.png",
    "domain": "9now.com.au"
+  },
+  "chapel-down": {
+   "name": "Chapel Down"
   },
   "chapelhouse": {
    "name": "Chapelhouse",
@@ -11976,6 +12003,9 @@
    "name": "Clinical Technologies",
    "cat": "Technology",
    "k": "b"
+  },
+  "clinique": {
+   "name": "Clinique"
   },
   "clio": {
    "name": "Clio",
@@ -16191,6 +16221,10 @@
     "Official partner"
    ]
   },
+  "dublin-airport": {
+   "name": "Dublin Airport",
+   "cat": "Airlines & travel"
+  },
   "duchy-hospital": {
    "name": "Duchy Hospital",
    "cat": "Health & beauty",
@@ -16819,6 +16853,10 @@
    "cat": "Health & beauty",
    "k": "b"
   },
+  "edinburgh-gin": {
+   "name": "Edinburgh Gin",
+   "cat": "Alcohol"
+  },
   "edinburgh-instruments": {
    "name": "Edinburgh Instruments",
    "k": "b"
@@ -16906,6 +16944,10 @@
   "edwards-lifesciences": {
    "name": "Edwards Lifesciences",
    "k": "b"
+  },
+  "ee": {
+   "name": "EE",
+   "cat": "Telco"
   },
   "eero": {
    "name": "eero",
@@ -17516,7 +17558,11 @@
     "icon"
    ],
    "ptype": "National team",
-   "k": "p"
+   "k": "p",
+   "ptiers": [
+    "Partner"
+   ],
+   "ptiersChecked": "2026-11-17"
   },
   "england-football": {
    "name": "England Football",
@@ -17525,7 +17571,15 @@
    "domain": "englandfootball.com",
    "bf": [
     "logo"
-   ]
+   ],
+   "aliases": [
+    "Lionesses"
+   ],
+   "ptiers": [
+    "Lead partner",
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-17"
   },
   "england-golf": {
    "name": "England Golf",
@@ -17560,7 +17614,17 @@
     "logo"
    ],
    "ptype": "National team",
-   "k": "p"
+   "k": "p",
+   "aliases": [
+    "Red Roses",
+    "RFU"
+   ],
+   "ptiers": [
+    "Lead partner",
+    "Official partner",
+    "Official supplier"
+   ],
+   "ptiersChecked": "2026-11-17"
   },
   "england-squash": {
    "name": "England Squash",
@@ -18047,6 +18111,9 @@
    "name": "Events DC",
    "k": "b"
   },
+  "events-international": {
+   "name": "Events International"
+  },
   "eventsec": {
    "name": "Eventsec",
    "k": "b"
@@ -18133,6 +18200,9 @@
    "cat": "Non-alcoholic drinks",
    "k": "b",
    "logo": "assets/logos/evian.png"
+  },
+  "evoke": {
+   "name": "Evoke"
   },
   "evolv": {
    "name": "Evolv",
@@ -18371,6 +18441,9 @@
   "fairway-roofing": {
    "name": "Fairway Roofing",
    "k": "b"
+  },
+  "fairways": {
+   "name": "Fairways"
   },
   "fairweathers": {
    "name": "Fairweathers",
@@ -21284,6 +21357,9 @@
    "name": "GOAT USA",
    "k": "b"
   },
+  "gocompare": {
+   "name": "GoCompare"
+  },
   "going-up-elevators": {
    "name": "Going Up Elevators",
    "k": "b"
@@ -23549,6 +23625,9 @@
    "k": "b",
    "cat": "Construction & property"
   },
+  "highland-spring": {
+   "name": "Highland Spring"
+  },
   "highlanders": {
    "name": "Highlanders",
    "ptiers": [
@@ -24248,6 +24327,9 @@
     "logo"
    ]
   },
+  "howdens": {
+   "name": "Howdens"
+  },
   "hoxworth-blood-center": {
    "name": "Hoxworth Blood Center",
    "k": "b"
@@ -24934,6 +25016,9 @@
   "ifys": {
    "name": "IFYS",
    "k": "b"
+  },
+  "ig": {
+   "name": "IG"
   },
   "ig-wealth-management": {
    "name": "IG Wealth Management",
@@ -25953,6 +26038,25 @@
     "icon",
     "logo"
    ]
+  },
+  "ireland-rugby": {
+   "name": "Ireland Rugby",
+   "domain": "irishrugby.ie",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "aliases": [
+    "IRFU",
+    "Irish Rugby"
+   ],
+   "ptiers": [
+    "Official sponsor",
+    "Official supplier"
+   ],
+   "ptiersChecked": "2026-11-17"
   },
   "iren": {
    "name": "IREN",
@@ -30694,6 +30798,10 @@
     "icon"
    ]
   },
+  "lucozade-sport": {
+   "name": "Lucozade Sport",
+   "cat": "Non-alcoholic drinks"
+  },
   "ludic": {
    "name": "Ludic",
    "cat": "Other",
@@ -32612,6 +32720,10 @@
   "metro": {
    "name": "Metro",
    "k": "b"
+  },
+  "metro-bank": {
+   "name": "Metro Bank",
+   "cat": "Banking & finance"
   },
   "metro-by-t-mobile": {
    "name": "Metro by T-Mobile",
@@ -34930,6 +35042,10 @@
   "national-loon-center": {
    "name": "National Loon Center",
    "k": "b"
+  },
+  "national-lottery": {
+   "name": "National Lottery",
+   "cat": "Betting & wagering"
   },
   "national-pickleball-league": {
    "name": "National Pickleball League",
@@ -37290,6 +37406,9 @@
    "name": "NYC Votes",
    "k": "b"
   },
+  "nyetimber": {
+   "name": "Nyetimber"
+  },
   "nyjah-huston": {
    "name": "Nyjah Huston",
    "ptype": "Athlete & talent",
@@ -37453,6 +37572,10 @@
    "name": "Ô Sports",
    "k": "b"
   },
+  "o2": {
+   "name": "O2",
+   "cat": "Telco"
+  },
   "o2-fitness": {
    "name": "O2 Fitness",
    "cat": "Telco",
@@ -37509,6 +37632,9 @@
   "occitanie-sud-de-france": {
    "name": "Occitanie Sud de France",
    "k": "b"
+  },
+  "ocean-outdoor": {
+   "name": "Ocean Outdoor"
   },
   "ocean-protect": {
    "name": "Ocean Protect",
@@ -41313,6 +41439,10 @@
     "icon"
    ]
   },
+  "principality-building-society": {
+   "name": "Principality Building Society",
+   "cat": "Construction & property"
+  },
   "pringles": {
    "name": "Pringles",
    "k": "b",
@@ -43304,7 +43434,10 @@
     "logo"
    ],
    "ptype": "Governing body",
-   "k": "p"
+   "k": "p",
+   "ptiers": [
+    "Official partner"
+   ]
   },
   "rgk": {
    "name": "RGK",
@@ -43972,6 +44105,9 @@
    "cat": "Insurance",
    "k": "b"
   },
+  "rothesay": {
+   "name": "Rothesay"
+  },
   "rotorua-lakes-council": {
    "name": "Rotorua Lakes Council",
    "cat": "Tourism & government",
@@ -44084,6 +44220,9 @@
    "name": "Royal Farms",
    "cat": "Agriculture",
    "k": "b"
+  },
+  "royal-london": {
+   "name": "Royal London"
   },
   "royal-wolf": {
    "name": "Royal Wolf",
@@ -44440,6 +44579,9 @@
     "S-Trend Sportswear"
    ]
   },
+  "s4c": {
+   "name": "S4C"
+  },
   "s8ul": {
    "name": "S8UL",
    "ptype": "Club & team",
@@ -44717,6 +44859,10 @@
   "salters-cartage": {
    "name": "Salters Cartage",
    "k": "b"
+  },
+  "saltire-energy": {
+   "name": "Saltire Energy",
+   "cat": "Energy & utilities"
   },
   "salvation-army": {
    "name": "Salvation Army",
@@ -45384,6 +45530,25 @@
    "name": "Scotjet",
    "k": "b"
   },
+  "scotland-rugby": {
+   "name": "Scotland Rugby",
+   "domain": "scottishrugby.org",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "aliases": [
+    "Scottish Rugby"
+   ],
+   "ptiers": [
+    "Principal partner",
+    "Official partner",
+    "Official supplier"
+   ],
+   "ptiersChecked": "2026-11-17"
+  },
   "scott-fyffe-wealth-management": {
    "name": "Scott Fyffe Wealth Management",
    "cat": "Banking & finance",
@@ -45397,6 +45562,10 @@
    "name": "Scottish Building Society",
    "cat": "Construction & property",
    "k": "b"
+  },
+  "scottish-gas": {
+   "name": "Scottish Gas",
+   "cat": "Energy & utilities"
   },
   "scottish-open": {
    "name": "Scottish Open",
@@ -46673,6 +46842,9 @@
    "k": "b",
    "cat": "Automotive"
   },
+  "sinclair-group": {
+   "name": "Sinclair Group"
+  },
   "singapore-airlines": {
    "name": "Singapore Airlines",
    "cat": "Airlines & travel",
@@ -47134,6 +47306,9 @@
    "name": "SMUK",
    "k": "b"
   },
+  "smurfit-westrock": {
+   "name": "Smurfit Westrock"
+  },
   "smyths-toys": {
    "name": "Smyths Toys",
    "cat": "Collectibles & licensing",
@@ -47480,6 +47655,9 @@
   "sorodist": {
    "name": "Sorodist",
    "k": "b"
+  },
+  "sotic": {
+   "name": "Sotic"
   },
   "sound-agents": {
    "name": "Sound Agents",
@@ -48956,6 +49134,9 @@
    "name": "Stifel",
    "k": "b"
   },
+  "stiga": {
+   "name": "STIGA"
+  },
   "stihl": {
    "name": "STIHL",
    "k": "b"
@@ -49462,6 +49643,9 @@
    "name": "Sunglass Hut",
    "k": "b"
   },
+  "sungod": {
+   "name": "SunGod"
+  },
   "sunny-homes": {
    "name": "Sunny Homes",
    "cat": "Construction & property",
@@ -49915,6 +50099,10 @@
    ],
    "cat": "Health & beauty",
    "k": "b"
+  },
+  "switch-car-rental": {
+   "name": "Switch Car Rental",
+   "cat": "Logistics & transport"
   },
   "swizzels": {
    "name": "Swizzels",
@@ -52510,6 +52698,9 @@
    "name": "Tiparra",
    "k": "b"
   },
+  "tipperary-crystal": {
+   "name": "Tipperary Crystal"
+  },
   "tiptree": {
    "name": "Tiptree",
    "k": "b"
@@ -52563,6 +52754,9 @@
   "tixr": {
    "name": "TIXR",
    "k": "b"
+  },
+  "tixserve": {
+   "name": "Tixserve"
   },
   "tj-maxx": {
    "name": "TJ Maxx",
@@ -56611,6 +56805,28 @@
    "name": "WakeMed",
    "k": "b"
   },
+  "wales-rugby": {
+   "name": "Wales Rugby",
+   "domain": "wru.wales",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "aliases": [
+    "WRU",
+    "Welsh Rugby Union"
+   ],
+   "ptiers": [
+    "Principal partner",
+    "Official community partner",
+    "Official broadcaster",
+    "Official partner",
+    "Official supplier"
+   ],
+   "ptiersChecked": "2026-11-17"
+  },
   "walker-corporation": {
    "name": "Walker Corporation",
    "k": "b"
@@ -57063,6 +57279,9 @@
   "we-love-group": {
    "name": "We Love Group",
    "k": "b"
+  },
+  "we-soda": {
+   "name": "WE SODA"
   },
   "we-win-injury-law": {
    "name": "We Win Injury Law",
