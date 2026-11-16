@@ -2,44 +2,24 @@
  "generated": "2026-11-16",
  "summary": {
   "dup_entities": 16,
-  "no_category": 595,
+  "no_category": 602,
   "cat_mismatch": 104,
-  "slot_clash": 26,
+  "slot_clash": 27,
   "dup_deals": 9,
   "no_broadcaster": 13,
   "stale": 3,
   "no_source": 658,
-  "anz_slot_clash": 23
+  "anz_slot_clash": 24
  },
  "dup_entities": [
   {
    "names": [
-    "Asahi Beverages",
-    "Asahi Beverages NZ"
+    "Harness Racing Australia",
+    "Harness Racing NZ"
    ],
    "slugs": [
-    "asahi-beverages",
-    "asahi-beverages-nz"
-   ]
-  },
-  {
-   "names": [
-    "Special Olympics",
-    "Special Olympics Australia"
-   ],
-   "slugs": [
-    "special-olympics",
-    "special-olympics-australia"
-   ]
-  },
-  {
-   "names": [
-    "PURE Sports Nutrition",
-    "Pure Nutrition"
-   ],
-   "slugs": [
-    "pure-nutrition",
-    "pure-sports-nutrition"
+    "harness-racing-australia",
+    "harness-racing-nz"
    ]
   },
   {
@@ -68,6 +48,36 @@
   },
   {
    "names": [
+    "Victor",
+    "Victor Sports"
+   ],
+   "slugs": [
+    "victor",
+    "victor-sports"
+   ]
+  },
+  {
+   "names": [
+    "Asahi Beverages",
+    "Asahi Beverages NZ"
+   ],
+   "slugs": [
+    "asahi-beverages",
+    "asahi-beverages-nz"
+   ]
+  },
+  {
+   "names": [
+    "PURE Sports Nutrition",
+    "Pure Nutrition"
+   ],
+   "slugs": [
+    "pure-nutrition",
+    "pure-sports-nutrition"
+   ]
+  },
+  {
+   "names": [
     "Athletics",
     "Athletics Australia",
     "Athletics New Zealand"
@@ -76,36 +86,6 @@
     "athletics",
     "athletics-australia",
     "athletics-new-zealand"
-   ]
-  },
-  {
-   "names": [
-    "Kia",
-    "Kia Australia"
-   ],
-   "slugs": [
-    "kia",
-    "kia-australia"
-   ]
-  },
-  {
-   "names": [
-    "Dolphins",
-    "Dolphins Group"
-   ],
-   "slugs": [
-    "dolphins",
-    "dolphins-group"
-   ]
-  },
-  {
-   "names": [
-    "HYROX",
-    "HYROX Australia"
-   ],
-   "slugs": [
-    "hyrox",
-    "hyrox-australia"
    ]
   },
   {
@@ -120,6 +100,16 @@
   },
   {
    "names": [
+    "Kia",
+    "Kia Australia"
+   ],
+   "slugs": [
+    "kia",
+    "kia-australia"
+   ]
+  },
+  {
+   "names": [
     "Star Sports",
     "The Star"
    ],
@@ -130,32 +120,12 @@
   },
   {
    "names": [
-    "Ant Group",
-    "Ant International"
+    "Dolphins",
+    "Dolphins Group"
    ],
    "slugs": [
-    "ant-group",
-    "ant-international"
-   ]
-  },
-  {
-   "names": [
-    "Victor",
-    "Victor Sports"
-   ],
-   "slugs": [
-    "victor",
-    "victor-sports"
-   ]
-  },
-  {
-   "names": [
-    "Harness Racing Australia",
-    "Harness Racing NZ"
-   ],
-   "slugs": [
-    "harness-racing-australia",
-    "harness-racing-nz"
+    "dolphins",
+    "dolphins-group"
    ]
   },
   {
@@ -170,6 +140,26 @@
   },
   {
    "names": [
+    "Ant Group",
+    "Ant International"
+   ],
+   "slugs": [
+    "ant-group",
+    "ant-international"
+   ]
+  },
+  {
+   "names": [
+    "HYROX",
+    "HYROX Australia"
+   ],
+   "slugs": [
+    "hyrox",
+    "hyrox-australia"
+   ]
+  },
+  {
+   "names": [
     "Hockey Australia",
     "Hockey New Zealand"
    ],
@@ -177,18 +167,28 @@
     "hockey-australia",
     "hockey-new-zealand"
    ]
+  },
+  {
+   "names": [
+    "Special Olympics",
+    "Special Olympics Australia"
+   ],
+   "slugs": [
+    "special-olympics",
+    "special-olympics-australia"
+   ]
   }
  ],
  "no_category": [
   {
+   "brand": "Love The Game",
+   "slug": "love-the-game",
+   "deals": 6
+  },
+  {
    "brand": "Reclaim the Game",
    "slug": "reclaim-the-game",
    "deals": 5
-  },
-  {
-   "brand": "Love The Game",
-   "slug": "love-the-game",
-   "deals": 4
   },
   {
    "brand": "Dynasty",
@@ -209,6 +209,11 @@
    "brand": "GSA",
    "slug": "gsa",
    "deals": 3
+  },
+  {
+   "brand": "GambleAware",
+   "slug": "gambleaware",
+   "deals": 2
   },
   {
    "brand": "Grenade",
@@ -299,6 +304,36 @@
    "brand": "John R Turk",
    "slug": "john-r-turk",
    "deals": 2
+  },
+  {
+   "brand": "Bonsoy",
+   "slug": "bonsoy",
+   "deals": 1
+  },
+  {
+   "brand": "Jurovich Surveying",
+   "slug": "jurovich-surveying",
+   "deals": 1
+  },
+  {
+   "brand": "Oscar Hunt",
+   "slug": "oscar-hunt",
+   "deals": 1
+  },
+  {
+   "brand": "FIVEaa",
+   "slug": "fiveaa",
+   "deals": 1
+  },
+  {
+   "brand": "NCET",
+   "slug": "ncet",
+   "deals": 1
+  },
+  {
+   "brand": "Jimmy Rods",
+   "slug": "jimmy-rods",
+   "deals": 1
   },
   {
    "brand": "Modelo",
@@ -3207,6 +3242,13 @@
    "deals": 3
   },
   {
+   "brand": "Wilson Security",
+   "slug": "wilson-security",
+   "cat": "Professional services",
+   "rules_say": "Sporting goods & equipment",
+   "deals": 2
+  },
+  {
    "brand": "On Location",
    "slug": "on-location",
    "cat": "Hospitality & entertainment",
@@ -3512,13 +3554,6 @@
    "slug": "south-bank-corporation",
    "cat": "Tourism & government",
    "rules_say": "Banking & finance",
-   "deals": 1
-  },
-  {
-   "brand": "Wilson Security",
-   "slug": "wilson-security",
-   "cat": "Professional services",
-   "rules_say": "Sporting goods & equipment",
    "deals": 1
   },
   {
@@ -3917,6 +3952,23 @@
     {
      "brand": "Bleasdale",
      "since": "Jul 2025",
+     "ends": null
+    }
+   ]
+  },
+  {
+   "property": "Adelaide Strikers",
+   "anz": true,
+   "slot": "Beer & cider",
+   "partners": [
+    {
+     "brand": "Bleasdale",
+     "since": "listed",
+     "ends": null
+    },
+    {
+     "brand": "Hahn",
+     "since": "listed",
      "ends": null
     }
    ]
