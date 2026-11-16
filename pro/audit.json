@@ -2,8 +2,8 @@
  "generated": "2026-11-16",
  "summary": {
   "dup_entities": 27,
-  "no_category": 1997,
-  "cat_mismatch": 104,
+  "no_category": 2001,
+  "cat_mismatch": 105,
   "slot_clash": 64,
   "dup_deals": 9,
   "no_broadcaster": 16,
@@ -14,12 +14,12 @@
  "dup_entities": [
   {
    "names": [
-    "PURE Sports Nutrition",
-    "Pure Nutrition"
+    "Dynasty",
+    "Dynasty Sport"
    ],
    "slugs": [
-    "pure-nutrition",
-    "pure-sports-nutrition"
+    "dynasty",
+    "dynasty-sport"
    ]
   },
   {
@@ -44,22 +44,32 @@
   },
   {
    "names": [
-    "HYROX",
-    "HYROX Australia"
+    "Courier Mail",
+    "The Courier-Mail"
    ],
    "slugs": [
-    "hyrox",
-    "hyrox-australia"
+    "courier-mail",
+    "the-courier-mail"
    ]
   },
   {
    "names": [
-    "Special Olympics",
-    "Special Olympics Australia"
+    "PURE Sports Nutrition",
+    "Pure Nutrition"
    ],
    "slugs": [
-    "special-olympics",
-    "special-olympics-australia"
+    "pure-nutrition",
+    "pure-sports-nutrition"
+   ]
+  },
+  {
+   "names": [
+    "News Corp",
+    "News Corp Australia"
+   ],
+   "slugs": [
+    "news-corp",
+    "news-corp-australia"
    ]
   },
   {
@@ -76,112 +86,14 @@
   },
   {
    "names": [
-    "Basketball Australia",
-    "Basketball New Zealand"
+    "Star Group",
+    "Star Sports",
+    "The Star"
    ],
    "slugs": [
-    "basketball-australia",
-    "basketball-new-zealand"
-   ]
-  },
-  {
-   "names": [
-    "TAB",
-    "TAB NZ"
-   ],
-   "slugs": [
-    "tab",
-    "tab-nz"
-   ]
-  },
-  {
-   "names": [
-    "Salvation Army",
-    "The Salvation Army"
-   ],
-   "slugs": [
-    "salvation-army",
-    "the-salvation-army"
-   ]
-  },
-  {
-   "names": [
-    "Hockey Australia",
-    "Hockey New Zealand"
-   ],
-   "slugs": [
-    "hockey-australia",
-    "hockey-new-zealand"
-   ]
-  },
-  {
-   "names": [
-    "BDA",
-    "BDA Sports"
-   ],
-   "slugs": [
-    "bda",
-    "bda-sports"
-   ]
-  },
-  {
-   "names": [
-    "BMS",
-    "BMS Group"
-   ],
-   "slugs": [
-    "bms",
-    "bms-group"
-   ]
-  },
-  {
-   "names": [
-    "Hong Kong Jockey Club",
-    "The Hong Kong Jockey Club"
-   ],
-   "slugs": [
-    "hong-kong-jockey-club",
-    "the-hong-kong-jockey-club"
-   ]
-  },
-  {
-   "names": [
-    "Asahi Beverages",
-    "Asahi Beverages NZ"
-   ],
-   "slugs": [
-    "asahi-beverages",
-    "asahi-beverages-nz"
-   ]
-  },
-  {
-   "names": [
-    "Dynasty",
-    "Dynasty Sport"
-   ],
-   "slugs": [
-    "dynasty",
-    "dynasty-sport"
-   ]
-  },
-  {
-   "names": [
-    "News Corp",
-    "News Corp Australia"
-   ],
-   "slugs": [
-    "news-corp",
-    "news-corp-australia"
-   ]
-  },
-  {
-   "names": [
-    "Harness Racing Australia",
-    "Harness Racing NZ"
-   ],
-   "slugs": [
-    "harness-racing-australia",
-    "harness-racing-nz"
+    "star-group",
+    "star-sports",
+    "the-star"
    ]
   },
   {
@@ -196,54 +108,12 @@
   },
   {
    "names": [
-    "Courier Mail",
-    "The Courier-Mail"
+    "TAB",
+    "TAB NZ"
    ],
    "slugs": [
-    "courier-mail",
-    "the-courier-mail"
-   ]
-  },
-  {
-   "names": [
-    "Star Group",
-    "Star Sports",
-    "The Star"
-   ],
-   "slugs": [
-    "star-group",
-    "star-sports",
-    "the-star"
-   ]
-  },
-  {
-   "names": [
-    "Commonwealth Games",
-    "Commonwealth Games Australia"
-   ],
-   "slugs": [
-    "commonwealth-games",
-    "commonwealth-games-australia"
-   ]
-  },
-  {
-   "names": [
-    "Victor",
-    "Victor Sports"
-   ],
-   "slugs": [
-    "victor",
-    "victor-sports"
-   ]
-  },
-  {
-   "names": [
-    "Ant Group",
-    "Ant International"
-   ],
-   "slugs": [
-    "ant-group",
-    "ant-international"
+    "tab",
+    "tab-nz"
    ]
   },
   {
@@ -262,12 +132,32 @@
   },
   {
    "names": [
-    "Kia",
-    "Kia Australia"
+    "Hockey Australia",
+    "Hockey New Zealand"
    ],
    "slugs": [
-    "kia",
-    "kia-australia"
+    "hockey-australia",
+    "hockey-new-zealand"
+   ]
+  },
+  {
+   "names": [
+    "BMS",
+    "BMS Group"
+   ],
+   "slugs": [
+    "bms",
+    "bms-group"
+   ]
+  },
+  {
+   "names": [
+    "Asahi Beverages",
+    "Asahi Beverages NZ"
+   ],
+   "slugs": [
+    "asahi-beverages",
+    "asahi-beverages-nz"
    ]
   },
   {
@@ -282,12 +172,122 @@
   },
   {
    "names": [
+    "Kia",
+    "Kia Australia"
+   ],
+   "slugs": [
+    "kia",
+    "kia-australia"
+   ]
+  },
+  {
+   "names": [
+    "Commonwealth Games",
+    "Commonwealth Games Australia"
+   ],
+   "slugs": [
+    "commonwealth-games",
+    "commonwealth-games-australia"
+   ]
+  },
+  {
+   "names": [
+    "Hong Kong Jockey Club",
+    "The Hong Kong Jockey Club"
+   ],
+   "slugs": [
+    "hong-kong-jockey-club",
+    "the-hong-kong-jockey-club"
+   ]
+  },
+  {
+   "names": [
+    "Special Olympics",
+    "Special Olympics Australia"
+   ],
+   "slugs": [
+    "special-olympics",
+    "special-olympics-australia"
+   ]
+  },
+  {
+   "names": [
+    "Victor",
+    "Victor Sports"
+   ],
+   "slugs": [
+    "victor",
+    "victor-sports"
+   ]
+  },
+  {
+   "names": [
+    "BDA",
+    "BDA Sports"
+   ],
+   "slugs": [
+    "bda",
+    "bda-sports"
+   ]
+  },
+  {
+   "names": [
     "Compass",
     "Compass Group"
    ],
    "slugs": [
     "compass",
     "compass-group"
+   ]
+  },
+  {
+   "names": [
+    "Basketball Australia",
+    "Basketball New Zealand"
+   ],
+   "slugs": [
+    "basketball-australia",
+    "basketball-new-zealand"
+   ]
+  },
+  {
+   "names": [
+    "HYROX",
+    "HYROX Australia"
+   ],
+   "slugs": [
+    "hyrox",
+    "hyrox-australia"
+   ]
+  },
+  {
+   "names": [
+    "Ant Group",
+    "Ant International"
+   ],
+   "slugs": [
+    "ant-group",
+    "ant-international"
+   ]
+  },
+  {
+   "names": [
+    "Harness Racing Australia",
+    "Harness Racing NZ"
+   ],
+   "slugs": [
+    "harness-racing-australia",
+    "harness-racing-nz"
+   ]
+  },
+  {
+   "names": [
+    "Salvation Army",
+    "The Salvation Army"
+   ],
+   "slugs": [
+    "salvation-army",
+    "the-salvation-army"
    ]
   }
  ],
@@ -651,6 +651,11 @@
    "brand": "GSA",
    "slug": "gsa",
    "deals": 3
+  },
+  {
+   "brand": "TicketCo",
+   "slug": "ticketco",
+   "deals": 2
   },
   {
    "brand": "RingCentral",
@@ -1451,6 +1456,21 @@
    "brand": "John R Turk",
    "slug": "john-r-turk",
    "deals": 2
+  },
+  {
+   "brand": "Novibet",
+   "slug": "novibet",
+   "deals": 1
+  },
+  {
+   "brand": "Nasdaq",
+   "slug": "nasdaq",
+   "deals": 1
+  },
+  {
+   "brand": "Straight Bat Private Equity",
+   "slug": "straight-bat-private-equity",
+   "deals": 1
   },
   {
    "brand": "Up Top",
@@ -10991,6 +11011,13 @@
    "slug": "cancer-council",
    "cat": "Not-for-profit",
    "rules_say": "Tourism & government",
+   "deals": 1
+  },
+  {
+   "brand": "Ernst & Young",
+   "slug": "ernst-young",
+   "cat": "Professional services",
+   "rules_say": "Technology",
    "deals": 1
   },
   {

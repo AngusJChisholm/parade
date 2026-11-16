@@ -28,7 +28,12 @@
    },
    "image": "https://images.unsplash.com/photo-1762013315117-1c8005ad2b41",
    "imageCredit": "Unsplash",
-   "slug": "2026-11-17-nike-uefa"
+   "slug": "2026-11-17-nike-uefa",
+   "tier": "Official partner",
+   "status": "New",
+   "term": 4,
+   "ends": 2031,
+   "market": "Europe"
   },
   {
    "date": "2026-11-16",
@@ -38,7 +43,13 @@
    "type": "Title sponsorship",
    "region": "Global",
    "summary": "TotalEnergies becomes co-title sponsor of FDJ United's women's team on a five-year partnership, racing as TotalEnergies-FDJ United from 1 January 2027.",
-   "url": "https://procyclinguk.com/totalenergies-fdj-united-womens-worldtour-title-sponsor-2027/"
+   "url": "https://procyclinguk.com/totalenergies-fdj-united-womens-worldtour-title-sponsor-2027/",
+   "tier": "Title sponsor",
+   "status": "New",
+   "term": 5,
+   "ends": 2031,
+   "endsEst": true,
+   "market": "Global"
   },
   {
    "date": "2026-11-13",
@@ -48,7 +59,10 @@
    "type": "Official supporter",
    "region": "Global",
    "summary": "Electric aviation company Archer signs a multi-year partnership as an Official Supporter of Formula 1, with plans to explore air taxi services at selected Grands Prix, subject to regulatory approval.",
-   "url": "https://www.sportcal.com/news/f1-brings-aerospace-tech-brand-archer-in-as-first-official-supporter/"
+   "url": "https://www.sportcal.com/news/f1-brings-aerospace-tech-brand-archer-in-as-first-official-supporter/",
+   "tier": "Official partner",
+   "status": "New",
+   "market": "Global"
   },
   {
    "date": "2026-11-12",
@@ -58,7 +72,14 @@
    "type": "Stadium naming rights",
    "region": "Global",
    "summary": "Novibet takes the naming rights to Panathinaikos' new stadium at Votanikos in a seven-year partnership, reportedly worth around €50m.",
-   "url": "https://www.protothema.gr/sports/article/1909707/deal-tou-panathinaikou-me-ti-novibet-gia-tin-onomatodosia-tou-gipedou-ston-votaniko/"
+   "url": "https://www.protothema.gr/sports/article/1909707/deal-tou-panathinaikou-me-ti-novibet-gia-tin-onomatodosia-tou-gipedou-ston-votaniko/",
+   "tier": "Naming rights",
+   "status": "New",
+   "term": 7,
+   "ends": 2033,
+   "endsEst": true,
+   "value": "€50m",
+   "market": "Europe"
   },
   {
    "date": "2026-11-16",
@@ -68,7 +89,10 @@
    "type": "Official partner",
    "region": "ANZ",
    "summary": "1Cover becomes the Crusaders' official travel insurance partner, with its logo on the lower back of the jersey.",
-   "url": "https://www.insurancebusinessmag.com/nz/news/breaking-news/1cover-signs-crusaders-sponsorship-deal-597454.aspx"
+   "url": "https://www.insurancebusinessmag.com/nz/news/breaking-news/1cover-signs-crusaders-sponsorship-deal-597454.aspx",
+   "tier": "Official partner",
+   "status": "New",
+   "market": "ANZ"
   },
   {
    "date": "2026-11-16",
@@ -78,7 +102,10 @@
    "type": "Renewal",
    "region": "Global",
    "summary": "Nasdaq extends its partnership with the Mercedes-AMG PETRONAS F1 Team on a multi-year basis, adding race hospitality, executive experiences and more use of Nasdaq MarketSite.",
-   "url": "https://www.globenewswire.com/news-release/2026/11/16/3403526/6948/en/nasdaq-and-mercedes-amg-petronas-f1-team-renew-multi-year-partnership.html"
+   "url": "https://www.globenewswire.com/news-release/2026/11/16/3403526/6948/en/nasdaq-and-mercedes-amg-petronas-f1-team-renew-multi-year-partnership.html",
+   "tier": "Official partner",
+   "status": "Renewal",
+   "market": "Global"
   },
   {
    "date": "2026-11-12",
@@ -88,7 +115,10 @@
    "type": "Official partner",
    "region": "Global",
    "summary": "Lay's becomes an official sponsor of South American football, bringing the Copa Libertadores into its football campaign.",
-   "url": "https://www.insideworldfootball.com/2026/11/12/lays-to-sponsor-copa-libertadores-in-conmebol-deal/"
+   "url": "https://www.insideworldfootball.com/2026/11/12/lays-to-sponsor-copa-libertadores-in-conmebol-deal/",
+   "tier": "Official partner",
+   "status": "New",
+   "market": "Rest of World"
   },
   {
    "date": "2026-11-16",
@@ -98,7 +128,13 @@
    "type": "Extension",
    "region": "Global",
    "summary": "TicketCo extends its ticketing and fan data partnership with the Northern Ireland Football League for three more years.",
-   "url": "https://sportforbusiness.com/ticketco-strengthens-irish-football-presence/"
+   "url": "https://sportforbusiness.com/ticketco-strengthens-irish-football-presence/",
+   "tier": "Official partner",
+   "status": "Extension",
+   "term": 3,
+   "ends": 2029,
+   "endsEst": true,
+   "market": "UK & Ireland"
   },
   {
    "date": "2026-11-16",
@@ -108,7 +144,10 @@
    "type": "Partnership",
    "region": "ANZ",
    "summary": "Straight Bat Private Equity joins the Cricket Victoria Foundation as a Champion member of its First XI donor programme.",
-   "url": "https://ministryofsport.com/cricket-victoria-foundation-partners-with-straight-bat-private-equity/"
+   "url": "https://ministryofsport.com/cricket-victoria-foundation-partners-with-straight-bat-private-equity/",
+   "tier": "Official partner",
+   "status": "New",
+   "market": "ANZ"
   },
   {
    "date": "2026-11-16",
@@ -118,7 +157,10 @@
    "type": "Renewal",
    "region": "Global",
    "summary": "Cork City renews its ticketing partnership with TicketCo ahead of its return to the League of Ireland Premier Division in 2027.",
-   "url": "https://sportforbusiness.com/ticketco-strengthens-irish-football-presence/"
+   "url": "https://sportforbusiness.com/ticketco-strengthens-irish-football-presence/",
+   "tier": "Principal & major",
+   "status": "Renewal",
+   "market": "UK & Ireland"
   },
   {
    "listed": "2026-11-16",
