@@ -16815,7 +16815,10 @@
     "logo"
    ],
    "cat": "Apparel & footwear",
-   "k": "b"
+   "k": "b",
+   "aliases": [
+    "MJ Bale"
+   ]
   },
   "ma-services-group": {
    "name": "MA Services Group",
@@ -18163,10 +18166,6 @@
     "icon",
     "logo"
    ]
-  },
-  "mj-bale": {
-   "name": "MJ Bale",
-   "k": "b"
   },
   "mjp-projects": {
    "name": "MJP Projects",
