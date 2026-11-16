@@ -14,22 +14,46 @@
  "dup_entities": [
   {
    "names": [
-    "Ant Group",
-    "Ant International"
+    "Sky",
+    "Sky NZ",
+    "Sky Sport",
+    "Sky Sports"
    ],
    "slugs": [
-    "ant-group",
-    "ant-international"
+    "sky",
+    "sky-nz",
+    "sky-sport",
+    "sky-sports"
    ]
   },
   {
    "names": [
-    "Victor",
-    "Victor Sports"
+    "Commonwealth Games",
+    "Commonwealth Games Australia"
    ],
    "slugs": [
-    "victor",
-    "victor-sports"
+    "commonwealth-games",
+    "commonwealth-games-australia"
+   ]
+  },
+  {
+   "names": [
+    "Star Sports",
+    "The Star"
+   ],
+   "slugs": [
+    "star-sports",
+    "the-star"
+   ]
+  },
+  {
+   "names": [
+    "Hockey Australia",
+    "Hockey New Zealand"
+   ],
+   "slugs": [
+    "hockey-australia",
+    "hockey-new-zealand"
    ]
   },
   {
@@ -46,36 +70,42 @@
   },
   {
    "names": [
-    "Sky",
-    "Sky NZ",
-    "Sky Sport",
-    "Sky Sports"
+    "Ant Group",
+    "Ant International"
    ],
    "slugs": [
-    "sky",
-    "sky-nz",
-    "sky-sport",
-    "sky-sports"
+    "ant-group",
+    "ant-international"
    ]
   },
   {
    "names": [
-    "Dolphins",
-    "Dolphins Group"
+    "HYROX",
+    "HYROX Australia"
    ],
    "slugs": [
-    "dolphins",
-    "dolphins-group"
+    "hyrox",
+    "hyrox-australia"
    ]
   },
   {
    "names": [
-    "Hockey Australia",
-    "Hockey New Zealand"
+    "Special Olympics",
+    "Special Olympics Australia"
    ],
    "slugs": [
-    "hockey-australia",
-    "hockey-new-zealand"
+    "special-olympics",
+    "special-olympics-australia"
+   ]
+  },
+  {
+   "names": [
+    "Courier Mail",
+    "The Courier-Mail"
+   ],
+   "slugs": [
+    "courier-mail",
+    "the-courier-mail"
    ]
   },
   {
@@ -90,6 +120,16 @@
   },
   {
    "names": [
+    "Victor",
+    "Victor Sports"
+   ],
+   "slugs": [
+    "victor",
+    "victor-sports"
+   ]
+  },
+  {
+   "names": [
     "PURE Sports Nutrition",
     "Pure Nutrition"
    ],
@@ -100,12 +140,12 @@
   },
   {
    "names": [
-    "HYROX",
-    "HYROX Australia"
+    "Dolphins",
+    "Dolphins Group"
    ],
    "slugs": [
-    "hyrox",
-    "hyrox-australia"
+    "dolphins",
+    "dolphins-group"
    ]
   },
   {
@@ -126,46 +166,6 @@
    "slugs": [
     "tab",
     "tab-nz"
-   ]
-  },
-  {
-   "names": [
-    "Star Sports",
-    "The Star"
-   ],
-   "slugs": [
-    "star-sports",
-    "the-star"
-   ]
-  },
-  {
-   "names": [
-    "Courier Mail",
-    "The Courier-Mail"
-   ],
-   "slugs": [
-    "courier-mail",
-    "the-courier-mail"
-   ]
-  },
-  {
-   "names": [
-    "Special Olympics",
-    "Special Olympics Australia"
-   ],
-   "slugs": [
-    "special-olympics",
-    "special-olympics-australia"
-   ]
-  },
-  {
-   "names": [
-    "Commonwealth Games",
-    "Commonwealth Games Australia"
-   ],
-   "slugs": [
-    "commonwealth-games",
-    "commonwealth-games-australia"
    ]
   }
  ],
