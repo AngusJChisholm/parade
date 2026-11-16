@@ -12,7 +12,7 @@ body{margin:0;background:#fff;font:11px/1.2 Archivo,Arial,sans-serif;color:#111}
 .lg.has-img .mono{display:none}.lg img{width:100%;height:100%;object-fit:contain;display:block}
 </style></head><body><div class="g" id="g"></div>
 <script src="assets/logos.js?v=8"></script>
-<script src="assets/pills.js?v=1"></script>
+<script src="assets/pills.js?v=2"></script>
 <script>
 SSSLogos.load().then(()=>{const all=SSSLogos.all();const p=new URLSearchParams(location.search);const from=+(p.get("from")||0),n=+(p.get("n")||9999);
 document.getElementById("g").innerHTML=Object.keys(all).filter(s=>all[s].k).sort().slice(from,from+n).map(s=>{const e=SSSLogos.byId(s);return `<div class="c" data-s="${s}">${SSSLogos.mark(e,{px:48}).replace(/loading="lazy"/,'loading="eager"')}<b>${SSSLogos.esc(e.name)}</b></div>`}).join("");setTimeout(()=>document.querySelectorAll(".c").forEach(c=>{if(!c.querySelector(".lg.has-img"))c.classList.add("miss")}),15000)})

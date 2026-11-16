@@ -20,7 +20,10 @@ const st={league:S.qs().get("league")||"AFL"};
 const from=`${yr-1}-01-01`;
 
 S.load().then(D=>{
-  const leagues=D.leagues.filter(l=>Array.isArray(l.clubs)&&l.clubs.length);
+  // Every league in leagues.json with 4+ clubs on file; a league with the same clubs as one above it (AFLW, WBBL) is skipped.
+  const seen=new Set(),leagues=[];
+  D.lgAll.forEach(l=>{const clubs=l.clubs.filter(s=>D.orgs.has(s));const k=clubs.slice().sort().join();if(clubs.length<4||seen.has(k))return;seen.add(k);leagues.push({name:l.name,sport:l.sport,clubs})});
+  const lgCounts=new Map(leagues.map(l=>[l.name,l.clubs.length]));
   if(!leagues.some(l=>l.name===st.league))st.league=leagues[0].name;
   function draw(){
     const lg=leagues.find(l=>l.name===st.league);
@@ -43,7 +46,7 @@ S.load().then(D=>{
     const n=clubs.length;
     document.title=`Who backs who in the ${lg.name} | Sport Sport Sport`;
     $("ph").innerHTML=`Who backs who<br>in the <span class="v">${esc(lg.name)}.</span>`;
-    $("lgPills").innerHTML=leagues.map(l=>`<button type="button" class="pill${st.league===l.name?" on":""}" data-l="${esc(l.name)}" aria-pressed="${st.league===l.name}">${esc(l.name)}</button>`).join("");
+    $("lgSel").innerHTML=S.lgOptions(leagues,st.league,lgCounts,false);$("lgSel").value=st.league;
     const filled=k=>clubs.filter(c=>grid.get(c.e.slug)[k].size).length;
     const cell=m=>{
       if(!m.size)return `<td class="e">-</td>`;
@@ -56,7 +59,7 @@ S.load().then(D=>{
     $("pkey").innerHTML=`<i></i>Backs 3 or more clubs${top.length?` (${top.join(", ")})`:""}. Beer brands are counted under the brewer that owns them (e.g. Carlton Draught under CUB), but shown as each club names them. Current partners from each club's official partners page, plus partnerships announced since ${yr-1} or still running. A dash means nothing filed yet. Updated ${new Date().toLocaleDateString("en-AU",{month:"short",year:"numeric"})}.`;
     S.setQs({league:st.league});
   }
-  $("lgPills").addEventListener("click",e=>{const b=e.target.closest("[data-l]");if(!b)return;st.league=b.dataset.l;draw()});
+  $("lgSel").onchange=e=>{st.league=e.target.value;draw()};
   draw();
 }).catch(()=>{$("pt").innerHTML=`<tr><td class="e">Couldn't load the map. Refresh to try again.</td></tr>`});
 })();

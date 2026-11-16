@@ -19,7 +19,8 @@ window.SSSData=(function(){
   let P=null;
   function load(){
     if(P)return P;
-    P=Promise.all([fetch("deals.json",{cache:"no-cache"}).then(r=>r.json()),L.load()]).then(([data])=>{
+    const lj=fetch("leagues.json",{cache:"no-cache"}).then(r=>r.ok?r.json():{}).catch(()=>({}));
+    P=Promise.all([fetch("deals.json",{cache:"no-cache"}).then(r=>r.json()),L.load(),lj]).then(([data,,lgj])=>{
       const deals=(data.deals||[]).map(d=>L.tag(Object.assign({},d))).sort((a,b)=>sortKey(b).localeCompare(sortKey(a)));
       const M=new Map();
       deals.forEach(d=>{
@@ -44,7 +45,11 @@ window.SSSData=(function(){
         hay:[m.e.name,...(m.e.aliases||[]),...[...m.partners.values()].map(p=>p.name)].join(" ").toLowerCase()}));
       // Each deal gets its brands' categories, for category views.
       deals.forEach(d=>{d._cats=[...new Set(d._bs.map(e=>(M.get(e.slug)||{}).cat||e.cat||"Other"))]});
-      return {deals,orgs:M,brands:all.filter(m=>m.kind==="brand"),props:all.filter(m=>m.kind==="property"),leagues:L.leagues(),site:data.site||{}};
+      // Every league in leagues.json: clubs = member slugs (in file order), ids = clubs plus the league itself.
+      const ENT=L.all(),idOf=n=>ENT[n]?n:(L.resolve(n)||{}).slug;
+      const lgAll=(lgj.leagues||[]).map(l=>{const clubs=[...new Set((l.members||[]).map(idOf).filter(Boolean))];
+        return {name:l.name,sport:l.sport||"Other",market:l.market||"",clubs,ids:new Set([...clubs,...(l.self||[]).map(idOf).filter(Boolean)])}});
+      return {deals,orgs:M,brands:all.filter(m=>m.kind==="brand"),props:all.filter(m=>m.kind==="property"),leagues:L.leagues(),lgAll,site:data.site||{}};
     });
     return P;
   }
@@ -58,5 +63,14 @@ window.SSSData=(function(){
   const endsTxt=d=>d.ends?`${d.endsEst?"c. ":""}${d.ends}`:"";
   const qs=()=>new URLSearchParams(location.search);
   function setQs(obj){const p=new URLSearchParams();Object.entries(obj).forEach(([k,v])=>{if(v)p.set(k,v)});history.replaceState(null,"",location.pathname+(p.toString()?"?"+p:""))}
-  return {load,mkt,MKTS,mktLab,sortKey,yearOf,fmt,CATS,PTYPES,TIERS,esc,dealLink,endsTxt,qs,setQs};
+  // League dropdown options, grouped by sport, biggest first. counts = Map(league name -> number shown); leagues with 0
+  // are left out unless picked. withAll adds an "All leagues" option at the top.
+  function lgOptions(list,cur,counts,withAll){
+    const by=new Map();
+    list.forEach(l=>{const n=counts?counts.get(l.name)||0:null;if(counts&&!n&&cur!==l.name)return;
+      if(!by.has(l.sport))by.set(l.sport,{n:0,ls:[]});const g=by.get(l.sport);g.n+=n||0;g.ls.push({l,n})});
+    return (withAll?`<option value=""${cur?"":" selected"}>All leagues</option>`:"")+[...by].sort((a,b)=>b[1].n-a[1].n||b[1].ls.length-a[1].ls.length||a[0].localeCompare(b[0]))
+      .map(([sp,g])=>`<optgroup label="${esc(sp)}">${g.ls.sort((a,b)=>(b.n||0)-(a.n||0)||a.l.name.localeCompare(b.l.name)).map(x=>`<option value="${esc(x.l.name)}"${cur===x.l.name?" selected":""}>${esc(x.l.name)}${x.n!=null?` (${x.n.toLocaleString("en-AU")})`:""}</option>`).join("")}</optgroup>`).join("");
+  }
+  return {load,lgOptions,mkt,MKTS,mktLab,sortKey,yearOf,fmt,CATS,PTYPES,TIERS,esc,dealLink,endsTxt,qs,setQs};
 })();

@@ -8,7 +8,10 @@ const q0=S.qs();
 const st={league:q0.get("league")||"",span:q0.get("span")||"all"};
 
 S.load().then(D=>{
-  const leagues=D.leagues.filter(l=>Array.isArray(l.clubs)&&l.clubs.length);
+  // Every league in leagues.json with 4+ clubs on file; a league with the same clubs as one above it (AFLW, WBBL) is skipped.
+  const seen=new Set(),leagues=[];
+  D.lgAll.forEach(l=>{const clubs=l.clubs.filter(s=>D.orgs.has(s));const k=clubs.slice().sort().join();if(clubs.length<4||seen.has(k))return;seen.add(k);leagues.push({name:l.name,sport:l.sport,clubs})});
+  const lgCounts=new Map(leagues.map(l=>[l.name,l.clubs.length]));
   if(!leagues.some(l=>l.name===st.league))st.league=leagues[0].name;
   const recentFrom=`${yr-1}-01-01`;
   function draw(){
@@ -26,13 +29,14 @@ S.load().then(D=>{
     });
     const cats=[...catClubs.entries()].sort((a,b)=>(a[0]==="Other")-(b[0]==="Other")||b[1]-a[1]).map(x=>x[0]);
     const n=clubs.length;
-    $("lgPills").innerHTML=leagues.map(l=>`<button type="button" class="pill${st.league===l.name?" on":""}" data-l="${esc(l.name)}" aria-pressed="${st.league===l.name}">${esc(l.name)}</button>`).join("");
+    $("lgSel").innerHTML=S.lgOptions(leagues,st.league,lgCounts,false);$("lgSel").value=st.league;
     $("regPills").innerHTML=[["all","All partnerships filed"],["recent",`Current and since ${yr-1}`]].map(([k,l])=>`<button type="button" class="pill${st.span===k?" on":""}" data-sp="${k}" aria-pressed="${st.span===k}">${l}</button>`).join("");
     $("lgNote").textContent=`${n} ${lg.name} clubs × ${cats.length} categories. A dash means we haven't filed a partner in that category for the club, not that one definitely doesn't exist. Tap a logo for the brand's page.`;
     $("map").innerHTML=cats.length?`<table class="m"><thead><tr><th class="club">${esc(lg.name)}</th>${cats.map(c=>`<th scope="col"><a href="categories?c=${encodeURIComponent(c)}">${esc(c)}</a><br><span class="mute-l" style="font-weight:500;letter-spacing:0">${catClubs.get(c)}/${n} clubs</span></th>`).join("")}</tr></thead><tbody>${clubs.map(c=>{const m=grid.get(c.e.slug);return `<tr><th class="club" scope="row"><a href="${esc(L.page(c.e.slug))}">${L.mark(c.e,{px:30})}${esc(c.e.name)}</a></th>${cats.map(cat=>{const cm=m.get(cat);return cm?`<td><span class="cell">${[...cm.values()].slice(0,3).map(x=>`<a class="lga" href="${esc(L.page(x.e.slug))}" title="${esc(x.e.name)} · ${esc(S.fmt(x.d))}" aria-label="${esc(x.e.name)}">${L.mark(x.e,{px:36})}</a>`).join("")}${cm.size>3?`<span class="mute-l" style="font-size:12px">+${cm.size-3}</span>`:""}</span></td>`:`<td class="no"></td>`}).join("")}</tr>`}).join("")}</tbody></table>`:`<p class="note">No partnerships filed for these clubs yet.</p>`;
     S.setQs({league:st.league,span:st.span!=="all"&&st.span});
   }
-  document.querySelector("main").addEventListener("click",e=>{const b=e.target.closest("[data-l],[data-sp]");if(!b)return;if(b.dataset.l)st.league=b.dataset.l;if(b.dataset.sp)st.span=b.dataset.sp;draw()});
+  document.querySelector("main").addEventListener("click",e=>{const b=e.target.closest("[data-sp]");if(!b)return;st.span=b.dataset.sp;draw()});
+  $("lgSel").onchange=e=>{st.league=e.target.value;draw()};
   draw();
 }).catch(()=>{$("map").innerHTML=`<p class="note">Couldn't load the map. Refresh to try again.</p>`});
 })();
