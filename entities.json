@@ -7138,7 +7138,17 @@
     "icon"
    ],
    "ptype": "National team",
-   "k": "p"
+   "k": "p",
+   "ptiers": [
+    "Major partner",
+    "Official partner",
+    "Official broadcaster",
+    "Automotive partner"
+   ],
+   "ptiersChecked": "2026-11-16",
+   "aliases": [
+    "Matildas"
+   ]
   },
   "commercial-facilities-integrated": {
    "name": "Commercial Facilities Integrated",
@@ -32344,6 +32354,16 @@
     "symbol",
     "icon",
     "logo"
+   ]
+  },
+  "network-10": {
+   "name": "Network 10",
+   "domain": "10.com.au",
+   "cat": "Media & broadcast",
+   "k": "b",
+   "aliases": [
+    "10",
+    "Channel 10"
    ]
   }
  },
