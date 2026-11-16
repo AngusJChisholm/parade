@@ -3,7 +3,7 @@
  "summary": {
   "dup_entities": 15,
   "no_category": 583,
-  "cat_mismatch": 103,
+  "cat_mismatch": 104,
   "slot_clash": 25,
   "dup_deals": 0,
   "no_broadcaster": 13,
@@ -12,52 +12,6 @@
   "anz_slot_clash": 22
  },
  "dup_entities": [
-  {
-   "names": [
-    "Star Sports",
-    "The Star"
-   ],
-   "slugs": [
-    "star-sports",
-    "the-star"
-   ]
-  },
-  {
-   "names": [
-    "Sky",
-    "Sky NZ",
-    "Sky Sport",
-    "Sky Sports"
-   ],
-   "slugs": [
-    "sky",
-    "sky-nz",
-    "sky-sport",
-    "sky-sports"
-   ]
-  },
-  {
-   "names": [
-    "PURE Sports Nutrition",
-    "Pure Nutrition"
-   ],
-   "slugs": [
-    "pure-nutrition",
-    "pure-sports-nutrition"
-   ]
-  },
-  {
-   "names": [
-    "Athletics",
-    "Athletics Australia",
-    "Athletics New Zealand"
-   ],
-   "slugs": [
-    "athletics",
-    "athletics-australia",
-    "athletics-new-zealand"
-   ]
-  },
   {
    "names": [
     "Kia",
@@ -80,12 +34,12 @@
   },
   {
    "names": [
-    "Harness Racing Australia",
-    "Harness Racing NZ"
+    "HYROX",
+    "HYROX Australia"
    ],
    "slugs": [
-    "harness-racing-australia",
-    "harness-racing-nz"
+    "hyrox",
+    "hyrox-australia"
    ]
   },
   {
@@ -100,32 +54,26 @@
   },
   {
    "names": [
-    "Special Olympics",
-    "Special Olympics Australia"
+    "Sky",
+    "Sky NZ",
+    "Sky Sport",
+    "Sky Sports"
    ],
    "slugs": [
-    "special-olympics",
-    "special-olympics-australia"
+    "sky",
+    "sky-nz",
+    "sky-sport",
+    "sky-sports"
    ]
   },
   {
    "names": [
-    "Hockey Australia",
-    "Hockey New Zealand"
+    "Dolphins",
+    "Dolphins Group"
    ],
    "slugs": [
-    "hockey-australia",
-    "hockey-new-zealand"
-   ]
-  },
-  {
-   "names": [
-    "HYROX",
-    "HYROX Australia"
-   ],
-   "slugs": [
-    "hyrox",
-    "hyrox-australia"
+    "dolphins",
+    "dolphins-group"
    ]
   },
   {
@@ -140,16 +88,6 @@
   },
   {
    "names": [
-    "Commonwealth Games",
-    "Commonwealth Games Australia"
-   ],
-   "slugs": [
-    "commonwealth-games",
-    "commonwealth-games-australia"
-   ]
-  },
-  {
-   "names": [
     "TAB",
     "TAB NZ"
    ],
@@ -160,12 +98,74 @@
   },
   {
    "names": [
-    "Dolphins",
-    "Dolphins Group"
+    "Harness Racing Australia",
+    "Harness Racing NZ"
    ],
    "slugs": [
-    "dolphins",
-    "dolphins-group"
+    "harness-racing-australia",
+    "harness-racing-nz"
+   ]
+  },
+  {
+   "names": [
+    "PURE Sports Nutrition",
+    "Pure Nutrition"
+   ],
+   "slugs": [
+    "pure-nutrition",
+    "pure-sports-nutrition"
+   ]
+  },
+  {
+   "names": [
+    "Hockey Australia",
+    "Hockey New Zealand"
+   ],
+   "slugs": [
+    "hockey-australia",
+    "hockey-new-zealand"
+   ]
+  },
+  {
+   "names": [
+    "Athletics",
+    "Athletics Australia",
+    "Athletics New Zealand"
+   ],
+   "slugs": [
+    "athletics",
+    "athletics-australia",
+    "athletics-new-zealand"
+   ]
+  },
+  {
+   "names": [
+    "Special Olympics",
+    "Special Olympics Australia"
+   ],
+   "slugs": [
+    "special-olympics",
+    "special-olympics-australia"
+   ]
+  },
+  {
+   "names": [
+    "Commonwealth Games",
+    "Commonwealth Games Australia"
+   ],
+   "slugs": [
+    "commonwealth-games",
+    "commonwealth-games-australia"
+   ]
+  },
+  {
+   "names": [
+    "Star Sports",
+    "The Star"
+   ],
+   "slugs": [
+    "star-sports",
+    "the-star"
    ]
   }
  ],
@@ -3282,6 +3282,13 @@
    "cat": "Hospitality & entertainment",
    "rules_say": "Apparel & footwear",
    "deals": 2
+  },
+  {
+   "brand": "Mitsubishi Estate",
+   "slug": "mitsubishi-estate",
+   "cat": "Construction & property",
+   "rules_say": "Automotive",
+   "deals": 1
   },
   {
    "brand": "Highland Electric Fleets",
