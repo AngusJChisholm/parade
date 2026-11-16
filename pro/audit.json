@@ -14,6 +14,16 @@
  "dup_entities": [
   {
    "names": [
+    "HYROX",
+    "HYROX Australia"
+   ],
+   "slugs": [
+    "hyrox",
+    "hyrox-australia"
+   ]
+  },
+  {
+   "names": [
     "Hockey Australia",
     "Hockey New Zealand"
    ],
@@ -24,12 +34,24 @@
   },
   {
    "names": [
-    "TAB",
-    "TAB NZ"
+    "Athletics",
+    "Athletics Australia",
+    "Athletics New Zealand"
    ],
    "slugs": [
-    "tab",
-    "tab-nz"
+    "athletics",
+    "athletics-australia",
+    "athletics-new-zealand"
+   ]
+  },
+  {
+   "names": [
+    "PURE Sports Nutrition",
+    "Pure Nutrition"
+   ],
+   "slugs": [
+    "pure-nutrition",
+    "pure-sports-nutrition"
    ]
   },
   {
@@ -44,12 +66,32 @@
   },
   {
    "names": [
-    "Special Olympics",
-    "Special Olympics Australia"
+    "Ant Group",
+    "Ant International"
    ],
    "slugs": [
-    "special-olympics",
-    "special-olympics-australia"
+    "ant-group",
+    "ant-international"
+   ]
+  },
+  {
+   "names": [
+    "Kia",
+    "Kia Australia"
+   ],
+   "slugs": [
+    "kia",
+    "kia-australia"
+   ]
+  },
+  {
+   "names": [
+    "Victor",
+    "Victor Sports"
+   ],
+   "slugs": [
+    "victor",
+    "victor-sports"
    ]
   },
   {
@@ -68,44 +110,12 @@
   },
   {
    "names": [
-    "Athletics",
-    "Athletics Australia",
-    "Athletics New Zealand"
-   ],
-   "slugs": [
-    "athletics",
-    "athletics-australia",
-    "athletics-new-zealand"
-   ]
-  },
-  {
-   "names": [
-    "Victor",
-    "Victor Sports"
-   ],
-   "slugs": [
-    "victor",
-    "victor-sports"
-   ]
-  },
-  {
-   "names": [
     "Harness Racing Australia",
     "Harness Racing NZ"
    ],
    "slugs": [
     "harness-racing-australia",
     "harness-racing-nz"
-   ]
-  },
-  {
-   "names": [
-    "Commonwealth Games",
-    "Commonwealth Games Australia"
-   ],
-   "slugs": [
-    "commonwealth-games",
-    "commonwealth-games-australia"
    ]
   },
   {
@@ -120,52 +130,42 @@
   },
   {
    "names": [
+    "Commonwealth Games",
+    "Commonwealth Games Australia"
+   ],
+   "slugs": [
+    "commonwealth-games",
+    "commonwealth-games-australia"
+   ]
+  },
+  {
+   "names": [
+    "TAB",
+    "TAB NZ"
+   ],
+   "slugs": [
+    "tab",
+    "tab-nz"
+   ]
+  },
+  {
+   "names": [
+    "Special Olympics",
+    "Special Olympics Australia"
+   ],
+   "slugs": [
+    "special-olympics",
+    "special-olympics-australia"
+   ]
+  },
+  {
+   "names": [
     "Courier Mail",
     "The Courier-Mail"
    ],
    "slugs": [
     "courier-mail",
     "the-courier-mail"
-   ]
-  },
-  {
-   "names": [
-    "Ant Group",
-    "Ant International"
-   ],
-   "slugs": [
-    "ant-group",
-    "ant-international"
-   ]
-  },
-  {
-   "names": [
-    "PURE Sports Nutrition",
-    "Pure Nutrition"
-   ],
-   "slugs": [
-    "pure-nutrition",
-    "pure-sports-nutrition"
-   ]
-  },
-  {
-   "names": [
-    "Kia",
-    "Kia Australia"
-   ],
-   "slugs": [
-    "kia",
-    "kia-australia"
-   ]
-  },
-  {
-   "names": [
-    "HYROX",
-    "HYROX Australia"
-   ],
-   "slugs": [
-    "hyrox",
-    "hyrox-australia"
    ]
   }
  ],
