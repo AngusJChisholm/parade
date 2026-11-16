@@ -643,6 +643,10 @@
    ],
    "ptiersChecked": "2026-11-05"
   },
+  "adelaide-city-kia": {
+   "name": "Adelaide City Kia",
+   "cat": "Automotive"
+  },
   "adelaide-crows": {
    "name": "Adelaide Crows",
    "domain": "afc.com.au",
@@ -687,7 +691,15 @@
     "icon"
    ],
    "ptype": "Club & team",
-   "k": "p"
+   "k": "p",
+   "ptiers": [
+    "Principal partner",
+    "Major partner",
+    "Official partner",
+    "Supply partner",
+    "Charity partner"
+   ],
+   "ptiersChecked": "2026-11-16"
   },
   "adelaide-thunderbirds": {
    "name": "Adelaide Thunderbirds",
@@ -1603,6 +1615,10 @@
    "name": "Amazon Web Services",
    "cat": "Technology",
    "k": "b"
+  },
+  "ambra-spirits": {
+   "name": "Ambra Spirits",
+   "cat": "Alcohol"
   },
   "amd": {
    "name": "AMD",
@@ -4466,6 +4482,9 @@
     "logo"
    ]
   },
+  "bonsoy": {
+   "name": "Bonsoy"
+  },
   "booking-com": {
    "name": "Booking.com",
    "cat": "Airlines & travel",
@@ -4856,7 +4875,13 @@
     "icon"
    ],
    "ptype": "Club & team",
-   "k": "p"
+   "k": "p",
+   "ptiers": [
+    "Principal partner",
+    "Sponsor partner",
+    "Media partner"
+   ],
+   "ptiersChecked": "2026-11-16"
   },
   "brisbane-lions": {
    "name": "Brisbane Lions",
@@ -5580,6 +5605,10 @@
    "domain": "cancercouncil.com.au",
    "cat": "Not-for-profit",
    "k": "b"
+  },
+  "cancer-council-sa": {
+   "name": "Cancer Council SA",
+   "cat": "Tourism & government"
   },
   "cannon-logistics": {
    "name": "Cannon Logistics",
@@ -7861,6 +7890,10 @@
    "name": "Cross Excavations",
    "k": "b"
   },
+  "cross-river-rail": {
+   "name": "Cross River Rail",
+   "cat": "Logistics & transport"
+  },
   "crowlz": {
    "name": "Crowlz",
    "k": "b"
@@ -8455,6 +8488,10 @@
   "department-of-health": {
    "name": "Department of Health",
    "k": "b",
+   "cat": "Tourism & government"
+  },
+  "department-of-justice": {
+   "name": "Department of Justice",
    "cat": "Tourism & government"
   },
   "destination-nsw": {
@@ -10602,6 +10639,9 @@
    "cat": "Food & nutrition",
    "k": "b"
   },
+  "fiveaa": {
+   "name": "FIVEaa"
+  },
   "flava": {
    "name": "Flava",
    "k": "b"
@@ -11229,6 +11269,9 @@
   "galway-gaa": {
    "name": "Galway GAA",
    "k": "p"
+  },
+  "gambleaware": {
+   "name": "GambleAware"
   },
   "gameface": {
    "name": "GameFace",
@@ -12623,6 +12666,10 @@
    "k": "b",
    "cat": "Health & beauty"
   },
+  "healthpartners": {
+   "name": "HealthPartners",
+   "cat": "Health & beauty"
+  },
   "healthspan-elite": {
    "name": "Healthspan Elite",
    "domain": "healthspanelite.co.uk",
@@ -12919,8 +12966,10 @@
    "ptiers": [
     "Principal partner",
     "Major partner",
+    "Official sponsor",
     "Official partner"
-   ]
+   ],
+   "ptiersChecked": "2026-11-16"
   },
   "hobsons-bay-dental": {
    "name": "Hobsons Bay Dental",
@@ -14587,6 +14636,9 @@
     "logo"
    ]
   },
+  "jimmy-rods": {
+   "name": "Jimmy Rods"
+  },
   "jimmy-rods-barbershop": {
    "name": "Jimmy Rods Barbershop",
    "k": "b"
@@ -14767,6 +14819,9 @@
   "julius-baer": {
    "name": "Julius Baer",
    "k": "b"
+  },
+  "jurovich-surveying": {
+   "name": "Jurovich Surveying"
   },
   "juventus": {
    "name": "Juventus",
@@ -16987,6 +17042,10 @@
     "logo"
    ]
   },
+  "majestic-hotels-and-apartments": {
+   "name": "Majestic Hotels & Apartments",
+   "cat": "Airlines & travel"
+  },
   "major-league-pickleball": {
    "name": "Major League Pickleball",
    "ptype": "League & competition",
@@ -17639,6 +17698,8 @@
    "k": "p",
    "ptiers": [
     "Major partner",
+    "Principal partner",
+    "Platinum partner",
     "Official partner",
     "Official supplier"
    ]
@@ -18852,6 +18913,10 @@
    "ptype": "Event",
    "k": "p"
   },
+  "murdoch-university": {
+   "name": "Murdoch University",
+   "cat": "Education"
+  },
   "musashi": {
    "name": "Musashi",
    "cat": "Food & nutrition",
@@ -19193,6 +19258,9 @@
    "name": "NCAA",
    "ptype": "Governing body",
    "k": "p"
+  },
+  "ncet": {
+   "name": "NCET"
   },
   "nec": {
    "name": "NEC",
@@ -19662,6 +19730,10 @@
   "news-australia": {
    "name": "News Australia",
    "k": "b",
+   "cat": "Media & broadcast"
+  },
+  "news-corp": {
+   "name": "News Corp",
    "cat": "Media & broadcast"
   },
   "nex": {
@@ -20932,6 +21004,9 @@
     "logo"
    ]
   },
+  "oscar-hunt": {
+   "name": "Oscar Hunt"
+  },
   "oscar-piastri": {
    "name": "Oscar Piastri",
    "ptype": "Athlete & talent",
@@ -21648,6 +21723,10 @@
     "Official partner"
    ]
   },
+  "perth-children-s-hospital-foundation": {
+   "name": "Perth Children's Hospital Foundation",
+   "cat": "Health & beauty"
+  },
   "perth-glory": {
    "name": "Perth Glory",
    "domain": "perthglory.com.au",
@@ -21685,7 +21764,15 @@
     "logo"
    ],
    "ptype": "Club & team",
-   "k": "p"
+   "k": "p",
+   "ptiers": [
+    "Principal partner",
+    "Major partner",
+    "Official partner",
+    "Charity partner",
+    "Media partner"
+   ],
+   "ptiersChecked": "2026-11-16"
   },
   "perth-sports-medicine": {
    "name": "Perth Sports Medicine",
@@ -27402,7 +27489,8 @@
     "Major partner",
     "Official partner",
     "Media partner"
-   ]
+   ],
+   "ptiersChecked": "2026-11-16"
   },
   "sydney-swans": {
    "name": "Sydney Swans",
@@ -30932,6 +31020,10 @@
   "ward": {
    "name": "Ward",
    "k": "b"
+  },
+  "ward-civil": {
+   "name": "Ward Civil",
+   "cat": "Construction & property"
   },
   "warner-bros-movie-world": {
    "name": "Warner Bros. Movie World",
