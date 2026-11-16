@@ -4730,11 +4730,12 @@
    "sport": "NRL",
    "type": "Renewal",
    "region": "ANZ",
-   "summary": "Asahi Beverages extends with the NRL as official beer, cider and non-alc sponsor in a multi-year partnership, led by Victoria Bitter and Solo.",
-   "url": "https://www.mediaweek.com.au/nrl-renews-multi-year-partnership-with-asahi-beverages",
+   "summary": "Asahi Beverages extends with the NRL as official beer, cider and non-alcohol sponsor, consolidating CUB and Asahi Lifestyle Beverages into one multi-year deal. Victoria Bitter is the official beer and Solo the official non-alcohol drink. No public end date; confirmed current Nov 2026.",
+   "url": "https://www.asahi.com.au/images/media/Media_Release_NRL_Asahi_Partnership_Renewal_31Mar2023.pdf",
    "tier": "Official partner",
    "status": "Renewal",
-   "market": "ANZ"
+   "market": "ANZ",
+   "checked": "2026-11-16"
   },
   {
    "date": "2022-02-21",
@@ -13845,8 +13846,8 @@
    "term": 2,
    "ends": 2028,
    "endsEst": true,
-   "needsSource": true,
-   "market": "ANZ"
+   "market": "ANZ",
+   "url": "https://australia.rugby/news/raising-the-bar-wallabies-announce-new-partnership-with-lion-hahn-202671"
   },
   {
    "date": "2026-07-07",
@@ -19539,11 +19540,13 @@
    "sport": "Rugby union",
    "type": "Official partner",
    "region": "ANZ",
-   "summary": "Guinness signs a multi-year partnership as the Waratahs' official beer.",
+   "summary": "Guinness signs a three-year deal as the Waratahs' official beer, through to the end of 2028.",
    "tier": "Official partner",
    "status": "New",
-   "needsSource": true,
-   "market": "ANZ"
+   "market": "ANZ",
+   "ends": 2028,
+   "term": 3,
+   "url": "https://waratahs.rugby/news/a-scrumtious-partnership-guinness-joins-the-nsw-waratahs-2026210"
   },
   {
    "date": "2026-02-18",
@@ -31468,13 +31471,12 @@
    "sport": "AFL",
    "type": "Official partner",
    "region": "ANZ",
-   "summary": "Two-year partnership as the Swans' official beer",
+   "summary": "Two-year partnership as the Swans' official beer for the AFL and AFLW 2026 and 2027 seasons.",
    "url": "https://ministryofsport.com/sydney-swans-secure-tooheys-as-official-beer-partner-through-2027/",
    "tier": "Official partner",
    "status": "New",
    "term": 2,
-   "ends": 2028,
-   "endsEst": true,
+   "ends": 2027,
    "ptier": "Official partner",
    "market": "ANZ"
   },
@@ -65334,6 +65336,78 @@
    "status": "New",
    "tier": "Principal & major",
    "market": "ANZ"
+  },
+  {
+   "date": "2024-08-16",
+   "added": "2026-11-16",
+   "deal": "Coors × Cairns Taipans",
+   "sport": "Basketball",
+   "type": "Official partner",
+   "region": "ANZ",
+   "summary": "Good Drinks Australia brings Coors in as the Taipans' first official beer partner on a multi-year deal.",
+   "url": "https://www.taipans.com/news/taipans-sign-multi-year-deal-with-coors",
+   "tier": "Official partner",
+   "status": "New",
+   "market": "ANZ",
+   "checked": "2026-11-16"
+  },
+  {
+   "date": "2025-01-23",
+   "added": "2026-11-16",
+   "deal": "Moa Brewing Company × Crusaders",
+   "sport": "Rugby union",
+   "type": "Official partner",
+   "region": "ANZ",
+   "summary": "Moa becomes the Crusaders' official beer, cider and RTD partner in a long-term deal from the 2025 Super Rugby Pacific season.",
+   "url": "https://www.crusaders.co.nz/latest/news/crusaders-announce-exciting-new-partnership-with-moa-brewing-company/",
+   "tier": "Official partner",
+   "status": "New",
+   "market": "ANZ",
+   "checked": "2026-11-16"
+  },
+  {
+   "date": "2025-02-24",
+   "added": "2026-11-16",
+   "deal": "Asahi Beverages NZ × Blues (Super Rugby)",
+   "sport": "Rugby union",
+   "type": "Official partner",
+   "region": "ANZ",
+   "summary": "Asahi Beverages NZ steps up to a multi-year deal as the Blues' official beer and RTD partner, led by Pure Blonde ULTRA, with Brookvale Union as official RTD at Eden Park.",
+   "url": "https://theshout.co.nz/?p=48097",
+   "tier": "Official partner",
+   "status": "Expansion",
+   "market": "ANZ"
+  },
+  {
+   "month": "2023-09",
+   "added": "2026-11-16",
+   "deal": "Gage Roads × Sydney Sixers",
+   "sport": "Cricket",
+   "type": "Official partner",
+   "region": "ANZ",
+   "summary": "Gage Roads extends as the Sixers' official beer partner for three more summers, with exclusive pourage at Sixers events. The club's current partner list now shows Cricketers Arms.",
+   "url": "https://www.sydneysixers.com.au/news/3829540/gage-roads-brew-co-continue-party-with-sydney-sixers",
+   "tier": "Official partner",
+   "status": "Extension",
+   "market": "ANZ",
+   "term": 3,
+   "ends": 2026,
+   "ended": true
+  },
+  {
+   "date": "2023-10-19",
+   "added": "2026-11-16",
+   "deal": "Local Brewing Co. × Melbourne Victory",
+   "sport": "Football",
+   "type": "Official partner",
+   "region": "ANZ",
+   "summary": "Local Brewing Co. extends for three seasons as Victory's official beer partner and official away venue at its Clifton Hill taproom.",
+   "url": "https://melbournevictory.com.au/?p=338112",
+   "tier": "Official partner",
+   "status": "Extension",
+   "market": "ANZ",
+   "term": 3,
+   "ends": 2026
   }
  ]
 }

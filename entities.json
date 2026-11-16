@@ -2234,6 +2234,11 @@
    "cat": "Alcohol",
    "k": "b"
   },
+  "asahi-beverages-nz": {
+   "name": "Asahi Beverages NZ",
+   "cat": "Alcohol",
+   "k": "b"
+  },
   "asb": {
    "name": "ASB",
    "domain": "asb.co.nz",
@@ -7769,7 +7774,10 @@
   },
   "cricketers-arms": {
    "name": "Cricketers Arms",
-   "k": "b"
+   "k": "b",
+   "cat": "Alcohol",
+   "sub": "Beer & cider",
+   "parent": "asahi-beverages"
   },
   "cricks-highway": {
    "name": "Cricks Highway",
@@ -18269,6 +18277,11 @@
    "bf": [
     "icon"
    ]
+  },
+  "moa-brewing-company": {
+   "name": "Moa Brewing Company",
+   "cat": "Alcohol",
+   "k": "b"
   },
   "mobil": {
    "name": "Mobil",

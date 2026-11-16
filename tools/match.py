@@ -29,6 +29,9 @@ than Fit + Whitespace alone (4.1-4.5% of new deals in the top 20 vs 5.7%). Re-te
              property with no betting partner are flagged "Check betting policy".
   Lookalikes in other sports count too, at a lower weight (same region and reach, partners in common).
 Every deal counts less as it ages: weight = 0.5 ** (months old / 18).
+A deal with no end year stays live for 36 months from signing (firm for 24). If it has a `checked` date (the
+last time it was confirmed as still running), those windows count from that date instead, so a long-running
+deal with no public end date isn't read as an open slot.
 
 Peers depend on the kind of property: clubs compare with their league and sport, plus clubs in other codes in
 the same city (tools/locations.py); leagues, governing bodies,
@@ -118,8 +121,11 @@ class Model:
             age = max(0, now - when)
             w = (0.5 ** (age / 18)) * (LISTED_W if x["ym"] is None else 1)
             ended = d.get("ended")
-            live = not ended and (d.get("ends", 9999) >= yr if d.get("ends") else (x["ym"] is None or age <= 36))
-            rec = dict(d=d, ym=when, w=w, age=age, live=live, dated=x["ym"] is not None)
+            # `checked` = last confirmed still running; only counts once that date has passed (backtests)
+            chk = ym(d["checked"]) if d.get("checked") else None
+            fresh = max(0, now - chk) if chk is not None and chk <= now else age
+            live = not ended and (d.get("ends", 9999) >= yr if d.get("ends") else (x["ym"] is None or fresh <= 36))
+            rec = dict(d=d, ym=when, w=w, age=age, fresh=fresh, live=live, dated=x["ym"] is not None)
             for b in x["bs"]:
                 for p in x["ps"]:
                     r = dict(rec, b=b, p=p)
@@ -184,7 +190,7 @@ class Model:
                 if not (r["live"] and sb):
                     continue
                 ends = r["d"].get("ends")
-                firm = (ends and ends > yr) or (not ends and r["age"] <= 24) or not r["dated"]
+                firm = (ends and ends > yr) or (not ends and r["fresh"] <= 24) or not r["dated"]
                 cur = self.sub_hold[p].get(sb)
                 self.sub_hold[p][sb] = (cur or firm) if cur is not None else firm
         # profiles
