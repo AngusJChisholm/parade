@@ -150,6 +150,18 @@ a.row:hover b,a.ar-r:hover b{text-decoration:underline;text-underline-offset:4px
 .ar-r .s{font-size:15px}.ar-r .t{font-size:15px;color:var(--ink-2)}
 .empty{padding:40px 0;color:var(--ink-3);font-size:16px}
 .ar-more{margin-top:32px}
+/* Filter bar: search + count, one row of dropdowns, then the crest row. Same look as the Brands/Properties dropdowns. */
+.fil{gap:14px}
+.fbar{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.fil .srch{flex:1 1 320px;max-width:none}
+.fil .srch input{border-color:var(--ink);font-size:16px;padding:13px 16px}
+.fil .sels{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}
+.fil .sel select{width:100%;border-color:var(--ink);padding:13px 36px 13px 14px;letter-spacing:.12em;text-overflow:ellipsis}
+.fil .sel:after{border-width:0;width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-top:6px solid var(--ink);transform:translateY(-50%)}
+.fil .count{margin-left:auto;white-space:nowrap}
+.fil .cs{border:0;border-top:1px solid var(--line);padding:12px 0 0}
+@media (max-width:1000px){.fil .sels{grid-template-columns:repeat(2,minmax(0,1fr))}.fil .sel-lg{grid-column:span 2;order:-1}}
+@media (max-width:560px){.fil .sel select{font-size:11px;letter-spacing:.08em;padding:12px 28px 12px 10px}.fil .sel:after{right:10px}.fil .count{margin-left:0}}
 /* Logos: brand and club marks. Monogram underneath until a real logo loads (assets/logos.js). */
 .lg{--s:40px;position:relative;display:inline-flex;width:var(--s);height:var(--s);flex:none;align-items:center;justify-content:center}
 .lg .mono{display:flex;align-items:center;justify-content:center;width:100%;height:100%;border:1px solid var(--line);background:var(--canvas);color:var(--ink-2);font-weight:800;font-size:calc(var(--s)*.34);letter-spacing:-.02em;line-height:1}
@@ -303,7 +315,7 @@ a.st:hover b{box-shadow:inset 0 -.12em 0 var(--volt)}
 .ks{margin-top:14px}
 /* Compact layout */
 .ar-h,.ar-r{padding:10px 0}.ar-r b{font-size:16px}.ar-r .s,.ar-r .t{font-size:14px}.ar-r .lg{--s:28px}.ar-r .dl{gap:12px}
-.cs{padding:12px 16px}.cs-h{margin-bottom:8px}.cr{width:76px;padding:6px 4px;gap:5px}.cr .lg{--s:30px}.cr .k{display:none}.cr .n{font-size:10px}
+.cs{padding:10px 0 0}.cr{width:76px;padding:6px 4px;gap:5px}.cr .lg{--s:30px}.cr .k{display:none}.cr .n{font-size:10px}
 .sec{padding-block:clamp(28px,3.5vw,52px)}.sh{margin-bottom:clamp(14px,1.8vw,22px)}.sh h2{font-size:clamp(28px,3.2vw,46px)!important}.ptop{padding-block:clamp(20px,3vw,40px) clamp(18px,2.4vw,32px)}.ptop h1{font-size:clamp(44px,6vw,88px)!important}.ptop p{font-size:clamp(15px,1.2vw,17px);margin-top:12px}.stmt{padding:clamp(18px,2.4vw,32px) 0 clamp(14px,1.8vw,24px)}.stmt h2{font-size:clamp(22px,4.4vw,56px)}.card.all h3{font-size:clamp(26px,2.4vw,38px)!important;overflow-wrap:normal;word-break:normal;hyphens:none}.card.all{min-height:0}
 </style>
 <link rel="stylesheet" href="assets/follow.css?v=2">
@@ -324,19 +336,16 @@ a.st:hover b{box-shadow:inset 0 -.12em 0 var(--volt)}
 </section>
 <section class="sec arch-sec" id="archive"><div class="wrap">
 <div class="fil">
-<div class="cs" id="cs" hidden>
-<div class="cs-h"><span class="lbl">Filter by club or brand</span><div class="cs-t" id="csTabs" role="group" aria-label="League"></div></div>
-<div class="cs-r" id="csRow" role="group" aria-label="Clubs"></div>
-<div class="cs-on" id="csOn" hidden></div>
-</div>
+<div class="fbar"><label class="srch"><input id="fQ" type="search" placeholder="Search partnerships, brands, clubs" aria-label="Search partnerships"></label><span class="count" id="count" aria-live="polite"></span></div>
 <div class="sels">
 <label class="sel"><select id="fSport" aria-label="Sport"><option value="All">All sports</option></select></label>
-<label class="sel"><select id="fType" aria-label="Partnership type"><option value="">All partnership types</option></select></label>
+<label class="sel sel-lg"><select id="fLg" aria-label="League"><option value="">All leagues</option></select></label>
+<label class="sel"><select id="fType" aria-label="Partnership type"><option value="">All types</option></select></label>
 <label class="sel"><select id="fReg" aria-label="Region"><option value="">All regions</option><option>ANZ</option><option>North America</option><option>UK &amp; Ireland</option><option>Europe</option><option>Asia</option><option>Middle East</option><option>Rest of World</option><option value="Global">Global properties</option><option value="Intl">All international</option></select></label>
 <label class="sel"><select id="fDate" aria-label="Date"><option value="">Any date</option><option value="7">Last 7 days</option><option value="30">Last 30 days</option><option value="90">Last 90 days</option></select></label>
-<label class="srch"><input id="fQ" type="search" placeholder="Search partnerships, brands, clubs" aria-label="Search partnerships"></label>
-<span class="count" id="count" aria-live="polite"></span>
-</div></div>
+</div>
+<div class="cs" id="cs" hidden><div class="cs-r" id="csRow" role="group" aria-label="Clubs"></div><div class="cs-on" id="csOn" hidden></div></div>
+</div>
 <div class="al"><div class="ar-h"><span>Date</span><span>Partnership</span><span>Sport</span><span class="c-t">Partnership type</span><span>Region</span></div><div id="list"></div><p class="empty" id="empty" hidden>No partnerships match those filters.</p></div>
 <div class="ar-more"><button class="btn btn-ink" id="moreBtn" type="button">Load more partnerships</button></div>
 </div></section>
@@ -363,9 +372,9 @@ a.st:hover b{box-shadow:inset 0 -.12em 0 var(--volt)}
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const PAGE=15;
-let DEALS=[],ORIG=[],SITE={},FEATS=[],shown=PAGE;
+let LGS=[],DEALS=[],ORIG=[],SITE={},FEATS=[],shown=PAGE;
 const ARCH=!!$("list");
-const st={sport:"All",type:"",reg:"",days:"",ent:"",q:""};
+const st={sport:"All",type:"",reg:"",days:"",ent:"",q:"",lg:""};
 const L=window.SSSLogos;let csTab="";
 const sortKey=d=>d.date||((d.month||"0000-00")+"-00");
 // "date" = when the deal was announced; "added" = when it was posted here (the edition date).
@@ -466,15 +475,31 @@ function filters(){
   sports.slice(1).forEach(s=>$("fSport").insertAdjacentHTML("beforeend",`<option>${esc(s)}</option>`));$("fSport").value=sports.includes(st.sport)?st.sport:"All";
   [...new Set(DEALS.map(d=>d.type).filter(Boolean))].sort().forEach(t=>$("fType").insertAdjacentHTML("beforeend",`<option>${esc(t)}</option>`));
 }
+// Leagues from leagues.json (same list as the Properties page). A partnership is in a league when its property is.
+const inLg=(d,l)=>(d._ps||[]).some(e=>e&&l.ids.has(e.slug));
+function lgSel(base){
+  if(!LGS.length)return;
+  const by=new Map();
+  LGS.forEach(l=>{const n=base.filter(d=>inLg(d,l)).length;if(!n&&st.lg!==l.name)return;
+    if(!by.has(l.sport))by.set(l.sport,{n:0,ls:[]});const g=by.get(l.sport);g.n+=n;g.ls.push({l,n})});
+  $("fLg").innerHTML=`<option value="">All leagues</option>`+[...by].sort((a,b)=>b[1].n-a[1].n||a[0].localeCompare(b[0]))
+    .map(([sp,g])=>`<optgroup label="${esc(sp)}">${g.ls.sort((a,b)=>b.n-a.n||a.l.name.localeCompare(b.l.name)).map(x=>`<option value="${esc(x.l.name)}">${esc(x.l.name)} (${x.n.toLocaleString("en-AU")})</option>`).join("")}</optgroup>`).join("");
+  $("fLg").value=st.lg;
+}
 function render(){
   const latest=DEALS.find(d=>d.date);const now=latest?dObj(latest):new Date();
-  const r=DEALS.filter(d=>(st.sport==="All"||d.sport===st.sport)&&(!st.type||d.type===st.type)&&(!st.reg||(st.reg==="Intl"?(d.market||d.region)!=="ANZ":(d.market||d.region)===st.reg))&&(!st.days||(d.date&&(now-dObj(d))/864e5<=+st.days))&&(!st.ent||L.has(d,st.ent))&&(!st.q||(d.deal+" "+(d.summary||"")+" "+(d.sport||"")).toLowerCase().includes(st.q)));
+  const base=DEALS.filter(d=>(st.sport==="All"||d.sport===st.sport)&&(!st.type||d.type===st.type)&&(!st.reg||(st.reg==="Intl"?(d.market||d.region)!=="ANZ":(d.market||d.region)===st.reg))&&(!st.days||(d.date&&(now-dObj(d))/864e5<=+st.days)));
+  lgSel(base);
+  const lg=LGS.find(l=>l.name===st.lg);
+  const r=base.filter(d=>(!lg||inLg(d,lg))&&(!st.ent||L.has(d,st.ent))&&(!st.q||(d.deal+" "+(d.summary||"")+" "+(d.sport||"")).toLowerCase().includes(st.q)));
+  if(L&&$("csRow"))crests(base.filter(d=>!lg||inLg(d,lg)),lg);
   $("list").innerHTML=r.slice(0,shown).map(d=>{
     const name=href(d)?`<a${attrs(d)}><b>${esc(d.deal)}</b></a>`:`<b>${esc(d.deal)}</b>`;
     const pair=d._b?L.pair(d,{px:40}):"";
     return `<div class="ar-r"><span class="d">${esc(fmtArch(d))}</span><span class="dl">${pair}${name}</span><span class="s">${esc(d.sport)}</span><span class="t">${esc(d.type||"")}</span><span><span class="tag r">${esc(d.market||d.region)}</span></span></div>`}).join("");
   $("empty").hidden=r.length>0;
-  $("count").textContent=`${r.length} of ${DEALS.length} partnerships`;
+  const tot=DEALS.length.toLocaleString("en-AU");
+  $("count").textContent=r.length===DEALS.length?`${tot} partnerships`:`${r.length.toLocaleString("en-AU")} of ${tot} partnerships`;
   $("moreBtn").parentElement.hidden=r.length<=shown;
 }
 // The week in numbers: a quick read on the archive, linking through to Deals.
@@ -498,32 +523,26 @@ function active(){
     .map(x=>`<a class="act" href="${L.esc(L.page(x.e.slug))}">${L.mark(x.e,{px:48})}<b>${L.esc(x.e.name)}</b><span>${x.n} partnerships</span></a>`).join("");
   $("actYr").textContent=y;$("actB").innerHTML=row(cb);$("actP").innerHTML=row(cp);$("active").hidden=!cb.size;
 }
-// Club and brand strip: league tabs, a row of crests; tapping one filters the archive to that club or brand.
-function strip(){
-  const count={};
-  DEALS.forEach(d=>[...d._bs,...d._ps].forEach(e=>{if(e)count[e.slug]=(count[e.slug]||0)+1}));
-  const top=(side,reg)=>{const c={};DEALS.forEach(d=>{if(reg&&(reg==="Global"?(d.market||d.region)==="ANZ":d.region!==reg))return;(d[side+"s"]||[]).forEach(e=>{if(e)c[e.slug]=(c[e.slug]||0)+1})});
-    return Object.entries(c).filter(([s,n])=>n>1).sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0])).slice(0,16).map(([s])=>s)};
-  const tabs=[...L.leagues().map(l=>({name:l.name,ids:l.clubs})),{name:"International clubs",ids:top("_p","Global")},{name:"Top brands",ids:top("_b")}].filter(t=>t.ids.length);
-  if(!tabs.length)return;
-  csTab=tabs[0].name;
-  const draw=()=>{
-    const t=tabs.find(x=>x.name===csTab)||tabs[0];
-    $("csTabs").innerHTML=tabs.map(x=>`<button type="button" class="pill${x.name===t.name?" on":""}" data-t="${esc(x.name)}" aria-pressed="${x.name===t.name}">${esc(x.name)}</button>`).join("");
-    $("csRow").innerHTML=t.ids.map(id=>{const e=L.byId(id)||L.resolve(id);const n=count[id]||0;
-      return `<button type="button" class="cr${st.ent===id?" on":""}" data-id="${esc(id)}" aria-pressed="${st.ent===id}"${n?"":" disabled"}>${L.mark(e,{px:30})}<span class="n" title="${n?n+" partnership"+(n===1?"":"s"):"No partnerships yet"}">${esc(e.name)}</span><span class="k">${n?n+" partnership"+(n===1?"":"s"):"No partnerships yet"}</span></button>`}).join("");
-    const on=st.ent&&(L.byId(st.ent));
-    $("csOn").hidden=!on;
-    $("csOn").innerHTML=on?`<span>Showing <b>${esc(on.name)}</b> partnerships</span><a class="more" href="${esc(L.page(st.ent))}">See the ${esc(on.name)} page →</a><button type="button" class="x" id="csX">Clear</button>`:"";
-  };
-  $("csTabs").onclick=e=>{const b=e.target.closest("[data-t]");if(!b)return;csTab=b.dataset.t;draw()};
-  $("csRow").onclick=e=>{const b=e.target.closest("[data-id]");if(!b||b.disabled)return;st.ent=st.ent===b.dataset.id?"":b.dataset.id;shown=PAGE;draw();render()};
-  $("csOn").onclick=e=>{if(e.target.id==="csX"){st.ent="";shown=PAGE;draw();render()}};
-  draw();$("cs").hidden=false;
+// Crest row under the filters: the picked league's clubs, or the most active properties when no league is picked.
+// Tapping a crest narrows the list to that club or brand.
+function crests(pool,lg){
+  const c={};pool.forEach(d=>(d._ps||[]).forEach(e=>{if(e&&(!lg||lg.ids.has(e.slug))&&e.ptype!=="League & competition")c[e.slug]=(c[e.slug]||0)+1}));
+  let ids=Object.entries(c).sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0])).map(x=>x[0]);
+  if(!lg)ids=ids.filter(id=>c[id]>1).slice(0,20);
+  if(st.ent&&!ids.includes(st.ent))ids.unshift(st.ent);
+  $("csRow").innerHTML=ids.map(id=>{const e=L.byId(id)||L.resolve(id);const n=c[id]||0;
+    return `<button type="button" class="cr${st.ent===id?" on":""}" data-id="${esc(id)}" aria-pressed="${st.ent===id}" title="${n} partnership${n===1?"":"s"}">${L.mark(e,{px:30})}<span class="n">${esc(e.name)}</span></button>`}).join("");
+  const on=st.ent&&(L.byId(st.ent)||L.resolve(st.ent));
+  $("csOn").hidden=!on;
+  $("csOn").innerHTML=on?`<span>Showing <b>${esc(on.name)}</b> partnerships</span><a class="more" href="${esc(L.page(st.ent))}">See the ${esc(on.name)} page →</a><button type="button" class="x" id="csX">Clear</button>`:"";
+  $("cs").hidden=!ids.length;
 }
 function wire(){
   if(ARCH){
   $("fSport").onchange=e=>{st.sport=e.target.value;shown=PAGE;render()};
+  $("fLg").onchange=e=>{st.lg=e.target.value;st.ent="";shown=PAGE;render()};
+  if($("csRow")){$("csRow").onclick=e=>{const b=e.target.closest("[data-id]");if(!b)return;st.ent=st.ent===b.dataset.id?"":b.dataset.id;shown=PAGE;render()};
+  $("csOn").onclick=e=>{if(e.target.id==="csX"){st.ent="";shown=PAGE;render()}}}
   $("fType").onchange=e=>{st.type=e.target.value;shown=PAGE;render()};
   $("fReg").onchange=e=>{st.reg=e.target.value;shown=PAGE;render()};
   $("fDate").onchange=e=>{st.days=e.target.value;shown=PAGE;render()};
@@ -541,7 +560,10 @@ const featsP=fetch("features.json",{cache:"no-cache"}).then(r=>r.ok?r.json():{})
     summary:f.article.standfirst,feature:true,label:f.label||"Feature"}))}).catch(()=>{});
 const clubsP=fetch("instagram/colours.json").then(r=>r.ok?r.json():{}).then(j=>{CLUBS=j.teams||[]}).catch(()=>{});
 const logosP=L?L.load().catch(()=>{}):Promise.resolve();
-fetch("deals.json",{cache:"no-cache"}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(data=>Promise.all([clubsP,featsP,logosP]).then(()=>data)).then(data=>{
+const lgsP=$("fLg")?Promise.all([fetch("leagues.json",{cache:"no-cache"}).then(r=>r.ok?r.json():{}).catch(()=>({})),logosP]).then(([j])=>{
+  const ENT=L.all(),idOf=n=>ENT[n]?n:(L.resolve(n)||{}).slug;
+  LGS=(j.leagues||[]).map(l=>({name:l.name,sport:l.sport||"Other",ids:new Set([...(l.members||[]),...(l.self||[])].map(idOf).filter(Boolean))}))}):Promise.resolve();
+fetch("deals.json",{cache:"no-cache"}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(data=>Promise.all([clubsP,featsP,logosP,lgsP]).then(()=>data)).then(data=>{
   SITE=data.site||{};
   ORIG=data.deals||[];
   DEALS=ORIG.slice().sort((a,b)=>sortKey(b).localeCompare(sortKey(a))||(b.lead?1:0)-(a.lead?1:0));
@@ -549,7 +571,7 @@ fetch("deals.json",{cache:"no-cache"}).then(r=>{if(!r.ok)throw new Error(r.statu
   const q=new URLSearchParams(location.search).get("club");if(q&&L&&L.byId(q))st.ent=q;
   if($("ks")){const lead=hero();if(lead)roundup(lead)}
   if($("fList"))features();if($("gList"))columns();follow();if($("nlF"))newsletter();if($("stats"))stats();
-  if(ARCH){const p=new URLSearchParams(location.search);let rg=p.get("reg");if(rg==="Global"&&!p.get("market"))rg="Intl";if(p.get("market"))rg=p.get("market");if(rg&&[...$("fReg").options].some(o=>o.value===rg)){st.reg=rg;$("fReg").value=rg}const sp=p.get("sport");if(sp)st.sport=sp;filters();if(L)strip()}
+  if(ARCH){const p=new URLSearchParams(location.search);let rg=p.get("reg");if(rg==="Global"&&!p.get("market"))rg="Intl";if(p.get("market"))rg=p.get("market");if(rg&&[...$("fReg").options].some(o=>o.value===rg)){st.reg=rg;$("fReg").value=rg}const sp=p.get("sport");if(sp)st.sport=sp;const lq=p.get("league");if(lq)st.lg=lq;filters()}
   if(L&&$("active"))active();wire();if(ARCH)render();
 }).catch(()=>{const h=$("heroHead"),k=$("heroDek");if(h)h.textContent="Partnerships unavailable";if(k)k.textContent="The partnerships file didn't load. Refresh to try again.";wire();});
 })();
