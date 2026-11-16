@@ -115,6 +115,9 @@
     "logo"
    ]
   },
+  "303-mullenlowe": {
+   "name": "303 MullenLowe"
+  },
   "3aw": {
    "name": "3AW",
    "k": "b"
@@ -712,12 +715,15 @@
    "k": "p",
    "ptiers": [
     "Principal partner",
+    "Principal charity partner",
     "Major partner",
-    "Official partner",
     "Apparel partner",
     "Media partner",
-    "Official supplier"
-   ]
+    "Corporate partner",
+    "Supply partner",
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-16"
   },
   "adelaide-united": {
    "name": "Adelaide United",
@@ -2886,6 +2892,9 @@
    "ptype": "National team",
    "k": "p"
   },
+  "australian-electoral-commission": {
+   "name": "Australian Electoral Commission"
+  },
   "australian-government": {
    "name": "Australian Government",
    "cat": "Tourism & government",
@@ -3995,6 +4004,9 @@
    "name": "Big Michaels",
    "k": "b"
   },
+  "big-screen-video": {
+   "name": "Big Screen Video"
+  },
   "bigbasket": {
    "name": "bigbasket",
    "cat": "Retail",
@@ -4141,6 +4153,9 @@
    "ptype": "Club & team",
    "k": "p",
    "domain": "birminghamphoenix.com"
+  },
+  "bishopp": {
+   "name": "Bishopp"
   },
   "bisinella": {
    "name": "Bisinella",
@@ -7350,6 +7365,10 @@
    "bf": [
     "icon"
    ]
+  },
+  "confident-girls-foundation": {
+   "name": "Confident Girls Foundation",
+   "cat": "Not-for-profit"
   },
   "conmebol": {
    "name": "CONMEBOL",
@@ -10695,6 +10714,10 @@
     "icon"
    ]
   },
+  "fleurieu-milk-company": {
+   "name": "Fleurieu Milk Company",
+   "cat": "Non-alcoholic drinks"
+  },
   "flexjet": {
    "name": "Flexjet",
    "domain": "flexjet.com",
@@ -10948,6 +10971,10 @@
    ],
    "cat": "Food & nutrition",
    "k": "b"
+  },
+  "fox-sports": {
+   "name": "Fox Sports",
+   "cat": "Media & broadcast"
   },
   "foxtel": {
    "name": "Foxtel",
@@ -12388,6 +12415,10 @@
    "cat": "Home & hardware",
    "k": "b"
   },
+  "halcol-energy": {
+   "name": "Halcol Energy",
+   "cat": "Energy & utilities"
+  },
   "hallensteins": {
    "name": "Hallensteins",
    "k": "b"
@@ -13774,6 +13805,9 @@
   "inc-sports-nutrition": {
    "name": "INC Sports Nutrition",
    "k": "b"
+  },
+  "inclusive-kids": {
+   "name": "Inclusive Kids"
   },
   "indeed": {
    "name": "Indeed",
@@ -17723,13 +17757,15 @@
    "ptype": "Club & team",
    "k": "p",
    "ptiers": [
+    "Principal partner",
     "Major partner",
     "Diamond partner",
-    "Gold partner",
+    "Foundation partner",
     "Official partner",
-    "Official supplier",
-    "Foundation partner"
-   ]
+    "Gold partner",
+    "Club partner"
+   ],
+   "ptiersChecked": "2026-11-16"
   },
   "melbourne-park": {
    "name": "Melbourne Park",
@@ -19452,6 +19488,10 @@
    "cat": "Food & nutrition",
    "k": "b"
   },
+  "netball-academy": {
+   "name": "Netball Academy",
+   "cat": "Education"
+  },
   "netball-australia": {
    "name": "Netball Australia",
    "domain": "netball.com.au",
@@ -20402,10 +20442,14 @@
    "k": "p",
    "ptiers": [
     "Principal partner",
-    "Major partner",
     "Premier partner",
-    "Official supplier"
-   ]
+    "Major partner",
+    "Team partner",
+    "Supply partner",
+    "Broadcast partner",
+    "Community partner"
+   ],
+   "ptiersChecked": "2026-11-16"
   },
   "nsw-waratahs": {
    "name": "NSW Waratahs",
@@ -20754,6 +20798,9 @@
     "icon",
     "logo"
    ]
+  },
+  "omd": {
+   "name": "OMD"
   },
   "omega": {
    "name": "Omega",
@@ -22770,6 +22817,9 @@
    "name": "Protector Aluminium",
    "k": "b"
   },
+  "proud-2-play": {
+   "name": "Proud 2 Play"
+  },
   "provincial-produce-australia": {
    "name": "Provincial Produce Australia",
    "cat": "Food & nutrition",
@@ -23056,8 +23106,11 @@
    "ptype": "Club & team",
    "k": "p",
    "ptiers": [
-    "Official partner"
-   ]
+    "Principal partner",
+    "Premier partner",
+    "Partner"
+   ],
+   "ptiersChecked": "2026-11-16"
   },
   "queensland-government": {
    "name": "Queensland Government",
@@ -25477,6 +25530,9 @@
    "ptype": "Venue",
    "k": "p"
   },
+  "shooting-stars": {
+   "name": "Shooting Stars"
+  },
   "shopee": {
    "name": "Shopee",
    "domain": "shopee.com",
@@ -26782,6 +26838,9 @@
    "cat": "Non-alcoholic drinks",
    "k": "b"
   },
+  "starick": {
+   "name": "Starick"
+  },
   "starlight-children-s-foundation": {
    "name": "Starlight Children's Foundation",
    "k": "b",
@@ -27197,6 +27256,9 @@
    "ptype": "Club & team",
    "k": "p"
   },
+  "sunny-kids": {
+   "name": "Sunny Kids"
+  },
   "sunrisers-hyderabad": {
    "name": "Sunrisers Hyderabad",
    "domain": "sunrisershyderabad.in",
@@ -27206,6 +27268,10 @@
    ],
    "ptype": "Club & team",
    "k": "p"
+  },
+  "sunshine-coast-airport": {
+   "name": "Sunshine Coast Airport",
+   "cat": "Airlines & travel"
   },
   "sunshine-coast-council": {
    "name": "Sunshine Coast Council",
@@ -27221,12 +27287,14 @@
    "ptype": "Club & team",
    "k": "p",
    "ptiers": [
-    "Principal partner",
+    "Foundation principal partner",
     "Premium partner",
     "Official partner",
-    "Media partner",
-    "Official supplier"
-   ]
+    "Official supplier",
+    "Broadcast & media partner",
+    "Charity partner"
+   ],
+   "ptiersChecked": "2026-11-16"
   },
   "sunshine-ford": {
    "name": "Sunshine Ford",
@@ -28421,6 +28489,10 @@
    "cat": "Retail",
    "k": "b"
   },
+  "the-hospital-research-foundation": {
+   "name": "The Hospital Research Foundation",
+   "cat": "Health & beauty"
+  },
   "the-huddle": {
    "name": "The Huddle",
    "k": "b"
@@ -28457,6 +28529,10 @@
   "the-juniors": {
    "name": "The Juniors",
    "k": "b"
+  },
+  "the-kids-cancer-project": {
+   "name": "The Kids' Cancer Project",
+   "cat": "Not-for-profit"
   },
   "the-kraken-black-spiced-rum": {
    "name": "The Kraken Black Spiced Rum",
@@ -31350,11 +31426,13 @@
    "k": "p",
    "ptiers": [
     "Principal partner",
-    "Major partner",
     "Elite partner",
-    "Official partner",
-    "Official supplier"
-   ]
+    "Major partner",
+    "Partner",
+    "Preferred supplier",
+    "Charity partner"
+   ],
+   "ptiersChecked": "2026-11-16"
   },
   "west-ham-united": {
    "name": "West Ham United",
@@ -32457,6 +32535,10 @@
   "young-henrys": {
    "name": "Young Henrys",
    "k": "b"
+  },
+  "your-mates-brewing": {
+   "name": "Your Mates Brewing",
+   "cat": "Alcohol"
   },
   "your-nursing-agency": {
    "name": "Your Nursing Agency",
