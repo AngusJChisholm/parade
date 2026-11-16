@@ -942,6 +942,9 @@
    "name": "Ace Competitions",
    "k": "b"
   },
+  "ace-feet-in-motion": {
+   "name": "ACE Feet in Motion"
+  },
   "ace-gutters": {
    "name": "Ace Gutters",
    "k": "b"
@@ -6832,6 +6835,21 @@
    "k": "p",
    "logo": "assets/logos/birmingham-moseley-rugby-club.png"
   },
+  "birmingham-panthers": {
+   "name": "Birmingham Panthers",
+   "domain": "birminghampanthers.com",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "ptiers": [
+    "Jersey partner",
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-17"
+  },
   "birmingham-phoenix": {
    "name": "Birmingham Phoenix",
    "ptype": "Club & team",
@@ -7422,6 +7440,9 @@
    "name": "BOC Gases",
    "k": "b"
   },
+  "bod": {
+   "name": "BOD"
+  },
   "bodega-argento": {
    "name": "Bodega Argento",
    "cat": "Alcohol",
@@ -7530,6 +7551,9 @@
    "name": "Bonus Electrical Group",
    "cat": "Energy & utilities",
    "k": "b"
+  },
+  "boobydoo": {
+   "name": "boobydoo"
   },
   "booking-com": {
    "name": "Booking.com",
@@ -9790,6 +9814,25 @@
    "cat": "Tourism & government",
    "k": "b"
   },
+  "cardiff-dragons": {
+   "name": "Cardiff Dragons",
+   "domain": "dragonsnetball.com",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "aliases": [
+    "LexisNexis Dragons",
+    "LexisNexis Cardiff Dragons"
+   ],
+   "ptiers": [
+    "Title partner",
+    "Partner"
+   ],
+   "ptiersChecked": "2026-11-17"
+  },
   "cardiff-metropolitan-university": {
    "name": "Cardiff Metropolitan University",
    "cat": "Education",
@@ -9819,6 +9862,10 @@
     "Official supplier"
    ],
    "ptiersChecked": "2026-11-17"
+  },
+  "cardiff-university": {
+   "name": "Cardiff University",
+   "cat": "Education"
   },
   "cardinal-transportation": {
    "name": "Cardinal Transportation",
@@ -14840,6 +14887,9 @@
    "k": "b",
    "domain": "deepcoin.com"
   },
+  "deepstore": {
+   "name": "DeepStore"
+  },
   "deeserve": {
    "name": "DeeServe",
    "k": "b"
@@ -16411,6 +16461,10 @@
     "icon",
     "logo"
    ]
+  },
+  "e-on-next": {
+   "name": "E.ON Next",
+   "cat": "Apparel & footwear"
   },
   "e-security-group": {
    "name": "E Security Group",
@@ -18371,6 +18425,9 @@
    "k": "b",
    "cat": "Collectibles & licensing"
   },
+  "fanbase": {
+   "name": "Fanbase"
+  },
   "fancode": {
    "name": "FanCode",
    "cat": "Media & broadcast",
@@ -19408,6 +19465,9 @@
    "name": "Fluid Creative Media",
    "cat": "Media & broadcast",
    "k": "b"
+  },
+  "flyhawk": {
+   "name": "Flyhawk"
   },
   "flyhouse": {
    "name": "FlyHouse",
@@ -20459,6 +20519,9 @@
    "cat": "Banking & finance",
    "k": "b"
   },
+  "gateley": {
+   "name": "Gateley"
+  },
   "gates": {
    "name": "Gates",
    "cat": "Industrial & manufacturing",
@@ -21036,6 +21099,9 @@
    "bf": [
     "icon"
    ]
+  },
+  "gll": {
+   "name": "GLL"
   },
   "glo-sun-spa": {
    "name": "Glo Sun Spa",
@@ -23203,6 +23269,9 @@
    "cat": "Automotive",
    "k": "b"
   },
+  "hengistbury": {
+   "name": "Hengistbury"
+  },
   "henley-homes": {
    "name": "Henley Homes",
    "cat": "Construction & property",
@@ -24482,6 +24551,9 @@
     "icon",
     "logo"
    ]
+  },
+  "hustl": {
+   "name": "hustl."
   },
   "hutch-s-jewelry": {
    "name": "Hutch's Jewelry",
@@ -27156,6 +27228,9 @@
    "ptype": "Event",
    "k": "p"
   },
+  "kabinet": {
+   "name": "Kabinet"
+  },
   "kaboodle": {
    "name": "Kaboodle",
    "k": "b"
@@ -27943,6 +28018,9 @@
   "kitking": {
    "name": "KitKing",
    "k": "b"
+  },
+  "kitqueen": {
+   "name": "KitQueen"
   },
   "kiva-wellness": {
    "name": "Kiva Wellness",
@@ -29195,6 +29273,24 @@
    ],
    "ptiersChecked": "2026-11-17"
   },
+  "leeds-rhinos-netball": {
+   "name": "Leeds Rhinos Netball",
+   "domain": "netball.therhinos.co.uk",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "aliases": [
+    "NIC Leeds Rhinos"
+   ],
+   "ptiers": [
+    "Headline partner",
+    "Associate partner"
+   ],
+   "ptiersChecked": "2026-11-17"
+  },
   "leeds-united": {
    "name": "Leeds United",
    "domain": "leedsunited.com",
@@ -29475,6 +29571,9 @@
    "bf": [
     "icon"
    ]
+  },
+  "lexisnexis-risk-solutions": {
+   "name": "LexisNexis Risk Solutions"
   },
   "lexus": {
    "name": "Lexus",
@@ -30117,9 +30216,40 @@
     "logo"
    ]
   },
+  "london-mavericks": {
+   "name": "London Mavericks",
+   "domain": "londonmavericks.co.uk",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "ptiers": [
+    "Lead partner",
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-17"
+  },
   "london-pride": {
    "name": "London Pride",
    "k": "b"
+  },
+  "london-pulse": {
+   "name": "London Pulse",
+   "domain": "londonpulsenetball.com",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "ptiers": [
+    "Principal partner",
+    "Official supplier",
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-17"
   },
   "london-spirit": {
    "name": "London Spirit",
@@ -30366,6 +30496,20 @@
   "lou-malnati-s": {
    "name": "Lou Malnati's",
    "k": "b"
+  },
+  "loughborough-lightning": {
+   "name": "Loughborough Lightning",
+   "domain": "lboro.ac.uk",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "ptiers": [
+    "Partner"
+   ],
+   "ptiersChecked": "2026-11-17"
   },
   "louis-vuitton": {
    "name": "Louis Vuitton",
@@ -31127,6 +31271,26 @@
    ],
    "ptiersChecked": "2026-11-17"
   },
+  "manchester-thunder": {
+   "name": "Manchester Thunder",
+   "domain": "thundernetball.co.uk",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "aliases": [
+    "AO Manchester Thunder",
+    "AO Thunder"
+   ],
+   "ptiers": [
+    "Title partner",
+    "Official kit partner",
+    "Partner"
+   ],
+   "ptiersChecked": "2026-11-17"
+  },
   "manchester-united": {
    "name": "Manchester United",
    "domain": "manutd.com",
@@ -31849,6 +32013,9 @@
   "mcp-environmental": {
    "name": "MCP Environmental",
    "k": "b"
+  },
+  "mcractive": {
+   "name": "MCRactive"
   },
   "mcveigh-fleming": {
    "name": "McVeigh Fleming",
@@ -33372,6 +33539,9 @@
    "name": "Moda Health",
    "cat": "Health & beauty",
    "k": "b"
+  },
+  "moda-living": {
+   "name": "Moda Living"
   },
   "mode-technology": {
    "name": "Mode Technology",
@@ -35025,6 +35195,10 @@
    "cat": "Tourism & government",
    "k": "b"
   },
+  "neon-arena-services": {
+   "name": "Neon Arena Services",
+   "cat": "Apparel & footwear"
+  },
   "neon-legal": {
    "name": "Neon Legal",
    "cat": "Professional services",
@@ -35151,6 +35325,9 @@
    "ptype": "Governing body",
    "k": "p",
    "domain": "netballq.org.au"
+  },
+  "netball-uk": {
+   "name": "Netball UK"
   },
   "netball-victoria": {
    "name": "Netball Victoria",
@@ -36641,6 +36818,20 @@
     "Official club partner"
    ],
    "ptiersChecked": "2026-11-16"
+  },
+  "nottingham-forest-netball": {
+   "name": "Nottingham Forest Netball",
+   "domain": "nottinghamforest.co.uk",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "ptiers": [
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-17"
   },
   "nottinghamshire-ccc": {
    "name": "Nottinghamshire CCC",
@@ -40766,6 +40957,10 @@
    "cat": "Energy & utilities",
    "k": "b"
   },
+  "powerleague": {
+   "name": "Powerleague",
+   "cat": "Energy & utilities"
+  },
   "powertherm": {
    "name": "Powertherm",
    "cat": "Energy & utilities",
@@ -40980,6 +41175,9 @@
   "prezzy-card": {
    "name": "Prezzy Card",
    "k": "b"
+  },
+  "prfm": {
+   "name": "PRFM"
   },
   "price-chopper": {
    "name": "Price Chopper",
@@ -42848,6 +43046,9 @@
    "cat": "Airlines & travel",
    "k": "b"
   },
+  "renew-holdings": {
+   "name": "Renew Holdings"
+  },
   "renewables-warehouse": {
    "name": "Renewables Warehouse",
    "cat": "Energy & utilities",
@@ -43177,6 +43378,9 @@
   "riddell": {
    "name": "Riddell",
    "k": "b"
+  },
+  "ridgecrest-cleaning": {
+   "name": "Ridgecrest Cleaning"
   },
   "rifle": {
    "name": "Rifle",
@@ -43880,6 +44084,9 @@
     "icon",
     "logo"
    ]
+  },
+  "rpc": {
+   "name": "RPC"
   },
   "rr-kabel": {
    "name": "RR Kabel",
@@ -45995,6 +46202,9 @@
    "name": "Sherbet Donkey",
    "k": "b"
   },
+  "sheriff-s": {
+   "name": "Sheriff's"
+  },
   "sherrin": {
    "name": "Sherrin",
    "domain": "sherrin.com.au",
@@ -46659,6 +46869,10 @@
     "logo"
    ]
   },
+  "sky-bet": {
+   "name": "Sky Bet",
+   "cat": "Betting & wagering"
+  },
   "sky-nz": {
    "name": "Sky NZ",
    "cat": "Media & broadcast",
@@ -46737,6 +46951,9 @@
   "slalom": {
    "name": "Slalom",
    "k": "b"
+  },
+  "slater-heelis": {
+   "name": "Slater Heelis"
   },
   "slazenger": {
    "name": "Slazenger",
@@ -51766,6 +51983,9 @@
    "cat": "Gaming & esports",
    "k": "b"
   },
+  "the-stratford": {
+   "name": "The Stratford"
+  },
   "the-team": {
    "name": "THE·TEAM",
    "cat": "Professional services",
@@ -51942,6 +52162,9 @@
     "icon",
     "logo"
    ]
+  },
+  "thinkengine": {
+   "name": "ThinkEngine"
   },
   "thirsty-whale": {
    "name": "Thirsty Whale",
@@ -52468,6 +52691,10 @@
   "tompkins-wake": {
    "name": "Tompkins Wake",
    "k": "b"
+  },
+  "tonic-health": {
+   "name": "Tonic Health",
+   "cat": "Health & beauty"
   },
   "tonies": {
    "name": "tonies",
@@ -54326,6 +54553,10 @@
    "logo": "assets/logos/university-of-greenwich.png",
    "domain": "gre.ac.uk"
   },
+  "university-of-hertfordshire": {
+   "name": "University of Hertfordshire",
+   "cat": "Education"
+  },
   "university-of-hull": {
    "name": "University of Hull",
    "cat": "Education",
@@ -54345,6 +54576,10 @@
     "icon",
     "logo"
    ]
+  },
+  "university-of-nottingham": {
+   "name": "University of Nottingham",
+   "cat": "Education"
   },
   "university-of-otago": {
    "name": "University of Otago",
@@ -55035,6 +55270,10 @@
     "logo"
    ]
   },
+  "varley-financial": {
+   "name": "Varley Financial",
+   "cat": "Banking & finance"
+  },
   "varley-s-builders-merchants": {
    "name": "Varley's Builders Merchants",
    "cat": "Construction & property",
@@ -55561,6 +55800,9 @@
   "ville-de-perpignan": {
    "name": "Ville de Perpignan",
    "k": "b"
+  },
+  "vimto": {
+   "name": "Vimto"
   },
   "vinarchy": {
    "name": "Vinarchy",
@@ -56119,6 +56361,9 @@
   "vyfy": {
    "name": "Vyfy",
    "k": "b"
+  },
+  "vypr": {
+   "name": "VYPR"
   },
   "vystar-credit-union": {
    "name": "VyStar Credit Union",
