@@ -172,9 +172,9 @@ def listed_year_of(d):
 # Codes whose ANZ seasons run across the new year (Oct-Mar). A deal announced in their off-season covers the
 # coming summer, so a three-year deal announced in 2026 runs 2026-27 to 2028-29 and ends in 2029.
 SUMMER_CODES = {"Cricket", "Football", "Basketball", "Tennis", "Golf"}
-# First season of ANZ expansion clubs whose deals count from that season. Add new ones here.
-# Tasmania Devils deals start when they're announced, so the Devils aren't listed.
-DEBUT_SEASON = {"Perth Bears": 2027, "PNG Chiefs": 2028}
+# Expansion clubs (Perth Bears, PNG Chiefs, Tasmania Devils): deals count from when they're announced, like any
+# other club. To make a club's deals count from its first season instead, add it here, e.g. {"Club": 2028}.
+DEBUT_SEASON = {}
 
 
 def end_from_term(d, y, term):
