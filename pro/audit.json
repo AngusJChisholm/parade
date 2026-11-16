@@ -2,7 +2,7 @@
  "generated": "2026-11-16",
  "summary": {
   "dup_entities": 15,
-  "no_category": 585,
+  "no_category": 596,
   "cat_mismatch": 104,
   "slot_clash": 25,
   "dup_deals": 0,
@@ -14,32 +14,12 @@
  "dup_entities": [
   {
    "names": [
-    "HYROX",
-    "HYROX Australia"
+    "Special Olympics",
+    "Special Olympics Australia"
    ],
    "slugs": [
-    "hyrox",
-    "hyrox-australia"
-   ]
-  },
-  {
-   "names": [
-    "Harness Racing Australia",
-    "Harness Racing NZ"
-   ],
-   "slugs": [
-    "harness-racing-australia",
-    "harness-racing-nz"
-   ]
-  },
-  {
-   "names": [
-    "Ant Group",
-    "Ant International"
-   ],
-   "slugs": [
-    "ant-group",
-    "ant-international"
+    "special-olympics",
+    "special-olympics-australia"
    ]
   },
   {
@@ -54,6 +34,16 @@
   },
   {
    "names": [
+    "Courier Mail",
+    "The Courier-Mail"
+   ],
+   "slugs": [
+    "courier-mail",
+    "the-courier-mail"
+   ]
+  },
+  {
+   "names": [
     "Star Sports",
     "The Star"
    ],
@@ -64,22 +54,22 @@
   },
   {
    "names": [
-    "TAB",
-    "TAB NZ"
+    "Kia",
+    "Kia Australia"
    ],
    "slugs": [
-    "tab",
-    "tab-nz"
+    "kia",
+    "kia-australia"
    ]
   },
   {
    "names": [
-    "Dolphins",
-    "Dolphins Group"
+    "Victor",
+    "Victor Sports"
    ],
    "slugs": [
-    "dolphins",
-    "dolphins-group"
+    "victor",
+    "victor-sports"
    ]
   },
   {
@@ -98,22 +88,22 @@
   },
   {
    "names": [
-    "Commonwealth Games",
-    "Commonwealth Games Australia"
+    "Harness Racing Australia",
+    "Harness Racing NZ"
    ],
    "slugs": [
-    "commonwealth-games",
-    "commonwealth-games-australia"
+    "harness-racing-australia",
+    "harness-racing-nz"
    ]
   },
   {
    "names": [
-    "Victor",
-    "Victor Sports"
+    "Dolphins",
+    "Dolphins Group"
    ],
    "slugs": [
-    "victor",
-    "victor-sports"
+    "dolphins",
+    "dolphins-group"
    ]
   },
   {
@@ -128,36 +118,6 @@
   },
   {
    "names": [
-    "Kia",
-    "Kia Australia"
-   ],
-   "slugs": [
-    "kia",
-    "kia-australia"
-   ]
-  },
-  {
-   "names": [
-    "Special Olympics",
-    "Special Olympics Australia"
-   ],
-   "slugs": [
-    "special-olympics",
-    "special-olympics-australia"
-   ]
-  },
-  {
-   "names": [
-    "Courier Mail",
-    "The Courier-Mail"
-   ],
-   "slugs": [
-    "courier-mail",
-    "the-courier-mail"
-   ]
-  },
-  {
-   "names": [
     "Athletics",
     "Athletics Australia",
     "Athletics New Zealand"
@@ -166,6 +126,46 @@
     "athletics",
     "athletics-australia",
     "athletics-new-zealand"
+   ]
+  },
+  {
+   "names": [
+    "TAB",
+    "TAB NZ"
+   ],
+   "slugs": [
+    "tab",
+    "tab-nz"
+   ]
+  },
+  {
+   "names": [
+    "Commonwealth Games",
+    "Commonwealth Games Australia"
+   ],
+   "slugs": [
+    "commonwealth-games",
+    "commonwealth-games-australia"
+   ]
+  },
+  {
+   "names": [
+    "HYROX",
+    "HYROX Australia"
+   ],
+   "slugs": [
+    "hyrox",
+    "hyrox-australia"
+   ]
+  },
+  {
+   "names": [
+    "Ant Group",
+    "Ant International"
+   ],
+   "slugs": [
+    "ant-group",
+    "ant-international"
    ]
   }
  ],
@@ -284,6 +284,61 @@
    "brand": "John R Turk",
    "slug": "john-r-turk",
    "deals": 2
+  },
+  {
+   "brand": "Modelo",
+   "slug": "modelo",
+   "deals": 1
+  },
+  {
+   "brand": "Bilibili",
+   "slug": "bilibili",
+   "deals": 1
+  },
+  {
+   "brand": "Shaw and Partners",
+   "slug": "shaw-and-partners",
+   "deals": 1
+  },
+  {
+   "brand": "Businessolver",
+   "slug": "businessolver",
+   "deals": 1
+  },
+  {
+   "brand": "CapTech",
+   "slug": "captech",
+   "deals": 1
+  },
+  {
+   "brand": "Greyson",
+   "slug": "greyson",
+   "deals": 1
+  },
+  {
+   "brand": "PGA Tour Superstore",
+   "slug": "pga-tour-superstore",
+   "deals": 1
+  },
+  {
+   "brand": "SmartPin",
+   "slug": "smartpin",
+   "deals": 1
+  },
+  {
+   "brand": "SoFi",
+   "slug": "sofi",
+   "deals": 1
+  },
+  {
+   "brand": "SYNLawn",
+   "slug": "synlawn",
+   "deals": 1
+  },
+  {
+   "brand": "Go Rentals",
+   "slug": "go-rentals",
+   "deals": 1
   },
   {
    "brand": "Forcast",
