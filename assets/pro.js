@@ -427,7 +427,8 @@ const verdict=r=>r.k==="Call now"?"Call now":r.x>=70?"Worth a call":r.x>=55?"Che
 /* ---------- Board-paper pages (modelled on the ENGIE Stadium board notes) ----------
    Market overview  - the ANZ sponsorship market from the database, plus this brand's category or property's sport
    Category map     - brands: every competitor in the sub-category and what they back; properties: who's buying in the sport
-   Naming rights    - branded and unbranded stadiums by state (pro/venues.json) plus recent naming rights deals
+   Naming rights    - only when the brand or property has naming rights of its own: holder, start, term, expiry, value (published only),
+                      renewal flag inside 24 months, source; then branded stadiums by state (pro/venues.json) and recent ANZ naming rights deals
    Negotiation notes - options, comparables, market intel and our view, typed on the page and saved in this browser only
    Each page can be switched on or off above the report; the choice is remembered. */
 let VEN=null;
@@ -513,16 +514,44 @@ function cmGrid(groups,line,max){max=max||8;
 }
 
 const STATES=["NSW","VIC","QLD","WA","SA","TAS","ACT","NT"];
-function namingPage(meSlug){
-  const V=(VEN&&VEN.venues)||[];
+// org: the brand or property the report is for. side: "b" for brand reports, "p" for property reports.
+// Returns null (page hidden) when the org has no naming rights of its own in the database or venue list,
+// so reports for clubs that don't control their ground's naming never carry an empty page.
+function namingPage(org,side){
+  const V=(VEN&&VEN.venues)||[], meSlug=org.e.slug;
+  const own=org.deals.filter(x=>x.side===side&&x.d.tier==="Naming rights")
+    .map(x=>({d:x.d,o:(x.other||[]).filter(Boolean),r:x.d.ended?null:renewal(x.d),on:!x.d.ended&&live(x.d)}))
+    .sort((a,b)=>(b.on-a.on)||S.sortKey(b.d).localeCompare(S.sortKey(a.d)));
+  const held=side==="b"?V.filter(v=>v.bslug===meSlug&&!own.some(x=>x.on&&(x.d.summary||x.d.deal).includes(v.name))):[];
+  if(!own.length&&!held.length)return null;
+  const cur=own.filter(x=>x.on), past=own.filter(x=>!x.on);
+  const due=cur.filter(x=>x.r&&x.r.end<=yr+2);
+  const who=side==="b"?"Property":"Partner";
+  const start=d=>dated(d)?String(yearOf(d)):"–";
+  const val=d=>d.value?esc(d.value):'<span class="mute-l">Not disclosed</span>';
+  const row=x=>`<tr${x.r&&x.on&&x.r.end<=yr+2?' class="me"':""}><td><b>${esc(x.d.deal)}</b>${x.d.summary?`<br><span class="mute-l">${esc(x.d.summary.split(/(?<=\.)\s/)[0])}</span>`:""}</td>
+    <td><span class="dl">${x.o[0]?logo(x.o[0],22):""}${esc(x.o.map(o=>o.name).join(", ")||"–")}</span></td>
+    <td class="d">${start(x.d)}</td><td class="d">${x.d.term?`${x.d.term} yrs`:"–"}</td>
+    <td class="d">${x.on?(x.r?`${x.r.end} ${basisTag(x.r)}${x.r.end<=yr+2?' <span class="rp-new">Renewal due</span>':""}`:"–"):esc(x.d.ended&&x.d.ended!==true?`Ended ${x.d.ended}`:"Ended")}</td>
+    <td>${val(x.d)}</td><td>${x.d.url?`<a href="${esc(x.d.url)}">Source</a>`:""}</td></tr>`;
+  const head=`<thead><tr><th>Partnership</th><th>${who}</th><th>Start</th><th>Term</th><th>Ends</th><th>Value</th><th></th></tr></thead>`;
+  // Market context underneath: branded stadiums by state and recent naming rights deals.
   const br=V.filter(v=>v.brand), un=V.filter(v=>!v.brand);
-  const recent=D.deals.filter(d=>anz(d)&&d.tier==="Naming rights"&&dated(d)&&monthsAgo(d)<=24).slice(0,12);
-  const row=v=>{const b=v.bslug&&D.orgs.get(v.bslug);return `<tr class="${v.bslug&&v.bslug===meSlug?"me":""}"><td><b>${esc(v.name)}</b><br><span class="mute-l">${esc(v.city)}</span></td><td><span class="dl">${b?logo(b.e,22):""}${esc(v.brand||"")}</span></td><td class="d">${v.cap?v.cap.toLocaleString("en-AU"):""}</td></tr>`};
-  return {t:"Naming rights in market",sub:`Branded stadiums by state, with approximate capacity. Venue list checked ${esc(VEN&&VEN.checked?new Date(VEN.checked+"T00:00:00").toLocaleDateString("en-AU",{month:"short",year:"numeric"}):"")}`,body:`
-    ${STATES.filter(s=>br.some(v=>v.state===s)).map(s=>`<div class="rp-st">${s}</div><table class="t rp-t rp-vt"><tbody>${br.filter(v=>v.state===s).sort((a,b)=>b.cap-a.cap).map(row).join("")}</tbody></table>`).join("")}
+  const recent=D.deals.filter(d=>anz(d)&&d.tier==="Naming rights"&&dated(d)&&monthsAgo(d)<=24).slice(0,10);
+  const vrow=v=>{const b=v.bslug&&D.orgs.get(v.bslug);return `<tr class="${v.bslug&&v.bslug===meSlug?"me":""}"><td><b>${esc(v.name)}</b><br><span class="mute-l">${esc(v.city)}</span></td><td><span class="dl">${b?logo(b.e,22):""}${esc(v.brand||"")}</span></td><td class="d">${v.cap?v.cap.toLocaleString("en-AU"):""}</td></tr>`};
+  const checked=VEN&&VEN.checked?new Date(VEN.checked+"T00:00:00").toLocaleDateString("en-AU",{month:"short",year:"numeric"}):"";
+  return {t:"Naming rights",sub:`${cur.length+held.length} current${past.length?`, ${past.length} past`:""}${due.length?` · ${due.length} up for renewal by ${yr+2}`:""}`,body:`
+    ${cur.length?`<table class="t rp-t">${head}<tbody>${cur.map(row).join("")}</tbody></table>`:""}
+    ${held.length?`<div class="rp-st">Venues carrying ${esc(org.e.name)}'s name</div><table class="t rp-t rp-vt"><tbody>${held.map(v=>`<tr><td><b>${esc(v.name)}</b><br><span class="mute-l">${esc(v.city)}, ${esc(v.state)}${v.orig?` · ${esc(v.orig)}`:""}</span></td><td class="d">${v.cap?v.cap.toLocaleString("en-AU"):""}</td></tr>`).join("")}</tbody></table>`:""}
+    ${past.length?`<div class="rp-st">Past naming rights</div><table class="t rp-t">${head}<tbody>${past.map(row).join("")}</tbody></table>`:""}
+    <p class="note-s">Values only show where a figure has been published; most naming rights fees aren't disclosed. "Renewal due" means the term ends by ${yr+2}. End years are Confirmed, From term or Estimate, as on the renewals pages.</p>
+    <div class="h3">Naming rights in market</div>
+    <p class="note-s">Branded stadiums by state, with approximate capacity. Venue list checked ${esc(checked)}.</p>
+    ${STATES.filter(s=>br.some(v=>v.state===s)).map(s=>`<div class="rp-st">${s}</div><table class="t rp-t rp-vt"><tbody>${br.filter(v=>v.state===s).sort((a,b)=>b.cap-a.cap).map(vrow).join("")}</tbody></table>`).join("")}
     ${un.length?`<div class="rp-st">Key venues with no naming rights partner</div><table class="t rp-t rp-vt"><tbody>${un.sort((a,b)=>b.cap-a.cap).map(v=>`<tr><td><b>${esc(v.name)}</b><br><span class="mute-l">${esc(v.city)}, ${esc(v.state)}</span></td><td><span class="rp-open">Open</span></td><td class="d">${v.cap.toLocaleString("en-AU")}</td></tr>`).join("")}</tbody></table>`:""}
-    ${recent.length?`<div class="rp-st">Naming rights partnerships, last 24 months</div><table class="t rp-t"><tbody>${recent.map(d=>{const r=renewal(d);return `<tr><td class="d">${esc(S.fmt(d))}</td><td><b>${esc(d.deal)}</b></td><td>${esc(d.sport||"")}</td><td class="d">${r?`${r.end} ${basisTag(r)}`:"–"}</td></tr>`}).join("")}</tbody></table>`:""}`};
+    ${recent.length?`<div class="rp-st">Naming rights partnerships in ANZ, last 24 months</div><table class="t rp-t"><tbody>${recent.map(d=>{const r=renewal(d);return `<tr><td class="d">${esc(S.fmt(d))}</td><td><b>${esc(d.deal)}</b></td><td>${esc(d.sport||"")}</td><td class="d">${r?`${r.end} ${basisTag(r)}`:"–"}</td></tr>`}).join("")}</tbody></table>`:""}`};
 }
+const withId=(p,id)=>p?Object.assign(p,{id}):null;
 
 function notesPage(N,vals){
   const keys=["now","o1a","o1b","o1c","o1d","o2a","o2b","o2c","o2d","o3a","o3b","o3c","o3d","comp","intel","view"];
@@ -728,7 +757,7 @@ function brandReport(org,mx){
     ${holds.length?`<table class="t rp-t"><thead><tr><th>Property</th><th>${esc(cat)} partner now</th></tr></thead><tbody>${holds.map(x=>`<tr><td><span class="dl">${logo(x.p.e,26)}<b>${esc(x.p.e.name)}</b></span></td><td>${x.h.length?esc(x.h.map(b=>b.name).join(", ")):`<span class="rp-open">Open</span>`}</td></tr>`).join("")}</tbody></table>
     <p class="note-s">"Open" means no live ${esc(cat.toLowerCase())} partner in the database. Check the property's official partners page before pitching: unverified properties may have one we haven't logged.</p>`:`<p class="note-s">No target properties yet.</p>`}`},
 
-  Object.assign(namingPage(e.slug),{id:"naming"}),
+  withId(namingPage(org,"b"),"naming"),
 
   {id:"sources",t:"Sources",sub:"Official announcements behind the partnerships in this report",body:`
     <ol class="rp-src">${pr.psrc?`<li>Profile: <a href="${esc(pr.psrc)}">${esc(pr.psrc)}</a></li>`:""}${src.map(d=>`<li>${esc(d.deal)}: <a href="${esc(d.url)}">${esc(d.url)}</a></li>`).join("")}</ol>
@@ -780,7 +809,7 @@ function propReport(org,mx){
   {id:"bench",t:"Benchmark",sub:esc(P.peers.label),body:`
     <table class="t rp-t"><thead><tr><th>Property</th><th>Live</th><th>New, 12 mo</th><th>Major</th><th>Categories</th><th>Due</th></tr></thead><tbody>${P.bench.map(x=>`<tr class="${x.r===org?"me":""}"><td><b>${esc(x.r.e.name)}</b></td><td class="d">${x.live}</td><td class="d">${x.new12}</td><td class="d">${x.major}</td><td class="d">${x.cats}</td><td class="d">${x.due}</td></tr>`).join("")}</tbody></table>`},
 
-  Object.assign(namingPage(e.slug),{id:"naming"}),
+  withId(namingPage(org,"p"),"naming"),
 
   {id:"sources",t:"Sources",sub:"Official announcements behind the partnerships in this report",body:`
     <ol class="rp-src">${src.map(d=>`<li>${esc(d.deal)}: <a href="${esc(d.url)}">${esc(d.url)}</a></li>`).join("")}</ol>
