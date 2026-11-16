@@ -14,12 +14,32 @@
  "dup_entities": [
   {
    "names": [
-    "Asahi Beverages",
-    "Asahi Beverages NZ"
+    "TAB",
+    "TAB NZ"
    ],
    "slugs": [
-    "asahi-beverages",
-    "asahi-beverages-nz"
+    "tab",
+    "tab-nz"
+   ]
+  },
+  {
+   "names": [
+    "Hong Kong Jockey Club",
+    "The Hong Kong Jockey Club"
+   ],
+   "slugs": [
+    "hong-kong-jockey-club",
+    "the-hong-kong-jockey-club"
+   ]
+  },
+  {
+   "names": [
+    "Dolphins",
+    "Dolphins Group"
+   ],
+   "slugs": [
+    "dolphins",
+    "dolphins-group"
    ]
   },
   {
@@ -38,22 +58,12 @@
   },
   {
    "names": [
-    "Southern Trust",
-    "The Southern Trust"
+    "Courier Mail",
+    "The Courier-Mail"
    ],
    "slugs": [
-    "southern-trust",
-    "the-southern-trust"
-   ]
-  },
-  {
-   "names": [
-    "Commonwealth Games",
-    "Commonwealth Games Australia"
-   ],
-   "slugs": [
-    "commonwealth-games",
-    "commonwealth-games-australia"
+    "courier-mail",
+    "the-courier-mail"
    ]
   },
   {
@@ -70,32 +80,52 @@
   },
   {
    "names": [
-    "Harness Racing Australia",
-    "Harness Racing NZ"
+    "Kia",
+    "Kia Australia"
    ],
    "slugs": [
-    "harness-racing-australia",
-    "harness-racing-nz"
+    "kia",
+    "kia-australia"
    ]
   },
   {
    "names": [
-    "Hong Kong Jockey Club",
-    "The Hong Kong Jockey Club"
+    "BMS",
+    "BMS Group"
    ],
    "slugs": [
-    "hong-kong-jockey-club",
-    "the-hong-kong-jockey-club"
+    "bms",
+    "bms-group"
    ]
   },
   {
    "names": [
-    "Victor",
-    "Victor Sports"
+    "Seven",
+    "Seven Group"
    ],
    "slugs": [
-    "victor",
-    "victor-sports"
+    "seven",
+    "seven-group"
+   ]
+  },
+  {
+   "names": [
+    "Ant Group",
+    "Ant International"
+   ],
+   "slugs": [
+    "ant-group",
+    "ant-international"
+   ]
+  },
+  {
+   "names": [
+    "Hockey Australia",
+    "Hockey New Zealand"
+   ],
+   "slugs": [
+    "hockey-australia",
+    "hockey-new-zealand"
    ]
   },
   {
@@ -110,22 +140,42 @@
   },
   {
    "names": [
-    "Courier Mail",
-    "The Courier-Mail"
+    "PURE Sports Nutrition",
+    "Pure Nutrition"
    ],
    "slugs": [
-    "courier-mail",
-    "the-courier-mail"
+    "pure-nutrition",
+    "pure-sports-nutrition"
    ]
   },
   {
    "names": [
-    "BMS",
-    "BMS Group"
+    "Victor",
+    "Victor Sports"
    ],
    "slugs": [
-    "bms",
-    "bms-group"
+    "victor",
+    "victor-sports"
+   ]
+  },
+  {
+   "names": [
+    "News Corp",
+    "News Corp Australia"
+   ],
+   "slugs": [
+    "news-corp",
+    "news-corp-australia"
+   ]
+  },
+  {
+   "names": [
+    "Southern Trust",
+    "The Southern Trust"
+   ],
+   "slugs": [
+    "southern-trust",
+    "the-southern-trust"
    ]
   },
   {
@@ -142,52 +192,22 @@
   },
   {
    "names": [
+    "Harness Racing Australia",
+    "Harness Racing NZ"
+   ],
+   "slugs": [
+    "harness-racing-australia",
+    "harness-racing-nz"
+   ]
+  },
+  {
+   "names": [
     "Basketball Australia",
     "Basketball New Zealand"
    ],
    "slugs": [
     "basketball-australia",
     "basketball-new-zealand"
-   ]
-  },
-  {
-   "names": [
-    "Dolphins",
-    "Dolphins Group"
-   ],
-   "slugs": [
-    "dolphins",
-    "dolphins-group"
-   ]
-  },
-  {
-   "names": [
-    "PURE Sports Nutrition",
-    "Pure Nutrition"
-   ],
-   "slugs": [
-    "pure-nutrition",
-    "pure-sports-nutrition"
-   ]
-  },
-  {
-   "names": [
-    "TAB",
-    "TAB NZ"
-   ],
-   "slugs": [
-    "tab",
-    "tab-nz"
-   ]
-  },
-  {
-   "names": [
-    "Salvation Army",
-    "The Salvation Army"
-   ],
-   "slugs": [
-    "salvation-army",
-    "the-salvation-army"
    ]
   },
   {
@@ -202,32 +222,12 @@
   },
   {
    "names": [
-    "Seven",
-    "Seven Group"
+    "Asahi Beverages",
+    "Asahi Beverages NZ"
    ],
    "slugs": [
-    "seven",
-    "seven-group"
-   ]
-  },
-  {
-   "names": [
-    "News Corp",
-    "News Corp Australia"
-   ],
-   "slugs": [
-    "news-corp",
-    "news-corp-australia"
-   ]
-  },
-  {
-   "names": [
-    "HYROX",
-    "HYROX Australia"
-   ],
-   "slugs": [
-    "hyrox",
-    "hyrox-australia"
+    "asahi-beverages",
+    "asahi-beverages-nz"
    ]
   },
   {
@@ -242,32 +242,32 @@
   },
   {
    "names": [
-    "Kia",
-    "Kia Australia"
+    "Salvation Army",
+    "The Salvation Army"
    ],
    "slugs": [
-    "kia",
-    "kia-australia"
+    "salvation-army",
+    "the-salvation-army"
    ]
   },
   {
    "names": [
-    "Hockey Australia",
-    "Hockey New Zealand"
+    "HYROX",
+    "HYROX Australia"
    ],
    "slugs": [
-    "hockey-australia",
-    "hockey-new-zealand"
+    "hyrox",
+    "hyrox-australia"
    ]
   },
   {
    "names": [
-    "Ant Group",
-    "Ant International"
+    "Commonwealth Games",
+    "Commonwealth Games Australia"
    ],
    "slugs": [
-    "ant-group",
-    "ant-international"
+    "commonwealth-games",
+    "commonwealth-games-australia"
    ]
   }
  ],
