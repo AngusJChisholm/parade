@@ -3353,6 +3353,10 @@
     "icon"
    ]
   },
+  "banjo-s-bakery-cafe": {
+   "name": "Banjo's Bakery Cafe",
+   "cat": "Food & nutrition"
+  },
   "bank-of-america": {
    "name": "Bank of America",
    "cat": "Banking & finance",
@@ -5786,6 +5790,9 @@
    "k": "b",
    "domain": "carbiz.com.au"
   },
+  "carbon-savers": {
+   "name": "Carbon Savers"
+  },
   "cardiff-city": {
    "name": "Cardiff City",
    "ptype": "Club & team",
@@ -7664,6 +7671,9 @@
    "k": "b",
    "cat": "Logistics & transport"
   },
+  "courtside-team": {
+   "name": "CourtSide Team"
+  },
   "cover-more": {
    "name": "Cover-More",
    "k": "b"
@@ -8928,6 +8938,10 @@
   "dreamstreet": {
    "name": "Dreamstreet",
    "k": "b"
+  },
+  "dreamstreet-lending": {
+   "name": "Dreamstreet Lending",
+   "cat": "Banking & finance"
   },
   "dreamworld": {
    "name": "Dreamworld",
@@ -10291,6 +10305,9 @@
    "bf": [
     "icon"
    ]
+  },
+  "federal-group": {
+   "name": "Federal Group"
   },
   "federation-university": {
    "name": "Federation University",
@@ -11870,6 +11887,10 @@
    "name": "Good Friday Appeal",
    "k": "b"
   },
+  "goodlife": {
+   "name": "Goodlife",
+   "cat": "Health & beauty"
+  },
   "google": {
    "name": "Google",
    "domain": "google.com",
@@ -12746,6 +12767,9 @@
   "helloworld": {
    "name": "Helloworld",
    "k": "b"
+  },
+  "helping-hoops": {
+   "name": "Helping Hoops"
   },
   "henley-homes": {
    "name": "Henley Homes",
@@ -13672,11 +13696,14 @@
    "ptype": "Club & team",
    "k": "p",
    "ptiers": [
+    "Principal partner",
     "Platinum partner",
     "Premium partner",
-    "Official partner",
-    "Media partner"
-   ]
+    "Profile partner",
+    "Media partner",
+    "Venue partner"
+   ],
+   "ptiersChecked": "2026-11-16"
   },
   "illawarra-mercury": {
    "name": "Illawarra Mercury",
@@ -15482,6 +15509,10 @@
    ],
    "k": "b"
   },
+  "koorie-academy": {
+   "name": "Koorie Academy",
+   "cat": "Education"
+  },
   "kooyong-classic": {
    "name": "Kooyong Classic",
    "ptype": "Event",
@@ -16563,6 +16594,10 @@
     "logo"
    ]
   },
+  "lokahi-wellness": {
+   "name": "Lokahi Wellness",
+   "cat": "Health & beauty"
+  },
   "london-bet": {
    "name": "London.Bet",
    "cat": "Betting & wagering",
@@ -17192,6 +17227,9 @@
    "name": "Marhill",
    "k": "b"
   },
+  "marinus-link": {
+   "name": "Marinus Link"
+  },
   "marquee-framing": {
    "name": "MARQUEE Framing",
    "k": "b"
@@ -17721,6 +17759,9 @@
    "cat": "Apparel & footwear",
    "k": "b"
   },
+  "melbourne-spectres": {
+   "name": "Melbourne Spectres"
+  },
   "melbourne-stars": {
    "name": "Melbourne Stars",
    "domain": "melbournestars.com.au",
@@ -17758,7 +17799,14 @@
     "icon"
    ],
    "ptype": "Club & team",
-   "k": "p"
+   "k": "p",
+   "ptiers": [
+    "Major partner",
+    "Partner",
+    "Supply partner",
+    "Community partner"
+   ],
+   "ptiersChecked": "2026-11-16"
   },
   "melbourne-vehicle-management": {
    "name": "Melbourne Vehicle Management",
@@ -18832,6 +18880,9 @@
     "icon",
     "logo"
    ]
+  },
+  "msf-sports": {
+   "name": "MSF Sports"
   },
   "msufcu": {
    "name": "MSUFCU",
@@ -20432,11 +20483,12 @@
    "ptype": "Club & team",
    "k": "p",
    "ptiers": [
-    "Naming rights",
+    "Naming rights partner",
     "Major partner",
     "Official partner",
-    "Official supplier"
-   ]
+    "Affiliate partner"
+   ],
+   "ptiersChecked": "2026-11-16"
   },
   "nz-herald": {
    "name": "NZ Herald",
@@ -20714,6 +20766,10 @@
     "icon",
     "logo"
    ]
+  },
+  "omoda-and-jaecoo": {
+   "name": "OMODA & JAECOO",
+   "cat": "Automotive"
   },
   "on": {
    "name": "On",
@@ -21474,6 +21530,9 @@
    "k": "p",
    "domain": "pbr.com"
   },
+  "peachie-clean": {
+   "name": "Peachie Clean"
+  },
   "peak-property-services": {
    "name": "Peak Property Services",
    "k": "b",
@@ -21807,10 +21866,12 @@
    "ptype": "Club & team",
    "k": "p",
    "ptiers": [
+    "Principal partner",
     "Diamond partner",
     "Platinum partner",
     "Gold partner"
-   ]
+   ],
+   "ptiersChecked": "2026-11-16"
   },
   "peterborough-united": {
    "name": "Peterborough United",
@@ -21970,6 +22031,9 @@
    ],
    "ptype": "Club & team",
    "k": "p"
+  },
+  "picha-group": {
+   "name": "PICHA Group"
   },
   "picker-financial": {
    "name": "Picker Financial",
@@ -22851,6 +22915,10 @@
     "logo"
    ]
   },
+  "q4-electrical-and-communications": {
+   "name": "Q4 Electrical & Communications",
+   "cat": "Energy & utilities"
+  },
   "qantas": {
    "name": "Qantas",
    "cat": "Airlines & travel",
@@ -23112,6 +23180,9 @@
    "domain": "racing.com",
    "cat": "Media & broadcast",
    "k": "b"
+  },
+  "racism-it-stops-with-me": {
+   "name": "Racism. It Stops With Me"
   },
   "rackley-swimming": {
    "name": "Rackley Swimming",
@@ -23931,6 +24002,10 @@
     "logo"
    ]
   },
+  "road-safety-advisory-council": {
+   "name": "Road Safety Advisory Council",
+   "cat": "Tourism & government"
+  },
   "roasting-warehouse": {
    "name": "Roasting Warehouse",
    "cat": "Non-alcoholic drinks",
@@ -24383,6 +24458,10 @@
    "k": "b",
    "cat": "Energy & utilities"
   },
+  "ryval-media": {
+   "name": "Ryval Media",
+   "cat": "Media & broadcast"
+  },
   "s-trend": {
    "name": "S-Trend",
    "domain": "s-trend.com.au",
@@ -24428,6 +24507,9 @@
    "name": "SA Water",
    "cat": "Non-alcoholic drinks",
    "k": "b"
+  },
+  "sa1nt": {
+   "name": "SA1NT"
   },
   "sa1nt-layers": {
    "name": "SA1NT Layers",
@@ -25522,6 +25604,10 @@
     "logo"
    ]
   },
+  "simonds": {
+   "name": "Simonds",
+   "cat": "Construction & property"
+  },
   "simonds-homes": {
    "name": "Simonds Homes",
    "cat": "Construction & property",
@@ -26069,9 +26155,12 @@
    "ptype": "Club & team",
    "k": "p",
    "ptiers": [
+    "Premier partner",
     "Major partner",
-    "Official partner"
-   ]
+    "Official partner",
+    "Supply partner"
+   ],
+   "ptiersChecked": "2026-11-16"
   },
   "south-sydney-rabbitohs": {
    "name": "South Sydney Rabbitohs",
@@ -26879,6 +26968,9 @@
   "strapit": {
    "name": "Strapit",
    "k": "b"
+  },
+  "straptor": {
+   "name": "Straptor"
   },
   "strata-management-services-nsw": {
    "name": "Strata Management Services NSW",
@@ -27789,13 +27881,16 @@
    "ptype": "Club & team",
    "k": "p",
    "ptiers": [
-    "Principal partner",
+    "Foundation principal partner",
+    "Government partner",
     "Major partner",
     "Premium partner",
-    "Official partner",
-    "Official supplier",
-    "Government partner"
-   ]
+    "Community partner",
+    "Partner",
+    "Event partner",
+    "Supplier"
+   ],
+   "ptiersChecked": "2026-11-16"
   },
   "tasmania-jewels": {
    "name": "Tasmania Jewels",
@@ -28858,6 +28953,9 @@
     "icon"
    ]
   },
+  "top-up-labour": {
+   "name": "Top Up Labour"
+  },
   "topgolf": {
    "name": "Topgolf",
    "domain": "topgolf.com",
@@ -29347,6 +29445,9 @@
   "trnr": {
    "name": "TRNR",
    "k": "b"
+  },
+  "trojan-tools": {
+   "name": "Trojan Tools"
   },
   "truefuels": {
    "name": "truefuels",
@@ -31560,6 +31661,10 @@
    "cat": "Sporting goods & equipment",
    "k": "b"
   },
+  "wilson-parking": {
+   "name": "Wilson Parking",
+   "cat": "Sporting goods & equipment"
+  },
   "wilson-security": {
    "name": "Wilson Security",
    "domain": "wilsonsecurity.com.au",
@@ -31594,6 +31699,10 @@
    "name": "WIN Network",
    "cat": "Media & broadcast",
    "k": "b"
+  },
+  "win-sports-and-entertainment-centres": {
+   "name": "WIN Sports & Entertainment Centres",
+   "cat": "Media & broadcast"
   },
   "win-television": {
    "name": "WIN Television",
