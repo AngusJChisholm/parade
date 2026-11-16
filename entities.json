@@ -8665,7 +8665,11 @@
    "name": "Dove",
    "domain": "dove.com",
    "cat": "Health & beauty",
-   "k": "b"
+   "k": "b",
+   "aliases": [
+    "Dove Men+Care"
+   ],
+   "parent": "unilever"
   },
   "dp-world": {
    "name": "DP World",
@@ -23960,7 +23964,14 @@
    "k": "p",
    "aliases": [
     "Rugby World Cups (Australia)"
-   ]
+   ],
+   "ptiers": [
+    "Principal Partners",
+    "Official Partners",
+    "Official Suppliers & Supporters",
+    "Host partner"
+   ],
+   "ptiersChecked": "2026-11-16"
   },
   "rugbypass": {
    "name": "RugbyPass",
@@ -32232,6 +32243,58 @@
    "domain": "corona.com",
    "cat": "Alcohol",
    "k": "b"
+  },
+  "lipovitan-d": {
+   "name": "Lipovitan D",
+   "cat": "Non-alcoholic drinks",
+   "k": "b",
+   "domain": "taisho.co.jp",
+   "parent": "taisho-pharmaceutical",
+   "aliases": [
+    "LipovitanD"
+   ]
+  },
+  "mitsubishi-estate": {
+   "name": "Mitsubishi Estate",
+   "cat": "Construction & property",
+   "k": "b",
+   "domain": "mec.co.jp"
+  },
+  "meiji": {
+   "name": "Meiji",
+   "cat": "Food & nutrition",
+   "k": "b",
+   "domain": "meiji.com"
+  },
+  "childfund-rugby": {
+   "name": "ChildFund Rugby",
+   "cat": "Not-for-profit",
+   "k": "b",
+   "domain": "childfundrugby.org"
+  },
+  "tourism-australia": {
+   "name": "Tourism Australia",
+   "cat": "Tourism & government",
+   "k": "b",
+   "domain": "australia.com"
+  },
+  "tourism-and-events-queensland": {
+   "name": "Tourism and Events Queensland",
+   "cat": "Tourism & government",
+   "k": "b",
+   "domain": "queensland.com",
+   "aliases": [
+    "TEQ"
+   ]
+  },
+  "south-australian-tourism-commission": {
+   "name": "South Australian Tourism Commission",
+   "cat": "Tourism & government",
+   "k": "b",
+   "domain": "southaustralia.com",
+   "aliases": [
+    "SATC"
+   ]
   }
  },
  "leagues": [
