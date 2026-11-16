@@ -9,11 +9,16 @@ $("yr").textContent=yr;
 const q0=S.qs();
 const st={q:q0.get("q")||"",sport:q0.get("sport")||"All",region:q0.get("region")||"All",league:q0.get("league")||"",
   group:q0.get(IS_B?"cat":"type")||"",sort:q0.get("sort")||"deals",shown:PAGE};
+st.league=({BBL:"Big Bash League"})[st.league]||st.league;
 const save=()=>S.setQs({q:st.q,sport:st.sport!=="All"&&st.sport,region:st.region!=="All"&&st.region,league:st.league,[IS_B?"cat":"type"]:st.group,sort:st.sort!=="deals"&&st.sort});
 
-S.load().then(D=>{
+// Properties page: every league in leagues.json, each with its clubs resolved to the slugs the site uses.
+const LJ=IS_B?Promise.resolve({}):fetch("leagues.json",{cache:"no-cache"}).then(r=>r.ok?r.json():{}).catch(()=>({}));
+Promise.all([S.load(),LJ]).then(([D,lj])=>{
   const rows=IS_B?D.brands:D.props;
-  const leagues=IS_B?[]:D.leagues.filter(l=>Array.isArray(l.clubs)&&l.clubs.length);
+  const ENT=L.all(),idOf=n=>ENT[n]?n:(L.resolve(n)||{}).slug;
+  const fromJson=(lj.leagues||[]).map(l=>({name:l.name,sport:l.sport||"Other",market:l.market||"",ids:new Set([...(l.members||[]),...(l.self||[])].map(idOf).filter(Boolean))}));
+  const leagues=IS_B?[]:(fromJson.length?fromJson:D.leagues.filter(l=>Array.isArray(l.clubs)&&l.clubs.length).map(l=>({name:l.name,sport:"Leagues",market:"",ids:new Set(l.clubs)})));
   const tally=new Map();rows.forEach(r=>r.sports.forEach((v,k)=>tally.set(k,(tally.get(k)||0)+v)));
   const sports=[...tally.entries()].sort((a,b)=>b[1]-a[1]).map(x=>x[0]);
   const groupOf=r=>IS_B?r.cat:r.ptype;
@@ -36,13 +41,25 @@ S.load().then(D=>{
     $("regPills").innerHTML=S.MKTS.map(r=>`<button type="button" class="pill${st.region===r?" on":""}" data-r="${esc(r)}" aria-pressed="${st.region===r}">${esc(S.mktLab(r))}</button>`).join("");
     if(!IS_B){
       $("typePills").innerHTML=["",...groups].map(g=>`<button type="button" class="pill${st.group===g?" on":""}" data-g="${esc(g)}" aria-pressed="${st.group===g}">${g?esc(g):"All types"}</button>`).join("");
-      $("lgPills").innerHTML=[`<button type="button" class="pill${!st.league?" on":""}" data-l="" aria-pressed="${!st.league}">All leagues</button>`,...leagues.map(l=>`<button type="button" class="pill${st.league===l.name?" on":""}" data-l="${esc(l.name)}" aria-pressed="${st.league===l.name}">${esc(l.name)} clubs</button>`)].join("");
+      leagueSel();
     }
+  }
+  // League dropdown: grouped by sport, only leagues with properties under the current sport, region and type,
+  // biggest first. The picked league always stays in the list.
+  function leagueSel(){
+    const base=rows.filter(x=>(st.sport==="All"||x.sports.has(st.sport))&&(st.region==="All"||x.markets.has(st.region))&&(!st.group||groupOf(x)===st.group));
+    const by=new Map();
+    leagues.forEach(l=>{const n=base.filter(x=>l.ids.has(x.e.slug)).length;if(!n&&st.league!==l.name)return;
+      if(!by.has(l.sport))by.set(l.sport,{n:0,ls:[]});const g=by.get(l.sport);g.n+=n;g.ls.push({l,n})});
+    const opt=(l,n)=>`<option value="${esc(l.name)}"${st.league===l.name?" selected":""}>${esc(l.name)} (${n})</option>`;
+    $("league").innerHTML=`<option value="">All leagues</option>`+[...by].sort((a,b)=>b[1].n-a[1].n||a[0].localeCompare(b[0]))
+      .map(([sp,g])=>`<optgroup label="${esc(sp)}">${g.ls.sort((a,b)=>b.n-a.n||a.l.name.localeCompare(b.l.name)).map(x=>opt(x.l,x.n)).join("")}</optgroup>`).join("");
+    $("league").value=st.league;
   }
   function draw(){
     const q=st.q.trim().toLowerCase();
     const lg=leagues.find(l=>l.name===st.league);
-    const inLg=lg?new Set(lg.clubs):null;
+    const inLg=lg?lg.ids:null;
     const r=rows.filter(x=>(!q||x.hay.includes(q))&&(st.sport==="All"||x.sports.has(st.sport))&&(st.region==="All"||x.markets.has(st.region))&&(!inLg||inLg.has(x.e.slug))&&(!st.group||groupOf(x)===st.group));
     const by={deals:(a,b)=>b.n-a.n||a.e.name.localeCompare(b.e.name),
       latest:(a,b)=>S.sortKey(b.latest.d).localeCompare(S.sortKey(a.latest.d))||b.n-a.n,
@@ -62,10 +79,10 @@ S.load().then(D=>{
   $("sport").onchange=e=>{st.sport=e.target.value;st.shown=PAGE;draw()};
   if(IS_B)$("group").onchange=e=>{st.group=e.target.value;st.shown=PAGE;draw()};
   $("sort").onchange=e=>{st.sort=e.target.value;draw()};
+  if(!IS_B)$("league").onchange=e=>{st.league=e.target.value;st.shown=PAGE;draw()};
   document.querySelector("main").addEventListener("click",e=>{
-    const b=e.target.closest("[data-r],[data-l],[data-g]");if(!b)return;
+    const b=e.target.closest("[data-r],[data-g]");if(!b)return;
     if(b.dataset.r!==undefined)st.region=b.dataset.r;
-    if(b.dataset.l!==undefined)st.league=b.dataset.l;
     if(b.dataset.g!==undefined)st.group=b.dataset.g;
     st.shown=PAGE;draw();
   });

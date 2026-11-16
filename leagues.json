@@ -1,0 +1,1754 @@
+{
+ "_help": "League filter on the Properties page (properties.html). One entry per league: name as shown in the dropdown, sport = the dropdown group it sits under, market = where it's based (same markets as tools/markets.py), self = the league's own name(s) as written in deals.json (so the league itself shows when you pick it), members = clubs and teams, written as in deals.json or as an entities.json slug. A club can sit in more than one league (Team Penske is IndyCar and NASCAR). Members with no partnerships yet are fine: they show up the moment one is filed. Run python3 tools/leagues_check.py after editing to see names that don't match and clubs not in any league.",
+ "leagues": [
+  {
+   "name": "AFL",
+   "sport": "Australian rules",
+   "market": "ANZ",
+   "self": [
+    "AFL"
+   ],
+   "members": [
+    "adelaide-crows",
+    "brisbane-lions",
+    "carlton",
+    "collingwood",
+    "essendon",
+    "fremantle",
+    "geelong-cats",
+    "gold-coast-suns",
+    "gws-giants",
+    "hawthorn",
+    "melbourne",
+    "north-melbourne",
+    "port-adelaide",
+    "richmond",
+    "st-kilda",
+    "sydney-swans",
+    "tasmania-devils",
+    "west-coast-eagles",
+    "western-bulldogs"
+   ]
+  },
+  {
+   "name": "AFLW",
+   "sport": "Australian rules",
+   "market": "ANZ",
+   "self": [
+    "AFLW"
+   ],
+   "members": [
+    "adelaide-crows",
+    "brisbane-lions",
+    "carlton",
+    "collingwood",
+    "essendon",
+    "fremantle",
+    "geelong-cats",
+    "gold-coast-suns",
+    "gws-giants",
+    "hawthorn",
+    "melbourne",
+    "north-melbourne",
+    "port-adelaide",
+    "richmond",
+    "st-kilda",
+    "sydney-swans",
+    "tasmania-devils",
+    "west-coast-eagles",
+    "western-bulldogs"
+   ]
+  },
+  {
+   "name": "WAFL",
+   "sport": "Australian rules",
+   "market": "ANZ",
+   "self": [
+    "WAFL"
+   ],
+   "members": []
+  },
+  {
+   "name": "VAFA",
+   "sport": "Australian rules",
+   "market": "ANZ",
+   "self": [
+    "VAFA"
+   ],
+   "members": []
+  },
+  {
+   "name": "NRL",
+   "sport": "Rugby league",
+   "market": "ANZ",
+   "self": [
+    "NRL"
+   ],
+   "members": [
+    "brisbane-broncos",
+    "canterbury-bankstown-bulldogs",
+    "canberra-raiders",
+    "cronulla-sharks",
+    "dolphins",
+    "gold-coast-titans",
+    "manly-sea-eagles",
+    "melbourne-storm",
+    "newcastle-knights",
+    "north-queensland-cowboys",
+    "nz-warriors",
+    "parramatta-eels",
+    "penrith-panthers",
+    "perth-bears",
+    "png-chiefs",
+    "south-sydney-rabbitohs",
+    "st-george-illawarra-dragons",
+    "sydney-roosters",
+    "wests-tigers"
+   ]
+  },
+  {
+   "name": "NRLW",
+   "sport": "Rugby league",
+   "market": "ANZ",
+   "self": [
+    "NRLW"
+   ],
+   "members": [
+    "Brisbane Broncos",
+    "Canberra Raiders",
+    "Canterbury-Bankstown Bulldogs",
+    "Cronulla Sharks",
+    "Gold Coast Titans",
+    "Newcastle Knights",
+    "North Queensland Cowboys",
+    "Parramatta Eels",
+    "St George Illawarra Dragons",
+    "Sydney Roosters",
+    "Wests Tigers",
+    "NZ Warriors"
+   ]
+  },
+  {
+   "name": "Super League",
+   "sport": "Rugby league",
+   "market": "UK & Ireland",
+   "self": [
+    "Super League"
+   ],
+   "members": [
+    "Wigan Warriors",
+    "St Helens",
+    "Leeds Rhinos",
+    "Warrington Wolves",
+    "Hull FC",
+    "Hull KR",
+    "Catalans Dragons",
+    "Leigh Leopards",
+    "Huddersfield Giants",
+    "Castleford Tigers",
+    "Wakefield Trinity",
+    "Salford Red Devils"
+   ]
+  },
+  {
+   "name": "A-Leagues",
+   "sport": "Football",
+   "market": "ANZ",
+   "self": [
+    "A-Leagues",
+    "APL"
+   ],
+   "members": [
+    "adelaide-united",
+    "auckland-fc",
+    "brisbane-roar",
+    "central-coast-mariners",
+    "macarthur-fc",
+    "melbourne-city-fc",
+    "melbourne-victory",
+    "newcastle-jets",
+    "perth-glory",
+    "sydney-fc",
+    "wellington-phoenix",
+    "western-sydney-wanderers",
+    "western-united"
+   ]
+  },
+  {
+   "name": "A-League Women",
+   "sport": "Football",
+   "market": "ANZ",
+   "self": [
+    "A-League Women"
+   ],
+   "members": [
+    "adelaide-united",
+    "auckland-fc",
+    "brisbane-roar",
+    "central-coast-mariners",
+    "macarthur-fc",
+    "melbourne-city-fc",
+    "melbourne-victory",
+    "newcastle-jets",
+    "perth-glory",
+    "sydney-fc",
+    "wellington-phoenix",
+    "western-sydney-wanderers",
+    "western-united"
+   ]
+  },
+  {
+   "name": "NBL",
+   "sport": "Basketball",
+   "market": "ANZ",
+   "self": [
+    "NBL"
+   ],
+   "members": [
+    "adelaide-36ers",
+    "brisbane-bullets",
+    "cairns-taipans",
+    "illawarra-hawks",
+    "melbourne-united",
+    "nz-breakers",
+    "perth-wildcats",
+    "south-east-melbourne-phoenix",
+    "sydney-kings",
+    "tasmania-jackjumpers"
+   ]
+  },
+  {
+   "name": "WNBL",
+   "sport": "Basketball",
+   "market": "ANZ",
+   "self": [
+    "WNBL"
+   ],
+   "members": [
+    "Adelaide Lightning",
+    "Bendigo Spirit",
+    "Geelong United",
+    "Perth Lynx",
+    "Southside Melbourne Flyers",
+    "Sydney Flames",
+    "Townsville Fire",
+    "UC Capitals"
+   ]
+  },
+  {
+   "name": "Big Bash League",
+   "sport": "Cricket",
+   "market": "ANZ",
+   "self": [
+    "Big Bash League",
+    "BBL"
+   ],
+   "members": [
+    "adelaide-strikers",
+    "brisbane-heat",
+    "hobart-hurricanes",
+    "melbourne-renegades",
+    "melbourne-stars",
+    "perth-scorchers",
+    "sydney-sixers",
+    "sydney-thunder"
+   ]
+  },
+  {
+   "name": "WBBL",
+   "sport": "Cricket",
+   "market": "ANZ",
+   "self": [
+    "WBBL"
+   ],
+   "members": [
+    "adelaide-strikers",
+    "brisbane-heat",
+    "hobart-hurricanes",
+    "melbourne-renegades",
+    "melbourne-stars",
+    "perth-scorchers",
+    "sydney-sixers",
+    "sydney-thunder"
+   ]
+  },
+  {
+   "name": "Super Smash",
+   "sport": "Cricket",
+   "market": "ANZ",
+   "self": [
+    "Super Smash"
+   ],
+   "members": [
+    "Auckland Cricket",
+    "Canterbury Cricket",
+    "Central Districts Cricket",
+    "Cricket Wellington",
+    "Northern Districts Cricket",
+    "Otago Cricket"
+   ]
+  },
+  {
+   "name": "Suncorp Super Netball",
+   "sport": "Netball",
+   "market": "ANZ",
+   "self": [
+    "Suncorp Super Netball",
+    "Super Netball"
+   ],
+   "members": [
+    "Adelaide Thunderbirds",
+    "Giants Netball",
+    "Melbourne Mavericks",
+    "Melbourne Vixens",
+    "NSW Swifts",
+    "Queensland Firebirds",
+    "Sunshine Coast Lightning",
+    "West Coast Fever"
+   ]
+  },
+  {
+   "name": "ANZ Premiership",
+   "sport": "Netball",
+   "market": "ANZ",
+   "self": [
+    "ANZ Premiership"
+   ],
+   "members": [
+    "Mainland Tactix",
+    "Northern Mystics",
+    "Northern Stars",
+    "Southern Steel",
+    "Waikato Bay of Plenty Magic",
+    "Central Pulse"
+   ]
+  },
+  {
+   "name": "Super Rugby Pacific",
+   "sport": "Rugby union",
+   "market": "ANZ",
+   "self": [
+    "Super Rugby Pacific",
+    "Super Rugby"
+   ],
+   "members": [
+    "ACT Brumbies",
+    "Blues (Super Rugby)",
+    "Chiefs (Super Rugby)",
+    "Crusaders",
+    "Fijian Drua",
+    "Highlanders",
+    "Hurricanes (Super Rugby)",
+    "Moana Pasifika",
+    "NSW Waratahs",
+    "Queensland Reds",
+    "Western Force"
+   ]
+  },
+  {
+   "name": "Super Rugby Aupiki",
+   "sport": "Rugby union",
+   "market": "ANZ",
+   "self": [
+    "Super Rugby Aupiki"
+   ],
+   "members": [
+    "Matatū",
+    "Hurricanes Poua",
+    "Blues Women",
+    "Chiefs Manawa"
+   ]
+  },
+  {
+   "name": "Bunnings NPC",
+   "sport": "Rugby union",
+   "market": "ANZ",
+   "self": [
+    "Bunnings NPC",
+    "NPC"
+   ],
+   "members": [
+    "Auckland Rugby",
+    "Bay of Plenty Rugby",
+    "Canterbury Rugby",
+    "Counties Manukau Rugby",
+    "Hawke's Bay Rugby",
+    "Manawatū Rugby",
+    "North Harbour Rugby",
+    "Northland Rugby",
+    "Otago Rugby",
+    "Rugby Southland",
+    "Taranaki Rugby",
+    "Tasman Rugby",
+    "Waikato Rugby",
+    "Wellington Rugby"
+   ]
+  },
+  {
+   "name": "Supercars",
+   "sport": "Motorsport",
+   "market": "ANZ",
+   "self": [
+    "Supercars"
+   ],
+   "members": [
+    "Blanchard Racing Team",
+    "Brad Jones Racing",
+    "Erebus Motorsport",
+    "Grove Racing",
+    "Matt Stone Racing",
+    "Premiair Racing",
+    "Shell V-Power Racing",
+    "Tickford Racing",
+    "Triple Eight Race Engineering",
+    "Walkinshaw Andretti United",
+    "Team 18"
+   ]
+  },
+  {
+   "name": "Hockey One",
+   "sport": "Hockey",
+   "market": "ANZ",
+   "self": [
+    "Hockey One"
+   ],
+   "members": []
+  },
+  {
+   "name": "Premier League",
+   "sport": "Football",
+   "market": "UK & Ireland",
+   "self": [
+    "Premier League"
+   ],
+   "members": [
+    "Arsenal",
+    "Aston Villa",
+    "AFC Bournemouth",
+    "Brentford",
+    "Brighton & Hove Albion",
+    "Burnley",
+    "Chelsea",
+    "Crystal Palace",
+    "Everton",
+    "Fulham",
+    "Leeds United",
+    "Liverpool FC",
+    "Manchester City",
+    "Manchester United",
+    "Newcastle United",
+    "Nottingham Forest",
+    "Sunderland",
+    "Tottenham Hotspur",
+    "West Ham United",
+    "Wolverhampton Wanderers"
+   ]
+  },
+  {
+   "name": "EFL Championship",
+   "sport": "Football",
+   "market": "UK & Ireland",
+   "self": [
+    "EFL Championship"
+   ],
+   "members": [
+    "Birmingham City",
+    "Blackburn Rovers",
+    "Bristol City",
+    "Charlton Athletic",
+    "Coventry City",
+    "Derby County",
+    "Hull City",
+    "Ipswich Town",
+    "Leicester City",
+    "Middlesbrough",
+    "Millwall",
+    "Norwich City",
+    "Oxford United",
+    "Portsmouth",
+    "Preston North End",
+    "Queens Park Rangers",
+    "Sheffield United",
+    "Sheffield Wednesday",
+    "Southampton",
+    "Stoke City",
+    "Swansea City",
+    "Watford",
+    "West Bromwich Albion",
+    "Wrexham"
+   ]
+  },
+  {
+   "name": "EFL League One",
+   "sport": "Football",
+   "market": "UK & Ireland",
+   "self": [
+    "EFL League One"
+   ],
+   "members": [
+    "Cardiff City",
+    "Luton Town",
+    "Peterborough United",
+    "Reading",
+    "Bolton Wanderers",
+    "Barnsley",
+    "Huddersfield Town",
+    "Stockport County",
+    "Wycombe Wanderers",
+    "Plymouth Argyle",
+    "Blackpool",
+    "Wigan Athletic",
+    "Leyton Orient",
+    "Mansfield Town",
+    "Northampton Town",
+    "Lincoln City",
+    "Rotherham United",
+    "Stevenage",
+    "Exeter City",
+    "Burton Albion",
+    "Bradford City",
+    "Doncaster Rovers",
+    "Port Vale",
+    "AFC Wimbledon"
+   ]
+  },
+  {
+   "name": "EFL League Two",
+   "sport": "Football",
+   "market": "UK & Ireland",
+   "self": [
+    "EFL League Two"
+   ],
+   "members": [
+    "Bromley",
+    "Salford City",
+    "MK Dons",
+    "Notts County",
+    "Chesterfield",
+    "Walsall",
+    "Grimsby Town",
+    "Swindon Town",
+    "Gillingham",
+    "Crewe Alexandra",
+    "Colchester United",
+    "Tranmere Rovers",
+    "Accrington Stanley",
+    "Barrow",
+    "Bristol Rovers",
+    "Cambridge United",
+    "Cheltenham Town",
+    "Crawley Town",
+    "Fleetwood Town",
+    "Harrogate Town",
+    "Newport County",
+    "Oldham Athletic",
+    "Shrewsbury Town",
+    "Barnet"
+   ]
+  },
+  {
+   "name": "Women's Super League",
+   "sport": "Football",
+   "market": "UK & Ireland",
+   "self": [
+    "Women's Super League",
+    "WSL"
+   ],
+   "members": [
+    "Arsenal Women",
+    "Aston Villa Women",
+    "Brighton Women",
+    "Chelsea Women",
+    "Everton Women",
+    "Leicester City Women",
+    "Liverpool Women",
+    "London City Lionesses",
+    "Manchester City Women",
+    "Manchester United Women",
+    "Tottenham Hotspur Women",
+    "West Ham Women"
+   ]
+  },
+  {
+   "name": "Scottish Premiership",
+   "sport": "Football",
+   "market": "UK & Ireland",
+   "self": [
+    "SPFL"
+   ],
+   "members": [
+    "Celtic",
+    "Rangers",
+    "Aberdeen",
+    "Hearts",
+    "Hibernian",
+    "Dundee",
+    "Dundee United",
+    "Kilmarnock",
+    "Motherwell",
+    "St Mirren",
+    "Livingston",
+    "Falkirk"
+   ]
+  },
+  {
+   "name": "NIFL Premiership",
+   "sport": "Football",
+   "market": "UK & Ireland",
+   "self": [
+    "NIFL Premiership"
+   ],
+   "members": [
+    "Portadown FC",
+    "Linfield",
+    "Glentoran",
+    "Larne",
+    "Cliftonville",
+    "Coleraine",
+    "Crusaders FC",
+    "Dungannon Swifts",
+    "Ballymena United",
+    "Carrick Rangers",
+    "Glenavon",
+    "Bangor"
+   ]
+  },
+  {
+   "name": "LaLiga",
+   "sport": "Football",
+   "market": "Europe",
+   "self": [
+    "LaLiga",
+    "LaLiga North America"
+   ],
+   "members": [
+    "Athletic Club",
+    "Atlético Madrid",
+    "FC Barcelona",
+    "Celta Vigo",
+    "Deportivo Alavés",
+    "Elche",
+    "Espanyol",
+    "Getafe",
+    "Girona",
+    "Levante",
+    "Mallorca",
+    "Osasuna",
+    "Rayo Vallecano",
+    "Real Betis",
+    "Real Madrid",
+    "Real Oviedo",
+    "Real Sociedad",
+    "Sevilla",
+    "Valencia CF",
+    "Villarreal"
+   ]
+  },
+  {
+   "name": "Liga F",
+   "sport": "Football",
+   "market": "Europe",
+   "self": [
+    "Liga F"
+   ],
+   "members": [
+    "FC Barcelona Femení",
+    "Real Madrid Femenino",
+    "Atlético Madrid Femenino"
+   ]
+  },
+  {
+   "name": "Serie A",
+   "sport": "Football",
+   "market": "Europe",
+   "self": [
+    "Serie A"
+   ],
+   "members": [
+    "AC Milan",
+    "AS Roma",
+    "Atalanta",
+    "Bologna",
+    "Cagliari",
+    "Como 1907",
+    "Cremonese",
+    "Fiorentina",
+    "Genoa",
+    "Hellas Verona",
+    "Inter Milan",
+    "Juventus",
+    "Lazio",
+    "Lecce",
+    "Napoli",
+    "Parma",
+    "Pisa",
+    "Sassuolo",
+    "Torino",
+    "Udinese"
+   ]
+  },
+  {
+   "name": "Bundesliga",
+   "sport": "Football",
+   "market": "Europe",
+   "self": [
+    "Bundesliga"
+   ],
+   "members": [
+    "FC Bayern",
+    "Bayer Leverkusen",
+    "Borussia Dortmund",
+    "RB Leipzig",
+    "VfB Stuttgart",
+    "VfL Wolfsburg",
+    "Eintracht Frankfurt",
+    "SC Freiburg",
+    "Mainz 05",
+    "Borussia Mönchengladbach",
+    "Werder Bremen",
+    "Union Berlin",
+    "TSG Hoffenheim",
+    "FC Augsburg",
+    "1. FC Heidenheim",
+    "FC St. Pauli",
+    "Hamburger SV",
+    "1. FC Köln"
+   ]
+  },
+  {
+   "name": "Ligue 1",
+   "sport": "Football",
+   "market": "Europe",
+   "self": [
+    "Ligue 1"
+   ],
+   "members": [
+    "Paris Saint-Germain",
+    "AS Monaco",
+    "OGC Nice",
+    "Olympique Lyonnais",
+    "Olympique de Marseille",
+    "Toulouse FC",
+    "LOSC Lille",
+    "RC Lens",
+    "Stade Rennais",
+    "RC Strasbourg",
+    "Stade Brestois",
+    "FC Nantes",
+    "Angers SCO",
+    "Le Havre AC",
+    "AJ Auxerre",
+    "FC Lorient",
+    "Paris FC",
+    "FC Metz"
+   ]
+  },
+  {
+   "name": "Eredivisie",
+   "sport": "Football",
+   "market": "Europe",
+   "self": [
+    "Eredivisie"
+   ],
+   "members": [
+    "Ajax",
+    "PSV",
+    "Feyenoord",
+    "AZ",
+    "PEC Zwolle",
+    "FC Twente",
+    "FC Utrecht",
+    "NEC Nijmegen",
+    "Go Ahead Eagles",
+    "sc Heerenveen",
+    "Sparta Rotterdam",
+    "FC Groningen"
+   ]
+  },
+  {
+   "name": "Primeira Liga",
+   "sport": "Football",
+   "market": "Europe",
+   "self": [
+    "Primeira Liga"
+   ],
+   "members": [
+    "Benfica",
+    "FC Porto",
+    "Sporting CP",
+    "SC Braga",
+    "Vitória SC"
+   ]
+  },
+  {
+   "name": "Süper Lig",
+   "sport": "Football",
+   "market": "Europe",
+   "self": [
+    "Süper Lig"
+   ],
+   "members": [
+    "Fenerbahçe",
+    "Galatasaray",
+    "Beşiktaş",
+    "Trabzonspor",
+    "Başakşehir"
+   ]
+  },
+  {
+   "name": "Belgian Pro League",
+   "sport": "Football",
+   "market": "Europe",
+   "self": [
+    "Belgian Pro League"
+   ],
+   "members": [
+    "Club Brugge",
+    "Anderlecht",
+    "Genk",
+    "Royal Antwerp",
+    "Union Saint-Gilloise",
+    "Standard Liège"
+   ]
+  },
+  {
+   "name": "Swiss Super League",
+   "sport": "Football",
+   "market": "Europe",
+   "self": [
+    "Swiss Super League"
+   ],
+   "members": [
+    "FC Basel",
+    "Young Boys",
+    "FC Zürich"
+   ]
+  },
+  {
+   "name": "Eliteserien",
+   "sport": "Football",
+   "market": "Europe",
+   "self": [
+    "Eliteserien"
+   ],
+   "members": [
+    "Bodø/Glimt",
+    "Rosenborg",
+    "Molde"
+   ]
+  },
+  {
+   "name": "Ekstraklasa",
+   "sport": "Football",
+   "market": "Europe",
+   "self": [
+    "Ekstraklasa"
+   ],
+   "members": [
+    "Legia Warsaw",
+    "Lech Poznań"
+   ]
+  },
+  {
+   "name": "Ukrainian Premier League",
+   "sport": "Football",
+   "market": "Europe",
+   "self": [
+    "Ukrainian Premier League"
+   ],
+   "members": [
+    "Shakhtar Donetsk",
+    "Dynamo Kyiv"
+   ]
+  },
+  {
+   "name": "Bulgarian First League",
+   "sport": "Football",
+   "market": "Europe",
+   "self": [
+    "Bulgarian First League"
+   ],
+   "members": [
+    "CSKA Sofia",
+    "Ludogorets"
+   ]
+  },
+  {
+   "name": "UEFA Champions League",
+   "sport": "Football",
+   "market": "Global",
+   "self": [
+    "UEFA Champions League"
+   ],
+   "members": []
+  },
+  {
+   "name": "UEFA Women's Champions League",
+   "sport": "Football",
+   "market": "Global",
+   "self": [
+    "UEFA Women's Champions League"
+   ],
+   "members": []
+  },
+  {
+   "name": "MLS",
+   "sport": "Football",
+   "market": "North America",
+   "self": [
+    "MLS"
+   ],
+   "members": [
+    "Atlanta United",
+    "Austin FC",
+    "Charlotte FC",
+    "Chicago Fire",
+    "FC Cincinnati",
+    "Colorado Rapids",
+    "Columbus Crew",
+    "D.C. United",
+    "FC Dallas",
+    "Houston Dynamo",
+    "Inter Miami",
+    "LA Galaxy",
+    "LAFC",
+    "Minnesota United",
+    "CF Montréal",
+    "Nashville SC",
+    "New England Revolution",
+    "New York City FC",
+    "New York Red Bulls",
+    "Orlando City SC",
+    "Philadelphia Union",
+    "Portland Timbers",
+    "Real Salt Lake",
+    "San Diego FC",
+    "San Jose Earthquakes",
+    "Seattle Sounders",
+    "Sporting Kansas City",
+    "St. Louis City SC",
+    "Toronto FC",
+    "Vancouver Whitecaps"
+   ]
+  },
+  {
+   "name": "NWSL",
+   "sport": "Football",
+   "market": "North America",
+   "self": [
+    "NWSL"
+   ],
+   "members": [
+    "Gotham FC",
+    "Kansas City Current",
+    "Seattle Reign",
+    "Orlando Pride",
+    "Portland Thorns",
+    "Washington Spirit",
+    "San Diego Wave",
+    "Angel City FC",
+    "Chicago Stars",
+    "Houston Dash",
+    "North Carolina Courage",
+    "Racing Louisville",
+    "Utah Royals",
+    "Bay FC",
+    "Boston Legacy",
+    "Denver Summit"
+   ]
+  },
+  {
+   "name": "USL Championship",
+   "sport": "Football",
+   "market": "North America",
+   "self": [
+    "USL Championship"
+   ],
+   "members": [
+    "Atlético Dallas",
+    "Detroit City FC",
+    "Louisville City",
+    "Sacramento Republic"
+   ]
+  },
+  {
+   "name": "Brasileirão",
+   "sport": "Football",
+   "market": "Rest of World",
+   "self": [
+    "Brasileirão"
+   ],
+   "members": [
+    "Corinthians",
+    "Flamengo",
+    "Palmeiras",
+    "São Paulo",
+    "Santos",
+    "Fluminense",
+    "Botafogo",
+    "Grêmio",
+    "Internacional",
+    "Atlético Mineiro",
+    "Cruzeiro",
+    "Vasco da Gama"
+   ]
+  },
+  {
+   "name": "Liga Profesional (Argentina)",
+   "sport": "Football",
+   "market": "Rest of World",
+   "self": [
+    "Liga Profesional de Fútbol"
+   ],
+   "members": [
+    "Boca Juniors",
+    "River Plate",
+    "Racing Club",
+    "Independiente",
+    "San Lorenzo"
+   ]
+  },
+  {
+   "name": "Saudi Pro League",
+   "sport": "Football",
+   "market": "Middle East",
+   "self": [
+    "Saudi Pro League"
+   ],
+   "members": [
+    "Al Nassr",
+    "Al Qadsiah",
+    "Al Hilal",
+    "Al Ittihad",
+    "Al Ahli",
+    "Al Ettifaq",
+    "Al Shabab"
+   ]
+  },
+  {
+   "name": "Qatar Stars League",
+   "sport": "Football",
+   "market": "Middle East",
+   "self": [
+    "Qatar Stars League"
+   ],
+   "members": [
+    "Al Sadd",
+    "Al Duhail",
+    "Al Gharafa",
+    "Al Rayyan"
+   ]
+  },
+  {
+   "name": "Egyptian Premier League",
+   "sport": "Football",
+   "market": "Middle East",
+   "self": [
+    "Egyptian Premier League"
+   ],
+   "members": [
+    "Al Ahly",
+    "Zamalek",
+    "Pyramids FC"
+   ]
+  },
+  {
+   "name": "Indian Super League",
+   "sport": "Football",
+   "market": "Asia",
+   "self": [
+    "Indian Super League"
+   ],
+   "members": [
+    "Bengaluru FC",
+    "Chennaiyin FC",
+    "Mohun Bagan Super Giant",
+    "Mumbai City FC",
+    "NorthEast United",
+    "Odisha FC",
+    "Kerala Blasters",
+    "FC Goa",
+    "East Bengal",
+    "Jamshedpur FC",
+    "Hyderabad FC",
+    "Punjab FC",
+    "Mohammedan SC"
+   ]
+  },
+  {
+   "name": "J.League",
+   "sport": "Football",
+   "market": "Asia",
+   "self": [
+    "J.League"
+   ],
+   "members": [
+    "Vissel Kobe",
+    "Yokohama F. Marinos",
+    "Kashima Antlers",
+    "Urawa Red Diamonds",
+    "Kawasaki Frontale",
+    "FC Tokyo",
+    "Sanfrecce Hiroshima",
+    "Gamba Osaka",
+    "Cerezo Osaka",
+    "Nagoya Grampus"
+   ]
+  },
+  {
+   "name": "PREM Rugby",
+   "sport": "Rugby union",
+   "market": "UK & Ireland",
+   "self": [
+    "PREM Rugby",
+    "Premiership Rugby"
+   ],
+   "members": [
+    "Harlequins",
+    "Leicester Tigers",
+    "Bath Rugby",
+    "Bristol Bears",
+    "Exeter Chiefs",
+    "Gloucester Rugby",
+    "Newcastle Red Bulls",
+    "Northampton Saints",
+    "Sale Sharks",
+    "Saracens"
+   ]
+  },
+  {
+   "name": "Premiership Women's Rugby",
+   "sport": "Rugby union",
+   "market": "UK & Ireland",
+   "self": [
+    "Premiership Women's Rugby"
+   ],
+   "members": []
+  },
+  {
+   "name": "United Rugby Championship",
+   "sport": "Rugby union",
+   "market": "UK & Ireland",
+   "self": [
+    "United Rugby Championship",
+    "URC"
+   ],
+   "members": [
+    "Ospreys",
+    "Ulster Rugby",
+    "Leinster Rugby",
+    "Munster Rugby",
+    "Connacht Rugby",
+    "Cardiff Rugby",
+    "Scarlets",
+    "Dragons RFC",
+    "Glasgow Warriors",
+    "Edinburgh Rugby",
+    "Benetton Rugby",
+    "Zebre Parma",
+    "Vodacom Bulls",
+    "DHL Stormers",
+    "Hollywoodbets Sharks",
+    "Emirates Lions"
+   ]
+  },
+  {
+   "name": "Top 14",
+   "sport": "Rugby union",
+   "market": "Europe",
+   "self": [
+    "Top 14"
+   ],
+   "members": [
+    "Stade Toulousain",
+    "Stade Français",
+    "Racing 92",
+    "Toulon",
+    "La Rochelle",
+    "Bordeaux Bègles",
+    "Clermont Auvergne",
+    "Montpellier",
+    "Castres Olympique",
+    "Section Paloise",
+    "Lyon OU",
+    "Bayonne",
+    "USA Perpignan",
+    "Montauban"
+   ]
+  },
+  {
+   "name": "NFL",
+   "sport": "American football",
+   "market": "North America",
+   "self": [
+    "NFL",
+    "NFL 32 Equity"
+   ],
+   "members": [
+    "Arizona Cardinals",
+    "Atlanta Falcons",
+    "Baltimore Ravens",
+    "Buffalo Bills",
+    "Carolina Panthers",
+    "Chicago Bears",
+    "Cincinnati Bengals",
+    "Cleveland Browns",
+    "Dallas Cowboys",
+    "Denver Broncos",
+    "Detroit Lions",
+    "Green Bay Packers",
+    "Houston Texans",
+    "Indianapolis Colts",
+    "Jacksonville Jaguars",
+    "Kansas City Chiefs",
+    "Las Vegas Raiders",
+    "Los Angeles Chargers",
+    "Los Angeles Rams",
+    "Miami Dolphins",
+    "Minnesota Vikings",
+    "New England Patriots",
+    "New Orleans Saints",
+    "New York Giants",
+    "New York Jets",
+    "Philadelphia Eagles",
+    "Pittsburgh Steelers",
+    "San Francisco 49ers",
+    "Seattle Seahawks",
+    "Tampa Bay Buccaneers",
+    "Tennessee Titans",
+    "Washington Commanders",
+    "13 NFL teams"
+   ]
+  },
+  {
+   "name": "NBA",
+   "sport": "Basketball",
+   "market": "North America",
+   "self": [
+    "NBA",
+    "NBA All-Star"
+   ],
+   "members": [
+    "Atlanta Hawks",
+    "Boston Celtics",
+    "Brooklyn Nets",
+    "Charlotte Hornets",
+    "Chicago Bulls",
+    "Cleveland Cavaliers",
+    "Dallas Mavericks",
+    "Denver Nuggets",
+    "Detroit Pistons",
+    "Golden State Warriors",
+    "Houston Rockets",
+    "Indiana Pacers",
+    "LA Clippers",
+    "Los Angeles Lakers",
+    "Memphis Grizzlies",
+    "Miami Heat",
+    "Milwaukee Bucks",
+    "Minnesota Timberwolves",
+    "New Orleans Pelicans",
+    "New York Knicks",
+    "Oklahoma City Thunder",
+    "Orlando Magic",
+    "Philadelphia 76ers",
+    "Phoenix Suns",
+    "Portland Trail Blazers",
+    "Sacramento Kings",
+    "San Antonio Spurs",
+    "Toronto Raptors",
+    "Utah Jazz",
+    "Washington Wizards"
+   ]
+  },
+  {
+   "name": "NBA G League",
+   "sport": "Basketball",
+   "market": "North America",
+   "self": [
+    "NBA G League"
+   ],
+   "members": [
+    "Stockton Kings"
+   ]
+  },
+  {
+   "name": "WNBA",
+   "sport": "Basketball",
+   "market": "North America",
+   "self": [
+    "WNBA"
+   ],
+   "members": [
+    "Atlanta Dream",
+    "Chicago Sky",
+    "Connecticut Sun",
+    "Dallas Wings",
+    "Golden State Valkyries",
+    "Indiana Fever",
+    "Las Vegas Aces",
+    "Los Angeles Sparks",
+    "Minnesota Lynx",
+    "New York Liberty",
+    "Phoenix Mercury",
+    "Seattle Storm",
+    "Washington Mystics",
+    "Toronto Tempo",
+    "Portland Fire"
+   ]
+  },
+  {
+   "name": "Unrivaled",
+   "sport": "Basketball",
+   "market": "North America",
+   "self": [
+    "Unrivaled"
+   ],
+   "members": []
+  },
+  {
+   "name": "NHL",
+   "sport": "Ice hockey",
+   "market": "North America",
+   "self": [
+    "NHL"
+   ],
+   "members": [
+    "Anaheim Ducks",
+    "Boston Bruins",
+    "Buffalo Sabres",
+    "Calgary Flames",
+    "Carolina Hurricanes",
+    "Chicago Blackhawks",
+    "Colorado Avalanche",
+    "Columbus Blue Jackets",
+    "Dallas Stars",
+    "Detroit Red Wings",
+    "Edmonton Oilers",
+    "Florida Panthers",
+    "Los Angeles Kings",
+    "Minnesota Wild",
+    "Montreal Canadiens",
+    "Nashville Predators",
+    "New Jersey Devils",
+    "New York Islanders",
+    "New York Rangers",
+    "Ottawa Senators",
+    "Philadelphia Flyers",
+    "Pittsburgh Penguins",
+    "San Jose Sharks",
+    "Seattle Kraken",
+    "St. Louis Blues",
+    "Tampa Bay Lightning",
+    "Toronto Maple Leafs",
+    "Utah Mammoth",
+    "Vancouver Canucks",
+    "Vegas Golden Knights",
+    "Washington Capitals",
+    "Winnipeg Jets"
+   ]
+  },
+  {
+   "name": "PWHL",
+   "sport": "Ice hockey",
+   "market": "North America",
+   "self": [
+    "PWHL"
+   ],
+   "members": []
+  },
+  {
+   "name": "MLB",
+   "sport": "Baseball",
+   "market": "North America",
+   "self": [
+    "MLB"
+   ],
+   "members": [
+    "Arizona Diamondbacks",
+    "Athletics",
+    "Atlanta Braves",
+    "Baltimore Orioles",
+    "Boston Red Sox",
+    "Chicago Cubs",
+    "Chicago White Sox",
+    "Cincinnati Reds",
+    "Cleveland Guardians",
+    "Colorado Rockies",
+    "Detroit Tigers",
+    "Houston Astros",
+    "Kansas City Royals",
+    "Los Angeles Angels",
+    "Los Angeles Dodgers",
+    "Miami Marlins",
+    "Milwaukee Brewers",
+    "Minnesota Twins",
+    "New York Mets",
+    "New York Yankees",
+    "Philadelphia Phillies",
+    "Pittsburgh Pirates",
+    "San Diego Padres",
+    "San Francisco Giants",
+    "Seattle Mariners",
+    "St. Louis Cardinals",
+    "Tampa Bay Rays",
+    "Texas Rangers",
+    "Toronto Blue Jays",
+    "Washington Nationals"
+   ]
+  },
+  {
+   "name": "NCAA",
+   "sport": "College sport",
+   "market": "North America",
+   "self": [
+    "NCAA",
+    "Big 12"
+   ],
+   "members": [
+    "Arizona Wildcats",
+    "Cal Athletics",
+    "Cal (Memorial Stadium)",
+    "FSU Athletics",
+    "Florida Gators",
+    "Iowa Hawkeyes",
+    "Michigan State",
+    "Missouri Tigers",
+    "New Mexico Lobos",
+    "Stanford Athletics",
+    "Tennessee Athletics",
+    "UNLV Athletics",
+    "University of Washington",
+    "Rice Stadium"
+   ]
+  },
+  {
+   "name": "Major League Cricket",
+   "sport": "Cricket",
+   "market": "North America",
+   "self": [
+    "Major League Cricket"
+   ],
+   "members": [
+    "San Francisco Unicorns",
+    "Texas Super Kings",
+    "MI New York",
+    "Seattle Orcas",
+    "LA Knight Riders",
+    "Washington Freedom"
+   ]
+  },
+  {
+   "name": "IPL",
+   "sport": "Cricket",
+   "market": "Asia",
+   "self": [
+    "IPL"
+   ],
+   "members": [
+    "Chennai Super Kings",
+    "Delhi Capitals",
+    "Gujarat Titans",
+    "Kolkata Knight Riders",
+    "Lucknow Super Giants",
+    "Mumbai Indians",
+    "Punjab Kings",
+    "Rajasthan Royals",
+    "Royal Challengers Bengaluru",
+    "Sunrisers Hyderabad"
+   ]
+  },
+  {
+   "name": "Women's Premier League (WPL)",
+   "sport": "Cricket",
+   "market": "Asia",
+   "self": [
+    "Women's Premier League"
+   ],
+   "members": [
+    "UP Warriorz",
+    "Delhi Capitals",
+    "Gujarat Giants",
+    "Mumbai Indians",
+    "Royal Challengers Bengaluru"
+   ]
+  },
+  {
+   "name": "Pakistan Super League",
+   "sport": "Cricket",
+   "market": "Asia",
+   "self": [
+    "Pakistan Super League"
+   ],
+   "members": []
+  },
+  {
+   "name": "The Hundred",
+   "sport": "Cricket",
+   "market": "UK & Ireland",
+   "self": [
+    "The Hundred"
+   ],
+   "members": [
+    "Birmingham Phoenix",
+    "London Spirit",
+    "MI London",
+    "Manchester Super Giants",
+    "Southern Brave",
+    "Trent Rockets",
+    "Welsh Fire",
+    "Sunrisers Leeds"
+   ]
+  },
+  {
+   "name": "County Championship",
+   "sport": "Cricket",
+   "market": "UK & Ireland",
+   "self": [
+    "County Championship"
+   ],
+   "members": [
+    "Lancashire Cricket",
+    "Northamptonshire CCC",
+    "Somerset CCC",
+    "Surrey Cricket",
+    "Yorkshire CCC",
+    "Essex Cricket",
+    "Hampshire Cricket",
+    "Kent Cricket",
+    "Middlesex Cricket",
+    "Nottinghamshire CCC",
+    "Warwickshire CCC",
+    "Sussex Cricket",
+    "Durham Cricket",
+    "Worcestershire CCC",
+    "Gloucestershire Cricket",
+    "Leicestershire CCC",
+    "Derbyshire CCC",
+    "Glamorgan Cricket"
+   ]
+  },
+  {
+   "name": "SA20",
+   "sport": "Cricket",
+   "market": "Rest of World",
+   "self": [
+    "SA20"
+   ],
+   "members": [
+    "MI Cape Town",
+    "Joburg Super Kings",
+    "Durban's Super Giants",
+    "Paarl Royals",
+    "Pretoria Capitals",
+    "Sunrisers Eastern Cape"
+   ]
+  },
+  {
+   "name": "Caribbean Premier League",
+   "sport": "Cricket",
+   "market": "Rest of World",
+   "self": [
+    "Caribbean Premier League",
+    "CPL"
+   ],
+   "members": [
+    "Trinbago Knight Riders",
+    "Guyana Amazon Warriors",
+    "Barbados Royals",
+    "St Kitts & Nevis Patriots",
+    "Saint Lucia Kings",
+    "Antigua & Barbuda Falcons"
+   ]
+  },
+  {
+   "name": "EuroLeague",
+   "sport": "Basketball",
+   "market": "Europe",
+   "self": [
+    "EuroLeague"
+   ],
+   "members": [
+    "AS Monaco Basket",
+    "Real Madrid Baloncesto",
+    "FC Barcelona Basket",
+    "Olympiacos",
+    "Panathinaikos",
+    "Fenerbahçe Beko",
+    "Anadolu Efes",
+    "Žalgiris Kaunas"
+   ]
+  },
+  {
+   "name": "Super League Basketball",
+   "sport": "Basketball",
+   "market": "UK & Ireland",
+   "self": [
+    "Super League Basketball"
+   ],
+   "members": [
+    "Newcastle Eagles",
+    "London Lions",
+    "Leicester Riders",
+    "Sheffield Sharks",
+    "Bristol Flyers",
+    "Cheshire Phoenix",
+    "Manchester Basketball",
+    "Caledonia Gladiators"
+   ]
+  },
+  {
+   "name": "Formula 1",
+   "sport": "Motorsport",
+   "market": "Global",
+   "self": [
+    "Formula 1",
+    "F1 Academy"
+   ],
+   "members": [
+    "Alpine F1",
+    "Aston Martin",
+    "Audi F1",
+    "Cadillac F1",
+    "Haas F1",
+    "McLaren",
+    "Mercedes-AMG F1",
+    "Racing Bulls",
+    "Red Bull Racing",
+    "Scuderia Ferrari HP",
+    "Williams"
+   ]
+  },
+  {
+   "name": "Formula E",
+   "sport": "Motorsport",
+   "market": "Global",
+   "self": [
+    "Formula E"
+   ],
+   "members": [
+    "Jaguar TCS Racing",
+    "Porsche Formula E Team",
+    "Nissan Formula E Team",
+    "DS Penske",
+    "Envision Racing",
+    "Mahindra Racing",
+    "Andretti Formula E",
+    "Kiro Race Co",
+    "Lola Yamaha ABT",
+    "Cupra Kiro"
+   ]
+  },
+  {
+   "name": "MotoGP",
+   "sport": "Motorsport",
+   "market": "Global",
+   "self": [
+    "MotoGP"
+   ],
+   "members": [
+    "Gresini Racing",
+    "Ducati Lenovo Team",
+    "Aprilia Racing",
+    "Pramac Racing",
+    "VR46 Racing Team",
+    "Trackhouse MotoGP",
+    "Tech3"
+   ]
+  },
+  {
+   "name": "IndyCar",
+   "sport": "Motorsport",
+   "market": "North America",
+   "self": [
+    "IndyCar"
+   ],
+   "members": [
+    "Arrow McLaren",
+    "Team Penske",
+    "Chip Ganassi Racing",
+    "Andretti Global",
+    "Meyer Shank Racing",
+    "Rahal Letterman Lanigan Racing"
+   ]
+  },
+  {
+   "name": "NASCAR",
+   "sport": "Motorsport",
+   "market": "North America",
+   "self": [
+    "NASCAR",
+    "NASCAR Truck Series"
+   ],
+   "members": [
+    "23XI Racing",
+    "Trackhouse Racing",
+    "Team Penske",
+    "Hendrick Motorsports",
+    "Joe Gibbs Racing",
+    "RFK Racing",
+    "Richard Childress Racing",
+    "Legacy Motor Club",
+    "Spire Motorsports",
+    "Front Row Motorsports"
+   ]
+  },
+  {
+   "name": "LIV Golf",
+   "sport": "Golf",
+   "market": "Global",
+   "self": [
+    "LIV Golf"
+   ],
+   "members": [
+    "Ripper GC",
+    "Crushers GC",
+    "Fireballs GC",
+    "4Aces GC",
+    "Legion XIII",
+    "Stinger GC",
+    "Torque GC",
+    "RangeGoats GC",
+    "Majesticks GC",
+    "Cleeks GC",
+    "HyFlyers GC",
+    "Smash GC",
+    "Iron Heads GC"
+   ]
+  },
+  {
+   "name": "TGL",
+   "sport": "Golf",
+   "market": "North America",
+   "self": [
+    "TGL",
+    "WTGL"
+   ],
+   "members": [
+    "Boston Common Golf",
+    "Atlanta Drive GC",
+    "Jupiter Links GC",
+    "Los Angeles Golf Club",
+    "New York Golf Club",
+    "The Bay Golf Club"
+   ]
+  },
+  {
+   "name": "SailGP",
+   "sport": "Sailing",
+   "market": "Global",
+   "self": [
+    "SailGP"
+   ],
+   "members": [
+    "Great Britain SailGP Team",
+    "US SailGP Team",
+    "Australia SailGP Team",
+    "New Zealand SailGP Team",
+    "Emirates GBR",
+    "Bonds Flying Roos",
+    "Black Foils"
+   ]
+  }
+ ]
+}
