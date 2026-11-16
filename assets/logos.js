@@ -76,17 +76,17 @@ window.SSSLogos=(function(){
       if(urls.length){src=urls[0];steps=urls.slice(1).join(" ")}
     }
     // Images start without a src; the queue below loads them a few at a time as they come into view.
-    const img=src?`<img data-src="${esc(src)}" alt="" decoding="async" referrerpolicy="strict-origin-when-cross-origin"${steps?` data-next="${esc(steps)}"`:""} onload="SSSLogos.ok(this)" onerror="SSSLogos.fail(this)">`:"";
+    const img=src?`<img data-src="${esc(src)}"${/^https:/.test(src)?' crossorigin="anonymous"':""} alt="" decoding="async" referrerpolicy="strict-origin-when-cross-origin"${steps?` data-next="${esc(steps)}"`:""} onload="SSSLogos.ok(this)" onerror="SSSLogos.fail(this)">`:"";
     queueSoon();
     return `<span class="lg${img?" has-img":""}${big?" lg-big":""}">${mono}${img}</span>`;
   }
-  function fail(img){
+  function fail(img,skip){
     // Retry once after a short pause first: a busy page can be briefly rate-limited.
     // Brandfetch rate-limits bursts (a page of 100 logos), so retry up to 3 times with growing, jittered waits.
     const n=+(img.dataset.retried||0);
     // A themed URL can fail simply because that brand has no dark/light version, so move straight on;
     // the un-themed URLs are types Brandfetch is known to have, so a failure there is most likely throttling.
-    if(n<3&&/brandfetch\.io/.test(img.src)&&!/\/theme\//.test(img.src)){img.dataset.retried=String(n+1);const u=img.src.replace(/&r=\d+$/,"")+"&r="+(n+1);done(img);setTimeout(()=>{img.dataset.src=u;want(img)},(1500+Math.random()*2500)*(n+1));return}
+    if(!skip&&n<3&&/brandfetch\.io/.test(img.src)&&!/\/theme\//.test(img.src)){img.dataset.retried=String(n+1);const u=img.src.replace(/&r=\d+$/,"")+"&r="+(n+1);done(img);setTimeout(()=>{img.dataset.src=u;want(img)},(1500+Math.random()*2500)*(n+1));return}
     img.dataset.retried="0";
     const next=(img.dataset.next||"").split(" ").filter(Boolean);
     done(img);
@@ -94,9 +94,32 @@ window.SSSLogos=(function(){
     const box=img.parentElement;img.remove();if(box)box.classList.remove("has-img");
   }
   // Tiny images (blank placeholders, 16px favicons) look worse than a monogram, so treat them as missing.
+  // The colour actually behind a logo (first ancestor with a solid background).
+  function bgOf(el){
+    for(;el&&el.nodeType===1;el=el.parentElement){
+      const m=getComputedStyle(el).backgroundColor.match(/[\d.]+/g);
+      if(m&&(m.length<4||+m[3]>.5))return m.slice(0,3).map(Number);
+    }
+    return [255,255,255];
+  }
+  const onDark=img=>{const [r,g,b]=bgOf(img.parentElement);return (.2126*r+.7152*g+.0722*b)/255<.4};
+  // A logo drawn in nearly the same colour as what's behind it (a white logo on a white card) is as good as missing.
+  // Brandfetch and local files allow reading pixels; anything that can't be read is assumed fine.
+  function visible(img){
+    try{
+      const w=40,h=Math.max(1,Math.round(40*img.naturalHeight/(img.naturalWidth||1)));
+      const c=document.createElement("canvas");c.width=w;c.height=h;
+      const x=c.getContext("2d",{willReadFrequently:true});x.drawImage(img,0,0,w,h);
+      const d=x.getImageData(0,0,w,h).data,bg=bgOf(img.parentElement);
+      let ink=0,seen=0;
+      for(let i=0;i<d.length;i+=4){if(d[i+3]<128)continue;ink++;if(Math.abs(d[i]-bg[0])+Math.abs(d[i+1]-bg[1])+Math.abs(d[i+2]-bg[2])>90)seen++}
+      return !ink||seen/ink>.08;
+    }catch(e){return true}
+  }
   // Wide logos (wordmarks) get a wider box, up to 1.8x, so they aren't shrunk to a sliver; tall ones stay square.
   function ok(img){
-    if(img.naturalWidth&&img.naturalWidth<48&&img.naturalHeight<48){fail(img);return}
+    if(img.naturalWidth&&img.naturalWidth<48&&img.naturalHeight<48){fail(img,true);return}
+    if(!visible(img)){fail(img,true);return}
     const box=img.parentElement,r=img.naturalWidth/(img.naturalHeight||1);
     if(box){
       box.classList.toggle("lg-ic",/\/type\/icon\./.test(img.src));
@@ -109,7 +132,7 @@ window.SSSLogos=(function(){
   const MAX=4;let busy=0;const waiting=[];const inflight=new Set();
   const io=("IntersectionObserver" in window)?new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){io.unobserve(e.target);want(e.target)}}),{rootMargin:"300px"}):null;
   function want(img){if(!img.isConnected||!img.dataset.src)return;waiting.push(img);pump()}
-  function pump(){while(busy<MAX&&waiting.length){const img=waiting.shift();if(!img.isConnected||!img.dataset.src)continue;busy++;inflight.add(img);if(img.closest(".dk")){const lt=u=>u.replace("/theme/dark/","/theme/light/");img.dataset.src=lt(img.dataset.src);if(img.dataset.next)img.dataset.next=img.dataset.next.split(" ").map(lt).join(" ")}img.src=img.dataset.src;img.removeAttribute("data-src")}}
+  function pump(){while(busy<MAX&&waiting.length){const img=waiting.shift();if(!img.isConnected||!img.dataset.src)continue;busy++;inflight.add(img);if(onDark(img)){const lt=u=>u.replace("/theme/dark/","/theme/light/");img.dataset.src=lt(img.dataset.src);if(img.dataset.next)img.dataset.next=img.dataset.next.split(" ").map(lt).join(" ")}img.src=img.dataset.src;img.removeAttribute("data-src")}}
   function done(img){if(inflight.delete(img)){busy--;setTimeout(pump,60)}}
   let qt=0;
   function queueSoon(){if(qt)return;qt=setTimeout(()=>{qt=0;document.querySelectorAll("img[data-src]:not([data-q])").forEach(img=>{img.dataset.q="1";io?io.observe(img):want(img)})},0)}
