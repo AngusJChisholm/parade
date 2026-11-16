@@ -2,7 +2,7 @@
  "generated": "2026-11-16",
  "summary": {
   "dup_entities": 16,
-  "no_category": 602,
+  "no_category": 616,
   "cat_mismatch": 104,
   "slot_clash": 27,
   "dup_deals": 9,
@@ -12,26 +12,6 @@
   "anz_slot_clash": 24
  },
  "dup_entities": [
-  {
-   "names": [
-    "Harness Racing Australia",
-    "Harness Racing NZ"
-   ],
-   "slugs": [
-    "harness-racing-australia",
-    "harness-racing-nz"
-   ]
-  },
-  {
-   "names": [
-    "Commonwealth Games",
-    "Commonwealth Games Australia"
-   ],
-   "slugs": [
-    "commonwealth-games",
-    "commonwealth-games-australia"
-   ]
-  },
   {
    "names": [
     "Sky",
@@ -44,6 +24,48 @@
     "sky-nz",
     "sky-sport",
     "sky-sports"
+   ]
+  },
+  {
+   "names": [
+    "Athletics",
+    "Athletics Australia",
+    "Athletics New Zealand"
+   ],
+   "slugs": [
+    "athletics",
+    "athletics-australia",
+    "athletics-new-zealand"
+   ]
+  },
+  {
+   "names": [
+    "Dolphins",
+    "Dolphins Group"
+   ],
+   "slugs": [
+    "dolphins",
+    "dolphins-group"
+   ]
+  },
+  {
+   "names": [
+    "Ant Group",
+    "Ant International"
+   ],
+   "slugs": [
+    "ant-group",
+    "ant-international"
+   ]
+  },
+  {
+   "names": [
+    "Special Olympics",
+    "Special Olympics Australia"
+   ],
+   "slugs": [
+    "special-olympics",
+    "special-olympics-australia"
    ]
   },
   {
@@ -68,64 +90,12 @@
   },
   {
    "names": [
-    "PURE Sports Nutrition",
-    "Pure Nutrition"
+    "HYROX",
+    "HYROX Australia"
    ],
    "slugs": [
-    "pure-nutrition",
-    "pure-sports-nutrition"
-   ]
-  },
-  {
-   "names": [
-    "Athletics",
-    "Athletics Australia",
-    "Athletics New Zealand"
-   ],
-   "slugs": [
-    "athletics",
-    "athletics-australia",
-    "athletics-new-zealand"
-   ]
-  },
-  {
-   "names": [
-    "TAB",
-    "TAB NZ"
-   ],
-   "slugs": [
-    "tab",
-    "tab-nz"
-   ]
-  },
-  {
-   "names": [
-    "Kia",
-    "Kia Australia"
-   ],
-   "slugs": [
-    "kia",
-    "kia-australia"
-   ]
-  },
-  {
-   "names": [
-    "Star Sports",
-    "The Star"
-   ],
-   "slugs": [
-    "star-sports",
-    "the-star"
-   ]
-  },
-  {
-   "names": [
-    "Dolphins",
-    "Dolphins Group"
-   ],
-   "slugs": [
-    "dolphins",
-    "dolphins-group"
+    "hyrox",
+    "hyrox-australia"
    ]
   },
   {
@@ -140,22 +110,32 @@
   },
   {
    "names": [
-    "Ant Group",
-    "Ant International"
+    "Harness Racing Australia",
+    "Harness Racing NZ"
    ],
    "slugs": [
-    "ant-group",
-    "ant-international"
+    "harness-racing-australia",
+    "harness-racing-nz"
    ]
   },
   {
    "names": [
-    "HYROX",
-    "HYROX Australia"
+    "Star Sports",
+    "The Star"
    ],
    "slugs": [
-    "hyrox",
-    "hyrox-australia"
+    "star-sports",
+    "the-star"
+   ]
+  },
+  {
+   "names": [
+    "TAB",
+    "TAB NZ"
+   ],
+   "slugs": [
+    "tab",
+    "tab-nz"
    ]
   },
   {
@@ -170,12 +150,32 @@
   },
   {
    "names": [
-    "Special Olympics",
-    "Special Olympics Australia"
+    "Commonwealth Games",
+    "Commonwealth Games Australia"
    ],
    "slugs": [
-    "special-olympics",
-    "special-olympics-australia"
+    "commonwealth-games",
+    "commonwealth-games-australia"
+   ]
+  },
+  {
+   "names": [
+    "Kia",
+    "Kia Australia"
+   ],
+   "slugs": [
+    "kia",
+    "kia-australia"
+   ]
+  },
+  {
+   "names": [
+    "PURE Sports Nutrition",
+    "Pure Nutrition"
+   ],
+   "slugs": [
+    "pure-nutrition",
+    "pure-sports-nutrition"
    ]
   }
  ],
@@ -183,7 +183,7 @@
   {
    "brand": "Love The Game",
    "slug": "love-the-game",
-   "deals": 6
+   "deals": 7
   },
   {
    "brand": "Reclaim the Game",
@@ -201,6 +201,11 @@
    "deals": 4
   },
   {
+   "brand": "CMS Australasia",
+   "slug": "cms-australasia",
+   "deals": 3
+  },
+  {
    "brand": "Belbaker",
    "slug": "belbaker",
    "deals": 3
@@ -209,6 +214,11 @@
    "brand": "GSA",
    "slug": "gsa",
    "deals": 3
+  },
+  {
+   "brand": "imar",
+   "slug": "imar",
+   "deals": 2
   },
   {
    "brand": "GambleAware",
@@ -304,6 +314,76 @@
    "brand": "John R Turk",
    "slug": "john-r-turk",
    "deals": 2
+  },
+  {
+   "brand": "Racism. It Stops With Me",
+   "slug": "racism-it-stops-with-me",
+   "deals": 1
+  },
+  {
+   "brand": "Helping Hoops",
+   "slug": "helping-hoops",
+   "deals": 1
+  },
+  {
+   "brand": "Melbourne Spectres",
+   "slug": "melbourne-spectres",
+   "deals": 1
+  },
+  {
+   "brand": "CourtSide Team",
+   "slug": "courtside-team",
+   "deals": 1
+  },
+  {
+   "brand": "MSF Sports",
+   "slug": "msf-sports",
+   "deals": 1
+  },
+  {
+   "brand": "Marinus Link",
+   "slug": "marinus-link",
+   "deals": 1
+  },
+  {
+   "brand": "Carbon Savers",
+   "slug": "carbon-savers",
+   "deals": 1
+  },
+  {
+   "brand": "Top Up Labour",
+   "slug": "top-up-labour",
+   "deals": 1
+  },
+  {
+   "brand": "Trojan Tools",
+   "slug": "trojan-tools",
+   "deals": 1
+  },
+  {
+   "brand": "Peachie Clean",
+   "slug": "peachie-clean",
+   "deals": 1
+  },
+  {
+   "brand": "Federal Group",
+   "slug": "federal-group",
+   "deals": 1
+  },
+  {
+   "brand": "PICHA Group",
+   "slug": "picha-group",
+   "deals": 1
+  },
+  {
+   "brand": "SA1NT",
+   "slug": "sa1nt",
+   "deals": 1
+  },
+  {
+   "brand": "Straptor",
+   "slug": "straptor",
+   "deals": 1
   },
   {
    "brand": "Bonsoy",
@@ -1621,11 +1701,6 @@
    "deals": 1
   },
   {
-   "brand": "imar",
-   "slug": "imar",
-   "deals": 1
-  },
-  {
    "brand": "WorkSafe Victoria",
    "slug": "worksafe-victoria",
    "deals": 1
@@ -1633,11 +1708,6 @@
   {
    "brand": "The Butcher Club",
    "slug": "the-butcher-club",
-   "deals": 1
-  },
-  {
-   "brand": "CMS Australasia",
-   "slug": "cms-australasia",
    "deals": 1
   },
   {
@@ -3214,6 +3284,13 @@
    "deals": 5
   },
   {
+   "brand": "Powerade",
+   "slug": "powerade",
+   "cat": "Non-alcoholic drinks",
+   "rules_say": "Energy & utilities",
+   "deals": 4
+  },
+  {
    "brand": "Jones Radiology",
    "slug": "jones-radiology",
    "cat": "Health & beauty",
@@ -3235,11 +3312,11 @@
    "deals": 3
   },
   {
-   "brand": "Powerade",
-   "slug": "powerade",
-   "cat": "Non-alcoholic drinks",
-   "rules_say": "Energy & utilities",
-   "deals": 3
+   "brand": "City of Greater Bendigo",
+   "slug": "city-of-greater-bendigo",
+   "cat": "Tourism & government",
+   "rules_say": "Banking & finance",
+   "deals": 2
   },
   {
    "brand": "Wilson Security",
@@ -3421,13 +3498,6 @@
    "slug": "clos-du-bois",
    "cat": "Alcohol",
    "rules_say": "Telco",
-   "deals": 1
-  },
-  {
-   "brand": "City of Greater Bendigo",
-   "slug": "city-of-greater-bendigo",
-   "cat": "Tourism & government",
-   "rules_say": "Banking & finance",
    "deals": 1
   },
   {
