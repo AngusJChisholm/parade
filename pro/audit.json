@@ -2,7 +2,7 @@
  "generated": "2026-11-16",
  "summary": {
   "dup_entities": 26,
-  "no_category": 1752,
+  "no_category": 1772,
   "cat_mismatch": 104,
   "slot_clash": 47,
   "dup_deals": 9,
@@ -12,6 +12,68 @@
   "anz_slot_clash": 30
  },
  "dup_entities": [
+  {
+   "names": [
+    "Basketball Australia",
+    "Basketball New Zealand"
+   ],
+   "slugs": [
+    "basketball-australia",
+    "basketball-new-zealand"
+   ]
+  },
+  {
+   "names": [
+    "Ant Group",
+    "Ant International"
+   ],
+   "slugs": [
+    "ant-group",
+    "ant-international"
+   ]
+  },
+  {
+   "names": [
+    "Hong Kong Jockey Club",
+    "The Hong Kong Jockey Club"
+   ],
+   "slugs": [
+    "hong-kong-jockey-club",
+    "the-hong-kong-jockey-club"
+   ]
+  },
+  {
+   "names": [
+    "Asahi Beverages",
+    "Asahi Beverages NZ"
+   ],
+   "slugs": [
+    "asahi-beverages",
+    "asahi-beverages-nz"
+   ]
+  },
+  {
+   "names": [
+    "Salvation Army",
+    "The Salvation Army"
+   ],
+   "slugs": [
+    "salvation-army",
+    "the-salvation-army"
+   ]
+  },
+  {
+   "names": [
+    "Athletics",
+    "Athletics Australia",
+    "Athletics New Zealand"
+   ],
+   "slugs": [
+    "athletics",
+    "athletics-australia",
+    "athletics-new-zealand"
+   ]
+  },
   {
    "names": [
     "Dynasty",
@@ -24,22 +86,12 @@
   },
   {
    "names": [
-    "PURE Sports Nutrition",
-    "Pure Nutrition"
+    "Commonwealth Games",
+    "Commonwealth Games Australia"
    ],
    "slugs": [
-    "pure-nutrition",
-    "pure-sports-nutrition"
-   ]
-  },
-  {
-   "names": [
-    "Victor",
-    "Victor Sports"
-   ],
-   "slugs": [
-    "victor",
-    "victor-sports"
+    "commonwealth-games",
+    "commonwealth-games-australia"
    ]
   },
   {
@@ -58,154 +110,12 @@
   },
   {
    "names": [
-    "Compass",
-    "Compass Group"
-   ],
-   "slugs": [
-    "compass",
-    "compass-group"
-   ]
-  },
-  {
-   "names": [
-    "Ant Group",
-    "Ant International"
-   ],
-   "slugs": [
-    "ant-group",
-    "ant-international"
-   ]
-  },
-  {
-   "names": [
-    "Courier Mail",
-    "The Courier-Mail"
-   ],
-   "slugs": [
-    "courier-mail",
-    "the-courier-mail"
-   ]
-  },
-  {
-   "names": [
-    "Seven",
-    "Seven Group"
-   ],
-   "slugs": [
-    "seven",
-    "seven-group"
-   ]
-  },
-  {
-   "names": [
-    "Star Group",
-    "Star Sports",
-    "The Star"
-   ],
-   "slugs": [
-    "star-group",
-    "star-sports",
-    "the-star"
-   ]
-  },
-  {
-   "names": [
-    "HYROX",
-    "HYROX Australia"
-   ],
-   "slugs": [
-    "hyrox",
-    "hyrox-australia"
-   ]
-  },
-  {
-   "names": [
-    "Basketball Australia",
-    "Basketball New Zealand"
-   ],
-   "slugs": [
-    "basketball-australia",
-    "basketball-new-zealand"
-   ]
-  },
-  {
-   "names": [
-    "Kia",
-    "Kia Australia"
-   ],
-   "slugs": [
-    "kia",
-    "kia-australia"
-   ]
-  },
-  {
-   "names": [
     "News Corp",
     "News Corp Australia"
    ],
    "slugs": [
     "news-corp",
     "news-corp-australia"
-   ]
-  },
-  {
-   "names": [
-    "Commonwealth Games",
-    "Commonwealth Games Australia"
-   ],
-   "slugs": [
-    "commonwealth-games",
-    "commonwealth-games-australia"
-   ]
-  },
-  {
-   "names": [
-    "Hockey Australia",
-    "Hockey New Zealand"
-   ],
-   "slugs": [
-    "hockey-australia",
-    "hockey-new-zealand"
-   ]
-  },
-  {
-   "names": [
-    "Special Olympics",
-    "Special Olympics Australia"
-   ],
-   "slugs": [
-    "special-olympics",
-    "special-olympics-australia"
-   ]
-  },
-  {
-   "names": [
-    "Harness Racing Australia",
-    "Harness Racing NZ"
-   ],
-   "slugs": [
-    "harness-racing-australia",
-    "harness-racing-nz"
-   ]
-  },
-  {
-   "names": [
-    "Hong Kong Jockey Club",
-    "The Hong Kong Jockey Club"
-   ],
-   "slugs": [
-    "hong-kong-jockey-club",
-    "the-hong-kong-jockey-club"
-   ]
-  },
-  {
-   "names": [
-    "TAB",
-    "TAB NZ"
-   ],
-   "slugs": [
-    "tab",
-    "tab-nz"
    ]
   },
   {
@@ -220,34 +130,32 @@
   },
   {
    "names": [
-    "Athletics",
-    "Athletics Australia",
-    "Athletics New Zealand"
+    "Courier Mail",
+    "The Courier-Mail"
    ],
    "slugs": [
-    "athletics",
-    "athletics-australia",
-    "athletics-new-zealand"
+    "courier-mail",
+    "the-courier-mail"
    ]
   },
   {
    "names": [
-    "QMS",
-    "QMS NZ"
+    "Victor",
+    "Victor Sports"
    ],
    "slugs": [
-    "qms",
-    "qms-nz"
+    "victor",
+    "victor-sports"
    ]
   },
   {
    "names": [
-    "Asahi Beverages",
-    "Asahi Beverages NZ"
+    "Hockey Australia",
+    "Hockey New Zealand"
    ],
    "slugs": [
-    "asahi-beverages",
-    "asahi-beverages-nz"
+    "hockey-australia",
+    "hockey-new-zealand"
    ]
   },
   {
@@ -272,12 +180,104 @@
   },
   {
    "names": [
-    "Salvation Army",
-    "The Salvation Army"
+    "Kia",
+    "Kia Australia"
    ],
    "slugs": [
-    "salvation-army",
-    "the-salvation-army"
+    "kia",
+    "kia-australia"
+   ]
+  },
+  {
+   "names": [
+    "Star Group",
+    "Star Sports",
+    "The Star"
+   ],
+   "slugs": [
+    "star-group",
+    "star-sports",
+    "the-star"
+   ]
+  },
+  {
+   "names": [
+    "Seven",
+    "Seven Group"
+   ],
+   "slugs": [
+    "seven",
+    "seven-group"
+   ]
+  },
+  {
+   "names": [
+    "Compass",
+    "Compass Group"
+   ],
+   "slugs": [
+    "compass",
+    "compass-group"
+   ]
+  },
+  {
+   "names": [
+    "PURE Sports Nutrition",
+    "Pure Nutrition"
+   ],
+   "slugs": [
+    "pure-nutrition",
+    "pure-sports-nutrition"
+   ]
+  },
+  {
+   "names": [
+    "Special Olympics",
+    "Special Olympics Australia"
+   ],
+   "slugs": [
+    "special-olympics",
+    "special-olympics-australia"
+   ]
+  },
+  {
+   "names": [
+    "HYROX",
+    "HYROX Australia"
+   ],
+   "slugs": [
+    "hyrox",
+    "hyrox-australia"
+   ]
+  },
+  {
+   "names": [
+    "Harness Racing Australia",
+    "Harness Racing NZ"
+   ],
+   "slugs": [
+    "harness-racing-australia",
+    "harness-racing-nz"
+   ]
+  },
+  {
+   "names": [
+    "TAB",
+    "TAB NZ"
+   ],
+   "slugs": [
+    "tab",
+    "tab-nz"
+   ]
+  },
+  {
+   "names": [
+    "QMS",
+    "QMS NZ"
+   ],
+   "slugs": [
+    "qms",
+    "qms-nz"
    ]
   }
  ],
@@ -576,6 +576,11 @@
    "brand": "GSA",
    "slug": "gsa",
    "deals": 3
+  },
+  {
+   "brand": "TicketManager",
+   "slug": "ticketmanager",
+   "deals": 2
   },
   {
    "brand": "F.W. Webb",
@@ -1143,6 +1148,106 @@
    "deals": 2
   },
   {
+   "brand": "CBTS",
+   "slug": "cbts",
+   "deals": 1
+  },
+  {
+   "brand": "Prysmian",
+   "slug": "prysmian",
+   "deals": 1
+  },
+  {
+   "brand": "Skyline Chili",
+   "slug": "skyline-chili",
+   "deals": 1
+  },
+  {
+   "brand": "Grippo's",
+   "slug": "grippo-s",
+   "deals": 1
+  },
+  {
+   "brand": "LRS Residential Services",
+   "slug": "lrs-residential-services",
+   "deals": 1
+  },
+  {
+   "brand": "Abbott",
+   "slug": "abbott",
+   "deals": 1
+  },
+  {
+   "brand": "Vivid Seats",
+   "slug": "vivid-seats",
+   "deals": 1
+  },
+  {
+   "brand": "Primient",
+   "slug": "primient",
+   "deals": 1
+  },
+  {
+   "brand": "The RV Rental Factory",
+   "slug": "the-rv-rental-factory",
+   "deals": 1
+  },
+  {
+   "brand": "Innova Solutions",
+   "slug": "innova-solutions",
+   "deals": 1
+  },
+  {
+   "brand": "Mt. Olive Pickles",
+   "slug": "mt-olive-pickles",
+   "deals": 1
+  },
+  {
+   "brand": "Duke's Mayonnaise",
+   "slug": "duke-s-mayonnaise",
+   "deals": 1
+  },
+  {
+   "brand": "Morris-Jenkins",
+   "slug": "morris-jenkins",
+   "deals": 1
+  },
+  {
+   "brand": "Highmark Blue Cross Blue Shield",
+   "slug": "highmark-blue-cross-blue-shield",
+   "deals": 1
+  },
+  {
+   "brand": "Labatt",
+   "slug": "labatt",
+   "deals": 1
+  },
+  {
+   "brand": "Fieldsheer",
+   "slug": "fieldsheer",
+   "deals": 1
+  },
+  {
+   "brand": "T. Rowe Price",
+   "slug": "t-rowe-price",
+   "deals": 1
+  },
+  {
+   "brand": "Advance Business Systems",
+   "slug": "advance-business-systems",
+   "deals": 1
+  },
+  {
+   "brand": "Arizona's Family",
+   "slug": "arizona-s-family",
+   "deals": 1
+  },
+  {
+   "brand": "Lumifi",
+   "slug": "lumifi",
+   "deals": 1
+  },
+  {
    "brand": "Wipfli",
    "slug": "wipfli",
    "deals": 1
@@ -1165,11 +1270,6 @@
   {
    "brand": "Tork",
    "slug": "tork",
-   "deals": 1
-  },
-  {
-   "brand": "TicketManager",
-   "slug": "ticketmanager",
    "deals": 1
   },
   {
