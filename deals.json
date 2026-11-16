@@ -5,6 +5,34 @@
  },
  "deals": [
   {
+   "sport": "Rugby union",
+   "region": "Global",
+   "market": "Global",
+   "added": "2026-11-16",
+   "listed": "2026-11-16",
+   "deal": "Asahi × World Rugby",
+   "type": "Global partner",
+   "summary": "Asahi is a Global Partner of World Rugby.",
+   "url": "https://www.world.rugby/xx-partners-xx/details",
+   "status": "Current partner",
+   "tier": "Official partner",
+   "ptier": "Global Partners"
+  },
+  {
+   "sport": "Rugby union",
+   "region": "Global",
+   "market": "Global",
+   "added": "2026-11-16",
+   "listed": "2026-11-16",
+   "deal": "Mastercard × World Rugby",
+   "type": "Global partner",
+   "summary": "Mastercard is a Global Partner of World Rugby.",
+   "url": "https://www.world.rugby/xx-partners-xx/details",
+   "status": "Current partner",
+   "tier": "Official partner",
+   "ptier": "Global Partners"
+  },
+  {
    "listed": "2026-11-16",
    "added": "2026-11-16",
    "deal": "CommBank × CommBank Matildas",
@@ -1032,20 +1060,6 @@
    "status": "Current partner",
    "tier": "Official partner",
    "ptier": "Official Partners"
-  },
-  {
-   "sport": "Rugby union",
-   "region": "ANZ",
-   "market": "ANZ",
-   "added": "2026-11-16",
-   "listed": "2026-11-16",
-   "deal": "Gilbert × Rugby World Cup 2027",
-   "type": "Official supplier",
-   "summary": "Gilbert is an Official Supplier & Supporter of the men's Rugby World Cup 2027 in Australia.",
-   "url": "https://www.rugbyworldcup.com/2027/en/partners/gilbert",
-   "status": "Current partner",
-   "tier": "Official partner",
-   "ptier": "Official Suppliers & Supporters"
   },
   {
    "sport": "Rugby union",
@@ -14398,7 +14412,7 @@
   },
   {
    "date": "2026-09-22",
-   "deal": "IHG Hotels & Resorts × World Rugby",
+   "deal": "IHG Hotels & Resorts × Rugby World Cup 2027",
    "sport": "Rugby union",
    "type": "Official partner",
    "region": "ANZ",
@@ -14406,7 +14420,8 @@
    "tier": "Official partner",
    "status": "New",
    "url": "https://www.world.rugby/news/1047348/ihg-hotels-resorts-joins-as-official-partner-of-mens-rugby-world-cup-2027",
-   "market": "ANZ"
+   "market": "ANZ",
+   "ptier": "Official Partners"
   },
   {
    "date": "2026-10-08",
@@ -23071,7 +23086,7 @@
   },
   {
    "date": "2025-12-03",
-   "deal": "Gilbert × World Rugby",
+   "deal": "Gilbert × Rugby World Cup 2027",
    "sport": "Rugby union",
    "type": "Extension",
    "region": "Global",
@@ -23080,7 +23095,8 @@
    "tier": "Official partner",
    "status": "Extension",
    "ends": 2033,
-   "market": "Global"
+   "market": "Global",
+   "ptier": "Official Suppliers & Supporters"
   },
   {
    "date": "2025-12-03",
@@ -24047,7 +24063,8 @@
    "url": "https://sportsmintmedia.com/world-rugby-strengthens-commercial-future-with-emirates-longest-commitment-yet/",
    "tier": "Official partner",
    "status": "Extension",
-   "market": "Global"
+   "market": "Global",
+   "ptier": "Platinum Partner"
   },
   {
    "date": "2025-11-28",
@@ -37119,7 +37136,7 @@
   },
   {
    "date": "2025-05-12",
-   "deal": "Nine × World Rugby",
+   "deal": "Nine × Rugby World Cup 2027",
    "sport": "Rugby union",
    "type": "Media rights",
    "region": "ANZ",
@@ -37857,19 +37874,6 @@
    "tier": "Official partner",
    "status": "Extension",
    "market": "Europe"
-  },
-  {
-   "date": "2026-09-24",
-   "deal": "IHG Hotels & Resorts × Rugby World Cup 2027",
-   "sport": "Rugby union",
-   "type": "Official partner",
-   "region": "Global",
-   "summary": "IHG joins Rugby World Cup 2027",
-   "url": "https://sportsmintmedia.com/rugby-world-cup-2027-adds-ihg-hotels-resorts-to-commercial-partner-portfolio/",
-   "tier": "Official partner",
-   "status": "New",
-   "market": "Global",
-   "ptier": "Official Partners"
   },
   {
    "date": "2026-09-23",
