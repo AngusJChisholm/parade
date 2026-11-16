@@ -164,16 +164,22 @@ Then check the ANZ club newsrooms and run the open-web sweeps.
 Trade press gets predecessors wrong (B&T said Hahn replaced Coopers at the AO; Coopers left in 2019).
 A "replaces X" or "takes over from X" line needs the rights holder's or brand's own release, or it stays out.
 
-### 3. LinkedIn deliverable format
-Send Angus the post, then a "This week's partnerships" block with one short snippet for every partnership on the graphics
-(lead included), in the style of Notice Sport's weekly round-up:
-- One sentence each, starting with the property or brand: "[Property] named [Brand] as ..." or
-  "[Brand] signed on as ...", then " - " and one line of the most interesting verified detail.
-- Put @ in front of every brand and property name so Angus can tag them as he pastes
-  (e.g. "@Tennis Australia named @Lion's Hahn the Official Beer of ...").
-- Verified facts only, same voice rules as the post. No figures or lengths that failed the accuracy gate.
-- End with: "Every partnership, filed: sportsportsport.com.au"
-- Angus tags the pages himself, so don't look up or list LinkedIn page URLs.
+### 3. LinkedIn deliverable format (layout set by Angus, 17 Nov 2026; overrides the skill and the task prompt)
+Send the post as ONE paste-ready block, laid out exactly like this, each part its own paragraph:
+1. Hook: one sentence.
+2. Facts: one paragraph (who, what, competitions/scope, length, value or "No fee disclosed").
+3. Quote (if the lead has a PASSed quote): "Quote." - @Name, Title, Organisation.  (ends with a full stop)
+4. Why it matters: one paragraph.
+5. Close: one statement line.
+   No "Elsewhere" / "Closer to home" aside lines in the post: the other partnerships live in the block below.
+6. The line "This week's partnerships:" then one snippet per partnership on the graphics (lead first), each its own
+   paragraph, Notice Sport style: "[Property] named [Brand] as ..." or "[Brand] signed on as ...", then " - " and one
+   line of the most interesting verified detail, ending with a full stop. @ in front of every brand and property name.
+7. Last line: every person named in the lead and round-up sources, comma-separated, each with @ in front
+   (e.g. "@Camilo Andrade, @Guy-Laurent Epstein, @Emily Prazer"), quoted person first, then partnership/commercial leads.
+No "Every partnership, filed" line. Verified facts only, same voice rules. Angus tags the pages and people himself,
+so don't look up or list LinkedIn URLs. After the post (outside the paste-ready block), still send the short
+"Who to tag" notes (name - exact title, organisation) and flag the best one or two to DM.
 
 ### 4. No Instagram stories or Reels
 Switched off for good (22 Oct 2026). Queue files carry the feed carousel and caption only: no "stories",
