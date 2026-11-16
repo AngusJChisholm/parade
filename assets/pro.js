@@ -39,7 +39,10 @@ function renewal(d){
   if(d.ends)return {end:d.ends,basis:d.endsEst?"From term":"Confirmed"};
   if(!dated(d)||d.status==="Current partner")return null;
   const t=TYP[d.tier]||TYP_ALL;
-  return {end:yearOf(d)+t,basis:"Estimate",t};
+  // Same rule as tools/enrich.py end_from_term: ANZ calendar-year codes announced Jan-Aug include the current season.
+  const mo=+(S.sortKey(d).slice(5,7))||0,summer=["Cricket","Football","Basketball","Tennis","Golf"].includes(d.sport);
+  const cur=S.mkt(d)==="ANZ"&&!summer&&mo>=1&&mo<=8?1:0;
+  return {end:yearOf(d)+t-cur,basis:"Estimate",t};
 }
 // Confidence (tools/confidence.py): Confirmed = official source, Reported = press, Unverified = no source yet. Shown with the last-checked date.
 const vfmt=v=>v?new Date(v+"T00:00:00").toLocaleDateString("en-AU",{day:"numeric",month:"short",year:"numeric"}):"";

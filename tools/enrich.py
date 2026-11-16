@@ -6,7 +6,7 @@
   status  New, Renewal, Extension or Expansion
   term    length in years, only when the summary states it ("three-year deal")
   ends    the year the deal ends, only when the summary states it ("until 2029", "through 2027-28")
-          or it can be worked out from a stated term and the announcement year (then endsEst is true)
+          or it can be worked out from a stated term and the announcement year (then endsEst is true; see end_from_term)
   value   a reported deal value, word for word from the summary ("$5.3bn")
 
 Nothing is guessed: a field is left out when the deal doesn't say. Fields already set by hand are never
@@ -169,6 +169,30 @@ def listed_year_of(d):
     return int(s[:4]) if s[:4].isdigit() else None
 
 
+# Codes whose ANZ seasons run across the new year (Oct-Mar). A deal announced in their off-season covers the
+# coming summer, so a three-year deal announced in 2026 runs 2026-27 to 2028-29 and ends in 2029.
+SUMMER_CODES = {"Cricket", "Football", "Basketball", "Tennis", "Golf"}
+# First season of ANZ expansion clubs. Add new ones here.
+DEBUT_SEASON = {"Perth Bears": 2027, "PNG Chiefs": 2028, "Tasmania Devils": 2028}
+
+
+def end_from_term(d, y, term):
+    """End year from a stated length. ANZ calendar-year codes (AFL, NRL, rugby, netball, motorsport...) announced
+    January-August include the current season, so a three-year deal announced in Feb 2025 covers 2025-2027
+    (checked against official releases, e.g. Mars Stadium, Revo Fitness Park, Gallagher x Brumbies).
+    Announced September-December, it starts next season. Summer codes and non-ANZ deals keep year + term."""
+    # Expansion clubs: a deal signed before the club's first season counts from that season.
+    prop = (d.get("deal") or "").split(" × ")[-1].strip()
+    if prop in DEBUT_SEASON and y < DEBUT_SEASON[prop]:
+        return DEBUT_SEASON[prop] + term - 1
+    s = d.get("date") or d.get("month") or ""
+    month = int(s[5:7]) if len(s) >= 7 and s[5:7].isdigit() else 0
+    anz = (d.get("market") or d.get("region")) == "ANZ"
+    if anz and d.get("sport") not in SUMMER_CODES and 1 <= month <= 8:
+        return y + term - 1
+    return y + term
+
+
 def enrich_deal(d):
     # The summary is the source of truth. A lead article's standfirst is only read when the summary is silent,
     # and the article body (history and context) never is.
@@ -196,8 +220,11 @@ def enrich_deal(d):
                 if not m:
                     return d
                 d["term"] = int(m.group(1))
-            d["ends"] = y + d["term"]
+            d["ends"] = end_from_term(d, y, d["term"])
             d["endsEst"] = True
+    elif d.get("endsEst") and isinstance(d.get("term"), int) and year_of(d) and not d.get("endsLock"):
+        # Worked-out end years are always recalculated, so a rule change reaches every deal.
+        d["ends"] = end_from_term(d, year_of(d), d["term"])
     if "value" not in d:
         v = value_of(d.get("summary") or "")
         if v:
