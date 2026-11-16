@@ -52,8 +52,8 @@ create policy "pro members read pro files" on storage.objects
   for select to authenticated
   using (bucket_id = 'pro' and public.is_pro());
 
--- 5. Add yourself as the first member: replace YOUR_EMAIL below, run just these lines, then invite the same
---    email under Authentication > Users > Invite user. Add customers the same way later.
+-- 5. Add yourself as the first member: replace YOUR_EMAIL below and run just these lines.
+--    That's all it takes to give someone access: they enter that email on /pro and sign in with the emailed code.
 -- insert into public.pro_members (email, plan, note)
 -- values ('YOUR_EMAIL', 'enterprise', 'Owner')
 -- on conflict (email) do nothing;

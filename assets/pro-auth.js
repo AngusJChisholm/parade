@@ -1,7 +1,8 @@
 /* Partnership Pro sign-in (pro.html).
    With Supabase set up (assets/pro-config.js filled in):
-     - members sign in with email + password; invites and password resets land back here to set a password
-     - access = an active row in pro_members (supabase/schema.sql), checked by is_pro()
+     - members enter their email, get a one-time code by email, and type it in (no passwords)
+     - access = an active row in pro_members (supabase/schema.sql), checked by is_pro(); anyone can request a
+       code, but only listed emails get past the check
      - Pro-only files (matches.json, audit.json) download from the private "pro" bucket
      - everything Pro keeps in localStorage under "sssPro." (watchlist, notes, report options, match feedback)
        is synced to the member's pro_state row, so it follows them to any device
@@ -38,7 +39,7 @@
   if(!LIVE){
     const K="4d533574c6b65069bd3124a0cfce762b3431575350c337a1f2749fa25d4e4f34";
     const hex=b=>Array.from(new Uint8Array(b)).map(x=>x.toString(16).padStart(2,"0")).join("");
-    $("gateEm").hidden=true;msg("Enter the password to open the partnerships desk.");$("gateB").textContent="Enter";
+    $("gateEm").hidden=true;$("gateC").hidden=true;msg("Enter the password to open the partnerships desk.");$("gateB").textContent="Enter";
     window.SSSPro={json:name=>fetch("pro/"+name,{cache:"no-cache"}).then(r=>{if(!r.ok)throw new Error(name);return r.json()})};
     $("gateF").onsubmit=e=>{e.preventDefault();
       const v=$("gateP").value.trim().toLowerCase();
@@ -51,48 +52,41 @@
 
   /* ---------- Supabase ---------- */
   const sb=window.supabase.createClient(C.url,C.anonKey,{auth:{persistSession:true,storage:window.sessionStorage,detectSessionInUrl:true,flowType:"implicit"}});
-  const hashType=(new URLSearchParams(location.hash.slice(1))).get("type");
-  let mode=(hashType==="invite"||hashType==="recovery")?"setpw":"signin";
+  let mode="email",sentTo="";
 
   function view(m){
     mode=m;err("");
-    const em=$("gateEm"),pw=$("gateP"),b=$("gateB"),f=$("gateForgot");
-    if(m==="signin"){msg("Sign in to open the partnerships desk.");em.hidden=false;pw.hidden=false;pw.placeholder="Password";pw.autocomplete="current-password";b.textContent="Sign in";f.hidden=false;f.textContent="Forgot your password?"}
-    if(m==="forgot"){msg("We'll email you a link to set a new password.");em.hidden=false;pw.hidden=true;b.textContent="Send link";f.hidden=false;f.textContent="Back to sign in"}
-    if(m==="setpw"){msg("Choose a password for Partnership Pro (8+ characters).");em.hidden=true;pw.hidden=false;pw.value="";pw.placeholder="New password";pw.autocomplete="new-password";b.textContent="Save password";f.hidden=true}
-    (m==="setpw"?pw:em).focus();
+    const em=$("gateEm"),code=$("gateC"),b=$("gateB"),back=$("gateBack");
+    $("gateP").hidden=true;
+    if(m==="email"){msg("Enter your email and we'll send you a sign-in code.");em.hidden=false;code.hidden=true;b.textContent="Send code";back.hidden=true;em.focus()}
+    if(m==="code"){msg(`We've emailed a code to ${sentTo}. Enter it below.`);em.hidden=true;code.hidden=false;code.value="";b.textContent="Sign in";back.hidden=false;code.focus()}
   }
-  $("gateForgot").onclick=()=>view(mode==="forgot"?"signin":"forgot");
+  $("gateBack").onclick=()=>view("email");
 
   $("gateF").onsubmit=async e=>{
     e.preventDefault();err("");const b=$("gateB");b.disabled=true;
     try{
-      const email=$("gateEm").value.trim(),password=$("gateP").value;
-      if(mode==="signin"){
-        const {data,error}=await sb.auth.signInWithPassword({email,password});
-        if(error){err(error.message==="Invalid login credentials"?"Wrong email or password.":error.message);return}
-        await enter(data.session);
-      }else if(mode==="forgot"){
-        if(!email){err("Enter your email.");return}
-        const {error}=await sb.auth.resetPasswordForEmail(email,{redirectTo:location.origin+location.pathname});
-        if(error){err(error.message);return}
-        msg("Check your inbox for a link to set your password.");
-      }else if(mode==="setpw"){
-        if(password.length<8){err("Use at least 8 characters.");return}
-        const {error}=await sb.auth.updateUser({password});
-        if(error){err(error.message);return}
-        history.replaceState(null,"",location.pathname+location.search);
-        const {data}=await sb.auth.getSession();
+      if(mode==="email"){
+        const email=$("gateEm").value.trim().toLowerCase();
+        if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)){err("Enter a valid email.");return}
+        const {error}=await sb.auth.signInWithOtp({email,options:{shouldCreateUser:true,emailRedirectTo:location.origin+location.pathname}});
+        if(error){err(/rate|security purposes/i.test(error.message)?"Too many codes requested. Wait a minute and try again.":error.message);return}
+        sentTo=email;view("code");
+      }else{
+        const token=$("gateC").value.replace(/\s/g,"");
+        if(!/^\d{6,10}$/.test(token)){err("Enter the code from the email.");return}
+        const {data,error}=await sb.auth.verifyOtp({email:sentTo,token,type:"email"});
+        if(error){err(/expired|invalid/i.test(error.message)?"That code is wrong or has expired. Check it, or go back and send a new one.":error.message);return}
         await enter(data.session);
       }
     }finally{b.disabled=false}
   };
 
   async function enter(session){
-    if(!session){view("signin");return}
+    if(!session){view("email");return}
     const {data:ok,error}=await sb.rpc("is_pro");
     if(error||!ok){
-      await sb.auth.signOut();view("signin");
+      await sb.auth.signOut();view("email");
       err(error?"Couldn't check your access. Try again.":"This account doesn't have Partnership Pro yet.");return;
     }
     window.SSSPro={json:name=>sb.storage.from("pro").download(name).then(({data,error})=>{if(error)throw error;return data.text()}).then(t=>JSON.parse(t))};
@@ -127,9 +121,9 @@
   }
 
   /* ---------- Start ---------- */
+  // A session already in this tab (or from clicking the link in the email instead of typing the code) goes straight in.
   sb.auth.getSession().then(({data})=>{
-    if(mode==="setpw"&&data.session)view("setpw");
-    else if(data.session)enter(data.session);
-    else view("signin");
+    if(location.hash.includes("access_token"))history.replaceState(null,"",location.pathname+location.search);
+    if(data.session)enter(data.session);else view("email");
   });
 })();
