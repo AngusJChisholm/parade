@@ -3775,9 +3775,22 @@
     "icon"
    ]
   },
+  "bentley-motors": {
+   "name": "Bentley Motors",
+   "aliases": [
+    "Bentley"
+   ],
+   "k": "b",
+   "cat": "Automotive"
+  },
   "bernipave": {
    "name": "Bernipave",
    "k": "b"
+  },
+  "best-buy": {
+   "name": "Best Buy",
+   "k": "b",
+   "cat": "Retail"
   },
   "best-foods": {
    "name": "Best Foods",
@@ -3978,6 +3991,10 @@
    "bf": [
     "icon"
    ]
+  },
+  "bilibili": {
+   "name": "Bilibili",
+   "k": "b"
   },
   "billie-jean-king-cup": {
    "name": "Billie Jean King Cup",
@@ -5233,6 +5250,10 @@
    "name": "Burns for Blinds",
    "k": "b"
   },
+  "businessolver": {
+   "name": "Businessolver",
+   "k": "b"
+  },
   "butterfly": {
    "name": "Butterfly",
    "cat": "Sporting goods & equipment",
@@ -5697,6 +5718,10 @@
   "capri-sports": {
    "name": "Capri Sports",
    "cat": "Professional services",
+   "k": "b"
+  },
+  "captech": {
+   "name": "CapTech",
    "k": "b"
   },
   "car-park-king": {
@@ -7078,6 +7103,11 @@
    ],
    "ptype": "Club & team",
    "k": "p"
+  },
+  "columbia-bank": {
+   "name": "Columbia Bank",
+   "k": "b",
+   "cat": "Banking & finance"
   },
   "columbus-crew": {
    "name": "Columbus Crew",
@@ -11586,6 +11616,10 @@
    "cat": "Professional services",
    "k": "b"
   },
+  "go-rentals": {
+   "name": "Go Rentals",
+   "k": "b"
+  },
   "goa": {
    "name": "goa",
    "cat": "Media & broadcast",
@@ -11986,6 +12020,10 @@
     "logo"
    ],
    "cat": "Alcohol",
+   "k": "b"
+  },
+  "greyson": {
+   "name": "Greyson",
    "k": "b"
   },
   "griffith-university": {
@@ -18245,6 +18283,10 @@
     "logo"
    ]
   },
+  "modelo": {
+   "name": "Modelo",
+   "k": "b"
+  },
   "modoras": {
    "name": "Modoras",
    "cat": "Professional services",
@@ -19134,6 +19176,11 @@
    "name": "NBN",
    "k": "b"
   },
+  "ncaa": {
+   "name": "NCAA",
+   "ptype": "Governing body",
+   "k": "p"
+  },
   "nec": {
    "name": "NEC",
    "cat": "Technology",
@@ -19313,6 +19360,16 @@
     "symbol",
     "icon",
     "logo"
+   ]
+  },
+  "network-10": {
+   "name": "Network 10",
+   "domain": "10.com.au",
+   "cat": "Media & broadcast",
+   "k": "b",
+   "aliases": [
+    "10",
+    "Channel 10"
    ]
   },
   "neumann-steel": {
@@ -21718,6 +21775,10 @@
    "bf": [
     "icon"
    ]
+  },
+  "pga-tour-superstore": {
+   "name": "PGA Tour Superstore",
+   "k": "b"
   },
   "pgl": {
    "name": "PGL",
@@ -25102,6 +25163,13 @@
    "cat": "Other",
    "k": "b"
   },
+  "shaw-and-partners": {
+   "name": "Shaw and Partners",
+   "aliases": [
+    "Shaw and Partners Financial Services"
+   ],
+   "k": "b"
+  },
   "sheffield-united": {
    "name": "Sheffield United",
    "domain": "sufc.co.uk",
@@ -25589,6 +25657,10 @@
    "cat": "Technology",
    "k": "b"
   },
+  "smartpin": {
+   "name": "SmartPin",
+   "k": "b"
+  },
   "smash": {
    "name": "Smash",
    "cat": "Other",
@@ -25717,6 +25789,10 @@
     "logo"
    ],
    "cat": "Technology",
+   "k": "b"
+  },
+  "sofi": {
+   "name": "SoFi",
    "k": "b"
   },
   "softball-australia": {
@@ -27366,6 +27442,10 @@
    "bf": [
     "icon"
    ]
+  },
+  "synlawn": {
+   "name": "SYNLawn",
+   "k": "b"
   },
   "t-1-2-3": {
    "name": "T 1-2-3",
@@ -29645,6 +29725,15 @@
    ],
    "cat": "Education",
    "k": "b"
+  },
+  "university-of-washington": {
+   "name": "University of Washington",
+   "domain": "gohuskies.com",
+   "aliases": [
+    "Washington Huskies"
+   ],
+   "ptype": "Club & team",
+   "k": "p"
   },
   "university-of-wollongong": {
    "name": "University of Wollongong",
@@ -32360,16 +32449,6 @@
     "symbol",
     "icon",
     "logo"
-   ]
-  },
-  "network-10": {
-   "name": "Network 10",
-   "domain": "10.com.au",
-   "cat": "Media & broadcast",
-   "k": "b",
-   "aliases": [
-    "10",
-    "Channel 10"
    ]
   }
  },
