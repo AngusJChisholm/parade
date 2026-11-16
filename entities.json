@@ -1547,6 +1547,9 @@
     "Alpine F1 Team"
    ]
   },
+  "alsco": {
+   "name": "Alsco"
+  },
   "alstone": {
    "name": "Alstone",
    "cat": "Construction & property",
@@ -1571,6 +1574,13 @@
    "domain": "altrad.com",
    "cat": "Industrial & manufacturing",
    "k": "b"
+  },
+  "altura-coffee": {
+   "name": "Altura Coffee",
+   "cat": "Non-alcoholic drinks"
+  },
+  "alvarium": {
+   "name": "Alvarium"
   },
   "always-made-special": {
    "name": "Always Made Special",
@@ -2095,6 +2105,9 @@
    "name": "Ares Management",
    "k": "b",
    "cat": "Banking & finance"
+  },
+  "arg": {
+   "name": "ARG"
   },
   "argentina": {
    "name": "Argentina",
@@ -2726,7 +2739,13 @@
     "icon"
    ],
    "ptype": "Club & team",
-   "k": "p"
+   "k": "p",
+   "ptiers": [
+    "Major partner",
+    "Principal partner",
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-16"
   },
   "auckland-radiology-group": {
    "name": "Auckland Radiology Group",
@@ -3081,6 +3100,9 @@
     "icon",
     "logo"
    ]
+  },
+  "aut": {
+   "name": "AUT"
   },
   "autex": {
    "name": "Autex",
@@ -3438,10 +3460,16 @@
     "logo"
    ]
   },
+  "barfoot-and-thompson": {
+   "name": "Barfoot & Thompson"
+  },
   "bargain-car-rentals": {
    "name": "Bargain Car Rentals",
    "cat": "Logistics & transport",
    "k": "b"
+  },
+  "bargain-chemist": {
+   "name": "Bargain Chemist"
   },
   "barilla": {
    "name": "Barilla",
@@ -3452,6 +3480,9 @@
     "icon",
     "logo"
    ]
+  },
+  "barkers": {
+   "name": "Barkers"
   },
   "barlens": {
    "name": "Barlens",
@@ -3859,6 +3890,10 @@
    "cat": "Betting & wagering",
    "k": "b"
   },
+  "betcha": {
+   "name": "Betcha",
+   "cat": "Betting & wagering"
+  },
   "betmgm": {
    "name": "BetMGM",
    "domain": "betmgm.com",
@@ -3886,6 +3921,10 @@
    "name": "Better Life Mobile",
    "k": "b",
    "domain": "betterlifemobile.com.au",
+   "cat": "Betting & wagering"
+  },
+  "bettr": {
+   "name": "Bettr",
    "cat": "Betting & wagering"
   },
   "betvibe": {
@@ -5061,6 +5100,9 @@
    "name": "Bru",
    "cat": "Non-alcoholic drinks",
    "k": "b"
+  },
+  "brut": {
+   "name": "Brut"
   },
   "brydens": {
    "name": "Brydens",
@@ -6779,6 +6821,10 @@
    "ptype": "Event",
    "k": "p"
   },
+  "clarity-insurance-brokers": {
+   "name": "Clarity Insurance Brokers",
+   "cat": "Insurance"
+  },
   "claro": {
    "name": "Claro",
    "cat": "Telco",
@@ -8071,6 +8117,9 @@
     "logo"
    ]
   },
+  "cumulo9": {
+   "name": "Cumulo9"
+  },
   "curaprox": {
    "name": "Curaprox",
    "cat": "Health & beauty",
@@ -9128,6 +9177,9 @@
   "dynasty": {
    "name": "Dynasty",
    "k": "b"
+  },
+  "dynasty-sport": {
+   "name": "Dynasty Sport"
   },
   "e-group-foundation": {
    "name": "E Group Foundation",
@@ -10771,6 +10823,9 @@
     "logo"
    ]
   },
+  "float-well": {
+   "name": "Float Well"
+  },
   "floormania": {
    "name": "Floormania",
    "k": "b"
@@ -11731,6 +11786,10 @@
    "cat": "Professional services",
    "k": "b"
   },
+  "go-media": {
+   "name": "GO Media",
+   "cat": "Media & broadcast"
+  },
   "go-rentals": {
    "name": "Go Rentals",
    "k": "b"
@@ -12204,6 +12263,9 @@
     "icon"
    ]
   },
+  "grove-mill": {
+   "name": "Grove Mill"
+  },
   "grove-racing": {
    "name": "Grove Racing",
    "ptype": "Club & team",
@@ -12449,6 +12511,9 @@
     "icon",
     "logo"
    ]
+  },
+  "handy": {
+   "name": "Handy"
   },
   "hang-seng-bank": {
    "name": "Hang Seng Bank",
@@ -12838,6 +12903,9 @@
    "domain": "heraldsun.com.au",
    "cat": "Media & broadcast",
    "k": "b"
+  },
+  "herbal-ignite": {
+   "name": "Herbal Ignite"
   },
   "herbalife": {
    "name": "Herbalife",
@@ -14077,6 +14145,9 @@
    "ptype": "Governing body",
    "k": "p"
   },
+  "internetnz": {
+   "name": "InternetNZ"
+  },
   "intersport": {
    "name": "INTERSPORT",
    "cat": "Sporting goods & equipment",
@@ -14611,6 +14682,10 @@
    "k": "b",
    "domain": "jaypeegroup.com"
   },
+  "jbl": {
+   "name": "JBL",
+   "cat": "Technology"
+  },
   "jcb": {
    "name": "JCB",
    "cat": "Industrial & manufacturing",
@@ -14696,6 +14771,10 @@
     "icon",
     "logo"
    ]
+  },
+  "jetts": {
+   "name": "Jetts",
+   "cat": "Health & beauty"
   },
   "jharkhand-t20-league": {
    "name": "Jharkhand T20 League",
@@ -16020,6 +16099,9 @@
     "icon",
     "logo"
    ]
+  },
+  "layer3": {
+   "name": "Layer3"
   },
   "lazio": {
    "name": "Lazio",
@@ -17667,6 +17749,10 @@
    "cat": "Media & broadcast",
    "k": "b"
   },
+  "mediaworks": {
+   "name": "MediaWorks",
+   "cat": "Media & broadcast"
+  },
   "medibank": {
    "name": "Medibank",
    "cat": "Insurance",
@@ -19103,6 +19189,10 @@
     "icon"
    ]
   },
+  "my-food-bag": {
+   "name": "My Food Bag",
+   "cat": "Food & nutrition"
+  },
   "my-fresh-laundry": {
    "name": "My Fresh Laundry",
    "k": "b"
@@ -19120,6 +19210,10 @@
   "my-sports-tape": {
    "name": "My Sports Tape",
    "k": "b"
+  },
+  "my-supplements": {
+   "name": "My Supplements",
+   "cat": "Food & nutrition"
   },
   "my-way-travel-and-events": {
    "name": "My Way Travel & Events",
@@ -20192,6 +20286,9 @@
     "Official telecommunications partner"
    ]
   },
+  "north-shore-golf-club": {
+   "name": "North Shore Golf Club"
+  },
   "northamptonshire-ccc": {
    "name": "Northamptonshire CCC",
    "ptype": "Club & team",
@@ -20512,6 +20609,10 @@
    "name": "Nusenda Credit Union",
    "cat": "Banking & finance",
    "k": "b"
+  },
+  "nut-brothers": {
+   "name": "Nut Brothers",
+   "cat": "Technology"
   },
   "nuturf": {
    "name": "Nuturf",
@@ -21362,6 +21463,9 @@
    "ptype": "League & competition",
    "k": "p"
   },
+  "palliser-estate": {
+   "name": "Palliser Estate"
+  },
   "palmerbet": {
    "name": "Palmerbet",
    "cat": "Betting & wagering",
@@ -21888,7 +21992,8 @@
     "Principal partner",
     "Major partner",
     "Official partner"
-   ]
+   ],
+   "ptiersChecked": "2026-11-16"
   },
   "perth-lynx": {
    "name": "Perth Lynx",
@@ -24892,6 +24997,9 @@
     "icon",
     "logo"
    ]
+  },
+  "savvy-touch": {
+   "name": "Savvy Touch"
   },
   "saxo-bank": {
    "name": "Saxo Bank",
@@ -28495,6 +28603,9 @@
    "k": "b",
    "cat": "Health & beauty"
   },
+  "the-hits": {
+   "name": "The Hits"
+  },
   "the-home-depot": {
    "name": "The Home Depot",
    "domain": "homedepot.com",
@@ -28616,6 +28727,10 @@
    "cat": "Not-for-profit",
    "k": "b"
   },
+  "the-post": {
+   "name": "The Post",
+   "cat": "Logistics & transport"
+  },
   "the-r-a": {
    "name": "The R&A",
    "domain": "randa.org",
@@ -28686,6 +28801,9 @@
   "the-vinyl-room": {
    "name": "The Vinyl Room",
    "k": "b"
+  },
+  "the-warehouse": {
+   "name": "The Warehouse"
   },
   "the-watson": {
    "name": "The Watson",
@@ -29576,6 +29694,9 @@
     "icon",
     "logo"
    ]
+  },
+  "tsb-living": {
+   "name": "TSB Living"
   },
   "tubi": {
    "name": "Tubi",
@@ -31179,6 +31300,9 @@
     "icon"
    ]
   },
+  "waimanuka": {
+   "name": "Waimanuka"
+  },
   "wake-up-24-7": {
    "name": "Wake-Up 24/7",
    "cat": "Health & beauty",
@@ -31377,6 +31501,14 @@
    "name": "Wellfix",
    "k": "b"
   },
+  "wellington-airport": {
+   "name": "Wellington Airport",
+   "cat": "Airlines & travel"
+  },
+  "wellington-city-council": {
+   "name": "Wellington City Council",
+   "cat": "Tourism & government"
+  },
   "wellington-phoenix": {
    "name": "Wellington Phoenix",
    "domain": "wellingtonphoenix.com",
@@ -31386,8 +31518,11 @@
    "ptype": "Club & team",
    "k": "p",
    "ptiers": [
+    "Principal partner",
+    "Premium partner",
     "Corporate partner"
-   ]
+   ],
+   "ptiersChecked": "2026-11-16"
   },
   "wembley-stadium": {
    "name": "Wembley Stadium",
@@ -31707,6 +31842,9 @@
    "sub": "Beer & cider",
    "k": "b",
    "domain": "whiteclaw.com"
+  },
+  "white-cross": {
+   "name": "White Cross"
   },
   "white-wolf-constructions": {
    "name": "White Wolf Constructions",
