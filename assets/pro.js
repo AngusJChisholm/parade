@@ -266,7 +266,45 @@ function dashboard(){
   const latest=D.deals.filter(dated).slice(0,7);
   const busy=D.brands.map(b=>({b,n:b.deals.filter(x=>inLast(x.d,12)).length})).filter(x=>x.n>=2).sort((a,b)=>b.n-a.n).slice(0,12);
 
+  // Openings: what changed since the last visit, what's ending, and brands new to sport. Scoped to the watchlist
+  // when there is one, otherwise ANZ. The last-visit date is saved per member (synced via assets/pro-auth.js).
+  const LV="sssPro.lastVisit",ymd=t=>`${t.getFullYear()}-${String(t.getMonth()+1).padStart(2,"0")}-${String(t.getDate()).padStart(2,"0")}`,today=ymd(NOW);
+  if(!state.lastVisit){let v="";try{v=localStorage.getItem(LV)||""}catch(e){}
+    state.lastVisit=v&&v<today?v:ymd(new Date(NOW.getTime()-14*864e5));
+    try{localStorage.setItem(LV,today)}catch(e){}}
+  const since=state.lastVisit,sinceTxt=new Date(since+"T00:00:00").toLocaleDateString("en-AU",{day:"numeric",month:"short"});
+  const wl=[...watch.get()].filter(s=>D.orgs.has(s));
+  if(!state.oScope)state.oScope=wl.length?"watch":"anz";
+  const scoped=state.oScope==="watch"&&wl.length
+    ?[...new Set(wl.flatMap(s=>D.orgs.get(s).deals.map(x=>x.d)))]
+    :D.deals.filter(d=>S.mkt(d)==="ANZ");
+  // Announced since the last visit (partners-page rows are long-running partners, so they don't count as new).
+  const seen=d=>d.date||d.added||"";
+  const oNew=scoped.filter(d=>d.status!=="Current partner"&&d.status!=="Ended"&&seen(d)>=since).sort((a,b)=>seen(b).localeCompare(seen(a)));
+  const TOP=new Set(["Naming rights","Title sponsor","Principal & major","Kit & apparel","Shirt & kit placement"]);
+  const oEnd=scoped.map(d=>({d,r:renewal(d)})).filter(x=>x.r&&x.r.end>=ry&&x.r.end<=ry+1&&(state.oScope==="watch"||TOP.has(x.d.tier)))
+    .sort((a,b)=>a.r.end-b.r.end||(a.r.basis==="Estimate")-(b.r.basis==="Estimate"));
+  const scopeSet=new Set(scoped);
+  // New to sport: every partnership the brand has is dated (announcement or "since" date) and the earliest is this year.
+  const start=d=>d.date||(d.month?d.month+"-01":"")||d.announced||"";
+  const oFresh=D.brands.map(b=>{const ds=b.deals,st=ds.map(x=>start(x.d));
+      return {b,ds,ok:st.every(Boolean),first:st.filter(Boolean).sort()[0]||"9999"}})
+    .filter(x=>x.ok&&x.first.slice(0,4)===String(yr)&&x.ds.some(y=>scopeSet.has(y.d)))
+    .sort((a,b)=>b.first.localeCompare(a.first));
+  const oli=(arr,f,empty)=>arr.length?`<ul class="cl">${arr.slice(0,8).map(f).join("")}</ul>${arr.length>8?`<p class="note-s">+ ${arr.length-8} more</p>`:""}`:`<p class="note-s">${empty}</p>`;
+  const openings=`<div class="card op">
+    <div class="ch"><span class="h3 m0">Openings</span><span class="key">${wl.length?`<button type="button" class="pill${state.oScope==="watch"?" on":""}" data-oscope="watch">Watchlist (${wl.length})</button> <button type="button" class="pill${state.oScope==="anz"?" on":""}" data-oscope="anz">All ANZ</button>`:`ANZ · star brands or properties to make this yours`}</span></div>
+    <div class="three">
+      <div><div class="lbl mute-l">Announced since ${esc(sinceTxt)} <b>${oNew.length}</b></div>
+        ${oli(oNew,d=>`<li><span class="dd">${esc(seen(d).slice(8,10)+"/"+seen(d).slice(5,7))}</span><span class="dl">${L.pair(d,{px:26})}${S.dealLink(d)}</span>${confTag(d)}</li>`,"Nothing announced since your last visit.")}</div>
+      <div><div class="lbl mute-l">Ending ${ry}-${ry+1}${state.oScope==="watch"?"":", top-tier"} <b>${oEnd.length}</b></div>
+        ${oli(oEnd,({d,r})=>`<li><span class="yr">${r.end}</span><span class="dl">${L.pair(d,{px:26})}${S.dealLink(d)}</span>${basisTag(r)}</li>`,"No end dates on file in this window.")}</div>
+      <div><div class="lbl mute-l" title="Every partnership we have for the brand starts this year. It may have older deals we haven't logged.">First deal on file in ${yr} <b>${oFresh.length}</b></div>
+        ${oli(oFresh,x=>`<li><span class="dl">${logo(x.b.e,26)}<a href="${esc(L.page(x.b.e.slug))}"><b>${esc(x.b.e.name)}</b></a></span><span class="chip">${x.ds.length} deal${x.ds.length===1?"":"s"}</span></li>`,"No first-time sponsors yet this year.")}</div>
+    </div></div>`;
+
   $("view").innerHTML=`<div class="dash">
+  ${openings}
   <div class="dtop">
     <div class="fund">
       <div class="fh"><span>${yr} partnerships logged</span><span class="vt">${Math.round(share*100)}% ANZ</span></div>
@@ -299,6 +337,7 @@ function dashboard(){
   </div>`;
   const F=o=>Object.assign({q:"",cat:"",backs:"",notIn:"",region:"All",win:"12",sort:"deals"},o);
   $("view").onclick=e=>{
+    const o=e.target.closest("[data-oscope]");if(o){state.oScope=o.dataset.oscope;dashboard();return}
     const g=e.target.closest("[data-go]");
     if(g){e.preventDefault();go(g.dataset.go);window.scrollTo(0,0);return}
     const c=e.target.closest("[data-dcat]");if(c){state.f=F({cat:c.dataset.dcat});go("finder");window.scrollTo(0,0);return}
