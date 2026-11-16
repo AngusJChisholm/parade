@@ -173,7 +173,35 @@
 .rp-src{font-size:12px;line-height:1.5;padding-left:20px;margin:16px 0;word-break:break-all}.rp-src a{text-decoration:underline}
 .rp-f{display:flex;align-items:center;gap:12px;margin-top:28px;padding-top:12px;border-top:1px solid var(--line);font-size:11px;color:var(--ink-3);letter-spacing:.04em}
 .rp-f span:last-child{margin-left:auto}
-@media (max-width:760px){.rp-toc,.rp-dl{grid-template-columns:minmax(0,1fr)}.rp-cover{min-height:0}.rp-mh{flex-wrap:wrap}}
+/* Board-paper pages: market overview, category map, naming rights, negotiation notes */
+.rp-opts{display:flex;gap:8px 16px;flex-wrap:wrap;align-items:center;margin:12px 0 0;font-size:13px}
+.rp-opts label{display:inline-flex;gap:6px;align-items:center;font-weight:800;font-size:12px;letter-spacing:.06em;text-transform:uppercase;cursor:pointer}
+.rp-opts input{accent-color:var(--ink);width:15px;height:15px}
+.rp-bl{margin:18px 0 0;padding:0;list-style:none;border-top:2px solid var(--ink)}
+.rp-bl li{border-bottom:1px solid var(--line);padding:11px 0 11px 22px;position:relative;font-size:15px;line-height:1.45}
+.rp-bl li::before{content:"";position:absolute;left:0;top:18px;width:9px;height:9px;background:var(--volt);outline:1px solid var(--ink)}
+.rp-cm{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 28px;margin-top:16px}
+.rp-cg{border-top:2px solid var(--ink);padding:12px 0 14px;break-inside:avoid}
+.rp-cg.me{border-top-color:var(--volt);border-top-width:6px}
+.rp-cgh{display:flex;align-items:center;gap:10px;margin-bottom:6px}.rp-cgh .lg{--s:30px}
+.rp-cgh b{text-transform:uppercase;letter-spacing:-.01em;font-size:16px;flex:1}
+.rp-cgh span{font-weight:800;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3)}
+.rp-cg ul{margin:0;padding:0;list-style:none}
+.rp-cg li{font-size:13px;padding:4px 0;border-top:1px solid var(--line);display:flex;gap:8px;justify-content:space-between}
+.rp-cg li i{font-style:normal;color:var(--ink-3);text-align:right}
+.rp-new{background:var(--volt);font-weight:800;font-size:9px;letter-spacing:.12em;text-transform:uppercase;padding:2px 4px 1px;margin-left:6px;vertical-align:1px}
+.rp-st{font-weight:800;font-size:12px;letter-spacing:.16em;text-transform:uppercase;margin:18px 0 0;padding:8px 0;border-bottom:2px solid var(--ink)}
+.rp-vt td{font-size:13px}.rp-vt tr.me td{background:var(--volt)}
+.rp-ed{min-height:2.6em;border:1px dashed var(--line);padding:10px 12px;font-size:15px;line-height:1.5;white-space:pre-wrap;outline:none;margin-top:6px}
+.rp-ed:focus{border-color:var(--ink);border-style:solid}
+.rp-ed:empty::before{content:attr(data-ph);color:var(--ink-3)}
+.rp-ot{width:100%;border-collapse:collapse;margin-top:14px}
+.rp-ot th{text-align:left;font-weight:800;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3);padding:8px 8px 8px 0;border-bottom:2px solid var(--ink)}
+.rp-ot td{border-bottom:1px solid var(--line);padding:4px 8px 4px 0;vertical-align:top}
+.rp-ot td .rp-ed{border:0;min-height:1.6em;padding:6px 0;margin:0;font-size:14px}
+.rp-ot td:first-child{width:28%}.rp-ot td:nth-child(2){width:18%}.rp-ot td:nth-child(3){width:14%}
+.rp-hint{font-size:12px;color:var(--ink-3);margin:10px 0 0}
+@media (max-width:760px){.rp-toc,.rp-dl,.rp-cm{grid-template-columns:minmax(0,1fr)}.rp-cover{min-height:0}.rp-mh{flex-wrap:wrap}}
 @page{size:A4;margin:12mm}
 @media print{
   *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
@@ -187,6 +215,11 @@
   .tw{overflow:visible}
   .rp-t td,.rp-t th{padding-top:5px;padding-bottom:5px}
   .rp-m{padding:9px 0}.rp-lead{font-size:15px}
+  .rp-blank,.rp-hint{display:none!important}
+  .rp-ed{border:0;padding:4px 0}.rp-ed:empty{display:none}.rp-ot td .rp-ed:empty{display:block;min-height:1.2em}.rp-ot td .rp-ed:empty::before{content:""}
+  .rp-cg,.rp-bl li,.rp-vt tr{break-inside:avoid}
+  .rp-tb,.rp-st:has(+ .rp-ed:empty){display:none}
+  .rp-pg:has(+ .rp-blank:last-child){break-after:auto;page-break-after:auto}
   a{color:inherit}
 }
 </style>
@@ -262,6 +295,6 @@ crypto.subtle.digest("SHA-256",new TextEncoder().encode(v)).then(function(b){if(
 <datalist id="brandNames"></datalist>
 <script src="assets/logos.js?v=8"></script>
 <script src="assets/data.js?v=2"></script>
-<script src="assets/pro.js?v=11"></script>
+<script src="assets/pro.js?v=12"></script>
 </body>
 </html>

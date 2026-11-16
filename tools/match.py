@@ -770,7 +770,9 @@ def main():
     fbs = collections.Counter(fb.values())
     feedback = {"nofit": fbs.get("nofit", 0), "pitched": fbs.get("pitched", 0), "won": fbs.get("won", 0)}
     out = {"generated": today.isoformat(), "version": 4, "backtest": bt, "verified": sum(1 for p in props if props[p]["v"]),
-           "feedback": feedback, "props": props, "brands": bout}
+           "feedback": feedback, "props": props, "brands": bout,
+           # Sub-category for every brand that has one, so SSS Pro reports can map a brand's whole category.
+           "subs": {b: m.sub[b] for b in sorted(m.sub) if m.sub.get(b)}}
     (ROOT / "pro").mkdir(exist_ok=True)
     (ROOT / "pro" / "matches.json").write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     print(f"Wrote pro/matches.json: {len(props)} properties, {len(bout)} brands")

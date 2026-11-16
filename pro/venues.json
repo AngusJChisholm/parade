@@ -1,0 +1,28 @@
+{
+  "_help": "Major Australian stadiums and arenas for the 'Naming rights in market' page of SSS Pro reports. brand = current naming rights partner (null = no naming rights partner). bslug = the brand's slug in entities.json, for the logo. cap = approximate capacity. Update brand/checked when a venue changes name.",
+  "checked": "2026-11-16",
+  "venues": [
+    {"name": "Afterpay Arena", "orig": "Sydney Olympic Park Arena (formerly Qudos Bank Arena)", "city": "Sydney", "state": "NSW", "cap": 20000, "brand": "Afterpay", "bslug": "afterpay"},
+    {"name": "Accor Stadium", "orig": "Stadium Australia", "city": "Sydney", "state": "NSW", "cap": 83000, "brand": "Accor", "bslug": "accor"},
+    {"name": "Allianz Stadium", "orig": "Sydney Football Stadium", "city": "Sydney", "state": "NSW", "cap": 42500, "brand": "Allianz", "bslug": "allianz"},
+    {"name": "CommBank Stadium", "orig": "Western Sydney Stadium", "city": "Sydney", "state": "NSW", "cap": 30000, "brand": "CommBank", "bslug": "commbank"},
+    {"name": "McDonald Jones Stadium", "orig": "Newcastle International Sports Centre", "city": "Newcastle", "state": "NSW", "cap": 33000, "brand": "McDonald Jones Homes", "bslug": "mcdonald-jones-homes"},
+    {"name": "ENGIE Stadium", "orig": "Sydney Showground Stadium", "city": "Sydney", "state": "NSW", "cap": 24000, "brand": "ENGIE", "bslug": "engie"},
+    {"name": "SCG", "orig": "Sydney Cricket Ground", "city": "Sydney", "state": "NSW", "cap": 48000, "brand": null},
+    {"name": "AAMI Park", "orig": "Melbourne Rectangular Stadium", "city": "Melbourne", "state": "VIC", "cap": 30500, "brand": "AAMI", "bslug": "aami"},
+    {"name": "Marvel Stadium", "orig": "Docklands Stadium", "city": "Melbourne", "state": "VIC", "cap": 56000, "brand": "Marvel (Disney)", "bslug": "disney"},
+    {"name": "GMHBA Stadium", "orig": "Kardinia Park", "city": "Geelong", "state": "VIC", "cap": 36000, "brand": "GMHBA", "bslug": "gmhba"},
+    {"name": "MCG", "orig": "Melbourne Cricket Ground", "city": "Melbourne", "state": "VIC", "cap": 100000, "brand": null},
+    {"name": "Suncorp Stadium", "orig": "Lang Park", "city": "Brisbane", "state": "QLD", "cap": 52500, "brand": "Suncorp", "bslug": "suncorp"},
+    {"name": "Queensland Country Bank Stadium", "orig": "North Queensland Stadium", "city": "Townsville", "state": "QLD", "cap": 25000, "brand": "Queensland Country Bank", "bslug": "queensland-country-bank"},
+    {"name": "People First Stadium", "orig": "Carrara Stadium", "city": "Gold Coast", "state": "QLD", "cap": 25000, "brand": "People First Bank", "bslug": "people-first-bank"},
+    {"name": "The Gabba", "orig": "Brisbane Cricket Ground", "city": "Brisbane", "state": "QLD", "cap": 42000, "brand": null},
+    {"name": "Optus Stadium", "orig": "Perth Stadium", "city": "Perth", "state": "WA", "cap": 61200, "brand": "Optus", "bslug": "optus"},
+    {"name": "HBF Park", "orig": "Perth Rectangular Stadium", "city": "Perth", "state": "WA", "cap": 20500, "brand": "HBF"},
+    {"name": "Adelaide Oval", "orig": "Adelaide Oval", "city": "Adelaide", "state": "SA", "cap": 53500, "brand": null},
+    {"name": "UTAS Stadium", "orig": "York Park", "city": "Launceston", "state": "TAS", "cap": 19000, "brand": "University of Tasmania"},
+    {"name": "Ninja Stadium", "orig": "Bellerive Oval", "city": "Hobart", "state": "TAS", "cap": 20000, "brand": "SharkNinja", "bslug": "sharkninja"},
+    {"name": "GIO Stadium", "orig": "Canberra Stadium", "city": "Canberra", "state": "ACT", "cap": 25000, "brand": "GIO", "bslug": "gio"},
+    {"name": "Manuka Oval", "orig": "Manuka Oval", "city": "Canberra", "state": "ACT", "cap": 16000, "brand": null}
+  ]
+}

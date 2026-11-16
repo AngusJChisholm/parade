@@ -424,6 +424,132 @@ const rpFoot=(name)=>`<div class="rp-f"><img src="assets/wordmark-black.svg" alt
 const why=r=>`<ul class="mx-why">${(r.w||[]).map(w=>`<li>${esc(w)}</li>`).join("")}</ul>`;
 const verdict=r=>r.k==="Call now"?"Call now":r.x>=70?"Worth a call":r.x>=55?"Check first":"Long shot";
 
+/* ---------- Board-paper pages (modelled on the ENGIE Stadium board notes) ----------
+   Market overview  - the ANZ sponsorship market from the database, plus this brand's category or property's sport
+   Category map     - brands: every competitor in the sub-category and what they back; properties: who's buying in the sport
+   Naming rights    - branded and unbranded stadiums by state (pro/venues.json) plus recent naming rights deals
+   Negotiation notes - options, comparables, market intel and our view, typed on the page and saved in this browser only
+   Each page can be switched on or off above the report; the choice is remembered. */
+let VEN=null;
+const venLoad=()=>VEN?Promise.resolve(VEN):fetch("pro/venues.json",{cache:"no-cache"}).then(r=>r.json()).then(j=>VEN=j).catch(()=>VEN={venues:[]});
+const OKEY="sssPro.rpOpt";
+const RPO=[["market","Market overview"],["catmap","Category map"],["naming","Naming rights"],["notes","Negotiation notes"]];
+const rpOpt={get(){let o={};try{o=JSON.parse(localStorage.getItem(OKEY)||"{}")}catch(e){}return Object.assign({market:true,catmap:true,naming:true,notes:true},o)},
+  set(k,v){const o=this.get();o[k]=v;try{localStorage.setItem(OKEY,JSON.stringify(o))}catch(e){}}};
+const NKEY=(k,s)=>`sssPro.notes.${k}.${s}`;
+const notes={get(k,s){try{return JSON.parse(localStorage.getItem(NKEY(k,s))||"{}")}catch(e){return {}}},
+  set(k,s,f,v){const o=this.get(k,s);if(v)o[f]=v;else delete o[f];try{localStorage.setItem(NKEY(k,s),JSON.stringify(o))}catch(e){}}};
+const anz=d=>S.mkt(d)==="ANZ";
+const RENEW=new Set(["Renewal","Extension","Expansion","Upgrade"]);
+const subOf=slug=>(MX&&MX.subs&&MX.subs[slug])||(MX&&MX.brands[slug]&&MX.brands[slug].u)||"";
+const share=(a,b)=>b?Math.round(a/b*100):0;
+const roleOf=d=>d.ptitle||d.ptier||d.tier||"";
+const tally=(arr,key)=>{const m=new Map();arr.forEach(d=>[].concat(key(d)||[]).forEach(k=>{if(k)m.set(k,(m.get(k)||0)+1)}));return [...m.entries()].sort((a,b)=>b[1]-a[1])};
+const listN=a=>a.map(([k,n])=>`${esc(k)} (${n})`).join(", ");
+const ed=(N,f,ph,cls)=>`<div class="rp-ed${cls?" "+cls:""}" contenteditable="true" data-nk="${f}" data-ph="${esc(ph)}">${esc(N[f]||"")}</div>`;
+
+// scope: {label, match(d), who(d)} - who returns the names to rank as "most active" in the scope
+function marketPage(scope,N){
+  const A=D.deals.filter(d=>anz(d)&&dated(d)&&monthsAgo(d)<=12);
+  const nRen=A.filter(d=>RENEW.has(d.status)).length;
+  const terms=D.deals.filter(d=>anz(d)&&d.term).map(d=>+d.term).sort((a,b)=>a-b);
+  const t35=terms.filter(t=>t>=3&&t<=5).length, med=terms.length?terms[Math.floor(terms.length/2)]:0;
+  const sports=tally(A,d=>d.sport).slice(0,4);
+  const signing=tally(A.filter(d=>!RENEW.has(d.status)),d=>(d._ps||[]).map(e=>e.name)).slice(0,5);
+  const C=A.filter(scope.match), cRen=C.filter(d=>RENEW.has(d.status)).length;
+  const active=tally(C,scope.who).slice(0,5);
+  const due=D.deals.filter(d=>anz(d)&&scope.match(d)&&!d.ended).map(renewal).filter(r=>r&&r.end>=yr&&r.end<=yr+1).length;
+  return {t:"Market overview",sub:"The Australian and New Zealand sponsorship market, from the SSS partnerships database",body:`
+    <div class="kpis"><div><b>${A.length}</b><span>ANZ partnerships, last 12 months</span></div><div><b>${share(nRen,A.length)}%</b><span>Renewals or extensions</span></div><div><b>${share(t35,terms.length)}%</b><span>Terms of 3-5 years</span></div><div><b>${C.length}</b><span>${esc(scope.label)}, last 12 months</span></div></div>
+    <div class="rp-st">Topline view</div>
+    <ul class="rp-bl">
+      <li>${A.length} partnerships announced in Australia and New Zealand in the last 12 months, ${share(nRen,A.length)}% of them renewals, extensions or upgrades.</li>
+      ${sports.length?`<li>Busiest sports: ${listN(sports)}.</li>`:""}
+      ${signing.length?`<li>Signing the most new partners: ${listN(signing)}.</li>`:""}
+      ${terms.length?`<li>Where a term is announced, ${share(t35,terms.length)}% run three to five years (median ${med} years): brands are committing for the long haul.</li>`:""}
+      <li>${esc(scope.label)}: ${C.length} ANZ partnership${C.length===1?"":"s"} in the last 12 months${C.length?`, ${cRen} of them renewals or extensions`:""}${active.length?`. Most active: ${listN(active)}`:""}.</li>
+      <li>${esc(scope.label)}: ${due} partnership${due===1?"":"s"} due for renewal in ${yr}-${yr+1} on what's been announced.</li>
+    </ul>
+    <div class="rp-st">Our read</div>
+    ${ed(N,"market","Add context the database can't see: renewal cycles, retention, big events in market, priority states. Leave blank and it won't print.")}`};
+}
+
+// Brands: every brand in the same sub-category (else category) with its live ANZ partnerships, like the board notes' competitor list.
+function catMapBrand(org){
+  const me=org.e.slug, sub=subOf(me), cat=org.cat, label=sub||cat;
+  const same=b=>sub?subOf(b.e.slug)===sub:b.cat===cat;
+  const liveANZ=b=>{const ps=new Map();b.deals.filter(x=>x.side==="b"&&anz(x.d)&&!x.d.ended&&live(x.d)).forEach(x=>(x.other||[]).forEach(p=>{if(p&&!ps.has(p.slug))ps.set(p.slug,{e:p,d:x.d})}));
+    return [...ps.values()].sort((a,b)=>S.TIERS.indexOf(a.d.tier)-S.TIERS.indexOf(b.d.tier)||S.sortKey(b.d).localeCompare(S.sortKey(a.d)))};
+  const groups=D.brands.filter(same).map(b=>({h:b.e,me:b.e.slug===me,items:liveANZ(b)})).filter(g=>g.items.length||g.me)
+    .sort((a,b)=>b.me-a.me||b.items.length-a.items.length).slice(0,12);
+  const rest=sub?D.brands.filter(b=>b.cat===cat&&!same(b)).map(b=>[b.e.name,liveANZ(b).length]).filter(x=>x[1]).sort((a,b)=>b[1]-a[1]).slice(0,10):[];
+  return {t:"Category map",sub:`${esc(label)}: who backs what in Australia and New Zealand`,body:`
+    ${cmGrid(groups,x=>`${esc(x.e.name)}${x.d.sport?` <span class="mute-l">(${esc(x.d.sport)})</span>`:""}`)}
+    ${rest.length?`<p class="note-s">Elsewhere in ${esc(cat)}: ${listN(rest)}.</p>`:""}
+    <p class="note-s">Live partnerships only, highest tier first. Role is how the property describes the partner where we have it.</p>`};
+}
+// Properties: the categories buying most in this sport, each with the brands and the properties they back.
+function catMapProp(org,P){
+  const lv=D.deals.filter(d=>anz(d)&&d.sport===P.sp&&!d.ended&&live(d));
+  const byCat=new Map();
+  lv.forEach(d=>(d._bs||[]).forEach(b=>{const rec=D.orgs.get(b.slug);const c=(rec&&rec.cat)||b.cat||"Other";if(c==="Other"||c==="Sport & events")return;
+    const g=byCat.get(c)||{c,items:[]};(d._ps||[]).forEach(p=>g.items.push({e:p,b,d}));byCat.set(c,g)}));
+  const mine=new Set(P.partners.map(x=>x.b.slug));
+  const groups=[...byCat.values()]
+    .sort((a,b)=>b.items.length-a.items.length).slice(0,8).map(g=>({h:null,title:g.c,me:false,
+    items:g.items.sort((a,b)=>(mine.has(b.b.slug)-mine.has(a.b.slug))||S.TIERS.indexOf(a.d.tier)-S.TIERS.indexOf(b.d.tier))}));
+  return {t:`Who's buying in ${P.sp}`,sub:`The categories with the most live ${esc(P.sp)} partnerships in Australia and New Zealand`,body:`
+    ${cmGrid(groups,x=>`<b>${esc(x.b.name)}</b> · ${esc(x.e.name)}${mine.has(x.b.slug)&&x.e.slug===org.e.slug?' <span class="rp-new">Yours</span>':""}`,5)}
+    <p class="note-s">Live partnerships only. Your current partners are listed first in each category.</p>`};
+}
+function cmGrid(groups,line,max){max=max||8;
+  return `<div class="rp-cm">${groups.map(g=>`<div class="rp-cg${g.me?" me":""}"><div class="rp-cgh">${g.h?logo(g.h,30):""}<b>${esc(g.h?g.h.name:g.title)}</b><span>${g.items.length} live</span></div>
+    ${g.items.length?`<ul>${g.items.slice(0,max).map(x=>`<li><span>${line(x)}${x.d.status==="New"&&monthsAgo(x.d)<=12?'<span class="rp-new">New</span>':""}</span><i>${esc(roleOf(x.d))}</i></li>`).join("")}${g.items.length>max?`<li><span class="mute-l">+${g.items.length-max} more</span></li>`:""}</ul>`:`<p class="note-s">No live ANZ partnerships in the database.</p>`}</div>`).join("")}</div>`;
+}
+
+const STATES=["NSW","VIC","QLD","WA","SA","TAS","ACT","NT"];
+function namingPage(meSlug){
+  const V=(VEN&&VEN.venues)||[];
+  const br=V.filter(v=>v.brand), un=V.filter(v=>!v.brand);
+  const recent=D.deals.filter(d=>anz(d)&&d.tier==="Naming rights"&&dated(d)&&monthsAgo(d)<=24).slice(0,12);
+  const row=v=>{const b=v.bslug&&D.orgs.get(v.bslug);return `<tr class="${v.bslug&&v.bslug===meSlug?"me":""}"><td><b>${esc(v.name)}</b><br><span class="mute-l">${esc(v.city)}</span></td><td><span class="dl">${b?logo(b.e,22):""}${esc(v.brand||"")}</span></td><td class="d">${v.cap?v.cap.toLocaleString("en-AU"):""}</td></tr>`};
+  return {t:"Naming rights in market",sub:`Branded stadiums by state, with approximate capacity. Venue list checked ${esc(VEN&&VEN.checked?new Date(VEN.checked+"T00:00:00").toLocaleDateString("en-AU",{month:"short",year:"numeric"}):"")}`,body:`
+    ${STATES.filter(s=>br.some(v=>v.state===s)).map(s=>`<div class="rp-st">${s}</div><table class="t rp-t rp-vt"><tbody>${br.filter(v=>v.state===s).sort((a,b)=>b.cap-a.cap).map(row).join("")}</tbody></table>`).join("")}
+    ${un.length?`<div class="rp-st">Key venues with no naming rights partner</div><table class="t rp-t rp-vt"><tbody>${un.sort((a,b)=>b.cap-a.cap).map(v=>`<tr><td><b>${esc(v.name)}</b><br><span class="mute-l">${esc(v.city)}, ${esc(v.state)}</span></td><td><span class="rp-open">Open</span></td><td class="d">${v.cap.toLocaleString("en-AU")}</td></tr>`).join("")}</tbody></table>`:""}
+    ${recent.length?`<div class="rp-st">Naming rights partnerships, last 24 months</div><table class="t rp-t"><tbody>${recent.map(d=>{const r=renewal(d);return `<tr><td class="d">${esc(S.fmt(d))}</td><td><b>${esc(d.deal)}</b></td><td>${esc(d.sport||"")}</td><td class="d">${r?`${r.end} ${basisTag(r)}`:"–"}</td></tr>`}).join("")}</tbody></table>`:""}`};
+}
+
+function notesPage(N,vals){
+  const keys=["now","o1a","o1b","o1c","o1d","o2a","o2b","o2c","o2d","o3a","o3b","o3c","o3d","comp","intel","view"];
+  const blank=!keys.some(k=>N[k]);
+  return {t:"Negotiation notes",blank,sub:"Options, comparables and our view. Typed here, saved in this browser only, printed with the report",body:`
+    <div class="rp-st">Where it stands</div>
+    ${ed(N,"now","The current deal: what's in it, the fee, the term and when it ends.")}
+    <div class="rp-st">Options</div>
+    <table class="rp-ot"><thead><tr><th>Option</th><th>Investment</th><th>Term</th><th>Assets in and out</th></tr></thead><tbody>
+    ${[1,2,3].map(i=>`<tr>${["a","b","c","d"].map((c,j)=>`<td>${ed(N,`o${i}${c}`,[`${i}. e.g. ${["Accept current offer","Reduce investment and assets","Hold investment, trim assets"][i-1]}`,"$ + GST p.a.","Years, YOY %","What's kept, added or dropped"][j])}</td>`).join("")}</tr>`).join("")}
+    </tbody></table>
+    <div class="rp-st">Comparable packages</div>
+    ${ed(N,"comp","Proposals or deals at a similar investment level, with entitlements and price.")}
+    ${vals.length?`<p class="note-s">Reported values in the database: ${vals.map(d=>`${esc(d.deal)} ${esc(d.value)}`).join("; ")}.</p>`:""}
+    <div class="rp-st">Market intel</div>
+    ${ed(N,"intel","Valuations, other bidders, what the other side wants.")}
+    <div class="rp-st">Our view</div>
+    ${ed(N,"view","Where we think it lands, and the recommended option.")}
+    <p class="rp-hint">Notes stay in this browser and never go to the SSS site. Leave the page blank and it won't print.</p>`};
+}
+
+// Turns a list of sections into the cover and numbered A4 pages.
+function rpBuild(e,cover,secs){
+  const s=secs.filter(Boolean);
+  return `
+  <section class="rp-pg rp-cover"><div class="rp-cw"><img src="assets/wordmark-black.svg" alt="Sport Sport Sport" width="96" height="72"><span class="rp-k">SSS Pro · Partnership report</span></div>
+    <div class="rp-ct">${L.mark(e,{px:96})}<h1 class="disp">${esc(e.name)}</h1><p class="rp-cs">${cover}</p></div>
+    <ol class="rp-toc">${s.map(x=>`<li${x.blank?' class="rp-tb"':""}>${esc(x.t)}</li>`).join("")}</ol>
+    <div class="rp-cb"><span>Prepared ${NOW.toLocaleDateString("en-AU",{day:"numeric",month:"long",year:"numeric"})}</span><span>Public information only. Built from the SSS partnerships database.</span></div></section>
+  ${s.map((x,i)=>`<section class="rp-pg${x.blank?" rp-blank":""}"${x.id?` data-sec="${x.id}"`:""}>${rpHead(i+1,x.t,x.sub)}${x.body}${rpFoot(e.name)}</section>`).join("\n")}`;
+}
+
 function brandReport(org,mx){
   const e=org.e, pr=L.all()[org.e.slug]||{}, mine=org.deals.filter(x=>x.side==="b");
   const isLive=d=>!d.ended&&live(d);
@@ -435,7 +561,7 @@ function brandReport(org,mx){
   const sports=[...new Set(curL.map(x=>x.d.sport).filter(Boolean))];
   const due=mine.map(x=>({d:x.d,r:renewal(x.d)})).filter(x=>!x.d.ended&&x.r&&x.r.end>=yr&&x.r.end<=yr+2).sort((a,b)=>a.r.end-b.r.end);
   const ms=(mx&&mx.m)||[], top=ms.slice(0,5), more=ms.slice(5,12), ent=(mx&&mx.e)||[];
-  const sub=mx&&mx.u, cat=org.cat;
+  const sub=(mx&&mx.u)||subOf(e.slug), cat=org.cat;
   // Who holds this brand's category at the properties it should be pitching, plus its biggest current partners.
   const targets=[...new Map([...top,...more].map(r=>[r.p,r])).keys()].slice(0,10);
   const holds=targets.map(slug=>{const p=D.orgs.get(slug);if(!p)return null;
@@ -444,13 +570,11 @@ function brandReport(org,mx){
   const rivals=[...comp.values()].sort((a,b)=>b.n-a.n).slice(0,6);
   const src=[...new Map(mine.filter(x=>x.d.url).map(x=>[x.d.url,x.d])).values()].slice(0,18);
   const profiled=!!pr.profiled;
-  return `
-  <section class="rp-pg rp-cover"><div class="rp-cw"><img src="assets/wordmark-black.svg" alt="Sport Sport Sport" width="96" height="72"><span class="rp-k">SSS Pro · Partnership report</span></div>
-    <div class="rp-ct">${L.mark(e,{px:96})}<h1 class="disp">${esc(e.name)}</h1><p class="rp-cs"><span class="rp-volt">${esc(cat)}</span>${sub?` ${esc(sub)}`:""}</p></div>
-    <ol class="rp-toc"><li>Snapshot</li><li>Current and past partners</li><li>Who to pitch</li><li>Renewals and more suggestions</li><li>Who holds the category</li><li>Sources</li></ol>
-    <div class="rp-cb"><span>Prepared ${NOW.toLocaleDateString("en-AU",{day:"numeric",month:"long",year:"numeric"})}</span><span>Public information only. Built from the SSS partnerships database.</span></div></section>
-
-  <section class="rp-pg">${rpHead(1,"Snapshot",profiled?`Profile researched ${esc(new Date(pr.profiled+"T00:00:00").toLocaleDateString("en-AU",{day:"numeric",month:"short",year:"numeric"}))}`:"Profile not researched yet: built from the database and defaults for this kind of brand")}
+  const O=rpOpt.get(), N=notes.get("brand",e.slug);
+  const inScope=d=>(d._bs||[]).some(b=>sub?subOf(b.slug)===sub:((D.orgs.get(b.slug)||{}).cat||b.cat)===cat);
+  const vals=D.deals.filter(d=>anz(d)&&d.value&&inScope(d)).slice(0,6);
+  return rpBuild(e,`<span class="rp-volt">${esc(cat)}</span>${sub?` ${esc(sub)}`:""}`,[
+  {t:"Snapshot",sub:profiled?`Profile researched ${esc(new Date(pr.profiled+"T00:00:00").toLocaleDateString("en-AU",{day:"numeric",month:"short",year:"numeric"}))}`:"Profile not researched yet: built from the database and defaults for this kind of brand",body:`
     <div class="kpis"><div><b>${curL.length}</b><span>Current partners</span></div><div><b>${sports.length}</b><span>Sports</span></div><div><b>${pastL.length}</b><span>Past partners</span></div><div><b>${due.length}</b><span>Renewals ${yr}-${yr+2}</span></div></div>
     ${pr.pnote?`<p class="rp-lead">${esc(pr.pnote)}</p>`:`<p class="rp-lead">${esc(e.name)} has ${mine.length} partnership${mine.length===1?"":"s"} in the database${sports.length?`, across ${esc(sports.join(", "))}`:""}. Research its strategy to add a profile note here.</p>`}
     <dl class="rp-dl">
@@ -461,33 +585,35 @@ function brandReport(org,mx){
       ${(pr.markets||[]).length?`<div><dt>Markets</dt><dd>${esc(pr.markets.join(", "))}</dd></div>`:""}
       ${(pr.avoid_class||[]).length?`<div><dt>Doesn't buy</dt><dd>${esc(pr.avoid_class.map(c=>PT[c]||c).join(", "))} partnerships</dd></div>`:""}
       ${sports.length?`<div><dt>Sports now</dt><dd>${esc(sports.join(", "))}</dd></div>`:""}
-    </dl>${rpFoot(e.name)}</section>
+    </dl>`},
 
-  <section class="rp-pg">${rpHead(2,"Current and past partners",`${curL.length} current, ${pastL.length} past`)}
+  O.market&&marketPage({label:sub||cat,match:inScope,who:d=>(d._bs||[]).map(b=>b.name)},N),
+  O.catmap&&catMapBrand(org),
+
+  {t:"Current and past partners",sub:`${curL.length} current, ${pastL.length} past`,body:`
     ${curL.length?`<table class="t rp-t"><thead><tr><th>Property</th><th>Sport</th><th>Role</th><th>Since</th><th>Ends</th></tr></thead><tbody>${curL.map(x=>{const r=renewal(x.d);return `<tr><td><span class="dl">${logo(x.p,28)}<b>${esc(x.p.name)}</b></span></td><td>${esc(x.d.sport||"")}</td><td>${esc(x.d.ptitle||x.d.tier||"")}</td><td class="d">${esc(S.fmt(x.d))}</td><td class="d">${r?`${r.end} ${basisTag(r)}`:"–"}</td></tr>`}).join("")}</tbody></table>`:`<p class="note-s">No current partners in the database.</p>`}
-    ${pastL.length?`<div class="h3">Past partners</div><table class="t rp-t"><tbody>${pastL.map(x=>`<tr class="rp-past"><td><span class="dl">${logo(x.p,24)}<b>${esc(x.p.name)}</b></span></td><td>${esc(x.d.sport||"")}</td><td>${esc(x.d.tier||"")}</td><td class="d">${esc(yrs(x.d))}</td></tr>`).join("")}</tbody></table>`:""}
-    ${rpFoot(e.name)}</section>
+    ${pastL.length?`<div class="h3">Past partners</div><table class="t rp-t"><tbody>${pastL.map(x=>`<tr class="rp-past"><td><span class="dl">${logo(x.p,24)}<b>${esc(x.p.name)}</b></span></td><td>${esc(x.d.sport||"")}</td><td>${esc(x.d.tier||"")}</td><td class="d">${esc(yrs(x.d))}</td></tr>`).join("")}</tbody></table>`:""}`},
 
-  <section class="rp-pg">${rpHead(3,"Who to pitch","The five best SSS Pro scouting suggestions, with why each fits")}
+  {t:"Who to pitch",sub:"The five best SSS Pro scouting suggestions, with why each fits",body:`
     ${top.length?top.map((r,i)=>{const o=D.orgs.get(r.p);return `<div class="rp-m"><span class="rp-mi">${i+1}</span><div class="rp-mb"><div class="rp-mh">${o?logo(o.e,40):""}<div><b>${esc(r.n)}</b><span class="mute-l">${esc(r.s)} · ${esc(r.r)} reach${r.v?" · Verified":""}</span></div><span class="rp-sc">${r.x}</span><span class="basis ${bandCls(r.k)}">${esc(verdict(r))}</span></div>${why(r)}</div></div>`}).join(""):`<p class="note-s">No suggestions above 40 yet. This brand needs more partnerships in the database.</p>`}
-    ${ent.length?`<div class="h3">Ways into Australia and New Zealand</div><table class="t rp-t"><tbody>${ent.slice(0,5).map(r=>`<tr><td><b>${esc(r.n)}</b><br><span class="mute-l">${esc(r.s)} · ${esc(r.r)}</span></td><td class="d">${r.x}</td><td>${why(r)}</td></tr>`).join("")}</tbody></table>`:""}
-    ${rpFoot(e.name)}</section>
+    ${ent.length?`<div class="h3">Ways into Australia and New Zealand</div><table class="t rp-t"><tbody>${ent.slice(0,5).map(r=>`<tr><td><b>${esc(r.n)}</b><br><span class="mute-l">${esc(r.s)} · ${esc(r.r)}</span></td><td class="d">${r.x}</td><td>${why(r)}</td></tr>`).join("")}</tbody></table>`:""}`},
 
-  <section class="rp-pg">${rpHead(4,"Renewals and more suggestions",`Partnerships ending ${yr}-${yr+2}, then suggestions 6 to 12`)}
+  {t:"Renewals and more suggestions",sub:`Partnerships ending ${yr}-${yr+2}, then suggestions 6 to 12`,body:`
     ${due.length?`<table class="t rp-t"><thead><tr><th>Ends</th><th>Basis</th><th>Partnership</th><th>Type</th></tr></thead><tbody>${due.map(({d,r})=>`<tr><td><span class="yr">${r.end}</span></td><td>${basisTag(r)}</td><td>${esc(d.deal)}</td><td>${esc(d.tier||"")}</td></tr>`).join("")}</tbody></table>`:`<p class="note-s">Nothing due in the next two years on what's been announced.</p>`}
-    ${more.length?`<div class="h3">More SSS Pro scouting suggestions</div><table class="t rp-t"><thead><tr><th>#</th><th>Property</th><th>Score</th><th>Verdict</th><th>Main reason</th></tr></thead><tbody>${more.map((r,i)=>`<tr><td class="d">${i+6}</td><td><b>${esc(r.n)}</b><br><span class="mute-l">${esc(r.s)}</span></td><td class="d">${r.x}</td><td>${esc(verdict(r))}</td><td>${esc((r.w||[])[0]||"")}</td></tr>`).join("")}</tbody></table>`:""}
-    ${rpFoot(e.name)}</section>
+    ${more.length?`<div class="h3">More SSS Pro scouting suggestions</div><table class="t rp-t"><thead><tr><th>#</th><th>Property</th><th>Score</th><th>Verdict</th><th>Main reason</th></tr></thead><tbody>${more.map((r,i)=>`<tr><td class="d">${i+6}</td><td><b>${esc(r.n)}</b><br><span class="mute-l">${esc(r.s)}</span></td><td class="d">${r.x}</td><td>${esc(verdict(r))}</td><td>${esc((r.w||[])[0]||"")}</td></tr>`).join("")}</tbody></table>`:""}`},
 
-  <section class="rp-pg">${rpHead(5,"Who holds the category",`${esc(cat)} partners at the properties ${esc(e.name)} should be pitching`)}
+  {t:"Who holds the category",sub:`${esc(cat)} partners at the properties ${esc(e.name)} should be pitching`,body:`
     ${rivals.length?`<div class="rp-riv">${rivals.map(x=>`<div>${logo(x.b,36)}<b>${esc(x.b.name)}</b><span>${x.n} of ${holds.length} targets</span></div>`).join("")}</div>`:""}
     ${holds.length?`<table class="t rp-t"><thead><tr><th>Property</th><th>${esc(cat)} partner now</th></tr></thead><tbody>${holds.map(x=>`<tr><td><span class="dl">${logo(x.p.e,26)}<b>${esc(x.p.e.name)}</b></span></td><td>${x.h.length?esc(x.h.map(b=>b.name).join(", ")):`<span class="rp-open">Open</span>`}</td></tr>`).join("")}</tbody></table>
-    <p class="note-s">"Open" means no live ${esc(cat.toLowerCase())} partner in the database. Check the property's official partners page before pitching: unverified properties may have one we haven't logged.</p>`:`<p class="note-s">No target properties yet.</p>`}
-    ${rpFoot(e.name)}</section>
+    <p class="note-s">"Open" means no live ${esc(cat.toLowerCase())} partner in the database. Check the property's official partners page before pitching: unverified properties may have one we haven't logged.</p>`:`<p class="note-s">No target properties yet.</p>`}`},
 
-  <section class="rp-pg">${rpHead(6,"Sources","Official announcements behind the partnerships in this report")}
+  O.naming&&namingPage(e.slug),
+
+  {t:"Sources",sub:"Official announcements behind the partnerships in this report",body:`
     <ol class="rp-src">${pr.psrc?`<li>Profile: <a href="${esc(pr.psrc)}">${esc(pr.psrc)}</a></li>`:""}${src.map(d=>`<li>${esc(d.deal)}: <a href="${esc(d.url)}">${esc(d.url)}</a></li>`).join("")}</ol>
-    <p class="note-s">How it's built: every partnership is checked against an official source (the club, league or brand's own site or post) before it goes in the SSS database. Renewal years are Confirmed (end date announced), From term (length announced) or Estimate (typical term for that partnership type). Suggestions use SSS Pro Scout Scores, rebuilt ${esc(MX.generated)}.</p>
-    ${rpFoot(e.name)}</section>`;
+    <p class="note-s">How it's built: every partnership is checked against an official source (the club, league or brand's own site or post) before it goes in the SSS database. Renewal years are Confirmed (end date announced), From term (length announced) or Estimate (typical term for that partnership type). Market figures cover partnerships announced in Australia and New Zealand. Suggestions use SSS Pro Scout Scores, rebuilt ${esc(MX.generated)}.</p>`},
+
+  O.notes&&notesPage(N,vals)]);
 }
 
 function propReport(org,mx){
@@ -498,69 +624,74 @@ function propReport(org,mx){
   const pastL=[...pastM.values()];
   const src=[...new Map(org.deals.filter(x=>x.side==="p"&&x.d.url).map(x=>[x.d.url,x.d])).values()].slice(0,18);
   const pf=mx&&mx.pf;
-  return `
-  <section class="rp-pg rp-cover"><div class="rp-cw"><img src="assets/wordmark-black.svg" alt="Sport Sport Sport" width="96" height="72"><span class="rp-k">SSS Pro · Partnership report</span></div>
-    <div class="rp-ct">${L.mark(e,{px:96})}<h1 class="disp">${esc(e.name)}</h1><p class="rp-cs"><span class="rp-volt">${esc(org.ptype)}</span> ${esc(P.sp)}</p></div>
-    <ol class="rp-toc"><li>Snapshot</li><li>Current and past partners</li><li>Who to pitch</li><li>Category gaps and renewals</li><li>Benchmark</li><li>Sources</li></ol>
-    <div class="rp-cb"><span>Prepared ${NOW.toLocaleDateString("en-AU",{day:"numeric",month:"long",year:"numeric"})}</span><span>Public information only. Built from the SSS partnerships database.</span></div></section>
-
-  <section class="rp-pg">${rpHead(1,"Snapshot",`${esc(org.ptype)} · ${esc(P.sp)} · benchmarked against ${esc(P.peers.label)}`)}
+  const O=rpOpt.get(), N=notes.get("property",e.slug);
+  const vals=D.deals.filter(d=>anz(d)&&d.value&&d.sport===P.sp).slice(0,6);
+  return rpBuild(e,`<span class="rp-volt">${esc(org.ptype)}</span> ${esc(P.sp)}`,[
+  {t:"Snapshot",sub:`${esc(org.ptype)} · ${esc(P.sp)} · benchmarked against ${esc(P.peers.label)}`,body:`
     <div class="kpis"><div><b>${P.partners.length}</b><span>Live partners</span></div><div><b>${P.new12}</b><span>New partnerships, last 12 months</span></div><div><b>${P.have.size}</b><span>Categories covered</span></div><div><b>${P.due.length}</b><span>Renewals ${yr}-${yr+2}</span></div></div>
     <dl class="rp-dl">
       <div><dt>Partners page</dt><dd>${mx&&mx.v?`Verified against the official partners page`:"Not verified yet: the partner list may be incomplete"}</dd></div>
       ${pf?`<div><dt>Positioning</dt><dd>${esc(POS[pf.pos]||"")}</dd></div><div><dt>Audience</dt><dd><div class="chips">${pf.aud.map(a=>`<span class="chip">${esc(a)}</span>`).join("")}</div></dd></div><div><dt>Stands for</dt><dd><div class="chips">${pf.align.map(a=>`<span class="chip">${esc(a)}</span>`).join("")}</div></dd></div>`:""}
       ${mx&&mx.r?`<div><dt>Reach</dt><dd>${esc(mx.r)}</dd></div>`:""}
       <div><dt>Categories held</dt><dd>${esc([...P.have].sort().join(", ")||"None logged")}</dd></div>
-    </dl>${rpFoot(e.name)}</section>
+    </dl>`},
 
-  <section class="rp-pg">${rpHead(2,"Current and past partners",`${P.partners.length} live, ${pastL.length} past`)}
+  O.market&&marketPage({label:P.sp,match:d=>d.sport===P.sp,who:d=>d._cats||[]},N),
+  O.catmap&&catMapProp(org,P),
+
+  {t:"Current and past partners",sub:`${P.partners.length} live, ${pastL.length} past`,body:`
     <table class="t rp-t"><thead><tr><th>Brand</th><th>Category</th><th>Their tier</th><th>Since</th><th>Ends</th></tr></thead><tbody>${P.partners.slice().sort((a,b)=>S.TIERS.indexOf(a.d.tier)-S.TIERS.indexOf(b.d.tier)||a.b.name.localeCompare(b.b.name)).map(x=>{const r=renewal(x.d);return `<tr><td><span class="dl">${logo(x.b,26)}<b>${esc(x.b.name)}</b></span></td><td>${esc(catOf(x))}</td><td>${esc(x.d.ptier||x.d.tier||"")}</td><td class="d">${esc(S.fmt(x.d))}</td><td class="d">${r?`${r.end} ${basisTag(r)}`:"–"}</td></tr>`}).join("")}</tbody></table>
-    ${pastL.length?`<div class="h3">Past partners</div><table class="t rp-t"><tbody>${pastL.slice(0,20).map(x=>`<tr class="rp-past"><td><b>${esc(x.b.name)}</b></td><td>${esc(x.d.tier||"")}</td><td class="d">${esc(yrs(x.d))}</td></tr>`).join("")}</tbody></table>`:""}
-    ${rpFoot(e.name)}</section>
+    ${pastL.length?`<div class="h3">Past partners</div><table class="t rp-t"><tbody>${pastL.slice(0,20).map(x=>`<tr class="rp-past"><td><b>${esc(x.b.name)}</b></td><td>${esc(x.d.tier||"")}</td><td class="d">${esc(yrs(x.d))}</td></tr>`).join("")}</tbody></table>`:""}`},
 
-  <section class="rp-pg">${rpHead(3,"Who to pitch","The five best brands from SSS Pro scouting, with why each fits")}
+  {t:"Who to pitch",sub:"The five best brands from SSS Pro scouting, with why each fits",body:`
     ${top.length?top.map((r,i)=>{const o=D.orgs.get(r.b);return `<div class="rp-m"><span class="rp-mi">${i+1}</span><div class="rp-mb"><div class="rp-mh">${o?logo(o.e,40):""}<div><b>${esc(r.n)}</b><span class="mute-l">${esc(r.c||"")}${r.u?` · ${esc(r.u)}`:""}</span></div><span class="rp-sc">${r.x}</span><span class="basis ${bandCls(r.k)}">${esc(verdict(r))}</span></div>${why(r)}</div></div>`}).join(""):`<p class="note-s">No suggestions above 40 yet.</p>`}
     ${more.length?`<div class="h3">More suggestions</div><table class="t rp-t"><tbody>${more.map((r,i)=>`<tr><td class="d">${i+6}</td><td><b>${esc(r.n)}</b><br><span class="mute-l">${esc(r.c||"")}</span></td><td class="d">${r.x}</td><td>${esc((r.w||[])[0]||"")}</td></tr>`).join("")}</tbody></table>`:""}
-    ${ent.length?`<div class="h3">International brands that could come in</div><table class="t rp-t"><tbody>${ent.slice(0,5).map(r=>`<tr><td><b>${esc(r.n)}</b><br><span class="mute-l">${esc(r.c||"")}</span></td><td class="d">${r.x}</td><td>${esc((r.w||[])[0]||"")}</td></tr>`).join("")}</tbody></table>`:""}
-    ${rpFoot(e.name)}</section>
+    ${ent.length?`<div class="h3">International brands that could come in</div><table class="t rp-t"><tbody>${ent.slice(0,5).map(r=>`<tr><td><b>${esc(r.n)}</b><br><span class="mute-l">${esc(r.c||"")}</span></td><td class="d">${r.x}</td><td>${esc((r.w||[])[0]||"")}</td></tr>`).join("")}</tbody></table>`:""}`},
 
-  <section class="rp-pg">${rpHead(4,"Category gaps and renewals",`Where ${esc(P.peers.label)} peers have a partner and ${esc(e.name)} doesn't`)}
+  {t:"Category gaps and renewals",sub:`Where ${esc(P.peers.label)} peers have a partner and ${esc(e.name)} doesn't`,body:`
     ${P.gaps.length?`<table class="t rp-t"><thead><tr><th>Category</th><th>Peers with one</th><th>Prospects</th></tr></thead><tbody>${P.gaps.map(g=>`<tr><td><b>${esc(g.c)}</b></td><td class="d">${g.peers.size} of ${P.nPeers}</td><td>${esc(P.prospects(g.c).slice(0,5).map(x=>x.b.e.name).join(", ")||"None live in the database yet")}</td></tr>`).join("")}</tbody></table>`:`<p class="note-s">No clear gaps against ${esc(P.peers.label)}.</p>`}
     <div class="h3">Coming up for renewal</div>
-    ${P.due.length?`<table class="t rp-t"><tbody>${P.due.map(({d,r})=>`<tr><td><span class="yr">${r.end}</span></td><td>${basisTag(r)}</td><td>${esc(d.deal)}</td><td>${esc(d.tier||"")}</td></tr>`).join("")}</tbody></table>`:`<p class="note-s">Nothing due in the next two years on what's been announced.</p>`}
-    ${rpFoot(e.name)}</section>
+    ${P.due.length?`<table class="t rp-t"><tbody>${P.due.map(({d,r})=>`<tr><td><span class="yr">${r.end}</span></td><td>${basisTag(r)}</td><td>${esc(d.deal)}</td><td>${esc(d.tier||"")}</td></tr>`).join("")}</tbody></table>`:`<p class="note-s">Nothing due in the next two years on what's been announced.</p>`}`},
 
-  <section class="rp-pg">${rpHead(5,"Benchmark",esc(P.peers.label))}
-    <table class="t rp-t"><thead><tr><th>Property</th><th>Live</th><th>New, 12 mo</th><th>Major</th><th>Categories</th><th>Due</th></tr></thead><tbody>${P.bench.map(x=>`<tr class="${x.r===org?"me":""}"><td><b>${esc(x.r.e.name)}</b></td><td class="d">${x.live}</td><td class="d">${x.new12}</td><td class="d">${x.major}</td><td class="d">${x.cats}</td><td class="d">${x.due}</td></tr>`).join("")}</tbody></table>
-    ${rpFoot(e.name)}</section>
+  {t:"Benchmark",sub:esc(P.peers.label),body:`
+    <table class="t rp-t"><thead><tr><th>Property</th><th>Live</th><th>New, 12 mo</th><th>Major</th><th>Categories</th><th>Due</th></tr></thead><tbody>${P.bench.map(x=>`<tr class="${x.r===org?"me":""}"><td><b>${esc(x.r.e.name)}</b></td><td class="d">${x.live}</td><td class="d">${x.new12}</td><td class="d">${x.major}</td><td class="d">${x.cats}</td><td class="d">${x.due}</td></tr>`).join("")}</tbody></table>`},
 
-  <section class="rp-pg">${rpHead(6,"Sources","Official announcements behind the partnerships in this report")}
+  O.naming&&namingPage(e.slug),
+
+  {t:"Sources",sub:"Official announcements behind the partnerships in this report",body:`
     <ol class="rp-src">${src.map(d=>`<li>${esc(d.deal)}: <a href="${esc(d.url)}">${esc(d.url)}</a></li>`).join("")}</ol>
-    <p class="note-s">How it's built: every partnership is checked against an official source before it goes in the SSS database. "Live" means the partnership's end year hasn't passed, it was announced in the last three years, or the brand is on the current partners page. Suggestions use SSS Pro Scout Scores, rebuilt ${esc(MX.generated)}.</p>
-    ${rpFoot(e.name)}</section>`;
+    <p class="note-s">How it's built: every partnership is checked against an official source before it goes in the SSS database. "Live" means the partnership's end year hasn't passed, it was announced in the last three years, or the brand is on the current partners page. Market figures cover partnerships announced in Australia and New Zealand. Suggestions use SSS Pro Scout Scores, rebuilt ${esc(MX.generated)}.</p>`},
+
+  O.notes&&notesPage(N,vals)]);
 }
 
 function reports(){
   const r=state.rp||(state.rp={kind:"brand",slug:null});
   $("view").innerHTML=`<p class="note">Loading…</p>`;
-  mxLoad().then(()=>{
+  Promise.all([mxLoad(),venLoad()]).then(()=>{
     const pool=r.kind==="brand"?D.brands:D.props;
     let org=r.slug&&D.orgs.get(r.slug);
     if(!org||org.kind!==r.kind){org=D.orgs.get(r.kind==="brand"?"coopers":"collingwood")||pool[0];r.slug=org.e.slug}
     const mx=(r.kind==="brand"?MX.brands:MX.props)[org.e.slug];
     const ENT=L.all(),prof=b=>(ENT[b.e.slug]||{}).profiled||"";
     const researched=D.brands.filter(prof).sort((a,b)=>prof(b).localeCompare(prof(a))||a.e.name.localeCompare(b.e.name));
+    const O=rpOpt.get();
     history.replaceState(null,"",`#reports/${r.kind}/${org.e.slug}`);
     $("view").innerHTML=`<div class="rp-ctl">
-      <p class="pro-intro">A partnership report for any brand or property, in the same format as the Coopers and EnergyAustralia reports: snapshot, current and past partners, who to pitch, renewals, the competition and sources. Pick one, check it, then save it as a PDF.</p>
+      <p class="pro-intro">A partnership report for any brand or property: snapshot, the market, the category map, current and past partners, who to pitch, renewals, naming rights, negotiation notes and sources. Pick one, choose the pages, check it, then save it as a PDF.</p>
       <div class="ctl"><div class="pills">${pills("rpk",[["brand","Brand"],["property","Property"]],r.kind)}</div>
       <input class="srch" id="rpq" list="rpNames" placeholder="${r.kind==="brand"?"Type a brand, e.g. Coopers, EnergyAustralia":"Type a property, e.g. Carlton, Wallabies"}" autocomplete="off"><datalist id="rpNames">${pool.slice().sort((a,b)=>b.n-a.n).slice(0,2000).map(x=>`<option value="${esc(x.e.name)}">`).join("")}</datalist>
       <button class="btn" id="rppdf">Download PDF</button><button class="ghost" id="rplink">Copy link</button></div>
+      <div class="rp-opts"><span class="lbl mute-l">Board pages</span>${RPO.map(([k,lab])=>`<label><input type="checkbox" data-rpo="${k}"${O[k]?" checked":""}> ${esc(lab)}</label>`).join("")}</div>
       ${r.kind==="brand"&&researched.length?`<div class="rp-quick"><span class="lbl mute-l">Researched profiles</span><div class="chips">${researched.map(b=>`<button type="button" class="chip rp-pick${b.e.slug===org.e.slug?" on":""}" data-rp="${esc(b.e.slug)}">${esc(b.e.name)}</button>`).join("")}</div></div>`:""}
     </div>
     <div class="rp" id="rp">${r.kind==="brand"?brandReport(org,mx):propReport(org,mx)}</div>`;
     const inp=$("rpq");
     inp.onchange=()=>{const v=inp.value.trim().toLowerCase();if(!v)return;const hit=pool.find(x=>x.e.name.toLowerCase()===v)||pool.find(x=>(x.e.aliases||[]).some(a=>a.toLowerCase()===v))||pool.find(x=>x.e.name.toLowerCase().includes(v));if(hit){r.slug=hit.e.slug;reports();window.scrollTo(0,0)}};
+    $("view").onchange=e=>{const o=e.target.closest("[data-rpo]");if(o){rpOpt.set(o.dataset.rpo,o.checked);const y=window.scrollY;reports();setTimeout(()=>window.scrollTo(0,y),0)}};
+    // Typed notes save as you go; a page with nothing typed is left out of the PDF.
+    $("view").oninput=e=>{const t=e.target.closest("[data-nk]");if(!t)return;const v=t.innerText.replace(/\s+$/,"");if(!v.trim())t.innerHTML="";notes.set(r.kind,org.e.slug,t.dataset.nk,v.trim()?v:"");
+      const pg=t.closest(".rp-pg");if(pg&&pg.querySelector('[data-nk="now"]')){const any=[...pg.querySelectorAll("[data-nk]")].some(x=>x.textContent.trim());pg.classList.toggle("rp-blank",!any);const li=[...document.querySelectorAll(".rp-toc li")].find(l=>l.textContent==="Negotiation notes");if(li)li.classList.toggle("rp-tb",!any)}};
     $("view").onclick=e=>{
       const k=e.target.closest("[data-rpk]");if(k){r.kind=k.dataset.rpk;r.slug=null;reports();return}
       const q=e.target.closest("[data-rp]");if(q){r.slug=q.dataset.rp;reports();return}
