@@ -11087,7 +11087,10 @@
     "logo"
    ],
    "cat": "Insurance",
-   "k": "b"
+   "k": "b",
+   "aliases": [
+    "Gallagher Insurance"
+   ]
   },
   "galway-gaa": {
    "name": "Galway GAA",
@@ -30557,7 +30560,17 @@
    "domain": "wallabies.rugby",
    "bf": [
     "icon"
-   ]
+   ],
+   "ptiers": [
+    "Principal partner",
+    "Major partner",
+    "Official partner",
+    "Official supplier",
+    "Travel partner",
+    "Broadcast partner",
+    "Destination partner"
+   ],
+   "ptiersChecked": "2026-11-16"
   },
   "wallaroos": {
    "name": "Wallaroos",
@@ -30566,7 +30579,17 @@
    "domain": "wallaroos.rugby",
    "bf": [
     "icon"
-   ]
+   ],
+   "ptiers": [
+    "Principal partner",
+    "Major partner",
+    "Broadcast partner",
+    "Official partner",
+    "Destination partner",
+    "Official supplier",
+    "Travel partner"
+   ],
+   "ptiersChecked": "2026-11-16"
   },
   "walmart": {
    "name": "Walmart",
