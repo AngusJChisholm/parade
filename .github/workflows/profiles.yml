@@ -42,11 +42,25 @@ jobs:
           python3 tools/match.py
           python3 tools/audit.py
 
+      - name: Upload Partnership Pro files to Supabase (private)
+        env:
+          SUPABASE_URL: ${{ vars.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: |
+          if [ -z "$SUPABASE_SERVICE_KEY" ] || [ -z "$SUPABASE_URL" ]; then echo "Supabase not set up yet; Pro files stay in the repo"; exit 0; fi
+          python3 tools/pro_upload.py && echo "PRO_PRIVATE=1" >> "$GITHUB_ENV"
+
       - name: Commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add deals.json entities.json brands properties sitemap.xml pro/matches.json pro/audit.json
+          git add deals.json entities.json brands properties sitemap.xml
+          if [ "$PRO_PRIVATE" = "1" ]; then
+            # Uploaded to the private bucket, so take them out of the public repo and site.
+            git rm -q --cached --ignore-unmatch pro/matches.json pro/audit.json
+          else
+            git add -f pro/matches.json pro/audit.json
+          fi
           if git diff --cached --quiet; then echo "Nothing new"; exit 0; fi
           git commit -m "Brand and property pages [skip netlify]"
           for i in 1 2 3 4 5; do
