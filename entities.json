@@ -2532,6 +2532,10 @@
    "name": "Aramex",
    "k": "b"
   },
+  "arch-solar": {
+   "name": "Arch Solar",
+   "cat": "Energy & utilities"
+  },
   "archer": {
    "name": "Archer",
    "aliases": [
@@ -6711,6 +6715,9 @@
     "logo"
    ]
   },
+  "burlington": {
+   "name": "Burlington"
+  },
   "burnley": {
    "name": "Burnley",
    "ptype": "Club & team",
@@ -8242,7 +8249,11 @@
    "domain": "bulls.com",
    "bf": [],
    "ptype": "Club & team",
-   "k": "p"
+   "k": "p",
+   "ptiers": [
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-16"
   },
   "chicago-sky": {
    "name": "Chicago Sky",
@@ -8796,7 +8807,11 @@
    "domain": "cavs.com",
    "bf": [],
    "ptype": "Club & team",
-   "k": "p"
+   "k": "p",
+   "ptiers": [
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-16"
   },
   "cleveland-guardians": {
    "name": "Cleveland Guardians",
@@ -9242,6 +9257,9 @@
    "domain": "comcast.com",
    "cat": "Telco",
    "k": "b"
+  },
+  "comcast-business": {
+   "name": "Comcast Business"
   },
   "comfort-sleep": {
    "name": "Comfort Sleep",
@@ -15162,6 +15180,9 @@
    "name": "Getty Images",
    "k": "b"
   },
+  "gfl-environmental": {
+   "name": "GFL Environmental"
+  },
   "ggl": {
    "name": "GGL",
    "k": "b"
@@ -15679,6 +15700,9 @@
     "icon",
     "logo"
    ]
+  },
+  "gordon-flesch-company": {
+   "name": "Gordon Flesch Company"
   },
   "gosweetspot": {
    "name": "GoSweetSpot",
@@ -19347,6 +19371,9 @@
    "ptype": "Athlete & talent",
    "k": "p"
   },
+  "jet-out": {
+   "name": "Jet OUT"
+  },
   "jet365": {
    "name": "JET365",
    "cat": "Airlines & travel",
@@ -19518,6 +19545,9 @@
     "icon",
     "logo"
    ]
+  },
+  "johnson-controls": {
+   "name": "Johnson Controls"
   },
   "johnson-kendall-johnson": {
    "name": "Johnson Kendall Johnson",
@@ -22315,6 +22345,9 @@
     "logo"
    ]
   },
+  "magellan-corporation": {
+   "name": "Magellan Corporation"
+  },
   "magellan-transport-logistics": {
    "name": "Magellan Transport Logistics",
    "cat": "Logistics & transport",
@@ -23791,7 +23824,11 @@
     "icon"
    ],
    "ptype": "Club & team",
-   "k": "p"
+   "k": "p",
+   "ptiers": [
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-16"
   },
   "milwaukee-tool": {
    "name": "Milwaukee Tool",
@@ -25066,6 +25103,9 @@
    ],
    "ptype": "League & competition",
    "k": "p"
+  },
+  "nathan-s-famous": {
+   "name": "Nathan's Famous"
   },
   "natio": {
    "name": "Natio",
@@ -27072,6 +27112,9 @@
    ],
    "ptype": "Club & team",
    "k": "p"
+  },
+  "odyssey-brands": {
+   "name": "Odyssey Brands"
   },
   "ofc-pro-league": {
    "name": "OFC Pro League",
@@ -38259,6 +38302,10 @@
     "logo"
    ]
   },
+  "total-wine-and-more": {
+   "name": "Total Wine & More",
+   "cat": "Alcohol"
+  },
   "total-wireless": {
    "name": "Total Wireless",
    "cat": "Telco",
@@ -41191,6 +41238,9 @@
    "name": "Wawa",
    "k": "b"
   },
+  "wayfair": {
+   "name": "Wayfair"
+  },
   "waymo": {
    "name": "Waymo",
    "k": "b"
@@ -41210,6 +41260,9 @@
   "we-create-studio": {
    "name": "We Create Studio",
    "k": "b"
+  },
+  "we-energies": {
+   "name": "We Energies"
   },
   "we-love-group": {
    "name": "We Love Group",
@@ -41787,6 +41840,9 @@
   "willy-s-pies": {
    "name": "Willy's Pies",
    "k": "b"
+  },
+  "wilo": {
+   "name": "Wilo"
   },
   "wilson": {
    "name": "Wilson",
@@ -42600,6 +42656,9 @@
   "yes-network": {
    "name": "YES Network",
    "cat": "Media & broadcast"
+  },
+  "yesim": {
+   "name": "Yesim"
   },
   "yeti": {
    "name": "YETI",
