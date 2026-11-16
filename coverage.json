@@ -758,9 +758,9 @@
    "country": "AU",
    "state": "National",
    "tier": 1,
-   "partnersUrl": null,
-   "lastChecked": null,
-   "onPage": null
+   "partnersUrl": "https://netball.com.au/partners",
+   "lastChecked": "2026-11-16",
+   "onPage": 21
   },
   {
    "name": "Sydney Sixers",
@@ -848,9 +848,9 @@
    "country": "AU",
    "state": "National",
    "tier": 1,
-   "partnersUrl": null,
-   "lastChecked": null,
-   "onPage": null
+   "partnersUrl": "https://www.cricket.com.au/our-partners/our-commercial-partners",
+   "lastChecked": "2026-11-16",
+   "onPage": 42
   },
   {
    "name": "ACT Brumbies",
@@ -1228,9 +1228,9 @@
    "country": "AU",
    "state": "National",
    "tier": 3,
-   "partnersUrl": null,
-   "lastChecked": null,
-   "onPage": null
+   "partnersUrl": "https://www.australia.basketball/about/our-partners",
+   "lastChecked": "2026-11-16",
+   "onPage": 18
   },
   {
    "name": "Australian Open",
@@ -1518,9 +1518,9 @@
    "country": "AU",
    "state": "National",
    "tier": 3,
-   "partnersUrl": null,
-   "lastChecked": null,
-   "onPage": null
+   "partnersUrl": "https://www.paralympic.org.au/partners/",
+   "lastChecked": "2026-11-16",
+   "onPage": 15
   },
   {
    "name": "Commonwealth Games Australia",
@@ -1658,9 +1658,9 @@
    "country": "AU",
    "state": "National",
    "tier": 3,
-   "partnersUrl": null,
-   "lastChecked": null,
-   "onPage": null
+   "partnersUrl": "https://www.rugby.com.au/wallabies/partners/wallabies",
+   "lastChecked": "2026-11-16",
+   "onPage": 34
   },
   {
    "name": "Wallaroos",
@@ -1668,9 +1668,9 @@
    "country": "AU",
    "state": "National",
    "tier": 3,
-   "partnersUrl": null,
-   "lastChecked": null,
-   "onPage": null
+   "partnersUrl": "https://www.rugby.com.au/wallaroos/about/partners",
+   "lastChecked": "2026-11-16",
+   "onPage": 28
   },
   {
    "name": "Rugby World Cup 2027",
@@ -1688,9 +1688,9 @@
    "country": "AU",
    "state": "National",
    "tier": 3,
-   "partnersUrl": null,
-   "lastChecked": null,
-   "onPage": null
+   "partnersUrl": "https://matildas.com.au/partners",
+   "lastChecked": "2026-11-16",
+   "onPage": 10
   },
   {
    "name": "Socceroos",
@@ -1698,9 +1698,9 @@
    "country": "AU",
    "state": "National",
    "tier": 3,
-   "partnersUrl": null,
-   "lastChecked": null,
-   "onPage": null
+   "partnersUrl": "https://socceroos.com.au/partners",
+   "lastChecked": "2026-11-16",
+   "onPage": 9
   },
   {
    "name": "MCG",
@@ -2121,6 +2121,16 @@
    "partnersUrl": "https://www.wrfu.co.nz/fileadmin/Sponsors/Partner_Directory_2026-27.pdf",
    "lastChecked": "2026-11-16",
    "onPage": 54
+  },
+  {
+   "name": "Australian Olympic Team",
+   "sport": "Multi-sport",
+   "country": "AU",
+   "state": "National",
+   "tier": 3,
+   "partnersUrl": "https://www.olympics.com.au/partners/",
+   "lastChecked": "2026-11-16",
+   "onPage": 31
   }
  ]
 }
