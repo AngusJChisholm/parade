@@ -5,7 +5,7 @@
   "no_category": 596,
   "cat_mismatch": 104,
   "slot_clash": 25,
-  "dup_deals": 0,
+  "dup_deals": 9,
   "no_broadcaster": 13,
   "stale": 3,
   "no_source": 660,
@@ -14,32 +14,56 @@
  "dup_entities": [
   {
    "names": [
-    "Special Olympics",
-    "Special Olympics Australia"
+    "Commonwealth Games",
+    "Commonwealth Games Australia"
    ],
    "slugs": [
-    "special-olympics",
-    "special-olympics-australia"
+    "commonwealth-games",
+    "commonwealth-games-australia"
    ]
   },
   {
    "names": [
-    "Hockey Australia",
-    "Hockey New Zealand"
+    "Victor",
+    "Victor Sports"
    ],
    "slugs": [
-    "hockey-australia",
-    "hockey-new-zealand"
+    "victor",
+    "victor-sports"
    ]
   },
   {
    "names": [
-    "Courier Mail",
-    "The Courier-Mail"
+    "PURE Sports Nutrition",
+    "Pure Nutrition"
    ],
    "slugs": [
-    "courier-mail",
-    "the-courier-mail"
+    "pure-nutrition",
+    "pure-sports-nutrition"
+   ]
+  },
+  {
+   "names": [
+    "Sky",
+    "Sky NZ",
+    "Sky Sport",
+    "Sky Sports"
+   ],
+   "slugs": [
+    "sky",
+    "sky-nz",
+    "sky-sport",
+    "sky-sports"
+   ]
+  },
+  {
+   "names": [
+    "Dolphins",
+    "Dolphins Group"
+   ],
+   "slugs": [
+    "dolphins",
+    "dolphins-group"
    ]
   },
   {
@@ -64,30 +88,6 @@
   },
   {
    "names": [
-    "Victor",
-    "Victor Sports"
-   ],
-   "slugs": [
-    "victor",
-    "victor-sports"
-   ]
-  },
-  {
-   "names": [
-    "Sky",
-    "Sky NZ",
-    "Sky Sport",
-    "Sky Sports"
-   ],
-   "slugs": [
-    "sky",
-    "sky-nz",
-    "sky-sport",
-    "sky-sports"
-   ]
-  },
-  {
-   "names": [
     "Harness Racing Australia",
     "Harness Racing NZ"
    ],
@@ -98,22 +98,12 @@
   },
   {
    "names": [
-    "Dolphins",
-    "Dolphins Group"
+    "Ant Group",
+    "Ant International"
    ],
    "slugs": [
-    "dolphins",
-    "dolphins-group"
-   ]
-  },
-  {
-   "names": [
-    "PURE Sports Nutrition",
-    "Pure Nutrition"
-   ],
-   "slugs": [
-    "pure-nutrition",
-    "pure-sports-nutrition"
+    "ant-group",
+    "ant-international"
    ]
   },
   {
@@ -130,22 +120,22 @@
   },
   {
    "names": [
-    "TAB",
-    "TAB NZ"
+    "Hockey Australia",
+    "Hockey New Zealand"
    ],
    "slugs": [
-    "tab",
-    "tab-nz"
+    "hockey-australia",
+    "hockey-new-zealand"
    ]
   },
   {
    "names": [
-    "Commonwealth Games",
-    "Commonwealth Games Australia"
+    "Courier Mail",
+    "The Courier-Mail"
    ],
    "slugs": [
-    "commonwealth-games",
-    "commonwealth-games-australia"
+    "courier-mail",
+    "the-courier-mail"
    ]
   },
   {
@@ -160,12 +150,22 @@
   },
   {
    "names": [
-    "Ant Group",
-    "Ant International"
+    "TAB",
+    "TAB NZ"
    ],
    "slugs": [
-    "ant-group",
-    "ant-international"
+    "tab",
+    "tab-nz"
+   ]
+  },
+  {
+   "names": [
+    "Special Olympics",
+    "Special Olympics Australia"
+   ],
+   "slugs": [
+    "special-olympics",
+    "special-olympics-australia"
    ]
   }
  ],
@@ -253,6 +253,11 @@
   {
    "brand": "My Sports Tape",
    "slug": "my-sports-tape",
+   "deals": 2
+  },
+  {
+   "brand": "Shapes",
+   "slug": "shapes",
    "deals": 2
   },
   {
@@ -1003,11 +1008,6 @@
   {
    "brand": "Sport Nation",
    "slug": "sport-nation",
-   "deals": 1
-  },
-  {
-   "brand": "Shapes",
-   "slug": "shapes",
    "deals": 1
   },
   {
@@ -4313,7 +4313,44 @@
    ]
   }
  ],
- "dup_deals": [],
+ "dup_deals": [
+  {
+   "deal": "Classic Sportswear × NRL",
+   "issue": "listed entry next to a dated one (drop the listed one)"
+  },
+  {
+   "deal": "Youi × NRL",
+   "issue": "listed entry next to a dated one (drop the listed one)"
+  },
+  {
+   "deal": "Coca-Cola × NRL",
+   "issue": "listed entry next to a dated one (drop the listed one)"
+  },
+  {
+   "deal": "Witzer × NRL",
+   "issue": "listed entry next to a dated one (drop the listed one)"
+  },
+  {
+   "deal": "JD Sports × NRL",
+   "issue": "listed entry next to a dated one (drop the listed one)"
+  },
+  {
+   "deal": "Bundaberg Rum × NRL",
+   "issue": "listed entry next to a dated one (drop the listed one)"
+  },
+  {
+   "deal": "Chemist Warehouse × NRL",
+   "issue": "listed entry next to a dated one (drop the listed one)"
+  },
+  {
+   "deal": "Westpac × NRL",
+   "issue": "listed entry next to a dated one (drop the listed one)"
+  },
+  {
+   "deal": "Red Bull × NRL",
+   "issue": "listed entry next to a dated one (drop the listed one)"
+  }
+ ],
  "no_broadcaster": [
   {
    "property": "Rugby Victoria",
