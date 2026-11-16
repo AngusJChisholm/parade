@@ -3267,7 +3267,10 @@
    "sport": "NHL",
    "country": "US",
    "state": "CA",
-   "tier": 5
+   "tier": 5,
+   "lastChecked": "2026-11-17",
+   "onPage": 6,
+   "partnersUrl": "https://www.nhl.com/ducks/news/"
   },
   {
    "name": "Boston Bruins",
@@ -3294,7 +3297,10 @@
    "sport": "NHL",
    "country": "CA",
    "state": "AB",
-   "tier": 5
+   "tier": 5,
+   "lastChecked": "2026-11-17",
+   "onPage": 3,
+   "partnersUrl": "https://www.nhl.com/flames/news/"
   },
   {
    "name": "Carolina Hurricanes",
@@ -3361,14 +3367,20 @@
    "sport": "NHL",
    "country": "CA",
    "state": "AB",
-   "tier": 5
+   "tier": 5,
+   "lastChecked": "2026-11-17",
+   "onPage": 7,
+   "partnersUrl": "https://www.nhl.com/oilers/news/"
   },
   {
    "name": "Florida Panthers",
    "sport": "NHL",
    "country": "US",
    "state": "FL",
-   "tier": 5
+   "tier": 5,
+   "lastChecked": "2026-11-17",
+   "onPage": 5,
+   "partnersUrl": "https://www.nhl.com/panthers/news/"
   },
   {
    "name": "Los Angeles Kings",
@@ -3475,7 +3487,10 @@
    "sport": "NHL",
    "country": "US",
    "state": "CA",
-   "tier": 5
+   "tier": 5,
+   "lastChecked": "2026-11-17",
+   "onPage": 5,
+   "partnersUrl": "https://www.nhl.com/sharks/news/topic/partnership-announcements"
   },
   {
    "name": "Seattle Kraken",
@@ -3492,7 +3507,10 @@
    "sport": "NHL",
    "country": "US",
    "state": "MO",
-   "tier": 5
+   "tier": 5,
+   "lastChecked": "2026-11-17",
+   "onPage": 7,
+   "partnersUrl": "https://www.nhl.com/blues/news/"
   },
   {
    "name": "Tampa Bay Lightning",
@@ -3509,7 +3527,10 @@
    "sport": "NHL",
    "country": "CA",
    "state": "ON",
-   "tier": 5
+   "tier": 5,
+   "lastChecked": "2026-11-17",
+   "onPage": 5,
+   "partnersUrl": "https://www.nhl.com/mapleleafs/news/"
   },
   {
    "name": "Utah Mammoth",
@@ -3536,7 +3557,10 @@
    "sport": "NHL",
    "country": "US",
    "state": "NV",
-   "tier": 5
+   "tier": 5,
+   "lastChecked": "2026-11-17",
+   "onPage": 4,
+   "partnersUrl": "https://www.nhl.com/goldenknights/news/"
   },
   {
    "name": "Washington Capitals",
@@ -3553,7 +3577,10 @@
    "sport": "NHL",
    "country": "CA",
    "state": "MB",
-   "tier": 5
+   "tier": 5,
+   "lastChecked": "2026-11-17",
+   "onPage": 1,
+   "partnersUrl": "https://www.nhl.com/jets/news/"
   }
  ]
 }
