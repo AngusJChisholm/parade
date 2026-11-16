@@ -181,7 +181,11 @@
 .rp-lg span{display:inline-flex;align-items:center;gap:6px}.rp-lg i{width:12px;height:12px;border-radius:2px;display:inline-block}
 .rp-lg i.o{border:1.5px solid #111;background:#fff}.rp-lg i.t{width:0;height:12px;border-left:1.5px dashed #111;border-radius:0}
 /* Board-paper pages: market overview, category map, naming rights, negotiation notes */
-.rp-opts{display:flex;gap:8px 16px;flex-wrap:wrap;align-items:center;margin:12px 0 0;font-size:13px}
+.rp-pages{margin:16px 0 0;padding:14px 16px;border:1px solid var(--line);background:var(--white)}
+.rp-ph{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.rp-ph .rp-pn{font-size:12px;color:var(--ink-3);margin-right:auto}
+.ghost.sm{padding:6px 10px;font-size:11px}
+.rp-opts{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:8px 16px;margin:12px 0 0;font-size:13px}
 .rp-opts label{display:inline-flex;gap:6px;align-items:center;font-weight:800;font-size:12px;letter-spacing:.06em;text-transform:uppercase;cursor:pointer}
 .rp-opts input{accent-color:var(--ink);width:15px;height:15px}
 .rp-bl{margin:18px 0 0;padding:0;list-style:none;border-top:2px solid var(--ink)}
