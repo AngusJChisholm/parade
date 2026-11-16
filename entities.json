@@ -2240,6 +2240,9 @@
    "cat": "Food & nutrition",
    "k": "b"
   },
+  "ao": {
+   "name": "AO"
+  },
   "aon": {
    "name": "Aon",
    "cat": "Insurance",
@@ -4095,6 +4098,10 @@
     "Media partner"
    ]
   },
+  "bandero-tequila": {
+   "name": "Bandero Tequila",
+   "cat": "Alcohol"
+  },
   "banjo-s-bakery-cafe": {
    "name": "Banjo's Bakery Cafe",
    "cat": "Food & nutrition",
@@ -4366,6 +4373,9 @@
     "icon",
     "logo"
    ]
+  },
+  "baxter-of-california": {
+   "name": "Baxter of California"
   },
   "bay-headstones": {
    "name": "Bay Headstones",
@@ -6841,6 +6851,9 @@
    "cat": "Sporting goods & equipment",
    "k": "b"
   },
+  "calljacob": {
+   "name": "CallJacob"
+  },
   "caltex": {
    "name": "Caltex",
    "cat": "Energy & utilities",
@@ -7557,6 +7570,10 @@
   "cbr-canberra": {
    "name": "CBR Canberra",
    "k": "b"
+  },
+  "cbs-la": {
+   "name": "CBS LA",
+   "cat": "Media & broadcast"
   },
   "cbs-sports": {
    "name": "CBS Sports",
@@ -8798,6 +8815,10 @@
    "psrc": "https://www.bandt.com.au/coca-cola-signs-two-year-partnership-with-football-australia-ahead-of-fifa-world-cup/",
    "profiled": "2026-11-08"
   },
+  "coca-cola-beverages-florida": {
+   "name": "Coca-Cola Beverages Florida",
+   "cat": "Non-alcoholic drinks"
+  },
   "coca-cola-consolidated": {
    "name": "Coca-Cola Consolidated",
    "cat": "Non-alcoholic drinks",
@@ -9097,6 +9118,9 @@
    "ptype": "Governing body",
    "k": "p"
   },
+  "community-ambulance": {
+   "name": "Community Ambulance"
+  },
   "community-coffee": {
    "name": "Community Coffee",
    "cat": "Non-alcoholic drinks",
@@ -9228,6 +9252,9 @@
    "name": "Confident Girls Foundation",
    "cat": "Not-for-profit",
    "k": "b"
+  },
+  "confirmed360": {
+   "name": "Confirmed360"
   },
   "conmebol": {
    "name": "CONMEBOL",
@@ -11709,6 +11736,10 @@
    "name": "East Pier",
    "k": "b"
   },
+  "east-west-bank": {
+   "name": "East West Bank",
+   "cat": "Banking & finance"
+  },
   "eastern-and-central-community-trust": {
    "name": "Eastern & Central Community Trust",
    "k": "b"
@@ -12113,6 +12144,10 @@
     "logo"
    ]
   },
+  "elite-sports-travel": {
+   "name": "Elite Sports Travel",
+   "cat": "Airlines & travel"
+  },
   "elite-supplements": {
    "name": "Elite Supplements",
    "cat": "Food & nutrition",
@@ -12379,6 +12414,10 @@
     "icon"
    ]
   },
+  "enhance-health": {
+   "name": "Enhance Health",
+   "cat": "Health & beauty"
+  },
   "enjoy-illinois": {
    "name": "Enjoy Illinois",
    "cat": "Tourism & government",
@@ -12453,6 +12492,10 @@
    ],
    "ptype": "League & competition",
    "k": "p"
+  },
+  "epic-insurance-brokers-and-consultants": {
+   "name": "EPIC Insurance Brokers & Consultants",
+   "cat": "Insurance"
   },
   "epropulsion": {
    "name": "ePropulsion",
@@ -14031,6 +14074,10 @@
    "name": "Freecity",
    "k": "b"
   },
+  "freedom-forever": {
+   "name": "Freedom Forever",
+   "cat": "Retail"
+  },
   "freedom-holding": {
    "name": "Freedom Holding",
    "cat": "Fintech, crypto & trading",
@@ -15160,6 +15207,9 @@
    "name": "Golfit",
    "k": "b"
   },
+  "golfzon": {
+   "name": "GOLFZON"
+  },
   "golootlo": {
    "name": "Golootlo",
    "cat": "Fintech, crypto & trading",
@@ -16121,6 +16171,10 @@
     "icon",
     "logo"
    ]
+  },
+  "hawai-i-tourism-authority": {
+   "name": "Hawai'i Tourism Authority",
+   "cat": "Tourism & government"
   },
   "hawk-express-cabs": {
    "name": "Hawk Express Cabs",
@@ -18041,6 +18095,10 @@
    "cat": "Airlines & travel",
    "k": "b"
   },
+  "intermountain-healthcare": {
+   "name": "Intermountain Healthcare",
+   "cat": "Health & beauty"
+  },
   "internal-demolitions": {
    "name": "Internal Demolitions",
    "cat": "Construction & property",
@@ -18506,7 +18564,10 @@
     "logo"
    ],
    "ptype": "Club & team",
-   "k": "p"
+   "k": "p",
+   "ptiers": [
+    "Official partner"
+   ]
   },
   "jacob-and-co": {
    "name": "Jacob & Co.",
@@ -20314,7 +20375,12 @@
     "logo"
    ],
    "ptype": "Club & team",
-   "k": "p"
+   "k": "p",
+   "ptiers": [
+    "Naming rights",
+    "Principal partner",
+    "Official partner"
+   ]
   },
   "last-rep-coffee": {
    "name": "Last Rep Coffee",
@@ -21271,6 +21337,10 @@
    "domain": "chargers.com",
    "bf": [
     "icon"
+   ],
+   "ptiers": [
+    "Naming rights",
+    "Official partner"
    ]
   },
   "los-angeles-dodgers": {
@@ -21296,6 +21366,9 @@
    "domain": "therams.com",
    "bf": [
     "icon"
+   ],
+   "ptiers": [
+    "Official partner"
    ]
   },
   "lottery-grants-board": {
@@ -21353,6 +21426,10 @@
     "icon",
     "logo"
    ]
+  },
+  "loyola-marymount-university": {
+   "name": "Loyola Marymount University",
+   "cat": "Education"
   },
   "lpga-tour": {
    "name": "LPGA Tour",
@@ -21691,6 +21768,10 @@
     "icon",
     "logo"
    ]
+  },
+  "magellan-transport-logistics": {
+   "name": "Magellan Transport Logistics",
+   "cat": "Logistics & transport"
   },
   "magic-millions": {
    "name": "Magic Millions",
@@ -22891,6 +22972,10 @@
    "cat": "Sporting goods & equipment",
    "k": "b"
   },
+  "mgm-resorts": {
+   "name": "MGM Resorts",
+   "cat": "Airlines & travel"
+  },
   "mi-cape-town": {
    "name": "MI Cape Town",
    "ptype": "Club & team",
@@ -22914,6 +22999,10 @@
    "bf": [
     "icon",
     "logo"
+   ],
+   "ptiers": [
+    "Naming rights",
+    "Official partner"
    ]
   },
   "miami-grand-prix": {
@@ -23208,7 +23297,11 @@
     "logo"
    ],
    "ptype": "Club & team",
-   "k": "p"
+   "k": "p",
+   "ptiers": [
+    "Naming rights",
+    "Official partner"
+   ]
   },
   "minutemen-workforce-solutions": {
    "name": "Minutemen Workforce Solutions",
@@ -24267,6 +24360,10 @@
   "mysportstape": {
    "name": "MySportsTape",
    "k": "b"
+  },
+  "mystic-lake-casino-hotel": {
+   "name": "Mystic Lake Casino Hotel",
+   "cat": "Betting & wagering"
   },
   "myvolt": {
    "name": "MyVolt",
@@ -25566,6 +25663,10 @@
     "Official supplier",
     "Charity and community partner"
    ]
+  },
+  "north-memorial-health": {
+   "name": "North Memorial Health",
+   "cat": "Health & beauty"
   },
   "north-queensland-cowboys": {
    "name": "North Queensland Cowboys",
@@ -30211,6 +30312,10 @@
    "name": "Resolution Strata Services",
    "k": "b"
   },
+  "resorts-world-las-vegas": {
+   "name": "Resorts World Las Vegas",
+   "cat": "Airlines & travel"
+  },
   "ressler-property": {
    "name": "Ressler Property",
    "k": "b",
@@ -31062,6 +31167,9 @@
    "name": "RWS Global",
    "k": "b"
   },
+  "ryan": {
+   "name": "Ryan"
+  },
   "ryco": {
    "name": "RYCO",
    "domain": "ryco.inc",
@@ -31296,6 +31404,9 @@
     "icon",
     "logo"
    ]
+  },
+  "salient-operations-group": {
+   "name": "Salient Operations Group"
   },
   "salomon": {
    "name": "Salomon",
@@ -33551,6 +33662,9 @@
    "name": "Splash Planet",
    "k": "b"
   },
+  "splitero": {
+   "name": "Splitero"
+  },
   "sport-24": {
    "name": "Sport 24",
    "cat": "Media & broadcast",
@@ -33778,6 +33892,9 @@
    "cat": "Alcohol",
    "k": "b"
   },
+  "sprintai": {
+   "name": "SprintAI"
+  },
   "sprite": {
    "name": "Sprite",
    "domain": "sprite.com",
@@ -33961,6 +34078,10 @@
     "icon",
     "logo"
    ]
+  },
+  "stalwart-law-group": {
+   "name": "Stalwart Law Group",
+   "cat": "Professional services"
   },
   "stan-sport": {
    "name": "Stan Sport",
@@ -35681,6 +35802,9 @@
     "logo"
    ]
   },
+  "team-mexico": {
+   "name": "Team México"
+  },
   "team-penske": {
    "name": "Team Penske",
    "domain": "teampenske.com",
@@ -35716,6 +35840,10 @@
    "name": "Tech Group",
    "cat": "Technology",
    "k": "b"
+  },
+  "tech-mahindra": {
+   "name": "Tech Mahindra",
+   "cat": "Technology"
   },
   "tech-mechanical": {
    "name": "Tech Mechanical",
@@ -37951,6 +38079,10 @@
    "k": "p",
    "domain": "uccapitals.com.au"
   },
+  "ucla-health": {
+   "name": "UCLA Health",
+   "cat": "Health & beauty"
+  },
   "udinese": {
    "name": "Udinese",
    "ptype": "Club & team",
@@ -38148,6 +38280,10 @@
    "bf": [
     "icon"
    ]
+  },
+  "unify-financial-credit-union": {
+   "name": "UNIFY Financial Credit Union",
+   "cat": "Banking & finance"
   },
   "unilever": {
    "name": "Unilever",
@@ -39974,6 +40110,9 @@
   "wawa": {
    "name": "Wawa",
    "k": "b"
+  },
+  "waymo": {
+   "name": "Waymo"
   },
   "we-care-community-trust": {
    "name": "We Care Community Trust",
