@@ -10,6 +10,9 @@
    "name": "102.5 The Bone",
    "k": "b"
   },
+  "104-7-outaouais": {
+   "name": "104,7 Outaouais"
+  },
   "123net": {
    "name": "123NET",
    "k": "b"
@@ -38,6 +41,10 @@
    "name": "1500 ESPN",
    "cat": "Media & broadcast",
    "k": "b"
+  },
+  "180-kitchens": {
+   "name": "180 Kitchens",
+   "cat": "Retail"
   },
   "1800-tequila": {
    "name": "1800 Tequila",
@@ -96,6 +103,10 @@
    ],
    "cat": "Betting & wagering",
    "k": "b"
+  },
+  "2-hoots-hard-tea": {
+   "name": "2 Hoots Hard Tea",
+   "cat": "Non-alcoholic drinks"
   },
   "2-towns-ciderhouse": {
    "name": "2 Towns Ciderhouse",
@@ -236,6 +247,9 @@
   },
   "670-the-score": {
    "name": "670 The Score"
+  },
+  "680-cjob": {
+   "name": "680 CJOB"
   },
   "7-bar": {
    "name": "7 Bar",
@@ -725,6 +739,10 @@
     "logo"
    ]
   },
+  "access-credit-union": {
+   "name": "Access Credit Union",
+   "cat": "Banking & finance"
+  },
   "access-one": {
    "name": "Access One"
   },
@@ -909,6 +927,10 @@
    ],
    "cat": "Energy & utilities",
    "k": "b"
+  },
+  "action-sport-physio": {
+   "name": "Action Sport Physio",
+   "cat": "Health & beauty"
   },
   "actionhrm": {
    "name": "ActionHRM",
@@ -1173,6 +1195,9 @@
     "icon",
     "logo"
    ]
+  },
+  "adrenaline-diesel": {
+   "name": "Adrenaline Diesel"
   },
   "adriana-s-insurance": {
    "name": "Adriana's Insurance",
@@ -1456,6 +1481,10 @@
     "logo"
    ]
   },
+  "aglc-lotto": {
+   "name": "AGLC Lotto",
+   "cat": "Betting & wagering"
+  },
   "agramont": {
    "name": "Agramont",
    "k": "b"
@@ -1463,6 +1492,10 @@
   "ags-structural": {
    "name": "AGS Structural",
    "k": "b"
+  },
+  "agt-foods": {
+   "name": "AGT Foods",
+   "cat": "Food & nutrition"
   },
   "ai-smartphone": {
    "name": "Ai+ Smartphone",
@@ -2164,6 +2197,9 @@
    "cat": "Other",
    "k": "b"
   },
+  "amacon": {
+   "name": "Amacon"
+  },
   "amadio-wines": {
    "name": "Amadio Wines",
    "domain": "amadiowines.com",
@@ -2549,6 +2585,9 @@
   "ankobia-group": {
    "name": "Ankobia Group",
    "k": "b"
+  },
+  "anova": {
+   "name": "ANOVA"
   },
   "anr-engineering": {
    "name": "ANR Engineering",
@@ -3087,6 +3126,9 @@
     "logo"
    ]
   },
+  "arpi-s-north": {
+   "name": "Arpi's North"
+  },
   "arrivederci-pizza": {
    "name": "Arrivederci Pizza",
    "cat": "Food & nutrition",
@@ -3498,6 +3540,10 @@
    "cat": "Telco",
    "k": "b"
   },
+  "atb-financial": {
+   "name": "ATB Financial",
+   "cat": "Banking & finance"
+  },
   "atco": {
    "name": "ATCO",
    "cat": "Energy & utilities",
@@ -3507,6 +3553,10 @@
     "icon",
     "logo"
    ]
+  },
+  "atco-energy": {
+   "name": "ATCO Energy",
+   "cat": "Energy & utilities"
   },
   "atelier-1200": {
    "name": "Atelier 1200",
@@ -4410,6 +4460,9 @@
    "name": "Avalon Air",
    "k": "b"
   },
+  "avana-rentals": {
+   "name": "Avana Rentals"
+  },
   "avani-mooloolaba-beach": {
    "name": "Avani Mooloolaba Beach",
    "k": "b"
@@ -4529,6 +4582,10 @@
    "bf": [
     "icon"
    ]
+  },
+  "axiom-builders": {
+   "name": "Axiom Builders",
+   "cat": "Construction & property"
   },
   "axiom-eco-pest-control": {
    "name": "Axiom Eco-Pest Control",
@@ -4851,6 +4908,9 @@
     "logo"
    ]
   },
+  "barbershop-films": {
+   "name": "Barbershop Films"
+  },
   "barclay-pearce-capital": {
    "name": "Barclay Pearce Capital",
    "k": "b",
@@ -5047,6 +5107,9 @@
   "bathhouse": {
    "name": "Bathhouse"
   },
+  "batteries-expert": {
+   "name": "Batteries Expert"
+  },
   "batteries-plus": {
    "name": "Batteries Plus",
    "k": "b"
@@ -5223,6 +5286,31 @@
     "logo"
    ]
   },
+  "bc-hydro": {
+   "name": "BC Hydro",
+   "cat": "Energy & utilities"
+  },
+  "bc-lions": {
+   "name": "BC Lions",
+   "domain": "bclions.com",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "ptiers": [
+    "Corporate partner",
+    "Official partner",
+    "Preferred partner",
+    "Preferred supplier",
+    "Supplier"
+   ],
+   "ptiersChecked": "2026-11-17"
+  },
+  "bc-maritime-employers-association": {
+   "name": "BC Maritime Employers Association"
+  },
   "bcci": {
    "name": "BCCI",
    "domain": "bcci.tv",
@@ -5243,6 +5331,10 @@
    "cat": "Retail",
    "logo": "assets/logos/bcf.png",
    "domain": "bcf.com.au"
+  },
+  "bcfed-health-and-safety-centre": {
+   "name": "BCFED Health and Safety Centre",
+   "cat": "Health & beauty"
   },
   "bci": {
    "name": "BCI",
@@ -5429,6 +5521,10 @@
    "name": "Belk",
    "k": "b"
   },
+  "bell": {
+   "name": "Bell",
+   "cat": "Telco"
+  },
   "bell-bank": {
    "name": "Bell Bank",
    "cat": "Banking & finance",
@@ -5499,6 +5595,9 @@
    "bf": [
     "icon"
    ]
+  },
+  "beneva": {
+   "name": "Beneva"
   },
   "benfica": {
    "name": "Benfica",
@@ -5684,6 +5783,10 @@
    "cat": "Betting & wagering",
    "k": "b"
   },
+  "betty": {
+   "name": "Betty",
+   "cat": "Betting & wagering"
+  },
   "betvibe": {
    "name": "BETVIBE",
    "cat": "Betting & wagering",
@@ -5741,6 +5844,9 @@
    "bf": [
     "icon"
    ]
+  },
+  "bfl-canada": {
+   "name": "BFL Canada"
   },
   "bgh": {
    "name": "BGH",
@@ -5866,6 +5972,9 @@
    "name": "Bilibili",
    "k": "b"
   },
+  "billets-ca": {
+   "name": "Billets.ca"
+  },
   "billie-jean-king-cup": {
    "name": "Billie Jean King Cup",
    "ptype": "Event",
@@ -5883,6 +5992,9 @@
   "bimbo": {
    "name": "Bimbo",
    "k": "b"
+  },
+  "bimbo-canada": {
+   "name": "Bimbo Canada"
   },
   "bin-hire-co": {
    "name": "Bin Hire Co",
@@ -6217,6 +6329,10 @@
     "logo"
    ]
   },
+  "blandin-and-delloye": {
+   "name": "Blandin & Delloye",
+   "cat": "Technology"
+  },
   "blast": {
    "name": "BLAST",
    "domain": "blast.tv",
@@ -6227,6 +6343,10 @@
    "cat": "Media & broadcast",
    "ptype": "League & competition",
    "k": "p"
+  },
+  "blast-media": {
+   "name": "Blast Media",
+   "cat": "Media & broadcast"
   },
   "blaze-credit-union": {
    "name": "Blaze Credit Union",
@@ -6592,6 +6712,10 @@
    "name": "Bombay Sapphire",
    "k": "b"
   },
+  "bomboloni-boss": {
+   "name": "Bomboloni Boss",
+   "cat": "Apparel & footwear"
+  },
   "bona": {
    "name": "Bona",
    "k": "b"
@@ -6669,6 +6793,10 @@
    "k": "b",
    "logo": "assets/logos/boost-mobile.png"
   },
+  "booster-juice": {
+   "name": "Booster Juice",
+   "cat": "Non-alcoholic drinks"
+  },
   "borger-cranes": {
    "name": "Borger Cranes",
    "k": "b",
@@ -6683,6 +6811,10 @@
     "icon",
     "logo"
    ]
+  },
+  "bosa-construction": {
+   "name": "Bosa Construction",
+   "cat": "Construction & property"
   },
   "bosch": {
    "name": "Bosch",
@@ -6771,6 +6903,10 @@
    ],
    "ptiersChecked": "2026-11-17"
   },
+  "boston-pizza": {
+   "name": "Boston Pizza",
+   "cat": "Food & nutrition"
+  },
   "boston-red-sox": {
    "name": "Boston Red Sox",
    "ptype": "Club & team",
@@ -6806,6 +6942,9 @@
    "name": "Bournemouth University",
    "cat": "Education",
    "k": "b"
+  },
+  "boustan": {
+   "name": "Boustan"
   },
   "bowens": {
    "name": "Bowens",
@@ -6919,6 +7058,9 @@
    "name": "BrandsMart USA",
    "k": "b"
   },
+  "brandt": {
+   "name": "Brandt"
+  },
   "branson-cognac": {
    "name": "Branson Cognac",
    "k": "b"
@@ -6926,6 +7068,10 @@
   "braskem": {
    "name": "Braskem",
    "k": "b"
+  },
+  "brasseurs-du-nord": {
+   "name": "Brasseurs du Nord",
+   "cat": "Telco"
   },
   "brava-roof-tile": {
    "name": "Brava Roof Tile",
@@ -7630,6 +7776,9 @@
     "logo"
    ]
   },
+  "bumper-to-bumper": {
+   "name": "Bumper to Bumper"
+  },
   "bundaberg-rum": {
    "name": "Bundaberg Rum",
    "cat": "Alcohol",
@@ -7900,6 +8049,9 @@
    "name": "C91.3",
    "k": "b"
   },
+  "caa-saskatchewan": {
+   "name": "CAA Saskatchewan"
+  },
   "caa-sports": {
    "name": "CAA Sports",
    "cat": "Professional services",
@@ -8077,6 +8229,22 @@
     "Official partner"
    ]
   },
+  "calgary-stampeders": {
+   "name": "Calgary Stampeders",
+   "domain": "stampeders.com",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "ptiers": [
+    "Jersey partner",
+    "Official partner",
+    "Media partner"
+   ],
+   "ptiersChecked": "2026-11-17"
+  },
   "calibre-chartered-accountants": {
    "name": "Calibre Chartered Accountants",
    "k": "b",
@@ -8148,6 +8316,9 @@
    "name": "Cambridge Partners",
    "k": "b"
   },
+  "cameco": {
+   "name": "Cameco"
+  },
   "camelbak": {
    "name": "CamelBak",
    "cat": "Sporting goods & equipment",
@@ -8193,6 +8364,10 @@
     "logo"
    ]
   },
+  "canada-gold": {
+   "name": "Canada Gold",
+   "cat": "Mining & resources"
+  },
   "canada-life": {
    "name": "Canada Life",
    "k": "b"
@@ -8206,6 +8381,13 @@
    ],
    "ptype": "Governing body",
    "k": "p"
+  },
+  "canada-sun-vitamins": {
+   "name": "Canada Sun Vitamins",
+   "cat": "Health & beauty"
+  },
+  "canadian-blood-services": {
+   "name": "Canadian Blood Services"
   },
   "canadian-club": {
    "name": "Canadian Club",
@@ -8223,6 +8405,9 @@
    "ptype": "League & competition",
    "k": "p",
    "logo": "assets/logos/canadian-hockey-league.png"
+  },
+  "canadian-north": {
+   "name": "Canadian North"
   },
   "canadian-tire": {
    "name": "Canadian Tire",
@@ -8417,6 +8602,9 @@
    "cat": "Banking & finance",
    "k": "b"
   },
+  "canwel": {
+   "name": "Canwel"
+  },
   "canyon-sram": {
    "name": "Canyon-SRAM",
    "ptype": "Club & team",
@@ -8462,6 +8650,10 @@
    ],
    "cat": "Technology",
    "k": "b"
+  },
+  "capital-automotive-group": {
+   "name": "Capital Automotive Group",
+   "cat": "Banking & finance"
   },
   "capital-com": {
    "name": "Capital.com",
@@ -8802,6 +8994,9 @@
     "logo"
    ]
   },
+  "carstar": {
+   "name": "CARSTAR"
+  },
   "carta": {
    "name": "Carta",
    "k": "b"
@@ -8861,6 +9056,12 @@
     "logo"
    ]
   },
+  "cash-in-time": {
+   "name": "Cash in Time"
+  },
+  "cash-today-title-today": {
+   "name": "Cash Today Title Today"
+  },
   "casillero-del-diablo": {
    "name": "Casillero del Diablo",
    "k": "b"
@@ -8869,6 +9070,10 @@
    "name": "Casino Arizona",
    "cat": "Betting & wagering",
    "k": "b"
+  },
+  "casino-regina-and-moose-jaw": {
+   "name": "Casino Regina & Moose Jaw",
+   "cat": "Betting & wagering"
   },
   "casper": {
    "name": "Casper",
@@ -8971,6 +9176,9 @@
    "name": "CBC",
    "k": "b"
   },
+  "cbcra": {
+   "name": "CBCRA"
+  },
   "cbr-canberra": {
    "name": "CBR Canberra",
    "k": "b"
@@ -9018,6 +9226,10 @@
   "ccw-cabinet-works": {
    "name": "CCW Cabinet Works",
    "k": "b"
+  },
+  "cd-logistics": {
+   "name": "CD Logistics",
+   "cat": "Logistics & transport"
   },
   "cdc": {
    "name": "CDC",
@@ -9193,6 +9405,10 @@
    "bf": [
     "icon"
    ]
+  },
+  "century-casinos": {
+   "name": "Century Casinos",
+   "cat": "Betting & wagering"
   },
   "century-yuasa": {
    "name": "Century Yuasa",
@@ -9555,6 +9771,9 @@
    "name": "Chevron",
    "cat": "Energy & utilities",
    "k": "b"
+  },
+  "chez-le-peintre": {
+   "name": "Chez le Peintre"
   },
   "chicago-architecture-center": {
    "name": "Chicago Architecture Center",
@@ -10248,6 +10467,9 @@
    "name": "Claudelands",
    "k": "b"
   },
+  "clay-oven": {
+   "name": "Clay Oven"
+  },
   "claymar-construction": {
    "name": "Claymar Construction",
    "cat": "Construction & property",
@@ -10555,6 +10777,9 @@
   "cn": {
    "name": "CN",
    "k": "b"
+  },
+  "co-op": {
+   "name": "Co-op"
   },
   "co-studio": {
    "name": "Co Studio",
@@ -10875,6 +11100,9 @@
     "Media partner"
    ]
   },
+  "columbus-cafe": {
+   "name": "Columbus Café"
+  },
   "columbus-crew": {
    "name": "Columbus Crew",
    "domain": "columbuscrew.com",
@@ -11194,6 +11422,10 @@
    "name": "Conecuh Sausage",
    "k": "b"
   },
+  "conexus-credit-union": {
+   "name": "Conexus Credit Union",
+   "cat": "Banking & finance"
+  },
   "confident-girls-foundation": {
    "name": "Confident Girls Foundation",
    "cat": "Not-for-profit",
@@ -11272,6 +11504,9 @@
    "name": "Conroy Removals",
    "k": "b"
   },
+  "consignaction": {
+   "name": "Consignaction"
+  },
   "constant-contact": {
    "name": "Constant Contact",
    "cat": "Technology",
@@ -11290,6 +11525,10 @@
   "constellation": {
    "name": "Constellation",
    "k": "b"
+  },
+  "construction-labour-relations-alberta": {
+   "name": "Construction Labour Relations Alberta",
+   "cat": "Construction & property"
   },
   "container-space": {
    "name": "Container Space",
@@ -11392,6 +11631,10 @@
   "cooper-cheese": {
    "name": "Cooper Cheese",
    "k": "b"
+  },
+  "cooper-equipment-rentals": {
+   "name": "Cooper Equipment Rentals",
+   "cat": "Sporting goods & equipment"
   },
   "coopers": {
    "name": "Coopers",
@@ -11625,6 +11868,9 @@
    "name": "CORT",
    "k": "b"
   },
+  "corus": {
+   "name": "Corus"
+  },
   "coserv": {
    "name": "CoServ",
    "k": "b"
@@ -11755,6 +12001,10 @@
    ],
    "ptiersChecked": "2026-11-16"
   },
+  "coventry-homes": {
+   "name": "Coventry Homes",
+   "cat": "Construction & property"
+  },
   "cover-more": {
    "name": "Cover-More",
    "k": "b",
@@ -11795,6 +12045,9 @@
     "icon",
     "logo"
    ]
+  },
+  "cpap-machines": {
+   "name": "CPAP Machines"
   },
   "cpe": {
    "name": "CPE",
@@ -12228,6 +12481,9 @@
    "cat": "Agriculture",
    "k": "b"
   },
+  "crystal-glass": {
+   "name": "Crystal Glass"
+  },
   "crystal-palace": {
    "name": "Crystal Palace",
    "ptype": "Club & team",
@@ -12300,6 +12556,9 @@
    "name": "CTRL Cyber",
    "cat": "Technology",
    "k": "b"
+  },
+  "ctv": {
+   "name": "CTV"
   },
   "cub-cadet": {
    "name": "Cub Cadet",
@@ -12761,6 +13020,9 @@
    "cat": "Automotive",
    "k": "b"
   },
+  "dave-s-diesel-repair": {
+   "name": "Dave's Diesel Repair"
+  },
   "david-auto": {
    "name": "David Auto",
    "k": "b"
@@ -12782,6 +13044,10 @@
   "david-lloyd-clubs": {
    "name": "David Lloyd Clubs",
    "k": "b"
+  },
+  "davidson-powerline-construction": {
+   "name": "Davidson Powerline Construction",
+   "cat": "Energy & utilities"
   },
   "davis-cup": {
    "name": "Davis Cup",
@@ -13105,6 +13371,9 @@
    "k": "b",
    "cat": "Airlines & travel"
   },
+  "demenagement-le-clan-panneton": {
+   "name": "Déménagement Le Clan Panneton"
+  },
   "denis-wheeler-earthmoving": {
    "name": "Denis Wheeler Earthmoving",
    "k": "b"
@@ -13201,6 +13470,9 @@
    "name": "DePaul University",
    "cat": "Education",
    "k": "b"
+  },
+  "depotium": {
+   "name": "Depotium"
   },
   "desert-financial-credit-union": {
    "name": "Desert Financial Credit Union",
@@ -13497,9 +13769,16 @@
    "name": "Dios Azul",
    "k": "b"
   },
+  "direct-travel": {
+   "name": "Direct Travel",
+   "cat": "Airlines & travel"
+  },
   "directv": {
    "name": "DIRECTV",
    "k": "b"
+  },
+  "directwest": {
+   "name": "DirectWest"
   },
   "dirty-frank-s": {
    "name": "Dirty Frank's",
@@ -13618,6 +13897,10 @@
    "domain": "dobeltequila.com",
    "cat": "Alcohol",
    "k": "b"
+  },
+  "docteur-du-pare-brise": {
+   "name": "Docteur du Pare-Brise",
+   "cat": "Telco"
   },
   "dodo": {
    "name": "Dodo",
@@ -13980,6 +14263,9 @@
     "logo"
    ]
   },
+  "driving-force": {
+   "name": "Driving Force"
+  },
   "droppoint": {
    "name": "Droppoint",
    "cat": "Logistics & transport",
@@ -14070,6 +14356,9 @@
   "dudley-debosier": {
    "name": "Dudley DeBosier",
    "k": "b"
+  },
+  "dueck-auto-group": {
+   "name": "Dueck Auto Group"
   },
   "duke-energy": {
    "name": "Duke Energy",
@@ -14514,6 +14803,21 @@
    "name": "Edison House Group",
    "k": "b"
   },
+  "edmonton-elks": {
+   "name": "Edmonton Elks",
+   "domain": "goelks.com",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "ptiers": [
+    "Executive partner",
+    "Corporate partner"
+   ],
+   "ptiersChecked": "2026-11-17"
+  },
   "edmonton-family-medical-centre": {
    "name": "Edmonton Family Medical Centre",
    "k": "b",
@@ -14796,6 +15100,10 @@
    "name": "Elite Maintenance Services",
    "k": "b"
   },
+  "elite-promotional-marketing": {
+   "name": "Elite Promotional Marketing",
+   "cat": "Professional services"
+  },
   "elite-solar": {
    "name": "ELITE Solar",
    "cat": "Energy & utilities",
@@ -15047,6 +15355,9 @@
    "logo": "assets/logos/engelbert-strauss.png",
    "domain": "strauss.com"
   },
+  "engelheim-charter": {
+   "name": "Engelheim Charter"
+  },
   "engie": {
    "name": "ENGIE",
    "cat": "Energy & utilities",
@@ -15185,6 +15496,9 @@
   "eos": {
    "name": "eos",
    "k": "b"
+  },
+  "epatante-patate": {
+   "name": "Épatante Patate"
   },
   "epc-solar": {
    "name": "EPC Solar",
@@ -16528,9 +16842,16 @@
    "cat": "Not-for-profit",
    "k": "b"
   },
+  "first-nations-university-of-canada": {
+   "name": "First Nations University of Canada",
+   "cat": "Education"
+  },
   "first-principles-constructors": {
    "name": "First Principles Constructors",
    "k": "b"
+  },
+  "first-student": {
+   "name": "First Student"
   },
   "first-tech-federal-credit-union": {
    "name": "First Tech Federal Credit Union",
@@ -16573,6 +16894,10 @@
    "name": "Fisher Funds",
    "k": "b"
   },
+  "fit-foods": {
+   "name": "Fit Foods",
+   "cat": "Food & nutrition"
+  },
   "fitler-club": {
    "name": "Fitler Club",
    "k": "b"
@@ -16602,6 +16927,9 @@
   "fix-it-fitzy": {
    "name": "Fix It Fitzy",
    "k": "b"
+  },
+  "fizz": {
+   "name": "Fizz"
   },
   "flamingo": {
    "name": "Flamingo",
@@ -16966,6 +17294,9 @@
    "logo": "assets/logos/fortinet.png",
    "domain": "fortinet.com"
   },
+  "fortisbc": {
+   "name": "FortisBC"
+  },
   "fortra": {
    "name": "Fortra",
    "k": "b"
@@ -16979,6 +17310,10 @@
     "icon",
     "logo"
    ]
+  },
+  "forty-creek-whisky": {
+   "name": "Forty Creek Whisky",
+   "cat": "Alcohol"
   },
   "fost-and-co": {
    "name": "Fost & Co",
@@ -17153,6 +17488,10 @@
     "icon",
     "logo"
    ]
+  },
+  "freedom-mobile": {
+   "name": "Freedom Mobile",
+   "cat": "Retail"
   },
   "freedom-pools-south-island": {
    "name": "Freedom Pools South Island",
@@ -17401,6 +17740,10 @@
    "name": "Fubo",
    "k": "b"
   },
+  "fuel-crs": {
+   "name": "Fuel CRS",
+   "cat": "Energy & utilities"
+  },
   "fugro": {
    "name": "Fugro",
    "k": "b"
@@ -17524,6 +17867,9 @@
     "logo"
    ]
   },
+  "g3": {
+   "name": "G3"
+  },
   "gabba-sporting-products": {
    "name": "Gabba Sporting Products",
    "k": "b"
@@ -17608,6 +17954,9 @@
    "name": "Gameready Performance",
    "cat": "Health & beauty",
    "k": "b"
+  },
+  "gamesense": {
+   "name": "GameSense"
   },
   "gamstop": {
    "name": "GAMSTOP",
@@ -18165,6 +18514,9 @@
     "logo"
    ]
   },
+  "global-news": {
+   "name": "Global News"
+  },
   "global-payments": {
    "name": "Global Payments",
    "k": "b"
@@ -18183,6 +18535,13 @@
   "globe-life": {
    "name": "Globe Life",
    "k": "b"
+  },
+  "globe-property-management": {
+   "name": "Globe Property Management",
+   "cat": "Construction & property"
+  },
+  "gmc": {
+   "name": "GMC"
   },
   "gmd": {
    "name": "GMD",
@@ -18534,6 +18893,10 @@
    "cat": "Health & beauty",
    "k": "b"
   },
+  "goodlife-fitness": {
+   "name": "GoodLife Fitness",
+   "cat": "Health & beauty"
+  },
   "goodr": {
    "name": "goodr",
    "k": "b"
@@ -18545,6 +18908,9 @@
   "goodwe": {
    "name": "GoodWe",
    "k": "b"
+  },
+  "goodwill": {
+   "name": "Goodwill"
   },
   "goodwill-industries-of-southeast-louisiana": {
    "name": "Goodwill Industries of Southeast Louisiana",
@@ -18836,6 +19202,9 @@
    "cat": "Food & nutrition",
    "k": "b"
   },
+  "green-outdoor-living": {
+   "name": "Green Outdoor Living"
+  },
   "greene-king": {
    "name": "Greene King",
    "cat": "Alcohol",
@@ -18989,6 +19358,9 @@
     "logo"
    ]
   },
+  "groupe-clr": {
+   "name": "Groupe CLR"
+  },
   "groupe-menard": {
    "name": "Groupe Ménard",
    "k": "b"
@@ -19058,6 +19430,9 @@
    "k": "b",
    "logo": "assets/logos/gtech.png",
    "domain": "gtech.co.uk"
+  },
+  "gtr-turf": {
+   "name": "GTR Turf"
   },
   "guardian": {
    "name": "Guardian",
@@ -19348,6 +19723,25 @@
    "name": "Hamilton Elevators NSW",
    "k": "b"
   },
+  "hamilton-tiger-cats": {
+   "name": "Hamilton Tiger-Cats",
+   "domain": "ticats.ca",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "aliases": [
+    "Ticats"
+   ],
+   "ptiers": [
+    "Naming rights",
+    "Jersey partner",
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-17"
+  },
   "hammersmith-works": {
    "name": "Hammersmith Works",
    "k": "b"
@@ -19567,10 +19961,18 @@
    "name": "Hartbeat",
    "k": "b"
   },
+  "harvard-media": {
+   "name": "Harvard Media",
+   "cat": "Media & broadcast"
+  },
   "harvard-pilgrim-health-care": {
    "name": "Harvard Pilgrim Health Care",
    "cat": "Health & beauty",
    "k": "b"
+  },
+  "harvard-western-insurance": {
+   "name": "Harvard Western Insurance",
+   "cat": "Insurance"
   },
   "harves": {
    "name": "Harves",
@@ -19875,6 +20277,10 @@
   "heart-of-florida-united-way": {
    "name": "Heart of Florida United Way",
    "k": "b"
+  },
+  "heavy-metal-equipment": {
+   "name": "Heavy Metal Equipment",
+   "cat": "Sporting goods & equipment"
   },
   "heineken": {
    "name": "Heineken",
@@ -20651,6 +21057,10 @@
    "cat": "Airlines & travel",
    "k": "b"
   },
+  "hotel-saskatchewan": {
+   "name": "Hotel Saskatchewan",
+   "cat": "Airlines & travel"
+  },
   "hotel-valencia-santana-row": {
    "name": "Hotel Valencia Santana Row",
    "cat": "Airlines & travel",
@@ -20928,6 +21338,9 @@
    "name": "Hughes & Coleman Injury Lawyers",
    "cat": "Professional services",
    "k": "b"
+  },
+  "hughes-car-wash": {
+   "name": "Hughes Car Wash"
   },
   "hull-city": {
    "name": "Hull City",
@@ -21220,6 +21633,10 @@
    "name": "i98FM",
    "k": "b"
   },
+  "ia-financial-group": {
+   "name": "iA Financial Group",
+   "cat": "Banking & finance"
+  },
   "ian-dick-concrete": {
    "name": "Ian Dick Concrete",
    "cat": "Construction & property",
@@ -21286,6 +21703,9 @@
    "cat": "Other",
    "k": "b"
   },
+  "icbc": {
+   "name": "ICBC"
+  },
   "icc": {
    "name": "ICC",
    "domain": "icc-cricket.com",
@@ -21305,6 +21725,10 @@
    ],
    "ptype": "Event",
    "k": "p"
+  },
+  "ice-cream-depot": {
+   "name": "Ice Cream Depot",
+   "cat": "Food & nutrition"
   },
   "icon-digital": {
    "name": "Icon Digital",
@@ -21352,6 +21776,10 @@
   "ifys": {
    "name": "IFYS",
    "k": "b"
+  },
+  "ig-wealth-management": {
+   "name": "IG Wealth Management",
+   "cat": "Banking & finance"
   },
   "iga": {
    "name": "IGA",
@@ -21539,6 +21967,9 @@
   "imagination-graphics": {
    "name": "Imagination Graphics",
    "k": "b"
+  },
+  "imagination-ink": {
+   "name": "Imagination Ink"
   },
   "imagine-signs": {
    "name": "Imagine Signs",
@@ -21878,6 +22309,9 @@
    "cat": "Technology",
    "k": "b"
   },
+  "insightrix": {
+   "name": "Insightrix"
+  },
   "inspire-arena": {
    "name": "Inspire Arena",
    "ptype": "Venue",
@@ -22034,6 +22468,9 @@
    "ptype": "Governing body",
    "k": "p",
    "logo": "assets/logos/international-luge-federation.png"
+  },
+  "international-mascot": {
+   "name": "International Mascot"
   },
   "international-sports-college-australia": {
    "name": "International Sports College Australia",
@@ -22323,6 +22760,13 @@
     "logo"
    ]
   },
+  "isaute": {
+   "name": "iSaute"
+  },
+  "isc": {
+   "name": "ISC",
+   "cat": "Apparel & footwear"
+  },
   "isc-sport": {
    "name": "ISC Sport",
    "cat": "Apparel & footwear",
@@ -22412,6 +22856,9 @@
    ],
    "logo": "assets/logos/itv.png"
   },
+  "iuoe-local-955": {
+   "name": "IUOE Local 955"
+  },
   "iux": {
    "name": "IUX",
    "cat": "Fintech, crypto & trading",
@@ -22459,6 +22906,9 @@
    "cat": "Banking & finance",
    "k": "b",
    "logo": "assets/logos/j-p-morgan.png"
+  },
+  "j-p-wiser-s": {
+   "name": "J.P. Wiser's"
   },
   "j-rgen-klopp": {
    "name": "Jürgen Klopp",
@@ -22633,6 +23083,9 @@
    "name": "James Cook University",
    "cat": "Education",
    "k": "b"
+  },
+  "james-h-brown": {
+   "name": "James H. Brown"
   },
   "james-hardie": {
    "name": "James Hardie",
@@ -22855,6 +23308,10 @@
    "cat": "Food & nutrition",
    "k": "b"
   },
+  "jersey-mike-s-subs": {
+   "name": "Jersey Mike's Subs",
+   "cat": "Food & nutrition"
+  },
   "jessica-pegula": {
    "name": "Jessica Pegula",
    "ptype": "Athlete & talent",
@@ -22887,6 +23344,10 @@
     "logo"
    ]
   },
+  "jetset-parking": {
+   "name": "JetSet Parking",
+   "cat": "Logistics & transport"
+  },
   "jetset-pilates": {
    "name": "JetSet Pilates",
    "k": "b"
@@ -22904,6 +23365,9 @@
    "name": "Jharkhand T20 League",
    "ptype": "League & competition",
    "k": "p"
+  },
+  "jiffy-lube": {
+   "name": "Jiffy Lube"
   },
   "jim-beam": {
    "name": "Jim Beam",
@@ -22994,6 +23458,10 @@
    "name": "JLab",
    "k": "b"
   },
+  "jm-media": {
+   "name": "JM Media",
+   "cat": "Media & broadcast"
+  },
   "jma-ventures": {
    "name": "JMA Ventures",
    "k": "b"
@@ -23001,6 +23469,9 @@
   "jmc": {
    "name": "JMC",
    "k": "b"
+  },
+  "jmins": {
+   "name": "JMINS"
   },
   "jnc": {
    "name": "JNC",
@@ -23099,6 +23570,9 @@
    ],
    "cat": "Logistics & transport",
    "k": "b"
+  },
+  "johnston-group": {
+   "name": "Johnston Group"
   },
   "johnstons": {
    "name": "Johnstons",
@@ -23248,6 +23722,9 @@
   "jurovich-surveying": {
    "name": "Jurovich Surveying",
    "k": "b"
+  },
+  "just-bite-me": {
+   "name": "Just Bite Me"
   },
   "just-water": {
    "name": "Just Water",
@@ -23450,6 +23927,9 @@
    "name": "Kari Foundation",
    "cat": "Not-for-profit",
    "k": "b"
+  },
+  "karl-hager-limb-and-brace": {
+   "name": "Karl Hager Limb & Brace"
   },
   "kas-australia": {
    "name": "KAS Australia",
@@ -24379,6 +24859,10 @@
    "name": "KUTV",
    "k": "b"
   },
+  "kv-capital": {
+   "name": "KV Capital",
+   "cat": "Banking & finance"
+  },
   "kwik-goal": {
    "name": "Kwik Goal",
    "k": "b"
@@ -24443,6 +24927,9 @@
    "bf": [
     "icon"
    ]
+  },
+  "la-cage-brasserie-sportive": {
+   "name": "La Cage Brasserie sportive"
   },
   "la-clippers": {
    "name": "LA Clippers",
@@ -24545,6 +25032,9 @@
     "icon"
    ]
   },
+  "la-z-boy": {
+   "name": "La-Z-Boy"
+  },
   "la28": {
    "name": "LA28",
    "domain": "la28.org",
@@ -24625,6 +25115,9 @@
   "lait-s-go": {
    "name": "Lait's Go",
    "k": "b"
+  },
+  "laiterie-de-coaticook": {
+   "name": "Laiterie de Coaticook"
   },
   "laliga": {
    "name": "LaLiga",
@@ -24918,9 +25411,16 @@
     "logo"
    ]
   },
+  "le-journal-de-montreal": {
+   "name": "Le Journal de Montréal"
+  },
   "le-meridien-columbus": {
    "name": "Le Méridien Columbus",
    "k": "b"
+  },
+  "le-porc-du-quebec": {
+   "name": "Le Porc du Québec",
+   "cat": "Telco"
   },
   "leader-and-watt": {
    "name": "Leader & Watt",
@@ -24964,6 +25464,9 @@
   "leavitt-group": {
    "name": "Leavitt Group",
    "k": "b"
+  },
+  "leavitt-machinery": {
+   "name": "Leavitt Machinery"
   },
   "lebron-james": {
    "name": "LeBron James",
@@ -25028,6 +25531,14 @@
   "legaci-tomorrow": {
    "name": "LEGACI Tomorrow",
    "k": "b"
+  },
+  "legacies-health-centre": {
+   "name": "Legacies Health Centre",
+   "cat": "Health & beauty"
+  },
+  "legacy-catering-and-services": {
+   "name": "Legacy Catering & Services",
+   "cat": "Not-for-profit"
   },
   "legend-sportswear": {
    "name": "Legend Sportswear",
@@ -25525,6 +26036,9 @@
    "name": "LIU Brooklyn",
    "k": "b"
   },
+  "liuna-local-1611": {
+   "name": "LiUNA Local 1611"
+  },
   "liv-golf": {
    "name": "LIV Golf",
    "ptype": "League & competition",
@@ -25723,6 +26237,9 @@
    "k": "p",
    "logo": "assets/logos/london-city-lionesses.png"
   },
+  "london-drugs": {
+   "name": "London Drugs"
+  },
   "london-felt-roofing": {
    "name": "London Felt Roofing",
    "k": "b"
@@ -25840,6 +26357,12 @@
    "k": "b",
    "logo": "assets/logos/lord-s-taverners.png",
    "domain": "lordstaverners.org"
+  },
+  "lordco": {
+   "name": "Lordco"
+  },
+  "lordco-auto-parts": {
+   "name": "Lordco Auto Parts"
   },
   "los-angeles-angels": {
    "name": "Los Angeles Angels",
@@ -26363,6 +26886,9 @@
     "logo"
    ]
   },
+  "macdon": {
+   "name": "MacDon"
+  },
   "mackay-regional-council": {
    "name": "Mackay Regional Council",
    "cat": "Tourism & government",
@@ -26557,6 +27083,10 @@
    "name": "Malcolm Pacific Immigration",
    "k": "b"
   },
+  "mallette": {
+   "name": "Mallette",
+   "cat": "Retail"
+  },
   "mammoth": {
    "name": "Mammoth",
    "k": "b"
@@ -26661,6 +27191,14 @@
     "logo"
    ]
   },
+  "manitoba-hydro": {
+   "name": "Manitoba Hydro",
+   "cat": "Energy & utilities"
+  },
+  "manitoba-public-insurance": {
+   "name": "Manitoba Public Insurance",
+   "cat": "Insurance"
+  },
   "manly-fast-ferry": {
    "name": "Manly Fast Ferry",
    "cat": "Logistics & transport",
@@ -26716,6 +27254,10 @@
     "icon",
     "logo"
    ]
+  },
+  "maple-leaf-foods": {
+   "name": "Maple Leaf Foods",
+   "cat": "Food & nutrition"
   },
   "maple-living": {
    "name": "Maple Living",
@@ -27001,6 +27543,9 @@
     "logo"
    ]
   },
+  "maxi": {
+   "name": "Maxi"
+  },
   "maxigesic": {
    "name": "Maxigesic",
    "k": "b"
@@ -27154,6 +27699,9 @@
    "pnote": "Backs grassroots and junior sport through local restaurants, aiming to improve the health and wellbeing of Australian children.",
    "psrc": "https://www.mcdonalds.com/au/en-au/about-us/our-impact/community-connection/local-initiatives.html",
    "profiled": "2026-11-10"
+  },
+  "mcdougall-auctioneers": {
+   "name": "McDougall Auctioneers"
   },
   "mcfall-fuel": {
    "name": "McFall Fuel",
@@ -27315,6 +27863,9 @@
   "mediexcel": {
    "name": "MediExcel",
    "k": "b"
+  },
+  "medray-imaging": {
+   "name": "MedRay Imaging"
   },
   "medstar-health": {
    "name": "MedStar Health",
@@ -27939,6 +28490,10 @@
    "name": "Miara Group",
    "k": "b"
   },
+  "mic-medical-imaging": {
+   "name": "MIC Medical Imaging",
+   "cat": "Health & beauty"
+  },
   "miccosukee": {
    "name": "Miccosukee",
    "k": "b"
@@ -28064,6 +28619,10 @@
    "name": "Midwest Ford Dealers",
    "cat": "Automotive",
    "k": "b"
+  },
+  "midwest-properties": {
+   "name": "Midwest Properties",
+   "cat": "Construction & property"
   },
   "miele": {
    "name": "Miele",
@@ -28551,6 +29110,9 @@
    ],
    "logo": "assets/logos/mls.png"
   },
+  "mnp": {
+   "name": "MNP"
+  },
   "mo-t-and-chandon": {
    "name": "Moët & Chandon",
    "cat": "Alcohol",
@@ -28651,6 +29213,10 @@
     "logo"
    ]
   },
+  "mohawk-college": {
+   "name": "Mohawk College",
+   "cat": "Education"
+  },
   "mohun-bagan-super-giant": {
    "name": "Mohun Bagan Super Giant",
    "domain": "mohunbaganclub.com",
@@ -28734,6 +29300,9 @@
    "name": "Mondelēz International",
    "k": "b"
   },
+  "mondetta": {
+   "name": "Mondetta"
+  },
   "moneygram": {
    "name": "MoneyGram",
    "k": "b"
@@ -28786,6 +29355,25 @@
   "montlick-injury-attorneys": {
    "name": "Montlick Injury Attorneys",
    "k": "b"
+  },
+  "montreal-alouettes": {
+   "name": "Montreal Alouettes",
+   "domain": "montrealalouettes.com",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "aliases": [
+    "Alouettes de Montréal"
+   ],
+   "ptiers": [
+    "Major partner",
+    "Official partner",
+    "Media partner"
+   ],
+   "ptiersChecked": "2026-11-17"
   },
   "montreal-canadiens": {
    "name": "Montréal Canadiens",
@@ -29243,6 +29831,12 @@
    ],
    "ptype": "League & competition",
    "k": "p"
+  },
+  "mr-lube": {
+   "name": "Mr. Lube"
+  },
+  "mr-mikes": {
+   "name": "Mr. Mikes"
   },
   "mr-roads": {
    "name": "MR Roads",
@@ -29784,6 +30378,10 @@
    "name": "Natio",
    "k": "b"
   },
+  "national-bank": {
+   "name": "National Bank",
+   "cat": "Banking & finance"
+  },
   "national-fire-ant-eradication-program": {
    "name": "National Fire Ant Eradication Program",
    "k": "b"
@@ -29885,6 +30483,9 @@
    "name": "Navigation Homes",
    "cat": "Construction & property",
    "k": "b"
+  },
+  "naya": {
+   "name": "Naya"
   },
   "naylor-love": {
    "name": "Naylor Love",
@@ -30242,6 +30843,9 @@
    "name": "NetJets",
    "k": "b"
   },
+  "nettoyeur-chateauguay": {
+   "name": "Nettoyeur Châteauguay"
+  },
   "network-10": {
    "name": "Network 10",
    "domain": "10.com.au",
@@ -30373,6 +30977,9 @@
    "domain": "neweracap.com",
    "cat": "Apparel & footwear",
    "k": "b"
+  },
+  "new-era-cap": {
+   "name": "New Era Cap"
   },
   "new-era-technology": {
    "name": "New Era Technology",
@@ -30820,6 +31427,10 @@
    "logo": "assets/logos/nexen-tyre.png",
    "domain": "nexentire.com"
   },
+  "nexgen-energy": {
+   "name": "NexGen Energy",
+   "cat": "Energy & utilities"
+  },
   "nexgen-hyperbaric": {
    "name": "NexGen Hyperbaric",
    "k": "b"
@@ -30999,6 +31610,9 @@
    "cat": "Apparel & footwear",
    "k": "b"
   },
+  "nikihk": {
+   "name": "Nîkihk"
+  },
   "niltech": {
    "name": "Niltech",
    "k": "b"
@@ -31155,6 +31769,9 @@
    "cat": "Apparel & footwear",
    "k": "b"
   },
+  "no-frills": {
+   "name": "No Frills"
+  },
   "nobody-trashes-tennessee": {
    "name": "Nobody Trashes Tennessee",
    "k": "b"
@@ -31178,6 +31795,9 @@
    ],
    "cat": "Automotive",
    "k": "b"
+  },
+  "nolinor-aviation": {
+   "name": "Nolinor Aviation"
   },
   "nomadic": {
    "name": "Nomadic",
@@ -31247,6 +31867,9 @@
     "Local supporter"
    ],
    "ptiersChecked": "2026-11-17"
+  },
+  "north-central-co-op": {
+   "name": "North Central Co-op"
   },
   "north-cloud": {
    "name": "North Cloud",
@@ -32299,6 +32922,10 @@
    "cat": "Automotive",
    "k": "b"
   },
+  "oil-sands-alliance": {
+   "name": "Oil Sands Alliance",
+   "cat": "Energy & utilities"
+  },
   "oklahoma-city-thunder": {
    "name": "Oklahoma City Thunder",
    "ptype": "Club & team",
@@ -32316,6 +32943,9 @@
    "name": "OKX",
    "cat": "Fintech, crypto & trading",
    "k": "b"
+  },
+  "old-dutch": {
+   "name": "Old Dutch"
   },
   "old-el-paso": {
    "name": "Old El Paso",
@@ -32465,6 +33095,10 @@
    "name": "On Our Sleeves",
    "cat": "Apparel & footwear",
    "k": "b"
+  },
+  "on-track-kuntz-and-company": {
+   "name": "On Track Kuntz & Company",
+   "cat": "Apparel & footwear"
   },
   "once-upon-a-coconut": {
    "name": "Once Upon a Coconut",
@@ -33003,6 +33637,25 @@
    "k": "b",
    "logo": "assets/logos/otb-led-services.png"
   },
+  "ottawa-redblacks": {
+   "name": "Ottawa Redblacks",
+   "domain": "ottawaredblacks.com",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "aliases": [
+    "Ottawa REDBLACKS"
+   ],
+   "ptiers": [
+    "Jersey partner",
+    "Official partner",
+    "Media partner"
+   ],
+   "ptiersChecked": "2026-11-17"
+  },
   "ottawa-senators": {
    "name": "Ottawa Senators",
    "ptype": "Club & team",
@@ -33164,6 +33817,9 @@
    "bf": [
     "icon"
    ]
+  },
+  "pacific-blue-cross": {
+   "name": "Pacific Blue Cross"
   },
   "pacific-four-series": {
    "name": "Pacific Four Series",
@@ -33405,6 +34061,9 @@
    ],
    "ptiersChecked": "2026-11-16"
   },
+  "paramedic": {
+   "name": "Paramedic"
+  },
   "paramount": {
    "name": "Paramount+",
    "cat": "Media & broadcast",
@@ -33482,6 +34141,9 @@
   "park-lane-new-york": {
    "name": "Park Lane New York",
    "k": "b"
+  },
+  "park-n-fly": {
+   "name": "Park'N Fly"
   },
   "park-on-king": {
    "name": "Park on King",
@@ -33574,6 +34236,9 @@
    "cat": "Food & nutrition",
    "k": "b"
   },
+  "pattison-outdoor": {
+   "name": "Pattison Outdoor"
+  },
   "paul-and-shark": {
    "name": "Paul & Shark",
    "cat": "Apparel & footwear",
@@ -33656,6 +34321,9 @@
     "logo"
    ]
   },
+  "payworks": {
+   "name": "Payworks"
+  },
   "paze": {
    "name": "Paze",
    "domain": "paze.com",
@@ -33693,6 +34361,9 @@
   "peachtree-tv": {
    "name": "Peachtree TV",
    "cat": "Media & broadcast"
+  },
+  "peak-of-the-market": {
+   "name": "Peak of the Market"
   },
   "peak-property-services": {
    "name": "Peak Property Services",
@@ -34405,6 +35076,9 @@
    "name": "Philly's Best",
    "k": "b"
   },
+  "phoenix-group": {
+   "name": "Phoenix Group"
+  },
   "phoenix-mercury": {
    "name": "Phoenix Mercury",
    "domain": "mercury.wnba.com",
@@ -34525,6 +35199,9 @@
    "domain": "pimms.com",
    "cat": "Alcohol",
    "k": "b"
+  },
+  "pinnacle": {
+   "name": "Pinnacle"
   },
   "pinnacle-golf-club": {
    "name": "Pinnacle Golf Club",
@@ -34670,6 +35347,13 @@
     "logo"
    ]
   },
+  "pizza-pizza": {
+   "name": "Pizza Pizza",
+   "cat": "Food & nutrition"
+  },
+  "pizzeria-phil-and-fred": {
+   "name": "Pizzeria Phil & Fred"
+  },
   "pj-fitzpatrick": {
    "name": "PJ Fitzpatrick",
    "k": "b"
@@ -34775,6 +35459,9 @@
     "icon",
     "logo"
    ]
+  },
+  "playnow": {
+   "name": "PlayNow"
   },
   "playreplay": {
    "name": "PlayReplay",
@@ -34907,6 +35594,9 @@
    "cat": "Education",
    "k": "b"
   },
+  "point-s": {
+   "name": "Point S"
+  },
   "pointsbet": {
    "name": "PointsBet",
    "k": "b",
@@ -34990,6 +35680,9 @@
    "cat": "Home & hardware",
    "k": "b"
   },
+  "pom": {
+   "name": "POM"
+  },
   "pond-lehocky": {
    "name": "Pond Lehocky",
    "k": "b"
@@ -35007,6 +35700,10 @@
   "pop-n-good": {
    "name": "Pop'n'Good",
    "k": "b"
+  },
+  "popeye-s-supplements": {
+   "name": "Popeye's Supplements",
+   "cat": "Food & nutrition"
   },
   "popeyes": {
    "name": "Popeyes",
@@ -35072,6 +35769,14 @@
    "domain": "portadownfc.co.uk",
    "k": "p",
    "logo": "assets/logos/portadown-fc.png"
+  },
+  "portage-college": {
+   "name": "Portage College",
+   "cat": "Education"
+  },
+  "porter-airlines": {
+   "name": "Porter Airlines",
+   "cat": "Airlines & travel"
   },
   "porter-group": {
    "name": "Porter Group",
@@ -35240,6 +35945,10 @@
    "name": "PPI Promotion & Apparel",
    "k": "b",
    "cat": "Apparel & footwear"
+  },
+  "prairie-skies-medical-imaging": {
+   "name": "Prairie Skies Medical Imaging",
+   "cat": "Health & beauty"
   },
   "pravha": {
    "name": "Pravha",
@@ -35488,6 +36197,9 @@
    "cat": "Education",
    "k": "b"
   },
+  "princess-auto": {
+   "name": "Princess Auto"
+  },
   "princess-cruises": {
    "name": "Princess Cruises",
    "cat": "Airlines & travel",
@@ -35637,6 +36349,10 @@
   "propm": {
    "name": "PropM",
    "k": "b"
+  },
+  "prospera-credit-union": {
+   "name": "Prospera Credit Union",
+   "cat": "Banking & finance"
   },
   "protech-locksmiths-security": {
    "name": "Protech Locksmiths & Security",
@@ -35861,6 +36577,9 @@
    "name": "Purina",
    "k": "b"
   },
+  "purolator": {
+   "name": "Purolator"
+  },
   "putauaki-trust": {
    "name": "Pūtauaki Trust",
    "k": "b"
@@ -35972,6 +36691,9 @@
    "k": "b",
    "logo": "assets/logos/qnet.png",
    "domain": "qnetltd.net"
+  },
+  "qr-calgary": {
+   "name": "QR Calgary"
   },
   "qscan": {
    "name": "Qscan",
@@ -36628,6 +37350,9 @@
    "name": "Re-Lyte",
    "k": "b"
   },
+  "re-max": {
+   "name": "RE/MAX"
+  },
   "re-max-select-realty": {
    "name": "RE/MAX Select Realty",
    "cat": "Construction & property",
@@ -36763,6 +37488,9 @@
    "name": "Recyclers",
    "k": "b"
   },
+  "red-arrow": {
+   "name": "Red Arrow"
+  },
   "red-baron": {
    "name": "Red Baron",
    "k": "b"
@@ -36894,6 +37622,9 @@
     "logo"
    ]
   },
+  "redtag-ca": {
+   "name": "Redtag.ca"
+  },
   "redwood-trust": {
    "name": "Redwood Trust",
    "k": "b"
@@ -36949,6 +37680,10 @@
   "regence": {
    "name": "Regence",
    "k": "b"
+  },
+  "regina-plumbing-and-heating": {
+   "name": "Regina Plumbing & Heating",
+   "cat": "Construction & property"
   },
   "regional-ford": {
    "name": "Regional Ford",
@@ -37257,6 +37992,9 @@
    "name": "RGK",
    "k": "b"
   },
+  "rheem-canada": {
+   "name": "Rheem Canada"
+  },
   "rhinegeist": {
    "name": "Rhinegeist",
    "k": "b"
@@ -37487,6 +38225,13 @@
    "name": "Rival Bros",
    "k": "b"
   },
+  "river-city-events": {
+   "name": "River City Events"
+  },
+  "river-cree-resort-and-casino": {
+   "name": "River Cree Resort and Casino",
+   "cat": "Betting & wagering"
+  },
   "rivernet-communications": {
    "name": "Rivernet Communications",
    "cat": "Professional services",
@@ -37649,6 +38394,14 @@
   "rockwear": {
    "name": "Rockwear",
    "k": "b"
+  },
+  "rocky-health": {
+   "name": "Rocky Health",
+   "cat": "Health & beauty"
+  },
+  "rocky-mountain-equipment": {
+   "name": "Rocky Mountain Equipment",
+   "cat": "Sporting goods & equipment"
   },
   "rocky-mountain-hospital-for-children": {
    "name": "Rocky Mountain Hospital for Children",
@@ -38023,6 +38776,9 @@
    "name": "RUCKUS Networks",
    "cat": "Media & broadcast",
    "k": "b"
+  },
+  "ruffles": {
+   "name": "Ruffles"
   },
   "rugby-australia": {
    "name": "Rugby Australia",
@@ -38791,6 +39547,40 @@
    "k": "b",
    "cat": "Non-alcoholic drinks"
   },
+  "sask-battery-distributors": {
+   "name": "Sask Battery Distributors"
+  },
+  "sask-lotteries": {
+   "name": "Sask Lotteries",
+   "cat": "Betting & wagering"
+  },
+  "saskatchewan-roughriders": {
+   "name": "Saskatchewan Roughriders",
+   "domain": "riderville.com",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "aliases": [
+    "Roughriders"
+   ],
+   "ptiers": [
+    "Founding partner",
+    "Proud partner"
+   ],
+   "ptiersChecked": "2026-11-17"
+  },
+  "saskenergy": {
+   "name": "SaskEnergy"
+  },
+  "saskpower": {
+   "name": "SaskPower"
+  },
+  "sasktel": {
+   "name": "SaskTel"
+  },
   "saudi-pro-league": {
    "name": "Saudi Pro League",
    "ptype": "League & competition",
@@ -38811,6 +39601,10 @@
     "icon",
     "logo"
    ]
+  },
+  "save-on-foods": {
+   "name": "Save-On-Foods",
+   "cat": "Food & nutrition"
   },
   "savvy-sliders": {
    "name": "Savvy Sliders",
@@ -39051,6 +39845,9 @@
    "name": "Scot Thrust",
    "k": "b"
   },
+  "scotiabank": {
+   "name": "Scotiabank"
+  },
   "scottish-open": {
    "name": "Scottish Open",
    "ptype": "Event",
@@ -39122,6 +39919,9 @@
   "searle-group": {
    "name": "Searle Group",
    "k": "b"
+  },
+  "seaspan": {
+   "name": "Seaspan"
   },
   "seat-unique": {
    "name": "Seat Unique",
@@ -39249,6 +40049,13 @@
   "securely-managed": {
    "name": "Securely Managed",
    "k": "b"
+  },
+  "security-building-supplies": {
+   "name": "Security Building Supplies",
+   "cat": "Technology"
+  },
+  "securtek": {
+   "name": "SecurTek"
   },
   "secutix": {
    "name": "Secutix",
@@ -39412,6 +40219,9 @@
    "cat": "Construction & property",
    "k": "b"
   },
+  "sentinel-storage": {
+   "name": "Sentinel Storage"
+  },
   "sentivo-vineyards": {
    "name": "Sentivo Vineyards",
    "k": "b"
@@ -39455,6 +40265,9 @@
   "serios-group": {
    "name": "Seriös Group",
    "k": "b"
+  },
+  "servco-canada": {
+   "name": "Servco Canada"
   },
   "serveto": {
    "name": "Serveto",
@@ -39545,6 +40358,9 @@
   "sge-services": {
    "name": "SGE Services",
    "k": "b"
+  },
+  "sgi": {
+   "name": "SGI"
   },
   "sgp-civil": {
    "name": "SGP Civil",
@@ -39984,6 +40800,9 @@
    "name": "Siete Foods",
    "cat": "Food & nutrition",
    "k": "b"
+  },
+  "siga": {
+   "name": "SIGA"
   },
   "sigenergy": {
    "name": "Sigenergy",
@@ -40495,6 +41314,9 @@
    "name": "Slovacek's",
    "k": "b"
   },
+  "slush-puppie": {
+   "name": "Slush Puppie"
+  },
   "smart-city": {
    "name": "Smart City",
    "k": "b"
@@ -40629,6 +41451,9 @@
    "name": "Snoqualmie Casino & Hotel",
    "cat": "Betting & wagering",
    "k": "b"
+  },
+  "snowcrest": {
+   "name": "Snowcrest"
   },
   "snowflake": {
    "name": "Snowflake",
@@ -41012,6 +41837,9 @@
    "name": "Southern Alps Brewing",
    "cat": "Alcohol",
    "k": "b"
+  },
+  "southern-chiefs-organization": {
+   "name": "Southern Chiefs' Organization"
   },
   "southern-company": {
    "name": "Southern Company",
@@ -41412,6 +42240,9 @@
   "sports-excellence-scholarship-fund": {
    "name": "Sports Excellence Scholarship Fund",
    "k": "b"
+  },
+  "sports-experts": {
+   "name": "Sports Experts"
   },
   "sports-illustrated": {
    "name": "Sports Illustrated",
@@ -42078,6 +42909,9 @@
    "cat": "Alcohol",
    "k": "b"
   },
+  "stelco": {
+   "name": "Stelco"
+  },
   "stella-artois": {
    "name": "Stella Artois",
    "cat": "Alcohol",
@@ -42553,6 +43387,9 @@
    "k": "b",
    "domain": "sunbeltrentals.com"
   },
+  "sunco": {
+   "name": "Sunco"
+  },
   "suncoast-credit-union": {
    "name": "Suncoast Credit Union",
    "cat": "Banking & finance",
@@ -42805,6 +43642,10 @@
   "supersport": {
    "name": "SuperSport",
    "k": "b"
+  },
+  "supplement-king": {
+   "name": "Supplement King",
+   "cat": "Food & nutrition"
   },
   "supplement-mart": {
    "name": "Supplement Mart",
@@ -43947,6 +44788,9 @@
    "cat": "Technology",
    "k": "b"
   },
+  "teck": {
+   "name": "Teck"
+  },
   "tecno": {
    "name": "TECNO",
    "cat": "Technology",
@@ -44008,6 +44852,9 @@
   "telfers": {
    "name": "Telfers",
    "k": "b"
+  },
+  "telpay": {
+   "name": "Telpay"
   },
   "telstra": {
    "name": "Telstra",
@@ -44152,6 +44999,9 @@
     "icon",
     "logo"
    ]
+  },
+  "teo-taxi": {
+   "name": "Téo Taxi"
   },
   "tequila-1349": {
    "name": "Tequila 1349",
@@ -44395,6 +45245,9 @@
    "name": "The Breeze",
    "k": "b"
   },
+  "the-brick": {
+   "name": "The Brick"
+  },
   "the-broncos-club": {
    "name": "The Broncos Club",
    "k": "b"
@@ -44417,6 +45270,9 @@
    "name": "The Butcher Shoppe",
    "k": "b"
   },
+  "the-canadian-brewhouse": {
+   "name": "The Canadian Brewhouse"
+  },
   "the-carpet-guys": {
    "name": "The Carpet Guys",
    "cat": "Retail",
@@ -44435,6 +45291,9 @@
    "name": "The City College of New York",
    "cat": "Education",
    "k": "b"
+  },
+  "the-co-operators": {
+   "name": "The Co-operators"
   },
   "the-coaching-gig": {
    "name": "The Coaching Gig",
@@ -44631,6 +45490,9 @@
    "name": "The Instillery",
    "k": "b"
   },
+  "the-iteam": {
+   "name": "The ITeam"
+  },
   "the-jerky-co": {
    "name": "The Jerky Co.",
    "k": "b"
@@ -44753,11 +45615,17 @@
    "cat": "Logistics & transport",
    "k": "b"
   },
+  "the-province": {
+   "name": "The Province"
+  },
   "the-r-a": {
    "name": "The R&A",
    "domain": "randa.org",
    "cat": "Sport & events",
    "k": "b"
+  },
+  "the-ranch-golf-and-country-club": {
+   "name": "The Ranch Golf & Country Club"
   },
   "the-raw-group": {
    "name": "The RAW Group",
@@ -44768,6 +45636,9 @@
     "icon",
     "logo"
    ]
+  },
+  "the-rec-room": {
+   "name": "The Rec Room"
   },
   "the-roaming-cup": {
    "name": "The Roaming Cup",
@@ -44924,6 +45795,9 @@
    "name": "The Westin",
    "k": "b"
   },
+  "the-westin-edmonton": {
+   "name": "The Westin Edmonton"
+  },
   "the-westin-kansas-city": {
    "name": "The Westin Kansas City",
    "k": "b"
@@ -44937,6 +45811,9 @@
     "icon",
     "logo"
    ]
+  },
+  "the-wireless-age": {
+   "name": "The Wireless Age"
   },
   "the-wolf": {
    "name": "The Wolf",
@@ -45511,6 +46388,9 @@
    ],
    "parent": "lion"
   },
+  "tooniebet": {
+   "name": "ToonieBet"
+  },
   "top-rank": {
    "name": "Top Rank",
    "ptype": "Other",
@@ -45572,6 +46452,24 @@
   "toro": {
    "name": "Toro",
    "k": "b"
+  },
+  "toronto-argonauts": {
+   "name": "Toronto Argonauts",
+   "domain": "argonauts.ca",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "aliases": [
+    "Argos"
+   ],
+   "ptiers": [
+    "Jersey partner",
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-17"
   },
   "toronto-blue-jays": {
    "name": "Toronto Blue Jays",
@@ -45843,6 +46741,10 @@
    "k": "b",
    "domain": "northernterritory.com"
   },
+  "tourism-saskatchewan": {
+   "name": "Tourism Saskatchewan",
+   "cat": "Tourism & government"
+  },
   "tourism-wa": {
    "name": "Tourism WA",
    "cat": "Tourism & government",
@@ -46067,6 +46969,10 @@
    "cat": "Airlines & travel",
    "k": "b"
   },
+  "traveland-rv": {
+   "name": "Traveland RV",
+   "cat": "Airlines & travel"
+  },
   "treadfirst": {
    "name": "Treadfirst",
    "k": "b"
@@ -46237,6 +47143,9 @@
     "logo"
    ]
   },
+  "triple-o-s": {
+   "name": "Triple O's"
+  },
   "triple-play": {
    "name": "Triple Play",
    "k": "b"
@@ -46349,6 +47258,9 @@
    "name": "TSB Living",
    "k": "b"
   },
+  "tsn": {
+   "name": "TSN"
+  },
   "tsn-690": {
    "name": "TSN 690",
    "k": "b"
@@ -46441,6 +47353,9 @@
    "name": "TV 2",
    "cat": "Media & broadcast",
    "k": "b"
+  },
+  "tva-sports": {
+   "name": "TVA Sports"
   },
   "tvnz": {
    "name": "TVNZ",
@@ -46919,6 +47834,9 @@
    "cat": "Banking & finance",
    "k": "b"
   },
+  "uniglobe": {
+   "name": "Uniglobe"
+  },
   "unilever": {
    "name": "Unilever",
    "cat": "Health & beauty",
@@ -47045,6 +47963,10 @@
   "universal-kids-resort": {
    "name": "Universal Kids Resort",
    "cat": "Airlines & travel"
+  },
+  "university-hospital-foundation": {
+   "name": "University Hospital Foundation",
+   "cat": "Health & beauty"
   },
   "university-hospitals": {
    "name": "University Hospitals",
@@ -48115,6 +49037,9 @@
     "logo"
    ]
   },
+  "videotron": {
+   "name": "Vidéotron"
+  },
   "vienna-beef": {
    "name": "Vienna Beef",
    "cat": "Food & nutrition",
@@ -48445,6 +49370,9 @@
     "icon",
     "logo"
    ]
+  },
+  "vistek": {
+   "name": "Vistek"
   },
   "visy": {
    "name": "Visy",
@@ -49178,6 +50106,9 @@
     "logo"
    ]
   },
+  "watson-gloves": {
+   "name": "Watson Gloves"
+  },
   "wattyl": {
    "name": "Wattyl",
    "cat": "Home & hardware",
@@ -49211,6 +50142,9 @@
   "waymo": {
    "name": "Waymo",
    "k": "b"
+  },
+  "wbm": {
+   "name": "WBM"
   },
   "wcf-insurance": {
    "name": "WCF Insurance",
@@ -49499,6 +50433,10 @@
    ],
    "logo": "assets/logos/western-bulldogs.png"
   },
+  "western-financial-group": {
+   "name": "Western Financial Group",
+   "cat": "Banking & finance"
+  },
   "western-force": {
    "name": "Western Force",
    "domain": "westernforce.com.au",
@@ -49527,6 +50465,10 @@
    "name": "Western National Property Management",
    "cat": "Construction & property",
    "k": "b"
+  },
+  "western-pizza": {
+   "name": "Western Pizza",
+   "cat": "Food & nutrition"
   },
   "western-sydney-international-airport": {
    "name": "Western Sydney International Airport",
@@ -49639,6 +50581,9 @@
    "bf": [
     "icon"
    ]
+  },
+  "westjet": {
+   "name": "WestJet"
   },
   "westminster-blinds": {
    "name": "Westminster Blinds",
@@ -49794,6 +50739,9 @@
    "name": "White Cross",
    "k": "b"
   },
+  "white-spot": {
+   "name": "White Spot"
+  },
   "white-trucks": {
    "name": "White Trucks",
    "cat": "Logistics & transport",
@@ -49890,6 +50838,9 @@
   "william-buck": {
    "name": "William Buck",
    "k": "b"
+  },
+  "william-huff": {
+   "name": "William Huff"
   },
   "williams": {
    "name": "Williams",
@@ -50036,6 +50987,24 @@
   "winnebago": {
    "name": "Winnebago",
    "k": "b"
+  },
+  "winnipeg-blue-bombers": {
+   "name": "Winnipeg Blue Bombers",
+   "domain": "bluebombers.com",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "ptiers": [
+    "Naming rights",
+    "Radio rights",
+    "Exclusive partner",
+    "Builder",
+    "Partner"
+   ],
+   "ptiersChecked": "2026-11-17"
   },
   "winnipeg-jets": {
    "name": "Winnipeg Jets",
@@ -50280,6 +51249,9 @@
   "works-for-you": {
    "name": "Works for you",
    "k": "b"
+  },
+  "worksafe-saskatchewan": {
+   "name": "WorkSafe Saskatchewan"
   },
   "worksafe-victoria": {
    "name": "WorkSafe Victoria",
@@ -50847,6 +51819,9 @@
    "name": "YB Fixings",
    "k": "b"
   },
+  "yegplus": {
+   "name": "YEGplus"
+  },
   "yellowstone-landscape": {
    "name": "Yellowstone Landscape",
    "k": "b"
@@ -50990,6 +51965,10 @@
   "young-henrys": {
    "name": "Young Henrys",
    "k": "b"
+  },
+  "young-s-equipment": {
+   "name": "Young's Equipment",
+   "cat": "Sporting goods & equipment"
   },
   "your-local-ford-stores": {
    "name": "Your Local Ford Stores",
