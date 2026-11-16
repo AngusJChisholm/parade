@@ -1,35 +1,49 @@
 {
  "generated": "2026-11-16",
  "summary": {
-  "dup_entities": 15,
-  "no_category": 596,
+  "dup_entities": 16,
+  "no_category": 595,
   "cat_mismatch": 104,
-  "slot_clash": 25,
+  "slot_clash": 26,
   "dup_deals": 9,
   "no_broadcaster": 13,
   "stale": 3,
-  "no_source": 660,
-  "anz_slot_clash": 22
+  "no_source": 658,
+  "anz_slot_clash": 23
  },
  "dup_entities": [
   {
    "names": [
-    "Commonwealth Games",
-    "Commonwealth Games Australia"
+    "Sky",
+    "Sky NZ",
+    "Sky Sport",
+    "Sky Sports"
    ],
    "slugs": [
-    "commonwealth-games",
-    "commonwealth-games-australia"
+    "sky",
+    "sky-nz",
+    "sky-sport",
+    "sky-sports"
    ]
   },
   {
    "names": [
-    "Victor",
-    "Victor Sports"
+    "TAB",
+    "TAB NZ"
    ],
    "slugs": [
-    "victor",
-    "victor-sports"
+    "tab",
+    "tab-nz"
+   ]
+  },
+  {
+   "names": [
+    "HYROX",
+    "HYROX Australia"
+   ],
+   "slugs": [
+    "hyrox",
+    "hyrox-australia"
    ]
   },
   {
@@ -44,16 +58,94 @@
   },
   {
    "names": [
-    "Sky",
-    "Sky NZ",
-    "Sky Sport",
-    "Sky Sports"
+    "Athletics",
+    "Athletics Australia",
+    "Athletics New Zealand"
    ],
    "slugs": [
-    "sky",
-    "sky-nz",
-    "sky-sport",
-    "sky-sports"
+    "athletics",
+    "athletics-australia",
+    "athletics-new-zealand"
+   ]
+  },
+  {
+   "names": [
+    "Victor",
+    "Victor Sports"
+   ],
+   "slugs": [
+    "victor",
+    "victor-sports"
+   ]
+  },
+  {
+   "names": [
+    "Hockey Australia",
+    "Hockey New Zealand"
+   ],
+   "slugs": [
+    "hockey-australia",
+    "hockey-new-zealand"
+   ]
+  },
+  {
+   "names": [
+    "Harness Racing Australia",
+    "Harness Racing NZ"
+   ],
+   "slugs": [
+    "harness-racing-australia",
+    "harness-racing-nz"
+   ]
+  },
+  {
+   "names": [
+    "Courier Mail",
+    "The Courier-Mail"
+   ],
+   "slugs": [
+    "courier-mail",
+    "the-courier-mail"
+   ]
+  },
+  {
+   "names": [
+    "Kia",
+    "Kia Australia"
+   ],
+   "slugs": [
+    "kia",
+    "kia-australia"
+   ]
+  },
+  {
+   "names": [
+    "Asahi Beverages",
+    "Asahi Beverages NZ"
+   ],
+   "slugs": [
+    "asahi-beverages",
+    "asahi-beverages-nz"
+   ]
+  },
+  {
+   "names": [
+    "Commonwealth Games",
+    "Commonwealth Games Australia"
+   ],
+   "slugs": [
+    "commonwealth-games",
+    "commonwealth-games-australia"
+   ]
+  },
+  {
+   "names": [
+    "Ant Group",
+    "Ant International"
+   ],
+   "slugs": [
+    "ant-group",
+    "ant-international"
    ]
   },
   {
@@ -74,88 +166,6 @@
    "slugs": [
     "star-sports",
     "the-star"
-   ]
-  },
-  {
-   "names": [
-    "Kia",
-    "Kia Australia"
-   ],
-   "slugs": [
-    "kia",
-    "kia-australia"
-   ]
-  },
-  {
-   "names": [
-    "Harness Racing Australia",
-    "Harness Racing NZ"
-   ],
-   "slugs": [
-    "harness-racing-australia",
-    "harness-racing-nz"
-   ]
-  },
-  {
-   "names": [
-    "Ant Group",
-    "Ant International"
-   ],
-   "slugs": [
-    "ant-group",
-    "ant-international"
-   ]
-  },
-  {
-   "names": [
-    "Athletics",
-    "Athletics Australia",
-    "Athletics New Zealand"
-   ],
-   "slugs": [
-    "athletics",
-    "athletics-australia",
-    "athletics-new-zealand"
-   ]
-  },
-  {
-   "names": [
-    "Hockey Australia",
-    "Hockey New Zealand"
-   ],
-   "slugs": [
-    "hockey-australia",
-    "hockey-new-zealand"
-   ]
-  },
-  {
-   "names": [
-    "Courier Mail",
-    "The Courier-Mail"
-   ],
-   "slugs": [
-    "courier-mail",
-    "the-courier-mail"
-   ]
-  },
-  {
-   "names": [
-    "HYROX",
-    "HYROX Australia"
-   ],
-   "slugs": [
-    "hyrox",
-    "hyrox-australia"
-   ]
-  },
-  {
-   "names": [
-    "TAB",
-    "TAB NZ"
-   ],
-   "slugs": [
-    "tab",
-    "tab-nz"
    ]
   },
   {
@@ -698,11 +708,6 @@
   {
    "brand": "The Daily Telegraph",
    "slug": "the-daily-telegraph",
-   "deals": 1
-  },
-  {
-   "brand": "Cricketers Arms",
-   "slug": "cricketers-arms",
    "deals": 1
   },
   {
@@ -4070,6 +4075,23 @@
    ]
   },
   {
+   "property": "NRL",
+   "anz": true,
+   "slot": "Beer & cider",
+   "partners": [
+    {
+     "brand": "VB",
+     "since": "listed",
+     "ends": null
+    },
+    {
+     "brand": "Asahi Beverages",
+     "since": "Mar 2023",
+     "ends": null
+    }
+   ]
+  },
+  {
    "property": "Penrith Panthers",
    "anz": true,
    "slot": "Beer & cider",
@@ -5301,10 +5323,6 @@
    "issue": "needsSource"
   },
   {
-   "deal": "Hahn × Rugby Australia",
-   "issue": "needsSource"
-  },
-  {
    "deal": "IHG Hotels & Resorts × Rugby Australia",
    "issue": "needsSource"
   },
@@ -6238,10 +6256,6 @@
   },
   {
    "deal": "Hostplus × Melbourne Storm",
-   "issue": "needsSource"
-  },
-  {
-   "deal": "Guinness × NSW Waratahs",
    "issue": "needsSource"
   },
   {
