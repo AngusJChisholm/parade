@@ -1,5 +1,8 @@
 name: Logo sheet screenshots
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+  push:
+    branches: [logo-shots-run]
 permissions: {contents: write}
 jobs:
   shots:
