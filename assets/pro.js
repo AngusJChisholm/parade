@@ -433,8 +433,8 @@ const verdict=r=>r.k==="Call now"?"Call now":r.x>=70?"Worth a call":r.x>=55?"Che
 let VEN=null;
 const venLoad=()=>VEN?Promise.resolve(VEN):fetch("pro/venues.json",{cache:"no-cache"}).then(r=>r.json()).then(j=>VEN=j).catch(()=>VEN={venues:[]});
 const OKEY="sssPro.rpOpt";
-const RPO=[["market","Market overview"],["catmap","Category map"],["naming","Naming rights"],["notes","Negotiation notes"]];
-const rpOpt={get(){let o={};try{o=JSON.parse(localStorage.getItem(OKEY)||"{}")}catch(e){}return Object.assign({market:true,catmap:true,naming:true,notes:true},o)},
+const RPO=[["key","Key data"],["history","History"],["market","Market overview"],["catmap","Category map"],["naming","Naming rights"],["notes","Negotiation notes"]];
+const rpOpt={get(){let o={};try{o=JSON.parse(localStorage.getItem(OKEY)||"{}")}catch(e){}return Object.assign({key:true,history:true,market:true,catmap:true,naming:true,notes:true},o)},
   set(k,v){const o=this.get();o[k]=v;try{localStorage.setItem(OKEY,JSON.stringify(o))}catch(e){}}};
 const NKEY=(k,s)=>`sssPro.notes.${k}.${s}`;
 const notes={get(k,s){try{return JSON.parse(localStorage.getItem(NKEY(k,s))||"{}")}catch(e){return {}}},
@@ -539,6 +539,118 @@ function notesPage(N,vals){
     <p class="rp-hint">Notes stay in this browser and never go to the SSS site. Leave the page blank and it won't print.</p>`};
 }
 
+/* ---------- Key data + Partnership history pages ----------
+   Key data: headline numbers and plain-English takeaways worked out from the database.
+   History: partnerships announced per year (new vs renewal) and a timeline of every partner, start to end.
+   Colours are SSS ink + grey only (brand is white + volt; volt is too light for marks on white), so every
+   series also carries a legend and labels. */
+const C_NEW="#111111", C_REN="#8A8A84";
+const startOf=d=>d.since?+d.since:dated(d)?yearOf(d):0;
+const endOf=d=>{if(d.ended&&d.ended!==true)return {y:+d.ended,b:"Ended"};const r=renewal(d);return r?{y:r.end,b:r.basis}:null};
+
+function yearBars(list){
+  const ys=list.filter(dated).map(yearOf);
+  if(!ys.length)return `<p class="note-s">No dated announcements in the database yet.</p>`;
+  const y0=Math.min(yr-2,Math.max(Math.min(...ys),yr-5)), Y=[];for(let y=y0;y<=yr;y++)Y.push(y);
+  const rows=Y.map(y=>{const a=list.filter(d=>dated(d)&&yearOf(d)===y);const r=a.filter(d=>RENEW.has(d.status)).length;return {y,n:a.length-r,r}});
+  const max=Math.max(1,...rows.map(x=>x.n+x.r)), W=680,H=210,pl=34,pb=26,pt=22,cw=(W-pl-8)/Y.length,bw=Math.min(54,cw*.56);
+  const sc=v=>(H-pb-pt)*v/max, step=max<=5?1:max<=12?2:max<=30?5:max<=60?10:20, ticks=[];for(let t=0;t<=max;t+=step)ticks.push(t);
+  return `<div class="rp-lg"><span><i style="background:${C_NEW}"></i>New</span><span><i style="background:${C_REN}"></i>Renewal or extension</span></div>
+  <svg class="rp-ch" viewBox="0 0 ${W} ${H}" role="img" aria-label="Partnerships announced per year">
+    ${ticks.map(t=>`<g><line x1="${pl}" x2="${W-4}" y1="${H-pb-sc(t)}" y2="${H-pb-sc(t)}" stroke="#DEDED8" stroke-width="1"/><text x="${pl-8}" y="${H-pb-sc(t)+4}" text-anchor="end" class="ax">${t}</text></g>`).join("")}
+    ${rows.map((x,i)=>{const cx=pl+cw*i+cw/2, hn=sc(x.n), hr=sc(x.r), gap=x.n&&x.r?2:0, tot=x.n+x.r;
+      return `<g><title>${x.y}: ${x.n} new, ${x.r} renewal${x.r===1?"":"s"}</title>
+      ${x.n?`<rect x="${cx-bw/2}" y="${H-pb-hn}" width="${bw}" height="${hn}" fill="${C_NEW}"/>`:""}
+      ${x.r?`<rect x="${cx-bw/2}" y="${H-pb-hn-gap-hr}" width="${bw}" height="${hr}" fill="${C_REN}"/>`:""}
+      ${tot?`<text x="${cx}" y="${H-pb-hn-hr-gap-6}" text-anchor="middle" class="vl">${tot}</text>`:""}
+      <text x="${cx}" y="${H-8}" text-anchor="middle" class="ax${x.y===yr?" now":""}">${x.y===yr?`${x.y} YTD`:x.y}</text></g>`}).join("")}
+    <line x1="${pl}" x2="${W-4}" y1="${H-pb}" y2="${H-pb}" stroke="#111" stroke-width="1"/>
+  </svg>`;
+}
+
+// One row per partner: a bar from start to end year. Solid = confirmed or past, outline = estimated end.
+function timeline(rows){
+  if(!rows.length)return `<p class="note-s">No partners to chart.</p>`;
+  const ss=rows.map(r=>r.s).filter(Boolean), es=rows.map(r=>r.e&&r.e.y).filter(Boolean);
+  const lo=Math.max(yr-15,Math.min(yr-4,...ss)), hi=Math.min(yr+8,Math.max(yr+3,...es)), W=680, lw=190, rh=22, H=rows.length*rh+30, xs=(W-lw-40)/(hi-lo+1), X=y=>lw+(Math.max(lo,Math.min(hi+1,y))-lo)*xs;
+  const st=hi-lo>12?4:2, yrsAx=[];for(let y=Math.ceil(lo/st)*st;y<=hi;y+=st)yrsAx.push(y);
+  return `<div class="rp-lg"><span><i style="background:${C_NEW}"></i>Live</span><span><i style="background:${C_REN}"></i>Past</span><span><i class="o"></i>Estimated end</span><span><i class="t"></i>Today</span></div>
+  <svg class="rp-ch" viewBox="0 0 ${W} ${H}" role="img" aria-label="Partnership timeline">
+    ${yrsAx.map(y=>`<g><line x1="${X(y)}" x2="${X(y)}" y1="0" y2="${H-22}" stroke="#DEDED8"/><text x="${X(y)+2}" y="${H-6}" class="ax">${y}</text></g>`).join("")}
+    ${rows.map((r,i)=>{const y=i*rh+4, s=r.s||lo, e=r.e?r.e.y:(r.live?hi:s), past=!r.live, est=r.e&&r.e.b==="Estimate";
+      const x1=X(s), xNow=X(yr+.5), x2=X(e+1)-1, solidEnd=est&&!past?Math.min(x2,xNow):x2, col=past?C_REN:C_NEW;
+      return `<g><title>${esc(r.name)}: ${r.s?`from ${r.s}`:"start not known"}${r.e?`, ${r.e.b==="Ended"?"ended":"ends"} ${r.e.y} (${r.e.b})`:""}</title>
+      <text x="0" y="${y+14}" class="nm">${esc(r.name.length>28?r.name.slice(0,27)+"…":r.name)}</text>
+      ${solidEnd>x1?`<rect x="${x1}" y="${y+4}" width="${solidEnd-x1}" height="12" rx="2" fill="${col}"/>`:""}
+      ${est&&!past&&x2>solidEnd?`<rect x="${solidEnd+1}" y="${y+4.5}" width="${x2-solidEnd-1.5}" height="11" rx="2" fill="#fff" stroke="${col}" stroke-width="1.5"/>`:""}
+      ${!r.s||r.s<lo?`<text x="${lw-4}" y="${y+14}" text-anchor="end" class="ax">${r.s?r.s:"?"}</text>`:""}
+      ${r.e?`<text x="${x2+4}" y="${y+14}" class="ax">${r.e.y}</text>`:""}</g>`}).join("")}
+    <line x1="${X(NOW.getFullYear()+NOW.getMonth()/12)}" x2="${X(NOW.getFullYear()+NOW.getMonth()/12)}" y1="0" y2="${H-22}" stroke="#111" stroke-dasharray="3 3"/>
+  </svg>`;
+}
+
+// partners: [{e, d, live}] - one per partner, first/main deal
+function historyPage(deals,partners,label){
+  const all=partners.map(x=>({name:x.e.name,s:startOf(x.d),e:endOf(x.d),live:x.live}));
+  const nodate=all.filter(r=>!r.s&&!r.e).map(r=>r.name).sort();
+  const rows=all.filter(r=>r.s||r.e).sort((a,b)=>(b.live-a.live)||((a.s||0)-(b.s||0))||a.name.localeCompare(b.name)).slice(0,24);
+  const undated=deals.filter(d=>!dated(d)).length;
+  return {t:"Partnership history",sub:`Partnerships announced each year, and every ${label} from start to finish`,body:`
+    <div class="rp-st">Announced per year</div>${yearBars(deals)}
+    <div class="rp-st">Timeline</div>${timeline(rows)}
+    <p class="note-s">${undated?`${undated} long-running partnership${undated===1?" has":"s have"} no announcement date, so ${undated===1?"it isn't":"they aren't"} in the yearly chart. `:""}Start is the announcement year, or the year the partnership began where the property or brand states it. Estimated ends use the typical term for that partnership type.${rows.length===24?` Showing the first 24.`:""}</p>
+    ${nodate.length?`<p class="note-s"><b>Current partners with no dates on record (${nodate.length}):</b> ${esc(nodate.join(", "))}.</p>`:""}`};
+}
+
+const yr12=list=>list.filter(d=>dated(d)&&monthsAgo(d)<=12).length;
+const yrPrev=list=>list.filter(d=>dated(d)&&monthsAgo(d)>12&&monthsAgo(d)<=24).length;
+const trend=(a,b)=>b?(a>b?`up from ${b}`:a<b?`down from ${b}`:`level with ${b}`):"";
+const avgTenure=xs=>{const t=xs.map(x=>startOf(x.d)).filter(Boolean).map(s=>yr-s);return t.length?Math.round(t.reduce((a,b)=>a+b,0)/t.length*10)/10:0};
+const MAJOR=new Set(["Naming rights","Principal","Major"]);
+
+function keyPage(kpis,points){
+  return {t:"Key data",sub:"The numbers that matter, worked out from the SSS partnerships database",body:`
+    <div class="kpis">${kpis.map(([v,l])=>`<div><b>${v}</b><span>${esc(l)}</span></div>`).join("")}</div>
+    <div class="rp-st">Key takeaways</div>
+    <ul class="rp-bl">${points.filter(Boolean).map(p=>`<li>${p}</li>`).join("")}</ul>`};
+}
+
+function brandKey(org,curL,pastL,due,ms,sub){
+  const mine=org.deals.filter(x=>x.side==="b").map(x=>x.d);
+  const a=yr12(mine), b=yrPrev(mine);
+  const sp=tally(curL.map(x=>x.d),d=>d.sport);
+  const major=curL.filter(x=>MAJOR.has(x.d.tier)).length;
+    const same=br=>sub?subOf(br.e.slug)===sub:br.cat===org.cat;
+  const rank=D.brands.filter(same).map(br=>({s:br.e.slug,n:new Set(br.deals.filter(x=>x.side==="b"&&anz(x.d)&&!x.d.ended&&live(x.d)).flatMap(x=>(x.other||[]).map(p=>p&&p.slug))).size})).filter(x=>x.n).sort((x,y)=>y.n-x.n);
+  const pos=rank.findIndex(x=>x.s===org.e.slug)+1;
+  const top=ms[0];
+  return keyPage([[curL.length,"Live partners"],[a,"Announced, last 12 months"],[`${share(major,curL.length)}%`,"Naming, principal or major"],[due.length,`Up for renewal by ${yr+2}`]],[
+    curL.length?`${curL.length} live partner${curL.length===1?"":"s"}${sp.length?`, ${share(sp[0][1],curL.length)}% of them in ${esc(sp[0][0])}`:""}${sp.length>1?` and the rest across ${esc(sp.slice(1).map(x=>x[0]).join(", "))}`:sp.length===1?`: a single-sport portfolio`:""}.`:"",
+    `${a} partnership${a===1?"":"s"} announced in the last 12 months${b?`, ${trend(a,b)} the 12 months before`:""}.`,
+    pos?`Ranks ${pos} of ${rank.length} in ${esc(sub||org.cat)} by live ANZ partners${rank[0]&&rank[0].s!==org.e.slug?` (leader: ${esc((D.orgs.get(rank[0].s)||{e:{name:rank[0].s}}).e.name)}, ${rank[0].n})`:""}.`:"",
+    curL.length?`${major} of ${curL.length} live partnerships are naming, principal or major level: ${major/Math.max(1,curL.length)>=.5?"a brand that buys big, headline positions":"mostly official-level partnerships"}.`:"",
+    due.length?`${due.length} partnership${due.length===1?"":"s"} up for renewal by ${yr+2}: ${esc(due.slice(0,3).map(x=>x.d.deal).join("; "))}.`:`Nothing up for renewal before ${yr+3} on what's been announced.`,
+    pastL.length?`${pastL.length} past partner${pastL.length===1?"":"s"}, most recently ${esc(pastL[0].p.name)}.`:"",
+    top?`Best new fit on SSS Pro scouting: ${esc(top.n)} (${top.x}).`:""]);
+}
+
+function propKey(org,P,pastL,ms){
+  const mine=org.deals.filter(x=>x.side==="p").map(x=>x.d);
+  const a=yr12(mine), b=yrPrev(mine), B=P.bench, n=B.length;
+  const avg=k=>B.length?Math.round(B.reduce((s,x)=>s+x[k],0)/B.length*10)/10:0;
+  const rk=k=>[...B].sort((x,y)=>y[k]-x[k]).findIndex(x=>x.r===org)+1;
+  const oldest=P.partners.map(x=>({n:x.b.name,s:+x.d.since||0})).filter(x=>x.s).sort((x,y)=>x.s-y.s)[0];
+  const g=P.gaps[0], top=ms[0];
+  return keyPage([[P.partners.length,"Live partners"],[n>1?`${rk("live")} of ${n}`:"–",`Rank in ${P.peers.label}`],[a,"New, last 12 months"],[P.have.size,"Categories covered"]],[
+    n>1?`${P.partners.length} live partners against the ${esc(P.peers.label)} average of ${avg("live")}: ranks ${rk("live")} of ${n}.`:"",
+    `${a} partnership${a===1?"":"s"} announced in the last 12 months${b?`, ${trend(a,b)} the 12 months before`:""}${n>1?`. Ranks ${rk("new12")} of ${n} for new business`:""}.`,
+    n>1?`Covers ${P.have.size} categories (peer average ${avg("cats")}).${g?` Biggest gap: ${esc(g.c)}, held by ${g.peers.size} of ${P.nPeers} peers.`:""}`:"",
+    P.due.length?`${P.due.length} partnership${P.due.length===1?"":"s"} (${share(P.due.length,P.partners.length)}% of the portfolio) up for renewal by ${yr+2}.`:`Nothing up for renewal before ${yr+3} on what's been announced.`,
+    oldest?`Longest-standing partner: ${esc(oldest.n)}, since ${oldest.s}.`:"",
+    pastL.length?`${pastL.length} past partner${pastL.length===1?"":"s"} in the database.`:"",
+    top?`Best new fit on SSS Pro scouting: ${esc(top.n)} (${top.x}).`:""]);
+}
+
 // Turns a list of sections into the cover and numbered A4 pages.
 function rpBuild(e,cover,secs){
   const s=secs.filter(Boolean);
@@ -587,12 +699,15 @@ function brandReport(org,mx){
       ${sports.length?`<div><dt>Sports now</dt><dd>${esc(sports.join(", "))}</dd></div>`:""}
     </dl>`},
 
+  O.key&&brandKey(org,curL,pastL,due,ms,sub),
   O.market&&marketPage({label:sub||cat,match:inScope,who:d=>(d._bs||[]).map(b=>b.name)},N),
   O.catmap&&catMapBrand(org),
 
   {t:"Current and past partners",sub:`${curL.length} current, ${pastL.length} past`,body:`
     ${curL.length?`<table class="t rp-t"><thead><tr><th>Property</th><th>Sport</th><th>Role</th><th>Since</th><th>Ends</th></tr></thead><tbody>${curL.map(x=>{const r=renewal(x.d);return `<tr><td><span class="dl">${logo(x.p,28)}<b>${esc(x.p.name)}</b></span></td><td>${esc(x.d.sport||"")}</td><td>${esc(x.d.ptitle||x.d.tier||"")}</td><td class="d">${esc(S.fmt(x.d))}</td><td class="d">${r?`${r.end} ${basisTag(r)}`:"–"}</td></tr>`}).join("")}</tbody></table>`:`<p class="note-s">No current partners in the database.</p>`}
     ${pastL.length?`<div class="h3">Past partners</div><table class="t rp-t"><tbody>${pastL.map(x=>`<tr class="rp-past"><td><span class="dl">${logo(x.p,24)}<b>${esc(x.p.name)}</b></span></td><td>${esc(x.d.sport||"")}</td><td>${esc(x.d.tier||"")}</td><td class="d">${esc(yrs(x.d))}</td></tr>`).join("")}</tbody></table>`:""}`},
+
+  O.history&&historyPage(mine.map(x=>x.d),[...curL.map(x=>({e:x.p,d:x.d,live:true})),...pastL.map(x=>({e:x.p,d:x.d,live:false}))],"partner"),
 
   {t:"Who to pitch",sub:"The five best SSS Pro scouting suggestions, with why each fits",body:`
     ${top.length?top.map((r,i)=>{const o=D.orgs.get(r.p);return `<div class="rp-m"><span class="rp-mi">${i+1}</span><div class="rp-mb"><div class="rp-mh">${o?logo(o.e,40):""}<div><b>${esc(r.n)}</b><span class="mute-l">${esc(r.s)} · ${esc(r.r)} reach${r.v?" · Verified":""}</span></div><span class="rp-sc">${r.x}</span><span class="basis ${bandCls(r.k)}">${esc(verdict(r))}</span></div>${why(r)}</div></div>`}).join(""):`<p class="note-s">No suggestions above 40 yet. This brand needs more partnerships in the database.</p>`}
@@ -636,12 +751,15 @@ function propReport(org,mx){
       <div><dt>Categories held</dt><dd>${esc([...P.have].sort().join(", ")||"None logged")}</dd></div>
     </dl>`},
 
+  O.key&&propKey(org,P,pastL,ms),
   O.market&&marketPage({label:P.sp,match:d=>d.sport===P.sp,who:d=>d._cats||[]},N),
   O.catmap&&catMapProp(org,P),
 
   {t:"Current and past partners",sub:`${P.partners.length} live, ${pastL.length} past`,body:`
     <table class="t rp-t"><thead><tr><th>Brand</th><th>Category</th><th>Their tier</th><th>Since</th><th>Ends</th></tr></thead><tbody>${P.partners.slice().sort((a,b)=>S.TIERS.indexOf(a.d.tier)-S.TIERS.indexOf(b.d.tier)||a.b.name.localeCompare(b.b.name)).map(x=>{const r=renewal(x.d);return `<tr><td><span class="dl">${logo(x.b,26)}<b>${esc(x.b.name)}</b></span></td><td>${esc(catOf(x))}</td><td>${esc(x.d.ptier||x.d.tier||"")}</td><td class="d">${esc(S.fmt(x.d))}</td><td class="d">${r?`${r.end} ${basisTag(r)}`:"–"}</td></tr>`}).join("")}</tbody></table>
     ${pastL.length?`<div class="h3">Past partners</div><table class="t rp-t"><tbody>${pastL.slice(0,20).map(x=>`<tr class="rp-past"><td><b>${esc(x.b.name)}</b></td><td>${esc(x.d.tier||"")}</td><td class="d">${esc(yrs(x.d))}</td></tr>`).join("")}</tbody></table>`:""}`},
+
+  O.history&&historyPage(org.deals.filter(x=>x.side==="p").map(x=>x.d),[...P.partners.map(x=>({e:x.b,d:x.d,live:true})),...pastL.map(x=>({e:x.b,d:x.d,live:false}))],"partner"),
 
   {t:"Who to pitch",sub:"The five best brands from SSS Pro scouting, with why each fits",body:`
     ${top.length?top.map((r,i)=>{const o=D.orgs.get(r.b);return `<div class="rp-m"><span class="rp-mi">${i+1}</span><div class="rp-mb"><div class="rp-mh">${o?logo(o.e,40):""}<div><b>${esc(r.n)}</b><span class="mute-l">${esc(r.c||"")}${r.u?` · ${esc(r.u)}`:""}</span></div><span class="rp-sc">${r.x}</span><span class="basis ${bandCls(r.k)}">${esc(verdict(r))}</span></div>${why(r)}</div></div>`}).join(""):`<p class="note-s">No suggestions above 40 yet.</p>`}
