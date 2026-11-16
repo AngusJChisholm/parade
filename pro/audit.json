@@ -2,7 +2,7 @@
  "generated": "2026-11-16",
  "summary": {
   "dup_entities": 15,
-  "no_category": 583,
+  "no_category": 586,
   "cat_mismatch": 104,
   "slot_clash": 25,
   "dup_deals": 0,
@@ -14,12 +14,12 @@
  "dup_entities": [
   {
    "names": [
-    "Kia",
-    "Kia Australia"
+    "HYROX",
+    "HYROX Australia"
    ],
    "slugs": [
-    "kia",
-    "kia-australia"
+    "hyrox",
+    "hyrox-australia"
    ]
   },
   {
@@ -34,22 +34,52 @@
   },
   {
    "names": [
-    "HYROX",
-    "HYROX Australia"
+    "Kia",
+    "Kia Australia"
    ],
    "slugs": [
-    "hyrox",
-    "hyrox-australia"
+    "kia",
+    "kia-australia"
    ]
   },
   {
    "names": [
-    "Courier Mail",
-    "The Courier-Mail"
+    "Star Sports",
+    "The Star"
    ],
    "slugs": [
-    "courier-mail",
-    "the-courier-mail"
+    "star-sports",
+    "the-star"
+   ]
+  },
+  {
+   "names": [
+    "Harness Racing Australia",
+    "Harness Racing NZ"
+   ],
+   "slugs": [
+    "harness-racing-australia",
+    "harness-racing-nz"
+   ]
+  },
+  {
+   "names": [
+    "TAB",
+    "TAB NZ"
+   ],
+   "slugs": [
+    "tab",
+    "tab-nz"
+   ]
+  },
+  {
+   "names": [
+    "Commonwealth Games",
+    "Commonwealth Games Australia"
+   ],
+   "slugs": [
+    "commonwealth-games",
+    "commonwealth-games-australia"
    ]
   },
   {
@@ -68,46 +98,6 @@
   },
   {
    "names": [
-    "Dolphins",
-    "Dolphins Group"
-   ],
-   "slugs": [
-    "dolphins",
-    "dolphins-group"
-   ]
-  },
-  {
-   "names": [
-    "Victor",
-    "Victor Sports"
-   ],
-   "slugs": [
-    "victor",
-    "victor-sports"
-   ]
-  },
-  {
-   "names": [
-    "TAB",
-    "TAB NZ"
-   ],
-   "slugs": [
-    "tab",
-    "tab-nz"
-   ]
-  },
-  {
-   "names": [
-    "Harness Racing Australia",
-    "Harness Racing NZ"
-   ],
-   "slugs": [
-    "harness-racing-australia",
-    "harness-racing-nz"
-   ]
-  },
-  {
-   "names": [
     "PURE Sports Nutrition",
     "Pure Nutrition"
    ],
@@ -118,12 +108,12 @@
   },
   {
    "names": [
-    "Hockey Australia",
-    "Hockey New Zealand"
+    "Special Olympics",
+    "Special Olympics Australia"
    ],
    "slugs": [
-    "hockey-australia",
-    "hockey-new-zealand"
+    "special-olympics",
+    "special-olympics-australia"
    ]
   },
   {
@@ -140,32 +130,42 @@
   },
   {
    "names": [
-    "Special Olympics",
-    "Special Olympics Australia"
+    "Hockey Australia",
+    "Hockey New Zealand"
    ],
    "slugs": [
-    "special-olympics",
-    "special-olympics-australia"
+    "hockey-australia",
+    "hockey-new-zealand"
    ]
   },
   {
    "names": [
-    "Commonwealth Games",
-    "Commonwealth Games Australia"
+    "Victor",
+    "Victor Sports"
    ],
    "slugs": [
-    "commonwealth-games",
-    "commonwealth-games-australia"
+    "victor",
+    "victor-sports"
    ]
   },
   {
    "names": [
-    "Star Sports",
-    "The Star"
+    "Courier Mail",
+    "The Courier-Mail"
    ],
    "slugs": [
-    "star-sports",
-    "the-star"
+    "courier-mail",
+    "the-courier-mail"
+   ]
+  },
+  {
+   "names": [
+    "Dolphins",
+    "Dolphins Group"
+   ],
+   "slugs": [
+    "dolphins",
+    "dolphins-group"
    ]
   }
  ],
@@ -199,6 +199,16 @@
    "brand": "GSA",
    "slug": "gsa",
    "deals": 3
+  },
+  {
+   "brand": "Grenade",
+   "slug": "grenade",
+   "deals": 2
+  },
+  {
+   "brand": "Enforcer",
+   "slug": "enforcer",
+   "deals": 2
   },
   {
    "brand": "DriTimes",
@@ -274,6 +284,11 @@
    "brand": "John R Turk",
    "slug": "john-r-turk",
    "deals": 2
+  },
+  {
+   "brand": "Forcast",
+   "slug": "forcast",
+   "deals": 1
   },
   {
    "brand": "MWS",
