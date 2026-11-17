@@ -1,91 +1,17 @@
 {
  "generated": "2026-11-17",
  "summary": {
-  "dup_entities": 40,
-  "no_category": 4175,
+  "dup_entities": 41,
+  "no_category": 4958,
   "cat_mismatch": 105,
   "slot_clash": 116,
-  "dup_deals": 11,
+  "dup_deals": 13,
   "no_broadcaster": 16,
   "stale": 2,
-  "no_source": 552,
+  "no_source": 536,
   "anz_slot_clash": 30
  },
  "dup_entities": [
-  {
-   "names": [
-    "Asahi Beverages",
-    "Asahi Beverages NZ"
-   ],
-   "slugs": [
-    "asahi-beverages",
-    "asahi-beverages-nz"
-   ]
-  },
-  {
-   "names": [
-    "Victor",
-    "Victor Sports"
-   ],
-   "slugs": [
-    "victor",
-    "victor-sports"
-   ]
-  },
-  {
-   "names": [
-    "ArenA",
-    "Arena Group",
-    "Arena Sports"
-   ],
-   "slugs": [
-    "arena",
-    "arena-group",
-    "arena-sports"
-   ]
-  },
-  {
-   "names": [
-    "Athletics",
-    "Athletics Australia",
-    "Athletics New Zealand"
-   ],
-   "slugs": [
-    "athletics",
-    "athletics-australia",
-    "athletics-new-zealand"
-   ]
-  },
-  {
-   "names": [
-    "Courier Mail",
-    "The Courier-Mail"
-   ],
-   "slugs": [
-    "courier-mail",
-    "the-courier-mail"
-   ]
-  },
-  {
-   "names": [
-    "Salvation Army",
-    "The Salvation Army"
-   ],
-   "slugs": [
-    "salvation-army",
-    "the-salvation-army"
-   ]
-  },
-  {
-   "names": [
-    "Sports Illustrated",
-    "Sports Illustrated Resorts"
-   ],
-   "slugs": [
-    "sports-illustrated",
-    "sports-illustrated-resorts"
-   ]
-  },
   {
    "names": [
     "BCD Group",
@@ -98,42 +24,42 @@
   },
   {
    "names": [
-    "Dolphins",
-    "Dolphins Group"
+    "Commonwealth Games",
+    "Commonwealth Games Australia"
    ],
    "slugs": [
-    "dolphins",
-    "dolphins-group"
+    "commonwealth-games",
+    "commonwealth-games-australia"
    ]
   },
   {
    "names": [
-    "Circa",
-    "Circa Sports"
+    "Global News",
+    "News Australia"
    ],
    "slugs": [
-    "circa",
-    "circa-sports"
+    "global-news",
+    "news-australia"
    ]
   },
   {
    "names": [
-    "Special Olympics",
-    "Special Olympics Australia"
+    "Basketball Australia",
+    "Basketball New Zealand"
    ],
    "slugs": [
-    "special-olympics",
-    "special-olympics-australia"
+    "basketball-australia",
+    "basketball-new-zealand"
    ]
   },
   {
    "names": [
-    "MTC",
-    "MTC Australia"
+    "PURE Sports Nutrition",
+    "Pure Nutrition"
    ],
    "slugs": [
-    "mtc",
-    "mtc-australia"
+    "pure-nutrition",
+    "pure-sports-nutrition"
    ]
   },
   {
@@ -152,12 +78,162 @@
   },
   {
    "names": [
-    "BMS",
-    "BMS Group"
+    "Salvation Army",
+    "The Salvation Army"
    ],
    "slugs": [
-    "bms",
-    "bms-group"
+    "salvation-army",
+    "the-salvation-army"
+   ]
+  },
+  {
+   "names": [
+    "Southern Trust",
+    "The Southern Trust"
+   ],
+   "slugs": [
+    "southern-trust",
+    "the-southern-trust"
+   ]
+  },
+  {
+   "names": [
+    "Circa",
+    "Circa Sports"
+   ],
+   "slugs": [
+    "circa",
+    "circa-sports"
+   ]
+  },
+  {
+   "names": [
+    "ISC",
+    "ISC Sport"
+   ],
+   "slugs": [
+    "isc",
+    "isc-sport"
+   ]
+  },
+  {
+   "names": [
+    "Cube",
+    "The Cube"
+   ],
+   "slugs": [
+    "cube",
+    "the-cube"
+   ]
+  },
+  {
+   "names": [
+    "Seven",
+    "Seven Group"
+   ],
+   "slugs": [
+    "seven",
+    "seven-group"
+   ]
+  },
+  {
+   "names": [
+    "Asahi Beverages",
+    "Asahi Beverages NZ"
+   ],
+   "slugs": [
+    "asahi-beverages",
+    "asahi-beverages-nz"
+   ]
+  },
+  {
+   "names": [
+    "Ant Group",
+    "Ant International"
+   ],
+   "slugs": [
+    "ant-group",
+    "ant-international"
+   ]
+  },
+  {
+   "names": [
+    "Victor",
+    "Victor Sports"
+   ],
+   "slugs": [
+    "victor",
+    "victor-sports"
+   ]
+  },
+  {
+   "names": [
+    "Kia",
+    "Kia Australia"
+   ],
+   "slugs": [
+    "kia",
+    "kia-australia"
+   ]
+  },
+  {
+   "names": [
+    "Courier Mail",
+    "The Courier-Mail"
+   ],
+   "slugs": [
+    "courier-mail",
+    "the-courier-mail"
+   ]
+  },
+  {
+   "names": [
+    "Dynasty",
+    "Dynasty Sport"
+   ],
+   "slugs": [
+    "dynasty",
+    "dynasty-sport"
+   ]
+  },
+  {
+   "names": [
+    "Hockey Australia",
+    "Hockey New Zealand"
+   ],
+   "slugs": [
+    "hockey-australia",
+    "hockey-new-zealand"
+   ]
+  },
+  {
+   "names": [
+    "HYROX",
+    "HYROX Australia"
+   ],
+   "slugs": [
+    "hyrox",
+    "hyrox-australia"
+   ]
+  },
+  {
+   "names": [
+    "BDA",
+    "BDA Sports"
+   ],
+   "slugs": [
+    "bda",
+    "bda-sports"
+   ]
+  },
+  {
+   "names": [
+    "QMS",
+    "QMS NZ"
+   ],
+   "slugs": [
+    "qms",
+    "qms-nz"
    ]
   },
   {
@@ -172,12 +248,56 @@
   },
   {
    "names": [
-    "Harness Racing Australia",
-    "Harness Racing NZ"
+    "Direct Global",
+    "Sports Direct"
    ],
    "slugs": [
-    "harness-racing-australia",
-    "harness-racing-nz"
+    "direct-global",
+    "sports-direct"
+   ]
+  },
+  {
+   "names": [
+    "BMS",
+    "BMS Group"
+   ],
+   "slugs": [
+    "bms",
+    "bms-group"
+   ]
+  },
+  {
+   "names": [
+    "MTC",
+    "MTC Australia"
+   ],
+   "slugs": [
+    "mtc",
+    "mtc-australia"
+   ]
+  },
+  {
+   "names": [
+    "Athletics",
+    "Athletics Australia",
+    "Athletics New Zealand"
+   ],
+   "slugs": [
+    "athletics",
+    "athletics-australia",
+    "athletics-new-zealand"
+   ]
+  },
+  {
+   "names": [
+    "ArenA",
+    "Arena Group",
+    "Arena Sports"
+   ],
+   "slugs": [
+    "arena",
+    "arena-group",
+    "arena-sports"
    ]
   },
   {
@@ -194,102 +314,22 @@
   },
   {
    "names": [
-    "QMS",
-    "QMS NZ"
+    "Harness Racing Australia",
+    "Harness Racing NZ"
    ],
    "slugs": [
-    "qms",
-    "qms-nz"
+    "harness-racing-australia",
+    "harness-racing-nz"
    ]
   },
   {
    "names": [
-    "Compass",
-    "Compass Group"
+    "Sports Illustrated",
+    "Sports Illustrated Resorts"
    ],
    "slugs": [
-    "compass",
-    "compass-group"
-   ]
-  },
-  {
-   "names": [
-    "Basketball Australia",
-    "Basketball New Zealand"
-   ],
-   "slugs": [
-    "basketball-australia",
-    "basketball-new-zealand"
-   ]
-  },
-  {
-   "names": [
-    "Kia",
-    "Kia Australia"
-   ],
-   "slugs": [
-    "kia",
-    "kia-australia"
-   ]
-  },
-  {
-   "names": [
-    "Dynasty",
-    "Dynasty Sport"
-   ],
-   "slugs": [
-    "dynasty",
-    "dynasty-sport"
-   ]
-  },
-  {
-   "names": [
-    "Clover",
-    "Clover Sport"
-   ],
-   "slugs": [
-    "clover",
-    "clover-sport"
-   ]
-  },
-  {
-   "names": [
-    "Global News",
-    "News Australia"
-   ],
-   "slugs": [
-    "global-news",
-    "news-australia"
-   ]
-  },
-  {
-   "names": [
-    "Mondelēz",
-    "Mondelēz International"
-   ],
-   "slugs": [
-    "mondel-z",
-    "mondelez-international"
-   ]
-  },
-  {
-   "names": [
-    "Cube",
-    "The Cube"
-   ],
-   "slugs": [
-    "cube",
-    "the-cube"
-   ]
-  },
-  {
-   "names": [
-    "ISC",
-    "ISC Sport"
-   ],
-   "slugs": [
-    "isc",
-    "isc-sport"
+    "sports-illustrated",
+    "sports-illustrated-resorts"
    ]
   },
   {
@@ -304,102 +344,32 @@
   },
   {
    "names": [
-    "HYROX",
-    "HYROX Australia"
+    "Dolphins",
+    "Dolphins Group"
    ],
    "slugs": [
-    "hyrox",
-    "hyrox-australia"
+    "dolphins",
+    "dolphins-group"
    ]
   },
   {
    "names": [
-    "Seven",
-    "Seven Group"
+    "Mondelēz",
+    "Mondelēz International"
    ],
    "slugs": [
-    "seven",
-    "seven-group"
+    "mondel-z",
+    "mondelez-international"
    ]
   },
   {
    "names": [
-    "BDA",
-    "BDA Sports"
+    "Clover",
+    "Clover Sport"
    ],
    "slugs": [
-    "bda",
-    "bda-sports"
-   ]
-  },
-  {
-   "names": [
-    "Commonwealth Games",
-    "Commonwealth Games Australia"
-   ],
-   "slugs": [
-    "commonwealth-games",
-    "commonwealth-games-australia"
-   ]
-  },
-  {
-   "names": [
-    "Direct Global",
-    "Sports Direct"
-   ],
-   "slugs": [
-    "direct-global",
-    "sports-direct"
-   ]
-  },
-  {
-   "names": [
-    "Southern Trust",
-    "The Southern Trust"
-   ],
-   "slugs": [
-    "southern-trust",
-    "the-southern-trust"
-   ]
-  },
-  {
-   "names": [
-    "Ant Group",
-    "Ant International"
-   ],
-   "slugs": [
-    "ant-group",
-    "ant-international"
-   ]
-  },
-  {
-   "names": [
-    "PURE Sports Nutrition",
-    "Pure Nutrition"
-   ],
-   "slugs": [
-    "pure-nutrition",
-    "pure-sports-nutrition"
-   ]
-  },
-  {
-   "names": [
-    "Lucozade",
-    "Lucozade Sport"
-   ],
-   "slugs": [
-    "lucozade",
-    "lucozade-sport"
-   ]
-  },
-  {
-   "names": [
-    "Hockey Australia",
-    "Hockey New Zealand"
-   ],
-   "slugs": [
-    "hockey-australia",
-    "hockey-new-zealand"
+    "clover",
+    "clover-sport"
    ]
   },
   {
@@ -414,12 +384,52 @@
   },
   {
    "names": [
+    "Special Olympics",
+    "Special Olympics Australia"
+   ],
+   "slugs": [
+    "special-olympics",
+    "special-olympics-australia"
+   ]
+  },
+  {
+   "names": [
+    "Betsson",
+    "Betsson Sport"
+   ],
+   "slugs": [
+    "betsson",
+    "betsson-sport"
+   ]
+  },
+  {
+   "names": [
     "Carabao",
     "Carabao Sport"
    ],
    "slugs": [
     "carabao",
     "carabao-sport"
+   ]
+  },
+  {
+   "names": [
+    "Compass",
+    "Compass Group"
+   ],
+   "slugs": [
+    "compass",
+    "compass-group"
+   ]
+  },
+  {
+   "names": [
+    "Lucozade",
+    "Lucozade Sport"
+   ],
+   "slugs": [
+    "lucozade",
+    "lucozade-sport"
    ]
   }
  ],
@@ -485,6 +495,11 @@
    "deals": 9
   },
   {
+   "brand": "Vivaticket",
+   "slug": "vivaticket",
+   "deals": 8
+  },
+  {
    "brand": "Physique",
    "slug": "physique",
    "deals": 8
@@ -508,6 +523,31 @@
    "brand": "Love The Game",
    "slug": "love-the-game",
    "deals": 8
+  },
+  {
+   "brand": "Scientiffic Nutrition",
+   "slug": "scientiffic-nutrition",
+   "deals": 7
+  },
+  {
+   "brand": "INX Aero",
+   "slug": "inx-aero",
+   "deals": 7
+  },
+  {
+   "brand": "Enilive",
+   "slug": "enilive",
+   "deals": 7
+  },
+  {
+   "brand": "Enel",
+   "slug": "enel",
+   "deals": 7
+  },
+  {
+   "brand": "Ebury",
+   "slug": "ebury",
+   "deals": 7
   },
   {
    "brand": "Sorare",
@@ -540,18 +580,13 @@
    "deals": 7
   },
   {
-   "brand": "Scientiffic Nutrition",
-   "slug": "scientiffic-nutrition",
+   "brand": "Frecciarossa",
+   "slug": "frecciarossa",
    "deals": 6
   },
   {
    "brand": "Halcón Viajes",
    "slug": "halcon-viajes",
-   "deals": 6
-  },
-  {
-   "brand": "Ebury",
-   "slug": "ebury",
    "deals": 6
   },
   {
@@ -628,6 +663,11 @@
    "brand": "Paladin",
    "slug": "paladin",
    "deals": 6
+  },
+  {
+   "brand": "Sparco",
+   "slug": "sparco",
+   "deals": 5
   },
   {
    "brand": "Mahou",
@@ -753,6 +793,26 @@
    "brand": "Reclaim the Game",
    "slug": "reclaim-the-game",
    "deals": 5
+  },
+  {
+   "brand": "Massigen",
+   "slug": "massigen",
+   "deals": 4
+  },
+  {
+   "brand": "Acqua Dolomia",
+   "slug": "acqua-dolomia",
+   "deals": 4
+  },
+  {
+   "brand": "Tecnocasa",
+   "slug": "tecnocasa",
+   "deals": 4
+  },
+  {
+   "brand": "Admiral",
+   "slug": "admiral",
+   "deals": 4
   },
   {
    "brand": "Asisa",
@@ -985,6 +1045,76 @@
    "deals": 4
   },
   {
+   "brand": "Reale Mutua",
+   "slug": "reale-mutua",
+   "deals": 3
+  },
+  {
+   "brand": "Eurobet.live",
+   "slug": "eurobet-live",
+   "deals": 3
+  },
+  {
+   "brand": "Esaote",
+   "slug": "esaote",
+   "deals": 3
+  },
+  {
+   "brand": "Kaiyun",
+   "slug": "kaiyun",
+   "deals": 3
+  },
+  {
+   "brand": "TicketOne",
+   "slug": "ticketone",
+   "deals": 3
+  },
+  {
+   "brand": "Infront",
+   "slug": "infront",
+   "deals": 3
+  },
+  {
+   "brand": "Cetilar",
+   "slug": "cetilar",
+   "deals": 3
+  },
+  {
+   "brand": "K-Sport",
+   "slug": "k-sport",
+   "deals": 3
+  },
+  {
+   "brand": "Isokinetic",
+   "slug": "isokinetic",
+   "deals": 3
+  },
+  {
+   "brand": "Caffè Vergnano",
+   "slug": "caffe-vergnano",
+   "deals": 3
+  },
+  {
+   "brand": "WTW",
+   "slug": "wtw",
+   "deals": 3
+  },
+  {
+   "brand": "Enterprise",
+   "slug": "enterprise",
+   "deals": 3
+  },
+  {
+   "brand": "Compass Group",
+   "slug": "compass-group",
+   "deals": 3
+  },
+  {
+   "brand": "Kumho Tire",
+   "slug": "kumho-tire",
+   "deals": 3
+  },
+  {
    "brand": "DIGI",
    "slug": "digi",
    "deals": 3
@@ -1027,11 +1157,6 @@
   {
    "brand": "TGI Sport",
    "slug": "tgi-sport",
-   "deals": 3
-  },
-  {
-   "brand": "Admiral",
-   "slug": "admiral",
    "deals": 3
   },
   {
@@ -1400,6 +1525,196 @@
    "deals": 3
   },
   {
+   "brand": "Martino Rossi",
+   "slug": "martino-rossi",
+   "deals": 2
+  },
+  {
+   "brand": "Birra Moretti",
+   "slug": "birra-moretti",
+   "deals": 2
+  },
+  {
+   "brand": "Professione Casa",
+   "slug": "professione-casa",
+   "deals": 2
+  },
+  {
+   "brand": "Limonta Sport",
+   "slug": "limonta-sport",
+   "deals": 2
+  },
+  {
+   "brand": "Gi Group",
+   "slug": "gi-group",
+   "deals": 2
+  },
+  {
+   "brand": "Mollo",
+   "slug": "mollo",
+   "deals": 2
+  },
+  {
+   "brand": "Fratelli Beretta",
+   "slug": "fratelli-beretta",
+   "deals": 2
+  },
+  {
+   "brand": "Paradello",
+   "slug": "paradello",
+   "deals": 2
+  },
+  {
+   "brand": "Mattioli",
+   "slug": "mattioli",
+   "deals": 2
+  },
+  {
+   "brand": "Modula",
+   "slug": "modula",
+   "deals": 2
+  },
+  {
+   "brand": "Kinto",
+   "slug": "kinto",
+   "deals": 2
+  },
+  {
+   "brand": "Doppio Malto",
+   "slug": "doppio-malto",
+   "deals": 2
+  },
+  {
+   "brand": "Mapei",
+   "slug": "mapei",
+   "deals": 2
+  },
+  {
+   "brand": "Snep",
+   "slug": "snep",
+   "deals": 2
+  },
+  {
+   "brand": "Tecnomat",
+   "slug": "tecnomat",
+   "deals": 2
+  },
+  {
+   "brand": "Sammontana",
+   "slug": "sammontana",
+   "deals": 2
+  },
+  {
+   "brand": "Lavoropiù",
+   "slug": "lavoropiu",
+   "deals": 2
+  },
+  {
+   "brand": "Parmigiano Reggiano",
+   "slug": "parmigiano-reggiano",
+   "deals": 2
+  },
+  {
+   "brand": "Parmalat",
+   "slug": "parmalat",
+   "deals": 2
+  },
+  {
+   "brand": "Villani",
+   "slug": "villani",
+   "deals": 2
+  },
+  {
+   "brand": "idealista",
+   "slug": "idealista",
+   "deals": 2
+  },
+  {
+   "brand": "Optima Italia",
+   "slug": "optima-italia",
+   "deals": 2
+  },
+  {
+   "brand": "Groupama Assicurazioni",
+   "slug": "groupama-assicurazioni",
+   "deals": 2
+  },
+  {
+   "brand": "Aeroitalia",
+   "slug": "aeroitalia",
+   "deals": 2
+  },
+  {
+   "brand": "Wuber",
+   "slug": "wuber",
+   "deals": 2
+  },
+  {
+   "brand": "Balocco",
+   "slug": "balocco",
+   "deals": 2
+  },
+  {
+   "brand": "Manspeed",
+   "slug": "manspeed",
+   "deals": 2
+  },
+  {
+   "brand": "Kama",
+   "slug": "kama",
+   "deals": 2
+  },
+  {
+   "brand": "4+ Nutrition",
+   "slug": "4-nutrition",
+   "deals": 2
+  },
+  {
+   "brand": "Intred",
+   "slug": "intred",
+   "deals": 2
+  },
+  {
+   "brand": "CMP",
+   "slug": "cmp",
+   "deals": 2
+  },
+  {
+   "brand": "Forte Village",
+   "slug": "forte-village",
+   "deals": 2
+  },
+  {
+   "brand": "Meridian",
+   "slug": "meridian",
+   "deals": 2
+  },
+  {
+   "brand": "Bundeling",
+   "slug": "bundeling",
+   "deals": 2
+  },
+  {
+   "brand": "IMA",
+   "slug": "ima",
+   "deals": 2
+  },
+  {
+   "brand": "C.P. Company",
+   "slug": "c-p-company",
+   "deals": 2
+  },
+  {
+   "brand": "Saputo",
+   "slug": "saputo",
+   "deals": 2
+  },
+  {
+   "brand": "Christeyns",
+   "slug": "christeyns",
+   "deals": 2
+  },
+  {
    "brand": "Griffin Core",
    "slug": "griffin-core",
    "deals": 2
@@ -1517,11 +1832,6 @@
   {
    "brand": "Maybank",
    "slug": "maybank",
-   "deals": 2
-  },
-  {
-   "brand": "Kaiyun",
-   "slug": "kaiyun",
    "deals": 2
   },
   {
@@ -1837,11 +2147,6 @@
   {
    "brand": "Wayfair",
    "slug": "wayfair",
-   "deals": 2
-  },
-  {
-   "brand": "Kumho Tire",
-   "slug": "kumho-tire",
    "deals": 2
   },
   {
@@ -2267,11 +2572,6 @@
   {
    "brand": "UMKC",
    "slug": "umkc",
-   "deals": 2
-  },
-  {
-   "brand": "Enterprise",
-   "slug": "enterprise",
    "deals": 2
   },
   {
@@ -3425,6 +3725,3696 @@
    "deals": 2
   },
   {
+   "brand": "Tecnovision",
+   "slug": "tecnovision",
+   "deals": 1
+  },
+  {
+   "brand": "SME",
+   "slug": "sme",
+   "deals": 1
+  },
+  {
+   "brand": "Sicuritalia",
+   "slug": "sicuritalia",
+   "deals": 1
+  },
+  {
+   "brand": "Nomago",
+   "slug": "nomago",
+   "deals": 1
+  },
+  {
+   "brand": "Midj",
+   "slug": "midj",
+   "deals": 1
+  },
+  {
+   "brand": "Melevendi",
+   "slug": "melevendi",
+   "deals": 1
+  },
+  {
+   "brand": "Salumi Lovison",
+   "slug": "salumi-lovison",
+   "deals": 1
+  },
+  {
+   "brand": "Gamma Sport",
+   "slug": "gamma-sport",
+   "deals": 1
+  },
+  {
+   "brand": "Etica del Gusto",
+   "slug": "etica-del-gusto",
+   "deals": 1
+  },
+  {
+   "brand": "Citynews",
+   "slug": "citynews",
+   "deals": 1
+  },
+  {
+   "brand": "Circolo Agrario Friulano",
+   "slug": "circolo-agrario-friulano",
+   "deals": 1
+  },
+  {
+   "brand": "Bacchetti 1935",
+   "slug": "bacchetti-1935",
+   "deals": 1
+  },
+  {
+   "brand": "Autosystem",
+   "slug": "autosystem",
+   "deals": 1
+  },
+  {
+   "brand": "Autopiù",
+   "slug": "autopiu",
+   "deals": 1
+  },
+  {
+   "brand": "Arrex",
+   "slug": "arrex",
+   "deals": 1
+  },
+  {
+   "brand": "Akeron",
+   "slug": "akeron",
+   "deals": 1
+  },
+  {
+   "brand": "Adriarent",
+   "slug": "adriarent",
+   "deals": 1
+  },
+  {
+   "brand": "OD54",
+   "slug": "od54",
+   "deals": 1
+  },
+  {
+   "brand": "Tollon",
+   "slug": "tollon",
+   "deals": 1
+  },
+  {
+   "brand": "Tergas",
+   "slug": "tergas",
+   "deals": 1
+  },
+  {
+   "brand": "Piterpan",
+   "slug": "piterpan",
+   "deals": 1
+  },
+  {
+   "brand": "Pulitecnica Friulana",
+   "slug": "pulitecnica-friulana",
+   "deals": 1
+  },
+  {
+   "brand": "Medicenter Cliniche",
+   "slug": "medicenter-cliniche",
+   "deals": 1
+  },
+  {
+   "brand": "Italico Ronzoni",
+   "slug": "italico-ronzoni",
+   "deals": 1
+  },
+  {
+   "brand": "Heiko",
+   "slug": "heiko",
+   "deals": 1
+  },
+  {
+   "brand": "Gielle",
+   "slug": "gielle",
+   "deals": 1
+  },
+  {
+   "brand": "Erredi Ascensori",
+   "slug": "erredi-ascensori",
+   "deals": 1
+  },
+  {
+   "brand": "Copernico SIM",
+   "slug": "copernico-sim",
+   "deals": 1
+  },
+  {
+   "brand": "CiviBank",
+   "slug": "civibank",
+   "deals": 1
+  },
+  {
+   "brand": "BEF Group",
+   "slug": "bef-group",
+   "deals": 1
+  },
+  {
+   "brand": "Autonord Fioretto",
+   "slug": "autonord-fioretto",
+   "deals": 1
+  },
+  {
+   "brand": "Progress Profiles",
+   "slug": "progress-profiles",
+   "deals": 1
+  },
+  {
+   "brand": "Manuel Caffè",
+   "slug": "manuel-caffe",
+   "deals": 1
+  },
+  {
+   "brand": "Longato",
+   "slug": "longato",
+   "deals": 1
+  },
+  {
+   "brand": "Goccia di Carnia",
+   "slug": "goccia-di-carnia",
+   "deals": 1
+  },
+  {
+   "brand": "FibreNet",
+   "slug": "fibrenet",
+   "deals": 1
+  },
+  {
+   "brand": "Miko",
+   "slug": "miko",
+   "deals": 1
+  },
+  {
+   "brand": "Despar",
+   "slug": "despar",
+   "deals": 1
+  },
+  {
+   "brand": "Calligaris",
+   "slug": "calligaris",
+   "deals": 1
+  },
+  {
+   "brand": "ASEM",
+   "slug": "asem",
+   "deals": 1
+  },
+  {
+   "brand": "Crich",
+   "slug": "crich",
+   "deals": 1
+  },
+  {
+   "brand": "Bluenergy",
+   "slug": "bluenergy",
+   "deals": 1
+  },
+  {
+   "brand": "Banca 360 FVG",
+   "slug": "banca-360-fvg",
+   "deals": 1
+  },
+  {
+   "brand": "PromoTurismoFVG",
+   "slug": "promoturismofvg",
+   "deals": 1
+  },
+  {
+   "brand": "Fisioelab",
+   "slug": "fisioelab",
+   "deals": 1
+  },
+  {
+   "brand": "Mokarabia",
+   "slug": "mokarabia",
+   "deals": 1
+  },
+  {
+   "brand": "GTT",
+   "slug": "gtt",
+   "deals": 1
+  },
+  {
+   "brand": "Gerla 1927",
+   "slug": "gerla-1927",
+   "deals": 1
+  },
+  {
+   "brand": "Bardahl",
+   "slug": "bardahl",
+   "deals": 1
+  },
+  {
+   "brand": "Artespazio",
+   "slug": "artespazio",
+   "deals": 1
+  },
+  {
+   "brand": "Arte Bianca",
+   "slug": "arte-bianca",
+   "deals": 1
+  },
+  {
+   "brand": "Adarte Outdoor",
+   "slug": "adarte-outdoor",
+   "deals": 1
+  },
+  {
+   "brand": "Pusulabet",
+   "slug": "pusulabet",
+   "deals": 1
+  },
+  {
+   "brand": "Santero",
+   "slug": "santero",
+   "deals": 1
+  },
+  {
+   "brand": "Rinascente",
+   "slug": "rinascente",
+   "deals": 1
+  },
+  {
+   "brand": "Fiorentini",
+   "slug": "fiorentini",
+   "deals": 1
+  },
+  {
+   "brand": "Inalpi",
+   "slug": "inalpi",
+   "deals": 1
+  },
+  {
+   "brand": "Banca di Asti",
+   "slug": "banca-di-asti",
+   "deals": 1
+  },
+  {
+   "brand": "Angelico",
+   "slug": "angelico",
+   "deals": 1
+  },
+  {
+   "brand": "Acqua Santa Croce",
+   "slug": "acqua-santa-croce",
+   "deals": 1
+  },
+  {
+   "brand": "Panealba",
+   "slug": "panealba",
+   "deals": 1
+  },
+  {
+   "brand": "Birra Raffo",
+   "slug": "birra-raffo",
+   "deals": 1
+  },
+  {
+   "brand": "EdiliziAcrobatica",
+   "slug": "ediliziacrobatica",
+   "deals": 1
+  },
+  {
+   "brand": "Vi.Ma Green Expert",
+   "slug": "vi-ma-green-expert",
+   "deals": 1
+  },
+  {
+   "brand": "Expotec",
+   "slug": "expotec",
+   "deals": 1
+  },
+  {
+   "brand": "YF Studio",
+   "slug": "yf-studio",
+   "deals": 1
+  },
+  {
+   "brand": "BigMat",
+   "slug": "bigmat",
+   "deals": 1
+  },
+  {
+   "brand": "TF",
+   "slug": "tf",
+   "deals": 1
+  },
+  {
+   "brand": "Tempocasa",
+   "slug": "tempocasa",
+   "deals": 1
+  },
+  {
+   "brand": "Officine SMAC",
+   "slug": "officine-smac",
+   "deals": 1
+  },
+  {
+   "brand": "Syneco",
+   "slug": "syneco",
+   "deals": 1
+  },
+  {
+   "brand": "Sici",
+   "slug": "sici",
+   "deals": 1
+  },
+  {
+   "brand": "Pifferi",
+   "slug": "pifferi",
+   "deals": 1
+  },
+  {
+   "brand": "Nuova Sormu",
+   "slug": "nuova-sormu",
+   "deals": 1
+  },
+  {
+   "brand": "Moviter",
+   "slug": "moviter",
+   "deals": 1
+  },
+  {
+   "brand": "Divisione Cantieri Stradali",
+   "slug": "divisione-cantieri-stradali",
+   "deals": 1
+  },
+  {
+   "brand": "Lapam",
+   "slug": "lapam",
+   "deals": 1
+  },
+  {
+   "brand": "Ecologia Campioli",
+   "slug": "ecologia-campioli",
+   "deals": 1
+  },
+  {
+   "brand": "Dirian",
+   "slug": "dirian",
+   "deals": 1
+  },
+  {
+   "brand": "Cemic",
+   "slug": "cemic",
+   "deals": 1
+  },
+  {
+   "brand": "Autorama",
+   "slug": "autorama",
+   "deals": 1
+  },
+  {
+   "brand": "Artestampa",
+   "slug": "artestampa",
+   "deals": 1
+  },
+  {
+   "brand": "Adriatica Acque",
+   "slug": "adriatica-acque",
+   "deals": 1
+  },
+  {
+   "brand": "Ambiente e Salute",
+   "slug": "ambiente-e-salute",
+   "deals": 1
+  },
+  {
+   "brand": "Brawocart",
+   "slug": "brawocart",
+   "deals": 1
+  },
+  {
+   "brand": "SprayJets",
+   "slug": "sprayjets",
+   "deals": 1
+  },
+  {
+   "brand": "Zumtobel",
+   "slug": "zumtobel",
+   "deals": 1
+  },
+  {
+   "brand": "WorldJet",
+   "slug": "worldjet",
+   "deals": 1
+  },
+  {
+   "brand": "CSA Revisioni Italia",
+   "slug": "csa-revisioni-italia",
+   "deals": 1
+  },
+  {
+   "brand": "Officina RCM",
+   "slug": "officina-rcm",
+   "deals": 1
+  },
+  {
+   "brand": "Sacmi",
+   "slug": "sacmi",
+   "deals": 1
+  },
+  {
+   "brand": "Kaiti",
+   "slug": "kaiti",
+   "deals": 1
+  },
+  {
+   "brand": "Hammer",
+   "slug": "hammer",
+   "deals": 1
+  },
+  {
+   "brand": "Gaspari",
+   "slug": "gaspari",
+   "deals": 1
+  },
+  {
+   "brand": "Cillo",
+   "slug": "cillo",
+   "deals": 1
+  },
+  {
+   "brand": "Baschieri",
+   "slug": "baschieri",
+   "deals": 1
+  },
+  {
+   "brand": "Autogepy",
+   "slug": "autogepy",
+   "deals": 1
+  },
+  {
+   "brand": "Il Resto del Carlino",
+   "slug": "il-resto-del-carlino",
+   "deals": 1
+  },
+  {
+   "brand": "Ceramicanda",
+   "slug": "ceramicanda",
+   "deals": 1
+  },
+  {
+   "brand": "Tuttosport",
+   "slug": "tuttosport",
+   "deals": 1
+  },
+  {
+   "brand": "Ixon",
+   "slug": "ixon",
+   "deals": 1
+  },
+  {
+   "brand": "Vivaevents",
+   "slug": "vivaevents",
+   "deals": 1
+  },
+  {
+   "brand": "Messori",
+   "slug": "messori",
+   "deals": 1
+  },
+  {
+   "brand": "Cantine Maschio",
+   "slug": "cantine-maschio",
+   "deals": 1
+  },
+  {
+   "brand": "Unicom Starker",
+   "slug": "unicom-starker",
+   "deals": 1
+  },
+  {
+   "brand": "Polyglass",
+   "slug": "polyglass",
+   "deals": 1
+  },
+  {
+   "brand": "Cercol",
+   "slug": "cercol",
+   "deals": 1
+  },
+  {
+   "brand": "Confindustria Ceramica",
+   "slug": "confindustria-ceramica",
+   "deals": 1
+  },
+  {
+   "brand": "Florim",
+   "slug": "florim",
+   "deals": 1
+  },
+  {
+   "brand": "A Zeta Gomma",
+   "slug": "a-zeta-gomma",
+   "deals": 1
+  },
+  {
+   "brand": "Adesital",
+   "slug": "adesital",
+   "deals": 1
+  },
+  {
+   "brand": "Comer Industries",
+   "slug": "comer-industries",
+   "deals": 1
+  },
+  {
+   "brand": "Autoclub",
+   "slug": "autoclub",
+   "deals": 1
+  },
+  {
+   "brand": "Casalgrande Padana",
+   "slug": "casalgrande-padana",
+   "deals": 1
+  },
+  {
+   "brand": "TifoPisa",
+   "slug": "tifopisa",
+   "deals": 1
+  },
+  {
+   "brand": "Postini Pisani",
+   "slug": "postini-pisani",
+   "deals": 1
+  },
+  {
+   "brand": "Gallaccio",
+   "slug": "gallaccio",
+   "deals": 1
+  },
+  {
+   "brand": "Skom",
+   "slug": "skom",
+   "deals": 1
+  },
+  {
+   "brand": "Rocchi",
+   "slug": "rocchi",
+   "deals": 1
+  },
+  {
+   "brand": "Realenergia",
+   "slug": "realenergia",
+   "deals": 1
+  },
+  {
+   "brand": "Impresa CEI",
+   "slug": "impresa-cei",
+   "deals": 1
+  },
+  {
+   "brand": "GN & Gieffe Pulizie",
+   "slug": "gn-and-gieffe-pulizie",
+   "deals": 1
+  },
+  {
+   "brand": "Matteo Bertini",
+   "slug": "matteo-bertini",
+   "deals": 1
+  },
+  {
+   "brand": "Toni Holding",
+   "slug": "toni-holding",
+   "deals": 1
+  },
+  {
+   "brand": "Terme di Casciana",
+   "slug": "terme-di-casciana",
+   "deals": 1
+  },
+  {
+   "brand": "CMed Aesthetics",
+   "slug": "cmed-aesthetics",
+   "deals": 1
+  },
+  {
+   "brand": "Fonte S. Antonio",
+   "slug": "fonte-s-antonio",
+   "deals": 1
+  },
+  {
+   "brand": "RS Rehab and Sport",
+   "slug": "rs-rehab-and-sport",
+   "deals": 1
+  },
+  {
+   "brand": "Epico Play",
+   "slug": "epico-play",
+   "deals": 1
+  },
+  {
+   "brand": "Acros",
+   "slug": "acros",
+   "deals": 1
+  },
+  {
+   "brand": "Truck Italia",
+   "slug": "truck-italia",
+   "deals": 1
+  },
+  {
+   "brand": "Top5Viaggi",
+   "slug": "top5viaggi",
+   "deals": 1
+  },
+  {
+   "brand": "Seti Group",
+   "slug": "seti-group",
+   "deals": 1
+  },
+  {
+   "brand": "Sberna",
+   "slug": "sberna",
+   "deals": 1
+  },
+  {
+   "brand": "Santamaria",
+   "slug": "santamaria",
+   "deals": 1
+  },
+  {
+   "brand": "Repas",
+   "slug": "repas",
+   "deals": 1
+  },
+  {
+   "brand": "RB Costruzioni",
+   "slug": "rb-costruzioni",
+   "deals": 1
+  },
+  {
+   "brand": "Proserpini",
+   "slug": "proserpini",
+   "deals": 1
+  },
+  {
+   "brand": "Newstemat",
+   "slug": "newstemat",
+   "deals": 1
+  },
+  {
+   "brand": "Nesti Auto",
+   "slug": "nesti-auto",
+   "deals": 1
+  },
+  {
+   "brand": "More to Trade",
+   "slug": "more-to-trade",
+   "deals": 1
+  },
+  {
+   "brand": "Molesti",
+   "slug": "molesti",
+   "deals": 1
+  },
+  {
+   "brand": "La Veterinaria",
+   "slug": "la-veterinaria",
+   "deals": 1
+  },
+  {
+   "brand": "Intergomma",
+   "slug": "intergomma",
+   "deals": 1
+  },
+  {
+   "brand": "Il Fotoamatore",
+   "slug": "il-fotoamatore",
+   "deals": 1
+  },
+  {
+   "brand": "Gruppo Lupi",
+   "slug": "gruppo-lupi",
+   "deals": 1
+  },
+  {
+   "brand": "Giustiauto",
+   "slug": "giustiauto",
+   "deals": 1
+  },
+  {
+   "brand": "Fattoria Il Poggio",
+   "slug": "fattoria-il-poggio",
+   "deals": 1
+  },
+  {
+   "brand": "Clinica Esculapio",
+   "slug": "clinica-esculapio",
+   "deals": 1
+  },
+  {
+   "brand": "Easynet",
+   "slug": "easynet",
+   "deals": 1
+  },
+  {
+   "brand": "Dunadonda",
+   "slug": "dunadonda",
+   "deals": 1
+  },
+  {
+   "brand": "Cosmopolitan",
+   "slug": "cosmopolitan",
+   "deals": 1
+  },
+  {
+   "brand": "Claro Ottica Italiana",
+   "slug": "claro-ottica-italiana",
+   "deals": 1
+  },
+  {
+   "brand": "Casa Lombardi",
+   "slug": "casa-lombardi",
+   "deals": 1
+  },
+  {
+   "brand": "Benedetti",
+   "slug": "benedetti",
+   "deals": 1
+  },
+  {
+   "brand": "BCar",
+   "slug": "bcar",
+   "deals": 1
+  },
+  {
+   "brand": "Batini",
+   "slug": "batini",
+   "deals": 1
+  },
+  {
+   "brand": "Badia di Morrona",
+   "slug": "badia-di-morrona",
+   "deals": 1
+  },
+  {
+   "brand": "Autocarrozzeria Pisana",
+   "slug": "autocarrozzeria-pisana",
+   "deals": 1
+  },
+  {
+   "brand": "ATAL",
+   "slug": "atal",
+   "deals": 1
+  },
+  {
+   "brand": "Al.Fed",
+   "slug": "al-fed",
+   "deals": 1
+  },
+  {
+   "brand": "Altofarm",
+   "slug": "altofarm",
+   "deals": 1
+  },
+  {
+   "brand": "Alfea Design",
+   "slug": "alfea-design",
+   "deals": 1
+  },
+  {
+   "brand": "Valdera",
+   "slug": "valdera",
+   "deals": 1
+  },
+  {
+   "brand": "Tiemme",
+   "slug": "tiemme",
+   "deals": 1
+  },
+  {
+   "brand": "SCKT",
+   "slug": "sckt",
+   "deals": 1
+  },
+  {
+   "brand": "Pisanova",
+   "slug": "pisanova",
+   "deals": 1
+  },
+  {
+   "brand": "Luca Barbagli Assicurazioni",
+   "slug": "luca-barbagli-assicurazioni",
+   "deals": 1
+  },
+  {
+   "brand": "Guidi",
+   "slug": "guidi",
+   "deals": 1
+  },
+  {
+   "brand": "Gamma Informatica",
+   "slug": "gamma-informatica",
+   "deals": 1
+  },
+  {
+   "brand": "Gambassi",
+   "slug": "gambassi",
+   "deals": 1
+  },
+  {
+   "brand": "Eschini Auto",
+   "slug": "eschini-auto",
+   "deals": 1
+  },
+  {
+   "brand": "EMA Sicurezza Industriale",
+   "slug": "ema-sicurezza-industriale",
+   "deals": 1
+  },
+  {
+   "brand": "Ediltoscana",
+   "slug": "ediltoscana",
+   "deals": 1
+  },
+  {
+   "brand": "Diseko",
+   "slug": "diseko",
+   "deals": 1
+  },
+  {
+   "brand": "Diemme Elettronica",
+   "slug": "diemme-elettronica",
+   "deals": 1
+  },
+  {
+   "brand": "Dema",
+   "slug": "dema",
+   "deals": 1
+  },
+  {
+   "brand": "Banca Popolare di Lajatico",
+   "slug": "banca-popolare-di-lajatico",
+   "deals": 1
+  },
+  {
+   "brand": "Baglini",
+   "slug": "baglini",
+   "deals": 1
+  },
+  {
+   "brand": "Valle d'Aosta",
+   "slug": "valle-d-aosta",
+   "deals": 1
+  },
+  {
+   "brand": "Toscana Aeroporti",
+   "slug": "toscana-aeroporti",
+   "deals": 1
+  },
+  {
+   "brand": "Tirrenica Mobilità",
+   "slug": "tirrenica-mobilita",
+   "deals": 1
+  },
+  {
+   "brand": "Ristrutturo Pisa",
+   "slug": "ristrutturo-pisa",
+   "deals": 1
+  },
+  {
+   "brand": "RGM Sport",
+   "slug": "rgm-sport",
+   "deals": 1
+  },
+  {
+   "brand": "RightsArena",
+   "slug": "rightsarena",
+   "deals": 1
+  },
+  {
+   "brand": "Renato Lupetti",
+   "slug": "renato-lupetti",
+   "deals": 1
+  },
+  {
+   "brand": "Gruppo Paim",
+   "slug": "gruppo-paim",
+   "deals": 1
+  },
+  {
+   "brand": "HTS Verde Sportivo",
+   "slug": "hts-verde-sportivo",
+   "deals": 1
+  },
+  {
+   "brand": "Forti Holding",
+   "slug": "forti-holding",
+   "deals": 1
+  },
+  {
+   "brand": "Busti",
+   "slug": "busti",
+   "deals": 1
+  },
+  {
+   "brand": "Boglioli",
+   "slug": "boglioli",
+   "deals": 1
+  },
+  {
+   "brand": "Aurora Catering",
+   "slug": "aurora-catering",
+   "deals": 1
+  },
+  {
+   "brand": "Toni Luigi",
+   "slug": "toni-luigi",
+   "deals": 1
+  },
+  {
+   "brand": "Copianova",
+   "slug": "copianova",
+   "deals": 1
+  },
+  {
+   "brand": "Fumara",
+   "slug": "fumara",
+   "deals": 1
+  },
+  {
+   "brand": "Gruppo Iovine",
+   "slug": "gruppo-iovine",
+   "deals": 1
+  },
+  {
+   "brand": "AB Global Service",
+   "slug": "ab-global-service",
+   "deals": 1
+  },
+  {
+   "brand": "Fontana Viaggi",
+   "slug": "fontana-viaggi",
+   "deals": 1
+  },
+  {
+   "brand": "Gruppo Renato Monica",
+   "slug": "gruppo-renato-monica",
+   "deals": 1
+  },
+  {
+   "brand": "Pulitalia",
+   "slug": "pulitalia",
+   "deals": 1
+  },
+  {
+   "brand": "Puratos",
+   "slug": "puratos",
+   "deals": 1
+  },
+  {
+   "brand": "Polo Parma",
+   "slug": "polo-parma",
+   "deals": 1
+  },
+  {
+   "brand": "Globe Abrasives",
+   "slug": "globe-abrasives",
+   "deals": 1
+  },
+  {
+   "brand": "Okkia",
+   "slug": "okkia",
+   "deals": 1
+  },
+  {
+   "brand": "Colser",
+   "slug": "colser",
+   "deals": 1
+  },
+  {
+   "brand": "Coccinelle",
+   "slug": "coccinelle",
+   "deals": 1
+  },
+  {
+   "brand": "Label",
+   "slug": "label",
+   "deals": 1
+  },
+  {
+   "brand": "Snickers Workwear",
+   "slug": "snickers-workwear",
+   "deals": 1
+  },
+  {
+   "brand": "Lincotek",
+   "slug": "lincotek",
+   "deals": 1
+  },
+  {
+   "brand": "BWT",
+   "slug": "bwt",
+   "deals": 1
+  },
+  {
+   "brand": "Roberto Ricci Designs",
+   "slug": "roberto-ricci-designs",
+   "deals": 1
+  },
+  {
+   "brand": "Prosciutto di Parma",
+   "slug": "prosciutto-di-parma",
+   "deals": 1
+  },
+  {
+   "brand": "Mutti",
+   "slug": "mutti",
+   "deals": 1
+  },
+  {
+   "brand": "Zarotti",
+   "slug": "zarotti",
+   "deals": 1
+  },
+  {
+   "brand": "Euro Pool",
+   "slug": "euro-pool",
+   "deals": 1
+  },
+  {
+   "brand": "MuchBetter",
+   "slug": "muchbetter",
+   "deals": 1
+  },
+  {
+   "brand": "Viva la Mamma",
+   "slug": "viva-la-mamma",
+   "deals": 1
+  },
+  {
+   "brand": "Moby",
+   "slug": "moby",
+   "deals": 1
+  },
+  {
+   "brand": "Prometeon",
+   "slug": "prometeon",
+   "deals": 1
+  },
+  {
+   "brand": "Mozzarè Casearia",
+   "slug": "mozzare-casearia",
+   "deals": 1
+  },
+  {
+   "brand": "AP",
+   "slug": "ap",
+   "deals": 1
+  },
+  {
+   "brand": "Ortopedia Meridionale",
+   "slug": "ortopedia-meridionale",
+   "deals": 1
+  },
+  {
+   "brand": "NVP",
+   "slug": "nvp",
+   "deals": 1
+  },
+  {
+   "brand": "Don Peppe",
+   "slug": "don-peppe",
+   "deals": 1
+  },
+  {
+   "brand": "Di Manno",
+   "slug": "di-manno",
+   "deals": 1
+  },
+  {
+   "brand": "Euronics",
+   "slug": "euronics",
+   "deals": 1
+  },
+  {
+   "brand": "Caffè Toraldo",
+   "slug": "caffe-toraldo",
+   "deals": 1
+  },
+  {
+   "brand": "EnerGas",
+   "slug": "energas",
+   "deals": 1
+  },
+  {
+   "brand": "Pasta Garofalo",
+   "slug": "pasta-garofalo",
+   "deals": 1
+  },
+  {
+   "brand": "Acqua Sorgesana",
+   "slug": "acqua-sorgesana",
+   "deals": 1
+  },
+  {
+   "brand": "EA7 Emporio Armani",
+   "slug": "ea7-emporio-armani",
+   "deals": 1
+  },
+  {
+   "brand": "XK17",
+   "slug": "xk17",
+   "deals": 1
+  },
+  {
+   "brand": "Telerama News",
+   "slug": "telerama-news",
+   "deals": 1
+  },
+  {
+   "brand": "Sport Economy",
+   "slug": "sport-economy",
+   "deals": 1
+  },
+  {
+   "brand": "Valmauto",
+   "slug": "valmauto",
+   "deals": 1
+  },
+  {
+   "brand": "Tatò Paride",
+   "slug": "tato-paride",
+   "deals": 1
+  },
+  {
+   "brand": "Tag Logistik",
+   "slug": "tag-logistik",
+   "deals": 1
+  },
+  {
+   "brand": "Spinel Caffè",
+   "slug": "spinel-caffe",
+   "deals": 1
+  },
+  {
+   "brand": "Sensi Gelateria",
+   "slug": "sensi-gelateria",
+   "deals": 1
+  },
+  {
+   "brand": "Rove",
+   "slug": "rove",
+   "deals": 1
+  },
+  {
+   "brand": "Romana",
+   "slug": "romana",
+   "deals": 1
+  },
+  {
+   "brand": "Rede",
+   "slug": "rede",
+   "deals": 1
+  },
+  {
+   "brand": "RCI",
+   "slug": "rci",
+   "deals": 1
+  },
+  {
+   "brand": "Pezzuto Group",
+   "slug": "pezzuto-group",
+   "deals": 1
+  },
+  {
+   "brand": "Pasian",
+   "slug": "pasian",
+   "deals": 1
+  },
+  {
+   "brand": "Parsec Sistemi Informatici",
+   "slug": "parsec-sistemi-informatici",
+   "deals": 1
+  },
+  {
+   "brand": "Ottica Rucco",
+   "slug": "ottica-rucco",
+   "deals": 1
+  },
+  {
+   "brand": "Ostrica Ubriaca",
+   "slug": "ostrica-ubriaca",
+   "deals": 1
+  },
+  {
+   "brand": "Minerva 1904",
+   "slug": "minerva-1904",
+   "deals": 1
+  },
+  {
+   "brand": "Mebimport",
+   "slug": "mebimport",
+   "deals": 1
+  },
+  {
+   "brand": "Maldarizzi",
+   "slug": "maldarizzi",
+   "deals": 1
+  },
+  {
+   "brand": "La Dogana",
+   "slug": "la-dogana",
+   "deals": 1
+  },
+  {
+   "brand": "Ito Group",
+   "slug": "ito-group",
+   "deals": 1
+  },
+  {
+   "brand": "Gima Packaging",
+   "slug": "gima-packaging",
+   "deals": 1
+  },
+  {
+   "brand": "General Impianti",
+   "slug": "general-impianti",
+   "deals": 1
+  },
+  {
+   "brand": "Gelmar",
+   "slug": "gelmar",
+   "deals": 1
+  },
+  {
+   "brand": "Fotovoltaico Salento",
+   "slug": "fotovoltaico-salento",
+   "deals": 1
+  },
+  {
+   "brand": "Ferrante",
+   "slug": "ferrante",
+   "deals": 1
+  },
+  {
+   "brand": "Expert",
+   "slug": "expert",
+   "deals": 1
+  },
+  {
+   "brand": "Eurospin",
+   "slug": "eurospin",
+   "deals": 1
+  },
+  {
+   "brand": "Emme2",
+   "slug": "emme2",
+   "deals": 1
+  },
+  {
+   "brand": "ECOM",
+   "slug": "ecom",
+   "deals": 1
+  },
+  {
+   "brand": "Domiliare",
+   "slug": "domiliare",
+   "deals": 1
+  },
+  {
+   "brand": "Dial Vending",
+   "slug": "dial-vending",
+   "deals": 1
+  },
+  {
+   "brand": "DFV",
+   "slug": "dfv",
+   "deals": 1
+  },
+  {
+   "brand": "Desantis Uffici",
+   "slug": "desantis-uffici",
+   "deals": 1
+  },
+  {
+   "brand": "Daripà",
+   "slug": "daripa",
+   "deals": 1
+  },
+  {
+   "brand": "D.M.J.",
+   "slug": "d-m-j",
+   "deals": 1
+  },
+  {
+   "brand": "Check-up Centre",
+   "slug": "check-up-centre",
+   "deals": 1
+  },
+  {
+   "brand": "Centro Bio Lab",
+   "slug": "centro-bio-lab",
+   "deals": 1
+  },
+  {
+   "brand": "Carofalo",
+   "slug": "carofalo",
+   "deals": 1
+  },
+  {
+   "brand": "Calora Infissi",
+   "slug": "calora-infissi",
+   "deals": 1
+  },
+  {
+   "brand": "Bruno Valentino",
+   "slug": "bruno-valentino",
+   "deals": 1
+  },
+  {
+   "brand": "Bolletta Expert",
+   "slug": "bolletta-expert",
+   "deals": 1
+  },
+  {
+   "brand": "Blu Mapul",
+   "slug": "blu-mapul",
+   "deals": 1
+  },
+  {
+   "brand": "Autosat",
+   "slug": "autosat",
+   "deals": 1
+  },
+  {
+   "brand": "Auto Trend",
+   "slug": "auto-trend",
+   "deals": 1
+  },
+  {
+   "brand": "Alpak",
+   "slug": "alpak",
+   "deals": 1
+  },
+  {
+   "brand": "Alma Sport",
+   "slug": "alma-sport",
+   "deals": 1
+  },
+  {
+   "brand": "Alma Roma",
+   "slug": "alma-roma",
+   "deals": 1
+  },
+  {
+   "brand": "Aeroporti di Puglia",
+   "slug": "aeroporti-di-puglia",
+   "deals": 1
+  },
+  {
+   "brand": "300mila",
+   "slug": "300mila",
+   "deals": 1
+  },
+  {
+   "brand": "Viaggiare in Puglia",
+   "slug": "viaggiare-in-puglia",
+   "deals": 1
+  },
+  {
+   "brand": "Acqua Orsini",
+   "slug": "acqua-orsini",
+   "deals": 1
+  },
+  {
+   "brand": "Mongolfiera",
+   "slug": "mongolfiera",
+   "deals": 1
+  },
+  {
+   "brand": "Licofarma",
+   "slug": "licofarma",
+   "deals": 1
+  },
+  {
+   "brand": "Leo Costruzioni",
+   "slug": "leo-costruzioni",
+   "deals": 1
+  },
+  {
+   "brand": "JRose",
+   "slug": "jrose",
+   "deals": 1
+  },
+  {
+   "brand": "GalileoLife",
+   "slug": "galileolife",
+   "deals": 1
+  },
+  {
+   "brand": "Deliziosa",
+   "slug": "deliziosa",
+   "deals": 1
+  },
+  {
+   "brand": "Aratravel",
+   "slug": "aratravel",
+   "deals": 1
+  },
+  {
+   "brand": "Altasfera",
+   "slug": "altasfera",
+   "deals": 1
+  },
+  {
+   "brand": "Banca Popolare Pugliese",
+   "slug": "banca-popolare-pugliese",
+   "deals": 1
+  },
+  {
+   "brand": "DR Automobiles",
+   "slug": "dr-automobiles",
+   "deals": 1
+  },
+  {
+   "brand": "Deghi",
+   "slug": "deghi",
+   "deals": 1
+  },
+  {
+   "brand": "Officina del Baccano",
+   "slug": "officina-del-baccano",
+   "deals": 1
+  },
+  {
+   "brand": "Palombini Ricevimenti",
+   "slug": "palombini-ricevimenti",
+   "deals": 1
+  },
+  {
+   "brand": "National Services Group",
+   "slug": "national-services-group",
+   "deals": 1
+  },
+  {
+   "brand": "Farnese Vini",
+   "slug": "farnese-vini",
+   "deals": 1
+  },
+  {
+   "brand": "Caparzo",
+   "slug": "caparzo",
+   "deals": 1
+  },
+  {
+   "brand": "3 Caratteri",
+   "slug": "3-caratteri",
+   "deals": 1
+  },
+  {
+   "brand": "Unidata",
+   "slug": "unidata",
+   "deals": 1
+  },
+  {
+   "brand": "ABCVIP",
+   "slug": "abcvip",
+   "deals": 1
+  },
+  {
+   "brand": "Valori",
+   "slug": "valori",
+   "deals": 1
+  },
+  {
+   "brand": "Sartoria Cardona",
+   "slug": "sartoria-cardona",
+   "deals": 1
+  },
+  {
+   "brand": "Rental Plus",
+   "slug": "rental-plus",
+   "deals": 1
+  },
+  {
+   "brand": "Villa Mafalda",
+   "slug": "villa-mafalda",
+   "deals": 1
+  },
+  {
+   "brand": "Orsolini",
+   "slug": "orsolini",
+   "deals": 1
+  },
+  {
+   "brand": "Acqua Filette",
+   "slug": "acqua-filette",
+   "deals": 1
+  },
+  {
+   "brand": "Caffè Moreno",
+   "slug": "caffe-moreno",
+   "deals": 1
+  },
+  {
+   "brand": "Xtrade",
+   "slug": "xtrade",
+   "deals": 1
+  },
+  {
+   "brand": "Giorgio Armani",
+   "slug": "giorgio-armani",
+   "deals": 1
+  },
+  {
+   "brand": "UniCredit Buddy",
+   "slug": "unicredit-buddy",
+   "deals": 1
+  },
+  {
+   "brand": "Ganten",
+   "slug": "ganten",
+   "deals": 1
+  },
+  {
+   "brand": "Finom",
+   "slug": "finom",
+   "deals": 1
+  },
+  {
+   "brand": "NTS Sport",
+   "slug": "nts-sport",
+   "deals": 1
+  },
+  {
+   "brand": "Tsunami Nutrition",
+   "slug": "tsunami-nutrition",
+   "deals": 1
+  },
+  {
+   "brand": "Gattinoni",
+   "slug": "gattinoni",
+   "deals": 1
+  },
+  {
+   "brand": "Acqua Fiuggi",
+   "slug": "acqua-fiuggi",
+   "deals": 1
+  },
+  {
+   "brand": "Sector",
+   "slug": "sector",
+   "deals": 1
+  },
+  {
+   "brand": "Canali",
+   "slug": "canali",
+   "deals": 1
+  },
+  {
+   "brand": "Battero",
+   "slug": "battero",
+   "deals": 1
+  },
+  {
+   "brand": "FMF Group",
+   "slug": "fmf-group",
+   "deals": 1
+  },
+  {
+   "brand": "Paganotto Caffè",
+   "slug": "paganotto-caffe",
+   "deals": 1
+  },
+  {
+   "brand": "Banca Mediolanum",
+   "slug": "banca-mediolanum",
+   "deals": 1
+  },
+  {
+   "brand": "Vierre Home",
+   "slug": "vierre-home",
+   "deals": 1
+  },
+  {
+   "brand": "Crea Eco Living",
+   "slug": "crea-eco-living",
+   "deals": 1
+  },
+  {
+   "brand": "Villafrut",
+   "slug": "villafrut",
+   "deals": 1
+  },
+  {
+   "brand": "Maya Illuminazione",
+   "slug": "maya-illuminazione",
+   "deals": 1
+  },
+  {
+   "brand": "Dam System",
+   "slug": "dam-system",
+   "deals": 1
+  },
+  {
+   "brand": "Ferrometal",
+   "slug": "ferrometal",
+   "deals": 1
+  },
+  {
+   "brand": "Studio Protecno",
+   "slug": "studio-protecno",
+   "deals": 1
+  },
+  {
+   "brand": "Datacol",
+   "slug": "datacol",
+   "deals": 1
+  },
+  {
+   "brand": "Donsi",
+   "slug": "donsi",
+   "deals": 1
+  },
+  {
+   "brand": "Salumificio Coati",
+   "slug": "salumificio-coati",
+   "deals": 1
+  },
+  {
+   "brand": "Gianfranceschi Costruzioni",
+   "slug": "gianfranceschi-costruzioni",
+   "deals": 1
+  },
+  {
+   "brand": "Insys Impianti",
+   "slug": "insys-impianti",
+   "deals": 1
+  },
+  {
+   "brand": "Amperia",
+   "slug": "amperia",
+   "deals": 1
+  },
+  {
+   "brand": "Impresa Toffaletti",
+   "slug": "impresa-toffaletti",
+   "deals": 1
+  },
+  {
+   "brand": "L'Alleanza Servizi",
+   "slug": "l-alleanza-servizi",
+   "deals": 1
+  },
+  {
+   "brand": "Forno Bonomi",
+   "slug": "forno-bonomi",
+   "deals": 1
+  },
+  {
+   "brand": "Scala Immobiliare",
+   "slug": "scala-immobiliare",
+   "deals": 1
+  },
+  {
+   "brand": "Vercan",
+   "slug": "vercan",
+   "deals": 1
+  },
+  {
+   "brand": "SZ Infissi",
+   "slug": "sz-infissi",
+   "deals": 1
+  },
+  {
+   "brand": "Bolla",
+   "slug": "bolla",
+   "deals": 1
+  },
+  {
+   "brand": "Noleggiare",
+   "slug": "noleggiare",
+   "deals": 1
+  },
+  {
+   "brand": "Gruppo Bertucco",
+   "slug": "gruppo-bertucco",
+   "deals": 1
+  },
+  {
+   "brand": "Müller",
+   "slug": "muller",
+   "deals": 1
+  },
+  {
+   "brand": "Agenzia Cavarretta",
+   "slug": "agenzia-cavarretta",
+   "deals": 1
+  },
+  {
+   "brand": "SEC",
+   "slug": "sec",
+   "deals": 1
+  },
+  {
+   "brand": "Autotorino",
+   "slug": "autotorino",
+   "deals": 1
+  },
+  {
+   "brand": "Maxfone",
+   "slug": "maxfone",
+   "deals": 1
+  },
+  {
+   "brand": "Leaderform",
+   "slug": "leaderform",
+   "deals": 1
+  },
+  {
+   "brand": "Scaligera Arredamenti",
+   "slug": "scaligera-arredamenti",
+   "deals": 1
+  },
+  {
+   "brand": "Fastbet",
+   "slug": "fastbet",
+   "deals": 1
+  },
+  {
+   "brand": "Vetrocar",
+   "slug": "vetrocar",
+   "deals": 1
+  },
+  {
+   "brand": "Aircash",
+   "slug": "aircash",
+   "deals": 1
+  },
+  {
+   "brand": "Unifrigo",
+   "slug": "unifrigo",
+   "deals": 1
+  },
+  {
+   "brand": "Stemar Past",
+   "slug": "stemar-past",
+   "deals": 1
+  },
+  {
+   "brand": "Cantine Federici",
+   "slug": "cantine-federici",
+   "deals": 1
+  },
+  {
+   "brand": "Caseificio Val d'Aveto",
+   "slug": "caseificio-val-d-aveto",
+   "deals": 1
+  },
+  {
+   "brand": "Biscottificio Grondona",
+   "slug": "biscottificio-grondona",
+   "deals": 1
+  },
+  {
+   "brand": "Caffè Boasi",
+   "slug": "caffe-boasi",
+   "deals": 1
+  },
+  {
+   "brand": "B Catering",
+   "slug": "b-catering",
+   "deals": 1
+  },
+  {
+   "brand": "Olio Anfosso",
+   "slug": "olio-anfosso",
+   "deals": 1
+  },
+  {
+   "brand": "WTC Services",
+   "slug": "wtc-services",
+   "deals": 1
+  },
+  {
+   "brand": "Syntonia",
+   "slug": "syntonia",
+   "deals": 1
+  },
+  {
+   "brand": "Viteria Ratto",
+   "slug": "viteria-ratto",
+   "deals": 1
+  },
+  {
+   "brand": "Publiled",
+   "slug": "publiled",
+   "deals": 1
+  },
+  {
+   "brand": "Ortofrutta Tigullio",
+   "slug": "ortofrutta-tigullio",
+   "deals": 1
+  },
+  {
+   "brand": "OMP Racing",
+   "slug": "omp-racing",
+   "deals": 1
+  },
+  {
+   "brand": "Norsan",
+   "slug": "norsan",
+   "deals": 1
+  },
+  {
+   "brand": "Noleggio Quattro",
+   "slug": "noleggio-quattro",
+   "deals": 1
+  },
+  {
+   "brand": "Gruppo Maccio",
+   "slug": "gruppo-maccio",
+   "deals": 1
+  },
+  {
+   "brand": "Coop Lubrani",
+   "slug": "coop-lubrani",
+   "deals": 1
+  },
+  {
+   "brand": "Isolani",
+   "slug": "isolani",
+   "deals": 1
+  },
+  {
+   "brand": "Greataly",
+   "slug": "greataly",
+   "deals": 1
+  },
+  {
+   "brand": "Genova Rent",
+   "slug": "genova-rent",
+   "deals": 1
+  },
+  {
+   "brand": "Footlab",
+   "slug": "footlab",
+   "deals": 1
+  },
+  {
+   "brand": "Effedue Genova",
+   "slug": "effedue-genova",
+   "deals": 1
+  },
+  {
+   "brand": "Fidra",
+   "slug": "fidra",
+   "deals": 1
+  },
+  {
+   "brand": "Every Services",
+   "slug": "every-services",
+   "deals": 1
+  },
+  {
+   "brand": "Concorde Genova",
+   "slug": "concorde-genova",
+   "deals": 1
+  },
+  {
+   "brand": "Clever Synergy",
+   "slug": "clever-synergy",
+   "deals": 1
+  },
+  {
+   "brand": "Clas Eventi",
+   "slug": "clas-eventi",
+   "deals": 1
+  },
+  {
+   "brand": "Cartopi",
+   "slug": "cartopi",
+   "deals": 1
+  },
+  {
+   "brand": "Brunengo",
+   "slug": "brunengo",
+   "deals": 1
+  },
+  {
+   "brand": "Bozzo Impianti",
+   "slug": "bozzo-impianti",
+   "deals": 1
+  },
+  {
+   "brand": "BG Porte",
+   "slug": "bg-porte",
+   "deals": 1
+  },
+  {
+   "brand": "BiAuto Group",
+   "slug": "biauto-group",
+   "deals": 1
+  },
+  {
+   "brand": "Aeroporto di Genova",
+   "slug": "aeroporto-di-genova",
+   "deals": 1
+  },
+  {
+   "brand": "AmSpec",
+   "slug": "amspec",
+   "deals": 1
+  },
+  {
+   "brand": "Ability Group",
+   "slug": "ability-group",
+   "deals": 1
+  },
+  {
+   "brand": "Activate Pilates",
+   "slug": "activate-pilates",
+   "deals": 1
+  },
+  {
+   "brand": "Bulls Workout",
+   "slug": "bulls-workout",
+   "deals": 1
+  },
+  {
+   "brand": "Whuis",
+   "slug": "whuis",
+   "deals": 1
+  },
+  {
+   "brand": "Niasca Portofino",
+   "slug": "niasca-portofino",
+   "deals": 1
+  },
+  {
+   "brand": "TWOW",
+   "slug": "twow",
+   "deals": 1
+  },
+  {
+   "brand": "Mantero Sistemi",
+   "slug": "mantero-sistemi",
+   "deals": 1
+  },
+  {
+   "brand": "Sebago",
+   "slug": "sebago",
+   "deals": 1
+  },
+  {
+   "brand": "Mulish",
+   "slug": "mulish",
+   "deals": 1
+  },
+  {
+   "brand": "Y3K",
+   "slug": "y3k",
+   "deals": 1
+  },
+  {
+   "brand": "Peruselli",
+   "slug": "peruselli",
+   "deals": 1
+  },
+  {
+   "brand": "One of Us",
+   "slug": "one-of-us",
+   "deals": 1
+  },
+  {
+   "brand": "Grissitalia",
+   "slug": "grissitalia",
+   "deals": 1
+  },
+  {
+   "brand": "Errebi Mobility",
+   "slug": "errebi-mobility",
+   "deals": 1
+  },
+  {
+   "brand": "bwin",
+   "slug": "bwin",
+   "deals": 1
+  },
+  {
+   "brand": "Seatram",
+   "slug": "seatram",
+   "deals": 1
+  },
+  {
+   "brand": "Cambiaso Risso",
+   "slug": "cambiaso-risso",
+   "deals": 1
+  },
+  {
+   "brand": "Ceres",
+   "slug": "ceres",
+   "deals": 1
+  },
+  {
+   "brand": "Pulsee",
+   "slug": "pulsee",
+   "deals": 1
+  },
+  {
+   "brand": "Stilli Solutions",
+   "slug": "stilli-solutions",
+   "deals": 1
+  },
+  {
+   "brand": "Prinz",
+   "slug": "prinz",
+   "deals": 1
+  },
+  {
+   "brand": "Galateo",
+   "slug": "galateo",
+   "deals": 1
+  },
+  {
+   "brand": "C&G Rentals",
+   "slug": "c-and-g-rentals",
+   "deals": 1
+  },
+  {
+   "brand": "Vallepicciola",
+   "slug": "vallepicciola",
+   "deals": 1
+  },
+  {
+   "brand": "Lollo",
+   "slug": "lollo",
+   "deals": 1
+  },
+  {
+   "brand": "Kapriol",
+   "slug": "kapriol",
+   "deals": 1
+  },
+  {
+   "brand": "Dole",
+   "slug": "dole",
+   "deals": 1
+  },
+  {
+   "brand": "Barberino Designer Outlet",
+   "slug": "barberino-designer-outlet",
+   "deals": 1
+  },
+  {
+   "brand": "Baker Hughes",
+   "slug": "baker-hughes",
+   "deals": 1
+  },
+  {
+   "brand": "Acqua Silva",
+   "slug": "acqua-silva",
+   "deals": 1
+  },
+  {
+   "brand": "WINDTRE",
+   "slug": "windtre",
+   "deals": 1
+  },
+  {
+   "brand": "Peuterey",
+   "slug": "peuterey",
+   "deals": 1
+  },
+  {
+   "brand": "Trenitalia",
+   "slug": "trenitalia",
+   "deals": 1
+  },
+  {
+   "brand": "Cattolica Assicurazioni",
+   "slug": "cattolica-assicurazioni",
+   "deals": 1
+  },
+  {
+   "brand": "Estra",
+   "slug": "estra",
+   "deals": 1
+  },
+  {
+   "brand": "La Provincia di Cremona",
+   "slug": "la-provincia-di-cremona",
+   "deals": 1
+  },
+  {
+   "brand": "Mondo Padano",
+   "slug": "mondo-padano",
+   "deals": 1
+  },
+  {
+   "brand": "CremonaSport",
+   "slug": "cremonasport",
+   "deals": 1
+  },
+  {
+   "brand": "CremonaOggi",
+   "slug": "cremonaoggi",
+   "deals": 1
+  },
+  {
+   "brand": "CremonaUno",
+   "slug": "cremonauno",
+   "deals": 1
+  },
+  {
+   "brand": "Golf Il Torrazzo",
+   "slug": "golf-il-torrazzo",
+   "deals": 1
+  },
+  {
+   "brand": "Relais Convento",
+   "slug": "relais-convento",
+   "deals": 1
+  },
+  {
+   "brand": "Fonte Bracca",
+   "slug": "fonte-bracca",
+   "deals": 1
+  },
+  {
+   "brand": "Seri Art",
+   "slug": "seri-art",
+   "deals": 1
+  },
+  {
+   "brand": "Holis",
+   "slug": "holis",
+   "deals": 1
+  },
+  {
+   "brand": "SaTex",
+   "slug": "satex",
+   "deals": 1
+  },
+  {
+   "brand": "Storti",
+   "slug": "storti",
+   "deals": 1
+  },
+  {
+   "brand": "Tecnorete",
+   "slug": "tecnorete",
+   "deals": 1
+  },
+  {
+   "brand": "Zanon",
+   "slug": "zanon",
+   "deals": 1
+  },
+  {
+   "brand": "Vancom Imballaggi",
+   "slug": "vancom-imballaggi",
+   "deals": 1
+  },
+  {
+   "brand": "Azienda Cartaria Lombarda",
+   "slug": "azienda-cartaria-lombarda",
+   "deals": 1
+  },
+  {
+   "brand": "Joy Montaggi",
+   "slug": "joy-montaggi",
+   "deals": 1
+  },
+  {
+   "brand": "Socar",
+   "slug": "socar",
+   "deals": 1
+  },
+  {
+   "brand": "Baroni",
+   "slug": "baroni",
+   "deals": 1
+  },
+  {
+   "brand": "Ricambi Cremona",
+   "slug": "ricambi-cremona",
+   "deals": 1
+  },
+  {
+   "brand": "Sistemi",
+   "slug": "sistemi",
+   "deals": 1
+  },
+  {
+   "brand": "Consorzio Agrario di Cremona",
+   "slug": "consorzio-agrario-di-cremona",
+   "deals": 1
+  },
+  {
+   "brand": "Centro Casa Cremona",
+   "slug": "centro-casa-cremona",
+   "deals": 1
+  },
+  {
+   "brand": "Cremona Ecologia",
+   "slug": "cremona-ecologia",
+   "deals": 1
+  },
+  {
+   "brand": "Vago Costruzioni",
+   "slug": "vago-costruzioni",
+   "deals": 1
+  },
+  {
+   "brand": "Dani Trasporti",
+   "slug": "dani-trasporti",
+   "deals": 1
+  },
+  {
+   "brand": "Gustami",
+   "slug": "gustami",
+   "deals": 1
+  },
+  {
+   "brand": "Fibre Drums",
+   "slug": "fibre-drums",
+   "deals": 1
+  },
+  {
+   "brand": "Italimpianti",
+   "slug": "italimpianti",
+   "deals": 1
+  },
+  {
+   "brand": "Salchi Metalcoat",
+   "slug": "salchi-metalcoat",
+   "deals": 1
+  },
+  {
+   "brand": "Ocrim",
+   "slug": "ocrim",
+   "deals": 1
+  },
+  {
+   "brand": "CMS Trading",
+   "slug": "cms-trading",
+   "deals": 1
+  },
+  {
+   "brand": "Ticino Lamiere",
+   "slug": "ticino-lamiere",
+   "deals": 1
+  },
+  {
+   "brand": "Moreschi",
+   "slug": "moreschi",
+   "deals": 1
+  },
+  {
+   "brand": "Ecomembrane",
+   "slug": "ecomembrane",
+   "deals": 1
+  },
+  {
+   "brand": "Sider Trading",
+   "slug": "sider-trading",
+   "deals": 1
+  },
+  {
+   "brand": "Bragalini",
+   "slug": "bragalini",
+   "deals": 1
+  },
+  {
+   "brand": "Lang Recycling",
+   "slug": "lang-recycling",
+   "deals": 1
+  },
+  {
+   "brand": "Vexa",
+   "slug": "vexa",
+   "deals": 1
+  },
+  {
+   "brand": "Racchetti Trasporti",
+   "slug": "racchetti-trasporti",
+   "deals": 1
+  },
+  {
+   "brand": "AFIM Rottami",
+   "slug": "afim-rottami",
+   "deals": 1
+  },
+  {
+   "brand": "Italsinergie",
+   "slug": "italsinergie",
+   "deals": 1
+  },
+  {
+   "brand": "Invernizzi",
+   "slug": "invernizzi",
+   "deals": 1
+  },
+  {
+   "brand": "Fertrans",
+   "slug": "fertrans",
+   "deals": 1
+  },
+  {
+   "brand": "Consorzio Conart",
+   "slug": "consorzio-conart",
+   "deals": 1
+  },
+  {
+   "brand": "Cartaria Mainetti",
+   "slug": "cartaria-mainetti",
+   "deals": 1
+  },
+  {
+   "brand": "Siderrottami",
+   "slug": "siderrottami",
+   "deals": 1
+  },
+  {
+   "brand": "Casapoint",
+   "slug": "casapoint",
+   "deals": 1
+  },
+  {
+   "brand": "Racchi",
+   "slug": "racchi",
+   "deals": 1
+  },
+  {
+   "brand": "C2 Corporate",
+   "slug": "c2-corporate",
+   "deals": 1
+  },
+  {
+   "brand": "Bonardi",
+   "slug": "bonardi",
+   "deals": 1
+  },
+  {
+   "brand": "Cavit",
+   "slug": "cavit",
+   "deals": 1
+  },
+  {
+   "brand": "Conte Vistarino",
+   "slug": "conte-vistarino",
+   "deals": 1
+  },
+  {
+   "brand": "Subbyx",
+   "slug": "subbyx",
+   "deals": 1
+  },
+  {
+   "brand": "Gruppo Gatti",
+   "slug": "gruppo-gatti",
+   "deals": 1
+  },
+  {
+   "brand": "Nizzi",
+   "slug": "nizzi",
+   "deals": 1
+  },
+  {
+   "brand": "Asciutti",
+   "slug": "asciutti",
+   "deals": 1
+  },
+  {
+   "brand": "Edil Sartori",
+   "slug": "edil-sartori",
+   "deals": 1
+  },
+  {
+   "brand": "LC Pese",
+   "slug": "lc-pese",
+   "deals": 1
+  },
+  {
+   "brand": "Fornaci Grigolin",
+   "slug": "fornaci-grigolin",
+   "deals": 1
+  },
+  {
+   "brand": "Buttarelli",
+   "slug": "buttarelli",
+   "deals": 1
+  },
+  {
+   "brand": "Ecosteel",
+   "slug": "ecosteel",
+   "deals": 1
+  },
+  {
+   "brand": "Aspireco",
+   "slug": "aspireco",
+   "deals": 1
+  },
+  {
+   "brand": "Treso",
+   "slug": "treso",
+   "deals": 1
+  },
+  {
+   "brand": "Promec",
+   "slug": "promec",
+   "deals": 1
+  },
+  {
+   "brand": "Arca Group",
+   "slug": "arca-group",
+   "deals": 1
+  },
+  {
+   "brand": "Somin",
+   "slug": "somin",
+   "deals": 1
+  },
+  {
+   "brand": "Dehner Recycling",
+   "slug": "dehner-recycling",
+   "deals": 1
+  },
+  {
+   "brand": "Pluvitecnica",
+   "slug": "pluvitecnica",
+   "deals": 1
+  },
+  {
+   "brand": "Curcio Service",
+   "slug": "curcio-service",
+   "deals": 1
+  },
+  {
+   "brand": "Oleificio Zucchi",
+   "slug": "oleificio-zucchi",
+   "deals": 1
+  },
+  {
+   "brand": "Misano International",
+   "slug": "misano-international",
+   "deals": 1
+  },
+  {
+   "brand": "Metalferro",
+   "slug": "metalferro",
+   "deals": 1
+  },
+  {
+   "brand": "Fattorie Cremona",
+   "slug": "fattorie-cremona",
+   "deals": 1
+  },
+  {
+   "brand": "Traiana",
+   "slug": "traiana",
+   "deals": 1
+  },
+  {
+   "brand": "Microdata",
+   "slug": "microdata",
+   "deals": 1
+  },
+  {
+   "brand": "Fada",
+   "slug": "fada",
+   "deals": 1
+  },
+  {
+   "brand": "Termoidraulica Fasoli",
+   "slug": "termoidraulica-fasoli",
+   "deals": 1
+  },
+  {
+   "brand": "Linea Giardino",
+   "slug": "linea-giardino",
+   "deals": 1
+  },
+  {
+   "brand": "Saeflex",
+   "slug": "saeflex",
+   "deals": 1
+  },
+  {
+   "brand": "Val Trans",
+   "slug": "val-trans",
+   "deals": 1
+  },
+  {
+   "brand": "Ecosider",
+   "slug": "ecosider",
+   "deals": 1
+  },
+  {
+   "brand": "Padania Acque",
+   "slug": "padania-acque",
+   "deals": 1
+  },
+  {
+   "brand": "Immobiliare Il Torrazzo",
+   "slug": "immobiliare-il-torrazzo",
+   "deals": 1
+  },
+  {
+   "brand": "Gioielleria Brugnelli",
+   "slug": "gioielleria-brugnelli",
+   "deals": 1
+  },
+  {
+   "brand": "Gruppo AB",
+   "slug": "gruppo-ab",
+   "deals": 1
+  },
+  {
+   "brand": "Auricchio",
+   "slug": "auricchio",
+   "deals": 1
+  },
+  {
+   "brand": "Isotta Costruzioni",
+   "slug": "isotta-costruzioni",
+   "deals": 1
+  },
+  {
+   "brand": "MC Manini Prefabbricati",
+   "slug": "mc-manini-prefabbricati",
+   "deals": 1
+  },
+  {
+   "brand": "Cremona Gronde",
+   "slug": "cremona-gronde",
+   "deals": 1
+  },
+  {
+   "brand": "Corradi & Ghisolfi",
+   "slug": "corradi-and-ghisolfi",
+   "deals": 1
+  },
+  {
+   "brand": "Credito Padano",
+   "slug": "credito-padano",
+   "deals": 1
+  },
+  {
+   "brand": "RHT",
+   "slug": "rht",
+   "deals": 1
+  },
+  {
+   "brand": "Open SB",
+   "slug": "open-sb",
+   "deals": 1
+  },
+  {
+   "brand": "Montalbetti",
+   "slug": "montalbetti",
+   "deals": 1
+  },
+  {
+   "brand": "CIOS Grupa",
+   "slug": "cios-grupa",
+   "deals": 1
+  },
+  {
+   "brand": "Eurometal",
+   "slug": "eurometal",
+   "deals": 1
+  },
+  {
+   "brand": "Turra Autotrasporti",
+   "slug": "turra-autotrasporti",
+   "deals": 1
+  },
+  {
+   "brand": "Ilfer",
+   "slug": "ilfer",
+   "deals": 1
+  },
+  {
+   "brand": "Edilkamin",
+   "slug": "edilkamin",
+   "deals": 1
+  },
+  {
+   "brand": "Centro Siderurgico",
+   "slug": "centro-siderurgico",
+   "deals": 1
+  },
+  {
+   "brand": "Euronord",
+   "slug": "euronord",
+   "deals": 1
+  },
+  {
+   "brand": "Immobiliare Raffaella",
+   "slug": "immobiliare-raffaella",
+   "deals": 1
+  },
+  {
+   "brand": "Selecta",
+   "slug": "selecta",
+   "deals": 1
+  },
+  {
+   "brand": "Bresaole Pini",
+   "slug": "bresaole-pini",
+   "deals": 1
+  },
+  {
+   "brand": "Gruppo Bossoni",
+   "slug": "gruppo-bossoni",
+   "deals": 1
+  },
+  {
+   "brand": "Italtrans",
+   "slug": "italtrans",
+   "deals": 1
+  },
+  {
+   "brand": "LWS",
+   "slug": "lws",
+   "deals": 1
+  },
+  {
+   "brand": "De Lorenzi",
+   "slug": "de-lorenzi",
+   "deals": 1
+  },
+  {
+   "brand": "Sicom",
+   "slug": "sicom",
+   "deals": 1
+  },
+  {
+   "brand": "Gruppo Piantoni",
+   "slug": "gruppo-piantoni",
+   "deals": 1
+  },
+  {
+   "brand": "Unicalce",
+   "slug": "unicalce",
+   "deals": 1
+  },
+  {
+   "brand": "Compagnia Ferroviaria Italiana",
+   "slug": "compagnia-ferroviaria-italiana",
+   "deals": 1
+  },
+  {
+   "brand": "Trasteel",
+   "slug": "trasteel",
+   "deals": 1
+  },
+  {
+   "brand": "Profilmec",
+   "slug": "profilmec",
+   "deals": 1
+  },
+  {
+   "brand": "Trasporti Pesanti",
+   "slug": "trasporti-pesanti",
+   "deals": 1
+  },
+  {
+   "brand": "MIS",
+   "slug": "mis",
+   "deals": 1
+  },
+  {
+   "brand": "Cronimet",
+   "slug": "cronimet",
+   "deals": 1
+  },
+  {
+   "brand": "Pontenossa",
+   "slug": "pontenossa",
+   "deals": 1
+  },
+  {
+   "brand": "Pomì",
+   "slug": "pomi",
+   "deals": 1
+  },
+  {
+   "brand": "Eurotrade",
+   "slug": "eurotrade",
+   "deals": 1
+  },
+  {
+   "brand": "Feraboli Lubrificanti",
+   "slug": "feraboli-lubrificanti",
+   "deals": 1
+  },
+  {
+   "brand": "A2A",
+   "slug": "a2a",
+   "deals": 1
+  },
+  {
+   "brand": "Arvedi Tubi Acciaio",
+   "slug": "arvedi-tubi-acciaio",
+   "deals": 1
+  },
+  {
+   "brand": "Acciaieria Arvedi",
+   "slug": "acciaieria-arvedi",
+   "deals": 1
+  },
+  {
+   "brand": "Ilta Inox",
+   "slug": "ilta-inox",
+   "deals": 1
+  },
+  {
+   "brand": "Arinox",
+   "slug": "arinox",
+   "deals": 1
+  },
+  {
+   "brand": "Humanitas",
+   "slug": "humanitas",
+   "deals": 1
+  },
+  {
+   "brand": "Tessabit",
+   "slug": "tessabit",
+   "deals": 1
+  },
+  {
+   "brand": "Goleador",
+   "slug": "goleador",
+   "deals": 1
+  },
+  {
+   "brand": "Acqua S.Bernardo",
+   "slug": "acqua-s-bernardo",
+   "deals": 1
+  },
+  {
+   "brand": "NoWatch",
+   "slug": "nowatch",
+   "deals": 1
+  },
+  {
+   "brand": "Brioni",
+   "slug": "brioni",
+   "deals": 1
+  },
+  {
+   "brand": "PokerStars",
+   "slug": "pokerstars",
+   "deals": 1
+  },
+  {
+   "brand": "Ponte di Legno-Tonale",
+   "slug": "ponte-di-legno-tonale",
+   "deals": 1
+  },
+  {
+   "brand": "Cantina di Santadi",
+   "slug": "cantina-di-santadi",
+   "deals": 1
+  },
+  {
+   "brand": "Cristal Service",
+   "slug": "cristal-service",
+   "deals": 1
+  },
+  {
+   "brand": "Argiolas",
+   "slug": "argiolas",
+   "deals": 1
+  },
+  {
+   "brand": "Arianna Milia",
+   "slug": "arianna-milia",
+   "deals": 1
+  },
+  {
+   "brand": "Giraldo Ponteggi",
+   "slug": "giraldo-ponteggi",
+   "deals": 1
+  },
+  {
+   "brand": "La Casa del Grano",
+   "slug": "la-casa-del-grano",
+   "deals": 1
+  },
+  {
+   "brand": "Mida Rent",
+   "slug": "mida-rent",
+   "deals": 1
+  },
+  {
+   "brand": "Pubblicitas",
+   "slug": "pubblicitas",
+   "deals": 1
+  },
+  {
+   "brand": "Ortopedia Chessa",
+   "slug": "ortopedia-chessa",
+   "deals": 1
+  },
+  {
+   "brand": "Sarda Clima",
+   "slug": "sarda-clima",
+   "deals": 1
+  },
+  {
+   "brand": "Scuola Privata Iglesias",
+   "slug": "scuola-privata-iglesias",
+   "deals": 1
+  },
+  {
+   "brand": "Diva Salotti",
+   "slug": "diva-salotti",
+   "deals": 1
+  },
+  {
+   "brand": "Gruppo Acentro",
+   "slug": "gruppo-acentro",
+   "deals": 1
+  },
+  {
+   "brand": "Cobisar",
+   "slug": "cobisar",
+   "deals": 1
+  },
+  {
+   "brand": "Edil Ricicli",
+   "slug": "edil-ricicli",
+   "deals": 1
+  },
+  {
+   "brand": "Oikade",
+   "slug": "oikade",
+   "deals": 1
+  },
+  {
+   "brand": "Sarda Lavori",
+   "slug": "sarda-lavori",
+   "deals": 1
+  },
+  {
+   "brand": "Orefice Generators",
+   "slug": "orefice-generators",
+   "deals": 1
+  },
+  {
+   "brand": "ELSA",
+   "slug": "elsa",
+   "deals": 1
+  },
+  {
+   "brand": "Tenuta Asinara",
+   "slug": "tenuta-asinara",
+   "deals": 1
+  },
+  {
+   "brand": "Fitness Village",
+   "slug": "fitness-village",
+   "deals": 1
+  },
+  {
+   "brand": "Enrico Congiu",
+   "slug": "enrico-congiu",
+   "deals": 1
+  },
+  {
+   "brand": "Tirso",
+   "slug": "tirso",
+   "deals": 1
+  },
+  {
+   "brand": "HGH",
+   "slug": "hgh",
+   "deals": 1
+  },
+  {
+   "brand": "Arborea",
+   "slug": "arborea",
+   "deals": 1
+  },
+  {
+   "brand": "L'Orto di Eleonora",
+   "slug": "l-orto-di-eleonora",
+   "deals": 1
+  },
+  {
+   "brand": "Pascucci",
+   "slug": "pascucci",
+   "deals": 1
+  },
+  {
+   "brand": "Antica Cagliari",
+   "slug": "antica-cagliari",
+   "deals": 1
+  },
+  {
+   "brand": "Alarm System",
+   "slug": "alarm-system",
+   "deals": 1
+  },
+  {
+   "brand": "Acqua San Giorgio",
+   "slug": "acqua-san-giorgio",
+   "deals": 1
+  },
+  {
+   "brand": "Teikos",
+   "slug": "teikos",
+   "deals": 1
+  },
+  {
+   "brand": "CRAI",
+   "slug": "crai",
+   "deals": 1
+  },
+  {
+   "brand": "Unipol",
+   "slug": "unipol",
+   "deals": 1
+  },
+  {
+   "brand": "Mont'e Prama",
+   "slug": "mont-e-prama",
+   "deals": 1
+  },
+  {
+   "brand": "Angelo Ottolini",
+   "slug": "angelo-ottolini",
+   "deals": 1
+  },
+  {
+   "brand": "Energit",
+   "slug": "energit",
+   "deals": 1
+  },
+  {
+   "brand": "I Mulini",
+   "slug": "i-mulini",
+   "deals": 1
+  },
+  {
+   "brand": "Banco di Sardegna",
+   "slug": "banco-di-sardegna",
+   "deals": 1
+  },
+  {
+   "brand": "Sardegna Turismo",
+   "slug": "sardegna-turismo",
+   "deals": 1
+  },
+  {
+   "brand": "VIPA",
+   "slug": "vipa",
+   "deals": 1
+  },
+  {
+   "brand": "Transtecno",
+   "slug": "transtecno",
+   "deals": 1
+  },
+  {
+   "brand": "TER Costruzioni",
+   "slug": "ter-costruzioni",
+   "deals": 1
+  },
+  {
+   "brand": "Sit Brush",
+   "slug": "sit-brush",
+   "deals": 1
+  },
+  {
+   "brand": "SIRA Industrie",
+   "slug": "sira-industrie",
+   "deals": 1
+  },
+  {
+   "brand": "Sidel",
+   "slug": "sidel",
+   "deals": 1
+  },
+  {
+   "brand": "Reabilita Sport",
+   "slug": "reabilita-sport",
+   "deals": 1
+  },
+  {
+   "brand": "PG Professional",
+   "slug": "pg-professional",
+   "deals": 1
+  },
+  {
+   "brand": "MFB Net",
+   "slug": "mfb-net",
+   "deals": 1
+  },
+  {
+   "brand": "Meliconi",
+   "slug": "meliconi",
+   "deals": 1
+  },
+  {
+   "brand": "MEC",
+   "slug": "mec",
+   "deals": 1
+  },
+  {
+   "brand": "Labanti e Nanni",
+   "slug": "labanti-e-nanni",
+   "deals": 1
+  },
+  {
+   "brand": "Inox Center",
+   "slug": "inox-center",
+   "deals": 1
+  },
+  {
+   "brand": "IMF",
+   "slug": "imf",
+   "deals": 1
+  },
+  {
+   "brand": "Gramigna",
+   "slug": "gramigna",
+   "deals": 1
+  },
+  {
+   "brand": "Geberit",
+   "slug": "geberit",
+   "deals": 1
+  },
+  {
+   "brand": "FEA",
+   "slug": "fea",
+   "deals": 1
+  },
+  {
+   "brand": "Dettagli",
+   "slug": "dettagli",
+   "deals": 1
+  },
+  {
+   "brand": "Cosepuri",
+   "slug": "cosepuri",
+   "deals": 1
+  },
+  {
+   "brand": "Confcommercio",
+   "slug": "confcommercio",
+   "deals": 1
+  },
+  {
+   "brand": "CAM",
+   "slug": "cam",
+   "deals": 1
+  },
+  {
+   "brand": "Benetti Cesarino",
+   "slug": "benetti-cesarino",
+   "deals": 1
+  },
+  {
+   "brand": "BASE Protection",
+   "slug": "base-protection",
+   "deals": 1
+  },
+  {
+   "brand": "Arredart",
+   "slug": "arredart",
+   "deals": 1
+  },
+  {
+   "brand": "Toronto Argonauts",
+   "slug": "toronto-argonauts",
+   "deals": 1
+  },
+  {
+   "brand": "MYES",
+   "slug": "myes",
+   "deals": 1
+  },
+  {
+   "brand": "Banca di Bologna",
+   "slug": "banca-di-bologna",
+   "deals": 1
+  },
+  {
+   "brand": "Amaro Montenegro",
+   "slug": "amaro-montenegro",
+   "deals": 1
+  },
+  {
+   "brand": "Sporting Vacanze",
+   "slug": "sporting-vacanze",
+   "deals": 1
+  },
+  {
+   "brand": "Santa Croce",
+   "slug": "santa-croce",
+   "deals": 1
+  },
+  {
+   "brand": "Heritance Aahara",
+   "slug": "heritance-aahara",
+   "deals": 1
+  },
+  {
+   "brand": "Filicori Zecchini",
+   "slug": "filicori-zecchini",
+   "deals": 1
+  },
+  {
+   "brand": "Be-Kind",
+   "slug": "be-kind",
+   "deals": 1
+  },
+  {
+   "brand": "Atlante",
+   "slug": "atlante",
+   "deals": 1
+  },
+  {
+   "brand": "SATI",
+   "slug": "sati",
+   "deals": 1
+  },
+  {
+   "brand": "Panpiuma",
+   "slug": "panpiuma",
+   "deals": 1
+  },
+  {
+   "brand": "Poggipolini",
+   "slug": "poggipolini",
+   "deals": 1
+  },
+  {
+   "brand": "Italpizza",
+   "slug": "italpizza",
+   "deals": 1
+  },
+  {
+   "brand": "F.lli Iaria",
+   "slug": "f-lli-iaria",
+   "deals": 1
+  },
+  {
+   "brand": "Eurochef",
+   "slug": "eurochef",
+   "deals": 1
+  },
+  {
+   "brand": "Eco Termo",
+   "slug": "eco-termo",
+   "deals": 1
+  },
+  {
+   "brand": "Dr. Giorgini",
+   "slug": "dr-giorgini",
+   "deals": 1
+  },
+  {
+   "brand": "dBTechnologies",
+   "slug": "dbtechnologies",
+   "deals": 1
+  },
+  {
+   "brand": "DAY",
+   "slug": "day",
+   "deals": 1
+  },
+  {
+   "brand": "Ceramica Rondine",
+   "slug": "ceramica-rondine",
+   "deals": 1
+  },
+  {
+   "brand": "Asterix",
+   "slug": "asterix",
+   "deals": 1
+  },
+  {
+   "brand": "Alessandro Berselli",
+   "slug": "alessandro-berselli",
+   "deals": 1
+  },
+  {
+   "brand": "One Express",
+   "slug": "one-express",
+   "deals": 1
+  },
+  {
+   "brand": "Granarolo",
+   "slug": "granarolo",
+   "deals": 1
+  },
+  {
+   "brand": "Comet",
+   "slug": "comet",
+   "deals": 1
+  },
+  {
+   "brand": "BGame",
+   "slug": "bgame",
+   "deals": 1
+  },
+  {
+   "brand": "Pelliconi",
+   "slug": "pelliconi",
+   "deals": 1
+  },
+  {
+   "brand": "Selenella",
+   "slug": "selenella",
+   "deals": 1
+  },
+  {
+   "brand": "SV Sistemi di Sicurezza",
+   "slug": "sv-sistemi-di-sicurezza",
+   "deals": 1
+  },
+  {
+   "brand": "Electron System",
+   "slug": "electron-system",
+   "deals": 1
+  },
+  {
+   "brand": "Sportissimo",
+   "slug": "sportissimo",
+   "deals": 1
+  },
+  {
+   "brand": "SEAS",
+   "slug": "seas",
+   "deals": 1
+  },
+  {
+   "brand": "Rinaldi Gomme",
+   "slug": "rinaldi-gomme",
+   "deals": 1
+  },
+  {
+   "brand": "Chimica Panzeri",
+   "slug": "chimica-panzeri",
+   "deals": 1
+  },
+  {
+   "brand": "Milesi Plast",
+   "slug": "milesi-plast",
+   "deals": 1
+  },
+  {
+   "brand": "Mecc",
+   "slug": "mecc",
+   "deals": 1
+  },
+  {
+   "brand": "Mazzoleni",
+   "slug": "mazzoleni",
+   "deals": 1
+  },
+  {
+   "brand": "Lumson",
+   "slug": "lumson",
+   "deals": 1
+  },
+  {
+   "brand": "Lauria Impianti",
+   "slug": "lauria-impianti",
+   "deals": 1
+  },
+  {
+   "brand": "Italianoptic",
+   "slug": "italianoptic",
+   "deals": 1
+  },
+  {
+   "brand": "Horsa",
+   "slug": "horsa",
+   "deals": 1
+  },
+  {
+   "brand": "Futurauto",
+   "slug": "futurauto",
+   "deals": 1
+  },
+  {
+   "brand": "Fastweb",
+   "slug": "fastweb",
+   "deals": 1
+  },
+  {
+   "brand": "Fardelli Ernesto",
+   "slug": "fardelli-ernesto",
+   "deals": 1
+  },
+  {
+   "brand": "Euroservice",
+   "slug": "euroservice",
+   "deals": 1
+  },
+  {
+   "brand": "ESE Clesi",
+   "slug": "ese-clesi",
+   "deals": 1
+  },
+  {
+   "brand": "Cascina Italia",
+   "slug": "cascina-italia",
+   "deals": 1
+  },
+  {
+   "brand": "Boffetti",
+   "slug": "boffetti",
+   "deals": 1
+  },
+  {
+   "brand": "Carminati Allestimenti",
+   "slug": "carminati-allestimenti",
+   "deals": 1
+  },
+  {
+   "brand": "Auto Industriale",
+   "slug": "auto-industriale",
+   "deals": 1
+  },
+  {
+   "brand": "AT",
+   "slug": "at",
+   "deals": 1
+  },
+  {
+   "brand": "Artigiantubi",
+   "slug": "artigiantubi",
+   "deals": 1
+  },
+  {
+   "brand": "Tecnobody",
+   "slug": "tecnobody",
+   "deals": 1
+  },
+  {
+   "brand": "Ribo",
+   "slug": "ribo",
+   "deals": 1
+  },
+  {
+   "brand": "Okidoki",
+   "slug": "okidoki",
+   "deals": 1
+  },
+  {
+   "brand": "LP Grafica",
+   "slug": "lp-grafica",
+   "deals": 1
+  },
+  {
+   "brand": "Lazzarini",
+   "slug": "lazzarini",
+   "deals": 1
+  },
+  {
+   "brand": "Kopron",
+   "slug": "kopron",
+   "deals": 1
+  },
+  {
+   "brand": "Effebi",
+   "slug": "effebi",
+   "deals": 1
+  },
+  {
+   "brand": "Sangalli",
+   "slug": "sangalli",
+   "deals": 1
+  },
+  {
+   "brand": "Lavel Gomma",
+   "slug": "lavel-gomma",
+   "deals": 1
+  },
+  {
+   "brand": "Italcementi",
+   "slug": "italcementi",
+   "deals": 1
+  },
+  {
+   "brand": "Isocell",
+   "slug": "isocell",
+   "deals": 1
+  },
+  {
+   "brand": "Intesa Costruzioni",
+   "slug": "intesa-costruzioni",
+   "deals": 1
+  },
+  {
+   "brand": "Effeci Tecnoimpianti",
+   "slug": "effeci-tecnoimpianti",
+   "deals": 1
+  },
+  {
+   "brand": "Edilmac",
+   "slug": "edilmac",
+   "deals": 1
+  },
+  {
+   "brand": "Castello di Grumello",
+   "slug": "castello-di-grumello",
+   "deals": 1
+  },
+  {
+   "brand": "Caffè Poli",
+   "slug": "caffe-poli",
+   "deals": 1
+  },
+  {
+   "brand": "Anesa",
+   "slug": "anesa",
+   "deals": 1
+  },
+  {
+   "brand": "Argosped",
+   "slug": "argosped",
+   "deals": 1
+  },
+  {
+   "brand": "Despe",
+   "slug": "despe",
+   "deals": 1
+  },
+  {
+   "brand": "Zanetti",
+   "slug": "zanetti",
+   "deals": 1
+  },
+  {
+   "brand": "Pescherie Viviani",
+   "slug": "pescherie-viviani",
+   "deals": 1
+  },
+  {
+   "brand": "Sikkens Service Color",
+   "slug": "sikkens-service-color",
+   "deals": 1
+  },
+  {
+   "brand": "Proxima Lab",
+   "slug": "proxima-lab",
+   "deals": 1
+  },
+  {
+   "brand": "Mobilmondo",
+   "slug": "mobilmondo",
+   "deals": 1
+  },
+  {
+   "brand": "General Fruit",
+   "slug": "general-fruit",
+   "deals": 1
+  },
+  {
+   "brand": "Framar",
+   "slug": "framar",
+   "deals": 1
+  },
+  {
+   "brand": "GMP",
+   "slug": "gmp",
+   "deals": 1
+  },
+  {
+   "brand": "Gens Aurea",
+   "slug": "gens-aurea",
+   "deals": 1
+  },
+  {
+   "brand": "L'Eco di Bergamo",
+   "slug": "l-eco-di-bergamo",
+   "deals": 1
+  },
+  {
+   "brand": "Polini",
+   "slug": "polini",
+   "deals": 1
+  },
+  {
+   "brand": "Milani Giovanni",
+   "slug": "milani-giovanni",
+   "deals": 1
+  },
+  {
+   "brand": "Colorfer",
+   "slug": "colorfer",
+   "deals": 1
+  },
+  {
+   "brand": "Vierre",
+   "slug": "vierre",
+   "deals": 1
+  },
+  {
+   "brand": "Tendaflex",
+   "slug": "tendaflex",
+   "deals": 1
+  },
+  {
+   "brand": "RTL 102.5",
+   "slug": "rtl-102-5",
+   "deals": 1
+  },
+  {
+   "brand": "Pernice",
+   "slug": "pernice",
+   "deals": 1
+  },
+  {
+   "brand": "Montezemolo",
+   "slug": "montezemolo",
+   "deals": 1
+  },
+  {
+   "brand": "Italpol",
+   "slug": "italpol",
+   "deals": 1
+  },
+  {
+   "brand": "Imi Berg",
+   "slug": "imi-berg",
+   "deals": 1
+  },
+  {
+   "brand": "Habilita",
+   "slug": "habilita",
+   "deals": 1
+  },
+  {
+   "brand": "Borgoviaggi",
+   "slug": "borgoviaggi",
+   "deals": 1
+  },
+  {
+   "brand": "Fratelli Muratori",
+   "slug": "fratelli-muratori",
+   "deals": 1
+  },
+  {
+   "brand": "Beretta",
+   "slug": "beretta",
+   "deals": 1
+  },
+  {
+   "brand": "Oriocenter",
+   "slug": "oriocenter",
+   "deals": 1
+  },
+  {
+   "brand": "Intesa Sanpaolo",
+   "slug": "intesa-sanpaolo",
+   "deals": 1
+  },
+  {
+   "brand": "Cava Ghisalba",
+   "slug": "cava-ghisalba",
+   "deals": 1
+  },
+  {
+   "brand": "Tao Ambiente",
+   "slug": "tao-ambiente",
+   "deals": 1
+  },
+  {
+   "brand": "Snai",
+   "slug": "snai",
+   "deals": 1
+  },
+  {
+   "brand": "Gewiss",
+   "slug": "gewiss",
+   "deals": 1
+  },
+  {
+   "brand": "Acqua Lete",
+   "slug": "acqua-lete",
+   "deals": 1
+  },
+  {
+   "brand": "Leonardo da Vinci",
+   "slug": "leonardo-da-vinci",
+   "deals": 1
+  },
+  {
+   "brand": "Les Éléments",
+   "slug": "les-elements",
+   "deals": 1
+  },
+  {
+   "brand": "Q8",
+   "slug": "q8",
+   "deals": 1
+  },
+  {
+   "brand": "Gissah",
+   "slug": "gissah",
+   "deals": 1
+  },
+  {
+   "brand": "Frasassi",
+   "slug": "frasassi",
+   "deals": 1
+  },
+  {
+   "brand": "Dsquared2",
+   "slug": "dsquared2",
+   "deals": 1
+  },
+  {
+   "brand": "Policlinico Universitario Campus Bio-Medico",
+   "slug": "policlinico-universitario-campus-bio-medico",
+   "deals": 1
+  },
+  {
+   "brand": "HDI Assicurazioni",
+   "slug": "hdi-assicurazioni",
+   "deals": 1
+  },
+  {
+   "brand": "Auberge Collection",
+   "slug": "auberge-collection",
+   "deals": 1
+  },
+  {
+   "brand": "Boggi Milano",
+   "slug": "boggi-milano",
+   "deals": 1
+  },
+  {
    "brand": "Reboots",
    "slug": "reboots",
    "deals": 1
@@ -3607,16 +7597,6 @@
   {
    "brand": "Grand Class",
    "slug": "grand-class",
-   "deals": 1
-  },
-  {
-   "brand": "Mapei",
-   "slug": "mapei",
-   "deals": 1
-  },
-  {
-   "brand": "Tecnocasa",
-   "slug": "tecnocasa",
    "deals": 1
   },
   {
@@ -6940,11 +10920,6 @@
    "deals": 1
   },
   {
-   "brand": "Christeyns",
-   "slug": "christeyns",
-   "deals": 1
-  },
-  {
    "brand": "MRMS",
    "slug": "mrms",
    "deals": 1
@@ -8565,11 +12540,6 @@
    "deals": 1
   },
   {
-   "brand": "Bundeling",
-   "slug": "bundeling",
-   "deals": 1
-  },
-  {
    "brand": "Direct Global",
    "slug": "direct-global",
    "deals": 1
@@ -8612,11 +12582,6 @@
   {
    "brand": "Tony Macaroni",
    "slug": "tony-macaroni",
-   "deals": 1
-  },
-  {
-   "brand": "Sparco",
-   "slug": "sparco",
    "deals": 1
   },
   {
@@ -10210,11 +14175,6 @@
    "deals": 1
   },
   {
-   "brand": "IMA",
-   "slug": "ima",
-   "deals": 1
-  },
-  {
    "brand": "KONG",
    "slug": "kong",
    "deals": 1
@@ -11275,11 +15235,6 @@
    "deals": 1
   },
   {
-   "brand": "Saputo",
-   "slug": "saputo",
-   "deals": 1
-  },
-  {
    "brand": "Standard Heating & Air Conditioning",
    "slug": "standard-heating-and-air-conditioning",
    "deals": 1
@@ -11920,11 +15875,6 @@
    "deals": 1
   },
   {
-   "brand": "Modula",
-   "slug": "modula",
-   "deals": 1
-  },
-  {
    "brand": "MadTree",
    "slug": "madtree",
    "deals": 1
@@ -12122,11 +16072,6 @@
   {
    "brand": "Che Che",
    "slug": "che-che",
-   "deals": 1
-  },
-  {
-   "brand": "Meridian",
-   "slug": "meridian",
    "deals": 1
   },
   {
@@ -14810,11 +18755,6 @@
    "deals": 1
   },
   {
-   "brand": "C.P. Company",
-   "slug": "c-p-company",
-   "deals": 1
-  },
-  {
    "brand": "QNET",
    "slug": "qnet",
    "deals": 1
@@ -14967,11 +18907,6 @@
   {
    "brand": "Hawk Express Cabs",
    "slug": "hawk-express-cabs",
-   "deals": 1
-  },
-  {
-   "brand": "WTW",
-   "slug": "wtw",
    "deals": 1
   },
   {
@@ -16460,11 +20395,6 @@
    "deals": 1
   },
   {
-   "brand": "CMP",
-   "slug": "cmp",
-   "deals": 1
-  },
-  {
    "brand": "Ultrasound Direct",
    "slug": "ultrasound-direct",
    "deals": 1
@@ -17192,11 +21122,6 @@
   {
    "brand": "The Gate",
    "slug": "the-gate",
-   "deals": 1
-  },
-  {
-   "brand": "Compass Group",
-   "slug": "compass-group",
    "deals": 1
   },
   {
@@ -18780,8 +22705,8 @@
    "deals": 1
   },
   {
-   "brand": "COMO",
-   "slug": "como",
+   "brand": "Como 1907",
+   "slug": "como-1907",
    "deals": 1
   },
   {
@@ -21313,7 +25238,7 @@
    "slug": "monster-energy",
    "cat": "Non-alcoholic drinks",
    "rules_say": "Energy & utilities",
-   "deals": 15
+   "deals": 18
   },
   {
    "brand": "Seat Unique",
@@ -21330,6 +25255,13 @@
    "deals": 9
   },
   {
+   "brand": "Crown Resorts",
+   "slug": "crown-resorts",
+   "cat": "Hospitality & entertainment",
+   "rules_say": "Airlines & travel",
+   "deals": 6
+  },
+  {
    "brand": "KPMG",
    "slug": "kpmg",
    "cat": "Professional services",
@@ -21341,13 +25273,6 @@
    "slug": "jones-radiology",
    "cat": "Health & beauty",
    "rules_say": "Media & broadcast",
-   "deals": 5
-  },
-  {
-   "brand": "Crown Resorts",
-   "slug": "crown-resorts",
-   "cat": "Hospitality & entertainment",
-   "rules_say": "Airlines & travel",
    "deals": 5
   },
   {
@@ -21384,6 +25309,13 @@
    "cat": "Health & beauty",
    "rules_say": "Media & broadcast",
    "deals": 4
+  },
+  {
+   "brand": "Predator Energy",
+   "slug": "predator-energy",
+   "cat": "Non-alcoholic drinks",
+   "rules_say": "Energy & utilities",
+   "deals": 3
   },
   {
    "brand": "PwC",
@@ -21586,13 +25518,6 @@
    "slug": "zoo-fit",
    "cat": "Health & beauty",
    "rules_say": "Hospitality & entertainment",
-   "deals": 2
-  },
-  {
-   "brand": "Predator Energy",
-   "slug": "predator-energy",
-   "cat": "Non-alcoholic drinks",
-   "rules_say": "Energy & utilities",
    "deals": 2
   },
   {
@@ -24163,6 +28088,14 @@
  ],
  "dup_deals": [
   {
+   "deal": "Generali × Inter Milan",
+   "issue": "listed entry next to a dated one (drop the listed one)"
+  },
+  {
+   "deal": "Generali × AC Milan",
+   "issue": "listed entry next to a dated one (drop the listed one)"
+  },
+  {
    "deal": "BKT × MI London",
    "issue": "listed entry next to a dated one (drop the listed one)"
   },
@@ -25433,19 +29366,7 @@
    "issue": "needsSource"
   },
   {
-   "deal": "Tyrepower × Melbourne United",
-   "issue": "needsSource"
-  },
-  {
-   "deal": "CricViz × New Zealand Cricket",
-   "issue": "needsSource"
-  },
-  {
    "deal": "OneActive × Hockey One",
-   "issue": "needsSource"
-  },
-  {
-   "deal": "Turner Freeman × Penrith Panthers",
    "issue": "needsSource"
   },
   {
@@ -25454,10 +29375,6 @@
   },
   {
    "deal": "Powerade × New Zealand Football",
-   "issue": "needsSource"
-  },
-  {
-   "deal": "Cape Mentelle × Rugby Australia",
    "issue": "needsSource"
   },
   {
@@ -25481,10 +29398,6 @@
    "issue": "needsSource"
   },
   {
-   "deal": "Rio Tinto × Athletics Australia",
-   "issue": "needsSource"
-  },
-  {
    "deal": "Foot Locker × Sydney Kings",
    "issue": "needsSource"
   },
@@ -25498,10 +29411,6 @@
   },
   {
    "deal": "SIXT × Macarthur FC",
-   "issue": "needsSource"
-  },
-  {
-   "deal": "Quest Apartment Hotels × Auckland FC",
    "issue": "needsSource"
   },
   {
@@ -25565,14 +29474,6 @@
    "issue": "needsSource"
   },
   {
-   "deal": "Rio Sound & Vision × St Kilda",
-   "issue": "needsSource"
-  },
-  {
-   "deal": "ISLA Vodka × Cricket Victoria",
-   "issue": "needsSource"
-  },
-  {
    "deal": "Spalding × Brisbane Bullets",
    "issue": "needsSource"
   },
@@ -25582,14 +29483,6 @@
   },
   {
    "deal": "Stoic360 × Illawarra Hawks",
-   "issue": "needsSource"
-  },
-  {
-   "deal": "Vodafone Fiji × Fijian Drua",
-   "issue": "needsSource"
-  },
-  {
-   "deal": "South Ave × Sydney FC",
    "issue": "needsSource"
   },
   {
@@ -25861,10 +29754,6 @@
    "issue": "needsSource"
   },
   {
-   "deal": "13cabs × North Melbourne",
-   "issue": "needsSource"
-  },
-  {
    "deal": "Latina Fresh × WNBL",
    "issue": "needsSource"
   },
@@ -25874,10 +29763,6 @@
   },
   {
    "deal": "Supplement Mart × Macarthur FC",
-   "issue": "needsSource"
-  },
-  {
-   "deal": "University of Newcastle × Newcastle Jets",
    "issue": "needsSource"
   },
   {
@@ -26141,10 +30026,6 @@
    "issue": "needsSource"
   },
   {
-   "deal": "Geely × Canterbury-Bankstown Bulldogs",
-   "issue": "needsSource"
-  },
-  {
    "deal": "Lite n' Easy × Melbourne Stars",
    "issue": "needsSource"
   },
@@ -26281,10 +30162,6 @@
    "issue": "needsSource"
   },
   {
-   "deal": "Sunbeam × NSW Swifts",
-   "issue": "needsSource"
-  },
-  {
    "deal": "GIO × NSWRL",
    "issue": "needsSource"
   },
@@ -26361,10 +30238,6 @@
    "issue": "needsSource"
   },
   {
-   "deal": "Chemist Warehouse × Cricket Australia",
-   "issue": "needsSource"
-  },
-  {
    "deal": "Qscan × Queensland Cricket",
    "issue": "needsSource"
   },
@@ -26398,10 +30271,6 @@
   },
   {
    "deal": "Foot Locker × NBL",
-   "issue": "needsSource"
-  },
-  {
-   "deal": "Rokeby × Melbourne United",
    "issue": "needsSource"
   },
   {
