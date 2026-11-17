@@ -144727,13 +144727,11 @@
    "status": "New",
    "term": 3,
    "ends": 2028,
-   "endsEst": true,
-   "needsSource": true,
    "market": "ANZ",
    "ptier": "Major partner",
    "checked": "2026-11-16",
-   "conf": "Unverified",
-   "verified": "2026-11-16"
+   "url": "https://www.saca.com.au/news/4344657/saca-and-adelaide-strikers-announce-major-three-year-partnership-with-raa",
+   "endsLock": true
   },
   {
    "date": "2025-08-27",
@@ -145503,12 +145501,10 @@
    "tier": "Principal & major",
    "status": "Renewal",
    "term": 2,
-   "ends": 2026,
-   "endsEst": true,
-   "needsSource": true,
+   "ends": 2027,
    "market": "ANZ",
-   "conf": "Unverified",
-   "verified": "2025-07-30"
+   "url": "https://www.goldcoastfc.com.au/news/1845052/sixt-extends-as-co-major-partner",
+   "endsLock": true
   },
   {
    "date": "2025-07-30",
@@ -146244,11 +146240,9 @@
    "status": "Renewal",
    "term": 2,
    "ends": 2027,
-   "endsEst": true,
-   "needsSource": true,
    "market": "ANZ",
-   "conf": "Unverified",
-   "verified": "2026-02-11"
+   "url": "https://giantsnetball.com.au/news/sixt-re-sign-another-two-years",
+   "endsLock": true
   },
   {
    "date": "2026-02-11",
@@ -146425,12 +146419,10 @@
    "term": 3,
    "ends": 2027,
    "endsEst": true,
-   "needsSource": true,
    "market": "ANZ",
    "ptier": "Major partner",
    "checked": "2026-11-16",
-   "conf": "Unverified",
-   "verified": "2026-11-16"
+   "url": "https://adelaidethunderbirds.com.au/news/thunderbirds-announce-three-year-major-partnership-raa"
   },
   {
    "date": "2025-07-16",
@@ -146633,10 +146625,9 @@
    "tier": "Principal & major",
    "status": "Renewal",
    "ends": 2027,
-   "needsSource": true,
    "market": "ANZ",
-   "conf": "Unverified",
-   "verified": "2025-11-12"
+   "url": "https://www.saints.com.au/news/1926396/opal-extends-saints-partnership-until-2027",
+   "endsLock": true
   },
   {
    "date": "2025-11-12",
@@ -147582,10 +147573,8 @@
    "term": 2,
    "ends": 2026,
    "endsEst": true,
-   "needsSource": true,
    "market": "ANZ",
-   "conf": "Unverified",
-   "verified": "2025-03-19"
+   "url": "https://www.cowboys.com.au/news/2025/03/12/cowboys-strengthen-partnership-with-bmd/"
   },
   {
    "date": "2025-06-18",
