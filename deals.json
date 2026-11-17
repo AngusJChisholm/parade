@@ -171754,10 +171754,10 @@
    "summary": "NBA 2K becomes a Brisbane Bullets official partner for NBL27.",
    "tier": "Official partner",
    "status": "New",
-   "needsSource": true,
    "market": "ANZ",
-   "conf": "Unverified",
-   "verified": "2026-09-22"
+   "url": "https://www.brisbanebullets.com.au/news/bullets-announce-partnership-with-gaming-giant-nba-2k",
+   "ends": 2027,
+   "endsLock": true
   },
   {
    "date": "2026-09-22",
@@ -171768,10 +171768,10 @@
    "summary": "Spotlight becomes the NBL's official celebration partner.",
    "tier": "Official partner",
    "status": "New",
-   "needsSource": true,
    "market": "ANZ",
-   "conf": "Unverified",
-   "verified": "2026-09-22"
+   "url": "https://www.nbl.com.au/news/nbl-announces-new-partnership-with-spotlight",
+   "ends": 2027,
+   "endsLock": true
   },
   {
    "date": "2026-09-22",
@@ -171782,10 +171782,8 @@
    "summary": "Kraft Heinz becomes an NBL official partner for NBL27.",
    "tier": "Official partner",
    "status": "New",
-   "needsSource": true,
    "market": "ANZ",
-   "conf": "Unverified",
-   "verified": "2026-09-22"
+   "url": "https://www.nbl.com.au/news/heinz-joins-the-nbl-as-an-official-partner"
   },
   {
    "date": "2026-09-22",
@@ -171954,13 +171952,10 @@
    "summary": "FreshChoice becomes Auckland FC's official supermarket.",
    "tier": "Official partner",
    "status": "New",
-   "needsSource": true,
    "market": "ANZ",
-   "sourceTried": "2026-11-15",
    "ptier": "Official partner",
    "checked": "2026-11-16",
-   "conf": "Unverified",
-   "verified": "2026-11-16"
+   "url": "https://aucklandfc.co.nz/news/a-fresh-addition-to-the-auckland-fc-family/"
   },
   {
    "date": "2026-09-29",
@@ -171971,11 +171966,10 @@
    "summary": "Midas backs Brad Jones Racing at Bathurst 2026.",
    "tier": "Official partner",
    "status": "New",
-   "needsSource": true,
    "market": "ANZ",
-   "sourceTried": "2026-11-15",
-   "conf": "Unverified",
-   "verified": "2026-09-29"
+   "url": "https://www.bradjonesracing.com.au/news/midas-joins-brad-jones-racing-for-the-bathurst-1000",
+   "ends": 2026,
+   "endsLock": true
   },
   {
    "date": "2025-08-21",
