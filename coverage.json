@@ -1488,9 +1488,9 @@
    "country": "AU",
    "state": "National",
    "tier": 3,
-   "partnersUrl": null,
-   "lastChecked": null,
-   "onPage": null
+   "partnersUrl": "https://www.golf.org.au/handicap",
+   "lastChecked": "2026-11-17",
+   "onPage": 10
   },
   {
    "name": "PGA of Australia",
@@ -1500,7 +1500,8 @@
    "tier": 3,
    "partnersUrl": null,
    "lastChecked": null,
-   "onPage": null
+   "onPage": null,
+   "note": "pga.org.au partners page now redirects to golf.com.au and its cached copy is stale (CCA, Fortinet). Track from announcements."
   },
   {
    "name": "Australian Olympic Committee",
@@ -5889,8 +5890,8 @@
    "state": "QLD",
    "tier": 3,
    "partnersUrl": "https://olympics.com/en/brisbane-2032/the-committee/partners-sponsors-and-suppliers/partners",
-   "lastChecked": null,
-   "onPage": null
+   "lastChecked": "2026-11-17",
+   "onPage": 8
   },
   {
    "name": "Rugby League World Cup 2026",

@@ -5639,6 +5639,11 @@
    "name": "Avalon Air",
    "k": "b"
   },
+  "avalon-airport": {
+   "name": "Avalon Airport",
+   "cat": "Airlines & travel",
+   "k": "b"
+  },
   "avana-rentals": {
    "name": "Avana Rentals",
    "k": "b"
@@ -9451,7 +9456,7 @@
     "Worldwide Olympic and Paralympic Partners",
     "Premium Partner"
    ],
-   "ptiersChecked": "2026-11-16",
+   "ptiersChecked": "2026-11-17",
    "logo": "assets/logos/brisbane-2032.png"
   },
   "brisbane-airport": {
@@ -18461,6 +18466,10 @@
     "logo"
    ]
   },
+  "drummond-golf": {
+   "name": "Drummond Golf",
+   "k": "b"
+  },
   "druschke-cryo": {
    "name": "Druschke Cryo",
    "k": "b"
@@ -24967,7 +24976,10 @@
    "domain": "golf.org.au",
    "ptype": "Governing body",
    "k": "p",
-   "logo": "assets/logos/golf-australia.png"
+   "logo": "assets/logos/golf-australia.png",
+   "ptiers": [
+    "Official partner"
+   ]
   },
   "golf-australia-pga-of-australia": {
    "name": "Golf Australia / PGA of Australia"
@@ -45568,7 +45580,10 @@
     "icon"
    ],
    "ptype": "Governing body",
-   "k": "p"
+   "k": "p",
+   "ptiers": [
+    "Official partner"
+   ]
   },
   "pga-tour": {
    "name": "PGA TOUR",
