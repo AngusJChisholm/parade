@@ -14,7 +14,9 @@ What it does
  - A brand on the page that's already in the archive for this property: every one of its deals gets the page's
    grouping as "ptier", any "ended" flag is cleared, and its newest deal gets "checked": date.
  - A brand on the page that isn't in the archive: a new "listed" current-partner entry.
- - A live brand in the archive that's no longer on the page: every deal for it gets "ended": true.
+ - A live brand in the archive that's no longer on the page: every deal for it gets "ended": true, unless
+   one of its deals is under 180 days old or has a stated (not estimated) end year from this year on.
+   Those are listed with "?" for a manual look.
  - The property's "ptiers" (page order) and "ptiersChecked" go in entities.json; coverage.json gets
    partnersUrl, lastChecked and onPage.
 Run tools/enrich.py and tools/ptiers.py afterwards.
@@ -129,11 +131,24 @@ def main():
                 if ptier:
                     row["ptier"] = ptier
                 deals.insert(0, row)
-    ended = []
+    ended, held = [], []
+    from datetime import date as _d
+    today = _d.fromisoformat(date)
+
+    def fresh(d):
+        # partner pages lag announcements, and a stated end year in the future beats a missing logo
+        s = d.get("date") or (d.get("month") and d["month"] + "-01") or d.get("listed")
+        if s and (today - _d.fromisoformat(s[:10])).days <= 180:
+            return True
+        return bool(d.get("ends") and int(d["ends"]) >= today.year and not d.get("endsEst"))
+
     for b, rows in by_brand.items():
         if b in seen or norm(b) in keep:
             continue
         if all(d.get("ended") for d in rows):
+            continue
+        if any(fresh(d) for d in rows):
+            held.append(b)
             continue
         ended.append(b)
         for d in rows:
@@ -154,6 +169,8 @@ def main():
         print("  +", a)
     for e in ended:
         print("  -", e)
+    for h in held:
+        print("  ? not on page but kept live (recent or stated future end):", h)
     if not cov:
         print("  ! not in coverage.json")
     if write:
