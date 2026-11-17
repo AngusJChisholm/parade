@@ -164240,7 +164240,7 @@
    "type": "Extension",
    "region": "ANZ",
    "summary": "SP Lager extends its PNG Chiefs sponsorship, adding alcoholic beverage rights at home games.",
-   "url": "https://www.sponsorshipnews.com.au/index.php/unauthorise?id=54799&type=article",
+   "url": "https://www.thenational.com.pg/deal-gives-brewer-rights/",
    "tier": "Official partner",
    "status": "Extension",
    "market": "ANZ"
@@ -186758,12 +186758,10 @@
    "type": "Kit supplier",
    "region": "ANZ",
    "summary": "Nike expands its Collingwood partnership to the AFLW program.",
-   "url": "https://ministryofsport.com/sport/australian-rules-football//page/4",
+   "url": "https://www.collingwoodfc.com.au/news/2020104/collingwood-and-nike-entirely-side-by-side",
    "tier": "Kit & apparel",
    "status": "Expansion",
-   "market": "ANZ",
-   "conf": "Reported",
-   "verified": "2026-05-12"
+   "market": "ANZ"
   },
   {
    "date": "2026-05-11",
@@ -186785,13 +186783,11 @@
    "type": "Kit supplier",
    "region": "ANZ",
    "summary": "PUMA becomes Carlton's AFLW apparel partner through 2029.",
-   "url": "https://ministryofsport.com/sport/australian-rules-football//page/4",
+   "url": "https://www.carltonfc.com.au/news/2015803/aflw-raise-the-monogram-puma-expands-partnership-with-carlton",
    "tier": "Kit & apparel",
    "status": "New",
    "ends": 2029,
-   "market": "ANZ",
-   "conf": "Reported",
-   "verified": "2026-05-11"
+   "market": "ANZ"
   },
   {
    "date": "2026-07-27",
@@ -187106,7 +187102,7 @@
    "type": "Renewal",
    "region": "ANZ",
    "summary": "Lion renews its Cricket Tasmania beverage partnership for five years.",
-   "url": "https://ministryofsport.com/sport/cricket//page/4",
+   "url": "https://www.crickettas.com.au/news/4382321/lion-and-cricket-tasmanias-partnership-to-go-beyond-10-years",
    "tier": "Official partner",
    "status": "Renewal",
    "term": 5,
@@ -187114,9 +187110,7 @@
    "endsEst": true,
    "market": "ANZ",
    "ptier": "Major partner",
-   "checked": "2026-11-16",
-   "conf": "Reported",
-   "verified": "2026-11-16"
+   "checked": "2026-11-16"
   },
   {
    "date": "2025-10-15",
@@ -187125,13 +187119,11 @@
    "type": "Ticketing partner",
    "region": "ANZ",
    "summary": "Fever becomes Cricket Victoria's ticketing partner.",
-   "url": "https://ministryofsport.com/sport/cricket//page/4",
+   "url": "https://www.cricketvictoria.com.au/news/news/cricket-victoria-and-fever-partner-for-state-cricket-at-citipower-centre/",
    "tier": "Official partner",
    "status": "New",
    "market": "ANZ",
-   "ended": true,
-   "conf": "Reported",
-   "verified": "2025-10-15"
+   "ended": true
   },
   {
    "date": "2025-10-14",
@@ -187140,14 +187132,12 @@
    "type": "Content partner",
    "region": "ANZ",
    "summary": "Seven and Cricket Australia launch the Cricket Gold channel on 7plus.",
-   "url": "https://ministryofsport.com/sport/cricket//page/4",
+   "url": "https://www.bandt.com.au/cricket-australia-launches-cricket-gold-fast-channel-on-7plus/",
    "tier": "Media & broadcast",
    "status": "New",
    "market": "ANZ",
    "ptier": "Broadcast partner",
-   "checked": "2026-11-16",
-   "conf": "Reported",
-   "verified": "2026-11-16"
+   "checked": "2026-11-16"
   },
   {
    "date": "2025-12-12",
@@ -187200,13 +187190,11 @@
    "type": "Broadcast rights",
    "region": "Global",
    "summary": "CBS Sports and Paramount+ sign a multi-year WSL rights partnership to 2030.",
-   "url": "https://ministryofsport.com/sport/soccer-football/page/4/",
+   "url": "https://www.cbssports.com/soccer/news/cbs-sports-lands-barclays-womens-super-league-soccer-tv-rights/",
    "tier": "Media & broadcast",
    "status": "New",
    "ends": 2030,
-   "market": "Global",
-   "conf": "Reported",
-   "verified": "2026-05-29"
+   "market": "Global"
   },
   {
    "date": "2026-05-28",
@@ -187215,15 +187203,14 @@
    "type": "Extension",
    "region": "Global",
    "summary": "Serveto extends with FC Barcelona until 2027.",
-   "url": "https://ministryofsport.com/sport/soccer-football/page/4/",
+   "url": "https://www.fcbarcelona.com/en/club/news/4510072/serveto-extends-its-connection-to-the-fc-barcelona-sections",
    "tier": "Official partner",
    "status": "Extension",
    "ends": 2027,
    "market": "Europe",
-   "conf": "Reported",
-   "verified": "2026-11-17",
    "ptier": "Official partner",
-   "checked": "2026-11-17"
+   "checked": "2026-11-17",
+   "endsLock": true
   },
   {
    "date": "2026-02-18",
