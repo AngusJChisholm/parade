@@ -137,7 +137,7 @@ def main():
 
     def fresh(d):
         # partner pages lag announcements, and a stated end year in the future beats a missing logo
-        s = d.get("date") or (d.get("month") and d["month"] + "-01") or d.get("listed")
+        s = d.get("date") or (d.get("month") and d["month"] + "-01")  # a "listed" row is only as good as the page
         if s and (today - _d.fromisoformat(s[:10])).days <= 180:
             return True
         return bool(d.get("ends") and int(d["ends"]) >= today.year and not d.get("endsEst"))
