@@ -165910,8 +165910,7 @@
    "tier": "Shirt & kit placement",
    "status": "New",
    "market": "UK & Ireland",
-   "conf": "Unverified",
-   "verified": "2026-09-09"
+   "url": "https://www.liverpoolfc.com/news/liverpool-fc-announces-turkish-airlines-main-club-partner-2027-28-season"
   },
   {
    "date": "2026-09-08",
@@ -165941,8 +165940,7 @@
    "market": "UK & Ireland",
    "ptier": "Principal partner",
    "checked": "2026-11-16",
-   "conf": "Unverified",
-   "verified": "2026-11-16"
+   "url": "https://www.manutd.com/en/news/sumup-is-united-official-sleeve-partner"
   },
   {
    "date": "2026-09-08",
@@ -165954,8 +165952,7 @@
    "tier": "Official partner",
    "status": "New",
    "market": "Asia",
-   "conf": "Unverified",
-   "verified": "2026-09-09"
+   "url": "https://www.bcci.tv/news/article/bcci-announces-campa-sbi-life-and-chatgpt-as-associate-partners-for-india-home-cricket"
   },
   {
    "date": "2026-09-08",
@@ -165968,8 +165965,9 @@
    "status": "New",
    "market": "North America",
    "ptier": "Naming rights",
-   "conf": "Unverified",
-   "verified": "2026-09-09"
+   "url": "https://about.rogers.com/news/rogers-and-oeg-sports-entertainment-extend-strategic-partnership-for-10-more-years/",
+   "ends": 2036,
+   "endsLock": true
   },
   {
    "date": "2026-09-07",
@@ -165999,7 +165997,7 @@
    "region": "Global",
    "lead": true,
    "headline": "Starbucks goes front of shirt.",
-   "summary": "Starbucks' first-ever football shirt sponsorship.",
+   "summary": "Starbucks' first football shirt deal, as Toulouse's sleeve sponsor for 2026/27.",
    "slug": "2026-09-08-starbucks-toulouse-fc",
    "article": {
     "standfirst": "Starbucks just put its name on a football shirt for the first time anywhere in the world.",
@@ -166013,8 +166011,9 @@
    "tier": "Shirt & kit placement",
    "status": "New",
    "market": "Europe",
-   "conf": "Unverified",
-   "verified": "2026-09-08"
+   "url": "https://www.worldcoffeeportal.com/news/starbucks-signs-first-football-club-shirt-sponsorship-deal/",
+   "ends": 2027,
+   "endsLock": true
   },
   {
    "date": "2026-09-07",
@@ -166026,8 +166025,7 @@
    "tier": "Official partner",
    "status": "New",
    "market": "Global",
-   "conf": "Unverified",
-   "verified": "2026-09-08"
+   "url": "https://www.hyundaimotorgroup.com/en/news/hyundai-motor-company-becomes-official-automotive-partner-of-the-uefa-champions-league"
   },
   {
    "date": "2026-09-07",
@@ -166054,8 +166052,7 @@
    "tier": "Official partner",
    "status": "New",
    "market": "Europe",
-   "conf": "Unverified",
-   "verified": "2026-09-08"
+   "url": "https://www.uefa.com/news-media/news/02a9-21828b4cd787-b50cab064e71-1000--uefa-and-strauss-partner-to-elevate-refereeing-across-eu/"
   },
   {
    "date": "2026-09-01",
@@ -166111,8 +166108,10 @@
    "tier": "Shirt & kit placement",
    "status": "New",
    "market": "North America",
-   "conf": "Unverified",
-   "verified": "2026-09-07"
+   "url": "https://www.prnewswire.com/news-releases/kin-insurance-and-florida-state-athletics-announce-historic-four-year-jersey-patch-partnership-302870157.html",
+   "ends": 2030,
+   "term": 4,
+   "endsEst": true
   },
   {
    "date": "2026-09-03",
