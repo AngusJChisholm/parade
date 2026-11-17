@@ -144347,10 +144347,9 @@
    "tier": "Kit & apparel",
    "status": "New",
    "ends": 2027,
-   "needsSource": true,
    "market": "ANZ",
-   "conf": "Unverified",
-   "verified": "2026-07-28"
+   "url": "https://acpe.edu.au/blog/acpes-adidas-partnership/",
+   "endsLock": true
   },
   {
    "date": "2026-08-04",
@@ -145861,11 +145860,9 @@
    "tier": "Kit & apparel",
    "status": "New",
    "ends": 2027,
-   "needsSource": true,
    "market": "ANZ",
    "ptier": "Senior partner",
-   "conf": "Unverified",
-   "verified": "2026-07-14"
+   "url": "https://wswanderersfc.com.au/news/asics-and-western-sydney-wanderers-kick-off-official-partnership/"
   },
   {
    "date": "2026-07-14",
@@ -146690,10 +146687,9 @@
    "tier": "Kit & apparel",
    "status": "New",
    "ends": 2030,
-   "needsSource": true,
    "market": "ANZ",
-   "conf": "Unverified",
-   "verified": "2026-01-27"
+   "url": "https://www.rugby.com.au/news/rugby-australia-and-castore-announce-new-landmark-partnership-2026123",
+   "endsLock": true
   },
   {
    "date": "2026-01-27",
@@ -146947,11 +146943,9 @@
    "status": "New",
    "term": 5,
    "ends": 2030,
-   "endsEst": true,
-   "needsSource": true,
    "market": "ANZ",
-   "conf": "Unverified",
-   "verified": "2025-07-01"
+   "url": "https://www.cricket.com.au/news/4299277",
+   "endsLock": true
   },
   {
    "date": "2025-07-01",
@@ -146998,11 +146992,9 @@
    "status": "New",
    "term": 3,
    "ends": 2028,
-   "endsEst": true,
-   "needsSource": true,
    "market": "ANZ",
-   "conf": "Unverified",
-   "verified": "2025-07-01"
+   "url": "https://newcastlejetsfc.com.au/news/newcastle-jets-announce-new-balance-as-official-apparel-partner/",
+   "endsLock": true
   },
   {
    "date": "2025-07-01",
@@ -153852,11 +153844,9 @@
    "status": "New",
    "term": 4,
    "ends": 2029,
-   "endsEst": true,
-   "needsSource": true,
    "market": "ANZ",
-   "conf": "Unverified",
-   "verified": "2025-11-19"
+   "url": "https://www.roosters.com.au/news/2025/11/17/sydney-roosters-and-adidas-unite-in-four-year-partnership/",
+   "endsLock": true
   },
   {
    "date": "2025-11-19",
@@ -154180,12 +154170,11 @@
    "tier": "Kit & apparel",
    "status": "New",
    "ends": 2028,
-   "needsSource": true,
    "market": "ANZ",
    "ptier": "Major partner",
    "checked": "2026-11-16",
-   "conf": "Unverified",
-   "verified": "2026-11-16"
+   "url": "https://westernforce.rugby/news/new-era-for-force-with-new-balance-partnership-unveiled-20251103",
+   "endsLock": true
   },
   {
    "date": "2025-11-05",
@@ -207305,6 +207294,22 @@
    "added": "2026-11-17",
    "conf": "Confirmed",
    "verified": "2026-11-17"
+  },
+  {
+   "date": "2026-08-14",
+   "deal": "TAL × Hawthorn",
+   "sport": "AFL",
+   "type": "Extension",
+   "region": "ANZ",
+   "summary": "TAL extends as Hawthorn's Official AFLW Partner for a further three years.",
+   "tier": "Official partner",
+   "status": "Extension",
+   "term": 3,
+   "ends": 2028,
+   "endsEst": true,
+   "market": "ANZ",
+   "url": "https://www.hawthornfc.com.au/news/2098123/hawthorn-and-tal-continue-aflw-partnership",
+   "added": "2026-11-17"
   }
  ]
 }
