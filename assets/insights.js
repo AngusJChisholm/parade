@@ -18,23 +18,25 @@ const count=(arr,f)=>{const m=new Map();arr.forEach(x=>[].concat(f(x)).forEach(k
 S.load().then(D=>{
   const deals=D.deals, thisYr=deals.filter(d=>S.yearOf(d)===yr);
   // Who's spending where: live partnerships per brand category, ANZ or Global, biggest first.
-  {const lv=d=>d.status!=="Ended"&&!d.ended;
+  {const lv=d=>!d.ended&&d.status!=="Ended"&&(d.ends?d.ends>=yr:(d.date||d.month)?S.yearOf(d)>=yr-3:true);
    const drawSpend=m=>{const cc={};deals.filter(d=>lv(d)&&(m==="Global"||S.mkt(d)==="ANZ")).forEach(d=>(d._cats||[]).forEach(c=>{if(c&&c!=="Other")cc[c]=(cc[c]||0)+1}));
      $("spend").innerHTML=Object.entries(cc).sort((a,b)=>b[1]-a[1]).slice(0,16).map(([c,n])=>`<a href="categories?c=${encodeURIComponent(c)}"><b>${esc(c)}</b><span>${n.toLocaleString("en-AU")}</span></a>`).join("");
-     $("spendNote").textContent=`Live ${m} partnerships by brand category, biggest first.`;
+     $("spendNote").textContent=`Live ${m} partnerships by brand category, biggest first. Live means not ended, with an end date still to come or announced in the last three years.`;
      $("spendT").querySelectorAll("button").forEach(b=>{const o=b.dataset.m===m;b.classList.toggle("on",o);b.setAttribute("aria-selected",o)})};
    $("spendT").onclick=e=>{const b=e.target.closest("[data-m]");if(b)drawSpend(b.dataset.m)};
    drawSpend("ANZ")}
 
-  // The lead finding: this year's biggest category, against the same point last year.
-  {const doy=d=>{const k=S.sortKey(d);return k.slice(5)};const today=new Date().toISOString().slice(5,10);
-   const ytd=y=>deals.filter(d=>S.yearOf(d)===y&&(d.date||"").length===10&&doy(d)<=today);
-   const now=count(ytd(yr),d=>d._cats).filter(([c])=>c!=="Other"),prev=new Map(count(ytd(yr-1),d=>d._cats));
-   if(now.length){const [c,n]=now[0],p=prev.get(c)||0;
-     $("find").innerHTML=`${esc(c)} is ${yr}'s biggest spender in sport: ${n.toLocaleString("en-AU")} partnerships filed so far${p?`, against ${p.toLocaleString("en-AU")} at this point in ${yr-1}`:""}.<small>Global partnerships with an announcement date, ${yr} to date. Our coverage has grown too, so read year-on-year changes with that in mind.</small>`;
+  // The lead finding: the category behind the most partnerships this year, as a share of everything announced,
+  // against its share at the same point last year (shares, because our coverage has grown year on year).
+  {const today=new Date().toISOString().slice(5,10);
+   const ytd=y=>deals.filter(d=>(d.date||"").length===10&&+d.date.slice(0,4)===y&&d.date.slice(5)<=today);
+   const A=ytd(yr),B=ytd(yr-1);
+   const now=count(A,d=>d._cats).filter(([c])=>c!=="Other"),prev=new Map(count(B,d=>d._cats));
+   if(now.length&&A.length){const [c,n]=now[0],p=prev.get(c)||0,pct=x=>Math.round(x*100);
+     $("find").innerHTML=`${esc(c)} brands are behind more ${yr} sport partnerships than any other category: ${n.toLocaleString("en-AU")} so far, ${pct(n/A.length)}% of everything announced${B.length?` (${pct(p/B.length)}% at this point in ${yr-1})`:""}.<small>Global partnerships with an announcement date, ${yr} to date. Shares rather than totals, because our coverage has grown since ${yr-1}.</small>`;
      $("find").hidden=false}}
   const anzD=deals.filter(d=>S.mkt(d)==="ANZ");
-  $("heroStats").innerHTML=[[deals.length.toLocaleString("en-AU"),"Global partnerships on file"],[thisYr.length.toLocaleString("en-AU"),`Global partnerships in ${yr}`],[anzD.length.toLocaleString("en-AU"),"ANZ partnerships on file"],[anzD.filter(d=>S.yearOf(d)===yr).length.toLocaleString("en-AU"),`ANZ partnerships in ${yr}`]]
+  $("heroStats").innerHTML=[[deals.length.toLocaleString("en-AU"),"Global partnerships on file"],[thisYr.length.toLocaleString("en-AU"),`Global partnerships announced in ${yr}`],[anzD.length.toLocaleString("en-AU"),"ANZ partnerships on file"],[anzD.filter(d=>S.yearOf(d)===yr).length.toLocaleString("en-AU"),`ANZ partnerships announced in ${yr}`]]
     .map(([v,l])=>`<div class="stat"><b>${esc(v)}</b><span>${esc(l)}</span></div>`).join("");
 
   // Deals per month, last 24 months. Current month highlighted (it's still filling up).
@@ -46,17 +48,22 @@ S.load().then(D=>{
   const mlab=m=>new Date(m+"-01T00:00:00").toLocaleDateString("en-AU",{month:"short",year:"numeric"});
   const colsHtml=`<div class="cols">${months.map((m,i)=>`<span class="c${i===months.length-1?" cur":""}" style="height:${(byM.get(m)/mMax*100).toFixed(1)}%" data-tip="<b>${byM.get(m)}</b> partnerships · ${esc(mlab(m))}${i===months.length-1?" (so far)":""}"></span>`).join("")}</div><div class="cx"><span>${esc(mlab(months[0]))}</span><span>${esc(mlab(months[months.length-1]))}</span></div>`;
 
-  const sp=count(thisYr,d=>d.sport).slice(0,12);
-  const cats=count(thisYr,d=>d._cats).filter(([c])=>c!=="Other").slice(0,12).map(([c,v])=>[c,v,`categories?c=${encodeURIComponent(c)}`]);
+  // Sports: league codes rolled up into their sport, so NRL and Rugby league count together.
+  const SPORT={NRL:"Rugby league",AFL:"Australian rules",NFL:"American football"};
+  const sp=count(thisYr,d=>SPORT[d.sport]||d.sport).filter(([s])=>s!=="Multi-sport"&&s!=="Venues").slice(0,12);
   const tiers=count(thisYr,d=>d.tier).map(([t,v])=>[t,v]);
-  const st=count(thisYr,d=>d.status);
-  const reg=count(thisYr,d=>S.mkt(d)).map(([m,v])=>[S.mktLab(m),v,`deals?market=${encodeURIComponent(m)}`]);
+  // Status: new money (New, New partner), renewals, extensions, expansions and upgrades. Rows still marked
+  // "Current partner" or "Ended" aren't new money or a renewal, so they're left out.
+  const STATUS={"New":"New partnerships","New partner":"New partnerships","Renewal":"Renewals","Extension":"Extensions","Expansion":"Expansions & upgrades","Upgrade":"Expansions & upgrades"};
+  const st=count(thisYr.filter(d=>STATUS[d.status]),d=>STATUS[d.status]);
+  const reg=count(thisYr,d=>S.mkt(d)).map(([m,v])=>[S.mktLab(m),v,`partnerships?market=${encodeURIComponent(m)}`]);
 
   $("charts").innerHTML=`
-  <div class="chart wide"><span class="lbl mute-l">Partnership flow</span><h3>Partnerships filed per month</h3>${colsHtml}</div>
+  <div class="chart wide"><span class="lbl mute-l">Partnership flow</span><h3>Partnerships announced per month</h3>${colsHtml}</div>
   <div class="chart"><span class="lbl mute-l">${yr}</span><h3>Top sports</h3>${hbars(sp)}</div>
   <div class="chart"><span class="lbl mute-l">${yr}</span><h3>What brands are buying</h3>${hbars(tiers)}</div>
-  <div class="chart"><span class="lbl mute-l">${yr}</span><h3>New money vs renewals</h3>${hbars(st)}
-    <h3 style="margin-top:40px">By region</h3>${hbars(reg)}</div>`;
+  <div class="chart"><span class="lbl mute-l">${yr}</span><h3>New money vs renewals</h3>${hbars(st)}</div>
+  <div class="chart"><span class="lbl mute-l">${yr}</span><h3>By region</h3>${hbars(reg)}</div>
+  <p class="note-s" style="grid-column:1/-1;padding-bottom:clamp(24px,3vw,48px)">Every chart counts partnerships with an announcement date. A further ${(deals.length-deals.filter(d=>d.date||d.month).length).toLocaleString("en-AU")} current partners taken from clubs' partner pages have no announcement date, so they appear in the totals above but not in these charts. Everything here is built from the partnerships we've found and checked, so it's a strong guide rather than a full census of every sponsorship in sport.</p>`;
 }).catch(()=>{$("charts").innerHTML=`<p class="note">Couldn't load the numbers. Refresh to try again.</p>`});
 })();
