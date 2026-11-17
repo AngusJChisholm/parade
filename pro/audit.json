@@ -8,18 +8,88 @@
   "dup_deals": 13,
   "no_broadcaster": 16,
   "stale": 2,
-  "no_source": 428,
+  "no_source": 417,
   "anz_slot_clash": 30
  },
  "dup_entities": [
   {
    "names": [
-    "QMS",
-    "QMS NZ"
+    "BMS",
+    "BMS Group"
    ],
    "slugs": [
-    "qms",
-    "qms-nz"
+    "bms",
+    "bms-group"
+   ]
+  },
+  {
+   "names": [
+    "Sports Illustrated",
+    "Sports Illustrated Resorts"
+   ],
+   "slugs": [
+    "sports-illustrated",
+    "sports-illustrated-resorts"
+   ]
+  },
+  {
+   "names": [
+    "Asahi Beverages",
+    "Asahi Beverages NZ"
+   ],
+   "slugs": [
+    "asahi-beverages",
+    "asahi-beverages-nz"
+   ]
+  },
+  {
+   "names": [
+    "Salvation Army",
+    "The Salvation Army"
+   ],
+   "slugs": [
+    "salvation-army",
+    "the-salvation-army"
+   ]
+  },
+  {
+   "names": [
+    "Ant Group",
+    "Ant International"
+   ],
+   "slugs": [
+    "ant-group",
+    "ant-international"
+   ]
+  },
+  {
+   "names": [
+    "Dolphins",
+    "Dolphins Group"
+   ],
+   "slugs": [
+    "dolphins",
+    "dolphins-group"
+   ]
+  },
+  {
+   "names": [
+    "Mondelēz",
+    "Mondelēz International"
+   ],
+   "slugs": [
+    "mondel-z",
+    "mondelez-international"
+   ]
+  },
+  {
+   "names": [
+    "Lucozade",
+    "Lucozade Sport"
+   ],
+   "slugs": [
+    "lucozade",
+    "lucozade-sport"
    ]
   },
   {
@@ -36,32 +106,72 @@
   },
   {
    "names": [
-    "TAB",
-    "TAB NZ"
+    "MTC",
+    "MTC Australia"
    ],
    "slugs": [
-    "tab",
-    "tab-nz"
+    "mtc",
+    "mtc-australia"
    ]
   },
   {
    "names": [
-    "Southern Trust",
-    "The Southern Trust"
+    "Dynasty",
+    "Dynasty Sport"
    ],
    "slugs": [
-    "southern-trust",
-    "the-southern-trust"
+    "dynasty",
+    "dynasty-sport"
    ]
   },
   {
    "names": [
-    "Basketball Australia",
-    "Basketball New Zealand"
+    "BDA",
+    "BDA Sports"
    ],
    "slugs": [
-    "basketball-australia",
-    "basketball-new-zealand"
+    "bda",
+    "bda-sports"
+   ]
+  },
+  {
+   "names": [
+    "HYROX",
+    "HYROX Australia"
+   ],
+   "slugs": [
+    "hyrox",
+    "hyrox-australia"
+   ]
+  },
+  {
+   "names": [
+    "BCD Group",
+    "BCD Sports"
+   ],
+   "slugs": [
+    "bcd-group",
+    "bcd-sports"
+   ]
+  },
+  {
+   "names": [
+    "Hong Kong Jockey Club",
+    "The Hong Kong Jockey Club"
+   ],
+   "slugs": [
+    "hong-kong-jockey-club",
+    "the-hong-kong-jockey-club"
+   ]
+  },
+  {
+   "names": [
+    "PURE Sports Nutrition",
+    "Pure Nutrition"
+   ],
+   "slugs": [
+    "pure-nutrition",
+    "pure-sports-nutrition"
    ]
   },
   {
@@ -80,54 +190,22 @@
   },
   {
    "names": [
-    "BMS",
-    "BMS Group"
+    "Circa",
+    "Circa Sports"
    ],
    "slugs": [
-    "bms",
-    "bms-group"
+    "circa",
+    "circa-sports"
    ]
   },
   {
    "names": [
-    "Hong Kong Jockey Club",
-    "The Hong Kong Jockey Club"
+    "Special Olympics",
+    "Special Olympics Australia"
    ],
    "slugs": [
-    "hong-kong-jockey-club",
-    "the-hong-kong-jockey-club"
-   ]
-  },
-  {
-   "names": [
-    "Compass",
-    "Compass Group"
-   ],
-   "slugs": [
-    "compass",
-    "compass-group"
-   ]
-  },
-  {
-   "names": [
-    "Star Group",
-    "Star Sports",
-    "The Star"
-   ],
-   "slugs": [
-    "star-group",
-    "star-sports",
-    "the-star"
-   ]
-  },
-  {
-   "names": [
-    "Betsson",
-    "Betsson Sport"
-   ],
-   "slugs": [
-    "betsson",
-    "betsson-sport"
+    "special-olympics",
+    "special-olympics-australia"
    ]
   },
   {
@@ -144,152 +222,22 @@
   },
   {
    "names": [
-    "BCD Group",
-    "BCD Sports"
+    "Basketball Australia",
+    "Basketball New Zealand"
    ],
    "slugs": [
-    "bcd-group",
-    "bcd-sports"
+    "basketball-australia",
+    "basketball-new-zealand"
    ]
   },
   {
    "names": [
-    "BDA",
-    "BDA Sports"
+    "Direct Global",
+    "Sports Direct"
    ],
    "slugs": [
-    "bda",
-    "bda-sports"
-   ]
-  },
-  {
-   "names": [
-    "Salvation Army",
-    "The Salvation Army"
-   ],
-   "slugs": [
-    "salvation-army",
-    "the-salvation-army"
-   ]
-  },
-  {
-   "names": [
-    "Courier Mail",
-    "The Courier-Mail"
-   ],
-   "slugs": [
-    "courier-mail",
-    "the-courier-mail"
-   ]
-  },
-  {
-   "names": [
-    "Dolphins",
-    "Dolphins Group"
-   ],
-   "slugs": [
-    "dolphins",
-    "dolphins-group"
-   ]
-  },
-  {
-   "names": [
-    "Sports Illustrated",
-    "Sports Illustrated Resorts"
-   ],
-   "slugs": [
-    "sports-illustrated",
-    "sports-illustrated-resorts"
-   ]
-  },
-  {
-   "names": [
-    "Clover",
-    "Clover Sport"
-   ],
-   "slugs": [
-    "clover",
-    "clover-sport"
-   ]
-  },
-  {
-   "names": [
-    "Special Olympics",
-    "Special Olympics Australia"
-   ],
-   "slugs": [
-    "special-olympics",
-    "special-olympics-australia"
-   ]
-  },
-  {
-   "names": [
-    "Ant Group",
-    "Ant International"
-   ],
-   "slugs": [
-    "ant-group",
-    "ant-international"
-   ]
-  },
-  {
-   "names": [
-    "Carabao",
-    "Carabao Sport"
-   ],
-   "slugs": [
-    "carabao",
-    "carabao-sport"
-   ]
-  },
-  {
-   "names": [
-    "MTC",
-    "MTC Australia"
-   ],
-   "slugs": [
-    "mtc",
-    "mtc-australia"
-   ]
-  },
-  {
-   "names": [
-    "Seven",
-    "Seven Group"
-   ],
-   "slugs": [
-    "seven",
-    "seven-group"
-   ]
-  },
-  {
-   "names": [
-    "Circa",
-    "Circa Sports"
-   ],
-   "slugs": [
-    "circa",
-    "circa-sports"
-   ]
-  },
-  {
-   "names": [
-    "Dynasty",
-    "Dynasty Sport"
-   ],
-   "slugs": [
-    "dynasty",
-    "dynasty-sport"
-   ]
-  },
-  {
-   "names": [
-    "Lucozade",
-    "Lucozade Sport"
-   ],
-   "slugs": [
-    "lucozade",
-    "lucozade-sport"
+    "direct-global",
+    "sports-direct"
    ]
   },
   {
@@ -304,22 +252,44 @@
   },
   {
    "names": [
-    "Kia",
-    "Kia Australia"
-   ],
-   "slugs": [
-    "kia",
-    "kia-australia"
-   ]
-  },
-  {
-   "names": [
     "News Corp",
     "News Corp Australia"
    ],
    "slugs": [
     "news-corp",
     "news-corp-australia"
+   ]
+  },
+  {
+   "names": [
+    "Star Group",
+    "Star Sports",
+    "The Star"
+   ],
+   "slugs": [
+    "star-group",
+    "star-sports",
+    "the-star"
+   ]
+  },
+  {
+   "names": [
+    "TAB",
+    "TAB NZ"
+   ],
+   "slugs": [
+    "tab",
+    "tab-nz"
+   ]
+  },
+  {
+   "names": [
+    "Clover",
+    "Clover Sport"
+   ],
+   "slugs": [
+    "clover",
+    "clover-sport"
    ]
   },
   {
@@ -334,22 +304,12 @@
   },
   {
    "names": [
-    "Victor",
-    "Victor Sports"
+    "Hockey Australia",
+    "Hockey New Zealand"
    ],
    "slugs": [
-    "victor",
-    "victor-sports"
-   ]
-  },
-  {
-   "names": [
-    "Mondelēz",
-    "Mondelēz International"
-   ],
-   "slugs": [
-    "mondel-z",
-    "mondelez-international"
+    "hockey-australia",
+    "hockey-new-zealand"
    ]
   },
   {
@@ -364,12 +324,22 @@
   },
   {
    "names": [
-    "HYROX",
-    "HYROX Australia"
+    "Commonwealth Games",
+    "Commonwealth Games Australia"
    ],
    "slugs": [
-    "hyrox",
-    "hyrox-australia"
+    "commonwealth-games",
+    "commonwealth-games-australia"
+   ]
+  },
+  {
+   "names": [
+    "QMS",
+    "QMS NZ"
+   ],
+   "slugs": [
+    "qms",
+    "qms-nz"
    ]
   },
   {
@@ -384,52 +354,82 @@
   },
   {
    "names": [
-    "PURE Sports Nutrition",
-    "Pure Nutrition"
+    "Betsson",
+    "Betsson Sport"
    ],
    "slugs": [
-    "pure-nutrition",
-    "pure-sports-nutrition"
+    "betsson",
+    "betsson-sport"
    ]
   },
   {
    "names": [
-    "Commonwealth Games",
-    "Commonwealth Games Australia"
+    "Courier Mail",
+    "The Courier-Mail"
    ],
    "slugs": [
-    "commonwealth-games",
-    "commonwealth-games-australia"
+    "courier-mail",
+    "the-courier-mail"
    ]
   },
   {
    "names": [
-    "Asahi Beverages",
-    "Asahi Beverages NZ"
+    "Seven",
+    "Seven Group"
    ],
    "slugs": [
-    "asahi-beverages",
-    "asahi-beverages-nz"
+    "seven",
+    "seven-group"
    ]
   },
   {
    "names": [
-    "Hockey Australia",
-    "Hockey New Zealand"
+    "Victor",
+    "Victor Sports"
    ],
    "slugs": [
-    "hockey-australia",
-    "hockey-new-zealand"
+    "victor",
+    "victor-sports"
    ]
   },
   {
    "names": [
-    "Direct Global",
-    "Sports Direct"
+    "Compass",
+    "Compass Group"
    ],
    "slugs": [
-    "direct-global",
-    "sports-direct"
+    "compass",
+    "compass-group"
+   ]
+  },
+  {
+   "names": [
+    "Carabao",
+    "Carabao Sport"
+   ],
+   "slugs": [
+    "carabao",
+    "carabao-sport"
+   ]
+  },
+  {
+   "names": [
+    "Southern Trust",
+    "The Southern Trust"
+   ],
+   "slugs": [
+    "southern-trust",
+    "the-southern-trust"
+   ]
+  },
+  {
+   "names": [
+    "Kia",
+    "Kia Australia"
+   ],
+   "slugs": [
+    "kia",
+    "kia-australia"
    ]
   }
  ],
@@ -28986,10 +28986,6 @@
    "issue": "needsSource"
   },
   {
-   "deal": "Swisse × Tennis Australia",
-   "issue": "needsSource"
-  },
-  {
    "deal": "Liquid I.V. × Adelaide Lightning",
    "issue": "needsSource"
   },
@@ -29007,10 +29003,6 @@
   },
   {
    "deal": "SkyCity × AUSX Supercross",
-   "issue": "needsSource"
-  },
-  {
-   "deal": "Beverly × Melbourne Racing Club",
    "issue": "needsSource"
   },
   {
@@ -29086,15 +29078,7 @@
    "issue": "needsSource"
   },
   {
-   "deal": "ASC × Port Adelaide",
-   "issue": "needsSource"
-  },
-  {
    "deal": "Mega Rewards × Adelaide 36ers",
-   "issue": "needsSource"
-  },
-  {
-   "deal": "St Lukes Health × Tasmania Jewels",
    "issue": "needsSource"
   },
   {
@@ -29183,10 +29167,6 @@
   },
   {
    "deal": "Kumho Tyre × Canterbury-Bankstown Bulldogs",
-   "issue": "needsSource"
-  },
-  {
-   "deal": "MyPlace × West Coast Eagles",
    "issue": "needsSource"
   },
   {
@@ -29326,10 +29306,6 @@
    "issue": "needsSource"
   },
   {
-   "deal": "Grant Thornton × Paddle Australia",
-   "issue": "needsSource"
-  },
-  {
    "deal": "Corpay × New Zealand Football",
    "issue": "needsSource"
   },
@@ -29351,10 +29327,6 @@
   },
   {
    "deal": "Sinopec × Matt Stone Racing",
-   "issue": "needsSource"
-  },
-  {
-   "deal": "Sidelink Transport × Melbourne Victory",
    "issue": "needsSource"
   },
   {
@@ -29658,10 +29630,6 @@
    "issue": "needsSource"
   },
   {
-   "deal": "Santos × Port Adelaide",
-   "issue": "needsSource"
-  },
-  {
    "deal": "Science in Sport × Rugby Australia",
    "issue": "needsSource"
   },
@@ -29739,10 +29707,6 @@
   },
   {
    "deal": "Westfund × Penrith Panthers",
-   "issue": "needsSource"
-  },
-  {
-   "deal": "GIO × NSWRL",
    "issue": "needsSource"
   },
   {
@@ -29898,10 +29862,6 @@
    "issue": "needsSource"
   },
   {
-   "deal": "Scotts × Melbourne City FC",
-   "issue": "needsSource"
-  },
-  {
    "deal": "M.J. Bale × Sydney Kings",
    "issue": "needsSource"
   },
@@ -29919,10 +29879,6 @@
   },
   {
    "deal": "Treu Construct × Western Bulldogs",
-   "issue": "needsSource"
-  },
-  {
-   "deal": "Ford × Basketball Australia",
    "issue": "needsSource"
   },
   {
