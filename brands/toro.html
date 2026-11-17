@@ -21,7 +21,7 @@
 <link rel="stylesheet" href="assets/profile.css?v=10">
 <link rel="stylesheet" href="assets/follow.css?v=2">
 <link rel="stylesheet" href="assets/align.css?v=1">
-<link rel="stylesheet" href="assets/chrome.css?v=2">
+<link rel="stylesheet" href="assets/chrome.css?v=3">
 <style>
 .lt2-g{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:clamp(24px,3vw,48px);border-top:2px solid #000;padding-top:18px}
 .lt2-d{display:flex;flex-direction:column;align-items:flex-start;gap:10px}
@@ -46,8 +46,8 @@
 <body data-id="toro">
 <header class="v2"><div class="wrap hd">
 <a href="./" class="logo brand-logo" aria-label="Sport Sport Sport home"><img src="assets/wordmark-black.svg" alt="Sport Sport Sport" width="56" height="42"></a>
-<nav class="nav" id="nav" aria-label="Main"><a href="partnerships" data-nav="partnerships">Partnerships</a><a href="brands" data-nav="brands">Brands</a><a href="properties" data-nav="properties">Properties</a><a href="news" data-nav="news">News</a><a href="insights" data-nav="insights">Insights</a></nav>
-<div class="hd-r"><a class="login" href="pro" data-nav="pro">Pro</a><button type="button" class="btn2 hs-b" id="hsB" aria-label="Search brands and properties" aria-expanded="false" aria-controls="hs"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg><span>Search</span></button></div>
+<nav class="nav" id="nav" aria-label="Main"><a href="partnerships" data-nav="partnerships">Partnerships</a><a href="brands" data-nav="brands">Brands</a><a href="properties" data-nav="properties">Properties</a><a href="news" data-nav="news">News</a><div class="dd"><a href="insights" data-nav="insights" aria-haspopup="true">Insights</a><div class="dd-m"><a href="categories">Categories</a><a href="leagues">League maps</a><a href="compare">Compare</a></div></div></nav>
+<div class="hd-r"><button type="button" class="hs-b" id="hsB" aria-label="Search brands and properties" aria-expanded="false" aria-controls="hs"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg><span class="hs-t">Search partnerships, brands &amp; properties</span><kbd>/</kbd></button><a class="pro-b" href="pro" data-nav="pro">Partnership Pro</a></div>
 <button type="button" class="menu" id="menu" aria-expanded="false" aria-controls="nav">Menu</button>
 </div>
 <div class="hs" id="hs" hidden><div class="wrap"><div class="hs-f" role="search"><label for="hsQ" style="position:absolute;left:-9999px">Search a club, league, event or brand</label><input id="hsQ" type="search" autocomplete="off" placeholder="Search a club, league, event or brand"><div class="hs-r" id="hsR" hidden></div></div><div class="hs-h"><span>Press / to search from any page.</span><a href="partnerships">Every partnership →</a></div></div></div>
@@ -97,11 +97,11 @@
 </main>
 
 <footer class="v2"><div class="wrap">
-<div class="ft"><div><a href="./" class="logo brand-logo" aria-label="Sport Sport Sport home"><img src="assets/wordmark-black.svg" alt="Sport Sport Sport" width="120" height="90"></a>
-<p class="so">Who backs <span class="vb">who</span> in sport.</p></div>
-<nav class="ft-l" aria-label="Footer"><a href="partnerships">Partnerships</a><a href="brands">Brands</a><a href="properties">Properties</a><a href="leagues">League maps</a><a href="categories">Categories</a><a href="news">News</a><a href="insights">Insights</a></nav></div>
-<div class="ft-b"><span>Filed in Melbourne.</span><span>© <span id="yr">2026</span> <span data-brand="name">Sport Sport Sport</span></span></div>
+<div class="ft"><a href="./" class="logo brand-logo" aria-label="Sport Sport Sport home"><img src="assets/wordmark-black.svg" alt="Sport Sport Sport" width="80" height="60"></a>
+<nav class="ft-l" aria-label="Footer"><div class="ft-c"><span>Database</span><a href="partnerships">Partnerships</a><a href="brands">Brands</a><a href="properties">Properties</a><a href="news">News</a></div><div class="ft-c"><span>Insights</span><a href="insights">Insights</a><a href="categories">Categories</a><a href="leagues">League maps</a><a href="compare">Compare</a></div><div class="ft-c"><span>Follow</span><a href="https://www.linkedin.com/company/sportsportsport/" target="_blank" rel="noopener">LinkedIn</a><a href="https://www.instagram.com/sportsportsport.hq/" target="_blank" rel="noopener">Instagram</a></div></nav></div>
+<div class="ft-b"><span>Filed in Melbourne. © <span id="yr">2026</span> <span data-brand="name">Sport Sport Sport</span></span></div>
 </div></footer>
+<div class="tk" id="tk" aria-label="Latest partnerships" hidden></div>
 
 <script src="assets/logos.js?v=10"></script>
 <script src="assets/pills.js?v=3"></script>
@@ -221,6 +221,6 @@ Promise.all([fetch("deals.json",{cache:"no-cache"}).then(r=>r.json()),L.load()])
 }).catch(none);
 })();
 </script>
-<script src="assets/chrome.js?v=2"></script>
+<script src="assets/chrome.js?v=3"></script>
 </body>
 </html>
