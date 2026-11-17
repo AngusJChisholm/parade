@@ -384,14 +384,16 @@ function intl(m,rec){
 const PTYPE={club:"Club",body:"League or body",event:"Event",national:"National team",athlete:"Athlete",venue:"Venue"};
 function scoutHome(){
   const m=state.m, pool=m.side==="p"?MX.props:MX.brands;
-  const all=Object.entries(pool).map(([slug,r])=>{const o=D.orgs.get(slug);return {slug,r,o,n:o?o.n:0,top:(r.m||[])[0]}}).sort((a,b)=>b.n-a.n||a.r.n.localeCompare(b.r.n));
+  const mk=m.mk||(m.mk="ANZ");
+  const every=Object.entries(pool).map(([slug,r])=>{const o=D.orgs.get(slug);return {slug,r,o,n:o?o.n:0,top:(r.m||[])[0]}}).sort((a,b)=>b.n-a.n||a.r.n.localeCompare(b.r.n));
+  const all=mk==="ANZ"?every.filter(x=>x.o&&x.o.markets&&x.o.markets.has("ANZ")):every;
   const subs=m.side==="p"?[...new Set(all.map(x=>x.r.s).filter(Boolean))]:[...new Set(all.map(x=>x.r.c).filter(Boolean))];
   const cnt=k=>all.filter(x=>(m.side==="p"?x.r.s:x.r.c)===k).length;
   const opts=subs.filter(k=>cnt(k)>=3).sort((a,b)=>cnt(b)-cnt(a)).slice(0,8);
   const f=m.f&&opts.includes(m.f)?m.f:"";
   const list=f?all.filter(x=>(m.side==="p"?x.r.s:x.r.c)===f):all;
   const lim=m.lim||24, shown=list.slice(0,lim);
-  const watched=all.filter(x=>watch.get().has(x.slug));
+  const watched=every.filter(x=>watch.get().has(x.slug));
   const card=x=>{const sub=m.side==="p"?`${esc(PTYPE[x.r.t]||"Property")} · ${esc(x.r.s||"")}`:`${esc(x.r.c||"Uncategorised")}${x.r.u?` · ${esc(x.r.u)}`:""}`;
     return `<button type="button" class="sc-c" data-mpick="${esc(x.slug)}">${x.o?L.mark(x.o.e,{px:56}):""}<b>${esc(x.r.n)}</b><span class="sc-s">${sub}</span><span class="sc-n"><em>${x.n}</em> partnerships</span>${x.top?`<span class="sc-t">Top pick: <b>${esc(x.top.n)}</b> ${x.top.x}</span>`:""}</button>`};
   $("view").innerHTML=`<p class="pro-intro">${m.side==="p"?"Pick a property to see the brands it should be talking to":"Pick a brand to see the properties it should be talking to"}, ranked by Scout Score. Sorted by the most partnerships in the SSS database.</p>
@@ -399,15 +401,16 @@ function scoutHome(){
   <input class="srch" id="mq" list="mxNames" placeholder="${m.side==="p"?"Search all properties, e.g. Carlton, Australian Open":"Search all brands, e.g. Coca-Cola, TikTok"}" autocomplete="off"><datalist id="mxNames">${all.slice().sort((a,b)=>a.r.n.localeCompare(b.r.n)).map(x=>`<option value="${esc(x.r.n)}">`).join("")}</datalist></div>
   ${watched.length?`<div class="h3">Your watchlist</div><div class="sc-g">${watched.map(card).join("")}</div>`:""}
   <div class="h3">${m.side==="p"?"Most popular properties":"Most popular brands"}${f?` · ${esc(f)}`:""}</div>
-  <div class="ctl" style="margin-top:10px"><div class="pills">${pills("mf",[["","All"],...opts.map(k=>[k,k])],f)}</div></div>
+  <div class="ctl" style="margin-top:10px"><div class="pills">${pills("mmk",[["ANZ","ANZ"],["All","Everywhere"]],mk)}</div><div class="pills">${pills("mf",[["",m.side==="p"?"All sports":"All categories"],...opts.map(k=>[k,k])],f)}</div></div>
   <div class="sc-g">${shown.map(card).join("")}</div>
   ${list.length>shown.length?`<p><button class="ghost" id="mmore">Show more (${list.length-shown.length} left)</button></p>`:""}
-  <p class="note-s">${all.length} ${m.side==="p"?"properties":"brands"} scored. Rebuilt ${esc(MX.generated)} from the full database.</p>`;
+  <p class="note-s">${every.length} ${m.side==="p"?"properties":"brands"} scored, ${all.length} shown. Rebuilt ${esc(MX.generated)} from the full database.</p>`;
   const inp=$("mq");
   inp.onchange=()=>{const v=inp.value.trim().toLowerCase();if(!v)return;const hit=all.find(x=>x.r.n.toLowerCase()===v)||all.find(x=>x.r.n.toLowerCase().includes(v));if(hit){m.slug=hit.slug;drawMatches();window.scrollTo(0,0)}};
   $("view").onclick=e=>{
     const sd=e.target.closest("[data-mside]");if(sd){m.side=sd.dataset.mside;m.slug=null;m.f="";m.lim=24;drawMatches();return}
     const fl=e.target.closest("[data-mf]");if(fl){m.f=fl.dataset.mf;m.lim=24;drawMatches();return}
+    const mkb=e.target.closest("[data-mmk]");if(mkb){m.mk=mkb.dataset.mmk;m.f="";m.lim=24;drawMatches();return}
     if(e.target.id==="mmore"){m.lim=lim+24;drawMatches();return}
     const pk=e.target.closest("[data-mpick]");if(pk){m.slug=pk.dataset.mpick;drawMatches();window.scrollTo(0,0)}
   };

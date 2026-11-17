@@ -169,10 +169,9 @@ def main():
                 nm = f'<a href="{esc(d["url"])}" target="_blank" rel="noopener"><b>{nm}</b></a>'
             else:
                 nm = f"<b>{nm}</b>"
-            ends = (("c. " if d.get("endsEst") else "") + str(d["ends"])) if d.get("ends") else "–"
+            # Status, not end year: end dates are kept for Pro.
             pm = past_of(d, side)
-            if pm:
-                ends = yrs(pm) or "Past"
+            ends = ("Past" + (f" · {yrs(pm)}" if yrs(pm) else "")) if pm else ("Ended" if d.get("ended") else "Current")
             dtype = (d.get("ptier") if kind == "p" and side == "p" else None) or d.get("tier") or d.get("type")
             rows.append(f'<div class="ar-r{" past" if pm else ""}"><span class="d">{esc(fmt(d))}</span><span class="dl">{nm}</span><span class="s">{esc(d.get("sport"))}</span><span class="t">{esc(dtype)}</span><span class="d">{esc(ends)}</span></div>')
         def ptile(k):
@@ -227,7 +226,7 @@ def main():
     if ent_changed:
         (ROOT / "entities.json").write_text(json.dumps(E, ensure_ascii=False, indent=1), encoding="utf-8")
 
-    static = ["", "news", "partnerships", "brands", "properties", "insights", "categories", "renewals", "leagues", "compare"]
+    static = ["", "news", "partnerships", "brands", "properties", "insights", "categories", "leagues", "compare"]
     arts = sorted(p.stem for p in (ROOT / "articles").glob("*.html"))
     sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     sm += [f"<url><loc>{SITE}/{p}</loc></url>" for p in static]

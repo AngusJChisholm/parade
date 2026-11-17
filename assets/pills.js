@@ -5,7 +5,7 @@
    own filter code keeps working unchanged. One container holding two button sets (e.g. region + sort) becomes two
    dropdowns. A .ctl row (search + selects) and the .ctl2 row of buttons under it merge into one bar. */
 (()=>{
-  const SEL=".pills,.cs-t,.chips";
+  const SEL=".pills:not(.tabs-keep),.cs-t,.chips";
   const NAMES={r:"Region",reg:"Region",region:"Region",l:"League",league:"League",g:"Type",group:"Type",
     s:"Sport",sport:"Sport",t:"Group",sort:"Sort",basis:"Basis",yr:"Year",year:"Year",y:"Year",span:"Show",sp:"Show",
     f:"Filter",mside:"View",mf:"Filter",rpk:"Type",rp:"Profile",win:"Time"};

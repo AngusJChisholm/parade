@@ -10,7 +10,7 @@ const loc=s=>{const m=String(s||"").match(/^https:\/\/images\.unsplash\.com\/(ph
 const imgSrc=s=>/^https:\/\/images\.unsplash\.com\//.test(s)&&!/[?&]w=/.test(s)?s+(s.includes("?")?"&":"?")+"w=1200&q=70&auto=format&fit=crop":s;
 
 let all=[],f="All",shown=PAGE;
-const F=[["All","All stories"],["deal","Partnership stories"],["feature","Features"],["ANZ","ANZ"],["Intl","International"]];
+const F=[["All","All stories"],["deal","Partnership stories"],["feature","Features"],["Data","Data drops"],["Breakdown","Breakdowns"],["ANZ","ANZ"],["Intl","International"]];
 {const q=new URLSearchParams(location.search).get("f");if(F.some(([k])=>k===q))f=q;}
 
 Promise.all([
@@ -30,12 +30,13 @@ const meta=x=>`<div class="meta"><span class="tag${x.kind==="feature"?" r":""}">
 const href=x=>`articles/${encodeURIComponent(x.slug)}`;
 
 function draw(){
-  const r=all.filter(x=>f==="All"||x.kind===f||(f==="ANZ"?x.region==="ANZ":f==="Intl"&&x.region&&x.region!=="ANZ"));
+  const match=(x,k)=>k==="All"||x.kind===k||(k==="Data"||k==="Breakdown")&&x.kind==="feature"&&x.label===k||(k==="ANZ"?x.region==="ANZ":k==="Intl"&&x.region&&x.region!=="ANZ");
+  const r=all.filter(x=>match(x,f));
   const [first,...rest]=r;
   $("lead").innerHTML=first?`<a class="nlead" href="${href(first)}">${img(first,true)}<div>${meta(first)}<h2 class="disp">${esc(first.head)}</h2>${first.stand?`<p>${esc(first.stand)}</p>`:""}<span class="more">Read the story →</span></div></a>`:`<p class="note">No stories here yet.</p>`;
   $("grid").innerHTML=rest.slice(0,shown).map(x=>`<a class="nc" href="${href(x)}">${img(x)}${meta(x)}<h3>${esc(x.head)}</h3>${x.sub&&x.sub!==x.head?`<span class="lbl mute-l" style="font-size:11px">${esc(x.sub)}</span>`:""}${x.stand?`<p>${esc(x.stand)}</p>`:""}</a>`).join("");
   $("moreBtn").hidden=rest.length<=shown;
-  $("pills").innerHTML=F.map(([k,l])=>`<button type="button" class="pill${f===k?" on":""}" data-f="${k}" aria-pressed="${f===k}">${l}</button>`).join("");
+  $("pills").innerHTML=F.filter(([k])=>all.some(x=>match(x,k))).map(([k,l])=>`<button type="button" class="pill${f===k?" on":""}" data-f="${k}" role="tab" aria-selected="${f===k}">${l}<span>${all.filter(x=>match(x,k)).length}</span></button>`).join("");
 }
 $("pills").onclick=e=>{const b=e.target.closest("[data-f]");if(!b)return;f=b.dataset.f;shown=PAGE;draw()};
 $("moreBtn").onclick=()=>{shown+=PAGE;draw()};

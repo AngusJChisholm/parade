@@ -17,10 +17,24 @@ const count=(arr,f)=>{const m=new Map();arr.forEach(x=>[].concat(f(x)).forEach(k
 
 S.load().then(D=>{
   const deals=D.deals, thisYr=deals.filter(d=>S.yearOf(d)===yr);
-  // Who's spending where: live ANZ partnerships per brand category, biggest first.
-  {const cc={},lv=d=>d.status!=="Ended"&&!d.ended;deals.filter(d=>S.mkt(d)==="ANZ"&&lv(d)).forEach(d=>(d._cats||[]).forEach(c=>{if(c&&c!=="Other")cc[c]=(cc[c]||0)+1}));
-   const el=$("spend");if(el)el.innerHTML=Object.entries(cc).sort((a,b)=>b[1]-a[1]).slice(0,16).map(([c,n])=>`<a href="categories?c=${encodeURIComponent(c)}"><b>${esc(c)}</b><span>${n.toLocaleString("en-AU")}</span></a>`).join("")}
-  $("heroStats").innerHTML=[[deals.length.toLocaleString("en-AU"),"partnerships filed"],[thisYr.length.toLocaleString("en-AU"),`partnerships in ${yr}`],[D.brands.length.toLocaleString("en-AU"),"brands"],[D.props.length.toLocaleString("en-AU"),"properties"]]
+  // Who's spending where: live partnerships per brand category, ANZ or Global, biggest first.
+  {const lv=d=>d.status!=="Ended"&&!d.ended;
+   const drawSpend=m=>{const cc={};deals.filter(d=>lv(d)&&(m==="Global"||S.mkt(d)==="ANZ")).forEach(d=>(d._cats||[]).forEach(c=>{if(c&&c!=="Other")cc[c]=(cc[c]||0)+1}));
+     $("spend").innerHTML=Object.entries(cc).sort((a,b)=>b[1]-a[1]).slice(0,16).map(([c,n])=>`<a href="categories?c=${encodeURIComponent(c)}"><b>${esc(c)}</b><span>${n.toLocaleString("en-AU")}</span></a>`).join("");
+     $("spendNote").textContent=`Live ${m} partnerships by brand category, biggest first.`;
+     $("spendT").querySelectorAll("button").forEach(b=>{const o=b.dataset.m===m;b.classList.toggle("on",o);b.setAttribute("aria-selected",o)})};
+   $("spendT").onclick=e=>{const b=e.target.closest("[data-m]");if(b)drawSpend(b.dataset.m)};
+   drawSpend("ANZ")}
+
+  // The lead finding: this year's biggest category, against the same point last year.
+  {const doy=d=>{const k=S.sortKey(d);return k.slice(5)};const today=new Date().toISOString().slice(5,10);
+   const ytd=y=>deals.filter(d=>S.yearOf(d)===y&&(d.date||"").length===10&&doy(d)<=today);
+   const now=count(ytd(yr),d=>d._cats).filter(([c])=>c!=="Other"),prev=new Map(count(ytd(yr-1),d=>d._cats));
+   if(now.length){const [c,n]=now[0],p=prev.get(c)||0;
+     $("find").innerHTML=`${esc(c)} is ${yr}'s biggest spender in sport: ${n.toLocaleString("en-AU")} partnerships filed so far${p?`, against ${p.toLocaleString("en-AU")} at this point in ${yr-1}`:""}.<small>Global partnerships with an announcement date, ${yr} to date. Our coverage has grown too, so read year-on-year changes with that in mind.</small>`;
+     $("find").hidden=false}}
+  const anzD=deals.filter(d=>S.mkt(d)==="ANZ");
+  $("heroStats").innerHTML=[[deals.length.toLocaleString("en-AU"),"Global partnerships on file"],[thisYr.length.toLocaleString("en-AU"),`Global partnerships in ${yr}`],[anzD.length.toLocaleString("en-AU"),"ANZ partnerships on file"],[anzD.filter(d=>S.yearOf(d)===yr).length.toLocaleString("en-AU"),`ANZ partnerships in ${yr}`]]
     .map(([v,l])=>`<div class="stat"><b>${esc(v)}</b><span>${esc(l)}</span></div>`).join("");
 
   // Deals per month, last 24 months. Current month highlighted (it's still filling up).
@@ -37,15 +51,12 @@ S.load().then(D=>{
   const tiers=count(thisYr,d=>d.tier).map(([t,v])=>[t,v]);
   const st=count(thisYr,d=>d.status);
   const reg=count(thisYr,d=>S.mkt(d)).map(([m,v])=>[S.mktLab(m),v,`deals?market=${encodeURIComponent(m)}`]);
-  const ending=deals.filter(d=>d.ends===yr+1).length;
 
   $("charts").innerHTML=`
   <div class="chart wide"><span class="lbl mute-l">Partnership flow</span><h3>Partnerships filed per month</h3>${colsHtml}</div>
-  <div class="chart"><span class="lbl mute-l">${yr}</span><h3>Top categories</h3>${hbars(cats)}<p style="margin-top:18px"><a class="more" href="categories">All categories →</a></p></div>
   <div class="chart"><span class="lbl mute-l">${yr}</span><h3>Top sports</h3>${hbars(sp)}</div>
   <div class="chart"><span class="lbl mute-l">${yr}</span><h3>What brands are buying</h3>${hbars(tiers)}</div>
   <div class="chart"><span class="lbl mute-l">${yr}</span><h3>New money vs renewals</h3>${hbars(st)}
-    <h3 style="margin-top:40px">By region</h3>${hbars(reg)}
-    <p class="note-s" style="margin-top:24px"><b>${ending}</b> partnerships filed are due to end in ${yr+1}. <a class="more" href="renewals?year=${yr+1}">Renewal watch →</a></p></div>`;
+    <h3 style="margin-top:40px">By region</h3>${hbars(reg)}</div>`;
 }).catch(()=>{$("charts").innerHTML=`<p class="note">Couldn't load the numbers. Refresh to try again.</p>`});
 })();

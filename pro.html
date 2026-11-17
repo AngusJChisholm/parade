@@ -304,40 +304,41 @@ html.locked main>*:not(#gate):not(#follow):not(script){display:none!important}
 @media (max-width:1100px){.g-grid,.g-next{grid-template-columns:repeat(2,minmax(0,1fr))}.g-loop ol{grid-template-columns:repeat(2,minmax(0,1fr))}.g-loop li:nth-child(odd){padding-left:0;border-left:0}.g-loop li{padding-bottom:14px}}
 @media (max-width:900px){.g-top{grid-template-columns:minmax(0,1fr)}}
 @media (max-width:600px){.g-grid,.g-next,.g-loop ol{grid-template-columns:minmax(0,1fr)}.g-loop li{padding-left:0!important;border-left:0!important}.g-stats{grid-template-columns:minmax(0,1fr)}.g-stats>div+div{padding-left:0;border-left:0;border-top:1px solid var(--line)}.g-stats>div{padding-bottom:12px}}
-/* v2 header, same as the public site */
-header.v2{position:sticky;top:0;z-index:20;background:#fff;border-bottom:1px solid var(--line)}
-header.v2 .hd{display:flex;align-items:center;gap:32px;height:72px}
-header.v2 .logo img{height:38px;width:auto;display:block}
-header.v2 .nav{display:flex;gap:26px;margin-left:auto}
-header.v2 .nav a{font-weight:800;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3);padding:6px 0}
-header.v2 .nav a:hover,header.v2 .nav a.on{color:#000;box-shadow:inset 0 -3px 0 var(--volt)}
-header.v2 .hd-r{display:flex;align-items:center;gap:18px}
-header.v2 .login{font-weight:800;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3)}
-header.v2 .login:hover{color:#000}
-.btn2{font:inherit;font-weight:800;font-size:12px;letter-spacing:.14em;text-transform:uppercase;background:var(--volt);color:#000;border:1px solid var(--volt);padding:12px 18px;display:inline-block;white-space:nowrap;cursor:pointer}
-.btn2:hover{background:#000;color:#fff;border-color:#000}
-.btn2.ink{background:#000;color:#fff;border-color:#000}.btn2.ink:hover{background:var(--volt);color:#000;border-color:var(--volt)}
-.btn2.ol{background:#fff;color:#000;border-color:#000}.btn2.ol:hover{background:#000;color:#fff}
-header.v2 .menu{display:none;margin-left:auto;background:none;border:1px solid #000;color:#000;font:inherit;font-weight:800;font-size:12px;letter-spacing:.14em;text-transform:uppercase;padding:10px 12px;cursor:pointer}
-.wm-parade{display:inline-flex;flex-direction:column;font-family:var(--cond);font-stretch:68%;font-weight:800;text-transform:uppercase;font-size:30px;line-height:.82;letter-spacing:-.01em;color:#000}
-.wm-parade span{font-size:.42em;letter-spacing:.32em;background:var(--volt);padding:.18em .25em .08em;margin-top:.18em;align-self:flex-start}
-@media (max-width:980px){header.v2 .nav{display:none}header.v2 .menu{display:block}header.v2 .hd-r{margin-left:auto}
-  header.v2 .nav.open{display:flex;position:absolute;left:0;right:0;top:72px;flex-direction:column;gap:0;background:#fff;border-bottom:1px solid var(--line);padding:4px var(--pad) 16px}
-  header.v2 .nav.open a{padding:14px 0;border-bottom:1px solid var(--line);font-size:14px;color:#000;box-shadow:none}}
-@media (max-width:560px){header.v2 .hd{gap:12px;height:64px}header.v2 .hd-r .btn2{padding:10px 12px;font-size:11px}header.v2 .nav.open{top:64px}header.v2 .logo img{height:32px}}
-@media (max-width:560px){header.v2 .hd-r .btn2{display:none}header.v2 .menu{margin-left:0}}
-header.v2 .login.on{color:#000;box-shadow:inset 0 -3px 0 var(--volt);padding:6px 0}
-header.v2 .wrap{max-width:1440px}
+
+/* ---------- Pro v2: same look as the public site ---------- */
+@font-face{font-family:"ArchivoV";src:url("assets/fonts/Archivo[wdth,wght].ttf") format("truetype");font-weight:100 900;font-stretch:62% 125%;font-display:swap}
+:root{--cond:"ArchivoV","Archivo","Helvetica Neue",Arial,sans-serif}
+.hero h1.disp,#view h2.disp,#view h3,.gate-box h1.disp{font-family:var(--cond);font-stretch:68%;transform:none;width:auto;letter-spacing:-.005em;line-height:.9}
+.hero{border-bottom:0;padding-block:clamp(28px,4vw,52px) clamp(16px,2vw,24px)}
+.hero h1{font-size:clamp(48px,6.4vw,104px)!important}
+.hero p{max-width:62ch}
+.tabs-bar{position:sticky;top:72px;z-index:30;background:#fff}
+@media (max-width:560px){.tabs-bar{top:64px}}
+.tab{padding:18px 18px 16px}
+.tab:first-child{padding-left:0}
+.kpis>div+div{padding-left:16px;border-left:1px solid var(--line)}
+.kpis b,.gn b,.tile b,.g-stats b{font-family:var(--cond);font-stretch:68%;letter-spacing:0!important;line-height:.9}
+.kpis b{font-size:clamp(40px,4.4vw,64px)}
+.g-stats>div:first-child b{background:var(--volt);padding:.04em .1em 0;align-self:flex-start}
+.tile,.sc-c,.bz,.rp-riv>div{background:#fff!important;border:1px solid var(--line);border-top:4px solid transparent}
+.tile:hover,.sc-c:hover{border-top-color:var(--volt);outline:0}
+.g-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.g-grid>div.g-dk{background:#fff;box-shadow:inset 6px 0 0 var(--volt)}
+.g-dk .g-t{background:var(--ink);color:#fff}
+@media (max-width:900px){.g-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:600px){.g-grid{grid-template-columns:minmax(0,1fr)}}
 </style>
+<link rel="stylesheet" href="assets/chrome.css?v=2">
 </head>
 <body>
 <header class="v2"><div class="wrap hd">
-<a href="./" class="logo" aria-label="Sport Sport Sport home"><img src="assets/wordmark-black.svg" alt="Sport Sport Sport" width="56" height="42"></a>
-<nav class="nav" id="nav" aria-label="Main"><a href="partnerships">Partnerships</a><a href="brands">Brands</a><a href="properties">Properties</a><a href="news">News</a><a href="insights">Insights</a></nav>
-<div class="hd-r"><a class="login on" href="pro" aria-current="page">Pro</a><a class="btn2" href="#follow">Get the Weekly Edition</a></div>
-<button class="menu" id="menu" aria-expanded="false" aria-controls="nav">Menu</button>
-</div></header>
-<script>document.getElementById("menu").onclick=function(){var n=document.getElementById("nav"),o=n.classList.toggle("open");this.setAttribute("aria-expanded",o);this.textContent=o?"Close":"Menu"}</script>
+<a href="./" class="logo brand-logo" aria-label="Sport Sport Sport home"><img src="assets/wordmark-black.svg" alt="Sport Sport Sport" width="56" height="42"></a>
+<nav class="nav" id="nav" aria-label="Main"><a href="partnerships" data-nav="partnerships">Partnerships</a><a href="brands" data-nav="brands">Brands</a><a href="properties" data-nav="properties">Properties</a><a href="news" data-nav="news">News</a><a href="insights" data-nav="insights">Insights</a></nav>
+<div class="hd-r"><a class="login" href="pro" data-nav="pro">Pro</a><button type="button" class="btn2 hs-b" id="hsB" aria-label="Search brands and properties" aria-expanded="false" aria-controls="hs"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg><span>Search</span></button></div>
+<button type="button" class="menu" id="menu" aria-expanded="false" aria-controls="nav">Menu</button>
+</div>
+<div class="hs" id="hs" hidden><div class="wrap"><div class="hs-f" role="search"><label for="hsQ" style="position:absolute;left:-9999px">Search a club, league, event or brand</label><input id="hsQ" type="search" autocomplete="off" placeholder="Search a club, league, event or brand"><div class="hs-r" id="hsR" hidden></div></div><div class="hs-h"><span>Press / to search from any page.</span><a href="partnerships">Every partnership →</a></div></div></div>
+</header>
 <main id="main">
 <section id="gate"><div class="gate-box">
 <span class="lbl mute-l">Pro</span>
@@ -355,9 +356,9 @@ header.v2 .wrap{max-width:1440px}
 <section class="wrap hero">
 <span class="lbl mute-l">Pro</span>
 <h1 class="disp">The partnerships desk.</h1>
-<p>See who should partner with whom, find brands spending in sport, see what's coming up for renewal, and work out which categories a property is missing and who could fill them. Built from every partnership in the database.</p>
+<p>See who should partner with whom, find brands spending in sport, track renewals and the wagering exit, and work out which categories a property is missing and who could fill them. Built from every partnership in the database.</p>
 </section>
-<div class="wrap"><div class="tabs" role="tablist" id="tabs">
+<div class="tabs-bar"><div class="wrap"><div class="tabs" role="tablist" id="tabs">
 <button class="tab" data-tab="home" role="tab">Home</button>
 <button class="tab" data-tab="dash" role="tab">Dashboard</button>
 <button class="tab" data-tab="scouting" role="tab">Scouting</button>
@@ -367,21 +368,20 @@ header.v2 .wrap{max-width:1440px}
 <button class="tab" data-tab="property" role="tab">Property report</button>
 <button class="tab" data-tab="watch" role="tab">Watchlist</button>
 <button class="tab" data-tab="reports" role="tab">Reports</button>
-</div></div>
+</div></div></div>
 <section class="wrap pro-sec" id="view"><p class="note">Loading the database…</p></section>
 <!-- follow:start -->
 <section class="sf" id="follow"><div class="sf-w">
-<div class="sf-r"><div><h2>Follow the partnerships.</h2><p>New partnerships, news and data drops on LinkedIn and Instagram.</p></div>
-<div class="sf-a"><a class="sf-b" href="https://www.linkedin.com/company/sportsportsport/" target="_blank" rel="noopener">LinkedIn</a><a class="sf-b sf-o" href="https://www.instagram.com/sportsportsport.hq/" target="_blank" rel="noopener">Instagram</a></div></div>
-<div class="sf-n" id="nl"><p><b>The Weekly Edition.</b> Every partnership from the week, in your inbox Monday mornings.</p><div class="nl-f" id="nlF"><span class="sf-b sf-soon" aria-disabled="true">Coming soon</span></div></div>
+<div class="sf-r"><div><h2>The Weekly Edition.</h2><p>Every partnership from the week, in your inbox Monday mornings.</p></div>
+<div class="sf-a"><span class="sf-b sf-soon" aria-disabled="true">Coming soon</span><a class="sf-b sf-o" href="https://www.linkedin.com/company/sportsportsport/" target="_blank" rel="noopener">LinkedIn</a><a class="sf-b sf-o" href="https://www.instagram.com/sportsportsport.hq/" target="_blank" rel="noopener">Instagram</a></div></div>
 </div></section>
 <!-- follow:end -->
 </main>
-<footer class="dk"><div class="wrap">
-<div class="ft"><div><a href="./" class="logo logo-ft" aria-label="Sport Sport Sport home"><img src="assets/wordmark-black.svg" alt="Sport Sport Sport" width="120" height="90"></a>
-<p class="mute" style="margin:28px 0 0;font-size:16px;max-width:420px;line-height:1.5">The sponsorships and partnerships moving sport. Global &amp; ANZ.</p></div>
-<nav class="ft-l" aria-label="Footer"><a href="news">News</a><a href="partnerships">Partnerships</a><a href="brands">Brands</a><a href="properties">Properties</a><a href="insights">Insights</a></nav></div>
-<div class="ft-b"><span>Pro is a private working tool, members only.</span><span>© <span id="yr">2026</span> Sport Sport Sport</span></div>
+<footer class="v2"><div class="wrap">
+<div class="ft"><div><a href="./" class="logo brand-logo" aria-label="Sport Sport Sport home"><img src="assets/wordmark-black.svg" alt="Sport Sport Sport" width="120" height="90"></a>
+<p class="so">Who backs <span class="vb">who</span> in sport.</p></div>
+<nav class="ft-l" aria-label="Footer"><a href="partnerships">Partnerships</a><a href="brands">Brands</a><a href="properties">Properties</a><a href="leagues">League maps</a><a href="categories">Categories</a><a href="news">News</a><a href="insights">Insights</a></nav></div>
+<div class="ft-b"><span>Filed in Melbourne.</span><span>© <span id="yr">2026</span> <span data-brand="name">Sport Sport Sport</span></span></div>
 </div></footer>
 <template id="homeTpl"><div class="g-wrap g-home"><div class="g-stats"><div><b id="gN">13,000+</b><span>Partnerships on file</span></div><div><b>212</b><span>ANZ properties checked on a schedule</span></div><div><b>8</b><span>Markets covered</span></div></div>
 <div class="g-sec">
@@ -425,5 +425,6 @@ header.v2 .wrap{max-width:1440px}
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="assets/pro-config.js?v=1"></script>
 <script src="assets/pro-auth.js?v=2"></script>
+<script src="assets/chrome.js?v=2"></script>
 </body>
 </html>

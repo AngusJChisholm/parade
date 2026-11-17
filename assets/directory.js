@@ -7,10 +7,10 @@ const PAGE=100;
 const yr=new Date().getFullYear();
 $("yr").textContent=yr;
 const q0=S.qs();
-const st={q:q0.get("q")||"",sport:q0.get("sport")||"All",region:q0.get("region")||"All",league:q0.get("league")||"",
+const st={q:q0.get("q")||"",sport:q0.get("sport")||"All",region:q0.get("region")||"ANZ",league:q0.get("league")||"",
   group:q0.get(IS_B?"cat":"type")||"",sort:q0.get("sort")||"deals",shown:PAGE};
 st.league=({BBL:"Big Bash League"})[st.league]||st.league;
-const save=()=>S.setQs({q:st.q,sport:st.sport!=="All"&&st.sport,region:st.region!=="All"&&st.region,league:st.league,[IS_B?"cat":"type"]:st.group,sort:st.sort!=="deals"&&st.sort});
+const save=()=>S.setQs({q:st.q,sport:st.sport!=="All"&&st.sport,region:st.region!=="ANZ"&&st.region,league:st.league,[IS_B?"cat":"type"]:st.group,sort:st.sort!=="deals"&&st.sort});
 
 S.load().then(D=>{
   const rows=IS_B?D.brands:D.props;
@@ -20,13 +20,26 @@ S.load().then(D=>{
   const groupOf=r=>IS_B?r.cat:r.ptype;
   const groups=(IS_B?S.CATS:S.PTYPES).filter(g=>rows.some(r=>groupOf(r)===g));
 
+  // Headline numbers: Global first, then ANZ, labelled so the two never get mixed up.
   const totalDeals=new Set(rows.flatMap(r=>r.deals.map(x=>x.d))).size;
-  $("heroStats").innerHTML=[[rows.length.toLocaleString("en-AU"),IS_B?"brands":"properties"],[totalDeals.toLocaleString("en-AU"),"partnerships filed"],[IS_B?groups.length:sports.length,IS_B?"categories":"sports"]]
-    .map(([v,l])=>`<div class="stat"><b>${esc(v)}</b><span>${esc(l)}</span></div>`).join("");
+  const anzRows=rows.filter(r=>r.markets.has("ANZ"));
+  const anzDeals=new Set(anzRows.flatMap(r=>r.deals.map(x=>x.d)).filter(d=>S.mkt(d)==="ANZ")).size;
+  const noun=IS_B?"brands":"properties";
+  $("heroStats").innerHTML=[[rows.length,`Global ${noun} tracked`],[totalDeals,"Global partnerships on file"],[anzRows.length,`ANZ ${noun}`],[anzDeals,"ANZ partnerships on file"]]
+    .map(([v,l])=>`<div class="stat"><b>${esc(v.toLocaleString("en-AU"))}</b><span>${esc(l)}</span></div>`).join("");
 
-  const hot=[...rows].filter(r=>r.thisYr).sort((a,b)=>b.thisYr-a.thisYr||a.e.name.localeCompare(b.e.name)).slice(0,10);
+  // Signed this week: the five newest ANZ partnerships, linking to this directory's side of each one.
+  const side=d=>IS_B?d._b:d._p, other=d=>IS_B?d._p:d._b;
+  const sw=D.deals.filter(d=>S.mkt(d)==="ANZ"&&d.date&&side(d)).sort((a,b)=>b.date.localeCompare(a.date)).slice(0,5);
+  const fmtD=s=>new Date(s+"T00:00:00").toLocaleDateString("en-AU",{day:"numeric",month:"short"});
+  $("swG").innerHTML=sw.map(d=>`<a href="${esc(L.page(side(d).slug))}"><span class="k">${esc(d.status==="New"?"New partnership":d.status||"Partnership")} · ${esc(fmtD(d.date))}</span>${L.mark(side(d),{px:30})}<b>${esc(side(d).name)}</b><span class="x">with ${esc((other(d)||{}).name||"")} · ${esc(d.sport||"")}</span></a>`).join("");
+  $("sw").hidden=!sw.length;
+
+  // Top 10 this year in ANZ.
+  const anzYr=r=>r.deals.filter(x=>S.mkt(x.d)==="ANZ"&&S.sortKey(x.d).startsWith(String(yr))).length;
+  const hot=anzRows.map(r=>({r,n:anzYr(r)})).filter(x=>x.n).sort((a,b)=>b.n-a.n||a.r.e.name.localeCompare(b.r.e.name)).slice(0,10);
   $("hotYr").textContent=yr;
-  $("hot").innerHTML=hot.map((r,i)=>`<a href="${esc(L.page(r.e.slug))}"><span class="r">${String(i+1).padStart(2,"0")}</span>${L.mark(r.e,{px:48})}<b>${esc(r.e.name)}</b><span class="c">${r.thisYr} partnership${r.thisYr===1?"":"s"} in ${yr}</span></a>`).join("");
+  $("hot").innerHTML=hot.map(({r,n},i)=>`<a href="${esc(L.page(r.e.slug))}"><span class="r">${String(i+1).padStart(2,"0")}</span>${L.mark(r.e,{px:48})}<b>${esc(r.e.name)}</b><span class="c">${n} ANZ partnership${n===1?"":"s"} in ${yr}</span></a>`).join("");
   $("band").hidden=!hot.length;
 
   $("sport").innerHTML=["All",...sports].map(s=>`<option value="${esc(s)}"${s===st.sport?" selected":""}>${s==="All"?"All sports":esc(s)}</option>`).join("");
@@ -34,7 +47,7 @@ S.load().then(D=>{
   $("sort").value=st.sort;$("q").value=st.q;
 
   function pills(){
-    $("regPills").innerHTML=S.MKTS.map(r=>`<button type="button" class="pill${st.region===r?" on":""}" data-r="${esc(r)}" aria-pressed="${st.region===r}">${esc(S.mktLab(r))}</button>`).join("");
+    $("regPills").innerHTML=["ANZ","All",...S.MKTS.filter(m=>m!=="ANZ"&&m!=="All")].map(r=>`<button type="button" class="pill${st.region===r?" on":""}" data-r="${esc(r)}" aria-pressed="${st.region===r}">${esc(S.mktLab(r))}</button>`).join("");
     if(!IS_B){
       $("typePills").innerHTML=["",...groups].map(g=>`<button type="button" class="pill${st.group===g?" on":""}" data-g="${esc(g)}" aria-pressed="${st.group===g}">${g?esc(g):"All types"}</button>`).join("");
       leagueSel();
