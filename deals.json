@@ -145877,19 +145877,18 @@
    "verified": "2026-07-14"
   },
   {
-   "date": "2026-07-14",
+   "date": "2025-07-11",
    "deal": "DEWALT × AUSX Supercross",
    "sport": "Motorsport",
-   "type": "Naming rights",
+   "type": "Event partner",
    "region": "ANZ",
-   "summary": "DEWALT expands its AUSX partnership to include SX1 and Superpole naming rights for 2026.",
-   "tier": "Naming rights",
-   "status": "Expansion",
-   "ends": 2026,
-   "needsSource": true,
+   "summary": "DEWALT signs as a major partner of the 2025 AUSX Open at Marvel Stadium, with naming rights to the DEWALT Super Pole qualifying session.",
+   "tier": "Principal & major",
+   "status": "New",
+   "ends": 2025,
    "market": "ANZ",
-   "conf": "Unverified",
-   "verified": "2026-07-14"
+   "endsLock": true,
+   "url": "https://us.motoonline.com.au/?p=194076"
   },
   {
    "date": "2026-07-14",
@@ -146911,23 +146910,21 @@
    "verified": "2026-11-16"
   },
   {
-   "date": "2025-07-01",
+   "date": "2024-06-07",
    "deal": "BMD Group × Melbourne Vixens",
    "sport": "Netball",
-   "type": "Renewal",
+   "type": "Extension",
    "region": "ANZ",
-   "summary": "BMD renews as a Vixens major partner for two years.",
+   "summary": "BMD extends its Netball Victoria and Melbourne Vixens partnership for another year (key partner since 2023).",
    "tier": "Principal & major",
-   "status": "Renewal",
-   "term": 2,
-   "ends": 2026,
-   "endsEst": true,
-   "needsSource": true,
+   "status": "Extension",
+   "term": 1,
+   "ends": 2025,
    "market": "ANZ",
    "ptier": "Major partner",
    "checked": "2026-11-16",
-   "conf": "Unverified",
-   "verified": "2026-11-16"
+   "endsLock": true,
+   "url": "https://vic.netball.com.au/news/bmd-builds-partnership-netball"
   },
   {
    "date": "2025-07-01",
@@ -147172,12 +147169,10 @@
    "sport": "Hockey",
    "type": "Naming rights",
    "region": "ANZ",
-   "summary": "OneActive takes three-year naming rights to Hockey One.",
+   "summary": "OneActive takes naming rights to Hockey One (replacing Liberty). Extended in June 2026.",
    "tier": "Naming rights",
    "status": "New",
-   "term": 3,
-   "ends": 2028,
-   "endsEst": true,
+   "ends": 2025,
    "needsSource": true,
    "market": "ANZ",
    "conf": "Unverified",
@@ -150916,14 +150911,12 @@
    "sport": "Football",
    "type": "Naming rights",
    "region": "ANZ",
-   "summary": "Under Armour takes naming rights to the 2025 Sydney FC Cup.",
+   "summary": "Under Armour takes naming rights to the 5th Sydney FC Cup junior tournament in 2025 (rights continue under the 2026 kit extension).",
    "tier": "Naming rights",
    "status": "New",
    "ends": 2025,
-   "needsSource": true,
    "market": "ANZ",
-   "conf": "Unverified",
-   "verified": "2025-06-25"
+   "url": "https://sydneyfc.com/news/sydney-fc-cup-2025-under-armour-jdl-gjdl-tournements/"
   },
   {
    "date": "2025-06-25",
@@ -207281,6 +207274,22 @@
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-16"
+  },
+  {
+   "date": "2026-06-03",
+   "deal": "OneActive × Hockey One",
+   "sport": "Hockey",
+   "type": "Extension",
+   "region": "ANZ",
+   "summary": "ONE Active extends its Hockey One League naming rights for a further three seasons.",
+   "tier": "Naming rights",
+   "status": "Extension",
+   "term": 3,
+   "ends": 2028,
+   "endsLock": true,
+   "market": "ANZ",
+   "url": "https://hockeyone.com.au/news/one-active-extends-naming-rights-partnership-with-hockey-one-league-for-three-more-years/",
+   "added": "2026-11-17"
   }
  ]
 }
