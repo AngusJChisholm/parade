@@ -49,14 +49,7 @@
 
 <section class="s2 db"><div class="wrap">
 <div class="s2h"><div><span class="lbl mute-l">The ANZ sport partnerships database</span><h2 class="c">Who backs <span class="vb">who</span> in ANZ sport.</h2></div></div>
-<p class="sub">Search any club, league, event or brand. Every partnership is checked against the official announcement, with the source and the date.</p>
-<form class="srch2" id="sf" role="search" action="properties">
-<label class="sr" for="q" style="position:absolute;left:-9999px">Search a club, league or brand</label>
-<input id="q" name="q" type="search" autocomplete="off" placeholder="Search a club, league or brand" aria-autocomplete="list" aria-controls="res">
-<button class="btn2 ink" type="submit">Search</button>
-<div class="res" id="res" role="listbox" hidden></div>
-</form>
-<div class="pop" id="pop"><span>Popular:</span></div>
+<p class="sub">Every club, league and event, checked against the official announcement, with the source and the date. <a class="more" href="partnerships">Browse every partnership →</a></p>
 <div class="nums hxn">
 <div><b id="pfN">-</b><span>Global partnerships on file</span></div>
 <div><b id="pfB">-</b><span>Global brands tracked</span></div>
@@ -115,28 +108,6 @@ Promise.all([S.load(),cov,feats]).then(([D,C,F])=>{
   $("pfP").textContent=props.length.toLocaleString("en-AU");
   $("pfA").textContent=anz.length.toLocaleString("en-AU");
   
-
-  // Search: every brand and property, best matches first (name starts with the query, then most partnerships).
-  const orgs=[...D.brands,...D.props];
-  let hits=[],sel=-1;
-  const draw=()=>{$("res").innerHTML=hits.map((m,i)=>`<a href="${esc(L.page(m.e.slug))}" role="option"${i===sel?' class="on" aria-selected="true"':""}>${L.mark(m.e,{px:32})}<b>${esc(m.e.name)}</b><span>${m.kind==="brand"?"Brand":"Property"} · ${m.n} partnership${m.n===1?"":"s"}</span></a>`).join("");$("res").hidden=!hits.length};
-  $("q").oninput=e=>{const q=e.target.value.trim().toLowerCase();sel=-1;
-    if(q.length<2){hits=[];draw();return}
-    const nm=m=>[m.e.name,...(m.e.aliases||[])].join(" ").toLowerCase();
-    hits=orgs.filter(m=>nm(m).includes(q)).sort((a,b)=>(b.e.name.toLowerCase().startsWith(q)?1:0)-(a.e.name.toLowerCase().startsWith(q)?1:0)||b.n-a.n).slice(0,8);draw()};
-  $("q").onkeydown=e=>{if(!hits.length)return;
-    if(e.key==="ArrowDown"){e.preventDefault();sel=(sel+1)%hits.length;draw()}
-    else if(e.key==="ArrowUp"){e.preventDefault();sel=(sel-1+hits.length)%hits.length;draw()}
-    else if(e.key==="Escape"){hits=[];draw()}};
-  $("sf").onsubmit=e=>{const h=hits[sel<0?0:sel];if(h){e.preventDefault();location.href=L.page(h.e.slug)}};
-  document.addEventListener("click",e=>{if(!e.target.closest("#sf")){hits=[];draw()}});
-
-  // Popular: the four Tier 1 ANZ properties and three ANZ brands with the most partnerships this year.
-  const yrDeals=m=>m.deals.filter(x=>S.sortKey(x.d).startsWith(String(yr))).length;
-  const t1=new Set(props.filter(p=>p.tier===1).map(p=>p.name.toLowerCase()));
-  const anzP=D.props.filter(m=>t1.has(m.e.name.toLowerCase())).sort((a,b)=>b.n-a.n).slice(0,4);
-  const anzB=D.brands.filter(m=>m.markets.has("ANZ")).sort((a,b)=>yrDeals(b)-yrDeals(a)||b.n-a.n).slice(0,4);
-  $("pop").insertAdjacentHTML("beforeend",[...anzP,...anzB].map(m=>`<a href="${esc(L.page(m.e.slug))}">${esc(m.e.name)}</a>`).join(""));
 
   // Latest partnerships: the newest announced partnerships, every market.
   $("today").textContent=now.toLocaleDateString("en-AU",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
