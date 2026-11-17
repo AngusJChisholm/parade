@@ -116,14 +116,18 @@ window.SSSLogos=(function(){
       return !ink||seen/ink>.08;
     }catch(e){return true}
   }
-  // Wide logos (wordmarks) get a wider box, up to 2.2x, so they aren't shrunk to a sliver; tall ones stay square.
+  // Every logo sits in the same box. To look the same size, each one is scaled to cover about the same area
+  // of that box: a square symbol fills ~72% of it, a long wordmark runs the full width but stays short.
+  const AREA=.52;
   function ok(img){
     if(img.naturalWidth&&img.naturalWidth<48&&img.naturalHeight<48){fail(img,true);return}
     if(!visible(img)){fail(img,true);return}
     const box=img.parentElement,r=img.naturalWidth/(img.naturalHeight||1);
-    if(box){
+    if(box&&r>0){
       box.classList.toggle("lg-ic",/\/type\/icon\./.test(img.src));
-      if(r>1.15&&!box.classList.contains("lg-big")){box.classList.add("lg-w");box.style.setProperty("--r",Math.min(r,2.2).toFixed(2))}
+      const b=box.getBoundingClientRect(),B=b.width&&b.height?b.width/b.height:(box.classList.contains("lg-big")?1.4:1);
+      img.style.width=(Math.min(1,Math.sqrt(AREA*r/B))*100).toFixed(1)+"%";
+      img.style.height=(Math.min(1,Math.sqrt(AREA*B/r))*100).toFixed(1)+"%";
     }
     done(img)
   }

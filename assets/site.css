@@ -45,9 +45,6 @@ header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;border-bottom:
 .lg .mono{display:flex;align-items:center;justify-content:center;width:100%;height:100%;border:1px solid var(--line);background:var(--canvas);color:var(--ink-2);font-weight:800;font-size:calc(var(--s)*.34);letter-spacing:-.02em;line-height:1}
 .lg.has-img .mono{display:none}
 .lg img{width:100%;height:100%;object-fit:contain;display:block}
-/* Wide logos (wordmarks) widen their box up to 2.2x (logos.js sets --r); in tight grids they stay square. */
-.lg.lg-w{width:calc(var(--s)*var(--r,1.6))}
-.m td .lg.lg-w,.gap .lg.lg-w{width:var(--s)}
 /* Brandfetch's square icon is only used when nothing else exists; round it so it reads as an app icon, not a box. */
 .lg.lg-ic img{border-radius:18%}
 .lg.lg-big{width:clamp(180px,22vw,280px);height:clamp(140px,15vw,190px)}
