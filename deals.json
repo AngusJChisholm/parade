@@ -164953,7 +164953,7 @@
   {
    "date": "2026-10-13",
    "added": "2026-10-13",
-   "deal": "LendUX × Adelaide United (A-League Women)",
+   "deal": "Lendux × Adelaide United (A-League Women)",
    "sport": "Football",
    "type": "Front-of-jersey",
    "region": "ANZ",
@@ -164966,8 +164966,7 @@
    "market": "ANZ",
    "ptier": "Official partner",
    "checked": "2026-11-17",
-   "conf": "Unverified",
-   "verified": "2026-11-17"
+   "url": "https://adelaideunited.com.au/news/lendux-joins-adelaide-united-as-a-league-womens-major-sponsor/"
   },
   {
    "date": "2026-10-07",
@@ -165024,8 +165023,7 @@
    "market": "ANZ",
    "ptier": "Partner",
    "checked": "2026-11-16",
-   "conf": "Unverified",
-   "verified": "2026-11-16"
+   "url": "https://nzrl.co.nz/news/jd-sports-announces-first-national-team-sponsorship-with-nzrl"
   },
   {
    "date": "2026-06-12",
@@ -165038,8 +165036,7 @@
    "tier": "Official partner",
    "status": "New",
    "market": "ANZ",
-   "conf": "Unverified",
-   "verified": "2026-10-09"
+   "url": "https://www.nbl.com.au/news/big-brands-back-the-nbls-boom"
   },
   {
    "date": "2026-10-02",
@@ -165147,15 +165144,17 @@
   {
    "date": "2026-10-07",
    "added": "2026-10-07",
-   "deal": "Sydney Airport × Rugby World Cup 2027",
-   "sport": "Rugby union",
+   "deal": "Sydney Airport × Rugby League World Cup 2026",
+   "sport": "Rugby league",
    "type": "Official partner",
    "region": "ANZ",
    "tier": "Official partner",
    "status": "New",
    "market": "ANZ",
-   "conf": "Unverified",
-   "verified": "2026-10-07"
+   "url": "https://www.sydneyairport.com.au/corporate/media/corporate-newsroom/sydney-airport-named-official-partner-of-rugby-league-world-cup-2026",
+   "ends": 2026,
+   "endsLock": true,
+   "summary": "Sydney Airport named an Official Partner of Rugby League World Cup 2026."
   },
   {
    "date": "2026-10-06",
@@ -165191,13 +165190,15 @@
    "sport": "Football",
    "type": "Extension",
    "region": "ANZ",
-   "summary": "Partnership stretched to 16 years.",
+   "summary": "Westfield steps up to co-major partner in a two-year extension.",
    "tier": "Official partner",
    "status": "Extension",
    "market": "ANZ",
    "ptier": "Major partner",
-   "conf": "Unverified",
-   "verified": "2026-10-06"
+   "url": "https://wswanderersfc.com.au/news/westfield-named-co-major-partner-of-western-sydney-wanderers-as-part-of-a-two-year-partnership-extension/",
+   "ends": 2028,
+   "term": 2,
+   "endsEst": true
   },
   {
    "date": "2026-10-04",
@@ -165206,12 +165207,14 @@
    "sport": "Athletics",
    "type": "Broadcast rights",
    "region": "ANZ",
-   "summary": "Rights locked in through to Brisbane 2032.",
+   "summary": "Seven-year deal making Nine the home of Australian Athletics from 2027 to 2033.",
    "tier": "Media & broadcast",
    "status": "New",
    "market": "ANZ",
-   "conf": "Unverified",
-   "verified": "2026-10-06"
+   "url": "https://www.athletics.com.au/news/nine-becomes-the-home-of-australian-athletics-in-landmark-seven-year-deal/",
+   "ends": 2033,
+   "endsLock": true,
+   "term": 7
   },
   {
    "date": "2026-10-01",
@@ -165256,8 +165259,7 @@
    "market": "ANZ",
    "ptier": "Supplier",
    "checked": "2026-11-16",
-   "conf": "Unverified",
-   "verified": "2026-11-16"
+   "url": "https://netball.com.au/news/na-expands-partnership-asics"
   },
   {
    "date": "2026-09-29",
@@ -165350,12 +165352,14 @@
    "sport": "Basketball",
    "type": "Broadcast rights",
    "region": "ANZ",
-   "summary": "New free-to-air partnership.",
+   "summary": "Two-year free-to-air partnership making Nine the home of free NBL hoops.",
    "tier": "Media & broadcast",
    "status": "New",
    "market": "ANZ",
-   "conf": "Unverified",
-   "verified": "2026-09-30"
+   "url": "https://www.nbl.com.au/news/nbl-and-nine-unite-to-become-australias-home-of-free-to-air-hoops",
+   "ends": 2028,
+   "term": 2,
+   "endsEst": true
   },
   {
    "date": "2026-09-29",
@@ -165411,8 +165415,7 @@
    "ends": 2031,
    "market": "ANZ",
    "ended": true,
-   "conf": "Unverified",
-   "verified": "2026-09-29"
+   "url": "https://www.sportcal.com/betting/cricket-australia-brings-in-decimal-data-as-exclusive-betting-data-partner/"
   },
   {
    "date": "2026-09-24",
@@ -165453,8 +165456,7 @@
    "tier": "Official partner",
    "status": "New",
    "market": "ANZ",
-   "conf": "Unverified",
-   "verified": "2026-09-28"
+   "url": "https://www.nbl.com.au/news/red-bull-and-nbl-join-forces-in-league-wide-partnership"
   },
   {
    "date": "2026-09-26",
@@ -165519,14 +165521,16 @@
    "sport": "Cricket",
    "type": "Official partner",
    "region": "ANZ",
-   "summary": "First-ever major energy partner.",
+   "summary": "Genesis signs a three-year deal as NZC's first major energy partner.",
    "tier": "Official partner",
    "status": "New",
    "market": "ANZ",
    "ptier": "Commercial partner",
    "checked": "2026-11-16",
-   "conf": "Unverified",
-   "verified": "2026-11-16"
+   "url": "https://www.nzc.nz/genesis-to-power-up-kiwi-summer/",
+   "ends": 2029,
+   "term": 3,
+   "endsEst": true
   },
   {
    "date": "2026-09-22",
@@ -165657,8 +165661,7 @@
    "market": "ANZ",
    "ptier": "Principal partner",
    "checked": "2026-11-16",
-   "conf": "Unverified",
-   "verified": "2026-11-16"
+   "url": "https://www.sydneysixers.com.au/news/4577283/aami-joins-sydney-sixers-as-principal-partner"
   },
   {
    "date": "2026-09-17",
@@ -165688,8 +165691,7 @@
    "market": "ANZ",
    "ptier": "Major partner",
    "checked": "2026-11-16",
-   "conf": "Unverified",
-   "verified": "2026-11-16"
+   "url": "https://www.crickettas.com.au/news/4576455/firmus-makes-landmark-investment-in-tasmanian-cricket"
   },
   {
    "date": "2026-09-14",
@@ -165776,8 +165778,7 @@
    "market": "ANZ",
    "ptier": "Partner",
    "checked": "2026-11-16",
-   "conf": "Unverified",
-   "verified": "2026-11-16"
+   "url": "https://www.jackjumpers.com.au/news/tasmania-jackjumpers-and-mega-rewards-team-up"
   },
   {
    "date": "2026-09-11",
