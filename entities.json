@@ -3431,6 +3431,11 @@
    "cat": "Banking & finance",
    "k": "b"
   },
+  "anz-fiji": {
+   "name": "ANZ Fiji",
+   "cat": "Banking & finance",
+   "k": "b"
+  },
   "anzac-appeal": {
    "name": "ANZAC Appeal",
    "k": "b"
@@ -7086,6 +7091,10 @@
   "belbaker-bus-charter": {
    "name": "Belbaker Bus Charter",
    "cat": "Logistics & transport",
+   "k": "b"
+  },
+  "belconnen-soccer-club": {
+   "name": "Belconnen Soccer Club",
    "k": "b"
   },
   "belfor-property-restoration": {
@@ -10906,9 +10915,22 @@
    "name": "Canali",
    "k": "b"
   },
+  "canberra": {
+   "name": "Canberra",
+   "k": "b"
+  },
   "canberra-airport": {
    "name": "Canberra Airport",
    "cat": "Airlines & travel",
+   "k": "b"
+  },
+  "canberra-cars": {
+   "name": "Canberra Cars",
+   "k": "b"
+  },
+  "canberra-dental-care": {
+   "name": "Canberra Dental Care",
+   "cat": "Health & beauty",
    "k": "b"
   },
   "canberra-fm": {
@@ -10935,6 +10957,16 @@
     "Official telecommunications partner"
    ],
    "logo": "assets/logos/canberra-raiders.png"
+  },
+  "canberra-united": {
+   "name": "Canberra United",
+   "ptiers": [
+    "Major partner",
+    "Principal partner",
+    "Business United squad",
+    "Official support partner"
+   ],
+   "k": "p"
   },
   "canberra-weekly": {
    "name": "Canberra Weekly",
@@ -12422,6 +12454,11 @@
   },
   "champagne-pommery": {
    "name": "Champagne Pommery",
+   "k": "b"
+  },
+  "champion": {
+   "name": "Champion",
+   "cat": "Apparel & footwear",
    "k": "b"
   },
   "champion-data": {
@@ -22043,6 +22080,10 @@
    ],
    "ptiersChecked": "2026-11-17"
   },
+  "fijicare": {
+   "name": "Fijicare",
+   "k": "b"
+  },
   "filevine": {
    "name": "Filevine",
    "k": "b"
@@ -22461,6 +22502,10 @@
     "logo"
    ],
    "cat": "Airlines & travel",
+   "k": "b"
+  },
+  "flick-hygiene": {
+   "name": "Flick Hygiene",
    "k": "b"
   },
   "flicket": {
@@ -24413,6 +24458,10 @@
    "name": "Gifford's",
    "k": "b"
   },
+  "gift-of-life": {
+   "name": "Gift of Life",
+   "k": "b"
+  },
   "gila-river-hotels-and-casinos": {
    "name": "Gila River Hotels & Casinos",
    "cat": "Betting & wagering",
@@ -24689,6 +24738,10 @@
    "name": "GLP Training",
    "k": "b"
   },
+  "gm-group": {
+   "name": "GM Group",
+   "k": "b"
+  },
   "gm-landscape": {
    "name": "GM Landscape",
    "k": "b"
@@ -24699,6 +24752,10 @@
   },
   "gmd": {
    "name": "GMD",
+   "k": "b"
+  },
+  "gmd-canberra": {
+   "name": "GMD Canberra",
    "k": "b"
   },
   "gme": {
@@ -30593,6 +30650,10 @@
     "logo"
    ]
   },
+  "jack-s-fiji": {
+   "name": "Jack's Fiji",
+   "k": "b"
+  },
   "jackson-grundy": {
    "name": "Jackson Grundy",
    "k": "b"
@@ -32533,6 +32594,11 @@
     "icon",
     "logo"
    ]
+  },
+  "kmart": {
+   "name": "Kmart",
+   "cat": "Retail",
+   "k": "b"
   },
   "kmk-law": {
    "name": "KMK Law",
@@ -36961,6 +37027,11 @@
    "psrc": "https://www.mcdonalds.com/au/en-au/about-us/our-impact/community-connection/local-initiatives.html",
    "profiled": "2026-11-10"
   },
+  "mcdonald-s-fiji": {
+   "name": "McDonald's Fiji",
+   "cat": "Food & nutrition",
+   "k": "b"
+  },
   "mcdonogh": {
    "name": "McDonogh",
    "k": "b"
@@ -38567,6 +38638,11 @@
   },
   "mitchell-and-ness": {
    "name": "Mitchell & Ness",
+   "k": "b"
+  },
+  "mitre": {
+   "name": "Mitre",
+   "cat": "Sporting goods & equipment",
    "k": "b"
   },
   "mitre-10": {
@@ -40228,6 +40304,10 @@
   },
   "natio": {
    "name": "Natio",
+   "k": "b"
+  },
+  "nation": {
+   "name": "Nation",
    "k": "b"
   },
   "nation-radio": {
@@ -43599,6 +43679,10 @@
    "k": "p",
    "domain": "basketball.net.au"
   },
+  "opc": {
+   "name": "OPC",
+   "k": "b"
+  },
   "opel": {
    "name": "Opel",
    "cat": "Automotive",
@@ -44300,6 +44384,10 @@
    "bf": [
     "icon"
    ]
+  },
+  "pacific-aus-sports": {
+   "name": "Pacific Aus Sports",
+   "k": "b"
   },
   "pacific-blue-cross": {
    "name": "Pacific Blue Cross",
@@ -46351,6 +46439,10 @@
    "name": "PlayStar",
    "k": "b"
   },
+  "pleass-aquasafe": {
+   "name": "Pleass Aquasafe",
+   "k": "b"
+  },
   "plenary": {
    "name": "Plenary",
    "k": "b"
@@ -47735,6 +47827,10 @@
    "ptype": "Club & team",
    "k": "p",
    "logo": "assets/logos/punjab-kings.png"
+  },
+  "punjas": {
+   "name": "Punjas",
+   "k": "b"
   },
   "punt-road-wines": {
    "name": "Punt Road Wines",
@@ -50386,6 +50482,10 @@
   },
   "roofserv": {
    "name": "RoofServ",
+   "k": "b"
+  },
+  "rooster-poultry": {
+   "name": "Rooster Poultry",
    "k": "b"
   },
   "rooster-s-traffic-control": {
@@ -53256,6 +53356,11 @@
    "name": "Shooting Stars",
    "k": "b"
   },
+  "shop-n-save": {
+   "name": "Shop N Save",
+   "cat": "Retail",
+   "k": "b"
+  },
   "shopee": {
    "name": "Shopee",
    "domain": "shopee.com",
@@ -54339,6 +54444,10 @@
     "logo"
    ]
   },
+  "soco": {
+   "name": "SOCO",
+   "k": "b"
+  },
   "sodexo": {
    "name": "Sodexo",
    "k": "b"
@@ -55369,6 +55478,10 @@
   },
   "sportsrooms": {
    "name": "Sportsrooms",
+   "k": "b"
+  },
+  "sportstec-clinic": {
+   "name": "Sportstec Clinic",
    "k": "b"
   },
   "sportvision": {
@@ -57178,6 +57291,11 @@
    "cat": "Non-alcoholic drinks",
    "k": "b"
   },
+  "swire-shipping": {
+   "name": "Swire Shipping",
+   "cat": "Logistics & transport",
+   "k": "b"
+  },
   "swish-dental": {
    "name": "Swish Dental",
    "cat": "Health & beauty",
@@ -57809,6 +57927,11 @@
    "bf": [
     "icon"
    ]
+  },
+  "tanoa-hotels": {
+   "name": "Tanoa Hotels",
+   "cat": "Airlines & travel",
+   "k": "b"
   },
   "tao-ambiente": {
    "name": "Tao Ambiente",
@@ -61314,6 +61437,10 @@
    "name": "Trojan Tools",
    "k": "b"
   },
+  "tropik": {
+   "name": "Tropik",
+   "k": "b"
+  },
   "troutman-pepper-locke": {
    "name": "Troutman Pepper Locke",
    "k": "b"
@@ -63815,6 +63942,10 @@
   },
   "vining-group": {
    "name": "Vining Group",
+   "k": "b"
+  },
+  "vinod-patel": {
+   "name": "Vinod Patel",
    "k": "b"
   },
   "vip-frames-and-trusses": {
@@ -66325,7 +66456,10 @@
     "icon"
    ],
    "ptype": "League & competition",
-   "k": "p"
+   "k": "p",
+   "ptiers": [
+    "Profile partner"
+   ]
   },
   "wodr": {
    "name": "Wodr",
