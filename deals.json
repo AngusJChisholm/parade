@@ -164250,7 +164250,7 @@
    "tier": "Official partner",
    "status": "Extension",
    "market": "ANZ",
-   "conf": "Reported",
+   "conf": "Confirmed",
    "verified": "2026-10-15"
   },
   {
@@ -185456,7 +185456,9 @@
    "url": "https://www.fiaformulae.com/en/news/partners/formula-e-and-abb-extend-strategic-global-partnership",
    "tier": "Official partner",
    "status": "Extension",
-   "market": "Global"
+   "market": "Global",
+   "conf": "Confirmed",
+   "verified": "2025-07-31"
   },
   {
    "date": "2025-07-31",
@@ -185468,7 +185470,9 @@
    "url": "https://www.insidethegames.biz/articles/world-aquatics-partner-alibaba-cloud",
    "tier": "Official partner",
    "status": "New",
-   "market": "Global"
+   "market": "Global",
+   "conf": "Reported",
+   "verified": "2025-07-31"
   },
   {
    "date": "2025-07-30",
@@ -185480,7 +185484,9 @@
    "url": "https://corporate.walmart.com/news/2025/07/29/walmart-signs-multi-year-partnership-with-major-league-soccer-and-leagues-cup-to-elevate-the-game-for-us-fans",
    "tier": "Official partner",
    "status": "New",
-   "market": "North America"
+   "market": "North America",
+   "conf": "Confirmed",
+   "verified": "2025-07-30"
   },
   {
    "date": "2025-07-30",
@@ -185493,7 +185499,9 @@
    "tier": "Shirt & kit placement",
    "status": "New",
    "market": "UK & Ireland",
-   "ended": true
+   "ended": true,
+   "conf": "Confirmed",
+   "verified": "2025-07-30"
   },
   {
    "date": "2025-07-30",
@@ -185505,7 +185513,9 @@
    "url": "https://www.formula1.com/en/latest/article/audi-f1-team-announce-title-partner-for-debut-2026-season.l7hjsMWxNbpPJKrAe9yGE",
    "tier": "Official partner",
    "status": "New",
-   "market": "Global"
+   "market": "Global",
+   "conf": "Confirmed",
+   "verified": "2025-07-30"
   },
   {
    "date": "2025-07-30",
@@ -185517,7 +185527,9 @@
    "url": "https://efl.com/news/2025/july/29/sage-becomes-official-accounting-software-partner-of-the-efl-spotlighting-small-businesses-behind-football-s-matchday-experience/",
    "tier": "Official partner",
    "status": "New",
-   "market": "UK & Ireland"
+   "market": "UK & Ireland",
+   "conf": "Confirmed",
+   "verified": "2025-07-30"
   },
   {
    "date": "2025-07-30",
@@ -186771,7 +186783,9 @@
    "url": "https://www.collingwoodfc.com.au/news/2020104/collingwood-and-nike-entirely-side-by-side",
    "tier": "Kit & apparel",
    "status": "Expansion",
-   "market": "ANZ"
+   "market": "ANZ",
+   "conf": "Confirmed",
+   "verified": "2026-05-12"
   },
   {
    "date": "2026-05-11",
@@ -186799,7 +186813,9 @@
    "tier": "Kit & apparel",
    "status": "New",
    "ends": 2029,
-   "market": "ANZ"
+   "market": "ANZ",
+   "conf": "Confirmed",
+   "verified": "2026-05-11"
   },
   {
    "date": "2026-07-27",
@@ -187122,7 +187138,9 @@
    "endsEst": true,
    "market": "ANZ",
    "ptier": "Major partner",
-   "checked": "2026-11-16"
+   "checked": "2026-11-16",
+   "conf": "Confirmed",
+   "verified": "2026-11-16"
   },
   {
    "date": "2025-10-15",
@@ -187135,7 +187153,9 @@
    "tier": "Official partner",
    "status": "New",
    "market": "ANZ",
-   "ended": true
+   "ended": true,
+   "conf": "Confirmed",
+   "verified": "2025-10-15"
   },
   {
    "date": "2025-10-14",
@@ -187149,7 +187169,9 @@
    "status": "New",
    "market": "ANZ",
    "ptier": "Broadcast partner",
-   "checked": "2026-11-16"
+   "checked": "2026-11-16",
+   "conf": "Reported",
+   "verified": "2026-11-16"
   },
   {
    "date": "2025-12-12",
@@ -187206,7 +187228,9 @@
    "tier": "Media & broadcast",
    "status": "New",
    "ends": 2030,
-   "market": "Global"
+   "market": "Global",
+   "conf": "Confirmed",
+   "verified": "2026-05-29"
   },
   {
    "date": "2026-05-28",
@@ -187222,7 +187246,9 @@
    "market": "Europe",
    "ptier": "Official partner",
    "checked": "2026-11-17",
-   "endsLock": true
+   "endsLock": true,
+   "conf": "Confirmed",
+   "verified": "2026-11-17"
   },
   {
    "date": "2026-02-18",
