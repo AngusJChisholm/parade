@@ -169,28 +169,18 @@ def listed_year_of(d):
     return int(s[:4]) if s[:4].isdigit() else None
 
 
-# Codes whose ANZ seasons run across the new year (Oct-Mar). A deal announced in their off-season covers the
-# coming summer, so a three-year deal announced in 2026 runs 2026-27 to 2028-29 and ends in 2029.
-SUMMER_CODES = {"Cricket", "Football", "Basketball", "Tennis", "Golf"}
 # Expansion clubs (Perth Bears, PNG Chiefs, Tasmania Devils): deals count from when they're announced, like any
 # other club. To make a club's deals count from its first season instead, add it here, e.g. {"Club": 2028}.
 DEBUT_SEASON = {}
 
 
 def end_from_term(d, y, term):
-    """End year from a stated length. ANZ calendar-year codes (AFL, NRL, rugby, netball, motorsport...) announced
-    January-August include the current season, so a three-year deal announced in Feb 2025 covers 2025-2027
-    (checked against official releases, e.g. Mars Stadium, Revo Fitness Park, Gallagher x Brumbies).
-    Announced September-December, it starts next season. Summer codes and non-ANZ deals keep year + term."""
+    """End year from a stated length: the year it was signed plus the term. A three-year deal signed in
+    March 2026 runs to about March 2029, so it ends 2029. Same for every code and market."""
     # Expansion clubs: a deal signed before the club's first season counts from that season.
     prop = (d.get("deal") or "").split(" × ")[-1].strip()
     if prop in DEBUT_SEASON and y < DEBUT_SEASON[prop]:
-        return DEBUT_SEASON[prop] + term - 1
-    s = d.get("date") or d.get("month") or ""
-    month = int(s[5:7]) if len(s) >= 7 and s[5:7].isdigit() else 0
-    anz = (d.get("market") or d.get("region")) == "ANZ"
-    if anz and d.get("sport") not in SUMMER_CODES and 1 <= month <= 8:
-        return y + term - 1
+        return DEBUT_SEASON[prop] + term
     return y + term
 
 
