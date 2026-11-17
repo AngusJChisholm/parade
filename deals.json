@@ -169317,10 +169317,8 @@
    "summary": "Orbit Logistics becomes North Melbourne's freight partner.",
    "tier": "Official partner",
    "status": "New",
-   "needsSource": true,
    "market": "ANZ",
-   "conf": "Unverified",
-   "verified": "2025-06-03"
+   "url": "https://www.nmfc.com.au/news/1793405/north-melbourne-announces-new-partnership-with-orbit-logistics"
   },
   {
    "date": "2025-06-03",
@@ -169669,10 +169667,8 @@
    "summary": "Australian Unity becomes Essendon's health insurance partner.",
    "tier": "Official partner",
    "status": "New",
-   "needsSource": true,
    "market": "ANZ",
-   "conf": "Unverified",
-   "verified": "2025-05-21"
+   "url": "https://www.essendonfc.com.au/news/1780845/essendon-welcomes-australian-unity-as-official-health-insurance-and-member-partner"
   },
   {
    "date": "2025-05-21",
@@ -169683,10 +169679,8 @@
    "summary": "Muscle Nation signs a multi-year partnership as the Storm's performance partner.",
    "tier": "Official partner",
    "status": "New",
-   "needsSource": true,
    "market": "ANZ",
-   "conf": "Unverified",
-   "verified": "2025-05-21"
+   "url": "https://www.melbournestorm.com.au/news/2025/05/14/storm-strengthens-with-new-muscle-nation-partnership/"
   },
   {
    "date": "2025-05-21",
@@ -169792,10 +169786,10 @@
    "summary": "Science in Sport renews its Wallabies fuelling partnership for the Lions series.",
    "tier": "Official partner",
    "status": "Renewal",
-   "needsSource": true,
    "market": "ANZ",
-   "conf": "Unverified",
-   "verified": "2025-05-14"
+   "url": "https://wallabies.rugby/news/science-in-sport-extend-wallabies-partnership-into-lions-series-2025512",
+   "ends": 2025,
+   "endsLock": true
   },
   {
    "date": "2025-11-19",
@@ -170299,12 +170293,13 @@
    "summary": "Ford NZ renews a partnership with NZ Cricket dating to 2009.",
    "tier": "Official partner",
    "status": "Renewal",
-   "needsSource": true,
    "market": "ANZ",
    "ptier": "Commercial partner",
    "checked": "2026-11-16",
-   "conf": "Unverified",
-   "verified": "2026-11-16"
+   "url": "https://www.nzc.nz/news-items/archive/ford-nz-and-nzc-renew-partnership/",
+   "ends": 2028,
+   "term": 3,
+   "endsEst": true
   },
   {
    "date": "2025-05-28",
@@ -170375,10 +170370,8 @@
    "summary": "NZME extends a Warriors partnership now spanning 32 years.",
    "tier": "Official partner",
    "status": "Renewal",
-   "needsSource": true,
    "market": "ANZ",
-   "conf": "Unverified",
-   "verified": "2025-03-19"
+   "url": "https://www.warriors.kiwi/news/2025/03/12/nzme-partnership--with-warriors-extended-beyond-30-years/"
   },
   {
    "date": "2025-03-19",
@@ -170408,12 +170401,10 @@
    "summary": "Ray White features on the Firebirds' 2025 dress.",
    "tier": "Official partner",
    "status": "New",
-   "needsSource": true,
    "market": "ANZ",
    "ptier": "Partner",
    "checked": "2026-11-16",
-   "conf": "Unverified",
-   "verified": "2026-11-16"
+   "url": "https://www.raywhite.com/news-media/ray-white-queensland-teams-up-with-netball-queensland-queensland-firebirds"
   },
   {
    "date": "2025-03-19",
