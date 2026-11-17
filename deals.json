@@ -161918,11 +161918,11 @@
    "summary": "Greenworks renews as a Melbourne Stars premier partner.",
    "tier": "Principal & major",
    "status": "Renewal",
-   "needsSource": true,
    "market": "ANZ",
    "checked": "2026-11-16",
-   "conf": "Unverified",
-   "verified": "2026-11-16"
+   "url": "https://www.melbournestars.com.au/news/4573970/greenworks-extends-to-continue-powering-the-stars",
+   "ends": 2028,
+   "endsLock": true
   },
   {
    "date": "2026-09-15",
@@ -162080,13 +162080,10 @@
    "summary": "AAMI becomes principal partner of the Perth Scorchers.",
    "tier": "Principal & major",
    "status": "New",
-   "needsSource": true,
    "market": "ANZ",
-   "sourceTried": "2026-11-15",
    "ptier": "Principal partner",
    "checked": "2026-11-16",
-   "conf": "Unverified",
-   "verified": "2026-11-16"
+   "url": "https://www.perthscorchers.com.au/news/4577605/aami-to-join-scorchers-family-in-new-western-australian-community-partnership"
   },
   {
    "date": "2026-09-22",
@@ -162097,12 +162094,12 @@
    "summary": "Tangerine renews as Renegades principal partner for a third year.",
    "tier": "Principal & major",
    "status": "Renewal",
-   "needsSource": true,
    "market": "ANZ",
    "ptier": "Platinum partner",
    "checked": "2026-11-16",
-   "conf": "Unverified",
-   "verified": "2026-11-16"
+   "url": "https://www.melbournerenegades.com.au/news/4579255/tangerine-named-principal-partner-for-202627",
+   "ends": 2027,
+   "endsLock": true
   },
   {
    "date": "2026-09-22",
