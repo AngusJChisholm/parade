@@ -157444,7 +157444,8 @@
    "ends": 2028,
    "ptier": "Official Suppliers",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "endsLock": true
   },
   {
    "sport": "Tennis",
@@ -158815,12 +158816,13 @@
    "tier": "Official partner",
    "status": "New",
    "term": 3,
-   "ends": 2027,
+   "ends": 2028,
    "ptitle": "Rugby Victoria Partner",
    "ptier": "Partners",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-14"
+   "verified": "2026-11-14",
+   "endsEst": true
   },
   {
    "date": "2025-01-30",
@@ -160190,11 +160192,12 @@
    "tier": "Official partner",
    "status": "New",
    "term": 3,
-   "ends": 2024,
+   "ends": 2025,
    "ended": 2024,
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-10"
+   "verified": "2026-11-10",
+   "endsEst": true
   },
   {
    "date": "2026-11-04",
@@ -168338,7 +168341,8 @@
    "ends": 2032,
    "market": "ANZ",
    "verified": "2026-02-12",
-   "conf": "Reported"
+   "conf": "Reported",
+   "endsLock": true
   },
   {
    "date": "2026-02-09",
@@ -171160,12 +171164,12 @@
    "tier": "Naming rights",
    "status": "Renewal",
    "term": 2,
-   "ends": 2027,
+   "ends": 2028,
    "market": "ANZ",
    "url": "https://www.theeureka.com.au/latest-news/tab-will-continue-as-the-naming-rights-partner",
-   "endsLock": true,
    "conf": "Confirmed",
-   "verified": "2026-07-07"
+   "verified": "2026-07-07",
+   "endsEst": true
   },
   {
    "date": "2026-07-07",
@@ -176096,12 +176100,12 @@
    "tier": "Official partner",
    "status": "New",
    "term": 4,
-   "ends": 2028,
+   "ends": 2029,
    "market": "ANZ",
    "url": "https://www.penrithpanthers.com.au/news/2025/02/17/picklebet-joins-forces-with-the-panthers/",
-   "endsLock": true,
    "conf": "Confirmed",
-   "verified": "2025-02-18"
+   "verified": "2025-02-18",
+   "endsEst": true
   },
   {
    "date": "2025-02-18",
@@ -177607,12 +177611,12 @@
    "tier": "Official partner",
    "status": "New",
    "term": 2,
-   "ends": 2027,
+   "ends": 2028,
    "market": "ANZ",
    "url": "https://www.bandt.com.au/chemist-warehouse-joins-forces-with-liv-golf-adelaide-as-official-pharmacy-partner/",
-   "endsLock": true,
    "conf": "Reported",
-   "verified": "2026-02-18"
+   "verified": "2026-02-18",
+   "endsEst": true
   },
   {
    "date": "2026-02-18",
@@ -177717,12 +177721,12 @@
    "tier": "Principal & major",
    "status": "New",
    "term": 2,
-   "ends": 2027,
+   "ends": 2028,
    "market": "ANZ",
    "url": "https://www.mediaweek.com.au/specsavers-brings-shouldve-gone-to-specsavers-to-netball-in-foxtel-media-deal",
-   "endsLock": true,
    "conf": "Reported",
-   "verified": "2026-02-18"
+   "verified": "2026-02-18",
+   "endsEst": true
   },
   {
    "date": "2026-02-18",
@@ -178439,13 +178443,13 @@
    "summary": "Deicorp joins South Sydney as official property development partner on a two-year deal from 2026.",
    "tier": "Official partner",
    "status": "New",
-   "ends": 2027,
+   "ends": 2028,
    "market": "ANZ",
    "url": "https://www.rabbitohs.com.au/news/rabbitohs-welcome-deicorp-as-the-clubs-new-property-development-partner",
-   "endsLock": true,
    "term": 2,
    "conf": "Confirmed",
-   "verified": "2026-02-25"
+   "verified": "2026-02-25",
+   "endsEst": true
   },
   {
    "date": "2026-02-25",
@@ -178839,12 +178843,12 @@
    "tier": "Principal & major",
    "status": "Renewal",
    "term": 2,
-   "ends": 2027,
+   "ends": 2028,
    "market": "ANZ",
-   "url": "https://giantsnetball.com.au/news/sixt-re-sign-another-two-years",
-   "endsLock": true,
+   "url": "https://nsw.netball.com.au/news/sixt-re-sign-another-two-years",
    "conf": "Confirmed",
-   "verified": "2026-02-11"
+   "verified": "2026-02-11",
+   "endsEst": true
   },
   {
    "date": "2026-02-11",
@@ -199520,12 +199524,13 @@
    "ptier": "Official partner",
    "month": "2026-03",
    "term": 5,
-   "ends": 2030,
+   "ends": 2031,
    "title": "Official Energy Partner",
    "date": "2026-03-15",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-03-15"
+   "verified": "2026-03-15",
+   "endsEst": true
   },
   {
    "listed": "2026-11-05",
@@ -206293,11 +206298,12 @@
    "url": "https://www.virginaustralia.com/cn/en/newsroom/2026/3/sydney-swans-to-set-flight-with-virgin-australia/",
    "status": "New",
    "term": 3,
-   "ends": 2028,
+   "ends": 2029,
    "tier": "Official partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-03-13"
+   "verified": "2026-03-13",
+   "endsEst": true
   },
   {
    "listed": "2026-10-30",
@@ -225499,13 +225505,14 @@
    "status": "New partner",
    "tier": "Official partner",
    "term": 5,
-   "ends": 2030,
+   "ends": 2031,
    "title": "Official Energy Partner",
    "deal": "EnergyAustralia × AFLW",
    "date": "2026-03-15",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-06"
+   "verified": "2026-11-06",
+   "endsEst": true
   },
   {
    "month": "2026-03",
@@ -225518,13 +225525,14 @@
    "status": "New partner",
    "tier": "Official partner",
    "term": 5,
-   "ends": 2030,
+   "ends": 2031,
    "title": "Official Energy Partner",
    "deal": "EnergyAustralia × Marvel Stadium",
    "date": "2026-03-15",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-06"
+   "verified": "2026-11-06",
+   "endsEst": true
   },
   {
    "date": "2014-01-31",
@@ -233184,13 +233192,13 @@
    "tier": "Naming rights",
    "status": "Extension",
    "term": 3,
-   "ends": 2028,
-   "endsLock": true,
+   "ends": 2029,
    "market": "ANZ",
    "url": "https://hockeyone.com.au/news/one-active-extends-naming-rights-partnership-with-hockey-one-league-for-three-more-years/",
    "added": "2026-11-17",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "endsEst": true
   },
   {
    "date": "2026-08-14",
