@@ -17,6 +17,9 @@ const count=(arr,f)=>{const m=new Map();arr.forEach(x=>[].concat(f(x)).forEach(k
 
 S.load().then(D=>{
   const deals=D.deals, thisYr=deals.filter(d=>S.yearOf(d)===yr);
+  // Who's spending where: live ANZ partnerships per brand category, biggest first.
+  {const cc={},lv=d=>d.status!=="Ended"&&!d.ended;deals.filter(d=>S.mkt(d)==="ANZ"&&lv(d)).forEach(d=>(d._cats||[]).forEach(c=>{if(c&&c!=="Other")cc[c]=(cc[c]||0)+1}));
+   const el=$("spend");if(el)el.innerHTML=Object.entries(cc).sort((a,b)=>b[1]-a[1]).slice(0,16).map(([c,n])=>`<a href="categories?c=${encodeURIComponent(c)}"><b>${esc(c)}</b><span>${n.toLocaleString("en-AU")}</span></a>`).join("")}
   $("heroStats").innerHTML=[[deals.length.toLocaleString("en-AU"),"partnerships filed"],[thisYr.length.toLocaleString("en-AU"),`partnerships in ${yr}`],[D.brands.length.toLocaleString("en-AU"),"brands"],[D.props.length.toLocaleString("en-AU"),"properties"]]
     .map(([v,l])=>`<div class="stat"><b>${esc(v)}</b><span>${esc(l)}</span></div>`).join("");
 

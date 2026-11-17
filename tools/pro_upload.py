@@ -1,4 +1,4 @@
-"""Upload Partnership Pro's private files to the Supabase "pro" bucket.
+"""Upload Pro's private files to the Supabase "pro" bucket.
 
     SUPABASE_URL=https://xxxx.supabase.co SUPABASE_SERVICE_KEY=... python3 tools/pro_upload.py
 

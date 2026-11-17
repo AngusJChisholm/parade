@@ -903,13 +903,48 @@ function reports(){
 }
 
 /* ---------- tabs ---------- */
-const TABS={dash:dashboard,scouting,finder,renewals,property,watch:watchlist,reports};
+/* Home: what Pro does, from the template in pro.html. Each tool card opens its tab. */
+function home(){
+  $("view").innerHTML=document.getElementById("homeTpl").innerHTML;
+  const n=$("view").querySelector("#gN");if(n&&D)n.textContent=D.deals.length.toLocaleString("en-AU");
+  $("view").onclick=e=>{const b=e.target.closest("[data-go]");if(b){go(b.dataset.go);window.scrollTo({top:0,behavior:"smooth"})}};
+}
+
+/* ---------- Wagering exit ----------
+   Live ANZ partnerships where the brand is filed under Betting & wagering.
+   Gambling Reform Bill 2026 (Hall & Wilcox summary): no new wagering branding on player kit or in venues from 1 Jan 2027,
+   and deals signed before 2 Jul 2026 roll off by 31 Dec 2031. "Rolls off" is the earlier of the renewal year and 2031. */
+function wagering(){
+  const f=state.w||(state.w={sport:""});
+  const isBet=d=>S.mkt(d)==="ANZ"&&!d.ended&&d.status!=="Ended"&&live(d)&&(d._cats||[]).includes("Betting & wagering");
+  const all=D.deals.filter(isBet).map(d=>{const r=renewal(d);return {d,r,off:Math.min(r?r.end:2031,2031)}});
+  const sports=[...new Set(all.map(x=>x.d.sport))].filter(Boolean).sort();
+  const draw=()=>{
+    const rows=all.filter(x=>!f.sport||x.d.sport===f.sport).sort((a,b)=>a.off-b.off||propOf(a.d).localeCompare(propOf(b.d)));
+    state.wRows=rows;
+    const props=new Set(rows.map(x=>propOf(x.d))),brands=new Set(rows.map(x=>nameOf(x.d)));
+    const soon=rows.filter(x=>x.off<=yr+1).length;
+    $("wk").innerHTML=`<div><b>${rows.length}</b><span>Live wagering partnerships</span></div><div><b>${props.size}</b><span>ANZ properties exposed</span></div><div><b>${brands.size}</b><span>Wagering brands</span></div><div><b>${soon}</b><span>Rolling off by ${yr+1}</span></div>`;
+    $("wlist").innerHTML=rows.length?`<div class="tw"><table class="t"><thead><tr><th>Rolls off</th><th>Basis</th><th>Partnership</th><th>Sport</th><th>Partnership type</th><th>Announced</th><th>Source</th></tr></thead><tbody>${rows.map(({d,r,off})=>`<tr><td><span class="yr">${off}</span></td><td>${r?basisTag(r):"Reform cap"}</td><td><span class="dl">${L.pair(d,{px:30})}${S.dealLink(d)}</span></td><td>${esc(d.sport||"")}</td><td>${esc(d.tier||"")}</td><td>${esc(S.fmt(d))}</td><td>${d.url?`<a href="${esc(d.url)}" target="_blank" rel="noopener">Source</a>`:""}</td></tr>`).join("")}</tbody></table></div>`:`<p class="pro-intro">No live wagering partnerships for that sport.</p>`;
+  };
+  $("view").innerHTML=`<p class="pro-intro">Every live ANZ partnership with a betting or wagering brand. Under the Gambling Reform Bill 2026 there's no new wagering branding on player kit or in venues from 1 January 2027, and partnerships signed before 2 July 2026 roll off by 31 December 2031. <b>Rolls off</b> is the earlier of the renewal year and 2031. Every one of these slots needs a new partner. <a href="https://hallandwilcox.com.au/news/proposed-wagering-advertising-reforms-new-restrictions-for-sport-media-and-online-platforms-in-australia/" target="_blank" rel="noopener">Source: Hall &amp; Wilcox</a></p>
+  <div class="kpis" id="wk"></div>
+  <div class="ctl2"><div class="pills">${pills("ws",[["","All sports"],...sports.map(s=>[s,s])],f.sport)}</div></div>
+  <div class="res"><span class="lbl mute-l">Soonest first</span><button class="ghost" id="wcsv">Export CSV</button></div><div id="wlist"></div>`;
+  $("view").onclick=e=>{
+    const b=e.target.closest("[data-ws]");
+    if(b){f.sport=b.dataset.ws;b.parentNode.querySelectorAll(".pill").forEach(p=>p.classList.toggle("on",p.dataset.ws===f.sport));draw();return}
+    if(e.target.id==="wcsv")csv([["Rolls off","Basis","Partnership","Brand","Property","Sport","Partnership type","Announced","Source"],...state.wRows.map(({d,r,off})=>[off,r?r.basis:"Reform cap",d.deal,nameOf(d),propOf(d),d.sport,d.tier,S.fmt(d),d.url||""])],"sss-pro-wagering.csv");
+  };
+  draw();
+}
+const TABS={home,dash:dashboard,scouting,finder,renewals,wagering,property,watch:watchlist,reports};
 function go(tab){
   // Reports deep-link as #reports/brand/<slug> or #reports/property/<slug>
   const [t,kind,slug]=String(tab).split("/");tab=t;
   if(t==="reports"&&kind){state.rp={kind:kind==="property"?"property":"brand",slug:slug?decodeURIComponent(slug):null}}
   if(tab==="matches")tab="scouting"; /* old links */
-  state.tab=TABS[tab]?tab:"dash";
+  state.tab=TABS[tab]?tab:"home";
   document.querySelectorAll(".tab").forEach(b=>{b.classList.toggle("on",b.dataset.tab===state.tab);b.setAttribute("aria-selected",b.dataset.tab===state.tab)});
   // Keep the address clean: no #dash / #scouting in the URL. Report deep links still set their own.
   if(state.tab!=="reports"&&location.hash)history.replaceState(null,"",location.pathname+location.search);
@@ -928,6 +963,6 @@ S.load().then(data=>{
   const allT=D.deals.filter(d=>d.term).map(d=>d.term);TYP_ALL=allT.length?med(allT):3;
   by.forEach((v,k)=>{if(v.length>=8)TYP[k]=med(v)});
   $("propNames").innerHTML=D.props.slice().sort((a,b)=>b.n-a.n).slice(0,2000).map(r=>`<option value="${esc(r.e.name)}">`).join("");
-  go(location.hash.slice(1)||"dash"); /* old #tab links still open the right tab, then the hash is cleared */
+  go(location.hash.slice(1)||"home"); /* old #tab links still open the right tab, then the hash is cleared */
 }).catch(err=>{console.error(err);$("view").innerHTML=`<p class="note">Couldn't load the database. Refresh to try again.</p>`});
 })();

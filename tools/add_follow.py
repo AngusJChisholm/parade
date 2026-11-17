@@ -13,7 +13,7 @@ IG = "https://www.instagram.com/sportsportsport.hq/"
 
 BLOCK = f"""<!-- follow:start -->
 <section class="sf" id="follow"><div class="sf-w">
-<div class="sf-r"><div><h2>All things sport business.</h2><p>Partnerships, news and analysis on LinkedIn and Instagram.</p></div>
+<div class="sf-r"><div><h2>Follow the partnerships.</h2><p>New partnerships, news and data drops on LinkedIn and Instagram.</p></div>
 <div class="sf-a"><a class="sf-b" href="{LI}" target="_blank" rel="noopener">LinkedIn</a><a class="sf-b sf-o" href="{IG}" target="_blank" rel="noopener">Instagram</a></div></div>
 <div class="sf-n" id="nl"><p><b>The Weekly Edition.</b> Every partnership from the week, in your inbox Monday mornings.</p><div class="nl-f" id="nlF"><span class="sf-b sf-soon" aria-disabled="true">Coming soon</span></div></div>
 </div></section>

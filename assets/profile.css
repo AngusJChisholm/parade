@@ -3,7 +3,7 @@
   --black:#000;--white:#fff;--grey-500:#9E9E9E;--grey-800:#292929;--grey-100:#E6E6E6;
   --volt:#D2FF3C;--ink:#111;--ink-2:#33332F;--ink-3:#5C5C57;--line:#DEDED8;--canvas:#F4F4F1;
   --font:"Archivo","Helvetica Neue",Helvetica,Arial,sans-serif;
-  --pad:clamp(16px,5vw,72px);
+  --pad:clamp(16px,4vw,56px);
   color-scheme:light;
 }
 *{box-sizing:border-box}

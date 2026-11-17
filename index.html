@@ -3,550 +3,165 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Sport Sport Sport</title>
-<meta name="description" content="All things sport business. Global & ANZ. Sponsorships and partnerships, filed.">
+<title>Sport Sport Sport | Sport business news and the ANZ partnerships database</title>
+<meta name="description" content="The latest sport partnerships and sport business news from Australia, New Zealand and around the world, plus the database of who backs every club, league and event.">
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Sport Sport Sport">
-<meta property="og:title" content="Sport Sport Sport">
-<meta property="og:description" content="All things sport business. Global &amp; ANZ. Sponsorships and partnerships, filed.">
+<meta property="og:title" content="Who backs who in ANZ sport.">
+<meta property="og:description" content="Search every partnership in Australian and NZ sport, checked against official sources.">
 <meta property="og:url" content="https://sportsportsport.com.au/">
 <meta property="og:image" content="https://sportsportsport.com.au/assets/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;800&display=swap">
-<style>
-/* Layout: black masthead + hero, white round-up, canvas Global/ANZ split, black follow block, white archive, black footer. Single committed look, no radii, no shadows. */
-:root{
-  --black:#000;--white:#fff;--grey-500:#9E9E9E;--grey-800:#292929;--grey-100:#E6E6E6;
-  --volt:#D2FF3C;--ink:#111;--ink-2:#33332F;--ink-3:#5C5C57;--line:#DEDED8;--canvas:#F4F4F1;
-  --font:"Archivo","Helvetica Neue",Helvetica,Arial,sans-serif;
-  --pad:clamp(16px,5vw,72px);
-  color-scheme:light;
-}
-*{box-sizing:border-box}
-html{background:var(--black)}
-body{margin:0;font-family:var(--font);font-weight:500;color:var(--ink);background:var(--white);-webkit-font-smoothing:antialiased}
-a{color:inherit;text-decoration:none}a:hover{color:var(--ink-3)}.dk a:hover{color:var(--white)}
-a:focus-visible,button:focus-visible,select:focus-visible{outline:2px solid var(--volt);outline-offset:3px}
-.dk{background:var(--black);color:var(--white)}
-.wrap{max-width:1440px;margin:0 auto;padding-inline:var(--pad)}
-.disp{font-weight:800;text-transform:uppercase;letter-spacing:-.045em;line-height:.86;margin:0;transform:scaleX(.92);transform-origin:left top;width:108.7%;text-wrap:balance}
-.lbl{font-weight:800;font-size:12px;letter-spacing:.18em;text-transform:uppercase}
-.mute{color:var(--grey-500)}.mute-l{color:var(--ink-3)}
-.wm{display:flex;flex-direction:column;align-items:center;font-weight:800;text-transform:uppercase;line-height:.8;letter-spacing:-.02em;transform:scaleX(.9);font-size:17px}
-.btn{font:inherit;font-weight:800;font-size:13px;letter-spacing:.14em;text-transform:uppercase;background:var(--volt);color:var(--black);border:0;border-radius:0;padding:14px 22px;cursor:pointer;white-space:nowrap;display:inline-block}
-.btn:hover{background:var(--white);color:var(--black)}
-.btn-o{background:transparent;color:var(--white);border:1px solid var(--white);padding:13px 21px}.btn-o:hover{background:var(--white);color:var(--black)}
-.btn-ink{background:var(--black);color:var(--white)}.btn-ink:hover{background:#333;color:var(--white)}
-.tags{display:flex;flex-wrap:wrap;gap:6px}
-.tag{font-weight:800;font-size:11px;letter-spacing:.14em;text-transform:uppercase;padding:6px 9px 5px;border:1px solid currentColor;line-height:1;white-space:nowrap}
-.tag.r{background:var(--volt);color:var(--black);border-color:var(--volt)}
-.dk .tag{color:var(--white)}.dk .tag.r{color:var(--black)}
-header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;border-bottom:1px solid var(--grey-800)}
-.hd{display:flex;align-items:center;gap:40px;height:84px}
-.nav{display:flex;gap:28px;margin-left:auto}
-.act-g{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(24px,4vw,56px)}
-.act-r{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));padding:1px 0 0 1px;margin-top:14px}
-.act{border:1px solid var(--line);margin:-1px 0 0 -1px;padding:16px 12px;display:flex;flex-direction:column;align-items:center;gap:8px;text-align:center;min-width:0}
-.act .lg{--s:48px}.act b{font-weight:800;text-transform:uppercase;letter-spacing:-.02em;font-size:13px;line-height:1.1;overflow-wrap:anywhere}.act span:last-child{font-size:12px;color:var(--ink-3)}
-a.act:hover{background:var(--canvas)}
-@media (max-width:900px){.act-g{grid-template-columns:minmax(0,1fr)}}
-.nav a{font-weight:800;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--grey-500)}
-.nav a:hover,.nav a.on{color:var(--white)}
-.menu{display:none;margin-left:auto;background:none;border:1px solid var(--white);color:var(--white);font:inherit;font-weight:800;font-size:12px;letter-spacing:.16em;text-transform:uppercase;padding:11px 14px;cursor:pointer}
-.hero{padding-block:clamp(40px,5vw,72px)}
-.hero-top{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-bottom:20px;border-bottom:1px solid var(--grey-800)}
-/* Key stories: latest article big top-left, the next seven wrap around it clockwise (right column top-down, then bottom row right-to-left). */
-.ks{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));grid-auto-rows:clamp(150px,13vw,190px);gap:14px;margin-top:clamp(24px,3vw,36px)}
-.kt{position:relative;display:flex;flex-direction:column;min-width:0;overflow:hidden;background:#111;border:1px solid var(--grey-800);padding:18px 18px 16px;color:var(--white);transition:border-color .15s,background .15s}
-a.kt:hover{border-color:var(--volt);background:#161616;color:var(--white)}
-.kt .kd{font-weight:800;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--grey-500)}
-.kt h2,.kt h1{font-weight:800;text-transform:uppercase;letter-spacing:-.03em;line-height:.92;margin:auto 0 0;font-size:clamp(17px,1.45vw,22px);display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden;text-wrap:balance}
-.kt .kx{font-size:13px;color:var(--grey-100);margin:8px 0 0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.kt.k1{grid-column:1/4;grid-row:1/4;padding:clamp(24px,3vw,44px)}
-.kt::before{content:"";position:absolute;inset:0 0 auto 0;height:5px;background:var(--c1,var(--volt))}
-.kt.k1::before{height:6px}
-.hero.lt a.kt:not(.k1):hover{border-color:var(--c1,var(--black))}
-/* Photo tiles: image fills the tile, dark fade at the bottom keeps the type readable. */
-.hero.lt .kt.img{background-color:#000;background-image:var(--img);background-position:center 62%;background-size:cover;background-repeat:no-repeat;border-color:transparent;color:var(--white)}
-.hero.lt .kt.img::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.6) 0%,rgba(0,0,0,.2) 32%,rgba(0,0,0,.25) 50%,rgba(0,0,0,.85) 100%);z-index:0}
-.hero.lt .kt.img>*{position:relative;z-index:1}
-.hero.lt .kt.img::before{display:none}
-.hero.lt .kt.img .kd{color:#fff;text-shadow:0 1px 3px rgba(0,0,0,.6)}.hero.lt .kt.img .kx{color:rgba(255,255,255,.85)}
-.hero.lt .kt.k1.img{background-color:#000;background-image:var(--img);background-position:60% 40%;background-size:cover;background-repeat:no-repeat}
-.hero.lt a.kt.img:hover{background-image:var(--img);background-position:center 62%;background-size:cover;background-repeat:no-repeat}
-.hero.lt a.kt.k1.img:hover{background-color:#000;background-image:var(--img);background-position:60% 40%;background-size:cover;background-repeat:no-repeat}
-.hero.lt .kt.k1.img::after{background:linear-gradient(180deg,rgba(0,0,0,.5) 0%,rgba(0,0,0,.1) 25%,rgba(0,0,0,.6) 50%,rgba(0,0,0,.92) 100%)}
-@media (max-width:640px){.hero.lt .kt.k1.img::after{background:linear-gradient(180deg,rgba(0,0,0,.6),rgba(0,0,0,.75) 40%,rgba(0,0,0,.92))}}
-.hero.lt .kt.k1.img .kd{color:#fff}
-.hero.lt .kt.k1.img .kf{border-top-color:rgba(255,255,255,.25)}
-.hero.lt a.kt.img:hover{background-color:#000;border-color:var(--c1,var(--black));color:var(--white)}
-.kt.k1 h1{font-size:clamp(36px,4.6vw,72px);-webkit-line-clamp:4;margin-top:auto}
-.kt.k1 .kx{font-size:clamp(14px,1.2vw,17px);letter-spacing:.1em;text-transform:uppercase;margin-top:16px}
-.kt.k1 .dek{font-size:clamp(15px,1.2vw,18px);line-height:1.5;color:var(--grey-100);margin:18px 0 0;max-width:62ch;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden}
-.kt.k1 .kf{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-top:22px;padding-top:18px;border-top:1px solid var(--grey-800)}
-.k2{grid-column:4;grid-row:1}.k3{grid-column:4;grid-row:2}.k4{grid-column:4;grid-row:3}.k5{grid-column:4;grid-row:4}
-.k6{grid-column:3;grid-row:4}.k7{grid-column:2;grid-row:4}.k8{grid-column:1;grid-row:4}
-@media (max-width:1100px){.ks{grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:auto}.ks .kt{grid-column:auto;grid-row:auto;min-height:160px}.kt.k1{grid-column:1/-1;min-height:clamp(340px,55vw,460px)}.k8{display:none}}
-@media (max-width:640px){.ks{grid-template-columns:minmax(0,1fr);gap:10px}.ks .kt{min-height:0}.kt.k1{min-height:360px}.kt.k1 h1{margin-top:28px}.kt.k1 .kx{white-space:normal}.kt.k1 .kf{flex-direction:column;align-items:flex-start}.kt h2{margin-top:14px}.k8{display:flex}}
-.meta{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-top:20px;border-top:1px solid var(--grey-800)}
-.more{font-weight:800;font-size:13px;letter-spacing:.14em;text-transform:uppercase;border-bottom:2px solid var(--volt);padding-bottom:4px}
-.sec{padding-block:clamp(56px,7vw,112px)}
-.sh{display:flex;justify-content:space-between;align-items:end;gap:24px;flex-wrap:wrap;margin-bottom:clamp(28px,4vw,48px)}
-.sh h2{font-size:clamp(40px,5.4vw,84px)}
-.sh .lbl{display:block;margin-bottom:16px}
-.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line)}
-.card{background:var(--white);padding:clamp(22px,2.4vw,36px);display:flex;flex-direction:column;gap:18px;min-height:260px;min-width:0}
-.card h3{font-weight:800;text-transform:uppercase;letter-spacing:-.035em;line-height:.92;font-size:clamp(26px,2.4vw,36px);margin:0;transform:scaleX(.92);transform-origin:left top;width:108.7%;overflow-wrap:anywhere}
-.card p{margin:0;font-size:16px;line-height:1.5;color:var(--ink-2);text-wrap:pretty}
-.card .more{margin-top:auto;align-self:flex-start;border-bottom-color:var(--ink)}
-.card.all{background:var(--black);color:var(--white);justify-content:space-between}
-.card.all:hover{background:var(--ink);color:var(--white)}
-.card.all .more{border-bottom-color:var(--volt)}
-.card.all h3{font-size:clamp(34px,3.4vw,52px)}
-@media (min-width:1101px){.card.all{grid-column:span var(--span,1)}}
-@media (min-width:1101px){.card.fill{grid-column:span var(--span,1)}}
-@media (min-width:641px) and (max-width:1100px){#fList .card:last-child:nth-child(odd){grid-column:span 2}}
-.col-h .lbl{white-space:nowrap}
-.split{background:var(--canvas)}
-.cols{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(32px,5vw,80px)}
-.col-h{display:flex;justify-content:space-between;align-items:end;padding-bottom:18px;border-bottom:2px solid var(--ink)}
-.col-h h2{font-size:clamp(40px,4.4vw,68px)}
-.row{display:grid;grid-template-columns:74px minmax(0,1fr);gap:18px;align-items:baseline;padding:20px 0;border-bottom:1px solid var(--line)}
-.row .d{font-weight:800;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3);font-variant-numeric:tabular-nums}
-.row b{display:block;font-weight:800;text-transform:uppercase;letter-spacing:-.03em;font-size:20px;line-height:1.05;overflow-wrap:anywhere}
-a.row:hover b,a.ar-r:hover b{text-decoration:underline;text-underline-offset:4px}
-.row span.x{display:block;font-size:14px;color:var(--ink-3);margin-top:6px}
-.fo{padding-block:clamp(72px,10vw,160px)}
-.fo h2{font-size:clamp(48px,8.4vw,140px)}
-.fo h2 .g{color:var(--grey-500)}
-.fo-a{display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin-top:clamp(40px,5vw,64px)}
-.fo-a p{margin:0;font-size:15px;color:var(--grey-500)}
-.nl{margin-top:clamp(48px,6vw,80px);padding-top:clamp(32px,4vw,48px);border-top:1px solid #333;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:clamp(24px,4vw,64px);align-items:center}
-.nl h3{margin:0 0 10px;font-weight:800;text-transform:uppercase;letter-spacing:-.03em;font-size:clamp(28px,3.4vw,44px);line-height:1}
-.nl h3 .v{color:var(--volt)}
-.nl p{margin:0;font-size:16px;color:var(--grey-500);max-width:46ch}
-.nl-f iframe{display:block;width:100%;height:56px;border:0;background:transparent}
-.nl-soon{cursor:default;opacity:.95}
-.nl-f small{display:block;margin-top:10px;font-size:12px;color:var(--grey-500)}
-@media (max-width:760px){.nl{grid-template-columns:1fr}}
-.fil{display:flex;flex-direction:column;gap:20px;margin-bottom:32px}
-.pills{display:flex;flex-wrap:wrap;gap:8px}
-.pill{font:inherit;font-weight:800;font-size:12px;letter-spacing:.14em;text-transform:uppercase;background:var(--white);color:var(--ink);border:1px solid var(--ink);border-radius:999px;padding:10px 16px;cursor:pointer}
-.pill:hover{background:var(--canvas)}.pill.on{background:var(--ink);color:var(--white)}
-.sels{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
-.sel{position:relative}
-.sel select{font:inherit;font-weight:800;font-size:12px;letter-spacing:.14em;text-transform:uppercase;appearance:none;-webkit-appearance:none;border:1px solid var(--line);border-radius:0;background:var(--white);color:var(--ink);padding:11px 36px 11px 14px;cursor:pointer}
-.sel:after{content:"";position:absolute;right:14px;top:50%;width:6px;height:6px;border-right:2px solid var(--ink);border-bottom:2px solid var(--ink);transform:translateY(-70%) rotate(45deg);pointer-events:none}
-.count{margin-left:auto;font-size:14px;color:var(--ink-3)}
-.al{border-top:2px solid var(--ink)}
-.ar-h,.ar-r{display:grid;grid-template-columns:120px minmax(0,2.4fr) minmax(0,1fr) minmax(0,1.3fr) 150px;gap:20px;align-items:center;padding:18px 0;border-bottom:1px solid var(--line)}
-.ar-h{padding:14px 0}.ar-h span{font-weight:800;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-3)}
-.ar-r .d{font-size:14px;color:var(--ink-3);font-variant-numeric:tabular-nums}
-.ar-r b{font-weight:800;text-transform:uppercase;letter-spacing:-.03em;font-size:19px;line-height:1.1;overflow-wrap:anywhere}
-.ar-r .s{font-size:15px}.ar-r .t{font-size:15px;color:var(--ink-2)}
-.empty{padding:40px 0;color:var(--ink-3);font-size:16px}
-.ar-more{margin-top:32px}
-/* Logos: brand and club marks. Monogram underneath until a real logo loads (assets/logos.js). */
-.lg{--s:40px;position:relative;display:inline-flex;width:var(--s);height:var(--s);flex:none;align-items:center;justify-content:center}
-.lg .mono{display:flex;align-items:center;justify-content:center;width:100%;height:100%;border:1px solid var(--line);background:var(--canvas);color:var(--ink-2);font-weight:800;font-size:calc(var(--s)*.34);letter-spacing:-.02em;line-height:1}
-.lg.has-img .mono{display:none}
-.lg img{width:100%;height:100%;object-fit:contain;display:block}
-.lga{display:inline-flex}.lga:hover .mono{border-color:var(--ink)}.lga:hover img{opacity:.8}
-.pair{display:inline-flex;align-items:center;gap:6px;flex:none}
-.pair .xx{font-weight:800;font-size:12px;color:var(--ink-3)}
-.ar-r .dl{display:flex;align-items:center;gap:16px;min-width:0}
-.ar-r .dl a:not(.lga):hover b{text-decoration:underline;text-underline-offset:4px}
-/* Club and brand strip above the archive. */
-.cs{border:1px solid var(--line);padding:clamp(16px,2vw,24px)}
-.cs-h{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:14px}
-.cs-t{display:flex;flex-wrap:wrap;gap:6px}.cs-t .pill{padding:8px 13px;font-size:11px}
-.cs-r{display:flex;gap:4px;overflow-x:auto;padding-bottom:6px;scrollbar-width:thin}
-.cr{font:inherit;flex:none;width:100px;min-height:44px;background:none;border:1px solid transparent;border-radius:0;padding:12px 6px 10px;display:flex;flex-direction:column;align-items:center;gap:8px;cursor:pointer;color:var(--ink)}
-.cr .lg{--s:52px}
-.cr .n{font-size:11px;font-weight:800;letter-spacing:.04em;line-height:1.15;text-align:center;text-transform:uppercase}
-.cr .k{font-size:11px;color:var(--ink-3)}
-.cr:hover{border-color:var(--line)}.cr.on{border-color:var(--ink);background:var(--canvas)}
-.cr[disabled]{opacity:.4;cursor:default}.cr[disabled]:hover{border-color:transparent}
-.cs-on{display:flex;flex-wrap:wrap;gap:10px 22px;align-items:center;margin-top:14px;padding-top:14px;border-top:1px solid var(--line);font-size:15px}
-.cs-on .x{font:inherit;font-weight:800;font-size:12px;letter-spacing:.14em;text-transform:uppercase;background:none;border:0;padding:8px 0;cursor:pointer;color:var(--ink-3)}
-.cs-on .x:hover{color:var(--ink)}
-footer{padding-block:clamp(56px,7vw,96px) 32px}
-.ft{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:48px;align-items:start}
-.logo{display:block;line-height:0}.logo img{height:42px;width:auto;display:block}.logo-ft img{height:clamp(64px,7vw,96px)}
-@media (max-width:640px){.logo img{height:36px}}
-.ft .wm{font-size:clamp(40px,5vw,64px);align-items:flex-start;transform-origin:left top}
-.ft-l{display:grid;grid-template-columns:repeat(2,auto);gap:14px 64px}
-.ft-l a{font-weight:800;font-size:14px;letter-spacing:.14em;text-transform:uppercase}
-.ft-l a:hover{color:var(--volt)}
-.ft-b{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:72px;padding-top:20px;border-top:1px solid var(--grey-800);font-size:13px;color:var(--grey-500)}
-@media (max-width:1100px){.nav{gap:20px}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.ar-h,.ar-r{grid-template-columns:100px minmax(0,2fr) minmax(0,1fr) 140px}.ar-h .c-t,.ar-r .t{display:none}}
-@media (max-width:900px){.nav{display:none}.menu{display:block}.hd>.btn{display:none}
-.nav.open{display:flex;position:absolute;left:0;right:0;top:84px;flex-direction:column;gap:0;background:var(--black);border-bottom:1px solid var(--grey-800);padding:8px var(--pad) 20px}
-.nav.open a{padding:16px 0;border-bottom:1px solid var(--grey-800);font-size:15px;color:var(--white)}
-.hero-grid,.cols{grid-template-columns:minmax(0,1fr)}.cols{gap:64px}}
-@media (max-width:640px){.hd{height:72px}.nav.open{top:72px}.wm{font-size:14px}
-.grid{grid-template-columns:minmax(0,1fr)}.card{min-height:0}
-.row{grid-template-columns:minmax(0,1fr)}.row .d{margin-bottom:-10px}
-.ar-h{display:none}.ar-r{grid-template-columns:minmax(0,1fr) auto;gap:6px 16px}.ar-r .dl{grid-column:1/-1;order:-1}.ar-r .lg{--s:34px}.cr{width:88px}.ar-r .d{order:-2;grid-column:1/-1}.ar-r .s{font-size:14px;color:var(--ink-3)}
-.pills{flex-wrap:nowrap;overflow-x:auto;margin:0 calc(-1*var(--pad));padding:0 var(--pad);scrollbar-width:none}.pill{flex:none}
-.count{margin-left:0;width:100%}
-.ft{grid-template-columns:minmax(0,1fr)}.ft-b{margin-top:48px}}
-@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
-html{scroll-behavior:smooth;scroll-padding-top:96px}
-/* Key stories on white: black lead tile carries the brand, white tiles keep the rest easy to scan. */
-.hero.lt{background:var(--white);color:var(--ink)}
-.hero.lt .hero-top{border-bottom-color:var(--line)}
-.hero.lt .mute{color:var(--ink-3)}
-.hero.lt .kt{background:var(--white);border-color:var(--line);color:var(--ink)}
-.hero.lt a.kt:hover{background:var(--canvas);border-color:var(--black);color:var(--ink)}
-.hero.lt .kt .kd{color:var(--ink-3)}
-.hero.lt .kt .kx{color:var(--ink-2)}
-.hero.lt .kt.k1{background:var(--black);border-color:var(--black);color:var(--white)}
-.hero.lt a.kt.k1:hover{background:#151515;border-color:var(--black);color:var(--white)}
-.hero.lt .kt.k1 .kd{color:var(--grey-500)}
-.hero.lt .kt.k1 .kx,.hero.lt .kt.k1 .dek{color:var(--grey-100)}
-.hero.lt .kt.k1 .kf{border-top-color:var(--grey-800)}
-.hero.lt .kt.k1 .tag{color:var(--white)}.hero.lt .kt.k1 .tag.r{color:var(--black)}
-</style>
-<style id="white-volt">
-/* White + volt: white masthead and footer, volt for accents and statement blocks, full-bleed photos carry the colour. */
-html{background:#fff}
-header.dk{background:#fff;color:var(--ink);border-bottom:1px solid var(--line)}
-header .nav a{color:var(--ink-3)}header .nav a:hover,header .nav a.on{color:#000;box-shadow:inset 0 -3px 0 var(--volt)}
-header .btn:hover{background:#000;color:#fff}
-header .menu{border-color:#000;color:#000}
-.nav.open{background:#fff!important;border-bottom-color:var(--line)!important}.nav.open a{color:#000!important;border-bottom-color:var(--line)!important}
-.vb{background:var(--volt);color:#000;padding:0 .07em;margin:0 -.02em;-webkit-box-decoration-break:clone;box-decoration-break:clone}
-.num{background:var(--volt);color:#000;padding:0 .06em;text-shadow:none}
-/* Key stories: full-bleed photos, lighter fade so the photo shows */
-.hero.lt .kt.img::after{background:linear-gradient(180deg,rgba(0,0,0,0) 0%,rgba(0,0,0,0) 38%,rgba(0,0,0,.55) 72%,rgba(0,0,0,.8) 100%)!important}
-.hero.lt .kt.k1.img::after{background:linear-gradient(180deg,rgba(0,0,0,0) 0%,rgba(0,0,0,0) 32%,rgba(0,0,0,.5) 60%,rgba(0,0,0,.82) 100%)!important}
-@media (max-width:640px){.hero.lt .kt.k1.img::after{background:linear-gradient(180deg,rgba(0,0,0,0) 0%,rgba(0,0,0,.12) 22%,rgba(0,0,0,.62) 52%,rgba(0,0,0,.88) 100%)!important}}
-.hero.lt .kt.img .kd,.hero.lt .kt.k1.img .kd{align-self:flex-start;background:#fff;color:#000!important;text-shadow:none!important;padding:7px 9px 6px;line-height:1}
-.hero.lt .kt.k1.img .kd{background:var(--volt)}
-.hero.lt .kt.img h1,.hero.lt .kt.img h2{text-shadow:0 2px 14px rgba(0,0,0,.35)}
-.hero.lt .kt.k1.img{border:0}
-.hero.lt .kt.k1:not(.img){background:#fff;border:1px solid var(--line);color:var(--ink)}
-.hero.lt .kt:not(.img){border-top:5px solid var(--volt)}
-/* Cards */
-a.card:hover{box-shadow:inset 0 5px 0 var(--volt)}
-.cl{display:flex}.cl .pair{gap:8px}
-.card.all{background:var(--volt)!important;color:#000!important}
-.card.all .more{border-bottom-color:#000}.card.all .lbl{color:#000}
-.split{background:#fff;border-top:1px solid var(--line)}
-/* Follow block: volt */
-.fo.dk{background:var(--volt);color:#000}
-.fo .mute,.fo-a p,.nl p,.nl-f small{color:rgba(0,0,0,.65)!important}
-.fo h2 .g{color:#000;display:block;font-size:.42em;letter-spacing:-.03em;margin-top:.5em}
-.fo .btn{background:#000;color:#fff}.fo .btn:hover{background:#fff;color:#000}
-.fo .btn-o{border-color:#000;color:#000;background:transparent}
-.nl{border-top-color:rgba(0,0,0,.3)}.nl h3 .v{background:#000;color:var(--volt);padding:0 .08em}
-/* Footer: white */
-footer.dk{background:#fff;color:#000;border-top:6px solid var(--volt)}
-footer .mute,.ft-b{color:var(--ink-3)!important}.ft-b{border-top-color:var(--line)!important}
-.ft-l a:hover{color:#000;box-shadow:inset 0 -3px 0 var(--volt)}
-</style>
-<script>
-document.addEventListener("DOMContentLoaded",()=>{
- const band=()=>{
-  document.querySelectorAll(".sh h2.disp,.col-h h2.disp").forEach(h=>{if(h.dataset.vb)return;h.dataset.vb=1;
-   const t=h.textContent.trim().split(" ");const last=t.pop();const m=last.match(/^(.*?)([.]?)$/);
-   h.innerHTML=(t.length?t.join(" ")+" ":"")+`<span class="vb">${m[1]}</span>${m[2]}`});
-  document.querySelectorAll(".card h3,.kt h2,.kt h1").forEach(h=>{if(h.dataset.n)return;h.dataset.n=1;h.innerHTML=h.innerHTML.replace(/(\$[\d.,]+\s?(?:BN|M|B|K)?)/i,'<span class="num">$1</span>')});
- };
- new MutationObserver(band).observe(document.body,{childList:true,subtree:true});band();
-});
-</script>
-<style id="condensed">
-@font-face{font-family:"ArchivoV";src:url("assets/fonts/Archivo[wdth,wght].ttf") format("truetype");font-weight:100 900;font-stretch:62% 125%;font-display:swap}
-.disp,.kt h1,.kt h2,.card h3,.col-h h2,.row b,.ar-r b,.stmt h2{font-family:"ArchivoV",var(--font);font-stretch:68%;letter-spacing:-.005em;transform:none!important;width:auto!important}
-.disp{line-height:.88}
-.sh h2{font-size:clamp(56px,7.6vw,120px)}
-.col-h h2{font-size:clamp(56px,6vw,96px)}
-.kt.k1 h1{font-size:clamp(48px,6vw,96px)!important;line-height:.88}
-.kt h2{font-size:clamp(22px,1.9vw,30px)!important;line-height:.9}
-.card h3{font-size:clamp(34px,3vw,46px);line-height:.9}
-.card.all h3{font-size:clamp(44px,4.4vw,68px)}
-.row b{font-size:26px;line-height:.95}
-.ar-r b{font-size:24px;line-height:.95}
-.vb{padding:.02em .1em 0;margin:0 -.04em}
-/* Statement block: the Instagram end slide on the site */
-.stmt{padding:clamp(28px,4vw,56px) 0 clamp(22px,3vw,40px);text-align:center;border-bottom:1px solid var(--line)}
-.stmt h2{font-weight:800;text-transform:uppercase;font-size:clamp(24px,7.2vw,88px);line-height:.95;margin:0;white-space:nowrap}
-.stmt h2 .v{display:inline-block;background:var(--volt);color:#000;padding:.04em .1em 0;line-height:.95}
-.stmt p{text-wrap:balance;margin:clamp(12px,1.6vw,20px) 0 0;font-weight:800;font-size:clamp(12px,1.1vw,15px);letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3)}
-.stmt .chip{display:inline-block;margin-top:18px;background:#000;color:#fff;font-weight:800;font-size:clamp(12px,1.1vw,15px);letter-spacing:.14em;text-transform:uppercase;padding:11px 16px 9px}
-.stmt .chip:hover{background:var(--volt);color:#000}
-/* Numbers strip (home) */
-.sts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:2px solid var(--ink)}
-.st{display:flex;flex-direction:column;gap:10px;padding:22px 20px 20px 0;border-bottom:1px solid var(--line)}
-.st+.st{padding-left:20px;border-left:1px solid var(--line)}
-.st b{font-family:"ArchivoV",var(--font);font-stretch:68%;font-weight:800;text-transform:uppercase;font-size:clamp(40px,4.6vw,72px);line-height:.9;letter-spacing:-.005em}
-.st span{font-weight:800;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3)}
-a.st:hover b{box-shadow:inset 0 -.12em 0 var(--volt)}
-@media (max-width:900px){.sts{grid-template-columns:repeat(2,minmax(0,1fr))}.st:nth-child(3){padding-left:0;border-left:0}}
-/* Deals page top */
-.ptop{padding-block:clamp(32px,5vw,72px) clamp(28px,3.5vw,48px);border-bottom:2px solid var(--ink)}
-.ptop h1{font-size:clamp(64px,11vw,176px)}
-.ptop p{font-size:clamp(17px,1.5vw,21px);line-height:1.45;color:var(--ink-2);max-width:640px;margin:20px 0 0}
-.srch{flex:1 1 260px;max-width:420px}
-.srch input{width:100%;font:inherit;font-size:15px;border:1px solid var(--line);border-radius:0;padding:11px 14px;background:var(--white);color:var(--ink)}
-.srch input:focus{outline:2px solid var(--volt);outline-offset:2px;border-color:var(--ink)}
-.arch-sec{padding-top:clamp(28px,3.5vw,48px)}
-/* Compact key stories header */
-.hero{padding-block:clamp(18px,2.2vw,28px) clamp(8px,1vw,16px)}
-.hero-top{padding-bottom:12px}
-.ks{margin-top:14px}
-.skel{min-height:2.1em;max-width:720px;border-radius:4px;background:linear-gradient(90deg,#EFEFEA 25%,#F7F7F3 50%,#EFEFEA 75%);background-size:200% 100%;animation:skel 1.2s linear infinite}@keyframes skel{to{background-position:-200% 0}}@media (prefers-reduced-motion:reduce){.skel{animation:none}}.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
-/* Compact layout */
-.ar-h,.ar-r{padding:10px 0}.ar-r b{font-size:16px}.ar-r .s,.ar-r .t{font-size:14px}.ar-r .lg{--s:28px}.ar-r .dl{gap:12px}
-.sec{padding-block:clamp(28px,3.5vw,52px)}.sh{margin-bottom:clamp(14px,1.8vw,22px)}.sh h2{font-size:clamp(28px,3.2vw,46px)!important}.ptop{padding-block:clamp(20px,3vw,40px) clamp(18px,2.4vw,32px)}.ptop h1{font-size:clamp(44px,6vw,88px)!important}.ptop p{font-size:clamp(15px,1.2vw,17px);margin-top:12px}.stmt{padding:clamp(18px,2.4vw,32px) 0 clamp(14px,1.8vw,24px)}.stmt h2{font-size:clamp(22px,4.4vw,56px)}.card.all h3{font-size:clamp(26px,2.4vw,38px)!important;overflow-wrap:normal;word-break:normal;hyphens:none}.card.all{min-height:0}
-</style>
+<link rel="stylesheet" href="assets/v2.css?v=4">
 <link rel="stylesheet" href="assets/follow.css?v=2">
+<script src="assets/brand.js?v=1"></script>
 </head>
 <body>
-<header class="dk"><div class="wrap hd">
-<a href="./" class="logo" aria-label="Sport Sport Sport home"><img src="assets/wordmark-black.svg" alt="Sport Sport Sport" width="56" height="42"></a>
-<nav class="nav" id="nav"><a href="news">News</a><a href="partnerships">Partnerships</a><a href="brands">Brands</a><a href="properties">Properties</a><a href="insights">Insights</a><a href="pro">Pro</a></nav>
-<a href="#follow" class="btn">Follow</a>
+<header class="v2"><div class="wrap hd">
+<a href="./" class="logo brand-logo" aria-label="Sport Sport Sport home"><img src="assets/wordmark-black.svg" alt="Sport Sport Sport" width="56" height="42"></a>
+<nav class="nav" id="nav" aria-label="Main"><a href="partnerships">Partnerships</a><a href="brands">Brands</a><a href="properties">Properties</a><a href="news">News</a><a href="insights">Insights</a></nav>
+<div class="hd-r"><a class="login" href="pro" data-brand="platform">Pro</a><a class="btn2" href="#follow">Get the Weekly Edition</a></div>
 <button class="menu" id="menu" aria-expanded="false" aria-controls="nav">Menu</button>
 </div></header>
 
 <main>
-<section class="stmt"><div class="wrap"><h2>All things <span class="v">sport</span> business.</h2><p>Partnerships, news and analysis. Global &amp; ANZ.</p></div></section>
-<section class="hero lt" id="latest"><div class="wrap">
-<div class="hero-top"><span class="lbl">Key stories</span><span style="display:flex;gap:20px;align-items:center"><span class="lbl mute" id="heroCount"></span><a class="more" href="news?f=feature">All features →</a></span></div>
-<div class="ks" id="ks"><div class="kt k1"><h1 id="heroHead" class="skel" aria-busy="true"><span class="sr">Loading</span></h1><p class="dek" id="heroDek"></p></div></div>
+<section class="lt"><div class="wrap">
+<div class="lt-h"><h1 class="c">Sport business, <span class="vb">today.</span></h1><span class="lbl mute-l" id="today"></span></div>
+<div class="lt-g">
+<div class="lt-n">
+<div class="s2h sm"><div><span class="lbl mute-l">News and features</span></div><a class="more" href="news">All news →</a></div>
+<div id="stories"></div>
+</div>
+<div class="lt-p">
+<div class="s2h sm"><div><span class="lbl mute-l">Latest partnerships</span></div><a class="more" href="partnerships">All partnerships →</a></div>
+<div class="sw" id="opList"><div class="op-r"><span class="skel2" style="grid-column:1/-1;height:44px"></span></div><div class="op-r"><span class="skel2" style="grid-column:1/-1;height:44px"></span></div></div>
+</div>
+</div>
 </div></section>
 
-
-<section class="sec"><div class="wrap">
-<div class="sh"><div><span class="lbl mute-l">Latest round-up</span><h2 class="disp">Also signed.</h2></div><span class="lbl mute-l" id="rCount"></span></div>
-<div class="grid" id="roundup"></div>
+<section class="s2 db"><div class="wrap">
+<div class="s2h"><div><span class="lbl mute-l">The ANZ sport partnerships database</span><h2 class="c">Who backs <span class="vb">who</span> in ANZ sport.</h2></div></div>
+<p class="sub">Search any club, league, event or brand. Every partnership is checked against the official announcement, with the source and the date.</p>
+<form class="srch2" id="sf" role="search" action="properties">
+<label class="sr" for="q" style="position:absolute;left:-9999px">Search a club, league or brand</label>
+<input id="q" name="q" type="search" autocomplete="off" placeholder="Search a club, league or brand" aria-autocomplete="list" aria-controls="res">
+<button class="btn2 ink" type="submit">Search</button>
+<div class="res" id="res" role="listbox" hidden></div>
+</form>
+<div class="pop" id="pop"><span>Popular:</span></div>
+<div class="nums hxn">
+<div><b id="pfN">-</b><span>Global partnerships on file</span></div>
+<div><b id="pfB">-</b><span>Global brands tracked</span></div>
+<div><b id="pfA">-</b><span>ANZ partnerships on file</span></div>
+<div><b id="pfP">-</b><span>ANZ properties checked</span></div>
+</div>
 </div></section>
 
-<section class="sec" id="statsSec" hidden style="padding-top:0"><div class="wrap">
-<div class="sh"><div><span class="lbl mute-l">The database</span><h2 class="disp">By the numbers.</h2></div><a class="more" href="partnerships">Browse every partnership →</a></div>
-<div class="sts" id="stats"></div>
+<section class="s2"><div class="wrap">
+<div class="s2h"><div><span class="lbl mute-l">Who backs each club</span><h2 class="c">League maps.</h2></div><a class="more" href="leagues">All league maps →</a></div>
+<div class="lgm w5" id="lgm"></div>
+</div></section>
+<section class="s2"><div class="wrap">
+<div class="s2h"><div><span class="lbl mute-l">Our key markets</span><h2 class="c">The biggest leagues.</h2></div><a class="more" href="partnerships">Every partnership →</a></div>
+<div class="ph3">
+<a href="leagues?league=AFL" style="--img:url('/assets/img/u/photo-1663832886113-3d55ed62d1ca.jpg')"><span class="lbl">Australia &amp; NZ</span><b>AFL</b><span class="n" id="wAFL">-</span></a>
+<a href="leagues?league=Premier%20League" style="--img:url('/assets/img/u/photo-1629217855633-79a6925d6c47.jpg')"><span class="lbl">United Kingdom</span><b>Premier League</b><span class="n" id="wEPL">-</span></a>
+<a href="leagues?league=NFL" style="--img:url('/assets/img/u/photo-1696542095251-2dff09ec6b5b.jpg')"><span class="lbl">United States</span><b>NFL</b><span class="n" id="wNFL">-</span></a>
+</div>
 </div></section>
 
 <!-- follow:start -->
 <section class="sf" id="follow"><div class="sf-w">
-<div class="sf-r"><div><h2>All things sport business.</h2><p>Partnerships, news and analysis on LinkedIn and Instagram.</p></div>
-<div class="sf-a"><a class="sf-b" href="https://www.linkedin.com/company/sportsportsport/" target="_blank" rel="noopener">LinkedIn</a><a class="sf-b sf-o" href="https://www.instagram.com/sportsportsport.hq/" target="_blank" rel="noopener">Instagram</a></div></div>
-<div class="sf-n" id="nl"><p><b>The Weekly Edition.</b> Every partnership from the week, in your inbox Monday mornings.</p><div class="nl-f" id="nlF"><span class="sf-b sf-soon" aria-disabled="true">Coming soon</span></div></div>
+<div class="sf-r"><div><h2>The Weekly Edition.</h2><p>Every partnership from the week, in your inbox Monday mornings.</p></div>
+<div class="sf-a"><span class="sf-b sf-soon" aria-disabled="true">Coming soon</span><a class="sf-b sf-o" href="https://www.linkedin.com/company/sportsportsport/" target="_blank" rel="noopener">LinkedIn</a><a class="sf-b sf-o" href="https://www.instagram.com/sportsportsport.hq/" target="_blank" rel="noopener">Instagram</a></div></div>
 </div></section>
 <!-- follow:end -->
 </main>
 
-<footer class="dk" id="about"><div class="wrap">
-<div class="ft"><div><a href="./" class="logo logo-ft" aria-label="Sport Sport Sport home"><img src="assets/wordmark-black.svg" alt="Sport Sport Sport" width="120" height="90"></a>
-<p class="mute" style="margin:28px 0 0;font-size:16px;max-width:420px;line-height:1.5">The sponsorships and partnerships moving sport. Global &amp; ANZ.</p></div>
-<nav class="ft-l" aria-label="Footer"><span id="ftLi" style="display:contents"></span><a href="news">News</a><a href="partnerships">Partnerships</a><a href="brands">Brands</a><a href="properties">Properties</a><a href="insights">Insights</a><a href="renewals">Renewal watch</a><a href="categories">Categories</a><a href="leagues">League maps</a></nav></div>
-<div class="ft-b"><span>Filed in Melbourne.</span><span>© <span id="yr">2026</span> Sport Sport Sport</span></div>
+<footer class="v2"><div class="wrap">
+<div class="ft"><div><a href="./" class="logo brand-logo" aria-label="Sport Sport Sport home"><img src="assets/wordmark-black.svg" alt="Sport Sport Sport" width="120" height="90"></a>
+<p class="so">Who backs <span class="vb">who</span> in sport.</p></div>
+<nav class="ft-l" aria-label="Footer"><a href="partnerships">Partnerships</a><a href="brands">Brands</a><a href="properties">Properties</a><a href="leagues">League maps</a><a href="categories">Categories</a><a href="news">News</a><a href="insights">Insights</a></nav></div>
+<div class="ft-b"><span>Filed in Melbourne.</span><span>© <span id="yr">2026</span> <span data-brand="name">Sport Sport Sport</span></span></div>
 </div></footer>
 
-<script>if(location.hash==="#archive"&&!document.getElementById("list"))location.replace("partnerships"+location.search);</script>
 <script src="assets/logos.js?v=9"></script>
-<script src="assets/pills.js?v=2"></script>
+<script src="assets/data.js?v=8"></script>
 <script>
 (function(){
 const $=id=>document.getElementById(id);
-const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-const PAGE=15;
-let DEALS=[],ORIG=[],SITE={},FEATS=[],shown=PAGE;
-const ARCH=!!$("list");
-const st={sport:"All",type:"",reg:"",days:"",ent:"",q:""};
-const L=window.SSSLogos;let csTab="";
-const sortKey=d=>d.date||((d.month||"0000-00")+"-00");
-// "date" = when the deal was announced; "added" = when it was posted here (the edition date).
-const pKey=d=>d.added||d.date;
-const asPosted=d=>({date:pKey(d)});
-const dObj=d=>d.date?new Date(d.date+"T00:00:00"):null;
-const fmtShort=d=>!d.date&&!d.month?"Current":d.date?dObj(d).toLocaleDateString("en-AU",{day:"2-digit",month:"short"}):new Date(d.month+"-01T00:00:00").toLocaleDateString("en-AU",{month:"short",year:"numeric"});
-const fmtArch=d=>!d.date&&!d.month?(d.announced?"Since "+new Date(d.announced+"T00:00:00").toLocaleDateString("en-AU",{month:"short",year:"numeric"}):"Current partner"):d.date?dObj(d).toLocaleDateString("en-AU",{day:"2-digit",month:"short",year:"numeric"}):new Date(d.month+"-01T00:00:00").toLocaleDateString("en-AU",{month:"short",year:"numeric"});
-const fmtLong=d=>dObj(d).toLocaleDateString("en-AU",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
-const fmtDots=d=>{const x=dObj(d);return String(x.getDate()).padStart(2,"0")+"."+String(x.getMonth()+1).padStart(2,"0")+"."+String(x.getFullYear()).slice(2)};
-const tags=d=>`<span class="tag">${esc(d.sport)}</span>${d.type?`<span class="tag">${esc(d.type)}</span>`:""}<span class="tag r">${esc(d.market||d.region)}</span>`;
-const href=d=>d.slug&&d.article?{h:`articles/${encodeURIComponent(d.slug)}`,ext:false}:null;
-const attrs=d=>{const x=href(d);return x?` href="${esc(x.h)}"${x.ext?' target="_blank" rel="noopener"':""}`:""};
-const link=(d,label)=>href(d)?`<a${attrs(d)} class="more">${label}</a>`:"";
+const S=window.SSSData,L=window.SSSLogos,esc=L.esc;
+const now=new Date(),yr=now.getFullYear();
+$("yr").textContent=yr;
+$("menu").onclick=()=>{const o=$("nav").classList.toggle("open");$("menu").setAttribute("aria-expanded",o);$("menu").textContent=o?"Close":"Menu"};
+const fmtD=s=>new Date(s+"T00:00:00").toLocaleDateString("en-AU",{day:"numeric",month:"short"});
+const live=d=>d.status!=="Ended"&&!d.ended;
+const cov=fetch("coverage.json",{cache:"no-cache"}).then(r=>r.ok?r.json():{}).catch(()=>({}));
+const feats=fetch("features.json",{cache:"no-cache"}).then(r=>r.ok?r.json():{}).catch(()=>({}));
+Promise.all([S.load(),cov,feats]).then(([D,C,F])=>{
+  const all=D.deals,anz=all.filter(d=>S.mkt(d)==="ANZ");
+  const props=(C.properties||[]).filter(p=>p.country==="AU"||p.country==="NZ");
+  const last=all.map(d=>d.verified||"").sort().pop()||"";
+  $("pfN").textContent=all.length.toLocaleString("en-AU");
+  $("pfB").textContent=D.brands.length.toLocaleString("en-AU");
+  $("pfP").textContent=props.length.toLocaleString("en-AU");
+  $("pfA").textContent=anz.length.toLocaleString("en-AU");
+  
 
-// Club colours: same list the Instagram stories use (instagram/colours.json). Matched on the property side of the deal.
-let CLUBS=[];
-const cnorm=x=>String(x||"").normalize("NFKD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/\(.*?\)/g," ").replace(/[^a-z0-9]+/g," ").trim();
-const lum=h=>{const v=h.replace("#","").match(/../g).map(x=>{x=parseInt(x,16)/255;return x<=.03928?x/12.92:Math.pow((x+.055)/1.055,2.4)});return .2126*v[0]+.7152*v[1]+.0722*v[2]};
-function clubCols(d){
-  const p=cnorm(String(d.deal||"").split(/\s+[x×]\s+/).slice(1).join(" ")||d.deal);let best=null;
-  for(const t of CLUBS)for(const n0 of t.names||[]){const n=cnorm(n0);if(!n)continue;
-    const hit=p===n||(n.length>3&&new RegExp("\\b"+n.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")+"\\b").test(p));
-    if(hit&&(!best||n.length>best[0]))best=[n.length,t.colours]}
-  return best?best[1]:null;
-}
-// Pick strip colours that actually show up on the tile (white tiles skip near-white, the black lead tile skips near-black).
-function stripVars(d,dark){
-  if(d.feature)return "";
-  const c=(clubCols(d)||[]).filter(h=>/^#[0-9a-f]{6}$/i.test(h));
-  const ok=h=>dark?lum(h)>.03:lum(h)<.75;
-  const use=c.filter(ok);
-  if(!use.length)return "";
-  return ` style="--c1:${use[0]}"`;
-}
-// Tile photos: a local file in assets/, or an Unsplash photo (loaded straight from Unsplash, sized for the tile).
-function imgUrl(d,w){
-  const x=String(d.image||"");
-  if(/^assets\/[\w\/.-]+$/.test(x))return `url('${x}')`;
-  const m=x.match(/^https:\/\/images\.unsplash\.com\/(photo-[\w-]+)/);
-  // Site copy first (works where Unsplash is blocked), Unsplash underneath in case the copy isn't there yet.
-  return m?`url('assets/img/u/${m[1]}.jpg'), url('https://images.unsplash.com/${m[1]}?w=${w}&q=75&auto=format&fit=crop')`:"";
-}
-function hero(){
-  const dated=DEALS.filter(d=>d.date);
-  const leads=dated.filter(d=>d.lead).sort((a,b)=>pKey(b).localeCompare(pKey(a)));
-  const lead=leads[0]||dated[0];
-  if(!lead)return null;
-  // Newest article first (by the day it went up here), then back through the archive.
-  // Features (features.json) sit in the same pool as the deal articles.
-  let pool=[...dated.filter(d=>d.article),...FEATS].sort((a,b)=>pKey(b).localeCompare(pKey(a))||(b.lead?1:0)-(a.lead?1:0)).slice(0,8);
-  if(!pool.length)pool=[lead];
-  const big=d=>{const x=href(d),tag=x?"a":"div";
-    const im=imgUrl(d,1600);const sv=stripVars(d,true);
-    return `<${tag} class="kt k1${im?" img":""}"${attrs(d)}${im?` style="--img:${esc(im)}${sv?";"+sv.slice(8,-1):""}"`:sv}><span class="kd">${d.feature?esc(d.label||"Feature"):"Latest"} · ${esc(fmtLong(asPosted(d)))}</span><h1>${esc(d.headline||d.deal)}</h1><p class="kx">${esc(d.deal+(d.type?" · "+d.type:""))}</p>${d.summary?`<p class="dek">${esc(d.summary)}</p>`:""}<div class="kf"><div class="tags">${tags(d)}</div>${x?`<span class="more">Read the full story →</span>`:""}</div></${tag}>`};
-  const small=(d,i)=>{const tag=href(d)?"a":"div";
-    const im=imgUrl(d,800);
-    const sv=stripVars(d,false);
-    return `<${tag} class="kt k${i+1}${im?" img":""}"${attrs(d)}${im?` style="--img:${esc(im)}${sv?";"+sv.slice(8,-1):""}"`:sv}><span class="kd">${d.feature?esc(d.label||"Feature")+" · ":""}${esc(fmtShort(asPosted(d)))} · ${esc(d.sport)}</span><h2>${esc(d.headline||d.deal)}</h2><p class="kx">${esc(d.deal)}</p></${tag}>`};
-  $("ks").innerHTML=pool.map((d,i)=>i?small(d,i):big(d)).join("");
-  $("heroCount").textContent=`${pool.length} latest stories`;
-  return lead;
-}
-function roundup(lead){
-  const same=ORIG.filter(d=>d.date&&pKey(d)===pKey(lead)&&d!==lead).slice(0,5);
-  $("rCount").textContent=`${same.length} partnership${same.length===1?"":"s"} · ${fmtDots(asPosted(lead))}`;
-  const card=d=>{const tag=href(d)?"a":"div";
-    return `<${tag} class="card"${attrs(d)}>${d._b?`<div class="cl">${L.pair(d,{px:44})}</div>`:""}<div class="tags"><span class="tag">${esc(d.sport)}</span><span class="tag r">${esc(d.market||d.region)}</span></div><h3>${esc(d.deal)}</h3><p>${esc(d.summary||d.type||"")}</p>${href(d)?`<span class="more">${d.article?"Read the story →":"Read →"}</span>`:""}</${tag}>`};
-  $("roundup").innerHTML=same.map(card).join("")+`<a href="partnerships" class="card all" style="--span:${3-(same.length%3)}"><span class="lbl">The database</span><h3>Every partnership. Since day one.</h3><span class="more">Browse the database →</span></a>`;
-}
-function features(){
-  if(!FEATS.length)return;
-  const list=FEATS.slice().sort((a,b)=>b.date.localeCompare(a.date)).slice(0,6);
-  $("fCount").textContent=`${FEATS.length} feature${FEATS.length===1?"":"s"}`;
-  $("fList").innerHTML=list.map((d,i)=>`<a class="card${i===list.length-1&&list.length%3?' fill':''}"${i===list.length-1&&list.length%3?` style="--span:${4-(list.length%3)}"`:""}${attrs(d)}><div class="tags"><span class="tag">${esc(d.sport)}</span>${d.region?`<span class="tag r">${esc(d.market||d.region)}</span>`:""}</div><h3>${esc(d.headline)}</h3><p>${esc(d.summary||d.deal||"")}</p><span class="more">Read the feature →</span></a>`).join("");
-  $("features").hidden=false;
-}
-function columns(){
-  const row=d=>`<${href(d)?"a":"div"} class="row"${attrs(d)}><span class="d">${esc(fmtShort(d))}</span><span><b>${esc(d.deal)}</b><span class="x">${esc(d.sport)}${d.summary||d.type?" · "+esc(d.summary||d.type):""}</span></span></${href(d)?"a":"div"}>`;
-  $("gList").innerHTML=DEALS.filter(d=>(d.market||d.region)!=="ANZ").slice(0,4).map(row).join("");
-  $("aList").innerHTML=DEALS.filter(d=>(d.market||d.region)==="ANZ").slice(0,4).map(row).join("");
-}
-function newsletter(){
-  // Set "newsletter": {"embed": "https://embeds.beehiiv.com/<id>"} in deals.json "site" to switch this on.
-  const n=SITE.newsletter||{}, u=String(n.embed||"");
-  if(!/^https:\/\/embeds\.beehiiv\.com\/[A-Za-z0-9-]+/.test(u))return; // keeps the "Coming soon" button
-  const src=u+(u.includes("?")?"&":"?")+"slim=true";
-  $("nlF").innerHTML=`<iframe src="${esc(src)}" title="Subscribe to the Sport Sport Sport Weekly Edition" loading="lazy" scrolling="no"></iframe><small>No spam. Unsubscribe any time.</small>`;
-}
-function follow(){
-  const li=SITE.linkedin, ig=SITE.instagram;
-  const fb=(li?`<a class="btn" href="${esc(li)}" target="_blank" rel="noopener">Follow on LinkedIn</a>`:"")+(ig?`<a class="btn btn-o" href="${esc(ig)}" target="_blank" rel="noopener">Follow on Instagram</a>`:"");
-  if($("foA"))$("foA").innerHTML=fb?`${fb}<p>The latest partnerships, news and analysis from global and ANZ sport business.</p>`:`<p>Socials coming soon.</p>`;
-  $("ftLi").innerHTML=(li?`<a href="${esc(li)}" target="_blank" rel="noopener">LinkedIn</a>`:"")+(ig?`<a href="${esc(ig)}" target="_blank" rel="noopener">Instagram</a>`:"");
-}
-function filters(){
-  const sports=["All",...[...new Set(DEALS.map(d=>d.sport))].sort()];
-  $("pills").innerHTML=sports.map(s=>`<button type="button" class="pill${s===st.sport?" on":""}" data-s="${esc(s)}" aria-pressed="${s===st.sport}">${esc(s)}</button>`).join("");
-  [...new Set(DEALS.map(d=>d.type).filter(Boolean))].sort().forEach(t=>$("fType").insertAdjacentHTML("beforeend",`<option>${esc(t)}</option>`));
-}
-function render(){
-  const latest=DEALS.find(d=>d.date);const now=latest?dObj(latest):new Date();
-  const r=DEALS.filter(d=>(st.sport==="All"||d.sport===st.sport)&&(!st.type||d.type===st.type)&&(!st.reg||(st.reg==="Intl"?(d.market||d.region)!=="ANZ":(d.market||d.region)===st.reg))&&(!st.days||(d.date&&(now-dObj(d))/864e5<=+st.days))&&(!st.ent||L.has(d,st.ent))&&(!st.q||(d.deal+" "+(d.summary||"")+" "+(d.sport||"")).toLowerCase().includes(st.q)));
-  $("list").innerHTML=r.slice(0,shown).map(d=>{
-    const name=href(d)?`<a${attrs(d)}><b>${esc(d.deal)}</b></a>`:`<b>${esc(d.deal)}</b>`;
-    const pair=d._b?L.pair(d,{px:40}):"";
-    return `<div class="ar-r"><span class="d">${esc(fmtArch(d))}</span><span class="dl">${pair}${name}</span><span class="s">${esc(d.sport)}</span><span class="t">${esc(d.type||"")}</span><span><span class="tag r">${esc(d.market||d.region)}</span></span></div>`}).join("");
-  $("empty").hidden=r.length>0;
-  $("count").textContent=`${r.length} of ${DEALS.length} partnerships`;
-  $("moreBtn").parentElement.hidden=r.length<=shown;
-}
-// The week in numbers: a quick read on the archive, linking through to Deals.
-function stats(){
-  const dated=DEALS.filter(d=>d.date);const latest=dated[0];if(!latest)return;const now=dObj(latest);
-  const inDays=n=>dated.filter(d=>(now-dObj(d))/864e5<n);
-  const wk=inDays(7),mo=inDays(30);
-  const top=Object.entries(mo.reduce((a,d)=>(a[d.sport]=(a[d.sport]||0)+1,a),{})).sort((a,b)=>b[1]-a[1])[0];
-  const brands=new Set();DEALS.forEach(d=>(d._bs||[]).forEach(e=>e&&brands.add(e.slug)));
-  const cells=[[DEALS.length.toLocaleString("en-AU"),"Partnerships in the database"],[wk.length,"Partnerships announced in the last 7 days"],[top?top[0]:"-","Busiest sport, last 30 days"],[brands.size?brands.size.toLocaleString("en-AU"):"-","Brands tracked"]];
-  $("stats").innerHTML=cells.map(([n,l])=>`<a class="st" href="partnerships"><b>${esc(n)}</b><span>${esc(l)}</span></a>`).join("");
-  $("statsSec").hidden=false;
-}
-// Most active this year: top brands and properties by deals filed, linking to their pages.
-function active(){
-  const y=String(new Date().getFullYear()),cb=new Map(),cp=new Map();
-  DEALS.forEach(d=>{if(!sortKey(d).startsWith(y))return;
-    d._bs.forEach(e=>{if(e){const m=cb.get(e.slug)||{e,n:0};m.n++;cb.set(e.slug,m)}});
-    d._ps.forEach(e=>{if(e){const m=cp.get(e.slug)||{e,n:0};m.n++;cp.set(e.slug,m)}})});
-  const row=m=>[...m.values()].sort((a,b)=>b.n-a.n||a.e.name.localeCompare(b.e.name)).slice(0,6)
-    .map(x=>`<a class="act" href="${L.esc(L.page(x.e.slug))}">${L.mark(x.e,{px:48})}<b>${L.esc(x.e.name)}</b><span>${x.n} partnerships</span></a>`).join("");
-  $("actYr").textContent=y;$("actB").innerHTML=row(cb);$("actP").innerHTML=row(cp);$("active").hidden=!cb.size;
-}
-// Club and brand strip: league tabs, a row of crests; tapping one filters the archive to that club or brand.
-function strip(){
-  const count={};
-  DEALS.forEach(d=>[...d._bs,...d._ps].forEach(e=>{if(e)count[e.slug]=(count[e.slug]||0)+1}));
-  const top=(side,reg)=>{const c={};DEALS.forEach(d=>{if(reg&&(reg==="Global"?(d.market||d.region)==="ANZ":d.region!==reg))return;(d[side+"s"]||[]).forEach(e=>{if(e)c[e.slug]=(c[e.slug]||0)+1})});
-    return Object.entries(c).filter(([s,n])=>n>1).sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0])).slice(0,16).map(([s])=>s)};
-  const tabs=[...L.leagues().map(l=>({name:l.name,ids:l.clubs})),{name:"International clubs",ids:top("_p","Global")},{name:"Top brands",ids:top("_b")}].filter(t=>t.ids.length);
-  if(!tabs.length)return;
-  csTab=tabs[0].name;
-  const draw=()=>{
-    const t=tabs.find(x=>x.name===csTab)||tabs[0];
-    $("csTabs").innerHTML=tabs.map(x=>`<button type="button" class="pill${x.name===t.name?" on":""}" data-t="${esc(x.name)}" aria-pressed="${x.name===t.name}">${esc(x.name)}</button>`).join("");
-    $("csRow").innerHTML=t.ids.map(id=>{const e=L.byId(id)||L.resolve(id);const n=count[id]||0;
-      return `<button type="button" class="cr${st.ent===id?" on":""}" data-id="${esc(id)}" aria-pressed="${st.ent===id}"${n?"":" disabled"}>${L.mark(e,{px:52})}<span class="n">${esc(e.name)}</span><span class="k">${n?n+" partnership"+(n===1?"":"s"):"No partnerships yet"}</span></button>`}).join("");
-    const on=st.ent&&(L.byId(st.ent));
-    $("csOn").hidden=!on;
-    $("csOn").innerHTML=on?`<span>Showing <b>${esc(on.name)}</b> partnerships</span><a class="more" href="${esc(L.page(st.ent))}">See the ${esc(on.name)} page →</a><button type="button" class="x" id="csX">Clear</button>`:"";
-  };
-  $("csTabs").onclick=e=>{const b=e.target.closest("[data-t]");if(!b)return;csTab=b.dataset.t;draw()};
-  $("csRow").onclick=e=>{const b=e.target.closest("[data-id]");if(!b||b.disabled)return;st.ent=st.ent===b.dataset.id?"":b.dataset.id;shown=PAGE;draw();render()};
-  $("csOn").onclick=e=>{if(e.target.id==="csX"){st.ent="";shown=PAGE;draw();render()}};
-  draw();$("cs").hidden=false;
-}
-function wire(){
-  if(ARCH){
-  $("pills").onclick=e=>{const b=e.target.closest(".pill");if(!b)return;st.sport=b.dataset.s;shown=PAGE;$("pills").querySelectorAll(".pill").forEach(p=>{p.classList.toggle("on",p===b);p.setAttribute("aria-pressed",p===b)});render()};
-  $("fType").onchange=e=>{st.type=e.target.value;shown=PAGE;render()};
-  $("fReg").onchange=e=>{st.reg=e.target.value;shown=PAGE;render()};
-  $("fDate").onchange=e=>{st.days=e.target.value;shown=PAGE;render()};
-  $("moreBtn").onclick=()=>{shown+=PAGE;render()};
-  if($("fQ"))$("fQ").oninput=e=>{st.q=e.target.value.trim().toLowerCase();shown=PAGE;render()};
-  }
-  $("menu").onclick=()=>{const o=$("nav").classList.toggle("open");$("menu").setAttribute("aria-expanded",o);$("menu").textContent=o?"Close":"Menu"};
-  $("nav").onclick=e=>{if(e.target.tagName==="A"){$("nav").classList.remove("open");$("menu").setAttribute("aria-expanded","false");$("menu").textContent="Menu"}};
-  $("yr").textContent=new Date().getFullYear();
-}
-// Features are optional: if features.json is missing the page carries on with deals only.
-const featsP=fetch("features.json",{cache:"no-cache"}).then(r=>r.ok?r.json():{}).then(j=>{
-  FEATS=(j.features||[]).filter(f=>f.slug&&f.article&&f.date&&f.headline).map(f=>({date:f.date,added:f.date,headline:f.headline,
-    deal:f.descriptor||"",sport:f.topic||f.sport||"Feature",region:f.region||"",slug:f.slug,article:true,image:f.image,
-    summary:f.article.standfirst,feature:true,label:f.label||"Feature"}))}).catch(()=>{});
-const clubsP=fetch("instagram/colours.json").then(r=>r.ok?r.json():{}).then(j=>{CLUBS=j.teams||[]}).catch(()=>{});
-const logosP=L?L.load().catch(()=>{}):Promise.resolve();
-fetch("deals.json",{cache:"no-cache"}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(data=>Promise.all([clubsP,featsP,logosP]).then(()=>data)).then(data=>{
-  SITE=data.site||{};
-  ORIG=data.deals||[];
-  DEALS=ORIG.slice().sort((a,b)=>sortKey(b).localeCompare(sortKey(a))||(b.lead?1:0)-(a.lead?1:0));
-  if(L)DEALS.forEach(d=>L.tag(d));
-  const q=new URLSearchParams(location.search).get("club");if(q&&L&&L.byId(q))st.ent=q;
-  if($("ks")){const lead=hero();if(lead)roundup(lead)}
-  if($("fList"))features();if($("gList"))columns();follow();if($("nlF"))newsletter();if($("stats"))stats();
-  if(ARCH){const p=new URLSearchParams(location.search);let rg=p.get("reg");if(rg==="Global"&&!p.get("market"))rg="Intl";if(p.get("market"))rg=p.get("market");if(rg&&[...$("fReg").options].some(o=>o.value===rg)){st.reg=rg;$("fReg").value=rg}const sp=p.get("sport");if(sp)st.sport=sp;filters();if(L)strip()}
-  if(L&&$("active"))active();wire();if(ARCH)render();
-}).catch(()=>{const h=$("heroHead"),k=$("heroDek");if(h){h.classList.remove("skel");h.removeAttribute("aria-busy")}if(h)h.textContent="Partnerships unavailable";if(k)k.textContent="The partnerships file didn't load. Refresh to try again.";wire();});
+  // Search: every brand and property, best matches first (name starts with the query, then most partnerships).
+  const orgs=[...D.brands,...D.props];
+  let hits=[],sel=-1;
+  const draw=()=>{$("res").innerHTML=hits.map((m,i)=>`<a href="${esc(L.page(m.e.slug))}" role="option"${i===sel?' class="on" aria-selected="true"':""}>${L.mark(m.e,{px:32})}<b>${esc(m.e.name)}</b><span>${m.kind==="brand"?"Brand":"Property"} · ${m.n} partnership${m.n===1?"":"s"}</span></a>`).join("");$("res").hidden=!hits.length};
+  $("q").oninput=e=>{const q=e.target.value.trim().toLowerCase();sel=-1;
+    if(q.length<2){hits=[];draw();return}
+    const nm=m=>[m.e.name,...(m.e.aliases||[])].join(" ").toLowerCase();
+    hits=orgs.filter(m=>nm(m).includes(q)).sort((a,b)=>(b.e.name.toLowerCase().startsWith(q)?1:0)-(a.e.name.toLowerCase().startsWith(q)?1:0)||b.n-a.n).slice(0,8);draw()};
+  $("q").onkeydown=e=>{if(!hits.length)return;
+    if(e.key==="ArrowDown"){e.preventDefault();sel=(sel+1)%hits.length;draw()}
+    else if(e.key==="ArrowUp"){e.preventDefault();sel=(sel-1+hits.length)%hits.length;draw()}
+    else if(e.key==="Escape"){hits=[];draw()}};
+  $("sf").onsubmit=e=>{const h=hits[sel<0?0:sel];if(h){e.preventDefault();location.href=L.page(h.e.slug)}};
+  document.addEventListener("click",e=>{if(!e.target.closest("#sf")){hits=[];draw()}});
+
+  // Popular: the four Tier 1 ANZ properties and three ANZ brands with the most partnerships this year.
+  const yrDeals=m=>m.deals.filter(x=>S.sortKey(x.d).startsWith(String(yr))).length;
+  const t1=new Set(props.filter(p=>p.tier===1).map(p=>p.name.toLowerCase()));
+  const anzP=D.props.filter(m=>t1.has(m.e.name.toLowerCase())).sort((a,b)=>b.n-a.n).slice(0,4);
+  const anzB=D.brands.filter(m=>m.markets.has("ANZ")).sort((a,b)=>yrDeals(b)-yrDeals(a)||b.n-a.n).slice(0,4);
+  $("pop").insertAdjacentHTML("beforeend",[...anzP,...anzB].map(m=>`<a href="${esc(L.page(m.e.slug))}">${esc(m.e.name)}</a>`).join(""));
+
+  // Latest partnerships: the newest announced partnerships, every market.
+  $("today").textContent=now.toLocaleDateString("en-AU",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
+  const sig=all.filter(d=>d.date).sort((a,b)=>b.date.localeCompare(a.date)).slice(0,10);
+  $("opList").innerHTML=sig.map(d=>`<div class="op-r"><span class="k nw"><i></i>${esc(d.status==="New"?"New partnership":d.status)} · ${esc(S.mkt(d))} · ${esc(fmtD(d.date))}</span>${L.pair(d,{px:34})}<span><b>${esc(d.deal)}</b><span class="x">${esc(d.sport)} · ${esc(d.tier||d.type)}</span></span>${d.url?`<a class="more" href="${esc(d.url)}" target="_blank" rel="noopener">Source</a>`:""}</div>`).join("");
+
+  // League maps: the ANZ leagues with the most clubs on file.
+  const lg=(D.lgAll||[]).filter(l=>l.market==="ANZ"&&l.clubs.length>=6).map(l=>({l,n:D.deals.filter(d=>[...d._ps].some(e=>e&&l.ids.has(e.slug))&&live(d)).length})).sort((a,b)=>b.n-a.n).slice(0,10);
+  $("lgm").innerHTML=lg.map(({l,n})=>`<a href="leagues?league=${encodeURIComponent(l.name)}"><span class="sp">${esc(l.sport)}</span><b>${esc(l.name)}</b><span>${l.clubs.length} clubs · ${n.toLocaleString("en-AU")} partnerships</span></a>`).join("");
+
+  // Stories: newest article with a photo big, then two more.
+  const img=d=>{const x=String(d.image||"");const m=x.match(/^https:\/\/images\.unsplash\.com\/(photo-[\w-]+)/);
+    return /^assets\//.test(x)?`url('/${x}')`:m?`url('/assets/img/u/${m[1]}.jpg'), url('https://images.unsplash.com/${m[1]}?w=1200&q=75&auto=format&fit=crop')`:""};
+  const arts=[...all.filter(d=>d.article&&d.slug&&d.date),...(F.features||[]).filter(f=>f.slug&&f.article&&f.date).map(f=>({date:f.date,headline:f.headline,deal:f.descriptor||"",summary:(f.article||{}).standfirst,slug:f.slug,article:true,image:f.image,label:f.label||"Feature"}))]
+    .sort((a,b)=>b.date.localeCompare(a.date));
+  const top=arts.find(d=>img(d))||arts[0];
+  const rest=arts.filter(d=>d!==top).slice(0,2);
+  if(top)$("stories").innerHTML=`<a class="story" href="articles/${encodeURIComponent(top.slug)}" style="--img:${esc(img(top))}"><span class="kd">${esc(top.label||"Latest")} · ${esc(fmtD(top.date))}</span><h3 class="c">${esc(top.headline||top.deal)}</h3>${top.summary?`<p>${esc(top.summary)}</p>`:""}<span class="more">Read the story →</span></a>`+
+    rest.map(d=>`<a class="st3" href="articles/${encodeURIComponent(d.slug)}">${img(d)?`<span class="im" style="background-image:${esc(img(d))}"></span>`:""}<span>${esc(d.label||"Partnership")} · ${esc(fmtD(d.date))}</span><b>${esc(d.headline||d.deal)}</b>${d.summary?`<p>${esc(d.summary)}</p>`:""}</a>`).join("");
+
+
+  // Photo breaks: live counts.
+  // (ANZ photo band removed; ANZ count shows in the stats strip)
+  const lgN=n=>{const l=(D.lgAll||[]).find(x=>x.name===n);return l?D.deals.filter(d=>d._ps.some(e=>e&&l.ids.has(e.slug))).length:0};
+  const lgT=n=>`${lgN(n).toLocaleString("en-AU")} partnerships across the league and its clubs`;
+  $("wAFL").textContent=lgT("AFL");$("wEPL").textContent=lgT("Premier League");$("wNFL").textContent=lgT("NFL");
+
+}).catch(()=>{$("opList").innerHTML=`<div class="op-r"><span style="grid-column:1/-1">The partnerships file didn't load. Refresh to try again.</span></div>`});
 })();
 </script>
 </body>

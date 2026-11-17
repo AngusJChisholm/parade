@@ -211,7 +211,7 @@ def build_features(deals, tpl, out_dir, follow):
             .replace("{{YEAR}}", f["date"][:4])
             .replace("{{LABEL}}", esc(f.get("label") or "Feature"))
             .replace("{{FOLLOWLBL}}", "Follow along")
-            .replace("{{FOLLOWHEAD}}", 'All things sport business. <span class="g">Partnerships, news and analysis. Global &amp; ANZ.</span>')
+            .replace("{{FOLLOWHEAD}}", 'Follow the partnerships. <span class="g">New partnerships, news and data drops. Global &amp; ANZ.</span>')
         )
         (out_dir / f'{f["slug"]}.html').write_text(page, encoding="utf-8")
         built += 1

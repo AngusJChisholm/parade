@@ -1,4 +1,4 @@
-/* Partnership Pro sign-in (pro.html).
+/* Pro sign-in (pro.html).
    With Supabase set up (assets/pro-config.js filled in):
      - members enter their email, get a one-time code by email, and type it in (no passwords)
      - access = an active row in pro_members (supabase/schema.sql), checked by is_pro(); anyone can request a
@@ -13,7 +13,7 @@
   const $=id=>document.getElementById(id);
   const C=window.SSS_SUPABASE||{};
   const LIVE=!!(C.url&&C.anonKey&&window.supabase);
-  const APP=["assets/logos.js?v=9","assets/pills.js?v=2","assets/data.js?v=4","assets/pro.js?v=18"];
+  const APP=["assets/logos.js?v=9","assets/pills.js?v=2","assets/data.js?v=4","assets/pro.js?v=20"];
   const err=t=>{$("gateE").textContent=t||""};
   const msg=t=>{$("gateMsg").textContent=t};
 
@@ -87,7 +87,7 @@
     const {data:ok,error}=await sb.rpc("is_pro");
     if(error||!ok){
       await sb.auth.signOut();view("email");
-      err(error?"Couldn't check your access. Try again.":"This account doesn't have Partnership Pro yet.");return;
+      err(error?"Couldn't check your access. Try again.":"This account doesn't have Pro access yet.");return;
     }
     window.SSSPro={json:name=>sb.storage.from("pro").download(name).then(({data,error})=>{if(error)throw error;return data.text()}).then(t=>JSON.parse(t))};
     await syncState(session.user.id);
