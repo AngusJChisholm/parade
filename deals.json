@@ -165722,8 +165722,7 @@
    "tier": "Official partner",
    "status": "New",
    "market": "Global",
-   "conf": "Unverified",
-   "verified": "2026-09-17"
+   "url": "https://www.daviscup.com/en/news/generali-serves-up-a-new-era-as-davis-cup-presenting-partner"
   },
   {
    "date": "2026-09-14",
@@ -165751,8 +165750,8 @@
    "ends": 2033,
    "value": "€120M",
    "market": "Europe",
-   "conf": "Unverified",
-   "verified": "2026-09-16"
+   "url": "https://www.slbenfica.pt/en-us/agora/noticias/2026/09/14/clube-benfica-e-adidas-renovam-parceria-ate-2033-e-anunciam-naming-adidas-benfica-campus",
+   "endsLock": true
   },
   {
    "date": "2026-09-14",
@@ -165765,8 +165764,7 @@
    "tier": "Official partner",
    "status": "Extension",
    "market": "Global",
-   "conf": "Unverified",
-   "verified": "2026-09-16"
+   "url": "https://pressroom.tissotwatches.com/fiba-and-tissot-announce-multi-year-extension-of-global-partnership/"
   },
   {
    "date": "2026-09-16",
@@ -165811,8 +165809,7 @@
    "market": "UK & Ireland",
    "ptier": "Principal partner",
    "checked": "2026-11-16",
-   "conf": "Unverified",
-   "verified": "2026-11-16"
+   "url": "https://www.sportcal.com/sponsorship/sunderland-shuffle-into-sleeve-deal-newcastle-extend-with-leovegas/"
   },
   {
    "date": "2026-09-09",
@@ -165826,21 +165823,7 @@
    "market": "UK & Ireland",
    "ptier": "Official club partner",
    "checked": "2026-11-16",
-   "conf": "Unverified",
-   "verified": "2026-11-16"
-  },
-  {
-   "date": "2026-08-10",
-   "added": "2026-09-14",
-   "deal": "Fenway Sports Group × WTGL / Boston Common Golf",
-   "sport": "Golf",
-   "type": "Franchise ownership",
-   "region": "Global",
-   "tier": "Investment & ownership",
-   "status": "New",
-   "market": "North America",
-   "conf": "Unverified",
-   "verified": "2026-09-14"
+   "url": "https://www.sportcal.com/sponsorship/sunderland-shuffle-into-sleeve-deal-newcastle-extend-with-leovegas/"
   },
   {
    "date": "2026-09-10",
@@ -165853,8 +165836,9 @@
    "tier": "Official partner",
    "status": "New",
    "market": "North America",
-   "conf": "Unverified",
-   "verified": "2026-09-14"
+   "url": "https://unlvrebels.com/news/2026/9/10/general-unlv-golf-programs-and-learfield-announce-patch-partnership-with-mgi",
+   "ends": 2027,
+   "endsLock": true
   },
   {
    "date": "2026-09-07",
@@ -165866,8 +165850,10 @@
    "tier": "Official partner",
    "status": "New",
    "market": "Asia",
-   "conf": "Unverified",
-   "verified": "2026-09-14"
+   "url": "https://hipther.com/igaming-news/2026/09/10/129928/blast-partners-with-mesa-to-host-premier-esports-in-mongolia/",
+   "ends": 2029,
+   "term": 3,
+   "endsEst": true
   },
   {
    "date": "2026-09-08",
