@@ -143294,11 +143294,9 @@
    "status": "Renewal",
    "term": 3,
    "ends": 2029,
-   "endsEst": true,
-   "needsSource": true,
    "market": "ANZ",
-   "conf": "Unverified",
-   "verified": "2026-08-18"
+   "url": "https://www.riotinto.com/en/news/releases/2026/perthlynx-and-riotinto-strengthen-commitment-to-growing-basketball",
+   "endsLock": true
   },
   {
    "date": "2026-08-18",
@@ -143834,10 +143832,8 @@
    "term": 4,
    "ends": 2030,
    "endsEst": true,
-   "needsSource": true,
    "market": "ANZ",
-   "conf": "Unverified",
-   "verified": "2026-09-08"
+   "url": "https://perthlynx.wnbl.com.au/news/a-golden-partnership-continues-northern-star-renews-as-perth-lynx-principal-partner"
   },
   {
    "date": "2026-09-08",
@@ -145923,10 +145919,9 @@
    "tier": "Principal & major",
    "status": "New",
    "ends": 2030,
-   "needsSource": true,
    "market": "ANZ",
-   "conf": "Unverified",
-   "verified": "2026-09-15"
+   "url": "https://www.bsp.com.pg/about/news-and-media/bsp-and-png-chiefs-reach-landmark-nrl-sponsorship-deal/",
+   "endsLock": true
   },
   {
    "date": "2026-09-15",
@@ -145957,12 +145952,10 @@
    "term": 5,
    "ends": 2031,
    "endsEst": true,
-   "needsSource": true,
    "market": "ANZ",
    "ptier": "Major partner",
    "checked": "2026-11-16",
-   "conf": "Unverified",
-   "verified": "2026-11-16"
+   "url": "https://www.crickettas.com.au/news/4576455/firmus-makes-landmark-investment-in-tasmanian-cricket"
   },
   {
    "date": "2026-09-15",
@@ -146041,12 +146034,10 @@
    "term": 3,
    "ends": 2029,
    "endsEst": true,
-   "needsSource": true,
    "market": "ANZ",
    "ptier": "Principal partner",
    "checked": "2026-11-16",
-   "conf": "Unverified",
-   "verified": "2026-11-16"
+   "url": "https://www.riotinto.com/en/news/releases/2026/perth-wildcats-rio-tinto-strengthen-partnership-with-three-year-extension"
   },
   {
    "date": "2026-09-15",
@@ -146306,10 +146297,8 @@
    "term": 2,
    "ends": 2028,
    "endsEst": true,
-   "needsSource": true,
    "market": "ANZ",
-   "conf": "Unverified",
-   "verified": "2026-09-22"
+   "url": "https://perthlynx.wnbl.com.au/news/alinta-energy-powers-up-wa-basketball-with-renewed-partnership-across-perth-lynx-wildcats"
   },
   {
    "date": "2026-09-22",
