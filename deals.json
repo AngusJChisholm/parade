@@ -169246,10 +169246,10 @@
    "summary": "The WA Government and Tourism WA host two Swimming Australia events in 2027.",
    "tier": "Official partner",
    "status": "New",
-   "needsSource": true,
    "market": "ANZ",
-   "conf": "Unverified",
-   "verified": "2026-09-08"
+   "url": "https://www.wa.gov.au/government/media-statements/Cook%20Labor%20Government/National-major-swimming-events-return-to-WA-in-2027-20260903",
+   "ends": 2027,
+   "endsLock": true
   },
   {
    "date": "2026-09-08",
@@ -171417,10 +171417,11 @@
    "summary": "The Seattle Seahawks and Collingwood sign a strategic partnership.",
    "tier": "Official partner",
    "status": "New",
-   "needsSource": true,
    "market": "ANZ",
-   "conf": "Unverified",
-   "verified": "2026-09-15"
+   "url": "https://www.collingwoodfc.com.au/news/2125376/magpies-and-seahawks-take-flight",
+   "ends": 2028,
+   "term": 3,
+   "endsEst": true
   },
   {
    "date": "2026-09-15",
@@ -171483,12 +171484,10 @@
    "summary": "Firmus becomes principal community partner of the JackJumpers and Jewels.",
    "tier": "Official partner",
    "status": "New",
-   "needsSource": true,
    "market": "ANZ",
    "ptier": "Community partner",
    "checked": "2026-11-16",
-   "conf": "Unverified",
-   "verified": "2026-11-16"
+   "url": "https://www.jackjumpers.com.au/news/new-principal-community-partner-welcome-to-the-team-firmus"
   },
   {
    "date": "2026-09-15",
@@ -171499,11 +171498,11 @@
    "summary": "Komo becomes Cricket Australia's audience engagement and data partner.",
    "tier": "Official partner",
    "status": "New",
-   "needsSource": true,
    "market": "ANZ",
    "ended": true,
-   "conf": "Unverified",
-   "verified": "2026-09-15"
+   "url": "https://blog.komo.tech/press/komo-and-cricket-australia-join-forces-to-improve-fan-experience",
+   "ends": 2027,
+   "endsLock": true
   },
   {
    "date": "2026-09-15",
@@ -171601,10 +171600,10 @@
    "summary": "Suzuki Australia is an official partner of the 2026 AUSX Open.",
    "tier": "Official partner",
    "status": "New",
-   "needsSource": true,
    "market": "ANZ",
-   "conf": "Unverified",
-   "verified": "2026-09-15"
+   "url": "https://adbmag.com.au/editorial/suzuki-australia-joins-2026-ausx-open-supercross/",
+   "ends": 2026,
+   "endsLock": true
   },
   {
    "date": "2026-09-15",
@@ -171615,10 +171614,8 @@
    "summary": "STRAUSS becomes an official NFL partner in Australia and Europe.",
    "tier": "Official partner",
    "status": "New",
-   "needsSource": true,
    "market": "ANZ",
-   "conf": "Unverified",
-   "verified": "2026-09-15"
+   "url": "https://presse.strauss.com/en-ch/blogs/news/von-melbourne-nach-munchen-strauss-baut-nfl-partnerschaft-aus"
   },
   {
    "date": "2026-09-22",
@@ -171835,10 +171832,8 @@
    "summary": "SkyCity Auckland is an official partner of AUSX Supercross.",
    "tier": "Official partner",
    "status": "New",
-   "needsSource": true,
    "market": "ANZ",
-   "conf": "Unverified",
-   "verified": "2026-09-22"
+   "url": "https://ausxsupercross.com.au/news/ausx-supercross-and-skycity-partner-to-drive-auckland-visitation-ahead-of-championship-return/"
   },
   {
    "date": "2026-09-22",
