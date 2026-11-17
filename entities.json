@@ -24175,13 +24175,17 @@
    "k": "b"
   },
   "giants-netball": {
-   "name": "Giants Netball",
-   "domain": "giantsnetball.com.au",
+   "name": "Sydney Sirens",
+   "domain": "sydneysirensnetball.com",
    "bf": [
     "icon"
    ],
    "ptype": "Club & team",
-   "k": "p"
+   "k": "p",
+   "aliases": [
+    "Giants Netball",
+    "GIANTS Netball"
+   ]
   },
   "gib": {
    "name": "GIB",
