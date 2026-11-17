@@ -161486,10 +161486,10 @@
    "summary": "SKG Services renews as a 36ers major partner for two NBL seasons.",
    "tier": "Principal & major",
    "status": "Renewal",
-   "needsSource": true,
    "market": "ANZ",
-   "conf": "Unverified",
-   "verified": "2026-07-07"
+   "url": "https://www.adelaide36ers.com/news/adelaide-36ers-and-skg-services-continue-major-partnership",
+   "ends": 2027,
+   "endsLock": true
   },
   {
    "date": "2026-07-07",
@@ -161566,12 +161566,10 @@
    "summary": "One NZ becomes a premium partner of the NZ Team.",
    "tier": "Principal & major",
    "status": "New",
-   "needsSource": true,
    "market": "ANZ",
    "ptier": "Premium partner",
    "checked": "2026-11-16",
-   "conf": "Unverified",
-   "verified": "2026-11-16"
+   "url": "https://olympic.org.nz/one-nz-premium-partner"
   },
   {
    "date": "2026-07-07",
@@ -161612,10 +161610,10 @@
    "summary": "Toyota Forklifts renews as an Essendon AFLW co-major partner for season 11.",
    "tier": "Principal & major",
    "status": "Renewal",
-   "needsSource": true,
    "market": "ANZ",
-   "conf": "Unverified",
-   "verified": "2026-07-14"
+   "url": "https://www.toyotamaterialhandling.com.au/press-room/2026/toyota-forklifts-extends-aflw-partnership-with-essendon-for-season-11/",
+   "ends": 2026,
+   "endsLock": true
   },
   {
    "date": "2026-07-14",
@@ -161626,10 +161624,10 @@
    "summary": "BSP becomes a major sponsor of the 2026 Rugby League World Cup.",
    "tier": "Principal & major",
    "status": "New",
-   "needsSource": true,
    "market": "ANZ",
-   "conf": "Unverified",
-   "verified": "2026-07-14"
+   "url": "https://www.bsp.com.pg/about/news-and-media/bsp-announces-major-sponsorship-of-2026-rugby-league-world-cup/",
+   "ends": 2026,
+   "endsLock": true
   },
   {
    "date": "2026-07-14",
@@ -223336,6 +223334,22 @@
    "added": "2026-11-17",
    "conf": "Confirmed",
    "verified": "2026-11-17"
+  },
+  {
+   "date": "2026-10-31",
+   "deal": "Toyota Material Handling × Essendon",
+   "sport": "AFL",
+   "type": "Extension",
+   "region": "ANZ",
+   "summary": "Toyota Forklifts extends as an Essendon AFLW co-major partner for a further three years.",
+   "tier": "Principal & major",
+   "status": "Extension",
+   "term": 3,
+   "ends": 2029,
+   "endsLock": true,
+   "market": "ANZ",
+   "url": "https://www.essendonfc.com.au/news/2158958/toyota-forklifts-locks-in-three-more-years-with-essendon-aflw",
+   "added": "2026-11-17"
   }
  ]
 }
