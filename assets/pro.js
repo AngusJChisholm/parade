@@ -939,8 +939,8 @@ function wagering(){
   };
   draw();
 }
-/* Pitch decks: assets/pro-decks.js (Design, Studio, Video, Decks, Shared). */
-function decks(){window.SSSDecks.render({D,mxLoad})}
+/* Pitch decks (assets/pro-decks.js) is built but parked: not loaded until it's ready to go live. */
+function decks(){if(window.SSSDecks)window.SSSDecks.render({D,mxLoad});else home()}
 const TABS={home,dash:dashboard,scouting,finder,renewals,wagering,property,watch:watchlist,reports,decks};
 function go(tab){
   // Reports deep-link as #reports/brand/<slug> or #reports/property/<slug>
