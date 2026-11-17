@@ -1,5 +1,5 @@
 /* SSS Pro (pro.html): private working tool built on the deal archive.
-   Tabs: Scouting (Scout Score suggestions, both ways), Brand finder, Renewal radar, Property report (partners, category gaps, prospects, peer benchmark), Watchlist, Reports (partnership report for any brand or property, saved as a PDF).
+   Tabs: Pitch decks (assets/pro-decks.js), Scouting (Scout Score suggestions, both ways), Brand finder, Renewal radar, Property report (partners, category gaps, prospects, peer benchmark), Watchlist, Reports (partnership report for any brand or property, saved as a PDF).
    Renewal years come in three strengths:
      Confirmed  - the announcement states when the deal ends
      From term  - the announcement states the length; end year = announced year + term
@@ -939,7 +939,9 @@ function wagering(){
   };
   draw();
 }
-const TABS={home,dash:dashboard,scouting,finder,renewals,wagering,property,watch:watchlist,reports};
+/* Pitch decks: assets/pro-decks.js (Design, Studio, Video, Decks, Shared). */
+function decks(){window.SSSDecks.render({D,mxLoad})}
+const TABS={home,dash:dashboard,scouting,finder,renewals,wagering,property,watch:watchlist,reports,decks};
 function go(tab){
   // Reports deep-link as #reports/brand/<slug> or #reports/property/<slug>
   const [t,kind,slug]=String(tab).split("/");tab=t;

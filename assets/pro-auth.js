@@ -13,7 +13,7 @@
   const $=id=>document.getElementById(id);
   const C=window.SSS_SUPABASE||{};
   const LIVE=!!(C.url&&C.anonKey&&window.supabase);
-  const APP=["assets/logos.js?v=10","assets/pills.js?v=3","assets/data.js?v=8","assets/pro.js?v=22"];
+  const APP=["assets/logos.js?v=11","assets/pills.js?v=3","assets/data.js?v=8","assets/pro-decks.js?v=3","assets/pro.js?v=23"];
   const err=t=>{$("gateE").textContent=t||""};
   const msg=t=>{$("gateMsg").textContent=t};
 
@@ -89,7 +89,7 @@
       await sb.auth.signOut();view("email");
       err(error?"Couldn't check your access. Try again.":"This account doesn't have Pro access yet.");return;
     }
-    window.SSSPro={json:name=>sb.storage.from("pro").download(name).then(({data,error})=>{if(error)throw error;return data.text()}).then(t=>JSON.parse(t))};
+    window.SSSPro={sb,user:session.user,json:name=>sb.storage.from("pro").download(name).then(({data,error})=>{if(error)throw error;return data.text()}).then(t=>JSON.parse(t))};
     await syncState(session.user.id);
     start(session.user.email,async()=>{await flush();await sb.auth.signOut();location.reload()});
   }

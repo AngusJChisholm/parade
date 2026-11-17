@@ -154,5 +154,7 @@ window.SSSLogos=(function(){
     if(!e)return "";
     return `<a class="lga" href="${esc(page(e.slug))}" aria-label="${esc(e.name)}" title="${esc(e.name)}">${mark(e,opts)}</a>`;
   }
-  return {load,split,resolve,many,tag,has,pair,ok,byId,mark,link,fail,page,esc,leagues:()=>LEAGUES,all:()=>ENT};
+  return {load,split,resolve,many,tag,has,pair,ok,byId,mark,link,fail,page,esc,leagues:()=>LEAGUES,all:()=>ENT,
+    /* for Pro pitch decks (assets/pro-decks.js), which draws logos onto <canvas> */
+    colours,initials,bfUrl,bfId:()=>BF};
 })();
