@@ -229,3 +229,5 @@ With deals down to two runs a week, each run is thorough. The usage-light limits
 
 ### 8. Partnerships, not deals (from 11 Nov 2026)
 Say "partnership(s)", never "deal(s)", and "database", never "archive", in everything people read (site, posts, captions, graphics, articles, snippets, summaries). A quote copied word for word from a source stays as it is. File names, JSON keys (deals.json, "deal") and commit messages don't change.
+
+**End years: the release wins.** If the release (or a reputable report of it) states the years or seasons a partnership covers ("2026 to 2032", "the 2027 season and the following two years", "first three seasons"), set "ends" to that year and leave "endsEst" out, so it's treated as stated and never recalculated. Only when the release gives a length alone ("three-year deal") does tools/enrich.py work the end year out (endsEst true): ANZ calendar-year codes announced Jan-Aug include the current season (year + term - 1); summer codes and everything else use year + term. Expansion clubs follow the same rule unless the release says otherwise.
