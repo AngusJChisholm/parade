@@ -172793,12 +172793,11 @@
    "status": "New",
    "term": 7,
    "ends": 2032,
-   "endsEst": true,
    "market": "ANZ",
-   "ended": true,
-   "url": "https://www.nzc.nz/news-items/archive/cricviz-appointed-official-performance-analysis-and-scoring-partner/",
+   "url": "https://cricviz.com/new-zealand-cricket-appoints-cricviz-as-official-performance-analysis-and-scoring-partner-in-7-year-agreement/",
    "conf": "Confirmed",
-   "verified": "2025-09-09"
+   "verified": "2025-09-09",
+   "endsLock": true
   },
   {
    "date": "2025-09-09",
@@ -178977,7 +178976,6 @@
    "ends": 2029,
    "endsEst": true,
    "needsSource": true,
-   "ended": true,
    "market": "ANZ",
    "conf": "Unverified",
    "verified": "2025-07-16"
@@ -193373,16 +193371,15 @@
    "type": "Extension",
    "region": "ANZ",
    "summary": "Two-year extension with RugbyWA",
-   "url": "https://ministryofsport.com/rugbywa-extends-accountancy-services-partnership-with-moore-australia/",
+   "url": "https://wa.rugby/news/rugbywa-extends-partnership-with-moore-australia-for-a-further-two-years-202654",
    "tier": "Official partner",
    "status": "Extension",
    "term": 2,
-   "ends": 2027,
-   "endsEst": true,
+   "ends": 2028,
    "market": "ANZ",
-   "ended": true,
    "conf": "Reported",
-   "verified": "2026-05-07"
+   "verified": "2026-05-07",
+   "endsLock": true
   },
   {
    "date": "2026-05-06",
