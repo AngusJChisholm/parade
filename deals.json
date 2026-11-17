@@ -169580,11 +169580,11 @@
    "summary": "Lite n' Easy renews with the Sixers.",
    "tier": "Official partner",
    "status": "Renewal",
-   "needsSource": true,
    "market": "ANZ",
    "ended": true,
-   "conf": "Unverified",
-   "verified": "2025-11-12"
+   "url": "https://www.sydneysixers.com.au/news/4397671/sydney-sixers-renew-partnership-with-lite-n-easy-for-third-year",
+   "ends": 2026,
+   "endsLock": true
   },
   {
    "date": "2025-11-12",
@@ -169610,11 +169610,9 @@
    "summary": "Naked Wines joins Sydney FC.",
    "tier": "Official partner",
    "status": "New",
-   "needsSource": true,
    "ended": true,
    "market": "ANZ",
-   "conf": "Unverified",
-   "verified": "2025-11-12"
+   "url": "https://sydneyfc.com/news/sydney-fc-partners-with-naked-wines/"
   },
   {
    "date": "2025-11-12",
@@ -169625,10 +169623,8 @@
    "summary": "Paywise becomes salary packaging partner of the NBL and WNBL.",
    "tier": "Official partner",
    "status": "New",
-   "needsSource": true,
    "market": "ANZ",
-   "conf": "Unverified",
-   "verified": "2025-11-12"
+   "url": "https://www.nbl.com.au/news/paywise-becomes-official-salary-packaging-and-novated-lease-partner-of-nbl-group"
   },
   {
    "date": "2025-11-12",
@@ -169639,12 +169635,13 @@
    "summary": "LEGO becomes a Blues partner.",
    "tier": "Official partner",
    "status": "New",
-   "needsSource": true,
    "market": "ANZ",
    "ptier": "Official partner",
    "checked": "2026-11-16",
-   "conf": "Unverified",
-   "verified": "2026-11-16"
+   "url": "https://www.blues.rugby/blues-rugby-news/blues-new-partnership-lego-nz",
+   "ends": 2026,
+   "endsLock": true,
+   "term": 1
   },
   {
    "date": "2025-11-12",
@@ -169859,11 +169856,12 @@
    "summary": "Mini Melts joins the Sixers as an official partner.",
    "tier": "Official partner",
    "status": "New",
-   "needsSource": true,
    "market": "ANZ",
    "ended": true,
-   "conf": "Unverified",
-   "verified": "2025-11-19"
+   "url": "https://www.sydneysixers.com.au/news/4401264/sixers-announce-ice-cool-new-mini-melts-partnership",
+   "ends": 2028,
+   "term": 3,
+   "endsEst": true
   },
   {
    "date": "2025-11-19",
@@ -169874,11 +169872,9 @@
    "summary": "Arnott's Shapes signs a summer partnership with the Brisbane Heat.",
    "tier": "Official partner",
    "status": "New",
-   "needsSource": true,
    "market": "ANZ",
    "ended": true,
-   "conf": "Unverified",
-   "verified": "2025-11-19"
+   "url": "https://www.brisbaneheat.com.au/news/4401347/enums"
   },
   {
    "date": "2025-11-19",
@@ -169936,10 +169932,8 @@
    "summary": "Ford reaffirms its long-term Geelong partnership.",
    "tier": "Official partner",
    "status": "Renewal",
-   "needsSource": true,
    "market": "ANZ",
-   "conf": "Unverified",
-   "verified": "2025-11-19"
+   "url": "https://www.geelongcats.com.au/news/1929430/geelong-cats-partners-build-on-long-term-commitment-as-club-enters-next-phase-of-growth"
   },
   {
    "date": "2025-11-19",
@@ -169950,10 +169944,8 @@
    "summary": "Cotton On reaffirms its long-term Geelong partnership.",
    "tier": "Official partner",
    "status": "Renewal",
-   "needsSource": true,
    "market": "ANZ",
-   "conf": "Unverified",
-   "verified": "2025-11-19"
+   "url": "https://www.geelongcats.com.au/news/1929430/geelong-cats-partners-build-on-long-term-commitment-as-club-enters-next-phase-of-growth"
   },
   {
    "date": "2025-11-19",
@@ -169979,12 +169971,10 @@
    "summary": "McDonald's signs a multi-year partnership with Netball Queensland and the Firebirds.",
    "tier": "Official partner",
    "status": "New",
-   "needsSource": true,
    "market": "ANZ",
    "ptier": "Partner",
    "checked": "2026-11-16",
-   "conf": "Unverified",
-   "verified": "2026-11-16"
+   "url": "https://qld.netball.com.au/news/nq-and-queensland-firebirds-announce-mcdonalds-partnership"
   },
   {
    "date": "2025-11-19",
