@@ -7,7 +7,7 @@ name: Enrich deals and build brand/property pages
 on:
   push:
     branches: [main]
-    paths: ["deals.json", "entities.json", "tools/markets.py", "profile.html", "tools/enrich.py", "tools/build_profiles.py", "tools/ptiers.py", "tools/match.py", "tools/subcat_rules.py", "tools/locations.py", "tools/audit.py", "coverage.json", "tools/confidence.py"]
+    paths: ["deals.json", "entities.json", "tools/markets.py", "profile.html", "tools/enrich.py", "tools/build_profiles.py", "tools/ptiers.py", "tools/match.py", "tools/subcat_rules.py", "tools/locations.py", "tools/audit.py", "coverage.json", "tools/confidence.py", "tools/build_ticker.py"]
   workflow_dispatch:
 
 concurrency:
@@ -40,6 +40,9 @@ jobs:
       - name: Build brand and property pages
         run: python3 tools/build_profiles.py
 
+      - name: Live ticker (ticker.json, read by every page)
+        run: python3 tools/build_ticker.py
+
       - name: SSS Pro matches, backtest and data audit
         run: |
           python3 tools/match.py
@@ -57,7 +60,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add deals.json entities.json brands properties sitemap.xml
+          git add deals.json entities.json brands properties sitemap.xml ticker.json
           if [ "$PRO_PRIVATE" = "1" ]; then
             # Uploaded to the private bucket, so take them out of the public repo and site.
             git rm -q --cached --ignore-unmatch pro/matches.json pro/audit.json

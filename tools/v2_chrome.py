@@ -17,11 +17,13 @@ SEARCH_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke
 
 def header(p):
     nav = "".join(f'<a href="{p}{h}" data-nav="{h}">{t}</a>' for h, t in [
-        ("partnerships", "Partnerships"), ("brands", "Brands"), ("properties", "Properties"), ("news", "News"), ("insights", "Insights")])
+        ("partnerships", "Partnerships"), ("brands", "Brands"), ("properties", "Properties"), ("news", "News")])
+    insights = (f'<div class="dd"><a href="{p}insights" data-nav="insights" aria-haspopup="true">Insights</a>'
+                f'<div class="dd-m"><a href="{p}categories">Categories</a><a href="{p}leagues">League maps</a><a href="{p}compare">Compare</a></div></div>')
     return f"""<header class="v2"><div class="wrap hd">
 <a href="{p or './'}" class="logo brand-logo" aria-label="Sport Sport Sport home"><img src="{p}assets/wordmark-black.svg" alt="Sport Sport Sport" width="56" height="42"></a>
-<nav class="nav" id="nav" aria-label="Main">{nav}</nav>
-<div class="hd-r"><a class="login" href="{p}pro" data-nav="pro">Pro</a><button type="button" class="btn2 hs-b" id="hsB" aria-label="Search brands and properties" aria-expanded="false" aria-controls="hs">{SEARCH_ICON}<span>Search</span></button></div>
+<nav class="nav" id="nav" aria-label="Main">{nav}{insights}</nav>
+<div class="hd-r"><button type="button" class="hs-b" id="hsB" aria-label="Search brands and properties" aria-expanded="false" aria-controls="hs">{SEARCH_ICON}<span class="hs-t">Search partnerships, brands &amp; properties</span><kbd>/</kbd></button><a class="pro-b" href="{p}pro" data-nav="pro">Partnership Pro</a></div>
 <button type="button" class="menu" id="menu" aria-expanded="false" aria-controls="nav">Menu</button>
 </div>
 <div class="hs" id="hs" hidden><div class="wrap"><div class="hs-f" role="search"><label for="hsQ" style="position:absolute;left:-9999px">Search a club, league, event or brand</label><input id="hsQ" type="search" autocomplete="off" placeholder="Search a club, league, event or brand"><div class="hs-r" id="hsR" hidden></div></div><div class="hs-h"><span>Press / to search from any page.</span><a href="{p}partnerships">Every partnership →</a></div></div></div>
@@ -29,19 +31,21 @@ def header(p):
 
 
 def footer(p, year='<span id="yr">2026</span>'):
-    links = "".join(f'<a href="{p}{h}">{t}</a>' for h, t in [
-        ("partnerships", "Partnerships"), ("brands", "Brands"), ("properties", "Properties"),
-        ("leagues", "League maps"), ("categories", "Categories"), ("news", "News"), ("insights", "Insights")])
+    col = lambda t, items: (f'<div class="ft-c"><span>{t}</span>' + "".join(
+        f'<a href="{h if h.startswith("http") else p + h}"{" target=\"_blank\" rel=\"noopener\"" if h.startswith("http") else ""}>{n}</a>' for h, n in items) + '</div>')
+    cols = (col("Database", [("partnerships", "Partnerships"), ("brands", "Brands"), ("properties", "Properties"), ("news", "News")])
+            + col("Insights", [("insights", "Insights"), ("categories", "Categories"), ("leagues", "League maps"), ("compare", "Compare")])
+            + col("Follow", [("https://www.linkedin.com/company/sportsportsport/", "LinkedIn"), ("https://www.instagram.com/sportsportsport.hq/", "Instagram")]))
     return f"""<footer class="v2"><div class="wrap">
-<div class="ft"><div><a href="{p or './'}" class="logo brand-logo" aria-label="Sport Sport Sport home"><img src="{p}assets/wordmark-black.svg" alt="Sport Sport Sport" width="120" height="90"></a>
-<p class="so">Who backs <span class="vb">who</span> in sport.</p></div>
-<nav class="ft-l" aria-label="Footer">{links}</nav></div>
-<div class="ft-b"><span>Filed in Melbourne.</span><span>© {year} <span data-brand="name">Sport Sport Sport</span></span></div>
-</div></footer>"""
+<div class="ft"><a href="{p or './'}" class="logo brand-logo" aria-label="Sport Sport Sport home"><img src="{p}assets/wordmark-black.svg" alt="Sport Sport Sport" width="80" height="60"></a>
+<nav class="ft-l" aria-label="Footer">{cols}</nav></div>
+<div class="ft-b"><span>Filed in Melbourne. © {year} <span data-brand="name">Sport Sport Sport</span></span></div>
+</div></footer>
+<div class="tk" id="tk" aria-label="Latest partnerships" hidden></div>"""
 
 
 HEAD_RE = re.compile(r"<header\b[^>]*>.*?</header>", re.S)
-FOOT_RE = re.compile(r"<footer\b[^>]*>.*?</footer>", re.S)
+FOOT_RE = re.compile(r"<footer\b[^>]*>.*?</footer>(?:\n<div class=\"tk\" id=\"tk\"[^>]*></div>)?", re.S)
 # Old per-page menu toggles: chrome.js handles the menu now, and two toggles cancel each other out.
 OLD_MENU = [
     re.compile(r'\$\("menu"\)\.onclick=\(\)=>\{const o=\$\("nav"\)\.classList\.toggle\("open"\);[^\n]*?\};'),
@@ -57,9 +61,9 @@ def apply(text, p, year=None):
     for r in OLD_MENU:
         text = r.sub("", text)
     if "chrome.css" not in text:
-        text = text.replace("</head>", f'<link rel="stylesheet" href="{p}assets/chrome.css?v=2">\n</head>', 1)
+        text = text.replace("</head>", f'<link rel="stylesheet" href="{p}assets/chrome.css?v=3">\n</head>', 1)
     if "chrome.js" not in text:
-        text = text.replace("</body>", f'<script src="{p}assets/chrome.js?v=2"></script>\n</body>', 1)
+        text = text.replace("</body>", f'<script src="{p}assets/chrome.js?v=3"></script>\n</body>', 1)
     return text
 
 

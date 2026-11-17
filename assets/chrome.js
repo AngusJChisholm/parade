@@ -15,6 +15,21 @@
   const menu=$("menu"),nav=$("nav");
   if(menu&&nav)menu.addEventListener("click",()=>{const o=nav.classList.toggle("open");menu.setAttribute("aria-expanded",o);menu.textContent=o?"Close":"Menu"});
 
+
+  // Live ticker (bottom of every page): ticker.json is a small file built from deals.json by tools/build_ticker.py.
+  (function(){
+    const tk=$("tk");if(!tk)return;
+    const lg=document.querySelector("header.v2 .logo");
+    const root=new URL(lg?lg.getAttribute("href"):"./",location.href);
+    fetch(new URL("ticker.json",root),{cache:"no-cache"}).then(r=>r.ok?r.json():null).then(T=>{
+      if(!T||!(T.items||[]).length)return;
+      const item=x=>`<a href="${esc(new URL(x.href||"partnerships",root).href)}"><b>${esc(x.deal)}</b><span>${esc(x.sport||"")}</span><span class="ch ${x.status==="New"?"up":"flat"}">${esc(x.status||"New")}</span></a>`;
+      const seq=(T.counts||[]).map(c=>`<a href="${esc(new URL("partnerships",root).href)}"><b>${esc(c.label)}</b><span>${esc(c.value)} partnerships on file</span></a>`).join("")+T.items.map(item).join("");
+      tk.innerHTML=`<span class="tk-p"><i></i>Live</span><span class="tk-p g">${esc(T.total||"")} partnerships</span><div class="tk-w"><div class="tk-m">${seq}${seq}</div></div>`;
+      tk.hidden=false;
+    }).catch(()=>{});
+  })();
+
   // Header search
   const btn=$("hsB"),box=$("hs"),q=$("hsQ"),res=$("hsR");
   if(!btn||!box||!q||!res)return;
