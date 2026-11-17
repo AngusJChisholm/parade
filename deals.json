@@ -162483,7 +162483,9 @@
    "url": "https://www.afc.com.au/news/1946025/hungry-jacks-extends",
    "ends": 2030,
    "endsLock": true,
-   "term": 5
+   "term": 5,
+   "conf": "Confirmed",
+   "verified": "2026-01-27"
   },
   {
    "date": "2026-01-27",
@@ -163223,7 +163225,9 @@
    "tier": "Principal & major",
    "status": "New",
    "market": "ANZ",
-   "url": "https://www.richmondfc.com.au/news/1901756/gwm-joins-richmond-as-joint-major-partner"
+   "url": "https://www.richmondfc.com.au/news/1901756/gwm-joins-richmond-as-joint-major-partner",
+   "conf": "Confirmed",
+   "verified": "2025-09-30"
   },
   {
    "date": "2025-09-30",
@@ -167105,7 +167109,12 @@
    "status": "Renewal",
    "market": "ANZ",
    "url": "https://www.warriors.kiwi/news/2025/12/12/db-back-in-warriors-sponsorship-fold/",
-   "tierLock": true
+   "tierLock": true,
+   "term": 25,
+   "ends": 2050,
+   "endsEst": true,
+   "conf": "Confirmed",
+   "verified": "2025-12-17"
   },
   {
    "date": "2025-12-17",
@@ -167800,7 +167809,9 @@
    "url": "https://www.portadelaidefc.com.au/news/1952976/port-adelaide-and-kfc-extend-partnership-to-10-year-milestone",
    "ends": 2030,
    "term": 5,
-   "endsEst": true
+   "endsEst": true,
+   "conf": "Confirmed",
+   "verified": "2026-02-18"
   },
   {
    "date": "2026-02-18",
@@ -168120,7 +168131,9 @@
    "tier": "Principal & major",
    "status": "Renewal",
    "market": "ANZ",
-   "url": "https://www.wnbl.com.au/news/latina-tm-fresh-returns-as-a-major-partner-of-the-wnbl"
+   "url": "https://www.wnbl.com.au/news/latina-tm-fresh-returns-as-a-major-partner-of-the-wnbl",
+   "conf": "Confirmed",
+   "verified": "2025-10-29"
   },
   {
    "date": "2025-10-29",
@@ -168212,7 +168225,9 @@
    "tier": "Principal & major",
    "status": "New",
    "market": "ANZ",
-   "url": "https://www.melbournestorm.com.au/news/2025/10/28/budget-direct-announced-as-storms-first-platinum-partner/"
+   "url": "https://www.melbournestorm.com.au/news/2025/10/28/budget-direct-announced-as-storms-first-platinum-partner/",
+   "conf": "Confirmed",
+   "verified": "2025-10-29"
   },
   {
    "date": "2025-10-29",
@@ -168532,7 +168547,9 @@
    "market": "ANZ",
    "ptier": "Major partner",
    "checked": "2026-11-16",
-   "url": "https://www.peoplefirstbank.com.au/about-us/sponsorships/adelaide-strikers"
+   "url": "https://www.peoplefirstbank.com.au/about-us/sponsorships/adelaide-strikers",
+   "conf": "Confirmed",
+   "verified": "2026-11-16"
   },
   {
    "date": "2025-12-09",
@@ -168902,7 +168919,9 @@
    "url": "https://www.portadelaidefc.com.au/news/1951049/kef",
    "ends": 2027,
    "term": 2,
-   "endsEst": true
+   "endsEst": true,
+   "conf": "Confirmed",
+   "verified": "2026-02-11"
   },
   {
    "date": "2026-02-11",
@@ -169034,7 +169053,9 @@
    "market": "ANZ",
    "url": "https://www.weststigers.com.au/news/2026/02/10/wests-tigers-confirm-formbay-as-platinum-partner/",
    "ends": 2026,
-   "endsLock": true
+   "endsLock": true,
+   "conf": "Confirmed",
+   "verified": "2026-02-11"
   },
   {
    "date": "2026-02-11",
@@ -169397,7 +169418,9 @@
    "url": "https://www.lions.com.au/news/1928050/mcdonalds-re-signs-with-lions-for-another-five-years",
    "ends": 2030,
    "endsLock": true,
-   "term": 5
+   "term": 5,
+   "conf": "Confirmed",
+   "verified": "2025-11-12"
   },
   {
    "date": "2025-11-12",
@@ -169489,7 +169512,9 @@
    "status": "Renewal",
    "market": "ANZ",
    "ended": true,
-   "url": "https://www.perthscorchers.com.au/news/4396987/perth-scorchers-and-budget-direct-extend-major-partnership"
+   "url": "https://www.perthscorchers.com.au/news/4396987/perth-scorchers-and-budget-direct-extend-major-partnership",
+   "conf": "Confirmed",
+   "verified": "2025-11-12"
   },
   {
    "date": "2025-11-12",
@@ -170095,7 +170120,9 @@
    "tier": "Principal & major",
    "status": "New",
    "market": "ANZ",
-   "url": "https://www.dolphinsnrl.com.au/news/2025/10/30/mr-roads-announces-major-sponsorship-of-dolphins-nrl/"
+   "url": "https://www.dolphinsnrl.com.au/news/2025/10/30/mr-roads-announces-major-sponsorship-of-dolphins-nrl/",
+   "conf": "Confirmed",
+   "verified": "2025-11-05"
   },
   {
    "date": "2025-11-05",
