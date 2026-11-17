@@ -535,7 +535,14 @@
     "icon"
    ],
    "ptype": "League & competition",
-   "k": "p"
+   "k": "p",
+   "ptiers": [
+    "Principal partner",
+    "Major partner",
+    "Official partner",
+    "Broadcast partner"
+   ],
+   "ptiersChecked": "2026-11-17"
   },
   "a-maze-n-things": {
    "name": "A Maze 'N' Things",
@@ -21289,7 +21296,21 @@
     "logo"
    ],
    "cat": "Collectibles & licensing",
-   "k": "b"
+   "k": "b",
+   "mkt": "b2c",
+   "aud": [
+    "fans",
+    "women"
+   ],
+   "align": [
+    "fans",
+    "fashion",
+    "experiences",
+    "international"
+   ],
+   "pnote": "Partners with properties it can give a better fan experience: merchandise, retail, collectibles and events, with fashion and local-culture crossovers and club shirts kept front and centre.",
+   "psrc": "https://www.sportcal.com/news/storytime-how-fanatics-is-leveraging-emotion-to-power-global-expansion/",
+   "profiled": "2026-11-17"
   },
   "fanatics-sportsbook": {
    "name": "Fanatics Sportsbook",
@@ -22015,7 +22036,12 @@
     "icon"
    ],
    "ptype": "Club & team",
-   "k": "p"
+   "k": "p",
+   "ptiers": [
+    "Principal partner",
+    "Partner"
+   ],
+   "ptiersChecked": "2026-11-17"
   },
   "filevine": {
    "name": "Filevine",
@@ -26984,7 +27010,20 @@
    ],
    "cat": "Alcohol",
    "k": "b",
-   "logo": "assets/logos/heineken.png"
+   "logo": "assets/logos/heineken.png",
+   "mkt": "b2c",
+   "aud": [
+    "fans"
+   ],
+   "align": [
+    "community",
+    "music",
+    "fans",
+    "experiences"
+   ],
+   "pnote": "Backs football (UEFA Champions League), F1 and major music festivals under one \"Cheers To All Fans\" sociability platform rather than one-off property deals.",
+   "psrc": "https://www.marketing-interactive.com/heineken-unites-football-f1-and-music-under-new-sponsorship-platform",
+   "profiled": "2026-11-17"
   },
   "heinz": {
    "name": "Heinz",
@@ -37930,7 +37969,18 @@
     "icon"
    ],
    "cat": "Alcohol",
-   "k": "b"
+   "k": "b",
+   "mkt": "b2c",
+   "aud": [
+    "active"
+   ],
+   "align": [
+    "health",
+    "wellness"
+   ],
+   "pnote": "Positions as the beer for an active, balanced lifestyle and backs active communities such as surfing (World Surf League events in the US).",
+   "psrc": "https://www.bevindustry.com/articles/90132-michelob-ultra-partners-with-world-surf-league",
+   "profiled": "2026-11-17"
   },
   "michigan-first-credit-union": {
    "name": "Michigan First Credit Union",
@@ -40382,7 +40432,17 @@
    ],
    "ptype": "League & competition",
    "k": "p",
-   "logo": "assets/logos/nbl.png"
+   "logo": "assets/logos/nbl.png",
+   "ptiers": [
+    "Naming rights partner",
+    "Premier broadcast partner",
+    "Major partner",
+    "Broadcast & media partner",
+    "Profile partner",
+    "Supplier",
+    "Associate partner"
+   ],
+   "ptiersChecked": "2026-11-17"
   },
   "nbn": {
    "name": "NBN",
@@ -52928,7 +52988,8 @@
   },
   "shark": {
    "name": "Shark",
-   "k": "b"
+   "k": "b",
+   "cat": "Home & hardware"
   },
   "shark-beauty": {
    "name": "Shark Beauty",
