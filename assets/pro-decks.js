@@ -1,4 +1,4 @@
-/* Pro > Pitch decks (pro.html). Built from the platform walkthrough Angus shared (sportworks.io as the reference).
+/* Pro > Pitch decks (pro.html).
    Five parts, all drawn in the browser on <canvas>, so nothing leaves the machine until a deck is shared:
      Design  - a template library that doubles as the inventory of placements (jersey, LED, big screen, vehicle,
                media wall, on-field, social tile), plus your own photos: upload, cover the existing branding,
