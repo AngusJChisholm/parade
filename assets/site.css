@@ -41,10 +41,14 @@ header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;border-bottom:
 .sh{display:flex;justify-content:space-between;align-items:end;gap:20px;flex-wrap:wrap;margin-bottom:clamp(24px,3vw,36px)}
 .sh h2{font-size:clamp(36px,4.6vw,68px)}
 /* Logos (assets/logos.js). */
-.lg{--s:40px;position:relative;display:inline-flex;width:var(--s);height:var(--s);flex:none;align-items:center;justify-content:center}
-.lg .mono{display:flex;align-items:center;justify-content:center;width:100%;height:100%;border:1px solid var(--line);background:var(--canvas);color:var(--ink-2);font-weight:800;font-size:calc(var(--s)*.34);letter-spacing:-.02em;line-height:1}
+.lg{--s:40px;position:relative;display:inline-flex;width:calc(var(--s)*1.6);height:var(--s);flex:none;align-items:center;justify-content:center}
+.lg .mono{display:flex;align-items:center;justify-content:center;width:var(--s);height:100%;border:1px solid var(--line);background:var(--canvas);color:var(--ink-2);font-weight:800;font-size:calc(var(--s)*.34);letter-spacing:-.02em;line-height:1}
 .lg.has-img .mono{display:none}
 .lg img{width:100%;height:100%;object-fit:contain;display:block}
+/* Every logo gets the same landscape box (1.6x as wide as tall) so symbols and wordmarks sit at one consistent size;
+   logos.js scales each to the same visual area inside it. Monograms stay square. The league map and gap grids are square. */
+.m .lg,.gap .lg{width:var(--s)}
+.lg.lg-big .mono{width:100%}
 /* Brandfetch's square icon is only used when nothing else exists; round it so it reads as an app icon, not a box. */
 .lg.lg-ic img{border-radius:18%}
 .lg.lg-big{width:clamp(180px,22vw,280px);height:clamp(140px,15vw,190px)}

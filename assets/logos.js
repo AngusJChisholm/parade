@@ -117,8 +117,8 @@ window.SSSLogos=(function(){
     }catch(e){return true}
   }
   // Every logo sits in the same box. To look the same size, each one is scaled to cover about the same area
-  // of that box: a square symbol fills ~72% of it, a long wordmark runs the full width but stays short.
-  const AREA=.52;
+  // of that box: a square symbol nearly fills its height, a long wordmark runs the full width but stays short.
+  const AREA=.45;
   function ok(img){
     if(img.naturalWidth&&img.naturalWidth<48&&img.naturalHeight<48){fail(img,true);return}
     if(!visible(img)){fail(img,true);return}
