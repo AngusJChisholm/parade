@@ -166232,8 +166232,10 @@
    "tier": "Official partner",
    "status": "New",
    "market": "ANZ",
-   "conf": "Unverified",
-   "verified": "2026-09-06"
+   "url": "https://www.warriors.kiwi/news/2026/09/03/gwm-extends-partnership-by-a-further-three-years/",
+   "ends": 2029,
+   "term": 3,
+   "endsEst": true
   },
   {
    "date": "2026-09-03",
@@ -166246,8 +166248,7 @@
    "status": "New",
    "market": "ANZ",
    "checked": "2026-11-16",
-   "conf": "Unverified",
-   "verified": "2026-11-16"
+   "url": "https://www.melbournestars.com.au/news/4571430/the-crunch-is-calling-old-el-pasojoins-the-melbourne-stars"
   },
   {
    "date": "2026-09-02",
@@ -166286,8 +166287,7 @@
    "status": "New",
    "market": "ANZ",
    "ended": true,
-   "conf": "Unverified",
-   "verified": "2026-09-06"
+   "url": "https://melbournevixens.com.au/news/partners/melbourne-vixens-welcome-axs-as-new-major-partner"
   },
   {
    "date": "2026-08-31",
@@ -166299,8 +166299,9 @@
    "tier": "Official partner",
    "status": "New",
    "market": "ANZ",
-   "conf": "Unverified",
-   "verified": "2026-09-06"
+   "url": "https://www.raiders.com.au/news/2026/08/31/club-lime-extends-canberra-raiders-partnership-through-to-2028/",
+   "ends": 2028,
+   "endsLock": true
   },
   {
    "date": "2026-09-04",
@@ -166375,8 +166376,7 @@
    "tier": "Principal & major",
    "status": "New",
    "market": "ANZ",
-   "conf": "Unverified",
-   "verified": "2026-09-10"
+   "url": "https://www.bsp.com.pg/about/news-and-media/bsp-and-png-chiefs-reach-landmark-nrl-sponsorship-deal/"
   },
   {
    "date": "2026-09-09",
@@ -166392,8 +166392,7 @@
    "ends": 2032,
    "endsEst": true,
    "market": "ANZ",
-   "conf": "Unverified",
-   "verified": "2026-09-09"
+   "url": "https://www.devilsfc.com.au/news/2125372/firmus-on-board-as-the-devils-newest-foundation-major-partner"
   },
   {
    "date": "2026-09-10",
@@ -166421,7 +166420,7 @@
    "tier": "Official partner",
    "status": "Expansion",
    "market": "ANZ",
-   "conf": "Unverified"
+   "url": "https://www.nbl.com.au/news/nbl-and-wnbl-announce-expanded-partnership-with-mortgage-choice"
   },
   {
    "month": "2026-09",
@@ -166434,8 +166433,9 @@
    "market": "ANZ",
    "ptier": "Supply partner",
    "checked": "2026-11-16",
-   "conf": "Unverified",
-   "verified": "2026-11-16"
+   "url": "https://nzrl.co.nz/news/nzrl-partners-with-hydro-flask-for-2026",
+   "ends": 2026,
+   "endsLock": true
   },
   {
    "month": "2026-09",
