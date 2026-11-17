@@ -282,7 +282,7 @@ function dashboard(){
     ?[...new Set(wl.flatMap(s=>D.orgs.get(s).deals.map(x=>x.d)))]
     :D.deals.filter(d=>S.mkt(d)==="ANZ");
   // Announced since the last visit (partners-page rows are long-running partners, so they don't count as new).
-  const seen=d=>d.date||d.added||"";
+  const seen=d=>d.date||(d.month?d.month+"-01":"")||d.added||""; // a month-only record counts from its month, not the day it was logged
   const oNew=scoped.filter(d=>d.status!=="Current partner"&&d.status!=="Ended"&&seen(d)>=since).sort((a,b)=>seen(b).localeCompare(seen(a)));
   const TOP=new Set(["Naming rights","Title sponsor","Principal & major","Kit & apparel","Shirt & kit placement"]);
   const oEnd=scoped.map(d=>({d,r:renewal(d)})).filter(x=>x.r&&x.r.end>=ry&&x.r.end<=ry+1&&(state.oScope==="watch"||TOP.has(x.d.tier)))
