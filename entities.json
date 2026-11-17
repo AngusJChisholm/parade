@@ -1384,6 +1384,11 @@
    "ptype": "Event",
    "k": "p"
   },
+  "adelaide-hills-council": {
+   "name": "Adelaide Hills Council",
+   "cat": "Tourism & government",
+   "k": "b"
+  },
   "adelaide-lightning": {
    "name": "Adelaide Lightning",
    "ptype": "Club & team",
@@ -2773,6 +2778,10 @@
    "name": "Altec Lansing",
    "k": "b"
   },
+  "altex": {
+   "name": "Altex",
+   "k": "b"
+  },
   "althena": {
    "name": "Althena",
    "k": "b"
@@ -3962,6 +3971,10 @@
    "cat": "Other",
    "k": "b"
   },
+  "armor-all": {
+   "name": "Armor All",
+   "k": "b"
+  },
   "armstrong-s": {
    "name": "Armstrong's",
    "k": "b"
@@ -5058,6 +5071,16 @@
    "cat": "Automotive",
    "k": "b"
   },
+  "audi-centre-perth": {
+   "name": "Audi Centre Perth",
+   "cat": "Automotive",
+   "k": "b"
+  },
+  "audi-centre-sydney": {
+   "name": "Audi Centre Sydney",
+   "cat": "Automotive",
+   "k": "b"
+  },
   "audi-f1": {
    "name": "Audi F1",
    "domain": "audif1.com",
@@ -5291,7 +5314,8 @@
    "reach": "Global",
    "ptiers": [
     "Event supporter"
-   ]
+   ],
+   "ptiersChecked": "2026-11-17"
   },
   "australian-hammer-supplies": {
    "name": "Australian Hammer Supplies",
@@ -5378,7 +5402,7 @@
     "digital",
     "experiences"
    ],
-   "ptiersChecked": "2026-11-16",
+   "ptiersChecked": "2026-11-17",
    "logo": "assets/logos/australian-open.png"
   },
   "australian-open-golf": {
@@ -7404,6 +7428,11 @@
    "cat": "Betting & wagering",
    "k": "b"
   },
+  "better-beer": {
+   "name": "Better Beer",
+   "cat": "Betting & wagering",
+   "k": "b"
+  },
   "better-life-mobile": {
    "name": "Better Life Mobile",
    "k": "b",
@@ -8700,6 +8729,15 @@
     "logo"
    ]
   },
+  "bondi-liquor-co": {
+   "name": "Bondi Liquor Co",
+   "cat": "Alcohol",
+   "k": "b"
+  },
+  "bone-dry": {
+   "name": "Bone Dry",
+   "k": "b"
+  },
   "bonfire-hot-yoga": {
    "name": "Bonfire Hot Yoga",
    "k": "b"
@@ -9859,6 +9897,10 @@
    "cat": "Insurance",
    "k": "b"
   },
+  "buds-and-blooms-florist": {
+   "name": "Buds and Blooms Florist",
+   "k": "b"
+  },
   "budweiser": {
    "name": "Budweiser",
    "cat": "Alcohol",
@@ -10072,6 +10114,10 @@
   "burdon-pharmacies": {
    "name": "Burdon Pharmacies",
    "cat": "Health & beauty",
+   "k": "b"
+  },
+  "bureau-of-meteorology": {
+   "name": "Bureau of Meteorology",
    "k": "b"
   },
   "burflex": {
@@ -10765,6 +10811,11 @@
   },
   "campbell-s-chunky": {
    "name": "Campbell's Chunky",
+   "k": "b"
+  },
+  "campbelltown-city-council": {
+   "name": "Campbelltown City Council",
+   "cat": "Tourism & government",
    "k": "b"
   },
   "camper-coffee": {
@@ -13278,6 +13329,11 @@
     "icon"
    ]
   },
+  "city-of-charles-sturt": {
+   "name": "City of Charles Sturt",
+   "cat": "Tourism & government",
+   "k": "b"
+  },
   "city-of-fremantle": {
    "name": "City of Fremantle",
    "cat": "Tourism & government",
@@ -13295,6 +13351,16 @@
   },
   "city-of-greater-geelong": {
    "name": "City of Greater Geelong",
+   "cat": "Tourism & government",
+   "k": "b"
+  },
+  "city-of-hobart": {
+   "name": "City of Hobart",
+   "cat": "Tourism & government",
+   "k": "b"
+  },
+  "city-of-holdfast-bay": {
+   "name": "City of Holdfast Bay",
    "cat": "Tourism & government",
    "k": "b"
   },
@@ -13320,6 +13386,16 @@
    "bf": [
     "icon"
    ]
+  },
+  "city-of-norwood-payneham-and-st-peters": {
+   "name": "City of Norwood Payneham & St Peters",
+   "cat": "Tourism & government",
+   "k": "b"
+  },
+  "city-of-onkaparinga": {
+   "name": "City of Onkaparinga",
+   "cat": "Tourism & government",
+   "k": "b"
   },
   "city-of-parramatta": {
    "name": "City of Parramatta",
@@ -13348,6 +13424,11 @@
   },
   "city-of-sunderland": {
    "name": "City of Sunderland",
+   "cat": "Tourism & government",
+   "k": "b"
+  },
+  "city-of-victor-harbor": {
+   "name": "City of Victor Harbor",
    "cat": "Tourism & government",
    "k": "b"
   },
@@ -13513,6 +13594,10 @@
   },
   "clean-eats-meal-prep": {
    "name": "Clean Eats Meal Prep",
+   "k": "b"
+  },
+  "clean-vibes": {
+   "name": "Clean Vibes",
    "k": "b"
   },
   "cleanchoice-energy": {
@@ -13773,6 +13858,10 @@
    "domain": "clubmarconi.com.au",
    "k": "b"
   },
+  "club-marine": {
+   "name": "Club Marine",
+   "k": "b"
+  },
   "club-med": {
    "name": "Club Med",
    "cat": "Airlines & travel",
@@ -13893,6 +13982,11 @@
   "coastwide-engineering": {
    "name": "Coastwide Engineering",
    "cat": "Construction & property",
+   "k": "b"
+  },
+  "coates": {
+   "name": "Coates",
+   "cat": "Logistics & transport",
    "k": "b"
   },
   "cobbs-hill-estate": {
@@ -15907,6 +16001,24 @@
    "cat": "Professional services",
    "k": "b"
   },
+  "cruising-yacht-club-of-australia": {
+   "name": "Cruising Yacht Club of Australia",
+   "aliases": [
+    "CYCA"
+   ],
+   "domain": "cyca.com.au",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon"
+   ],
+   "ptiers": [
+    "Principal sponsor",
+    "Official partner",
+    "Youth Sailing Academy partner"
+   ],
+   "ptiersChecked": "2026-11-17"
+  },
   "crumbl": {
    "name": "Crumbl",
    "k": "b"
@@ -16031,6 +16143,10 @@
   },
   "csd-air-conditioning": {
    "name": "CSD Air Conditioning",
+   "k": "b"
+  },
+  "csiro": {
+   "name": "CSIRO",
    "k": "b"
   },
   "cska-sofia": {
@@ -17547,6 +17663,11 @@
   },
   "di-manno": {
    "name": "Di Manno",
+   "k": "b"
+  },
+  "diabetes-sa": {
+   "name": "Diabetes SA",
+   "cat": "Not-for-profit",
    "k": "b"
   },
   "diageo": {
@@ -20738,6 +20859,10 @@
    "name": "Events International",
    "k": "b"
   },
+  "events-tasmania": {
+   "name": "Events Tasmania",
+   "k": "b"
+  },
   "eventsec": {
    "name": "Eventsec",
    "k": "b"
@@ -21544,6 +21669,10 @@
   },
   "feet-in-motion": {
    "name": "Feet in Motion",
+   "k": "b"
+  },
+  "feetures": {
+   "name": "Feetures",
    "k": "b"
   },
   "feiraco": {
@@ -23248,6 +23377,11 @@
    "logo": "assets/logos/frucor.png",
    "domain": "suntoryoceania.com"
   },
+  "frucor-suntory": {
+   "name": "Frucor Suntory",
+   "cat": "Non-alcoholic drinks",
+   "k": "b"
+  },
   "fruh": {
    "name": "Früh",
    "k": "b"
@@ -23496,6 +23630,10 @@
     "logo"
    ],
    "sub": "Beer & cider"
+  },
+  "gage-roads-brew-co": {
+   "name": "Gage Roads Brew Co",
+   "k": "b"
   },
   "galatasaray": {
    "name": "Galatasaray",
@@ -24015,6 +24153,10 @@
    "cat": "Apparel & footwear",
    "k": "b"
   },
+  "genu": {
+   "name": "genU",
+   "k": "b"
+  },
   "geodis": {
    "name": "GEODIS",
    "k": "b"
@@ -24524,6 +24666,10 @@
    "name": "GMD",
    "k": "b"
   },
+  "gme": {
+   "name": "GME",
+   "k": "b"
+  },
   "gmhba": {
    "name": "GMHBA",
    "cat": "Insurance",
@@ -24999,6 +25145,11 @@
    ],
    "ptiersChecked": "2026-11-17"
   },
+  "government-of-south-australia": {
+   "name": "Government of South Australia",
+   "cat": "Tourism & government",
+   "k": "b"
+  },
   "government-of-western-australia": {
    "name": "Government of Western Australia",
    "cat": "Tourism & government",
@@ -25231,6 +25382,10 @@
     "icon",
     "logo"
    ]
+  },
+  "greater-sydney-parklands": {
+   "name": "Greater Sydney Parklands",
+   "k": "b"
   },
   "greater-west-outdoor-power-equipment": {
    "name": "Greater West Outdoor Power Equipment",
@@ -25657,6 +25812,10 @@
   "gtz-medical": {
    "name": "GTZ Medical",
    "cat": "Health & beauty",
+   "k": "b"
+  },
+  "gu": {
+   "name": "GU",
    "k": "b"
   },
   "guardian": {
@@ -26179,6 +26338,10 @@
   },
   "happe-gruppe": {
    "name": "Happe Gruppe",
+   "k": "b"
+  },
+  "happiness-co": {
+   "name": "Happiness Co",
    "k": "b"
   },
   "happy-hire": {
@@ -26896,6 +27059,10 @@
   },
   "helloworld": {
    "name": "Helloworld",
+   "k": "b"
+  },
+  "helly-hansen": {
+   "name": "Helly Hansen",
    "k": "b"
   },
   "helm": {
@@ -27676,6 +27843,10 @@
   },
   "hood": {
    "name": "Hood",
+   "k": "b"
+  },
+  "hood-sailmakers": {
+   "name": "Hood Sailmakers",
    "k": "b"
   },
   "hoop-city": {
@@ -31838,6 +32009,11 @@
    "cat": "Betting & wagering",
    "k": "b"
   },
+  "kenworth": {
+   "name": "Kenworth",
+   "cat": "Logistics & transport",
+   "k": "b"
+  },
   "keolis": {
    "name": "Keolis",
    "k": "b"
@@ -34117,6 +34293,11 @@
     "logo"
    ]
   },
+  "lgt-wealth-management": {
+   "name": "LGT Wealth Management",
+   "cat": "Banking & finance",
+   "k": "b"
+  },
   "lh-phillips": {
    "name": "LH Phillips",
    "k": "b"
@@ -34189,6 +34370,10 @@
   },
   "life-outdoors": {
    "name": "Life Outdoors",
+   "k": "b"
+  },
+  "life-savers": {
+   "name": "Life Savers",
    "k": "b"
   },
   "life-style-sports": {
@@ -36176,12 +36361,20 @@
    "name": "Marhill",
    "k": "b"
   },
+  "marine-rescue-nsw": {
+   "name": "Marine Rescue NSW",
+   "k": "b"
+  },
   "marineda-city": {
    "name": "Marineda City",
    "k": "b"
   },
   "marinus-link": {
    "name": "Marinus Link",
+   "k": "b"
+  },
+  "mark-your-moment": {
+   "name": "Mark Your Moment",
    "k": "b"
   },
   "markman-breakers": {
@@ -39375,6 +39568,10 @@
     "logo"
    ]
   },
+  "mrs-mac-s": {
+   "name": "Mrs Mac's",
+   "k": "b"
+  },
   "msc": {
    "name": "MSC",
    "cat": "Logistics & transport",
@@ -40508,6 +40705,11 @@
     "Channel 10"
    ]
   },
+  "network-insurance-house": {
+   "name": "Network Insurance House",
+   "cat": "Insurance",
+   "k": "b"
+  },
   "neumann-steel": {
    "name": "Neumann Steel",
    "cat": "Construction & property",
@@ -40716,6 +40918,11 @@
     "Small business partner"
    ],
    "ptiersChecked": "2026-11-16"
+  },
+  "new-west-foods": {
+   "name": "New West Foods",
+   "cat": "Food & nutrition",
+   "k": "b"
   },
   "new-world": {
    "name": "New World",
@@ -41542,6 +41749,10 @@
    "cat": "Professional services",
    "k": "b"
   },
+  "noakes-group": {
+   "name": "Noakes Group",
+   "k": "b"
+  },
   "nobody-trashes-tennessee": {
    "name": "Nobody Trashes Tennessee",
    "k": "b"
@@ -42272,6 +42483,10 @@
     "icon"
    ]
   },
+  "nti": {
+   "name": "NTI",
+   "k": "b"
+  },
   "nts-sport": {
    "name": "NTS Sport",
    "k": "b"
@@ -42725,6 +42940,11 @@
   "ochsner-health": {
    "name": "Ochsner Health",
    "cat": "Health & beauty",
+   "k": "b"
+  },
+  "ocius-technology": {
+   "name": "OCIUS Technology",
+   "cat": "Technology",
    "k": "b"
   },
   "ocm-foods": {
@@ -43414,6 +43634,20 @@
    "k": "b",
    "cat": "Telco"
   },
+  "optus-stadium": {
+   "name": "Optus Stadium",
+   "domain": "optusstadium.com.au",
+   "ptype": "Venue",
+   "k": "p",
+   "bf": [
+    "icon"
+   ],
+   "ptiers": [
+    "Stadium partner",
+    "Charity and purpose partner"
+   ],
+   "ptiersChecked": "2026-11-17"
+  },
   "ora-4x-cosmetic-and-implant-dentistry": {
    "name": "ORA 4X Cosmetic & Implant Dentistry",
    "cat": "Health & beauty",
@@ -43772,6 +44006,10 @@
    "name": "Otakiri Springs",
    "k": "b"
   },
+  "otautahi-christchurch": {
+   "name": "Ōtautahi Christchurch",
+   "k": "b"
+  },
   "otb-led-services": {
    "name": "OTB LED Services",
    "k": "b",
@@ -44109,6 +44347,10 @@
    "name": "Paganotto Caffè",
    "k": "b"
   },
+  "pain-away": {
+   "name": "Pain Away",
+   "k": "b"
+  },
   "painpod": {
    "name": "PainPod",
    "k": "b"
@@ -44146,6 +44388,10 @@
   },
   "palliser-estate": {
    "name": "Palliser Estate",
+   "k": "b"
+  },
+  "palm-beach-motor-yachts": {
+   "name": "Palm Beach Motor Yachts",
    "k": "b"
   },
   "palmer-square-capital": {
@@ -44754,6 +45000,10 @@
     "logo"
    ]
   },
+  "pedders": {
+   "name": "Pedders",
+   "k": "b"
+  },
   "pedialyte": {
    "name": "Pedialyte",
    "k": "b"
@@ -44998,6 +45248,10 @@
     "logo"
    ],
    "cat": "Non-alcoholic drinks",
+   "k": "b"
+  },
+  "perenti": {
+   "name": "Perenti",
    "k": "b"
   },
   "perfect-bowl": {
@@ -47680,6 +47934,10 @@
    "name": "Quartz",
    "k": "b"
   },
+  "quayclean": {
+   "name": "Quayclean",
+   "k": "b"
+  },
   "qube": {
    "name": "Qube",
    "cat": "Logistics & transport",
@@ -47957,6 +48215,10 @@
   },
   "racchi": {
    "name": "Racchi",
+   "k": "b"
+  },
+  "racefuels": {
+   "name": "Racefuels",
    "k": "b"
   },
   "racetrac": {
@@ -48788,6 +49050,11 @@
    "cat": "Automotive",
    "k": "b"
   },
+  "red-mill-rum": {
+   "name": "Red Mill Rum",
+   "cat": "Alcohol",
+   "k": "b"
+  },
   "red-rock-consulting": {
    "name": "Red Rock Consulting",
    "cat": "Professional services",
@@ -49113,6 +49380,11 @@
     "icon",
     "logo"
    ],
+   "cat": "Automotive",
+   "k": "b"
+  },
+  "repco-authorised-service": {
+   "name": "Repco Authorised Service",
    "cat": "Automotive",
    "k": "b"
   },
@@ -52896,6 +53168,10 @@
    "cat": "Apparel & footwear",
    "k": "b"
   },
+  "shokz": {
+   "name": "Shokz",
+   "k": "b"
+  },
   "shoosmiths": {
    "name": "Shoosmiths",
    "k": "b"
@@ -54223,6 +54499,11 @@
    "cat": "Automotive",
    "k": "b"
   },
+  "south-australia-police": {
+   "name": "South Australia Police",
+   "cat": "Tourism & government",
+   "k": "b"
+  },
   "south-australian-cricket-association": {
    "name": "South Australian Cricket Association",
    "ptype": "Governing body",
@@ -54870,6 +55151,11 @@
    "aliases": [
     "Sports Direct Australia"
    ]
+  },
+  "sports-entertainment-network": {
+   "name": "Sports Entertainment Network",
+   "cat": "Media & broadcast",
+   "k": "b"
   },
   "sports-events-services": {
    "name": "Sports Events Services",
@@ -56232,6 +56518,11 @@
    "cat": "Airlines & travel",
    "k": "b"
   },
+  "sun-foundation": {
+   "name": "Sun Foundation",
+   "cat": "Not-for-profit",
+   "k": "b"
+  },
   "sun-life": {
    "name": "Sun Life",
    "k": "b"
@@ -56474,7 +56765,12 @@
     "logo"
    ],
    "ptype": "League & competition",
-   "k": "p"
+   "k": "p",
+   "ptiers": [
+    "Championship naming rights partner",
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-17"
   },
   "supercurious": {
    "name": "Supercurious",
@@ -56856,6 +57152,11 @@
    "cat": "Airlines & travel",
    "k": "b"
   },
+  "sydney-brewery": {
+   "name": "Sydney Brewery",
+   "cat": "Alcohol",
+   "k": "b"
+  },
   "sydney-children-s-hospitals-foundation": {
    "name": "Sydney Children's Hospitals Foundation",
    "cat": "Not-for-profit",
@@ -56885,6 +57186,27 @@
     "Pathways partner"
    ],
    "ptiersChecked": "2026-11-05"
+  },
+  "sydney-hobart-yacht-race": {
+   "name": "Sydney Hobart Yacht Race",
+   "aliases": [
+    "Rolex Sydney Hobart Yacht Race",
+    "Rolex Sydney Hobart"
+   ],
+   "domain": "rolexsydneyhobart.com",
+   "ptype": "Event",
+   "k": "p",
+   "bf": [
+    "icon"
+   ],
+   "ptiers": [
+    "Principal partner",
+    "Government partner",
+    "Official supplier",
+    "Broadcast partner",
+    "Other race supporter"
+   ],
+   "ptiersChecked": "2026-11-17"
   },
   "sydney-kings": {
    "name": "Sydney Kings",
@@ -56919,7 +57241,18 @@
    "bf": [
     "icon",
     "logo"
-   ]
+   ],
+   "ptiers": [
+    "Title, strategic and presenting partner",
+    "Strategic partner",
+    "Official event partner and supplier",
+    "Media partner"
+   ],
+   "ptiersChecked": "2026-11-17"
+  },
+  "sydney-opera-house": {
+   "name": "Sydney Opera House",
+   "k": "b"
   },
   "sydney-prestige-metal-roofing": {
    "name": "Sydney Prestige Metal Roofing",
@@ -57540,6 +57873,10 @@
    "domain": "tas.gov.au",
    "logo": "assets/logos/tasmanian-government.png"
   },
+  "tasports": {
+   "name": "TasPorts",
+   "k": "b"
+  },
   "tassells": {
    "name": "Tassells",
    "k": "b"
@@ -57591,6 +57928,11 @@
   "taunton-school": {
    "name": "Taunton School",
    "cat": "Education",
+   "k": "b"
+  },
+  "taupo-district-council": {
+   "name": "Taupō District Council",
+   "cat": "Tourism & government",
    "k": "b"
   },
   "tauranga-city-council": {
@@ -58439,6 +58781,11 @@
    "name": "The Banyans Healthcare",
    "k": "b",
    "cat": "Health & beauty"
+  },
+  "the-barossa-council": {
+   "name": "The Barossa Council",
+   "cat": "Tourism & government",
+   "k": "b"
   },
   "the-beach-bars": {
    "name": "The Beach Bars",
@@ -59714,6 +60061,10 @@
    "cat": "Construction & property",
    "k": "b"
   },
+  "toby-s-estate": {
+   "name": "Toby's Estate",
+   "k": "b"
+  },
   "today-fm": {
    "name": "Today FM",
    "k": "b"
@@ -59735,6 +60086,10 @@
   },
   "tofield": {
    "name": "Tofield",
+   "k": "b"
+  },
+  "toga-group": {
+   "name": "TOGA Group",
    "k": "b"
   },
   "toi-foundation": {
@@ -60278,14 +60633,21 @@
    "k": "p",
    "ptiers": [
     "Naming rights",
-    "Major partner",
     "Premier partner",
-    "Official partner"
+    "Major partner",
+    "Corporate partner",
+    "Host council"
    ],
-   "logo": "assets/logos/tour-down-under.png"
+   "logo": "assets/logos/tour-down-under.png",
+   "ptiersChecked": "2026-11-17"
   },
   "tourism-and-events-moreton-bay": {
    "name": "Tourism and Events Moreton Bay",
+   "cat": "Tourism & government",
+   "k": "b"
+  },
+  "tourism-and-events-northern-territory": {
+   "name": "Tourism and Events Northern Territory",
    "cat": "Tourism & government",
    "k": "b"
   },
@@ -60569,6 +60931,11 @@
   },
   "transtecno": {
    "name": "Transtecno",
+   "k": "b"
+  },
+  "transurban": {
+   "name": "Transurban",
+   "cat": "Logistics & transport",
    "k": "b"
   },
   "transwest": {
@@ -62096,6 +62463,11 @@
    "name": "Unzer",
    "k": "b"
   },
+  "up-and-go": {
+   "name": "Up&Go",
+   "cat": "Non-alcoholic drinks",
+   "k": "b"
+  },
   "up-top": {
    "name": "Up Top",
    "k": "b"
@@ -63420,6 +63792,10 @@
     "logo"
    ]
   },
+  "virtual-regatta": {
+   "name": "Virtual Regatta",
+   "k": "b"
+  },
   "visa": {
    "name": "Visa",
    "domain": "visa.com",
@@ -64000,6 +64376,11 @@
   },
   "w-hoboken": {
    "name": "W Hoboken",
+   "k": "b"
+  },
+  "w-hotel": {
+   "name": "W Hotel",
+   "cat": "Airlines & travel",
    "k": "b"
   },
   "w-rth": {

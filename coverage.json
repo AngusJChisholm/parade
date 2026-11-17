@@ -908,9 +908,9 @@
    "country": "AU",
    "state": "National",
    "tier": 1,
-   "partnersUrl": null,
-   "lastChecked": null,
-   "onPage": null
+   "partnersUrl": "https://www.supercars.com/partners/repco",
+   "lastChecked": "2026-11-17",
+   "onPage": 33
   },
   {
    "name": "Blues (Super Rugby)",
@@ -1239,8 +1239,8 @@
    "state": "VIC",
    "tier": 3,
    "partnersUrl": "https://ausopen.com/partners",
-   "lastChecked": null,
-   "onPage": null
+   "lastChecked": "2026-11-17",
+   "onPage": 45
   },
   {
    "name": "Tennis Australia",
@@ -1269,8 +1269,8 @@
    "state": "VIC",
    "tier": 3,
    "partnersUrl": "https://www.grandprix.com.au/en/supporters",
-   "lastChecked": null,
-   "onPage": null
+   "lastChecked": "2026-11-17",
+   "onPage": 8
   },
   {
    "name": "MotoGP Australian Grand Prix",
@@ -1469,8 +1469,8 @@
    "state": "SA",
    "tier": 3,
    "partnersUrl": "https://tourdownunder.com.au/about/partners",
-   "lastChecked": null,
-   "onPage": null
+   "lastChecked": "2026-11-17",
+   "onPage": 42
   },
   {
    "name": "AusCycling",
@@ -1808,9 +1808,9 @@
    "country": "AU",
    "state": "WA",
    "tier": 3,
-   "partnersUrl": null,
-   "lastChecked": null,
-   "onPage": null
+   "partnersUrl": "https://optusstadium.com.au/the-stadium/stadium-partners",
+   "lastChecked": "2026-11-17",
+   "onPage": 17
   },
   {
    "name": "RAC Arena",
@@ -5731,6 +5731,266 @@
    "partnersUrl": "https://www.werder.de/business/sponsoring/partneruebersicht",
    "lastChecked": "2026-11-17",
    "onPage": 35
+  },
+  {
+   "name": "Racing NSW",
+   "sport": "Horse racing",
+   "country": "AU",
+   "state": "NSW",
+   "tier": 3,
+   "partnersUrl": null,
+   "lastChecked": null,
+   "onPage": null
+  },
+  {
+   "name": "Racing Victoria",
+   "sport": "Horse racing",
+   "country": "AU",
+   "state": "VIC",
+   "tier": 3,
+   "partnersUrl": null,
+   "lastChecked": null,
+   "onPage": null
+  },
+  {
+   "name": "Magic Millions",
+   "sport": "Horse racing",
+   "country": "AU",
+   "state": "QLD",
+   "tier": 3,
+   "partnersUrl": null,
+   "lastChecked": null,
+   "onPage": null
+  },
+  {
+   "name": "Perth Racing",
+   "sport": "Horse racing",
+   "country": "AU",
+   "state": "WA",
+   "tier": 3,
+   "partnersUrl": null,
+   "lastChecked": null,
+   "onPage": null
+  },
+  {
+   "name": "Harness Racing Victoria",
+   "sport": "Horse racing",
+   "country": "AU",
+   "state": "VIC",
+   "tier": 3,
+   "partnersUrl": "https://www.thetrots.com.au/hq/partnerships/",
+   "lastChecked": null,
+   "onPage": null
+  },
+  {
+   "name": "Sydney Hobart Yacht Race",
+   "sport": "Sailing",
+   "country": "AU",
+   "state": "NSW",
+   "tier": 3,
+   "partnersUrl": "https://www.rolexsydneyhobart.com/about-the-race/partners",
+   "lastChecked": "2026-11-17",
+   "onPage": 13
+  },
+  {
+   "name": "Cruising Yacht Club of Australia",
+   "sport": "Sailing",
+   "country": "AU",
+   "state": "NSW",
+   "tier": 3,
+   "partnersUrl": "https://cyca.com.au/?p=3102",
+   "lastChecked": "2026-11-17",
+   "onPage": 18
+  },
+  {
+   "name": "World Surf League Australia",
+   "sport": "Surfing",
+   "country": "AU",
+   "state": "National",
+   "tier": 3,
+   "partnersUrl": null,
+   "lastChecked": null,
+   "onPage": null
+  },
+  {
+   "name": "Surf Life Saving Australia",
+   "sport": "Surfing",
+   "country": "AU",
+   "state": "National",
+   "tier": 3,
+   "partnersUrl": null,
+   "lastChecked": null,
+   "onPage": null
+  },
+  {
+   "name": "Sydney Marathon",
+   "sport": "Running",
+   "country": "AU",
+   "state": "NSW",
+   "tier": 3,
+   "partnersUrl": "https://tcssydneymarathon.com/eventpartners",
+   "lastChecked": "2026-11-17",
+   "onPage": 32
+  },
+  {
+   "name": "Melbourne Marathon",
+   "sport": "Running",
+   "country": "AU",
+   "state": "VIC",
+   "tier": 3,
+   "partnersUrl": null,
+   "lastChecked": null,
+   "onPage": null
+  },
+  {
+   "name": "City2Surf",
+   "sport": "Running",
+   "country": "AU",
+   "state": "NSW",
+   "tier": 3,
+   "partnersUrl": null,
+   "lastChecked": null,
+   "onPage": null
+  },
+  {
+   "name": "Gold Coast Marathon",
+   "sport": "Athletics",
+   "country": "AU",
+   "state": "QLD",
+   "tier": 3,
+   "partnersUrl": null,
+   "lastChecked": null,
+   "onPage": null
+  },
+  {
+   "name": "IRONMAN Oceania",
+   "sport": "Multi-sport",
+   "country": "AU",
+   "state": "National",
+   "tier": 3,
+   "partnersUrl": null,
+   "lastChecked": null,
+   "onPage": null
+  },
+  {
+   "name": "Stawell Gift",
+   "sport": "Athletics",
+   "country": "AU",
+   "state": "VIC",
+   "tier": 3,
+   "partnersUrl": null,
+   "lastChecked": null,
+   "onPage": null
+  },
+  {
+   "name": "Brisbane 2032",
+   "sport": "Olympics",
+   "country": "AU",
+   "state": "QLD",
+   "tier": 3,
+   "partnersUrl": "https://olympics.com/en/brisbane-2032/the-committee/partners-sponsors-and-suppliers/partners",
+   "lastChecked": null,
+   "onPage": null
+  },
+  {
+   "name": "Rugby League World Cup 2026",
+   "sport": "Rugby league",
+   "country": "AU",
+   "state": "National",
+   "tier": 3,
+   "partnersUrl": null,
+   "lastChecked": null,
+   "onPage": null
+  },
+  {
+   "name": "Netball World Cup 2027",
+   "sport": "Netball",
+   "country": "AU",
+   "state": "NSW",
+   "tier": 3,
+   "partnersUrl": null,
+   "lastChecked": null,
+   "onPage": null
+  },
+  {
+   "name": "Women's Rugby World Cup 2029",
+   "sport": "Rugby union",
+   "country": "AU",
+   "state": "National",
+   "tier": 3,
+   "partnersUrl": null,
+   "lastChecked": null,
+   "onPage": null
+  },
+  {
+   "name": "ICC Men's T20 World Cup 2028",
+   "sport": "Cricket",
+   "country": "AU",
+   "state": "National",
+   "tier": 3,
+   "partnersUrl": null,
+   "lastChecked": null,
+   "onPage": null
+  },
+  {
+   "name": "Venues NSW",
+   "sport": "Venues",
+   "country": "AU",
+   "state": "NSW",
+   "tier": 3,
+   "partnersUrl": null,
+   "lastChecked": null,
+   "onPage": null
+  },
+  {
+   "name": "Stadiums Queensland",
+   "sport": "Venues",
+   "country": "AU",
+   "state": "QLD",
+   "tier": 3,
+   "partnersUrl": null,
+   "lastChecked": null,
+   "onPage": null
+  },
+  {
+   "name": "Melbourne & Olympic Parks",
+   "sport": "Venues",
+   "country": "AU",
+   "state": "VIC",
+   "tier": 3,
+   "partnersUrl": null,
+   "lastChecked": null,
+   "onPage": null
+  },
+  {
+   "name": "ASB Classic",
+   "sport": "Tennis",
+   "country": "NZ",
+   "state": "Auckland",
+   "tier": 3,
+   "partnersUrl": null,
+   "lastChecked": null,
+   "onPage": null
+  },
+  {
+   "name": "New Zealand Open",
+   "sport": "Golf",
+   "country": "NZ",
+   "state": "Auckland",
+   "tier": 3,
+   "partnersUrl": null,
+   "lastChecked": null,
+   "onPage": null
+  },
+  {
+   "name": "Auckland Marathon",
+   "sport": "Running",
+   "country": "NZ",
+   "state": "Auckland",
+   "tier": 3,
+   "partnersUrl": null,
+   "lastChecked": null,
+   "onPage": null
   }
  ]
 }
