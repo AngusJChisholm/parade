@@ -18,16 +18,17 @@ async def main():
             await route.continue_(headers=h)
         await pg.route("**/*brandfetch.io/**", ref)
         # The new pages as a visitor sees them, scrolled through so every logo gets requested.
-        PAGES = [("page-home", "index.html", 1440, "#active"), ("page-brands", "brands.html", 1440, None),
-                 ("page-properties-afl", "properties.html?league=AFL", 1440, None), ("page-collingwood", "properties/collingwood.html", 1440, None), ("page-nike", "brands/nike.html", 1440, None), ("page-afl", "properties/afl.html", 1440, None),
-                 ("page-league-map", "leagues.html", 1440, None), ("page-insights", "insights.html", 1440, None),
-                 ("page-renewals", "renewals.html?year=2027", 1440, None), ("page-news", "news.html", 1440, None),
-                 ("page-compare", "compare.html?a=adidas&b=nike", 1440, None), ("page-brands-mobile", "brands.html", 390, None)]
+        PAGES = [("t-props", "properties.html?league=Australian%20tennis", 1440, None), ("t-ao", "properties/australian-open.html", 1440, None),
+                 ("t-uc", "properties/united-cup.html", 1440, None), ("t-bri", "properties/brisbane-international.html", 1440, None),
+                 ("t-adl", "properties/adelaide-international.html", 1440, None), ("t-hob", "properties/hobart-international.html", 1440, None),
+                 ("t-cbr", "properties/canberra-international.html", 1440, None), ("t-koo", "properties/kooyong-classic.html", 1440, None),
+                 ("t-ta", "properties/tennis-australia.html", 1440, None), ("t-vic", "properties/tennis-victoria.html", 1440, None),
+                 ("t-sa", "properties/tennis-sa.html", 1440, None), ("t-map", "leagues.html", 1440, None)]
         for name, url, w, anchor in PAGES:
             await pg.set_viewport_size({"width": w, "height": 1000 if w > 500 else 844})
             await pg.goto(f"http://localhost:8000/{url}", wait_until="domcontentloaded")
             await pg.wait_for_timeout(3000)
-            for y in range(0, 6000, 700):
+            for y in range(0, 9000, 700):
                 await pg.evaluate(f"window.scrollTo(0,{y})"); await pg.wait_for_timeout(1200)
             await pg.evaluate("window.scrollTo(0,0)" if not anchor else f"document.querySelector('{anchor}')?.scrollIntoView()")
             await pg.wait_for_timeout(8000)
