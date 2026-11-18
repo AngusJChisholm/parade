@@ -19,6 +19,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;800&display=swap">
 <link rel="stylesheet" href="assets/v2.css?v=4">
 <link rel="stylesheet" href="assets/follow.css?v=2">
+<link rel="stylesheet" href="assets/v3.css?v=1">
 <script src="assets/brand.js?v=1"></script>
 <link rel="stylesheet" href="assets/chrome.css?v=3">
 </head>
@@ -33,50 +34,38 @@
 </header>
 
 <main>
-<section class="lt"><div class="wrap">
-<div class="lt-h"><h1 class="c">Sport business, <span class="vb">today.</span></h1><span class="lbl mute-l" id="today"></span></div>
-<div class="lt-g">
-<div class="lt-n">
-<div class="s2h sm"><div><span class="lbl mute-l">News and features</span></div><a class="more" href="news">All news →</a></div>
-<div id="stories"></div>
+<div class="x3">
+<div class="bar3">
+<div class="seg" id="mk" role="group" aria-label="Market"><button type="button" data-m="All" class="on">Global</button><button type="button" data-m="ANZ">ANZ</button><button type="button" data-m="UK &amp; Ireland">UK</button><button type="button" data-m="North America">USA</button></div>
+<nav class="tabs3" aria-label="On this page"><a href="#news" class="on">News</a><a href="#latest">Partnerships</a><a href="#leagues">Leagues</a><a href="#movers">Movers</a></nav>
 </div>
-<div class="lt-p">
-<div class="s2h sm"><div><span class="lbl mute-l">Latest partnerships</span></div><a class="more" href="partnerships">All partnerships →</a></div>
-<div class="sw" id="opList"><div class="op-r"><span class="skel2" style="grid-column:1/-1;height:44px"></span></div><div class="op-r"><span class="skel2" style="grid-column:1/-1;height:44px"></span></div></div>
-</div>
-</div>
-</div></section>
+<div style="padding:20px 0"><span class="stamp" id="stamp"><i></i>Loading the database…</span></div>
 
-<section class="s2 db"><div class="wrap">
-<div class="s2h"><div><span class="lbl mute-l">The ANZ sport partnerships database</span><h2 class="c">Who backs <span class="vb">who</span> in ANZ sport.</h2></div></div>
-<p class="sub">Every club, league and event, checked against the official announcement, with the source and the date. <a class="more" href="partnerships">Browse every partnership →</a></p>
-<div class="nums hxn">
-<div><b id="pfN">-</b><span>Global partnerships on file</span></div>
-<div><b id="pfB">-</b><span>Global brands tracked</span></div>
-<div><b id="pfA">-</b><span>ANZ partnerships on file</span></div>
-<div><b id="pfP">-</b><span>ANZ properties checked</span></div>
-</div>
-</div></section>
+<section id="news" class="news3">
+<div class="lead3 card3" id="lead"><span class="sk3" style="height:420px;border-radius:16px"></span></div>
+<div class="side3"><h2 class="h3l" style="margin-bottom:8px">From Sport Sport Sport</h2><div id="side"></div><a class="go" href="news" style="align-self:flex-start;margin-top:12px">All news →</a></div>
+</section>
 
-<section class="s2"><div class="wrap">
-<div class="s2h"><div><span class="lbl mute-l">Who backs each club</span><h2 class="c">League maps.</h2></div><a class="more" href="leagues">All league maps →</a></div>
-<div class="lgm w5" id="lgm"></div>
-</div></section>
-<section class="s2"><div class="wrap">
-<div class="s2h"><div><span class="lbl mute-l">Our key markets</span><h2 class="c">The biggest leagues.</h2></div><a class="more" href="partnerships">Every partnership →</a></div>
-<div class="ph3">
-<a href="leagues?league=AFL" style="--img:url('/assets/img/u/photo-1663832886113-3d55ed62d1ca.jpg')"><span class="lbl">Australia &amp; NZ</span><b>AFL</b><span class="n" id="wAFL">-</span></a>
-<a href="leagues?league=Premier%20League" style="--img:url('/assets/img/u/photo-1629217855633-79a6925d6c47.jpg')"><span class="lbl">United Kingdom</span><b>Premier League</b><span class="n" id="wEPL">-</span></a>
-<a href="leagues?league=NFL" style="--img:url('/assets/img/u/photo-1696542095251-2dff09ec6b5b.jpg')"><span class="lbl">United States</span><b>NFL</b><span class="n" id="wNFL">-</span></a>
-</div>
-</div></section>
+<section id="latest" class="sec3">
+<h2 class="h3l"><a href="partnerships">Latest partnerships</a> <span class="gt" aria-hidden="true">›</span></h2>
+<div class="ft3" id="ft" role="group" aria-label="Filter"><button type="button" class="on" data-f="all">Latest</button><button type="button" data-f="New">New</button><button type="button" data-f="Renewal">Renewals</button><button type="button" data-f="Extension">Extensions</button><button type="button" data-f="naming">Naming rights</button><button type="button" data-f="ended">Ended</button></div>
+<div class="feed3"><div id="fa"><span class="sk3"></span></div><div id="fb"><span class="sk3"></span></div></div>
+<div style="margin-top:16px"><a class="go" href="partnerships">Every partnership →</a></div>
+</section>
 
-<!-- follow:start -->
-<section class="sf" id="follow"><div class="sf-w">
-<div class="sf-r"><div><h2>The Weekly Edition.</h2><p>Every partnership from the week, in your inbox Monday mornings.</p></div>
-<div class="sf-a"><span class="sf-b sf-soon" aria-disabled="true">Coming soon</span><a class="sf-b sf-o" href="https://www.linkedin.com/company/sportsportsport/" target="_blank" rel="noopener">LinkedIn</a><a class="sf-b sf-o" href="https://www.instagram.com/sportsportsport.hq/" target="_blank" rel="noopener">Instagram</a></div></div>
-</div></section>
-<!-- follow:end -->
+<section id="leagues" class="sec3">
+<div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap"><h2 class="h3l">The biggest leagues</h2><a class="go" href="leagues">All league maps →</a></div>
+<div class="lc3" id="lc"></div>
+</section>
+
+<section id="movers" class="sec3" style="padding-bottom:clamp(48px,6vw,96px)">
+<div class="mv3">
+<div><h2 class="h3l"><a href="brands">Most new partners</a> <span class="gt" aria-hidden="true">›</span></h2><div id="mvA"></div></div>
+<div><h2 class="h3l"><a href="renewals">Ending soon</a> <span class="gt" aria-hidden="true">›</span></h2><div id="mvB"></div><div style="margin-top:12px;padding:0 6px"><a class="go" href="renewals">Renewal watch →</a></div></div>
+<div><h2 class="h3l"><a href="brands">Most partnerships</a> <span class="gt" aria-hidden="true">›</span></h2><div id="mvC"></div></div>
+</div>
+</section>
+</div>
 </main>
 
 <footer class="v2"><div class="wrap">
@@ -92,50 +81,67 @@
 (function(){
 const $=id=>document.getElementById(id);
 const S=window.SSSData,L=window.SSSLogos,esc=L.esc;
-const now=new Date(),yr=now.getFullYear();
-$("yr").textContent=yr;
-
+const now=new Date(),yr=now.getFullYear(),DAY=864e5;
 const fmtD=s=>new Date(s+"T00:00:00").toLocaleDateString("en-AU",{day:"numeric",month:"short"});
+const ago=s=>{if(!s)return"";const d=Math.round((now-new Date(s+"T00:00:00"))/DAY);return d<=0?"today":d===1?"yesterday":d<7?d+" days ago":fmtD(s)};
 const live=d=>d.status!=="Ended"&&!d.ended;
-const cov=fetch("coverage.json",{cache:"no-cache"}).then(r=>r.ok?r.json():{}).catch(()=>({}));
+const pairM=(d,px)=>`<span class="pair">${(d._bs||[]).slice(0,1).map(e=>L.mark(e,{px})).join("")}<span class="xx" aria-hidden="true">×</span>${(d._ps||[]).slice(0,1).map(e=>L.mark(e,{px})).join("")}</span>`;
 const feats=fetch("features.json",{cache:"no-cache"}).then(r=>r.ok?r.json():{}).catch(()=>({}));
-Promise.all([S.load(),cov,feats]).then(([D,C,F])=>{
-  const all=D.deals,anz=all.filter(d=>S.mkt(d)==="ANZ");
-  const props=(C.properties||[]).filter(p=>p.country==="AU"||p.country==="NZ");
-  const last=all.map(d=>d.verified||"").sort().pop()||"";
-  $("pfN").textContent=all.length.toLocaleString("en-AU");
-  $("pfB").textContent=D.brands.length.toLocaleString("en-AU");
-  $("pfP").textContent=props.length.toLocaleString("en-AU");
-  $("pfA").textContent=anz.length.toLocaleString("en-AU");
-  
+let M="All",F="all",D=null;
+const inM=d=>M==="All"||S.mkt(d)===M;
+const chip=d=>{if(d.ended||d.status==="Ended")return `<span class="chip down">Ended</span>`;const s=d.status||"New";return `<span class="chip ${s==="New"?"up":"flat"}">${esc(s==="Expansion"?"Extension":s)}</span>`};
+const img=d=>{const x=String(d.image||"");const m=x.match(/^https:\/\/images\.unsplash\.com\/(photo-[\w-]+)/);
+  return /^assets\//.test(x)?`url('/${x}')`:m?`url('/assets/img/u/${m[1]}.jpg'), url('https://images.unsplash.com/${m[1]}?w=1200&q=75&auto=format&fit=crop')`:""};
 
-  // Latest partnerships: the newest announced partnerships, every market.
-  $("today").textContent=now.toLocaleDateString("en-AU",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
-  const sig=all.filter(d=>d.date).sort((a,b)=>b.date.localeCompare(a.date)).slice(0,10);
-  $("opList").innerHTML=sig.map(d=>`<div class="op-r"><span class="k nw"><i></i>${esc(d.status==="New"?"New partnership":d.status)} · ${esc(S.mkt(d))} · ${esc(fmtD(d.date))}</span>${L.pair(d,{px:34})}<span><b>${esc(d.deal)}</b><span class="x">${esc(d.sport)} · ${esc(d.tier||d.type)}</span></span>${d.url?`<a class="more" href="${esc(d.url)}" target="_blank" rel="noopener">Source</a>`:""}</div>`).join("");
+function feed(){
+  let r=D.deals.filter(d=>d.date&&inM(d));
+  if(F==="ended")r=D.deals.filter(d=>(d.ended||d.status==="Ended")&&inM(d)).sort((a,b)=>String(b.ended||"").localeCompare(String(a.ended||""))||S.sortKey(b).localeCompare(S.sortKey(a)));
+  else if(F==="naming")r=r.filter(d=>/naming/i.test((d.tier||"")+" "+(d.type||"")));
+  else if(F!=="all")r=r.filter(d=>(d.status||"New")===F||(F==="Extension"&&d.status==="Expansion"));
+  r=r.slice(0,10);
+  const row=d=>`<a class="fr" href="${esc(d.url&&/^https:/.test(d.url)?d.url:"partnerships")}"${d.url?' target="_blank" rel="noopener"':""}>${chip(d)}${pairM(d,26)}<span><b>${esc(d.deal)}</b><span class="x">${esc(d.sport)} · ${esc(d.tier||d.type)} · ${esc(S.mkt(d))}</span></span><time>${d.date?esc(ago(d.date)):""}</time></a>`;
+  const h=Math.ceil(r.length/2);
+  $("fa").innerHTML=r.slice(0,h).map(row).join("")||`<p class="l3" style="padding:12px 8px">Nothing on file for this filter yet.</p>`;
+  $("fb").innerHTML=r.slice(h).map(row).join("");
+}
+function movers(){
+  const cut=new Date(now-90*DAY).toISOString().slice(0,10);
+  const bs=D.brands.map(m=>{const ds=m.deals.filter(x=>inM(x.d));return {m,all:ds.filter(x=>live(x.d)).length,recent:ds.filter(x=>x.d.date&&x.d.date>=cut).length}});
+  const row=(m,x,v,c,k)=>`<a class="mr" href="${esc(L.page(m.e.slug))}">${L.mark(m.e,{px:30})}<span><b>${esc(m.e.name)}</b><span class="x">${esc(x)}</span></span><span class="v">${esc(v)}</span><span class="chip ${k}">${esc(c)}</span></a>`;
+  $("mvA").innerHTML=bs.filter(x=>x.recent).sort((a,b)=>b.recent-a.recent||b.all-a.all).slice(0,5).map(x=>row(x.m,x.m.cat,x.all+" total","+"+x.recent,"up")).join("")||`<p class="l3">Nothing new in the last 90 days.</p>`;
+  const end=D.deals.filter(d=>live(d)&&inM(d)&&d.ends&&+d.ends>=yr&&+d.ends<=yr+1).sort((a,b)=>(+a.ends-+b.ends)||S.sortKey(b).localeCompare(S.sortKey(a))).slice(0,5);
+  $("mvB").innerHTML=end.map(d=>{const e=d._bs[0];return e?row({e},(d._ps[0]||{}).name?"× "+d._ps[0].name:d.deal,(d.endsEst?"c. ":"")+d.ends,"Ends","down"):""}).join("")||`<p class="l3">No end dates on file for this market yet.</p>`;
+  $("mvC").innerHTML=bs.sort((a,b)=>b.all-a.all).slice(0,5).map(x=>row(x.m,x.m.cat,x.all+" partnerships",x.recent?"+"+x.recent:"0",x.recent?"up":"flat")).join("");
+}
+function leagues(){
+  const pick=[["AFL","Australia & NZ"],["Premier League","United Kingdom"],["NFL","United States"]];
+  const months=[...Array(12)].map((_,i)=>{const d=new Date(yr,now.getMonth()-11+i,1);return d.toISOString().slice(0,7)});
+  $("lc").innerHTML=pick.map(([n,m])=>{const l=(D.lgAll||[]).find(x=>x.name===n);if(!l)return"";
+    const ds=D.deals.filter(d=>live(d)&&d._ps.some(e=>e&&l.ids.has(e.slug)));
+    const mo=months.map(k=>ds.filter(d=>(d.date||"").slice(0,7)===k).length),mx=Math.max(1,...mo);
+    const pts=mo.map((v,i)=>`${(i*150/11).toFixed(1)},${(42-v/mx*38).toFixed(1)}`).join(" ");
+    const wk=ds.filter(d=>d.date&&(now-new Date(d.date+"T00:00:00"))<30*DAY).length;
+    return `<a class="card3" href="leagues?league=${encodeURIComponent(n)}"><span class="h"><b>${esc(n)} <span>· ${esc(m)}</span></b><span class="chip ${wk?"up":"flat"}">+${wk} this month</span></span><span class="bd" style="display:block"><span class="n">${ds.length.toLocaleString("en-AU")}</span><span class="s">Partnerships on file · ${l.clubs.length} clubs</span><svg viewBox="0 0 150 46" preserveAspectRatio="none" aria-hidden="true"><polyline points="${pts}" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></svg></span></a>`}).join("");
+}
+function stamp(){
+  const last=D.deals.map(d=>d.verified||d.added||"").sort().pop()||"";
+  const n=D.deals.filter(inM).length;
+  $("stamp").innerHTML=`<i></i>Database updated ${esc(ago(last))} · ${n.toLocaleString("en-AU")} ${M==="All"?"global":esc(M)} partnerships on file`;
+}
+function render(){stamp();feed();movers()}
 
-  // League maps: the ANZ leagues with the most clubs on file.
-  const lg=(D.lgAll||[]).filter(l=>l.market==="ANZ"&&l.clubs.length>=6).map(l=>({l,n:D.deals.filter(d=>[...d._ps].some(e=>e&&l.ids.has(e.slug))&&live(d)).length})).sort((a,b)=>b.n-a.n).slice(0,10);
-  $("lgm").innerHTML=lg.map(({l,n})=>`<a href="leagues?league=${encodeURIComponent(l.name)}"><span class="sp">${esc(l.sport)}</span><b>${esc(l.name)}</b><span>${l.clubs.length} clubs · ${n.toLocaleString("en-AU")} partnerships</span></a>`).join("");
-
-  // Stories: newest article with a photo big, then two more.
-  const img=d=>{const x=String(d.image||"");const m=x.match(/^https:\/\/images\.unsplash\.com\/(photo-[\w-]+)/);
-    return /^assets\//.test(x)?`url('/${x}')`:m?`url('/assets/img/u/${m[1]}.jpg'), url('https://images.unsplash.com/${m[1]}?w=1200&q=75&auto=format&fit=crop')`:""};
-  const arts=[...all.filter(d=>d.article&&d.slug&&d.date),...(F.features||[]).filter(f=>f.slug&&f.article&&f.date).map(f=>({date:f.date,headline:f.headline,deal:f.descriptor||"",summary:(f.article||{}).standfirst,slug:f.slug,article:true,image:f.image,label:f.label||"Feature",_f:1}))]
+Promise.all([S.load(),feats]).then(([d,Fj])=>{
+  D=d;
+  const arts=[...D.deals.filter(d=>d.article&&d.slug&&d.date),...(Fj.features||[]).filter(f=>f.slug&&f.article&&f.date).map(f=>({date:f.date,headline:f.headline,deal:f.descriptor||"",summary:(f.article||{}).standfirst,slug:f.slug,article:true,image:f.image,label:f.label||"Feature",_f:1,_bs:[],_ps:[]}))]
     .sort((a,b)=>b.date.localeCompare(a.date)||(b._f||0)-(a._f||0));
-  const top=arts[0]; // same rule as the News page: newest story leads, features first on the same day
-  const rest=arts.filter(d=>d!==top).slice(0,2);
-  if(top)$("stories").innerHTML=`<a class="story" href="articles/${encodeURIComponent(top.slug)}" style="--img:${esc(img(top))}"><span class="kd">${esc(top.label||"Latest")} · ${esc(fmtD(top.date))}</span><h3 class="c">${esc(top.headline||top.deal)}</h3>${top.summary?`<p>${esc(top.summary)}</p>`:""}<span class="more">Read the story →</span></a>`+
-    rest.map(d=>`<a class="st3" href="articles/${encodeURIComponent(d.slug)}">${img(d)?`<span class="im" style="background-image:${esc(img(d))}"></span>`:""}<span>${esc(d.label||"Partnership")} · ${esc(fmtD(d.date))}</span><b>${esc(d.headline||d.deal)}</b>${d.summary?`<p>${esc(d.summary)}</p>`:""}</a>`).join("");
-
-
-  // Photo breaks: live counts.
-  // (ANZ photo band removed; ANZ count shows in the stats strip)
-  const lgN=n=>{const l=(D.lgAll||[]).find(x=>x.name===n);return l?D.deals.filter(d=>d._ps.some(e=>e&&l.ids.has(e.slug))).length:0};
-  const lgT=n=>`${lgN(n).toLocaleString("en-AU")} partnerships across the league and its clubs`;
-  $("wAFL").textContent=lgT("AFL");$("wEPL").textContent=lgT("Premier League");$("wNFL").textContent=lgT("NFL");
-
-}).catch(()=>{$("opList").innerHTML=`<div class="op-r"><span style="grid-column:1/-1">The partnerships file didn't load. Refresh to try again.</span></div>`});
+  const top=arts[0];
+  if(top){const lk=(top._bs||[]).length&&(top._ps||[]).length?`<span class="lk">${pairM(top,34)}</span>`:"";
+    $("lead").outerHTML=`<a class="lead3 card3" id="lead" href="articles/${encodeURIComponent(top.slug)}"><span class="phx" style="background-image:${esc(img(top))}">${lk}</span><span class="tx"><span class="l3">${esc(top.label||"Partnership")} · ${esc(fmtD(top.date))}</span><h2 class="disp">${esc(top.headline||top.deal)}</h2>${top.summary?`<p>${esc(top.summary)}</p>`:""}${top._f?"":`<span class="l3" style="letter-spacing:.12em;font-weight:500;color:#33332F">${esc(top.deal)}</span>`}</span></a>`}
+  $("side").innerHTML=arts.slice(1,4).map(d=>`<a class="s" href="articles/${encodeURIComponent(d.slug)}"><span class="im" style="background-image:${esc(img(d))}"></span><span><span class="l3" style="font-size:10px">${esc(d.label||"Partnership")} · ${esc(fmtD(d.date))}</span><b>${esc(d.headline||d.deal)}</b></span></a>`).join("");
+  leagues();render();
+  $("mk").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;M=b.dataset.m;[...$("mk").children].forEach(x=>x.classList.toggle("on",x===b));render()});
+  $("ft").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;F=b.dataset.f;[...$("ft").children].forEach(x=>x.classList.toggle("on",x===b));feed()});
+}).catch(()=>{$("stamp").innerHTML="<i></i>The partnerships file didn't load. Refresh to try again."});
 })();
 </script>
 <script src="assets/chrome.js?v=3"></script>

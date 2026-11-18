@@ -1,0 +1,101 @@
+/* v3 components (18 Nov 2026): the Stake-style redesign. Loads after v2.css/site.css and before chrome.css.
+   Rounded cards and pills, chips, stat strips, feeds, league cards, movers. White + volt, Archivo 500/800. */
+:root{--r-chip:6px;--r-sm:12px;--r-md:16px;--r-lg:24px;--r-pill:999px;--ink:#111;--ink-2:#33332F;--ink-3:#5C5C57;--line:#DEDED8;--canvas:#F4F4F1;--volt:#D2FF3C}
+.x3{max-width:1440px;margin:0 auto;padding-inline:var(--pad,clamp(16px,4vw,56px))}
+.disp{font-family:var(--cond,"Archivo");font-stretch:68%;font-weight:800;text-transform:uppercase;letter-spacing:-.005em;line-height:.88;margin:0}
+.l3{font-weight:800;font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-3)}
+.h3l{display:flex;align-items:center;gap:10px;margin:0 0 20px;font-weight:800;font-size:clamp(20px,1.8vw,26px);text-transform:uppercase;letter-spacing:-.03em}
+.h3l a{color:inherit}.h3l .gt{color:#9E9E9E}
+.go{font-weight:800;font-size:12px;letter-spacing:.14em;text-transform:uppercase;border-bottom:2px solid #111;padding-bottom:3px;white-space:nowrap}
+.go:hover{color:var(--ink-3)}
+.sec3{padding-top:clamp(48px,5vw,72px)}
+
+/* Freshness stamp */
+.stamp{display:inline-flex;align-items:center;gap:10px;font-weight:800;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3)}
+.stamp i{width:8px;height:8px;border-radius:50%;background:#111;animation:st3p 2s ease-in-out infinite;flex:none}
+@keyframes st3p{0%,100%{opacity:1}50%{opacity:.25}}
+
+/* Segmented toggle + jump tabs */
+.bar3{position:sticky;top:76px;z-index:30;background:#fff;padding-top:20px;display:flex;justify-content:space-between;align-items:center;gap:16px 24px;flex-wrap:wrap}
+.seg{display:inline-flex;padding:4px;background:var(--canvas);border-radius:var(--r-pill)}
+.seg button{font:inherit;font-weight:800;font-size:14px;height:42px;padding:0 22px;border:0;border-radius:var(--r-pill);background:transparent;color:var(--ink-3);cursor:pointer}
+.seg button.on{background:#111;color:#fff}
+.tabs3{display:flex;gap:26px;flex-wrap:wrap}
+.tabs3 a{font-weight:800;font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3);padding-bottom:8px;border-bottom:3px solid transparent}
+.tabs3 a:hover,.tabs3 a.on{color:#111;border-bottom-color:#111}
+@media (max-width:560px){.bar3{top:64px}.seg button{padding:0 14px;font-size:13px;height:38px}.tabs3{display:none}}
+
+/* Cards, chips, pills */
+.card3{background:#fff;border:1px solid var(--line);border-radius:var(--r-md)}
+.chip{display:inline-flex;align-items:center;justify-content:center;min-width:58px;height:26px;padding:0 10px;border-radius:var(--r-chip);font-weight:800;font-size:11px;letter-spacing:.06em;text-transform:uppercase;white-space:nowrap;font-variant-numeric:tabular-nums}
+.chip.up{background:var(--volt);color:#000}.chip.flat{background:var(--canvas);color:var(--ink-3)}.chip.down{background:#111;color:#fff}
+.ft3{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px}
+.ft3 button{font:inherit;font-weight:800;font-size:13px;height:38px;padding:0 16px;border:0;border-radius:var(--r-pill);background:transparent;color:var(--ink-3);cursor:pointer}
+.ft3 button.on{background:var(--canvas);color:#111}
+.pills3{display:flex;gap:8px;flex-wrap:wrap}
+.pills3 button,.pills3 a{font:inherit;font-weight:800;font-size:12px;letter-spacing:.12em;text-transform:uppercase;height:42px;padding:0 18px;border:1px solid #111;border-radius:var(--r-pill);background:#fff;color:#111;cursor:pointer;display:inline-flex;align-items:center}
+.pills3 .on{background:#111;color:#fff}
+
+/* Lead story + side list */
+.news3{display:flex;gap:32px;flex-wrap:wrap;align-items:stretch}
+.lead3{flex:999 1 620px;min-width:0;display:flex;flex-direction:column;overflow:hidden}
+.lead3 .phx{position:relative;aspect-ratio:16/8;background:#111 center/cover no-repeat}
+.lead3 .lk{position:absolute;left:16px;bottom:16px;display:flex;align-items:center;gap:10px;padding:10px 14px;background:#fff;border-radius:var(--r-sm)}
+.lead3 .lk .lg{--s:34px}
+.lead3 .tx{padding:20px 22px 22px;display:flex;flex-direction:column;gap:10px}
+.lead3 h2{font-size:clamp(32px,3.2vw,46px)}
+.lead3 p{margin:0;font-size:15px;line-height:1.5;color:var(--ink-2)}
+.lead3:hover h2{text-decoration:underline;text-decoration-thickness:3px;text-underline-offset:5px}
+.side3{flex:1 1 340px;min-width:0;display:flex;flex-direction:column}
+.side3 a.s{display:grid;grid-template-columns:112px minmax(0,1fr);gap:14px;align-items:center;padding:14px 0;border-bottom:1px solid var(--line)}
+.side3 a.s:last-of-type{border-bottom:0}
+.side3 .im{height:84px;border-radius:10px;background:var(--canvas) center/cover no-repeat}
+.side3 b{display:block;margin-top:6px;font-weight:800;font-size:16px;line-height:1.2}
+.side3 a.s:hover b{text-decoration:underline;text-underline-offset:3px}
+
+/* Feed (latest partnerships) */
+.feed3{display:flex;gap:48px;flex-wrap:wrap}
+.feed3>div{flex:1 1 520px;min-width:0}
+.feed3>div+div{border-left:1px solid var(--line);padding-left:24px}
+.fr{display:grid;grid-template-columns:116px auto minmax(0,1fr) auto;gap:14px;align-items:center;padding:12px 8px;border-radius:10px}
+.fr:hover{background:var(--canvas)}
+.fr .lg{--s:26px}.fr .pair{gap:4px}
+.fr b{font-weight:800;font-size:15px;overflow-wrap:anywhere}
+.fr .x{display:block;font-size:12px;color:var(--ink-3);margin-top:2px}
+.fr time{font-size:13px;color:var(--ink-3);white-space:nowrap}
+@media (max-width:760px){.feed3>div+div{border-left:0;padding-left:0}.fr{grid-template-columns:auto minmax(0,1fr) auto}.fr .pair{display:none}}
+
+/* League cards */
+.lc3{display:flex;gap:24px;flex-wrap:wrap}
+.lc3 a{flex:1 1 300px;min-width:0;overflow:hidden;display:block}
+.lc3 .h{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:14px 18px;background:var(--canvas)}
+.lc3 .h b{font-weight:800;font-size:14px;text-transform:uppercase}
+.lc3 .h b span{color:var(--ink-3);font-weight:500}
+.lc3 .bd{padding:20px 18px 16px}
+.lc3 .n{font-family:var(--cond);font-stretch:68%;font-weight:800;font-size:clamp(40px,3.4vw,52px);line-height:.9;letter-spacing:-.01em}
+.lc3 .s{display:block;margin-top:6px;font-size:13px;color:var(--ink-3)}
+.lc3 svg{display:block;width:100%;height:46px;margin-top:14px}
+.lc3 a:hover{border-color:#111}
+
+/* Movers */
+.mv3{display:flex;gap:48px;flex-wrap:wrap}
+.mv3>div{flex:1 1 360px;min-width:0}
+.mr{display:grid;grid-template-columns:30px minmax(0,1fr) auto auto;gap:12px;align-items:center;padding:11px 6px;border-radius:10px}
+.mr:hover{background:var(--canvas)}
+.mr .lg{--s:30px}
+.mr b{display:block;font-weight:800;font-size:14px;text-transform:uppercase;letter-spacing:-.01em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mr .x{display:block;font-size:12px;color:var(--ink-3);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mr .v{font-size:14px;font-variant-numeric:tabular-nums;color:var(--ink-2)}
+
+/* Stat strip */
+.stats3{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));border-top:2px solid #111;border-bottom:1px solid var(--line)}
+.stats3>div{padding:22px 0}
+.stats3>div+div{padding-left:26px;border-left:1px solid var(--line)}
+.stats3 b{display:block;font-family:var(--cond);font-stretch:68%;font-weight:800;font-size:clamp(36px,3.2vw,48px);line-height:.9}
+.stats3 span{display:block;margin-top:8px;font-size:13px;color:var(--ink-3)}
+@media (max-width:640px){.stats3{grid-template-columns:repeat(2,minmax(0,1fr))}.stats3>div:nth-child(3){padding-left:0;border-left:0}.stats3>div:nth-child(n+3){border-top:1px solid var(--line)}}
+
+/* Skeleton */
+.sk3{display:block;height:44px;border-radius:10px;background:linear-gradient(90deg,var(--canvas),#fafaf8,var(--canvas));background-size:200% 100%;animation:sk3 1.2s linear infinite}
+@keyframes sk3{from{background-position:200% 0}to{background-position:0 0}}
+@media (prefers-reduced-motion:reduce){.stamp i,.sk3{animation:none}}
