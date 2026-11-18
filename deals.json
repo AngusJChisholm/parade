@@ -1424,8 +1424,12 @@
    "date": "2026-01-12",
    "conf": "Confirmed",
    "verified": "2026-11-18",
+   "rights": [
+    "presenting partner (Brisbane International presented by ANZ)"
+   ],
+   "rightsSrc": "https://ausopen.com/node/258874",
    "ttier": "T1",
-   "tbasis": "rights",
+   "tbasis": "sourced",
    "tends": 2031,
    "tendsBasis": "league"
   },
@@ -1519,8 +1523,12 @@
    "date": "2025-12-12",
    "conf": "Confirmed",
    "verified": "2026-11-18",
+   "rights": [
+    "official hydration supplement partner"
+   ],
+   "rightsSrc": "https://www.unitedcup.com/en/media/news/liquid-iv-official-hydration-supplement-partner",
    "ttier": "T3",
-   "tbasis": "category",
+   "tbasis": "sourced",
    "tends": 2030,
    "tendsBasis": "league"
   },
@@ -1557,8 +1565,12 @@
    "date": "2024-12-09",
    "conf": "Confirmed",
    "verified": "2026-11-18",
+   "rights": [
+    "official performance apparel partner"
+   ],
+   "rightsSrc": "https://www.tennis.com.au/adelaide-international/news/2024/12/elite-eleven-partner-brisbane-adelaide-hobart-internationals",
    "ttier": "Kit",
-   "tbasis": "rights",
+   "tbasis": "sourced",
    "tends": 2029,
    "tendsBasis": "league"
   },
@@ -178692,6 +178704,14 @@
    "verified": "2026-11-17",
    "checked": "2026-11-17",
    "since": 2010,
+   "rights": [
+    "associate partner",
+    "official bank",
+    "naming rights to ANZ Arena (formerly Show Court 3)"
+   ],
+   "rightsSrc": "https://ausopen.com/node/258874",
+   "ttier": "T1",
+   "tbasis": "sourced",
    "tends": 2031,
    "tendsBasis": "league"
   },
@@ -188423,6 +188443,12 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2025-12-17",
+   "rights": [
+    "official hydration supplement partner"
+   ],
+   "rightsSrc": "https://www.unitedcup.com/en/media/news/liquid-iv-official-hydration-supplement-partner",
+   "ttier": "T3",
+   "tbasis": "sourced",
    "tends": 2030,
    "tendsBasis": "league"
   },
@@ -200527,6 +200553,13 @@
    "verified": "2024-10-14",
    "ptier": "Official partner",
    "marketLock": true,
+   "rights": [
+    "official business and technology transformation consulting partner",
+    "on-court signage in Perth and Sydney"
+   ],
+   "rightsSrc": "https://www.unitedcup.com/en/media/news/deloitte-partners-with-united-cup-and-tennis-australia",
+   "ttier": "T3",
+   "tbasis": "sourced",
    "tends": 2029,
    "tendsBasis": "league"
   },
@@ -233578,8 +233611,14 @@
    "since": 2002,
    "ends": 2028,
    "endsLock": true,
-   "ttier": "T2",
-   "tbasis": "role",
+   "rights": [
+    "sole major partner",
+    "naming rights to Kia Arena",
+    "official vehicle fleet"
+   ],
+   "rightsSrc": "https://www.sportcal.com/?p=56236",
+   "ttier": "T1",
+   "tbasis": "sourced",
    "tends": 2028,
    "tendsBasis": "stated"
   },
@@ -233601,6 +233640,12 @@
    "since": 2015,
    "ends": 2029,
    "endsLock": true,
+   "rights": [
+    "associate partner, official airline"
+   ],
+   "rightsSrc": "https://www.ausleisure.com.au/news/partnership-expanded-between-yopro-and-australian-open-to-champion-performance-and-progress",
+   "ttier": "T2",
+   "tbasis": "sourced",
    "tends": 2029,
    "tendsBasis": "stated"
   },
@@ -233619,7 +233664,13 @@
    "conf": "Confirmed",
    "verified": "2026-11-17",
    "checked": "2026-11-17",
-   "since": 2018
+   "since": 2018,
+   "rights": [
+    "associate partner, official baijiu"
+   ],
+   "rightsSrc": "https://www.ausleisure.com.au/news/partnership-expanded-between-yopro-and-australian-open-to-champion-performance-and-progress",
+   "ttier": "T2",
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-10-30",
@@ -233636,7 +233687,13 @@
    "conf": "Confirmed",
    "verified": "2026-11-17",
    "checked": "2026-11-17",
-   "since": 2008
+   "since": 2008,
+   "rights": [
+    "associate partner, official timekeeper"
+   ],
+   "rightsSrc": "https://www.ausleisure.com.au/news/partnership-expanded-between-yopro-and-australian-open-to-champion-performance-and-progress",
+   "ttier": "T2",
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-10-30",
