@@ -9,7 +9,7 @@
      Video   - 5, 10 or 15 second clips from any design, LED board animations (motion preset, crossfade or your own
                clip) and a brand dropped onto existing footage (bug, lower third or end slate). Recorded in real time.
      Decks   - one master deck, set up once and organised into sections, personalised per brand from the database
-               (Scout Score, the open slot, the brand's portfolio, category benchmark). Any slide can carry a design
+               (Match Score, the open slot, the brand's portfolio, category benchmark). Any slide can carry a design
                or a video. Out as PowerPoint or PDF, one brand or all of them.
      Shared  - secure links (password or email-domain gate) with view counts, a time-on-slide heat map and location.
                Needs Supabase (supabase/schema.sql section 6). The viewer is deck.html.
@@ -473,7 +473,7 @@ async function slideEls(s,pd,n,total,acc,ctx){
       push(await logoEl(r.p&&r.p.e,{x:M,y:y+6,w:90,h:52}));
       push({t:"text",x:M+120,y:y+12,w:760,h:44,text:r.p?r.p.e.name:"",size:34,weight:800,upper:true,cond:true});
       push({t:"text",x:M+900,y:y+16,w:420,h:40,text:`${r.sport}${r.reach?` · ${r.reach}`:""}`,size:26,color:GREY});
-      push({t:"text",x:M+1340,y:y+16,w:340,h:40,text:r.sc?`Scout Score ${r.sc.x}`:"",size:26,weight:800,align:"right"});
+      push({t:"text",x:M+1340,y:y+16,w:340,h:40,text:r.sc?`Match Score ${r.sc.x}`:"",size:26,weight:800,align:"right"});
       notes.push(`${r.p?r.p.e.name:""}: ${((r.sc||{}).w||[]).join("; ")}`)}
     if(!rows.length)push({t:"text",x:M,y:440,w:1400,h:80,text:"Add properties to the pitch to fill this slide.",size:36,color:GREY});
   }
@@ -481,7 +481,7 @@ async function slideEls(s,pd,n,total,acc,ctx){
     push(title(s,T));
     if(pd.sc){push({t:"rect",x:M,y:440,w:540,h:330,fill:acc});
       push({t:"text",x:M+40,y:450,w:460,h:250,text:String(pd.sc.x),size:260,weight:800,cond:true,color:accTxt,valign:"middle"});
-      push({t:"text",x:M+40,y:700,w:460,h:50,text:`Scout Score · ${BAND[pd.sc.k]||pd.sc.k||"fit"}`,size:28,weight:800,upper:true,color:accTxt,track:2});
+      push({t:"text",x:M+40,y:700,w:460,h:50,text:`Match Score · ${BAND[pd.sc.k]||pd.sc.k||"fit"}`,size:28,weight:800,upper:true,color:accTxt,track:2});
       push({t:"text",x:M,y:800,w:540,h:150,text:`How closely ${T.brand}'s partnerships match ${T.property}, plus the open slot. Out of 100.`,size:26,color:GREY})}
     else{push({t:"rect",x:M,y:440,w:540,h:330,fill:acc});
       push({t:"text",x:M+40,y:450,w:460,h:250,text:String(pd.nB),size:260,weight:800,cond:true,color:accTxt,valign:"middle"});
@@ -581,7 +581,7 @@ async function slideEls(s,pd,n,total,acc,ctx){
     const T2=Object.assign({},T,{top:ranked[0]&&ranked[0].p?ranked[0].p.e.name:"the top property",topwhy:ranked[0]&&ranked[0].sc?(ranked[0].sc.w||[])[0]||"":"",second:ranked[1]&&ranked[1].p?ranked[1].p.e.name:"the next best"});
     push({t:"text",x:M,y:430,w:1060,h:500,text:fillT(s.body||"",T2),size:52,weight:800,cond:true,upper:true,color:INK,lh:1.05});
     if(ranked[0]&&ranked[0].p){push({t:"rect",x:1300,y:430,w:500,h:420,fill:acc});push(await logoEl(ranked[0].p.e,{x:1340,y:470,w:420,h:240},lumHex(acc)));
-      push({t:"text",x:1340,y:740,w:420,h:80,text:ranked[0].sc?`Scout Score ${ranked[0].sc.x}`:"Top pick",size:34,weight:800,upper:true,color:accTxt,align:"center"})}
+      push({t:"text",x:1340,y:740,w:420,h:80,text:ranked[0].sc?`Match Score ${ranked[0].sc.x}`:"Top pick",size:34,weight:800,upper:true,color:accTxt,align:"center"})}
   }
   else if(s.kind==="package"){
     push(title(s,T));
@@ -797,9 +797,9 @@ function ctxBar(){
   <div class="ctl"><div class="pills tabs-keep">${pillRow("pdmode",[["p","Property: sell partnerships"],["b","Agency: strategy for a brand"]],c.mode)}</div></div>
   <div class="pd-ctx-r">
     <label class="pd-f"><span class="lbl mute-l">${c.mode==="b"?"Brand":"Your property"}</span><input class="srch" id="pdMain" list="${c.mode==="b"?"pdBrandL":"pdPropL"}" value="${esc(main?nm(main):"")}" placeholder="${c.mode==="b"?"e.g. Cadbury, Coopers":"e.g. Carlton, Wallabies"}" autocomplete="off"></label>
-    <label class="pd-f"><span class="lbl mute-l">Add ${c.mode==="b"?"properties":"brands"} (${T.length}/${MAXB})</span><span class="pd-add"><input class="srch" id="pdAdd" list="${c.mode==="b"?"pdPropL":"pdBrandL"}" placeholder="Type a name, then Enter" autocomplete="off"><button type="button" class="ghost" id="pdTop">Add top ${c.mode==="b"?"matches":"Scout picks"}</button>${T.length?`<button type="button" class="ghost" id="pdClr">Clear</button>`:""}</span></label>
+    <label class="pd-f"><span class="lbl mute-l">Add ${c.mode==="b"?"properties":"brands"} (${T.length}/${MAXB})</span><span class="pd-add"><input class="srch" id="pdAdd" list="${c.mode==="b"?"pdPropL":"pdBrandL"}" placeholder="Type a name, then Enter" autocomplete="off"><button type="button" class="ghost" id="pdTop">Add top ${c.mode==="b"?"matches":"top matches"}</button>${T.length?`<button type="button" class="ghost" id="pdClr">Clear</button>`:""}</span></label>
   </div>
-  <div class="pd-tg">${T.map(s=>{const o=org(s);return `<span class="pd-chip">${o?L.mark(o.e,{px:22}):""}${esc(nm(s))}<button type="button" data-pdrm="${esc(s)}" aria-label="Remove">×</button></span>`}).join("")||`<span class="note-s">No ${c.mode==="b"?"properties":"brands"} yet. Add them one by one, or take the top Scout picks.</span>`}</div>
+  <div class="pd-tg">${T.map(s=>{const o=org(s);return `<span class="pd-chip">${o?L.mark(o.e,{px:22}):""}${esc(nm(s))}<button type="button" data-pdrm="${esc(s)}" aria-label="Remove">×</button></span>`}).join("")||`<span class="note-s">No ${c.mode==="b"?"properties":"brands"} yet. Add them one by one, or take the top top matches.</span>`}</div>
   <datalist id="pdBrandL">${brandOpts}</datalist><datalist id="pdPropL">${propOpts}</datalist></div>`;
 }
 function bindCtx(redraw){
@@ -1064,7 +1064,7 @@ function decks(){
   $("pdBody").innerHTML=`<div class="pd-dk">
   <div class="pd-dkl">
     <div class="h3 m0">${ctxGet().mode==="b"?"Agency strategy deck":"Property pitch deck"}</div>
-    <p class="note-s">Set it up once. Every brand gets its own version: names, logos, Scout Score, the open slot and mockups fill in from the database. Use {{brand}}, {{property}}, {{sub}}, {{category}} or {{sport}} in any text${ctxGet().mode==="b"?", and {{top}}, {{topwhy}} or {{second}} on the recommendation":""}. Each deck type keeps its own master: switch type at the top.</p>
+    <p class="note-s">Set it up once. Every brand gets its own version: names, logos, Match Score, the open slot and mockups fill in from the database. Use {{brand}}, {{property}}, {{sub}}, {{category}} or {{sport}} in any text${ctxGet().mode==="b"?", and {{top}}, {{topwhy}} or {{second}} on the recommendation":""}. Each deck type keeps its own master: switch type at the top.</p>
     <div class="toolrow"><label class="ghost pd-up">Upload master slides (PDF or images)<input type="file" id="dkUp" accept="application/pdf,image/*" multiple hidden></label>
     <select class="sel" id="dkAdd"><option value="">+ Add a slide</option>${["text","inventory","video","package","why","about","portfolio","opportunity","benchmark","landscape","renewals","shortlist","reco","next"].map(k=>`<option value="${k}">${esc(KINDS[k])}</option>`).join("")}</select>
     <select class="sel" id="dkAcc"><option value="volt"${ms.accent!=="property"?" selected":""}>Accent: Volt</option><option value="property"${ms.accent==="property"?" selected":""}>Accent: property colours</option></select>

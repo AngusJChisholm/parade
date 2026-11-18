@@ -1,5 +1,5 @@
 /* SSS Pro (pro.html): private working tool built on the deal archive.
-   Tabs: Pitch decks (assets/pro-decks.js), Scouting (Scout Score suggestions, both ways), Brand finder, Renewal radar, Property report (partners, category gaps, prospects, peer benchmark), Watchlist, Reports (partnership report for any brand or property, saved as a PDF).
+   Tabs: Pitch decks (assets/pro-decks.js), Scouting (Match Score suggestions, both ways), Brand finder, Renewal radar, Property report (partners, category gaps, prospects, peer benchmark), Watchlist, Reports (partnership report for any brand or property, saved as a PDF).
    Renewal years come in three strengths:
      Confirmed  - the announcement states when the deal ends
      From term  - the announcement states the length; end year = announced year + term
@@ -245,7 +245,7 @@ function watchlist(){
       const line=(d,c)=>`<span class="wl3-l"><span>${S.dealLink(d)}</span>${c}</span>`;
       return `<div class="wl3"><span class="fc-t"><span class="wl3-id">${L.mark(r.e,{px:36})}<span><b>${esc(r.e.name)}</b><span>${esc(r.kind==="property"?r.ptype:r.cat)} · ${r.n} partnerships</span></span></span>${star(r.e.slug)}</span>
       <span class="wl3-b">${latest.map(x=>line(x.d,`<span class="chip up">${esc(x.d.status==="New"?"New":x.d.status||"New")}</span>`)).join("")}${due.map(x=>line(x.d,`<span class="chip down">Ends ${x.q.end}</span>`)).join("")}${!latest.length&&!due.length?`<span class="note-s">Nothing new since your last visit.</span>`:""}</span>
-      <span class="wl3-a"><button type="button" class="ghost" data-wrep="${esc(r.e.slug)}" data-wk="${r.kind}">Report</button><button type="button" class="ghost" data-wsc="${esc(r.e.slug)}" data-wk="${r.kind}">Scout</button>${r.kind==="property"?`<button type="button" class="ghost" data-pick="${esc(r.e.slug)}">Property report</button>`:""}</span></div>`}).join("")||`<p class="note-s">Nothing in this view.</p>`;
+      <span class="wl3-a"><button type="button" class="ghost" data-wrep="${esc(r.e.slug)}" data-wk="${r.kind}">Report</button><button type="button" class="ghost" data-wsc="${esc(r.e.slug)}" data-wk="${r.kind}">Matches</button>${r.kind==="property"?`<button type="button" class="ghost" data-pick="${esc(r.e.slug)}">Property report</button>`:""}</span></div>`}).join("")||`<p class="note-s">Nothing in this view.</p>`;
     $("wlk").querySelectorAll("button").forEach(b=>b.classList.toggle("on",b.dataset.k===f.k));
   };
   $("view").innerHTML=`<section class="dk-card wl3-since"><div class="dk-k">${seen?"Since your last visit":"In the last 30 days"}</div><div class="wl3-n"><span><b>${fresh.length}</b> new partnership${fresh.length===1?"":"s"}</span><span><b>${ren}</b> renewal${ren===1?"":"s"} or extension${ren===1?"":"s"}</span><span><b>${window_.length}</b> entering the renewal window</span></div></section>
@@ -381,7 +381,7 @@ function dashboard(){
 
 /* ---------- Scouting: who should partner with whom (pro/matches.json, built by tools/match.py) ---------- */
 let MX=null;
-/* Feedback on scouting suggestions: kept in this browser, exported to pro/feedback.json so the engine can learn from it. */
+/* Feedback on match suggestions: kept in this browser, exported to pro/feedback.json so the engine can learn from it. */
 const FKEY="sssPro.feedback";
 const fbk={all(){try{return JSON.parse(localStorage.getItem(FKEY)||"{}")}catch(e){return {}}},
   get(p,b){return this.all()[p+"|"+b]||""},
@@ -396,8 +396,8 @@ function scouting(){
   if(state.mKeep){state.mKeep=0}else{
   if(state.m)state.m.slug=null; /* the tab always opens on the landing page... */
   const wf=FOR.org();if(wf)state.m={side:wf.kind==="brand"?"b":"p",slug:wf.e.slug}; /* ...unless you're working for someone */}
-  $("view").innerHTML=`<p class="note">Loading the scouting report…</p>`;
-  mxLoad().then(()=>drawMatches()).catch(err=>{console.error(err);$("view").innerHTML=`<p class="note">Couldn't load the scouting report. It's rebuilt each time the database updates; refresh to try again.</p>`});
+  $("view").innerHTML=`<p class="note">Loading the matches…</p>`;
+  mxLoad().then(()=>drawMatches()).catch(err=>{console.error(err);$("view").innerHTML=`<p class="note">Couldn't load the matches. It's rebuilt each time the database updates; refresh to try again.</p>`});
 }
 function slotMap(rec){
   const sl=rec.sl||[];if(!sl.length)return "";
@@ -430,7 +430,7 @@ function scoutHome(){
   const watched=every.filter(x=>watch.get().has(x.slug));
   const card=x=>{const sub=m.side==="p"?`${esc(PTYPE[x.r.t]||"Property")} · ${esc(x.r.s||"")}`:`${esc(x.r.c||"Uncategorised")}${x.r.u?` · ${esc(x.r.u)}`:""}`;
     return `<button type="button" class="sc-c" data-mpick="${esc(x.slug)}">${x.o?L.mark(x.o.e,{px:56}):""}<b>${esc(x.r.n)}</b><span class="sc-s">${sub}</span><span class="sc-n"><em>${x.n}</em> partnerships</span>${x.top?`<span class="sc-t">Top pick: <b>${esc(x.top.n)}</b> ${x.top.x}</span>`:""}</button>`};
-  $("view").innerHTML=`<p class="pro-intro">${m.side==="p"?"Pick a property to see the brands it should be talking to":"Pick a brand to see the properties it should be talking to"}, ranked by Scout Score. Sorted by the most partnerships in the SSS database.</p>
+  $("view").innerHTML=`<p class="pro-intro">${m.side==="p"?"Pick a property to see the brands it should be talking to":"Pick a brand to see the properties it should be talking to"}, ranked by Match Score. Sorted by the most partnerships in the SSS database.</p>
   <div class="ctl"><div class="pills">${pills("mside",[["p","Property → brands"],["b","Brand → properties"]],m.side)}</div>
   <input class="srch" id="mq" list="mxNames" placeholder="${m.side==="p"?"Search all properties, e.g. Carlton, Australian Open":"Search all brands, e.g. Coca-Cola, TikTok"}" autocomplete="off"><datalist id="mxNames">${all.slice().sort((a,b)=>a.r.n.localeCompare(b.r.n)).map(x=>`<option value="${esc(x.r.n)}">`).join("")}</datalist></div>
   ${watched.length?`<div class="h3">Your watchlist</div><div class="sc-g">${watched.map(card).join("")}</div>`:""}
@@ -456,7 +456,7 @@ function drawMatches(){
   const rec=pool[m.slug], bt=MX.backtest, org=D.orgs.get(m.slug);
   const rows=rec.m||[];
   state.mExport={rec,rows,side:m.side};
-  $("view").innerHTML=`<p><button type="button" class="ghost" id="mback">← All ${m.side==="p"?"properties":"brands"}</button></p><p class="pro-intro">${m.side==="p"?"The brands this property should be talking to":"The properties this brand should be talking to"}, ranked by Scout Score: how closely the brand's existing partnerships look like this property (sport, league, region, reach, partners in common), plus whether the property has a gap in that sub-category its peers have filled.</p>
+  $("view").innerHTML=`<p><button type="button" class="ghost" id="mback">← All ${m.side==="p"?"properties":"brands"}</button></p><p class="pro-intro">${m.side==="p"?"The brands this property should be talking to":"The properties this brand should be talking to"}, ranked by Match Score: how closely the brand's existing partnerships look like this property (sport, league, region, reach, partners in common), plus whether the property has a gap in that sub-category its peers have filled.</p>
   <p class="note-s">${MX.verified} of ${Object.keys(MX.props).length} properties are verified against their official partners page. Suggestions for unverified properties may suggest a brand that's already a partner.</p>
   <div class="mx-acc"><b>${pct(bt.top20)}</b><span>of new partnerships signed ${esc(bt.from)} to ${esc(bt.to)} were in that property's top 20 when we scored the database as it stood in ${esc(bt.from)}. ${pct(bt.top50)} were in the top 50. The best possible today is ${pct(bt.ceiling)}, because the rest came from brands with no earlier partnership in the database. Treat this as a shortlist with evidence, not a forecast.</span></div>
   <div class="ctl"><div class="pills">${pills("mside",[["p","Property → brands"],["b","Brand → properties"]],m.side)}</div>
@@ -486,7 +486,7 @@ function drawMatches(){
     const sd=e.target.closest("[data-mside]");if(sd){m.side=sd.dataset.mside;m.slug=null;drawMatches();return}
     const fb=e.target.closest("[data-fb]");if(fb){const w=fb.closest(".fb");const now=fbk.set(w.dataset.fbp,w.dataset.fbb,fb.dataset.fb);w.querySelectorAll(".fbb").forEach(x=>x.classList.toggle("on",x.dataset.fb===now));const ex=$("fbexp");if(ex)ex.textContent=`Export feedback (${Object.keys(fbk.all()).length})`;return}
     if(e.target.id==="fbexp"){const a=fbk.all();const items=Object.entries(a).map(([k,s])=>{const [p,b]=k.split("|");return {p,b,s,d:new Date().toISOString().slice(0,10)}});const blob=new Blob([JSON.stringify({items},null,1)],{type:"application/json"});const l=document.createElement("a");l.href=URL.createObjectURL(blob);l.download="feedback.json";document.body.appendChild(l);l.click();l.remove();return}
-    if(e.target.id==="mcsv"){const x=state.mExport;csv([[x.side==="p"?"Property":"Brand","Rank",x.side==="p"?"Brand":"Property","Scout Score","Band","Confidence","Why","Flags","Fit","Gap","Timing","Capacity","Appetite"],...x.rows.map((r,i)=>{const pts=x.side==="p"?r.p:r.pt;return [x.rec.n,i+1,r.n,r.x,r.k,r.f,(r.w||[]).join("; "),(r.g||[]).join("; "),pts[1],pts[4],pts[0],pts[2],pts[3]]})],`sss-pro-scouting-${m.slug}.csv`)}
+    if(e.target.id==="mcsv"){const x=state.mExport;csv([[x.side==="p"?"Property":"Brand","Rank",x.side==="p"?"Brand":"Property","Match Score","Band","Confidence","Why","Flags","Fit","Gap","Timing","Capacity","Appetite"],...x.rows.map((r,i)=>{const pts=x.side==="p"?r.p:r.pt;return [x.rec.n,i+1,r.n,r.x,r.k,r.f,(r.w||[]).join("; "),(r.g||[]).join("; "),pts[1],pts[4],pts[0],pts[2],pts[3]]})],`sss-pro-scouting-${m.slug}.csv`)}
   };
 }
 
@@ -825,13 +825,13 @@ function brandReport(org,mx){
 
   Object.assign(historyPage(mine.map(x=>x.d),[...curL.map(x=>({e:x.p,d:x.d,live:true})),...pastL.map(x=>({e:x.p,d:x.d,live:false}))],"partner"),{id:"history"}),
 
-  {id:"pitch",t:"Who to pitch",sub:"The five best SSS Pro scouting suggestions, with why each fits",body:`
+  {id:"pitch",t:"Who to pitch",sub:"The five best SSS Pro match suggestions, with why each fits",body:`
     ${top.length?top.map((r,i)=>{const o=D.orgs.get(r.p);return `<div class="rp-m"><span class="rp-mi">${i+1}</span><div class="rp-mb"><div class="rp-mh">${o?logo(o.e,40):""}<div><b>${esc(r.n)}</b><span class="mute-l">${esc(r.s)} · ${esc(r.r)} reach${r.v?" · Verified":""}</span></div><span class="rp-sc">${r.x}</span><span class="basis ${bandCls(r.k)}">${esc(verdict(r))}</span></div>${why(r)}</div></div>`}).join(""):`<p class="note-s">No suggestions above 40 yet. This brand needs more partnerships in the database.</p>`}
     ${ent.length?`<div class="h3">Ways into Australia and New Zealand</div><table class="t rp-t"><tbody>${ent.slice(0,5).map(r=>`<tr><td><b>${esc(r.n)}</b><br><span class="mute-l">${esc(r.s)} · ${esc(r.r)}</span></td><td class="d">${r.x}</td><td>${why(r)}</td></tr>`).join("")}</tbody></table>`:""}`},
 
   {id:"renewals",t:"Renewals and more suggestions",sub:`Partnerships ending ${yr}-${yr+2}, then suggestions 6 to 12`,body:`
     ${due.length?`<table class="t rp-t"><thead><tr><th>Ends</th><th>Basis</th><th>Partnership</th><th>Type</th></tr></thead><tbody>${due.map(({d,r})=>`<tr><td><span class="yr">${r.end}</span></td><td>${basisTag(r)}</td><td>${esc(d.deal)}</td><td>${esc(d.tier||"")}</td></tr>`).join("")}</tbody></table>`:`<p class="note-s">Nothing due in the next two years on what's been announced.</p>`}
-    ${more.length?`<div class="h3">More SSS Pro scouting suggestions</div><table class="t rp-t"><thead><tr><th>#</th><th>Property</th><th>Score</th><th>Verdict</th><th>Main reason</th></tr></thead><tbody>${more.map((r,i)=>`<tr><td class="d">${i+6}</td><td><b>${esc(r.n)}</b><br><span class="mute-l">${esc(r.s)}</span></td><td class="d">${r.x}</td><td>${esc(verdict(r))}</td><td>${esc((r.w||[])[0]||"")}</td></tr>`).join("")}</tbody></table>`:""}`},
+    ${more.length?`<div class="h3">More SSS Pro match suggestions</div><table class="t rp-t"><thead><tr><th>#</th><th>Property</th><th>Score</th><th>Verdict</th><th>Main reason</th></tr></thead><tbody>${more.map((r,i)=>`<tr><td class="d">${i+6}</td><td><b>${esc(r.n)}</b><br><span class="mute-l">${esc(r.s)}</span></td><td class="d">${r.x}</td><td>${esc(verdict(r))}</td><td>${esc((r.w||[])[0]||"")}</td></tr>`).join("")}</tbody></table>`:""}`},
 
   {id:"holds",t:"Who holds the category",sub:`${esc(cat)} partners at the properties ${esc(e.name)} should be pitching`,body:`
     ${rivals.length?`<div class="rp-riv">${rivals.map(x=>`<div>${logo(x.b,36)}<b>${esc(x.b.name)}</b><span>${x.n} of ${holds.length} targets</span></div>`).join("")}</div>`:""}
@@ -842,7 +842,7 @@ function brandReport(org,mx){
 
   {id:"sources",t:"Sources",sub:"Official announcements behind the partnerships in this report",body:`
     <ol class="rp-src">${pr.psrc?`<li>Profile: <a href="${esc(pr.psrc)}">${esc(pr.psrc)}</a></li>`:""}${src.map(d=>`<li>${esc(d.deal)}: <a href="${esc(d.url)}">${esc(d.url)}</a></li>`).join("")}</ol>
-    <p class="note-s">How it's built: every partnership is checked against an official source (the club, league or brand's own site or post) before it goes in the SSS database. Renewal years are Confirmed (end date announced), From term (length announced) or Estimate (typical term for that partnership type). Market figures cover partnerships announced in Australia and New Zealand. Suggestions use SSS Pro Scout Scores, rebuilt ${esc(MX.generated)}.</p>`},
+    <p class="note-s">How it's built: every partnership is checked against an official source (the club, league or brand's own site or post) before it goes in the SSS database. Renewal years are Confirmed (end date announced), From term (length announced) or Estimate (typical term for that partnership type). Market figures cover partnerships announced in Australia and New Zealand. Suggestions use SSS Pro Match Scores, rebuilt ${esc(MX.generated)}.</p>`},
 
   Object.assign(notesPage(N,vals),{id:"notes"})],O);
 }
@@ -894,7 +894,7 @@ function propReport(org,mx){
 
   {id:"sources",t:"Sources",sub:"Official announcements behind the partnerships in this report",body:`
     <ol class="rp-src">${src.map(d=>`<li>${esc(d.deal)}: <a href="${esc(d.url)}">${esc(d.url)}</a></li>`).join("")}</ol>
-    <p class="note-s">How it's built: every partnership is checked against an official source before it goes in the SSS database. "Live" means the partnership's end year hasn't passed, it was announced in the last three years, or the brand is on the current partners page. Market figures cover partnerships announced in Australia and New Zealand. Suggestions use SSS Pro Scout Scores, rebuilt ${esc(MX.generated)}.</p>`},
+    <p class="note-s">How it's built: every partnership is checked against an official source before it goes in the SSS database. "Live" means the partnership's end year hasn't passed, it was announced in the last three years, or the brand is on the current partners page. Market figures cover partnerships announced in Australia and New Zealand. Suggestions use SSS Pro Match Scores, rebuilt ${esc(MX.generated)}.</p>`},
 
   Object.assign(notesPage(N,vals),{id:"notes"})],O);
 }
@@ -986,7 +986,7 @@ function desk(){
   <aside class="dk-card dk-side2"><div class="seg" id="dkMs"><button type="button" data-ms="b" class="on">Brands</button><button type="button" data-ms="p">Properties</button></div>
   <div class="dk-hd"><span>Last 90 days</span><span>Total</span><span>New</span></div><div id="dkM">${movers("b")}</div>
   <div class="dk-c"><button type="button" class="dk-btn o" data-go="watch">Open watchlist</button></div></aside></div>
-  <section><h2 class="dk-h2">${f?`Scouting for ${esc(f.e.name)}`:"Scouting"} <button type="button" data-go="scouting" aria-label="Open Scouting">›</button></h2><div class="dk-sc" id="dkSc">${f?`<p class="note-s">Loading matches…</p>`:`<p class="note-s">${fk==="agency"?"Open Scouting and pick any brand or property.":`Pick your ${fk} under Working for and its best matches show up here.`}</p>`}</div></section>
+  <section><h2 class="dk-h2">${f?`Matches for ${esc(f.e.name)}`:"Matches"} <button type="button" data-go="scouting" aria-label="Open Matches">›</button></h2><div class="dk-sc" id="dkSc">${f?`<p class="note-s">Loading matches…</p>`:`<p class="note-s">${fk==="agency"?"Open Matches and pick any brand or property.":`Pick your ${fk} under Working for and its best matches show up here.`}</p>`}</div></section>
   <section class="dk-card dk-rad"><div class="dk-rh"><span>Renewal radar</span><div class="seg dk-dark" id="dkRy"><button type="button" data-ry="${ry}" class="on">${ry}</button><button type="button" data-ry="${ry+1}">${ry+1}</button></div></div><div class="dk-rb" id="dkRr">${rad(ry)}</div><div class="dk-c"><button type="button" class="dk-btn o" data-go="renewals">Open Renewal radar</button></div></section>
   <section><h2 class="dk-h2">Wagering exit <button type="button" data-go="wagering" aria-label="Open Wagering exit">›</button></h2><div class="dk-card dk-wx">${bets.map(({d,off})=>`<div class="dk-wr"><span class="dch flat">Rolls off ${off}</span>${L.pair(d,{px:28})}<b>${esc(d.deal)}</b><span class="mute-l">${esc(d.sport||"")}</span></div>`).join("")||`<p class="note-s">No live wagering partnerships on file.</p>`}</div></section>`;
   const setR=k=>{const x=filed(k);$("dkFn").textContent=x.n.toLocaleString("en-AU");$("dkFv").innerHTML=x.prev==null?`<span class="mute-l">Every dated partnership, by year</span>`:`<span>${x.n>=x.prev?"↗":"↘"} ${x.n-x.prev>=0?"+":""}${x.n-x.prev} vs last period</span>`;$("dkFc").innerHTML=spark(x.pts);
@@ -999,7 +999,7 @@ function desk(){
     const pk=e.target.closest("[data-scpick]");if(pk){state.m={side:f.kind==="brand"?"b":"p",slug:f.e.slug};go("scouting")}};
   if(f)mxLoad().then(()=>{const rec=(f.kind==="brand"?MX.brands:MX.props)[f.e.slug],el=$("dkSc");if(!el)return;
     if(!rec||!(rec.m||[]).length){el.innerHTML=`<p class="note-s">No matches for ${esc(f.e.name)} yet. It needs more partnerships in the database.</p>`;return}
-    el.innerHTML=rec.m.slice(0,4).map(r=>{const slug=f.kind==="brand"?r.p:r.b,o=D.orgs.get(slug);return `<a class="dk-scc" href="${esc(L.page(slug))}"><span class="dk-sct">${o?L.mark(o.e,{px:32}):""}<span class="basis ${bandCls(r.k)}">${esc(r.k)}</span></span><b>${esc(r.n)}</b><span class="mute-l">${esc(f.kind==="brand"?`${r.s||""} · ${r.r||""}`:`${r.c||""}${r.u?` · ${r.u}`:""}`)}</span><span class="dk-x"><b>${r.x}</b> Scout Score</span></a>`}).join("")+`<button type="button" class="dk-scc dk-more" data-scpick="1">See all ${rec.m.length} →</button>`;
+    el.innerHTML=rec.m.slice(0,4).map(r=>{const slug=f.kind==="brand"?r.p:r.b,o=D.orgs.get(slug);return `<a class="dk-scc" href="${esc(L.page(slug))}"><span class="dk-sct">${o?L.mark(o.e,{px:32}):""}<span class="basis ${bandCls(r.k)}">${esc(r.k)}</span></span><b>${esc(r.n)}</b><span class="mute-l">${esc(f.kind==="brand"?`${r.s||""} · ${r.r||""}`:`${r.c||""}${r.u?` · ${r.u}`:""}`)}</span><span class="dk-x"><b>${r.x}</b> Match Score</span></a>`}).join("")+`<button type="button" class="dk-scc dk-more" data-scpick="1">See all ${rec.m.length} →</button>`;
   }).catch(()=>{const el=$("dkSc");if(el)el.innerHTML=`<p class="note-s">Couldn't load the scouting data.</p>`});
 }
 
@@ -1012,7 +1012,7 @@ const FOR={
 function forUI(){
   const box=$("forK");if(!box)return;
   const q=$("forQ"),mk=$("forMk"),x=$("forX"),h=$("forH"),pick=q.parentNode;
-  const HINT={property:"The desk, Scouting, Brand finder, Renewal radar, Wagering exit, Property report and Reports open on this property.",brand:"The desk, Scouting, Renewal radar, Wagering exit and Reports open on this brand.",agency:"Agency view: pick any brand or property inside each tool."};
+  const HINT={property:"The desk, Matches, Brand finder, Renewal radar, Wagering exit, Property report and Reports open on this property.",brand:"The desk, Matches, Renewal radar, Wagering exit and Reports open on this brand.",agency:"Agency view: pick any brand or property inside each tool."};
   const draw=()=>{
     const f=FOR.get(),o=FOR.org();
     box.querySelectorAll("button").forEach(b=>b.classList.toggle("on",b.dataset.fk===f.k));
@@ -1073,7 +1073,7 @@ function wagering(){
 /* Pitch decks (assets/pro-decks.js) is built but parked: not loaded until it's ready to go live. */
 function decks(){if(window.SSSDecks)window.SSSDecks.render({D,mxLoad});else home()}
 const TABS={home,dash:desk,scouting,finder,renewals,wagering,property,watch:watchlist,reports,decks};
-const HEAD={scouting:["Scouting","Who should partner with whom. Ranked by Scout Score: fit with brands already backing properties like this one, plus open category gaps."],
+const HEAD={scouting:["Matches","Who should partner with whom. Ranked by Match Score: fit with brands already backing properties like this one, plus open category gaps."],
   finder:["Brand finder","Brands spending in sport. Filter by category and the sports they back, or leave a sport out to find brands active elsewhere who haven't come into yours yet."],
   renewals:["Renewal radar","Confirmed and estimated end dates, each labelled, so you know when a partner might be back in play."],
   wagering:["Wagering exit","Every live ANZ partnership with a betting or wagering brand. No new wagering branding on kit or in venues from 1 January 2027, and pre-July 2026 deals roll off by 31 December 2031."],
