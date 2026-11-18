@@ -913,6 +913,11 @@
     "icon"
    ]
   },
+  "abu-dhabi-sports-council": {
+   "name": "Abu Dhabi Sports Council",
+   "k": "b",
+   "cat": "Government & tourism"
+  },
   "abzorb": {
    "name": "Abzorb",
    "k": "b"
@@ -1402,6 +1407,17 @@
     "Premier partner",
     "Official partner"
    ]
+  },
+  "adelaide-economic-development-agency": {
+   "name": "Adelaide Economic Development Agency",
+   "aliases": [
+    "AEDA",
+    "Experience Adelaide"
+   ],
+   "cat": "Tourism & government",
+   "k": "b",
+   "domain": "experienceadelaide.com.au",
+   "bf": []
   },
   "adelaide-grand-final": {
    "name": "Adelaide Grand Final",
@@ -1992,6 +2008,10 @@
    "cat": "Betting & wagering",
    "k": "b"
   },
+  "agp": {
+   "name": "AGP",
+   "k": "b"
+  },
   "agramont": {
    "name": "Agramont",
    "k": "b"
@@ -2259,6 +2279,11 @@
    "cat": "Construction & property",
    "k": "b"
   },
+  "ajuntament-de-valencia": {
+   "name": "Ajuntament de València",
+   "k": "b",
+   "cat": "Government & tourism"
+  },
   "akambo": {
    "name": "Akambo",
    "cat": "Banking & finance",
@@ -2459,6 +2484,12 @@
    "ptype": "Athlete & talent",
    "k": "p"
   },
+  "alfa-romeo": {
+   "name": "Alfa Romeo",
+   "k": "b",
+   "cat": "Automotive",
+   "domain": "alfaromeo.com"
+  },
   "alfatech": {
    "name": "AlfaTech",
    "k": "b"
@@ -2497,6 +2528,20 @@
   "aligne": {
    "name": "ALIGNE",
    "k": "b"
+  },
+  "alinghi": {
+   "name": "Alinghi",
+   "ptype": "Club & team",
+   "k": "p",
+   "market": "Europe",
+   "domain": "alinghi.com",
+   "aliases": [
+    "Tudor Team Alinghi"
+   ],
+   "ptiers": [
+    "Official footwear supplier",
+    "Team partner"
+   ]
   },
   "alinta-energy": {
    "name": "Alinta Energy",
@@ -3020,6 +3065,21 @@
    "cat": "Banking & finance",
    "k": "b"
   },
+  "america-s-cup": {
+   "name": "America's Cup",
+   "ptype": "Event",
+   "k": "p",
+   "market": "Global",
+   "domain": "americascup.com",
+   "aliases": [
+    "Louis Vuitton 38th America's Cup",
+    "Louis Vuitton America's Cup"
+   ],
+   "ptiers": [
+    "Official sponsor",
+    "Global partner"
+   ]
+  },
   "america-s-floor-source": {
    "name": "America's Floor Source",
    "k": "b"
@@ -3113,10 +3173,24 @@
    "cat": "Technology",
    "k": "b"
   },
+  "american-magic": {
+   "name": "American Magic",
+   "k": "b",
+   "domain": "americanmagic.com"
+  },
   "american-national-insurance": {
    "name": "American National Insurance",
    "cat": "Insurance",
    "k": "b"
+  },
+  "american-racing-challenger-team-usa": {
+   "name": "American Racing Challenger Team USA",
+   "ptype": "Club & team",
+   "k": "p",
+   "market": "North America",
+   "aliases": [
+    "ARC Team USA"
+   ]
   },
   "american-safety": {
    "name": "American Safety",
@@ -3725,6 +3799,11 @@
   "applied-innovation": {
    "name": "Applied Innovation",
    "k": "b"
+  },
+  "apres-provence": {
+   "name": "Après Provence",
+   "k": "b",
+   "cat": "Beer, wine & spirits"
   },
   "aptive-pest-control": {
    "name": "Aptive Pest Control",
@@ -5373,6 +5452,17 @@
     "logo"
    ]
   },
+  "australia-sailgp-team": {
+   "name": "Australia SailGP Team",
+   "ptype": "Club & team",
+   "k": "p",
+   "market": "ANZ",
+   "aliases": [
+    "Bonds Flying Roos",
+    "BONDS Flying Roos SailGP Team",
+    "Bonds Flying Roos SailGP Team"
+   ]
+  },
   "australian-college-of-physical-education": {
    "name": "Australian College of Physical Education",
    "ptype": "Other",
@@ -5953,6 +6043,12 @@
   "azienda-cartaria-lombarda": {
    "name": "Azienda Cartaria Lombarda",
    "k": "b"
+  },
+  "azimut": {
+   "name": "Azimut",
+   "k": "b",
+   "cat": "Banking & finance",
+   "domain": "azimut-group.com"
   },
   "azizi-developments": {
    "name": "Azizi Developments",
@@ -7381,6 +7477,12 @@
    "name": "Berliner Pilsner",
    "k": "b"
   },
+  "bermuda-tourism-authority": {
+   "name": "Bermuda Tourism Authority",
+   "k": "b",
+   "cat": "Government & tourism",
+   "domain": "gotobermuda.com"
+  },
   "bernipave": {
    "name": "Bernipave",
    "k": "b"
@@ -8443,6 +8545,11 @@
    "name": "Blue Plate",
    "k": "b"
   },
+  "blue-pool-capital": {
+   "name": "Blue Pool Capital",
+   "k": "b",
+   "cat": "Banking & finance"
+  },
   "blue-shield-of-california": {
    "name": "Blue Shield of California",
    "k": "b"
@@ -8474,6 +8581,12 @@
   "blueair": {
    "name": "Blueair",
    "k": "b"
+  },
+  "blueberry": {
+   "name": "Blueberry",
+   "k": "b",
+   "cat": "Banking & finance",
+   "domain": "blueberry.markets"
   },
   "bluebird-roofing": {
    "name": "Bluebird Roofing",
@@ -8795,6 +8908,11 @@
    ],
    "ptiersChecked": "2026-11-17"
   },
+  "bolt-ventures": {
+   "name": "Bolt Ventures",
+   "k": "b",
+   "cat": "Banking & finance"
+  },
   "bolten": {
    "name": "Bolten",
    "k": "b"
@@ -8857,6 +8975,12 @@
    "k": "b",
    "domain": "bondisands.com.au",
    "bf": []
+  },
+  "bonds": {
+   "name": "BONDS",
+   "k": "b",
+   "cat": "Apparel & sportswear",
+   "domain": "bonds.com.au"
   },
   "bone-dry": {
    "name": "Bone Dry",
@@ -9279,6 +9403,11 @@
    "cat": "Alcohol",
    "k": "b"
   },
+  "brand-hong-kong": {
+   "name": "Brand Hong Kong",
+   "k": "b",
+   "cat": "Government & tourism"
+  },
   "branded": {
    "name": "Branded",
    "k": "b"
@@ -9337,6 +9466,15 @@
    "name": "Braxton Brewing Company",
    "cat": "Alcohol",
    "k": "b"
+  },
+  "brazil-sailgp-team": {
+   "name": "Brazil SailGP Team",
+   "ptype": "Club & team",
+   "k": "p",
+   "market": "Rest of World",
+   "aliases": [
+    "Mubadala Brazil SailGP Team"
+   ]
   },
   "brazilian-football-confederation": {
    "name": "Brazilian Football Confederation",
@@ -10107,6 +10245,11 @@
    "name": "Build-A-Bear Workshop",
    "k": "b"
   },
+  "build-nova-scotia": {
+   "name": "Build Nova Scotia",
+   "k": "b",
+   "cat": "Government & tourism"
+  },
   "buildcorp": {
    "name": "Buildcorp",
    "cat": "Construction & property",
@@ -10367,6 +10510,14 @@
   "buttarelli": {
    "name": "Buttarelli",
    "k": "b"
+  },
+  "butterfield": {
+   "name": "Butterfield",
+   "k": "b",
+   "cat": "Banking & finance",
+   "aliases": [
+    "Mastercard x Butterfield"
+   ]
   },
   "butterfly": {
    "name": "Butterfly",
@@ -10996,6 +11147,11 @@
    "name": "Camworth",
    "k": "b"
   },
+  "canaccord-genuity": {
+   "name": "Canaccord Genuity",
+   "k": "b",
+   "cat": "Banking & finance"
+  },
   "canada-gold": {
    "name": "Canada Gold",
    "cat": "Mining & resources",
@@ -11004,6 +11160,15 @@
   "canada-life": {
    "name": "Canada Life",
    "k": "b"
+  },
+  "canada-sailgp-team": {
+   "name": "Canada SailGP Team",
+   "ptype": "Club & team",
+   "k": "p",
+   "market": "North America",
+   "aliases": [
+    "NorthStar SailGP Team"
+   ]
   },
   "canada-soccer": {
    "name": "Canada Soccer",
@@ -11311,6 +11476,11 @@
    "name": "Cantine Maschio",
    "k": "b"
   },
+  "canton-of-geneva": {
+   "name": "Canton of Geneva",
+   "k": "b",
+   "cat": "Government & tourism"
+  },
   "canva": {
    "name": "Canva",
    "cat": "Technology",
@@ -11407,6 +11577,12 @@
   "capital-com-australian-open": {
    "name": "Capital.com Australian Open",
    "k": "p"
+  },
+  "capital-hotel-group": {
+   "name": "Capital Hotel Group",
+   "cat": "Hospitality & entertainment",
+   "k": "b",
+   "domain": "capitalhotels.com.au"
   },
   "capital-one": {
    "name": "Capital One",
@@ -12209,6 +12385,10 @@
   },
   "cbts": {
    "name": "CBTS",
+   "k": "b"
+  },
+  "cbvela": {
+   "name": "CBVela",
    "k": "b"
   },
   "cc-tyres": {
@@ -13582,6 +13762,11 @@
     "icon"
    ]
   },
+  "city-of-geneva": {
+   "name": "City of Geneva",
+   "k": "b",
+   "cat": "Government & tourism"
+  },
   "city-of-greater-bendigo": {
    "name": "City of Greater Bendigo",
    "domain": "bendigo.vic.gov.au",
@@ -14235,6 +14420,10 @@
    "name": "Cobbs Hill Estate",
    "k": "b"
   },
+  "cobham-ultra": {
+   "name": "Cobham Ultra",
+   "k": "b"
+  },
   "cobisar": {
    "name": "Cobisar",
    "k": "b"
@@ -14774,6 +14963,16 @@
     "Suppliers"
    ],
    "ptiersChecked": "2026-11-17"
+  },
+  "como-melbourne": {
+   "name": "The Como Melbourne",
+   "aliases": [
+    "Como Melbourne"
+   ],
+   "cat": "Hospitality & entertainment",
+   "k": "b",
+   "domain": "comomelbourne.com.au",
+   "bf": []
   },
   "compagnia-ferroviaria-italiana": {
    "name": "Compagnia Ferroviaria Italiana",
@@ -17503,6 +17702,16 @@
    "name": "Denman Prospect",
    "k": "b"
   },
+  "denmark-sailgp-team": {
+   "name": "Denmark SailGP Team",
+   "ptype": "Club & team",
+   "k": "p",
+   "market": "Europe",
+   "aliases": [
+    "ROCKWOOL Racing",
+    "Rockwool Racing SailGP Team"
+   ]
+  },
   "dental-spot": {
    "name": "Dental Spot",
    "cat": "Health & beauty",
@@ -17581,6 +17790,12 @@
   "denver7": {
    "name": "Denver7",
    "k": "b"
+  },
+  "denza": {
+   "name": "DENZA",
+   "k": "b",
+   "cat": "Automotive",
+   "domain": "denza.com"
   },
   "dep-consulting": {
    "name": "Dep Consulting",
@@ -18048,6 +18263,11 @@
    "name": "Dios Azul",
    "k": "b"
   },
+  "diputacio-de-valencia": {
+   "name": "Diputació de València",
+   "k": "b",
+   "cat": "Government & tourism"
+  },
   "direct-global": {
    "name": "Direct Global",
    "k": "b"
@@ -18488,6 +18708,11 @@
    "name": "Downtown Commons",
    "k": "b"
   },
+  "doyle-sails": {
+   "name": "Doyle Sails",
+   "k": "b",
+   "domain": "doylesails.com"
+  },
   "dp-world": {
    "name": "DP World",
    "domain": "dpworld.com",
@@ -18755,6 +18980,12 @@
     "icon"
    ]
   },
+  "ds-automobiles": {
+   "name": "DS Automobiles",
+   "k": "b",
+   "cat": "Automotive",
+   "domain": "dsautomobiles.com"
+  },
   "dsp-connections": {
    "name": "DSP Connections",
    "k": "b"
@@ -18807,6 +19038,11 @@
    "bf": [
     "icon"
    ]
+  },
+  "dubai-sports-council": {
+   "name": "Dubai Sports Council",
+   "k": "b",
+   "cat": "Government & tourism"
   },
   "dubai-t100": {
    "name": "Dubai T100",
@@ -19393,6 +19629,10 @@
   "echelon-risk-cyber": {
    "name": "Echelon Risk + Cyber",
    "cat": "Technology",
+   "k": "b"
+  },
+  "echo-yachts": {
+   "name": "Echo Yachts",
    "k": "b"
   },
   "eckersley-print-group": {
@@ -20575,6 +20815,12 @@
    "name": "Entire IT",
    "k": "b"
   },
+  "entourage": {
+   "name": "Entourage",
+   "cat": "Professional services",
+   "k": "b",
+   "domain": "entourage.com.au"
+  },
   "envelop-risk": {
    "name": "Envelop Risk",
    "k": "b"
@@ -21381,6 +21627,12 @@
   "expert": {
    "name": "Expert",
    "k": "b"
+  },
+  "explora-journeys": {
+   "name": "Explora Journeys",
+   "k": "b",
+   "cat": "Airlines & travel",
+   "domain": "explorajourneys.com"
   },
   "exploria-resorts": {
    "name": "Exploria Resorts",
@@ -23347,6 +23599,18 @@
    "name": "France 3",
    "k": "b"
   },
+  "france-sailgp-team": {
+   "name": "France SailGP Team",
+   "ptype": "Club & team",
+   "k": "p",
+   "market": "Europe",
+   "aliases": [
+    "DS Automobiles SailGP Team France"
+   ],
+   "ptiers": [
+    "Official sponsor"
+   ]
+  },
   "franken-brunnen": {
    "name": "Franken Brunnen",
    "k": "b"
@@ -23541,6 +23805,11 @@
     "icon",
     "logo"
    ]
+  },
+  "fremantle-ports": {
+   "name": "Fremantle Ports",
+   "k": "b",
+   "cat": "Government & tourism"
   },
   "french-bloom": {
    "name": "French Bloom",
@@ -24239,6 +24508,31 @@
    "name": "Gazley",
    "k": "b"
   },
+  "gb1": {
+   "name": "GB1",
+   "ptype": "Club & team",
+   "k": "p",
+   "market": "UK & Ireland",
+   "aliases": [
+    "Athena Racing"
+   ],
+   "ptiers": [
+    "Global partner",
+    "Team partner"
+   ]
+  },
+  "gb2": {
+   "name": "GB2",
+   "ptype": "Club & team",
+   "k": "p",
+   "market": "UK & Ireland",
+   "aliases": [
+    "Cobham-Ultra GB2"
+   ],
+   "ptiers": [
+    "Title partner"
+   ]
+  },
   "gdi": {
    "name": "GDI",
    "k": "b"
@@ -24409,6 +24703,11 @@
    "name": "Generali Italia",
    "cat": "Insurance",
    "k": "b"
+  },
+  "generalitat-valenciana": {
+   "name": "Generalitat Valenciana",
+   "k": "b",
+   "cat": "Government & tourism"
   },
   "generation-homes": {
    "name": "Generation Homes",
@@ -24582,6 +24881,18 @@
   "germanns": {
    "name": "Germanns",
    "k": "b"
+  },
+  "germany-sailgp-team": {
+   "name": "Germany SailGP Team",
+   "ptype": "Club & team",
+   "k": "p",
+   "market": "Europe",
+   "aliases": [
+    "Germany SailGP Team presented by Deutsche Bank"
+   ],
+   "ptiers": [
+    "Presenting partner"
+   ]
   },
   "gerni": {
    "name": "Gerni",
@@ -25504,6 +25815,11 @@
    "k": "b",
    "domain": "gordonsgin.com"
   },
+  "gosling-s": {
+   "name": "Gosling's",
+   "k": "b",
+   "cat": "Beer, wine & spirits"
+  },
   "gosweetspot": {
    "name": "GoSweetSpot",
    "k": "b"
@@ -25529,6 +25845,11 @@
    ],
    "ptiersChecked": "2026-11-17"
   },
+  "government-of-canada": {
+   "name": "Government of Canada",
+   "k": "b",
+   "cat": "Government & tourism"
+  },
   "government-of-south-australia": {
    "name": "Government of South Australia",
    "cat": "Tourism & government",
@@ -25540,6 +25861,11 @@
    "k": "b",
    "logo": "assets/logos/government-of-western-australia.png",
    "domain": "wa.gov.au"
+  },
+  "governo-do-estado-do-rio-de-janeiro": {
+   "name": "Governo do Estado do Rio de Janeiro",
+   "k": "b",
+   "cat": "Government & tourism"
   },
   "governor-s-institute": {
    "name": "Governor's Institute",
@@ -25893,6 +26219,13 @@
   "greenox": {
    "name": "GREENOX",
    "k": "b"
+  },
+  "greenset": {
+   "name": "GreenSet",
+   "cat": "Sporting goods",
+   "k": "b",
+   "domain": "greenset.net",
+   "logo": "assets/logos/greenset.png"
   },
   "greenworks": {
    "name": "Greenworks",
@@ -26554,6 +26887,11 @@
    "name": "Half Batch Brewing",
    "cat": "Alcohol",
    "k": "b"
+  },
+  "halifax-regional-municipality": {
+   "name": "Halifax Regional Municipality",
+   "k": "b",
+   "cat": "Government & tourism"
   },
   "hallensteins": {
    "name": "Hallensteins",
@@ -27256,6 +27594,15 @@
    "name": "He Gets Us",
    "k": "b"
   },
+  "head": {
+   "name": "HEAD",
+   "aliases": [
+    "Head"
+   ],
+   "cat": "Sporting goods",
+   "k": "b",
+   "domain": "head.com"
+  },
   "health-management": {
    "name": "Health Management",
    "k": "b",
@@ -27313,6 +27660,13 @@
   "heart-of-florida-united-way": {
    "name": "Heart of Florida United Way",
    "k": "b"
+  },
+  "heartland-bank": {
+   "name": "Heartland Bank",
+   "cat": "Banking & finance",
+   "k": "b",
+   "domain": "heartlandbank.com.au",
+   "bf": []
   },
   "hearts": {
    "name": "Hearts",
@@ -27393,6 +27747,11 @@
    "pnote": "Backs football (UEFA Champions League), F1 and major music festivals under one \"Cheers To All Fans\" sociability platform rather than one-off property deals.",
    "psrc": "https://www.marketing-interactive.com/heineken-unites-football-f1-and-music-under-new-sponsorship-platform",
    "profiled": "2026-11-17"
+  },
+  "heineken-silver": {
+   "name": "Heineken Silver",
+   "k": "b",
+   "cat": "Beer, wine & spirits"
   },
   "heinz": {
    "name": "Heinz",
@@ -28295,6 +28654,16 @@
    "domain": "hkjc.com",
    "k": "b",
    "cat": "Sport & events"
+  },
+  "hong-kong-sar-government": {
+   "name": "Hong Kong SAR Government",
+   "k": "b",
+   "cat": "Government & tourism"
+  },
+  "hongqi": {
+   "name": "Hongqi",
+   "k": "b",
+   "cat": "Automotive"
   },
   "hood": {
    "name": "Hood",
@@ -29653,8 +30022,17 @@
     "logo"
    ]
   },
+  "img-licensing": {
+   "name": "IMG Licensing",
+   "k": "b",
+   "cat": "Media & publishing"
+  },
   "imi-berg": {
    "name": "Imi Berg",
+   "k": "b"
+  },
+  "imm": {
+   "name": "IMM",
    "k": "b"
   },
   "immobiliare-il-torrazzo": {
@@ -29934,6 +30312,10 @@
   },
   "infinidat": {
    "name": "Infinidat",
+   "k": "b"
+  },
+  "infinite": {
+   "name": "Infinite",
    "k": "b"
   },
   "infinite-computer-solutions": {
@@ -30829,6 +31211,18 @@
   "italtrans": {
    "name": "Italtrans",
    "k": "b"
+  },
+  "italy-sailgp-team": {
+   "name": "Italy SailGP Team",
+   "ptype": "Club & team",
+   "k": "p",
+   "market": "Europe",
+   "aliases": [
+    "Red Bull Italy SailGP Team"
+   ],
+   "ptiers": [
+    "Title partner"
+   ]
   },
   "itch": {
    "name": "itch",
@@ -31988,6 +32382,15 @@
    "domain": "klgates.com",
    "bf": []
   },
+  "k-challenge": {
+   "name": "K-Challenge",
+   "ptype": "Club & team",
+   "k": "p",
+   "market": "Europe",
+   "aliases": [
+    "La Roche-Posay Racing Team"
+   ]
+  },
   "k-fish": {
    "name": "K-Fish",
    "k": "b"
@@ -32759,6 +33162,10 @@
    "name": "King's Hawaiian",
    "k": "b"
   },
+  "king-s-wharf": {
+   "name": "King's Wharf",
+   "k": "b"
+  },
   "king-s-worcester": {
    "name": "King's Worcester",
    "k": "b"
@@ -33229,6 +33636,12 @@
    ],
    "ptiersChecked": "2026-11-18"
   },
+  "kooyong-lawn-tennis-club": {
+   "name": "Kooyong Lawn Tennis Club",
+   "cat": "Hospitality & entertainment",
+   "k": "b",
+   "domain": "kooyong.com.au"
+  },
   "kopron": {
    "name": "Kopron",
    "k": "b"
@@ -33549,6 +33962,10 @@
    "aliases": [
     "L'Oréal Professionnel"
    ]
+  },
+  "l-oreal-groupe": {
+   "name": "L'Oréal Groupe",
+   "k": "b"
   },
   "l-orto-di-eleonora": {
    "name": "L'Orto di Eleonora",
@@ -34307,6 +34724,11 @@
     "logo"
    ]
   },
+  "leasing-options": {
+   "name": "Leasing Options",
+   "domain": "leasingoptions.co.uk",
+   "k": "b"
+  },
   "leavitt-group": {
    "name": "Leavitt Group",
    "k": "b"
@@ -34774,6 +35196,12 @@
    "cat": "Banking & finance",
    "k": "b"
   },
+  "leyton": {
+   "name": "Leyton",
+   "k": "b",
+   "cat": "Professional services",
+   "domain": "leyton.com"
+  },
   "lg": {
    "name": "LG",
    "cat": "Technology",
@@ -35135,6 +35563,10 @@
     "icon",
     "logo"
    ]
+  },
+  "little-athletics-queensland": {
+   "name": "Little Athletics Queensland",
+   "k": "p"
   },
   "little-caesars": {
    "name": "Little Caesars",
@@ -36029,6 +36461,19 @@
    "k": "b",
    "cat": "Health & beauty"
   },
+  "luna-rossa": {
+   "name": "Luna Rossa",
+   "ptype": "Club & team",
+   "k": "p",
+   "market": "Europe",
+   "aliases": [
+    "Luna Rossa Prada Pirelli"
+   ],
+   "ptiers": [
+    "Title partner",
+    "Official sponsor"
+   ]
+  },
   "lunazul-tequila": {
    "name": "Lunazul Tequila",
    "cat": "Alcohol",
@@ -36066,6 +36511,12 @@
   "luxbus-america": {
    "name": "LuxBus America",
    "k": "b"
+  },
+  "luxury-group-marriott-international": {
+   "name": "Luxury Group, Marriott International",
+   "k": "b",
+   "cat": "Airlines & travel",
+   "domain": "marriott.com"
   },
   "luxury-paints": {
    "name": "Luxury Paints",
@@ -36524,6 +36975,11 @@
     "logo"
    ]
   },
+  "major-sports-events-committee": {
+   "name": "Major Sports Events Committee",
+   "k": "b",
+   "cat": "Government & tourism"
+  },
   "malamut-and-associates": {
    "name": "Malamut & Associates",
    "k": "b"
@@ -36898,6 +37354,11 @@
   "markotter": {
    "name": "Markötter",
    "k": "b"
+  },
+  "marlow-ropes": {
+   "name": "Marlow Ropes",
+   "k": "b",
+   "domain": "marlowropes.com"
   },
   "marquee-framing": {
    "name": "MARQUEE Framing",
@@ -39205,6 +39666,11 @@
    "cat": "Alcohol",
    "k": "b"
   },
+  "moatwood-gin": {
+   "name": "Moatwood Gin",
+   "k": "b",
+   "cat": "Beer, wine & spirits"
+  },
   "mobel-martin": {
    "name": "Möbel Martin",
    "k": "b"
@@ -39405,6 +39871,12 @@
    "name": "Monarch Vans",
    "cat": "Apparel & footwear",
    "k": "b"
+  },
+  "monday-com": {
+   "name": "monday.com",
+   "k": "b",
+   "cat": "Technology",
+   "domain": "monday.com"
   },
   "mondel-z": {
    "name": "Mondelēz",
@@ -40131,6 +40603,11 @@
    "name": "MSF Sports",
    "k": "b"
   },
+  "msp-sports-capital": {
+   "name": "MSP Sports Capital",
+   "k": "b",
+   "cat": "Banking & finance"
+  },
   "msport": {
    "name": "MSport",
    "k": "b"
@@ -40197,6 +40674,18 @@
   "mts": {
    "name": "MTS",
    "k": "b"
+  },
+  "mubadala": {
+   "name": "Mubadala",
+   "k": "b",
+   "cat": "Banking & finance",
+   "domain": "mubadala.com"
+  },
+  "mubadala-capital": {
+   "name": "Mubadala Capital",
+   "k": "b",
+   "cat": "Banking & finance",
+   "domain": "mubadalacapital.ae"
   },
   "muchbetter": {
    "name": "MuchBetter",
@@ -40324,6 +40813,11 @@
     "icon",
     "logo"
    ]
+  },
+  "muse-sport-consortium": {
+   "name": "Muse Sport Consortium",
+   "k": "b",
+   "cat": "Banking & finance"
   },
   "musselman-s": {
    "name": "Musselman's",
@@ -41733,6 +42227,16 @@
    ],
    "ptiersChecked": "2026-11-16"
   },
+  "new-zealand-sailgp-team": {
+   "name": "New Zealand SailGP Team",
+   "ptype": "Club & team",
+   "k": "p",
+   "market": "ANZ",
+   "aliases": [
+    "Black Foils",
+    "Black Foils SailGP Team"
+   ]
+  },
   "newcastle-airport": {
    "name": "Newcastle Airport",
    "k": "b",
@@ -41932,6 +42436,16 @@
   "next-energia-21": {
    "name": "Next Energía 21",
    "k": "b"
+  },
+  "next-gen-health-and-lifestyle-clubs": {
+   "name": "Next Gen Health & Lifestyle Clubs",
+   "aliases": [
+    "Next Gen Clubs"
+   ],
+   "cat": "Health & beauty",
+   "k": "b",
+   "domain": "nextgenclubs.com.au",
+   "bf": []
   },
   "next-league": {
    "name": "Next League",
@@ -42222,6 +42736,13 @@
    "domain": "niterragroup.com",
    "logo": "assets/logos/niterra.png"
   },
+  "nitto-atp-finals": {
+   "name": "Nitto ATP Finals",
+   "k": "p",
+   "aliases": [
+    "ATP Finals"
+   ]
+  },
   "nivea": {
    "name": "NIVEA",
    "cat": "Health & beauty",
@@ -42503,6 +43024,12 @@
     "Official telecommunications partner"
    ],
    "logo": "assets/logos/north-queensland-cowboys.png"
+  },
+  "north-sails": {
+   "name": "North Sails",
+   "k": "b",
+   "cat": "Apparel & sportswear",
+   "domain": "northsails.com"
   },
   "north-shore-golf-club": {
    "name": "North Shore Golf Club",
@@ -43219,6 +43746,11 @@
    "name": "NYC DOT",
    "k": "b"
   },
+  "nyc-tourism-conventions": {
+   "name": "NYC Tourism + Conventions",
+   "k": "b",
+   "cat": "Government & tourism"
+  },
   "nyc-votes": {
    "name": "NYC Votes",
    "k": "b"
@@ -43424,6 +43956,12 @@
     "icon",
     "logo"
    ]
+  },
+  "oakley-capital": {
+   "name": "Oakley Capital",
+   "k": "b",
+   "cat": "Banking & finance",
+   "domain": "oakleycapital.com"
   },
   "oakley-meta": {
    "name": "Oakley Meta",
@@ -46398,6 +46936,12 @@
    "cat": "Professional services",
    "k": "b"
   },
+  "physicsx": {
+   "name": "PhysicsX",
+   "k": "b",
+   "cat": "Technology",
+   "domain": "physicsx.ai"
+  },
   "physiotherapy-care-first": {
    "name": "Physiotherapy Care First",
    "cat": "Health & beauty",
@@ -46527,6 +47071,11 @@
   },
   "pinergy": {
    "name": "Pinergy",
+   "k": "b"
+  },
+  "pink-tennis-canberra": {
+   "name": "Pink Tennis Canberra",
+   "cat": "Not-for-profit",
    "k": "b"
   },
   "pinnacle": {
@@ -47359,6 +47908,11 @@
     "logo"
    ]
   },
+  "portsmouth-city-council": {
+   "name": "Portsmouth City Council",
+   "k": "b",
+   "cat": "Government & tourism"
+  },
   "portuguese-football-federation": {
    "name": "Portuguese Football Federation",
    "ptype": "Governing body",
@@ -47493,6 +48047,12 @@
    "k": "b",
    "cat": "Apparel & footwear"
   },
+  "prada": {
+   "name": "Prada",
+   "k": "b",
+   "cat": "Watches & luxury",
+   "domain": "prada.com"
+  },
   "prairie-skies-medical-imaging": {
    "name": "Prairie Skies Medical Imaging",
    "cat": "Health & beauty",
@@ -47546,6 +48106,15 @@
   "predicta-search": {
    "name": "Predicta Search",
    "k": "b"
+  },
+  "prefeitura-do-rio-de-janeiro": {
+   "name": "Prefeitura do Rio de Janeiro",
+   "k": "b"
+  },
+  "prefeitura-do-rio-de-janeiro-riotur": {
+   "name": "Prefeitura do Rio de Janeiro / Riotur",
+   "k": "b",
+   "cat": "Government & tourism"
   },
   "prem-rugby": {
    "name": "PREM Rugby",
@@ -47986,6 +48555,11 @@
    "name": "PromoTurismoFVG",
    "k": "b"
   },
+  "propeller-brewing": {
+   "name": "Propeller Brewing",
+   "k": "b",
+   "cat": "Beer, wine & spirits"
+  },
   "proper-no-twelve": {
    "name": "Proper No. Twelve",
    "k": "b"
@@ -48042,6 +48616,11 @@
    "name": "Provident Bank",
    "cat": "Banking & finance",
    "k": "b"
+  },
+  "province-of-nova-scotia": {
+   "name": "Province of Nova Scotia",
+   "k": "b",
+   "cat": "Government & tourism"
   },
   "provincial-produce-australia": {
    "name": "Provincial Produce Australia",
@@ -48530,6 +49109,11 @@
    "name": "Quantify",
    "k": "b"
   },
+  "quantum-pacific-group": {
+   "name": "Quantum Pacific Group",
+   "k": "b",
+   "cat": "Banking & finance"
+  },
   "quartz": {
    "name": "Quartz",
    "k": "b"
@@ -48698,6 +49282,12 @@
   "quikrete": {
    "name": "QUIKRETE",
    "k": "b"
+  },
+  "quiksilver": {
+   "name": "Quiksilver",
+   "k": "b",
+   "cat": "Apparel & sportswear",
+   "domain": "quiksilver.com"
   },
   "quiktrip": {
    "name": "QuikTrip",
@@ -48918,6 +49508,12 @@
    "name": "Radcliffe Electrical",
    "cat": "Energy & utilities",
    "k": "b"
+  },
+  "radiance-wealth": {
+   "name": "Radiance Wealth",
+   "cat": "Banking & finance",
+   "k": "b",
+   "domain": "radiancewealth.com.au"
   },
   "radiator-king": {
    "name": "Radiator King",
@@ -49696,6 +50292,11 @@
    "name": "Rede",
    "k": "b"
   },
+  "redfin": {
+   "name": "Redfin",
+   "k": "b",
+   "domain": "redfin.com"
+  },
   "redrock-automation": {
    "name": "Redrock Automation",
    "k": "b"
@@ -50294,6 +50895,12 @@
    "name": "RiceCraig",
    "k": "b"
   },
+  "richard-mille": {
+   "name": "Richard Mille",
+   "k": "b",
+   "cat": "Watches & luxury",
+   "domain": "richardmille.com"
+  },
   "richard-reed-solicitors": {
    "name": "Richard Reed Solicitors",
    "cat": "Professional services",
@@ -50442,6 +51049,10 @@
     "icon",
     "logo"
    ]
+  },
+  "riotur": {
+   "name": "Riotur",
+   "k": "b"
   },
   "ripa": {
    "name": "RIPA",
@@ -50747,6 +51358,11 @@
    "name": "Rockwear",
    "k": "b"
   },
+  "rockwool": {
+   "name": "ROCKWOOL",
+   "k": "b",
+   "domain": "rockwool.com"
+  },
   "rocky-health": {
    "name": "Rocky Health",
    "cat": "Health & beauty",
@@ -50761,6 +51377,11 @@
    "name": "Rocky Mountain Hospital for Children",
    "cat": "Health & beauty",
    "k": "b"
+  },
+  "rodd-gunn": {
+   "name": "Rodd & Gunn",
+   "k": "b",
+   "cat": "Apparel & sportswear"
   },
   "rode-meats": {
    "name": "Rode Meats",
@@ -51720,6 +52341,17 @@
    "name": "Saie",
    "k": "b"
   },
+  "sail-nova-scotia": {
+   "name": "Sail Nova Scotia",
+   "k": "b",
+   "cat": "Media & broadcast"
+  },
+  "sail-racing": {
+   "name": "Sail Racing",
+   "k": "b",
+   "cat": "Apparel & sportswear",
+   "domain": "sailracing.com"
+  },
   "sailgp": {
    "name": "SailGP",
    "domain": "sailgp.com",
@@ -51738,6 +52370,97 @@
     "Global partner"
    ]
   },
+  "sailgp-abu-dhabi-sail-grand-prix": {
+   "name": "SailGP Abu Dhabi Sail Grand Prix",
+   "ptype": "Event",
+   "k": "p",
+   "market": "Middle East",
+   "domain": "sailgp.com",
+   "ptiers": [
+    "Title partner",
+    "Presenting partner"
+   ]
+  },
+  "sailgp-auckland-sail-grand-prix": {
+   "name": "SailGP Auckland Sail Grand Prix",
+   "ptype": "Event",
+   "k": "p",
+   "market": "ANZ",
+   "domain": "sailgp.com",
+   "ptiers": [
+    "Title partner",
+    "Title Partner",
+    "Host Venue Partner",
+    "Official Partners",
+    "Official Suppliers",
+    "Official Audio Broadcaster",
+    "Official Supporters"
+   ]
+  },
+  "sailgp-bermuda-sail-grand-prix": {
+   "name": "SailGP Bermuda Sail Grand Prix",
+   "ptype": "Event",
+   "k": "p",
+   "market": "North America",
+   "domain": "sailgp.com",
+   "ptiers": [
+    "Title partner",
+    "Title Partner",
+    "Host Venue Partner",
+    "Official Suppliers"
+   ]
+  },
+  "sailgp-dubai-sail-grand-prix": {
+   "name": "SailGP Dubai Sail Grand Prix",
+   "ptype": "Event",
+   "k": "p",
+   "market": "Middle East",
+   "domain": "sailgp.com",
+   "ptiers": [
+    "Title partner",
+    "Presenting partner",
+    "Title Partner",
+    "Presenting Partner",
+    "Host Venue Partner"
+   ]
+  },
+  "sailgp-geneva-sail-grand-prix": {
+   "name": "SailGP Geneva Sail Grand Prix",
+   "ptype": "Event",
+   "k": "p",
+   "market": "Europe",
+   "domain": "sailgp.com",
+   "ptiers": [
+    "Title partner",
+    "Title Partner",
+    "Host Venue Partner",
+    "Event Partner"
+   ]
+  },
+  "sailgp-germany-sail-grand-prix": {
+   "name": "SailGP Germany Sail Grand Prix",
+   "ptype": "Event",
+   "k": "p",
+   "market": "Europe",
+   "domain": "sailgp.com",
+   "ptiers": [
+    "Title Partner",
+    "Host Venue Partner",
+    "Event Supplier"
+   ]
+  },
+  "sailgp-halifax-sail-grand-prix": {
+   "name": "SailGP Halifax Sail Grand Prix",
+   "ptype": "Event",
+   "k": "p",
+   "market": "North America",
+   "domain": "sailgp.com",
+   "ptiers": [
+    "Host Venue Partner",
+    "Official Partners",
+    "Official Suppliers"
+   ]
+  },
   "sailgp-hong-kong-sail-grand-prix": {
    "name": "SailGP Hong Kong Sail Grand Prix",
    "domain": "sailgp.com",
@@ -51752,6 +52475,86 @@
     "Title Sponsor",
     "Host Venue Partner",
     "Supporting Partner"
+   ]
+  },
+  "sailgp-new-york-sail-grand-prix": {
+   "name": "SailGP New York Sail Grand Prix",
+   "ptype": "Event",
+   "k": "p",
+   "market": "North America",
+   "domain": "sailgp.com",
+   "ptiers": [
+    "Title partner",
+    "Title Partner",
+    "Official Partners",
+    "Event Supporters"
+   ]
+  },
+  "sailgp-perth-sail-grand-prix": {
+   "name": "SailGP Perth Sail Grand Prix",
+   "ptype": "Event",
+   "k": "p",
+   "market": "ANZ",
+   "domain": "sailgp.com",
+   "ptiers": [
+    "Title partner",
+    "Presenting and title partner",
+    "Title Partner",
+    "Presenting Partner",
+    "Host Venue Partner",
+    "Official Suppliers",
+    "Event Partner"
+   ]
+  },
+  "sailgp-portsmouth-sail-grand-prix": {
+   "name": "SailGP Portsmouth Sail Grand Prix",
+   "ptype": "Event",
+   "k": "p",
+   "market": "UK & Ireland",
+   "domain": "sailgp.com",
+   "ptiers": [
+    "Title partner",
+    "Title Partner",
+    "Host Venue Partner",
+    "Event Partner",
+    "Event Supplier"
+   ]
+  },
+  "sailgp-rio-sail-grand-prix": {
+   "name": "SailGP Rio Sail Grand Prix",
+   "ptype": "Event",
+   "k": "p",
+   "market": "Rest of World",
+   "domain": "sailgp.com",
+   "ptiers": [
+    "Title partner",
+    "Title Partner",
+    "Event Partner",
+    "Event Supporters"
+   ]
+  },
+  "sailgp-sydney-sail-grand-prix": {
+   "name": "SailGP Sydney Sail Grand Prix",
+   "ptype": "Event",
+   "k": "p",
+   "market": "ANZ",
+   "domain": "sailgp.com",
+   "ptiers": [
+    "Presenting and title partner",
+    "Title Partner",
+    "Strategic Partner",
+    "Event Partner",
+    "Official Suppliers"
+   ]
+  },
+  "sailgp-valencia-sail-grand-prix": {
+   "name": "SailGP Valencia Sail Grand Prix",
+   "ptype": "Event",
+   "k": "p",
+   "market": "Europe",
+   "domain": "sailgp.com",
+   "ptiers": [
+    "Host Venue Partner"
    ]
   },
   "saily": {
@@ -52111,6 +52914,11 @@
   "sandisk": {
    "name": "SanDisk",
    "k": "b"
+  },
+  "sandmark": {
+   "name": "Sandmark",
+   "k": "b",
+   "cat": "Media & publishing"
   },
   "sanford-harmony": {
    "name": "Sanford Harmony",
@@ -54603,6 +55411,12 @@
    "name": "Smalticeram",
    "k": "b"
   },
+  "smarkets": {
+   "name": "Smarkets",
+   "k": "b",
+   "cat": "Wagering & gaming",
+   "domain": "smarkets.com"
+  },
   "smart-city": {
    "name": "Smart City",
    "k": "b"
@@ -54976,6 +55790,10 @@
     "icon"
    ],
    "cat": "Fintech, crypto & trading",
+   "k": "b"
+  },
+  "sol-xenia": {
+   "name": "Sol Xenia",
    "k": "b"
   },
   "solan-de-cabras": {
@@ -55425,6 +56243,19 @@
   "space-saver-storage": {
    "name": "Space Saver Storage",
    "k": "b"
+  },
+  "spain-sailgp-team": {
+   "name": "Spain SailGP Team",
+   "ptype": "Club & team",
+   "k": "p",
+   "market": "Europe",
+   "aliases": [
+    "Los Gallos",
+    "Los Gallos SailGP Team"
+   ],
+   "ptiers": [
+    "Official sponsor"
+   ]
   },
   "spalding": {
    "name": "Spalding",
@@ -56338,6 +57169,11 @@
    "name": "Stadium Support Services",
    "k": "b"
   },
+  "stadthafen-sassnitz": {
+   "name": "Stadthafen Sassnitz",
+   "k": "b",
+   "cat": "Government & tourism"
+  },
   "stadtwerke-augsburg": {
    "name": "Stadtwerke Augsburg",
    "k": "b"
@@ -56574,6 +57410,11 @@
    "cat": "Agriculture",
    "k": "b"
   },
+  "state-of-mecklenburg-vorpommern": {
+   "name": "State of Mecklenburg-Vorpommern",
+   "k": "b",
+   "cat": "Government & tourism"
+  },
   "state-of-origin": {
    "name": "State of Origin",
    "ptype": "Event",
@@ -56721,6 +57562,10 @@
    "name": "Stifel",
    "k": "b"
   },
+  "stiftelsen-vi": {
+   "name": "Stiftelsen VI",
+   "k": "b"
+  },
   "stiftung-westfalen": {
    "name": "Stiftung Westfalen",
    "k": "b"
@@ -56845,6 +57690,11 @@
   "stormtech": {
    "name": "Stormtech",
    "k": "b"
+  },
+  "stortebeker": {
+   "name": "Störtebeker",
+   "k": "b",
+   "cat": "Beer, wine & spirits"
   },
   "storti": {
    "name": "Storti",
@@ -57745,6 +58595,16 @@
    "logo": "assets/logos/sweaty-betty.png",
    "domain": "sweatybetty.com"
   },
+  "sweden-sailgp-team": {
+   "name": "Sweden SailGP Team",
+   "ptype": "Club & team",
+   "k": "p",
+   "market": "Europe",
+   "aliases": [
+    "Artemis SailGP Team",
+    "Artemis SailGP"
+   ]
+  },
   "swensons": {
    "name": "Swensons",
    "k": "b"
@@ -57785,6 +58645,11 @@
    "cat": "Health & beauty",
    "k": "b"
   },
+  "swisscom": {
+   "name": "Swisscom",
+   "k": "b",
+   "cat": "Telecommunications"
+  },
   "swisse": {
    "name": "Swisse",
    "domain": "swisse.com",
@@ -57799,6 +58664,21 @@
    "name": "Switch Car Rental",
    "cat": "Logistics & transport",
    "k": "b"
+  },
+  "switzerland-sailgp-team": {
+   "name": "Switzerland SailGP Team",
+   "ptype": "Club & team",
+   "k": "p",
+   "market": "Europe",
+   "aliases": [
+    "Explora Journeys Swiss SailGP Team",
+    "Swiss SailGP Team"
+   ],
+   "ptiers": [
+    "Main partner",
+    "Official clothing partner",
+    "Team partner"
+   ]
   },
   "swizzels": {
    "name": "Swizzels",
@@ -58605,6 +59485,11 @@
     "Mumbai Marathon"
    ]
   },
+  "tataki-auckland-unlimited": {
+   "name": "Tātaki Auckland Unlimited",
+   "k": "b",
+   "cat": "Government & tourism"
+  },
   "tato-paride": {
    "name": "Tatò Paride",
    "k": "b"
@@ -58779,6 +59664,15 @@
    "k": "b",
    "logo": "assets/logos/te-whatu-ora.png",
    "domain": "tewhatuora.govt.nz"
+  },
+  "team-australia-america-s-cup": {
+   "name": "Team Australia America's Cup",
+   "ptype": "Club & team",
+   "k": "p",
+   "market": "ANZ",
+   "aliases": [
+    "Team Australia Challenge"
+   ]
   },
   "team-dental": {
    "name": "Team Dental",
@@ -59650,6 +60544,15 @@
   "the-canadian-brewhouse": {
    "name": "The Canadian Brewhouse",
    "k": "b"
+  },
+  "the-canberra-times": {
+   "name": "The Canberra Times",
+   "aliases": [
+    "Canberra Times"
+   ],
+   "cat": "Media & broadcast",
+   "k": "b",
+   "domain": "canberratimes.com.au"
   },
   "the-carpet-guys": {
    "name": "The Carpet Guys",
@@ -61474,6 +62377,11 @@
    "k": "b",
    "logo": "assets/logos/tourism-malaysia.png"
   },
+  "tourism-new-zealand": {
+   "name": "Tourism New Zealand",
+   "k": "b",
+   "cat": "Government & tourism"
+  },
   "tourism-nt": {
    "name": "Tourism NT",
    "cat": "Tourism & government",
@@ -62829,6 +63737,16 @@
    "name": "Underdog",
    "k": "b"
   },
+  "underground-spirits": {
+   "name": "Underground Spirits",
+   "aliases": [
+    "Underground Spirits Australia"
+   ],
+   "cat": "Alcohol",
+   "k": "b",
+   "domain": "undergroundspirits.com.au",
+   "bf": []
+  },
   "unibet": {
    "name": "Unibet",
    "cat": "Betting & wagering",
@@ -62859,6 +63777,12 @@
   "unicom-starker": {
    "name": "Unicom Starker",
    "k": "b"
+  },
+  "unicredit": {
+   "name": "UniCredit",
+   "k": "b",
+   "cat": "Banking & finance",
+   "domain": "unicreditgroup.eu"
   },
   "unicredit-buddy": {
    "name": "UniCredit Buddy",
@@ -63937,6 +64861,11 @@
    "cat": "Construction & property",
    "k": "b"
   },
+  "varsity-spirit": {
+   "name": "Varsity Spirit",
+   "domain": "varsity.com",
+   "k": "p"
+  },
   "vaseline": {
    "name": "Vaseline",
    "domain": "vaseline.com",
@@ -64253,6 +65182,11 @@
   "viamericas": {
    "name": "Viamericas",
    "k": "b"
+  },
+  "viatris": {
+   "name": "Viatris",
+   "k": "b",
+   "domain": "viatris.com"
   },
   "vibe-hotels": {
    "name": "Vibe Hotels",
@@ -67941,11 +68875,22 @@
    "name": "Yamovil",
    "k": "b"
   },
+  "yanmar": {
+   "name": "YANMAR",
+   "k": "b",
+   "domain": "yanmar.com"
+  },
   "yara": {
    "name": "YARA",
    "k": "b",
    "logo": "assets/logos/yara.png",
    "domain": "yara.no"
+  },
+  "yarra-valley-water": {
+   "name": "Yarra Valley Water",
+   "cat": "Energy & utilities",
+   "k": "b",
+   "domain": "yvw.com.au"
   },
   "yarrawonga-mulwala-tourism": {
    "name": "Yarrawonga Mulwala Tourism",
@@ -68579,942 +69524,6 @@
     "symbol",
     "icon",
     "logo"
-   ]
-  },
-  "viatris": {
-   "name": "Viatris",
-   "k": "b",
-   "domain": "viatris.com"
-  },
-  "redfin": {
-   "name": "Redfin",
-   "k": "b",
-   "domain": "redfin.com"
-  },
-  "sol-xenia": {
-   "name": "Sol Xenia",
-   "k": "b"
-  },
-  "little-athletics-queensland": {
-   "name": "Little Athletics Queensland",
-   "k": "p"
-  },
-  "varsity-spirit": {
-   "name": "Varsity Spirit",
-   "domain": "varsity.com",
-   "k": "p"
-  },
-  "leasing-options": {
-   "name": "Leasing Options",
-   "domain": "leasingoptions.co.uk",
-   "k": "b"
-  },
-  "nitto-atp-finals": {
-   "name": "Nitto ATP Finals",
-   "k": "p",
-   "aliases": [
-    "ATP Finals"
-   ]
-  },
-  "heartland-bank": {
-   "name": "Heartland Bank",
-   "cat": "Banking & finance",
-   "k": "b",
-   "domain": "heartlandbank.com.au",
-   "bf": []
-  },
-  "como-melbourne": {
-   "name": "The Como Melbourne",
-   "aliases": [
-    "Como Melbourne"
-   ],
-   "cat": "Hospitality & entertainment",
-   "k": "b",
-   "domain": "comomelbourne.com.au",
-   "bf": []
-  },
-  "kooyong-lawn-tennis-club": {
-   "name": "Kooyong Lawn Tennis Club",
-   "cat": "Hospitality & entertainment",
-   "k": "b",
-   "domain": "kooyong.com.au"
-  },
-  "yarra-valley-water": {
-   "name": "Yarra Valley Water",
-   "cat": "Energy & utilities",
-   "k": "b",
-   "domain": "yvw.com.au"
-  },
-  "head": {
-   "name": "HEAD",
-   "aliases": [
-    "Head"
-   ],
-   "cat": "Sporting goods",
-   "k": "b",
-   "domain": "head.com"
-  },
-  "entourage": {
-   "name": "Entourage",
-   "cat": "Professional services",
-   "k": "b",
-   "domain": "entourage.com.au"
-  },
-  "greenset": {
-   "name": "GreenSet",
-   "cat": "Sporting goods",
-   "k": "b",
-   "domain": "greenset.net",
-   "logo": "assets/logos/greenset.png"
-  },
-  "radiance-wealth": {
-   "name": "Radiance Wealth",
-   "cat": "Banking & finance",
-   "k": "b",
-   "domain": "radiancewealth.com.au"
-  },
-  "adelaide-economic-development-agency": {
-   "name": "Adelaide Economic Development Agency",
-   "aliases": [
-    "AEDA",
-    "Experience Adelaide"
-   ],
-   "cat": "Tourism & government",
-   "k": "b",
-   "domain": "experienceadelaide.com.au",
-   "bf": []
-  },
-  "capital-hotel-group": {
-   "name": "Capital Hotel Group",
-   "cat": "Hospitality & entertainment",
-   "k": "b",
-   "domain": "capitalhotels.com.au"
-  },
-  "next-gen-health-and-lifestyle-clubs": {
-   "name": "Next Gen Health & Lifestyle Clubs",
-   "aliases": [
-    "Next Gen Clubs"
-   ],
-   "cat": "Health & beauty",
-   "k": "b",
-   "domain": "nextgenclubs.com.au",
-   "bf": []
-  },
-  "underground-spirits": {
-   "name": "Underground Spirits",
-   "aliases": [
-    "Underground Spirits Australia"
-   ],
-   "cat": "Alcohol",
-   "k": "b",
-   "domain": "undergroundspirits.com.au",
-   "bf": []
-  },
-  "pink-tennis-canberra": {
-   "name": "Pink Tennis Canberra",
-   "cat": "Not-for-profit",
-   "k": "b"
-  },
-  "the-canberra-times": {
-   "name": "The Canberra Times",
-   "aliases": [
-    "Canberra Times"
-   ],
-   "cat": "Media & broadcast",
-   "k": "b",
-   "domain": "canberratimes.com.au"
-  },
-  "australia-sailgp-team": {
-   "name": "Australia SailGP Team",
-   "ptype": "Club & team",
-   "k": "p",
-   "market": "ANZ",
-   "aliases": [
-    "Bonds Flying Roos",
-    "BONDS Flying Roos SailGP Team",
-    "Bonds Flying Roos SailGP Team"
-   ]
-  },
-  "new-zealand-sailgp-team": {
-   "name": "New Zealand SailGP Team",
-   "ptype": "Club & team",
-   "k": "p",
-   "market": "ANZ",
-   "aliases": [
-    "Black Foils",
-    "Black Foils SailGP Team"
-   ]
-  },
-  "spain-sailgp-team": {
-   "name": "Spain SailGP Team",
-   "ptype": "Club & team",
-   "k": "p",
-   "market": "Europe",
-   "aliases": [
-    "Los Gallos",
-    "Los Gallos SailGP Team"
-   ],
-   "ptiers": [
-    "Official sponsor"
-   ]
-  },
-  "denmark-sailgp-team": {
-   "name": "Denmark SailGP Team",
-   "ptype": "Club & team",
-   "k": "p",
-   "market": "Europe",
-   "aliases": [
-    "ROCKWOOL Racing",
-    "Rockwool Racing SailGP Team"
-   ]
-  },
-  "france-sailgp-team": {
-   "name": "France SailGP Team",
-   "ptype": "Club & team",
-   "k": "p",
-   "market": "Europe",
-   "aliases": [
-    "DS Automobiles SailGP Team France"
-   ],
-   "ptiers": [
-    "Official sponsor"
-   ]
-  },
-  "germany-sailgp-team": {
-   "name": "Germany SailGP Team",
-   "ptype": "Club & team",
-   "k": "p",
-   "market": "Europe",
-   "aliases": [
-    "Germany SailGP Team presented by Deutsche Bank"
-   ],
-   "ptiers": [
-    "Presenting partner"
-   ]
-  },
-  "italy-sailgp-team": {
-   "name": "Italy SailGP Team",
-   "ptype": "Club & team",
-   "k": "p",
-   "market": "Europe",
-   "aliases": [
-    "Red Bull Italy SailGP Team"
-   ],
-   "ptiers": [
-    "Title partner"
-   ]
-  },
-  "brazil-sailgp-team": {
-   "name": "Brazil SailGP Team",
-   "ptype": "Club & team",
-   "k": "p",
-   "market": "Rest of World",
-   "aliases": [
-    "Mubadala Brazil SailGP Team"
-   ]
-  },
-  "canada-sailgp-team": {
-   "name": "Canada SailGP Team",
-   "ptype": "Club & team",
-   "k": "p",
-   "market": "North America",
-   "aliases": [
-    "NorthStar SailGP Team"
-   ]
-  },
-  "sweden-sailgp-team": {
-   "name": "Sweden SailGP Team",
-   "ptype": "Club & team",
-   "k": "p",
-   "market": "Europe",
-   "aliases": [
-    "Artemis SailGP Team",
-    "Artemis SailGP"
-   ]
-  },
-  "switzerland-sailgp-team": {
-   "name": "Switzerland SailGP Team",
-   "ptype": "Club & team",
-   "k": "p",
-   "market": "Europe",
-   "aliases": [
-    "Explora Journeys Swiss SailGP Team",
-    "Swiss SailGP Team"
-   ],
-   "ptiers": [
-    "Main partner",
-    "Official clothing partner",
-    "Team partner"
-   ]
-  },
-  "sailgp-perth-sail-grand-prix": {
-   "name": "SailGP Perth Sail Grand Prix",
-   "ptype": "Event",
-   "k": "p",
-   "market": "ANZ",
-   "domain": "sailgp.com",
-   "ptiers": [
-    "Title partner",
-    "Presenting and title partner",
-    "Title Partner",
-    "Presenting Partner",
-    "Host Venue Partner",
-    "Official Suppliers",
-    "Event Partner"
-   ]
-  },
-  "sailgp-auckland-sail-grand-prix": {
-   "name": "SailGP Auckland Sail Grand Prix",
-   "ptype": "Event",
-   "k": "p",
-   "market": "ANZ",
-   "domain": "sailgp.com",
-   "ptiers": [
-    "Title partner",
-    "Title Partner",
-    "Host Venue Partner",
-    "Official Partners",
-    "Official Suppliers",
-    "Official Audio Broadcaster",
-    "Official Supporters"
-   ]
-  },
-  "sailgp-sydney-sail-grand-prix": {
-   "name": "SailGP Sydney Sail Grand Prix",
-   "ptype": "Event",
-   "k": "p",
-   "market": "ANZ",
-   "domain": "sailgp.com",
-   "ptiers": [
-    "Presenting and title partner",
-    "Title Partner",
-    "Strategic Partner",
-    "Event Partner",
-    "Official Suppliers"
-   ]
-  },
-  "sailgp-rio-sail-grand-prix": {
-   "name": "SailGP Rio Sail Grand Prix",
-   "ptype": "Event",
-   "k": "p",
-   "market": "Rest of World",
-   "domain": "sailgp.com",
-   "ptiers": [
-    "Title partner",
-    "Title Partner",
-    "Event Partner",
-    "Event Supporters"
-   ]
-  },
-  "sailgp-bermuda-sail-grand-prix": {
-   "name": "SailGP Bermuda Sail Grand Prix",
-   "ptype": "Event",
-   "k": "p",
-   "market": "North America",
-   "domain": "sailgp.com",
-   "ptiers": [
-    "Title partner",
-    "Title Partner",
-    "Host Venue Partner",
-    "Official Suppliers"
-   ]
-  },
-  "sailgp-new-york-sail-grand-prix": {
-   "name": "SailGP New York Sail Grand Prix",
-   "ptype": "Event",
-   "k": "p",
-   "market": "North America",
-   "domain": "sailgp.com",
-   "ptiers": [
-    "Title partner",
-    "Title Partner",
-    "Official Partners",
-    "Event Supporters"
-   ]
-  },
-  "sailgp-portsmouth-sail-grand-prix": {
-   "name": "SailGP Portsmouth Sail Grand Prix",
-   "ptype": "Event",
-   "k": "p",
-   "market": "UK & Ireland",
-   "domain": "sailgp.com",
-   "ptiers": [
-    "Title partner",
-    "Title Partner",
-    "Host Venue Partner",
-    "Event Partner",
-    "Event Supplier"
-   ]
-  },
-  "sailgp-germany-sail-grand-prix": {
-   "name": "SailGP Germany Sail Grand Prix",
-   "ptype": "Event",
-   "k": "p",
-   "market": "Europe",
-   "domain": "sailgp.com",
-   "ptiers": [
-    "Title Partner",
-    "Host Venue Partner",
-    "Event Supplier"
-   ]
-  },
-  "sailgp-geneva-sail-grand-prix": {
-   "name": "SailGP Geneva Sail Grand Prix",
-   "ptype": "Event",
-   "k": "p",
-   "market": "Europe",
-   "domain": "sailgp.com",
-   "ptiers": [
-    "Title partner",
-    "Title Partner",
-    "Host Venue Partner",
-    "Event Partner"
-   ]
-  },
-  "sailgp-dubai-sail-grand-prix": {
-   "name": "SailGP Dubai Sail Grand Prix",
-   "ptype": "Event",
-   "k": "p",
-   "market": "Middle East",
-   "domain": "sailgp.com",
-   "ptiers": [
-    "Title partner",
-    "Presenting partner",
-    "Title Partner",
-    "Presenting Partner",
-    "Host Venue Partner"
-   ]
-  },
-  "sailgp-abu-dhabi-sail-grand-prix": {
-   "name": "SailGP Abu Dhabi Sail Grand Prix",
-   "ptype": "Event",
-   "k": "p",
-   "market": "Middle East",
-   "domain": "sailgp.com",
-   "ptiers": [
-    "Title partner",
-    "Presenting partner"
-   ]
-  },
-  "america-s-cup": {
-   "name": "America's Cup",
-   "ptype": "Event",
-   "k": "p",
-   "market": "Global",
-   "domain": "americascup.com",
-   "aliases": [
-    "Louis Vuitton 38th America's Cup",
-    "Louis Vuitton America's Cup"
-   ],
-   "ptiers": [
-    "Official sponsor",
-    "Global partner"
-   ]
-  },
-  "luna-rossa": {
-   "name": "Luna Rossa",
-   "ptype": "Club & team",
-   "k": "p",
-   "market": "Europe",
-   "aliases": [
-    "Luna Rossa Prada Pirelli"
-   ],
-   "ptiers": [
-    "Title partner",
-    "Official sponsor"
-   ]
-  },
-  "alinghi": {
-   "name": "Alinghi",
-   "ptype": "Club & team",
-   "k": "p",
-   "market": "Europe",
-   "domain": "alinghi.com",
-   "aliases": [
-    "Tudor Team Alinghi"
-   ],
-   "ptiers": [
-    "Official footwear supplier",
-    "Team partner"
-   ]
-  },
-  "k-challenge": {
-   "name": "K-Challenge",
-   "ptype": "Club & team",
-   "k": "p",
-   "market": "Europe",
-   "aliases": [
-    "La Roche-Posay Racing Team"
-   ]
-  },
-  "gb1": {
-   "name": "GB1",
-   "ptype": "Club & team",
-   "k": "p",
-   "market": "UK & Ireland",
-   "aliases": [
-    "Athena Racing"
-   ],
-   "ptiers": [
-    "Global partner",
-    "Team partner"
-   ]
-  },
-  "gb2": {
-   "name": "GB2",
-   "ptype": "Club & team",
-   "k": "p",
-   "market": "UK & Ireland",
-   "aliases": [
-    "Cobham-Ultra GB2"
-   ],
-   "ptiers": [
-    "Title partner"
-   ]
-  },
-  "team-australia-america-s-cup": {
-   "name": "Team Australia America's Cup",
-   "ptype": "Club & team",
-   "k": "p",
-   "market": "ANZ",
-   "aliases": [
-    "Team Australia Challenge"
-   ]
-  },
-  "american-racing-challenger-team-usa": {
-   "name": "American Racing Challenger Team USA",
-   "ptype": "Club & team",
-   "k": "p",
-   "market": "North America",
-   "aliases": [
-    "ARC Team USA"
-   ]
-  },
-  "bonds": {
-   "name": "BONDS",
-   "k": "b",
-   "cat": "Apparel & sportswear",
-   "domain": "bonds.com.au"
-  },
-  "monday-com": {
-   "name": "monday.com",
-   "k": "b",
-   "cat": "Technology",
-   "domain": "monday.com"
-  },
-  "blueberry": {
-   "name": "Blueberry",
-   "k": "b",
-   "cat": "Banking & finance",
-   "domain": "blueberry.markets"
-  },
-  "azimut": {
-   "name": "Azimut",
-   "k": "b",
-   "cat": "Banking & finance",
-   "domain": "azimut-group.com"
-  },
-  "ds-automobiles": {
-   "name": "DS Automobiles",
-   "k": "b",
-   "cat": "Automotive",
-   "domain": "dsautomobiles.com"
-  },
-  "explora-journeys": {
-   "name": "Explora Journeys",
-   "k": "b",
-   "cat": "Airlines & travel",
-   "domain": "explorajourneys.com"
-  },
-  "sail-racing": {
-   "name": "Sail Racing",
-   "k": "b",
-   "cat": "Apparel & sportswear",
-   "domain": "sailracing.com"
-  },
-  "stiftelsen-vi": {
-   "name": "Stiftelsen VI",
-   "k": "b"
-  },
-  "denza": {
-   "name": "DENZA",
-   "k": "b",
-   "cat": "Automotive",
-   "domain": "denza.com"
-  },
-  "quantum-pacific-group": {
-   "name": "Quantum Pacific Group",
-   "k": "b",
-   "cat": "Banking & finance"
-  },
-  "msp-sports-capital": {
-   "name": "MSP Sports Capital",
-   "k": "b",
-   "cat": "Banking & finance"
-  },
-  "american-magic": {
-   "name": "American Magic",
-   "k": "b",
-   "domain": "americanmagic.com"
-  },
-  "rockwool": {
-   "name": "ROCKWOOL",
-   "k": "b",
-   "domain": "rockwool.com"
-  },
-  "sandmark": {
-   "name": "Sandmark",
-   "k": "b",
-   "cat": "Media & publishing"
-  },
-  "quiksilver": {
-   "name": "Quiksilver",
-   "k": "b",
-   "cat": "Apparel & sportswear",
-   "domain": "quiksilver.com"
-  },
-  "mubadala-capital": {
-   "name": "Mubadala Capital",
-   "k": "b",
-   "cat": "Banking & finance",
-   "domain": "mubadalacapital.ae"
-  },
-  "mubadala": {
-   "name": "Mubadala",
-   "k": "b",
-   "cat": "Banking & finance",
-   "domain": "mubadala.com"
-  },
-  "luxury-group-marriott-international": {
-   "name": "Luxury Group, Marriott International",
-   "k": "b",
-   "cat": "Airlines & travel",
-   "domain": "marriott.com"
-  },
-  "bermuda-tourism-authority": {
-   "name": "Bermuda Tourism Authority",
-   "k": "b",
-   "cat": "Government & tourism",
-   "domain": "gotobermuda.com"
-  },
-  "leyton": {
-   "name": "Leyton",
-   "k": "b",
-   "cat": "Professional services",
-   "domain": "leyton.com"
-  },
-  "smarkets": {
-   "name": "Smarkets",
-   "k": "b",
-   "cat": "Wagering & gaming",
-   "domain": "smarkets.com"
-  },
-  "oakley-capital": {
-   "name": "Oakley Capital",
-   "k": "b",
-   "cat": "Banking & finance",
-   "domain": "oakleycapital.com"
-  },
-  "muse-sport-consortium": {
-   "name": "Muse Sport Consortium",
-   "k": "b",
-   "cat": "Banking & finance"
-  },
-  "bolt-ventures": {
-   "name": "Bolt Ventures",
-   "k": "b",
-   "cat": "Banking & finance"
-  },
-  "blue-pool-capital": {
-   "name": "Blue Pool Capital",
-   "k": "b",
-   "cat": "Banking & finance"
-  },
-  "doyle-sails": {
-   "name": "Doyle Sails",
-   "k": "b",
-   "domain": "doylesails.com"
-  },
-  "marlow-ropes": {
-   "name": "Marlow Ropes",
-   "k": "b",
-   "domain": "marlowropes.com"
-  },
-  "hongqi": {
-   "name": "Hongqi",
-   "k": "b",
-   "cat": "Automotive"
-  },
-  "abu-dhabi-sports-council": {
-   "name": "Abu Dhabi Sports Council",
-   "k": "b",
-   "cat": "Government & tourism"
-  },
-  "unicredit": {
-   "name": "UniCredit",
-   "k": "b",
-   "cat": "Banking & finance",
-   "domain": "unicreditgroup.eu"
-  },
-  "yanmar": {
-   "name": "YANMAR",
-   "k": "b",
-   "domain": "yanmar.com"
-  },
-  "img-licensing": {
-   "name": "IMG Licensing",
-   "k": "b",
-   "cat": "Media & publishing"
-  },
-  "prada": {
-   "name": "Prada",
-   "k": "b",
-   "cat": "Watches & luxury",
-   "domain": "prada.com"
-  },
-  "alfa-romeo": {
-   "name": "Alfa Romeo",
-   "k": "b",
-   "cat": "Automotive",
-   "domain": "alfaromeo.com"
-  },
-  "physicsx": {
-   "name": "PhysicsX",
-   "k": "b",
-   "cat": "Technology",
-   "domain": "physicsx.ai"
-  },
-  "north-sails": {
-   "name": "North Sails",
-   "k": "b",
-   "cat": "Apparel & sportswear",
-   "domain": "northsails.com"
-  },
-  "richard-mille": {
-   "name": "Richard Mille",
-   "k": "b",
-   "cat": "Watches & luxury",
-   "domain": "richardmille.com"
-  },
-  "cobham-ultra": {
-   "name": "Cobham Ultra",
-   "k": "b"
-  },
-  "l-oreal-groupe": {
-   "name": "L'Oréal Groupe",
-   "k": "b"
-  },
-  "fremantle-ports": {
-   "name": "Fremantle Ports",
-   "k": "b",
-   "cat": "Government & tourism"
-  },
-  "heineken-silver": {
-   "name": "Heineken Silver",
-   "k": "b",
-   "cat": "Beer, wine & spirits"
-  },
-  "tourism-new-zealand": {
-   "name": "Tourism New Zealand",
-   "k": "b",
-   "cat": "Government & tourism"
-  },
-  "tataki-auckland-unlimited": {
-   "name": "Tātaki Auckland Unlimited",
-   "k": "b",
-   "cat": "Government & tourism"
-  },
-  "rodd-gunn": {
-   "name": "Rodd & Gunn",
-   "k": "b",
-   "cat": "Apparel & sportswear"
-  },
-  "agp": {
-   "name": "AGP",
-   "k": "b"
-  },
-  "prefeitura-do-rio-de-janeiro-riotur": {
-   "name": "Prefeitura do Rio de Janeiro / Riotur",
-   "k": "b",
-   "cat": "Government & tourism"
-  },
-  "governo-do-estado-do-rio-de-janeiro": {
-   "name": "Governo do Estado do Rio de Janeiro",
-   "k": "b",
-   "cat": "Government & tourism"
-  },
-  "cbvela": {
-   "name": "CBVela",
-   "k": "b"
-  },
-  "imm": {
-   "name": "IMM",
-   "k": "b"
-  },
-  "gosling-s": {
-   "name": "Gosling's",
-   "k": "b",
-   "cat": "Beer, wine & spirits"
-  },
-  "infinite": {
-   "name": "Infinite",
-   "k": "b"
-  },
-  "moatwood-gin": {
-   "name": "Moatwood Gin",
-   "k": "b",
-   "cat": "Beer, wine & spirits"
-  },
-  "nyc-tourism-conventions": {
-   "name": "NYC Tourism + Conventions",
-   "k": "b",
-   "cat": "Government & tourism"
-  },
-  "sailgp-halifax-sail-grand-prix": {
-   "name": "SailGP Halifax Sail Grand Prix",
-   "ptype": "Event",
-   "k": "p",
-   "market": "North America",
-   "domain": "sailgp.com",
-   "ptiers": [
-    "Host Venue Partner",
-    "Official Partners",
-    "Official Suppliers"
-   ]
-  },
-  "province-of-nova-scotia": {
-   "name": "Province of Nova Scotia",
-   "k": "b",
-   "cat": "Government & tourism"
-  },
-  "halifax-regional-municipality": {
-   "name": "Halifax Regional Municipality",
-   "k": "b",
-   "cat": "Government & tourism"
-  },
-  "sail-nova-scotia": {
-   "name": "Sail Nova Scotia",
-   "k": "b"
-  },
-  "government-of-canada": {
-   "name": "Government of Canada",
-   "k": "b",
-   "cat": "Government & tourism"
-  },
-  "king-s-wharf": {
-   "name": "King's Wharf",
-   "k": "b"
-  },
-  "build-nova-scotia": {
-   "name": "Build Nova Scotia",
-   "k": "b",
-   "cat": "Government & tourism"
-  },
-  "propeller-brewing": {
-   "name": "Propeller Brewing",
-   "k": "b",
-   "cat": "Beer, wine & spirits"
-  },
-  "portsmouth-city-council": {
-   "name": "Portsmouth City Council",
-   "k": "b",
-   "cat": "Government & tourism"
-  },
-  "apres-provence": {
-   "name": "Après Provence",
-   "k": "b",
-   "cat": "Beer, wine & spirits"
-  },
-  "stadthafen-sassnitz": {
-   "name": "Stadthafen Sassnitz",
-   "k": "b",
-   "cat": "Government & tourism"
-  },
-  "state-of-mecklenburg-vorpommern": {
-   "name": "State of Mecklenburg-Vorpommern",
-   "k": "b",
-   "cat": "Government & tourism"
-  },
-  "stortebeker": {
-   "name": "Störtebeker",
-   "k": "b",
-   "cat": "Beer, wine & spirits"
-  },
-  "sailgp-valencia-sail-grand-prix": {
-   "name": "SailGP Valencia Sail Grand Prix",
-   "ptype": "Event",
-   "k": "p",
-   "market": "Europe",
-   "domain": "sailgp.com",
-   "ptiers": [
-    "Host Venue Partner"
-   ]
-  },
-  "diputacio-de-valencia": {
-   "name": "Diputació de València",
-   "k": "b",
-   "cat": "Government & tourism"
-  },
-  "generalitat-valenciana": {
-   "name": "Generalitat Valenciana",
-   "k": "b",
-   "cat": "Government & tourism"
-  },
-  "ajuntament-de-valencia": {
-   "name": "Ajuntament de València",
-   "k": "b",
-   "cat": "Government & tourism"
-  },
-  "canton-of-geneva": {
-   "name": "Canton of Geneva",
-   "k": "b",
-   "cat": "Government & tourism"
-  },
-  "city-of-geneva": {
-   "name": "City of Geneva",
-   "k": "b",
-   "cat": "Government & tourism"
-  },
-  "swisscom": {
-   "name": "Swisscom",
-   "k": "b",
-   "cat": "Telecommunications"
-  },
-  "dubai-sports-council": {
-   "name": "Dubai Sports Council",
-   "k": "b",
-   "cat": "Government & tourism"
-  },
-  "major-sports-events-committee": {
-   "name": "Major Sports Events Committee",
-   "k": "b",
-   "cat": "Government & tourism"
-  },
-  "hong-kong-sar-government": {
-   "name": "Hong Kong SAR Government",
-   "k": "b",
-   "cat": "Government & tourism"
-  },
-  "brand-hong-kong": {
-   "name": "Brand Hong Kong",
-   "k": "b",
-   "cat": "Government & tourism"
-  },
-  "canaccord-genuity": {
-   "name": "Canaccord Genuity",
-   "k": "b",
-   "cat": "Banking & finance"
-  },
-  "echo-yachts": {
-   "name": "Echo Yachts",
-   "k": "b"
-  },
-  "butterfield": {
-   "name": "Butterfield",
-   "k": "b",
-   "cat": "Banking & finance",
-   "aliases": [
-    "Mastercard x Butterfield"
    ]
   }
  },
