@@ -1432,8 +1432,12 @@
     "experiences"
    ],
    "ptiers": [
-    "Government partner"
-   ]
+    "Government partner",
+    "Official Partner",
+    "Official Supplier",
+    "Strategic Partner"
+   ],
+   "ptiersChecked": "2026-11-18"
   },
   "adelaide-lightning": {
    "name": "Adelaide Lightning",
@@ -9617,8 +9621,12 @@
   },
   "brisbane-economic-development-agency": {
    "name": "Brisbane Economic Development Agency",
-   "cat": "Construction & property",
-   "k": "b"
+   "cat": "Tourism & government",
+   "k": "b",
+   "aliases": [
+    "Visit Brisbane"
+   ],
+   "domain": "visit.brisbane.qld.au"
   },
   "brisbane-heat": {
    "name": "Brisbane Heat",
@@ -9661,8 +9669,13 @@
     "experiences"
    ],
    "ptiers": [
-    "Government partner"
-   ]
+    "Government partner",
+    "Official Partner",
+    "Official Supplier",
+    "Strategic Partner",
+    "Presenting Partner"
+   ],
+   "ptiersChecked": "2026-11-18"
   },
   "brisbane-lions": {
    "name": "Brisbane Lions",
@@ -11084,8 +11097,14 @@
    ],
    "ptiers": [
     "Naming rights",
-    "Government partner"
-   ]
+    "Government partner",
+    "Naming Rights Partner",
+    "Media Partner",
+    "Official Supplier",
+    "Community Partner",
+    "Event Partner"
+   ],
+   "ptiersChecked": "2026-11-18"
   },
   "canberra-milk": {
    "name": "Canberra Milk",
@@ -28042,8 +28061,12 @@
     "women"
    ],
    "ptiers": [
-    "Government partner"
-   ]
+    "Government partner",
+    "Official Partner",
+    "Official Supplier",
+    "Strategic Partner"
+   ],
+   "ptiersChecked": "2026-11-18"
   },
   "hobbiton-movie-set": {
    "name": "Hobbiton Movie Set",
@@ -33219,8 +33242,12 @@
     "summer"
    ],
    "ptiers": [
-    "Title sponsor"
-   ]
+    "Title sponsor",
+    "Major Partner",
+    "Premium Partner",
+    "Official Partner"
+   ],
+   "ptiersChecked": "2026-11-18"
   },
   "kopron": {
    "name": "Kopron",
@@ -59726,8 +59753,9 @@
   },
   "the-courier-mail": {
    "name": "The Courier-Mail",
-   "cat": "Logistics & transport",
-   "k": "b"
+   "cat": "Media & broadcast",
+   "k": "b",
+   "domain": "couriermail.com.au"
   },
   "the-cube": {
    "name": "The Cube",
@@ -61518,6 +61546,9 @@
    "bf": [
     "icon",
     "logo"
+   ],
+   "aliases": [
+    "Tourism Western Australia"
    ]
   },
   "toward": {
@@ -63008,7 +63039,10 @@
    "ptiers": [
     "Official partner",
     "Official supplier",
-    "Host partner"
+    "Host partner",
+    "Official Partner",
+    "Official Supplier",
+    "Strategic Partner"
    ],
    "reach": "Global",
    "pos": "premium",
@@ -63024,7 +63058,8 @@
     "hospitality",
     "experiences"
    ],
-   "logo": "assets/logos/united-cup.png"
+   "logo": "assets/logos/united-cup.png",
+   "ptiersChecked": "2026-11-18"
   },
   "united-media": {
    "name": "United Media",
@@ -68630,6 +68665,114 @@
    "aliases": [
     "ATP Finals"
    ]
+  },
+  "heartland-bank": {
+   "name": "Heartland Bank",
+   "cat": "Banking & finance",
+   "k": "b",
+   "domain": "heartlandbank.com.au"
+  },
+  "como-melbourne": {
+   "name": "The Como Melbourne",
+   "aliases": [
+    "Como Melbourne"
+   ],
+   "cat": "Hospitality & entertainment",
+   "k": "b",
+   "domain": "comomelbourne.com.au"
+  },
+  "kooyong-lawn-tennis-club": {
+   "name": "Kooyong Lawn Tennis Club",
+   "cat": "Hospitality & entertainment",
+   "k": "b",
+   "domain": "kooyong.com.au"
+  },
+  "saint-layers": {
+   "name": "Saint Layers",
+   "cat": "Apparel & footwear",
+   "k": "b",
+   "domain": "saintlayers.cc"
+  },
+  "yarra-valley-water": {
+   "name": "Yarra Valley Water",
+   "cat": "Energy & utilities",
+   "k": "b",
+   "domain": "yvw.com.au"
+  },
+  "head": {
+   "name": "HEAD",
+   "aliases": [
+    "Head"
+   ],
+   "cat": "Sporting goods",
+   "k": "b",
+   "domain": "head.com"
+  },
+  "entourage": {
+   "name": "Entourage",
+   "cat": "Professional services",
+   "k": "b",
+   "domain": "entourage.com.au"
+  },
+  "greenset": {
+   "name": "GreenSet",
+   "cat": "Sporting goods",
+   "k": "b",
+   "domain": "greenset.net"
+  },
+  "radiance-wealth": {
+   "name": "Radiance Wealth",
+   "cat": "Banking & finance",
+   "k": "b",
+   "domain": "radiancewealth.com.au"
+  },
+  "adelaide-economic-development-agency": {
+   "name": "Adelaide Economic Development Agency",
+   "aliases": [
+    "AEDA",
+    "Experience Adelaide"
+   ],
+   "cat": "Tourism & government",
+   "k": "b",
+   "domain": "experienceadelaide.com.au"
+  },
+  "capital-hotel-group": {
+   "name": "Capital Hotel Group",
+   "cat": "Hospitality & entertainment",
+   "k": "b",
+   "domain": "capitalhotels.com.au"
+  },
+  "next-gen-health-and-lifestyle-clubs": {
+   "name": "Next Gen Health & Lifestyle Clubs",
+   "aliases": [
+    "Next Gen Clubs"
+   ],
+   "cat": "Health & beauty",
+   "k": "b",
+   "domain": "nextgenclubs.com.au"
+  },
+  "underground-spirits": {
+   "name": "Underground Spirits",
+   "aliases": [
+    "Underground Spirits Australia"
+   ],
+   "cat": "Alcohol",
+   "k": "b",
+   "domain": "undergroundspirits.com.au"
+  },
+  "pink-tennis-canberra": {
+   "name": "Pink Tennis Canberra",
+   "cat": "Not-for-profit",
+   "k": "b"
+  },
+  "the-canberra-times": {
+   "name": "The Canberra Times",
+   "aliases": [
+    "Canberra Times"
+   ],
+   "cat": "Media & broadcast",
+   "k": "b",
+   "domain": "canberratimes.com.au"
   }
  },
  "leagues": [
