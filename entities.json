@@ -58704,24 +58704,12 @@
   "tennis-victoria-premier-league": {
    "name": "Tennis Victoria Premier League",
    "ptype": "League & competition",
-   "k": "p",
-   "domain": "tennis.com.au",
-   "bf": [
-    "symbol",
-    "icon",
-    "logo"
-   ]
+   "k": "p"
   },
   "tennis-west": {
    "name": "Tennis West",
    "ptype": "Governing body",
    "k": "p",
-   "domain": "tennis.com.au",
-   "bf": [
-    "symbol",
-    "icon",
-    "logo"
-   ],
    "ptiers": [
     "Government partner"
    ]
@@ -68143,7 +68131,6 @@
    "name": "Tennis Victoria",
    "ptype": "Governing body",
    "k": "p",
-   "domain": "tennis.com.au",
    "city": "Melbourne",
    "reach": "Local",
    "aud": [
@@ -68166,7 +68153,6 @@
    ],
    "ptype": "Governing body",
    "k": "p",
-   "domain": "tennis.com.au",
    "city": "Adelaide",
    "reach": "Local",
    "aud": [
@@ -68186,7 +68172,6 @@
    "name": "Tennis Queensland",
    "ptype": "Governing body",
    "k": "p",
-   "domain": "tennis.com.au",
    "city": "Brisbane",
    "reach": "Local",
    "aud": [
@@ -68205,7 +68190,6 @@
    "name": "Tennis Tasmania",
    "ptype": "Governing body",
    "k": "p",
-   "domain": "tennis.com.au",
    "city": "Hobart",
    "reach": "Local",
    "aud": [
@@ -68221,7 +68205,6 @@
    "name": "Tennis ACT",
    "ptype": "Governing body",
    "k": "p",
-   "domain": "tennis.com.au",
    "city": "Canberra",
    "reach": "Local",
    "aud": [
@@ -68237,7 +68220,6 @@
    "name": "Tennis NT",
    "ptype": "Governing body",
    "k": "p",
-   "domain": "tennis.com.au",
    "city": "Darwin",
    "reach": "Local"
   },
@@ -68277,7 +68259,10 @@
   "care-wellness": {
    "name": "Care Wellness",
    "cat": "Health & beauty",
-   "k": "b"
+   "k": "b",
+   "aliases": [
+    "CareA2+"
+   ]
   },
   "de-cecco": {
    "name": "De Cecco",
@@ -68351,6 +68336,188 @@
    "cat": "Watches & luxury",
    "k": "b",
    "domain": "geraldcharles.com"
+  },
+  "country-road": {
+   "name": "Country Road",
+   "cat": "Apparel & footwear",
+   "k": "b",
+   "domain": "countryroad.com.au"
+  },
+  "cpa-australia": {
+   "name": "CPA Australia",
+   "cat": "Professional services",
+   "k": "b",
+   "domain": "cpaaustralia.com.au"
+  },
+  "haagen-dazs": {
+   "name": "Häagen-Dazs",
+   "cat": "Food & nutrition",
+   "k": "b",
+   "domain": "haagendazs.com.au"
+  },
+  "garnier": {
+   "name": "Garnier",
+   "cat": "Health & beauty",
+   "k": "b",
+   "domain": "garnier.com.au"
+  },
+  "k-and-l-gates": {
+   "name": "K&L Gates",
+   "cat": "Professional services",
+   "k": "b",
+   "domain": "klgates.com"
+  },
+  "vegemite": {
+   "name": "Vegemite",
+   "cat": "Food & nutrition",
+   "k": "b",
+   "domain": "vegemite.com.au"
+  },
+  "william-hill": {
+   "name": "William Hill",
+   "cat": "Betting & wagering",
+   "k": "b",
+   "domain": "williamhill.com"
+  },
+  "derucci": {
+   "name": "DeRUCCI",
+   "cat": "Home & hardware",
+   "k": "b",
+   "domain": "derucci.com"
+  },
+  "bondi-sands": {
+   "name": "Bondi Sands",
+   "cat": "Health & beauty",
+   "k": "b",
+   "domain": "bondisands.com.au"
+  },
+  "pure-blonde": {
+   "name": "Pure Blonde",
+   "cat": "Alcohol",
+   "k": "b",
+   "domain": "pureblonde.com.au"
+  },
+  "initial": {
+   "name": "Initial",
+   "aliases": [
+    "Initial Hygiene"
+   ],
+   "cat": "Professional services",
+   "k": "b",
+   "domain": "initial.com.au"
+  },
+  "grainshaker": {
+   "name": "Grainshaker",
+   "aliases": [
+    "Grainshaker Australian Vodka"
+   ],
+   "cat": "Alcohol",
+   "k": "b",
+   "domain": "grainshaker.com.au"
+  },
+  "gordon-s": {
+   "name": "Gordon's",
+   "aliases": [
+    "Gordon's Gin"
+   ],
+   "cat": "Alcohol",
+   "k": "b",
+   "domain": "gordonsgin.com"
+  },
+  "tanqueray": {
+   "name": "Tanqueray",
+   "cat": "Alcohol",
+   "k": "b",
+   "domain": "tanqueray.com"
+  },
+  "life-space": {
+   "name": "Life-Space",
+   "cat": "Health & beauty",
+   "k": "b",
+   "domain": "lifespaceprobiotics.com"
+  },
+  "squealing-pig": {
+   "name": "Squealing Pig",
+   "cat": "Alcohol",
+   "k": "b",
+   "domain": "squealingpig.com"
+  },
+  "somersby": {
+   "name": "Somersby",
+   "cat": "Alcohol",
+   "k": "b",
+   "domain": "somersby.com"
+  },
+  "pacific-blue": {
+   "name": "Pacific Blue",
+   "cat": "Energy & utilities",
+   "k": "b",
+   "domain": "pacificblue.com.au"
+  },
+  "m-and-m-s": {
+   "name": "M&M's",
+   "aliases": [
+    "M&Ms"
+   ],
+   "cat": "Food & nutrition",
+   "k": "b",
+   "domain": "mms.com"
+  },
+  "safetyculture": {
+   "name": "SafetyCulture",
+   "aliases": [
+    "Safety Culture"
+   ],
+   "cat": "Technology",
+   "k": "b",
+   "domain": "safetyculture.com"
+  },
+  "balter": {
+   "name": "Balter",
+   "cat": "Alcohol",
+   "k": "b",
+   "domain": "balter.com.au"
+  },
+  "brookvale-union": {
+   "name": "Brookvale Union",
+   "cat": "Alcohol",
+   "k": "b",
+   "domain": "brookvaleunion.com.au"
+  },
+  "cctv": {
+   "name": "CCTV",
+   "aliases": [
+    "China Media Group",
+    "CCTV Sports"
+   ],
+   "cat": "Media & broadcast",
+   "k": "b",
+   "domain": "cctv.com"
+  },
+  "hologic": {
+   "name": "Hologic",
+   "cat": "Health & beauty",
+   "k": "b",
+   "domain": "hologic.com"
+  },
+  "peters": {
+   "name": "Peters",
+   "aliases": [
+    "Peters Ice Cream"
+   ],
+   "cat": "Food & nutrition",
+   "k": "b",
+   "domain": "peters.com.au"
+  },
+  "moorilla": {
+   "name": "Moorilla",
+   "aliases": [
+    "Moorilla Wines",
+    "Moorilla Estate"
+   ],
+   "cat": "Alcohol",
+   "k": "b",
+   "domain": "moorilla.com.au"
   }
  },
  "leagues": [
