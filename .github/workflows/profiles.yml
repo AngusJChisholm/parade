@@ -7,7 +7,7 @@ name: Enrich deals and build brand/property pages
 on:
   push:
     branches: [main]
-    paths: ["deals.json", "entities.json", "tools/markets.py", "profile.html", "tools/enrich.py", "tools/build_profiles.py", "tools/ptiers.py", "tools/match.py", "tools/subcat_rules.py", "tools/locations.py", "tools/audit.py", "coverage.json", "tools/confidence.py", "tools/build_ticker.py", "data/sources.json", "data/lists.json", "tools/sources.py", "tools/validate.py", "tools/health.py"]
+    paths: ["deals.json", "entities.json", "tools/markets.py", "profile.html", "tools/enrich.py", "tools/build_profiles.py", "tools/ptiers.py", "tools/match.py", "tools/subcat_rules.py", "tools/locations.py", "tools/audit.py", "coverage.json", "tools/confidence.py", "tools/build_ticker.py", "data/sources.json", "data/lists.json", "tools/sources.py", "tools/validate.py", "tools/health.py", "tools/track.py", "data/track_rights.json"]
   workflow_dispatch:
 
 concurrency:
@@ -42,6 +42,9 @@ jobs:
 
       - name: Property tiers (each property's own partner groupings)
         run: cd tools && python3 ptiers.py
+
+      - name: Track (Parade tier T1-T4 and expiry for every current partnership)
+        run: python3 tools/track.py
 
       - name: Build brand and property pages
         run: python3 tools/build_profiles.py

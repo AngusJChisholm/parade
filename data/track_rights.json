@@ -1,0 +1,482 @@
+{
+ "_help": "Track research: what each partner actually gets (rights), the Parade tier that follows from it, and the end year, each with its source. One record per partnership, keyed by 'deal' exactly as written in deals.json. tools/track.py reads this file. tier: T1 naming rights / principal / front of jersey; T2 major or premier partner, sleeve, back of jersey, shorts, neckline, upper back; T3 official partner with a named category; T4 supplier, community, licensee. ends: last season of the agreement, only when a source states it (endsBasis 'stated') or states a term from a known signing year ('term'). status: verified = the club, league or brand's own release; reported = reputable press. Never use Scout as a source. collected = date the source was read.",
+ "records": [
+  {
+   "deal": "Toyota × Adelaide Crows",
+   "rights": [
+    "front of AFL guernsey",
+    "major partner"
+   ],
+   "tier": "T1",
+   "signed": 2023,
+   "term": 4,
+   "ends": 2027,
+   "endsBasis": "stated",
+   "src": "https://www.afc.com.au/news/1279285/latestcompetitions",
+   "srcName": "Adelaide Crows",
+   "status": "verified",
+   "rightsSrc": "https://www.nationaltribune.com.au/toyota-australia-extends-partnership-with-adelaide-football-club/",
+   "collected": "2026-11-18",
+   "note": "Front of guernsey per Toyota Australia's release (republished)."
+  },
+  {
+   "deal": "Hungry Jack's × Adelaide Crows",
+   "rights": [
+    "principal partner",
+    "back of AFL guernsey",
+    "front neckline from 2026"
+   ],
+   "tier": "T1",
+   "signed": 2026,
+   "term": 5,
+   "ends": 2030,
+   "endsBasis": "stated",
+   "src": "https://www.afc.com.au/news/1946025/latestcompetitions",
+   "srcName": "Adelaide Crows",
+   "status": "verified",
+   "collected": "2026-11-18"
+  },
+  {
+   "deal": "Hyundai × Carlton",
+   "rights": [
+    "co-major partner",
+    "front of home guernsey"
+   ],
+   "tier": "T1",
+   "signed": 2022,
+   "term": 5,
+   "ends": 2027,
+   "endsBasis": "stated",
+   "src": "https://carltonfc.com.au/news/1268627/hyundai-extend-for-five-years-as-a-co-major",
+   "srcName": "Carlton FC",
+   "status": "verified",
+   "collected": "2026-11-18"
+  },
+  {
+   "deal": "Great Southern Bank × Carlton",
+   "rights": [
+    "co-major partner",
+    "front of away guernsey",
+    "back of home guernsey",
+    "back of AFLW guernsey"
+   ],
+   "tier": "T1",
+   "signed": 2024,
+   "term": 4,
+   "ends": 2027,
+   "endsBasis": "stated",
+   "src": "https://www.carltonfc.com.au/news/1502750",
+   "srcName": "Carlton FC",
+   "status": "verified",
+   "collected": "2026-11-18"
+  },
+  {
+   "deal": "Emirates × Collingwood",
+   "rights": [
+    "premier partner",
+    "front and back of AFL guernsey",
+    "shorts"
+   ],
+   "tier": "T1",
+   "signed": 2024,
+   "term": 5,
+   "ends": 2029,
+   "endsBasis": "stated",
+   "src": "https://www.collingwoodfc.com.au/news/1703223/collingwood-and-emirates-continue-to-fly-into-the-future",
+   "srcName": "Collingwood FC",
+   "status": "verified",
+   "collected": "2026-11-18"
+  },
+  {
+   "deal": "KFC × Collingwood",
+   "rights": [
+    "back of AFL guernsey"
+   ],
+   "tier": "T2",
+   "src": "https://www.collingwoodfc.com.au/news/1947909/five-more-for-kfc",
+   "srcName": "Collingwood FC",
+   "status": "verified",
+   "collected": "2026-11-18"
+  },
+  {
+   "deal": "Airwallex × Essendon",
+   "rights": [
+    "co-major partner",
+    "front of AFL guernsey"
+   ],
+   "tier": "T1",
+   "signed": 2026,
+   "src": "https://www.essendonfc.com.au/news/1963938/bombers-and-airwallex-fly-together-in-new-co-major-partnership",
+   "srcName": "Essendon FC",
+   "status": "verified",
+   "rightsSrc": "https://www.fintechaustralia.org.au/newsroom/bombers-and-airwallex-fly-together-in-new-co-major-partnership",
+   "collected": "2026-11-18",
+   "note": "Multi-year, end not stated."
+  },
+  {
+   "deal": "Liberty × Essendon",
+   "rights": [
+    "top back of AFL and AFLW guernsey",
+    "official financial services partner"
+   ],
+   "tier": "T2",
+   "src": "https://www.essendonfc.com.au/news/1527348/essendon-liberty-extend-partnership",
+   "srcName": "Essendon FC",
+   "status": "verified",
+   "collected": "2026-11-18",
+   "note": "Multi-year extension, end not stated."
+  },
+  {
+   "deal": "Woodside × Fremantle",
+   "rights": [
+    "co-major partner",
+    "front of AFL guernsey",
+    "Indigenous program partner"
+   ],
+   "tier": "T1",
+   "signed": 2024,
+   "term": 2,
+   "ends": 2027,
+   "endsBasis": "stated",
+   "src": "https://www.woodside.com/media-centre/news-stories/story/fremantle-and-woodside-strengthen-ongoing-partnership-to-2027",
+   "srcName": "Woodside Energy",
+   "status": "verified",
+   "rightsSrc": "https://www.bandt.com.au/spotlight-on-sponsors-freemantle-dockers-accused-of-not-taking-climate-concerns-into-consideration-when-selecting-sponsors/",
+   "collected": "2026-11-18",
+   "note": "Front of guernsey per B&T (reported)."
+  },
+  {
+   "deal": "Bankwest × Fremantle",
+   "rights": [
+    "co-major partner",
+    "back of AFL guernsey"
+   ],
+   "tier": "T2",
+   "src": "https://www.bandt.com.au/spotlight-on-sponsors-freemantle-dockers-accused-of-not-taking-climate-concerns-into-consideration-when-selecting-sponsors/",
+   "srcName": "B&T",
+   "status": "reported",
+   "collected": "2026-11-18"
+  },
+  {
+   "deal": "Hyundai × Fremantle",
+   "rights": [
+    "premier partner",
+    "upper back of AFL and AFLW guernsey from 2027"
+   ],
+   "tier": "T2",
+   "src": "https://torquecafe.com/car-news-afl-fremantle-dockers-hyundai-nrl-parramatta-eels-gwm/",
+   "srcName": "Torque Cafe",
+   "status": "reported",
+   "collected": "2026-11-18"
+  },
+  {
+   "deal": "Ford × Geelong Cats",
+   "rights": [
+    "principal partner from 2026",
+    "front of AFL and AFLW guernsey"
+   ],
+   "tier": "T1",
+   "src": "https://geelongcats.com.au/news/1748519/ford-media-release",
+   "srcName": "Geelong Cats",
+   "status": "verified",
+   "collected": "2026-11-18",
+   "note": "End not stated."
+  },
+  {
+   "deal": "Simonds Homes × Geelong Cats",
+   "rights": [
+    "major partner",
+    "lower back of AFL guernsey"
+   ],
+   "tier": "T2",
+   "signed": 2025,
+   "term": 3,
+   "ends": 2028,
+   "endsBasis": "stated",
+   "src": "https://www.geelongcats.com.au/news/1907859/from-homes-to-back-of-jumper-simonds-homes-builds-on-cats-partnership",
+   "srcName": "Geelong Cats",
+   "status": "verified",
+   "collected": "2026-11-18"
+  },
+  {
+   "deal": "YETI × Geelong Cats",
+   "rights": [
+    "AFL guernsey neckline"
+   ],
+   "tier": "T2",
+   "src": "https://www.geelongcats.com.au/news/1930669",
+   "srcName": "Geelong Cats",
+   "status": "verified",
+   "collected": "2026-11-18"
+  },
+  {
+   "deal": "nib × Richmond",
+   "rights": [
+    "joint major partner",
+    "front of AFL and AFLW guernsey"
+   ],
+   "tier": "T1",
+   "signed": 2023,
+   "term": 4,
+   "ends": 2027,
+   "endsBasis": "stated",
+   "src": "https://www.richmondfc.com.au/news/1372453/nib-extends-richmond-sponsorship-to-2027-for-mens-and-womens-teams",
+   "srcName": "Richmond FC",
+   "status": "verified",
+   "collected": "2026-11-18"
+  },
+  {
+   "deal": "GWM × Richmond",
+   "rights": [
+    "joint major partner",
+    "lower back of AFL guernsey"
+   ],
+   "tier": "T2",
+   "src": "https://www.gwmanz.com/au/news/gwm-enters-co-major-afl-partnership-with-richmond-fc/",
+   "srcName": "GWM ANZ",
+   "status": "verified",
+   "collected": "2026-11-18",
+   "note": "Multi-year, end not stated."
+  },
+  {
+   "deal": "CHiQ × North Melbourne",
+   "rights": [
+    "co-major partner of AFL program",
+    "on AFL playing apparel"
+   ],
+   "tier": "T2",
+   "signed": 2025,
+   "ends": 2027,
+   "endsBasis": "stated",
+   "src": "https://www.nmfc.com.au/news/1912420/north-melbourne-announces-chiq-as-new-co-major-partner",
+   "srcName": "North Melbourne FC",
+   "status": "verified",
+   "collected": "2026-11-18",
+   "note": "Spans the 2026 and 2027 seasons; guernsey position not stated."
+  },
+  {
+   "deal": "Allianz × West Coast Eagles",
+   "rights": [
+    "platinum partner",
+    "AFL guernsey neckline",
+    "AFLW shorts"
+   ],
+   "tier": "T2",
+   "src": "https://www.westcoasteagles.com.au/news/1926620/west-coast-eagles-team-up-with-allianz-australia",
+   "srcName": "West Coast Eagles",
+   "status": "verified",
+   "rightsSrc": "https://www.allianz.com.au/about-us/media-hub/west-coast-eagles-team-up-with-allianz-australia.html",
+   "collected": "2026-11-18"
+  },
+  {
+   "deal": "MyPlace × West Coast Eagles",
+   "rights": [
+    "platinum partner",
+    "back of AFL guernsey"
+   ],
+   "tier": "T2",
+   "src": "https://www.westcoasteagles.com.au/news/1716179/eagles-members-to-beat-the-heat-with-myplace-partnership",
+   "srcName": "West Coast Eagles",
+   "status": "verified",
+   "collected": "2026-11-18"
+  },
+  {
+   "deal": "QBE × Sydney Swans",
+   "rights": [
+    "whole of club principal partner",
+    "front of guernsey"
+   ],
+   "tier": "T1",
+   "src": "https://insurancenews.com.au/the-professional/qbe-extends-partnership-with-sydney-swans",
+   "srcName": "Insurance News",
+   "status": "reported",
+   "collected": "2026-11-18",
+   "note": "Five-year extension; signing year not confirmed, so no end year yet."
+  },
+  {
+   "deal": "Chery × St Kilda",
+   "rights": [
+    "co-principal partner of AFL program",
+    "back of AFL and AFLW guernsey",
+    "AFL neckline"
+   ],
+   "tier": "T1",
+   "src": "https://www.saints.com.au/news/1445533",
+   "srcName": "St Kilda FC",
+   "status": "verified",
+   "collected": "2026-11-18",
+   "note": "Original three-year term from October 2023; still listed as principal partner, so a renewal is likely. End not set."
+  },
+  {
+   "deal": "MG Motor × Port Adelaide",
+   "rights": [
+    "joint major partner",
+    "front of home guernsey",
+    "back of away guernsey"
+   ],
+   "tier": "T1",
+   "src": "https://mgmotor.com.au/blogs/news/mg-motor-australia-strikes-multi-year-partnership-with-port-adelaide-fc",
+   "srcName": "MG Motor Australia",
+   "status": "verified",
+   "collected": "2026-11-18",
+   "note": "Multi-year, end not stated."
+  },
+  {
+   "deal": "Youi × Brisbane Lions",
+   "rights": [
+    "principal partner",
+    "front of AFL and AFLW guernsey"
+   ],
+   "tier": "T1",
+   "signed": 2024,
+   "term": 5,
+   "ends": 2029,
+   "endsBasis": "stated",
+   "src": "https://www.youi.com.au/you-connect/news-and-media/youi-and-lions-team-up-for-a-big-2025-aflw-season",
+   "srcName": "Youi",
+   "status": "verified",
+   "collected": "2026-11-18"
+  },
+  {
+   "deal": "Hyundai × Brisbane Lions",
+   "rights": [
+    "major partner",
+    "upper back of AFL guernsey"
+   ],
+   "tier": "T2",
+   "ends": 2029,
+   "endsBasis": "stated",
+   "src": "https://www.lions.com.au/news/2098056/brisbane-lions-and-hyundai-extend-major-partnership-to-2029",
+   "srcName": "Brisbane Lions",
+   "status": "verified",
+   "collected": "2026-11-18"
+  },
+  {
+   "deal": "VOAO × Gold Coast SUNS",
+   "rights": [
+    "AFL guernsey neckline"
+   ],
+   "tier": "T2",
+   "signed": 2025,
+   "src": "https://www.goldcoastfc.com.au/news/1931213/voao-joins-suns-as-new-neckline-partner",
+   "srcName": "Gold Coast SUNS",
+   "status": "verified",
+   "collected": "2026-11-18",
+   "note": "'Several seasons', end not stated."
+  },
+  {
+   "deal": "Toyo Tires × GWS Giants",
+   "rights": [
+    "principal partner of AFL team",
+    "on AFL guernsey"
+   ],
+   "tier": "T1",
+   "ends": 2029,
+   "endsBasis": "stated",
+   "src": "https://www.toyotires.com.au/news/toyo-tires-giants-go-the-distance",
+   "srcName": "Toyo Tires",
+   "status": "verified",
+   "collected": "2026-11-18"
+  },
+  {
+   "deal": "BYD × Hawthorn",
+   "rights": [
+    "principal partner from 2027",
+    "front of AFL guernsey",
+    "back of AFLW guernsey"
+   ],
+   "tier": "T1",
+   "signed": 2026,
+   "src": "https://thedriven.io/?p=208736",
+   "srcName": "The Driven",
+   "status": "reported",
+   "collected": "2026-11-18",
+   "note": "Starts 2027, replacing Tasmania on the front. End not stated."
+  },
+  {
+   "deal": "Zurich × Melbourne Demons",
+   "rights": [
+    "co-principal partner",
+    "front of AFL guernsey",
+    "back of AFLW guernsey"
+   ],
+   "tier": "T1",
+   "src": "https://www.melbournefc.com.au/news/1489693/zurich-re-signs-with-the-demons",
+   "srcName": "Melbourne FC",
+   "status": "verified",
+   "collected": "2026-11-18",
+   "note": "2023 extension ran to 2026; the 2025 row says it continues, so no end set until the new term is found."
+  },
+  {
+   "deal": "Kapitol × Western Bulldogs",
+   "rights": [
+    "platinum partner",
+    "upper back of AFL guernsey"
+   ],
+   "tier": "T2",
+   "signed": 2026,
+   "term": 3,
+   "ends": 2029,
+   "endsBasis": "stated",
+   "src": "https://www.westernbulldogs.com.au/news/2090352/kapitol-backs-bulldogs-to-2029",
+   "srcName": "Western Bulldogs",
+   "status": "verified",
+   "collected": "2026-11-18"
+  },
+  {
+   "deal": "Victoria University × Western Bulldogs",
+   "rights": [
+    "co-major partner of AFLW",
+    "front of AFLW guernsey"
+   ],
+   "tier": "T1",
+   "signed": 2024,
+   "src": "https://vu.edu.au/about-vu/news-events/news/victoria-university-elevated-to-co-major-partner-of-aflw-bulldogs",
+   "srcName": "Victoria University",
+   "status": "verified",
+   "collected": "2026-11-18",
+   "note": "AFLW front of guernsey."
+  },
+  {
+   "deal": "Blundstone × Tasmania Devils",
+   "rights": [
+    "foundation and principal partner",
+    "guernsey"
+   ],
+   "tier": "T1",
+   "src": "https://www.bandt.com.au/spotlight-on-sponsors-afl-flies-into-its-15th-season-with-virgin-australia/",
+   "srcName": "B&T",
+   "status": "reported",
+   "collected": "2026-11-18"
+  },
+  {
+   "deal": "Hungry Jack's × West Coast Eagles",
+   "rights": [
+    "major partner",
+    "front of AFL guernsey"
+   ],
+   "tier": "T1",
+   "src": "https://www.westcoasteagles.com.au/news/1725806/cowin-announced-as-west-coasts-new-no1-ticketholder",
+   "srcName": "West Coast Eagles",
+   "status": "verified",
+   "collected": "2026-11-18",
+   "note": "End not stated."
+  },
+  {
+   "deal": "Mission Foods × Western Bulldogs",
+   "rights": [
+    "major partner",
+    "front of AFL guernsey",
+    "naming rights to Mission Whitten Oval"
+   ],
+   "tier": "T1",
+   "ends": 2028,
+   "endsBasis": "stated",
+   "src": "https://westernbulldogs.com.au/news/1494690/mission-whitten-oval-home-of-the-western-bulldogs",
+   "srcName": "Western Bulldogs",
+   "status": "verified",
+   "collected": "2026-11-18",
+   "note": "Five-year extension to a 20-year milestone by 2028. Was missing from the database; added."
+  }
+ ]
+}
