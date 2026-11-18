@@ -201,11 +201,11 @@ def main():
         page = page.replace('<span class="lbl mute-l" id="kind"></span>', f'<span class="lbl mute-l" id="kind">{esc(label)}</span>')
         page = page.replace('<h1 class="disp" id="name">Loading</h1>', f'<h1 class="disp" id="name">{esc(name)}</h1>')
         page = page.replace('<div class="stats" id="stats"></div>', f'<div class="stats" id="stats">{stats}</div>')
-        page = page.replace('<div class="pg" id="pGrid"></div>', f'<div class="pg" id="pGrid">{ptiles}</div>')
+        page = page.replace('<div class="pg" id="pGrid" hidden></div>', f'<div class="pg" id="pGrid" hidden>{ptiles}</div>')
         page = page.replace('<section class="sec" id="partners" hidden>', '<section class="sec" id="partners">' if partners else '<section class="sec" id="partners" hidden>')
         page = page.replace('<span class="lbl mute-l" id="dCount"></span>', f'<span class="lbl mute-l" id="dCount">{n} partnership{"s" if n != 1 else ""}</span>')
         page = page.replace('<div id="list"></div>', f'<div id="list">{"".join(rows)}</div>')
-        page = page.replace('<section class="sec" id="deals" hidden style="padding-top:0">', '<section class="sec" id="deals" style="padding-top:0">')
+        page = page.replace('<section class="pf-sec" id="deals" hidden style="padding-top:0">', '<section class="pf-sec" id="deals" style="padding-top:0">')
 
         out = ROOT / folder / f"{slug}.html"
         out.parent.mkdir(exist_ok=True)
