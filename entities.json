@@ -20229,7 +20229,8 @@
   "emirates-team-new-zealand": {
    "name": "Emirates Team New Zealand",
    "k": "p",
-   "ptype": "Club & team"
+   "ptype": "Club & team",
+   "market": "ANZ"
   },
   "emma-raducanu": {
    "name": "Emma Raducanu",
@@ -25721,7 +25722,12 @@
    "bf": [
     "icon",
     "logo"
-   ]
+   ],
+   "aliases": [
+    "Emirates Great Britain SailGP Team",
+    "Emirates GBR"
+   ],
+   "market": "UK & Ireland"
   },
   "great-clips": {
    "name": "Great Clips",
@@ -51722,7 +51728,11 @@
     "logo"
    ],
    "ptype": "League & competition",
-   "k": "p"
+   "k": "p",
+   "aliases": [
+    "Rolex SailGP Championship"
+   ],
+   "market": "Global"
   },
   "sailgp-hong-kong-sail-grand-prix": {
    "name": "SailGP Hong Kong Sail Grand Prix",
@@ -63412,7 +63422,12 @@
    "bf": [
     "icon",
     "logo"
-   ]
+   ],
+   "aliases": [
+    "United States SailGP Team",
+    "U.S. SailGP Team"
+   ],
+   "market": "North America"
   },
   "us-sailing": {
    "name": "US Sailing",
@@ -68698,6 +68713,478 @@
    "cat": "Media & broadcast",
    "k": "b",
    "domain": "canberratimes.com.au"
+  },
+  "australia-sailgp-team": {
+   "name": "Australia SailGP Team",
+   "ptype": "Club & team",
+   "k": "p",
+   "market": "ANZ",
+   "aliases": [
+    "Bonds Flying Roos",
+    "BONDS Flying Roos SailGP Team",
+    "Bonds Flying Roos SailGP Team"
+   ]
+  },
+  "new-zealand-sailgp-team": {
+   "name": "New Zealand SailGP Team",
+   "ptype": "Club & team",
+   "k": "p",
+   "market": "ANZ",
+   "aliases": [
+    "Black Foils",
+    "Black Foils SailGP Team"
+   ]
+  },
+  "spain-sailgp-team": {
+   "name": "Spain SailGP Team",
+   "ptype": "Club & team",
+   "k": "p",
+   "market": "Europe",
+   "aliases": [
+    "Los Gallos",
+    "Los Gallos SailGP Team"
+   ]
+  },
+  "denmark-sailgp-team": {
+   "name": "Denmark SailGP Team",
+   "ptype": "Club & team",
+   "k": "p",
+   "market": "Europe",
+   "aliases": [
+    "ROCKWOOL Racing",
+    "Rockwool Racing SailGP Team"
+   ]
+  },
+  "france-sailgp-team": {
+   "name": "France SailGP Team",
+   "ptype": "Club & team",
+   "k": "p",
+   "market": "Europe",
+   "aliases": [
+    "DS Automobiles SailGP Team France"
+   ]
+  },
+  "germany-sailgp-team": {
+   "name": "Germany SailGP Team",
+   "ptype": "Club & team",
+   "k": "p",
+   "market": "Europe",
+   "aliases": [
+    "Germany SailGP Team presented by Deutsche Bank"
+   ]
+  },
+  "italy-sailgp-team": {
+   "name": "Italy SailGP Team",
+   "ptype": "Club & team",
+   "k": "p",
+   "market": "Europe",
+   "aliases": [
+    "Red Bull Italy SailGP Team"
+   ]
+  },
+  "brazil-sailgp-team": {
+   "name": "Brazil SailGP Team",
+   "ptype": "Club & team",
+   "k": "p",
+   "market": "Rest of World",
+   "aliases": [
+    "Mubadala Brazil SailGP Team"
+   ]
+  },
+  "canada-sailgp-team": {
+   "name": "Canada SailGP Team",
+   "ptype": "Club & team",
+   "k": "p",
+   "market": "North America",
+   "aliases": [
+    "NorthStar SailGP Team"
+   ]
+  },
+  "sweden-sailgp-team": {
+   "name": "Sweden SailGP Team",
+   "ptype": "Club & team",
+   "k": "p",
+   "market": "Europe",
+   "aliases": [
+    "Artemis SailGP Team",
+    "Artemis SailGP"
+   ]
+  },
+  "switzerland-sailgp-team": {
+   "name": "Switzerland SailGP Team",
+   "ptype": "Club & team",
+   "k": "p",
+   "market": "Europe",
+   "aliases": [
+    "Explora Journeys Swiss SailGP Team",
+    "Swiss SailGP Team"
+   ]
+  },
+  "sailgp-perth-sail-grand-prix": {
+   "name": "SailGP Perth Sail Grand Prix",
+   "ptype": "Event",
+   "k": "p",
+   "market": "ANZ",
+   "domain": "sailgp.com"
+  },
+  "sailgp-auckland-sail-grand-prix": {
+   "name": "SailGP Auckland Sail Grand Prix",
+   "ptype": "Event",
+   "k": "p",
+   "market": "ANZ",
+   "domain": "sailgp.com"
+  },
+  "sailgp-sydney-sail-grand-prix": {
+   "name": "SailGP Sydney Sail Grand Prix",
+   "ptype": "Event",
+   "k": "p",
+   "market": "ANZ",
+   "domain": "sailgp.com"
+  },
+  "sailgp-rio-sail-grand-prix": {
+   "name": "SailGP Rio Sail Grand Prix",
+   "ptype": "Event",
+   "k": "p",
+   "market": "Rest of World",
+   "domain": "sailgp.com"
+  },
+  "sailgp-bermuda-sail-grand-prix": {
+   "name": "SailGP Bermuda Sail Grand Prix",
+   "ptype": "Event",
+   "k": "p",
+   "market": "North America",
+   "domain": "sailgp.com"
+  },
+  "sailgp-new-york-sail-grand-prix": {
+   "name": "SailGP New York Sail Grand Prix",
+   "ptype": "Event",
+   "k": "p",
+   "market": "North America",
+   "domain": "sailgp.com"
+  },
+  "sailgp-portsmouth-sail-grand-prix": {
+   "name": "SailGP Portsmouth Sail Grand Prix",
+   "ptype": "Event",
+   "k": "p",
+   "market": "UK & Ireland",
+   "domain": "sailgp.com"
+  },
+  "sailgp-germany-sail-grand-prix": {
+   "name": "SailGP Germany Sail Grand Prix",
+   "ptype": "Event",
+   "k": "p",
+   "market": "Europe",
+   "domain": "sailgp.com"
+  },
+  "sailgp-geneva-sail-grand-prix": {
+   "name": "SailGP Geneva Sail Grand Prix",
+   "ptype": "Event",
+   "k": "p",
+   "market": "Europe",
+   "domain": "sailgp.com"
+  },
+  "sailgp-dubai-sail-grand-prix": {
+   "name": "SailGP Dubai Sail Grand Prix",
+   "ptype": "Event",
+   "k": "p",
+   "market": "Middle East",
+   "domain": "sailgp.com"
+  },
+  "sailgp-abu-dhabi-sail-grand-prix": {
+   "name": "SailGP Abu Dhabi Sail Grand Prix",
+   "ptype": "Event",
+   "k": "p",
+   "market": "Middle East",
+   "domain": "sailgp.com"
+  },
+  "america-s-cup": {
+   "name": "America's Cup",
+   "ptype": "Event",
+   "k": "p",
+   "market": "Global",
+   "domain": "americascup.com",
+   "aliases": [
+    "Louis Vuitton 38th America's Cup",
+    "Louis Vuitton America's Cup"
+   ]
+  },
+  "luna-rossa": {
+   "name": "Luna Rossa",
+   "ptype": "Club & team",
+   "k": "p",
+   "market": "Europe",
+   "aliases": [
+    "Luna Rossa Prada Pirelli"
+   ]
+  },
+  "alinghi": {
+   "name": "Alinghi",
+   "ptype": "Club & team",
+   "k": "p",
+   "market": "Europe",
+   "domain": "alinghi.com",
+   "aliases": [
+    "Tudor Team Alinghi"
+   ]
+  },
+  "k-challenge": {
+   "name": "K-Challenge",
+   "ptype": "Club & team",
+   "k": "p",
+   "market": "Europe",
+   "aliases": [
+    "La Roche-Posay Racing Team"
+   ]
+  },
+  "gb1": {
+   "name": "GB1",
+   "ptype": "Club & team",
+   "k": "p",
+   "market": "UK & Ireland",
+   "aliases": [
+    "Athena Racing"
+   ]
+  },
+  "gb2": {
+   "name": "GB2",
+   "ptype": "Club & team",
+   "k": "p",
+   "market": "UK & Ireland",
+   "aliases": [
+    "Cobham-Ultra GB2"
+   ]
+  },
+  "team-australia-america-s-cup": {
+   "name": "Team Australia America's Cup",
+   "ptype": "Club & team",
+   "k": "p",
+   "market": "ANZ",
+   "aliases": [
+    "Team Australia Challenge"
+   ]
+  },
+  "american-racing-challenger-team-usa": {
+   "name": "American Racing Challenger Team USA",
+   "ptype": "Club & team",
+   "k": "p",
+   "market": "North America",
+   "aliases": [
+    "ARC Team USA"
+   ]
+  },
+  "bonds": {
+   "name": "BONDS",
+   "k": "b",
+   "cat": "Apparel & sportswear",
+   "domain": "bonds.com.au"
+  },
+  "monday-com": {
+   "name": "monday.com",
+   "k": "b",
+   "cat": "Technology",
+   "domain": "monday.com"
+  },
+  "blueberry": {
+   "name": "Blueberry",
+   "k": "b",
+   "cat": "Banking & finance",
+   "domain": "blueberry.markets"
+  },
+  "azimut": {
+   "name": "Azimut",
+   "k": "b",
+   "cat": "Banking & finance",
+   "domain": "azimut-group.com"
+  },
+  "ds-automobiles": {
+   "name": "DS Automobiles",
+   "k": "b",
+   "cat": "Automotive",
+   "domain": "dsautomobiles.com"
+  },
+  "explora-journeys": {
+   "name": "Explora Journeys",
+   "k": "b",
+   "cat": "Airlines & travel",
+   "domain": "explorajourneys.com"
+  },
+  "sail-racing": {
+   "name": "Sail Racing",
+   "k": "b",
+   "cat": "Apparel & sportswear",
+   "domain": "sailracing.com"
+  },
+  "stiftelsen-vi": {
+   "name": "Stiftelsen VI",
+   "k": "b"
+  },
+  "denza": {
+   "name": "DENZA",
+   "k": "b",
+   "cat": "Automotive",
+   "domain": "denza.com"
+  },
+  "quantum-pacific-group": {
+   "name": "Quantum Pacific Group",
+   "k": "b",
+   "cat": "Banking & finance"
+  },
+  "msp-sports-capital": {
+   "name": "MSP Sports Capital",
+   "k": "b",
+   "cat": "Banking & finance"
+  },
+  "american-magic": {
+   "name": "American Magic",
+   "k": "b",
+   "domain": "americanmagic.com"
+  },
+  "rockwool": {
+   "name": "ROCKWOOL",
+   "k": "b",
+   "domain": "rockwool.com"
+  },
+  "sandmark": {
+   "name": "Sandmark",
+   "k": "b",
+   "cat": "Media & publishing"
+  },
+  "quiksilver": {
+   "name": "Quiksilver",
+   "k": "b",
+   "cat": "Apparel & sportswear",
+   "domain": "quiksilver.com"
+  },
+  "mubadala-capital": {
+   "name": "Mubadala Capital",
+   "k": "b",
+   "cat": "Banking & finance",
+   "domain": "mubadalacapital.ae"
+  },
+  "mubadala": {
+   "name": "Mubadala",
+   "k": "b",
+   "cat": "Banking & finance",
+   "domain": "mubadala.com"
+  },
+  "luxury-group-marriott-international": {
+   "name": "Luxury Group, Marriott International",
+   "k": "b",
+   "cat": "Airlines & travel",
+   "domain": "marriott.com"
+  },
+  "bermuda-tourism-authority": {
+   "name": "Bermuda Tourism Authority",
+   "k": "b",
+   "cat": "Government & tourism",
+   "domain": "gotobermuda.com"
+  },
+  "leyton": {
+   "name": "Leyton",
+   "k": "b",
+   "cat": "Professional services",
+   "domain": "leyton.com"
+  },
+  "smarkets": {
+   "name": "Smarkets",
+   "k": "b",
+   "cat": "Wagering & gaming",
+   "domain": "smarkets.com"
+  },
+  "oakley-capital": {
+   "name": "Oakley Capital",
+   "k": "b",
+   "cat": "Banking & finance",
+   "domain": "oakleycapital.com"
+  },
+  "muse-sport-consortium": {
+   "name": "Muse Sport Consortium",
+   "k": "b",
+   "cat": "Banking & finance"
+  },
+  "bolt-ventures": {
+   "name": "Bolt Ventures",
+   "k": "b",
+   "cat": "Banking & finance"
+  },
+  "blue-pool-capital": {
+   "name": "Blue Pool Capital",
+   "k": "b",
+   "cat": "Banking & finance"
+  },
+  "doyle-sails": {
+   "name": "Doyle Sails",
+   "k": "b",
+   "domain": "doylesails.com"
+  },
+  "marlow-ropes": {
+   "name": "Marlow Ropes",
+   "k": "b",
+   "domain": "marlowropes.com"
+  },
+  "hongqi": {
+   "name": "Hongqi",
+   "k": "b",
+   "cat": "Automotive"
+  },
+  "abu-dhabi-sports-council": {
+   "name": "Abu Dhabi Sports Council",
+   "k": "b",
+   "cat": "Government & tourism"
+  },
+  "unicredit": {
+   "name": "UniCredit",
+   "k": "b",
+   "cat": "Banking & finance",
+   "domain": "unicreditgroup.eu"
+  },
+  "yanmar": {
+   "name": "YANMAR",
+   "k": "b",
+   "domain": "yanmar.com"
+  },
+  "img-licensing": {
+   "name": "IMG Licensing",
+   "k": "b",
+   "cat": "Media & publishing"
+  },
+  "prada": {
+   "name": "Prada",
+   "k": "b",
+   "cat": "Watches & luxury",
+   "domain": "prada.com"
+  },
+  "alfa-romeo": {
+   "name": "Alfa Romeo",
+   "k": "b",
+   "cat": "Automotive",
+   "domain": "alfaromeo.com"
+  },
+  "physicsx": {
+   "name": "PhysicsX",
+   "k": "b",
+   "cat": "Technology",
+   "domain": "physicsx.ai"
+  },
+  "north-sails": {
+   "name": "North Sails",
+   "k": "b",
+   "cat": "Apparel & sportswear",
+   "domain": "northsails.com"
+  },
+  "richard-mille": {
+   "name": "Richard Mille",
+   "k": "b",
+   "cat": "Watches & luxury",
+   "domain": "richardmille.com"
+  },
+  "cobham-ultra": {
+   "name": "Cobham Ultra",
+   "k": "b"
+  },
+  "l-oreal-groupe": {
+   "name": "L'Oréal Groupe",
+   "k": "b"
   }
  },
  "leagues": [
