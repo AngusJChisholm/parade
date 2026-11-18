@@ -12,7 +12,7 @@ S.load().then(D=>{
   const seen=new Set(),leagues=[];
   D.lgAll.forEach(l=>{const clubs=l.clubs.filter(s=>D.orgs.has(s));const k=clubs.slice().sort().join();if(clubs.length<4||seen.has(k))return;seen.add(k);leagues.push({name:l.name,sport:l.sport,clubs})});
   const lgCounts=new Map(leagues.map(l=>[l.name,l.clubs.length]));
-  if(!leagues.some(l=>l.name===st.league))st.league=leagues[0].name;
+  if(!leagues.some(l=>l.name===st.league))st.league=(leagues.find(l=>l.name==="Premier League")||leagues[0]).name;
   const recentFrom=`${yr-1}-01-01`;
   function draw(){
     const lg=leagues.find(l=>l.name===st.league);
