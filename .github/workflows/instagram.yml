@@ -13,6 +13,10 @@ on:
         default: plan
         type: choice
         options: [plan, render, dedupe-check, dedupe-delete, delete-today, post-now]
+      post_date:
+        description: "post-now only: post a missed day's queue (YYYY-MM-DD). Leave blank for today."
+        default: ""
+        type: string
 
 permissions:
   contents: write
@@ -27,10 +31,17 @@ jobs:
     timeout-minutes: 20
     env:
       FORCE_FEED: ${{ inputs.action == 'post-now' && '1' || '' }}
+      # post-now with a post_date runs plan/render/post as if it were that day at 7:05pm
+      IG_NOW: ${{ inputs.action == 'post-now' && inputs.post_date != '' && format('{0}T19:05', inputs.post_date) || '' }}
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 1
+
+      # The runner's default Python moved to 3.14, which Playwright 1.48's greenlet can't build on
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
 
       - name: Clean up repeat posts
         if: startsWith(inputs.action, 'dedupe')
@@ -86,7 +97,7 @@ jobs:
           IG_LOGIN: ${{ vars.IG_LOGIN }}
         run: |
           if [ -z "$IG_USER_ID" ] || [ -z "$IG_ACCESS_TOKEN" ]; then exit 0; fi
-          python3 tools/instagram_post.py stats || echo "Stats failed - posting unaffected"
+          IG_NOW= python3 tools/instagram_post.py stats || echo "Stats failed - posting unaffected"
 
       - name: Connection check
         if: github.event_name == 'push' && contains(github.event.head_commit.message, '[ig-check]')
