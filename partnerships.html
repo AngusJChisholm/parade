@@ -322,6 +322,74 @@ a.st:hover b{box-shadow:inset 0 -.12em 0 var(--volt)}
 <link rel="stylesheet" href="assets/follow.css?v=2">
 <link rel="stylesheet" href="assets/align.css?v=1">
 <link rel="stylesheet" href="assets/chrome.css?v=3">
+<link rel="stylesheet" href="assets/v3.css?v=1">
+<style>
+/* Partnerships v3 */
+.pt3 [hidden]{display:none!important}
+.ptop.pt3{padding:48px var(--pad) 0;border:0}
+.pt3 h1.disp{font-size:clamp(56px,7.5vw,104px)}
+.ptop.pt3 p{font-size:17px;line-height:1.5;color:var(--ink-2);max-width:640px;margin:16px 0 0}
+.stamp3{display:inline-flex;align-items:center;gap:10px;margin-top:20px;font-weight:800;text-transform:uppercase;font-size:11px;letter-spacing:.18em;color:var(--ink-3)}
+.stamp3 i{width:8px;height:8px;border-radius:999px;background:#111;animation:p3p 2s ease-in-out infinite}@keyframes p3p{50%{opacity:.25}}
+.pst{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin-top:28px}
+.pst>div{background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px 22px;display:flex;flex-direction:column;align-items:flex-start;gap:8px}
+.pst>div>span:first-child{font-size:14px;color:var(--ink-2)}
+.pst b{font-weight:800;font-size:40px;line-height:1;letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+.arch-sec.pt3{padding-top:32px}
+.pt3 .fil{position:sticky;top:76px;z-index:20;background:#fff;padding:16px 0;margin:0 0 8px;border-bottom:1px solid var(--line);gap:14px}
+.pt3 .fbar{gap:16px}
+.pt3 .fil .srch{position:relative;display:flex;align-items:center;gap:12px;height:56px;padding:0 22px;background:#F4F4F1;border-radius:999px;flex:1 1 420px;border:0}
+.pt3 .fil .srch svg{width:20px;height:20px;flex:none}
+.pt3 .fil .srch input{flex:1;min-width:0;border:0!important;background:transparent;padding:0!important;font-size:16px;outline:0;box-shadow:none}
+.pt3 .fil .count{font-size:13px;color:var(--ink-3);font-weight:500;letter-spacing:0;text-transform:none}
+.seg3{display:inline-flex;padding:4px;background:#F4F4F1;border-radius:999px}
+.seg3 button{height:44px;padding:0 20px;border:0;border-radius:999px;background:transparent;color:var(--ink-3);font:inherit;font-weight:800;font-size:14px;cursor:pointer}
+.seg3 button.on{background:#111;color:#fff}
+.frow{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+.tt3{display:flex;gap:6px;flex-wrap:wrap}
+.tt3 button{height:38px;padding:0 16px;border:0;border-radius:999px;background:transparent;color:var(--ink-3);font:inherit;font-weight:800;font-size:13px;cursor:pointer}
+.tt3 button.on{background:#F4F4F1;color:var(--ink)}.tt3 button:hover{color:var(--ink)}
+.pt3 .fil .sels{display:flex!important;gap:8px;flex-wrap:wrap;grid-template-columns:none}
+.pt3 .fil .sel{flex:none!important;width:auto!important}.pt3 .fil .sel select{max-width:200px;min-width:0!important}
+.pt3 .fil .sel select{width:auto;height:44px;padding:0 38px 0 18px;border:1px solid var(--line);border-radius:999px;font-size:12px;letter-spacing:.1em;background:#fff}
+.pt3 .fil .sel select:hover{border-color:var(--ink)}
+.pt3 .fil .sel:after{right:16px}
+.pt3 .cs{border:0;padding:20px 0 4px}
+.pt3 .cs-l{display:block;margin-bottom:12px;font-size:11px}
+.pt3 .cs-r{gap:8px;scrollbar-width:none}.pt3 .cs-r::-webkit-scrollbar{display:none}
+.pt3 .cr{width:88px;border-radius:16px;padding:8px 4px}
+.pt3 .cr .lg{--s:40px;background:#F4F4F1;border-radius:999px;padding:8px}
+.pt3 .cr.on,.pt3 .cr:hover{background:#F4F4F1;border-color:transparent}
+.pt-two{display:flex;gap:28px;align-items:flex-start;margin-top:24px;flex-wrap:wrap}
+.pt-main{flex:999 1 760px;min-width:0}
+.pt-side{flex:1 1 300px;min-width:0;position:sticky;top:280px;display:flex;flex-direction:column;gap:16px}
+.pt3 .al{background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;border-top:1px solid var(--line)}
+.pt3 .ar-h,.pt3 .ar-r{grid-template-columns:92px 104px minmax(0,2.4fr) minmax(0,.8fr) minmax(0,1fr) 120px 60px;gap:14px;padding:14px 20px}
+.pt3 .ar-h{font-size:10px;letter-spacing:.18em;border-bottom:1px solid var(--line)}
+.pt3 .ar-r:hover{background:#FAFAF8}
+.pt3 .ar-r b{font-family:inherit!important;font-stretch:100%;font-size:15px!important;line-height:1.2;letter-spacing:-.02em}
+.pt3 .ar-r .d{font-size:13px}.pt3 .ar-r .s,.pt3 .ar-r .t{font-size:14px}
+.pt3 .ar-r .dl{gap:10px}
+.pt3 .ar-r .tag.r{border:0;background:#F4F4F1;border-radius:999px;padding:5px 9px 4px;font-size:10px}
+.pt3 .ar-r .e{text-align:right;font-size:13px}
+.pt3 .ar-r:last-child{border-bottom:0}
+.pt3 .empty{padding:24px 20px}
+.pt3 .ar-more{display:flex;justify-content:space-between;align-items:center;margin-top:20px;font-size:13px}
+.pt3 .ar-more .btn{border-radius:999px;height:44px;padding:0 20px;font-size:12px}
+.ps-c{background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px}
+.ps-h{font-weight:800;font-size:16px;text-transform:uppercase;margin-bottom:8px}
+.ps-n{display:block;font-weight:800;font-size:40px;letter-spacing:-.03em;line-height:1}
+.ps-c>.mute-l{font-size:13px}
+.ps-r{display:flex;justify-content:space-between;align-items:center;width:100%;padding:10px 0;border:0;border-top:1px solid var(--line);background:none;font:inherit;font-size:14px;cursor:pointer;color:var(--ink)}
+.ps-r:first-of-type{margin-top:14px}.ps-r:hover span:first-child{text-decoration:underline}
+.ps-e{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:10px;align-items:center;padding:10px 0;border-top:1px solid var(--line);font-size:13px}
+.ps-e span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ps-c .more{display:inline-block;margin-top:12px}
+@media (max-width:1100px){.pt3 .ar-h,.pt3 .ar-r{grid-template-columns:84px 96px minmax(0,2fr) minmax(0,.8fr) 110px 56px}.pt3 .ar-h .c-t,.pt3 .ar-r .t{display:none}.pt-side{position:static}}
+@media (max-width:760px){.pst{grid-template-columns:repeat(2,minmax(0,1fr))}.pst b{font-size:30px}.pt3 .fil{top:64px;position:static}.pt3 .fil .srch{height:50px}.seg3 button{height:38px;padding:0 14px;font-size:13px}
+ .pt3 .fil .count{display:none}.tt3{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;width:100%}.tt3::-webkit-scrollbar{display:none}.tt3 button{flex:none}.pt3 .fil .sels{width:100%}.pt3 .fil .sel{flex:1 1 calc(50% - 4px)!important;max-width:none!important;width:auto!important}.pt3 .fil .sel select{width:100%!important}
+ .pt3 .ar-h{display:none}.pt3 .ar-r{grid-template-columns:minmax(0,1fr) auto;gap:6px 12px;padding:14px 16px}.pt3 .ar-r .dl{grid-column:1/-1;order:-1}.pt3 .ar-r .c{order:-2}.pt3 .ar-r .d{order:-3;grid-column:auto}.pt3 .ar-r .e{text-align:right}}
+</style>
 </head>
 <body>
 <header class="v2"><div class="wrap hd">
@@ -334,25 +402,31 @@ a.st:hover b{box-shadow:inset 0 -.12em 0 var(--volt)}
 </header>
 
 <main>
-<section class="wrap ptop">
-<span class="lbl mute-l">Partnership database</span>
+<section class="wrap ptop pt3">
+<span class="lbl mute-l">Database</span>
 <h1 class="disp">Partnerships.</h1>
-<p>Every sponsorship and partnership we've filed, global and ANZ. Filter by sport, club, brand, partnership type or date.</p>
+<p>Every sponsorship and partnership we've filed, global and ANZ. Search, filter, and open any one for the source.</p>
+<span class="stamp3" id="pStamp"><i></i>Loading the database</span>
+<div class="pst" id="pStats"></div>
 </section>
-<section class="sec arch-sec" id="archive"><div class="wrap">
+<section class="sec arch-sec pt3" id="archive"><div class="wrap">
 <div class="fil">
-<div class="fbar"><label class="srch"><input id="fQ" type="search" placeholder="Search partnerships, brands, clubs" aria-label="Search partnerships"></label><span class="count" id="count" aria-live="polite"></span></div>
+<div class="fbar"><label class="srch"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20 20l-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><input id="fQ" type="search" placeholder="Search partnerships, brands, clubs" aria-label="Search partnerships"><span class="count" id="count" aria-live="polite"></span></label>
+<div class="seg3" id="mkt" role="group" aria-label="Market"><button type="button" data-m="" class="on">Global</button><button type="button" data-m="ANZ">ANZ</button><button type="button" data-m="UK &amp; Ireland">UK</button><button type="button" data-m="North America">USA</button></div></div>
+<div class="frow"><div class="tt3" id="tt" role="group" aria-label="Partnership status"><button type="button" data-t="" class="on">All</button><button type="button" data-t="New">New</button><button type="button" data-t="Renewal">Renewals</button><button type="button" data-t="Extension">Extensions</button><button type="button" data-t="naming">Naming rights</button><button type="button" data-t="ended">Ended</button></div>
 <div class="sels">
-<label class="sel"><select id="fSport" aria-label="Sport"><option value="All">All sports</option></select></label>
-<label class="sel sel-lg"><select id="fLg" aria-label="League"><option value="">All leagues</option></select></label>
-<label class="sel"><select id="fType" aria-label="Partnership type"><option value="">All types</option></select></label>
-<label class="sel"><select id="fReg" aria-label="Region"><option value="">All regions</option><option>ANZ</option><option>North America</option><option>UK &amp; Ireland</option><option>Europe</option><option>Asia</option><option>Middle East</option><option>Rest of World</option><option value="Global">Global properties</option><option value="Intl">All international</option></select></label>
+<label class="sel"><select id="fSport" aria-label="Sport"><option value="All">Sport</option></select></label>
+<label class="sel sel-lg"><select id="fLg" aria-label="League"><option value="">League</option></select></label>
+<label class="sel"><select id="fType" aria-label="Partnership type"><option value="">Type</option></select></label>
+<label class="sel" hidden><select id="fReg" aria-label="Region"><option value="">All regions</option><option>ANZ</option><option>North America</option><option>UK &amp; Ireland</option><option>Europe</option><option>Asia</option><option>Middle East</option><option>Rest of World</option><option>Global</option><option value="Intl">International</option></select></label>
 <label class="sel"><select id="fDate" aria-label="Date"><option value="">Any date</option><option value="7">Last 7 days</option><option value="30">Last 30 days</option><option value="90">Last 90 days</option></select></label>
+</div></div>
 </div>
-<div class="cs" id="cs" hidden><div class="cs-r" id="csRow" role="group" aria-label="Clubs"></div><div class="cs-on" id="csOn" hidden></div></div>
-</div>
-<div class="al"><div class="ar-h"><span>Date</span><span>Partnership</span><span>Sport</span><span class="c-t">Partnership type</span><span>Region</span><span title="c. = estimated from the typical term for that partnership type">Ends</span></div><div id="list"></div><p class="empty" id="empty" hidden>No partnerships match those filters.</p></div>
-<div class="ar-more"><button class="btn btn-ink" id="moreBtn" type="button">Load more partnerships</button></div>
+<div class="cs" id="cs" hidden><span class="lbl mute-l cs-l">Jump to a property</span><div class="cs-r" id="csRow" role="group" aria-label="Clubs"></div><div class="cs-on" id="csOn" hidden></div></div>
+<div class="pt-two"><div class="pt-main">
+<div class="al"><div class="ar-h"><span>Date</span><span>Type</span><span>Partnership</span><span>Sport</span><span class="c-t">Partnership type</span><span>Region</span><span title="c. = estimated from the typical term for that partnership type">Ends</span></div><div id="list"></div><p class="empty" id="empty" hidden>No partnerships match those filters.</p></div>
+<div class="ar-more"><span class="mute-l" id="showing"></span><button class="btn btn-ink" id="moreBtn" type="button">Load more</button></div>
+</div><aside class="pt-side" id="pSide"></aside></div>
 </div></section>
 <!-- follow:start -->
 <section class="sf" id="follow"><div class="sf-w">
@@ -378,7 +452,7 @@ const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&
 const PAGE=15;
 let LGS=[],DEALS=[],ORIG=[],SITE={},FEATS=[],shown=PAGE;
 const ARCH=!!$("list");
-const st={sport:"All",type:"",reg:"",days:"",ent:"",q:"",lg:""};
+const st={sport:"All",type:"",reg:"",days:"",ent:"",q:"",lg:"",stat:""};
 const L=window.SSSLogos;let csTab="";
 const sortKey=d=>d.date||((d.month||"0000-00")+"-00");
 // "date" = when the deal was announced; "added" = when it was posted here (the edition date).
@@ -490,22 +564,43 @@ function lgSel(base){
     .map(([sp,g])=>`<optgroup label="${esc(sp)}">${g.ls.sort((a,b)=>b.n-a.n||a.l.name.localeCompare(b.l.name)).map(x=>`<option value="${esc(x.l.name)}">${esc(x.l.name)} (${x.n.toLocaleString("en-AU")})</option>`).join("")}</optgroup>`).join("");
   $("fLg").value=st.lg;
 }
+const statOk=d=>!st.stat||(st.stat==="ended"?(d.ended||d.status==="Ended"):st.stat==="naming"?/naming/i.test((d.type||"")+" "+(d.tier||"")):d.status===st.stat);
+const chipOf=d=>{let t=d.ended||d.status==="Ended"?"Ended":/naming/i.test((d.type||"")+" "+(d.tier||""))?"Naming":d.status||"";if(/^current/i.test(t))t="Current";const k=t==="New"||t==="Naming"?"up":t==="Ended"?"down":"flat";return t?`<span class="chip ${k}">${esc(t)}</span>`:""};
 function render(){
   const latest=DEALS.find(d=>d.date);const now=latest?dObj(latest):new Date();
-  const base=DEALS.filter(d=>(st.sport==="All"||d.sport===st.sport)&&(!st.type||d.type===st.type)&&(!st.reg||(st.reg==="Intl"?(d.market||d.region)!=="ANZ":(d.market||d.region)===st.reg))&&(!st.days||(d.date&&(now-dObj(d))/864e5<=+st.days)));
+  const base=DEALS.filter(d=>(st.sport==="All"||d.sport===st.sport)&&(!st.type||d.type===st.type)&&(!st.reg||(st.reg==="Intl"?(d.market||d.region)!=="ANZ":(d.market||d.region)===st.reg))&&(!st.days||(d.date&&(now-dObj(d))/864e5<=+st.days))&&statOk(d));
   lgSel(base);
   const lg=LGS.find(l=>l.name===st.lg);
   const r=base.filter(d=>(!lg||inLg(d,lg))&&(!st.ent||L.has(d,st.ent))&&(!st.q||(d.deal+" "+(d.summary||"")+" "+(d.sport||"")).toLowerCase().includes(st.q)));
   if(L&&$("csRow"))crests(base.filter(d=>!lg||inLg(d,lg)),lg);
   $("list").innerHTML=r.slice(0,shown).map(d=>{
     const name=href(d)?`<a${attrs(d)}><b>${esc(d.deal)}</b></a>`:`<b>${esc(d.deal)}</b>`;
-    const pair=d._b?L.pair(d,{px:40}):"";
-    return `<div class="ar-r"><span class="d">${esc(fmtArch(d))}</span><span class="dl">${pair}${name}</span><span class="s">${esc(d.sport)}</span><span class="t">${esc(d.type||"")}</span><span><span class="tag r">${esc(d.market||d.region)}</span></span><span class="e">${d.ended?"Ended":d.ends?(d.endsEst?"c. ":"")+esc(d.ends):"–"}</span></div>`}).join("");
+    const pair=d._b?L.pair(d,{px:28}):"";
+    return `<div class="ar-r"><span class="d">${esc(fmtArch(d))}</span><span class="c">${chipOf(d)}</span><span class="dl">${pair}${name}</span><span class="s">${esc(d.sport)}</span><span class="t">${esc(d.type||"")}</span><span><span class="tag r">${esc(d.market||d.region)}</span></span><span class="e">${d.ended?"Ended":d.ends?(d.endsEst?"c. ":"")+esc(d.ends):"–"}</span></div>`}).join("");
   $("empty").hidden=r.length>0;
   const tot=DEALS.length.toLocaleString("en-AU");
   $("count").textContent=r.length===DEALS.length?`${tot} partnerships`:`${r.length.toLocaleString("en-AU")} of ${tot} partnerships`;
-  $("moreBtn").parentElement.hidden=r.length<=shown;
+  $("moreBtn").hidden=r.length<=shown;
+  if($("showing"))$("showing").textContent=`Showing ${Math.min(shown,r.length).toLocaleString("en-AU")} of ${r.length.toLocaleString("en-AU")}`;
 }
+// Stat cards and the side panel (This week by type, Ending this year)
+function pt3(){
+  const dated=DEALS.filter(d=>d.date);const now=new Date(),Y=now.getFullYear();
+  const age=d=>(now-new Date((d.added||d.date)+"T00:00:00"))/864e5;
+  const wk=DEALS.filter(d=>(d.added||d.date)&&age(d)<=7&&age(d)>=0);
+  const ytd=dated.filter(d=>+d.date.slice(0,4)===Y);
+  const endY=DEALS.filter(d=>!d.ended&&d.status!=="Ended"&&+d.ends===Y);
+  const last=DEALS.map(d=>d.added||d.date||"").sort().pop();
+  const ago=last?Math.round((now-new Date(last+"T00:00:00"))/864e5):0;
+  $("pStamp").innerHTML=`<i></i>Updated ${ago<=0?"today":ago===1?"yesterday":ago+" days ago"} · ${DEALS.length.toLocaleString("en-AU")} partnerships on file`;
+  $("pStats").innerHTML=[[DEALS.length,"Partnerships on file",""],[wk.length,"Filed this week",wk.length?`+${wk.length}`:""],[ytd.length,`Announced in ${Y}`,""],[endY.length,"Ending this year",""]].map(([v,l,c])=>`<div><span>${l}</span><b>${v.toLocaleString("en-AU")}</b>${c?`<span class="chip up">${c}</span>`:""}</div>`).join("");
+  const by=k=>wk.filter(d=>k==="ended"?(d.ended||d.status==="Ended"):k==="naming"?/naming/i.test((d.type||"")+" "+(d.tier||"")):d.status===k).length;
+  const ends=endY.filter(d=>d.date).slice(0,5);
+  $("pSide").innerHTML=`<div class="ps-c"><div class="ps-h">This week</div><b class="ps-n">${wk.length}</b><span class="mute-l">partnerships filed in the last 7 days</span>
+    ${[["New","New","up"],["Renewals","Renewal","flat"],["Extensions","Extension","flat"],["Naming rights","naming","up"],["Ended","ended","down"]].map(([l,k,c])=>`<button type="button" class="ps-r" data-t="${k}"><span>${l}</span><span class="chip ${c}">${by(k)}</span></button>`).join("")}</div>
+    ${ends.length?`<div class="ps-c"><div class="ps-h">Ending this year</div>${ends.map(d=>`<div class="ps-e">${L.pair(d,{px:22})}<span>${esc(d.deal)}</span><b>${esc(d.ends)}</b></div>`).join("")}<a class="more" href="pro">Renewal radar in Pro →</a></div>`:""}`;
+}
+function setStat(t){st.stat=t;shown=PAGE;document.querySelectorAll("#tt button").forEach(b=>b.classList.toggle("on",b.dataset.t===t));render()}
 // The week in numbers: a quick read on the archive, linking through to Deals.
 function stats(){
   const dated=DEALS.filter(d=>d.date);const latest=dated[0];if(!latest)return;const now=dObj(latest);
@@ -550,6 +645,9 @@ function wire(){
   $("fType").onchange=e=>{st.type=e.target.value;shown=PAGE;render()};
   $("fReg").onchange=e=>{st.reg=e.target.value;shown=PAGE;render()};
   $("fDate").onchange=e=>{st.days=e.target.value;shown=PAGE;render()};
+  if($("tt"))$("tt").onclick=e=>{const b=e.target.closest("[data-t]");if(b)setStat(b.dataset.t)};
+  if($("pSide"))$("pSide").onclick=e=>{const b=e.target.closest("[data-t]");if(b){setStat(b.dataset.t);$("archive").scrollIntoView({behavior:"smooth"})}};
+  if($("mkt"))$("mkt").onclick=e=>{const b=e.target.closest("[data-m]");if(!b)return;st.reg=b.dataset.m;$("fReg").value=b.dataset.m;document.querySelectorAll("#mkt button").forEach(x=>x.classList.toggle("on",x===b));shown=PAGE;render()};
   $("moreBtn").onclick=()=>{shown+=PAGE;render()};
   if($("fQ"))$("fQ").oninput=e=>{st.q=e.target.value.trim().toLowerCase();shown=PAGE;render()};
   }
@@ -576,7 +674,7 @@ fetch("deals.json",{cache:"no-cache"}).then(r=>{if(!r.ok)throw new Error(r.statu
   if($("ks")){const lead=hero();if(lead)roundup(lead)}
   if($("fList"))features();if($("gList"))columns();follow();if($("nlF"))newsletter();if($("stats"))stats();
   if(ARCH){const p=new URLSearchParams(location.search);let rg=p.get("reg");if(rg==="Global"&&!p.get("market"))rg="Intl";if(p.get("market"))rg=p.get("market");if(rg&&[...$("fReg").options].some(o=>o.value===rg)){st.reg=rg;$("fReg").value=rg}const sp=p.get("sport");if(sp)st.sport=sp;const lq=p.get("league");if(lq)st.lg=lq;filters()}
-  if(L&&$("active"))active();wire();if(ARCH)render();
+  if(L&&$("active"))active();wire();if(ARCH){if($("pStats"))pt3();if(st.reg)document.querySelectorAll("#mkt button").forEach(x=>x.classList.toggle("on",x.dataset.m===st.reg));render()}
 }).catch(()=>{const h=$("heroHead"),k=$("heroDek");if(h)h.textContent="Partnerships unavailable";if(k)k.textContent="The partnerships file didn't load. Refresh to try again.";wire();});
 })();
 </script>
