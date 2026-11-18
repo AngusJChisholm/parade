@@ -83,10 +83,12 @@ window.SSSLogos=(function(){
   function fail(img,skip){
     // Retry once after a short pause first: a busy page can be briefly rate-limited.
     // Brandfetch rate-limits bursts (a page of 100 logos), so retry up to 3 times with growing, jittered waits.
-    const n=+(img.dataset.retried||0);
+    const n=+(img.dataset.retried||0),cur=img.src;
+    // Drop the failed src straight away so the browser's broken-image icon never shows while we retry.
+    img.removeAttribute("src");
     // A themed URL can fail simply because that brand has no dark/light version, so move straight on;
     // the un-themed URLs are types Brandfetch is known to have, so a failure there is most likely throttling.
-    if(!skip&&n<3&&/brandfetch\.io/.test(img.src)&&!/\/theme\//.test(img.src)){img.dataset.retried=String(n+1);const u=img.src.replace(/&r=\d+$/,"")+"&r="+(n+1);done(img);setTimeout(()=>{img.dataset.src=u;want(img)},(1500+Math.random()*2500)*(n+1));return}
+    if(!skip&&n<3&&/brandfetch\.io/.test(cur)&&!/\/theme\//.test(cur)){img.dataset.retried=String(n+1);const u=cur.replace(/&r=\d+$/,"")+"&r="+(n+1);done(img);setTimeout(()=>{img.dataset.src=u;want(img)},(1500+Math.random()*2500)*(n+1));return}
     img.dataset.retried="0";
     const next=(img.dataset.next||"").split(" ").filter(Boolean);
     done(img);

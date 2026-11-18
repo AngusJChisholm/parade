@@ -723,7 +723,10 @@
    "name": "ABC Bullion",
    "cat": "Banking & finance",
    "k": "b",
-   "domain": "abcbullion.com.au"
+   "domain": "abcbullion.com",
+   "bf": [
+    "logo"
+   ]
   },
   "abc-home-and-commercial": {
    "name": "ABC Home & Commercial",
@@ -1437,7 +1440,8 @@
     "Official Supplier",
     "Strategic Partner"
    ],
-   "ptiersChecked": "2026-11-18"
+   "ptiersChecked": "2026-11-18",
+   "bf": []
   },
   "adelaide-lightning": {
    "name": "Adelaide Lightning",
@@ -4059,7 +4063,8 @@
    "name": "ARN",
    "k": "b",
    "cat": "Media & broadcast",
-   "domain": "arn.com.au"
+   "domain": "arn.com.au",
+   "bf": []
   },
   "arnipatch": {
    "name": "ArniPatch",
@@ -4242,11 +4247,14 @@
   },
   "asahi": {
    "name": "Asahi",
-   "domain": "asahi.com",
+   "domain": "asahibeer.co.jp",
    "cat": "Alcohol",
    "k": "b",
    "aliases": [
     "Asahi Super Dry"
+   ],
+   "bf": [
+    "logo"
    ]
   },
   "asahi-beverages": {
@@ -6219,7 +6227,8 @@
    "name": "Balter",
    "cat": "Alcohol",
    "k": "b",
-   "domain": "balter.com.au"
+   "domain": "balter.com.au",
+   "bf": []
   },
   "baltimore-orioles": {
    "name": "Baltimore Orioles",
@@ -8848,7 +8857,8 @@
    "name": "Bondi Sands",
    "cat": "Health & beauty",
    "k": "b",
-   "domain": "bondisands.com.au"
+   "domain": "bondisands.com.au",
+   "bf": []
   },
   "bone-dry": {
    "name": "Bone Dry",
@@ -9898,7 +9908,8 @@
    "name": "Brookvale Union",
    "cat": "Alcohol",
    "k": "b",
-   "domain": "brookvaleunion.com.au"
+   "domain": "brookvaleunion.com.au",
+   "bf": []
   },
   "brosters": {
    "name": "Brosters",
@@ -11104,7 +11115,8 @@
     "Community Partner",
     "Event Partner"
    ],
-   "ptiersChecked": "2026-11-18"
+   "ptiersChecked": "2026-11-18",
+   "bf": []
   },
   "canberra-milk": {
    "name": "Canberra Milk",
@@ -13600,7 +13612,8 @@
    "name": "City of Hobart",
    "cat": "Tourism & government",
    "k": "b",
-   "domain": "hobartcity.com.au"
+   "domain": "hobartcity.com.au",
+   "bf": []
   },
   "city-of-holdfast-bay": {
    "name": "City of Holdfast Bay",
@@ -15748,7 +15761,8 @@
    "name": "CPA Australia",
    "cat": "Professional services",
    "k": "b",
-   "domain": "cpaaustralia.com.au"
+   "domain": "cpaaustralia.com.au",
+   "bf": []
   },
   "cpap-machines": {
    "name": "CPAP Machines",
@@ -17671,7 +17685,8 @@
    "name": "DeRUCCI",
    "cat": "Home & hardware",
    "k": "b",
-   "domain": "derucci.com"
+   "domain": "derucci.com",
+   "bf": []
   },
   "desantis-uffici": {
    "name": "Desantis Uffici",
@@ -23405,7 +23420,8 @@
    "name": "Frantelle",
    "cat": "Non-alcoholic drinks",
    "k": "b",
-   "domain": "frantelle.com.au"
+   "domain": "frantelle.com.au",
+   "bf": []
   },
   "frasassi": {
    "name": "Frasassi",
@@ -24141,7 +24157,10 @@
    "name": "Garnier",
    "cat": "Health & beauty",
    "k": "b",
-   "domain": "garnier.com.au"
+   "domain": "garnier.co.uk",
+   "bf": [
+    "logo"
+   ]
   },
   "garran-imaging-group": {
    "name": "Garran Imaging Group",
@@ -25611,7 +25630,8 @@
    ],
    "cat": "Alcohol",
    "k": "b",
-   "domain": "grainshaker.com.au"
+   "domain": "grainshaker.com.au",
+   "bf": []
   },
   "gramigna": {
    "name": "Gramigna",
@@ -26440,7 +26460,10 @@
    "name": "Häagen-Dazs",
    "cat": "Food & nutrition",
    "k": "b",
-   "domain": "haagendazs.com.au"
+   "domain": "haagendazs.us",
+   "bf": [
+    "logo"
+   ]
   },
   "haake-beck": {
    "name": "Haake-Beck",
@@ -27935,7 +27958,8 @@
     "logo"
    ],
    "cat": "Technology",
-   "k": "b"
+   "k": "b",
+   "logo": "assets/logos/hisense.png"
   },
   "hitachi": {
    "name": "Hitachi",
@@ -28066,7 +28090,8 @@
     "Official Supplier",
     "Strategic Partner"
    ],
-   "ptiersChecked": "2026-11-18"
+   "ptiersChecked": "2026-11-18",
+   "bf": []
   },
   "hobbiton-movie-set": {
    "name": "Hobbiton Movie Set",
@@ -32006,7 +32031,8 @@
    "name": "K&L Gates",
    "cat": "Professional services",
    "k": "b",
-   "domain": "klgates.com"
+   "domain": "klgates.com",
+   "bf": []
   },
   "k-fish": {
    "name": "K-Fish",
@@ -36937,8 +36963,6 @@
    "name": "Marriott Bonvoy",
    "domain": "marriott.com",
    "bf": [
-    "symbol",
-    "icon",
     "logo"
    ],
    "cat": "Airlines & travel",
@@ -39654,7 +39678,8 @@
    ],
    "cat": "Alcohol",
    "k": "b",
-   "domain": "moorilla.com.au"
+   "domain": "moorilla.com.au",
+   "bf": []
   },
   "moose-clothing": {
    "name": "Moose Clothing",
@@ -45898,11 +45923,14 @@
   },
   "peroni": {
    "name": "Peroni",
-   "domain": "peroni.com.au",
+   "domain": "birraperoni.it",
    "cat": "Alcohol",
    "k": "b",
    "aliases": [
     "Peroni Nastro Azzurro"
+   ],
+   "bf": [
+    "logo"
    ]
   },
   "perpetual-wealth": {
@@ -66851,7 +66879,8 @@
    "name": "William Hill",
    "cat": "Betting & wagering",
    "k": "b",
-   "domain": "williamhill.com"
+   "domain": "williamhill.com",
+   "bf": []
   },
   "william-huff": {
    "name": "William Huff",
@@ -68384,7 +68413,10 @@
    "name": "Zeekr",
    "cat": "Automotive",
    "k": "b",
-   "domain": "zeekr.com"
+   "domain": "zeekrlife.com",
+   "bf": [
+    "logo"
+   ]
   },
   "zeg": {
    "name": "ZEG",
@@ -68670,7 +68702,8 @@
    "name": "Heartland Bank",
    "cat": "Banking & finance",
    "k": "b",
-   "domain": "heartlandbank.com.au"
+   "domain": "heartlandbank.com.au",
+   "bf": []
   },
   "como-melbourne": {
    "name": "The Como Melbourne",
@@ -68679,7 +68712,8 @@
    ],
    "cat": "Hospitality & entertainment",
    "k": "b",
-   "domain": "comomelbourne.com.au"
+   "domain": "comomelbourne.com.au",
+   "bf": []
   },
   "kooyong-lawn-tennis-club": {
    "name": "Kooyong Lawn Tennis Club",
@@ -68691,7 +68725,8 @@
    "name": "Saint Layers",
    "cat": "Apparel & footwear",
    "k": "b",
-   "domain": "saintlayers.cc"
+   "domain": "saintlayers.cc",
+   "bf": []
   },
   "yarra-valley-water": {
    "name": "Yarra Valley Water",
@@ -68718,7 +68753,8 @@
    "name": "GreenSet",
    "cat": "Sporting goods",
    "k": "b",
-   "domain": "greenset.net"
+   "domain": "greenset.net",
+   "logo": "assets/logos/greenset.png"
   },
   "radiance-wealth": {
    "name": "Radiance Wealth",
@@ -68734,7 +68770,8 @@
    ],
    "cat": "Tourism & government",
    "k": "b",
-   "domain": "experienceadelaide.com.au"
+   "domain": "experienceadelaide.com.au",
+   "bf": []
   },
   "capital-hotel-group": {
    "name": "Capital Hotel Group",
@@ -68749,7 +68786,8 @@
    ],
    "cat": "Health & beauty",
    "k": "b",
-   "domain": "nextgenclubs.com.au"
+   "domain": "nextgenclubs.com.au",
+   "bf": []
   },
   "underground-spirits": {
    "name": "Underground Spirits",
@@ -68758,7 +68796,8 @@
    ],
    "cat": "Alcohol",
    "k": "b",
-   "domain": "undergroundspirits.com.au"
+   "domain": "undergroundspirits.com.au",
+   "bf": []
   },
   "pink-tennis-canberra": {
    "name": "Pink Tennis Canberra",
