@@ -767,6 +767,11 @@
    "cat": "Agriculture",
    "k": "b"
   },
+  "abdul-latif-jameel-motors": {
+   "name": "Abdul Latif Jameel Motors",
+   "k": "b",
+   "cat": "Automotive"
+  },
   "abercrombie-and-fitch": {
    "name": "Abercrombie & Fitch",
    "k": "b"
@@ -885,6 +890,12 @@
   "abt": {
    "name": "Abt",
    "k": "b"
+  },
+  "abu-dhabi-championship": {
+   "name": "Abu Dhabi Championship",
+   "k": "p",
+   "ptype": "Event",
+   "market": "Middle East"
   },
   "abu-dhabi-grand-prix": {
    "name": "Abu Dhabi Grand Prix",
@@ -1399,6 +1410,30 @@
    "name": "Adelaide Hills Council",
    "cat": "Tourism & government",
    "k": "b"
+  },
+  "adelaide-international": {
+   "name": "Adelaide International",
+   "ptype": "Event",
+   "k": "p",
+   "domain": "adelaideinternational.com.au",
+   "city": "Adelaide",
+   "reach": "National",
+   "pos": "premium",
+   "aud": [
+    "families",
+    "affluent",
+    "women"
+   ],
+   "align": [
+    "summer",
+    "tourism",
+    "wellness",
+    "hospitality",
+    "experiences"
+   ],
+   "ptiers": [
+    "Government partner"
+   ]
   },
   "adelaide-lightning": {
    "name": "Adelaide Lightning",
@@ -2248,9 +2283,27 @@
     "logo"
    ]
   },
+  "al-balad-development-company": {
+   "name": "Al Balad Development Company",
+   "k": "b",
+   "cat": "Construction & property"
+  },
   "al-fed": {
    "name": "Al.Fed",
    "k": "b"
+  },
+  "al-hilal": {
+   "name": "Al Hilal",
+   "k": "p",
+   "domain": "alhilal.com",
+   "ptype": "Club & team",
+   "market": "Middle East"
+  },
+  "al-ittihad": {
+   "name": "Al Ittihad",
+   "k": "p",
+   "ptype": "Club & team",
+   "market": "Middle East"
   },
   "al-murad-tiles": {
    "name": "Al-Murad Tiles",
@@ -4022,6 +4075,11 @@
     "logo"
    ]
   },
+  "aroya-cruises": {
+   "name": "Aroya Cruises",
+   "k": "b",
+   "cat": "Airlines & travel"
+  },
   "arpi-s-north": {
    "name": "Arpi's North",
    "k": "b"
@@ -4895,6 +4953,11 @@
     "logo"
    ]
   },
+  "atletico-madrid-femenino": {
+   "name": "Atlético Madrid Femenino",
+   "k": "p",
+   "ptype": "Club & team"
+  },
   "atm-events": {
    "name": "ATM Events",
    "k": "b"
@@ -5180,6 +5243,11 @@
    "k": "b",
    "logo": "assets/logos/aurora-energy.png",
    "domain": "auroraenergy.com.au"
+  },
+  "aurora-spa-and-bathhouse": {
+   "name": "Aurora Spa & Bathhouse",
+   "cat": "Health & beauty",
+   "k": "b"
   },
   "aurora-utilities": {
    "name": "Aurora Utilities",
@@ -6142,6 +6210,12 @@
    "bf": [
     "icon"
    ]
+  },
+  "balter": {
+   "name": "Balter",
+   "cat": "Alcohol",
+   "k": "b",
+   "domain": "balter.com.au"
   },
   "baltimore-orioles": {
    "name": "Baltimore Orioles",
@@ -8766,6 +8840,12 @@
    "cat": "Alcohol",
    "k": "b"
   },
+  "bondi-sands": {
+   "name": "Bondi Sands",
+   "cat": "Health & beauty",
+   "k": "b",
+   "domain": "bondisands.com.au"
+  },
   "bone-dry": {
    "name": "Bone Dry",
    "k": "b"
@@ -9556,6 +9636,34 @@
    "ptiersChecked": "2026-11-16",
    "logo": "assets/logos/brisbane-heat.png"
   },
+  "brisbane-international": {
+   "name": "Brisbane International",
+   "aliases": [
+    "Brisbane International presented by ANZ"
+   ],
+   "ptype": "Event",
+   "k": "p",
+   "domain": "brisbaneinternational.com.au",
+   "city": "Brisbane",
+   "reach": "National",
+   "pos": "premium",
+   "aud": [
+    "families",
+    "affluent",
+    "women",
+    "youth"
+   ],
+   "align": [
+    "summer",
+    "tourism",
+    "wellness",
+    "hospitality",
+    "experiences"
+   ],
+   "ptiers": [
+    "Government partner"
+   ]
+  },
   "brisbane-lions": {
    "name": "Brisbane Lions",
    "domain": "lions.com.au",
@@ -9772,6 +9880,12 @@
    "name": "Brookvale Hotel",
    "k": "b",
    "cat": "Airlines & travel"
+  },
+  "brookvale-union": {
+   "name": "Brookvale Union",
+   "cat": "Alcohol",
+   "k": "b",
+   "domain": "brookvaleunion.com.au"
   },
   "brosters": {
    "name": "Brosters",
@@ -10949,6 +11063,30 @@
    "name": "Canberra FM",
    "k": "b"
   },
+  "canberra-international": {
+   "name": "Canberra International",
+   "aliases": [
+    "Workday Canberra International"
+   ],
+   "ptype": "Event",
+   "k": "p",
+   "domain": "canberrainternational.com.au",
+   "city": "Canberra",
+   "reach": "Local",
+   "pos": "mid",
+   "aud": [
+    "families",
+    "youth"
+   ],
+   "align": [
+    "summer",
+    "community"
+   ],
+   "ptiers": [
+    "Naming rights",
+    "Government partner"
+   ]
+  },
   "canberra-milk": {
    "name": "Canberra Milk",
    "cat": "Non-alcoholic drinks",
@@ -11428,6 +11566,14 @@
   "cardo": {
    "name": "CARDO",
    "k": "b"
+  },
+  "care-wellness": {
+   "name": "Care Wellness",
+   "cat": "Health & beauty",
+   "k": "b",
+   "aliases": [
+    "CareA2+"
+   ]
   },
   "career-corporation": {
    "name": "Career Corporation",
@@ -12056,6 +12202,17 @@
   "ccl": {
    "name": "CCL",
    "k": "b"
+  },
+  "cctv": {
+   "name": "CCTV",
+   "aliases": [
+    "China Media Group",
+    "CCTV Sports"
+   ],
+   "cat": "Media & broadcast",
+   "k": "b",
+   "domain": "cctv.com",
+   "logo": "assets/logos/cctv.png"
   },
   "ccw-cabinet-works": {
    "name": "CCW Cabinet Works",
@@ -13352,6 +13509,11 @@
   "city-furniture": {
    "name": "CITY Furniture",
    "cat": "Retail",
+   "k": "b"
+  },
+  "city-mazda": {
+   "name": "City Mazda",
+   "cat": "Automotive",
    "k": "b"
   },
   "city-motors-group": {
@@ -15457,6 +15619,13 @@
    "cat": "Alcohol",
    "k": "b"
   },
+  "country-road": {
+   "name": "Country Road",
+   "cat": "Apparel & footwear",
+   "k": "b",
+   "domain": "countryroad.com.au",
+   "logo": "assets/logos/country-road.png"
+  },
   "countrywise-water-coolers": {
    "name": "Countrywise Water Coolers",
    "cat": "Non-alcoholic drinks",
@@ -15555,6 +15724,12 @@
     "icon",
     "logo"
    ]
+  },
+  "cpa-australia": {
+   "name": "CPA Australia",
+   "cat": "Professional services",
+   "k": "b",
+   "domain": "cpaaustralia.com.au"
   },
   "cpap-machines": {
    "name": "CPAP Machines",
@@ -16977,6 +17152,13 @@
     "icon"
    ]
   },
+  "de-cecco": {
+   "name": "De Cecco",
+   "cat": "Food & nutrition",
+   "k": "b",
+   "domain": "dececco.com",
+   "logo": "assets/logos/de-cecco.png"
+  },
   "de-lorenzi": {
    "name": "De Lorenzi",
    "k": "b"
@@ -17466,6 +17648,12 @@
    ],
    "ptiersChecked": "2026-11-17"
   },
+  "derucci": {
+   "name": "DeRUCCI",
+   "cat": "Home & hardware",
+   "k": "b",
+   "domain": "derucci.com"
+  },
   "desantis-uffici": {
    "name": "Desantis Uffici",
    "k": "b"
@@ -17477,6 +17665,11 @@
   },
   "desguaces-mora": {
    "name": "Desguaces Mora",
+   "k": "b"
+  },
+  "design-eyewear": {
+   "name": "Design Eyewear",
+   "cat": "Health & beauty",
    "k": "b"
   },
   "design-windows": {
@@ -17704,6 +17897,11 @@
   },
   "dfx-events": {
    "name": "DFX Events",
+   "k": "b"
+  },
+  "dg-sports": {
+   "name": "DG Sports",
+   "cat": "Apparel & footwear",
    "k": "b"
   },
   "dgema": {
@@ -18065,6 +18263,11 @@
    "name": "Dogtopia",
    "k": "b"
   },
+  "doha-bank": {
+   "name": "Doha Bank",
+   "k": "b",
+   "cat": "Banking & finance"
+  },
   "dole": {
    "name": "Dole",
    "k": "b"
@@ -18321,6 +18524,12 @@
    ],
    "ptype": "League & competition",
    "k": "p"
+  },
+  "dp-world-tour-championship": {
+   "name": "DP World Tour Championship",
+   "k": "p",
+   "ptype": "Event",
+   "market": "Middle East"
   },
   "dpd": {
    "name": "DPD",
@@ -20005,10 +20214,20 @@
    "cat": "Airlines & travel",
    "k": "b"
   },
+  "emirates-nbd": {
+   "name": "Emirates NBD",
+   "k": "b",
+   "cat": "Banking & finance"
+  },
   "emirates-palace-mandarin-oriental": {
    "name": "Emirates Palace Mandarin Oriental",
    "cat": "Airlines & travel",
    "k": "b"
+  },
+  "emirates-team-new-zealand": {
+   "name": "Emirates Team New Zealand",
+   "k": "p",
+   "ptype": "Club & team"
   },
   "emma-raducanu": {
    "name": "Emma Raducanu",
@@ -21026,6 +21245,16 @@
    "cat": "Non-alcoholic drinks",
    "k": "b",
    "logo": "assets/logos/evian.png"
+  },
+  "evie": {
+   "name": "Evie",
+   "aliases": [
+    "Evie Networks"
+   ],
+   "cat": "Energy & utilities",
+   "k": "b",
+   "domain": "evie.com.au",
+   "logo": "assets/logos/evie.png"
   },
   "evl": {
    "name": "EVL",
@@ -23153,6 +23382,12 @@
    "name": "Franky and Co.",
    "k": "b"
   },
+  "frantelle": {
+   "name": "Frantelle",
+   "cat": "Non-alcoholic drinks",
+   "k": "b",
+   "domain": "frantelle.com.au"
+  },
   "frasassi": {
    "name": "Frasassi",
    "k": "b"
@@ -23883,6 +24118,12 @@
    "cat": "Sporting goods & equipment",
    "k": "b"
   },
+  "garnier": {
+   "name": "Garnier",
+   "cat": "Health & beauty",
+   "k": "b",
+   "domain": "garnier.com.au"
+  },
   "garran-imaging-group": {
    "name": "Garran Imaging Group",
    "k": "b"
@@ -24302,6 +24543,13 @@
    "name": "GeoVera",
    "k": "b"
   },
+  "gerald-charles": {
+   "name": "Gerald Charles",
+   "cat": "Watches & luxury",
+   "k": "b",
+   "domain": "geraldcharles.com",
+   "logo": "assets/logos/gerald-charles.png"
+  },
   "gerard-roofs": {
    "name": "Gerard Roofs",
    "k": "b"
@@ -24367,6 +24615,11 @@
   "gewiss": {
    "name": "Gewiss",
    "k": "b"
+  },
+  "gfh-bank": {
+   "name": "GFH Bank",
+   "k": "b",
+   "cat": "Banking & finance"
   },
   "gfi-digital": {
    "name": "GFI Digital",
@@ -25235,6 +25488,15 @@
    "cat": "Food & nutrition",
    "k": "b"
   },
+  "gordon-s": {
+   "name": "Gordon's",
+   "aliases": [
+    "Gordon's Gin"
+   ],
+   "cat": "Alcohol",
+   "k": "b",
+   "domain": "gordonsgin.com"
+  },
   "gosweetspot": {
    "name": "GoSweetSpot",
    "k": "b"
@@ -25322,6 +25584,15 @@
    "name": "Graeme Dingle Foundation",
    "cat": "Not-for-profit",
    "k": "b"
+  },
+  "grainshaker": {
+   "name": "Grainshaker",
+   "aliases": [
+    "Grainshaker Australian Vodka"
+   ],
+   "cat": "Alcohol",
+   "k": "b",
+   "domain": "grainshaker.com.au"
   },
   "gramigna": {
    "name": "Gramigna",
@@ -26145,6 +26416,12 @@
    "name": "HA Civils",
    "cat": "Construction & property",
    "k": "b"
+  },
+  "haagen-dazs": {
+   "name": "Häagen-Dazs",
+   "cat": "Food & nutrition",
+   "k": "b",
+   "domain": "haagendazs.com.au"
   },
   "haake-beck": {
    "name": "Haake-Beck",
@@ -27746,6 +28023,28 @@
    "ptiersChecked": "2026-11-16",
    "logo": "assets/logos/hobart-hurricanes.png"
   },
+  "hobart-international": {
+   "name": "Hobart International",
+   "ptype": "Event",
+   "k": "p",
+   "domain": "hobartinternational.com.au",
+   "city": "Hobart",
+   "reach": "National",
+   "pos": "mid",
+   "aud": [
+    "families",
+    "women"
+   ],
+   "align": [
+    "summer",
+    "tourism",
+    "community",
+    "women"
+   ],
+   "ptiers": [
+    "Government partner"
+   ]
+  },
   "hobbiton-movie-set": {
    "name": "Hobbiton Movie Set",
    "k": "b"
@@ -27881,6 +28180,13 @@
    "name": "Holmes Construction",
    "cat": "Construction & property",
    "k": "b"
+  },
+  "hologic": {
+   "name": "Hologic",
+   "cat": "Health & beauty",
+   "k": "b",
+   "domain": "hologic.com",
+   "logo": "assets/logos/hologic.png"
   },
   "holt-brothers": {
    "name": "Holt Brothers",
@@ -28980,6 +29286,13 @@
    "cat": "Technology",
    "k": "b"
   },
+  "icon-water": {
+   "name": "Icon Water",
+   "cat": "Energy & utilities",
+   "k": "b",
+   "domain": "iconwater.com.au",
+   "logo": "assets/logos/icon-water.png"
+  },
   "icons-of-sport": {
    "name": "Icons of Sport",
    "k": "b",
@@ -29690,6 +30003,15 @@
    "domain": "inglis.com.au",
    "cat": "Agriculture",
    "k": "b"
+  },
+  "initial": {
+   "name": "Initial",
+   "aliases": [
+    "Initial Hygiene"
+   ],
+   "cat": "Professional services",
+   "k": "b",
+   "domain": "initial.com.au"
   },
   "inline-nutrition": {
    "name": "Inline Nutrition",
@@ -31656,6 +31978,12 @@
   "jysk": {
    "name": "JYSK",
    "k": "b"
+  },
+  "k-and-l-gates": {
+   "name": "K&L Gates",
+   "cat": "Professional services",
+   "k": "b",
+   "domain": "klgates.com"
   },
   "k-fish": {
    "name": "K-Fish",
@@ -34532,6 +34860,12 @@
    "name": "Life Savers",
    "k": "b"
   },
+  "life-space": {
+   "name": "Life-Space",
+   "cat": "Health & beauty",
+   "k": "b",
+   "domain": "lifespaceprobiotics.com"
+  },
   "life-style-sports": {
    "name": "Life Style Sports",
    "k": "b"
@@ -35802,6 +36136,16 @@
    "cat": "Food & nutrition",
    "k": "b"
   },
+  "m-and-m-s": {
+   "name": "M&M's",
+   "aliases": [
+    "M&Ms"
+   ],
+   "cat": "Food & nutrition",
+   "k": "b",
+   "domain": "mms.com",
+   "logo": "assets/logos/m-and-m-s.png"
+  },
   "m-and-s": {
    "name": "M&S",
    "cat": "Retail",
@@ -35880,6 +36224,11 @@
    "cat": "Professional services",
    "k": "b",
    "domain": "maservicesgroup.com.au"
+  },
+  "maaden": {
+   "name": "Maaden",
+   "k": "b",
+   "cat": "Mining & resources"
   },
   "macarthur-fc": {
    "name": "Macarthur FC",
@@ -36749,6 +37098,12 @@
   "matchbook": {
    "name": "Matchbook",
    "k": "b"
+  },
+  "matchroom-sport": {
+   "name": "Matchroom Sport",
+   "k": "p",
+   "domain": "matchroom.com",
+   "ptype": "Club & team"
   },
   "matchwornshirt": {
    "name": "MatchWornShirt",
@@ -39263,6 +39618,16 @@
   "moore-east-midlands": {
    "name": "Moore East Midlands",
    "k": "b"
+  },
+  "moorilla": {
+   "name": "Moorilla",
+   "aliases": [
+    "Moorilla Wines",
+    "Moorilla Estate"
+   ],
+   "cat": "Alcohol",
+   "k": "b",
+   "domain": "moorilla.com.au"
   },
   "moose-clothing": {
    "name": "Moose Clothing",
@@ -44437,6 +44802,12 @@
    "name": "Pacific Aus Sports",
    "k": "b"
   },
+  "pacific-blue": {
+   "name": "Pacific Blue",
+   "cat": "Energy & utilities",
+   "k": "b",
+   "domain": "pacificblue.com.au"
+  },
   "pacific-blue-cross": {
    "name": "Pacific Blue Cross",
    "k": "b"
@@ -45692,6 +46063,15 @@
     "icon",
     "logo"
    ]
+  },
+  "peters": {
+   "name": "Peters",
+   "aliases": [
+    "Peters Ice Cream"
+   ],
+   "cat": "Food & nutrition",
+   "k": "b",
+   "domain": "peters.com.au"
   },
   "peterson": {
    "name": "Peterson",
@@ -47910,6 +48290,13 @@
    "cat": "Education",
    "k": "b"
   },
+  "pure-blonde": {
+   "name": "Pure Blonde",
+   "cat": "Alcohol",
+   "k": "b",
+   "domain": "pureblonde.com.au",
+   "logo": "assets/logos/pure-blonde.png"
+  },
   "pure-cosmetic-clinic": {
    "name": "Pure Cosmetic Clinic",
    "k": "b"
@@ -48061,6 +48448,13 @@
     "logo"
    ]
   },
+  "qatar-stars-league": {
+   "name": "Qatar Stars League",
+   "k": "p",
+   "domain": "qsl.qa",
+   "ptype": "League & competition",
+   "market": "Middle East"
+  },
   "qbe": {
    "name": "QBE",
    "cat": "Insurance",
@@ -48085,6 +48479,11 @@
     "icon",
     "logo"
    ]
+  },
+  "qiddiya-city": {
+   "name": "Qiddiya City",
+   "k": "b",
+   "cat": "Tourism & government"
   },
   "qms": {
    "name": "QMS",
@@ -48119,6 +48518,12 @@
     "icon",
     "logo"
    ]
+  },
+  "qsl-2": {
+   "name": "QSL 2",
+   "k": "p",
+   "ptype": "League & competition",
+   "market": "Middle East"
   },
   "quadis-marza": {
    "name": "Quadis Marzá",
@@ -49358,6 +49763,11 @@
    "name": "Reed & Mackay",
    "k": "b"
   },
+  "reef": {
+   "name": "Reef",
+   "k": "b",
+   "cat": "Construction & property"
+  },
   "refine": {
    "name": "Refine",
    "k": "b"
@@ -50169,6 +50579,11 @@
    "name": "Riyadh Air",
    "cat": "Airlines & travel",
    "k": "b"
+  },
+  "riyadh-season": {
+   "name": "Riyadh Season",
+   "k": "b",
+   "cat": "Tourism & government"
   },
   "rj-s-roofing": {
    "name": "RJ's Roofing",
@@ -51279,6 +51694,15 @@
    "domain": "safestyle.com.au",
    "k": "b"
   },
+  "safetyculture": {
+   "name": "SafetyCulture",
+   "aliases": [
+    "Safety Culture"
+   ],
+   "cat": "Technology",
+   "k": "b",
+   "domain": "safetyculture.com"
+  },
   "safeway": {
    "name": "Safeway",
    "k": "b"
@@ -52241,6 +52665,11 @@
   },
   "schonegger-kase-alm": {
    "name": "Schönegger Käse-Alm",
+   "k": "b"
+  },
+  "school-sport-victoria": {
+   "name": "School Sport Victoria",
+   "cat": "Education",
    "k": "b"
   },
   "schouest-bamdas-soshea-benmaier": {
@@ -54634,6 +55063,12 @@
    "name": "Solveo",
    "k": "b"
   },
+  "somersby": {
+   "name": "Somersby",
+   "cat": "Alcohol",
+   "k": "b",
+   "domain": "somersby.com"
+  },
   "somerset-ccc": {
    "name": "Somerset CCC",
    "ptype": "Club & team",
@@ -55662,6 +56097,12 @@
    "ptype": "Event",
    "k": "p"
   },
+  "squealing-pig": {
+   "name": "Squealing Pig",
+   "cat": "Alcohol",
+   "k": "b",
+   "domain": "squealingpig.com"
+  },
   "sri-lanka-cricket": {
    "name": "Sri Lanka Cricket",
    "ptype": "Governing body",
@@ -56199,6 +56640,11 @@
    "cat": "Health & beauty",
    "k": "b"
   },
+  "stc": {
+   "name": "stc",
+   "k": "b",
+   "cat": "Telco"
+  },
   "steeden": {
    "name": "Steeden",
    "cat": "Sporting goods & equipment",
@@ -56704,6 +57150,12 @@
     "icon",
     "logo"
    ]
+  },
+  "sukin": {
+   "name": "Sukin",
+   "cat": "Health & beauty",
+   "k": "b",
+   "domain": "sukinnaturals.com.au"
   },
   "sullivan-tire-and-auto-service": {
    "name": "Sullivan Tire and Auto Service",
@@ -57220,6 +57672,11 @@
     "Corporate partner"
    ],
    "ptiersChecked": "2026-11-17"
+  },
+  "sussx-sports": {
+   "name": "Sussx Sports",
+   "cat": "Apparel & footwear",
+   "k": "b"
   },
   "sutter-health": {
    "name": "Sutter Health",
@@ -57992,6 +58449,12 @@
    "cat": "Airlines & travel",
    "k": "b"
   },
+  "tanqueray": {
+   "name": "Tanqueray",
+   "cat": "Alcohol",
+   "k": "b",
+   "domain": "tanqueray.com"
+  },
   "tao-ambiente": {
    "name": "Tao Ambiente",
    "k": "b"
@@ -58703,6 +59166,21 @@
     "Official partner"
    ]
   },
+  "tennis-act": {
+   "name": "Tennis ACT",
+   "ptype": "Governing body",
+   "k": "p",
+   "city": "Canberra",
+   "reach": "Local",
+   "aud": [
+    "families",
+    "youth"
+   ],
+   "align": [
+    "community",
+    "grassroots"
+   ]
+  },
   "tennis-australia": {
    "name": "Tennis Australia",
    "domain": "tennis.com.au",
@@ -58741,10 +59219,91 @@
    "ptype": "Governing body",
    "k": "p"
   },
+  "tennis-nt": {
+   "name": "Tennis NT",
+   "ptype": "Governing body",
+   "k": "p",
+   "city": "Darwin",
+   "reach": "Local"
+  },
   "tennis-premier-league": {
    "name": "Tennis Premier League",
    "ptype": "League & competition",
    "k": "p"
+  },
+  "tennis-queensland": {
+   "name": "Tennis Queensland",
+   "ptype": "Governing body",
+   "k": "p",
+   "city": "Brisbane",
+   "reach": "Local",
+   "aud": [
+    "families",
+    "youth"
+   ],
+   "align": [
+    "community",
+    "grassroots"
+   ],
+   "ptiers": [
+    "Naming rights"
+   ]
+  },
+  "tennis-sa": {
+   "name": "Tennis SA",
+   "aliases": [
+    "Tennis South Australia"
+   ],
+   "ptype": "Governing body",
+   "k": "p",
+   "city": "Adelaide",
+   "reach": "Local",
+   "aud": [
+    "families",
+    "youth"
+   ],
+   "align": [
+    "community",
+    "grassroots"
+   ],
+   "ptiers": [
+    "Official partner",
+    "Official supplier"
+   ]
+  },
+  "tennis-tasmania": {
+   "name": "Tennis Tasmania",
+   "ptype": "Governing body",
+   "k": "p",
+   "city": "Hobart",
+   "reach": "Local",
+   "aud": [
+    "families",
+    "youth"
+   ],
+   "align": [
+    "community",
+    "grassroots"
+   ]
+  },
+  "tennis-victoria": {
+   "name": "Tennis Victoria",
+   "ptype": "Governing body",
+   "k": "p",
+   "city": "Melbourne",
+   "reach": "Local",
+   "aud": [
+    "families",
+    "youth"
+   ],
+   "align": [
+    "community",
+    "grassroots",
+    "wellness"
+   ],
+   "ptiers": [
+    "Official partner"
+   ]
   },
   "tennis-victoria-premier-league": {
    "name": "Tennis Victoria Premier League",
@@ -60237,6 +60796,11 @@
    "k": "b",
    "cat": "Education"
   },
+  "titan-fitness-water": {
+   "name": "Titan Fitness Water",
+   "cat": "Non-alcoholic drinks",
+   "k": "b"
+  },
   "titan-wealth": {
    "name": "Titan Wealth",
    "cat": "Banking & finance",
@@ -61628,6 +62192,13 @@
    ],
    "ptiersChecked": "2026-11-17"
   },
+  "tsingtao": {
+   "name": "Tsingtao",
+   "cat": "Alcohol",
+   "k": "b",
+   "domain": "tsingtao.com.cn",
+   "logo": "assets/logos/tsingtao.png"
+  },
   "tsn": {
    "name": "TSN",
    "k": "b"
@@ -61911,6 +62482,13 @@
   "ua92": {
    "name": "UA92",
    "k": "b"
+  },
+  "uae-pro-league": {
+   "name": "UAE Pro League",
+   "k": "p",
+   "domain": "uaeproleague.ae",
+   "ptype": "League & competition",
+   "market": "Middle East"
   },
   "uae-super-cup": {
    "name": "UAE Super Cup",
@@ -62243,6 +62821,11 @@
    "cat": "Banking & finance",
    "k": "b"
   },
+  "uncloud": {
+   "name": "UNCLOUD",
+   "cat": "Not-for-profit",
+   "k": "b"
+  },
   "undefeated": {
    "name": "UNDEFEATED",
    "cat": "Apparel & footwear",
@@ -62453,6 +63036,10 @@
    "k": "b",
    "logo": "assets/logos/united-rentals.png",
    "domain": "unitedrentals.com"
+  },
+  "united-resource-management": {
+   "name": "United Resource Management",
+   "k": "b"
   },
   "united-rugby-championship": {
    "name": "United Rugby Championship",
@@ -63268,6 +63855,11 @@
     "logo"
    ]
   },
+  "van-diemens-land-creamery": {
+   "name": "Van Diemens Land Creamery",
+   "cat": "Food & nutrition",
+   "k": "b"
+  },
   "van-heusen": {
    "name": "Van Heusen",
    "k": "b"
@@ -63429,6 +64021,13 @@
    "ptiers": [
     "Official partner"
    ]
+  },
+  "vegemite": {
+   "name": "Vegemite",
+   "cat": "Food & nutrition",
+   "k": "b",
+   "domain": "vegemite.com.au",
+   "logo": "assets/logos/vegemite.png"
   },
   "vein-specialists": {
    "name": "Vein Specialists",
@@ -65386,6 +65985,11 @@
    "name": "WeberHaus",
    "k": "b"
   },
+  "webook-com": {
+   "name": "webook.com",
+   "k": "b",
+   "cat": "Technology"
+  },
   "website-angels": {
    "name": "Website Angels",
    "k": "b"
@@ -66072,6 +66676,11 @@
    "name": "White Cross",
    "k": "b"
   },
+  "white-marquee": {
+   "name": "White Marquee",
+   "cat": "Hospitality & entertainment",
+   "k": "b"
+  },
   "white-spot": {
    "name": "White Spot",
    "k": "b"
@@ -66202,6 +66811,12 @@
   "william-buck": {
    "name": "William Buck",
    "k": "b"
+  },
+  "william-hill": {
+   "name": "William Hill",
+   "cat": "Betting & wagering",
+   "k": "b",
+   "domain": "williamhill.com"
   },
   "william-huff": {
    "name": "William Huff",
@@ -66364,6 +66979,11 @@
   },
   "winnebago": {
    "name": "Winnebago",
+   "k": "b"
+  },
+  "winning-edge-presentations": {
+   "name": "Winning Edge Presentations",
+   "cat": "Retail",
    "k": "b"
   },
   "winnipeg-blue-bombers": {
@@ -66678,6 +67298,13 @@
     "Official partner"
    ],
    "ptiersChecked": "2026-11-17"
+  },
+  "workday": {
+   "name": "Workday",
+   "cat": "Technology",
+   "k": "b",
+   "domain": "workday.com",
+   "logo": "assets/logos/workday.png"
   },
   "workhorse-staffing": {
    "name": "Workhorse Staffing",
@@ -67332,6 +67959,11 @@
    "logo": "assets/logos/yara.png",
    "domain": "yara.no"
   },
+  "yarrawonga-mulwala-tourism": {
+   "name": "Yarrawonga Mulwala Tourism",
+   "cat": "Tourism & government",
+   "k": "b"
+  },
   "yarrows-the-bakers": {
    "name": "Yarrows The Bakers",
    "k": "b"
@@ -67713,6 +68345,12 @@
    "cat": "Hospitality & entertainment",
    "k": "b"
   },
+  "zeekr": {
+   "name": "Zeekr",
+   "cat": "Automotive",
+   "k": "b",
+   "domain": "zeekr.com"
+  },
   "zeg": {
    "name": "ZEG",
    "k": "b"
@@ -67957,640 +68595,6 @@
     "icon",
     "logo"
    ]
-  },
-  "al-hilal": {
-   "name": "Al Hilal",
-   "k": "p",
-   "domain": "alhilal.com",
-   "ptype": "Club & team",
-   "market": "Middle East"
-  },
-  "al-ittihad": {
-   "name": "Al Ittihad",
-   "k": "p",
-   "ptype": "Club & team",
-   "market": "Middle East"
-  },
-  "uae-pro-league": {
-   "name": "UAE Pro League",
-   "k": "p",
-   "domain": "uaeproleague.ae",
-   "ptype": "League & competition",
-   "market": "Middle East"
-  },
-  "qatar-stars-league": {
-   "name": "Qatar Stars League",
-   "k": "p",
-   "domain": "qsl.qa",
-   "ptype": "League & competition",
-   "market": "Middle East"
-  },
-  "qsl-2": {
-   "name": "QSL 2",
-   "k": "p",
-   "ptype": "League & competition",
-   "market": "Middle East"
-  },
-  "abu-dhabi-championship": {
-   "name": "Abu Dhabi Championship",
-   "k": "p",
-   "ptype": "Event",
-   "market": "Middle East"
-  },
-  "dp-world-tour-championship": {
-   "name": "DP World Tour Championship",
-   "k": "p",
-   "ptype": "Event",
-   "market": "Middle East"
-  },
-  "matchroom-sport": {
-   "name": "Matchroom Sport",
-   "k": "p",
-   "domain": "matchroom.com",
-   "ptype": "Club & team"
-  },
-  "atletico-madrid-femenino": {
-   "name": "Atlético Madrid Femenino",
-   "k": "p",
-   "ptype": "Club & team"
-  },
-  "emirates-team-new-zealand": {
-   "name": "Emirates Team New Zealand",
-   "k": "p",
-   "ptype": "Club & team"
-  },
-  "reef": {
-   "name": "Reef",
-   "k": "b",
-   "cat": "Construction & property"
-  },
-  "aroya-cruises": {
-   "name": "Aroya Cruises",
-   "k": "b",
-   "cat": "Airlines & travel"
-  },
-  "gfh-bank": {
-   "name": "GFH Bank",
-   "k": "b",
-   "cat": "Banking & finance"
-  },
-  "maaden": {
-   "name": "Maaden",
-   "k": "b",
-   "cat": "Mining & resources"
-  },
-  "abdul-latif-jameel-motors": {
-   "name": "Abdul Latif Jameel Motors",
-   "k": "b",
-   "cat": "Automotive"
-  },
-  "al-balad-development-company": {
-   "name": "Al Balad Development Company",
-   "k": "b",
-   "cat": "Construction & property"
-  },
-  "doha-bank": {
-   "name": "Doha Bank",
-   "k": "b",
-   "cat": "Banking & finance"
-  },
-  "emirates-nbd": {
-   "name": "Emirates NBD",
-   "k": "b",
-   "cat": "Banking & finance"
-  },
-  "stc": {
-   "name": "stc",
-   "k": "b",
-   "cat": "Telco"
-  },
-  "webook-com": {
-   "name": "webook.com",
-   "k": "b",
-   "cat": "Technology"
-  },
-  "qiddiya-city": {
-   "name": "Qiddiya City",
-   "k": "b",
-   "cat": "Tourism & government"
-  },
-  "riyadh-season": {
-   "name": "Riyadh Season",
-   "k": "b",
-   "cat": "Tourism & government"
-  },
-  "brisbane-international": {
-   "name": "Brisbane International",
-   "aliases": [
-    "Brisbane International presented by ANZ"
-   ],
-   "ptype": "Event",
-   "k": "p",
-   "domain": "brisbaneinternational.com.au",
-   "city": "Brisbane",
-   "reach": "National",
-   "pos": "premium",
-   "aud": [
-    "families",
-    "affluent",
-    "women",
-    "youth"
-   ],
-   "align": [
-    "summer",
-    "tourism",
-    "wellness",
-    "hospitality",
-    "experiences"
-   ],
-   "ptiers": [
-    "Government partner"
-   ]
-  },
-  "adelaide-international": {
-   "name": "Adelaide International",
-   "ptype": "Event",
-   "k": "p",
-   "domain": "adelaideinternational.com.au",
-   "city": "Adelaide",
-   "reach": "National",
-   "pos": "premium",
-   "aud": [
-    "families",
-    "affluent",
-    "women"
-   ],
-   "align": [
-    "summer",
-    "tourism",
-    "wellness",
-    "hospitality",
-    "experiences"
-   ],
-   "ptiers": [
-    "Government partner"
-   ]
-  },
-  "hobart-international": {
-   "name": "Hobart International",
-   "ptype": "Event",
-   "k": "p",
-   "domain": "hobartinternational.com.au",
-   "city": "Hobart",
-   "reach": "National",
-   "pos": "mid",
-   "aud": [
-    "families",
-    "women"
-   ],
-   "align": [
-    "summer",
-    "tourism",
-    "community",
-    "women"
-   ],
-   "ptiers": [
-    "Government partner"
-   ]
-  },
-  "canberra-international": {
-   "name": "Canberra International",
-   "aliases": [
-    "Workday Canberra International"
-   ],
-   "ptype": "Event",
-   "k": "p",
-   "domain": "canberrainternational.com.au",
-   "city": "Canberra",
-   "reach": "Local",
-   "pos": "mid",
-   "aud": [
-    "families",
-    "youth"
-   ],
-   "align": [
-    "summer",
-    "community"
-   ],
-   "ptiers": [
-    "Naming rights",
-    "Government partner"
-   ]
-  },
-  "tennis-victoria": {
-   "name": "Tennis Victoria",
-   "ptype": "Governing body",
-   "k": "p",
-   "city": "Melbourne",
-   "reach": "Local",
-   "aud": [
-    "families",
-    "youth"
-   ],
-   "align": [
-    "community",
-    "grassroots",
-    "wellness"
-   ],
-   "ptiers": [
-    "Official partner"
-   ]
-  },
-  "tennis-sa": {
-   "name": "Tennis SA",
-   "aliases": [
-    "Tennis South Australia"
-   ],
-   "ptype": "Governing body",
-   "k": "p",
-   "city": "Adelaide",
-   "reach": "Local",
-   "aud": [
-    "families",
-    "youth"
-   ],
-   "align": [
-    "community",
-    "grassroots"
-   ],
-   "ptiers": [
-    "Official partner",
-    "Official supplier"
-   ]
-  },
-  "tennis-queensland": {
-   "name": "Tennis Queensland",
-   "ptype": "Governing body",
-   "k": "p",
-   "city": "Brisbane",
-   "reach": "Local",
-   "aud": [
-    "families",
-    "youth"
-   ],
-   "align": [
-    "community",
-    "grassroots"
-   ],
-   "ptiers": [
-    "Naming rights"
-   ]
-  },
-  "tennis-tasmania": {
-   "name": "Tennis Tasmania",
-   "ptype": "Governing body",
-   "k": "p",
-   "city": "Hobart",
-   "reach": "Local",
-   "aud": [
-    "families",
-    "youth"
-   ],
-   "align": [
-    "community",
-    "grassroots"
-   ]
-  },
-  "tennis-act": {
-   "name": "Tennis ACT",
-   "ptype": "Governing body",
-   "k": "p",
-   "city": "Canberra",
-   "reach": "Local",
-   "aud": [
-    "families",
-    "youth"
-   ],
-   "align": [
-    "community",
-    "grassroots"
-   ]
-  },
-  "tennis-nt": {
-   "name": "Tennis NT",
-   "ptype": "Governing body",
-   "k": "p",
-   "city": "Darwin",
-   "reach": "Local"
-  },
-  "sukin": {
-   "name": "Sukin",
-   "cat": "Health & beauty",
-   "k": "b",
-   "domain": "sukinnaturals.com.au"
-  },
-  "evie": {
-   "name": "Evie",
-   "aliases": [
-    "Evie Networks"
-   ],
-   "cat": "Energy & utilities",
-   "k": "b",
-   "domain": "evie.com.au",
-   "logo": "assets/logos/evie.png"
-  },
-  "workday": {
-   "name": "Workday",
-   "cat": "Technology",
-   "k": "b",
-   "domain": "workday.com",
-   "logo": "assets/logos/workday.png"
-  },
-  "icon-water": {
-   "name": "Icon Water",
-   "cat": "Energy & utilities",
-   "k": "b",
-   "domain": "iconwater.com.au",
-   "logo": "assets/logos/icon-water.png"
-  },
-  "zeekr": {
-   "name": "Zeekr",
-   "cat": "Automotive",
-   "k": "b",
-   "domain": "zeekr.com"
-  },
-  "care-wellness": {
-   "name": "Care Wellness",
-   "cat": "Health & beauty",
-   "k": "b",
-   "aliases": [
-    "CareA2+"
-   ]
-  },
-  "de-cecco": {
-   "name": "De Cecco",
-   "cat": "Food & nutrition",
-   "k": "b",
-   "domain": "dececco.com",
-   "logo": "assets/logos/de-cecco.png"
-  },
-  "tsingtao": {
-   "name": "Tsingtao",
-   "cat": "Alcohol",
-   "k": "b",
-   "domain": "tsingtao.com.cn",
-   "logo": "assets/logos/tsingtao.png"
-  },
-  "van-diemens-land-creamery": {
-   "name": "Van Diemens Land Creamery",
-   "cat": "Food & nutrition",
-   "k": "b"
-  },
-  "winning-edge-presentations": {
-   "name": "Winning Edge Presentations",
-   "cat": "Retail",
-   "k": "b"
-  },
-  "aurora-spa-and-bathhouse": {
-   "name": "Aurora Spa & Bathhouse",
-   "cat": "Health & beauty",
-   "k": "b"
-  },
-  "uncloud": {
-   "name": "UNCLOUD",
-   "cat": "Not-for-profit",
-   "k": "b"
-  },
-  "yarrawonga-mulwala-tourism": {
-   "name": "Yarrawonga Mulwala Tourism",
-   "cat": "Tourism & government",
-   "k": "b"
-  },
-  "school-sport-victoria": {
-   "name": "School Sport Victoria",
-   "cat": "Education",
-   "k": "b"
-  },
-  "dg-sports": {
-   "name": "DG Sports",
-   "cat": "Apparel & footwear",
-   "k": "b"
-  },
-  "white-marquee": {
-   "name": "White Marquee",
-   "cat": "Hospitality & entertainment",
-   "k": "b"
-  },
-  "city-mazda": {
-   "name": "City Mazda",
-   "cat": "Automotive",
-   "k": "b"
-  },
-  "design-eyewear": {
-   "name": "Design Eyewear",
-   "cat": "Health & beauty",
-   "k": "b"
-  },
-  "sussx-sports": {
-   "name": "Sussx Sports",
-   "cat": "Apparel & footwear",
-   "k": "b"
-  },
-  "gerald-charles": {
-   "name": "Gerald Charles",
-   "cat": "Watches & luxury",
-   "k": "b",
-   "domain": "geraldcharles.com",
-   "logo": "assets/logos/gerald-charles.png"
-  },
-  "country-road": {
-   "name": "Country Road",
-   "cat": "Apparel & footwear",
-   "k": "b",
-   "domain": "countryroad.com.au",
-   "logo": "assets/logos/country-road.png"
-  },
-  "cpa-australia": {
-   "name": "CPA Australia",
-   "cat": "Professional services",
-   "k": "b",
-   "domain": "cpaaustralia.com.au"
-  },
-  "haagen-dazs": {
-   "name": "Häagen-Dazs",
-   "cat": "Food & nutrition",
-   "k": "b",
-   "domain": "haagendazs.com.au"
-  },
-  "garnier": {
-   "name": "Garnier",
-   "cat": "Health & beauty",
-   "k": "b",
-   "domain": "garnier.com.au"
-  },
-  "k-and-l-gates": {
-   "name": "K&L Gates",
-   "cat": "Professional services",
-   "k": "b",
-   "domain": "klgates.com"
-  },
-  "vegemite": {
-   "name": "Vegemite",
-   "cat": "Food & nutrition",
-   "k": "b",
-   "domain": "vegemite.com.au",
-   "logo": "assets/logos/vegemite.png"
-  },
-  "william-hill": {
-   "name": "William Hill",
-   "cat": "Betting & wagering",
-   "k": "b",
-   "domain": "williamhill.com"
-  },
-  "derucci": {
-   "name": "DeRUCCI",
-   "cat": "Home & hardware",
-   "k": "b",
-   "domain": "derucci.com"
-  },
-  "bondi-sands": {
-   "name": "Bondi Sands",
-   "cat": "Health & beauty",
-   "k": "b",
-   "domain": "bondisands.com.au"
-  },
-  "pure-blonde": {
-   "name": "Pure Blonde",
-   "cat": "Alcohol",
-   "k": "b",
-   "domain": "pureblonde.com.au",
-   "logo": "assets/logos/pure-blonde.png"
-  },
-  "initial": {
-   "name": "Initial",
-   "aliases": [
-    "Initial Hygiene"
-   ],
-   "cat": "Professional services",
-   "k": "b",
-   "domain": "initial.com.au"
-  },
-  "grainshaker": {
-   "name": "Grainshaker",
-   "aliases": [
-    "Grainshaker Australian Vodka"
-   ],
-   "cat": "Alcohol",
-   "k": "b",
-   "domain": "grainshaker.com.au"
-  },
-  "gordon-s": {
-   "name": "Gordon's",
-   "aliases": [
-    "Gordon's Gin"
-   ],
-   "cat": "Alcohol",
-   "k": "b",
-   "domain": "gordonsgin.com"
-  },
-  "tanqueray": {
-   "name": "Tanqueray",
-   "cat": "Alcohol",
-   "k": "b",
-   "domain": "tanqueray.com"
-  },
-  "life-space": {
-   "name": "Life-Space",
-   "cat": "Health & beauty",
-   "k": "b",
-   "domain": "lifespaceprobiotics.com"
-  },
-  "squealing-pig": {
-   "name": "Squealing Pig",
-   "cat": "Alcohol",
-   "k": "b",
-   "domain": "squealingpig.com"
-  },
-  "somersby": {
-   "name": "Somersby",
-   "cat": "Alcohol",
-   "k": "b",
-   "domain": "somersby.com"
-  },
-  "pacific-blue": {
-   "name": "Pacific Blue",
-   "cat": "Energy & utilities",
-   "k": "b",
-   "domain": "pacificblue.com.au"
-  },
-  "m-and-m-s": {
-   "name": "M&M's",
-   "aliases": [
-    "M&Ms"
-   ],
-   "cat": "Food & nutrition",
-   "k": "b",
-   "domain": "mms.com",
-   "logo": "assets/logos/m-and-m-s.png"
-  },
-  "safetyculture": {
-   "name": "SafetyCulture",
-   "aliases": [
-    "Safety Culture"
-   ],
-   "cat": "Technology",
-   "k": "b",
-   "domain": "safetyculture.com"
-  },
-  "balter": {
-   "name": "Balter",
-   "cat": "Alcohol",
-   "k": "b",
-   "domain": "balter.com.au"
-  },
-  "brookvale-union": {
-   "name": "Brookvale Union",
-   "cat": "Alcohol",
-   "k": "b",
-   "domain": "brookvaleunion.com.au"
-  },
-  "cctv": {
-   "name": "CCTV",
-   "aliases": [
-    "China Media Group",
-    "CCTV Sports"
-   ],
-   "cat": "Media & broadcast",
-   "k": "b",
-   "domain": "cctv.com",
-   "logo": "assets/logos/cctv.png"
-  },
-  "hologic": {
-   "name": "Hologic",
-   "cat": "Health & beauty",
-   "k": "b",
-   "domain": "hologic.com",
-   "logo": "assets/logos/hologic.png"
-  },
-  "peters": {
-   "name": "Peters",
-   "aliases": [
-    "Peters Ice Cream"
-   ],
-   "cat": "Food & nutrition",
-   "k": "b",
-   "domain": "peters.com.au"
-  },
-  "moorilla": {
-   "name": "Moorilla",
-   "aliases": [
-    "Moorilla Wines",
-    "Moorilla Estate"
-   ],
-   "cat": "Alcohol",
-   "k": "b",
-   "domain": "moorilla.com.au"
-  },
-  "titan-fitness-water": {
-   "name": "Titan Fitness Water",
-   "cat": "Non-alcoholic drinks",
-   "k": "b"
-  },
-  "frantelle": {
-   "name": "Frantelle",
-   "cat": "Non-alcoholic drinks",
-   "k": "b",
-   "domain": "frantelle.com.au"
   }
  },
  "leagues": [
