@@ -2867,10 +2867,6 @@
    "date": "2024-11-11",
    "conf": "Confirmed",
    "verified": "2026-11-18",
-   "ttier": "T3",
-   "tbasis": "category",
-   "tends": 2029,
-   "tendsBasis": "league",
    "ended": 2025
   },
   {
@@ -3669,8 +3665,6 @@
    "verified": "2026-11-18",
    "market": "Middle East",
    "marketLock": true,
-   "ttier": "T3",
-   "tbasis": "category",
    "ended": 2025
   },
   {
@@ -180753,9 +180747,9 @@
    "endsLock": true,
    "conf": "Reported",
    "verified": "2026-08-25",
+   "ptier": "Official partner",
    "tends": 2030,
-   "tendsBasis": "stated",
-   "ptier": "Official partner"
+   "tendsBasis": "stated"
   },
   {
    "date": "2026-08-25",
@@ -183451,10 +183445,6 @@
    "endsLock": true,
    "conf": "Confirmed",
    "verified": "2026-07-14",
-   "ttier": "T2",
-   "tbasis": "role",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -184338,10 +184328,6 @@
    "endsEst": true,
    "conf": "Confirmed",
    "verified": "2025-08-11",
-   "ttier": "T2",
-   "tbasis": "rights",
-   "tends": 2027,
-   "tendsBasis": "term",
    "ended": 2026
   },
   {
@@ -188764,8 +188750,6 @@
    "url": "https://www.bulldogs.com.au/news/2025/02/14/bulldogs-and-kumho-tyre-to-drive-powerful-partnership/",
    "conf": "Confirmed",
    "verified": "2025-02-18",
-   "tends": 2028,
-   "tendsBasis": "league",
    "ended": 2026
   },
   {
@@ -191735,10 +191719,6 @@
    "url": "https://www.melbournefc.com.au/news/1949863/penrite-joins-the-ride-with-the-demons",
    "conf": "Confirmed",
    "verified": "2026-02-11",
-   "ttier": "T3",
-   "tbasis": "category",
-   "tends": 2029,
-   "tendsBasis": "league",
    "ended": 2026
   },
   {
@@ -192411,8 +192391,6 @@
    "endsLock": true,
    "conf": "Confirmed",
    "verified": "2025-11-12",
-   "tends": 2028,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -192577,8 +192555,6 @@
    "url": "https://golf.com.au/news/golf-australia-welcomes-leading-brands-as-partner-line-up-expands-for-the-crown",
    "conf": "Confirmed",
    "verified": "2025-11-12",
-   "ttier": "T1",
-   "tbasis": "rights",
    "ended": 2025
   },
   {
@@ -193484,8 +193460,6 @@
    "url": "https://www.raywhite.com/news-media/ray-white-queensland-teams-up-with-netball-queensland-queensland-firebirds",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "tends": 2027,
-   "tendsBasis": "league",
    "ended": 2025
   },
   {
@@ -193922,8 +193896,6 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2025-09-18",
-   "tends": 2028,
-   "tendsBasis": "league",
    "ended": 2026
   },
   {
@@ -201899,10 +201871,6 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2024-09-12",
-   "ttier": "T2",
-   "tbasis": "rights",
-   "tends": 2027,
-   "tendsBasis": "league",
    "ended": 2026
   },
   {
@@ -202704,8 +202672,6 @@
    "verified": "2026-11-17",
    "ptier": "Official partner",
    "checked": "2026-11-17",
-   "ttier": "T1",
-   "tbasis": "rights",
    "ended": 2025
   },
   {
@@ -204190,8 +204156,6 @@
    "market": "ANZ",
    "conf": "Reported",
    "verified": "2025-07-08",
-   "tends": 2028,
-   "tendsBasis": "league",
    "ended": 2025
   },
   {
@@ -207258,8 +207222,6 @@
    "ptier": "Official partner",
    "conf": "Reported",
    "verified": "2026-03-31",
-   "tends": 2027,
-   "tendsBasis": "term",
    "ended": 2026
   },
   {
@@ -210909,8 +210871,6 @@
    "market": "Asia",
    "conf": "Reported",
    "verified": "2025-02-24",
-   "ttier": "T1",
-   "tbasis": "rights",
    "ended": 2025
   },
   {
@@ -212108,8 +212068,6 @@
    "market": "Global",
    "conf": "Reported",
    "verified": "2024-12-10",
-   "ttier": "T1",
-   "tbasis": "rights",
    "ended": 2025
   },
   {
@@ -218459,10 +218417,6 @@
     "back of AFL guernsey"
    ],
    "rightsSrc": "https://www.bandt.com.au/spotlight-on-sponsors-freemantle-dockers-accused-of-not-taking-climate-concerns-into-consideration-when-selecting-sponsors/",
-   "ttier": "T2",
-   "tbasis": "sourced",
-   "tends": 2026,
-   "tendsBasis": "term",
    "ended": 2026
   },
   {
@@ -241950,10 +241904,6 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2023-11-01",
-   "ttier": "T1",
-   "tbasis": "role",
-   "tends": 2026,
-   "tendsBasis": "league",
    "ended": 2026
   },
   {
@@ -241969,8 +241919,6 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2023-09-28",
-   "tends": 2026,
-   "tendsBasis": "league",
    "ended": 2025
   },
   {
