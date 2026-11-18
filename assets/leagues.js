@@ -54,13 +54,27 @@ S.load().then(D=>{
       return `<td><span class="cell">${box.slice(0,rows).map((x,k)=>x?logo(x):k===3&&more?more:`<span class="sl"></span>`).join("")}</span></td>`;
     }
     $("lgSel").innerHTML=S.lgOptions(leagues,st.league,lgCounts,false);$("lgSel").value=st.league;
-    $("regPills").innerHTML=[["all","All partnerships filed"],["recent",`Current and since ${yr-1}`]].map(([k,l])=>`<button type="button" class="pill${st.span===k?" on":""}" data-sp="${k}" aria-pressed="${st.span===k}">${l}</button>`).join("");
+    $("regPills").innerHTML=[["all","All filed"],["recent",`Current and since ${yr-1}`]].map(([k,l])=>`<button type="button" class="${st.span===k?"on":""}" data-sp="${k}" aria-pressed="${st.span===k}">${l}</button>`).join("");
+    // Header: quick league pills, market label, stamps and stat cards
+    const QUICK=["AFL","NRL","A-League Men","NBL","Big Bash League","Super Netball","Premier League","NBA","NFL"];
+    const quick=QUICK.filter(n=>leagues.some(l=>l.name===n));
+    $("lgQuick").innerHTML=quick.map(n=>`<button type="button" data-lg="${esc(n)}" class="${n===st.league?"on":""}">${esc(n==="Big Bash League"?"BBL":n==="A-League Men"?"A-Leagues":n)}</button>`).join("");
+    $("crLg").textContent=lg.name;document.title=`${lg.name} league map | Sport Sport Sport`;
+    const mk=new Map();clubs.forEach(c=>(c.markets||new Set()).forEach(m=>mk.set(m,(mk.get(m)||0)+1)));const mkt=[...mk].sort((a,b)=>b[1]-a[1])[0];
+    $("lgLbl").textContent=`League map · ${mkt?(mkt[0]==="ANZ"?"Australia & NZ":mkt[0]):lg.sport||""}`;
+    $("lgSub").textContent=`Every ${lg.name} club against every sponsor category, drawn from each club's partners on file.`;
+    const ENT=L.all(),ver=clubs.map(c=>(ENT[c.e.slug]||{}).ptiersChecked||"").filter(Boolean).sort();
+    const added=clubs.flatMap(c=>(c.deals||[]).map(x=>x.d.added||x.d.date||"")).sort().pop();
+    const dd=s=>new Date(s+"T00:00:00").toLocaleDateString("en-AU",{day:"numeric",month:"short",year:"numeric"});
+    $("lgStamps").innerHTML=[ver.length?`${ver.length===clubs.length?"All clubs":ver.length+" of "+clubs.length+" clubs"} verified ${dd(ver[ver.length-1])}`:"",added?`Updated ${dd(added)}`:""].filter(Boolean).map(t=>`<span class="stamp3"><i></i>${esc(t)}</span>`).join("");
+    const pDeals=new Set(),brands=new Set();clubs.forEach(c=>(c.deals||[]).forEach(x=>{if(x.side==="p"){pDeals.add(x.d);x.d._bs.forEach(b=>b&&brands.add(b.slug))}}));
+    $("lgStats").innerHTML=[[n,"Clubs"],[pDeals.size,"Club partnerships"],[brands.size,"Brands"],[cats.length,"Categories"]].map(([v,l])=>`<div><span>${l}</span><b>${v.toLocaleString("en-AU")}</b></div>`).join("");
     $("lgNote").textContent=`${n} ${lg.name} clubs × ${cats.length} categories. A dash means we haven't filed a partner in that category for the club, not that one definitely doesn't exist. Tap a logo for the brand's page.`;
     $("map").innerHTML=cats.length?`<table class="m"><thead><tr><th class="club">${esc(lg.name)}</th>${cats.map(c=>`<th scope="col"><a href="categories?c=${encodeURIComponent(c)}">${esc(c)}</a><br><span class="mute-l" style="font-weight:500;letter-spacing:0">${catClubs.get(c)}/${n} clubs</span></th>`).join("")}</tr></thead><tbody>${clubs.map(c=>{const m=grid.get(c.e.slug);return `<tr><th class="club" scope="row"><a href="${esc(L.page(c.e.slug))}">${L.mark(c.e,{px:30})}${esc(c.e.name)}</a></th>${cats.map(cat=>{const cm=m.get(cat);if(!cm)return `<td class="no"></td>`;
       return cellHtml(cat,cm)}).join("")}</tr>`}).join("")}</tbody></table>`:`<p class="note">No partnerships filed for these clubs yet.</p>`;
     S.setQs({league:st.league,span:st.span!=="all"&&st.span});
   }
-  document.querySelector("main").addEventListener("click",e=>{const b=e.target.closest("[data-sp]");if(!b)return;st.span=b.dataset.sp;draw()});
+  document.querySelector("main").addEventListener("click",e=>{const g=e.target.closest("[data-lg]");if(g){st.league=g.dataset.lg;draw();return}const b=e.target.closest("[data-sp]");if(!b)return;st.span=b.dataset.sp;draw()});
   $("lgSel").onchange=e=>{st.league=e.target.value;draw()};
   draw();
 }).catch(()=>{$("map").innerHTML=`<p class="note">Couldn't load the map. Refresh to try again.</p>`});
