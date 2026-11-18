@@ -231,3 +231,22 @@ With deals down to two runs a week, each run is thorough. The usage-light limits
 Say "partnership(s)", never "deal(s)", and "database", never "archive", in everything people read (site, posts, captions, graphics, articles, snippets, summaries). A quote copied word for word from a source stays as it is. File names, JSON keys (deals.json, "deal") and commit messages don't change.
 
 **End years: the release wins.** If the release (or a reputable report of it) states the years or seasons a partnership covers ("2026 to 2032", "the 2027 season and the following two years", "first three seasons"), set "ends" to that year and leave "endsEst" out, so it's treated as stated and never recalculated. Only when the release gives a length alone ("three-year deal") does tools/enrich.py work the end year out (endsEst true): ANZ calendar-year codes announced Jan-Aug include the current season (year + term - 1); summer codes and everything else use year + term. Expansion clubs follow the same rule unless the release says otherwise.
+
+### 9. Data rules (from 18 Nov 2026, override the skills where they differ)
+- **Pick from the lists.** sport, market, status and tier come from data/lists.json only. Never invent a value.
+  Status words (Renewal, Extension, Partnership, Sponsorship, Partner) go in "status", never in "type".
+  Use "market" (8 values) for where the property is based; "region" is legacy and will be retired.
+- **Sources go through the registry.** Every URL's domain has a type in data/sources.json (official, league, wire,
+  press, syndicated, blog, social, banned). Only official, league and wire make a partnership "Confirmed". Run
+  `python3 tools/sources.py` after logging: new domains are typed automatically or flagged for review. An aggregator
+  (Sports Mint Media, stock tickers, syndicated portals) can lead you to a partnership but is never the url: find
+  the original release and use that.
+- **Validate before every commit:** `python3 tools/validate.py --new`. Any row with an error is fixed or dropped,
+  and listed in the run summary. Never commit with validate errors.
+- **End years.** The release wins when it states years or seasons. Otherwise end year = first season + term - 1
+  (a three-year partnership starting in the 2026 season ends 2028). Record "term" whenever the source states a length.
+- **Repeats and names.** Before logging, match both names against entities.json names and aliases. Close
+  matches (Kia / Kia Australia) are the same organisation: use the existing name, never create a second one.
+- **Nothing private in this repo.** The repo and site are public. Valuation research, board-paper notes, contacts
+  and quotes collected for tagging never go into any file here. They go to Partnership Pro's private Supabase
+  store. pro/ files are uploaded there by the profiles workflow.

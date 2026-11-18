@@ -1,9 +1,11 @@
 """Give every partnership in deals.json a confidence level and a last-verified date.
 
   conf      Confirmed   source is the club, league, event, venue or brand itself (partners page, newsroom,
-                        official social account, or its own release via a wire service)
-            Reported    source is trade press or a news outlet
-            Unverified  no source on file yet (needsSource)
+                        or its own release via a wire service): data/sources.json type official, league or wire
+            Reported    trade press, news, syndicated reposts, blogs, social posts, or a domain not reviewed yet
+            Unverified  no source on file yet (needsSource), or a banned source (Scout)
+  The source type comes from the registry in data/sources.json (tools/sources.py). A domain missing from it
+  counts as Reported until it is reviewed, never as official.
   verified  the most recent date anyone saw this partnership confirmed: the partners-page check
             ("checked", or the property's lastChecked in coverage.json for current partners), the date it was
             listed or added, or its announcement date
@@ -13,9 +15,11 @@ Run: python3 tools/confidence.py   (also run by .github/workflows/profiles.yml)
 """
 import json
 import re
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 # Trade press, news outlets and aggregators. Anything not listed here with a URL is treated as an official source.
 PRESS = {
@@ -49,6 +53,8 @@ def main():
     cov = json.loads((ROOT / "coverage.json").read_text(encoding="utf-8")).get("properties", [])
     checked_by_prop = {c["name"]: c.get("lastChecked") for c in cov if c.get("name") and c.get("lastChecked")}
 
+    import sources as S
+    reg = S.load()
     before = json.dumps(data, ensure_ascii=False)
     counts = {"Confirmed": 0, "Reported": 0, "Unverified": 0}
     for d in data["deals"]:
@@ -57,8 +63,8 @@ def main():
             if not url or d.get("needsSource"):
                 conf = "Unverified"
             else:
-                dom = domain(url)
-                conf = "Confirmed" if dom in NEWSWIRE_OFFICIAL or not is_press(dom) else "Reported"
+                t = S.lookup(reg, domain(url))
+                conf = "Confirmed" if t in S.CONFIRMING else "Unverified" if t == "banned" else "Reported"
             d["conf"] = conf
         counts[d.get("conf", "Unverified")] = counts.get(d.get("conf", "Unverified"), 0) + 1
 

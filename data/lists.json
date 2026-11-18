@@ -1,0 +1,217 @@
+{
+ "_help": "Controlled lists for deals.json and entities.json. Skills pick from these, never invent a value. tools/validate.py checks against them. Edit here, and only here, to add a value.",
+ "markets": [
+  "ANZ",
+  "North America",
+  "UK & Ireland",
+  "Europe",
+  "Asia",
+  "Middle East",
+  "Rest of World",
+  "Global"
+ ],
+ "statuses": [
+  "New",
+  "Renewal",
+  "Extension",
+  "Expansion",
+  "Upgrade",
+  "Current partner",
+  "Ended"
+ ],
+ "tiers": [
+  "Naming rights",
+  "Title sponsor",
+  "Principal & major",
+  "Kit & apparel",
+  "Shirt & kit placement",
+  "Official partner",
+  "Media & broadcast",
+  "Licensing & merchandise",
+  "Ambassador & endorsement",
+  "Investment & ownership"
+ ],
+ "conf": [
+  "Confirmed",
+  "Reported",
+  "Unverified"
+ ],
+ "sports": [
+  "Action sports",
+  "Athletics",
+  "Australian rules",
+  "Badminton",
+  "Baseball",
+  "Basketball",
+  "Biathlon",
+  "Boxing",
+  "Bull riding",
+  "Canadian football",
+  "Chess",
+  "College sport",
+  "Cricket",
+  "Curling",
+  "Cycling",
+  "Endurance",
+  "Equestrian",
+  "Esports",
+  "Fitness racing",
+  "Football",
+  "Gaelic games",
+  "Golf",
+  "Gymnastics",
+  "Handball",
+  "Hockey",
+  "Horse racing",
+  "Ice hockey",
+  "Kabaddi",
+  "MMA",
+  "Motorsport",
+  "Multi-sport",
+  "NFL",
+  "Netball",
+  "Olympics",
+  "Padel",
+  "Paralympics",
+  "Pickleball",
+  "Rugby league",
+  "Rugby union",
+  "Running",
+  "Sailing",
+  "Shooting",
+  "Skiing",
+  "Snooker",
+  "Softball",
+  "Squash",
+  "Surfing",
+  "Swimming",
+  "Table tennis",
+  "Tennis",
+  "Triathlon",
+  "Venues",
+  "Volleyball",
+  "Water polo",
+  "Winter sports",
+  "Wrestling"
+ ],
+ "_sportsLegacy_help": "League names still used in the sport field. Allowed for now (the site's filters use them); the planned migration moves each to sport + league. Map: label -> [sport, league].",
+ "sportsLegacy": {
+  "AFL": [
+   "Australian rules",
+   "AFL"
+  ],
+  "AFLW": [
+   "Australian rules",
+   "AFLW"
+  ],
+  "NRL": [
+   "Rugby league",
+   "NRL"
+  ],
+  "MLS": [
+   "Football",
+   "MLS"
+  ],
+  "NWSL": [
+   "Football",
+   "NWSL"
+  ],
+  "NBA": [
+   "Basketball",
+   "NBA"
+  ],
+  "WNBA": [
+   "Basketball",
+   "WNBA"
+  ],
+  "MLB": [
+   "Baseball",
+   "MLB"
+  ],
+  "NHL": [
+   "Ice hockey",
+   "NHL"
+  ],
+  "CFL": [
+   "Canadian football",
+   "CFL"
+  ],
+  "Racing": [
+   "Motorsport",
+   null
+  ],
+  "Harness racing": [
+   "Horse racing",
+   null
+  ],
+  "Fitness": [
+   "Fitness racing",
+   null
+  ],
+  "Entertainment": [
+   "Multi-sport",
+   null
+  ],
+  "Sport business": [
+   "Multi-sport",
+   null
+  ]
+ },
+ "brandCats": [
+  "Agriculture",
+  "Airlines & travel",
+  "Alcohol",
+  "Apparel & footwear",
+  "Automotive",
+  "Banking & finance",
+  "Betting & wagering",
+  "Collectibles & licensing",
+  "Construction & property",
+  "Education",
+  "Energy & utilities",
+  "Fintech, crypto & trading",
+  "Food & nutrition",
+  "Gaming & esports",
+  "Health & beauty",
+  "Home & hardware",
+  "Hospitality & entertainment",
+  "Industrial & manufacturing",
+  "Insurance",
+  "Logistics & transport",
+  "Media & broadcast",
+  "Mining & resources",
+  "Non-alcoholic drinks",
+  "Not-for-profit",
+  "Other",
+  "Professional services",
+  "Retail",
+  "Sport & events",
+  "Sporting goods & equipment",
+  "Technology",
+  "Telco",
+  "Tourism & government",
+  "Watches & luxury"
+ ],
+ "ptypes": [
+  "Club & team",
+  "National team",
+  "League & competition",
+  "Event",
+  "Governing body",
+  "Athlete & talent",
+  "Venue",
+  "Other"
+ ],
+ "typesStatusWords_help": "Values that describe status, not the partner's role. Never use as 'type' on new rows; put them in 'status'.",
+ "typesStatusWords": [
+  "Renewal",
+  "Extension",
+  "Expansion",
+  "Partnership",
+  "Sponsorship",
+  "Partner",
+  "Deal",
+  "Upgrade",
+  "New partner"
+ ]
+}

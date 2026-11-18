@@ -1,0 +1,2642 @@
+{
+ "_help": "    python3 tools/sources.py           # add any new domains (auto-classified), print the ones needing review\n    python3 tools/sources.py --check   # exit 1 if any banned or unreviewed domain is in deals.json",
+ "domains": {
+  "13cabs.com.au": {
+   "type": "official"
+  },
+  "350653.nottsccc.co.uk": {
+   "type": "official"
+  },
+  "49ers.com": {
+   "type": "official"
+  },
+  "7news.com.au": {
+   "type": "official"
+  },
+  "aarp.org": {
+   "type": "official"
+  },
+  "about.doordash.com": {
+   "type": "official"
+  },
+  "about.nike.com": {
+   "type": "official"
+  },
+  "about.rogers.com": {
+   "type": "official"
+  },
+  "access.intix.org": {
+   "type": "press"
+  },
+  "acffiorentina.com": {
+   "type": "official"
+  },
+  "acmilan.com": {
+   "type": "official"
+  },
+  "acpe.edu.au": {
+   "type": "official"
+  },
+  "acrisure.com": {
+   "type": "official"
+  },
+  "adbmag.com.au": {
+   "type": "press"
+  },
+  "adchatdfw.com": {
+   "type": "press"
+  },
+  "adelaide36ers.com": {
+   "type": "official"
+  },
+  "adelaidegrandfinal.com.au": {
+   "type": "official"
+  },
+  "adelaidelightning.wnbl.com.au": {
+   "type": "official"
+  },
+  "adelaidestrikers.com.au": {
+   "type": "official"
+  },
+  "adelaidethunderbirds.com.au": {
+   "type": "official"
+  },
+  "adelaideunited.com.au": {
+   "type": "official"
+  },
+  "adnews.com.au": {
+   "type": "press"
+  },
+  "advanced-television.com": {
+   "type": "press"
+  },
+  "afc.co.uk": {
+   "type": "official"
+  },
+  "afc.com.au": {
+   "type": "official"
+  },
+  "afcb.co.uk": {
+   "type": "official"
+  },
+  "afl.com.au": {
+   "type": "league"
+  },
+  "afterpayarena.com.au": {
+   "type": "official"
+  },
+  "ajg.com": {
+   "type": "official"
+  },
+  "albawaba.net": {
+   "type": "press"
+  },
+  "aleagues.com.au": {
+   "type": "official"
+  },
+  "allblacks.com": {
+   "type": "league"
+  },
+  "allianzstadium.com.au": {
+   "type": "official"
+  },
+  "am590theanswer.com": {
+   "type": "press"
+  },
+  "americanairlinescenter.com": {
+   "type": "official"
+  },
+  "anchordairy.com": {
+   "type": "official"
+  },
+  "angelcity.com": {
+   "type": "official"
+  },
+  "aol.com": {
+   "type": "syndicated"
+  },
+  "apparelsolutions.averydennison.com": {
+   "type": "official"
+  },
+  "applianceretailer.com.au": {
+   "type": "press"
+  },
+  "arsenal.com": {
+   "type": "official"
+  },
+  "asahi.com.au": {
+   "type": "official"
+  },
+  "asahibeverages.com": {
+   "type": "official"
+  },
+  "asmonaco.com": {
+   "type": "official"
+  },
+  "asroma.com": {
+   "type": "official"
+  },
+  "astonmartinf1.com": {
+   "type": "official"
+  },
+  "athletic-club.eus": {
+   "type": "official"
+  },
+  "athletics.com.au": {
+   "type": "official"
+  },
+  "athletics.org.nz": {
+   "type": "official"
+  },
+  "atlantafalcons.com": {
+   "type": "official"
+  },
+  "atlutd.com": {
+   "type": "official"
+  },
+  "atptour.com": {
+   "type": "official"
+  },
+  "aucklandcricket.co.nz": {
+   "type": "official"
+  },
+  "aucklandfc.co.nz": {
+   "type": "official"
+  },
+  "aucklandrugby.co.nz": {
+   "type": "official"
+  },
+  "auscycling.org.au": {
+   "type": "official"
+  },
+  "ausleisure.com.au": {
+   "type": "press"
+  },
+  "ausopen.com": {
+   "type": "official"
+  },
+  "austinfc.com": {
+   "type": "official"
+  },
+  "australia.basketball": {
+   "type": "official"
+  },
+  "australia.rugby": {
+   "type": "league"
+  },
+  "australianchampionship.com.au": {
+   "type": "league"
+  },
+  "australianturfclub.com.au": {
+   "type": "official"
+  },
+  "ausxsupercross.com.au": {
+   "type": "official"
+  },
+  "autoserviceworld.com": {
+   "type": "press"
+  },
+  "autotalk.com.au": {
+   "type": "press"
+  },
+  "autotrader.co.nz": {
+   "type": "press"
+  },
+  "avfc.co.uk": {
+   "type": "official"
+  },
+  "axios.com": {
+   "type": "press"
+  },
+  "azcardinals.com": {
+   "type": "official"
+  },
+  "azfamily.com": {
+   "type": "press"
+  },
+  "baileyladders.com.au": {
+   "type": "official"
+  },
+  "baltimoreravens.com": {
+   "type": "official"
+  },
+  "bandt.com.au": {
+   "type": "press"
+  },
+  "barchart.com": {
+   "type": "syndicated"
+  },
+  "basketballwa.asn.au": {
+   "type": "official"
+  },
+  "bathrugby.com": {
+   "type": "official"
+  },
+  "batteryworld.com.au": {
+   "type": "official"
+  },
+  "bayer04.de": {
+   "type": "official"
+  },
+  "bayfc.com": {
+   "type": "official"
+  },
+  "bcci.tv": {
+   "type": "official"
+  },
+  "bclions.com": {
+   "type": "official"
+  },
+  "bendigospirit.wnbl.com.au": {
+   "type": "official"
+  },
+  "bengals.com": {
+   "type": "official"
+  },
+  "bhp.com": {
+   "type": "official"
+  },
+  "birminghampanthers.com": {
+   "type": "official"
+  },
+  "blackbull.com": {
+   "type": "official"
+  },
+  "blog.govx.com": {
+   "type": "official"
+  },
+  "blog.komo.tech": {
+   "type": "official"
+  },
+  "blog.paniniamerica.net": {
+   "type": "official"
+  },
+  "blogs.pechanga.com": {
+   "type": "official"
+  },
+  "bloomenergy.com": {
+   "type": "official"
+  },
+  "bluebombers.com": {
+   "type": "official"
+  },
+  "blues.rugby": {
+   "type": "official"
+  },
+  "bolognafc.it": {
+   "type": "official"
+  },
+  "boprugby.co.nz": {
+   "type": "official"
+  },
+  "boq.com.au": {
+   "type": "official"
+  },
+  "borussia.de": {
+   "type": "official"
+  },
+  "bostonlegacyfc.com": {
+   "type": "official"
+  },
+  "bowls.com.au": {
+   "type": "official"
+  },
+  "bradfordbulls.co.uk": {
+   "type": "official"
+  },
+  "bradjonesracing.com.au": {
+   "type": "official"
+  },
+  "brc.com.au": {
+   "type": "official"
+  },
+  "brentfordfc.com": {
+   "type": "official"
+  },
+  "brightonandhovealbion.com": {
+   "type": "official"
+  },
+  "brisbanebullets.com.au": {
+   "type": "official"
+  },
+  "brisbaneheat.com.au": {
+   "type": "official"
+  },
+  "brisbaneroar.com.au": {
+   "type": "official"
+  },
+  "bristolbearsrugby.com": {
+   "type": "official"
+  },
+  "broadbandtvnews.com": {
+   "type": "press"
+  },
+  "broncos.com.au": {
+   "type": "official"
+  },
+  "browns.1rmg.com": {
+   "type": "official"
+  },
+  "brumbies.rugby": {
+   "type": "official"
+  },
+  "bsp.com.pg": {
+   "type": "official"
+  },
+  "buccaneers.com": {
+   "type": "official"
+  },
+  "bucks.com": {
+   "type": "official"
+  },
+  "buffalobills.com": {
+   "type": "official"
+  },
+  "bulldogs.com.au": {
+   "type": "official"
+  },
+  "business.mammothtimes.com": {
+   "type": "syndicated"
+  },
+  "business.minstercommunitypost.com": {
+   "type": "syndicated"
+  },
+  "business.seminolebusiness.org": {
+   "type": "syndicated"
+  },
+  "business.ticketmaster.com": {
+   "type": "official"
+  },
+  "businessnews.com.au": {
+   "type": "press"
+  },
+  "businessnewswales.com": {
+   "type": "press"
+  },
+  "businesswire.com": {
+   "type": "wire"
+  },
+  "bvb.de": {
+   "type": "official"
+  },
+  "cagliaricalcio.com": {
+   "type": "official"
+  },
+  "calbears.com": {
+   "type": "official"
+  },
+  "campaignme.com": {
+   "type": "press"
+  },
+  "camposcoffee.com": {
+   "type": "official"
+  },
+  "canadianrentalservice.com": {
+   "type": "press"
+  },
+  "canadiansme.ca": {
+   "type": "press"
+  },
+  "canberradaily.com.au": {
+   "type": "press"
+  },
+  "canberraunited.com.au": {
+   "type": "official"
+  },
+  "cantechletter.com": {
+   "type": "press"
+  },
+  "canterburycricket.org.nz": {
+   "type": "official"
+  },
+  "canterburyrugby.co.nz": {
+   "type": "official"
+  },
+  "capellisport.com": {
+   "type": "official"
+  },
+  "capitalone.com": {
+   "type": "official"
+  },
+  "capitalpower.com": {
+   "type": "official"
+  },
+  "cardiffrugby.wales": {
+   "type": "official"
+  },
+  "carltonfc.com.au": {
+   "type": "official"
+  },
+  "carreracup.com.au": {
+   "type": "official"
+  },
+  "carta.com": {
+   "type": "official"
+  },
+  "cashconverters.com.au": {
+   "type": "official"
+  },
+  "casino.org": {
+   "type": "press"
+  },
+  "castlefordtigers.com": {
+   "type": "official"
+  },
+  "catalansdragons.com": {
+   "type": "official"
+  },
+  "cbrands.com": {
+   "type": "official"
+  },
+  "cbssports.com": {
+   "type": "official"
+  },
+  "ccfc.co.uk": {
+   "type": "official"
+  },
+  "ccmariners.com.au": {
+   "type": "official"
+  },
+  "cdcricket.co.nz": {
+   "type": "official"
+  },
+  "celticfc.com": {
+   "type": "official"
+  },
+  "cfjctoday.com": {
+   "type": "press"
+  },
+  "cflnewshub.com": {
+   "type": "blog"
+  },
+  "cfmontreal.com": {
+   "type": "official"
+  },
+  "chargers.com": {
+   "type": "official"
+  },
+  "charlottefootballclub.com": {
+   "type": "official"
+  },
+  "chelseafc.com": {
+   "type": "official"
+  },
+  "chicagobears.com": {
+   "type": "official"
+  },
+  "chicagofirefc.com": {
+   "type": "official"
+  },
+  "chicagostars.com": {
+   "type": "official"
+  },
+  "chiefs.co.nz": {
+   "type": "official"
+  },
+  "chiefs.com": {
+   "type": "official"
+  },
+  "churchilldowns.com": {
+   "type": "official"
+  },
+  "citybiz.co": {
+   "type": "syndicated"
+  },
+  "clevelandbrowns.com": {
+   "type": "official"
+  },
+  "cmrfu.co.nz": {
+   "type": "official"
+  },
+  "cms.vrc.com.au": {
+   "type": "official"
+  },
+  "collingwoodfc.com.au": {
+   "type": "official"
+  },
+  "coloradobiz.com": {
+   "type": "press"
+  },
+  "coloradorapids.com": {
+   "type": "official"
+  },
+  "colts.com": {
+   "type": "official"
+  },
+  "columbuscrew.com": {
+   "type": "official"
+  },
+  "commanders.com": {
+   "type": "official"
+  },
+  "commbank.com.au": {
+   "type": "official"
+  },
+  "commonwealthgames.com.au": {
+   "type": "official"
+  },
+  "comofootball.com": {
+   "type": "official"
+  },
+  "concacaf.com": {
+   "type": "official"
+  },
+  "connachtrugby.ie": {
+   "type": "official"
+  },
+  "containerexchange.com.au": {
+   "type": "official"
+  },
+  "content-technology.com": {
+   "type": "press"
+  },
+  "content.pistons.com": {
+   "type": "official"
+  },
+  "coopers.com.au": {
+   "type": "official"
+  },
+  "corpay.com": {
+   "type": "official"
+  },
+  "corporate.haier-europe.com": {
+   "type": "official"
+  },
+  "corporate.homedepot.com": {
+   "type": "official"
+  },
+  "corporate.ralphlauren.com": {
+   "type": "official"
+  },
+  "corporate.visa.com": {
+   "type": "official"
+  },
+  "corporate.walmart.com": {
+   "type": "official"
+  },
+  "corusent.com": {
+   "type": "press"
+  },
+  "cosmeticsbusiness.com": {
+   "type": "press"
+  },
+  "covers.com": {
+   "type": "press"
+  },
+  "cowboys.com.au": {
+   "type": "official"
+  },
+  "cowboysfoundation.org.au": {
+   "type": "official"
+  },
+  "cpfc.co.uk": {
+   "type": "official"
+  },
+  "cplsoccer.com": {
+   "type": "press"
+  },
+  "cricexec.com": {
+   "type": "press"
+  },
+  "cricket.com.au": {
+   "type": "official"
+  },
+  "cricket.lancashirecricket.co.uk": {
+   "type": "official"
+  },
+  "cricketnsw.com.au": {
+   "type": "official"
+  },
+  "crickettas.com.au": {
+   "type": "official"
+  },
+  "cricketvictoria.com.au": {
+   "type": "official"
+  },
+  "cricketwellington.co.nz": {
+   "type": "official"
+  },
+  "cricketworld.com": {
+   "type": "press"
+  },
+  "cricviz.com": {
+   "type": "official"
+  },
+  "crusaders.co.nz": {
+   "type": "official"
+  },
+  "cybercx.com.au": {
+   "type": "official"
+  },
+  "cyca.com.au": {
+   "type": "official"
+  },
+  "cyclingnews.com": {
+   "type": "press"
+  },
+  "cyprus-mail.com": {
+   "type": "press"
+  },
+  "dallascowboys.com": {
+   "type": "official"
+  },
+  "daviscup.com": {
+   "type": "official"
+  },
+  "dazngroup.com": {
+   "type": "official"
+  },
+  "dcunited.com": {
+   "type": "official"
+  },
+  "denverbroncos.com": {
+   "type": "official"
+  },
+  "denversummitfc.com": {
+   "type": "official"
+  },
+  "deportivoalaves.com": {
+   "type": "official"
+  },
+  "derbyshireccc.com": {
+   "type": "official"
+  },
+  "detcityfc.com": {
+   "type": "official"
+  },
+  "detroitlions.com": {
+   "type": "official"
+  },
+  "devilsfc.com.au": {
+   "type": "official"
+  },
+  "dolphinsnrl.com.au": {
+   "type": "official"
+  },
+  "dpworld.com": {
+   "type": "official"
+  },
+  "dragons.com.au": {
+   "type": "official"
+  },
+  "dragonsnetball.com": {
+   "type": "official"
+  },
+  "dragonsrfc.wales": {
+   "type": "official"
+  },
+  "dream.wnba.com": {
+   "type": "league"
+  },
+  "dreamworld.com.au": {
+   "type": "official"
+  },
+  "drinksdigest.com": {
+   "type": "press"
+  },
+  "drua.rugby": {
+   "type": "official"
+  },
+  "dubairacingclub.com": {
+   "type": "official"
+  },
+  "dundeefc.co.uk": {
+   "type": "official"
+  },
+  "dundeeunitedfc.co.uk": {
+   "type": "official"
+  },
+  "durhamcricket.co.uk": {
+   "type": "official"
+  },
+  "ebu.ch": {
+   "type": "official"
+  },
+  "ecb.co.uk": {
+   "type": "official"
+  },
+  "edgbaston.com": {
+   "type": "official"
+  },
+  "edinburghrugby.org": {
+   "type": "official"
+  },
+  "efl.com": {
+   "type": "official"
+  },
+  "elchecf.es": {
+   "type": "official"
+  },
+  "emirates.com": {
+   "type": "official"
+  },
+  "en.atalanta.it": {
+   "type": "official"
+  },
+  "en.atleticodemadrid.com": {
+   "type": "official"
+  },
+  "en.prnasia.com": {
+   "type": "wire"
+  },
+  "en.sedaily.com": {
+   "type": "press"
+  },
+  "englandfootball.com": {
+   "type": "official"
+  },
+  "englandrugby.com": {
+   "type": "official"
+  },
+  "english.ajel.sa": {
+   "type": "press"
+  },
+  "epcrugby.com": {
+   "type": "official"
+  },
+  "erebusmotorsport.com": {
+   "type": "official"
+  },
+  "espn.com": {
+   "type": "press"
+  },
+  "esportsradar.gg": {
+   "type": "press"
+  },
+  "esportsworldcup.com": {
+   "type": "official"
+  },
+  "essendonfc.com.au": {
+   "type": "official"
+  },
+  "essexcricket.org.uk": {
+   "type": "official"
+  },
+  "europeantour.com": {
+   "type": "official"
+  },
+  "evertonfc.com": {
+   "type": "official"
+  },
+  "exeterchiefs.co.uk": {
+   "type": "official"
+  },
+  "facebook.com": {
+   "type": "social"
+  },
+  "falkirkfc.co.uk": {
+   "type": "official"
+  },
+  "fanaticsinc.com": {
+   "type": "official"
+  },
+  "fashionunited.com": {
+   "type": "press"
+  },
+  "fc-union-berlin.de": {
+   "type": "official"
+  },
+  "fc.de": {
+   "type": "official"
+  },
+  "fcaugsburg.de": {
+   "type": "official"
+  },
+  "fcbarcelona.com": {
+   "type": "official"
+  },
+  "fcbayern.com": {
+   "type": "official"
+  },
+  "fccincinnati.com": {
+   "type": "official"
+  },
+  "fcdallas.com": {
+   "type": "official"
+  },
+  "ferrari.com": {
+   "type": "official"
+  },
+  "fever.wnba.com": {
+   "type": "league"
+  },
+  "fiaformulae.com": {
+   "type": "official"
+  },
+  "fil-luge.org": {
+   "type": "official"
+  },
+  "finance.yahoo.com": {
+   "type": "press"
+  },
+  "financemagnates.com": {
+   "type": "press"
+  },
+  "financialit.net": {
+   "type": "press"
+  },
+  "finanzen.net": {
+   "type": "syndicated"
+  },
+  "firebirds.net.au": {
+   "type": "official"
+  },
+  "firstcallgolf.com": {
+   "type": "press"
+  },
+  "floridagators.com": {
+   "type": "official"
+  },
+  "foodnavigator.com": {
+   "type": "press"
+  },
+  "foot-sur7.fr": {
+   "type": "press"
+  },
+  "footballaustralia.com.au": {
+   "type": "official"
+  },
+  "footyheadlines.com": {
+   "type": "press"
+  },
+  "formula1.com": {
+   "type": "official"
+  },
+  "formulareport.com": {
+   "type": "press"
+  },
+  "fox4news.com": {
+   "type": "press"
+  },
+  "fox5vegas.com": {
+   "type": "press"
+  },
+  "foxtelmedia.com.au": {
+   "type": "official"
+  },
+  "franchisors.franchising.com": {
+   "type": "syndicated"
+  },
+  "fremantlefc.com.au": {
+   "type": "official"
+  },
+  "frontofficesports.com": {
+   "type": "press"
+  },
+  "fulhamfc.com": {
+   "type": "official"
+  },
+  "fxnewsgroup.com": {
+   "type": "press"
+  },
+  "g3newswire.com": {
+   "type": "wire"
+  },
+  "gainbridgefieldhouse.com": {
+   "type": "official"
+  },
+  "gamingintelligence.com": {
+   "type": "press"
+  },
+  "gateleyplc.com": {
+   "type": "official"
+  },
+  "geelongcats.com.au": {
+   "type": "official"
+  },
+  "geelongunitedbasketball.com.au": {
+   "type": "official"
+  },
+  "geico.com": {
+   "type": "official"
+  },
+  "generalatlantic.com": {
+   "type": "official"
+  },
+  "genoacfc.it": {
+   "type": "official"
+  },
+  "getafecf.com": {
+   "type": "official"
+  },
+  "giants.com": {
+   "type": "official"
+  },
+  "giantsrl.com": {
+   "type": "official"
+  },
+  "gilbert-netball.com": {
+   "type": "official"
+  },
+  "glamorgancricket.com": {
+   "type": "official"
+  },
+  "glasgowwarriors.org": {
+   "type": "official"
+  },
+  "glimt.no": {
+   "type": "official"
+  },
+  "globenewswire.com": {
+   "type": "wire"
+  },
+  "gloscricket.co.uk": {
+   "type": "official"
+  },
+  "gloucesterrugby.co.uk": {
+   "type": "official"
+  },
+  "goelks.com": {
+   "type": "official"
+  },
+  "goldcoastfc.com.au": {
+   "type": "official"
+  },
+  "golf.com.au": {
+   "type": "league"
+  },
+  "golf.org.au": {
+   "type": "official"
+  },
+  "golfaustralia.com.au": {
+   "type": "league"
+  },
+  "golfbusinessnews.com": {
+   "type": "press"
+  },
+  "golfzongolf.com": {
+   "type": "official"
+  },
+  "golobos.com": {
+   "type": "official"
+  },
+  "gosugamers.net": {
+   "type": "press"
+  },
+  "gothamfc.com": {
+   "type": "official"
+  },
+  "grandprix.com.au": {
+   "type": "official"
+  },
+  "grantthornton.com.au": {
+   "type": "official"
+  },
+  "greatsouthernbank.com.au": {
+   "type": "official"
+  },
+  "group.bnpparibas": {
+   "type": "official"
+  },
+  "gwsgiants.com.au": {
+   "type": "official"
+  },
+  "haasf1team.com": {
+   "type": "official"
+  },
+  "haier.com": {
+   "type": "official"
+  },
+  "hancockprospecting.com.au": {
+   "type": "official"
+  },
+  "harbourrugby.co.nz": {
+   "type": "official"
+  },
+  "harvey.ai": {
+   "type": "official"
+  },
+  "hawkesbrewing.com": {
+   "type": "official"
+  },
+  "hawkeyesports.com": {
+   "type": "official"
+  },
+  "hawks.com.au": {
+   "type": "official"
+  },
+  "hawthornfc.com.au": {
+   "type": "official"
+  },
+  "heartsfc.co.uk": {
+   "type": "official"
+  },
+  "hellasverona.it": {
+   "type": "official"
+  },
+  "hfcompanies.com": {
+   "type": "official"
+  },
+  "hibernianfc.co.uk": {
+   "type": "official"
+  },
+  "hipther.com": {
+   "type": "syndicated"
+  },
+  "hobarthurricanes.com.au": {
+   "type": "official"
+  },
+  "hockey.org.au": {
+   "type": "official"
+  },
+  "hockeyone.com.au": {
+   "type": "official"
+  },
+  "hoopfeed.com": {
+   "type": "blog"
+  },
+  "houstondynamofc.com": {
+   "type": "official"
+  },
+  "houstontexans.com": {
+   "type": "official"
+  },
+  "howdengroup.com": {
+   "type": "official"
+  },
+  "hsv.de": {
+   "type": "official"
+  },
+  "hullfc.com": {
+   "type": "official"
+  },
+  "hullkr.co.uk": {
+   "type": "official"
+  },
+  "hurricanes.co.nz": {
+   "type": "official"
+  },
+  "hyundaimotorgroup.com": {
+   "type": "official"
+  },
+  "iag.com.au": {
+   "type": "official"
+  },
+  "iheartmedia.com": {
+   "type": "official"
+  },
+  "indailysa.com.au": {
+   "type": "press"
+  },
+  "indianapolisrecorder.com": {
+   "type": "press"
+  },
+  "industrialsupplymagazine.com": {
+   "type": "press"
+  },
+  "industryqld.com.au": {
+   "type": "press"
+  },
+  "indycar.com": {
+   "type": "league"
+  },
+  "infinite.com": {
+   "type": "official"
+  },
+  "insidethegames.biz": {
+   "type": "press"
+  },
+  "insideworldfootball.com": {
+   "type": "press"
+  },
+  "instagram.com": {
+   "type": "social"
+  },
+  "insurancebusinessmag.com": {
+   "type": "press"
+  },
+  "inter.it": {
+   "type": "official"
+  },
+  "intermiamicf.com": {
+   "type": "official"
+  },
+  "investor.msgsports.com": {
+   "type": "official"
+  },
+  "investor.sphereentertainmentco.com": {
+   "type": "official"
+  },
+  "ipswich.qld.gov.au": {
+   "type": "official"
+  },
+  "ir.firsthorizon.com": {
+   "type": "official"
+  },
+  "irishrugby.ie": {
+   "type": "official"
+  },
+  "islandsbusiness.com": {
+   "type": "press"
+  },
+  "isuzuute.com.au": {
+   "type": "official"
+  },
+  "itfc.co.uk": {
+   "type": "official"
+  },
+  "jackjumpers.com.au": {
+   "type": "official"
+  },
+  "jaguars.co.uk": {
+   "type": "press"
+  },
+  "jaguars.com": {
+   "type": "official"
+  },
+  "jayski.com": {
+   "type": "press"
+  },
+  "jonesradiology.com.au": {
+   "type": "official"
+  },
+  "juventus.com": {
+   "type": "official"
+  },
+  "kansascitycurrent.com": {
+   "type": "official"
+  },
+  "kentcricket.co.uk": {
+   "type": "official"
+  },
+  "kentuckyderby.com": {
+   "type": "official"
+  },
+  "kiaoval.com": {
+   "type": "official"
+  },
+  "kilmarnockfc.co.uk": {
+   "type": "official"
+  },
+  "klaviyo.com": {
+   "type": "official"
+  },
+  "klub.eintracht.de": {
+   "type": "official"
+  },
+  "ktm.com": {
+   "type": "official"
+  },
+  "kumho.com.au": {
+   "type": "official"
+  },
+  "la28.org": {
+   "type": "official"
+  },
+  "lafc.com": {
+   "type": "official"
+  },
+  "lagalaxy.com": {
+   "type": "official"
+  },
+  "lardermag.co.uk": {
+   "type": "press"
+  },
+  "latrobefinancial.com.au": {
+   "type": "official"
+  },
+  "lboro.ac.uk": {
+   "type": "official"
+  },
+  "leedsunited.com": {
+   "type": "official"
+  },
+  "legendsglobal.com": {
+   "type": "official"
+  },
+  "leicestershireccc.co.uk": {
+   "type": "official"
+  },
+  "leicestertigers.com": {
+   "type": "official"
+  },
+  "leighleopards.co.uk": {
+   "type": "official"
+  },
+  "leinsterrugby.ie": {
+   "type": "official"
+  },
+  "levanteud.com": {
+   "type": "official"
+  },
+  "liberty.wnba.com": {
+   "type": "league"
+  },
+  "licenseglobal.com": {
+   "type": "press"
+  },
+  "lifestyle.kbew98country.com": {
+   "type": "syndicated"
+  },
+  "linkedin.com": {
+   "type": "social"
+  },
+  "lionco.com": {
+   "type": "official"
+  },
+  "lions.com.au": {
+   "type": "official"
+  },
+  "lionsrugby.com": {
+   "type": "official"
+  },
+  "liqui-moly.com": {
+   "type": "official"
+  },
+  "lite.aol.com": {
+   "type": "syndicated"
+  },
+  "live.euronext.com": {
+   "type": "syndicated"
+  },
+  "liverpoolfc.com": {
+   "type": "official"
+  },
+  "livgolf.com": {
+   "type": "official"
+  },
+  "localmemphis.com": {
+   "type": "press"
+  },
+  "londonmavericks.co.uk": {
+   "type": "official"
+  },
+  "londonpulsenetball.com": {
+   "type": "official"
+  },
+  "londonspirit.com": {
+   "type": "official"
+  },
+  "lynx.wnba.com": {
+   "type": "league"
+  },
+  "m283arabia.com": {
+   "type": "press"
+  },
+  "macarthurfc.com.au": {
+   "type": "official"
+  },
+  "mainz05.de": {
+   "type": "official"
+  },
+  "malagacf.com": {
+   "type": "official"
+  },
+  "manawaturugby.co.nz": {
+   "type": "official"
+  },
+  "manchestersupergiants.co.uk": {
+   "type": "official"
+  },
+  "mancity.com": {
+   "type": "official"
+  },
+  "manutd.com": {
+   "type": "official"
+  },
+  "marketchameleon.com": {
+   "type": "syndicated"
+  },
+  "marketing-interactive.com": {
+   "type": "press"
+  },
+  "marketscreener.com": {
+   "type": "syndicated"
+  },
+  "mars.com": {
+   "type": "official"
+  },
+  "marvelstadium.com.au": {
+   "type": "official"
+  },
+  "matatu.co.nz": {
+   "type": "official"
+  },
+  "matildas.com.au": {
+   "type": "official"
+  },
+  "mcdonalds.com": {
+   "type": "official"
+  },
+  "mclaren.com": {
+   "type": "official"
+  },
+  "mecca.com": {
+   "type": "official"
+  },
+  "media.chase.com": {
+   "type": "official"
+  },
+  "media.truist.com": {
+   "type": "official"
+  },
+  "media.wbdsports.com": {
+   "type": "official"
+  },
+  "mediahub.puma.com": {
+   "type": "official"
+  },
+  "mediaincanada.com": {
+   "type": "press"
+  },
+  "mediaweek.com.au": {
+   "type": "press"
+  },
+  "melbournecityfc.com.au": {
+   "type": "official"
+  },
+  "melbournefc.com.au": {
+   "type": "official"
+  },
+  "melbournemavericks.com": {
+   "type": "official"
+  },
+  "melbournepark.com.au": {
+   "type": "official"
+  },
+  "melbournerenegades.com.au": {
+   "type": "official"
+  },
+  "melbournestars.com.au": {
+   "type": "official"
+  },
+  "melbournestorm.com.au": {
+   "type": "official"
+  },
+  "melbourneutd.com.au": {
+   "type": "official"
+  },
+  "melbournevictory.com.au": {
+   "type": "official"
+  },
+  "melbournevixens.com.au": {
+   "type": "official"
+  },
+  "mercury.wnba.com": {
+   "type": "league"
+  },
+  "meter.com": {
+   "type": "official"
+  },
+  "mi-3.com.au": {
+   "type": "press"
+  },
+  "miamidolphins.com": {
+   "type": "official"
+  },
+  "middlesexccc.com": {
+   "type": "official"
+  },
+  "millerchildrens.memorialcare.org": {
+   "type": "official"
+  },
+  "milondon.co.uk": {
+   "type": "official"
+  },
+  "ministryofsport.com": {
+   "type": "press"
+  },
+  "mlb.com": {
+   "type": "league"
+  },
+  "mlssoccer.com": {
+   "type": "official"
+  },
+  "mnufc.com": {
+   "type": "official"
+  },
+  "moderntiredealer.com": {
+   "type": "press"
+  },
+  "montrealalouettes.com": {
+   "type": "official"
+  },
+  "monumentalsports.com": {
+   "type": "official"
+  },
+  "mooloo.co.nz": {
+   "type": "official"
+  },
+  "motherwellfc.co.uk": {
+   "type": "official"
+  },
+  "motogp.com": {
+   "type": "official"
+  },
+  "motoonline.com": {
+   "type": "press"
+  },
+  "motorscout.com.au": {
+   "type": "official"
+  },
+  "mumbrella.com.au": {
+   "type": "press"
+  },
+  "munsterrugby.ie": {
+   "type": "official"
+  },
+  "mutigers.com": {
+   "type": "official"
+  },
+  "mystics.wnba.com": {
+   "type": "league"
+  },
+  "napaparts.com.au": {
+   "type": "official"
+  },
+  "nascar.com": {
+   "type": "official"
+  },
+  "nashvillesc.com": {
+   "type": "official"
+  },
+  "navacord.com": {
+   "type": "official"
+  },
+  "nba.com": {
+   "type": "league"
+  },
+  "nbl.com.au": {
+   "type": "official"
+  },
+  "nccc.co.uk": {
+   "type": "official"
+  },
+  "nccourage.com": {
+   "type": "official"
+  },
+  "ndcricket.co.nz": {
+   "type": "official"
+  },
+  "nectr.com.au": {
+   "type": "official"
+  },
+  "netball.com.au": {
+   "type": "official"
+  },
+  "netball.sport": {
+   "type": "league"
+  },
+  "netball.therhinos.co.uk": {
+   "type": "official"
+  },
+  "netballmagic.co.nz": {
+   "type": "official"
+  },
+  "netballwellington.co.nz": {
+   "type": "official"
+  },
+  "newcastlejetsfc.com.au": {
+   "type": "official"
+  },
+  "newcastleknights.com.au": {
+   "type": "official"
+  },
+  "newcastleredbulls.com": {
+   "type": "official"
+  },
+  "newcastleunited.com": {
+   "type": "official"
+  },
+  "neworleanssaints.com": {
+   "type": "official"
+  },
+  "news.adobe.com": {
+   "type": "official"
+  },
+  "news.eonenergy.com": {
+   "type": "official"
+  },
+  "news.intermountainhealth.org": {
+   "type": "official"
+  },
+  "news.microsoft.com": {
+   "type": "official"
+  },
+  "news.rice.edu": {
+   "type": "official"
+  },
+  "newscenter.purina.com": {
+   "type": "official"
+  },
+  "newshub.medianet.com.au": {
+   "type": "wire"
+  },
+  "newsroom.407etr.com": {
+   "type": "official"
+  },
+  "newsroom.bmo.com": {
+   "type": "official"
+  },
+  "newsroom.feverup.com": {
+   "type": "official"
+  },
+  "newsroom.sephora.com": {
+   "type": "official"
+  },
+  "newsroom.tiktok.com": {
+   "type": "social"
+  },
+  "newsroom.viagogo.com": {
+   "type": "official"
+  },
+  "newswire.ca": {
+   "type": "wire"
+  },
+  "newyorkcityfc.com": {
+   "type": "official"
+  },
+  "newyorkjets.com": {
+   "type": "official"
+  },
+  "newyorkredbulls.com": {
+   "type": "official"
+  },
+  "nhl.com": {
+   "type": "league"
+  },
+  "nmfc.com.au": {
+   "type": "official"
+  },
+  "nombase.com": {
+   "type": "syndicated"
+  },
+  "northamptonsaints.co.uk": {
+   "type": "official"
+  },
+  "northernmystics.co.nz": {
+   "type": "official"
+  },
+  "northlandrugby.co.nz": {
+   "type": "official"
+  },
+  "nottinghamforest.co.uk": {
+   "type": "official"
+  },
+  "nplpickleball.com.au": {
+   "type": "official"
+  },
+  "nrl.com": {
+   "type": "league"
+  },
+  "nsw.netball.com.au": {
+   "type": "official"
+  },
+  "nsw.rugby": {
+   "type": "official"
+  },
+  "nswrl.com.au": {
+   "type": "official"
+  },
+  "nswswifts.com.au": {
+   "type": "official"
+  },
+  "nz.basketball": {
+   "type": "official"
+  },
+  "nzbreakers.basketball": {
+   "type": "official"
+  },
+  "nzc.nz": {
+   "type": "official"
+  },
+  "nzfootball.co.nz": {
+   "type": "official"
+  },
+  "nzherald.co.nz": {
+   "type": "press"
+  },
+  "nzrl.co.nz": {
+   "type": "official"
+  },
+  "nzrugby.co.nz": {
+   "type": "official"
+  },
+  "olympic.org.nz": {
+   "type": "official"
+  },
+  "olympics.com": {
+   "type": "league"
+  },
+  "olympics.com.au": {
+   "type": "official"
+  },
+  "omodajaecoo.com.au": {
+   "type": "official"
+  },
+  "ondeck.com.au": {
+   "type": "official"
+  },
+  "oneelevate.com": {
+   "type": "blog"
+  },
+  "onmontlake.com": {
+   "type": "press"
+  },
+  "oppostore.co.nz": {
+   "type": "official"
+  },
+  "optusstadium.com.au": {
+   "type": "official"
+  },
+  "orfu.co.nz": {
+   "type": "official"
+  },
+  "orlandocitysc.com": {
+   "type": "official"
+  },
+  "orthosouth.org": {
+   "type": "official"
+  },
+  "osasuna.es": {
+   "type": "official"
+  },
+  "ospreysrugby.com": {
+   "type": "official"
+  },
+  "otagocricket.co.nz": {
+   "type": "official"
+  },
+  "ottawaredblacks.com": {
+   "type": "official"
+  },
+  "ouraring.com": {
+   "type": "official"
+  },
+  "oursportscentral.com": {
+   "type": "blog"
+  },
+  "pacificsciencecenter.org": {
+   "type": "official"
+  },
+  "packers.com": {
+   "type": "official"
+  },
+  "panthers.com": {
+   "type": "official"
+  },
+  "paralympic.org.au": {
+   "type": "official"
+  },
+  "paramountanz.com.au": {
+   "type": "official"
+  },
+  "parmacalcio1913.com": {
+   "type": "official"
+  },
+  "parraeels.com.au": {
+   "type": "official"
+  },
+  "patriots.com": {
+   "type": "official"
+  },
+  "pbr.com": {
+   "type": "official"
+  },
+  "penrite-racing.com.au": {
+   "type": "official"
+  },
+  "penrithpanthers.com.au": {
+   "type": "official"
+  },
+  "peoplefirstbank.com.au": {
+   "type": "official"
+  },
+  "perthbears.com.au": {
+   "type": "official"
+  },
+  "perthglory.com.au": {
+   "type": "official"
+  },
+  "perthlynx.wnbl.com.au": {
+   "type": "official"
+  },
+  "perthscorchers.com.au": {
+   "type": "official"
+  },
+  "perthstjohnstonefc.co.uk": {
+   "type": "official"
+  },
+  "pgatour.com": {
+   "type": "official"
+  },
+  "philadelphiaeagles.com": {
+   "type": "official"
+  },
+  "philadelphiaunion.com": {
+   "type": "official"
+  },
+  "pisasportingclub.com": {
+   "type": "official"
+  },
+  "plantautomation.com": {
+   "type": "press"
+  },
+  "polytecstadium.com.au": {
+   "type": "official"
+  },
+  "portadelaidefc.com.au": {
+   "type": "official"
+  },
+  "portadownfc.co.uk": {
+   "type": "official"
+  },
+  "pr.nba.com": {
+   "type": "league"
+  },
+  "premiairracing.com": {
+   "type": "official"
+  },
+  "press.aboutamazon.com": {
+   "type": "official"
+  },
+  "presse.strauss.com": {
+   "type": "official"
+  },
+  "pressmare.it": {
+   "type": "press"
+  },
+  "pressroom.lexus.com": {
+   "type": "official"
+  },
+  "pressroom.tissotwatches.com": {
+   "type": "official"
+  },
+  "prnewswire.co.uk": {
+   "type": "wire"
+  },
+  "prnewswire.com": {
+   "type": "wire"
+  },
+  "procyclinguk.com": {
+   "type": "press"
+  },
+  "protothema.gr": {
+   "type": "press"
+  },
+  "prowrestling.net": {
+   "type": "press"
+  },
+  "prweb.com": {
+   "type": "wire"
+  },
+  "psg.fr": {
+   "type": "official"
+  },
+  "purdue.edu": {
+   "type": "official"
+  },
+  "qld.netball.com.au": {
+   "type": "official"
+  },
+  "qld.rugby": {
+   "type": "official"
+  },
+  "qldcricket.com.au": {
+   "type": "official"
+  },
+  "qsl.qa": {
+   "type": "official"
+  },
+  "qsrweb.com": {
+   "type": "press"
+  },
+  "queensland.basketball": {
+   "type": "official"
+  },
+  "questapartments.co.nz": {
+   "type": "official"
+  },
+  "quins.co.uk": {
+   "type": "official"
+  },
+  "rabbitohs.com.au": {
+   "type": "official"
+  },
+  "racarena.com.au": {
+   "type": "official"
+  },
+  "racingloufc.com": {
+   "type": "official"
+  },
+  "racingnews365.com": {
+   "type": "press"
+  },
+  "racq.com.au": {
+   "type": "official"
+  },
+  "raiders.com": {
+   "type": "official"
+  },
+  "raiders.com.au": {
+   "type": "official"
+  },
+  "rangers.co.uk": {
+   "type": "official"
+  },
+  "rayovallecano.es": {
+   "type": "official"
+  },
+  "raywhite.com": {
+   "type": "official"
+  },
+  "rbfcu.org": {
+   "type": "official"
+  },
+  "rbleipzig.com": {
+   "type": "official"
+  },
+  "rca.com": {
+   "type": "official"
+  },
+  "rccelta.es": {
+   "type": "official"
+  },
+  "rcdeportivo.es": {
+   "type": "official"
+  },
+  "rcdespanyol.com": {
+   "type": "official"
+  },
+  "realbetisbalompie.es": {
+   "type": "official"
+  },
+  "realmadrid.com": {
+   "type": "official"
+  },
+  "realracingclub.es": {
+   "type": "official"
+  },
+  "realsociedad.eus": {
+   "type": "official"
+  },
+  "redbullampolracing.com.au": {
+   "type": "official"
+  },
+  "redenergyarena.com.au": {
+   "type": "official"
+  },
+  "reds.rugby": {
+   "type": "official"
+  },
+  "reignfc.com": {
+   "type": "official"
+  },
+  "retailtouchpoints.com": {
+   "type": "press"
+  },
+  "revofitness.com.au": {
+   "type": "official"
+  },
+  "revolutionsoccer.net": {
+   "type": "official"
+  },
+  "reyescocacola.com": {
+   "type": "official"
+  },
+  "rfg.com.au": {
+   "type": "press"
+  },
+  "richmondfc.com.au": {
+   "type": "official"
+  },
+  "riderville.com": {
+   "type": "official"
+  },
+  "ringmagazine.com": {
+   "type": "press"
+  },
+  "riotinto.com": {
+   "type": "official"
+  },
+  "rlwc2017.com": {
+   "type": "official"
+  },
+  "roi-nj.com": {
+   "type": "press"
+  },
+  "rolexsydneyhobart.com": {
+   "type": "official"
+  },
+  "roosters.com.au": {
+   "type": "official"
+  },
+  "roosterscorporate.com.au": {
+   "type": "official"
+  },
+  "roundtable.io": {
+   "type": "blog"
+  },
+  "rsl.com": {
+   "type": "official"
+  },
+  "rsm.global": {
+   "type": "official"
+  },
+  "rugby.com.au": {
+   "type": "league"
+  },
+  "rugbybricks.com": {
+   "type": "official"
+  },
+  "rugbypass.com": {
+   "type": "official"
+  },
+  "rugbyworldcup.com": {
+   "type": "official"
+  },
+  "s-trend.com.au": {
+   "type": "official"
+  },
+  "saca.com.au": {
+   "type": "official"
+  },
+  "safc.com": {
+   "type": "official"
+  },
+  "sahof.org.au": {
+   "type": "official"
+  },
+  "saints.com.au": {
+   "type": "official"
+  },
+  "saintsrlfc.com": {
+   "type": "official"
+  },
+  "salesharks.com": {
+   "type": "official"
+  },
+  "sandiegofc.com": {
+   "type": "official"
+  },
+  "sandiegowavefc.com": {
+   "type": "official"
+  },
+  "saracens.com": {
+   "type": "official"
+  },
+  "sassuolocalcio.it": {
+   "type": "official"
+  },
+  "sbcamericas.com": {
+   "type": "press"
+  },
+  "sbs.com.au": {
+   "type": "official"
+  },
+  "sca.com.au": {
+   "type": "official"
+  },
+  "scarlets.wales": {
+   "type": "official"
+  },
+  "scfreiburg.com": {
+   "type": "official"
+  },
+  "schalke04.de": {
+   "type": "official"
+  },
+  "scottishrugby.org": {
+   "type": "official"
+  },
+  "scp07.de": {
+   "type": "official"
+  },
+  "seaeagles.com.au": {
+   "type": "official"
+  },
+  "seahawks.com": {
+   "type": "official"
+  },
+  "seatrade-cruise.com": {
+   "type": "press"
+  },
+  "semphoenix.com.au": {
+   "type": "official"
+  },
+  "sen.com.au": {
+   "type": "official"
+  },
+  "sevillafc.es": {
+   "type": "official"
+  },
+  "sharks.com.au": {
+   "type": "official"
+  },
+  "si.com": {
+   "type": "official"
+  },
+  "silverferns.co.nz": {
+   "type": "official"
+  },
+  "sjearthquakes.com": {
+   "type": "official"
+  },
+  "sky.wnba.com": {
+   "type": "league"
+  },
+  "skycityentertainmentgroup.com": {
+   "type": "official"
+  },
+  "slbenfica.pt": {
+   "type": "official"
+  },
+  "sneakernews.com": {
+   "type": "press"
+  },
+  "socceroos.com.au": {
+   "type": "official"
+  },
+  "soccerscene.com.au": {
+   "type": "press"
+  },
+  "softball.org.au": {
+   "type": "official"
+  },
+  "sokin.com": {
+   "type": "official"
+  },
+  "somersetcountycc.co.uk": {
+   "type": "official"
+  },
+  "soundersfc.com": {
+   "type": "official"
+  },
+  "south32.net": {
+   "type": "official"
+  },
+  "southernbrave.com": {
+   "type": "official"
+  },
+  "southernsteel.co.nz": {
+   "type": "official"
+  },
+  "sparks.wnba.com": {
+   "type": "league"
+  },
+  "spectrumcentercharlotte.com": {
+   "type": "official"
+  },
+  "sponsorship.org": {
+   "type": "press"
+  },
+  "sport.qld.gov.au": {
+   "type": "official"
+  },
+  "sportbusiness.club": {
+   "type": "blog"
+  },
+  "sportcal.com": {
+   "type": "press"
+  },
+  "sportforbusiness.com": {
+   "type": "press"
+  },
+  "sportingkc.com": {
+   "type": "official"
+  },
+  "sports.yahoo.com": {
+   "type": "syndicated"
+  },
+  "sportskhabri.com": {
+   "type": "press"
+  },
+  "sportsmintmedia.com": {
+   "type": "press"
+  },
+  "sportspro.com": {
+   "type": "press"
+  },
+  "sportstravelmagazine.com": {
+   "type": "press"
+  },
+  "sportsvideo.org": {
+   "type": "press"
+  },
+  "sporty.co.nz": {
+   "type": "league"
+  },
+  "squashaus.com.au": {
+   "type": "official"
+  },
+  "sscnapoli.it": {
+   "type": "official"
+  },
+  "sslazio.it": {
+   "type": "official"
+  },
+  "stampeders.com": {
+   "type": "official"
+  },
+  "starsnetball.co.nz": {
+   "type": "official"
+  },
+  "startribune.com": {
+   "type": "press"
+  },
+  "statsports.com": {
+   "type": "official"
+  },
+  "steelers.com": {
+   "type": "official"
+  },
+  "stlcitysc.com": {
+   "type": "official"
+  },
+  "stlukes.com.au": {
+   "type": "official"
+  },
+  "stmirren.com": {
+   "type": "official"
+  },
+  "stocks.observer-reporter.com": {
+   "type": "syndicated"
+  },
+  "stocktitan.net": {
+   "type": "syndicated"
+  },
+  "stockton.gleague.nba.com": {
+   "type": "league"
+  },
+  "stoneracing.com.au": {
+   "type": "official"
+  },
+  "stoppress.co.nz": {
+   "type": "press"
+  },
+  "storm.wnba.com": {
+   "type": "league"
+  },
+  "subaru.com.au": {
+   "type": "official"
+  },
+  "sun.wnba.com": {
+   "type": "league"
+  },
+  "sunrisers.uk": {
+   "type": "official"
+  },
+  "suns.com": {
+   "type": "official"
+  },
+  "sunshinecoastlightning.com.au": {
+   "type": "official"
+  },
+  "supercars.com": {
+   "type": "official"
+  },
+  "supercarxtra.com.au": {
+   "type": "press"
+  },
+  "surfingaustralia.com": {
+   "type": "official"
+  },
+  "surfingsuperleague.com": {
+   "type": "official"
+  },
+  "sussexcricket.co.uk": {
+   "type": "official"
+  },
+  "sv07elversberg.de": {
+   "type": "official"
+  },
+  "swimming.org.au": {
+   "type": "official"
+  },
+  "sydneyairport.com.au": {
+   "type": "official"
+  },
+  "sydneyfc.com": {
+   "type": "official"
+  },
+  "sydneykings.com": {
+   "type": "official"
+  },
+  "sydneysixers.com.au": {
+   "type": "official"
+  },
+  "sydneyswans.com.au": {
+   "type": "official"
+  },
+  "sydneythunder.com.au": {
+   "type": "official"
+  },
+  "tactixnetball.co.nz": {
+   "type": "official"
+  },
+  "taipans.com": {
+   "type": "official"
+  },
+  "taiwannews.com.tw": {
+   "type": "press"
+  },
+  "tangerine.com.au": {
+   "type": "official"
+  },
+  "tasmaniajewels.com.au": {
+   "type": "official"
+  },
+  "tasmanrugby.co.nz": {
+   "type": "official"
+  },
+  "tcl.com": {
+   "type": "official"
+  },
+  "tcssydneymarathon.com": {
+   "type": "official"
+  },
+  "technology1.com": {
+   "type": "official"
+  },
+  "tempo.wnba.com": {
+   "type": "league"
+  },
+  "tennesseetitans.com": {
+   "type": "official"
+  },
+  "tennis.com.au": {
+   "type": "official"
+  },
+  "the-afc.com": {
+   "type": "official"
+  },
+  "the42.ie": {
+   "type": "press"
+  },
+  "thearabianpost.com": {
+   "type": "press"
+  },
+  "thebridge.in": {
+   "type": "press"
+  },
+  "theeureka.com.au": {
+   "type": "press"
+  },
+  "thegrandslamofcurling.com": {
+   "type": "official"
+  },
+  "theguardian.com": {
+   "type": "press"
+  },
+  "thehighlanders.co.nz": {
+   "type": "official"
+  },
+  "theiteam.ca": {
+   "type": "official"
+  },
+  "thenational.com.pg": {
+   "type": "official"
+  },
+  "thenetballshow.co.uk": {
+   "type": "blog"
+  },
+  "therams.com": {
+   "type": "official"
+  },
+  "therhinos.co.uk": {
+   "type": "official"
+  },
+  "theshout.co.nz": {
+   "type": "press"
+  },
+  "thestadiumbusiness.com": {
+   "type": "press"
+  },
+  "thestraight.com.au": {
+   "type": "press"
+  },
+  "thewisemarketer.com": {
+   "type": "press"
+  },
+  "thorns.com": {
+   "type": "official"
+  },
+  "thoroughbreddailynews.com": {
+   "type": "press"
+  },
+  "threatlocker.com": {
+   "type": "official"
+  },
+  "thundernetball.co.uk": {
+   "type": "official"
+  },
+  "ticats.ca": {
+   "type": "official"
+  },
+  "ticketnews.com": {
+   "type": "press"
+  },
+  "tickfordracing.com.au": {
+   "type": "official"
+  },
+  "timbers.com": {
+   "type": "official"
+  },
+  "tirto.id": {
+   "type": "press"
+  },
+  "titans.com.au": {
+   "type": "official"
+  },
+  "to13.com": {
+   "type": "official"
+  },
+  "torinofc.it": {
+   "type": "official"
+  },
+  "torontofc.ca": {
+   "type": "official"
+  },
+  "tottenhamhotspur.com": {
+   "type": "official"
+  },
+  "tourdownunder.com.au": {
+   "type": "official"
+  },
+  "tourexpi.com": {
+   "type": "press"
+  },
+  "toyotamaterialhandling.com.au": {
+   "type": "official"
+  },
+  "tradearabia.com": {
+   "type": "press"
+  },
+  "trentbridge.co.uk": {
+   "type": "official"
+  },
+  "trfu.co.nz": {
+   "type": "official"
+  },
+  "triathlon.org.au": {
+   "type": "official"
+  },
+  "triathloninsight.com": {
+   "type": "press"
+  },
+  "tsg-hoffenheim.de": {
+   "type": "official"
+  },
+  "tyrepress.com": {
+   "type": "press"
+  },
+  "uaeproleague.ae": {
+   "type": "official"
+  },
+  "uccapitals.wnbl.com.au": {
+   "type": "official"
+  },
+  "udinese.it": {
+   "type": "official"
+  },
+  "uefa.com": {
+   "type": "league"
+  },
+  "uk.finance.yahoo.com": {
+   "type": "press"
+  },
+  "uk.newsroom.ibm.com": {
+   "type": "official"
+  },
+  "uksponsorship.co.uk": {
+   "type": "press"
+  },
+  "ulster.rugby": {
+   "type": "official"
+  },
+  "unitedcup.com": {
+   "type": "official"
+  },
+  "unlvrebels.com": {
+   "type": "official"
+  },
+  "urbanmilwaukee.com": {
+   "type": "press"
+  },
+  "us.motoonline.com.au": {
+   "type": "press"
+  },
+  "usab.com": {
+   "type": "official"
+  },
+  "usbank.com": {
+   "type": "official"
+  },
+  "uscremonese.it": {
+   "type": "official"
+  },
+  "uslecce.it": {
+   "type": "official"
+  },
+  "usopen.org": {
+   "type": "official"
+  },
+  "usta.com": {
+   "type": "official"
+  },
+  "utahbusiness.com": {
+   "type": "press"
+  },
+  "utilitabowl.com": {
+   "type": "official"
+  },
+  "utsouthwestern.edu": {
+   "type": "official"
+  },
+  "v8sleuth.com.au": {
+   "type": "press"
+  },
+  "valenciacf.com": {
+   "type": "official"
+  },
+  "valkyries.wnba.com": {
+   "type": "league"
+  },
+  "vfb.de": {
+   "type": "official"
+  },
+  "vic.netball.com.au": {
+   "type": "official"
+  },
+  "vic.rugby": {
+   "type": "official"
+  },
+  "vikings.com": {
+   "type": "official"
+  },
+  "villarrealcf.es": {
+   "type": "official"
+  },
+  "virginaustralia.com": {
+   "type": "official"
+  },
+  "visacashapprb.com": {
+   "type": "official"
+  },
+  "vivaleisure.group": {
+   "type": "official"
+  },
+  "vrc.com.au": {
+   "type": "official"
+  },
+  "wa.gov.au": {
+   "type": "official"
+  },
+  "wa.rugby": {
+   "type": "official"
+  },
+  "wacricket.com.au": {
+   "type": "official"
+  },
+  "wakefieldtrinity.com": {
+   "type": "official"
+  },
+  "wallabies.rugby": {
+   "type": "official"
+  },
+  "waratahs.rugby": {
+   "type": "official"
+  },
+  "warringtonwolves.com": {
+   "type": "official"
+  },
+  "warriors.kiwi": {
+   "type": "official"
+  },
+  "washingtonspirit.com": {
+   "type": "official"
+  },
+  "watchadvice.com.au": {
+   "type": "press"
+  },
+  "waterpoloaustralia.com.au": {
+   "type": "official"
+  },
+  "wbsc.org": {
+   "type": "league"
+  },
+  "wccc.co.uk": {
+   "type": "official"
+  },
+  "wearehullcity.co.uk": {
+   "type": "official"
+  },
+  "web.basketball-australia.pulselive.com": {
+   "type": "league"
+  },
+  "webull.com": {
+   "type": "syndicated"
+  },
+  "wellingtonphoenix.com": {
+   "type": "official"
+  },
+  "werder.de": {
+   "type": "official"
+  },
+  "westcoasteagles.com.au": {
+   "type": "official"
+  },
+  "westcoastfever.com.au": {
+   "type": "official"
+  },
+  "westernbulldogs.com.au": {
+   "type": "official"
+  },
+  "westernforce.rugby": {
+   "type": "official"
+  },
+  "westpac.com.au": {
+   "type": "official"
+  },
+  "weststigers.com.au": {
+   "type": "official"
+  },
+  "wftv.com": {
+   "type": "press"
+  },
+  "whitecapsfc.com": {
+   "type": "official"
+  },
+  "whoop.com": {
+   "type": "official"
+  },
+  "wiganwarriors.com": {
+   "type": "official"
+  },
+  "wildcats.com.au": {
+   "type": "official"
+  },
+  "wimbledon.com": {
+   "type": "official"
+  },
+  "wineindustryadvisor.com": {
+   "type": "press"
+  },
+  "wings.wnba.com": {
+   "type": "league"
+  },
+  "wingscu.com": {
+   "type": "official"
+  },
+  "wireisrael.com": {
+   "type": "press"
+  },
+  "wmich.edu": {
+   "type": "official"
+  },
+  "wnbl.com.au": {
+   "type": "official"
+  },
+  "woolworthsgroup.com.au": {
+   "type": "official"
+  },
+  "world.rugby": {
+   "type": "official"
+  },
+  "worldcoffeeportal.com": {
+   "type": "press"
+  },
+  "worldsurfleague.com": {
+   "type": "official"
+  },
+  "wrfu.co.nz": {
+   "type": "official"
+  },
+  "wru.wales": {
+   "type": "official"
+  },
+  "wswanderersfc.com.au": {
+   "type": "official"
+  },
+  "wtatennis.com": {
+   "type": "official"
+  },
+  "wtglgolf.com": {
+   "type": "official"
+  },
+  "wufc.com.au": {
+   "type": "official"
+  },
+  "xplorer.rugby": {
+   "type": "official"
+  },
+  "yardbarker.com": {
+   "type": "syndicated"
+  },
+  "yorkrlfc.com": {
+   "type": "official"
+  },
+  "yorkshireccc.com": {
+   "type": "official"
+  },
+  "yourvalley.net": {
+   "type": "press"
+  },
+  "zawya.com": {
+   "type": "press"
+  },
+  "zerotackle.com": {
+   "type": "press"
+  }
+ }
+}

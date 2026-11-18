@@ -7,7 +7,7 @@ name: Enrich deals and build brand/property pages
 on:
   push:
     branches: [main]
-    paths: ["deals.json", "entities.json", "tools/markets.py", "profile.html", "tools/enrich.py", "tools/build_profiles.py", "tools/ptiers.py", "tools/match.py", "tools/subcat_rules.py", "tools/locations.py", "tools/audit.py", "coverage.json", "tools/confidence.py", "tools/build_ticker.py"]
+    paths: ["deals.json", "entities.json", "tools/markets.py", "profile.html", "tools/enrich.py", "tools/build_profiles.py", "tools/ptiers.py", "tools/match.py", "tools/subcat_rules.py", "tools/locations.py", "tools/audit.py", "coverage.json", "tools/confidence.py", "tools/build_ticker.py", "data/sources.json", "data/lists.json", "tools/sources.py", "tools/validate.py", "tools/health.py"]
   workflow_dispatch:
 
 concurrency:
@@ -28,8 +28,14 @@ jobs:
       - name: Enrich new deals
         run: python3 tools/enrich.py
 
+      - name: Source registry (new URL domains get a type; unreviewed ones count as Reported)
+        run: python3 tools/sources.py
+
       - name: Confidence and last-verified date on every partnership
         run: python3 tools/confidence.py
+
+      - name: Validate deals.json (report only here; skills run --new before they commit)
+        run: python3 tools/validate.py
 
       - name: Tag each deal's market (Australia, New Zealand, North America, UK & Ireland, Europe, Asia, Middle East, Rest of World, Global)
         run: python3 tools/markets.py
@@ -47,6 +53,7 @@ jobs:
         run: |
           python3 tools/match.py
           python3 tools/audit.py
+          python3 tools/health.py
 
       - name: Upload Partnership Pro files to Supabase (private)
         env:
@@ -60,12 +67,12 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add deals.json entities.json brands properties sitemap.xml ticker.json
+          git add deals.json entities.json brands properties sitemap.xml ticker.json data/sources.json
           if [ "$PRO_PRIVATE" = "1" ]; then
             # Uploaded to the private bucket, so take them out of the public repo and site.
-            git rm -q --cached --ignore-unmatch pro/matches.json pro/audit.json
+            git rm -q --cached --ignore-unmatch pro/matches.json pro/audit.json pro/health.json
           else
-            git add -f pro/matches.json pro/audit.json
+            git add -f pro/matches.json pro/audit.json pro/health.json
           fi
           if git diff --cached --quiet; then echo "Nothing new"; exit 0; fi
           git commit -m "Brand and property pages [skip netlify]"
