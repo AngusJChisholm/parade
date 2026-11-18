@@ -168715,8 +168715,13 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-11",
+   "rights": [
+    "official sternum partner",
+    "front of jersey (sternum)"
+   ],
+   "rightsSrc": "https://www.ausleisure.com.au/news/ingenia-holiday-parks-named-as-rabbitohs-official-sternum-partner-in-three-year-extension",
    "ttier": "T2",
-   "tbasis": "role",
+   "tbasis": "sourced",
    "tends": 2029,
    "tendsBasis": "stated"
   },
@@ -181298,8 +181303,12 @@
    "endsLock": true,
    "conf": "Confirmed",
    "verified": "2026-06-30",
+   "rights": [
+    "front of NRL jersey"
+   ],
+   "rightsSrc": "https://www.canberratimes.com.au/story/9300770/canberra-raiders-jersey-value-increases-with-toyota-forklifts-deal/",
    "ttier": "T1",
-   "tbasis": "role",
+   "tbasis": "sourced",
    "tends": 2030,
    "tendsBasis": "stated"
   },
@@ -182255,8 +182264,13 @@
    "endsLock": true,
    "conf": "Confirmed",
    "verified": "2026-09-15",
+   "rights": [
+    "principal foundation partner",
+    "front of jersey"
+   ],
+   "rightsSrc": "https://www.bandt.com.au/spotlight-on-sponsors-bank-south-pacific-joins-the-png-chiefs-tribe-with-the-richest-sponsorship-deal-in-nrl-history/",
    "ttier": "T1",
-   "tbasis": "role",
+   "tbasis": "sourced",
    "tends": 2030,
    "tendsBasis": "stated"
   },
@@ -188142,15 +188156,13 @@
    "market": "ANZ",
    "url": "https://www.warriors.kiwi/news/2025/12/12/db-back-in-warriors-sponsorship-fold/",
    "tierLock": true,
-   "term": 25,
-   "ends": 2050,
-   "endsEst": true,
    "conf": "Confirmed",
    "verified": "2025-12-17",
+   "endsLock": true,
    "ttier": "T1",
    "tbasis": "role",
-   "tends": 2050,
-   "tendsBasis": "term"
+   "tends": 2028,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-12-17",
@@ -189434,6 +189446,13 @@
    "url": "https://www.melbournestorm.com.au/news/2025/10/28/budget-direct-announced-as-storms-first-platinum-partner/",
    "conf": "Confirmed",
    "verified": "2025-10-29",
+   "rights": [
+    "platinum partner",
+    "sleeves of NRL jersey"
+   ],
+   "rightsSrc": "https://www.melbournestorm.com.au/news/2025/11/01/revealed-2026-home-jersey/",
+   "ttier": "T2",
+   "tbasis": "sourced",
    "tends": 2028,
    "tendsBasis": "league"
   },
@@ -190419,6 +190438,13 @@
    "endsLock": true,
    "conf": "Confirmed",
    "verified": "2026-02-11",
+   "rights": [
+    "platinum partner",
+    "back of NRL jersey"
+   ],
+   "rightsSrc": "https://www.weststigers.com.au/news/2026/02/10/wests-tigers-confirm-formbay-as-platinum-partner/",
+   "ttier": "T2",
+   "tbasis": "sourced",
    "tends": 2026,
    "tendsBasis": "stated"
   },
@@ -190918,8 +190944,14 @@
    "endsLock": true,
    "conf": "Confirmed",
    "verified": "2025-11-12",
+   "rights": [
+    "principal partner from 2026",
+    "front of NRL jersey",
+    "sleeves"
+   ],
+   "rightsSrc": "https://ministryofsport.com/?p=51906",
    "ttier": "T1",
-   "tbasis": "role",
+   "tbasis": "sourced",
    "tends": 2026,
    "tendsBasis": "stated"
   },
@@ -199971,8 +200003,18 @@
    "market": "ANZ",
    "conf": "Reported",
    "verified": "2025-08-06",
-   "tends": 2028,
-   "tendsBasis": "league"
+   "rights": [
+    "major partner",
+    "front of NRL and NRLW jerseys"
+   ],
+   "rightsSrc": "https://www.weststigers.com.au/news/2025/11/18/out-of-the-box-pepper-money-make-big-move-for-2026/",
+   "ends": 2027,
+   "endsLock": true,
+   "endsSrc": "https://www.weststigers.com.au/news/2025/11/18/out-of-the-box-pepper-money-make-big-move-for-2026/",
+   "ttier": "T1",
+   "tbasis": "sourced",
+   "tends": 2027,
+   "tendsBasis": "stated"
   },
   {
    "date": "2025-08-06",
@@ -202230,10 +202272,19 @@
    "market": "ANZ",
    "conf": "Reported",
    "verified": "2025-06-12",
+   "rights": [
+    "major sponsor",
+    "front and lower back of jersey",
+    "naming rights to the Centre of Excellence"
+   ],
+   "rightsSrc": "https://www.parraeels.com.au/news/2024/05/23/welcome-home-james-hardie-to-return-as-clubs-major-sponsor-from-2025/",
+   "ends": 2028,
+   "endsLock": true,
+   "endsSrc": "https://www.parraeels.com.au/news/2024/05/23/welcome-home-james-hardie-to-return-as-clubs-major-sponsor-from-2025/",
    "ttier": "T1",
-   "tbasis": "rights",
+   "tbasis": "sourced",
    "tends": 2028,
-   "tendsBasis": "league"
+   "tendsBasis": "stated"
   },
   {
    "date": "2025-06-06",
@@ -213346,6 +213397,12 @@
    "market": "ANZ",
    "conf": "Reported",
    "verified": "2024-11-19",
+   "rights": [
+    "jersey sternum"
+   ],
+   "rightsSrc": "https://www.sharks.com.au/news/2025/11/13/sharks-pay-tribute-to-2016-as-new-home-jersey-revealed",
+   "ttier": "T2",
+   "tbasis": "sourced",
    "tends": 2027,
    "tendsBasis": "league"
   },
@@ -213362,10 +213419,18 @@
    "market": "ANZ",
    "conf": "Reported",
    "verified": "2024-11-12",
-   "ttier": "T2",
-   "tbasis": "role",
-   "tends": 2027,
-   "tendsBasis": "league"
+   "rights": [
+    "major partner",
+    "front of home and away NRL and NRLW jerseys"
+   ],
+   "rightsSrc": "https://www.roosters.com.au/news/2024/11/12/a-new-energy-has-arrived/",
+   "ends": 2029,
+   "endsLock": true,
+   "endsSrc": "https://www.roosters.com.au/news/2024/11/12/a-new-energy-has-arrived/",
+   "ttier": "T1",
+   "tbasis": "sourced",
+   "tends": 2029,
+   "tendsBasis": "stated"
   },
   {
    "date": "2024-10-25",
@@ -224485,8 +224550,18 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-05",
-   "ttier": "T2",
-   "tbasis": "role"
+   "rights": [
+    "major sponsor",
+    "front of NRL jersey"
+   ],
+   "rightsSrc": "https://bulldogs.com.au/news/2022/11/19/laundy-hotels-extends-as-bulldogs-major-partner",
+   "ends": 2027,
+   "endsLock": true,
+   "endsSrc": "https://bulldogs.com.au/news/2022/11/19/laundy-hotels-extends-as-bulldogs-major-partner",
+   "ttier": "T1",
+   "tbasis": "sourced",
+   "tends": 2027,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-10-30",
@@ -224536,8 +224611,19 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-05",
-   "ttier": "Kit",
-   "tbasis": "rights"
+   "rights": [
+    "NRL upper back",
+    "NRLW lower back",
+    "official QSR partner"
+   ],
+   "rightsSrc": "https://www.bulldogs.com.au/news/2026/05/28/kfc-extends-with-bulldogs-through-2028/",
+   "ends": 2028,
+   "endsLock": true,
+   "endsSrc": "https://www.bulldogs.com.au/news/2026/05/28/kfc-extends-with-bulldogs-through-2028/",
+   "ttier": "T2",
+   "tbasis": "sourced",
+   "tends": 2028,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-10-30",
@@ -224804,7 +224890,13 @@
    "ptier": "Major partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-10"
+   "verified": "2026-11-10",
+   "rights": [
+    "sleeves of jersey"
+   ],
+   "rightsSrc": "https://www.sharks.com.au/news/2025/11/13/sharks-pay-tribute-to-2016-as-new-home-jersey-revealed",
+   "ttier": "T2",
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-10-30",
@@ -224819,7 +224911,13 @@
    "ptier": "Major partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-10"
+   "verified": "2026-11-10",
+   "rights": [
+    "top back of jersey"
+   ],
+   "rightsSrc": "https://www.sharks.com.au/news/2025/11/13/sharks-pay-tribute-to-2016-as-new-home-jersey-revealed",
+   "ttier": "T2",
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-10-30",
@@ -226070,8 +226168,18 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-05",
-   "ttier": "T2",
-   "tbasis": "role"
+   "rights": [
+    "major partner",
+    "front of NRL jersey"
+   ],
+   "rightsSrc": "https://www.melbournestorm.com.au/news/2025/03/05/storm-and-redzed-extend-major-partnership-to-2028/",
+   "ends": 2028,
+   "endsLock": true,
+   "endsSrc": "https://www.melbournestorm.com.au/news/2025/03/05/storm-and-redzed-extend-major-partnership-to-2028/",
+   "ttier": "T1",
+   "tbasis": "sourced",
+   "tends": 2028,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-10-30",
@@ -227805,8 +227913,18 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-08",
-   "ttier": "T2",
-   "tbasis": "role"
+   "rights": [
+    "major corporate partner",
+    "front of chest on NRL jersey"
+   ],
+   "rightsSrc": "https://www.rabbitohs.com.au/content/mg-motor-signs-on-rabbitohs-major-corporate-partner-for-the-next-five-seasons",
+   "ends": 2026,
+   "endsLock": true,
+   "endsSrc": "https://www.bandt.com.au/spotlight-on-sponsors-mg-rabbitohs-celebrate-nrl-indigenous-rounds-with-powerful-artwork/",
+   "ttier": "T1",
+   "tbasis": "sourced",
+   "tends": 2026,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-10-30",
@@ -227822,8 +227940,13 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-08",
+   "ends": 2026,
+   "endsLock": true,
+   "endsSrc": "https://www.bandt.com.au/why-on-earth-is-menulog-on-the-back-of-the-bunnies-jerseys/",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "role",
+   "tends": 2026,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-10-30",
@@ -228055,9 +228178,10 @@
    "ptier": "Major partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-10",
-   "ttier": "T2",
-   "tbasis": "role"
+   "verified": "2026-11-18",
+   "ended": 2026,
+   "endedUrl": "https://www.bandt.com.au/squadron-energy-benches-st-george-illawarra-leaving-the-dragons-without-a-major-partner/",
+   "checked": "2026-11-18"
   },
   {
    "listed": "2026-10-30",
@@ -239838,10 +239962,19 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2024-05-23",
-   "ttier": "T2",
-   "tbasis": "role",
-   "tends": 2027,
-   "tendsBasis": "league"
+   "rights": [
+    "major sponsor",
+    "front and lower back of jersey",
+    "naming rights to the Centre of Excellence"
+   ],
+   "rightsSrc": "https://www.parraeels.com.au/news/2024/05/23/welcome-home-james-hardie-to-return-as-clubs-major-sponsor-from-2025/",
+   "ends": 2028,
+   "endsLock": true,
+   "endsSrc": "https://www.parraeels.com.au/news/2024/05/23/welcome-home-james-hardie-to-return-as-clubs-major-sponsor-from-2025/",
+   "ttier": "T1",
+   "tbasis": "sourced",
+   "tends": 2028,
+   "tendsBasis": "stated"
   },
   {
    "date": "2024-04-18",
@@ -239856,10 +239989,17 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2024-04-18",
+   "rights": [
+    "top back of jersey"
+   ],
+   "rightsSrc": "https://www.parraeels.com.au/news/2024/04/18/aland-extends-partnership-with-parramatta-eels/",
+   "ends": 2027,
+   "endsLock": true,
+   "endsSrc": "https://www.parraeels.com.au/news/2024/04/18/aland-extends-partnership-with-parramatta-eels/",
    "ttier": "T2",
-   "tbasis": "role",
+   "tbasis": "sourced",
    "tends": 2027,
-   "tendsBasis": "league"
+   "tendsBasis": "stated"
   },
   {
    "date": "2025-09-18",
@@ -242765,8 +242905,17 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2024-11-19",
+   "rights": [
+    "sternum of NRL and NRLW jerseys"
+   ],
+   "rightsSrc": "https://dragons.com.au/news/2024/11/19/dragons-welcome-remara-as-newest-corporate-partner",
+   "ends": 2027,
+   "endsLock": true,
+   "endsSrc": "https://dragons.com.au/news/2024/11/19/dragons-welcome-remara-as-newest-corporate-partner",
+   "ttier": "T2",
+   "tbasis": "sourced",
    "tends": 2027,
-   "tendsBasis": "league"
+   "tendsBasis": "stated"
   },
   {
    "date": "2024-11-15",
@@ -242940,8 +243089,13 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-10",
-   "ttier": "T2",
-   "tbasis": "role"
+   "rights": [
+    "major partner",
+    "front of NRL jersey"
+   ],
+   "rightsSrc": "https://nit.com.au/12-08-2026/25913/broncos-set-to-celebrate-longtime-first-nations-health-partnership-during-nrl-indigenous-round",
+   "ttier": "T1",
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-10",
@@ -249069,6 +249223,72 @@
    "tbasis": "sourced",
    "tends": 2028,
    "tendsBasis": "stated"
+  },
+  {
+   "deal": "United Resource Management × Manly Sea Eagles",
+   "sport": "NRL",
+   "type": "Major partner",
+   "summary": "URM returns as Manly's major partner for three years from 2025, its 29th year with the club.",
+   "url": "https://www.seaeagles.com.au/news/2024/09/08/united-resource-management-urm-returns-as-major-partner-of-the-sea-eagles/",
+   "tier": "Principal & major",
+   "status": "Renewal",
+   "date": "2024-09-08",
+   "term": 3,
+   "ends": 2027,
+   "region": "ANZ",
+   "market": "ANZ",
+   "conf": "Confirmed",
+   "verified": "2026-11-18",
+   "added": "2026-11-18",
+   "rights": [
+    "major partner"
+   ],
+   "rightsSrc": "https://www.seaeagles.com.au/news/2024/09/08/united-resource-management-urm-returns-as-major-partner-of-the-sea-eagles/",
+   "ttier": "T1",
+   "tbasis": "sourced",
+   "tends": 2027,
+   "tendsBasis": "stated"
+  },
+  {
+   "deal": "Reozone × Cronulla Sharks",
+   "sport": "NRL",
+   "type": "Partner",
+   "summary": "Reozone stays on the lower back of the Sharks' NRL jersey for 2026.",
+   "url": "https://www.sharks.com.au/news/2025/11/13/sharks-pay-tribute-to-2016-as-new-home-jersey-revealed",
+   "tier": "Shirt & kit placement",
+   "status": "Current partner",
+   "listed": "2026-11-18",
+   "region": "ANZ",
+   "market": "ANZ",
+   "conf": "Confirmed",
+   "verified": "2026-11-18",
+   "added": "2026-11-18",
+   "ends": 2026,
+   "rights": [
+    "lower back of jersey"
+   ],
+   "rightsSrc": "https://www.sharks.com.au/news/2025/11/13/sharks-pay-tribute-to-2016-as-new-home-jersey-revealed",
+   "ttier": "T2",
+   "tbasis": "sourced",
+   "tends": 2026,
+   "tendsBasis": "stated"
+  },
+  {
+   "deal": "Aramex × Cronulla Sharks",
+   "sport": "NRL",
+   "type": "Major partner",
+   "summary": "Aramex was the Sharks' front-of-jersey partner from 2021 and did not renew when its contract ended on 31 October 2026.",
+   "url": "https://www.bandt.com.au/spotlight-on-sponsors-cronulla-sharks-on-the-hunt-to-replace-aramex-as-major-sponsor/",
+   "tier": "Principal & major",
+   "status": "Ended",
+   "month": "2021-01",
+   "since": 2021,
+   "ended": 2026,
+   "region": "ANZ",
+   "market": "ANZ",
+   "conf": "Reported",
+   "verified": "2026-11-18",
+   "added": "2026-11-18"
   }
  ]
 }

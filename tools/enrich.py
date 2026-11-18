@@ -80,7 +80,7 @@ NUM = r"(\d{1,2}|" + "|".join(WORDS) + r")"
 
 
 TENURE_BEFORE = re.compile(r"(after|over|of|ended an?|ending an?|hitting|stretched to|out to|spanning|extending an?|extends an?|extending its|renews an?|its|now in its|longest|more than|almost|nearly)\s*$", re.I)
-TENURE_AFTER = re.compile(r"^\s*(-long|long|relationship|history|association|of partnership|together|old)", re.I)
+TENURE_AFTER = re.compile(r"^\s*(-long|long|relationship|history|association|of partnership|together|old|after|since|ago|on from|later)\b", re.I)
 
 
 def term_of(text):
