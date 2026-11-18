@@ -36517,6 +36517,11 @@
    "cat": "Retail",
    "k": "b"
   },
+  "lufthansa": {
+   "name": "Lufthansa",
+   "cat": "Airlines & travel",
+   "k": "b"
+  },
   "luis-figo": {
    "name": "Luis Figo",
    "ptype": "Athlete & talent",
@@ -43525,6 +43530,11 @@
    "name": "Novibet",
    "k": "b"
   },
+  "novig": {
+   "name": "Novig",
+   "k": "b",
+   "cat": "Betting & wagering"
+  },
   "novo-nordisk": {
    "name": "Novo Nordisk",
    "k": "b"
@@ -43883,6 +43893,15 @@
   "nwn": {
    "name": "NWN",
    "k": "b"
+  },
+  "nwsl": {
+   "name": "NWSL",
+   "aliases": [
+    "National Women's Soccer League"
+   ],
+   "domain": "nwslsoccer.com",
+   "ptype": "League & competition",
+   "k": "p"
   },
   "nxp": {
    "name": "NXP",
@@ -44597,6 +44616,11 @@
    "name": "Once Upon a Farm",
    "cat": "Agriculture",
    "k": "b"
+  },
+  "ondas": {
+   "name": "Ondas",
+   "k": "b",
+   "cat": "Technology"
   },
   "ondeck": {
    "name": "Ondeck",
@@ -54406,6 +54430,10 @@
    "k": "b",
    "logo": "assets/logos/seven-group.png",
    "domain": "sevengroup.com.au"
+  },
+  "seven-nhl-teams": {
+   "name": "seven NHL teams",
+   "k": "p"
   },
   "seven-sundays": {
    "name": "Seven Sundays",
@@ -69781,30 +69809,6 @@
     "icon",
     "logo"
    ]
-  },
-  "lufthansa": {
-   "name": "Lufthansa",
-   "cat": "Airlines & travel",
-   "k": "b"
-  },
-  "novig": {
-   "name": "Novig",
-   "k": "b",
-   "cat": "Betting & wagering"
-  },
-  "ondas": {
-   "name": "Ondas",
-   "k": "b",
-   "cat": "Technology"
-  },
-  "nwsl": {
-   "name": "NWSL",
-   "aliases": [
-    "National Women's Soccer League"
-   ],
-   "domain": "nwslsoccer.com",
-   "ptype": "League & competition",
-   "k": "p"
   }
  },
  "leagues": [

@@ -21,10 +21,6 @@
    "ends": 2028,
    "endsEst": true,
    "ptier": "Major partner",
-   "ttier": "T1",
-   "tbasis": "rights",
-   "tends": 2028,
-   "tendsBasis": "term",
    "lead": true,
    "headline": "Penrite fuels a Dees record.",
    "image": "https://images.unsplash.com/photo-1706412215593-153a556ceb09",
@@ -40,7 +36,11 @@
     ],
     "close": "One season to prove it, then the biggest partnership in Dees history."
    },
-   "slug": "2026-11-19-penrite-oil-melbourne-demons"
+   "slug": "2026-11-19-penrite-oil-melbourne-demons",
+   "ttier": "T1",
+   "tbasis": "role",
+   "tends": 2028,
+   "tendsBasis": "term"
   },
   {
    "date": "2026-11-18",
@@ -54,7 +54,9 @@
    "summary": "AI legal platform Harvey becomes the Official Legal Assistant Partner of The Championships, Wimbledon on a multi-year partnership from 2027, with the All England Club's legal team using the platform.",
    "url": "https://legaltechnology.com/harvey-becomes-wimbledon-partner-and-all-england-club-in-house-legal-ai-tool/",
    "conf": "Reported",
-   "verified": "2026-11-19"
+   "verified": "2026-11-19",
+   "ttier": "T3",
+   "tbasis": "category"
   },
   {
    "date": "2026-11-17",
@@ -90,7 +92,11 @@
    "summary": "Lufthansa extends its partnership with the German Football Association through 2031, adding the women's national team to the men's team it has backed since 2005.",
    "url": "https://www.dfb.de/news/dfb-und-lufthansa-verlaengern-partnerschaft",
    "conf": "Confirmed",
-   "verified": "2026-11-19"
+   "verified": "2026-11-19",
+   "ttier": "T3",
+   "tbasis": "category",
+   "tends": 2031,
+   "tendsBasis": "stated"
   },
   {
    "date": "2026-11-18",
@@ -128,7 +134,11 @@
    "summary": "RBC City National Bank signs a 10-year extension with the Vegas Golden Knights, staying Official Bank Partner and keeping the City National Arena name on the Summerlin practice facility through 2037.",
    "url": "https://www.nhl.com/goldenknights/news/vegas-golden-knights-secure-10-year-extension-of-rbc-city-national-bank-partnership",
    "conf": "Confirmed",
-   "verified": "2026-11-19"
+   "verified": "2026-11-19",
+   "ttier": "T3",
+   "tbasis": "category",
+   "tends": 2037,
+   "tendsBasis": "stated"
   },
   {
    "date": "2026-11-18",
@@ -142,8 +152,10 @@
    "ends": 2029,
    "summary": "Drone and autonomous systems company Ondas becomes a Global Partner of the Aston Martin Aramco F1 Team on a multi-year partnership through 2029, debuting on the car's nose at the Las Vegas Grand Prix.",
    "url": "https://finance.yahoo.com/technology/articles/ondas-aston-martin-aramco-formula-163000086.html",
-   "conf": "Confirmed",
-   "verified": "2026-11-19"
+   "conf": "Reported",
+   "verified": "2026-11-19",
+   "tends": 2029,
+   "tendsBasis": "stated"
   },
   {
    "date": "2026-11-18",
@@ -170,8 +182,10 @@
    "market": "North America",
    "summary": "Nationwide renews its NWSL partnership on a multiyear term, staying exclusive official insurance partner, adding life insurance and continuing as presenting sponsor of the Lauren Holiday Impact Award.",
    "url": "https://news.nationwide.com/nationwide-national-womens-soccer-league-announce-multiyear-partnership-renewal/",
-   "conf": "Confirmed",
-   "verified": "2026-11-19"
+   "conf": "Reported",
+   "verified": "2026-11-19",
+   "ttier": "T3",
+   "tbasis": "category"
   },
   {
    "listed": "2026-11-18",
