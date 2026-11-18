@@ -15,9 +15,11 @@
    "market": "Europe",
    "summary": "Aperol becomes the Official Spritz Partner of UEFA EURO 2028 and the European Qualifiers, Campari Group's first partnership with UEFA.",
    "url": "https://www.camparigroup.com/en/news/2026-11-17/aperol-ready-bring-football-fans-together-it-becomes-official-spritz-partner-uefa",
-   "conf": "Confirmed",
+   "conf": "Reported",
    "verified": "2026-11-18",
-   "fromDaily": true
+   "fromDaily": true,
+   "ttier": "T3",
+   "tbasis": "category"
   },
   {
    "date": "2026-11-16",
@@ -48,7 +50,13 @@
    "conf": "Confirmed",
    "verified": "2026-11-18",
    "fromDaily": true,
-   "term": 3
+   "term": 3,
+   "ends": 2029,
+   "endsEst": true,
+   "ttier": "T2",
+   "tbasis": "rights",
+   "tends": 2029,
+   "tendsBasis": "term"
   },
   {
    "date": "2026-11-16",
@@ -64,7 +72,11 @@
    "conf": "Confirmed",
    "verified": "2026-11-18",
    "fromDaily": true,
-   "term": 3
+   "term": 3,
+   "ends": 2029,
+   "endsEst": true,
+   "tends": 2029,
+   "tendsBasis": "term"
   },
   {
    "date": "2026-11-16",
@@ -80,7 +92,11 @@
    "conf": "Confirmed",
    "verified": "2026-11-18",
    "fromDaily": true,
-   "term": 3
+   "term": 3,
+   "ends": 2029,
+   "endsEst": true,
+   "tends": 2029,
+   "tendsBasis": "term"
   },
   {
    "date": "2026-11-17",
@@ -110,7 +126,9 @@
    "url": "https://www.prnewswire.com/news-releases/world-team-tennis-and-mercedes-benz-usa-announce-partnership-302941177.html",
    "conf": "Confirmed",
    "verified": "2026-11-18",
-   "fromDaily": true
+   "fromDaily": true,
+   "ttier": "T3",
+   "tbasis": "category"
   },
   {
    "date": "2026-11-18",
@@ -125,7 +143,12 @@
    "url": "https://www.bandt.com.au/a-leagues-teams-up-with-nova-to-score-on-audience-via-omd/",
    "conf": "Reported",
    "verified": "2026-11-18",
-   "fromDaily": true
+   "fromDaily": true,
+   "ends": 2027,
+   "ttier": "Media",
+   "tbasis": "rights",
+   "tends": 2027,
+   "tendsBasis": "stated"
   },
   {
    "date": "2026-11-17",
@@ -140,7 +163,9 @@
    "url": "https://ministryofsport.com/little-athletics-queensland-partners-with-sol-xenia-to-champion-sun-safety-and-grassroots-sport/",
    "conf": "Reported",
    "verified": "2026-11-18",
-   "fromDaily": true
+   "fromDaily": true,
+   "ttier": "T4",
+   "tbasis": "role"
   },
   {
    "deal": "Heineken × Australian Open",
