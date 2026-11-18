@@ -51746,7 +51746,13 @@
     "logo"
    ],
    "ptype": "Event",
-   "k": "p"
+   "k": "p",
+   "market": "Asia",
+   "ptiers": [
+    "Title Sponsor",
+    "Host Venue Partner",
+    "Supporting Partner"
+   ]
   },
   "saily": {
    "name": "Saily",
@@ -68849,7 +68855,12 @@
    "domain": "sailgp.com",
    "ptiers": [
     "Title partner",
-    "Presenting and title partner"
+    "Presenting and title partner",
+    "Title Partner",
+    "Presenting Partner",
+    "Host Venue Partner",
+    "Official Suppliers",
+    "Event Partner"
    ]
   },
   "sailgp-auckland-sail-grand-prix": {
@@ -68859,7 +68870,13 @@
    "market": "ANZ",
    "domain": "sailgp.com",
    "ptiers": [
-    "Title partner"
+    "Title partner",
+    "Title Partner",
+    "Host Venue Partner",
+    "Official Partners",
+    "Official Suppliers",
+    "Official Audio Broadcaster",
+    "Official Supporters"
    ]
   },
   "sailgp-sydney-sail-grand-prix": {
@@ -68869,7 +68886,11 @@
    "market": "ANZ",
    "domain": "sailgp.com",
    "ptiers": [
-    "Presenting and title partner"
+    "Presenting and title partner",
+    "Title Partner",
+    "Strategic Partner",
+    "Event Partner",
+    "Official Suppliers"
    ]
   },
   "sailgp-rio-sail-grand-prix": {
@@ -68879,7 +68900,10 @@
    "market": "Rest of World",
    "domain": "sailgp.com",
    "ptiers": [
-    "Title partner"
+    "Title partner",
+    "Title Partner",
+    "Event Partner",
+    "Event Supporters"
    ]
   },
   "sailgp-bermuda-sail-grand-prix": {
@@ -68889,7 +68913,10 @@
    "market": "North America",
    "domain": "sailgp.com",
    "ptiers": [
-    "Title partner"
+    "Title partner",
+    "Title Partner",
+    "Host Venue Partner",
+    "Official Suppliers"
    ]
   },
   "sailgp-new-york-sail-grand-prix": {
@@ -68899,7 +68926,10 @@
    "market": "North America",
    "domain": "sailgp.com",
    "ptiers": [
-    "Title partner"
+    "Title partner",
+    "Title Partner",
+    "Official Partners",
+    "Event Supporters"
    ]
   },
   "sailgp-portsmouth-sail-grand-prix": {
@@ -68909,7 +68939,11 @@
    "market": "UK & Ireland",
    "domain": "sailgp.com",
    "ptiers": [
-    "Title partner"
+    "Title partner",
+    "Title Partner",
+    "Host Venue Partner",
+    "Event Partner",
+    "Event Supplier"
    ]
   },
   "sailgp-germany-sail-grand-prix": {
@@ -68917,7 +68951,12 @@
    "ptype": "Event",
    "k": "p",
    "market": "Europe",
-   "domain": "sailgp.com"
+   "domain": "sailgp.com",
+   "ptiers": [
+    "Title Partner",
+    "Host Venue Partner",
+    "Event Supplier"
+   ]
   },
   "sailgp-geneva-sail-grand-prix": {
    "name": "SailGP Geneva Sail Grand Prix",
@@ -68926,7 +68965,10 @@
    "market": "Europe",
    "domain": "sailgp.com",
    "ptiers": [
-    "Title partner"
+    "Title partner",
+    "Title Partner",
+    "Host Venue Partner",
+    "Event Partner"
    ]
   },
   "sailgp-dubai-sail-grand-prix": {
@@ -68937,7 +68979,10 @@
    "domain": "sailgp.com",
    "ptiers": [
     "Title partner",
-    "Presenting partner"
+    "Presenting partner",
+    "Title Partner",
+    "Presenting Partner",
+    "Host Venue Partner"
    ]
   },
   "sailgp-abu-dhabi-sail-grand-prix": {
@@ -69258,6 +69303,219 @@
   "l-oreal-groupe": {
    "name": "L'Oréal Groupe",
    "k": "b"
+  },
+  "fremantle-ports": {
+   "name": "Fremantle Ports",
+   "k": "b",
+   "cat": "Government & tourism"
+  },
+  "heineken-silver": {
+   "name": "Heineken Silver",
+   "k": "b",
+   "cat": "Beer, wine & spirits"
+  },
+  "tourism-new-zealand": {
+   "name": "Tourism New Zealand",
+   "k": "b",
+   "cat": "Government & tourism"
+  },
+  "tataki-auckland-unlimited": {
+   "name": "Tātaki Auckland Unlimited",
+   "k": "b",
+   "cat": "Government & tourism"
+  },
+  "rodd-gunn": {
+   "name": "Rodd & Gunn",
+   "k": "b",
+   "cat": "Apparel & sportswear"
+  },
+  "agp": {
+   "name": "AGP",
+   "k": "b"
+  },
+  "prefeitura-do-rio-de-janeiro-riotur": {
+   "name": "Prefeitura do Rio de Janeiro / Riotur",
+   "k": "b",
+   "cat": "Government & tourism"
+  },
+  "governo-do-estado-do-rio-de-janeiro": {
+   "name": "Governo do Estado do Rio de Janeiro",
+   "k": "b",
+   "cat": "Government & tourism"
+  },
+  "cbvela": {
+   "name": "CBVela",
+   "k": "b"
+  },
+  "imm": {
+   "name": "IMM",
+   "k": "b"
+  },
+  "gosling-s": {
+   "name": "Gosling's",
+   "k": "b",
+   "cat": "Beer, wine & spirits"
+  },
+  "infinite": {
+   "name": "Infinite",
+   "k": "b"
+  },
+  "moatwood-gin": {
+   "name": "Moatwood Gin",
+   "k": "b",
+   "cat": "Beer, wine & spirits"
+  },
+  "nyc-tourism-conventions": {
+   "name": "NYC Tourism + Conventions",
+   "k": "b",
+   "cat": "Government & tourism"
+  },
+  "sailgp-halifax-sail-grand-prix": {
+   "name": "SailGP Halifax Sail Grand Prix",
+   "ptype": "Event",
+   "k": "p",
+   "market": "North America",
+   "domain": "sailgp.com",
+   "ptiers": [
+    "Host Venue Partner",
+    "Official Partners",
+    "Official Suppliers"
+   ]
+  },
+  "province-of-nova-scotia": {
+   "name": "Province of Nova Scotia",
+   "k": "b",
+   "cat": "Government & tourism"
+  },
+  "halifax-regional-municipality": {
+   "name": "Halifax Regional Municipality",
+   "k": "b",
+   "cat": "Government & tourism"
+  },
+  "sail-nova-scotia": {
+   "name": "Sail Nova Scotia",
+   "k": "b"
+  },
+  "government-of-canada": {
+   "name": "Government of Canada",
+   "k": "b",
+   "cat": "Government & tourism"
+  },
+  "king-s-wharf": {
+   "name": "King's Wharf",
+   "k": "b"
+  },
+  "build-nova-scotia": {
+   "name": "Build Nova Scotia",
+   "k": "b",
+   "cat": "Government & tourism"
+  },
+  "propeller-brewing": {
+   "name": "Propeller Brewing",
+   "k": "b",
+   "cat": "Beer, wine & spirits"
+  },
+  "portsmouth-city-council": {
+   "name": "Portsmouth City Council",
+   "k": "b",
+   "cat": "Government & tourism"
+  },
+  "apres-provence": {
+   "name": "Après Provence",
+   "k": "b",
+   "cat": "Beer, wine & spirits"
+  },
+  "stadthafen-sassnitz": {
+   "name": "Stadthafen Sassnitz",
+   "k": "b",
+   "cat": "Government & tourism"
+  },
+  "state-of-mecklenburg-vorpommern": {
+   "name": "State of Mecklenburg-Vorpommern",
+   "k": "b",
+   "cat": "Government & tourism"
+  },
+  "stortebeker": {
+   "name": "Störtebeker",
+   "k": "b",
+   "cat": "Beer, wine & spirits"
+  },
+  "sailgp-valencia-sail-grand-prix": {
+   "name": "SailGP Valencia Sail Grand Prix",
+   "ptype": "Event",
+   "k": "p",
+   "market": "Europe",
+   "domain": "sailgp.com",
+   "ptiers": [
+    "Host Venue Partner"
+   ]
+  },
+  "diputacio-de-valencia": {
+   "name": "Diputació de València",
+   "k": "b",
+   "cat": "Government & tourism"
+  },
+  "generalitat-valenciana": {
+   "name": "Generalitat Valenciana",
+   "k": "b",
+   "cat": "Government & tourism"
+  },
+  "ajuntament-de-valencia": {
+   "name": "Ajuntament de València",
+   "k": "b",
+   "cat": "Government & tourism"
+  },
+  "canton-of-geneva": {
+   "name": "Canton of Geneva",
+   "k": "b",
+   "cat": "Government & tourism"
+  },
+  "city-of-geneva": {
+   "name": "City of Geneva",
+   "k": "b",
+   "cat": "Government & tourism"
+  },
+  "swisscom": {
+   "name": "Swisscom",
+   "k": "b",
+   "cat": "Telecommunications"
+  },
+  "dubai-sports-council": {
+   "name": "Dubai Sports Council",
+   "k": "b",
+   "cat": "Government & tourism"
+  },
+  "major-sports-events-committee": {
+   "name": "Major Sports Events Committee",
+   "k": "b",
+   "cat": "Government & tourism"
+  },
+  "hong-kong-sar-government": {
+   "name": "Hong Kong SAR Government",
+   "k": "b",
+   "cat": "Government & tourism"
+  },
+  "brand-hong-kong": {
+   "name": "Brand Hong Kong",
+   "k": "b",
+   "cat": "Government & tourism"
+  },
+  "canaccord-genuity": {
+   "name": "Canaccord Genuity",
+   "k": "b",
+   "cat": "Banking & finance"
+  },
+  "echo-yachts": {
+   "name": "Echo Yachts",
+   "k": "b"
+  },
+  "butterfield": {
+   "name": "Butterfield",
+   "k": "b",
+   "cat": "Banking & finance",
+   "aliases": [
+    "Mastercard x Butterfield"
+   ]
   }
  },
  "leagues": [
