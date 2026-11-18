@@ -256,7 +256,7 @@
    "sport": "Tennis",
    "type": "Official partner",
    "region": "ANZ",
-   "summary": "Garnier returned to the Australian Open for AO 2019, ten years after its previous partnership.",
+   "summary": "Garnier returned to the Australian Open for AO 2019 after a long break from the tournament.",
    "url": "https://sportskhabri.com/australian-open-2019-tennis-brand-association-partners-sponsors-grand-slam-ao/",
    "tier": "Official partner",
    "status": "New",
@@ -265,11 +265,10 @@
    "added": "2026-11-18",
    "ended": true,
    "month": "2019-01",
-   "term": 10,
-   "ends": 2029,
-   "endsEst": true,
+   "ends": 2019,
    "conf": "Reported",
-   "verified": "2026-11-18"
+   "verified": "2026-11-18",
+   "endsLock": true
   },
   {
    "deal": "K&L Gates × Australian Open",
@@ -646,9 +645,10 @@
    "added": "2026-11-18",
    "ended": 2025,
    "month": "2022-01",
-   "ends": 2026,
+   "ends": 2025,
    "conf": "Reported",
-   "verified": "2026-11-18"
+   "verified": "2026-11-18",
+   "endsLock": true
   },
   {
    "deal": "Somersby × Australian Open",
@@ -1088,7 +1088,7 @@
    "sport": "Tennis",
    "type": "Naming rights",
    "region": "ANZ",
-   "summary": "AAMI takes naming rights to the Kooyong exhibition in 2006 on a three-year deal, renewed in 2009: the AAMI Classic.",
+   "summary": "AAMI takes naming rights to the Kooyong exhibition in 2006, renewed in 2009: the AAMI Classic.",
    "url": "https://en.wikipedia.org/wiki/Kooyong_Classic",
    "tier": "Naming rights",
    "status": "New",
@@ -1097,9 +1097,6 @@
    "added": "2026-11-18",
    "ended": true,
    "month": "2006-01",
-   "term": 3,
-   "ends": 2009,
-   "endsEst": true,
    "conf": "Reported",
    "verified": "2026-11-18"
   },
@@ -1428,7 +1425,7 @@
    "sport": "Tennis",
    "type": "Naming rights",
    "region": "ANZ",
-   "summary": "The AO 1 Point Slam becomes the 1 Point Slam Driven by Kia for AO 2026, marking Kia's 25 years as an Australian Open partner.",
+   "summary": "The AO 1 Point Slam becomes the 1 Point Slam Driven by Kia for AO 2026, celebrating Kia's long run as the AO's major partner. Haier takes the 1 Point Slam for AO 2027.",
    "url": "https://www.tennis.com.au/fan-zone/news/media-releases/2025/11/27/1-point-slam-by-kia-to-move-different-at-opening-week-at-ao-2026",
    "tier": "Naming rights",
    "status": "Expansion",
@@ -1437,12 +1434,12 @@
    "added": "2026-11-18",
    "date": "2025-11-27",
    "since": 2002,
-   "term": 25,
-   "ends": 2050,
-   "endsEst": true,
+   "ends": 2026,
    "conf": "Confirmed",
    "verified": "2026-11-18",
-   "ptier": "Major partner"
+   "ptier": "Major partner",
+   "endsLock": true,
+   "ended": 2026
   },
   {
    "deal": "Haier × Australian Open",
@@ -1802,7 +1799,7 @@
    "sport": "Tennis",
    "type": "Kit supplier",
    "region": "ANZ",
-   "summary": "Wilson signs Alex de Minaur to its Tennis 360 roster: head-to-toe apparel, footwear and racquets, ending his 11 years with ASICS.",
+   "summary": "Wilson signs Alex de Minaur to its Tennis 360 roster: head-to-toe apparel, footwear and racquets, replacing his long-running ASICS deal.",
    "url": "https://nsga.org/?p=18248",
    "tier": "Kit & apparel",
    "status": "Upgrade",
@@ -1810,9 +1807,6 @@
    "marketLock": true,
    "added": "2026-11-18",
    "date": "2026-01-15",
-   "term": 11,
-   "ends": 2037,
-   "endsEst": true,
    "conf": "Reported",
    "verified": "2026-11-18"
   },
@@ -1821,7 +1815,7 @@
    "sport": "Tennis",
    "type": "Kit supplier",
    "region": "ANZ",
-   "summary": "Alex de Minaur's 11-year apparel and footwear partnership with ASICS ends ahead of the 2026 season.",
+   "summary": "Alex de Minaur's long-running apparel and footwear partnership with ASICS ends ahead of the 2026 season.",
    "url": "https://thenightly.com.au/sport/tennis/alex-de-minaur-announces-surprise-split-with-asics-after-11-year-association-c-21167402",
    "tier": "Kit & apparel",
    "status": "Ended",
@@ -1830,11 +1824,10 @@
    "added": "2026-11-18",
    "month": "2025-12",
    "ended": 2025,
-   "term": 11,
-   "ends": 2036,
-   "endsEst": true,
+   "ends": 2025,
    "conf": "Reported",
-   "verified": "2026-11-18"
+   "verified": "2026-11-18",
+   "endsLock": true
   },
   {
    "deal": "Gerald Charles × Alex de Minaur",
@@ -163480,7 +163473,8 @@
    "ptier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "checked": "2026-11-17"
+   "checked": "2026-11-17",
+   "since": 2025
   },
   {
    "date": "2026-11-11",
@@ -172710,7 +172704,8 @@
    "ptier": "Associate partner",
    "conf": "Reported",
    "verified": "2026-11-17",
-   "checked": "2026-11-17"
+   "checked": "2026-11-17",
+   "since": 2010
   },
   {
    "date": "2026-01-15",
@@ -176570,7 +176565,8 @@
    "endsLock": true,
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "checked": "2026-11-17"
+   "checked": "2026-11-17",
+   "since": 2022
   },
   {
    "date": "2025-07-01",
@@ -181692,7 +181688,8 @@
    "url": "https://ausopen.com/articles/news/australian-open-and-chubb-strengthen-ties-expanded-partnership",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "checked": "2026-11-17"
+   "checked": "2026-11-17",
+   "since": 2019
   },
   {
    "date": "2025-08-13",
@@ -202033,7 +202030,8 @@
    "ptier": "Official partner",
    "conf": "Reported",
    "verified": "2026-11-17",
-   "checked": "2026-11-17"
+   "checked": "2026-11-17",
+   "since": 2021
   },
   {
    "date": "2024-11-16",
@@ -204111,7 +204109,8 @@
    "ptier": "Official partner",
    "conf": "Reported",
    "verified": "2026-11-17",
-   "checked": "2026-11-17"
+   "checked": "2026-11-17",
+   "since": 2024
   },
   {
    "date": "2024-12-19",
@@ -223422,7 +223421,10 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "checked": "2026-11-17"
+   "checked": "2026-11-17",
+   "since": 2002,
+   "ends": 2028,
+   "endsLock": true
   },
   {
    "listed": "2026-10-30",
@@ -223438,7 +223440,10 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "checked": "2026-11-17"
+   "checked": "2026-11-17",
+   "since": 2015,
+   "ends": 2029,
+   "endsLock": true
   },
   {
    "listed": "2026-10-30",
@@ -223454,7 +223459,8 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "checked": "2026-11-17"
+   "checked": "2026-11-17",
+   "since": 2018
   },
   {
    "listed": "2026-10-30",
@@ -223470,7 +223476,8 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "checked": "2026-11-17"
+   "checked": "2026-11-17",
+   "since": 2008
   },
   {
    "listed": "2026-10-30",
@@ -223486,7 +223493,8 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "checked": "2026-11-17"
+   "checked": "2026-11-17",
+   "since": 2014
   },
   {
    "listed": "2026-10-30",
@@ -223502,7 +223510,8 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "checked": "2026-11-17"
+   "checked": "2026-11-17",
+   "since": 2019
   },
   {
    "listed": "2026-10-30",
@@ -223550,7 +223559,10 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "checked": "2026-11-17"
+   "checked": "2026-11-17",
+   "since": 2019,
+   "ends": 2028,
+   "endsLock": true
   },
   {
    "listed": "2026-10-30",
@@ -223566,7 +223578,10 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "checked": "2026-11-17"
+   "checked": "2026-11-17",
+   "since": 2019,
+   "ends": 2026,
+   "endsLock": true
   },
   {
    "listed": "2026-10-30",
@@ -223582,7 +223597,8 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "checked": "2026-11-17"
+   "checked": "2026-11-17",
+   "since": 2024
   },
   {
    "listed": "2026-10-30",
@@ -223598,7 +223614,8 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "checked": "2026-11-17"
+   "checked": "2026-11-17",
+   "since": 2024
   },
   {
    "listed": "2026-10-30",
@@ -223614,7 +223631,8 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "checked": "2026-11-17"
+   "checked": "2026-11-17",
+   "since": 2017
   },
   {
    "listed": "2026-10-30",
@@ -223694,7 +223712,8 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "checked": "2026-11-17"
+   "checked": "2026-11-17",
+   "since": 2022
   },
   {
    "listed": "2026-10-30",
@@ -223710,7 +223729,10 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "checked": "2026-11-17"
+   "checked": "2026-11-17",
+   "since": 2019,
+   "ends": 2027,
+   "endsLock": true
   },
   {
    "listed": "2026-10-30",
@@ -223726,7 +223748,8 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "checked": "2026-11-17"
+   "checked": "2026-11-17",
+   "since": 2025
   },
   {
    "listed": "2026-10-30",
@@ -223790,7 +223813,8 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "checked": "2026-11-17"
+   "checked": "2026-11-17",
+   "since": 2016
   },
   {
    "listed": "2026-10-30",
