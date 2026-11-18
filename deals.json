@@ -2591,7 +2591,8 @@
    "ttier": "Media",
    "tbasis": "rights",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "deal": "ANZ × Brisbane International",
@@ -2831,7 +2832,8 @@
    "conf": "Confirmed",
    "verified": "2026-11-18",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "deal": "Workday × Canberra International",
@@ -2993,7 +2995,8 @@
    "ttier": "T3",
    "tbasis": "category",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "deal": "Stella Artois × Australian Open",
@@ -3012,7 +3015,8 @@
    "conf": "Reported",
    "verified": "2026-11-18",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "deal": "Tsingtao × Australian Open",
@@ -3031,7 +3035,8 @@
    "conf": "Reported",
    "verified": "2026-11-18",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "deal": "Asahi × Australian Open",
@@ -3125,7 +3130,8 @@
    "conf": "Confirmed",
    "verified": "2026-11-18",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "deal": "Dunlop × Tennis Victoria",
@@ -167606,7 +167612,8 @@
    "conf": "Confirmed",
    "verified": "2026-11-16",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "month": "2025-08",
@@ -178742,7 +178749,8 @@
    "conf": "Reported",
    "verified": "2026-06-04",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2026-06-04",
@@ -178797,7 +178805,8 @@
    "conf": "Reported",
    "verified": "2026-05-28",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2026-05-27",
@@ -179937,7 +179946,7 @@
    "tier": "Principal & major",
    "status": "Renewal",
    "term": 5,
-   "ends": 2031,
+   "ends": 2030,
    "endsEst": true,
    "market": "ANZ",
    "conf": "Reported",
@@ -179949,7 +179958,8 @@
    "ttier": "T2",
    "tbasis": "sourced",
    "tends": 2031,
-   "tendsBasis": "term"
+   "tendsBasis": "term",
+   "endsLock": true
   },
   {
    "date": "2026-02-02",
@@ -180076,7 +180086,8 @@
    "ttier": "T2",
    "tbasis": "rights",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2026-01-28",
@@ -181082,7 +181093,8 @@
    "conf": "Confirmed",
    "verified": "2026-09-08",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2026-09-08",
@@ -181297,7 +181309,8 @@
    "ttier": "Media",
    "tbasis": "rights",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2026-07-21",
@@ -181356,7 +181369,8 @@
    "ttier": "T2",
    "tbasis": "role",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2026-07-21",
@@ -181410,7 +181424,8 @@
    "conf": "Confirmed",
    "verified": "2026-07-19",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2026-07-21",
@@ -181962,7 +181977,8 @@
    "ttier": "T2",
    "tbasis": "role",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2026-08-04",
@@ -182536,7 +182552,8 @@
    "ttier": "Media",
    "tbasis": "rights",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2026-06-23",
@@ -182553,7 +182570,8 @@
    "conf": "Confirmed",
    "verified": "2026-06-23",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2026-06-23",
@@ -182833,7 +182851,8 @@
    "ttier": "T4",
    "tbasis": "role",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2026-06-30",
@@ -183410,7 +183429,8 @@
    "ttier": "T4",
    "tbasis": "role",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2026-07-14",
@@ -184364,7 +184384,8 @@
    "conf": "Confirmed",
    "verified": "2026-09-29",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2025-08-21",
@@ -184383,7 +184404,8 @@
    "ttier": "T2",
    "tbasis": "rights",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2026-10-01",
@@ -184519,7 +184541,8 @@
    "conf": "Reported",
    "verified": "2026-01-27",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2026-01-27",
@@ -185453,7 +185476,8 @@
    "ptier": "Profile partner",
    "checked": "2026-11-17",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2025-09-30",
@@ -185567,7 +185591,8 @@
    "conf": "Reported",
    "verified": "2026-07-11",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2026-07-10",
@@ -185663,7 +185688,8 @@
    "conf": "Reported",
    "verified": "2026-07-06",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2026-06-25",
@@ -186390,7 +186416,8 @@
    "conf": "Reported",
    "verified": "2026-06-22",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2026-06-09",
@@ -186765,7 +186792,8 @@
    "conf": "Reported",
    "verified": "2026-05-19",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2026-05-19",
@@ -187087,7 +187115,8 @@
    "conf": "Reported",
    "verified": "2026-04-07",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2026-04-02",
@@ -187104,7 +187133,8 @@
    "conf": "Reported",
    "verified": "2026-04-02",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2026-04-02",
@@ -187697,7 +187727,8 @@
    "ttier": "T1",
    "tbasis": "rights",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2026-02-17",
@@ -187714,7 +187745,8 @@
    "conf": "Reported",
    "verified": "2026-02-17",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2026-02-19",
@@ -187870,7 +187902,8 @@
    "conf": "Reported",
    "verified": "2026-03-10",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2026-03-09",
@@ -187889,7 +187922,8 @@
    "ptier": "Lead partner",
    "checked": "2026-11-17",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2026-03-09",
@@ -187910,7 +187944,8 @@
    "ttier": "T2",
    "tbasis": "rights",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2026-03-09",
@@ -187945,7 +187980,8 @@
    "ttier": "T1",
    "tbasis": "rights",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2025-12-11",
@@ -188072,7 +188108,8 @@
    "conf": "Reported",
    "verified": "2026-03-20",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2026-03-20",
@@ -188193,7 +188230,8 @@
    "conf": "Reported",
    "verified": "2026-03-13",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2026-03-12",
@@ -188353,7 +188391,8 @@
    "ttier": "Media",
    "tbasis": "rights",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2026-01-28",
@@ -189077,7 +189116,8 @@
    "conf": "Confirmed",
    "verified": "2025-12-03",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2025-12-03",
@@ -189097,7 +189137,8 @@
    "ttier": "T3",
    "tbasis": "category",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2025-12-03",
@@ -189167,7 +189208,8 @@
    "conf": "Confirmed",
    "verified": "2025-12-03",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2025-12-03",
@@ -189185,7 +189227,8 @@
    "conf": "Confirmed",
    "verified": "2025-12-03",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2025-12-03",
@@ -189326,7 +189369,8 @@
    "conf": "Reported",
    "verified": "2025-06-25",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2025-06-25",
@@ -190247,7 +190291,8 @@
    "conf": "Confirmed",
    "verified": "2025-08-13",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2025-08-13",
@@ -190423,13 +190468,14 @@
    "status": "Renewal",
    "market": "ANZ",
    "url": "https://www.portadelaidefc.com.au/news/1952976/port-adelaide-and-kfc-extend-partnership-to-10-year-milestone",
-   "ends": 2031,
+   "ends": 2030,
    "term": 5,
    "endsEst": true,
    "conf": "Confirmed",
    "verified": "2026-02-18",
    "tends": 2031,
-   "tendsBasis": "term"
+   "tendsBasis": "term",
+   "endsLock": true
   },
   {
    "date": "2026-02-18",
@@ -190827,7 +190873,8 @@
    "conf": "Confirmed",
    "verified": "2026-11-16",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2025-10-29",
@@ -190846,7 +190893,8 @@
    "ttier": "T2",
    "tbasis": "rights",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2025-10-29",
@@ -192148,7 +192196,8 @@
    "conf": "Confirmed",
    "verified": "2025-07-16",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2025-06-03",
@@ -193970,7 +194019,8 @@
    "conf": "Confirmed",
    "verified": "2025-09-23",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2025-09-23",
@@ -196684,7 +196734,8 @@
    "conf": "Reported",
    "verified": "2025-09-06",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2025-09-05",
@@ -196749,7 +196800,8 @@
    "ptier": "Team Partners",
    "checked": "2026-11-17",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2025-12-13",
@@ -196976,7 +197028,8 @@
    "conf": "Reported",
    "verified": "2025-11-13",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2025-11-13",
@@ -197745,7 +197798,8 @@
    "ttier": "T1",
    "tbasis": "role",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2025-09-27",
@@ -197919,7 +197973,8 @@
    "conf": "Reported",
    "verified": "2026-11-16",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2025-09-15",
@@ -198140,7 +198195,8 @@
    "conf": "Reported",
    "verified": "2026-11-16",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2025-08-23",
@@ -198362,7 +198418,8 @@
    "conf": "Confirmed",
    "verified": "2026-11-16",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2025-08-06",
@@ -198858,7 +198915,8 @@
    "ttier": "T2",
    "tbasis": "rights",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2025-08-19",
@@ -199273,7 +199331,8 @@
    "ttier": "T1",
    "tbasis": "rights",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2025-07-18",
@@ -199632,7 +199691,8 @@
    "ttier": "T1",
    "tbasis": "role",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2025-06-28",
@@ -206944,7 +207004,8 @@
    "conf": "Reported",
    "verified": "2026-03-18",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2026-03-18",
@@ -207068,7 +207129,8 @@
    "conf": "Reported",
    "verified": "2026-03-25",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2026-03-25",
@@ -207922,7 +207984,8 @@
    "ttier": "T4",
    "tbasis": "role",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2026-05-04",
@@ -209055,7 +209118,8 @@
    "ttier": "T4",
    "tbasis": "role",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2026-07-28",
@@ -212303,7 +212367,8 @@
    "conf": "Reported",
    "verified": "2024-12-02",
    "tends": 2026,
-   "tendsBasis": "term"
+   "tendsBasis": "term",
+   "ended": 2026
   },
   {
    "date": "2024-11-30",
