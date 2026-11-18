@@ -16,16 +16,50 @@ S.load().then(D=>{
 
 function index(byCat){
   document.title="Categories | Sport Sport Sport";
-  const cards=[...byCat.entries()].filter(([,g])=>g.brands.length).map(([k,g])=>{
-    const top=[...g.brands].sort((a,b)=>b.n-a.n).slice(0,4);
-    const ty=[...g.deals].filter(d=>S.yearOf(d)===yr).length;
-    return {k,g,top,ty};
-  }).sort((a,b)=>(a.k==="Other")-(b.k==="Other")||b.g.deals.size-a.g.deals.size);
-  $("view").innerHTML=`<section class="wrap hero"><span class="lbl mute-l">Insights</span><h1 class="disp">Categories.</h1>
-  <p>Every brand in the database sorted into the industry it sells in. Pick one to see who's spending, which sports they back and every partnership they've done.</p></section>
-  <section class="wrap sec"><div class="cg">${cards.map(x=>`<a class="cc" href="categories?c=${encodeURIComponent(x.k)}"><h3>${esc(x.k)}</h3><span class="k">${plural(x.g.brands.length,"brand","brands")} · ${plural(x.g.deals.size,"partnership","partnerships")}${x.ty?` · ${x.ty} in ${yr}`:""}</span><span class="lgs">${x.top.map(b=>L.mark(b.e,{px:40})).join("")}</span></a>`).join("")}</div></section>`;
+  const now=new Date(),doy=(now-new Date(yr,0,1))/864e5;
+  const st={m:"All",sort:"deals"};
+  const inM=d=>st.m==="All"||S.mkt(d)===st.m;
+  const atPoint=d=>{if(!d.date)return false;const x=new Date(d.date+"T00:00:00");return (x-new Date(x.getFullYear(),0,1))/864e5<=doy};
+  const spark=v=>{const mx=Math.max(1,...v),W=150,H=40;return `<svg viewBox="0 0 ${W} ${H+4}" preserveAspectRatio="none" aria-hidden="true"><polyline points="${v.map((n,i)=>`${(i*W/(v.length-1)).toFixed(1)},${(H+2-n/mx*H).toFixed(1)}`).join(" ")}" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke"/></svg>`};
+  const calc=()=>[...byCat.entries()].filter(([k,g])=>k!=="Other"&&g.brands.length).map(([k,g])=>{
+    const ds=[...g.deals].filter(inM);
+    const brands=g.brands.filter(b=>b.deals.some(x=>x.side==="b"&&inM(x.d)));
+    const ty=ds.filter(d=>S.yearOf(d)===yr).length, ly=ds.filter(d=>S.yearOf(d)===yr-1&&atPoint(d)).length;
+    const years=[];for(let y=yr-5;y<=yr;y++)years.push(ds.filter(d=>S.yearOf(d)===y).length);
+    const top=[...brands].sort((a,b)=>b.n-a.n);
+    return {k,ds,brands,ty,ly,years,top,growth:ly?(ty-ly)/ly:ty?1:0};
+  }).filter(x=>x.ds.length);
+  const total=D_TOTAL(byCat);
+  const draw=()=>{
+    const cards=calc();
+    const sorters={deals:(a,b)=>b.ds.length-a.ds.length,brands:(a,b)=>b.brands.length-a.brands.length,growth:(a,b)=>b.ty-b.ly-(a.ty-a.ly),az:(a,b)=>a.k.localeCompare(b.k)};
+    cards.sort(sorters[st.sort]);
+    const all=calc(),big=[...all].sort(sorters.deals)[0],fast=[...all].filter(x=>x.ly>=5).sort((a,b)=>b.growth-a.growth)[0];
+    const bet=all.find(x=>x.k==="Betting & wagering");
+    const betLive=bet?bet.ds.filter(d=>S.mkt(d)==="ANZ"&&!d.ended&&d.status!=="Ended").length:0;
+    $("cHi").innerHTML=[big&&["Biggest category",big.k,`${big.ds.length.toLocaleString("en-AU")} partnerships · ${Math.round(big.ds.length/Math.max(1,all.reduce((s,x)=>s+x.ds.length,0))*100)}% of everything`,big.years],
+      fast&&["Fastest growing",fast.k,`${fast.growth>=0?"+":""}${Math.round(fast.growth*100)}% on this point in ${yr-1}`,fast.years],
+      bet&&["Exiting",bet.k,`${betLive} live ANZ partnerships roll off by 2031`,bet.years]].filter(Boolean)
+      .map(([l,k,t,v])=>`<a class="c3-hi" href="categories?c=${encodeURIComponent(k)}"><span class="lbl mute-l">${l}</span><b>${esc(k)}</b><span class="x">${esc(t)}</span>${spark(v)}</a>`).join("");
+    $("cGrid").innerHTML=cards.map(x=>`<a class="c3-c" href="categories?c=${encodeURIComponent(x.k)}"><span class="h"><b>${esc(x.k)}</b><span class="chip ${x.ty?"up":"flat"}">${x.ty?"+"+x.ty:"0"}</span></span>
+      <span class="x">${plural(x.brands.length,"brand","brands")} · ${plural(x.ds.length,"partnership","partnerships")} · ${x.ty} in ${yr}</span>${spark(x.years)}
+      <span class="lgs">${x.top.slice(0,4).map(b=>L.mark(b.e,{px:28})).join("")}${x.top.length>4?`<span class="more5">+${x.top.length-4}</span>`:""}</span></a>`).join("");
+    document.querySelectorAll("#cMkt button").forEach(b=>b.classList.toggle("on",b.dataset.m===st.m));
+    document.querySelectorAll("#cSort button").forEach(b=>b.classList.toggle("on",b.dataset.s===st.sort));
+  };
+  const lastAdd=total.last, ago=lastAdd?Math.round((now-new Date(lastAdd+"T00:00:00"))/864e5):0;
+  $("view").innerHTML=`<section class="wrap d3-hero"><span class="lbl mute-l">Insights</span><h1 class="disp">Categories.</h1>
+  <p>Every brand in the database sorted into the industry it sells in. Pick one to see who's spending, which sports they back and every partnership they've done.</p>
+  <span class="stamp3"><i></i>Updated ${ago<=0?"today":ago===1?"yesterday":ago+" days ago"} · ${calc().length} categories</span>
+  <div class="c3-his" id="cHi"></div></section>
+  <div class="n3-bar"><div class="wrap"><div class="seg3" id="cMkt" role="group" aria-label="Market"><button type="button" data-m="All">Global</button><button type="button" data-m="ANZ">ANZ</button><button type="button" data-m="UK &amp; Ireland">UK</button><button type="button" data-m="North America">USA</button></div>
+  <div class="tt3" id="cSort" role="group" aria-label="Sort"><button type="button" data-s="deals">Most partnerships</button><button type="button" data-s="brands">Most brands</button><button type="button" data-s="growth">Fastest growing</button><button type="button" data-s="az">A-Z</button></div></div></div>
+  <section class="wrap c3-sec"><div class="c3-grid" id="cGrid"></div></section>`;
+  $("cMkt").onclick=e=>{const b=e.target.closest("[data-m]");if(b){st.m=b.dataset.m;draw()}};
+  $("cSort").onclick=e=>{const b=e.target.closest("[data-s]");if(b){st.sort=b.dataset.s;draw()}};
+  draw();
 }
-
+function D_TOTAL(byCat){let last="";byCat.forEach(g=>g.deals.forEach(d=>{const k=d.added||d.date||"";if(k>last)last=k}));return {last}}
 function detail(c,g,q){
   document.title=`${c} sponsors | Sport Sport Sport`;
   const st={sport:q.get("sport")||"All",region:q.get("region")||"All"};
