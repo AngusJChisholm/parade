@@ -569,13 +569,13 @@ body.pro header.v2 .dd-m{background:#111}body.pro header.v2 .dd-m a{color:#fff}
 </div></template>
 <datalist id="propNames"></datalist>
 <datalist id="brandNames"></datalist>
-<script>/* Sign-in photos: the feature photos, crossfading every 6 seconds */
+<script>/* Sign-in photos: four stadium shots from Unsplash, crossfading every 6 seconds */
 (function(){const sl=document.getElementById("gtSl"),dots=document.getElementById("gtDots");if(!sl)return;
-const FALL=[["https://images.unsplash.com/photo-1741520504868-2cd8f940f977","AFL"],["https://images.unsplash.com/photo-1786397160806-c71bf6aa4558","Tennis"],["https://images.unsplash.com/photo-1587361144243-03f7925381ca","Multi-sport"]];
-const run=list=>{list=list.slice(0,5);sl.innerHTML=list.map(([u,t])=>`<div style="background-image:url('${u}?auto=format&fit=crop&w=1400&q=70')"><span>${t.replace(/[<>&]/g,"")}</span></div>`).join("");
- dots.innerHTML=list.map(()=>"<i></i>").join("");let i=0;const on=()=>{[...sl.children].forEach((d,k)=>d.classList.toggle("on",k===i));[...dots.children].forEach((d,k)=>d.classList.toggle("on",k===i))};on();
- if(!matchMedia("(prefers-reduced-motion: reduce)").matches)setInterval(()=>{if(!document.documentElement.classList.contains("locked"))return;i=(i+1)%list.length;on()},6000)};
-fetch("features.json").then(r=>r.json()).then(j=>{const seen=new Set(),out=[];(j.features||[]).forEach(f=>{if(f.image&&/unsplash/.test(f.image)&&!seen.has(f.sport||"")){seen.add(f.sport||"");out.push([f.image.split("?")[0],f.sport&&f.sport!=="Multi-sport"?f.sport:"Sport"])}});run(out.length>=2?out:FALL)}).catch(()=>run(FALL));
+const IDS=["bC4KqJDfYMU","LemW56Wd7SE","LbT_j62t94U","RQwgctKZUic"];
+sl.innerHTML=IDS.map(id=>`<div style="background-image:url('https://unsplash.com/photos/${id}/download?w=1600')"></div>`).join("");
+dots.innerHTML=IDS.map(()=>"<i></i>").join("");let i=0;
+const on=()=>{[...sl.children].forEach((d,k)=>d.classList.toggle("on",k===i));[...dots.children].forEach((d,k)=>d.classList.toggle("on",k===i))};on();
+if(!matchMedia("(prefers-reduced-motion: reduce)").matches)setInterval(()=>{if(!document.documentElement.classList.contains("locked"))return;i=(i+1)%IDS.length;on()},6000);
 })();</script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="assets/pro-config.js?v=1"></script>
