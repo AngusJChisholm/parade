@@ -51732,7 +51732,11 @@
    "aliases": [
     "Rolex SailGP Championship"
    ],
-   "market": "Global"
+   "market": "Global",
+   "ptiers": [
+    "Global data partner",
+    "Global partner"
+   ]
   },
   "sailgp-hong-kong-sail-grand-prix": {
    "name": "SailGP Hong Kong Sail Grand Prix",
@@ -68743,6 +68747,9 @@
    "aliases": [
     "Los Gallos",
     "Los Gallos SailGP Team"
+   ],
+   "ptiers": [
+    "Official sponsor"
    ]
   },
   "denmark-sailgp-team": {
@@ -68762,6 +68769,9 @@
    "market": "Europe",
    "aliases": [
     "DS Automobiles SailGP Team France"
+   ],
+   "ptiers": [
+    "Official sponsor"
    ]
   },
   "germany-sailgp-team": {
@@ -68771,6 +68781,9 @@
    "market": "Europe",
    "aliases": [
     "Germany SailGP Team presented by Deutsche Bank"
+   ],
+   "ptiers": [
+    "Presenting partner"
    ]
   },
   "italy-sailgp-team": {
@@ -68780,6 +68793,9 @@
    "market": "Europe",
    "aliases": [
     "Red Bull Italy SailGP Team"
+   ],
+   "ptiers": [
+    "Title partner"
    ]
   },
   "brazil-sailgp-team": {
@@ -68818,6 +68834,11 @@
    "aliases": [
     "Explora Journeys Swiss SailGP Team",
     "Swiss SailGP Team"
+   ],
+   "ptiers": [
+    "Main partner",
+    "Official clothing partner",
+    "Team partner"
    ]
   },
   "sailgp-perth-sail-grand-prix": {
@@ -68825,49 +68846,71 @@
    "ptype": "Event",
    "k": "p",
    "market": "ANZ",
-   "domain": "sailgp.com"
+   "domain": "sailgp.com",
+   "ptiers": [
+    "Title partner",
+    "Presenting and title partner"
+   ]
   },
   "sailgp-auckland-sail-grand-prix": {
    "name": "SailGP Auckland Sail Grand Prix",
    "ptype": "Event",
    "k": "p",
    "market": "ANZ",
-   "domain": "sailgp.com"
+   "domain": "sailgp.com",
+   "ptiers": [
+    "Title partner"
+   ]
   },
   "sailgp-sydney-sail-grand-prix": {
    "name": "SailGP Sydney Sail Grand Prix",
    "ptype": "Event",
    "k": "p",
    "market": "ANZ",
-   "domain": "sailgp.com"
+   "domain": "sailgp.com",
+   "ptiers": [
+    "Presenting and title partner"
+   ]
   },
   "sailgp-rio-sail-grand-prix": {
    "name": "SailGP Rio Sail Grand Prix",
    "ptype": "Event",
    "k": "p",
    "market": "Rest of World",
-   "domain": "sailgp.com"
+   "domain": "sailgp.com",
+   "ptiers": [
+    "Title partner"
+   ]
   },
   "sailgp-bermuda-sail-grand-prix": {
    "name": "SailGP Bermuda Sail Grand Prix",
    "ptype": "Event",
    "k": "p",
    "market": "North America",
-   "domain": "sailgp.com"
+   "domain": "sailgp.com",
+   "ptiers": [
+    "Title partner"
+   ]
   },
   "sailgp-new-york-sail-grand-prix": {
    "name": "SailGP New York Sail Grand Prix",
    "ptype": "Event",
    "k": "p",
    "market": "North America",
-   "domain": "sailgp.com"
+   "domain": "sailgp.com",
+   "ptiers": [
+    "Title partner"
+   ]
   },
   "sailgp-portsmouth-sail-grand-prix": {
    "name": "SailGP Portsmouth Sail Grand Prix",
    "ptype": "Event",
    "k": "p",
    "market": "UK & Ireland",
-   "domain": "sailgp.com"
+   "domain": "sailgp.com",
+   "ptiers": [
+    "Title partner"
+   ]
   },
   "sailgp-germany-sail-grand-prix": {
    "name": "SailGP Germany Sail Grand Prix",
@@ -68881,21 +68924,32 @@
    "ptype": "Event",
    "k": "p",
    "market": "Europe",
-   "domain": "sailgp.com"
+   "domain": "sailgp.com",
+   "ptiers": [
+    "Title partner"
+   ]
   },
   "sailgp-dubai-sail-grand-prix": {
    "name": "SailGP Dubai Sail Grand Prix",
    "ptype": "Event",
    "k": "p",
    "market": "Middle East",
-   "domain": "sailgp.com"
+   "domain": "sailgp.com",
+   "ptiers": [
+    "Title partner",
+    "Presenting partner"
+   ]
   },
   "sailgp-abu-dhabi-sail-grand-prix": {
    "name": "SailGP Abu Dhabi Sail Grand Prix",
    "ptype": "Event",
    "k": "p",
    "market": "Middle East",
-   "domain": "sailgp.com"
+   "domain": "sailgp.com",
+   "ptiers": [
+    "Title partner",
+    "Presenting partner"
+   ]
   },
   "america-s-cup": {
    "name": "America's Cup",
@@ -68906,6 +68960,10 @@
    "aliases": [
     "Louis Vuitton 38th America's Cup",
     "Louis Vuitton America's Cup"
+   ],
+   "ptiers": [
+    "Official sponsor",
+    "Global partner"
    ]
   },
   "luna-rossa": {
@@ -68915,6 +68973,10 @@
    "market": "Europe",
    "aliases": [
     "Luna Rossa Prada Pirelli"
+   ],
+   "ptiers": [
+    "Title partner",
+    "Official sponsor"
    ]
   },
   "alinghi": {
@@ -68925,6 +68987,10 @@
    "domain": "alinghi.com",
    "aliases": [
     "Tudor Team Alinghi"
+   ],
+   "ptiers": [
+    "Official footwear supplier",
+    "Team partner"
    ]
   },
   "k-challenge": {
@@ -68943,6 +69009,10 @@
    "market": "UK & Ireland",
    "aliases": [
     "Athena Racing"
+   ],
+   "ptiers": [
+    "Global partner",
+    "Team partner"
    ]
   },
   "gb2": {
@@ -68952,6 +69022,9 @@
    "market": "UK & Ireland",
    "aliases": [
     "Cobham-Ultra GB2"
+   ],
+   "ptiers": [
+    "Title partner"
    ]
   },
   "team-australia-america-s-cup": {
