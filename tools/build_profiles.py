@@ -111,14 +111,24 @@ def main():
         top_p = ", ".join(pname(k) for k in partners[:6])
         dated = [d for d, _ in r["deals"] if d.get("date") or d.get("month")] or [d for d, _ in r["deals"]]
         latest, first = dated[0], dated[-1]
+        # Current partners (property pages): counterparts on at least one deal that hasn't ended.
+        cur_p = set()
+        if kind == "p":
+            for d, side in r["deals"]:
+                if side == "p" and not d.get("ended") and d.get("status") != "Ended":
+                    cur_p.update(resolve(x) for x in many(split(d.get("deal"))[0]))
+            cur_p.discard(None)
+            top_p = ", ".join(pname(k) for k in [k for k in partners if k in cur_p][:6]) or top_p
+        nc = len(cur_p)
         if kind == "b":
             desc = f"{name} sponsorships: {n} filed across {', '.join(sports[:3])}. Partners include {top_p}." if top_p else f"{name} sponsorships in sport."
             title = f"{name} sponsorships and sport partners"
         else:
-            desc = f"{name} sponsors and partners: {n} partnerships filed. Partners include {top_p}." if top_p else f"{name} sponsors and partners."
+            desc = f"{name} sponsors and partners: {nc} current partner{'' if nc == 1 else 's'}, including {top_p}." if top_p else f"{name} sponsors and partners."
             title = f"{name} sponsors and partners"
         url = f"{SITE}/{folder}/{slug}"
         stats = "".join(f'<div class="stat"><b>{esc(v)}</b><span>{esc(l)}</span></div>' for v, l in [
+            *([(nc, "current partner" if nc == 1 else "current partners")] if kind == "p" else []),
             (n, "partnership filed" if n == 1 else "partnerships filed"), (len(sports), "sport" if len(sports) == 1 else "sports"),
             (fmt(latest), "latest partnership"), (fmt(first), "first filed")])
         # Past partners: every deal with that partner is marked "ended". Greyed, with the years they were signed.

@@ -32,7 +32,7 @@ function run(){
   const hay=r=>norm([r.e.name,...(r.e.aliases||[]),r.cat||"",r.ptype||"",...r.sports.keys()].join(" "));
   const eOk=r=>(st.m==="All"||r.markets.has(st.m))&&(st.sport==="All"||r.sports.has(st.sport));
   const brands=D.brands.filter(r=>hay(r).includes(v)&&eOk(r)).sort((a,b)=>score(a)-score(b)||b.n-a.n);
-  const props=D.props.filter(r=>hay(r).includes(v)&&eOk(r)).sort((a,b)=>score(a)-score(b)||b.n-a.n);
+  const props=D.props.filter(r=>hay(r).includes(v)&&eOk(r)).sort((a,b)=>score(a)-score(b)||b.cur-a.cur||b.n-a.n);
   const deals=D.deals.filter(d=>norm([d.deal,d.sport,d.type,d.tier,d.summary||""].join(" ")).includes(v)&&dOk(d)).sort((a,b)=>S.sortKey(b).localeCompare(S.sortKey(a)));
   const news=[...D.deals.filter(d=>d.slug&&d.article&&d.date&&norm((d.headline||"")+" "+d.deal).includes(v)&&dOk(d)).map(d=>({k:"Partnership",date:d.date,h:d.headline||d.deal,slug:d.slug,img:d.image})),
     ...F.filter(f=>norm(f.headline+" "+(f.descriptor||"")+" "+(f.sport||"")).includes(v)).map(f=>({k:f.label||"Feature",date:f.date,h:f.headline,slug:f.slug,img:f.image}))].sort((a,b)=>b.date.localeCompare(a.date));
@@ -41,10 +41,10 @@ function run(){
   $("sTabs").innerHTML=T.map(([k,l,n])=>`<button type="button" data-t="${k}" class="${st.tab===k?"on":""}">${l} <span>${n.toLocaleString("en-AU")}</span></button>`).join("");
   $("sCount").textContent=`${T[0][2].toLocaleString("en-AU")} results across ${D.deals.length.toLocaleString("en-AU")} partnerships`;
   const all=st.tab==="all",lim=n=>all?n:400;
-  const ent=(r,isB)=>`<a class="s3-row" href="${esc(L.page(r.e.slug))}">${L.mark(r.e,{px:36})}<span class="nm"><b>${esc(r.e.name)}</b><span>${esc([isB?"Brand":r.ptype||"Property",isB?r.cat:[...r.sports.keys()][0],[...r.markets][0]].filter(Boolean).join(" · "))}</span></span><span class="n">${r.n} partnership${r.n===1?"":"s"}</span></a>`;
+  const ent=(r,isB)=>`<a class="s3-row" href="${esc(L.page(r.e.slug))}">${L.mark(r.e,{px:36})}<span class="nm"><b>${esc(r.e.name)}</b><span>${esc([isB?"Brand":r.ptype||"Property",isB?r.cat:[...r.sports.keys()][0],[...r.markets][0]].filter(Boolean).join(" · "))}</span></span><span class="n">${isB?`${r.n} partnership${r.n===1?"":"s"}`:`${r.cur} current partner${r.cur===1?"":"s"}`}</span></a>`;
   const grp=(k,title,n,body,link)=>(all||st.tab===k)&&n?`<section class="s3-g"><div class="s3-gh"><h2>${title} <span>${n.toLocaleString("en-AU")}</span></h2>${all&&link?`<button type="button" class="more" data-t="${k}">All ${title.toLowerCase()} →</button>`:""}</div><div class="ps-c s3-list">${body}</div></section>`:"";
   let html="";
-  if(all&&top){const isB=top.kind==="brand";html+=`<a class="s3-top" href="${esc(L.page(top.e.slug))}">${L.mark(top.e,{px:64})}<span class="nm"><span class="lbl mute-l">Top result · ${isB?"Brand":"Property"} · ${esc(isB?top.cat||"":top.ptype||"")}</span><b>${esc(top.e.name)}.</b></span><span class="st"><span><b>${top.n}</b>Partnerships</span><span><b>${top.sports.size}</b>Sports</span><span class="go">Open ${isB?"brand":"property"} page →</span></span></a>`}
+  if(all&&top){const isB=top.kind==="brand";html+=`<a class="s3-top" href="${esc(L.page(top.e.slug))}">${L.mark(top.e,{px:64})}<span class="nm"><span class="lbl mute-l">Top result · ${isB?"Brand":"Property"} · ${esc(isB?top.cat||"":top.ptype||"")}</span><b>${esc(top.e.name)}.</b></span><span class="st">${isB?`<span><b>${top.n}</b>Partnerships</span>`:`<span><b>${top.cur}</b>Current partners</span>`}<span><b>${top.sports.size}</b>Sports</span><span class="go">Open ${isB?"brand":"property"} page →</span></span></a>`}
   html+=grp("brands","Brands",brands.length,brands.slice(0,lim(5)).map(r=>ent(r,true)).join(""),1);
   html+=grp("props","Properties",props.length,props.slice(0,lim(5)).map(r=>ent(r,false)).join(""),1);
   html+=grp("deals","Partnerships",deals.length,deals.slice(0,lim(8)).map(d=>`<div class="s3-row d">${chipOf(d)}<span class="dl">${L.pair(d,{px:26})}<span>${S.dealLink(d)}</span></span><span class="n">${esc(S.fmt(d))}</span></div>`).join(""),1);

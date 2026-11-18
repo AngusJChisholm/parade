@@ -47,7 +47,7 @@ S.load().then(D=>{
   const hotDraw=m=>{
     const yrN=r=>r.deals.filter(x=>inM(x.d,m)&&S.sortKey(x.d).startsWith(String(yr))).length;
     const hot=rows.map(r=>({r,n:yrN(r)})).filter(x=>x.n).sort((a,b)=>b.n-a.n||a.r.e.name.localeCompare(b.r.e.name)).slice(0,10);
-    const row=({r,n},i)=>`<a href="${esc(L.page(r.e.slug))}"><span class="r">${String(i+1).padStart(2,"0")}</span>${L.mark(r.e,{px:32})}<span class="nm"><b>${esc(r.e.name)}</b><span>${esc(groupOf(r)||"")}</span></span><span class="tot">${r.n}</span><span class="chip up">+${n}</span></a>`;
+    const row=({r,n},i)=>`<a href="${esc(L.page(r.e.slug))}"><span class="r">${String(i+1).padStart(2,"0")}</span>${L.mark(r.e,{px:32})}<span class="nm"><b>${esc(r.e.name)}</b><span>${esc(groupOf(r)||"")}</span></span><span class="tot"${IS_B?"":` title="Current partners"`}>${IS_B?r.n:r.cur}</span><span class="chip up">+${n}</span></a>`;
     $("hot").innerHTML=`<div>${hot.slice(0,5).map(row).join("")}</div><div>${hot.slice(5).map((x,i)=>row(x,i+5)).join("")}</div>`;
     $("hotM").querySelectorAll("button").forEach(b=>b.classList.toggle("on",b.dataset.hm===m));
     $("band").hidden=!hot.length&&m==="ANZ";
@@ -65,6 +65,7 @@ S.load().then(D=>{
   $("sport").innerHTML=["All",...sports].map(s=>`<option value="${esc(s)}"${s===st.sport?" selected":""}>${s==="All"?"All sports":esc(s)}</option>`).join("");
   $("group").innerHTML=["",...groups].map(g=>`<option value="${esc(g)}"${g===st.group?" selected":""}>${g?esc(g):IS_B?"All categories":"All types"}</option>`).join("");
   $("region").innerHTML=["ANZ","All",...S.MKTS.filter(m=>m!=="ANZ"&&m!=="All")].map(r=>`<option value="${esc(r)}"${r===st.region?" selected":""}>${esc(S.mktLab(r))}</option>`).join("");
+  if(!IS_B){const o=$("sort").querySelector('option[value="deals"]');if(o)o.textContent="Most current partners"}
   $("sort").value=st.sort;$("q").value=st.q;
 
   function pills(){
@@ -83,14 +84,14 @@ S.load().then(D=>{
     const lg=leagues.find(l=>l.name===st.league);
     const inLg=lg?lg.ids:null;
     const r=rows.filter(x=>(!q||x.hay.includes(q))&&(st.sport==="All"||x.sports.has(st.sport))&&(st.region==="All"||x.markets.has(st.region))&&(!inLg||inLg.has(x.e.slug))&&(!st.group||groupOf(x)===st.group));
-    const by={deals:(a,b)=>b.n-a.n||a.e.name.localeCompare(b.e.name),
+    const by={deals:IS_B?(a,b)=>b.n-a.n||a.e.name.localeCompare(b.e.name):(a,b)=>b.cur-a.cur||b.n-a.n||a.e.name.localeCompare(b.e.name),
       latest:(a,b)=>S.sortKey(b.latest.d).localeCompare(S.sortKey(a.latest.d))||b.n-a.n,
       az:(a,b)=>a.e.name.localeCompare(b.e.name,"en",{sensitivity:"base"})};
     r.sort(by[st.sort]||by.deals);
     $("count").textContent=`${r.length.toLocaleString("en-AU")} ${IS_B?(r.length===1?"brand":"brands"):(r.length===1?"property":"properties")}`;
     $("grid").innerHTML=r.slice(0,st.shown).map(x=>{
       const yN=x.deals.filter(z=>S.sortKey(z.d).startsWith(String(yr))).length;
-      return `<a class="dc" href="${esc(L.page(x.e.slug))}">${L.mark(x.e,{px:44})}<span class="nm"><b>${esc(x.e.name)}</b><span>${esc([groupOf(x),...[...x.sports.keys()].slice(0,2)].filter(Boolean).join(" · "))}</span></span><span class="ft"><span><b>${x.n}</b> partnership${x.n===1?"":"s"}</span><span class="chip ${yN?"up":"flat"}">${yN?"+"+yN:"0"}</span></span></a>`;
+      return `<a class="dc" href="${esc(L.page(x.e.slug))}">${L.mark(x.e,{px:44})}<span class="nm"><b>${esc(x.e.name)}</b><span>${esc([groupOf(x),...[...x.sports.keys()].slice(0,2)].filter(Boolean).join(" · "))}</span></span><span class="ft"><span>${IS_B?`<b>${x.n}</b> partnership${x.n===1?"":"s"}`:`<b>${x.cur}</b> current partner${x.cur===1?"":"s"}`}</span><span class="chip ${yN?"up":"flat"}">${yN?"+"+yN:"0"}</span></span></a>`;
     }).join("")||`<p class="note">Nothing matches that. Try a different name or clear the filters.</p>`;
     $("moreBtn").hidden=r.length<=st.shown;
     $("moreBtn").textContent=`Show more (${(r.length-st.shown).toLocaleString("en-AU")} left)`;

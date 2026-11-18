@@ -43,6 +43,9 @@ window.SSSData=(function(){
         thisYr:m.deals.filter(x=>yearOf(x.d)===yr).length,
         cat:m.e.cat||"Other",ptype:m.e.ptype||"Other",
         hay:[m.e.name,...(m.e.aliases||[]),...[...m.partners.values()].map(p=>p.name)].join(" ").toLowerCase()}));
+      // Current partners: counterparts on at least one deal (on the org's own side) that hasn't ended.
+      // This is the headline number for every property across the site; n stays as partnerships on file.
+      all.forEach(m=>{const side=m.kind==="brand"?"b":"p",c=new Set();m.deals.forEach(x=>{if(x.side===side&&!x.d.ended&&x.d.status!=="Ended")(x.other||[]).forEach(o=>{if(o)c.add(o.slug)})});m.cur=c.size});
       // Each deal gets its brands' categories, for category views.
       deals.forEach(d=>{d._cats=[...new Set(d._bs.map(e=>(M.get(e.slug)||{}).cat||e.cat||"Other"))]});
       // Every league in leagues.json: clubs = member slugs (in file order), ids = clubs plus the league itself.
