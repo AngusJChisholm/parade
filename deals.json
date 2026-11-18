@@ -1506,7 +1506,9 @@
    "listed": "2026-11-18",
    "conf": "Confirmed",
    "verified": "2026-11-18",
-   "ptier": "Government partner"
+   "ptier": "Government partner",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "deal": "Liquid I.V. × Brisbane International / Adelaide International / Hobart International",
@@ -1589,7 +1591,9 @@
    "listed": "2026-11-18",
    "conf": "Reported",
    "verified": "2026-11-18",
-   "ptier": "Government partner"
+   "ptier": "Government partner",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "deal": "Events Tasmania × Hobart International",
@@ -1606,7 +1610,9 @@
    "listed": "2026-11-18",
    "conf": "Confirmed",
    "verified": "2026-11-18",
-   "ptier": "Government partner"
+   "ptier": "Government partner",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "deal": "City of Hobart × Hobart International",
@@ -1624,7 +1630,9 @@
    "conf": "Reported",
    "verified": "2026-11-18",
    "ptier": "Government partner",
-   "since": 2020
+   "since": 2020,
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "deal": "Van Diemens Land Creamery × Hobart International / Tennis Tasmania",
@@ -1680,7 +1688,9 @@
    "listed": "2026-11-18",
    "conf": "Confirmed",
    "verified": "2026-11-18",
-   "ptier": "Government partner"
+   "ptier": "Government partner",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "deal": "Icon Water × Canberra International / Tennis ACT",
@@ -2013,7 +2023,9 @@
    "listed": "2026-11-18",
    "conf": "Confirmed",
    "verified": "2026-11-18",
-   "ptier": "Official partner"
+   "ptier": "Official partner",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "deal": "Dunlop × Tennis SA",
@@ -2156,7 +2168,9 @@
    "listed": "2026-11-18",
    "conf": "Confirmed",
    "verified": "2026-11-18",
-   "ptier": "Government partner"
+   "ptier": "Government partner",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "deal": "McDonald's × Tennis Queensland",
@@ -2581,8 +2595,8 @@
    "verified": "2026-11-18",
    "market": "Middle East",
    "marketLock": true,
-   "ttier": "T1",
-   "tbasis": "rights"
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "date": "2025-10-05",
@@ -2598,7 +2612,9 @@
    "conf": "Reported",
    "verified": "2026-11-18",
    "market": "UK & Ireland",
-   "marketLock": true
+   "marketLock": true,
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "date": "2026-05-26",
@@ -2836,7 +2852,9 @@
    "tier": "Official partner",
    "ptier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -3020,7 +3038,9 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -3293,7 +3313,9 @@
    "ptier": "Government partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -3308,7 +3330,9 @@
    "ptier": "Government partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -3323,7 +3347,9 @@
    "ptier": "Government partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -4091,7 +4117,9 @@
    "ptier": "Title, strategic and presenting partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -4121,7 +4149,9 @@
    "ptier": "Host council",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -4136,7 +4166,9 @@
    "ptier": "Host council",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -4151,7 +4183,9 @@
    "ptier": "Host council",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -4166,7 +4200,9 @@
    "ptier": "Host council",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -4181,7 +4217,9 @@
    "ptier": "Host council",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -4196,7 +4234,9 @@
    "ptier": "Host council",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -4211,7 +4251,9 @@
    "ptier": "Host council",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -4226,7 +4268,9 @@
    "ptier": "Host council",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -4286,7 +4330,9 @@
    "ptier": "Corporate partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -4316,7 +4362,9 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -4331,7 +4379,9 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -4346,7 +4396,9 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -4466,7 +4518,9 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -4496,7 +4550,9 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -4511,7 +4567,9 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -4526,7 +4584,9 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -4556,7 +4616,9 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -16582,7 +16644,9 @@
    "ptier": "Official Partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -19228,7 +19292,9 @@
    "ptier": "Official Partners",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -21491,7 +21557,9 @@
    "ptier": "Partners",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -21812,7 +21880,9 @@
    "ptier": "Global Partners",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -31668,7 +31738,9 @@
    "ptier": "Official sponsor",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -37886,7 +37958,9 @@
    "ptier": "Global partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -41129,7 +41203,9 @@
    "ptier": "Main partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -44395,7 +44471,9 @@
    "ptier": "Partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -45595,7 +45673,9 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -45673,7 +45753,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "ttier": "T1",
+   "ttier": "Gov",
    "tbasis": "role"
   },
   {
@@ -46073,7 +46153,9 @@
    "ptier": "Bronze partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -55044,7 +55126,9 @@
    "ptier": "Partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -57893,7 +57977,9 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -59722,7 +59808,9 @@
    "ptier": "Partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -62292,7 +62380,9 @@
    "ptier": "Kit sponsor",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -63521,7 +63611,9 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -67783,7 +67875,9 @@
    "ptier": "Proud partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -75109,7 +75203,9 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -77595,7 +77691,9 @@
    "ptier": "Catering partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -78671,7 +78769,9 @@
    "ptier": "Partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -81893,7 +81993,9 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -83754,7 +83856,9 @@
    "ptier": "Corporate partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -84836,7 +84940,9 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -85361,7 +85467,9 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -85376,7 +85484,9 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -85511,7 +85621,9 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -86633,7 +86745,9 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -87173,7 +87287,9 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -88833,7 +88949,9 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -90639,7 +90757,9 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -90909,7 +91029,9 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -93734,7 +93856,9 @@
    "ptier": "Club partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -94841,7 +94965,9 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -94946,7 +95072,9 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -96026,7 +96154,9 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -96911,7 +97041,9 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -100037,7 +100169,9 @@
    "tier": "Official partner",
    "ptier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -107139,8 +107273,8 @@
    "ptier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "ttier": "T3",
-   "tbasis": "category"
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-17",
@@ -108014,7 +108148,9 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-16",
@@ -109934,7 +110070,9 @@
    "ptier": "Proud partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-16",
@@ -111074,7 +111212,9 @@
    "ptier": "Corporate partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-16",
@@ -111269,7 +111409,9 @@
    "ptier": "Corporate partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-16",
@@ -112799,7 +112941,9 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-16",
@@ -113534,7 +113678,9 @@
    "ptier": "Corporate partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-16",
@@ -115570,7 +115716,9 @@
    "ptier": "Official partner",
    "announced": "2025-05-07",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-16",
@@ -117812,7 +117960,9 @@
    "ptier": "Corporate partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-16",
@@ -117827,7 +117977,9 @@
    "ptier": "Corporate partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-16",
@@ -119477,7 +119629,9 @@
    "ptier": "Proud partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-16",
@@ -122417,7 +122571,9 @@
    "ptier": "Corporate partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-16",
@@ -126711,7 +126867,9 @@
    "ptier": "Associate partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-16",
@@ -127322,7 +127480,9 @@
    "ptier": "Global partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-16",
@@ -127911,7 +128071,9 @@
    "ptier": "Global partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-16",
@@ -128256,7 +128418,9 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-16",
@@ -129167,7 +129331,9 @@
    "ptier": "Regional partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-16",
@@ -131676,7 +131842,7 @@
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "ttier": "T4",
+   "ttier": "Gov",
    "tbasis": "role"
   },
   {
@@ -132058,7 +132224,9 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-16",
@@ -133188,7 +133356,7 @@
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "ttier": "T4",
+   "ttier": "Gov",
    "tbasis": "role"
   },
   {
@@ -134340,7 +134508,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "ttier": "T2",
+   "ttier": "Gov",
    "tbasis": "role"
   },
   {
@@ -134357,7 +134525,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "ttier": "T2",
+   "ttier": "Gov",
    "tbasis": "role"
   },
   {
@@ -135025,7 +135193,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "ttier": "T2",
+   "ttier": "Gov",
    "tbasis": "role"
   },
   {
@@ -135229,7 +135397,7 @@
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "ttier": "T4",
+   "ttier": "Gov",
    "tbasis": "role"
   },
   {
@@ -135297,7 +135465,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "ttier": "T2",
+   "ttier": "Gov",
    "tbasis": "role"
   },
   {
@@ -135348,7 +135516,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "ttier": "T1",
+   "ttier": "Gov",
    "tbasis": "role"
   },
   {
@@ -138129,7 +138297,9 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-16",
@@ -138237,7 +138407,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "ttier": "T2",
+   "ttier": "Gov",
    "tbasis": "role"
   },
   {
@@ -138283,7 +138453,9 @@
    "ptier": "Other partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-16",
@@ -138436,7 +138608,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "ttier": "T2",
+   "ttier": "Gov",
    "tbasis": "role"
   },
   {
@@ -138788,7 +138960,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "ttier": "T1",
+   "ttier": "Gov",
    "tbasis": "role"
   },
   {
@@ -139159,7 +139331,9 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-16",
@@ -139328,7 +139502,9 @@
    "tier": "Official partner",
    "ptier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-16",
@@ -139373,7 +139549,9 @@
    "tier": "Official partner",
    "ptier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-16",
@@ -139467,7 +139645,9 @@
    "ptier": "Government partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-16",
@@ -142275,7 +142455,9 @@
    "ptier": "Premier partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-16",
@@ -144272,7 +144454,9 @@
    "ptier": "Community funding partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-16",
@@ -144317,7 +144501,9 @@
    "ptier": "Community funding partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-16",
@@ -148976,7 +149162,9 @@
    "ptier": "Community & event partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-16",
@@ -148991,7 +149179,9 @@
    "ptier": "Community & event partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-16",
@@ -152001,7 +152191,9 @@
    "ptier": "Funding partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-16",
@@ -152506,7 +152698,7 @@
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "ttier": "T4",
+   "ttier": "Gov",
    "tbasis": "role"
   },
   {
@@ -153788,7 +153980,9 @@
    "tier": "Official partner",
    "ptier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-16",
@@ -154646,7 +154840,9 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-16",
@@ -155423,7 +155619,9 @@
    "ptier": "Major partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-16",
@@ -160451,7 +160649,9 @@
    "ptier": "Partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-16",
@@ -160601,7 +160801,9 @@
    "ptier": "Corporate partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-16",
@@ -161406,7 +161608,9 @@
    "ptier": "Partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-16",
@@ -161513,7 +161717,9 @@
    "ptier": "Corporate partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-16",
@@ -162148,7 +162354,9 @@
    "ptier": "Partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-16",
@@ -162163,7 +162371,9 @@
    "ptier": "Partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-16",
@@ -162343,7 +162553,9 @@
    "ptier": "Partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-16",
@@ -162407,7 +162619,9 @@
    "ptier": "Event partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-16",
@@ -162977,7 +163191,9 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-16",
@@ -163231,7 +163447,9 @@
    "ptier": "Sponsor partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-16",
@@ -164549,7 +164767,9 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-16",
@@ -164583,7 +164803,9 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-16",
@@ -164600,7 +164822,9 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-16",
@@ -164937,8 +165161,8 @@
    "checked": "2026-11-16",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "ttier": "T3",
-   "tbasis": "category"
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-16",
@@ -164957,8 +165181,8 @@
    "checked": "2026-11-16",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "ttier": "T3",
-   "tbasis": "category"
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-16",
@@ -164977,8 +165201,8 @@
    "checked": "2026-11-16",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "ttier": "T3",
-   "tbasis": "category"
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-16",
@@ -165295,7 +165519,9 @@
    "tier": "Official partner",
    "ptier": "Host partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "sport": "Rugby union",
@@ -165311,7 +165537,9 @@
    "tier": "Official partner",
    "ptier": "Host partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "sport": "Rugby union",
@@ -165327,7 +165555,9 @@
    "tier": "Official partner",
    "ptier": "Host partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "sport": "Rugby union",
@@ -165343,7 +165573,9 @@
    "tier": "Official partner",
    "ptier": "Host partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "sport": "Rugby union",
@@ -165359,7 +165591,9 @@
    "tier": "Official partner",
    "ptier": "Host partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "sport": "Rugby union",
@@ -165375,7 +165609,9 @@
    "tier": "Official partner",
    "ptier": "Host partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "sport": "Olympics",
@@ -167676,7 +167912,9 @@
    "ptier": "Partners",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-14"
+   "verified": "2026-11-14",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-14",
@@ -167693,7 +167931,9 @@
    "ptier": "Partners",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-14"
+   "verified": "2026-11-14",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-14",
@@ -167710,7 +167950,9 @@
    "ptier": "Partners",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-14"
+   "verified": "2026-11-14",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "date": "2026-02-06",
@@ -168390,6 +168632,8 @@
    "ptier": "Business partner",
    "conf": "Confirmed",
    "verified": "2026-11-12",
+   "ttier": "Gov",
+   "tbasis": "role",
    "tends": 2029,
    "tendsBasis": "term"
   },
@@ -168823,7 +169067,9 @@
    "status": "New",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-11"
+   "verified": "2026-11-11",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "date": "2026-11-05",
@@ -169868,8 +170114,8 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-04",
-   "ttier": "T3",
-   "tbasis": "category"
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "date": "2026-10-30",
@@ -171127,6 +171373,8 @@
    "market": "ANZ",
    "conf": "Reported",
    "verified": "2026-10-30",
+   "ttier": "Gov",
+   "tbasis": "role",
    "tends": 2028,
    "tendsBasis": "term"
   },
@@ -173001,8 +173249,8 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-10-20",
-   "ttier": "T3",
-   "tbasis": "category",
+   "ttier": "Gov",
+   "tbasis": "role",
    "tends": 2028,
    "tendsBasis": "league"
   },
@@ -173195,8 +173443,8 @@
    "checked": "2026-11-17",
    "conf": "Reported",
    "verified": "2026-11-17",
-   "ttier": "T2",
-   "tbasis": "rights",
+   "ttier": "Gov",
+   "tbasis": "role",
    "tends": 2027,
    "tendsBasis": "stated"
   },
@@ -176996,8 +177244,8 @@
    "checked": "2026-11-16",
    "conf": "Reported",
    "verified": "2026-11-16",
-   "ttier": "T2",
-   "tbasis": "rights"
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "date": "2026-07-07",
@@ -178962,6 +179210,8 @@
    "endsLock": true,
    "conf": "Confirmed",
    "verified": "2026-08-18",
+   "ttier": "Gov",
+   "tbasis": "role",
    "tends": 2030,
    "tendsBasis": "stated"
   },
@@ -179684,6 +179934,8 @@
    "endsLock": true,
    "conf": "Confirmed",
    "verified": "2026-09-08",
+   "ttier": "Gov",
+   "tbasis": "role",
    "tends": 2027,
    "tendsBasis": "stated"
   },
@@ -179762,6 +180014,8 @@
    "conf": "Unverified",
    "verified": "2026-09-08",
    "sourceTried": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role",
    "tends": 2030,
    "tendsBasis": "term"
   },
@@ -180653,7 +180907,9 @@
    "market": "ANZ",
    "url": "https://www.squashaus.com.au/news/south-bank-to-host-squash-australian-open-in-2027",
    "conf": "Confirmed",
-   "verified": "2026-08-04"
+   "verified": "2026-08-04",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "date": "2026-08-11",
@@ -181180,8 +181436,8 @@
    "url": "https://containerexchange.com.au/new-partnership-unlocks-funding-for-queenslands-basketball-clubs/",
    "conf": "Confirmed",
    "verified": "2026-06-23",
-   "ttier": "T3",
-   "tbasis": "category"
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "date": "2026-06-23",
@@ -182460,8 +182716,8 @@
    "endsLock": true,
    "conf": "Confirmed",
    "verified": "2026-09-15",
-   "ttier": "T1",
-   "tbasis": "rights",
+   "ttier": "Gov",
+   "tbasis": "role",
    "tends": 2027,
    "tendsBasis": "stated"
   },
@@ -183922,6 +184178,8 @@
    "url": "https://www.saints.com.au/news/1907073/bula-saints-strike-historic-partnership-with-fiji",
    "conf": "Confirmed",
    "verified": "2025-09-30",
+   "ttier": "Gov",
+   "tbasis": "role",
    "tends": 2028,
    "tendsBasis": "league"
   },
@@ -184377,7 +184635,9 @@
    "ptier": "Global partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "date": "2026-06-18",
@@ -188094,6 +188354,8 @@
    "endsLock": true,
    "conf": "Confirmed",
    "verified": "2025-06-25",
+   "ttier": "Gov",
+   "tbasis": "role",
    "tends": 2027,
    "tendsBasis": "stated"
   },
@@ -190751,6 +191013,8 @@
    "endsLock": true,
    "conf": "Confirmed",
    "verified": "2025-06-03",
+   "ttier": "Gov",
+   "tbasis": "role",
    "tends": 2028,
    "tendsBasis": "stated"
   },
@@ -194529,7 +194793,9 @@
    "status": "Renewal",
    "market": "Europe",
    "conf": "Reported",
-   "verified": "2025-12-16"
+   "verified": "2025-12-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "date": "2025-12-16",
@@ -197542,6 +197808,8 @@
    "market": "Europe",
    "conf": "Reported",
    "verified": "2025-08-09",
+   "ttier": "Gov",
+   "tbasis": "role",
    "tends": 2028,
    "tendsBasis": "stated"
   },
@@ -201905,7 +202173,9 @@
    "conf": "Reported",
    "verified": "2026-11-17",
    "ptier": "Premium partner",
-   "checked": "2026-11-17"
+   "checked": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "date": "2025-04-30",
@@ -202922,6 +203192,8 @@
    "market": "ANZ",
    "conf": "Reported",
    "verified": "2026-02-11",
+   "ttier": "Gov",
+   "tbasis": "role",
    "tends": 2028,
    "tendsBasis": "term"
   },
@@ -203624,6 +203896,8 @@
    "checked": "2026-11-16",
    "conf": "Reported",
    "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role",
    "tends": 2028,
    "tendsBasis": "term"
   },
@@ -203787,6 +204061,8 @@
    "market": "ANZ",
    "conf": "Reported",
    "verified": "2025-12-15",
+   "ttier": "Gov",
+   "tbasis": "role",
    "tends": 2028,
    "tendsBasis": "league"
   },
@@ -203976,7 +204252,7 @@
    "market": "Global",
    "conf": "Reported",
    "verified": "2025-12-01",
-   "ttier": "T1",
+   "ttier": "Gov",
    "tbasis": "role",
    "tends": 2026,
    "tendsBasis": "stated"
@@ -204279,7 +204555,9 @@
    "status": "New",
    "market": "ANZ",
    "conf": "Reported",
-   "verified": "2025-11-07"
+   "verified": "2025-11-07",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "date": "2025-11-06",
@@ -204454,6 +204732,8 @@
    "market": "ANZ",
    "conf": "Reported",
    "verified": "2025-10-14",
+   "ttier": "Gov",
+   "tbasis": "role",
    "tends": 2027,
    "tendsBasis": "league"
   },
@@ -204622,6 +204902,8 @@
    "checked": "2026-11-16",
    "conf": "Reported",
    "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role",
    "tends": 2028,
    "tendsBasis": "term"
   },
@@ -206574,6 +206856,8 @@
    "market": "ANZ",
    "conf": "Reported",
    "verified": "2026-05-08",
+   "ttier": "Gov",
+   "tbasis": "role",
    "tends": 2029,
    "tendsBasis": "league"
   },
@@ -207892,8 +208176,8 @@
    "market": "UK & Ireland",
    "conf": "Reported",
    "verified": "2024-10-05",
-   "ttier": "T3",
-   "tbasis": "category"
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "date": "2024-10-05",
@@ -208842,7 +209126,9 @@
    "status": "New",
    "market": "Asia",
    "conf": "Reported",
-   "verified": "2025-03-21"
+   "verified": "2025-03-21",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "date": "2025-03-21",
@@ -209041,8 +209327,8 @@
    "checked": "2026-11-16",
    "conf": "Reported",
    "verified": "2026-11-16",
-   "ttier": "T3",
-   "tbasis": "category"
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "date": "2025-03-15",
@@ -211844,8 +212130,8 @@
    "market": "North America",
    "conf": "Reported",
    "verified": "2024-10-19",
-   "ttier": "T2",
-   "tbasis": "rights"
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "date": "2024-10-19",
@@ -212520,7 +212806,9 @@
    "status": "New",
    "market": "North America",
    "conf": "Reported",
-   "verified": "2024-09-05"
+   "verified": "2024-09-05",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "date": "2024-09-05",
@@ -213211,7 +213499,9 @@
    "ptier": "Official partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-08"
+   "verified": "2026-11-08",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-05",
@@ -215669,7 +215959,9 @@
    "ptier": "Official partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-08"
+   "verified": "2026-11-08",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-10-30",
@@ -215702,6 +215994,8 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2024-05-24",
+   "ttier": "Gov",
+   "tbasis": "role",
    "tends": 2027,
    "tendsBasis": "stated"
   },
@@ -216348,7 +216642,9 @@
    "ptier": "Gold partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-03"
+   "verified": "2026-11-03",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-10-30",
@@ -216685,7 +216981,9 @@
    "ptier": "Official partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-03"
+   "verified": "2026-11-03",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-10-30",
@@ -216790,7 +217088,9 @@
    "ptier": "Official partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-03"
+   "verified": "2026-11-03",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-10-30",
@@ -217060,7 +217360,9 @@
    "ptier": "Silver partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-05"
+   "verified": "2026-11-05",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-10-30",
@@ -217075,7 +217377,9 @@
    "ptier": "Silver partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-05"
+   "verified": "2026-11-05",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-10-30",
@@ -218126,7 +218430,9 @@
    "ptier": "Platinum partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-08"
+   "verified": "2026-11-08",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-10-30",
@@ -218496,8 +218802,8 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-03",
-   "ttier": "T1",
-   "tbasis": "rights"
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-10-30",
@@ -218530,7 +218836,7 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-03",
-   "ttier": "T2",
+   "ttier": "Gov",
    "tbasis": "role"
   },
   {
@@ -218791,7 +219097,7 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-03",
-   "ttier": "T2",
+   "ttier": "Gov",
    "tbasis": "role"
   },
   {
@@ -218959,7 +219265,9 @@
    "ptier": "Official partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-03"
+   "verified": "2026-11-03",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-10-30",
@@ -220018,7 +220326,9 @@
    "ptier": "Premier partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-08"
+   "verified": "2026-11-08",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-10-30",
@@ -220033,7 +220343,9 @@
    "ptier": "Premier partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-08"
+   "verified": "2026-11-08",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-10-30",
@@ -220911,7 +221223,7 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-03",
-   "ttier": "T2",
+   "ttier": "Gov",
    "tbasis": "role"
   },
   {
@@ -220928,7 +221240,7 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-03",
-   "ttier": "T2",
+   "ttier": "Gov",
    "tbasis": "role"
   },
   {
@@ -221788,7 +222100,9 @@
    "ptier": "Official partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-03"
+   "verified": "2026-11-03",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-10-30",
@@ -222189,7 +222503,7 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-12",
-   "ttier": "T2",
+   "ttier": "Gov",
    "tbasis": "role"
   },
   {
@@ -222240,7 +222554,7 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-12",
-   "ttier": "T2",
+   "ttier": "Gov",
    "tbasis": "role"
   },
   {
@@ -222431,7 +222745,9 @@
    "ptier": "Silver partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-10-30",
@@ -222641,7 +222957,9 @@
    "ptier": "Official partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-10-30",
@@ -223347,7 +223665,9 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-10-30",
@@ -223446,7 +223766,7 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-12",
-   "ttier": "T2",
+   "ttier": "Gov",
    "tbasis": "role"
   },
   {
@@ -223657,7 +223977,9 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-10-30",
@@ -223689,7 +224011,9 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-10-30",
@@ -223705,7 +224029,9 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-10-30",
@@ -224003,7 +224329,9 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-10-30",
@@ -224085,7 +224413,9 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-10-30",
@@ -224154,7 +224484,7 @@
    "checked": "2026-11-16",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "ttier": "T2",
+   "ttier": "Gov",
    "tbasis": "role"
   },
   {
@@ -225162,7 +225492,9 @@
    "ptier": "Gold partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-10"
+   "verified": "2026-11-10",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-10-30",
@@ -225342,7 +225674,9 @@
    "ptier": "Official partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-10"
+   "verified": "2026-11-10",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-10-30",
@@ -226519,7 +226853,9 @@
    "ptier": "Official partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-05"
+   "verified": "2026-11-05",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-10-30",
@@ -226534,7 +226870,9 @@
    "ptier": "Official partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-05"
+   "verified": "2026-11-05",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-10-30",
@@ -227047,7 +227385,9 @@
    "ptier": "Major partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-10"
+   "verified": "2026-11-10",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-10-30",
@@ -229597,7 +229937,9 @@
    "ptier": "Supporting partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-05"
+   "verified": "2026-11-05",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-10-30",
@@ -230103,7 +230445,9 @@
    "ptier": "Major partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-15"
+   "verified": "2026-11-15",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-10-30",
@@ -230672,7 +231016,9 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-10-30",
@@ -230896,7 +231242,9 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-10-30",
@@ -231499,7 +231847,9 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-10-30",
@@ -232487,7 +232837,9 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-10-30",
@@ -232877,7 +233229,9 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-10-30",
@@ -232958,7 +233312,7 @@
    "checked": "2026-11-16",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "ttier": "T1",
+   "ttier": "Gov",
    "tbasis": "role"
   },
   {
@@ -233311,7 +233665,9 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-10-30",
@@ -233743,7 +234099,9 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "checked": "2026-11-17"
+   "checked": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-10-30",
@@ -234019,7 +234377,9 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "checked": "2026-11-17"
+   "checked": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-10-30",
@@ -234297,7 +234657,9 @@
    "ptier": "Host partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-02"
+   "verified": "2026-11-02",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-02",
@@ -234312,7 +234674,9 @@
    "ptier": "Host partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-02"
+   "verified": "2026-11-02",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-10-30",
@@ -234329,7 +234693,7 @@
    "conf": "Confirmed",
    "verified": "2026-11-17",
    "checked": "2026-11-17",
-   "ttier": "T4",
+   "ttier": "Gov",
    "tbasis": "role"
   },
   {
@@ -234534,7 +234898,9 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "checked": "2026-11-17"
+   "checked": "2026-11-17",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-10-30",
@@ -235009,7 +235375,9 @@
    "ptier": "Gold partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-03"
+   "verified": "2026-11-03",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-03",
@@ -235534,7 +235902,9 @@
    "ptier": "Diversity and inclusion partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-03"
+   "verified": "2026-11-03",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-03",
@@ -244721,7 +245091,9 @@
    "tier": "Official partner",
    "status": "Current partner",
    "conf": "Confirmed",
-   "verified": "2026-11-14"
+   "verified": "2026-11-14",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-14",
@@ -244766,7 +245138,9 @@
    "tier": "Official partner",
    "status": "Current partner",
    "conf": "Confirmed",
-   "verified": "2026-11-14"
+   "verified": "2026-11-14",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "date": "2025-10-02",

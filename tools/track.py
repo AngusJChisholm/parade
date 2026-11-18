@@ -5,6 +5,8 @@
               T3  official partner with a named category ("official bank partner")
               T4  supplier, community partner, licensee
               Kit / Media  kit and apparel suppliers, broadcasters and media partners (held apart until signed off)
+              Gov  governments, tourism bodies and councils (host or event funding, kept out of T1-T4 even
+                   when they hold a jersey or naming asset)
               left out when nothing we hold says what the partner gets
   tbasis      sourced   rights confirmed in data/track_rights.json, with a source
               rights    the row's own wording names the asset ("back of jersey", "naming rights")
@@ -41,6 +43,8 @@ ROLE_T1 = re.compile(r"\b(co-)?principal (partner|sponsor)|\bnaming rights\b|\bf
 ROLE_T2 = re.compile(r"\b(co-|joint )?major (partner|sponsor)\b|\bpremier partner\b", re.I)
 SUPPLY = re.compile(r"\bsupplier\b|\bsupply partner|community partner|licens|\bsupporter\b|charity partner|preferred supplier", re.I)
 NOT_CAT = r"club|corporate|major|premier|principal|proud|associate|business|team|global|founding|premium|platinum|gold|silver|bronze|elite|community|supply|media|commercial|key|national|international|official|regional|local|strategic|foundation"
+GOV_NAME = re.compile(r"\bgovernment\b|\btourism\b|^destination |^visit |^tourism |\bcity of\b|\bcouncil\b|\bshire\b|\bcommission\b|\bdepartment of\b|^events (queensland|tasmania|nsw)|tourism and events|\bstate of\b|^dubai |^abu dhabi |^saudi tourism|^qatar tourism", re.I)
+GOV_TYPE = re.compile(r"\b(government|host) partner\b", re.I)
 CATEGORY = re.compile(r"\bofficial ((?!(?:" + NOT_CAT + r")\b)[a-z][a-z&'/ -]{2,35}?) (partner|sponsor)\b", re.I)
 
 
@@ -110,10 +114,16 @@ def main(report=False):
         page_label = d.get("ptier") or ""
         small_group = all(group[(p, page_label.lower())] <= GROUP_CAP for p in props(d)) if page_label else True
         tier, basis = None, None
+        brand = split(d.get("deal"))[0]
+        bent = ent.get(resolve(brand), {}) if " / " not in brand else {}
+        cat = bent.get("cat")
+        is_gov = cat == "Tourism & government" or (cat in (None, "Other") and (GOV_NAME.search(brand) or GOV_TYPE.search(d.get("type") or "")))
         if r:
             tier, basis = r["tier"], "sourced"
             d["rights"] = r["rights"]
             d["rightsSrc"] = r.get("rightsSrc") or r["src"]
+        elif is_gov:
+            tier, basis = "Gov", "role"
         elif d.get("tier") == "Media & broadcast":
             tier, basis = "Media", "rights"
         elif d.get("tier") == "Kit & apparel":
