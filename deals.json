@@ -168922,8 +168922,14 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-10",
+   "rights": [
+    "major partner",
+    "front of NRL jersey from 2027",
+    "front of NRLW jersey"
+   ],
+   "rightsSrc": "https://www.sharks.com.au/news/2026/11/06/quest-apartment-hotels-goes-all-in-with-the-cronulla-sharks/",
    "ttier": "T1",
-   "tbasis": "rights",
+   "tbasis": "sourced",
    "tends": 2029,
    "tendsBasis": "term"
   },
