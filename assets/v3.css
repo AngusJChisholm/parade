@@ -1,6 +1,5 @@
 /* v3 components (18 Nov 2026): the Stake-style redesign. Loads after v2.css/site.css and before chrome.css.
    Rounded cards and pills, chips, stat strips, feeds, league cards, movers. White + volt, Archivo 500/800. */
-:root{--r-chip:6px;--r-sm:12px;--r-md:16px;--r-lg:24px;--r-pill:999px;--ink:#111;--ink-2:#33332F;--ink-3:#5C5C57;--line:#DEDED8;--canvas:#F4F4F1;--volt:#D2FF3C}
 .x3{max-width:1440px;margin:0 auto;padding-inline:var(--pad,clamp(16px,4vw,56px))}
 .disp{font-family:var(--cond,"Archivo");font-stretch:68%;font-weight:800;text-transform:uppercase;letter-spacing:-.005em;line-height:.88;margin:0}
 .l3{font-weight:800;font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-3)}

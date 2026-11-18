@@ -2,9 +2,28 @@
    Markup is written into pages by tools/v2_chrome.py; behaviour is in assets/chrome.js.
    v3 (18 Nov 2026): Stake-style refresh. Rounded pills and cards, search bar in the header, Partnership Pro pill,
    three-column footer, live ticker fixed to the bottom. Logos never sit in boxes. */
+/* ===== DESIGN TOKENS: the single source for the whole site =====
+   Every page loads this file, so tokens live here and nowhere else. Documented in the
+   "Sport Sport Sport Design System" artifact (Web section). Don't redefine these in page CSS. */
 @font-face{font-family:"ArchivoV";src:url("fonts/Archivo[wdth,wght].ttf") format("truetype");font-weight:100 900;font-stretch:62% 125%;font-display:swap}
-:root{--volt:#D2FF3C;--line:#DEDED8;--ink-3:#5C5C57;--canvas:#F4F4F1;--pad:clamp(16px,4vw,56px);--cond:"ArchivoV","Archivo","Helvetica Neue",Arial,sans-serif;
-  --r-chip:6px;--r-sm:12px;--r-md:16px;--r-lg:24px;--r-pill:999px;--shadow-pop:0 12px 40px rgba(0,0,0,.12)}
+:root{
+  color-scheme:light;
+  /* Colour */
+  --black:#000;--white:#fff;--ink:#111;--ink-2:#33332F;--ink-3:#5C5C57;
+  --grey-100:#E6E6E6;--grey-500:#9E9E9E;--grey-800:#292929;
+  --line:#DEDED8;--canvas:#F4F4F1;
+  --volt:#D2FF3C;
+  /* Type: --font = Archivo static (Google Fonts 500/800) for body and UI;
+     --cond = Archivo variable, set font-stretch:68% for condensed display lines */
+  --font:"Archivo","Helvetica Neue",Helvetica,Arial,sans-serif;
+  --cond:"ArchivoV","Archivo","Helvetica Neue",Arial,sans-serif;
+  /* Layout */
+  --pad:clamp(16px,4vw,56px);
+  /* Radius */
+  --r-chip:6px;--r-sm:12px;--r-md:16px;--r-lg:24px;--r-pill:999px;
+  /* Elevation: one shadow, for popovers only */
+  --shadow-pop:0 12px 40px rgba(0,0,0,.12)
+}
 .vb{background:var(--volt);color:#000;padding:.02em .1em 0;margin:0 -.04em;-webkit-box-decoration-break:clone;box-decoration-break:clone}
 *{scrollbar-width:none}*::-webkit-scrollbar{display:none}
 body{padding-bottom:56px}

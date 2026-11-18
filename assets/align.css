@@ -1,7 +1,5 @@
 /* Brings the older page styles (site.css, profile.css) in line with the home page: condensed headline numbers
    with dividers, white panels instead of volt blocks, and the "Signed this week" strip. Loads after the page CSS. */
-@font-face{font-family:"ArchivoV";src:url("fonts/Archivo[wdth,wght].ttf") format("truetype");font-weight:100 900;font-stretch:62% 125%;font-display:swap}
-:root{--cond:"ArchivoV","Archivo","Helvetica Neue",Arial,sans-serif}
 
 /* Headline numbers: same as the home page stats strip */
 .stats{display:grid!important;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:0!important;border-top:2px solid #000;margin-top:28px!important;max-width:none}

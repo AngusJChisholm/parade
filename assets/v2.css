@@ -1,7 +1,4 @@
 /* v2: seller-first redesign (home + Pro). Loads after site.css. White + volt only, compact. */
-@font-face{font-family:"ArchivoV";src:url("fonts/Archivo[wdth,wght].ttf") format("truetype");font-weight:100 900;font-stretch:62% 125%;font-display:swap}
-:root{--black:#000;--white:#fff;--volt:#D2FF3C;--ink:#111;--ink-2:#33332F;--ink-3:#5C5C57;--line:#DEDED8;--canvas:#F4F4F1;--grey-500:#9E9E9E;
-  --font:"Archivo","Helvetica Neue",Helvetica,Arial,sans-serif;--cond:"ArchivoV","Archivo","Helvetica Neue",Arial,sans-serif;--pad:clamp(16px,4vw,56px)}
 *{box-sizing:border-box}
 html{background:#fff;scroll-behavior:smooth;scroll-padding-top:88px}
 a{color:inherit;text-decoration:none}
