@@ -59,7 +59,9 @@ S.load().then(D=>{
     $("pkey").innerHTML=`<i></i>Backs 3 or more clubs${top.length?` (${top.join(", ")})`:""}. Beer brands are counted under the brewer that owns them (e.g. Carlton Draught under CUB), but shown as each club names them. Current partners from each club's official partners page, plus partnerships announced since ${yr-1} or still running. A dash means nothing filed yet. Updated ${new Date().toLocaleDateString("en-AU",{month:"short",year:"numeric"})}.`;
     S.setQs({league:st.league});
   }
-  $("lgSel").onchange=e=>{st.league=e.target.value;draw()};
+  $("lgSel").onchange=e=>{st.league=e.target.value;draw();$("mFull").href="leagues?league="+encodeURIComponent(st.league)};
+  $("mFull").href="leagues?league="+encodeURIComponent(st.league);
+  $("mCopy").onclick=()=>{const u=location.href,b=$("mCopy");(navigator.clipboard?navigator.clipboard.writeText(u):Promise.reject()).then(()=>{b.textContent="Link copied";setTimeout(()=>b.textContent="Copy link",2000)},()=>prompt("Copy this link",u))};
   draw();
 }).catch(()=>{$("pt").innerHTML=`<tr><td class="e">Couldn't load the map. Refresh to try again.</td></tr>`});
 })();
