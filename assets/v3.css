@@ -67,7 +67,7 @@
 
 /* League cards */
 .lc3{display:flex;gap:24px;flex-wrap:wrap}
-.lc3 a{flex:1 1 300px;min-width:0;overflow:hidden;display:block}
+.lc3 a{flex:1 1 calc(33.333% - 16px);min-width:280px;overflow:hidden;display:block}
 .lc3 .h{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:14px 18px;background:var(--canvas)}
 .lc3 .h b{font-weight:800;font-size:14px;text-transform:uppercase}
 .lc3 .h b span{color:var(--ink-3);font-weight:500}

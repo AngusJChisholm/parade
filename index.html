@@ -19,7 +19,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;800&display=swap">
 <link rel="stylesheet" href="assets/v2.css?v=4">
 <link rel="stylesheet" href="assets/follow.css?v=2">
-<link rel="stylesheet" href="assets/v3.css?v=1">
+<link rel="stylesheet" href="assets/v3.css?v=2">
 <script src="assets/brand.js?v=1"></script>
 <link rel="stylesheet" href="assets/chrome.css?v=4">
 </head>
@@ -54,7 +54,7 @@
 </section>
 
 <section id="leagues" class="sec3">
-<div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap"><h2 class="h3l">The biggest leagues</h2><a class="go" href="leagues">All league maps →</a></div>
+<div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap"><h2 class="h3l" id="lgH">The biggest league in each region</h2><a class="go" href="leagues">All league maps →</a></div>
 <div class="lc3" id="lc"></div>
 </section>
 
@@ -113,22 +113,47 @@ function movers(){
   $("mvB").innerHTML=end.map(d=>{const e=d._bs[0];return e?row({e},(d._ps[0]||{}).name?"× "+d._ps[0].name:d.deal,(d.endsEst?"c. ":"")+d.ends,"Ends","down"):""}).join("")||`<p class="l3">No end dates on file for this market yet.</p>`;
   $("mvC").innerHTML=bs.sort((a,b)=>b.all-a.all).slice(0,5).map(x=>row(x.m,x.m.cat,x.all+" partnerships",x.recent?"+"+x.recent:"0",x.recent?"up":"flat")).join("");
 }
-function leagues(){
-  const pick=[["AFL","Australia & NZ"],["Premier League","United Kingdom"],["NFL","United States"]];
-  const months=[...Array(12)].map((_,i)=>{const d=new Date(yr,now.getMonth()-11+i,1);return d.toISOString().slice(0,7)});
-  $("lc").innerHTML=pick.map(([n,m])=>{const l=(D.lgAll||[]).find(x=>x.name===n);if(!l)return"";
+// League cards: the biggest league in each region (Global), or the three biggest in the picked market.
+// A league's region is where most of its partnerships are filed; "biggest" is live partnerships on file.
+let LGX=null;
+function lgStats(){
+  if(LGX)return LGX;
+  LGX=(D.lgAll||[]).map(l=>{
     const ds=D.deals.filter(d=>live(d)&&d._ps.some(e=>e&&l.ids.has(e.slug)));
+    const mc=new Map();ds.forEach(d=>{const m=S.mkt(d);mc.set(m,(mc.get(m)||0)+1)});
+    const mkt=[...mc].sort((a,b)=>b[1]-a[1])[0];
+    return {l,ds,mkt:mkt?mkt[0]:""};
+  }).filter(x=>x.ds.length&&x.l.clubs.length>=4);
+  return LGX;
+}
+const RLAB={"ANZ":"Australia & NZ","UK & Ireland":"UK & Ireland","North America":"North America","Europe":"Europe","Asia":"Asia","Middle East":"Middle East"};
+function leagues(){
+  const all=lgStats();
+  // Biggest by audience and money, not by how many partnerships we've filed.
+  const BIG={"ANZ":["AFL","NRL","A-Leagues"],"UK & Ireland":["Premier League","EFL Championship","PREM Rugby"],"North America":["NFL","NBA","MLB"],"Europe":["LaLiga","Serie A","Bundesliga"],"Asia":["IPL","Indian Super League","J.League"],"Middle East":["Saudi Pro League","Qatar Stars League"]};
+  const byName=n=>all.find(x=>x.l.name===n);
+  const top=(r,k)=>{const fixed=(BIG[r]||[]).map(byName).filter(Boolean);const rest=all.filter(x=>x.mkt===r&&!fixed.includes(x)).sort((a,b)=>b.ds.length-a.ds.length);return [...fixed,...rest].slice(0,k).map(x=>Object.assign({},x,{mkt:r}))};
+  let pick;
+  if(M==="All"){
+    pick=Object.keys(RLAB).map(r=>top(r,1)[0]).filter(Boolean);
+    $("lgH").textContent="The biggest league in each region";
+  }else{
+    pick=top(M,3);
+    $("lgH").textContent=`The biggest leagues in ${M==="ANZ"?"Australia & NZ":M==="North America"?"North America":M}`;
+  }
+  const months=[...Array(12)].map((_,i)=>{const d=new Date(yr,now.getMonth()-11+i,1);return d.toISOString().slice(0,7)});
+  $("lc").innerHTML=pick.map(({l,ds,mkt})=>{const n=l.name;
     const mo=months.map(k=>ds.filter(d=>(d.date||"").slice(0,7)===k).length),mx=Math.max(1,...mo);
     const pts=mo.map((v,i)=>`${(i*150/11).toFixed(1)},${(42-v/mx*38).toFixed(1)}`).join(" ");
     const wk=ds.filter(d=>d.date&&(now-new Date(d.date+"T00:00:00"))<30*DAY).length;
-    return `<a class="card3" href="leagues?league=${encodeURIComponent(n)}"><span class="h"><b>${esc(n)} <span>· ${esc(m)}</span></b><span class="chip ${wk?"up":"flat"}">+${wk} this month</span></span><span class="bd" style="display:block"><span class="n">${ds.length.toLocaleString("en-AU")}</span><span class="s">Partnerships on file · ${l.clubs.length} clubs</span><svg viewBox="0 0 150 46" preserveAspectRatio="none" aria-hidden="true"><polyline points="${pts}" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></svg></span></a>`}).join("");
+    return `<a class="card3" href="leagues?league=${encodeURIComponent(n)}"><span class="h"><b>${esc(n)} <span>· ${esc(RLAB[mkt]||mkt)}</span></b><span class="chip ${wk?"up":"flat"}">+${wk} this month</span></span><span class="bd" style="display:block"><span class="n">${ds.length.toLocaleString("en-AU")}</span><span class="s">Partnerships on file · ${l.clubs.length} clubs</span><svg viewBox="0 0 150 46" preserveAspectRatio="none" aria-hidden="true"><polyline points="${pts}" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="round" vector-effect="non-scaling-stroke"/></svg></span></a>`}).join("")||`<p class="l3">No leagues on file for this market yet.</p>`;
 }
 function stamp(){
   const last=D.deals.map(d=>d.verified||d.added||"").sort().pop()||"";
   const n=D.deals.filter(inM).length;
   $("stamp").innerHTML=`<i></i>Database updated ${esc(ago(last))} · ${n.toLocaleString("en-AU")} ${M==="All"?"global":esc(M)} partnerships on file`;
 }
-function render(){stamp();feed();movers()}
+function render(){stamp();feed();movers();leagues()}
 
 Promise.all([S.load(),feats]).then(([d,Fj])=>{
   D=d;
@@ -138,7 +163,7 @@ Promise.all([S.load(),feats]).then(([d,Fj])=>{
   if(top){const lk=(top._bs||[]).length&&(top._ps||[]).length?`<span class="lk">${pairM(top,34)}</span>`:"";
     $("lead").outerHTML=`<a class="lead3 card3" id="lead" href="articles/${encodeURIComponent(top.slug)}"><span class="phx" style="background-image:${esc(img(top))}">${lk}</span><span class="tx"><span class="l3">${esc(top.label||"Partnership")} · ${esc(fmtD(top.date))}</span><h2 class="disp">${esc(top.headline||top.deal)}</h2>${top.summary?`<p>${esc(top.summary)}</p>`:""}${top._f?"":`<span class="l3" style="letter-spacing:.12em;font-weight:500;color:#33332F">${esc(top.deal)}</span>`}</span></a>`}
   $("side").innerHTML=arts.slice(1,4).map(d=>`<a class="s" href="articles/${encodeURIComponent(d.slug)}"><span class="im" style="background-image:${esc(img(d))}"></span><span><span class="l3" style="font-size:10px">${esc(d.label||"Partnership")} · ${esc(fmtD(d.date))}</span><b>${esc(d.headline||d.deal)}</b></span></a>`).join("");
-  leagues();render();
+  render();
   $("mk").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;M=b.dataset.m;[...$("mk").children].forEach(x=>x.classList.toggle("on",x===b));render()});
   $("ft").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;F=b.dataset.f;[...$("ft").children].forEach(x=>x.classList.toggle("on",x===b));feed()});
 }).catch(()=>{$("stamp").innerHTML="<i></i>The partnerships file didn't load. Refresh to try again."});
