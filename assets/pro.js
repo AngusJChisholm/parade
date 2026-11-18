@@ -48,9 +48,13 @@ const confTag=d=>{const c=d.conf||(d.url?"":"Unverified");if(!c)return "";const 
   return `<span class="cf cf-${k}" title="${c==="Confirmed"?"Official source (club, league or brand)":c==="Reported"?"Reported by trade press or news":"No source on file yet"}${d.verified?` · last checked ${vfmt(d.verified)}`:""}">${c==="Confirmed"?"Official":c==="Reported"?"Press":"No source"}</span>`};
 const basisTag=r=>r?`<span class="basis ${r.basis==="Confirmed"?"c":r.basis==="From term"?"t":""}" title="${r.basis==="Estimate"?`Typical ${r.t}-year term for this partnership type`:r.basis==="From term"?"Announced term added to the announcement year":"End date stated in the announcement"}">${r.basis}</span>`:"";
 
+const involves=(d,o)=>o&&((d._bs||[]).some(e=>e&&e.slug===o.e.slug)||(d._ps||[]).some(e=>e&&e.slug===o.e.slug));
+const mineBar=(o,on,key,what)=>o?`<div class="mine3"><button type="button" class="${on?"on":""}" data-${key}="1">Only ${esc(o.e.name)}</button><button type="button" class="${on?"":"on"}" data-${key}="0">${what}</button></div>`:"";
 /* ---------- Brand finder ---------- */
 function finder(){
-  const f=state.f||(state.f={q:"",cat:"",backs:"",notIn:"",region:"ANZ",win:"24",sort:"recent"});
+  const wf=FOR.org();
+  const f=state.f||(state.f={q:"",cat:"",backs:"",notIn:"",region:"ANZ",win:"24",sort:"recent",notMine:!!(wf&&wf.kind==="property")});
+  if(wf&&wf.kind==="property"&&f.notMine&&!f.backs){const sp=[...wf.sports.entries()].sort((a,b)=>b[1]-a[1])[0];if(sp)f.backs=sp[0]}
   const sports=[...new Set(D.deals.map(d=>d.sport))].filter(Boolean).sort();
   $("view").innerHTML=`<p class="pro-intro">Brands spending in sport. Filter by category and the sports they back, or leave out a sport to find brands active elsewhere who haven't come into yours yet.</p>
   <div class="ctl"><input class="srch" id="fq" type="search" placeholder="Search a brand" value="${esc(f.q)}" autocomplete="off">
@@ -59,6 +63,7 @@ function finder(){
   <select class="sel" id="fnot"><option value="">Not in: no exclusion</option>${sports.map(s=>opt(s,f.notIn,"Not in "+s)).join("")}</select></div>
   <div class="ctl2"><div class="pills">${pills("win",[["12","Active last 12 months"],["24","Last 2 years"],["36","Last 3 years"],["all","Any time"]],f.win)}</div>
   <div class="pills">${pills("reg",S.MKTS.map(m=>[m,S.mktLab(m)]),f.region)}${pills("sort",[["recent","Newest first"],["deals","Most partnerships"]],f.sort)}</div></div>
+  ${wf&&wf.kind==="property"?`<div class="mine3"><button type="button" class="${f.notMine?"on":""}" data-nm="1">Not yet at ${esc(wf.e.name)}</button><button type="button" class="${f.notMine?"":"on"}" data-nm="0">Every brand</button></div>`:""}
   <div class="res"><span class="lbl mute-l" id="fcount"></span><span class="toolrow"><button class="ghost" id="fcsv">Export CSV</button></span></div><div id="flist"></div>`;
   const draw=()=>{
     const q=f.q.trim().toLowerCase(), win=f.win==="all"?Infinity:+f.win;
@@ -70,6 +75,7 @@ function finder(){
       if(!ds.length)return;
       if(f.backs&&!ds.some(x=>x.d.sport===f.backs))return;
       if(f.notIn&&b.deals.some(x=>x.d.sport===f.notIn))return;
+      if(f.notMine&&wf&&b.deals.some(x=>involves(x.d,wf)))return;
       const recent=ds.filter(x=>monthsAgo(x.d)<=win);
       if(!recent.length)return;
       const last=ds.find(x=>dated(x.d))||ds[0];
@@ -81,7 +87,7 @@ function finder(){
     state.fRows=rows;
     $("fcount").textContent=`${rows.length} brand${rows.length===1?"":"s"}`;
     const shown=rows.slice(0,state.fMore?rows.length:150);
-    $("flist").innerHTML=rows.length?`<div class="tw"><table class="t"><thead><tr><th></th><th>Brand</th><th>Category</th><th>Partnerships</th><th>Last partnership</th><th>Sports</th><th>Partners</th></tr></thead><tbody>${shown.map(r=>`<tr><td>${star(r.b.e.slug)}</td><td><span class="dl">${logo(r.b.e,34)}<a href="${esc(L.page(r.b.e.slug))}"><b>${esc(r.b.e.name)}</b></a></span></td><td>${esc(r.b.cat)}</td><td class="d">${r.n}${r.nRecent!==r.n?` <span class="mute-l">(${r.nRecent} recent)</span>`:""}</td><td class="d">${esc(S.fmt(r.last))}</td><td><div class="chips">${r.sports.slice(0,3).map(s=>`<span class="chip">${esc(s)}</span>`).join("")}</div></td><td><div class="logos">${r.partners.map(p=>logo(p,28)).join("")}</div></td></tr>`).join("")}</tbody></table></div>${rows.length>shown.length?`<p><button class="ghost" id="fmore">Show all ${rows.length}</button></p>`:""}`:`<p class="note">No brands match. Try a wider time window.</p>`;
+    $("flist").innerHTML=rows.length?`<div class="fc-grid">${shown.map(r=>`<div class="fc"><span class="fc-t">${logo(r.b.e,44)}${star(r.b.e.slug)}</span><a class="fc-n" href="${esc(L.page(r.b.e.slug))}"><b>${esc(r.b.e.name)}</b><span>${esc(r.b.cat||"")}${(L.all()[r.b.e.slug]||{}).parent?` · parent ${esc(((L.byId((L.all()[r.b.e.slug]||{}).parent)||{}).name)||"")}`:""}</span></a><span class="fc-s">${r.sports.slice(0,3).map(x=>`<span>${esc(x)}</span>`).join("")}${r.sports.length>3?`<span>+${r.sports.length-3}</span>`:""}</span><span class="fc-p">${r.partners.slice(0,4).map(o=>L.mark(o,{px:24})).join("")}</span><span class="fc-f"><span><b>${r.n}</b> live · <b>${r.nRecent}</b> recent · last ${esc(S.fmt(r.last))}</span><span class="chip ${r.nRecent?"up":"flat"}">${r.nRecent?"+"+r.nRecent:"0"}</span></span></div>`).join("")}</div>${rows.length>shown.length?`<p style="text-align:center;margin-top:20px"><button class="ghost" id="fmore">Show all ${rows.length}</button></p>`:""}`:`<p class="note">No brands match those filters.</p>`;
   };
   let t;$("fq").oninput=e=>{clearTimeout(t);t=setTimeout(()=>{f.q=e.target.value;draw()},150)};
   $("fcat").onchange=e=>{f.cat=e.target.value;draw()};
@@ -92,6 +98,7 @@ function finder(){
     if(b){if(b.dataset.win)f.win=b.dataset.win;if(b.dataset.reg)f.region=b.dataset.reg;if(b.dataset.sort)f.sort=b.dataset.sort;
       b.parentNode.querySelectorAll(".pill").forEach(p=>{const on=p===b||(p.dataset.win&&p.dataset.win===f.win)||(p.dataset.reg&&p.dataset.reg===f.region)||(p.dataset.sort&&p.dataset.sort===f.sort);p.classList.toggle("on",!!on)});draw();return}
     if(e.target.id==="fmore"){state.fMore=true;draw();return}
+    const nm=e.target.closest("[data-nm]");if(nm){f.notMine=nm.dataset.nm==="1";finder();return}
     if(e.target.id==="fcsv")csv([["Brand","Category","Partnerships","Last partnership","Sports","Recent partners"],...state.fRows.map(r=>[r.b.e.name,r.b.cat,r.n,S.fmt(r.last),r.sports.join("; "),r.partners.map(p=>p.name).join("; ")])],"sss-pro-brands.csv");
   };
   draw();
@@ -100,22 +107,25 @@ function finder(){
 /* ---------- Renewal radar ---------- */
 function renewals(){
   const def=String(NOW.getMonth()>=8?yr+1:yr);
-  const f=state.r||(state.r={q:"",sport:"",cat:"",tier:"",region:"ANZ",year:def,basis:"all"});
+  const wf=FOR.org();
+  const f=state.r||(state.r={q:"",sport:"",cat:"",tier:"",region:"ANZ",year:def,basis:"all",mine:!!wf});
+  if(f.mine&&wf&&!state.rMineSet){f.year="all";f.region="All";state.rMineSet=1}
   const all=D.deals.map(d=>({d,r:renewal(d)})).filter(x=>x.r&&x.r.end>=yr-2);
   const sports=[...new Set(all.map(x=>x.d.sport))].filter(Boolean).sort();
-  const years=[["due","Due now"],[String(yr),String(yr)],[String(yr+1),String(yr+1)],[String(yr+2),String(yr+2)],["later",`${yr+3}+`]];
-  const inYr=(x,y)=>y==="due"?x.r.end<yr&&x.r.basis==="Estimate":y==="later"?x.r.end>=yr+3:x.r.end===+y;
+  const years=[...(wf?[["all","All years"]]:[]),["due","Due now"],[String(yr),String(yr)],[String(yr+1),String(yr+1)],[String(yr+2),String(yr+2)],["later",`${yr+3}+`]];
+  const inYr=(x,y)=>y==="all"?true:y==="due"?x.r.end<yr&&x.r.basis==="Estimate":y==="later"?x.r.end>=yr+3:x.r.end===+y;
   $("view").innerHTML=`<p class="pro-intro">Partnerships reaching the end of their term. <b>Confirmed</b> means the end date was announced, and <b>From term</b> means the length was. <b>Estimate</b> adds the typical length for that partnership type (${Object.entries(TYP).map(([k,v])=>`${k} ${v} yrs`).join(", ")}). <b>Due now</b> is estimates whose term has already run, so they're either renewed quietly or up for grabs.</p>
   <div class="ctl"><input class="srch" id="rq" type="search" placeholder="Search a brand or property" value="${esc(f.q)}" autocomplete="off">
   <select class="sel" id="rsport"><option value="">All sports</option>${sports.map(s=>opt(s,f.sport)).join("")}</select>
   <select class="sel" id="rcat"><option value="">All categories</option>${S.CATS.map(c=>opt(c,f.cat)).join("")}</select>
   <select class="sel" id="rtier"><option value="">All partnership types</option>${S.TIERS.map(c=>opt(c,f.tier)).join("")}</select></div>
   <div class="ctl2"><div class="pills" id="ryears"></div><div class="pills">${pills("reg",S.MKTS.map(m=>[m,S.mktLab(m)]),f.region)}${pills("basis",[["all","Any basis"],["firm","Confirmed + From term"],["Confirmed","Confirmed only"]],f.basis)}</div></div>
+  ${mineBar(wf,f.mine,"rmine","Every partnership")}
   <div class="res"><span class="lbl mute-l" id="rcount"></span><button class="ghost" id="rcsv">Export CSV</button></div><div id="rlist"></div>`;
   const draw=()=>{
     const q=f.q.trim().toLowerCase();
     const base=all.filter(x=>(!q||x.d.deal.toLowerCase().includes(q))&&(!f.sport||x.d.sport===f.sport)&&(!f.cat||(x.d._cats||[]).includes(f.cat))&&(!f.tier||x.d.tier===f.tier)&&(f.region==="All"||S.mkt(x.d)===f.region)
-      &&(f.basis==="all"||(f.basis==="firm"?x.r.basis!=="Estimate":x.r.basis==="Confirmed"))
+      &&(f.basis==="all"||(f.basis==="firm"?x.r.basis!=="Estimate":x.r.basis==="Confirmed"))&&(!f.mine||!wf||involves(x.d,wf))
       );
     $("ryears").innerHTML=years.map(([v,lab])=>{const n=base.filter(x=>inYr(x,v)).length;return `<button type="button" class="pill${f.year===v?" on":""}" data-yr="${v}">${lab} · ${n}</button>`}).join("");
     const rows=base.filter(x=>inYr(x,f.year)).sort((a,b)=>a.r.end-b.r.end||["Confirmed","From term","Estimate"].indexOf(a.r.basis)-["Confirmed","From term","Estimate"].indexOf(b.r.basis)||a.d.deal.localeCompare(b.d.deal));
@@ -130,6 +140,7 @@ function renewals(){
   $("rcat").onchange=e=>{f.cat=e.target.value;draw()};
   $("rtier").onchange=e=>{f.tier=e.target.value;draw()};
   $("view").onclick=e=>{
+    const mm=e.target.closest("[data-rmine]");if(mm){f.mine=mm.dataset.rmine==="1";if(!f.mine&&f.year==="all")f.year=def;if(f.mine)f.year="all";if(f.mine&&f.region!=="All")f.region="All";renewals();return}
     const b=e.target.closest("[data-yr],[data-reg],[data-basis]");
     if(b){if(b.dataset.yr)f.year=b.dataset.yr;if(b.dataset.reg)f.region=b.dataset.reg;if(b.dataset.basis)f.basis=b.dataset.basis;
       b.parentNode.querySelectorAll(".pill").forEach(p=>p.classList.toggle("on",(p.dataset.reg&&p.dataset.reg===f.region)||(p.dataset.basis&&p.dataset.basis===f.basis)||false));draw();return}
@@ -217,17 +228,37 @@ function property(){
 
 /* ---------- Watchlist ---------- */
 function watchlist(){
-  const list=[...watch.get()].map(s=>D.orgs.get(s)).filter(Boolean);
-  if(!list.length){$("view").innerHTML=`<p class="note">Nothing on your watchlist yet. Tap ☆ next to any brand in the finder, or on a property report, and it'll show up here with its latest partnerships and upcoming renewals. Your watchlist is saved in this browser.</p>`;return}
-  const recentAll=list.flatMap(r=>r.deals.filter(x=>monthsAgo(x.d)<=1).map(x=>x.d));
-  const uniq=[...new Map(recentAll.map(d=>[d.deal+(d.date||""),d])).values()];
-  $("view").innerHTML=`${uniq.length?`<div class="h3" style="margin-top:0">New in the last month</div><div class="tw"><table class="t"><tbody>${uniq.map(d=>`<tr><td class="d">${esc(S.fmt(d))}</td><td><span class="dl">${L.pair(d,{px:30})}${S.dealLink(d)}</span></td><td>${esc(d.tier||"")}</td><td class="d">${esc(d.status||"")}</td></tr>`).join("")}</tbody></table></div>`:""}
-  <div class="h3">Watching ${list.length}</div>
-  ${list.map(r=>{const latest=r.deals.slice(0,4);const due=r.deals.map(x=>({d:x.d,q:renewal(x.d)})).filter(x=>x.q&&x.q.end>=yr&&x.q.end<=yr+2).sort((a,b)=>a.q.end-b.q.end).slice(0,4);
-    return `<div class="wl"><div><h4>${L.mark(r.e,{px:44})}<a href="${r.kind==="property"?"#":esc(L.page(r.e.slug))}" ${r.kind==="property"?`data-pick="${esc(r.e.slug)}"`:""}>${esc(r.e.name)}</a>${star(r.e.slug)}</h4><div class="sub lbl mute-l" style="margin-top:10px">${r.kind==="property"?esc(r.ptype):esc(r.cat)} · ${r.n} partnerships</div></div>
-    <div><div class="lbl mute-l">Latest</div><ul>${latest.map(x=>`<li>${S.dealLink(x.d)}<span>${esc(S.fmt(x.d))}</span></li>`).join("")}</ul>
-    ${due.length?`<div class="lbl mute-l" style="margin-top:16px">Up for renewal</div><ul>${due.map(x=>`<li>${S.dealLink(x.d)}<span>${x.q.end} · ${x.q.basis}</span></li>`).join("")}</ul>`:""}</div></div>`}).join("")}`;
-  $("view").onclick=e=>{const a=e.target.closest("[data-pick]");if(a){e.preventDefault();state.p=D.orgs.get(a.dataset.pick);go("property")}};
+  const all=[...watch.get()].map(s=>D.orgs.get(s)).filter(Boolean);
+  if(!all.length){$("view").innerHTML=`<div class="dk-card" style="padding:28px"><b style="font-size:18px;text-transform:uppercase">Nothing on your watchlist yet.</b><p class="note-s" style="margin-top:8px">Tap ☆ next to any brand in Brand finder, or on a property report, and it'll show up here with its latest partnerships and upcoming renewals.</p></div>`;return}
+  const SEEN="sssPro.wlSeen",seen=(()=>{try{return localStorage.getItem(SEEN)||""}catch(e){return ""}})();
+  const since=seen||new Date(NOW.getTime()-30*864e5).toISOString().slice(0,10);
+  const key=d=>d.added||d.date||"";
+  const fresh=[...new Map(all.flatMap(r=>r.deals.filter(x=>key(x.d)>since).map(x=>[x.d.deal+key(x.d),x.d]))).values()];
+  const ren=fresh.filter(d=>d.status==="Renewal"||d.status==="Extension").length;
+  const window_=all.flatMap(r=>r.deals.map(x=>({d:x.d,q:renewal(x.d)})).filter(x=>x.q&&x.q.end>=yr&&x.q.end<=yr+1));
+  const f=state.wl||(state.wl={k:"all"});
+  const draw=()=>{
+    const list=all.filter(r=>f.k==="all"||(f.k==="b"?r.kind==="brand":r.kind==="property"));
+    $("wlg").innerHTML=list.map(r=>{
+      const latest=r.deals.filter(x=>key(x.d)>since).slice(0,2);
+      const due=r.deals.map(x=>({d:x.d,q:renewal(x.d)})).filter(x=>x.q&&x.q.end>=yr&&x.q.end<=yr+2).sort((a,b)=>a.q.end-b.q.end).slice(0,2);
+      const line=(d,c)=>`<span class="wl3-l"><span>${S.dealLink(d)}</span>${c}</span>`;
+      return `<div class="wl3"><span class="fc-t"><span class="wl3-id">${L.mark(r.e,{px:36})}<span><b>${esc(r.e.name)}</b><span>${esc(r.kind==="property"?r.ptype:r.cat)} · ${r.n} partnerships</span></span></span>${star(r.e.slug)}</span>
+      <span class="wl3-b">${latest.map(x=>line(x.d,`<span class="chip up">${esc(x.d.status==="New"?"New":x.d.status||"New")}</span>`)).join("")}${due.map(x=>line(x.d,`<span class="chip down">Ends ${x.q.end}</span>`)).join("")}${!latest.length&&!due.length?`<span class="note-s">Nothing new since your last visit.</span>`:""}</span>
+      <span class="wl3-a"><button type="button" class="ghost" data-wrep="${esc(r.e.slug)}" data-wk="${r.kind}">Report</button><button type="button" class="ghost" data-wsc="${esc(r.e.slug)}" data-wk="${r.kind}">Scout</button>${r.kind==="property"?`<button type="button" class="ghost" data-pick="${esc(r.e.slug)}">Property report</button>`:""}</span></div>`}).join("")||`<p class="note-s">Nothing in this view.</p>`;
+    $("wlk").querySelectorAll("button").forEach(b=>b.classList.toggle("on",b.dataset.k===f.k));
+  };
+  $("view").innerHTML=`<section class="dk-card wl3-since"><div class="dk-k">${seen?"Since your last visit":"In the last 30 days"}</div><div class="wl3-n"><span><b>${fresh.length}</b> new partnership${fresh.length===1?"":"s"}</span><span><b>${ren}</b> renewal${ren===1?"":"s"} or extension${ren===1?"":"s"}</span><span><b>${window_.length}</b> entering the renewal window</span></div></section>
+  <div class="wl3-bar"><div class="seg" id="wlk"><button type="button" data-k="all">All ${all.length}</button><button type="button" data-k="b">Brands</button><button type="button" data-k="p">Properties</button></div></div>
+  <div class="wl3-g" id="wlg"></div>`;
+  draw();
+  try{localStorage.setItem(SEEN,NOW.toISOString().slice(0,10))}catch(e){}
+  $("view").onclick=e=>{
+    const k=e.target.closest("[data-k]");if(k&&k.closest("#wlk")){f.k=k.dataset.k;draw();return}
+    const a=e.target.closest("[data-pick]");if(a){e.preventDefault();state.p=D.orgs.get(a.dataset.pick);go("property");return}
+    const rp=e.target.closest("[data-wrep]");if(rp){state.rp={kind:rp.dataset.wk==="property"?"property":"brand",slug:rp.dataset.wrep};go("reports");return}
+    const sc=e.target.closest("[data-wsc]");if(sc){state.m={side:sc.dataset.wk==="property"?"p":"b",slug:sc.dataset.wsc};state.mKeep=1;go("scouting")}
+  };
 }
 
 /* ---------- Dashboard (home tab) ---------- */
@@ -362,8 +393,9 @@ const mxLoad=()=>MX?Promise.resolve(MX):window.SSSPro.json("matches.json").then(
 const pct=v=>`${(v*100).toFixed(1).replace(/\.0$/,"")}%`;
 const bandCls=k=>k==="Call now"?"c":k==="Strong"?"t":"";
 function scouting(){
+  if(state.mKeep){state.mKeep=0}else{
   if(state.m)state.m.slug=null; /* the tab always opens on the landing page... */
-  const wf=FOR.org();if(wf)state.m={side:wf.kind==="brand"?"b":"p",slug:wf.e.slug}; /* ...unless you're working for someone */
+  const wf=FOR.org();if(wf)state.m={side:wf.kind==="brand"?"b":"p",slug:wf.e.slug}; /* ...unless you're working for someone */}
   $("view").innerHTML=`<p class="note">Loading the scouting report…</p>`;
   mxLoad().then(()=>drawMatches()).catch(err=>{console.error(err);$("view").innerHTML=`<p class="note">Couldn't load the scouting report. It's rebuilt each time the database updates; refresh to try again.</p>`});
 }
@@ -884,12 +916,12 @@ function reports(){
       <p class="pro-intro">A partnership report for any brand or property: snapshot, the market, the category map, current and past partners, who to pitch, renewals, naming rights, negotiation notes and sources. Pick one, tick the pages you want, check it, then save it as a PDF.</p>
       <div class="ctl"><div class="pills">${pills("rpk",[["brand","Brand"],["property","Property"]],r.kind)}</div>
       <input class="srch" id="rpq" list="rpNames" placeholder="${r.kind==="brand"?"Type a brand, e.g. Coopers, EnergyAustralia":"Type a property, e.g. Carlton, Wallabies"}" autocomplete="off"><datalist id="rpNames">${pool.slice().sort((a,b)=>b.n-a.n).slice(0,2000).map(x=>`<option value="${esc(x.e.name)}">`).join("")}</datalist>
-      <button class="btn" id="rppdf">Download PDF</button><button class="ghost" id="rplink">Copy link</button></div>
-      <div class="rp-pages"><div class="rp-ph"><span class="lbl mute-l">Pages in this report</span><span class="rp-pn">${RPO[r.kind].filter(([k])=>rpOpt.on(O,k)).length} of ${RPO[r.kind].length}</span><button type="button" class="ghost sm" data-rpall="1">Tick all</button><button type="button" class="ghost sm" data-rpall="0">Clear all</button></div>
+      <button class="btn" id="rppdf">Download PDF</button><button class="ghost" id="rplink">Copy link</button></div></div>
+    <div class="rp-lay"><aside class="rp-side"><div class="rp-pages"><div class="rp-ph"><span class="lbl mute-l">Pages in this report</span><span class="rp-pn">${RPO[r.kind].filter(([k])=>rpOpt.on(O,k)).length} of ${RPO[r.kind].length}</span><button type="button" class="ghost sm" data-rpall="1">Tick all</button><button type="button" class="ghost sm" data-rpall="0">Clear all</button></div>
       <div class="rp-opts">${RPO[r.kind].map(([k,lab])=>`<label><input type="checkbox" data-rpo="${k}"${rpOpt.on(O,k)?" checked":""}> ${esc(lab)}</label>`).join("")}</div></div>
       ${r.kind==="brand"&&researched.length?`<div class="rp-quick"><span class="lbl mute-l">Researched profiles</span><div class="chips">${researched.map(b=>`<button type="button" class="chip rp-pick${b.e.slug===org.e.slug?" on":""}" data-rp="${esc(b.e.slug)}">${esc(b.e.name)}</button>`).join("")}</div></div>`:""}
-    </div>
-    <div class="rp" id="rp">${r.kind==="brand"?brandReport(org,mx):propReport(org,mx)}</div>`;
+    </aside>
+    <div class="rp-prev"><div class="rp" id="rp">${r.kind==="brand"?brandReport(org,mx):propReport(org,mx)}</div></div></div>`;
     const inp=$("rpq");
     inp.onchange=()=>{const v=inp.value.trim().toLowerCase();if(!v)return;const hit=pool.find(x=>x.e.name.toLowerCase()===v)||pool.find(x=>(x.e.aliases||[]).some(a=>a.toLowerCase()===v))||pool.find(x=>x.e.name.toLowerCase().includes(v));if(hit){r.slug=hit.e.slug;reports();window.scrollTo(0,0)}};
     $("view").onchange=e=>{const o=e.target.closest("[data-rpo]");if(o){rpOpt.set(o.dataset.rpo,o.checked);const y=window.scrollY;reports();setTimeout(()=>window.scrollTo(0,y),0)}};
@@ -980,7 +1012,7 @@ const FOR={
 function forUI(){
   const box=$("forK");if(!box)return;
   const q=$("forQ"),mk=$("forMk"),x=$("forX"),h=$("forH"),pick=q.parentNode;
-  const HINT={property:"Scouting, renewals and reports are tailored to this property.",brand:"Scouting and reports are tailored to this brand.",agency:"Agency view: pick any brand or property inside each tool."};
+  const HINT={property:"The desk, Scouting, Brand finder, Renewal radar, Wagering exit, Property report and Reports open on this property.",brand:"The desk, Scouting, Renewal radar, Wagering exit and Reports open on this brand.",agency:"Agency view: pick any brand or property inside each tool."};
   const draw=()=>{
     const f=FOR.get(),o=FOR.org();
     box.querySelectorAll("button").forEach(b=>b.classList.toggle("on",b.dataset.fk===f.k));
@@ -990,7 +1022,7 @@ function forUI(){
     q.value=o?o.e.name:"";mk.innerHTML=o?L.mark(o.e,{px:28}):"";x.hidden=!o;
     h.textContent=o||f.k==="agency"?HINT[f.k]:`Pick your ${f.k} and the right partnerships pop up in every tool.`;
   };
-  const apply=()=>{state.m=null;state.p=null;state.rp=null;draw();go(state.tab)};
+  const apply=()=>{state.m=null;state.p=null;state.rp=null;state.f=null;state.r=null;state.w=null;state.rMineSet=0;draw();go(state.tab)};
   box.onclick=e=>{const b=e.target.closest("[data-fk]");if(!b)return;const f=FOR.get();if(f.k===b.dataset.fk)return;FOR.set({k:b.dataset.fk});apply()};
   q.onchange=()=>{const f=FOR.get(),v=q.value.trim().toLowerCase();const pool=f.k==="brand"?D.brands:D.props;
     const o=pool.find(r=>r.e.name.toLowerCase()===v)||pool.find(r=>r.e.name.toLowerCase().startsWith(v));
@@ -1011,12 +1043,14 @@ function home(){
    Gambling Reform Bill 2026 (Hall & Wilcox summary): no new wagering branding on player kit or in venues from 1 Jan 2027,
    and deals signed before 2 Jul 2026 roll off by 31 Dec 2031. "Rolls off" is the earlier of the renewal year and 2031. */
 function wagering(){
-  const f=state.w||(state.w={sport:""});
+  const wf=FOR.org();
+  const f=state.w||(state.w={sport:"",mine:!!wf});
   const isBet=d=>S.mkt(d)==="ANZ"&&!d.ended&&d.status!=="Ended"&&live(d)&&(d._cats||[]).includes("Betting & wagering");
   const all=D.deals.filter(isBet).map(d=>{const r=renewal(d);return {d,r,off:Math.min(r?r.end:2031,2031)}});
   const sports=[...new Set(all.map(x=>x.d.sport))].filter(Boolean).sort();
+  if(f.mine&&wf&&!f.touched&&!all.some(x=>involves(x.d,wf)))f.mine=false; /* no wagering partner of yours: show all of ANZ */
   const draw=()=>{
-    const rows=all.filter(x=>!f.sport||x.d.sport===f.sport).sort((a,b)=>a.off-b.off||propOf(a.d).localeCompare(propOf(b.d)));
+    const rows=all.filter(x=>(!f.sport||x.d.sport===f.sport)&&(!f.mine||!wf||involves(x.d,wf))).sort((a,b)=>a.off-b.off||propOf(a.d).localeCompare(propOf(b.d)));
     state.wRows=rows;
     const props=new Set(rows.map(x=>propOf(x.d))),brands=new Set(rows.map(x=>nameOf(x.d)));
     const soon=rows.filter(x=>x.off<=yr+1).length;
@@ -1024,10 +1058,12 @@ function wagering(){
     $("wlist").innerHTML=rows.length?`<div class="tw"><table class="t"><thead><tr><th>Rolls off</th><th>Basis</th><th>Partnership</th><th>Sport</th><th>Partnership type</th><th>Announced</th><th>Source</th></tr></thead><tbody>${rows.map(({d,r,off})=>`<tr><td><span class="yr">${off}</span></td><td>${r?basisTag(r):"Reform cap"}</td><td><span class="dl">${L.pair(d,{px:30})}${S.dealLink(d)}</span></td><td>${esc(d.sport||"")}</td><td>${esc(d.tier||"")}</td><td>${esc(S.fmt(d))}</td><td>${d.url?`<a href="${esc(d.url)}" target="_blank" rel="noopener">Source</a>`:""}</td></tr>`).join("")}</tbody></table></div>`:`<p class="pro-intro">No live wagering partnerships for that sport.</p>`;
   };
   $("view").innerHTML=`<p class="pro-intro">Every live ANZ partnership with a betting or wagering brand. Under the Gambling Reform Bill 2026 there's no new wagering branding on player kit or in venues from 1 January 2027, and partnerships signed before 2 July 2026 roll off by 31 December 2031. <b>Rolls off</b> is the earlier of the renewal year and 2031. Every one of these slots needs a new partner. <a href="https://hallandwilcox.com.au/news/proposed-wagering-advertising-reforms-new-restrictions-for-sport-media-and-online-platforms-in-australia/" target="_blank" rel="noopener">Source: Hall &amp; Wilcox</a></p>
+  ${mineBar(wf,f.mine,"wmine","All of ANZ")}
   <div class="kpis" id="wk"></div>
   <div class="ctl2"><div class="pills">${pills("ws",[["","All sports"],...sports.map(s=>[s,s])],f.sport)}</div></div>
   <div class="res"><span class="lbl mute-l">Soonest first</span><button class="ghost" id="wcsv">Export CSV</button></div><div id="wlist"></div>`;
   $("view").onclick=e=>{
+    const wm=e.target.closest("[data-wmine]");if(wm){f.mine=wm.dataset.wmine==="1";f.touched=1;draw();$("view").querySelectorAll("[data-wmine]").forEach(x=>x.classList.toggle("on",x===wm));return}
     const b=e.target.closest("[data-ws]");
     if(b){f.sport=b.dataset.ws;b.parentNode.querySelectorAll(".pill").forEach(p=>p.classList.toggle("on",p.dataset.ws===f.sport));draw();return}
     if(e.target.id==="wcsv")csv([["Rolls off","Basis","Partnership","Brand","Property","Sport","Partnership type","Announced","Source"],...state.wRows.map(({d,r,off})=>[off,r?r.basis:"Reform cap",d.deal,nameOf(d),propOf(d),d.sport,d.tier,S.fmt(d),d.url||""])],"sss-pro-wagering.csv");
