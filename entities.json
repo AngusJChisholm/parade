@@ -5461,7 +5461,15 @@
     "Bonds Flying Roos",
     "BONDS Flying Roos SailGP Team",
     "Bonds Flying Roos SailGP Team"
-   ]
+   ],
+   "ptiers": [
+    "Title Partner",
+    "Global Partners",
+    "Team Partners",
+    "Official Suppliers",
+    "Purpose Partners"
+   ],
+   "ptiersChecked": "2026-11-18"
   },
   "australian-college-of-physical-education": {
    "name": "Australian College of Physical Education",
@@ -9474,7 +9482,13 @@
    "market": "Rest of World",
    "aliases": [
     "Mubadala Brazil SailGP Team"
-   ]
+   ],
+   "ptiers": [
+    "Title Partner",
+    "Official Partner",
+    "Purpose Partners"
+   ],
+   "ptiersChecked": "2026-11-18"
   },
   "brazilian-football-confederation": {
    "name": "Brazilian Football Confederation",
@@ -11168,7 +11182,13 @@
    "market": "North America",
    "aliases": [
     "NorthStar SailGP Team"
-   ]
+   ],
+   "ptiers": [
+    "Official Partners",
+    "Team Suppliers",
+    "Purpose Partner"
+   ],
+   "ptiersChecked": "2026-11-18"
   },
   "canada-soccer": {
    "name": "Canada Soccer",
@@ -17710,7 +17730,14 @@
    "aliases": [
     "ROCKWOOL Racing",
     "Rockwool Racing SailGP Team"
-   ]
+   ],
+   "ptiers": [
+    "Title Partner",
+    "Official Partner",
+    "Official Suppliers",
+    "Purpose Partners"
+   ],
+   "ptiersChecked": "2026-11-18"
   },
   "dental-spot": {
    "name": "Dental Spot",
@@ -23608,8 +23635,12 @@
     "DS Automobiles SailGP Team France"
    ],
    "ptiers": [
-    "Official sponsor"
-   ]
+    "Title Partner",
+    "Global Partners",
+    "Official Suppliers",
+    "Purpose Partner"
+   ],
+   "ptiersChecked": "2026-11-18"
   },
   "franken-brunnen": {
    "name": "Franken Brunnen",
@@ -24891,8 +24922,12 @@
     "Germany SailGP Team presented by Deutsche Bank"
    ],
    "ptiers": [
-    "Presenting partner"
-   ]
+    "Title Partner",
+    "Official Partners",
+    "Official Suppliers",
+    "Purpose Partners"
+   ],
+   "ptiersChecked": "2026-11-18"
   },
   "gerni": {
    "name": "Gerni",
@@ -26053,7 +26088,15 @@
     "Emirates Great Britain SailGP Team",
     "Emirates GBR"
    ],
-   "market": "UK & Ireland"
+   "market": "UK & Ireland",
+   "ptiers": [
+    "Title Partner",
+    "Global Partners",
+    "Team Suppliers",
+    "Race for the Future Partners",
+    "Proudly Part Of"
+   ],
+   "ptiersChecked": "2026-11-18"
   },
   "great-clips": {
    "name": "Great Clips",
@@ -27842,7 +27885,8 @@
   },
   "helly-hansen": {
    "name": "Helly Hansen",
-   "k": "b"
+   "k": "b",
+   "cat": "Apparel & sportswear"
   },
   "helm": {
    "name": "HELM",
@@ -31221,8 +31265,10 @@
     "Red Bull Italy SailGP Team"
    ],
    "ptiers": [
-    "Title partner"
-   ]
+    "Title Partner",
+    "Global Partners"
+   ],
+   "ptiersChecked": "2026-11-18"
   },
   "itch": {
    "name": "itch",
@@ -42235,7 +42281,13 @@
    "aliases": [
     "Black Foils",
     "Black Foils SailGP Team"
-   ]
+   ],
+   "ptiers": [
+    "Official Partners",
+    "Official Suppliers",
+    "Purpose Partner"
+   ],
+   "ptiersChecked": "2026-11-18"
   },
   "newcastle-airport": {
    "name": "Newcastle Airport",
@@ -56254,8 +56306,12 @@
     "Los Gallos SailGP Team"
    ],
    "ptiers": [
-    "Official sponsor"
-   ]
+    "Official Partners",
+    "Official Suppliers",
+    "Purpose Partner",
+    "Partner"
+   ],
+   "ptiersChecked": "2026-11-18"
   },
   "spalding": {
    "name": "Spalding",
@@ -58603,7 +58659,13 @@
    "aliases": [
     "Artemis SailGP Team",
     "Artemis SailGP"
-   ]
+   ],
+   "ptiers": [
+    "Official Partners",
+    "Official Suppliers",
+    "Purpose Partner"
+   ],
+   "ptiersChecked": "2026-11-18"
   },
   "swensons": {
    "name": "Swensons",
@@ -58675,10 +58737,11 @@
     "Swiss SailGP Team"
    ],
    "ptiers": [
-    "Main partner",
-    "Official clothing partner",
-    "Team partner"
-   ]
+    "Title Partner",
+    "Official Suppliers",
+    "Representing"
+   ],
+   "ptiersChecked": "2026-11-18"
   },
   "swizzels": {
    "name": "Swizzels",
@@ -64361,7 +64424,14 @@
     "United States SailGP Team",
     "U.S. SailGP Team"
    ],
-   "market": "North America"
+   "market": "North America",
+   "ptiers": [
+    "Global Partners",
+    "Official Partners",
+    "Official Suppliers",
+    "Purpose Partners"
+   ],
+   "ptiersChecked": "2026-11-18"
   },
   "us-sailing": {
    "name": "US Sailing",
@@ -69525,6 +69595,184 @@
     "icon",
     "logo"
    ]
+  },
+  "parley-for-the-oceans": {
+   "name": "Parley for the Oceans",
+   "k": "b"
+  },
+  "jumeirah": {
+   "name": "Jumeirah",
+   "k": "b",
+   "cat": "Airlines & travel"
+  },
+  "ainslie-ainslie": {
+   "name": "Ainslie + Ainslie",
+   "k": "b"
+  },
+  "telmont": {
+   "name": "Telmont",
+   "k": "b"
+  },
+  "musto": {
+   "name": "Musto",
+   "k": "b",
+   "cat": "Apparel & sportswear"
+  },
+  "spinlock": {
+   "name": "Spinlock",
+   "k": "b"
+  },
+  "1851-trust": {
+   "name": "1851 Trust",
+   "k": "b"
+  },
+  "athena-sports-group": {
+   "name": "Athena Sports Group",
+   "k": "b"
+  },
+  "crypto-og": {
+   "name": "Crypto OG",
+   "k": "b"
+  },
+  "barton-gray": {
+   "name": "Barton & Gray",
+   "k": "b"
+  },
+  "protect-where-we-play": {
+   "name": "Protect Where We Play",
+   "k": "b"
+  },
+  "hudson-river-community-sailing": {
+   "name": "Hudson River Community Sailing",
+   "k": "b"
+  },
+  "100": {
+   "name": "100%",
+   "k": "b"
+  },
+  "one-ocean-foundation": {
+   "name": "One Ocean Foundation",
+   "k": "b"
+  },
+  "juvenescence": {
+   "name": "Juvenescence",
+   "k": "b"
+  },
+  "qinetix": {
+   "name": "Qinetix",
+   "k": "b"
+  },
+  "waterspeed": {
+   "name": "Waterspeed",
+   "k": "b"
+  },
+  "wecanfoil": {
+   "name": "weCANfoil",
+   "k": "b"
+  },
+  "oakberry": {
+   "name": "Oakberry",
+   "k": "b"
+  },
+  "ballena": {
+   "name": "Ballena",
+   "k": "b"
+  },
+  "atvos": {
+   "name": "Atvos",
+   "k": "b"
+  },
+  "mattos-filho": {
+   "name": "Mattos Filho",
+   "k": "b"
+  },
+  "nas-mares": {
+   "name": "Nas Mares",
+   "k": "b"
+  },
+  "forward-wip": {
+   "name": "Forward WIP",
+   "k": "b"
+  },
+  "sailors-for-the-sea": {
+   "name": "Sailors for the Sea",
+   "k": "b"
+  },
+  "instituto-cervantes": {
+   "name": "Instituto Cervantes",
+   "k": "b"
+  },
+  "riedel": {
+   "name": "Riedel",
+   "k": "b"
+  },
+  "flaxta": {
+   "name": "Flaxta",
+   "k": "b"
+  },
+  "wera": {
+   "name": "Wera",
+   "k": "b"
+  },
+  "avea": {
+   "name": "AVEA",
+   "k": "b"
+  },
+  "wir-sind-wir": {
+   "name": "Wir sind Wir",
+   "k": "b"
+  },
+  "slam": {
+   "name": "SLAM",
+   "k": "b",
+   "cat": "Apparel & sportswear"
+  },
+  "poc": {
+   "name": "POC",
+   "k": "b"
+  },
+  "velamont": {
+   "name": "Velamont",
+   "k": "b"
+  },
+  "societe-nautique-de-geneve": {
+   "name": "Société Nautique de Genève",
+   "k": "b"
+  },
+  "team-tilt": {
+   "name": "Team Tilt",
+   "k": "b"
+  },
+  "k-way": {
+   "name": "K-Way",
+   "k": "b",
+   "cat": "Apparel & sportswear"
+  },
+  "inspired-by-km": {
+   "name": "Inspired by KM",
+   "k": "b"
+  },
+  "zhik": {
+   "name": "Zhik",
+   "k": "b",
+   "cat": "Apparel & sportswear"
+  },
+  "live-ocean": {
+   "name": "Live Ocean",
+   "k": "b"
+  },
+  "artemis-technologies": {
+   "name": "Artemis Technologies",
+   "k": "b"
+  },
+  "pelle-p": {
+   "name": "Pelle P",
+   "k": "b",
+   "cat": "Apparel & sportswear"
+  },
+  "andrew-simpson-foundation": {
+   "name": "Andrew Simpson Foundation",
+   "k": "b"
   }
  },
  "leagues": [
