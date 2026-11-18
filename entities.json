@@ -69781,6 +69781,30 @@
     "icon",
     "logo"
    ]
+  },
+  "lufthansa": {
+   "name": "Lufthansa",
+   "cat": "Airlines & travel",
+   "k": "b"
+  },
+  "novig": {
+   "name": "Novig",
+   "k": "b",
+   "cat": "Betting & wagering"
+  },
+  "ondas": {
+   "name": "Ondas",
+   "k": "b",
+   "cat": "Technology"
+  },
+  "nwsl": {
+   "name": "NWSL",
+   "aliases": [
+    "National Women's Soccer League"
+   ],
+   "domain": "nwslsoccer.com",
+   "ptype": "League & competition",
+   "k": "p"
   }
  },
  "leagues": [
