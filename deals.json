@@ -15,7 +15,7 @@
    "url": "https://english.ajel.sa/sports/c8s1uanwa",
    "tier": "Principal & major",
    "status": "New",
-   "conf": "Reported",
+   "conf": "Confirmed",
    "verified": "2026-11-18",
    "market": "Middle East",
    "marketLock": true,
@@ -33,7 +33,7 @@
    "url": "https://english.ajel.sa/sports/ie7myv29m",
    "tier": "Official partner",
    "status": "Extension",
-   "conf": "Reported",
+   "conf": "Confirmed",
    "verified": "2026-11-18",
    "market": "Middle East",
    "marketLock": true
@@ -49,10 +49,11 @@
    "url": "https://thearabianpost.com/gfh-joins-alnassr-as-2026-27-season-partner/",
    "tier": "Official partner",
    "status": "New",
-   "conf": "Reported",
+   "conf": "Confirmed",
    "verified": "2026-11-18",
    "market": "Middle East",
-   "marketLock": true
+   "marketLock": true,
+   "ends": 2027
   },
   {
    "date": "2026-07-29",
@@ -65,10 +66,11 @@
    "url": "https://www.seatrade-cruise.com/marketing/aroya-extends-al-nassr-fc-sponsorship-deal-through-2026-27",
    "tier": "Official partner",
    "status": "Renewal",
-   "conf": "Reported",
+   "conf": "Confirmed",
    "verified": "2026-11-18",
    "market": "Middle East",
-   "marketLock": true
+   "marketLock": true,
+   "ends": 2027
   },
   {
    "date": "2026-02-20",
@@ -81,7 +83,7 @@
    "url": "https://campaignme.com/whoop-signs-official-partnership-agreement-with-saudis-al-nassr-fc/",
    "tier": "Official partner",
    "status": "New",
-   "conf": "Reported",
+   "conf": "Confirmed",
    "verified": "2026-11-18",
    "market": "Middle East",
    "marketLock": true
@@ -114,7 +116,7 @@
    "url": "https://www.tradearabia.com/News/295889/Saudi-Pro-League-announces-long-term-partnership-with-Maaden",
    "tier": "Official partner",
    "status": "New",
-   "conf": "Reported",
+   "conf": "Confirmed",
    "verified": "2026-11-18",
    "market": "Middle East",
    "marketLock": true,
@@ -131,7 +133,7 @@
    "url": "https://m283arabia.com/en/sports-lifestyle/toyota-and-abdul-latif-jameel-motors-sponsor-roshn-saudi-lea",
    "tier": "Official partner",
    "status": "New",
-   "conf": "Reported",
+   "conf": "Confirmed",
    "verified": "2026-11-18",
    "market": "Middle East",
    "marketLock": true
@@ -217,7 +219,7 @@
    "url": "https://golfbusinessnews.com/news/sponsorship-and-events/aldar-becomes-title-sponsor-of-abu-dhabi-championship/",
    "tier": "Naming rights",
    "status": "New",
-   "conf": "Reported",
+   "conf": "Confirmed",
    "verified": "2026-11-18",
    "market": "Middle East",
    "marketLock": true
@@ -233,7 +235,7 @@
    "url": "https://sponsorship.org/emirates-nbd-becomes-official-banking-partner-to-two-tournaments-in-the-dp-world-tour-play-offs/",
    "tier": "Official partner",
    "status": "New",
-   "conf": "Reported",
+   "conf": "Confirmed",
    "verified": "2026-11-18",
    "market": "Middle East",
    "marketLock": true
@@ -249,7 +251,7 @@
    "url": "https://sponsorship.org/emirates-nbd-becomes-official-banking-partner-to-two-tournaments-in-the-dp-world-tour-play-offs/",
    "tier": "Official partner",
    "status": "New",
-   "conf": "Reported",
+   "conf": "Confirmed",
    "verified": "2026-11-18",
    "market": "Middle East",
    "marketLock": true
@@ -329,7 +331,7 @@
    "url": "https://ringmagazine.com/en/news/matchroom-riyadh-season-announce-partnership-for-major-boxing-darts-snooker-events",
    "tier": "Official partner",
    "status": "New",
-   "conf": "Reported",
+   "conf": "Confirmed",
    "verified": "2026-11-18",
    "market": "UK & Ireland",
    "marketLock": true
@@ -345,8 +347,10 @@
    "url": "https://tourexpi.com/en-intl/news/riyadh-air-and-atltico-de-madrid-to-include-womens-first-team-216539.html",
    "tier": "Principal & major",
    "status": "Expansion",
-   "conf": "Reported",
-   "verified": "2026-11-18"
+   "conf": "Confirmed",
+   "verified": "2026-11-18",
+   "ends": 2027,
+   "market": "Europe"
   },
   {
    "date": "2026-01-15",
@@ -375,8 +379,10 @@
    "url": "https://pressmare.it/en/team/emirates-team-new-zealand/2026-01-21/emirates-rights-sponsorship-louis-vuitton-38th-americas-cup-87867",
    "tier": "Naming rights",
    "status": "Renewal",
-   "conf": "Reported",
-   "verified": "2026-11-18"
+   "conf": "Confirmed",
+   "verified": "2026-11-18",
+   "ends": 2027,
+   "market": "ANZ"
   },
   {
    "date": "2025-08-27",
@@ -389,8 +395,9 @@
    "url": "https://www.firstcallgolf.com/industry-news/release/2025-08-27/liv-golf-and-fever-announce-landmark-global-ticketing-partnership-to-elevate-fan-experience",
    "tier": "Official partner",
    "status": "New",
-   "conf": "Reported",
-   "verified": "2026-11-18"
+   "conf": "Confirmed",
+   "verified": "2026-11-18",
+   "market": "Global"
   },
   {
    "date": "2026-09-28",
