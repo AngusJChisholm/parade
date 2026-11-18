@@ -119,6 +119,46 @@ footer.dk .logo:hover{box-shadow:none}
 </style>
 <link rel="stylesheet" href="../assets/follow.css?v=2">
 <link rel="stylesheet" href="../assets/chrome.css?v=4">
+<style id="v3">
+/* Story page v3 (Stake-style): rounded photo hero card, reading column with a side card, card list for same-day partnerships */
+.a3-crumbs{display:flex;gap:10px;font-size:14px;color:var(--ink-3);padding-top:28px!important}
+.a3-crumbs a:hover{color:var(--ink)}.a3-crumbs span:last-child{color:var(--ink)}
+article>.top{max-width:calc(1440px - 2*var(--pad));margin:20px auto 0;width:calc(100% - 2*var(--pad));border-radius:24px;overflow:hidden;position:relative;padding-block:clamp(40px,6vw,88px)!important}
+article>.top>.wrap{padding-inline:clamp(24px,4vw,56px)}
+article>.top .credit{right:clamp(24px,4vw,56px)}
+.top-row{align-items:center}
+.a3-chip{display:inline-flex;align-items:center;height:28px;padding:0 12px;border-radius:999px;background:var(--volt);color:#000;font-weight:800;font-size:11px;letter-spacing:.14em;text-transform:uppercase}
+.top h1{font-size:clamp(48px,7.5vw,120px)!important;margin-top:clamp(28px,4vw,56px)!important}
+.top .tags .tag{border-radius:999px;padding:7px 12px 6px}
+.read{padding-block:clamp(40px,5vw,72px)!important}
+.a3-two{display:flex;gap:clamp(32px,5vw,80px);align-items:flex-start;flex-wrap:wrap}
+.a3-two .col{flex:999 1 560px;min-width:0;max-width:720px}
+.a3-side{flex:1 1 300px;min-width:0;max-width:380px;position:sticky;top:100px;display:flex;flex-direction:column;gap:16px}
+.a3-card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;display:flex;flex-direction:column;gap:12px}
+.a3-k{font-weight:800;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-3)}
+.a3-card>b{font-weight:800;font-size:20px;line-height:1.15;text-transform:uppercase;letter-spacing:-.02em}
+.a3-card .tag{border-radius:999px;border-color:var(--line);color:var(--ink-2);padding:6px 10px 5px;font-size:10px}
+.a3-card .tag.r{background:#F4F4F1;border-color:#F4F4F1;color:var(--ink)}
+.a3-d{font-size:13px;color:var(--ink-3)}
+.a3-links{display:flex;flex-direction:column;gap:10px;padding-top:12px;border-top:1px solid var(--line)}
+.a3-links a{font-weight:800;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.a3-links a:hover{box-shadow:inset 0 -2px 0 var(--volt)}
+.a3-follow{background:#000;color:#fff;border-radius:16px;padding:20px;display:flex;flex-direction:column;gap:6px}
+.a3-follow b{font-weight:800;font-size:18px;text-transform:uppercase}
+.a3-follow span{font-size:14px;color:#9E9E9E}
+.a3-follow div{display:flex;gap:8px;margin-top:10px}
+.a3-follow a{height:44px;padding:0 18px;display:inline-flex;align-items:center;border-radius:999px;font-weight:800;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.a3-follow a.v{background:var(--volt);color:#000}.a3-follow a.o{border:1px solid #fff;color:#fff}
+.close{border-top:1px solid var(--line)!important}
+.src a{border-bottom-color:var(--volt)!important}
+.same{background:#fff!important;padding-block:0 72px!important}
+.same h2{font-family:inherit!important;font-stretch:100%!important;font-size:26px!important;letter-spacing:-.03em!important;border:0!important;padding:0 0 16px!important}
+.same .wrap{display:block}
+.same .row{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin-bottom:12px;align-items:center;transition:border-color .2s}
+.same a.row:hover{border-color:var(--ink)}
+.same .row b{font-family:inherit!important;font-stretch:100%!important;font-size:16px!important;letter-spacing:-.02em}
+@media (max-width:900px){.a3-side{position:static;max-width:none}article>.top{border-radius:20px;margin-top:12px}}
+</style>
 </head>
 <body>
 <header class="v2"><div class="wrap hd">
@@ -132,14 +172,15 @@ footer.dk .logo:hover{box-shadow:none}
 
 <main>
 <article>
+<div class="wrap a3-crumbs"><a href="../news">News</a><span aria-hidden="true">/</span><span>Lead partnership</span></div>
 <section class="dk top hasph" style="--img:url(&#x27;../assets/img/gwm-parramatta-eels.jpg&#x27;)"><div class="wrap">
-<div class="top-row"><span class="lbl">Lead partnership</span><span class="lbl mute">Monday 19 October 2026</span></div>
+<div class="top-row"><span class="a3-chip">Lead partnership</span><span class="lbl mute">Monday 19 October 2026</span></div>
 <h1 class="disp">GWM rolls into Parra.</h1>
 <p class="sup">GWM × Parramatta Eels</p>
 <div class="tags"><span class="tag">NRL</span><span class="tag">Sleeve sponsorship</span><span class="tag r">ANZ</span></div>
 </div><span class="credit">Photo: Parramatta Eels</span></section>
 
-<section class="read"><div class="wrap"><div class="col">
+<section class="read"><div class="wrap a3-two"><div class="col">
 <p class="stand">GWM wants to be Australia&#x27;s number five car brand, and it&#x27;s driving through Parramatta to get there.</p>
 <p class="b">The Parramatta Eels have signed GWM as their official automotive partner on a multi-year partnership that kicks off in the 2027 season. The car maker also takes the sleeve on both the NRL and NRLW playing jerseys, so the same badge runs across the men&#x27;s and women&#x27;s programs. Neither side has put a number on it.</p>
 <p class="b">It&#x27;s been a big week in the Eels&#x27; commercial office. Two days earlier the club confirmed adidas as its new apparel partner across the NRL and NRLW sides, with the new kit due in Round 1 next year. So by the time Parra runs out in 2027 the jersey, and what&#x27;s printed on the arm, will both be new.</p>
@@ -148,7 +189,12 @@ footer.dk .logo:hover{box-shadow:none}
 <p class="b">What to watch next: how GWM activates it. Car brands in footy usually lean on vehicle fleets, member offers and dealer tie-ins, so expect GWM to show up well beyond the sleeve. The other thing to watch is whether GWM keeps adding clubs. Two codes and three big teams in, it&#x27;s starting to look like a portfolio rather than a one-off.</p>
 <p class="close">New kit, new car partner, same week. Not a bad start to 2027 for the Eels.</p>
 
-</div></div></section>
+</div>
+<aside class="a3-side">
+<div class="a3-card"><span class="a3-k">Lead partnership</span><b>GWM × Parramatta Eels</b><div class="tags"><span class="tag">NRL</span><span class="tag">Sleeve sponsorship</span><span class="tag r">ANZ</span></div><span class="a3-d">Monday 19 October 2026</span>
+<div class="a3-links"><a href="../partnerships">Every partnership →</a><a href="../news">All news →</a></div></div>
+<div class="a3-follow"><b>Follow along.</b><span>New partnerships every Tuesday and Thursday.</span><div><a class="v" href="https://www.linkedin.com/company/sportsportsport/" target="_blank" rel="noopener">LinkedIn</a><a class="o" href="https://www.instagram.com/sportsportsport.hq/" target="_blank" rel="noopener">Instagram</a></div></div>
+</aside></div></section>
 </article>
 
 <section class="same"><div class="wrap"><span class="lbl mute-l" style="display:block;margin-bottom:16px">Also on 19 Oct</span><h2 class="disp">Also signed.</h2><div class="row"><span><b>Champion Data × A-Leagues</b><span class="x">Football · Champion Data becomes the official broadcast graphics provider for the A-League Men and Women for three seasons from 2026-27, covering Network 10 and Paramount+ coverage.</span></span></div><div class="row"><span><b>Carole Nash × British Superbike Championship</b><span class="x">Motorsport · Motorcycle insurance broker Carole Nash renews as the exclusive official insurance partner of British Superbikes for a second term, adding round sponsorship at Donington Park.</span></span></div><div class="row"><span><b>Tangerine × Bendigo Spirit</b><span class="x">Basketball · Telco Tangerine is back with the WNBL&#x27;s Bendigo Spirit for a second straight season in 2026/27.</span></span></div><div class="row"><span><b>Crystalbrook Sam × Adelaide 36ers</b><span class="x">Basketball · New Adelaide hotel Crystalbrook Sam becomes the 36ers&#x27; official accommodation partner and the exclusive hotel for visiting NBL teams.</span></span></div><div class="row"><span><b>Castelli × A.S.O.</b><span class="x">Cycling · Castelli replaces Santini as A.S.O.&#x27;s technical clothing partner from 2027, making the leader&#x27;s jerseys for the Tour de France and its other races, including the yellow jersey it last made in 1994.</span></span></div><div class="row"><span><b>DAZN × Guardians League</b><span class="x">Surfing · DAZN signs a multi-year global free-to-view partnership for the new surf racing league, outside Australia, NZ and China, starting with the 2027 Oceania Tour.</span></span></div><div class="row"><span><b>DP World × Rory McIlroy</b><span class="x">Golf · Multi-year global partnership makes McIlroy a DP World ambassador, with DP World moving his two fitness and recovery trailers between tournaments.</span></span></div><div class="row"><span><b>Hankook × Ballon d&#x27;Or</b><span class="x">Football · Hankook sponsors the Ballon d&#x27;Or for a third straight year, with the 2026 ceremony at the London Palladium on 26 October.</span></span></div><div class="row"><span><b>Visit Swansea Bay × Ospreys</b><span class="x">Rugby union · The region&#x27;s tourism body becomes an official shirt sponsor, with its logo on the collar for Ospreys&#x27; 2026/27 European campaign.</span></span></div><div class="row"><span><b>HSBC × DP World India Championship</b><span class="x">Golf · HSBC joins the 2026 DP World India Championship at Delhi Golf Club as a premium partner.</span></span></div><div class="row"><span><b>Fast&amp;Up × Odisha FC</b><span class="x">Football · Sports nutrition brand Fast&amp;Up extends as Odisha FC&#x27;s official nutrition partner for the ISL 2026-27 season.</span></span></div><div class="row"><span><b>Lumo × Newcastle Eagles</b><span class="x">Basketball · Rail operator Lumo moves to the front of the Newcastle Eagles women&#x27;s team kit as main sponsor for the 2026/27 Super League Basketball season.</span></span></div></div></section>

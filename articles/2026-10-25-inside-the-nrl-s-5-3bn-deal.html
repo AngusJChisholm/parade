@@ -119,6 +119,46 @@ footer.dk .logo:hover{box-shadow:none}
 </style>
 <link rel="stylesheet" href="../assets/follow.css?v=2">
 <link rel="stylesheet" href="../assets/chrome.css?v=4">
+<style id="v3">
+/* Story page v3 (Stake-style): rounded photo hero card, reading column with a side card, card list for same-day partnerships */
+.a3-crumbs{display:flex;gap:10px;font-size:14px;color:var(--ink-3);padding-top:28px!important}
+.a3-crumbs a:hover{color:var(--ink)}.a3-crumbs span:last-child{color:var(--ink)}
+article>.top{max-width:calc(1440px - 2*var(--pad));margin:20px auto 0;width:calc(100% - 2*var(--pad));border-radius:24px;overflow:hidden;position:relative;padding-block:clamp(40px,6vw,88px)!important}
+article>.top>.wrap{padding-inline:clamp(24px,4vw,56px)}
+article>.top .credit{right:clamp(24px,4vw,56px)}
+.top-row{align-items:center}
+.a3-chip{display:inline-flex;align-items:center;height:28px;padding:0 12px;border-radius:999px;background:var(--volt);color:#000;font-weight:800;font-size:11px;letter-spacing:.14em;text-transform:uppercase}
+.top h1{font-size:clamp(48px,7.5vw,120px)!important;margin-top:clamp(28px,4vw,56px)!important}
+.top .tags .tag{border-radius:999px;padding:7px 12px 6px}
+.read{padding-block:clamp(40px,5vw,72px)!important}
+.a3-two{display:flex;gap:clamp(32px,5vw,80px);align-items:flex-start;flex-wrap:wrap}
+.a3-two .col{flex:999 1 560px;min-width:0;max-width:720px}
+.a3-side{flex:1 1 300px;min-width:0;max-width:380px;position:sticky;top:100px;display:flex;flex-direction:column;gap:16px}
+.a3-card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;display:flex;flex-direction:column;gap:12px}
+.a3-k{font-weight:800;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-3)}
+.a3-card>b{font-weight:800;font-size:20px;line-height:1.15;text-transform:uppercase;letter-spacing:-.02em}
+.a3-card .tag{border-radius:999px;border-color:var(--line);color:var(--ink-2);padding:6px 10px 5px;font-size:10px}
+.a3-card .tag.r{background:#F4F4F1;border-color:#F4F4F1;color:var(--ink)}
+.a3-d{font-size:13px;color:var(--ink-3)}
+.a3-links{display:flex;flex-direction:column;gap:10px;padding-top:12px;border-top:1px solid var(--line)}
+.a3-links a{font-weight:800;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.a3-links a:hover{box-shadow:inset 0 -2px 0 var(--volt)}
+.a3-follow{background:#000;color:#fff;border-radius:16px;padding:20px;display:flex;flex-direction:column;gap:6px}
+.a3-follow b{font-weight:800;font-size:18px;text-transform:uppercase}
+.a3-follow span{font-size:14px;color:#9E9E9E}
+.a3-follow div{display:flex;gap:8px;margin-top:10px}
+.a3-follow a{height:44px;padding:0 18px;display:inline-flex;align-items:center;border-radius:999px;font-weight:800;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.a3-follow a.v{background:var(--volt);color:#000}.a3-follow a.o{border:1px solid #fff;color:#fff}
+.close{border-top:1px solid var(--line)!important}
+.src a{border-bottom-color:var(--volt)!important}
+.same{background:#fff!important;padding-block:0 72px!important}
+.same h2{font-family:inherit!important;font-stretch:100%!important;font-size:26px!important;letter-spacing:-.03em!important;border:0!important;padding:0 0 16px!important}
+.same .wrap{display:block}
+.same .row{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin-bottom:12px;align-items:center;transition:border-color .2s}
+.same a.row:hover{border-color:var(--ink)}
+.same .row b{font-family:inherit!important;font-stretch:100%!important;font-size:16px!important;letter-spacing:-.02em}
+@media (max-width:900px){.a3-side{position:static;max-width:none}article>.top{border-radius:20px;margin-top:12px}}
+</style>
 </head>
 <body>
 <header class="v2"><div class="wrap hd">
@@ -132,14 +172,15 @@ footer.dk .logo:hover{box-shadow:none}
 
 <main>
 <article>
+<div class="wrap a3-crumbs"><a href="../news">News</a><span aria-hidden="true">/</span><span>Feature</span></div>
 <section class="dk top hasph" style="--img:url(&#x27;../assets/img/u/photo-1485426337939-af69cf101909.jpg&#x27;), url(&#x27;https://images.unsplash.com/photo-1485426337939-af69cf101909?w=1600&amp;q=80&amp;auto=format&amp;fit=crop&#x27;)"><div class="wrap">
-<div class="top-row"><span class="lbl">Feature</span><span class="lbl mute">Sunday 25 October 2026</span></div>
+<div class="top-row"><span class="a3-chip">Feature</span><span class="lbl mute">Sunday 25 October 2026</span></div>
 <h1 class="disp">Inside the NRL&#x27;s $5.3bn partnership.</h1>
 <p class="sup">How the 2028 to 2034 rights partnership is carved up</p>
 <div class="tags"><span class="tag">Explainer</span><span class="tag">NRL</span><span class="tag r">ANZ</span></div>
 </div><span class="credit">Photo: Unsplash</span></section>
 
-<section class="read"><div class="wrap"><div class="col">
+<section class="read"><div class="wrap a3-two"><div class="col">
 <p class="stand">The NRL&#x27;s seven-year, $5.3 billion rights partnership is the biggest in Australian sport. Here is who gets what.</p>
 <p class="b">The NRL&#x27;s new broadcast partnership is worth $5.3 billion over seven years, from 2028 to 2034, and it is the biggest commercial agreement any Australian sport has signed. The league says cash per year jumps 90 per cent on the current arrangement. Spread evenly, that is about $757 million a season, against the more than $400 million a year the NRL announced when it signed the 2023 to 2027 partnership. By the same rough maths, the AFL&#x27;s $4.5 billion partnership for 2025 to 2031 works out at $643 million a season.</p>
 <p class="b">The headline number gets the attention. The structure is where the value sits. There are three buyers and each gets a different slice. Foxtel Group, which is owned by DAZN, stays the home of the league across Foxtel and Kayo Sports. It shows every NRL and NRLW premiership match live, including the finals, other than State of Origin and the grand final.</p>
@@ -151,8 +192,15 @@ footer.dk .logo:hover{box-shadow:none}
 <p class="b">For brands and rights holders, the message is clear. Free-to-air reach is locked in for Origin and the grand final through 2034, the pay-TV rights are priced for growth, and the league now controls its own calendar. That gives sponsors seven years of certainty on where their logos will be seen, and gives clubs a stronger base to sell from. Nine&#x27;s chief executive Matt Stanton has pointed to a commitment to bring the action live and free, and the NRL says its audience has roughly doubled over the past five years, so the pitch to brands is built on momentum as well as money. How much of that momentum survives a bigger, more expensive league is the real test.</p>
 <p class="close">Watch the 20th club decision, the Kayo price and whether DAZN can sell the NRL overseas, because those three will decide how the partnership ages.</p>
 
-</div></div></section>
+</div>
+<aside class="a3-side">
+<div class="a3-card"><span class="a3-k">Feature</span><b>How the 2028 to 2034 rights partnership is carved up</b><div class="tags"><span class="tag">Explainer</span><span class="tag">NRL</span><span class="tag r">ANZ</span></div><span class="a3-d">Sunday 25 October 2026</span>
+<div class="a3-links"><a href="../partnerships">Every partnership →</a><a href="../news">All news →</a></div></div>
+<div class="a3-follow"><b>Follow along.</b><span>New partnerships every Tuesday and Thursday.</span><div><a class="v" href="https://www.linkedin.com/company/sportsportsport/" target="_blank" rel="noopener">LinkedIn</a><a class="o" href="https://www.instagram.com/sportsportsport.hq/" target="_blank" rel="noopener">Instagram</a></div></div>
+</aside></div></section>
 </article>
+
+
 
 <!-- follow:start -->
 <section class="sf" id="follow"><div class="sf-w">

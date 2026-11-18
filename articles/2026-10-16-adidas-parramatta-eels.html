@@ -119,6 +119,46 @@ footer.dk .logo:hover{box-shadow:none}
 </style>
 <link rel="stylesheet" href="../assets/follow.css?v=2">
 <link rel="stylesheet" href="../assets/chrome.css?v=4">
+<style id="v3">
+/* Story page v3 (Stake-style): rounded photo hero card, reading column with a side card, card list for same-day partnerships */
+.a3-crumbs{display:flex;gap:10px;font-size:14px;color:var(--ink-3);padding-top:28px!important}
+.a3-crumbs a:hover{color:var(--ink)}.a3-crumbs span:last-child{color:var(--ink)}
+article>.top{max-width:calc(1440px - 2*var(--pad));margin:20px auto 0;width:calc(100% - 2*var(--pad));border-radius:24px;overflow:hidden;position:relative;padding-block:clamp(40px,6vw,88px)!important}
+article>.top>.wrap{padding-inline:clamp(24px,4vw,56px)}
+article>.top .credit{right:clamp(24px,4vw,56px)}
+.top-row{align-items:center}
+.a3-chip{display:inline-flex;align-items:center;height:28px;padding:0 12px;border-radius:999px;background:var(--volt);color:#000;font-weight:800;font-size:11px;letter-spacing:.14em;text-transform:uppercase}
+.top h1{font-size:clamp(48px,7.5vw,120px)!important;margin-top:clamp(28px,4vw,56px)!important}
+.top .tags .tag{border-radius:999px;padding:7px 12px 6px}
+.read{padding-block:clamp(40px,5vw,72px)!important}
+.a3-two{display:flex;gap:clamp(32px,5vw,80px);align-items:flex-start;flex-wrap:wrap}
+.a3-two .col{flex:999 1 560px;min-width:0;max-width:720px}
+.a3-side{flex:1 1 300px;min-width:0;max-width:380px;position:sticky;top:100px;display:flex;flex-direction:column;gap:16px}
+.a3-card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;display:flex;flex-direction:column;gap:12px}
+.a3-k{font-weight:800;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-3)}
+.a3-card>b{font-weight:800;font-size:20px;line-height:1.15;text-transform:uppercase;letter-spacing:-.02em}
+.a3-card .tag{border-radius:999px;border-color:var(--line);color:var(--ink-2);padding:6px 10px 5px;font-size:10px}
+.a3-card .tag.r{background:#F4F4F1;border-color:#F4F4F1;color:var(--ink)}
+.a3-d{font-size:13px;color:var(--ink-3)}
+.a3-links{display:flex;flex-direction:column;gap:10px;padding-top:12px;border-top:1px solid var(--line)}
+.a3-links a{font-weight:800;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.a3-links a:hover{box-shadow:inset 0 -2px 0 var(--volt)}
+.a3-follow{background:#000;color:#fff;border-radius:16px;padding:20px;display:flex;flex-direction:column;gap:6px}
+.a3-follow b{font-weight:800;font-size:18px;text-transform:uppercase}
+.a3-follow span{font-size:14px;color:#9E9E9E}
+.a3-follow div{display:flex;gap:8px;margin-top:10px}
+.a3-follow a{height:44px;padding:0 18px;display:inline-flex;align-items:center;border-radius:999px;font-weight:800;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.a3-follow a.v{background:var(--volt);color:#000}.a3-follow a.o{border:1px solid #fff;color:#fff}
+.close{border-top:1px solid var(--line)!important}
+.src a{border-bottom-color:var(--volt)!important}
+.same{background:#fff!important;padding-block:0 72px!important}
+.same h2{font-family:inherit!important;font-stretch:100%!important;font-size:26px!important;letter-spacing:-.03em!important;border:0!important;padding:0 0 16px!important}
+.same .wrap{display:block}
+.same .row{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin-bottom:12px;align-items:center;transition:border-color .2s}
+.same a.row:hover{border-color:var(--ink)}
+.same .row b{font-family:inherit!important;font-stretch:100%!important;font-size:16px!important;letter-spacing:-.02em}
+@media (max-width:900px){.a3-side{position:static;max-width:none}article>.top{border-radius:20px;margin-top:12px}}
+</style>
 </head>
 <body>
 <header class="v2"><div class="wrap hd">
@@ -132,14 +172,15 @@ footer.dk .logo:hover{box-shadow:none}
 
 <main>
 <article>
+<div class="wrap a3-crumbs"><a href="../news">News</a><span aria-hidden="true">/</span><span>Lead partnership</span></div>
 <section class="dk top hasph" style="--img:url(&#x27;../assets/img/adidas-parramatta-eels.jpg&#x27;)"><div class="wrap">
-<div class="top-row"><span class="lbl">Lead partnership</span><span class="lbl mute">Friday 16 October 2026</span></div>
+<div class="top-row"><span class="a3-chip">Lead partnership</span><span class="lbl mute">Friday 16 October 2026</span></div>
 <h1 class="disp">Three stripes for Parra.</h1>
 <p class="sup">adidas × Parramatta Eels</p>
 <div class="tags"><span class="tag">NRL</span><span class="tag">Apparel partner</span><span class="tag r">ANZ</span></div>
 </div><span class="credit">Photo: Unsplash</span></section>
 
-<section class="read"><div class="wrap"><div class="col">
+<section class="read"><div class="wrap a3-two"><div class="col">
 <p class="stand">adidas is putting the Parramatta Eels in three stripes.</p>
 <p class="b">The Parramatta Eels have signed a multi-year partnership that makes adidas the club&#x27;s official apparel partner. It covers a lot of ground: the NRL and NRLW teams, the club&#x27;s elite academy programs and its junior representative sides. Both top teams will run out in adidas for the first time in Round 1 of the 2027 season. Neither side has put out a length or a dollar figure.</p>
 <p class="b">The club launched it with a campaign called &quot;Made for Parra&quot;, and the kit and retail range are due to be unveiled at a launch later this year. That reveal is where the fans get their first proper look at what three stripes in blue and gold actually means.</p>
@@ -148,7 +189,12 @@ footer.dk .logo:hover{box-shadow:none}
 <p class="b">What to watch next: the kit reveal and how hard adidas pushes the retail side, and whether the brand follows up with more rugby league clubs once the Eels range is on the shelves.</p>
 <p class="close">When a global brand dresses the juniors too, it&#x27;s buying the next generation of fans.</p>
 
-</div></div></section>
+</div>
+<aside class="a3-side">
+<div class="a3-card"><span class="a3-k">Lead partnership</span><b>adidas × Parramatta Eels</b><div class="tags"><span class="tag">NRL</span><span class="tag">Apparel partner</span><span class="tag r">ANZ</span></div><span class="a3-d">Friday 16 October 2026</span>
+<div class="a3-links"><a href="../partnerships">Every partnership →</a><a href="../news">All news →</a></div></div>
+<div class="a3-follow"><b>Follow along.</b><span>New partnerships every Tuesday and Thursday.</span><div><a class="v" href="https://www.linkedin.com/company/sportsportsport/" target="_blank" rel="noopener">LinkedIn</a><a class="o" href="https://www.instagram.com/sportsportsport.hq/" target="_blank" rel="noopener">Instagram</a></div></div>
+</aside></div></section>
 </article>
 
 <section class="same"><div class="wrap"><span class="lbl mute-l" style="display:block;margin-bottom:16px">Also on 16 Oct</span><h2 class="disp">Also signed.</h2><div class="row"><span><b>Ford Australia × WNBL</b><span class="x">Basketball · Ford extends and steps up its WNBL partnership to become the league&#x27;s presenting partner for the 2026-27 season.</span></span></div><div class="row"><span><b>Sky New Zealand × Australian Open</b><span class="x">Tennis · Sky renews its long-term NZ media rights partnership for the AO and adds the Laver Cup and United Cup, with evening sessions free-to-air on Three and ThreeNow for the first time from 2027.</span></span></div><div class="row"><span><b>Flyte Aviation × Philadelphia 76ers</b><span class="x">Basketball · AI-driven private aviation company signs an exclusive multi-year partnership as the Sixers&#x27; official private aviation partner.</span></span></div><div class="row"><span><b>BetMGM × Connor McDavid</b><span class="x">Ice hockey · Multi-year extension of McDavid&#x27;s BetMGM ambassador partnership, which started in March 2022, centred on responsible gambling content in Canada.</span></span></div><div class="row"><span><b>InterContinental Wellington × Wellington Phoenix</b><span class="x">Football · The hotel returns as the Phoenix&#x27;s official hotel partner, turning its Two Grey venue into a matchday hub for the club&#x27;s 20th season.</span></span></div><div class="row"><span><b>Walt Disney World × Orlando Magic</b><span class="x">Basketball · Disney renews its Magic jersey patch on a long-term partnership and adds a Walt Disney World Atrium at Kia Center.</span></span></div><div class="row"><span><b>Priceline Pharmacy × Australian Diamonds</b><span class="x">Netball · Priceline becomes principal partner of the Diamonds through 2029, plus major partner of the First Nations Black Swans, with its logo on the Diamonds uniform for the first time.</span></span></div><div class="row"><span><b>Aldar × The O2</b><span class="x">Venues · Abu Dhabi developer signs a five-year partnership naming The O2&#x27;s new premium hospitality space, The Level by Aldar, and becomes official real estate partner.</span></span></div><div class="row"><span><b>Foot Locker × New York Knicks</b><span class="x">Basketball · Multi-year partnership as the Knicks&#x27; official athletic footwear retailer, with retail activations at Madison Square Garden.</span></span></div><div class="row"><span><b>Lyca Mobile × West Ham United</b><span class="x">Football · West Ham renews its longest-standing commercial partner, covering LED, digital and eSIM promotion.</span></span></div><div class="row"><span><b>Shriners Children&#x27;s × Concacaf</b><span class="x">Football · Expanded partnership adds the Concacaf W Championship to Shriners&#x27; 2027 Gold Cup and Nations League Finals partnership.</span></span></div><div class="row"><span><b>Panini America × LaLiga North America</b><span class="x">Football · Multi-year extension of the regional partnership, with Panini back as title sponsor of the U.S. Gaming Challenge.</span></span></div><div class="row"><span><b>YIDA ONEPATH × WNBL</b><span class="x">Basketball · New broadcast partnership streams every WNBL game of the 2026-27 season in China across Douyin, RedNote, Kuaishou and WeChat Channels.</span></span></div><div class="row"><span><b>Sports Direct Australia × Sydney FC</b><span class="x">Football · Official sports retailer partnership extended for the 2026-27 season.</span></span></div><div class="row"><span><b>ASB × Round the Bays</b><span class="x">Running · ASB joins the Round the Bays fun-run series in Auckland, Wellington and Christchurch, adding an ASB Joggers category.</span></span></div><div class="row"><span><b>Arun Ice Cream × Mohun Bagan Super Giant</b><span class="x">Football · Co-partner of the Kolkata club for the 2026-27 ISL season.</span></span></div><div class="row"><span><b>SRMB TMT × Mohun Bagan Super Giant</b><span class="x">Football · Associate sponsor for the 2026-27 ISL season.</span></span></div><div class="row"><span><b>Alliance Broadband × Mohun Bagan Super Giant</b><span class="x">Football · Associate sponsor for the 2026-27 ISL season.</span></span></div><div class="row"><span><b>FREEMANS × Mohun Bagan Super Giant</b><span class="x">Football · Official tools partner for the 2026-27 ISL season.</span></span></div><div class="row"><span><b>Turtlebox × Perfect Game</b><span class="x">Baseball · Speaker brand extends as Perfect Game&#x27;s official Bluetooth speaker and audio provider, adding a YouTube series.</span></span></div></div></section>

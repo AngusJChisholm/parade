@@ -119,6 +119,46 @@ footer.dk .logo:hover{box-shadow:none}
 </style>
 <link rel="stylesheet" href="../assets/follow.css?v=2">
 <link rel="stylesheet" href="../assets/chrome.css?v=4">
+<style id="v3">
+/* Story page v3 (Stake-style): rounded photo hero card, reading column with a side card, card list for same-day partnerships */
+.a3-crumbs{display:flex;gap:10px;font-size:14px;color:var(--ink-3);padding-top:28px!important}
+.a3-crumbs a:hover{color:var(--ink)}.a3-crumbs span:last-child{color:var(--ink)}
+article>.top{max-width:calc(1440px - 2*var(--pad));margin:20px auto 0;width:calc(100% - 2*var(--pad));border-radius:24px;overflow:hidden;position:relative;padding-block:clamp(40px,6vw,88px)!important}
+article>.top>.wrap{padding-inline:clamp(24px,4vw,56px)}
+article>.top .credit{right:clamp(24px,4vw,56px)}
+.top-row{align-items:center}
+.a3-chip{display:inline-flex;align-items:center;height:28px;padding:0 12px;border-radius:999px;background:var(--volt);color:#000;font-weight:800;font-size:11px;letter-spacing:.14em;text-transform:uppercase}
+.top h1{font-size:clamp(48px,7.5vw,120px)!important;margin-top:clamp(28px,4vw,56px)!important}
+.top .tags .tag{border-radius:999px;padding:7px 12px 6px}
+.read{padding-block:clamp(40px,5vw,72px)!important}
+.a3-two{display:flex;gap:clamp(32px,5vw,80px);align-items:flex-start;flex-wrap:wrap}
+.a3-two .col{flex:999 1 560px;min-width:0;max-width:720px}
+.a3-side{flex:1 1 300px;min-width:0;max-width:380px;position:sticky;top:100px;display:flex;flex-direction:column;gap:16px}
+.a3-card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;display:flex;flex-direction:column;gap:12px}
+.a3-k{font-weight:800;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-3)}
+.a3-card>b{font-weight:800;font-size:20px;line-height:1.15;text-transform:uppercase;letter-spacing:-.02em}
+.a3-card .tag{border-radius:999px;border-color:var(--line);color:var(--ink-2);padding:6px 10px 5px;font-size:10px}
+.a3-card .tag.r{background:#F4F4F1;border-color:#F4F4F1;color:var(--ink)}
+.a3-d{font-size:13px;color:var(--ink-3)}
+.a3-links{display:flex;flex-direction:column;gap:10px;padding-top:12px;border-top:1px solid var(--line)}
+.a3-links a{font-weight:800;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.a3-links a:hover{box-shadow:inset 0 -2px 0 var(--volt)}
+.a3-follow{background:#000;color:#fff;border-radius:16px;padding:20px;display:flex;flex-direction:column;gap:6px}
+.a3-follow b{font-weight:800;font-size:18px;text-transform:uppercase}
+.a3-follow span{font-size:14px;color:#9E9E9E}
+.a3-follow div{display:flex;gap:8px;margin-top:10px}
+.a3-follow a{height:44px;padding:0 18px;display:inline-flex;align-items:center;border-radius:999px;font-weight:800;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.a3-follow a.v{background:var(--volt);color:#000}.a3-follow a.o{border:1px solid #fff;color:#fff}
+.close{border-top:1px solid var(--line)!important}
+.src a{border-bottom-color:var(--volt)!important}
+.same{background:#fff!important;padding-block:0 72px!important}
+.same h2{font-family:inherit!important;font-stretch:100%!important;font-size:26px!important;letter-spacing:-.03em!important;border:0!important;padding:0 0 16px!important}
+.same .wrap{display:block}
+.same .row{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin-bottom:12px;align-items:center;transition:border-color .2s}
+.same a.row:hover{border-color:var(--ink)}
+.same .row b{font-family:inherit!important;font-stretch:100%!important;font-size:16px!important;letter-spacing:-.02em}
+@media (max-width:900px){.a3-side{position:static;max-width:none}article>.top{border-radius:20px;margin-top:12px}}
+</style>
 </head>
 <body>
 <header class="v2"><div class="wrap hd">
@@ -132,14 +172,15 @@ footer.dk .logo:hover{box-shadow:none}
 
 <main>
 <article>
+<div class="wrap a3-crumbs"><a href="../news">News</a><span aria-hidden="true">/</span><span>Feature</span></div>
 <section class="dk top hasph" style="--img:url(&#x27;../assets/img/u/photo-1640862101983-9f7ef7fd7cc9.jpg&#x27;), url(&#x27;https://images.unsplash.com/photo-1640862101983-9f7ef7fd7cc9?w=1600&amp;q=80&amp;auto=format&amp;fit=crop&#x27;)"><div class="wrap">
-<div class="top-row"><span class="lbl">Feature</span><span class="lbl mute">Sunday 18 October 2026</span></div>
+<div class="top-row"><span class="a3-chip">Feature</span><span class="lbl mute">Sunday 18 October 2026</span></div>
 <h1 class="disp">The NBA&#x27;s most expensive square.</h1>
 <p class="sup">How NBA jersey patches work and what they&#x27;re worth</p>
 <div class="tags"><span class="tag">Explainer</span><span class="tag">Basketball</span><span class="tag r">Global</span></div>
 </div><span class="credit">Photo: Unsplash</span></section>
 
-<section class="read"><div class="wrap"><div class="col">
+<section class="read"><div class="wrap a3-two"><div class="col">
 <p class="stand">An Australian-founded AI company now owns the priciest bit of fabric in American sport, and it&#x27;s about six centimetres wide.</p>
 <p class="b">From this NBA season, IREN&#x27;s logo sits on the front of every Golden State Warriors jersey. Sportico reported the multi-year partnership at more than US$50 million a year, which would make it the biggest sponsorship in North American team sport. IREN began in 2018 as Iris Energy, a Sydney-based bitcoin miner set up by brothers Will and Daniel Roberts, and now trades on Nasdaq as an AI cloud business. It replaces Rakuten, the Warriors&#x27; only patch partner until now, and also lands on the Santa Cruz Warriors&#x27; jerseys in the G League and the warmup tops of the WNBA&#x27;s Golden State Valkyries.</p>
 <p class="b">So what are they actually buying? The NBA&#x27;s board of governors signed off on jersey sponsorship in April 2016 as a three-year trial, starting with the 2017-18 season. The rules are tight: one logo, roughly 2.5 inches square, on the front left of the jersey opposite the Nike swoosh. Each club sells its own. The Philadelphia 76ers were first out of the blocks, announcing StubHub in May 2016. Compare that with an AFL or NRL jumper, where sponsors share the front, back and sleeves. The NBA went the other way and sold scarcity. One badge, one brand, on every game, every highlight clip and every replica jersey in the club shop.</p>
@@ -151,7 +192,12 @@ footer.dk .logo:hover{box-shadow:none}
 <p class="b">What to watch next: whether IREN&#x27;s reported fee becomes the new benchmark when the next big-market patch comes up, and whether AI and energy brands keep replacing the finance and crypto money that defined the first decade of patches. Watch the activation too. A patch partnership that only ever shows up on the shirt is the easiest one to lose at renewal.</p>
 <p class="close">It&#x27;s the smallest logo in the building, and the most expensive one.</p>
 
-</div></div></section>
+</div>
+<aside class="a3-side">
+<div class="a3-card"><span class="a3-k">Feature</span><b>How NBA jersey patches work and what they&#x27;re worth</b><div class="tags"><span class="tag">Explainer</span><span class="tag">Basketball</span><span class="tag r">Global</span></div><span class="a3-d">Sunday 18 October 2026</span>
+<div class="a3-links"><a href="../partnerships">Every partnership →</a><a href="../news">All news →</a></div></div>
+<div class="a3-follow"><b>Follow along.</b><span>New partnerships every Tuesday and Thursday.</span><div><a class="v" href="https://www.linkedin.com/company/sportsportsport/" target="_blank" rel="noopener">LinkedIn</a><a class="o" href="https://www.instagram.com/sportsportsport.hq/" target="_blank" rel="noopener">Instagram</a></div></div>
+</aside></div></section>
 </article>
 
 <section class="same"><div class="wrap"><span class="lbl mute-l" style="display:block;margin-bottom:16px">In this story</span><h2 class="disp">The partnerships.</h2><div class="row"><span><b>IREN × Golden State Warriors</b><span class="x">Basketball · Record-breaking jersey patch partnership.</span></span></div><div class="row"><span><b>Albert × Los Angeles Lakers</b><span class="x">Basketball · New Lakers jersey patch partner.</span></span></div><div class="row"><span><b>JPMorganChase × Dallas Mavericks</b><span class="x">Basketball · The bank&#x27;s first-ever NBA jersey patch.</span></span></div><a class="row" href="2026-10-01-bloom-energy-philadelphia-76ers"><span><b>Bloom Energy × Philadelphia 76ers</b><span class="x">Basketball · Second-biggest jersey patch partnership in NBA history, replacing Crypto.com.</span></span><span>→</span></a><div class="row"><span><b>Uline × Milwaukee Bucks</b><span class="x">Basketball · Replaces Motorola Solutions.</span></span></div><div class="row"><span><b>Paze × Phoenix Suns</b><span class="x">Basketball · Replaces PayPal on the jersey.</span></span></div></div></section>

@@ -119,6 +119,46 @@ footer.dk .logo:hover{box-shadow:none}
 </style>
 <link rel="stylesheet" href="../assets/follow.css?v=2">
 <link rel="stylesheet" href="../assets/chrome.css?v=4">
+<style id="v3">
+/* Story page v3 (Stake-style): rounded photo hero card, reading column with a side card, card list for same-day partnerships */
+.a3-crumbs{display:flex;gap:10px;font-size:14px;color:var(--ink-3);padding-top:28px!important}
+.a3-crumbs a:hover{color:var(--ink)}.a3-crumbs span:last-child{color:var(--ink)}
+article>.top{max-width:calc(1440px - 2*var(--pad));margin:20px auto 0;width:calc(100% - 2*var(--pad));border-radius:24px;overflow:hidden;position:relative;padding-block:clamp(40px,6vw,88px)!important}
+article>.top>.wrap{padding-inline:clamp(24px,4vw,56px)}
+article>.top .credit{right:clamp(24px,4vw,56px)}
+.top-row{align-items:center}
+.a3-chip{display:inline-flex;align-items:center;height:28px;padding:0 12px;border-radius:999px;background:var(--volt);color:#000;font-weight:800;font-size:11px;letter-spacing:.14em;text-transform:uppercase}
+.top h1{font-size:clamp(48px,7.5vw,120px)!important;margin-top:clamp(28px,4vw,56px)!important}
+.top .tags .tag{border-radius:999px;padding:7px 12px 6px}
+.read{padding-block:clamp(40px,5vw,72px)!important}
+.a3-two{display:flex;gap:clamp(32px,5vw,80px);align-items:flex-start;flex-wrap:wrap}
+.a3-two .col{flex:999 1 560px;min-width:0;max-width:720px}
+.a3-side{flex:1 1 300px;min-width:0;max-width:380px;position:sticky;top:100px;display:flex;flex-direction:column;gap:16px}
+.a3-card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;display:flex;flex-direction:column;gap:12px}
+.a3-k{font-weight:800;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-3)}
+.a3-card>b{font-weight:800;font-size:20px;line-height:1.15;text-transform:uppercase;letter-spacing:-.02em}
+.a3-card .tag{border-radius:999px;border-color:var(--line);color:var(--ink-2);padding:6px 10px 5px;font-size:10px}
+.a3-card .tag.r{background:#F4F4F1;border-color:#F4F4F1;color:var(--ink)}
+.a3-d{font-size:13px;color:var(--ink-3)}
+.a3-links{display:flex;flex-direction:column;gap:10px;padding-top:12px;border-top:1px solid var(--line)}
+.a3-links a{font-weight:800;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.a3-links a:hover{box-shadow:inset 0 -2px 0 var(--volt)}
+.a3-follow{background:#000;color:#fff;border-radius:16px;padding:20px;display:flex;flex-direction:column;gap:6px}
+.a3-follow b{font-weight:800;font-size:18px;text-transform:uppercase}
+.a3-follow span{font-size:14px;color:#9E9E9E}
+.a3-follow div{display:flex;gap:8px;margin-top:10px}
+.a3-follow a{height:44px;padding:0 18px;display:inline-flex;align-items:center;border-radius:999px;font-weight:800;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.a3-follow a.v{background:var(--volt);color:#000}.a3-follow a.o{border:1px solid #fff;color:#fff}
+.close{border-top:1px solid var(--line)!important}
+.src a{border-bottom-color:var(--volt)!important}
+.same{background:#fff!important;padding-block:0 72px!important}
+.same h2{font-family:inherit!important;font-stretch:100%!important;font-size:26px!important;letter-spacing:-.03em!important;border:0!important;padding:0 0 16px!important}
+.same .wrap{display:block}
+.same .row{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin-bottom:12px;align-items:center;transition:border-color .2s}
+.same a.row:hover{border-color:var(--ink)}
+.same .row b{font-family:inherit!important;font-stretch:100%!important;font-size:16px!important;letter-spacing:-.02em}
+@media (max-width:900px){.a3-side{position:static;max-width:none}article>.top{border-radius:20px;margin-top:12px}}
+</style>
 </head>
 <body>
 <header class="v2"><div class="wrap hd">
@@ -132,14 +172,15 @@ footer.dk .logo:hover{box-shadow:none}
 
 <main>
 <article>
+<div class="wrap a3-crumbs"><a href="../news">News</a><span aria-hidden="true">/</span><span>Lead partnership</span></div>
 <section class="dk top hasph" style="--img:url(&#x27;../assets/img/2026-10-30-oxen-dolphins.jpg&#x27;)"><div class="wrap">
-<div class="top-row"><span class="lbl">Lead partnership</span><span class="lbl mute">Friday 30 October 2026</span></div>
+<div class="top-row"><span class="a3-chip">Lead partnership</span><span class="lbl mute">Friday 30 October 2026</span></div>
 <h1 class="disp">OXEN dresses the Dolphins.</h1>
 <p class="sup">OXEN × Dolphins</p>
 <div class="tags"><span class="tag">NRL</span><span class="tag">Kit supplier</span><span class="tag r">ANZ</span></div>
 </div><span class="credit">Photo: Supplied</span></section>
 
-<section class="read"><div class="wrap"><div class="col">
+<section class="read"><div class="wrap a3-two"><div class="col">
 <p class="stand">A UK sportswear brand has landed one of the NRL&#x27;s newest clubs, and the Dolphins will play in OXEN from 2027.</p>
 <p class="b">The Dolphins have named OXEN as their On-Field Apparel Partner from 2027. The club&#x27;s own announcement also calls the brand its Official Technical and Kit Partner, and the partnership covers supporter merchandise as well as the playing kit. No length or value has been disclosed.</p>
 <p class="b">OXEN is a UK-founded performance sportswear and lifestyle brand, and it already knows the club. It has already backed the Dolphins Academy and been a boot partner for the club, so this is a step up from the Academy and the boots to the main jersey. The new ECHO home jersey was unveiled alongside the announcement.</p>
@@ -149,7 +190,12 @@ footer.dk .logo:hover{box-shadow:none}
 <p class="b">Watch for how OXEN uses the partnership at retail and how the ECHO jersey sells.</p>
 <p class="close">OXEN has moved from the boots to the jersey, and the Dolphins are the test case.</p>
 
-</div></div></section>
+</div>
+<aside class="a3-side">
+<div class="a3-card"><span class="a3-k">Lead partnership</span><b>OXEN × Dolphins</b><div class="tags"><span class="tag">NRL</span><span class="tag">Kit supplier</span><span class="tag r">ANZ</span></div><span class="a3-d">Friday 30 October 2026</span>
+<div class="a3-links"><a href="../partnerships">Every partnership →</a><a href="../news">All news →</a></div></div>
+<div class="a3-follow"><b>Follow along.</b><span>New partnerships every Tuesday and Thursday.</span><div><a class="v" href="https://www.linkedin.com/company/sportsportsport/" target="_blank" rel="noopener">LinkedIn</a><a class="o" href="https://www.instagram.com/sportsportsport.hq/" target="_blank" rel="noopener">Instagram</a></div></div>
+</aside></div></section>
 </article>
 
 <section class="same"><div class="wrap"><span class="lbl mute-l" style="display:block;margin-bottom:16px">Also on 30 Oct</span><h2 class="disp">Also signed.</h2><div class="row"><span><b>Pepperstone × Fernando Alonso</b><span class="x">Motorsport · Alonso becomes Pepperstone&#x27;s global ambassador, expanding its Aston Martin Aramco F1 partnership.</span></span></div><div class="row"><span><b>Mountain Culture × Melbourne Stars</b><span class="x">Cricket · Mountain Culture is official beer partner of Cricket Victoria and the Stars on a two-year partnership with pouring rights at Junction Oval.</span></span></div><div class="row"><span><b>Queensland Country Bank × Brisbane Heat</b><span class="x">Cricket · Queensland Country Bank extends as Heat principal partner through 2027-28, keeping front-of-jersey branding.</span></span></div><div class="row"><span><b>Omega × Sydney Thunder</b><span class="x">Cricket · Omega signs as Thunder&#x27;s Official Appliance Partner for two seasons, with shirt placement in WBBL|12 and BBL|16.</span></span></div><div class="row"><span><b>Ares Management × Capital.com Australian Open</b><span class="x">Golf · Ares Management moves up to Major Partner of the Capital.com Australian Open after its first championship in 2025.</span></span></div><div class="row"><span><b>Gazley × Wellington Phoenix</b><span class="x">Football · Gazley renews with the Phoenix for a sixth year and now also backs the A-League Women team.</span></span></div><div class="row"><span><b>Amazon Web Services × Capital.com Australian Open</b><span class="x">Golf · AWS renews for one year as Official Cloud Computing Services Partner of the Capital.com Australian Open.</span></span></div><div class="row"><span><b>Fortinet × Capital.com Australian Open</b><span class="x">Golf · Fortinet renews for one year as Official Cybersecurity Partner of the Capital.com Australian Open.</span></span></div><div class="row"><span><b>Tourism WA × Richmond / Essendon</b><span class="x">AFL · Tourism WA backs a two-year Dreamtime at Maali fixture between Richmond and Essendon in Perth, starting 4 July 2027.</span></span></div></div></section>
