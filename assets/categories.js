@@ -65,12 +65,12 @@ function detail(c,g,q){
   const st={sport:q.get("sport")||"All",region:q.get("region")||"All"};
   const deals=[...g.deals].sort((a,b)=>S.sortKey(b).localeCompare(S.sortKey(a)));
   const sports=(()=>{const m=new Map();deals.forEach(d=>m.set(d.sport,(m.get(d.sport)||0)+1));return [...m.entries()].sort((a,b)=>b[1]-a[1]).map(x=>x[0])})();
-  $("view").innerHTML=`<section class="wrap hero"><nav class="crumbs" style="padding:0 0 18px" aria-label="Breadcrumb"><a href="insights">Insights</a><span aria-hidden="true">/</span><a href="categories">Categories</a></nav>
-  <span class="lbl mute-l">Category</span><h1 class="disp" style="font-size:clamp(48px,8vw,128px)">${esc(c)}.</h1><div class="stats" id="cStats" style="margin-top:32px"></div></section>
-  <section class="wrap" style="padding-top:28px"><div class="ctl2"><div class="pills" id="spPills" role="group" aria-label="Sport"></div><div class="pills" id="regPills" role="group" aria-label="Region"></div></div></section>
-  <section class="wrap sec" style="padding-top:12px"><div class="sh"><div><span class="lbl mute-l">The spenders</span><h2 class="disp">Brands.</h2></div><span class="lbl mute-l" id="bCount"></span></div><div class="dg" id="bGrid"></div></section>
-  <section class="wrap sec" style="padding-top:0"><div class="sh"><div><span class="lbl mute-l">Who they back</span><h2 class="disp">Properties.</h2></div><span class="lbl mute-l" id="pCount"></span></div><div class="pg" id="pGrid"></div></section>
-  <section class="wrap sec" style="padding-top:0"><div class="sh"><div><span class="lbl mute-l">The record</span><h2 class="disp">Every partnership.</h2></div><span class="lbl mute-l" id="dCount"></span></div><div class="tw"><table class="t"><thead><tr><th>Date</th><th>Partnership</th><th>Sport</th><th>Partnership type</th><th>Ends</th><th>Region</th></tr></thead><tbody id="dRows"></tbody></table></div></section>`;
+  $("view").innerHTML=`<section class="wrap d3-hero"><nav class="crumbs3" aria-label="Breadcrumb"><a href="insights">Insights</a><span aria-hidden="true">/</span><a href="categories">Categories</a><span aria-hidden="true">/</span><span>${esc(c)}</span></nav>
+  <span class="lbl mute-l">Category</span><h1 class="disp">${esc(c)}.</h1><p>Every brand in ${esc(c.toLowerCase())} that's put money into sport, who they back and every partnership on file.</p><div class="pst" id="cStats"></div></section>
+  <div class="n3-bar"><div class="wrap cd3-f"><div class="tt3" id="spPills" role="group" aria-label="Sport"></div><select class="sel cd3-sel" id="regSel" aria-label="Region"></select></div></div>
+  <section class="wrap d3-sec"><div class="d3-h"><h2>Brands <span class="mute-l" id="bCount" style="font-size:14px;margin-left:6px"></span></h2></div><div class="d3-grid" id="bGrid"></div></section>
+  <section class="wrap d3-sec"><div class="d3-h"><h2>Who they back <span class="mute-l" id="pCount" style="font-size:14px;margin-left:6px"></span></h2></div><div class="d3-grid cd3-p" id="pGrid"></div></section>
+  <section class="wrap d3-sec" style="padding-bottom:72px"><div class="d3-h"><h2>Every partnership <span class="mute-l" id="dCount" style="font-size:14px;margin-left:6px"></span></h2></div><div class="tw cd3-tw"><table class="t"><thead><tr><th>Date</th><th>Partnership</th><th>Sport</th><th>Partnership type</th><th>Ends</th><th>Region</th></tr></thead><tbody id="dRows"></tbody></table></div></section>`;
   function draw(){
     const r=deals.filter(d=>(st.sport==="All"||d.sport===st.sport)&&(st.region==="All"||S.mkt(d)===st.region));
     const bm=new Map(),pm=new Map();
@@ -78,17 +78,20 @@ function detail(c,g,q){
       d._ps.forEach(e=>{if(!e)return;const m=pm.get(e.slug)||{e,n:0,sp:new Set()};m.n++;m.sp.add(d.sport);pm.set(e.slug,m)})});
     const bs=[...bm.values()].sort((a,b)=>b.n-a.n||a.e.name.localeCompare(b.e.name));
     const ps=[...pm.values()].sort((a,b)=>b.n-a.n||a.e.name.localeCompare(b.e.name));
-    $("cStats").innerHTML=[[bs.length,"brands"],[r.length,"deals"],[r.filter(d=>S.yearOf(d)===yr).length,`in ${yr}`],[ps.length,"properties backed"]].map(([v,l])=>`<div class="stat"><b>${v.toLocaleString("en-AU")}</b><span>${l}</span></div>`).join("");
+    $("cStats").innerHTML=[[bs.length,"Brands"],[r.length,"Partnerships"],[r.filter(d=>S.yearOf(d)===yr).length,`In ${yr}`],[ps.length,"Properties backed"]].map(([v,l])=>`<div><span>${l}</span><b>${v.toLocaleString("en-AU")}</b></div>`).join("");
     $("bCount").textContent=plural(bs.length,"brand","brands");
-    $("bGrid").innerHTML=bs.map(m=>`<a class="dt" href="${esc(L.page(m.e.slug))}">${L.mark(m.e,{px:72})}<b>${esc(m.e.name)}</b><span class="n">${m.n} partnership${m.n===1?"":"s"}</span><span class="k">${esc([...m.sp].slice(0,2).join(" · "))}</span></a>`).join("")||`<p class="note">No partnerships for that filter.</p>`;
+    const card=m=>`<a class="dc" href="${esc(L.page(m.e.slug))}">${L.mark(m.e,{px:44})}<span class="nm"><b>${esc(m.e.name)}</b><span>${esc([...m.sp].slice(0,2).join(" · "))}</span></span><span class="ft"><span><b>${m.n}</b> partnership${m.n===1?"":"s"}</span></span></a>`;
+    $("bGrid").innerHTML=bs.slice(0,st.bAll?bs.length:24).map(card).join("")+(bs.length>24&&!st.bAll?`<button type="button" class="dc cd3-more" data-ball="1">Show all ${bs.length} brands →</button>`:"")||`<p class="note">No partnerships for that filter.</p>`;
     $("pCount").textContent=plural(ps.length,"property","properties");
-    $("pGrid").innerHTML=ps.slice(0,48).map(m=>`<a class="pt" href="${esc(L.page(m.e.slug))}">${L.mark(m.e,{px:64})}<b>${esc(m.e.name)}</b><span class="k">${m.n>1?m.n+" partnerships · ":""}${esc([...m.sp].join(", "))}</span></a>`).join("");
+    $("pGrid").innerHTML=ps.slice(0,24).map(card).join("");
     $("dCount").textContent=plural(r.length,"partnership","partnerships");
-    $("dRows").innerHTML=r.map(d=>`<tr><td class="d">${esc(S.fmt(d))}</td><td><span class="dl">${L.pair(d,{px:34})}${S.dealLink(d)}</span></td><td>${esc(d.sport)}</td><td>${esc(d.tier||d.type||"")}</td><td class="d">${esc(S.endsTxt(d))}</td><td><span class="tag r">${esc(d.region)}</span></td></tr>`).join("");
-    $("spPills").innerHTML=["All",...sports.slice(0,14)].map(s=>`<button type="button" class="pill${st.sport===s?" on":""}" data-s="${esc(s)}" aria-pressed="${st.sport===s}">${s==="All"?"All sports":esc(s)}</button>`).join("");
-    $("regPills").innerHTML=S.MKTS.map(x=>`<button type="button" class="pill${st.region===x?" on":""}" data-r="${esc(x)}" aria-pressed="${st.region===x}">${esc(S.mktLab(x))}</button>`).join("");
+    $("dRows").innerHTML=r.slice(0,st.dAll?r.length:60).map(d=>`<tr><td class="d">${esc(S.fmt(d))}</td><td><span class="dl">${L.pair(d,{px:34})}${S.dealLink(d)}</span></td><td>${esc(d.sport)}</td><td>${esc(d.tier||d.type||"")}</td><td class="d">${esc(S.endsTxt(d))}</td><td><span class="tag r">${esc(d.region)}</span></td></tr>`).join("")+(r.length>60&&!st.dAll?`<tr><td colspan="6" style="text-align:center"><button type="button" class="ghost" data-dall="1" style="height:44px;padding:0 20px;border:1px solid var(--line);border-radius:999px;background:#fff;font:inherit;font-weight:800;font-size:12px;letter-spacing:.14em;text-transform:uppercase;cursor:pointer">Show all ${r.length}</button></td></tr>`:"");
+    $("spPills").innerHTML=["All",...sports.slice(0,10)].map(s=>`<button type="button" class="${st.sport===s?"on":""}" data-s="${esc(s)}" aria-pressed="${st.sport===s}">${s==="All"?"All sports":esc(s)}</button>`).join("");
+    $("regSel").innerHTML=S.MKTS.map(x=>`<option value="${esc(x)}"${st.region===x?" selected":""}>${esc(S.mktLab(x))}</option>`).join("");
     S.setQs({c,sport:st.sport!=="All"&&st.sport,region:st.region!=="All"&&st.region});
   }
+  $("view").addEventListener("change",e=>{if(e.target.id==="regSel"){st.region=e.target.value;draw()}});
+  $("view").addEventListener("click",e=>{if(e.target.closest("[data-ball]")){st.bAll=1;draw();return}if(e.target.closest("[data-dall]")){st.dAll=1;draw();return}});
   $("view").addEventListener("click",e=>{const b=e.target.closest("[data-s],[data-r]");if(!b)return;if(b.dataset.s)st.sport=b.dataset.s;if(b.dataset.r)st.region=b.dataset.r;draw()});
   draw();
 }

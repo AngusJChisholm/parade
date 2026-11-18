@@ -43,8 +43,9 @@
   const draw=()=>{
     const v=q.value.trim();
     if(v.length<2){res.hidden=true;res.innerHTML="";return}
-    res.innerHTML=hits.length?hits.map((m,i)=>`<a href="${esc(href(m))}"${i===sel?' class="on"':""}><b>${esc(m.name)}</b><span>${m.k==="b"?"Brand":"Property"} · ${esc(m.sub)}</span></a>`).join("")
-      :`<p>Nothing on file for "${esc(v)}" yet. <a href="partnerships?q=${encodeURIComponent(v)}" style="border-bottom:2px solid var(--volt)">Search every partnership →</a></p>`;
+    const grp=(k,t)=>{const h=hits.map((m,i)=>[m,i]).filter(([m])=>m.k===k);return h.length?`<span class="hs-g">${t}</span>`+h.map(([m,i])=>`<a href="${esc(href(m))}"${i===sel?' class="on"':""}><b>${esc(m.name)}</b><span>${m.k==="b"?"Brand":"Property"} · ${esc(m.sub)}</span></a>`).join(""):""};
+    res.innerHTML=(hits.length?grp("b","Brands")+grp("p","Properties"):`<p>Nothing on file for "${esc(v)}" yet.</p>`)
+      +`<a class="hs-all" href="search?q=${encodeURIComponent(v)}"><b>See all results for “${esc(v)}”</b><span>→</span></a>`;
     res.hidden=false;
   };
   const open=o=>{box.hidden=!o;btn.setAttribute("aria-expanded",o);if(o){load();setTimeout(()=>q.focus(),0)}};
@@ -55,6 +56,7 @@
       hits=L.filter(m=>m.hay.includes(v)).sort((a,b)=>(b.name.toLowerCase().startsWith(v)-a.name.toLowerCase().startsWith(v))||a.name.length-b.name.length).slice(0,8);draw()})});
   q.addEventListener("keydown",e=>{
     if(e.key==="Escape"){open(false);btn.focus();return}
+    if(e.key==="Enter"&&(sel<0||!hits.length)){e.preventDefault();const v=q.value.trim();if(v)location.href="search?q="+encodeURIComponent(v);return}
     if(!hits.length)return;
     if(e.key==="ArrowDown"){e.preventDefault();sel=(sel+1)%hits.length;draw()}
     else if(e.key==="ArrowUp"){e.preventDefault();sel=(sel-1+hits.length)%hits.length;draw()}

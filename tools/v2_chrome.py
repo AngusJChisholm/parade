@@ -61,9 +61,9 @@ def apply(text, p, year=None):
     for r in OLD_MENU:
         text = r.sub("", text)
     if "chrome.css" not in text:
-        text = text.replace("</head>", f'<link rel="stylesheet" href="{p}assets/chrome.css?v=3">\n</head>', 1)
+        text = text.replace("</head>", f'<link rel="stylesheet" href="{p}assets/chrome.css?v=4">\n</head>', 1)
     if "chrome.js" not in text:
-        text = text.replace("</body>", f'<script src="{p}assets/chrome.js?v=3"></script>\n</body>', 1)
+        text = text.replace("</body>", f'<script src="{p}assets/chrome.js?v=4"></script>\n</body>', 1)
     return text
 
 
