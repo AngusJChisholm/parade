@@ -32853,6 +32853,20 @@
    "bf": [
     "icon",
     "logo"
+   ],
+   "city": "Melbourne",
+   "reach": "Local",
+   "pos": "premium",
+   "aud": [
+    "affluent"
+   ],
+   "align": [
+    "heritage",
+    "hospitality",
+    "summer"
+   ],
+   "ptiers": [
+    "Title sponsor"
    ]
   },
   "kopron": {
@@ -58653,7 +58667,19 @@
     "logo"
    ],
    "ptype": "Governing body",
-   "k": "p"
+   "k": "p",
+   "reach": "National",
+   "aud": [
+    "families",
+    "youth",
+    "women"
+   ],
+   "align": [
+    "community",
+    "grassroots",
+    "wellness",
+    "summer"
+   ]
   },
   "tennis-canada": {
    "name": "Tennis Canada",
@@ -58695,6 +58721,9 @@
     "symbol",
     "icon",
     "logo"
+   ],
+   "ptiers": [
+    "Government partner"
    ]
   },
   "tentrade": {
@@ -62361,6 +62390,20 @@
     "Official partner",
     "Official supplier",
     "Host partner"
+   ],
+   "reach": "Global",
+   "pos": "premium",
+   "aud": [
+    "families",
+    "international",
+    "affluent"
+   ],
+   "align": [
+    "summer",
+    "international",
+    "tourism",
+    "hospitality",
+    "experiences"
    ]
   },
   "united-media": {
@@ -67997,6 +68040,317 @@
    "name": "Riyadh Season",
    "k": "b",
    "cat": "Tourism & government"
+  },
+  "brisbane-international": {
+   "name": "Brisbane International",
+   "aliases": [
+    "Brisbane International presented by ANZ"
+   ],
+   "ptype": "Event",
+   "k": "p",
+   "domain": "brisbaneinternational.com.au",
+   "city": "Brisbane",
+   "reach": "National",
+   "pos": "premium",
+   "aud": [
+    "families",
+    "affluent",
+    "women",
+    "youth"
+   ],
+   "align": [
+    "summer",
+    "tourism",
+    "wellness",
+    "hospitality",
+    "experiences"
+   ],
+   "ptiers": [
+    "Government partner"
+   ]
+  },
+  "adelaide-international": {
+   "name": "Adelaide International",
+   "ptype": "Event",
+   "k": "p",
+   "domain": "adelaideinternational.com.au",
+   "city": "Adelaide",
+   "reach": "National",
+   "pos": "premium",
+   "aud": [
+    "families",
+    "affluent",
+    "women"
+   ],
+   "align": [
+    "summer",
+    "tourism",
+    "wellness",
+    "hospitality",
+    "experiences"
+   ],
+   "ptiers": [
+    "Government partner"
+   ]
+  },
+  "hobart-international": {
+   "name": "Hobart International",
+   "ptype": "Event",
+   "k": "p",
+   "domain": "hobartinternational.com.au",
+   "city": "Hobart",
+   "reach": "National",
+   "pos": "mid",
+   "aud": [
+    "families",
+    "women"
+   ],
+   "align": [
+    "summer",
+    "tourism",
+    "community",
+    "women"
+   ],
+   "ptiers": [
+    "Government partner"
+   ]
+  },
+  "canberra-international": {
+   "name": "Canberra International",
+   "aliases": [
+    "Workday Canberra International"
+   ],
+   "ptype": "Event",
+   "k": "p",
+   "domain": "canberrainternational.com.au",
+   "city": "Canberra",
+   "reach": "Local",
+   "pos": "mid",
+   "aud": [
+    "families",
+    "youth"
+   ],
+   "align": [
+    "summer",
+    "community"
+   ],
+   "ptiers": [
+    "Naming rights",
+    "Government partner"
+   ]
+  },
+  "tennis-victoria": {
+   "name": "Tennis Victoria",
+   "ptype": "Governing body",
+   "k": "p",
+   "domain": "tennis.com.au",
+   "city": "Melbourne",
+   "reach": "Local",
+   "aud": [
+    "families",
+    "youth"
+   ],
+   "align": [
+    "community",
+    "grassroots",
+    "wellness"
+   ],
+   "ptiers": [
+    "Official partner"
+   ]
+  },
+  "tennis-sa": {
+   "name": "Tennis SA",
+   "aliases": [
+    "Tennis South Australia"
+   ],
+   "ptype": "Governing body",
+   "k": "p",
+   "domain": "tennis.com.au",
+   "city": "Adelaide",
+   "reach": "Local",
+   "aud": [
+    "families",
+    "youth"
+   ],
+   "align": [
+    "community",
+    "grassroots"
+   ],
+   "ptiers": [
+    "Official partner",
+    "Official supplier"
+   ]
+  },
+  "tennis-queensland": {
+   "name": "Tennis Queensland",
+   "ptype": "Governing body",
+   "k": "p",
+   "domain": "tennis.com.au",
+   "city": "Brisbane",
+   "reach": "Local",
+   "aud": [
+    "families",
+    "youth"
+   ],
+   "align": [
+    "community",
+    "grassroots"
+   ],
+   "ptiers": [
+    "Naming rights"
+   ]
+  },
+  "tennis-tasmania": {
+   "name": "Tennis Tasmania",
+   "ptype": "Governing body",
+   "k": "p",
+   "domain": "tennis.com.au",
+   "city": "Hobart",
+   "reach": "Local",
+   "aud": [
+    "families",
+    "youth"
+   ],
+   "align": [
+    "community",
+    "grassroots"
+   ]
+  },
+  "tennis-act": {
+   "name": "Tennis ACT",
+   "ptype": "Governing body",
+   "k": "p",
+   "domain": "tennis.com.au",
+   "city": "Canberra",
+   "reach": "Local",
+   "aud": [
+    "families",
+    "youth"
+   ],
+   "align": [
+    "community",
+    "grassroots"
+   ]
+  },
+  "tennis-nt": {
+   "name": "Tennis NT",
+   "ptype": "Governing body",
+   "k": "p",
+   "domain": "tennis.com.au",
+   "city": "Darwin",
+   "reach": "Local"
+  },
+  "sukin": {
+   "name": "Sukin",
+   "cat": "Health & beauty",
+   "k": "b",
+   "domain": "sukinnaturals.com.au"
+  },
+  "evie": {
+   "name": "Evie",
+   "aliases": [
+    "Evie Networks"
+   ],
+   "cat": "Energy & utilities",
+   "k": "b",
+   "domain": "evie.com.au"
+  },
+  "workday": {
+   "name": "Workday",
+   "cat": "Technology",
+   "k": "b",
+   "domain": "workday.com"
+  },
+  "icon-water": {
+   "name": "Icon Water",
+   "cat": "Energy & utilities",
+   "k": "b",
+   "domain": "iconwater.com.au"
+  },
+  "zeekr": {
+   "name": "Zeekr",
+   "cat": "Automotive",
+   "k": "b",
+   "domain": "zeekr.com"
+  },
+  "care-wellness": {
+   "name": "Care Wellness",
+   "cat": "Health & beauty",
+   "k": "b"
+  },
+  "de-cecco": {
+   "name": "De Cecco",
+   "cat": "Food & nutrition",
+   "k": "b",
+   "domain": "dececco.com"
+  },
+  "tsingtao": {
+   "name": "Tsingtao",
+   "cat": "Alcohol",
+   "k": "b",
+   "domain": "tsingtao.com.cn"
+  },
+  "van-diemens-land-creamery": {
+   "name": "Van Diemens Land Creamery",
+   "cat": "Food & nutrition",
+   "k": "b"
+  },
+  "winning-edge-presentations": {
+   "name": "Winning Edge Presentations",
+   "cat": "Retail",
+   "k": "b"
+  },
+  "aurora-spa-and-bathhouse": {
+   "name": "Aurora Spa & Bathhouse",
+   "cat": "Health & beauty",
+   "k": "b"
+  },
+  "uncloud": {
+   "name": "UNCLOUD",
+   "cat": "Not-for-profit",
+   "k": "b"
+  },
+  "yarrawonga-mulwala-tourism": {
+   "name": "Yarrawonga Mulwala Tourism",
+   "cat": "Tourism & government",
+   "k": "b"
+  },
+  "school-sport-victoria": {
+   "name": "School Sport Victoria",
+   "cat": "Education",
+   "k": "b"
+  },
+  "dg-sports": {
+   "name": "DG Sports",
+   "cat": "Apparel & footwear",
+   "k": "b"
+  },
+  "white-marquee": {
+   "name": "White Marquee",
+   "cat": "Hospitality & entertainment",
+   "k": "b"
+  },
+  "city-mazda": {
+   "name": "City Mazda",
+   "cat": "Automotive",
+   "k": "b"
+  },
+  "design-eyewear": {
+   "name": "Design Eyewear",
+   "cat": "Health & beauty",
+   "k": "b"
+  },
+  "sussx-sports": {
+   "name": "Sussx Sports",
+   "cat": "Apparel & footwear",
+   "k": "b"
+  },
+  "gerald-charles": {
+   "name": "Gerald Charles",
+   "cat": "Watches & luxury",
+   "k": "b",
+   "domain": "geraldcharles.com"
   }
  },
  "leagues": [

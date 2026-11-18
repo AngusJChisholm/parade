@@ -1749,6 +1749,49 @@
     "Bonds Flying Roos",
     "Black Foils"
    ]
+  },
+  {
+   "name": "Tennis Australia events",
+   "sport": "Tennis",
+   "market": "ANZ",
+   "self": [
+    "Tennis Australia"
+   ],
+   "members": [
+    "australian-open",
+    "united-cup",
+    "brisbane-international",
+    "adelaide-international",
+    "hobart-international",
+    "canberra-international"
+   ]
+  },
+  {
+   "name": "Australian tennis",
+   "sport": "Tennis",
+   "market": "ANZ",
+   "self": [
+    "Tennis Australia"
+   ],
+   "members": [
+    "australian-open",
+    "united-cup",
+    "brisbane-international",
+    "adelaide-international",
+    "hobart-international",
+    "canberra-international",
+    "kooyong-classic",
+    "tennis-victoria",
+    "tennis-nsw",
+    "tennis-queensland",
+    "tennis-sa",
+    "tennis-west",
+    "tennis-tasmania",
+    "tennis-act",
+    "tennis-nt",
+    "tennis-victoria-premier-league",
+    "alex-de-minaur"
+   ]
   }
  ]
 }

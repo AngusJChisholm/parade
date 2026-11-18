@@ -1022,7 +1022,7 @@ function forUI(){
     q.value=o?o.e.name:"";mk.innerHTML=o?L.mark(o.e,{px:28}):"";x.hidden=!o;
     h.textContent=o||f.k==="agency"?HINT[f.k]:`Pick your ${f.k} and the right partnerships pop up in every tool.`;
   };
-  const apply=()=>{state.m=null;state.p=null;state.rp=null;state.f=null;state.r=null;state.w=null;state.rMineSet=0;draw();go(state.tab)};
+  const apply=()=>{if(window.SSSPortfolio)window.SSSPortfolio.reset();state.m=null;state.p=null;state.rp=null;state.f=null;state.r=null;state.w=null;state.rMineSet=0;draw();go(state.tab)};
   box.onclick=e=>{const b=e.target.closest("[data-fk]");if(!b)return;const f=FOR.get();if(f.k===b.dataset.fk)return;FOR.set({k:b.dataset.fk});apply()};
   q.onchange=()=>{const f=FOR.get(),v=q.value.trim().toLowerCase();const pool=f.k==="brand"?D.brands:D.props;
     const o=pool.find(r=>r.e.name.toLowerCase()===v)||pool.find(r=>r.e.name.toLowerCase().startsWith(v));
@@ -1070,10 +1070,13 @@ function wagering(){
   };
   draw();
 }
+/* Portfolio (assets/pro-portfolio.js): one rights holder's whole stable of properties, e.g. Tennis Australia's events. */
+function portfolio(){if(window.SSSPortfolio)window.SSSPortfolio.render({D,S,L,mxLoad,renewal,basisTag,confTag,live,csv,FOR,go,state});else home()}
 /* Pitch decks (assets/pro-decks.js) is built but parked: not loaded until it's ready to go live. */
 function decks(){if(window.SSSDecks)window.SSSDecks.render({D,mxLoad});else home()}
-const TABS={home,dash:desk,scouting,finder,renewals,wagering,property,watch:watchlist,reports,decks};
-const HEAD={scouting:["Matches","Who should partner with whom. Ranked by Match Score: fit with brands already backing properties like this one, plus open category gaps."],
+const TABS={home,dash:desk,portfolio,scouting,finder,renewals,wagering,property,watch:watchlist,reports,decks};
+const HEAD={portfolio:["Portfolio","Every property you sell, in one view: who's on what, where the open categories are across the whole portfolio, who to extend and who to call next."],
+  scouting:["Matches","Who should partner with whom. Ranked by Match Score: fit with brands already backing properties like this one, plus open category gaps."],
   finder:["Brand finder","Brands spending in sport. Filter by category and the sports they back, or leave a sport out to find brands active elsewhere who haven't come into yours yet."],
   renewals:["Renewal radar","Confirmed and estimated end dates, each labelled, so you know when a partner might be back in play."],
   wagering:["Wagering exit","Every live ANZ partnership with a betting or wagering brand. No new wagering branding on kit or in venues from 1 January 2027, and pre-July 2026 deals roll off by 31 December 2031."],
