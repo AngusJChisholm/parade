@@ -328,9 +328,149 @@ html.locked main>*:not(#gate):not(#follow):not(script){display:none!important}
 @media (max-width:900px){.g-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:600px){.g-grid{grid-template-columns:minmax(0,1fr)}}
 </style>
+<style>
+/* ---------- Pro v3: Stake-style sign-in and desk ---------- */
+html.locked header.v2,html.locked footer.v2,html.locked #tk{display:none!important}
+html.locked body{padding-bottom:0}
+#gate{min-height:100vh;padding:24px;gap:48px;align-items:stretch;justify-content:stretch;box-sizing:border-box}
+.gt-ph{flex:1 1 560px;min-width:0;min-height:calc(100vh - 48px);position:relative;border-radius:24px;overflow:hidden;background:#1A1A1A}
+.gt-sl>div{position:absolute;inset:0;background:#1A1A1A center/cover no-repeat;opacity:0;transition:opacity 1.2s ease}
+.gt-sl>div.on{opacity:1}
+.gt-sl>div::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.35),rgba(0,0,0,0) 30%,rgba(0,0,0,0) 65%,rgba(0,0,0,.55))}
+.gt-sl span{position:absolute;left:28px;bottom:28px;z-index:1;font-weight:800;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#fff}
+.gt-dots{position:absolute;right:28px;bottom:30px;display:flex;gap:6px;z-index:2}
+.gt-dots i{width:8px;height:8px;border-radius:999px;background:rgba(255,255,255,.35);transition:all .4s}
+.gt-dots i.on{width:24px;background:#fff}
+.gt-logo{position:absolute;top:32px;left:50%;transform:translateX(-50%);z-index:2;background:#000;border-radius:12px;padding:10px 14px;display:flex}
+.gt-logo img{height:40px;width:auto;display:block}
+.gt-r{flex:1 1 420px;min-width:0;display:flex;align-items:center;justify-content:center;padding:48px 24px}
+#gate .gate-box{max-width:440px;display:flex;flex-direction:column;gap:16px}
+.gt-pill{align-self:flex-start;font-weight:800;font-size:11px;letter-spacing:.14em;text-transform:uppercase;padding:6px 10px 5px;line-height:1;background:var(--volt);color:#000;border-radius:999px}
+.gt-h{font-family:var(--cond);font-stretch:68%;font-weight:800;text-transform:uppercase;line-height:.88;letter-spacing:-.01em;font-size:clamp(56px,6vw,88px);margin:8px 0 0}
+#gate .gate-box p{margin:0;color:var(--ink-2);font-size:16px}
+#gate .gate-s{gap:16px}
+#gate .gate-s input{height:56px;padding:0 18px;font-size:17px;border:1px solid var(--line);border-radius:12px;box-shadow:none}
+#gate .gate-s input:focus{border-color:var(--ink)}
+#gate .gate-s .btn{height:56px;border-radius:999px;background:#000;color:#fff;font-weight:800;font-size:14px;letter-spacing:.12em;text-transform:uppercase;display:flex;align-items:center;justify-content:center;border:0}
+#gate .gate-s .btn:hover{background:var(--volt);color:#000}
+#gate p.gt-note{font-size:14px;color:var(--ink-3)}
+.gt-back{margin-top:24px;font-size:14px;font-weight:800;color:var(--ink-3);text-decoration:none}
+.gt-back:hover{color:var(--ink)}
+@media (max-width:900px){#gate{flex-direction:column;padding:12px;gap:0}.gt-ph{flex:none;min-height:42vh;border-radius:20px}.gt-r{padding:32px 12px 48px}}
+
+/* dark Pro header once signed in */
+body.pro header.v2{background:#000;border-bottom:1px solid #292929;color:#fff}
+body.pro header.v2 .brand-logo img{content:url("assets/wordmark-white.png")}
+body.pro header.v2 .nav a{color:#9E9E9E}body.pro header.v2 .nav a:hover{color:#fff}
+body.pro header.v2 .hs-b{background:#1A1A1A;color:#9E9E9E;border-color:#1A1A1A}
+body.pro header.v2 .hs-b kbd{background:#000;border-color:#292929;color:#5C5C57}
+body.pro header.v2 .pro-b{background:var(--volt);color:#000}
+body.pro header.v2 .menu{background:#1A1A1A;color:#fff}
+@media (max-width:1060px){body.pro header.v2 .nav.open{background:#000;border-color:#292929}body.pro header.v2 .nav.open a{color:#fff;border-color:#292929}}
+@media (max-width:560px){body.pro header.v2 .hs-b{background:#1A1A1A}}
+body.pro header.v2 .dd-m{background:#111}body.pro header.v2 .dd-m a{color:#fff}
+
+/* desk layout */
+.desk{max-width:1440px;margin:0 auto;padding:32px var(--pad) 0;display:flex;gap:40px;align-items:flex-start}
+.dk-side{flex:0 0 220px;position:sticky;top:100px;display:flex;flex-direction:column;gap:4px}
+.dk-side #tabs{display:flex;flex-direction:column;gap:4px;border:0;overflow:visible}
+.dk-side .tab{display:block;text-align:left;padding:10px 14px!important;border-radius:10px;border:0;margin:0;font-weight:800;font-size:14px;letter-spacing:-.01em;text-transform:uppercase;color:var(--ink);background:transparent}
+.dk-side .tab:hover{background:var(--grey-100,#F4F4F1)}
+.dk-side .tab.on{background:var(--volt);color:#000}
+.dk-lbl,.dk-lbl0{font-weight:800;text-transform:uppercase;font-size:11px;letter-spacing:.18em;color:var(--ink-3)}
+.dk-lbl{margin:14px 14px 6px}
+.dk-soon{display:flex;justify-content:space-between;align-items:center;padding:10px 14px;font-weight:800;font-size:14px;text-transform:uppercase;color:#9E9E9E}
+.dk-soon i{font-style:normal;font-size:9px;letter-spacing:.12em;padding:4px 6px 3px;border:1px solid var(--line);border-radius:999px}
+.dk-main{flex:1 1 auto;min-width:0;display:flex;flex-direction:column}
+.dk-for{background:#fff;border:1px solid var(--line);border-radius:16px;padding:14px 16px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.dk-for-l{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.dk-for .seg{display:inline-flex;padding:4px;background:#F4F4F1;border-radius:999px}
+.dk-for .seg button{height:34px;padding:0 14px;border:0;border-radius:999px;background:transparent;color:var(--ink-3);font:inherit;font-weight:800;font-size:12px;letter-spacing:.06em;text-transform:uppercase;cursor:pointer}
+.dk-for .seg button.on{background:#111;color:#fff}
+.dk-pick{position:relative;display:flex;align-items:center;gap:10px;height:44px;padding:0 12px 0 8px;border:1px solid var(--ink);border-radius:999px;min-width:260px}
+.dk-pick input{border:0;outline:0;font:inherit;font-weight:800;font-size:14px;text-transform:uppercase;background:transparent;min-width:0;flex:1}
+.dk-pick input::placeholder{color:var(--ink-3);text-transform:none;font-weight:500}
+.dk-pick button{border:0;background:none;font-size:20px;cursor:pointer;color:var(--ink-3)}
+.dk-mk:empty{display:none}.dk-mk img{max-height:28px;max-width:44px}
+.dk-pick.off{opacity:.45;pointer-events:none}
+.dk-hint{font-size:13px;color:var(--ink-3)}
+.dk-hero{padding:28px 0 0!important;border:0}
+.dk-h{font-family:var(--cond);font-stretch:68%;font-weight:800;text-transform:uppercase;line-height:.88;letter-spacing:-.005em;font-size:clamp(48px,5.4vw,80px)!important;margin:10px 0 0}
+.dk-h .v{background:var(--volt);padding:0 .08em}
+#view.pro-sec{padding:24px 0 72px!important}
+#view .kpis,#view .tile,#view .tw,#view .sc-c,#view .bz{border-radius:16px}
+#view .tw{border:1px solid var(--line);overflow:hidden}
+#view .ghost,#view .srch,#view .sel,#view .pill{border-radius:999px}
+#view .basis,#view .cf{border-radius:999px;padding:4px 8px 3px}
+@media (max-width:980px){
+ .desk{flex-direction:column;gap:16px;padding-top:16px}
+ .dk-side{position:static;flex:none;width:100%;flex-direction:row;overflow-x:auto;scrollbar-width:none;gap:6px}
+ .dk-side::-webkit-scrollbar{display:none}
+ .dk-side #tabs{flex-direction:row;gap:6px}
+ .dk-side .tab{white-space:nowrap;background:#F4F4F1;border-radius:999px}
+ .dk-side .dk-lbl,.dk-side .dk-soon{display:none}
+ .dk-pick{min-width:0;flex:1 1 220px}
+}
+
+/* desk overview */
+.dk-stamp{display:inline-flex;align-items:center;gap:10px;font-weight:800;text-transform:uppercase;font-size:11px;letter-spacing:.18em;color:var(--ink-3);margin:0 0 16px}
+.live-d{width:8px;height:8px;border-radius:999px;background:#111;animation:dkp 2s ease-in-out infinite}@keyframes dkp{50%{opacity:.25}}
+#view>section,#view>.dk-two{margin-bottom:28px}
+.dk-card{background:#fff;border:1px solid var(--line);border-radius:16px}
+.dk-big-t{padding:24px;display:flex;justify-content:space-between;align-items:flex-end;gap:20px;flex-wrap:wrap}
+.dk-k{font-size:15px;color:var(--ink-2)}
+.dk-n{margin-top:6px;font-weight:800;font-size:52px;line-height:1;letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+.dk-n2{margin-top:6px;font-weight:800;font-size:40px;letter-spacing:-.03em;line-height:1}
+.dk-up{margin-top:12px;display:flex;gap:18px;flex-wrap:wrap;font-weight:800;font-size:15px}
+.dk-mv{text-align:right}.dk-mv a{margin-top:6px;display:inline-flex;align-items:center;gap:10px;color:inherit;text-decoration:none}
+.dch{display:inline-flex;align-items:center;justify-content:center;min-width:48px;height:26px;padding:0 10px;border-radius:6px;font-weight:800;font-size:12px;font-variant-numeric:tabular-nums;white-space:nowrap}
+.dch.up{background:var(--volt);color:#000}.dch.flat{background:#F4F4F1;color:var(--ink-2)}
+.dk-big-b{border-top:1px solid var(--line);padding:16px 24px;display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;background:#FAFAF8;border-radius:0 0 16px 16px;font-size:14px}
+.dk-big-b i{font-style:normal;color:var(--line);margin:0 6px}
+.dk-btn{height:44px;padding:0 18px;display:inline-flex;align-items:center;border-radius:999px;font:inherit;font-weight:800;font-size:12px;letter-spacing:.14em;text-transform:uppercase;background:#000;color:#fff;border:0;cursor:pointer}
+.dk-btn:hover{background:var(--volt);color:#000}
+.dk-btn.o{background:#fff;color:var(--ink);border:1px solid var(--line)}.dk-btn.o:hover{border-color:var(--ink);background:#fff}
+.dk-two{display:flex;gap:28px;flex-wrap:wrap;align-items:flex-start}
+.dk-filed{flex:999 1 480px;min-width:0;padding:24px}
+.dk-side2{flex:1 1 300px;min-width:0;padding:20px}
+.dk-chart{width:100%;height:220px;display:block;margin-top:16px}
+.dk-rng{display:flex;gap:6px;margin-top:12px}
+.dk-rng button,.dk-main .seg button{height:36px;min-width:44px;padding:0 14px;border:0;border-radius:999px;background:transparent;color:var(--ink-3);font:inherit;font-weight:800;font-size:12px;letter-spacing:.06em;text-transform:uppercase;cursor:pointer}
+.dk-rng button.on{background:#111;color:#fff}
+#view .seg{display:inline-flex;padding:4px;background:#F4F4F1;border-radius:999px}
+#view .seg button.on{background:#fff;color:#111;box-shadow:0 1px 2px rgba(0,0,0,.08)}
+#view .seg.dk-dark{background:#1A1A1A}#view .seg.dk-dark button{color:#9E9E9E}#view .seg.dk-dark button.on{background:#fff;color:#000}
+.dk-hd{margin-top:16px;display:grid;grid-template-columns:minmax(0,1fr) auto auto;gap:12px;padding:0 8px;font-weight:800;text-transform:uppercase;font-size:10px;letter-spacing:.18em;color:var(--ink-3)}
+.dk-hd span+span{min-width:40px;text-align:right}
+.dk-row{display:grid;grid-template-columns:auto minmax(0,1fr) auto auto;gap:12px;align-items:center;padding:12px 8px;border-radius:10px;color:inherit;text-decoration:none}
+.dk-row:hover{background:#F4F4F1}.dk-row b{font-size:14px;text-transform:uppercase;letter-spacing:-.02em;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.dk-row .d{font-weight:800;font-variant-numeric:tabular-nums;min-width:40px;text-align:right}
+.dk-c{margin-top:16px;display:flex;justify-content:center}
+.dk-h2{margin:0 0 20px;font-weight:800;font-size:22px;text-transform:uppercase;letter-spacing:-.03em;display:flex;align-items:center;gap:10px}
+.dk-h2 button{border:0;background:none;font:inherit;color:#9E9E9E;cursor:pointer}.dk-h2 button:hover{color:var(--ink)}
+.dk-sc{display:flex;gap:14px;flex-wrap:wrap}
+.dk-scc{flex:1 1 200px;min-width:0;background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px;display:flex;flex-direction:column;gap:10px;min-height:170px;color:inherit;text-decoration:none;font:inherit;text-align:left;cursor:pointer;transition:border-color .2s,transform .2s}
+.dk-scc:hover{border-color:var(--ink);transform:translateY(-2px)}
+.dk-sct{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.dk-scc>b{font-size:16px;text-transform:uppercase;letter-spacing:-.02em}
+.dk-x{margin-top:auto;font-size:13px;color:var(--ink-3)}.dk-x b{font-size:28px;color:var(--ink);letter-spacing:-.03em;margin-right:4px}
+.dk-more{align-items:center;justify-content:center;font-weight:800;font-size:12px;letter-spacing:.14em;text-transform:uppercase;background:#F4F4F1}
+.dk-rad{overflow:hidden}
+.dk-rh{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:16px 24px;background:#000;color:#fff}.dk-rh>span{font-weight:800;font-size:18px;text-transform:uppercase}
+.dk-rb{padding:4px 24px 0}
+.dk-rr{display:grid;grid-template-columns:auto minmax(0,1fr) auto auto;gap:16px;align-items:center;padding:14px 0;border-bottom:1px solid var(--line)}
+.dk-rr>span:nth-child(2){display:flex;flex-direction:column;gap:2px;min-width:0}.dk-rr b{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.dk-rr .yr{font-weight:800;font-size:18px;font-variant-numeric:tabular-nums}
+.dk-rad .dk-c{padding:4px 0 20px}
+.dk-wx{padding:8px 18px}
+.dk-wr{display:grid;grid-template-columns:120px auto minmax(0,1fr) auto;gap:14px;align-items:center;padding:12px 6px;border-bottom:1px solid var(--line)}.dk-wr:last-child{border-bottom:0}
+.dk-wr b{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#view .pair a,.dk-rr a,.dk-wr a{pointer-events:auto}
+@media (max-width:640px){.dk-n{font-size:40px}.dk-mv{text-align:left}.dk-rr{grid-template-columns:auto minmax(0,1fr) auto}.dk-rr .basis{display:none}.dk-wr{grid-template-columns:auto minmax(0,1fr)}.dk-wr .pair,.dk-wr .mute-l{display:none}.dk-rb{padding:4px 16px 0}.dk-rh{padding:14px 16px}}
+</style>
 <link rel="stylesheet" href="assets/chrome.css?v=3">
 </head>
-<body>
+<body class="pro">
 <header class="v2"><div class="wrap hd">
 <a href="./" class="logo brand-logo" aria-label="Sport Sport Sport home"><img src="assets/wordmark-black.svg" alt="Sport Sport Sport" width="56" height="42"></a>
 <nav class="nav" id="nav" aria-label="Main"><a href="partnerships" data-nav="partnerships">Partnerships</a><a href="brands" data-nav="brands">Brands</a><a href="properties" data-nav="properties">Properties</a><a href="news" data-nav="news">News</a><div class="dd"><a href="insights" data-nav="insights" aria-haspopup="true">Insights</a><div class="dd-m"><a href="categories">Categories</a><a href="leagues">League maps</a><a href="compare">Compare</a></div></div></nav>
@@ -340,27 +480,28 @@ html.locked main>*:not(#gate):not(#follow):not(script){display:none!important}
 <div class="hs" id="hs" hidden><div class="wrap"><div class="hs-f" role="search"><label for="hsQ" style="position:absolute;left:-9999px">Search a club, league, event or brand</label><input id="hsQ" type="search" autocomplete="off" placeholder="Search a club, league, event or brand"><div class="hs-r" id="hsR" hidden></div></div><div class="hs-h"><span>Press / to search from any page.</span><a href="partnerships">Every partnership →</a></div></div></div>
 </header>
 <main id="main">
-<section id="gate"><div class="gate-box">
-<span class="lbl mute-l">Pro</span>
-<h1 class="disp">Members only.</h1>
+<section id="gate">
+<div class="gt-ph" role="img" aria-label="Rotating sport photos"><div class="gt-sl" id="gtSl"></div><div class="gt-dots" id="gtDots"></div>
+<a href="./" class="gt-logo" aria-label="Sport Sport Sport home"><img src="assets/wordmark-white.png" alt="Sport Sport Sport" height="44"></a></div>
+<div class="gt-r"><div class="gate-box">
+<span class="gt-pill">Partnership Pro</span>
+<h1 class="gt-h">Members only.</h1>
 <p id="gateMsg">Sign in to open the partnerships desk.</p>
 <form class="gate-s" id="gateF" autocomplete="on">
-<input type="email" id="gateEm" autocomplete="username" placeholder="Email" aria-label="Email">
+<input type="email" id="gateEm" autocomplete="username" placeholder="Email" aria-label="Email" hidden>
 <input type="password" id="gateP" autocomplete="current-password" autocapitalize="none" autocorrect="off" spellcheck="false" placeholder="Password" aria-label="Password">
 <input type="text" id="gateC" inputmode="numeric" autocomplete="one-time-code" maxlength="10" placeholder="Code from your email" aria-label="Code from your email" hidden>
 <button class="btn" type="submit" id="gateB">Sign in</button>
 </form>
+<p class="gt-note">Enter the Partnership Pro password. You'll need it each time you open Pro.</p>
 <button type="button" class="gate-l" id="gateBack" hidden>Use a different email</button>
 <div class="gate-err" id="gateE" role="alert"></div>
-</div></section>
-<section class="wrap hero">
-<span class="lbl mute-l">Pro</span>
-<h1 class="disp">The partnerships desk.</h1>
-<p>See who should partner with whom, find brands spending in sport, track renewals and the wagering exit, and work out which categories a property is missing and who could fill them. Built from every partnership in the database.</p>
-</section>
-<div class="tabs-bar"><div class="wrap"><div class="tabs" role="tablist" id="tabs">
-<button class="tab" data-tab="home" role="tab">Home</button>
-<button class="tab" data-tab="dash" role="tab">Dashboard</button>
+<a href="./" class="gt-back">← Back to Sport Sport Sport</a>
+</div></div></section>
+<div class="desk">
+<nav class="dk-side" aria-label="Partnership Pro"><div id="tabs" role="tablist">
+<button class="tab" data-tab="dash" role="tab">Desk</button>
+<span class="dk-lbl">Tools</span>
 <button class="tab" data-tab="scouting" role="tab">Scouting</button>
 <button class="tab" data-tab="finder" role="tab">Brand finder</button>
 <button class="tab" data-tab="renewals" role="tab">Renewal radar</button>
@@ -368,14 +509,20 @@ html.locked main>*:not(#gate):not(#follow):not(script){display:none!important}
 <button class="tab" data-tab="property" role="tab">Property report</button>
 <button class="tab" data-tab="watch" role="tab">Watchlist</button>
 <button class="tab" data-tab="reports" role="tab">Reports</button>
-</div></div></div>
-<section class="wrap pro-sec" id="view"><p class="note">Loading the database…</p></section>
-<!-- follow:start -->
-<section class="sf" id="follow"><div class="sf-w">
-<div class="sf-r"><div><h2>The Weekly Edition.</h2><p>Every partnership from the week, in your inbox Monday mornings.</p></div>
-<div class="sf-a"><span class="sf-b sf-soon" aria-disabled="true">Coming soon</span><a class="sf-b sf-o" href="https://www.linkedin.com/company/sportsportsport/" target="_blank" rel="noopener">LinkedIn</a><a class="sf-b sf-o" href="https://www.instagram.com/sportsportsport.hq/" target="_blank" rel="noopener">Instagram</a></div></div>
-</div></section>
-<!-- follow:end -->
+</div><span class="dk-lbl">Coming next</span>
+<span class="dk-soon" aria-disabled="true">Openings feed<i>Soon</i></span><span class="dk-soon" aria-disabled="true">Alerts<i>Soon</i></span><span class="dk-soon" aria-disabled="true">AI prospect briefs<i>Soon</i></span><span class="dk-soon" aria-disabled="true">Market reports<i>Soon</i></span><span class="dk-soon" aria-disabled="true">Pitch decks<i>Soon</i></span>
+</nav>
+<div class="dk-main">
+<section class="dk-for" aria-label="Working for"><div class="dk-for-l"><span class="dk-lbl0">Working for</span>
+<div class="seg" role="group" aria-label="Account type" id="forK"><button type="button" data-fk="property">Property</button><button type="button" data-fk="brand">Brand</button><button type="button" data-fk="agency">Agency</button></div>
+<div class="dk-pick"><span class="dk-mk" id="forMk"></span><input id="forQ" type="search" autocomplete="off" placeholder="Pick your property"><button type="button" id="forX" aria-label="Clear" hidden>×</button></div></div>
+<span class="dk-hint" id="forH">Scouting, renewals and reports are tailored to this property.</span></section>
+<section class="hero dk-hero">
+<span class="lbl mute-l" id="dkHi">Partnership Pro</span>
+<h1 class="dk-h">The partnerships <span class="v">desk.</span></h1>
+</section>
+<section class="pro-sec" id="view"><p class="note">Loading the database…</p></section>
+</div></div>
 </main>
 <footer class="v2"><div class="wrap">
 <div class="ft"><a href="./" class="logo brand-logo" aria-label="Sport Sport Sport home"><img src="assets/wordmark-black.svg" alt="Sport Sport Sport" width="80" height="60"></a>
@@ -422,9 +569,17 @@ html.locked main>*:not(#gate):not(#follow):not(script){display:none!important}
 </div></template>
 <datalist id="propNames"></datalist>
 <datalist id="brandNames"></datalist>
+<script>/* Sign-in photos: the feature photos, crossfading every 6 seconds */
+(function(){const sl=document.getElementById("gtSl"),dots=document.getElementById("gtDots");if(!sl)return;
+const FALL=[["https://images.unsplash.com/photo-1741520504868-2cd8f940f977","AFL"],["https://images.unsplash.com/photo-1786397160806-c71bf6aa4558","Tennis"],["https://images.unsplash.com/photo-1587361144243-03f7925381ca","Multi-sport"]];
+const run=list=>{list=list.slice(0,5);sl.innerHTML=list.map(([u,t])=>`<div style="background-image:url('${u}?auto=format&fit=crop&w=1400&q=70')"><span>${t.replace(/[<>&]/g,"")}</span></div>`).join("");
+ dots.innerHTML=list.map(()=>"<i></i>").join("");let i=0;const on=()=>{[...sl.children].forEach((d,k)=>d.classList.toggle("on",k===i));[...dots.children].forEach((d,k)=>d.classList.toggle("on",k===i))};on();
+ if(!matchMedia("(prefers-reduced-motion: reduce)").matches)setInterval(()=>{if(!document.documentElement.classList.contains("locked"))return;i=(i+1)%list.length;on()},6000)};
+fetch("features.json").then(r=>r.json()).then(j=>{const seen=new Set(),out=[];(j.features||[]).forEach(f=>{if(f.image&&/unsplash/.test(f.image)&&!seen.has(f.sport||"")){seen.add(f.sport||"");out.push([f.image.split("?")[0],f.sport&&f.sport!=="Multi-sport"?f.sport:"Sport"])}});run(out.length>=2?out:FALL)}).catch(()=>run(FALL));
+})();</script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="assets/pro-config.js?v=1"></script>
-<script src="assets/pro-auth.js?v=2"></script>
+<script src="assets/pro-auth.js?v=3"></script>
 <script src="assets/chrome.js?v=3"></script>
 </body>
 </html>

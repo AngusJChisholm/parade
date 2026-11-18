@@ -186,7 +186,8 @@ function propData(p){
 }
 function property(){
   const w=[...watch.get()].map(s=>D.orgs.get(s)).find(r=>r&&r.kind==="property");
-  const p=state.p||w||D.orgs.get("collingwood")||D.props[0];state.p=p;
+  const wf=FOR.org();
+  const p=state.p||(wf&&wf.kind==="property"?wf:null)||w||D.orgs.get("collingwood")||D.props[0];state.p=p;
   const {sp,partners,peers,have,gaps,nPeers,prospects,former,due,new12,bench}=propData(p);
   state.pExport={p,partners,gaps,prospects};
   $("view").innerHTML=`<div class="ctl"><input class="srch" id="pq" list="propNames" placeholder="Type a property, e.g. Carlton, Wallabies, NBL" autocomplete="off"><button class="ghost" id="pcsv">Export partner list</button></div>
@@ -361,7 +362,8 @@ const mxLoad=()=>MX?Promise.resolve(MX):window.SSSPro.json("matches.json").then(
 const pct=v=>`${(v*100).toFixed(1).replace(/\.0$/,"")}%`;
 const bandCls=k=>k==="Call now"?"c":k==="Strong"?"t":"";
 function scouting(){
-  if(state.m)state.m.slug=null; /* the tab always opens on the landing page */
+  if(state.m)state.m.slug=null; /* the tab always opens on the landing page... */
+  const wf=FOR.org();if(wf)state.m={side:wf.kind==="brand"?"b":"p",slug:wf.e.slug}; /* ...unless you're working for someone */
   $("view").innerHTML=`<p class="note">Loading the scouting report…</p>`;
   mxLoad().then(()=>drawMatches()).catch(err=>{console.error(err);$("view").innerHTML=`<p class="note">Couldn't load the scouting report. It's rebuilt each time the database updates; refresh to try again.</p>`});
 }
@@ -866,7 +868,8 @@ function propReport(org,mx){
 }
 
 function reports(){
-  const r=state.rp||(state.rp={kind:"brand",slug:null});
+  const wf0=FOR.org();
+  const r=state.rp||(state.rp=wf0?{kind:wf0.kind,slug:wf0.e.slug}:{kind:"brand",slug:null});
   $("view").innerHTML=`<p class="note">Loading…</p>`;
   Promise.all([mxLoad(),venLoad()]).then(()=>{
     const pool=r.kind==="brand"?D.brands:D.props;
@@ -903,6 +906,98 @@ function reports(){
   }).catch(err=>{console.error(err);$("view").innerHTML=`<p class="note">Couldn't load the report data. Refresh to try again.</p>`});
 }
 
+
+
+/* ---------- Desk: the Stake-style overview (replaces Home and Dashboard) ---------- */
+function desk(){
+  const day=864e5, t0=NOW.getTime();
+  const when=d=>{const k=d.added||d.date;return k?new Date(k+"T00:00:00").getTime():0};
+  const inDays=(d,n)=>{const w=when(d);return w&&t0-w<=n*day&&t0-w>=0};
+  const wk=D.deals.filter(d=>inDays(d,7)), ytd=D.deals.filter(d=>dated(d)&&yearOf(d)===yr);
+  const anz=D.deals.filter(d=>S.mkt(d)==="ANZ").length;
+  const last=D.deals.reduce((m,d)=>Math.max(m,when(d)),0);
+  const ago=last?(()=>{const h=Math.round((t0-last)/36e5);return h<24?(h<=1?"in the last hour":`${h} hours ago`):(Math.round(h/24)===1?"1 day ago":`${Math.round(h/24)} days ago`)})():"";
+  const cnt=(arr,key)=>{const m=new Map();arr.forEach(d=>(d[key]||[]).forEach(e=>{const r=D.orgs.get(e.slug);if(r)m.set(r,(m.get(r)||0)+1)}));return [...m].sort((a,b)=>b[1]-a[1])};
+  const mover=cnt(wk,"_bs")[0];
+  const chip=(n,cls="up")=>`<span class="dch ${cls}">${n>0?"+":""}${n}</span>`;
+  const f=FOR.org(), fk=FOR.get().k;
+  // Partnerships filed chart
+  const R={W:[7,7],M:[30,30],"3M":[91,13],"1Y":[365,12],All:[0,0]};
+  const filed=k=>{const dd=D.deals.filter(d=>when(d));let n,steps,span;
+    if(k==="All"){const y0=Math.min(...dd.map(d=>new Date(when(d)).getFullYear()));steps=yr-y0+1;span=null;
+      const b=Array(steps).fill(0);dd.forEach(d=>b[new Date(when(d)).getFullYear()-y0]++);return {pts:b,n:dd.length,prev:null}}
+    [span,steps]=R[k];const w=span*day/steps,b=Array(steps).fill(0);let prev=0;
+    dd.forEach(d=>{const a=t0-when(d);if(a<0)return;if(a<span*day)b[steps-1-Math.floor(a/w)]++;else if(a<2*span*day)prev++});
+    n=b.reduce((x,y)=>x+y,0);return {pts:b,n,prev}};
+  const spark=pts=>{const mx=Math.max(1,...pts),W=800,H=200;const xy=pts.map((v,i)=>[pts.length>1?i*W/(pts.length-1):W,H-10-(v/mx)*(H-30)]);
+    return `<svg viewBox="0 0 ${W} ${H+20}" preserveAspectRatio="none" class="dk-chart" aria-hidden="true"><line x1="0" y1="${H}" x2="${W}" y2="${H}" stroke="#DEDED8" stroke-dasharray="4 6"/><polyline points="${xy.map(p=>p.join(",")).join(" ")}" fill="none" stroke="#111" stroke-width="3" stroke-linejoin="round" vector-effect="non-scaling-stroke"/></svg>`};
+  // Movers aside
+  const movers=side=>{const key=side==="b"?"_bs":"_ps";const now=cnt(D.deals.filter(d=>inDays(d,90)),key).slice(0,6);
+    return now.length?now.map(([r,n])=>`<a class="dk-row" href="${esc(L.page(r.e.slug))}">${L.mark(r.e,{px:28})}<b>${esc(r.e.name)}</b><span class="d">${r.n}</span>${chip(n)}</a>`).join(""):`<p class="note-s">Nothing new in the last 90 days.</p>`};
+  // Renewal radar
+  const ry=NOW.getMonth()>=8?yr+1:yr;
+  const rad=y=>{let rows=D.deals.filter(d=>!d.ended&&d.status!=="Ended").map(d=>({d,r:renewal(d)})).filter(x=>x.r&&x.r.end===y);
+    if(f)rows=rows.filter(x=>(x.d[f.kind==="brand"?"_bs":"_ps"]||[]).some(e=>e.slug===f.e.slug)).concat(rows.filter(x=>!(x.d[f.kind==="brand"?"_bs":"_ps"]||[]).some(e=>e.slug===f.e.slug)));
+    rows.sort((a,b)=>(a.r.basis==="Estimate")-(b.r.basis==="Estimate"));
+    return rows.slice(0,6).map(({d,r})=>`<div class="dk-rr">${L.pair(d,{px:30})}<span><b>${esc(d.deal)}</b><span class="mute-l">${esc(d.sport||"")} · ${esc(d.tier||"")}</span></span><span class="yr">${r.end}</span>${basisTag(r)}</div>`).join("")||`<p class="note-s">No renewals on file for ${y}.</p>`};
+  // Wagering exit
+  const bets=D.deals.filter(d=>S.mkt(d)==="ANZ"&&!d.ended&&d.status!=="Ended"&&live(d)&&(d._cats||[]).includes("Betting & wagering")).map(d=>{const r=renewal(d);return {d,off:Math.min(r?r.end:2031,2031)}}).sort((a,b)=>a.off-b.off).slice(0,5);
+
+  $("view").innerHTML=`
+  <div class="dk-stamp"><span class="live-d"></span>Last filed ${esc(ago)}</div>
+  <section class="dk-card dk-big"><div class="dk-big-t"><div><div class="dk-k">Partnerships in the database</div><div class="dk-n">${D.deals.length.toLocaleString("en-AU")}</div>
+  <div class="dk-up"><span>↗ +${wk.length} this week</span><span class="mute-l">↗ +${ytd.length.toLocaleString("en-AU")} this year</span></div></div>
+  ${mover?`<div class="dk-mv"><div class="dk-k">Biggest mover this week</div><a href="${esc(L.page(mover[0].e.slug))}">${L.mark(mover[0].e,{px:28})}<b>${esc(mover[0].e.name)}</b>${chip(mover[1])}</a></div>`:""}</div>
+  <div class="dk-big-b"><span>ANZ <b>${anz.toLocaleString("en-AU")}</b> <i>|</i> Global <b>${(D.deals.length-anz).toLocaleString("en-AU")}</b></span><button type="button" class="dk-btn" data-go="reports">New report</button></div></section>
+  <div class="dk-two"><section class="dk-card dk-filed"><div class="dk-ft"><div><div class="dk-k">Partnerships filed</div><div class="dk-n2" id="dkFn"></div><div class="dk-up" id="dkFv"></div></div></div>
+  <div id="dkFc"></div><div class="dk-rng" id="dkR">${Object.keys(R).map(k=>`<button type="button" data-r="${k}"${k==="3M"?' class="on"':""}>${k}</button>`).join("")}</div></section>
+  <aside class="dk-card dk-side2"><div class="seg" id="dkMs"><button type="button" data-ms="b" class="on">Brands</button><button type="button" data-ms="p">Properties</button></div>
+  <div class="dk-hd"><span>Last 90 days</span><span>Total</span><span>New</span></div><div id="dkM">${movers("b")}</div>
+  <div class="dk-c"><button type="button" class="dk-btn o" data-go="watch">Open watchlist</button></div></aside></div>
+  <section><h2 class="dk-h2">${f?`Scouting for ${esc(f.e.name)}`:"Scouting"} <button type="button" data-go="scouting" aria-label="Open Scouting">›</button></h2><div class="dk-sc" id="dkSc">${f?`<p class="note-s">Loading matches…</p>`:`<p class="note-s">${fk==="agency"?"Open Scouting and pick any brand or property.":`Pick your ${fk} under Working for and its best matches show up here.`}</p>`}</div></section>
+  <section class="dk-card dk-rad"><div class="dk-rh"><span>Renewal radar</span><div class="seg dk-dark" id="dkRy"><button type="button" data-ry="${ry}" class="on">${ry}</button><button type="button" data-ry="${ry+1}">${ry+1}</button></div></div><div class="dk-rb" id="dkRr">${rad(ry)}</div><div class="dk-c"><button type="button" class="dk-btn o" data-go="renewals">Open Renewal radar</button></div></section>
+  <section><h2 class="dk-h2">Wagering exit <button type="button" data-go="wagering" aria-label="Open Wagering exit">›</button></h2><div class="dk-card dk-wx">${bets.map(({d,off})=>`<div class="dk-wr"><span class="dch flat">Rolls off ${off}</span>${L.pair(d,{px:28})}<b>${esc(d.deal)}</b><span class="mute-l">${esc(d.sport||"")}</span></div>`).join("")||`<p class="note-s">No live wagering partnerships on file.</p>`}</div></section>`;
+  const setR=k=>{const x=filed(k);$("dkFn").textContent=x.n.toLocaleString("en-AU");$("dkFv").innerHTML=x.prev==null?`<span class="mute-l">Every dated partnership, by year</span>`:`<span>${x.n>=x.prev?"↗":"↘"} ${x.n-x.prev>=0?"+":""}${x.n-x.prev} vs last period</span>`;$("dkFc").innerHTML=spark(x.pts);
+    $("dkR").querySelectorAll("button").forEach(b=>b.classList.toggle("on",b.dataset.r===k))};
+  setR("3M");
+  $("view").onclick=e=>{const g=e.target.closest("[data-go]");if(g){go(g.dataset.go);window.scrollTo({top:0,behavior:"smooth"});return}
+    const r=e.target.closest("[data-r]");if(r)return setR(r.dataset.r);
+    const m=e.target.closest("[data-ms]");if(m){$("dkMs").querySelectorAll("button").forEach(b=>b.classList.toggle("on",b===m));$("dkM").innerHTML=movers(m.dataset.ms);return}
+    const y=e.target.closest("[data-ry]");if(y){$("dkRy").querySelectorAll("button").forEach(b=>b.classList.toggle("on",b===y));$("dkRr").innerHTML=rad(+y.dataset.ry);return}
+    const pk=e.target.closest("[data-scpick]");if(pk){state.m={side:f.kind==="brand"?"b":"p",slug:f.e.slug};go("scouting")}};
+  if(f)mxLoad().then(()=>{const rec=(f.kind==="brand"?MX.brands:MX.props)[f.e.slug],el=$("dkSc");if(!el)return;
+    if(!rec||!(rec.m||[]).length){el.innerHTML=`<p class="note-s">No matches for ${esc(f.e.name)} yet. It needs more partnerships in the database.</p>`;return}
+    el.innerHTML=rec.m.slice(0,4).map(r=>{const slug=f.kind==="brand"?r.p:r.b,o=D.orgs.get(slug);return `<a class="dk-scc" href="${esc(L.page(slug))}"><span class="dk-sct">${o?L.mark(o.e,{px:32}):""}<span class="basis ${bandCls(r.k)}">${esc(r.k)}</span></span><b>${esc(r.n)}</b><span class="mute-l">${esc(f.kind==="brand"?`${r.s||""} · ${r.r||""}`:`${r.c||""}${r.u?` · ${r.u}`:""}`)}</span><span class="dk-x"><b>${r.x}</b> Scout Score</span></a>`}).join("")+`<button type="button" class="dk-scc dk-more" data-scpick="1">See all ${rec.m.length} →</button>`;
+  }).catch(()=>{const el=$("dkSc");if(el)el.innerHTML=`<p class="note-s">Couldn't load the scouting data.</p>`});
+}
+
+/* ---------- Working for: the property or brand the member works for. Scouting, Property report and Reports open on it. ---------- */
+const FOR={
+  get(){try{return JSON.parse(localStorage.getItem("sssPro.for"))||{k:"property"}}catch(e){return {k:"property"}}},
+  set(o){try{localStorage.setItem("sssPro.for",JSON.stringify(o))}catch(e){}},
+  org(){const f=this.get();if(f.k==="agency"||!f.slug||!D)return null;const o=D.orgs.get(f.slug);return o&&o.kind===f.k?o:null}
+};
+function forUI(){
+  const box=$("forK");if(!box)return;
+  const q=$("forQ"),mk=$("forMk"),x=$("forX"),h=$("forH"),pick=q.parentNode;
+  const HINT={property:"Scouting, renewals and reports are tailored to this property.",brand:"Scouting and reports are tailored to this brand.",agency:"Agency view: pick any brand or property inside each tool."};
+  const draw=()=>{
+    const f=FOR.get(),o=FOR.org();
+    box.querySelectorAll("button").forEach(b=>b.classList.toggle("on",b.dataset.fk===f.k));
+    pick.classList.toggle("off",f.k==="agency");
+    q.placeholder=f.k==="brand"?"Pick your brand":f.k==="agency"?"All clients":"Pick your property";
+    q.setAttribute("list",f.k==="brand"?"brandNames":"propNames");
+    q.value=o?o.e.name:"";mk.innerHTML=o?L.mark(o.e,{px:28}):"";x.hidden=!o;
+    h.textContent=o||f.k==="agency"?HINT[f.k]:`Pick your ${f.k} and the right partnerships pop up in every tool.`;
+  };
+  const apply=()=>{state.m=null;state.p=null;state.rp=null;draw();go(state.tab)};
+  box.onclick=e=>{const b=e.target.closest("[data-fk]");if(!b)return;const f=FOR.get();if(f.k===b.dataset.fk)return;FOR.set({k:b.dataset.fk});apply()};
+  q.onchange=()=>{const f=FOR.get(),v=q.value.trim().toLowerCase();const pool=f.k==="brand"?D.brands:D.props;
+    const o=pool.find(r=>r.e.name.toLowerCase()===v)||pool.find(r=>r.e.name.toLowerCase().startsWith(v));
+    if(o){FOR.set({k:f.k,slug:o.e.slug});apply()}else draw()};
+  x.onclick=()=>{FOR.set({k:FOR.get().k});apply()};
+  draw();
+}
 /* ---------- tabs ---------- */
 /* Home: what Pro does, from the template in pro.html. Each tool card opens its tab. */
 function home(){
@@ -941,13 +1036,13 @@ function wagering(){
 }
 /* Pitch decks (assets/pro-decks.js) is built but parked: not loaded until it's ready to go live. */
 function decks(){if(window.SSSDecks)window.SSSDecks.render({D,mxLoad});else home()}
-const TABS={home,dash:dashboard,scouting,finder,renewals,wagering,property,watch:watchlist,reports,decks};
+const TABS={home,dash:desk,scouting,finder,renewals,wagering,property,watch:watchlist,reports,decks};
 function go(tab){
   // Reports deep-link as #reports/brand/<slug> or #reports/property/<slug>
   const [t,kind,slug]=String(tab).split("/");tab=t;
   if(t==="reports"&&kind){state.rp={kind:kind==="property"?"property":"brand",slug:slug?decodeURIComponent(slug):null}}
   if(tab==="matches")tab="scouting"; /* old links */
-  state.tab=TABS[tab]?tab:"home";
+  state.tab=TABS[tab]&&tab!=="home"?tab:"dash";
   document.querySelectorAll(".tab").forEach(b=>{b.classList.toggle("on",b.dataset.tab===state.tab);b.setAttribute("aria-selected",b.dataset.tab===state.tab)});
   // Keep the address clean: no #dash / #scouting in the URL. Report deep links still set their own.
   if(state.tab!=="reports"&&location.hash)history.replaceState(null,"",location.pathname+location.search);
@@ -966,6 +1061,8 @@ S.load().then(data=>{
   const allT=D.deals.filter(d=>d.term).map(d=>d.term);TYP_ALL=allT.length?med(allT):3;
   by.forEach((v,k)=>{if(v.length>=8)TYP[k]=med(v)});
   $("propNames").innerHTML=D.props.slice().sort((a,b)=>b.n-a.n).slice(0,2000).map(r=>`<option value="${esc(r.e.name)}">`).join("");
-  go(location.hash.slice(1)||"home"); /* old #tab links still open the right tab, then the hash is cleared */
+  const bn=$("brandNames");if(bn)bn.innerHTML=D.brands.slice().sort((a,b)=>b.n-a.n).slice(0,2000).map(r=>`<option value="${esc(r.e.name)}">`).join("");
+  forUI();
+  go(location.hash.slice(1)||"dash"); /* old #tab links still open the right tab, then the hash is cleared */
 }).catch(err=>{console.error(err);$("view").innerHTML=`<p class="note">Couldn't load the database. Refresh to try again.</p>`});
 })();

@@ -13,7 +13,7 @@
   const $=id=>document.getElementById(id);
   const C=window.SSS_SUPABASE||{};
   const LIVE=!!(C.url&&C.anonKey&&window.supabase);
-  const APP=["assets/logos.js?v=11","assets/pills.js?v=3","assets/data.js?v=8","assets/pro.js?v=23"];
+  const APP=["assets/logos.js?v=11","assets/pills.js?v=3","assets/data.js?v=8","assets/pro.js?v=24"];
   const err=t=>{$("gateE").textContent=t||""};
   const msg=t=>{$("gateMsg").textContent=t};
 
@@ -26,6 +26,7 @@
   function start(who,signOut){
     if(started)return;started=true;
     document.documentElement.classList.remove("locked");window.scrollTo(0,0);
+    {const h=new Date().getHours(),hi=$("dkHi");if(hi)hi.textContent="Partnership Pro · "+(h<12?"Morning":h<17?"Afternoon":"Evening");}
     if(who){
       const hero=document.querySelector(".hero");
       if(hero){const d=document.createElement("p");d.className="pro-who";
@@ -39,7 +40,7 @@
   if(!LIVE){
     const K="4d533574c6b65069bd3124a0cfce762b3431575350c337a1f2749fa25d4e4f34";
     const hex=b=>Array.from(new Uint8Array(b)).map(x=>x.toString(16).padStart(2,"0")).join("");
-    $("gateEm").hidden=true;$("gateC").hidden=true;msg("Enter the password to open the partnerships desk.");$("gateB").textContent="Enter";
+    $("gateEm").hidden=true;$("gateC").hidden=true;msg("Sign in to open the partnerships desk.");$("gateB").textContent="Sign in";
     window.SSSPro={json:name=>fetch("pro/"+name,{cache:"no-cache"}).then(r=>{if(!r.ok)throw new Error(name);return r.json()})};
     $("gateF").onsubmit=e=>{e.preventDefault();
       const v=$("gateP").value.trim().toLowerCase();
