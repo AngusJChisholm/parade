@@ -18,7 +18,14 @@
    "conf": "Reported",
    "verified": "2026-11-18",
    "fromDaily": true,
-   "term": 2
+   "term": 2,
+   "ends": 2028,
+   "endsEst": true,
+   "ptier": "Major partner",
+   "ttier": "T1",
+   "tbasis": "rights",
+   "tends": 2028,
+   "tendsBasis": "term"
   },
   {
    "date": "2026-11-18",
@@ -33,7 +40,13 @@
    "url": "https://ministryofsport.com/aussie-broadband-renews-western-sydney-wanderers-fc-partnership-for-2026-27-a-league-season/",
    "conf": "Reported",
    "verified": "2026-11-18",
-   "fromDaily": true
+   "fromDaily": true,
+   "ends": 2027,
+   "ptier": "Senior partner",
+   "ttier": "T3",
+   "tbasis": "category",
+   "tends": 2027,
+   "tendsBasis": "stated"
   },
   {
    "date": "2026-11-18",
@@ -49,7 +62,14 @@
    "conf": "Reported",
    "verified": "2026-11-18",
    "fromDaily": true,
-   "term": 2
+   "term": 2,
+   "ends": 2028,
+   "endsEst": true,
+   "ptier": "Official partner",
+   "ttier": "T3",
+   "tbasis": "category",
+   "tends": 2028,
+   "tendsBasis": "term"
   },
   {
    "date": "2026-11-17",
@@ -79,7 +99,9 @@
    "url": "https://www.wst.tv/news/2026/november/13/leasing-options-becomes-new-title-partner-of-the-uk-championship/",
    "conf": "Confirmed",
    "verified": "2026-11-18",
-   "fromDaily": true
+   "fromDaily": true,
+   "ttier": "T1",
+   "tbasis": "rights"
   },
   {
    "date": "2026-11-12",
@@ -94,7 +116,9 @@
    "url": "https://www.nttdata.com/global/en/news/press-release/2026/november/111200",
    "conf": "Confirmed",
    "verified": "2026-11-18",
-   "fromDaily": true
+   "fromDaily": true,
+   "ttier": "T3",
+   "tbasis": "category"
   },
   {
    "date": "2026-11-17",
@@ -107,7 +131,7 @@
    "market": "Europe",
    "summary": "Aperol becomes the Official Spritz Partner of UEFA EURO 2028 and the European Qualifiers, Campari Group's first partnership with UEFA.",
    "url": "https://www.camparigroup.com/en/news/2026-11-17/aperol-ready-bring-football-fans-together-it-becomes-official-spritz-partner-uefa",
-   "conf": "Reported",
+   "conf": "Confirmed",
    "verified": "2026-11-18",
    "fromDaily": true,
    "ttier": "T3",
