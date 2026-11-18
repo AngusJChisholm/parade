@@ -56,9 +56,9 @@ S.load().then(D=>{
     $("lgSel").innerHTML=S.lgOptions(leagues,st.league,lgCounts,false);$("lgSel").value=st.league;
     $("regPills").innerHTML=[["all","All filed"],["recent",`Current and since ${yr-1}`]].map(([k,l])=>`<button type="button" class="${st.span===k?"on":""}" data-sp="${k}" aria-pressed="${st.span===k}">${l}</button>`).join("");
     // Header: quick league pills, market label, stamps and stat cards
-    const QUICK=["AFL","NRL","A-League Men","NBL","Big Bash League","Super Netball","Premier League","NBA","NFL"];
+    const QUICK=["Premier League","NFL","NBA","LaLiga","IPL","Formula 1","MLB","Serie A","Bundesliga","NHL","MLS","AFL"];
     const quick=QUICK.filter(n=>leagues.some(l=>l.name===n));
-    $("lgQuick").innerHTML=quick.map(n=>`<button type="button" data-lg="${esc(n)}" class="${n===st.league?"on":""}">${esc(n==="Big Bash League"?"BBL":n==="A-League Men"?"A-Leagues":n)}</button>`).join("");
+    $("lgQuick").innerHTML=quick.map(n=>`<button type="button" data-lg="${esc(n)}" class="${n===st.league?"on":""}">${esc(n)}</button>`).join("");
     $("crLg").textContent=lg.name;document.title=`${lg.name} league map | Sport Sport Sport`;
     const mk=new Map();clubs.forEach(c=>(c.markets||new Set()).forEach(m=>mk.set(m,(mk.get(m)||0)+1)));const mkt=[...mk].sort((a,b)=>b[1]-a[1])[0];
     $("lgLbl").textContent=`League map · ${mkt?(mkt[0]==="ANZ"?"Australia & NZ":mkt[0]):lg.sport||""}`;
