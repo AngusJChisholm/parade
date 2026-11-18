@@ -103,3 +103,5 @@
 .sk3{display:block;height:44px;border-radius:10px;background:linear-gradient(90deg,var(--canvas),#fafaf8,var(--canvas));background-size:200% 100%;animation:sk3 1.2s linear infinite}
 @keyframes sk3{from{background-position:200% 0}to{background-position:0 0}}
 @media (prefers-reduced-motion:reduce){.stamp i,.sk3{animation:none}}
+
+.side3 a.s .sb{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;margin-top:6px;font-size:14px;line-height:1.45;color:var(--ink-2)}
