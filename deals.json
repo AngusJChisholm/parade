@@ -2588,10 +2588,6 @@
    "conf": "Reported",
    "verified": "2026-11-18",
    "ptier": "Official Partner",
-   "ttier": "Media",
-   "tbasis": "rights",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -2831,8 +2827,6 @@
    "term": 2,
    "conf": "Confirmed",
    "verified": "2026-11-18",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -2992,10 +2986,6 @@
    "ends": 2026,
    "conf": "Reported",
    "verified": "2026-11-18",
-   "ttier": "T3",
-   "tbasis": "category",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -3014,8 +3004,6 @@
    "ends": 2026,
    "conf": "Reported",
    "verified": "2026-11-18",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -3034,8 +3022,6 @@
    "ends": 2026,
    "conf": "Reported",
    "verified": "2026-11-18",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -3129,8 +3115,6 @@
    "ends": 2026,
    "conf": "Confirmed",
    "verified": "2026-11-18",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -167611,8 +167595,6 @@
    "ends": 2026,
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -178748,8 +178730,6 @@
    "market": "ANZ",
    "conf": "Reported",
    "verified": "2026-06-04",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -178804,8 +178784,6 @@
    "market": "ANZ",
    "conf": "Reported",
    "verified": "2026-05-28",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -179955,11 +179933,11 @@
     "back of AFL guernsey"
    ],
    "rightsSrc": "https://www.collingwoodfc.com.au/news/1947909/five-more-for-kfc",
+   "endsLock": true,
    "ttier": "T2",
    "tbasis": "sourced",
-   "tends": 2031,
-   "tendsBasis": "term",
-   "endsLock": true
+   "tends": 2030,
+   "tendsBasis": "term"
   },
   {
    "date": "2026-02-02",
@@ -180083,10 +180061,6 @@
    "checked": "2026-11-16",
    "conf": "Reported",
    "verified": "2026-11-16",
-   "ttier": "T2",
-   "tbasis": "rights",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -181092,8 +181066,6 @@
    "endsLock": true,
    "conf": "Confirmed",
    "verified": "2026-09-08",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -181306,10 +181278,6 @@
    "endsLock": true,
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "ttier": "Media",
-   "tbasis": "rights",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -181366,10 +181334,6 @@
    "endsLock": true,
    "conf": "Confirmed",
    "verified": "2026-07-21",
-   "ttier": "T2",
-   "tbasis": "role",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -181423,8 +181387,6 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-07-19",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -181974,10 +181936,6 @@
    "verified": "2026-11-17",
    "ptier": "Principal partner",
    "checked": "2026-11-17",
-   "ttier": "T2",
-   "tbasis": "role",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -182549,10 +182507,6 @@
    "endsLock": true,
    "conf": "Confirmed",
    "verified": "2026-06-23",
-   "ttier": "Media",
-   "tbasis": "rights",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -182569,8 +182523,6 @@
    "url": "https://waterpoloaustralia.com.au/news/ord-minnett-expands-support-of-water-polo-australia-as-host-of-world-cup-finals-in-sydney/",
    "conf": "Confirmed",
    "verified": "2026-06-23",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -182848,10 +182800,6 @@
    "endsLock": true,
    "conf": "Confirmed",
    "verified": "2026-06-30",
-   "ttier": "T4",
-   "tbasis": "role",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -183426,10 +183374,6 @@
    "endsLock": true,
    "conf": "Confirmed",
    "verified": "2026-07-07",
-   "ttier": "T4",
-   "tbasis": "role",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -184383,8 +184327,6 @@
    "endsLock": true,
    "conf": "Confirmed",
    "verified": "2026-09-29",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -184401,10 +184343,6 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2025-08-21",
-   "ttier": "T2",
-   "tbasis": "rights",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -184540,8 +184478,6 @@
    "endsLock": true,
    "conf": "Reported",
    "verified": "2026-01-27",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -185475,8 +185411,6 @@
    "verified": "2026-11-17",
    "ptier": "Profile partner",
    "checked": "2026-11-17",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -185590,8 +185524,6 @@
    "market": "Asia",
    "conf": "Reported",
    "verified": "2026-07-11",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -185687,8 +185619,6 @@
    "market": "Asia",
    "conf": "Reported",
    "verified": "2026-07-06",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -186415,8 +186345,6 @@
    "market": "Global",
    "conf": "Reported",
    "verified": "2026-06-22",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -186791,8 +186719,6 @@
    "market": "North America",
    "conf": "Reported",
    "verified": "2026-05-19",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -187114,8 +187040,6 @@
    "market": "Asia",
    "conf": "Reported",
    "verified": "2026-04-07",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -187132,8 +187056,6 @@
    "market": "Asia",
    "conf": "Reported",
    "verified": "2026-04-02",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -187724,10 +187646,6 @@
    "market": "Asia",
    "conf": "Reported",
    "verified": "2026-02-19",
-   "ttier": "T1",
-   "tbasis": "rights",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -187744,8 +187662,6 @@
    "market": "Middle East",
    "conf": "Reported",
    "verified": "2026-02-17",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -187901,8 +187817,6 @@
    "market": "Asia",
    "conf": "Reported",
    "verified": "2026-03-10",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -187921,8 +187835,6 @@
    "verified": "2026-11-17",
    "ptier": "Lead partner",
    "checked": "2026-11-17",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -187941,10 +187853,6 @@
    "checked": "2026-11-16",
    "conf": "Reported",
    "verified": "2026-11-16",
-   "ttier": "T2",
-   "tbasis": "rights",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -187977,10 +187885,6 @@
    "market": "Asia",
    "conf": "Reported",
    "verified": "2026-03-09",
-   "ttier": "T1",
-   "tbasis": "rights",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -188107,8 +188011,6 @@
    "market": "Asia",
    "conf": "Reported",
    "verified": "2026-03-20",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -188229,8 +188131,6 @@
    "market": "Asia",
    "conf": "Reported",
    "verified": "2026-03-13",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -188388,10 +188288,6 @@
    "market": "Asia",
    "conf": "Reported",
    "verified": "2026-02-02",
-   "ttier": "Media",
-   "tbasis": "rights",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -189115,8 +189011,6 @@
    "endsLock": true,
    "conf": "Confirmed",
    "verified": "2025-12-03",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -189134,10 +189028,6 @@
    "endsLock": true,
    "conf": "Reported",
    "verified": "2025-12-03",
-   "ttier": "T3",
-   "tbasis": "category",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -189207,8 +189097,6 @@
    "endsLock": true,
    "conf": "Confirmed",
    "verified": "2025-12-03",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -189226,8 +189114,6 @@
    "endsLock": true,
    "conf": "Confirmed",
    "verified": "2025-12-03",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -189368,8 +189254,6 @@
    "endsLock": true,
    "conf": "Reported",
    "verified": "2025-06-25",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -190290,8 +190174,6 @@
    "endsLock": true,
    "conf": "Confirmed",
    "verified": "2025-08-13",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -190473,9 +190355,9 @@
    "endsEst": true,
    "conf": "Confirmed",
    "verified": "2026-02-18",
-   "tends": 2031,
-   "tendsBasis": "term",
-   "endsLock": true
+   "endsLock": true,
+   "tends": 2030,
+   "tendsBasis": "term"
   },
   {
    "date": "2026-02-18",
@@ -190872,8 +190754,6 @@
    "term": 1,
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -190890,10 +190770,6 @@
    "url": "https://macarthurfc.com.au/news/supplement-mart-joins-the-bulls-family/",
    "conf": "Confirmed",
    "verified": "2025-10-29",
-   "ttier": "T2",
-   "tbasis": "rights",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -192195,8 +192071,6 @@
    "endsLock": true,
    "conf": "Confirmed",
    "verified": "2025-07-16",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -194018,8 +193892,6 @@
    "url": "https://www.melbourneutd.com.au/news/rokeby-extends-partnership-with-united",
    "conf": "Confirmed",
    "verified": "2025-09-23",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -196733,8 +196605,6 @@
    "market": "Global",
    "conf": "Reported",
    "verified": "2025-09-06",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -196799,8 +196669,6 @@
    "verified": "2026-11-17",
    "ptier": "Team Partners",
    "checked": "2026-11-17",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -197027,8 +196895,6 @@
    "market": "Rest of World",
    "conf": "Reported",
    "verified": "2025-11-13",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -197795,10 +197661,6 @@
    "market": "UK & Ireland",
    "conf": "Reported",
    "verified": "2025-09-30",
-   "ttier": "T1",
-   "tbasis": "role",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -197972,8 +197834,6 @@
    "checked": "2026-11-16",
    "conf": "Reported",
    "verified": "2026-11-16",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -198194,8 +198054,6 @@
    "checked": "2026-11-16",
    "conf": "Reported",
    "verified": "2026-11-16",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -198417,8 +198275,6 @@
    "endsLock": true,
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -198912,10 +198768,6 @@
    "market": "UK & Ireland",
    "conf": "Reported",
    "verified": "2025-08-20",
-   "ttier": "T2",
-   "tbasis": "rights",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -199328,10 +199180,6 @@
    "market": "UK & Ireland",
    "conf": "Reported",
    "verified": "2025-07-18",
-   "ttier": "T1",
-   "tbasis": "rights",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -199688,10 +199536,6 @@
    "market": "UK & Ireland",
    "conf": "Reported",
    "verified": "2025-06-30",
-   "ttier": "T1",
-   "tbasis": "role",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -207003,8 +206847,6 @@
    "market": "Global",
    "conf": "Reported",
    "verified": "2026-03-18",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -207128,8 +206970,6 @@
    "market": "ANZ",
    "conf": "Reported",
    "verified": "2026-03-25",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -207981,10 +207821,6 @@
    "market": "ANZ",
    "conf": "Reported",
    "verified": "2026-05-06",
-   "ttier": "T4",
-   "tbasis": "role",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -209115,10 +208951,6 @@
    "market": "Global",
    "conf": "Reported",
    "verified": "2026-07-16",
-   "ttier": "T4",
-   "tbasis": "role",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -212366,8 +212198,6 @@
    "market": "UK & Ireland",
    "conf": "Reported",
    "verified": "2024-12-02",
-   "tends": 2026,
-   "tendsBasis": "term",
    "ended": 2026
   },
   {
