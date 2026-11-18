@@ -476,7 +476,11 @@
    "name": "9News",
    "k": "b",
    "logo": "assets/logos/9news.png",
-   "domain": "9news.com.au"
+   "domain": "9news.com.au",
+   "aliases": [
+    "Nine News"
+   ],
+   "cat": "Media & broadcast"
   },
   "a-and-a-lawn-care-and-landscaping": {
    "name": "A&A Lawn Care and Landscaping",
@@ -2863,15 +2867,6 @@
    "name": "Altofarm",
    "k": "b"
   },
-  "altos": {
-   "name": "Altos",
-   "domain": "altostequila.com",
-   "bf": [
-    "icon"
-   ],
-   "cat": "Alcohol",
-   "k": "b"
-  },
   "altrad": {
    "name": "Altrad",
    "domain": "altrad.com",
@@ -2959,7 +2954,15 @@
    "cat": "Technology",
    "k": "b",
    "logo": "assets/logos/amazon-web-services.png",
-   "domain": "aws.amazon.com"
+   "domain": "aws.amazon.com",
+   "aliases": [
+    "AWS"
+   ],
+   "bf": [
+    "symbol",
+    "icon",
+    "logo"
+   ]
   },
   "ambar": {
    "name": "Ambar",
@@ -5859,17 +5862,6 @@
    "name": "AWC Group",
    "k": "b"
   },
-  "aws": {
-   "name": "AWS",
-   "cat": "Technology",
-   "k": "b",
-   "domain": "aws.amazon.com",
-   "bf": [
-    "symbol",
-    "icon",
-    "logo"
-   ]
-  },
   "awsn": {
    "name": "AWSN",
    "cat": "Not-for-profit",
@@ -6347,6 +6339,9 @@
    "bf": [
     "icon",
     "logo"
+   ],
+   "aliases": [
+    "BSP Financial Group"
    ]
   },
   "banks-homes": {
@@ -8640,6 +8635,9 @@
    "domain": "bnpparibasopen.com",
    "bf": [
     "icon"
+   ],
+   "aliases": [
+    "Indian Wells"
    ]
   },
   "bny": {
@@ -9996,16 +9994,6 @@
    "bf": [
     "icon"
    ]
-  },
-  "bsp-financial-group": {
-   "name": "BSP Financial Group",
-   "domain": "bsp.com.pg",
-   "bf": [
-    "icon",
-    "logo"
-   ],
-   "cat": "Banking & finance",
-   "k": "b"
   },
   "bsp-hydraulics": {
    "name": "BSP Hydraulics",
@@ -11626,7 +11614,10 @@
    "bf": [
     "icon"
    ],
-   "logo": "assets/logos/caribbean-premier-league.png"
+   "logo": "assets/logos/caribbean-premier-league.png",
+   "aliases": [
+    "CPL"
+   ]
   },
   "caring-approach": {
    "name": "Caring Approach",
@@ -12506,15 +12497,6 @@
    "name": "Centurion Signs",
    "k": "b"
   },
-  "century-batteries": {
-   "name": "Century Batteries",
-   "cat": "Automotive",
-   "k": "b",
-   "domain": "centurybatteries.com.au",
-   "bf": [
-    "icon"
-   ]
-  },
   "century-casinos": {
    "name": "Century Casinos",
    "cat": "Betting & wagering",
@@ -12527,6 +12509,9 @@
    "domain": "centurybatteries.com.au",
    "bf": [
     "icon"
+   ],
+   "aliases": [
+    "Century Batteries"
    ]
   },
   "ceramica-rondine": {
@@ -14660,7 +14645,10 @@
    "bf": [
     "icon"
    ],
-   "logo": "assets/logos/commbank.png"
+   "logo": "assets/logos/commbank.png",
+   "aliases": [
+    "Commonwealth Bank"
+   ]
   },
   "commbank-matildas": {
    "name": "CommBank Matildas",
@@ -14714,16 +14702,6 @@
    "name": "CommonSpirit Health",
    "cat": "Health & beauty",
    "k": "b"
-  },
-  "commonwealth-bank": {
-   "name": "Commonwealth Bank",
-   "domain": "commbank.com.au",
-   "bf": [
-    "icon"
-   ],
-   "cat": "Banking & finance",
-   "k": "b",
-   "logo": "assets/logos/commonwealth-bank.png"
   },
   "commonwealth-games": {
    "name": "Commonwealth Games",
@@ -15779,16 +15757,6 @@
   "cpkc": {
    "name": "CPKC",
    "k": "b"
-  },
-  "cpl": {
-   "name": "CPL",
-   "ptype": "League & competition",
-   "k": "p",
-   "domain": "cplt20.com",
-   "bf": [
-    "icon"
-   ],
-   "logo": "assets/logos/cpl.png"
   },
   "cpu": {
    "name": "CPU",
@@ -25768,14 +25736,11 @@
     "icon",
     "logo"
    ],
-   "parent": "carlton-and-united-breweries"
-  },
-  "great-northern-brewing-co": {
-   "name": "Great Northern Brewing Co",
-   "cat": "Alcohol",
-   "k": "b",
-   "logo": "assets/logos/great-northern-brewing-co.png",
-   "domain": "greatnorthern.com.au"
+   "parent": "carlton-and-united-breweries",
+   "aliases": [
+    "Great Northern Brewing Co"
+   ],
+   "logo": "assets/logos/great-northern-brewing-co.png"
   },
   "great-railing": {
    "name": "Great Railing",
@@ -29869,15 +29834,6 @@
    ],
    "logo": "assets/logos/indian-super-league.png"
   },
-  "indian-wells": {
-   "name": "Indian Wells",
-   "ptype": "Event",
-   "k": "p",
-   "domain": "bnpparibasopen.com",
-   "bf": [
-    "icon"
-   ]
-  },
   "indian-women-s-league": {
    "name": "Indian Women's League",
    "ptype": "League & competition",
@@ -31147,17 +31103,6 @@
    "name": "Jakob Andrew",
    "k": "b"
   },
-  "jal": {
-   "name": "JAL",
-   "cat": "Airlines & travel",
-   "k": "b",
-   "domain": "jal.com",
-   "bf": [
-    "symbol",
-    "icon",
-    "logo"
-   ]
-  },
   "jamal-fogarty": {
    "name": "Jamal Fogarty",
    "ptype": "Athlete & talent",
@@ -31236,6 +31181,9 @@
     "symbol",
     "icon",
     "logo"
+   ],
+   "aliases": [
+    "JAL"
    ]
   },
   "japan-car": {
@@ -37636,14 +37584,9 @@
    "name": "MECCA",
    "k": "b",
    "cat": "Health & beauty",
-   "domain": "mecca.com"
-  },
-  "mecca-cosmetica": {
-   "name": "MECCA Cosmetica",
    "domain": "mecca.com",
-   "cat": "Health & beauty",
-   "k": "b",
    "aliases": [
+    "MECCA Cosmetica",
     "MECCA Cosmetica Sun"
    ]
   },
@@ -38314,16 +38257,9 @@
    "bf": [
     "icon",
     "logo"
-   ]
-  },
-  "mg-motor": {
-   "name": "MG Motor",
-   "cat": "Automotive",
-   "k": "b",
-   "domain": "mgmotor.com.au",
-   "bf": [
-    "icon",
-    "logo"
+   ],
+   "aliases": [
+    "MG Motor"
    ]
   },
   "mga-insurance": {
@@ -40315,16 +40251,6 @@
    "ptype": "Club & team",
    "k": "p"
   },
-  "mumbai-marathon": {
-   "name": "Mumbai Marathon",
-   "ptype": "Event",
-   "k": "p",
-   "domain": "tatamumbaimarathon.procam.in",
-   "bf": [
-    "icon",
-    "logo"
-   ]
-  },
   "mumbai-schools-sports-association": {
    "name": "Mumbai Schools Sports Association",
    "ptype": "Governing body",
@@ -42206,13 +42132,6 @@
    "cat": "Media & broadcast",
    "k": "b"
   },
-  "nine-news": {
-   "name": "Nine News",
-   "k": "b",
-   "cat": "Media & broadcast",
-   "logo": "assets/logos/nine-news.png",
-   "domain": "9news.com.au"
-  },
   "nine-queensland": {
    "name": "Nine Queensland",
    "k": "b",
@@ -43851,7 +43770,14 @@
   "olmeca-altos": {
    "name": "Olmeca Altos",
    "k": "b",
-   "domain": "altostequila.com"
+   "domain": "altostequila.com",
+   "aliases": [
+    "Altos"
+   ],
+   "bf": [
+    "icon"
+   ],
+   "cat": "Alcohol"
   },
   "olympia": {
    "name": "Olympia",
@@ -44810,6 +44736,9 @@
    "bf": [
     "icon",
     "logo"
+   ],
+   "aliases": [
+    "Procter & Gamble"
    ]
   },
   "p-and-o-cruises": {
@@ -46544,6 +46473,9 @@
    "bf": [
     "icon",
     "logo"
+   ],
+   "aliases": [
+    "Public Investment Fund"
    ]
   },
   "pifferi": {
@@ -47943,16 +47875,6 @@
    "name": "Procare",
    "k": "b"
   },
-  "procter-and-gamble": {
-   "name": "Procter & Gamble",
-   "cat": "Health & beauty",
-   "k": "b",
-   "domain": "pg.com",
-   "bf": [
-    "icon",
-    "logo"
-   ]
-  },
   "professional-squash-association": {
    "name": "Professional Squash Association",
    "ptype": "Governing body",
@@ -48204,16 +48126,6 @@
     "icon",
     "logo"
    ]
-  },
-  "public-investment-fund": {
-   "name": "Public Investment Fund",
-   "domain": "pif.gov.sa",
-   "bf": [
-    "icon",
-    "logo"
-   ],
-   "cat": "Banking & finance",
-   "k": "b"
   },
   "publicis-sapient": {
    "name": "Publicis Sapient",
@@ -50672,14 +50584,11 @@
    "bf": [
     "icon",
     "logo"
-   ]
-  },
-  "rmit-university": {
-   "name": "RMIT University",
-   "cat": "Education",
-   "k": "b",
-   "logo": "assets/logos/rmit-university.png",
-   "domain": "rmit.edu.au"
+   ],
+   "aliases": [
+    "RMIT University"
+   ],
+   "logo": "assets/logos/rmit-university.png"
   },
   "rmt": {
    "name": "RMT",
@@ -51655,6 +51564,9 @@
    "domain": "saintlayers.cc",
    "bf": [
     "icon"
+   ],
+   "aliases": [
+    "Saint Layers"
    ]
   },
   "sa20": {
@@ -51942,13 +51854,6 @@
   "salumificio-coati": {
    "name": "Salumificio Coati",
    "k": "b"
-  },
-  "salvation-army": {
-   "name": "Salvation Army",
-   "k": "b",
-   "cat": "Not-for-profit",
-   "logo": "assets/logos/salvation-army.png",
-   "domain": "salvationarmy.org"
   },
   "salzburgerland": {
    "name": "SalzburgerLand",
@@ -52567,7 +52472,11 @@
    "domain": "southerncrossaustereo.com.au",
    "bf": [
     "icon"
-   ]
+   ],
+   "aliases": [
+    "Southern Cross Austereo"
+   ],
+   "logo": "assets/logos/southern-cross-austereo.png"
   },
   "scaffold-marlborough": {
    "name": "Scaffold Marlborough",
@@ -53658,6 +53567,9 @@
    "domain": "sharpeit.com.au",
    "bf": [
     "icon"
+   ],
+   "aliases": [
+    "Sharpe IT"
    ]
   },
   "sharp-extensive-it": {
@@ -53669,15 +53581,6 @@
    "name": "Sharp HealthCare",
    "cat": "Technology",
    "k": "b"
-  },
-  "sharpe-it": {
-   "name": "Sharpe IT",
-   "cat": "Technology",
-   "k": "b",
-   "domain": "sharpeit.com.au",
-   "bf": [
-    "icon"
-   ]
   },
   "sharpe-vision": {
    "name": "Sharpe Vision",
@@ -55393,16 +55296,6 @@
   "southern-company": {
    "name": "Southern Company",
    "k": "b"
-  },
-  "southern-cross-austereo": {
-   "name": "Southern Cross Austereo",
-   "cat": "Media & broadcast",
-   "k": "b",
-   "domain": "southerncrossaustereo.com.au",
-   "bf": [
-    "icon"
-   ],
-   "logo": "assets/logos/southern-cross-austereo.png"
   },
   "southern-cross-masonry": {
    "name": "Southern Cross Masonry",
@@ -58687,6 +58580,9 @@
    "bf": [
     "icon",
     "logo"
+   ],
+   "aliases": [
+    "Mumbai Marathon"
    ]
   },
   "tato-paride": {
@@ -60234,7 +60130,10 @@
    "cat": "Not-for-profit",
    "k": "b",
    "logo": "assets/logos/the-salvation-army.png",
-   "domain": "salvationarmy.org"
+   "domain": "salvationarmy.org",
+   "aliases": [
+    "Salvation Army"
+   ]
   },
   "the-seattle-times": {
    "name": "The Seattle Times",
@@ -68481,15 +68380,6 @@
    "name": "Zenzero",
    "k": "b"
   },
-  "zero-knowledge-proof": {
-   "name": "Zero-Knowledge Proof",
-   "cat": "Fintech, crypto & trading",
-   "k": "b",
-   "domain": "zkp.com",
-   "bf": [
-    "icon"
-   ]
-  },
   "zesbra": {
    "name": "Zesbra",
    "k": "b"
@@ -68561,6 +68451,9 @@
    "domain": "zkp.com",
    "bf": [
     "icon"
+   ],
+   "aliases": [
+    "Zero-Knowledge Proof"
    ]
   },
   "zm": {
@@ -68720,13 +68613,6 @@
    "cat": "Hospitality & entertainment",
    "k": "b",
    "domain": "kooyong.com.au"
-  },
-  "saint-layers": {
-   "name": "Saint Layers",
-   "cat": "Apparel & footwear",
-   "k": "b",
-   "domain": "saintlayers.cc",
-   "bf": []
   },
   "yarra-valley-water": {
    "name": "Yarra Valley Water",

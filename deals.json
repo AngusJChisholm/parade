@@ -2870,7 +2870,8 @@
    "ttier": "T3",
    "tbasis": "category",
    "tends": 2029,
-   "tendsBasis": "league"
+   "tendsBasis": "league",
+   "ended": 2025
   },
   {
    "deal": "Zeekr × Kooyong Classic",
@@ -3669,7 +3670,8 @@
    "market": "Middle East",
    "marketLock": true,
    "ttier": "T3",
-   "tbasis": "category"
+   "tbasis": "category",
+   "ended": 2025
   },
   {
    "date": "2025-11-10",
@@ -167653,7 +167655,8 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "ends": 2017
+   "ends": 2017,
+   "ended": 2017
   },
   {
    "date": "2017-02-10",
@@ -167672,7 +167675,8 @@
    "ends": 2019,
    "endsEst": true,
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ended": 2019
   },
   {
    "sport": "Tennis",
@@ -169324,7 +169328,8 @@
    "ptier": "Partners",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-14"
+   "verified": "2026-11-14",
+   "ended": 2024
   },
   {
    "date": "2026-11-05",
@@ -171648,9 +171653,10 @@
    "url": "https://newshub.medianet.com.au/2026/10/lebron-james-deepens-commitment-to-whoop-expanding-11-year-relationship/179293/",
    "tier": "Ambassador & endorsement",
    "status": "New",
-   "market": "ANZ",
+   "market": "Global",
    "conf": "Confirmed",
-   "verified": "2026-11-03"
+   "verified": "2026-11-03",
+   "marketLock": true
   },
   {
    "date": "2026-10-29",
@@ -171782,7 +171788,8 @@
    "tier": "Official partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2025-10-23"
+   "verified": "2025-10-23",
+   "ended": 2025
   },
   {
    "date": "2023-11-03",
@@ -172367,9 +172374,10 @@
    "url": "https://www.bandt.com.au/fernando-alonso-jumps-into-pepperstones-drivers-seat-as-global-ambassador/",
    "tier": "Ambassador & endorsement",
    "status": "New",
-   "market": "ANZ",
+   "market": "Global",
    "conf": "Reported",
-   "verified": "2026-10-30"
+   "verified": "2026-10-30",
+   "marketLock": true
   },
   {
    "date": "2026-10-30",
@@ -180746,7 +180754,8 @@
    "conf": "Reported",
    "verified": "2026-08-25",
    "tends": 2030,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ptier": "Official partner"
   },
   {
    "date": "2026-08-25",
@@ -183445,7 +183454,8 @@
    "ttier": "T2",
    "tbasis": "role",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2026-07-14",
@@ -183652,7 +183662,8 @@
    "endsLock": true,
    "url": "https://us.motoonline.com.au/?p=194076",
    "conf": "Reported",
-   "verified": "2025-07-11"
+   "verified": "2025-07-11",
+   "ended": 2025
   },
   {
    "date": "2026-07-14",
@@ -184330,7 +184341,8 @@
    "ttier": "T2",
    "tbasis": "rights",
    "tends": 2027,
-   "tendsBasis": "term"
+   "tendsBasis": "term",
+   "ended": 2026
   },
   {
    "date": "2026-09-29",
@@ -184794,7 +184806,8 @@
    "ends": 2025,
    "endsLock": true,
    "conf": "Confirmed",
-   "verified": "2025-07-01"
+   "verified": "2025-07-01",
+   "ended": 2025
   },
   {
    "date": "2025-07-01",
@@ -184913,7 +184926,8 @@
    "endsLock": true,
    "url": "https://vic.netball.com.au/news/bmd-builds-partnership-netball",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "ended": 2025
   },
   {
    "date": "2025-07-01",
@@ -185208,7 +185222,8 @@
    "needsSource": true,
    "market": "ANZ",
    "conf": "Unverified",
-   "verified": "2025-09-09"
+   "verified": "2025-09-09",
+   "ended": 2025
   },
   {
    "date": "2025-09-09",
@@ -188640,7 +188655,8 @@
    "url": "https://www.rugby.com.au/news/smartech-partners-with-super-rugby-pacific-and-super-rugby-womens-2025214",
    "endsLock": true,
    "conf": "Confirmed",
-   "verified": "2025-02-18"
+   "verified": "2025-02-18",
+   "ended": 2025
   },
   {
    "date": "2025-02-18",
@@ -188749,7 +188765,8 @@
    "conf": "Confirmed",
    "verified": "2025-02-18",
    "tends": 2028,
-   "tendsBasis": "league"
+   "tendsBasis": "league",
+   "ended": 2026
   },
   {
    "date": "2025-02-18",
@@ -188765,7 +188782,8 @@
    "url": "https://www.sharks.com.au/news/2025/02/18/sharks-set-to-shine-with-new-hydration-partner/",
    "endsLock": true,
    "conf": "Confirmed",
-   "verified": "2025-02-18"
+   "verified": "2025-02-18",
+   "ended": 2025
   },
   {
    "date": "2025-02-18",
@@ -188804,7 +188822,8 @@
    "needsSource": true,
    "market": "ANZ",
    "conf": "Unverified",
-   "verified": "2025-02-18"
+   "verified": "2025-02-18",
+   "ended": 2025
   },
   {
    "date": "2025-02-18",
@@ -188984,7 +189003,8 @@
    "url": "https://www.liqui-moly.com/en/au/press/press-releases/brt-welcomes-liqui-moly-as-new-partner.html",
    "endsLock": true,
    "conf": "Confirmed",
-   "verified": "2025-02-18"
+   "verified": "2025-02-18",
+   "ended": 2025
   },
   {
    "date": "2025-11-26",
@@ -189303,7 +189323,8 @@
    "market": "ANZ",
    "url": "https://sydneyfc.com/news/sydney-fc-cup-2025-under-armour-jdl-gjdl-tournements/",
    "conf": "Confirmed",
-   "verified": "2025-06-25"
+   "verified": "2025-06-25",
+   "ended": 2025
   },
   {
    "date": "2025-06-25",
@@ -189406,7 +189427,8 @@
    "ends": 2025,
    "endsLock": true,
    "conf": "Reported",
-   "verified": "2025-06-25"
+   "verified": "2025-06-25",
+   "ended": 2025
   },
   {
    "date": "2025-06-25",
@@ -190102,7 +190124,8 @@
    "ends": 2025,
    "endsLock": true,
    "conf": "Reported",
-   "verified": "2025-08-27"
+   "verified": "2025-08-27",
+   "ended": 2025
   },
   {
    "date": "2025-08-27",
@@ -190118,7 +190141,8 @@
    "ends": 2025,
    "endsLock": true,
    "conf": "Confirmed",
-   "verified": "2025-08-27"
+   "verified": "2025-08-27",
+   "ended": 2025
   },
   {
    "date": "2025-08-27",
@@ -190186,7 +190210,8 @@
    "ends": 2025,
    "endsLock": true,
    "conf": "Confirmed",
-   "verified": "2025-08-13"
+   "verified": "2025-08-13",
+   "ended": 2025
   },
   {
    "date": "2025-08-13",
@@ -191713,7 +191738,8 @@
    "ttier": "T3",
    "tbasis": "category",
    "tends": 2029,
-   "tendsBasis": "league"
+   "tendsBasis": "league",
+   "ended": 2026
   },
   {
    "date": "2026-02-11",
@@ -192386,7 +192412,8 @@
    "conf": "Confirmed",
    "verified": "2025-11-12",
    "tends": 2028,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2025-11-12",
@@ -192551,7 +192578,8 @@
    "conf": "Confirmed",
    "verified": "2025-11-12",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "rights",
+   "ended": 2025
   },
   {
    "date": "2025-05-21",
@@ -192724,7 +192752,8 @@
    "ends": 2025,
    "endsLock": true,
    "conf": "Confirmed",
-   "verified": "2025-05-14"
+   "verified": "2025-05-14",
+   "ended": 2025
   },
   {
    "date": "2025-11-19",
@@ -193288,7 +193317,8 @@
    "url": "https://www.omodajaecoo.com.au/articles/jaecoo-x-2025-ironman-oceania-triathlon-series",
    "endsLock": true,
    "conf": "Confirmed",
-   "verified": "2025-05-28"
+   "verified": "2025-05-28",
+   "ended": 2025
   },
   {
    "date": "2025-05-28",
@@ -193455,7 +193485,8 @@
    "conf": "Confirmed",
    "verified": "2026-11-16",
    "tends": 2027,
-   "tendsBasis": "league"
+   "tendsBasis": "league",
+   "ended": 2025
   },
   {
    "date": "2025-03-19",
@@ -193559,7 +193590,8 @@
    "ends": 2025,
    "endsLock": true,
    "conf": "Confirmed",
-   "verified": "2025-06-18"
+   "verified": "2025-06-18",
+   "ended": 2025
   },
   {
    "date": "2025-06-18",
@@ -193891,7 +193923,8 @@
    "conf": "Confirmed",
    "verified": "2025-09-18",
    "tends": 2028,
-   "tendsBasis": "league"
+   "tendsBasis": "league",
+   "ended": 2026
   },
   {
    "date": "2025-09-23",
@@ -194273,7 +194306,8 @@
    "ends": 2025,
    "endsLock": true,
    "conf": "Confirmed",
-   "verified": "2024-10-02"
+   "verified": "2024-10-02",
+   "ended": 2025
   },
   {
    "date": "2024-10-02",
@@ -195793,20 +195827,6 @@
    "region": "Global",
    "summary": "Fred Perry partners with the Davis Cup.",
    "url": "https://sportsmintmedia.com/fred-perry-reconnects-with-tennis-heritage-through-davis-cup-partnership/",
-   "tier": "Official partner",
-   "status": "New",
-   "market": "Global",
-   "conf": "Reported",
-   "verified": "2026-10-06"
-  },
-  {
-   "date": "2026-10-06",
-   "deal": "Li-Ning × World Gymnastics",
-   "sport": "Multi-sport",
-   "type": "Partnership",
-   "region": "Global",
-   "summary": "Li-Ning signs a World Gymnastics partnership.",
-   "url": "https://sportsmintmedia.com/li-ning-expands-global-sports-portfolio-with-world-gymnastics-partnership/",
    "tier": "Official partner",
    "status": "New",
    "market": "Global",
@@ -198036,7 +198056,8 @@
    "status": "New",
    "market": "Asia",
    "conf": "Reported",
-   "verified": "2025-09-10"
+   "verified": "2025-09-10",
+   "ended": 2025
   },
   {
    "date": "2025-09-10",
@@ -198050,7 +198071,8 @@
    "status": "New",
    "market": "Asia",
    "conf": "Reported",
-   "verified": "2025-09-10"
+   "verified": "2025-09-10",
+   "ended": 2025
   },
   {
    "date": "2025-09-09",
@@ -198064,7 +198086,8 @@
    "status": "New",
    "market": "Asia",
    "conf": "Reported",
-   "verified": "2025-09-09"
+   "verified": "2025-09-09",
+   "ended": 2025
   },
   {
    "date": "2025-09-08",
@@ -198439,7 +198462,8 @@
    "url": "https://ausxsupercross.com.au/news/shannons-joins-boost-mobile-ausx-supercross-championship-as-official-partner/",
    "endsLock": true,
    "conf": "Confirmed",
-   "verified": "2025-08-06"
+   "verified": "2025-08-06",
+   "ended": 2025
   },
   {
    "date": "2025-08-25",
@@ -198746,7 +198770,8 @@
    "status": "New",
    "market": "Rest of World",
    "conf": "Reported",
-   "verified": "2025-07-22"
+   "verified": "2025-07-22",
+   "ended": 2025
   },
   {
    "date": "2025-07-11",
@@ -199196,7 +199221,8 @@
    "ends": 2025,
    "market": "Rest of World",
    "conf": "Reported",
-   "verified": "2025-07-29"
+   "verified": "2025-07-29",
+   "ended": 2025
   },
   {
    "date": "2025-07-25",
@@ -199580,7 +199606,8 @@
    "status": "New",
    "market": "Global",
    "conf": "Reported",
-   "verified": "2025-07-03"
+   "verified": "2025-07-03",
+   "ended": 2025
   },
   {
    "date": "2025-07-02",
@@ -199692,7 +199719,8 @@
    "status": "New",
    "market": "Rest of World",
    "conf": "Reported",
-   "verified": "2025-06-27"
+   "verified": "2025-06-27",
+   "ended": 2025
   },
   {
    "date": "2025-06-21",
@@ -199823,7 +199851,8 @@
    "status": "New",
    "market": "North America",
    "conf": "Reported",
-   "verified": "2025-06-12"
+   "verified": "2025-06-12",
+   "ended": 2025
   },
   {
    "date": "2025-06-11",
@@ -199922,7 +199951,8 @@
    "status": "New",
    "market": "Europe",
    "conf": "Reported",
-   "verified": "2025-06-09"
+   "verified": "2025-06-09",
+   "ended": 2025
   },
   {
    "date": "2025-06-02",
@@ -200300,7 +200330,8 @@
    "ends": 2025,
    "market": "Global",
    "conf": "Reported",
-   "verified": "2025-06-09"
+   "verified": "2025-06-09",
+   "ended": 2025
   },
   {
    "date": "2025-06-07",
@@ -200376,7 +200407,8 @@
    "status": "New",
    "market": "Global",
    "conf": "Reported",
-   "verified": "2025-05-30"
+   "verified": "2025-05-30",
+   "ended": 2025
   },
   {
    "date": "2025-05-31",
@@ -201273,7 +201305,7 @@
    "deal": "Project Innovations × Hockey One",
    "sport": "Hockey",
    "type": "Extension",
-   "region": "Global",
+   "region": "ANZ",
    "summary": "Hockey One extends its finals series partnership with Project Innovations",
    "url": "https://ministryofsport.com/hockey-one-league-extends-finals-series-partnership-with-project-innovations/",
    "tier": "Official partner",
@@ -201395,7 +201427,7 @@
    "deal": "FBL Sport × Shyla Heal",
    "sport": "Basketball",
    "type": "Endorsement",
-   "region": "Global",
+   "region": "ANZ",
    "summary": "Signature shoe for Shyla Heal, billed as Australia's first for a female basketballer",
    "url": "https://ministryofsport.com/fbl-sport-teams-up-with-shyla-heal-to-launch-australias-first-signature-shoe-for-a-female-basketball-player/",
    "tier": "Ambassador & endorsement",
@@ -201439,7 +201471,7 @@
    "deal": "Brolen Homes × Macarthur FC",
    "sport": "Football",
    "type": "Partnership",
-   "region": "Global",
+   "region": "ANZ",
    "summary": "Two-year local partnership with the residential builder",
    "url": "https://ministryofsport.com/macarthur-fc-signs-brolen-homes-in-two-year-local-partnership/",
    "tier": "Official partner",
@@ -201740,7 +201772,8 @@
    "ends": 2025,
    "market": "ANZ",
    "conf": "Reported",
-   "verified": "2024-09-27"
+   "verified": "2024-09-27",
+   "ended": 2025
   },
   {
    "date": "2024-09-27",
@@ -201820,7 +201853,8 @@
    "ends": 2025,
    "market": "ANZ",
    "conf": "Reported",
-   "verified": "2024-09-17"
+   "verified": "2024-09-17",
+   "ended": 2025
   },
   {
    "date": "2024-09-12",
@@ -201868,14 +201902,15 @@
    "ttier": "T2",
    "tbasis": "rights",
    "tends": 2027,
-   "tendsBasis": "league"
+   "tendsBasis": "league",
+   "ended": 2026
   },
   {
    "date": "2024-09-12",
    "deal": "Kelme × Macarthur FC",
    "sport": "Football",
    "type": "Kit supplier",
-   "region": "Global",
+   "region": "ANZ",
    "summary": "Three-year extension of the Kelme apparel partnership",
    "url": "https://ministryofsport.com/macarthur-fc-extends-apparel-partnership-with-kelme-for-three-years/",
    "tier": "Kit & apparel",
@@ -201967,7 +202002,8 @@
    "ends": 2025,
    "market": "ANZ",
    "conf": "Reported",
-   "verified": "2024-10-23"
+   "verified": "2024-10-23",
+   "ended": 2025
   },
   {
    "date": "2024-10-14",
@@ -202032,7 +202068,7 @@
    "deal": "Boost Mobile × A-Leagues",
    "sport": "Football",
    "type": "Extension",
-   "region": "Global",
+   "region": "ANZ",
    "summary": "Boost Mobile extends its A-Leagues partnership",
    "url": "https://ministryofsport.com/boost-mobile-expands-commitment-to-a-leagues/",
    "tier": "Official partner",
@@ -202063,7 +202099,7 @@
    "deal": "Ticketek × Suncorp Stadium",
    "sport": "Venues",
    "type": "Renewal",
-   "region": "Global",
+   "region": "ANZ",
    "summary": "Ticketek renews its Suncorp Stadium ticketing partnership for five years",
    "url": "https://ministryofsport.com/ticketek-renews-suncorp-stadium-partnership-enhancing-fan-experience-for-five-more-years/",
    "tier": "Official partner",
@@ -202107,7 +202143,8 @@
    "status": "Expansion",
    "market": "Global",
    "conf": "Reported",
-   "verified": "2024-10-31"
+   "verified": "2024-10-31",
+   "ended": 2025
   },
   {
    "date": "2024-10-30",
@@ -202204,7 +202241,8 @@
    "ptier": "Official partner",
    "market": "ANZ",
    "conf": "Reported",
-   "verified": "2024-11-28"
+   "verified": "2024-11-28",
+   "ended": 2025
   },
   {
    "date": "2024-11-26",
@@ -202218,7 +202256,8 @@
    "status": "New",
    "market": "Global",
    "conf": "Reported",
-   "verified": "2024-11-26"
+   "verified": "2024-11-26",
+   "ended": 2025
   },
   {
    "date": "2024-11-25",
@@ -202352,14 +202391,15 @@
    "ends": 2025,
    "market": "Global",
    "conf": "Reported",
-   "verified": "2025-01-16"
+   "verified": "2025-01-16",
+   "ended": 2025
   },
   {
    "date": "2025-01-13",
    "deal": "Mitsubishi Motors × Rugby WA",
    "sport": "Rugby union",
    "type": "Official partner",
-   "region": "Global",
+   "region": "ANZ",
    "summary": "Mitsubishi named official vehicle supplier for Rugby WA",
    "url": "https://ministryofsport.com/mitsubishi-motors-named-official-vehicle-supplier-for-rugby-wa/",
    "tier": "Official partner",
@@ -202665,7 +202705,8 @@
    "ptier": "Official partner",
    "checked": "2026-11-17",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "rights",
+   "ended": 2025
   },
   {
    "date": "2025-03-13",
@@ -202878,7 +202919,8 @@
    "ends": 2025,
    "market": "ANZ",
    "conf": "Reported",
-   "verified": "2025-03-26"
+   "verified": "2025-03-26",
+   "ended": 2025
   },
   {
    "date": "2025-03-26",
@@ -203802,7 +203844,8 @@
    "status": "New",
    "market": "Global",
    "conf": "Reported",
-   "verified": "2025-06-05"
+   "verified": "2025-06-05",
+   "ended": 2025
   },
   {
    "date": "2025-05-30",
@@ -204007,7 +204050,8 @@
    "ends": 2025,
    "market": "Global",
    "conf": "Reported",
-   "verified": "2025-07-04"
+   "verified": "2025-07-04",
+   "ended": 2025
   },
   {
    "date": "2025-07-03",
@@ -204049,10 +204093,11 @@
    "url": "https://ministryofsport.com/liquorland-links-up-as-official-supplier-for-2025-british-irish-lions-tour/",
    "tier": "Official partner",
    "status": "New",
-   "market": "UK & Ireland",
+   "market": "ANZ",
    "conf": "Reported",
    "verified": "2025-07-02",
-   "ended": true
+   "ended": true,
+   "marketLock": true
   },
   {
    "date": "2025-07-02",
@@ -204146,7 +204191,8 @@
    "conf": "Reported",
    "verified": "2025-07-08",
    "tends": 2028,
-   "tendsBasis": "league"
+   "tendsBasis": "league",
+   "ended": 2025
   },
   {
    "date": "2025-07-08",
@@ -205563,7 +205609,7 @@
    "deal": "DLK Advisory × Macarthur FC",
    "sport": "Football",
    "type": "Partnership",
-   "region": "Global",
+   "region": "ANZ",
    "summary": "DLK Advisory becomes Macarthur's corporate events partner",
    "url": "https://ministryofsport.com/macarthur-bulls-appoint-dlk-advisory-as-corporate-events-partner/",
    "tier": "Official partner",
@@ -206281,7 +206327,7 @@
    "deal": "Emirates × Tennis NSW",
    "sport": "Tennis",
    "type": "Community partner",
-   "region": "Global",
+   "region": "ANZ",
    "summary": "Emirates funds a tennis program for Western Sydney kids",
    "url": "https://ministryofsport.com/emirates-serves-up-tennis-program-for-western-sydney-children/",
    "tier": "Official partner",
@@ -207213,7 +207259,8 @@
    "conf": "Reported",
    "verified": "2026-03-31",
    "tends": 2027,
-   "tendsBasis": "term"
+   "tendsBasis": "term",
+   "ended": 2026
   },
   {
    "date": "2026-03-30",
@@ -208114,7 +208161,7 @@
    "deal": "Superior IT × Basketball WA",
    "sport": "Basketball",
    "type": "Partnership",
-   "region": "Global",
+   "region": "ANZ",
    "summary": "Three-year IT partnership",
    "url": "https://ministryofsport.com/basketball-wa-fortifies-digital-infrastructure-with-three-year-superior-it-partnership/",
    "tier": "Official partner",
@@ -208971,7 +209018,7 @@
    "deal": "Belgravia × Cricket NSW",
    "sport": "Cricket",
    "type": "Kit supplier",
-   "region": "Global",
+   "region": "ANZ",
    "summary": "Expanded multi-year apparel partnership",
    "url": "https://ministryofsport.com/cricket-nsw-and-belgravia-apparel-announce-expanded-multi-year-strategic-partnership/",
    "tier": "Kit & apparel",
@@ -209421,7 +209468,8 @@
    "status": "New",
    "market": "Global",
    "conf": "Reported",
-   "verified": "2025-05-15"
+   "verified": "2025-05-15",
+   "ended": 2025
   },
   {
    "date": "2025-05-15",
@@ -209680,7 +209728,8 @@
    "status": "New",
    "market": "Global",
    "conf": "Reported",
-   "verified": "2025-05-08"
+   "verified": "2025-05-08",
+   "ended": 2025
   },
   {
    "date": "2025-05-06",
@@ -209694,7 +209743,8 @@
    "status": "New",
    "market": "Europe",
    "conf": "Reported",
-   "verified": "2025-05-06"
+   "verified": "2025-05-06",
+   "ended": 2025
   },
   {
    "date": "2025-05-06",
@@ -210109,7 +210159,8 @@
    "status": "New",
    "market": "Asia",
    "conf": "Reported",
-   "verified": "2025-04-08"
+   "verified": "2025-04-08",
+   "ended": 2025
   },
   {
    "date": "2025-04-07",
@@ -210141,7 +210192,8 @@
    "status": "New",
    "market": "North America",
    "conf": "Reported",
-   "verified": "2025-04-07"
+   "verified": "2025-04-07",
+   "ended": 2025
   },
   {
    "date": "2025-04-04",
@@ -210231,7 +210283,8 @@
    "status": "New",
    "market": "Global",
    "conf": "Reported",
-   "verified": "2025-03-27"
+   "verified": "2025-03-27",
+   "ended": 2025
   },
   {
    "date": "2025-03-26",
@@ -210857,7 +210910,8 @@
    "conf": "Reported",
    "verified": "2025-02-24",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "rights",
+   "ended": 2025
   },
   {
    "date": "2025-02-22",
@@ -210908,7 +210962,8 @@
    "status": "New",
    "market": "Global",
    "conf": "Reported",
-   "verified": "2025-02-21"
+   "verified": "2025-02-21",
+   "ended": 2025
   },
   {
    "date": "2025-02-20",
@@ -211072,7 +211127,8 @@
    "ends": 2025,
    "market": "Global",
    "conf": "Reported",
-   "verified": "2025-02-07"
+   "verified": "2025-02-07",
+   "ended": 2025
   },
   {
    "date": "2025-02-07",
@@ -211104,7 +211160,8 @@
    "status": "New",
    "market": "Europe",
    "conf": "Reported",
-   "verified": "2025-02-06"
+   "verified": "2025-02-06",
+   "ended": 2025
   },
   {
    "date": "2025-02-06",
@@ -211119,7 +211176,8 @@
    "ends": 2025,
    "market": "Global",
    "conf": "Reported",
-   "verified": "2025-02-06"
+   "verified": "2025-02-06",
+   "ended": 2025
   },
   {
    "date": "2025-02-05",
@@ -211544,7 +211602,8 @@
    "status": "New",
    "market": "Global",
    "conf": "Reported",
-   "verified": "2025-01-15"
+   "verified": "2025-01-15",
+   "ended": 2025
   },
   {
    "date": "2025-01-15",
@@ -211862,7 +211921,8 @@
    "ends": 2025,
    "market": "UK & Ireland",
    "conf": "Reported",
-   "verified": "2024-12-19"
+   "verified": "2024-12-19",
+   "ended": 2025
   },
   {
    "date": "2024-12-18",
@@ -211908,7 +211968,8 @@
    "ends": 2025,
    "market": "UK & Ireland",
    "conf": "Reported",
-   "verified": "2024-12-17"
+   "verified": "2024-12-17",
+   "ended": 2025
   },
   {
    "date": "2024-12-17",
@@ -211938,7 +211999,8 @@
    "status": "New",
    "market": "Europe",
    "conf": "Reported",
-   "verified": "2024-12-16"
+   "verified": "2024-12-16",
+   "ended": 2025
   },
   {
    "date": "2024-12-14",
@@ -211984,7 +212046,8 @@
    "status": "New",
    "market": "Europe",
    "conf": "Reported",
-   "verified": "2024-12-14"
+   "verified": "2024-12-14",
+   "ended": 2025
   },
   {
    "date": "2024-12-13",
@@ -212046,7 +212109,8 @@
    "conf": "Reported",
    "verified": "2024-12-10",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "rights",
+   "ended": 2025
   },
   {
    "date": "2024-12-10",
@@ -212139,7 +212203,8 @@
    "status": "New",
    "market": "Europe",
    "conf": "Reported",
-   "verified": "2024-12-06"
+   "verified": "2024-12-06",
+   "ended": 2025
   },
   {
    "date": "2024-12-05",
@@ -212184,7 +212249,8 @@
    "ends": 2025,
    "market": "UK & Ireland",
    "conf": "Reported",
-   "verified": "2024-12-04"
+   "verified": "2024-12-04",
+   "ended": 2025
   },
   {
    "date": "2024-12-04",
@@ -212871,7 +212937,8 @@
    "status": "New",
    "market": "Global",
    "conf": "Reported",
-   "verified": "2024-11-08"
+   "verified": "2024-11-08",
+   "ended": 2025
   },
   {
    "date": "2024-11-08",
@@ -213049,7 +213116,8 @@
    "ends": 2025,
    "market": "Global",
    "conf": "Reported",
-   "verified": "2024-11-04"
+   "verified": "2024-11-04",
+   "ended": 2025
   },
   {
    "date": "2024-11-02",
@@ -213325,7 +213393,8 @@
    "ends": 2025,
    "market": "UK & Ireland",
    "conf": "Reported",
-   "verified": "2024-10-19"
+   "verified": "2024-10-19",
+   "ended": 2025
   },
   {
    "date": "2024-10-18",
@@ -213370,7 +213439,8 @@
    "ends": 2025,
    "market": "Middle East",
    "conf": "Reported",
-   "verified": "2024-10-17"
+   "verified": "2024-10-17",
+   "ended": 2025
   },
   {
    "date": "2024-10-17",
@@ -213462,7 +213532,8 @@
    "status": "New",
    "market": "North America",
    "conf": "Reported",
-   "verified": "2024-10-11"
+   "verified": "2024-10-11",
+   "ended": 2025
   },
   {
    "date": "2024-10-11",
@@ -214829,7 +214900,8 @@
    "market": "ANZ",
    "conf": "Reported",
    "verified": "2024-12-19",
-   "ptier": "Partner"
+   "ptier": "Partner",
+   "ended": 2025
   },
   {
    "date": "2024-12-16",
@@ -218390,7 +218462,8 @@
    "ttier": "T2",
    "tbasis": "sourced",
    "tends": 2026,
-   "tendsBasis": "term"
+   "tendsBasis": "term",
+   "ended": 2026
   },
   {
    "listed": "2026-10-30",
@@ -229586,7 +229659,8 @@
    "ends": 2024,
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2023-01-24"
+   "verified": "2023-01-24",
+   "ended": 2024
   },
   {
    "listed": "2026-10-30",
@@ -230400,7 +230474,8 @@
    "endsEst": true,
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2016-12-02"
+   "verified": "2016-12-02",
+   "ended": 2019
   },
   {
    "listed": "2026-10-30",
@@ -241878,7 +241953,8 @@
    "ttier": "T1",
    "tbasis": "role",
    "tends": 2026,
-   "tendsBasis": "league"
+   "tendsBasis": "league",
+   "ended": 2026
   },
   {
    "date": "2023-09-28",
@@ -241894,7 +241970,8 @@
    "conf": "Confirmed",
    "verified": "2023-09-28",
    "tends": 2026,
-   "tendsBasis": "league"
+   "tendsBasis": "league",
+   "ended": 2025
   },
   {
    "month": "2026-03",
@@ -244321,7 +244398,8 @@
    "endsEst": true,
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2024-03-25"
+   "verified": "2024-03-25",
+   "ended": 2025
   },
   {
    "date": "2024-02-20",
@@ -246617,7 +246695,8 @@
    "tier": "Principal & major",
    "ends": 2023,
    "conf": "Confirmed",
-   "verified": "2022-10-31"
+   "verified": "2022-10-31",
+   "ended": 2023
   },
   {
    "listed": "2026-11-12",
@@ -250297,7 +250376,8 @@
    "market": "ANZ",
    "tier": "Shirt & kit placement",
    "conf": "Reported",
-   "verified": "2023-10-09"
+   "verified": "2023-10-09",
+   "ended": 2024
   },
   {
    "listed": "2026-11-17",
