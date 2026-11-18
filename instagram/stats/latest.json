@@ -4,7 +4,7 @@
  "followers": 11,
  "followers_change_7d": 1,
  "since": "2026-11-11",
- "posts_last_7d": 4,
+ "posts_last_7d": 5,
  "best_post_7d": {
   "when": "Fri 13 Nov 21:04",
   "hour": 21,
@@ -36,13 +36,25 @@
    "posts": 2
   },
   {
-   "slot": "Sat 15:00",
+   "slot": "Mon 23:00",
    "avg_score": 1.0,
    "posts": 1
   }
  ],
  "insights_available": false,
  "recent_posts": [
+  {
+   "when": "Wed 18 Nov 19:16",
+   "hour": 19,
+   "weekday": "Wed",
+   "type": "FEED",
+   "likes": 0,
+   "comments": 0,
+   "caption": "Nike takes over UEFA's ball.",
+   "link": "https://www.instagram.com/p/Df4Djp-E8SW/",
+   "recent": true,
+   "score": 0
+  },
   {
    "when": "Wed 18 Nov 18:38",
    "hour": 18,
