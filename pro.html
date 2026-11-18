@@ -467,6 +467,38 @@ body.pro header.v2 .dd-m{background:#111}body.pro header.v2 .dd-m a{color:#fff}
 .dk-wr b{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 #view .pair a,.dk-rr a,.dk-wr a{pointer-events:auto}
 @media (max-width:640px){.dk-n{font-size:40px}.dk-mv{text-align:left}.dk-rr{grid-template-columns:auto minmax(0,1fr) auto}.dk-rr .basis{display:none}.dk-wr{grid-template-columns:auto minmax(0,1fr)}.dk-wr .pair,.dk-wr .mute-l{display:none}.dk-rb{padding:4px 16px 0}.dk-rh{padding:14px 16px}}
+
+/* Pro tools v3 skin: cards, pills, rounded tables */
+#view .kpis{gap:14px;border:0;margin:20px 0 8px}
+#view .kpis>div{background:#fff;border:1px solid var(--line)!important;border-radius:16px;padding:18px 20px!important;display:flex;flex-direction:column-reverse;gap:8px}
+#view .kpis b{font-family:inherit!important;font-stretch:100%;font-size:36px!important;letter-spacing:-.03em!important;line-height:1}
+#view .kpis span{font-size:14px;font-weight:500;letter-spacing:0;text-transform:none;color:var(--ink-2)}
+#view .ctl{padding-block:20px 12px;gap:10px;display:flex!important;flex-direction:row!important;flex-wrap:wrap;align-items:center}
+#view .ctl>*{flex:0 0 auto!important;width:auto!important;max-width:100%}#view .ctl>.fbar{flex:1 1 360px!important;display:flex;gap:10px;order:-1}#view .ctl>.srch,#view .ctl input.srch{flex:1 1 320px!important;min-width:240px!important;width:auto!important;order:-1}#view .ctl select,#view .ctl .sel{width:auto!important}
+#view .srch{height:52px;padding:0 22px;border:0;border-radius:999px;background:#F4F4F1;font-size:15px}
+#view .srch:focus{outline:2px solid var(--ink)}
+#view .sel{height:44px;padding:0 36px 0 16px;border:1px solid var(--line);border-radius:999px;background-color:#fff}
+#view .sel:hover{border-color:var(--ink)}
+#view .pill{height:40px;padding:0 16px;border-color:var(--line)}
+#view .pill.on{border-color:#111}
+#view .ghost{height:44px;padding:0 18px;border:1px solid var(--line);border-radius:999px;background:#fff;font-weight:800;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+#view .ghost:hover{border-color:var(--ink)}
+#view .tw{background:#fff;border:1px solid var(--line)!important;border-radius:16px;overflow:hidden;overflow-x:auto;scrollbar-width:none}
+#view .tw::-webkit-scrollbar{display:none}
+#view .t th{padding:14px 16px;font-size:10px;background:#fff}
+#view .t td{padding:12px 16px}
+#view .t tr:last-child td{border-bottom:0}
+#view .t tbody tr:hover td{background:#FAFAF8}
+#view .t td b{font-size:15px}
+#view .ph{background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px 24px;margin-top:20px}
+#view .ph h2.disp{font-family:inherit!important;font-stretch:100%;font-size:26px!important;text-transform:uppercase}
+#view .h3{font-size:22px;letter-spacing:-.03em;margin:40px 0 12px}
+#view .chip{border-radius:999px;padding:4px 9px 3px}
+#view .pro-intro{display:none}
+#view .tile,#view .sc-c,#view .bz{border-radius:16px!important;border-top:1px solid var(--line)!important}
+#view .tile:hover,#view .sc-c:hover{border-color:var(--ink)!important}
+#view .note-s{font-size:13px;color:var(--ink-3)}
+.dk-sub{margin:14px 0 0;font-size:16px;line-height:1.5;color:var(--ink-2);max-width:680px}
 </style>
 <link rel="stylesheet" href="assets/chrome.css?v=3">
 </head>
@@ -519,7 +551,8 @@ body.pro header.v2 .dd-m{background:#111}body.pro header.v2 .dd-m a{color:#fff}
 <span class="dk-hint" id="forH">Scouting, renewals and reports are tailored to this property.</span></section>
 <section class="hero dk-hero">
 <span class="lbl mute-l" id="dkHi">Partnership Pro</span>
-<h1 class="dk-h">The partnerships <span class="v">desk.</span></h1>
+<h1 class="dk-h" id="dkH">The partnerships <span class="v">desk.</span></h1>
+<p class="dk-sub" id="dkSub" hidden></p>
 </section>
 <section class="pro-sec" id="view"><p class="note">Loading the database…</p></section>
 </div></div>
@@ -579,7 +612,7 @@ if(!matchMedia("(prefers-reduced-motion: reduce)").matches)setInterval(()=>{if(!
 })();</script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="assets/pro-config.js?v=1"></script>
-<script src="assets/pro-auth.js?v=3"></script>
+<script src="assets/pro-auth.js?v=4"></script>
 <script src="assets/chrome.js?v=3"></script>
 </body>
 </html>

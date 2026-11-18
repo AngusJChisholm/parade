@@ -13,7 +13,7 @@
   const $=id=>document.getElementById(id);
   const C=window.SSS_SUPABASE||{};
   const LIVE=!!(C.url&&C.anonKey&&window.supabase);
-  const APP=["assets/logos.js?v=11","assets/pills.js?v=3","assets/data.js?v=8","assets/pro.js?v=24"];
+  const APP=["assets/logos.js?v=11","assets/pills.js?v=3","assets/data.js?v=8","assets/pro.js?v=25"];
   const err=t=>{$("gateE").textContent=t||""};
   const msg=t=>{$("gateMsg").textContent=t};
 

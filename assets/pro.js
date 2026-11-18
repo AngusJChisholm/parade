@@ -1037,6 +1037,19 @@ function wagering(){
 /* Pitch decks (assets/pro-decks.js) is built but parked: not loaded until it's ready to go live. */
 function decks(){if(window.SSSDecks)window.SSSDecks.render({D,mxLoad});else home()}
 const TABS={home,dash:desk,scouting,finder,renewals,wagering,property,watch:watchlist,reports,decks};
+const HEAD={scouting:["Scouting","Who should partner with whom. Ranked by Scout Score: fit with brands already backing properties like this one, plus open category gaps."],
+  finder:["Brand finder","Brands spending in sport. Filter by category and the sports they back, or leave a sport out to find brands active elsewhere who haven't come into yours yet."],
+  renewals:["Renewal radar","Confirmed and estimated end dates, each labelled, so you know when a partner might be back in play."],
+  wagering:["Wagering exit","Every live ANZ partnership with a betting or wagering brand. No new wagering branding on kit or in venues from 1 January 2027, and pre-July 2026 deals roll off by 31 December 2031."],
+  property:["Property report","Any property in one view: partners by tier, open categories and who could fill them, upcoming renewals and how it stacks up against its league."],
+  watch:["Watchlist","Every brand and property you've starred, in one list."],
+  reports:["Reports","Board-paper style reports for any brand or property: market overview, category competitor map and renewal options, ready to export."]};
+function heading(t){
+  const h=$("dkH"),sub=$("dkSub"),hi=$("dkHi");if(!h)return;
+  if(!HEAD[t]){h.innerHTML='The partnerships <span class="v">desk.</span>';sub.hidden=true;if(hi&&hi.dataset.g)hi.textContent=hi.dataset.g;return}
+  if(hi&&!hi.dataset.g)hi.dataset.g=hi.textContent;
+  h.textContent=HEAD[t][0]+".";sub.textContent=HEAD[t][1];sub.hidden=false;if(hi)hi.textContent="Tools · "+HEAD[t][0];
+}
 function go(tab){
   // Reports deep-link as #reports/brand/<slug> or #reports/property/<slug>
   const [t,kind,slug]=String(tab).split("/");tab=t;
@@ -1047,6 +1060,7 @@ function go(tab){
   // Keep the address clean: no #dash / #scouting in the URL. Report deep links still set their own.
   if(state.tab!=="reports"&&location.hash)history.replaceState(null,"",location.pathname+location.search);
   $("view").onclick=null;
+  heading(state.tab);
   TABS[state.tab]();
 }
 $("tabs").onclick=e=>{const b=e.target.closest("[data-tab]");if(!b)return;go(b.dataset.tab)};
