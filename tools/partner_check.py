@@ -8,7 +8,8 @@ check.json:
   {"property": "Sydney Sixers", "url": "https://...", "date": "2026-11-16",
    "groups": [["Principal partner", ["AAMI"]], ["Official partner", ["Summit Fleet", "Waterdrop"]]],
    "same": {"Summit": "Summit Fleet"},      # optional: page name -> name already in deals.json
-   "keep": ["Lite n' Easy"]}                # optional: brands to leave live even though they're not on the page
+   "keep": ["Lite n' Easy"],                # optional: brands to leave live even though they're not on the page
+   "region": "Global", "market": "Asia"}    # optional: set on new rows and the property's existing rows
 
 What it does
  - A brand on the page that's already in the archive for this property: every one of its deals gets the page's
@@ -75,8 +76,8 @@ def main():
     sport = next((d["sport"] for d in mine if d.get("sport")), None)
     if not sport:
         sport = next((p["sport"] for p in C["properties"] if p["name"] == prop), "")
-    region = next((d["region"] for d in mine if d.get("region")), "ANZ")
-    market = next((d["market"] for d in mine if d.get("market")), region)
+    region = chk.get("region") or next((d["region"] for d in mine if d.get("region")), "ANZ")
+    market = chk.get("market") or next((d["market"] for d in mine if d.get("market")), region)
 
     # brand name variants already used for this property
     alias = {}
@@ -114,6 +115,10 @@ def main():
                 matched.append(f"{name} -> {b} [{ptier}]")
                 rows = by_brand[b]
                 for d in rows:
+                    if chk.get("region"):
+                        d["region"] = region
+                    if chk.get("market"):
+                        d["market"] = market
                     if ptier:
                         d["ptier"] = ptier
                     d.pop("ended", None)
