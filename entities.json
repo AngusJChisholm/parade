@@ -147,6 +147,9 @@
    "name": "1Password",
    "k": "b"
   },
+  "1xbat": {
+   "name": "1XBAT"
+  },
   "1xbet": {
    "name": "1xBet",
    "domain": "1xbet.com",
@@ -945,6 +948,24 @@
    "bf": [
     "icon"
    ]
+  },
+  "abu-dhabi-knight-riders": {
+   "name": "Abu Dhabi Knight Riders",
+   "domain": "adkriders.com",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "aliases": [
+    "ADKR"
+   ],
+   "ptiers": [
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-19",
+   "market": "Middle East"
   },
   "abu-dhabi-sports-council": {
    "name": "Abu Dhabi Sports Council",
@@ -7234,6 +7255,10 @@
    "name": "Balocco",
    "k": "b"
   },
+  "balqis-capital": {
+   "name": "Balqis Capital",
+   "cat": "Banking & finance"
+  },
   "balsam-hill": {
    "name": "Balsam Hill",
    "cat": "Retail",
@@ -9757,6 +9782,9 @@
   "bluestone": {
    "name": "Bluestone",
    "k": "b"
+  },
+  "bluewater-group": {
+   "name": "Bluewater Group"
   },
   "bluewater-hotel": {
    "name": "Bluewater Hotel",
@@ -15665,6 +15693,10 @@
    "name": "Cleveland Clinic",
    "k": "b"
   },
+  "cleveland-clinic-abu-dhabi": {
+   "name": "Cleveland Clinic Abu Dhabi",
+   "cat": "Tourism & government"
+  },
   "cleveland-clinic-london": {
    "name": "Cleveland Clinic London",
    "k": "b"
@@ -19745,6 +19777,21 @@
    "cat": "Banking & finance",
    "k": "b"
   },
+  "desert-vipers": {
+   "name": "Desert Vipers",
+   "domain": "thedesertvipers.com",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "ptiers": [
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-19",
+   "market": "Middle East"
+  },
   "desguaces-mora": {
    "name": "Desguaces Mora",
    "k": "b"
@@ -22441,6 +22488,10 @@
   "ellgren": {
    "name": "Ellgren",
    "k": "b"
+  },
+  "ellington-properties": {
+   "name": "Ellington Properties",
+   "cat": "Construction & property"
   },
   "elmac-cleaning-services": {
    "name": "Elmac Cleaning Services",
@@ -29505,6 +29556,21 @@
    "cat": "Media & broadcast",
    "k": "b"
   },
+  "gulf-giants": {
+   "name": "Gulf Giants",
+   "domain": "gulfgiants.com",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "ptiers": [
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-19",
+   "market": "Middle East"
+  },
   "gulf-oil": {
    "name": "Gulf Oil",
    "cat": "Energy & utilities",
@@ -35009,6 +35075,10 @@
    "name": "JA Kyosai",
    "k": "b"
   },
+  "ja-resorts-and-hotels": {
+   "name": "JA Resorts & Hotels",
+   "cat": "Airlines & travel"
+  },
   "jaaq": {
    "name": "JAAQ",
    "k": "b"
@@ -35463,6 +35533,9 @@
     "icon",
     "logo"
    ]
+  },
+  "jeetbuzz": {
+   "name": "JeetBuzz"
   },
   "jef-united-chiba": {
    "name": "JEF United Chiba",
@@ -42774,6 +42847,10 @@
    "cat": "Health & beauty",
    "k": "b"
   },
+  "mccone-properties": {
+   "name": "McCone Properties",
+   "cat": "Construction & property"
+  },
   "mccormack": {
    "name": "McCormack",
    "cat": "Other",
@@ -43799,6 +43876,22 @@
    "name": "Mi Costeñita",
    "k": "b"
   },
+  "mi-emirates": {
+   "name": "MI Emirates",
+   "domain": "miemirates.com",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "ptiers": [
+    "Principal partner",
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-19",
+   "market": "Middle East"
+  },
   "mi-london": {
    "name": "MI London",
    "domain": "milondon.co.uk",
@@ -44028,6 +44121,10 @@
     "Affiliate partner"
    ],
    "ptiersChecked": "2026-11-17"
+  },
+  "middlesex-university-dubai": {
+   "name": "Middlesex University Dubai",
+   "cat": "Tourism & government"
   },
   "midea": {
    "name": "Midea",
@@ -51587,6 +51684,9 @@
    "cat": "Tourism & government",
    "k": "b"
   },
+  "palmfit": {
+   "name": "PalmFit"
+  },
   "palms": {
    "name": "Palms",
    "k": "b"
@@ -55437,6 +55537,10 @@
    "name": "QCOM",
    "k": "b"
   },
+  "qe-dubai-sports-city": {
+   "name": "QE Dubai Sports City",
+   "cat": "Tourism & government"
+  },
   "qebs": {
    "name": "QEBS",
    "cat": "Other",
@@ -56340,6 +56444,10 @@
     "icon",
     "logo"
    ]
+  },
+  "raw-coffee-company": {
+   "name": "Raw Coffee Company",
+   "cat": "Non-alcoholic drinks"
   },
   "ray-white": {
    "name": "Ray White",
@@ -65433,6 +65541,10 @@
    "name": "Stylem",
    "k": "b"
   },
+  "styrex-by-fuelre4m": {
+   "name": "Styrex by Fuelre4m",
+   "cat": "Energy & utilities"
+  },
   "subaru": {
    "name": "Subaru",
    "cat": "Automotive",
@@ -67148,6 +67260,9 @@
   "taobao": {
    "name": "Taobao",
    "k": "b"
+  },
+  "taptap-send": {
+   "name": "Taptap Send"
   },
   "taradale-rsa": {
    "name": "Taradale RSA",
@@ -74674,6 +74789,9 @@
    ],
    "cat": "Airlines & travel",
    "k": "b"
+  },
+  "vuelta-carbon": {
+   "name": "Vuelta Carbon"
   },
   "vulcan-fitness": {
    "name": "Vulcan Fitness",
