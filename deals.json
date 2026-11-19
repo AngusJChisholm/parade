@@ -561,7 +561,9 @@
    "status": "Current partner",
    "market": "Rest of World",
    "ptier": "Naming rights",
-   "tier": "Naming rights"
+   "tier": "Naming rights",
+   "ttier": "T1",
+   "tbasis": "rights"
   },
   {
    "listed": "2026-11-19",
@@ -2901,7 +2903,9 @@
    "status": "Current partner",
    "market": "Rest of World",
    "ptier": "Official supplier",
-   "tier": "Official partner"
+   "tier": "Official partner",
+   "ttier": "T4",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-19",
@@ -2914,7 +2918,9 @@
    "status": "Current partner",
    "market": "Rest of World",
    "ptier": "Official supplier",
-   "tier": "Official partner"
+   "tier": "Official partner",
+   "ttier": "T4",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-19",
@@ -2927,7 +2933,9 @@
    "status": "Current partner",
    "market": "Rest of World",
    "ptier": "Official supplier",
-   "tier": "Official partner"
+   "tier": "Official partner",
+   "ttier": "T4",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-19",
@@ -2940,7 +2948,9 @@
    "status": "Current partner",
    "market": "Rest of World",
    "ptier": "Official supplier",
-   "tier": "Official partner"
+   "tier": "Official partner",
+   "ttier": "T4",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-19",
@@ -42567,7 +42577,7 @@
    "sport": "Sailing",
    "type": "Title partner",
    "region": "ANZ",
-   "summary": "ITM titles the ITM New Zealand Sail Grand Prix in Auckland (2025 and 2026). Auckland is not on the 2027 calendar.",
+   "summary": "When SailGP confirmed it would return to Auckland for Season 6, ITM was confirmed as title partner of the New Zealand Sail Grand Prix for a fourth year. This continues the multi-year partnership first signed in Season 3.",
    "url": "https://www.sail-world.com/news/287465/SailGPs-return-to-Auckland-for-Season-6-confirmed",
    "tier": "Title sponsor",
    "status": "Current partner",
@@ -42576,8 +42586,13 @@
    "verified": "2026-11-18",
    "conf": "Reported",
    "ptier": "Title partner",
+   "date": "2025-06-26",
+   "rights": [
+    "Title partner of the New Zealand Sail Grand Prix (Auckland)"
+   ],
+   "rightsSrc": "https://www.sail-world.com/news/287465/SailGPs-return-to-Auckland-for-Season-6-confirmed",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-18",
@@ -46600,6 +46615,7 @@
    "conf": "Confirmed",
    "verified": "2026-11-18",
    "ptier": "Naming Rights Partner",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "rights"
   },
@@ -182693,6 +182709,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -182710,6 +182727,7 @@
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "rights"
   },
@@ -182727,6 +182745,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -182787,16 +182806,28 @@
    "sport": "Rugby union",
    "type": "Naming rights",
    "region": "ANZ",
-   "summary": "Listed as a npc naming rights & jersey sponsor on Waikato Rugby's official partners page.",
-   "url": "https://www.mooloo.co.nz/commercial/commercial-partner-family",
+   "summary": "Livingstone Building signed a three-year partnership from the 2025 season as naming rights and front of jersey sponsor of the Waikato NPC team, with support for rugby development across the region.",
+   "url": "https://www.mooloo.co.nz/newsarticle/153756",
    "status": "Current partner",
    "market": "ANZ",
    "ptier": "NPC naming rights & jersey sponsor",
    "tier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2025-05-23",
+   "term": 3,
+   "ends": 2027,
+   "endsLock": true,
+   "endsSrc": "https://www.mooloo.co.nz/newsarticle/153756",
+   "rights": [
+    "Waikato NPC team naming rights",
+    "Waikato NPC front of jersey"
+   ],
+   "rightsSrc": "https://www.mooloo.co.nz/newsarticle/153756",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced",
+   "tends": 2027,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-16",
@@ -183412,6 +183443,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -186406,6 +186438,7 @@
    "tier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "rights"
   },
@@ -186423,6 +186456,7 @@
    "tier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "rights"
   },
@@ -186440,6 +186474,7 @@
    "tier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "rights"
   },
@@ -186457,6 +186492,7 @@
    "tier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "rights"
   },
@@ -186474,6 +186510,7 @@
    "tier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "rights"
   },
@@ -186491,6 +186528,7 @@
    "tier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "rights"
   },
@@ -186508,6 +186546,7 @@
    "tier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "rights"
   },
@@ -186559,6 +186598,7 @@
    "tier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "rights"
   },
@@ -186610,6 +186650,7 @@
    "tier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "rights"
   },
@@ -186627,6 +186668,7 @@
    "tier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "rights"
   },
@@ -186644,6 +186686,7 @@
    "tier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "rights"
   },
@@ -186695,6 +186738,7 @@
    "tier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "rights"
   },
@@ -186712,6 +186756,7 @@
    "tier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "rights"
   },
@@ -186729,6 +186774,7 @@
    "tier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "rights"
   },
@@ -186789,16 +186835,27 @@
    "sport": "Rugby union",
    "type": "Naming rights",
    "region": "ANZ",
-   "summary": "Listed as a platinum naming rights partner on Taranaki Rugby's official partners page.",
-   "url": "https://trfu.co.nz/pages/commercial-partners",
+   "summary": "Tasman Toyota extended its vehicle partner role with Taranaki Rugby for four more years, through 2027.",
+   "url": "https://trfu.co.nz/blogs/news/taranaki-rugby-and-tasman-toyota-extend-their-long-standing-partnership",
    "status": "Current partner",
    "market": "ANZ",
    "ptier": "Platinum naming rights partner",
    "tier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2023-04-12",
+   "term": 4,
+   "ends": 2027,
+   "endsLock": true,
+   "endsSrc": "https://trfu.co.nz/blogs/news/taranaki-rugby-and-tasman-toyota-extend-their-long-standing-partnership",
+   "rights": [
+    "official vehicle partner"
+   ],
+   "rightsSrc": "https://trfu.co.nz/blogs/news/taranaki-rugby-and-tasman-toyota-extend-their-long-standing-partnership",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced",
+   "tends": 2027,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-16",
@@ -186814,6 +186871,7 @@
    "tier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "rights"
   },
@@ -186840,16 +186898,27 @@
    "sport": "Rugby union",
    "type": "Naming rights",
    "region": "ANZ",
-   "summary": "Listed as a platinum naming rights partner on Taranaki Rugby's official partners page.",
-   "url": "https://trfu.co.nz/pages/commercial-partners",
+   "summary": "Warner Construction signed a two-year extension as Yarrows Taranaki Bulls sleeve partner, covering the 2025 and 2026 seasons.",
+   "url": "https://www.trfu.co.nz/newsarticle/153824",
    "status": "Current partner",
    "market": "ANZ",
    "ptier": "Platinum naming rights partner",
    "tier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2025-05-26",
+   "term": 2,
+   "ends": 2026,
+   "endsLock": true,
+   "endsSrc": "https://www.trfu.co.nz/newsarticle/153824",
+   "rights": [
+    "left sleeve of Yarrows Taranaki Bulls playing and replica jerseys"
+   ],
+   "rightsSrc": "https://www.trfu.co.nz/newsarticle/153824",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced",
+   "tends": 2026,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-16",
@@ -186857,16 +186926,23 @@
    "sport": "Rugby union",
    "type": "Naming rights",
    "region": "ANZ",
-   "summary": "Listed as a platinum naming rights partner on Taranaki Rugby's official partners page.",
-   "url": "https://trfu.co.nz/pages/commercial-partners",
+   "summary": "Downer became partner of the Taranaki Rugby Academy; no term given.",
+   "url": "https://trfu.co.nz/blogs/news/downer-partners-with-taranaki-rugby-academy-to-back-the-future-of-the-regions-talent",
    "status": "Current partner",
    "market": "ANZ",
    "ptier": "Platinum naming rights partner",
    "tier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2026-06-02",
+   "rights": [
+    "partner of the Taranaki Rugby Academy"
+   ],
+   "rightsSrc": "https://trfu.co.nz/blogs/news/downer-partners-with-taranaki-rugby-academy-to-back-the-future-of-the-regions-talent",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced",
+   "tends": 2029,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-11-16",
@@ -186874,16 +186950,28 @@
    "sport": "Rugby union",
    "type": "Naming rights",
    "region": "ANZ",
-   "summary": "Listed as a platinum naming rights partner on Taranaki Rugby's official partners page.",
-   "url": "https://trfu.co.nz/pages/commercial-partners",
+   "summary": "CMK signed a two-year extension as naming rights partner of Taranaki club rugby (CMK Club Rugby), with sleeve and Bulls replacement-jersey branding.",
+   "url": "https://trfu.co.nz/blogs/news/cmk-chartered-accountants-extend-as-taranaki-club-rugby-naming-rights-partner",
    "status": "Current partner",
    "market": "ANZ",
    "ptier": "Platinum naming rights partner",
    "tier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2025-03-24",
+   "term": 2,
+   "ends": 2027,
+   "endsEst": true,
+   "rights": [
+    "naming rights to Taranaki club rugby (CMK Club Rugby)",
+    "sleeves of CMK Premiership playing jerseys",
+    "upper back of Yarrows Taranaki Bulls replacement player jerseys"
+   ],
+   "rightsSrc": "https://trfu.co.nz/blogs/news/cmk-chartered-accountants-extend-as-taranaki-club-rugby-naming-rights-partner",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced",
+   "tends": 2027,
+   "tendsBasis": "term"
   },
   {
    "listed": "2026-11-16",
@@ -186959,8 +187047,16 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "term": 3,
+   "datesTried": "2026-11-19",
+   "rights": [
+    "official hotel, conferencing and event venue",
+    "Yarrows Taranaki Bulls playing shorts",
+    "upper back of the No.8 jersey"
+   ],
+   "rightsSrc": "https://www.nzherald.co.nz/stratford-press/news/the-devon-hotel-signs-on-as-a-taranaki-rugby-major-partner/AYDPVMBV4DQ4C7XWANXMVIO6SY/",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-16",
@@ -186968,16 +187064,27 @@
    "sport": "Rugby union",
    "type": "Major partner",
    "region": "ANZ",
-   "summary": "Listed as a major partner on Taranaki Rugby's official partners page.",
-   "url": "https://trfu.co.nz/pages/commercial-partners",
+   "summary": "Taranaki Steelformers signed a three-year major partnership covering the lower back of Bulls jerseys and naming of the training facility.",
+   "url": "https://trfu.co.nz/blogs/news/taranaki-steelformers-sign-on-as-a-taranaki-rugby-major-partner",
    "status": "Current partner",
    "market": "ANZ",
    "ptier": "Major partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2026-02-04",
+   "term": 3,
+   "ends": 2029,
+   "endsEst": true,
+   "rights": [
+    "lower back of all Yarrows Taranaki Bulls jerseys",
+    "naming rights to the training facility (Te Whare Pūngao o Ngā-motu presented by Taranaki Steelformers)"
+   ],
+   "rightsSrc": "https://trfu.co.nz/blogs/news/taranaki-steelformers-sign-on-as-a-taranaki-rugby-major-partner",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2029,
+   "tendsBasis": "term"
   },
   {
    "listed": "2026-11-16",
@@ -186985,16 +187092,27 @@
    "sport": "Rugby union",
    "type": "Major partner",
    "region": "ANZ",
-   "summary": "Listed as a major partner on Taranaki Rugby's official partners page.",
-   "url": "https://trfu.co.nz/pages/commercial-partners",
+   "summary": "Canterbury of New Zealand extended as official apparel supplier and major partner for three years, until the end of 2028.",
+   "url": "https://trfu.co.nz/blogs/news/taranaki-rugby-and-canterbury-of-new-zealand-extend-long-standing-major-partnership",
    "status": "Current partner",
    "market": "ANZ",
    "ptier": "Major partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2025-11-07",
+   "term": 3,
+   "ends": 2028,
+   "endsLock": true,
+   "endsSrc": "https://trfu.co.nz/blogs/news/taranaki-rugby-and-canterbury-of-new-zealand-extend-long-standing-major-partnership",
+   "rights": [
+    "official apparel supplier"
+   ],
+   "rightsSrc": "https://trfu.co.nz/blogs/news/taranaki-rugby-and-canterbury-of-new-zealand-extend-long-standing-major-partnership",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2028,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-16",
@@ -187002,16 +187120,27 @@
    "sport": "Rugby union",
    "type": "Principal partner",
    "region": "ANZ",
-   "summary": "Listed as a principal partner on Taranaki Rugby's official partners page.",
-   "url": "https://trfu.co.nz/pages/commercial-partners",
+   "summary": "Yarrows the Bakers recommitted as principal partner for the 2026 to 2028 seasons, including naming rights to the Yarrows Taranaki Bulls.",
+   "url": "https://trfu.co.nz/blogs/news/yarrows-the-bakers-recommit-as-taranaki-rugby-principal-partner-for-a-further-three-years",
    "status": "Current partner",
    "market": "ANZ",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2026-03-16",
+   "term": 3,
+   "ends": 2028,
+   "endsLock": true,
+   "endsSrc": "https://trfu.co.nz/blogs/news/yarrows-the-bakers-recommit-as-taranaki-rugby-principal-partner-for-a-further-three-years",
+   "rights": [
+    "naming rights to the Yarrows Taranaki Bulls"
+   ],
+   "rightsSrc": "https://trfu.co.nz/blogs/news/yarrows-the-bakers-recommit-as-taranaki-rugby-principal-partner-for-a-further-three-years",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2028,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-16",
@@ -187639,7 +187768,9 @@
    ],
    "rightsSrc": "https://www.alliance.co.nz/alliance-group-forges-perfect-match-with-the-southland-stags/",
    "ttier": "T2",
-   "tbasis": "sourced"
+   "tbasis": "sourced",
+   "tends": 2029,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-11-16",
@@ -187661,7 +187792,9 @@
    ],
    "rightsSrc": "https://rugbysouthland.co.nz/newsarticle/139706",
    "ttier": "T2",
-   "tbasis": "sourced"
+   "tbasis": "sourced",
+   "tends": 2027,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-11-16",
@@ -200118,6 +200251,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -200152,6 +200286,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -200169,6 +200304,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -200186,6 +200322,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -200195,16 +200332,27 @@
    "sport": "Netball",
    "type": "Major partner",
    "region": "ANZ",
-   "summary": "Listed as a major partner on Waikato Bay of Plenty Magic's official partners page.",
-   "url": "https://www.netballmagic.co.nz/magic/partners.html",
+   "summary": "Struddys signed a three-year apparel partnership to supply the Magic's sports kit over the 2024 to 2026 seasons.",
+   "url": "https://netballmagic.co.nz/magic/news/avis-magic-announce-new-apparel-partnership-with-struddys.html",
    "status": "Current partner",
    "market": "ANZ",
    "ptier": "Major partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2024-02-16",
+   "term": 3,
+   "ends": 2026,
+   "endsLock": true,
+   "endsSrc": "https://netballmagic.co.nz/magic/news/avis-magic-announce-new-apparel-partnership-with-struddys.html",
+   "rights": [
+    "Official apparel and kit supplier"
+   ],
+   "rightsSrc": "https://netballmagic.co.nz/magic/news/avis-magic-announce-new-apparel-partnership-with-struddys.html",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2026,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-16",
@@ -200212,16 +200360,27 @@
    "sport": "Netball",
    "type": "Naming rights",
    "region": "ANZ",
-   "summary": "Listed as a naming partner on Waikato Bay of Plenty Magic's official partners page.",
-   "url": "https://www.netballmagic.co.nz/magic/partners.html",
+   "summary": "Avis re-signed as naming partner of the Magic (Avis Magic) for the 2026 season, its fourth year.",
+   "url": "https://netballmagic.co.nz/magic/news/avis-re-signed-as-a-naming-partner-for-the-2026-season.html",
    "status": "Current partner",
    "market": "ANZ",
    "ptier": "Naming partner",
    "tier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2026-01-29",
+   "term": 1,
+   "ends": 2026,
+   "endsLock": true,
+   "endsSrc": "https://netballmagic.co.nz/magic/news/avis-re-signed-as-a-naming-partner-for-the-2026-season.html",
+   "rights": [
+    "Team naming rights (Avis Magic)"
+   ],
+   "rightsSrc": "https://netballmagic.co.nz/magic/news/avis-re-signed-as-a-naming-partner-for-the-2026-season.html",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced",
+   "tends": 2026,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-16",
@@ -209494,8 +209653,8 @@
    "sport": "Rugby union",
    "type": "Principal partner",
    "region": "ANZ",
-   "summary": "Cadbury is the Official Principal Partner of the Wallabies.",
-   "url": "https://www.rugby.com.au/wallabies/partners/wallabies",
+   "summary": "Cadbury extended its principal partnership of the Wallabies and Wallaroos, first signed in 2021 as a five-year agreement, through to the end of 2029, adding grassroots club equipment grants.",
+   "url": "https://www.rugby.com.au/news/cadbury-renews-wallabies-major-sponsorship-until-end-of-2029-202474",
    "tier": "Principal & major",
    "status": "Current partner",
    "ptier": "Principal partner",
@@ -209504,8 +209663,20 @@
    "checked": "2026-11-16",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2024-07-04",
+   "ends": 2029,
+   "endsLock": true,
+   "endsSrc": "https://www.rugby.com.au/news/cadbury-renews-wallabies-major-sponsorship-until-end-of-2029-202474",
+   "term": 5,
+   "rights": [
+    "Principal partner of the Wallabies",
+    "Principal partner of the Wallaroos"
+   ],
+   "rightsSrc": "https://www.rugby.com.au/news/cadbury-renews-wallabies-major-sponsorship-until-end-of-2029-202474",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2029,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-16",
@@ -209524,6 +209695,7 @@
    "checked": "2026-11-16",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -209534,8 +209706,8 @@
    "sport": "Rugby union",
    "type": "Major partner",
    "region": "ANZ",
-   "summary": "Castore is the Official Major Partner of the Wallabies.",
-   "url": "https://www.rugby.com.au/wallabies/partners/wallabies",
+   "summary": "Castore became Rugby Australia's Official Technical Kit Partner for all national teams, including the Wallabies and Wallaroos, from January 2026 until at least the end of 2030.",
+   "url": "https://australia.rugby/news/rugby-australia-and-castore-announce-new-landmark-partnership-2026123",
    "tier": "Principal & major",
    "status": "Current partner",
    "ptier": "Major partner",
@@ -209544,8 +209716,22 @@
    "checked": "2026-11-16",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2026-01-23",
+   "term": 5,
+   "ends": 2030,
+   "endsLock": true,
+   "endsSrc": "https://australia.rugby/news/rugby-australia-and-castore-announce-new-landmark-partnership-2026123",
+   "rights": [
+    "Official Technical Kit Partner",
+    "match kit, training wear and travel apparel supplier",
+    "official supplier at home Rugby World Cups 2027 and 2029",
+    "integrated retail operation"
+   ],
+   "rightsSrc": "https://australia.rugby/news/rugby-australia-and-castore-announce-new-landmark-partnership-2026123",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2030,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-16",
@@ -209554,8 +209740,8 @@
    "sport": "Rugby union",
    "type": "Major partner",
    "region": "ANZ",
-   "summary": "Defender is the Official Major Partner of the Wallabies.",
-   "url": "https://www.rugby.com.au/wallabies/partners/wallabies",
+   "summary": "Rugby Australia renewed its major partnership with Defender for another three years, until the end of 2027, with Defender continuing as official vehicle of the Wallabies.",
+   "url": "https://australia.rugby/news/rugby-australia-extends-partnership-with-defender-20241119",
    "tier": "Principal & major",
    "status": "Current partner",
    "ptier": "Major partner",
@@ -209564,8 +209750,19 @@
    "checked": "2026-11-16",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2024-11-22",
+   "term": 3,
+   "ends": 2027,
+   "endsLock": true,
+   "endsSrc": "https://australia.rugby/news/rugby-australia-extends-partnership-with-defender-20241119",
+   "rights": [
+    "official vehicle of the Wallabies"
+   ],
+   "rightsSrc": "https://australia.rugby/news/rugby-australia-extends-partnership-with-defender-20241119",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2027,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-16",
@@ -209574,8 +209771,8 @@
    "sport": "Rugby union",
    "type": "Major partner",
    "region": "ANZ",
-   "summary": "IHG is the Official Major Partner of the Wallabies.",
-   "url": "https://www.rugby.com.au/wallabies/partners/wallabies",
+   "summary": "IHG Hotels & Resorts extended its two-decade partnership with Rugby Australia by three years as Official Hotel Partner of the Wallabies and Wallaroos, through at least the end of 2028.",
+   "url": "https://australia.rugby/news/rugby-australia-and-ihg-extend-twodecade-long-partnership-202671",
    "tier": "Principal & major",
    "status": "Current partner",
    "ptier": "Major partner",
@@ -209584,8 +209781,22 @@
    "checked": "2026-11-16",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "month": "2026-07",
+   "term": 3,
+   "ends": 2028,
+   "endsLock": true,
+   "endsSrc": "https://australia.rugby/news/rugby-australia-and-ihg-extend-twodecade-long-partnership-202671",
+   "rights": [
+    "Official Hotel Partner",
+    "logo on Wallabies match shorts",
+    "stadium big screen and LED perimeter signage at Tests",
+    "virtual grass signage in Wallabies broadcasts"
+   ],
+   "rightsSrc": "https://australia.rugby/news/rugby-australia-and-ihg-extend-twodecade-long-partnership-202671",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2028,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-16",
@@ -210121,8 +210332,8 @@
    "sport": "Rugby union",
    "type": "Principal partner",
    "region": "ANZ",
-   "summary": "Cadbury is the Official Principal Partner of the Wallaroos.",
-   "url": "https://www.rugby.com.au/wallaroos/about/partners",
+   "summary": "Cadbury became Principal Partner of the Wallaroos in a six-year agreement running through the 2029 home Women's Rugby World Cup, with its logo on the front of the jersey.",
+   "url": "https://australia.rugby/news/cadbury-boosts-longterm-commitment-to-the-wallaroos-2024421",
    "tier": "Principal & major",
    "status": "Current partner",
    "ptier": "Principal partner",
@@ -210131,8 +210342,19 @@
    "checked": "2026-11-16",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "month": "2024-04",
+   "term": 6,
+   "ends": 2029,
+   "endsLock": true,
+   "endsSrc": "https://australia.rugby/news/cadbury-boosts-longterm-commitment-to-the-wallaroos-2024421",
+   "rights": [
+    "front of jersey"
+   ],
+   "rightsSrc": "https://australia.rugby/news/cadbury-boosts-longterm-commitment-to-the-wallaroos-2024421",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2029,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-16",
@@ -210151,6 +210373,7 @@
    "checked": "2026-11-16",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -210161,8 +210384,8 @@
    "sport": "Rugby union",
    "type": "Major partner",
    "region": "ANZ",
-   "summary": "Castore is the Official Major Partner of the Wallaroos.",
-   "url": "https://www.rugby.com.au/wallaroos/about/partners",
+   "summary": "Castore became Rugby Australia's Official Technical Kit Partner for all national teams, including the Wallabies and Wallaroos, from January 2026 until at least the end of 2030.",
+   "url": "https://australia.rugby/news/rugby-australia-and-castore-announce-new-landmark-partnership-2026123",
    "tier": "Principal & major",
    "status": "Current partner",
    "ptier": "Major partner",
@@ -210171,8 +210394,22 @@
    "checked": "2026-11-16",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2026-01-23",
+   "term": 5,
+   "ends": 2030,
+   "endsLock": true,
+   "endsSrc": "https://australia.rugby/news/rugby-australia-and-castore-announce-new-landmark-partnership-2026123",
+   "rights": [
+    "Official Technical Kit Partner",
+    "match kit, training wear and travel apparel supplier",
+    "official supplier at home Rugby World Cups 2027 and 2029",
+    "integrated retail operation"
+   ],
+   "rightsSrc": "https://australia.rugby/news/rugby-australia-and-castore-announce-new-landmark-partnership-2026123",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2030,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-16",
@@ -210181,8 +210418,8 @@
    "sport": "Rugby union",
    "type": "Major partner",
    "region": "ANZ",
-   "summary": "IHG is the Official Major Partner of the Wallaroos.",
-   "url": "https://www.rugby.com.au/wallaroos/about/partners",
+   "summary": "IHG Hotels & Resorts extended its two-decade partnership with Rugby Australia by three years as Official Hotel Partner of the Wallabies and Wallaroos, through at least the end of 2028.",
+   "url": "https://australia.rugby/news/rugby-australia-and-ihg-extend-twodecade-long-partnership-202671",
    "tier": "Principal & major",
    "status": "Current partner",
    "ptier": "Major partner",
@@ -210191,8 +210428,20 @@
    "checked": "2026-11-16",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "month": "2026-07",
+   "term": 3,
+   "ends": 2028,
+   "endsLock": true,
+   "endsSrc": "https://australia.rugby/news/rugby-australia-and-ihg-extend-twodecade-long-partnership-202671",
+   "rights": [
+    "Official Hotel Partner",
+    "stadium big screen and LED perimeter signage at Wallaroos Tests"
+   ],
+   "rightsSrc": "https://australia.rugby/news/rugby-australia-and-ihg-extend-twodecade-long-partnership-202671",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2028,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-16",
@@ -266407,6 +266656,7 @@
     "front of AFL guernsey"
    ],
    "rightsSrc": "https://www.westcoasteagles.com.au/news/1725806/cowin-announced-as-west-coasts-new-no1-ticketholder",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "sourced"
   },
@@ -275393,6 +275643,7 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-05",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -275410,6 +275661,7 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-05",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -275419,16 +275671,27 @@
    "sport": "NRL",
    "type": "Premier partner",
    "region": "ANZ",
-   "summary": "Listed as a premier partner on the club's official partners page.",
-   "url": "https://www.weststigers.com.au/about/partners/",
+   "summary": "McDonald's upgraded and extended its Wests Tigers partnership with a three-year agreement that puts the golden arches on the back of the NRL playing shorts until at least the end of the 2028 season.",
+   "url": "https://www.weststigers.com.au/news/2026/02/26/maccas-upgrades-and-extends-partnership-with-wests-tigers/",
    "tier": "Principal & major",
    "status": "Current partner",
    "ptier": "Premier partner",
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-05",
+   "date": "2026-02-26",
+   "term": 3,
+   "ends": 2028,
+   "endsLock": true,
+   "endsSrc": "https://www.weststigers.com.au/news/2026/02/26/maccas-upgrades-and-extends-partnership-with-wests-tigers/",
+   "rights": [
+    "Back of NRL playing shorts"
+   ],
+   "rightsSrc": "https://www.weststigers.com.au/news/2026/02/26/maccas-upgrades-and-extends-partnership-with-wests-tigers/",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2028,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-10-30",
@@ -275444,6 +275707,7 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-05",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -277861,8 +278125,8 @@
    "sport": "Basketball",
    "type": "Principal partner",
    "region": "ANZ",
-   "summary": "Listed as a principal partner on the club's official partners page.",
-   "url": "https://www.jackjumpers.com.au/partners",
+   "summary": "Spirit of Tasmania committed for five years as foundation principal partner on the front of the home and away jersey, until at least the 2026/27 NBL season.",
+   "url": "https://www.spiritoftasmania.com.au/media-releases/foundation-principal-partner-spirit-of-tasmania-on-board-for-five-years",
    "tier": "Principal & major",
    "status": "Current partner",
    "ptier": "Foundation principal partner",
@@ -277870,8 +278134,19 @@
    "checked": "2026-11-16",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2022-09-07",
+   "term": 5,
+   "ends": 2027,
+   "endsLock": true,
+   "endsSrc": "https://www.spiritoftasmania.com.au/media-releases/foundation-principal-partner-spirit-of-tasmania-on-board-for-five-years",
+   "rights": [
+    "front chest of home and away jersey"
+   ],
+   "rightsSrc": "https://www.spiritoftasmania.com.au/media-releases/foundation-principal-partner-spirit-of-tasmania-on-board-for-five-years",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2027,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-10-30",
@@ -277906,8 +278181,14 @@
    "checked": "2026-11-16",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "term": 3,
+   "datesTried": "2026-11-19",
+   "rights": [
+    "upper back of jersey"
+   ],
+   "rightsSrc": "https://www.jackjumpers.com.au/news/jackjumpers-foundation-partners-in-for-the-long-haul",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-10-30",
@@ -277924,6 +278205,7 @@
    "checked": "2026-11-16",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -277942,6 +278224,7 @@
    "checked": "2026-11-16",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -279709,8 +279992,8 @@
    "sport": "Netball",
    "type": "Principal partner",
    "region": "ANZ",
-   "summary": "Listed as a principal partner on the club's official partners page.",
-   "url": "https://westcoastfever.com.au/partners",
+   "summary": "Fortescue joined West Coast Fever as Principal Partner for four seasons, also backing Netball WA's Aboriginal and Torres Strait Islander participation and pathway program.",
+   "url": "https://westcoastfever.com.au/news/fortescue-joins-green-army",
    "tier": "Principal & major",
    "status": "Current partner",
    "ptier": "Principal partner",
@@ -279718,8 +280001,14 @@
    "checked": "2026-11-16",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2022-11-24",
+   "term": 4,
+   "ends": 2026,
+   "endsEst": true,
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "role",
+   "tends": 2026,
+   "tendsBasis": "term"
   },
   {
    "listed": "2026-10-30",
@@ -279736,6 +280025,7 @@
    "checked": "2026-11-16",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "role"
   },
@@ -280875,16 +281165,30 @@
    "sport": "Horse racing",
    "type": "Principal partner",
    "region": "ANZ",
-   "summary": "Listed as a principal partner on the VRC's official partners page.",
-   "url": "https://www.vrc.com.au/media-sponsors/our-partners/",
+   "summary": "Lexus signed a three-year extension as VRC Principal Partner, keeping naming rights to the Melbourne Cup, Melbourne Cup Day and the Melbourne Cup Tour until 2027.",
+   "url": "https://cms.vrc.com.au/latest-news/lexus-australia-extends-partnership-as-principal-partner-of-the-victoria-racing-club-and-the-melbourne-cup/",
    "tier": "Principal & major",
    "status": "Current partner",
    "ptier": "Principal partner",
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-02",
+   "date": "2025-03-28",
+   "term": 3,
+   "ends": 2027,
+   "endsLock": true,
+   "endsSrc": "https://cms.vrc.com.au/latest-news/lexus-australia-extends-partnership-as-principal-partner-of-the-victoria-racing-club-and-the-melbourne-cup/",
+   "rights": [
+    "Naming rights to the Melbourne Cup race",
+    "Naming rights to Melbourne Cup Day",
+    "Naming rights to the Lexus Melbourne Cup Tour",
+    "Naming rights to golden ticket races (Roy Higgins, Andrew Ramsden, Archer Stakes, Bart Cummings)"
+   ],
+   "rightsSrc": "https://cms.vrc.com.au/latest-news/lexus-australia-extends-partnership-as-principal-partner-of-the-victoria-racing-club-and-the-melbourne-cup/",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2027,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-02",
@@ -280892,16 +281196,28 @@
    "sport": "Horse racing",
    "type": "Major partner",
    "region": "ANZ",
-   "summary": "Listed as a major partner on the VRC's official partners page.",
-   "url": "https://www.vrc.com.au/media-sponsors/our-partners/",
+   "summary": "VRC, Tabcorp (TAB) and Nine agreed a partnership for the Melbourne Cup Carnival from 2024 to 2029, combining year-round sponsorship with domestic and international media rights.",
+   "url": "https://cms.vrc.com.au/latest-news/victoria-racing-club-tabcorp-and-nine-enter-landmark-deal-for-melbourne-cup-carnival/",
    "tier": "Principal & major",
    "status": "Current partner",
    "ptier": "Major partner",
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-02",
+   "date": "2024-02-20",
+   "ends": 2029,
+   "endsLock": true,
+   "endsSrc": "https://cms.vrc.com.au/latest-news/victoria-racing-club-tabcorp-and-nine-enter-landmark-deal-for-melbourne-cup-carnival/",
+   "rights": [
+    "Exclusive wagering integration partner for Nine's Melbourne Cup Carnival broadcast",
+    "Carnival coverage on SKY platforms and the TAB app, with right to on-sell to wagering providers",
+    "Year-round sponsorship"
+   ],
+   "rightsSrc": "https://cms.vrc.com.au/latest-news/victoria-racing-club-tabcorp-and-nine-enter-landmark-deal-for-melbourne-cup-carnival/",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2029,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-10-30",
@@ -280909,8 +281225,8 @@
    "sport": "Cycling",
    "type": "Naming rights",
    "region": "ANZ",
-   "summary": "Listed as a naming rights on the event's official partners page.",
-   "url": "https://tourdownunder.com.au/about/partners",
+   "summary": "Santos signed a new three-year naming rights sponsorship of the Santos Tour Down Under, announced during the event's 25th anniversary edition; the editions covered are not stated.",
+   "url": "https://tourdownunder.com.au/blog-articles/santos-extends-partnership-for-another-three-years",
    "tier": "Naming rights",
    "status": "Current partner",
    "ptier": "Naming rights",
@@ -280918,8 +281234,18 @@
    "conf": "Confirmed",
    "verified": "2026-11-17",
    "checked": "2026-11-17",
+   "date": "2025-01-24",
+   "term": 3,
+   "ends": 2028,
+   "endsEst": true,
+   "rights": [
+    "naming rights to the Tour Down Under"
+   ],
+   "rightsSrc": "https://tourdownunder.com.au/blog-articles/santos-extends-partnership-for-another-three-years",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced",
+   "tends": 2028,
+   "tendsBasis": "term"
   },
   {
    "listed": "2026-10-30",
@@ -291634,6 +291960,7 @@
    "status": "Current partner",
    "conf": "Confirmed",
    "verified": "2026-11-12",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -291651,6 +291978,7 @@
    "status": "Current partner",
    "conf": "Confirmed",
    "verified": "2026-11-12",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -292337,6 +292665,7 @@
    "status": "Current partner",
    "conf": "Confirmed",
    "verified": "2026-11-14",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "role"
   },
@@ -292355,6 +292684,7 @@
    "status": "Current partner",
    "conf": "Confirmed",
    "verified": "2026-11-14",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "role"
   },
@@ -292373,6 +292703,7 @@
    "status": "Current partner",
    "conf": "Confirmed",
    "verified": "2026-11-14",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "role"
   },
