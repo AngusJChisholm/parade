@@ -6,6 +6,19 @@
  "deals": [
   {
    "listed": "2026-11-19",
+   "deal": "Myer × United Cup",
+   "sport": "Tennis",
+   "type": "Official partner",
+   "region": "ANZ",
+   "summary": "Listed as an official partner on United Cup's official partners page.",
+   "url": "https://www.unitedcup.com/en/about/partners",
+   "status": "Current partner",
+   "market": "ANZ",
+   "ptier": "Official partner",
+   "tier": "Official partner"
+  },
+  {
+   "listed": "2026-11-19",
    "deal": "Gaby Mora × UC Capitals",
    "sport": "Basketball",
    "type": "Official partner",
@@ -219381,7 +219394,7 @@
    "url": "https://www.emirates.com/media-centre/emirates-and-world-rugby-commit-to-new-decade-together-cementing-one-of-rugbys-longest-running-partnerships/",
    "status": "Current partner",
    "tier": "Principal & major",
-   "ptier": "Principal Partners",
+   "ptier": "Worldwide partner",
    "conf": "Confirmed",
    "verified": "2026-11-16",
    "date": "2025-11-27",
@@ -219396,7 +219409,8 @@
    "ttier": "T1",
    "tbasis": "sourced",
    "tends": 2035,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "checked": "2026-11-19"
   },
   {
    "sport": "Rugby union",
@@ -219410,9 +219424,10 @@
    "url": "https://www.rugbyworldcup.com/2027/en/partners/liqui-moly",
    "status": "Current partner",
    "tier": "Official partner",
-   "ptier": "Official Partners",
+   "ptier": "Official sponsor and supplier",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "checked": "2026-11-19"
   },
   {
    "sport": "Rugby union",
@@ -219426,11 +219441,12 @@
    "url": "https://www.rugbyworldcup.com/2027/en/partners/macron",
    "status": "Current partner",
    "tier": "Official partner",
-   "ptier": "Official Suppliers & Supporters",
+   "ptier": "Official sponsor and supplier",
    "conf": "Confirmed",
    "verified": "2026-11-16",
    "ttier": "T4",
-   "tbasis": "role"
+   "tbasis": "role",
+   "checked": "2026-11-19"
   },
   {
    "sport": "Rugby union",
@@ -219444,11 +219460,12 @@
    "url": "https://www.rugbyworldcup.com/2027/en/partners/lipovitand",
    "status": "Current partner",
    "tier": "Official partner",
-   "ptier": "Official Suppliers & Supporters",
+   "ptier": "Official sponsor and supplier",
    "conf": "Confirmed",
    "verified": "2026-11-16",
    "ttier": "T4",
-   "tbasis": "role"
+   "tbasis": "role",
+   "checked": "2026-11-19"
   },
   {
    "sport": "Rugby union",
@@ -219462,11 +219479,12 @@
    "url": "https://www.rugbyworldcup.com/2027/en/partners/mitsubishi",
    "status": "Current partner",
    "tier": "Official partner",
-   "ptier": "Official Suppliers & Supporters",
+   "ptier": "Official sponsor and supplier",
    "conf": "Confirmed",
    "verified": "2026-11-16",
    "ttier": "T4",
-   "tbasis": "role"
+   "tbasis": "role",
+   "checked": "2026-11-19"
   },
   {
    "sport": "Rugby union",
@@ -219480,11 +219498,12 @@
    "url": "https://www.rugbyworldcup.com/2027/en/partners/meiji",
    "status": "Current partner",
    "tier": "Official partner",
-   "ptier": "Official Suppliers & Supporters",
+   "ptier": "Official sponsor and supplier",
    "conf": "Confirmed",
    "verified": "2026-11-16",
    "ttier": "T4",
-   "tbasis": "role"
+   "tbasis": "role",
+   "checked": "2026-11-19"
   },
   {
    "sport": "Rugby union",
@@ -219516,11 +219535,12 @@
    "url": "https://www.rugbyworldcup.com/2027/en/partners/ticketmaster",
    "status": "Current partner",
    "tier": "Official partner",
-   "ptier": "Official Suppliers & Supporters",
+   "ptier": "Official sponsor and supplier",
    "conf": "Confirmed",
    "verified": "2026-11-16",
    "ttier": "T4",
-   "tbasis": "role"
+   "tbasis": "role",
+   "checked": "2026-11-19"
   },
   {
    "sport": "Rugby union",
@@ -224669,7 +224689,7 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2025-10-23",
-   "ended": 2025
+   "ptier": "Official partner"
   },
   {
    "date": "2023-11-03",
@@ -224690,7 +224710,8 @@
    "ttier": "T1",
    "tbasis": "rights",
    "tends": 2026,
-   "tendsBasis": "term"
+   "tendsBasis": "term",
+   "ptier": "Major partner"
   },
   {
    "date": "2025-07-02",
@@ -224709,7 +224730,9 @@
    "conf": "Confirmed",
    "verified": "2025-07-02",
    "tends": 2035,
-   "tendsBasis": "term"
+   "tendsBasis": "term",
+   "ptier": "Official partner",
+   "checked": "2026-11-19"
   },
   {
    "listed": "2026-11-04",
@@ -224755,7 +224778,8 @@
    "ptier": "Official partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-02"
+   "verified": "2026-11-02",
+   "checked": "2026-11-19"
   },
   {
    "listed": "2026-11-02",
@@ -224770,7 +224794,8 @@
    "ptier": "Official partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-02"
+   "verified": "2026-11-02",
+   "checked": "2026-11-19"
   },
   {
    "listed": "2026-11-02",
@@ -224785,7 +224810,8 @@
    "ptier": "Official partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-02"
+   "verified": "2026-11-02",
+   "checked": "2026-11-19"
   },
   {
    "listed": "2026-11-02",
@@ -224800,7 +224826,8 @@
    "ptier": "Official partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-02"
+   "verified": "2026-11-02",
+   "checked": "2026-11-19"
   },
   {
    "listed": "2026-11-02",
@@ -224815,7 +224842,8 @@
    "ptier": "Official partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-02"
+   "verified": "2026-11-02",
+   "checked": "2026-11-19"
   },
   {
    "listed": "2026-11-02",
@@ -224830,7 +224858,8 @@
    "ptier": "Official partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-02"
+   "verified": "2026-11-02",
+   "checked": "2026-11-19"
   },
   {
    "listed": "2026-11-02",
@@ -224845,7 +224874,8 @@
    "ptier": "Official partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-02"
+   "verified": "2026-11-02",
+   "checked": "2026-11-19"
   },
   {
    "listed": "2026-11-02",
@@ -224860,7 +224890,8 @@
    "ptier": "Official partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-02"
+   "verified": "2026-11-02",
+   "checked": "2026-11-19"
   },
   {
    "listed": "2026-11-02",
@@ -224875,7 +224906,8 @@
    "ptier": "Official partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-02"
+   "verified": "2026-11-02",
+   "checked": "2026-11-19"
   },
   {
    "listed": "2026-11-02",
@@ -224890,7 +224922,8 @@
    "ptier": "Official partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-02"
+   "verified": "2026-11-02",
+   "checked": "2026-11-19"
   },
   {
    "listed": "2026-11-02",
@@ -224905,7 +224938,8 @@
    "ptier": "Official partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-02"
+   "verified": "2026-11-02",
+   "checked": "2026-11-19"
   },
   {
    "listed": "2026-11-02",
@@ -224920,7 +224954,8 @@
    "ptier": "Official partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-02"
+   "verified": "2026-11-02",
+   "checked": "2026-11-19"
   },
   {
    "listed": "2026-11-02",
@@ -224935,7 +224970,8 @@
    "ptier": "Partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-02"
+   "verified": "2026-11-02",
+   "checked": "2026-11-19"
   },
   {
    "listed": "2026-11-02",
@@ -224950,7 +224986,8 @@
    "ptier": "Partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-02"
+   "verified": "2026-11-02",
+   "checked": "2026-11-19"
   },
   {
    "listed": "2026-11-02",
@@ -224965,7 +225002,8 @@
    "ptier": "Partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-02"
+   "verified": "2026-11-02",
+   "checked": "2026-11-19"
   },
   {
    "listed": "2026-11-02",
@@ -224980,7 +225018,8 @@
    "ptier": "Partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-02"
+   "verified": "2026-11-02",
+   "checked": "2026-11-19"
   },
   {
    "listed": "2026-11-02",
@@ -224995,7 +225034,8 @@
    "ptier": "Partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-02"
+   "verified": "2026-11-02",
+   "checked": "2026-11-19"
   },
   {
    "listed": "2026-11-02",
@@ -225010,7 +225050,8 @@
    "ptier": "Partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-02"
+   "verified": "2026-11-02",
+   "checked": "2026-11-19"
   },
   {
    "listed": "2026-11-02",
@@ -225025,7 +225066,8 @@
    "ptier": "Partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-02"
+   "verified": "2026-11-02",
+   "checked": "2026-11-19"
   },
   {
    "listed": "2026-11-02",
@@ -225040,7 +225082,8 @@
    "ptier": "Partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-02"
+   "verified": "2026-11-02",
+   "checked": "2026-11-19"
   },
   {
    "listed": "2026-11-02",
@@ -225052,12 +225095,13 @@
    "url": "https://www.vrc.com.au/media-sponsors/our-partners/",
    "status": "Current partner",
    "tier": "Media & broadcast",
-   "ptier": "Broadcast partner",
+   "ptier": "Official partner",
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-02",
    "ttier": "Media",
-   "tbasis": "rights"
+   "tbasis": "rights",
+   "checked": "2026-11-19"
   },
   {
    "listed": "2026-11-02",
@@ -225074,7 +225118,8 @@
    "conf": "Confirmed",
    "verified": "2026-11-02",
    "ttier": "Media",
-   "tbasis": "rights"
+   "tbasis": "rights",
+   "checked": "2026-11-19"
   },
   {
    "listed": "2026-11-02",
@@ -225091,7 +225136,8 @@
    "conf": "Confirmed",
    "verified": "2026-11-02",
    "ttier": "Media",
-   "tbasis": "rights"
+   "tbasis": "rights",
+   "checked": "2026-11-19"
   },
   {
    "listed": "2026-11-02",
@@ -225108,7 +225154,8 @@
    "conf": "Confirmed",
    "verified": "2026-11-02",
    "ttier": "Media",
-   "tbasis": "rights"
+   "tbasis": "rights",
+   "checked": "2026-11-19"
   },
   {
    "date": "2026-11-01",
@@ -226478,11 +226525,12 @@
    "tier": "Official partner",
    "status": "New",
    "market": "ANZ",
-   "ptier": "Official Partners",
+   "ptier": "Official sponsor and supplier",
    "conf": "Reported",
    "verified": "2026-10-22",
    "ttier": "T3",
-   "tbasis": "category"
+   "tbasis": "category",
+   "checked": "2026-11-19"
   },
   {
    "date": "2026-10-21",
@@ -226942,12 +226990,13 @@
    "tier": "Official partner",
    "status": "New",
    "market": "ANZ",
-   "ptier": "Official Suppliers & Supporters",
+   "ptier": "Official sponsor and supplier",
    "ptitle": "Official Supermarket Supporter",
    "conf": "Confirmed",
    "verified": "2026-10-21",
    "ttier": "T4",
-   "tbasis": "role"
+   "tbasis": "role",
+   "checked": "2026-11-19"
   },
   {
    "date": "2026-10-20",
@@ -229915,10 +229964,11 @@
    "tier": "Official partner",
    "status": "New",
    "market": "ANZ",
-   "ptier": "Principal Partners",
+   "ptier": "Worldwide partner",
    "url": "https://sportsmintmedia.com/visa-returns-to-rugby-world-cup-as-principal-partner-for-australia-2027-and-2029/",
    "conf": "Reported",
-   "verified": "2026-09-17"
+   "verified": "2026-09-17",
+   "checked": "2026-11-19"
   },
   {
    "date": "2026-09-15",
@@ -234338,7 +234388,8 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-07-19",
-   "ended": 2026
+   "ptier": "Official partner",
+   "checked": "2026-11-19"
   },
   {
    "date": "2026-07-21",
@@ -234963,7 +235014,9 @@
    "ttier": "T2",
    "tbasis": "role",
    "tends": 2033,
-   "tendsBasis": "term"
+   "tendsBasis": "term",
+   "ptier": "Major partner",
+   "checked": "2026-11-19"
   },
   {
    "date": "2026-08-04",
@@ -237190,11 +237243,12 @@
    "status": "New",
    "url": "https://www.world.rugby/news/1047348/ihg-hotels-resorts-joins-as-official-partner-of-mens-rugby-world-cup-2027",
    "market": "ANZ",
-   "ptier": "Official Partners",
+   "ptier": "Official sponsor and supplier",
    "conf": "Confirmed",
    "verified": "2026-09-22",
    "ttier": "T3",
-   "tbasis": "category"
+   "tbasis": "category",
+   "checked": "2026-11-19"
   },
   {
    "date": "2026-10-08",
@@ -239260,15 +239314,16 @@
    "deal": "Coca-Cola × Rugby World Cup 2027",
    "sport": "Rugby union",
    "type": "Global sponsor",
-   "region": "Global",
+   "region": "ANZ",
    "summary": "Coca-Cola signs as a global sponsor of Rugby World Cup 2027.",
    "url": "https://sportsmintmedia.com/rugby-world-cup-2027-lands-coca-cola-in-major-global-sponsorship-deal/",
    "tier": "Official partner",
    "status": "New",
-   "market": "Global",
-   "ptier": "Official Partners",
+   "market": "ANZ",
+   "ptier": "Official sponsor and supplier",
    "conf": "Reported",
-   "verified": "2026-06-24"
+   "verified": "2026-06-24",
+   "checked": "2026-11-19"
   },
   {
    "date": "2026-06-24",
@@ -242474,7 +242529,9 @@
    "ttier": "T3",
    "tbasis": "category",
    "tends": 2028,
-   "tendsBasis": "term"
+   "tendsBasis": "term",
+   "ptier": "Official partner",
+   "checked": "2026-11-19"
   },
   {
    "date": "2025-06-25",
@@ -242865,11 +242922,12 @@
     "official hydration supplement partner"
    ],
    "rightsSrc": "https://www.unitedcup.com/en/media/news/liquid-iv-official-hydration-supplement-partner",
-   "ptier": "Official Partner",
+   "ptier": "Official partner",
    "ttier": "T3",
    "tbasis": "sourced",
    "tends": 2030,
-   "tendsBasis": "league"
+   "tendsBasis": "league",
+   "checked": "2026-11-19"
   },
   {
    "date": "2025-12-11",
@@ -244790,7 +244848,8 @@
    "url": "https://www.vrc.com.au/latest-news/delaware-north-appointed-hospitality-services-provider-for-the-victoria-racing-club",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-02-05"
+   "verified": "2026-02-05",
+   "ended": true
   },
   {
    "date": "2026-02-11",
@@ -246738,7 +246797,9 @@
    "ttier": "T1",
    "tbasis": "rights",
    "tends": 2028,
-   "tendsBasis": "term"
+   "tendsBasis": "term",
+   "ptier": "Major partner",
+   "checked": "2026-11-19"
   },
   {
    "date": "2025-09-17",
@@ -248956,18 +249017,19 @@
    "deal": "Gilbert × Rugby World Cup 2027",
    "sport": "Rugby union",
    "type": "Extension",
-   "region": "Global",
+   "region": "ANZ",
    "summary": "Gilbert extends with World Rugby until 2033.",
    "url": "https://sportsmintmedia.com/gilbert-secures-multi-year-partnership-extension-with-world-rugby-until-2033/",
    "tier": "Official partner",
    "status": "Extension",
    "ends": 2033,
-   "market": "Global",
-   "ptier": "Official Suppliers & Supporters",
+   "market": "ANZ",
+   "ptier": "Official sponsor and supplier",
    "conf": "Reported",
    "verified": "2025-12-03",
    "tends": 2033,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "checked": "2026-11-19"
   },
   {
    "date": "2025-12-03",
@@ -254359,7 +254421,9 @@
    "conf": "Reported",
    "verified": "2024-09-04",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "rights",
+   "ptier": "Major partner",
+   "checked": "2026-11-19"
   },
   {
    "date": "2024-08-27",
@@ -254998,7 +255062,7 @@
    "market": "ANZ",
    "conf": "Reported",
    "verified": "2024-10-14",
-   "ptier": "Official Partner",
+   "ptier": "Official partner",
    "marketLock": true,
    "rights": [
     "official business and technology transformation consulting partner",
@@ -255008,26 +255072,28 @@
    "ttier": "T3",
    "tbasis": "sourced",
    "tends": 2029,
-   "tendsBasis": "league"
+   "tendsBasis": "league",
+   "checked": "2026-11-19"
   },
   {
    "date": "2024-10-11",
    "deal": "Asahi × Rugby World Cup 2027",
    "sport": "Rugby union",
    "type": "Extension",
-   "region": "Global",
+   "region": "ANZ",
    "summary": "Asahi Super Dry extends its Rugby World Cup partnership through 2029",
    "url": "https://ministryofsport.com/asahi-super-dry-extends-rugby-world-cup-partnership-until-2029/",
    "tier": "Official partner",
    "status": "Extension",
    "ends": 2029,
-   "market": "Global",
-   "ptier": "Principal Partners",
+   "market": "ANZ",
+   "ptier": "Worldwide partner",
    "ptitle": "Official Beer",
    "conf": "Reported",
    "verified": "2024-10-11",
    "tends": 2029,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "checked": "2026-11-19"
   },
   {
    "date": "2024-10-11",
@@ -256038,18 +256104,19 @@
    "deal": "Dove Men+Care × Rugby World Cup 2027",
    "sport": "Rugby union",
    "type": "Partnership",
-   "region": "Global",
+   "region": "ANZ",
    "summary": "Dove Men+Care (Unilever) signs a Rugby World Cup partnership as Official Body Care Supplier",
    "url": "https://ministryofsport.com/unilever-commits-to-sport-with-rugby-world-cup-partnership/",
    "tier": "Official partner",
    "status": "New",
-   "market": "Global",
-   "ptier": "Official Suppliers & Supporters",
+   "market": "ANZ",
+   "ptier": "Official sponsor and supplier",
    "ptitle": "Official Body Care Supplier",
    "conf": "Reported",
    "verified": "2025-04-03",
    "ttier": "T4",
-   "tbasis": "role"
+   "tbasis": "role",
+   "checked": "2026-11-19"
   },
   {
    "date": "2025-04-03",
@@ -289318,10 +289385,11 @@
    "url": "https://www.unitedcup.com/en/about/partners",
    "tier": "Official partner",
    "status": "Current partner",
-   "ptier": "Official Partner",
+   "ptier": "Official partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-02"
+   "verified": "2026-11-02",
+   "checked": "2026-11-19"
   },
   {
    "listed": "2026-10-30",
@@ -289333,10 +289401,11 @@
    "url": "https://www.unitedcup.com/en/about/partners",
    "tier": "Official partner",
    "status": "Current partner",
-   "ptier": "Official Partner",
+   "ptier": "Official partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-02"
+   "verified": "2026-11-02",
+   "checked": "2026-11-19"
   },
   {
    "listed": "2026-10-30",
@@ -289348,10 +289417,11 @@
    "url": "https://www.unitedcup.com/en/about/partners",
    "tier": "Official partner",
    "status": "Current partner",
-   "ptier": "Official Partner",
+   "ptier": "Official partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-02"
+   "verified": "2026-11-02",
+   "checked": "2026-11-19"
   },
   {
    "listed": "2026-10-30",
@@ -289363,10 +289433,11 @@
    "url": "https://www.unitedcup.com/en/about/partners",
    "tier": "Official partner",
    "status": "Current partner",
-   "ptier": "Official Partner",
+   "ptier": "Official partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-02"
+   "verified": "2026-11-02",
+   "checked": "2026-11-19"
   },
   {
    "listed": "2026-10-30",
@@ -289378,10 +289449,11 @@
    "url": "https://www.unitedcup.com/en/about/partners",
    "tier": "Official partner",
    "status": "Current partner",
-   "ptier": "Official Partner",
+   "ptier": "Official partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-02"
+   "verified": "2026-11-02",
+   "checked": "2026-11-19"
   },
   {
    "listed": "2026-10-30",
@@ -289393,10 +289465,11 @@
    "url": "https://www.unitedcup.com/en/about/partners",
    "tier": "Official partner",
    "status": "Current partner",
-   "ptier": "Official Partner",
+   "ptier": "Official partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-02"
+   "verified": "2026-11-02",
+   "checked": "2026-11-19"
   },
   {
    "listed": "2026-10-30",
@@ -289408,10 +289481,11 @@
    "url": "https://www.unitedcup.com/en/about/partners",
    "tier": "Official partner",
    "status": "Current partner",
-   "ptier": "Official Partner",
+   "ptier": "Official partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-02"
+   "verified": "2026-11-02",
+   "checked": "2026-11-19"
   },
   {
    "listed": "2026-10-30",
@@ -289426,7 +289500,8 @@
    "ptier": "Official Partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-02"
+   "verified": "2026-11-02",
+   "ended": true
   },
   {
    "listed": "2026-10-30",
@@ -289438,10 +289513,11 @@
    "url": "https://www.unitedcup.com/en/about/partners",
    "tier": "Official partner",
    "status": "Current partner",
-   "ptier": "Official Partner",
+   "ptier": "Official partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-02"
+   "verified": "2026-11-02",
+   "checked": "2026-11-19"
   },
   {
    "listed": "2026-10-30",
@@ -289453,10 +289529,11 @@
    "url": "https://www.unitedcup.com/en/about/partners",
    "tier": "Official partner",
    "status": "Current partner",
-   "ptier": "Official Partner",
+   "ptier": "Official partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-02"
+   "verified": "2026-11-02",
+   "checked": "2026-11-19"
   },
   {
    "listed": "2026-10-30",
@@ -289468,10 +289545,11 @@
    "url": "https://www.unitedcup.com/en/about/partners",
    "tier": "Official partner",
    "status": "Current partner",
-   "ptier": "Official Partner",
+   "ptier": "Official partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-02"
+   "verified": "2026-11-02",
+   "checked": "2026-11-19"
   },
   {
    "listed": "2026-10-30",
@@ -289483,10 +289561,11 @@
    "url": "https://www.unitedcup.com/en/about/partners",
    "tier": "Official partner",
    "status": "Current partner",
-   "ptier": "Official Partner",
+   "ptier": "Official partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-02"
+   "verified": "2026-11-02",
+   "checked": "2026-11-19"
   },
   {
    "listed": "2026-10-30",
@@ -289498,10 +289577,11 @@
    "url": "https://www.unitedcup.com/en/about/partners",
    "tier": "Official partner",
    "status": "Current partner",
-   "ptier": "Official Partner",
+   "ptier": "Official partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-02"
+   "verified": "2026-11-02",
+   "checked": "2026-11-19"
   },
   {
    "listed": "2026-10-30",
@@ -289513,12 +289593,13 @@
    "url": "https://www.unitedcup.com/en/about/partners",
    "tier": "Official partner",
    "status": "Current partner",
-   "ptier": "Official Supplier",
+   "ptier": "Official supplier",
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-02",
    "ttier": "T4",
-   "tbasis": "role"
+   "tbasis": "role",
+   "checked": "2026-11-19"
   },
   {
    "listed": "2026-10-30",
@@ -289535,7 +289616,8 @@
    "conf": "Confirmed",
    "verified": "2026-11-02",
    "ttier": "T4",
-   "tbasis": "role"
+   "tbasis": "role",
+   "checked": "2026-11-19"
   },
   {
    "listed": "2026-10-30",
@@ -289552,7 +289634,8 @@
    "conf": "Confirmed",
    "verified": "2026-11-02",
    "ttier": "T4",
-   "tbasis": "role"
+   "tbasis": "role",
+   "checked": "2026-11-19"
   },
   {
    "listed": "2026-11-02",
@@ -289707,7 +289790,8 @@
    "ttier": "T1",
    "tbasis": "sourced",
    "tends": 2027,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "checked": "2026-11-19"
   },
   {
    "listed": "2026-11-02",
@@ -289736,7 +289820,8 @@
    "ttier": "T2",
    "tbasis": "sourced",
    "tends": 2029,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "checked": "2026-11-19"
   },
   {
    "listed": "2026-10-30",
