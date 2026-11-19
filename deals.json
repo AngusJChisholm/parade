@@ -193230,10 +193230,10 @@
    "tier": "Media & broadcast",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "ttier": "Media",
-   "tbasis": "rights",
    "since": 2022,
-   "sinceBasis": "wayback"
+   "sinceBasis": "wayback",
+   "ttier": "Media",
+   "tbasis": "rights"
   },
   {
    "listed": "2026-11-16",
@@ -193249,10 +193249,10 @@
    "tier": "Media & broadcast",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "ttier": "Media",
-   "tbasis": "rights",
    "since": 2022,
-   "sinceBasis": "wayback"
+   "sinceBasis": "wayback",
+   "ttier": "Media",
+   "tbasis": "rights"
   },
   {
    "listed": "2026-11-16",
@@ -193268,10 +193268,10 @@
    "tier": "Media & broadcast",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "ttier": "Media",
-   "tbasis": "rights",
    "since": 2024,
-   "sinceBasis": "wayback"
+   "sinceBasis": "wayback",
+   "ttier": "Media",
+   "tbasis": "rights"
   },
   {
    "listed": "2026-11-16",
@@ -193287,10 +193287,10 @@
    "tier": "Media & broadcast",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "ttier": "Media",
-   "tbasis": "rights",
    "since": 2021,
-   "sinceBasis": "wayback"
+   "sinceBasis": "wayback",
+   "ttier": "Media",
+   "tbasis": "rights"
   },
   {
    "listed": "2026-11-16",
@@ -245414,12 +245414,12 @@
    "rightsSrc": "https://www.unitedcup.com/en/media/news/liquid-iv-official-hydration-supplement-partner",
    "ptier": "Official partner",
    "checked": "2026-11-19",
+   "since": 2025,
+   "sinceBasis": "wayback",
    "ttier": "T3",
    "tbasis": "sourced",
    "tends": 2030,
-   "tendsBasis": "league",
-   "since": 2025,
-   "sinceBasis": "wayback"
+   "tendsBasis": "league"
   },
   {
    "date": "2025-12-11",
@@ -257896,12 +257896,12 @@
    ],
    "rightsSrc": "https://www.unitedcup.com/en/media/news/deloitte-partners-with-united-cup-and-tennis-australia",
    "checked": "2026-11-19",
+   "since": 2024,
+   "sinceBasis": "wayback",
    "ttier": "T3",
    "tbasis": "sourced",
    "tends": 2029,
-   "tendsBasis": "league",
-   "since": 2024,
-   "sinceBasis": "wayback"
+   "tendsBasis": "league"
   },
   {
    "date": "2024-10-11",
@@ -293877,10 +293877,10 @@
    "conf": "Confirmed",
    "verified": "2026-11-19",
    "checked": "2026-11-19",
-   "ttier": "T4",
-   "tbasis": "role",
    "since": 2025,
-   "sinceBasis": "wayback"
+   "sinceBasis": "wayback",
+   "ttier": "T4",
+   "tbasis": "role"
   },
   {
    "listed": "2026-10-30",
@@ -293915,10 +293915,10 @@
    "conf": "Confirmed",
    "verified": "2026-11-19",
    "checked": "2026-11-19",
-   "ttier": "T4",
-   "tbasis": "role",
    "since": 2025,
-   "sinceBasis": "wayback"
+   "sinceBasis": "wayback",
+   "ttier": "T4",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-02",
@@ -351984,7 +351984,6 @@
    "sinceBasis": "wayback",
    "ended": 2023,
    "ends": 2023,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -352002,7 +352001,7 @@
    "listed": "2026-08-13",
    "since": 2025,
    "sinceBasis": "wayback",
-   "verified": "2026-08-13",
+   "verified": "2026-11-19",
    "source": "wayback",
    "ends": 2025
   },
@@ -352023,7 +352022,6 @@
    "sinceBasis": "wayback",
    "ended": 2021,
    "ends": 2021,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -352043,7 +352041,6 @@
    "sinceBasis": "wayback",
    "ended": 2021,
    "ends": 2021,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -352063,7 +352060,6 @@
    "sinceBasis": "wayback",
    "ended": 2024,
    "ends": 2024,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -352083,7 +352079,6 @@
    "sinceBasis": "wayback",
    "ended": 2024,
    "ends": 2024,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -352103,7 +352098,6 @@
    "sinceBasis": "wayback",
    "ended": 2023,
    "ends": 2023,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -352123,7 +352117,6 @@
    "sinceBasis": "wayback",
    "ended": 2023,
    "ends": 2023,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -352143,7 +352136,6 @@
    "sinceBasis": "wayback",
    "ended": 2023,
    "ends": 2023,
-   "verified": "2026-11-20",
    "source": "wayback"
   }
  ]
