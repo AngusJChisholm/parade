@@ -1915,6 +1915,9 @@
    "name": "Aeroitalia",
    "k": "b"
   },
+  "aeromexico": {
+   "name": "Aeroméxico"
+  },
   "aeroporti-di-puglia": {
    "name": "Aeroporti di Puglia",
    "k": "b"
@@ -2023,6 +2026,9 @@
   "afim-rottami": {
    "name": "AFIM Rottami",
    "k": "b"
+  },
+  "afirme": {
+   "name": "Afirme"
   },
   "afl": {
    "name": "AFL",
@@ -2556,6 +2562,12 @@
   "akracing": {
    "name": "AKRacing",
    "k": "b"
+  },
+  "akron": {
+   "name": "Akron"
+  },
+  "akron-gasolineras": {
+   "name": "Akron Gasolineras"
   },
   "aktio": {
    "name": "Aktio",
@@ -3563,6 +3575,24 @@
    "name": "Alzola",
    "k": "b"
   },
+  "am-rica": {
+   "name": "América",
+   "domain": "clubamerica.com.mx",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "aliases": [
+    "Club América"
+   ],
+   "ptiers": [
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-19",
+   "market": "Rest of World"
+  },
   "amacon": {
    "name": "Amacon",
    "k": "b"
@@ -4028,6 +4058,9 @@
   "andorra-business": {
    "name": "Andorra Business",
    "k": "b"
+  },
+  "andrea": {
+   "name": "Andrea"
   },
   "andreas-schmid-logistik": {
    "name": "Andreas Schmid Logistik",
@@ -4604,6 +4637,9 @@
     "logo"
    ]
   },
+  "arabela": {
+   "name": "Arabela"
+  },
   "arabian-dyar": {
    "name": "Arabian Dyar",
    "k": "b"
@@ -4755,6 +4791,9 @@
   "arexa": {
    "name": "Arexa",
    "k": "b"
+  },
+  "areya": {
+   "name": "Areya"
   },
   "arg": {
    "name": "ARG",
@@ -5860,6 +5899,21 @@
    "ptiersChecked": "2026-11-19",
    "market": "Rest of World"
   },
+  "atl-tico-san-luis": {
+   "name": "Atlético San Luis",
+   "domain": "atleticodesanluis.mx",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "ptiers": [
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-19",
+   "market": "Rest of World"
+  },
   "atlanta-braves": {
    "name": "Atlanta Braves",
    "domain": "braves.com",
@@ -5940,7 +5994,18 @@
   },
   "atlante": {
    "name": "Atlante",
-   "k": "b"
+   "k": "b",
+   "domain": "atlantefutbol.com",
+   "ptype": "Club & team",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "ptiers": [
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-19",
+   "market": "Rest of World"
   },
   "atlantic-net": {
    "name": "Atlantic.Net",
@@ -5962,7 +6027,18 @@
   },
   "atlas": {
    "name": "Atlas",
-   "k": "b"
+   "k": "b",
+   "domain": "atlasfc.com.mx",
+   "ptype": "Club & team",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "ptiers": [
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-19",
+   "market": "Rest of World"
   },
   "atlas-air": {
    "name": "Atlas Air",
@@ -6813,6 +6889,9 @@
    "name": "Autotorino",
    "k": "b"
   },
+  "autovias": {
+   "name": "Autovías"
+  },
   "autumn-lake-healthcare": {
    "name": "Autumn Lake Healthcare",
    "cat": "Health & beauty",
@@ -7487,6 +7566,9 @@
    "name": "Banca Popolare Pugliese",
    "k": "b"
   },
+  "banco-azteca": {
+   "name": "Banco Azteca"
+  },
   "banco-bmg": {
    "name": "Banco BMG",
    "k": "b"
@@ -7593,6 +7675,10 @@
    "aliases": [
     "BSP Financial Group"
    ]
+  },
+  "bankaool": {
+   "name": "Bankaool",
+   "cat": "Banking & finance"
   },
   "banks-homes": {
    "name": "Banks Homes",
@@ -8720,6 +8806,9 @@
    "name": "Berain",
    "k": "b"
   },
+  "berel": {
+   "name": "Berel"
+  },
   "beretta": {
    "name": "Beretta",
    "k": "b"
@@ -8727,6 +8816,9 @@
   "bergische-krankenkasse": {
    "name": "BERGISCHE KRANKENKASSE",
    "k": "b"
+  },
+  "beriscan": {
+   "name": "Beriscan"
   },
   "berkeley-college": {
    "name": "Berkeley College",
@@ -10335,6 +10427,9 @@
    "name": "Bona",
    "k": "b"
   },
+  "bonafont": {
+   "name": "Bonafont"
+  },
   "bonardi": {
    "name": "Bonardi",
    "k": "b"
@@ -10867,6 +10962,9 @@
   "branded": {
    "name": "Branded",
    "k": "b"
+  },
+  "brandme": {
+   "name": "BrandMe"
   },
   "brandsmart-usa": {
    "name": "BrandsMart USA",
@@ -11552,6 +11650,9 @@
    "name": "Brown Distributing Company",
    "k": "b"
   },
+  "brown-forman": {
+   "name": "Brown-Forman"
+  },
   "brown-property-group": {
    "name": "Brown Property Group",
    "cat": "Construction & property",
@@ -11747,6 +11848,9 @@
     "Media partner"
    ],
    "ptiersChecked": "2026-11-17"
+  },
+  "buffalo-wild-wings": {
+   "name": "Buffalo Wild Wings"
   },
   "buffoon-media": {
    "name": "Buffoon Media",
@@ -12006,6 +12110,9 @@
    "name": "Busan Milk",
    "cat": "Non-alcoholic drinks",
    "k": "b"
+  },
+  "buscapina-fem": {
+   "name": "Buscapina Fem"
   },
   "busch-gardens": {
    "name": "Busch Gardens",
@@ -12541,6 +12648,9 @@
   "caliceo": {
    "name": "Caliceo",
    "k": "b"
+  },
+  "caliente": {
+   "name": "Caliente"
   },
   "california-bank-and-trust": {
    "name": "California Bank & Trust",
@@ -13816,6 +13926,9 @@
    "name": "Castello di Grumello",
    "k": "b"
   },
+  "casther": {
+   "name": "Casther"
+  },
   "castle-tavern": {
    "name": "Castle Tavern",
    "k": "b"
@@ -14301,6 +14414,9 @@
    "name": "Centro Casa Cremona",
    "k": "b"
   },
+  "centro-medico-la-salud": {
+   "name": "Centro Médico La Salud"
+  },
   "centro-siderurgico": {
    "name": "Centro Siderurgico",
    "k": "b"
@@ -14308,6 +14424,9 @@
   "centro-studi-san-nicolo": {
    "name": "Centro Studi San Nicolò",
    "k": "b"
+  },
+  "centro-tolzu": {
+   "name": "Centro Tolzu"
   },
   "centura-health": {
    "name": "Centura Health",
@@ -14640,6 +14759,9 @@
     "icon",
     "logo"
    ]
+  },
+  "charly": {
+   "name": "Charly"
   },
   "charman-motor-trimmers": {
    "name": "Charman Motor Trimmers",
@@ -15081,6 +15203,9 @@
     "logo"
    ]
   },
+  "chimex": {
+   "name": "Chimex"
+  },
   "chimica-panzeri": {
    "name": "Chimica Panzeri",
    "k": "b"
@@ -15239,6 +15364,9 @@
     "logo"
    ]
   },
+  "christus-muguerza": {
+   "name": "Christus Muguerza"
+  },
   "chroma-vision": {
    "name": "Chroma Vision",
    "cat": "Health & beauty",
@@ -15371,6 +15499,9 @@
   "cillo": {
    "name": "Cillo",
    "k": "b"
+  },
+  "cima": {
+   "name": "Cima"
   },
   "cimed": {
    "name": "Cimed",
@@ -16019,6 +16150,9 @@
    "name": "Clinica Esculapio",
    "k": "b"
   },
+  "clinica-recovery": {
+   "name": "Clínica Recovery"
+  },
   "clinica-torres": {
    "name": "Clínica Torres",
    "k": "b"
@@ -16210,6 +16344,9 @@
    "name": "CMG",
    "k": "b"
   },
+  "cmi": {
+   "name": "CMI"
+  },
   "cmk-chartered-accountants": {
    "name": "CMK Chartered Accountants",
    "cat": "Professional services",
@@ -16390,6 +16527,9 @@
    "name": "Codec",
    "k": "b"
   },
+  "codere": {
+   "name": "Codere (Casa de Apuestas Deportivas)"
+  },
   "codere-online": {
    "name": "Codere Online",
    "cat": "Betting & wagering",
@@ -16486,6 +16626,9 @@
    "name": "Cole Palmer",
    "ptype": "Athlete & talent",
    "k": "p"
+  },
+  "colegio-castlefield": {
+   "name": "Colegio Castlefield"
   },
   "colegio-evolua": {
    "name": "Colégio Evolua",
@@ -16710,6 +16853,9 @@
   "comet": {
    "name": "Comet",
    "k": "b"
+  },
+  "comex": {
+   "name": "Comex"
   },
   "comfort-sleep": {
    "name": "Comfort Sleep",
@@ -17057,6 +17203,9 @@
    "cat": "Not-for-profit",
    "k": "b"
   },
+  "confie-seguros": {
+   "name": "Confie Seguros"
+  },
   "confindustria-ceramica": {
    "name": "Confindustria Ceramica",
    "k": "b"
@@ -17226,6 +17375,9 @@
    "name": "Construction Labour Relations Alberta",
    "cat": "Construction & property",
    "k": "b"
+  },
+  "construlandia": {
+   "name": "Construlandia"
   },
   "construsol": {
    "name": "Construsol",
@@ -17454,6 +17606,9 @@
   "copianova": {
    "name": "Copianova",
    "k": "b"
+  },
+  "coppel": {
+   "name": "Coppel"
   },
   "copper-bonnet-distillery": {
    "name": "Copper Bonnet Distillery",
@@ -18008,6 +18163,9 @@
    "name": "Creature Comforts",
    "k": "b"
   },
+  "credifacil-sofom": {
+   "name": "CrediFácil Sofom"
+  },
   "credit-agricole": {
    "name": "Crédit Agricole",
    "cat": "Agriculture",
@@ -18537,6 +18695,21 @@
    "cat": "Food & nutrition",
    "domain": "crust.com.au",
    "k": "b"
+  },
+  "cruz-azul": {
+   "name": "Cruz Azul",
+   "domain": "cfcruzazul.com",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "ptiers": [
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-19",
+   "market": "Rest of World"
   },
   "cruzcampo": {
    "name": "Cruzcampo",
@@ -19754,6 +19927,10 @@
   "del-monte-korea": {
    "name": "Del Monte Korea",
    "k": "b"
+  },
+  "del-valle-transportes": {
+   "name": "Del Valle Transportes",
+   "cat": "Logistics & transport"
   },
   "delaware-north": {
    "name": "Delaware North",
@@ -22627,6 +22804,9 @@
    "name": "El Mexicano",
    "k": "b"
   },
+  "el-pollo-loco": {
+   "name": "El Pollo Loco"
+  },
   "el-pulpo": {
    "name": "El Pulpo",
    "k": "b"
@@ -22982,6 +23162,9 @@
   "emburse": {
    "name": "Emburse",
    "k": "b"
+  },
+  "emepe": {
+   "name": "Emepe"
   },
   "emerald-queen-casino": {
    "name": "Emerald Queen Casino",
@@ -23889,6 +24072,9 @@
    "cat": "Telco",
    "k": "b"
   },
+  "etn": {
+   "name": "ETN"
+  },
   "etoile-35": {
    "name": "Étoile 35",
    "k": "b"
@@ -24037,6 +24223,9 @@
   "eurowings": {
    "name": "Eurowings",
    "k": "b"
+  },
+  "eurus": {
+   "name": "Eurus"
   },
   "eusan": {
    "name": "EUSAN",
@@ -24939,6 +25128,21 @@
    ],
    "ptiersChecked": "2026-11-17"
   },
+  "fc-ju-rez": {
+   "name": "FC Juárez",
+   "domain": "fcjuarez.com",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "ptiers": [
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-19",
+   "market": "Rest of World"
+  },
   "fc-lorient": {
    "name": "FC Lorient",
    "domain": "fclorient.bzh",
@@ -25786,6 +25990,9 @@
    "name": "Fitness Village",
    "k": "b"
   },
+  "fitzer": {
+   "name": "Fitzer"
+  },
   "fitzgerald": {
    "name": "Fitzgerald",
    "k": "b"
@@ -26453,6 +26660,9 @@
    "name": "Foster's",
    "k": "b"
   },
+  "foton": {
+   "name": "Foton"
+  },
   "fotovoltaico-salento": {
    "name": "Fotovoltaico Salento",
    "k": "b"
@@ -26532,6 +26742,14 @@
    "name": "FOX 5 New York",
    "cat": "Media & broadcast",
    "k": "b"
+  },
+  "fox-deportes": {
+   "name": "Fox Deportes",
+   "cat": "Media & broadcast"
+  },
+  "fox-one": {
+   "name": "Fox One",
+   "cat": "Media & broadcast"
   },
   "fox-soccer": {
    "name": "FOX Soccer",
@@ -27385,6 +27603,10 @@
    "cat": "Automotive",
    "k": "b"
   },
+  "gac-transportes": {
+   "name": "GAC Transportes",
+   "cat": "Automotive"
+  },
   "gadoua": {
    "name": "Gadoua",
    "k": "b"
@@ -27418,6 +27640,9 @@
   "galateo": {
    "name": "Galateo",
    "k": "b"
+  },
+  "galaver": {
+   "name": "Galaver"
   },
   "galbraith": {
    "name": "Galbraith",
@@ -27591,6 +27816,9 @@
    "name": "Garage Project",
    "k": "b"
   },
+  "garis": {
+   "name": "Garis"
+  },
   "garmin": {
    "name": "Garmin",
    "cat": "Sporting goods & equipment",
@@ -27626,6 +27854,10 @@
    "name": "Gary Walker Wealth Management",
    "cat": "Banking & finance",
    "k": "b"
+  },
+  "gas-noel": {
+   "name": "Gas Noel",
+   "cat": "Energy & utilities"
   },
   "gas-sales-energia": {
    "name": "Gas Sales Energia",
@@ -28700,6 +28932,9 @@
    "name": "GNM Life",
    "k": "b"
   },
+  "gnp-seguros": {
+   "name": "GNP Seguros"
+  },
   "go": {
    "name": "GO",
    "k": "b"
@@ -29022,6 +29257,9 @@
   "gonder-group": {
    "name": "Gonder Group",
    "k": "b"
+  },
+  "gonher": {
+   "name": "Gonher"
   },
   "gonza-tacos-y-tequila": {
    "name": "Gonza Tacos y Tequila",
@@ -29599,6 +29837,9 @@
    "name": "Greenfield",
    "k": "b"
   },
+  "greening-group": {
+   "name": "Greening Group"
+  },
   "greenlight-insurance-brokers": {
    "name": "Greenlight Insurance Brokers",
    "cat": "Insurance",
@@ -29861,9 +30102,15 @@
    "name": "Grüns",
    "k": "b"
   },
+  "grupo-alameda": {
+   "name": "Grupo Alameda"
+  },
   "grupo-bimbo": {
    "name": "Grupo Bimbo",
    "k": "b"
+  },
+  "grupo-bios": {
+   "name": "Grupo Bios"
   },
   "grupo-breogan": {
    "name": "Grupo Breogán",
@@ -29996,6 +30243,25 @@
   "gu": {
    "name": "GU",
    "k": "b"
+  },
+  "guadalajara-chivas": {
+   "name": "Guadalajara (Chivas)",
+   "domain": "chivasdecorazon.com.mx",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "aliases": [
+    "Chivas",
+    "CD Guadalajara"
+   ],
+   "ptiers": [
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-19",
+   "market": "Rest of World"
   },
   "guarana-antarctica": {
    "name": "Guaraná Antarctica",
@@ -30173,6 +30439,9 @@
    ],
    "cat": "Food & nutrition",
    "k": "b"
+  },
+  "gvr": {
+   "name": "GVR"
   },
   "gw-accountants": {
    "name": "GW Accountants",
@@ -30359,6 +30628,9 @@
   "hafele": {
    "name": "Häfele",
    "k": "b"
+  },
+  "hagalo": {
+   "name": "Hágalo"
   },
   "hagedorn": {
    "name": "Hagedorn",
@@ -30824,6 +31096,9 @@
   "harim": {
    "name": "Harim",
    "k": "b"
+  },
+  "harinera-de-oriente": {
+   "name": "Harinera de Oriente"
   },
   "harkin-roofing": {
    "name": "Harkin Roofing",
@@ -31404,6 +31679,9 @@
    "name": "Heavy Metal Equipment",
    "cat": "Sporting goods & equipment",
    "k": "b"
+  },
+  "heb": {
+   "name": "HEB"
   },
   "hedenkamp": {
    "name": "Hedenkamp",
@@ -32651,6 +32929,14 @@
    "name": "Hoshi Kokoku",
    "k": "b"
   },
+  "hospital-angeles": {
+   "name": "Hospital Angeles",
+   "cat": "Health & beauty"
+  },
+  "hospital-country-2000": {
+   "name": "Hospital Country 2000",
+   "cat": "Health & beauty"
+  },
   "hospital-for-special-surgery": {
    "name": "Hospital for Special Surgery",
    "cat": "Health & beauty",
@@ -32670,6 +32956,10 @@
    "name": "Hospital Run",
    "cat": "Health & beauty",
    "k": "b"
+  },
+  "hospital-san-isidro": {
+   "name": "Hospital San Isidro",
+   "cat": "Health & beauty"
   },
   "hospital-santa-monica": {
    "name": "Hospital Santa Mônica",
@@ -33920,6 +34210,10 @@
    "logo": "assets/logos/iinet.png",
    "domain": "iinet.net.au"
   },
+  "ikea": {
+   "name": "IKEA",
+   "cat": "Retail"
+  },
   "ikon": {
    "name": "IKON",
    "k": "b"
@@ -34566,6 +34860,9 @@
    "name": "Inmar",
    "k": "b"
   },
+  "innergy": {
+   "name": "Innergy"
+  },
   "inno-trade": {
    "name": "Inno Trade",
    "k": "b"
@@ -34714,6 +35011,10 @@
    "cat": "Technology",
    "k": "b"
   },
+  "inteligis": {
+   "name": "Inteligis",
+   "cat": "Technology"
+  },
   "intense-sound-and-vision": {
    "name": "Intense Sound and Vision",
    "cat": "Health & beauty",
@@ -34774,6 +35075,9 @@
    ],
    "ptiersChecked": "2026-11-17"
   },
+  "inter-mx": {
+   "name": "Inter.mx"
+  },
   "inter-rapid-simo": {
    "name": "Inter Rapidísimo",
    "cat": "Logistics & transport",
@@ -34783,6 +35087,9 @@
     "icon",
     "logo"
    ]
+  },
+  "interceramic": {
+   "name": "Interceramic"
   },
   "intercity": {
    "name": "Intercity",
@@ -35101,6 +35408,9 @@
    "name": "IPAR",
    "cat": "Health & beauty",
    "k": "b"
+  },
+  "ipefh": {
+   "name": "IPEFH"
   },
   "ipex": {
    "name": "IPEX",
@@ -35596,6 +35906,9 @@
   "izac": {
    "name": "IZAC",
    "k": "b"
+  },
+  "izzi": {
+   "name": "izzi"
   },
   "j-and-d": {
    "name": "J&D",
@@ -37687,6 +38000,9 @@
    "cat": "Apparel & footwear",
    "k": "b"
   },
+  "kem": {
+   "name": "KEM"
+  },
   "kempf": {
    "name": "Kempf",
    "k": "b"
@@ -38780,6 +39096,9 @@
    "name": "Kosaido",
    "k": "b"
   },
+  "kosako": {
+   "name": "Kosako"
+  },
   "koshiba-cleaning": {
    "name": "Koshiba Cleaning",
    "k": "b"
@@ -38791,6 +39110,9 @@
   "kotak-life": {
    "name": "Kotak Life",
    "k": "b"
+  },
+  "kotex": {
+   "name": "Kotex"
   },
   "kouken-kogyo": {
    "name": "Kouken Kogyo",
@@ -39476,6 +39798,9 @@
    "name": "Laboratorio REI",
    "k": "b"
   },
+  "laboratorio-tequis": {
+   "name": "Laboratorio Tequis"
+  },
   "labour-connect": {
    "name": "Labour Connect",
    "domain": "labourconnect.com.au",
@@ -39550,6 +39875,9 @@
   "lakme": {
    "name": "Lakmé",
    "k": "b"
+  },
+  "lala": {
+   "name": "Lala"
   },
   "laliga": {
    "name": "LaLiga",
@@ -39709,6 +40037,9 @@
    "name": "Larry H. Miller Dealerships",
    "k": "b"
   },
+  "las-toluquenas": {
+   "name": "Las Toluqueñas"
+  },
   "las-vegas": {
    "name": "Las Vegas",
    "cat": "Tourism & government",
@@ -39772,6 +40103,10 @@
   "last-slice": {
    "name": "Last Slice",
    "k": "b"
+  },
+  "latin-us-beauty": {
+   "name": "Latin Us Beauty",
+   "cat": "Health & beauty"
   },
   "latina-fresh": {
    "name": "Latina Fresh",
@@ -40155,6 +40490,10 @@
   "leche-rio": {
    "name": "Leche Río",
    "k": "b"
+  },
+  "leche-zaragoza": {
+   "name": "Leche Zaragoza",
+   "cat": "Apparel & footwear"
   },
   "lecom": {
    "name": "LECOM",
@@ -40663,6 +41002,9 @@
    "cat": "Apparel & footwear",
    "k": "b"
   },
+  "libertad-financiera": {
+   "name": "Libertad Financiera"
+  },
   "libertex": {
    "name": "Libertex",
    "k": "b"
@@ -40839,6 +41181,9 @@
   "limova": {
    "name": "Limova",
    "k": "b"
+  },
+  "limsa": {
+   "name": "Limsa"
   },
   "linares": {
    "name": "Linares",
@@ -41970,6 +42315,9 @@
   "lumavi": {
    "name": "Lumavi",
    "k": "b"
+  },
+  "lumboxen": {
+   "name": "Lumboxen"
   },
   "lumen8": {
    "name": "Lumen8",
@@ -43574,6 +43922,9 @@
     "icon"
    ]
   },
+  "mccormick": {
+   "name": "McCormick"
+  },
   "mccoy-s": {
    "name": "McCoy's",
    "cat": "Food & nutrition",
@@ -44310,6 +44661,10 @@
     "logo"
    ]
   },
+  "mercedes-benz-autobuses": {
+   "name": "Mercedes-Benz Autobuses",
+   "cat": "Automotive"
+  },
   "mercedes-benz-bremen": {
    "name": "Mercedes-Benz Bremen",
    "cat": "Automotive",
@@ -44915,6 +45270,9 @@
     "logo"
    ]
   },
+  "mifel": {
+   "name": "Mifel"
+  },
   "mighty-mobile": {
    "name": "Mighty Mobile",
    "k": "b"
@@ -45397,6 +45755,12 @@
    "k": "p",
    "logo": "assets/logos/missouri-tigers.png"
   },
+  "mister-alimentos": {
+   "name": "Mister Alimentos"
+  },
+  "misy": {
+   "name": "Misy"
+  },
   "mitchell-and-associates": {
    "name": "Mitchell & Associates",
    "k": "b"
@@ -45748,6 +46112,9 @@
    "name": "Moby",
    "k": "b"
   },
+  "moctezuma": {
+   "name": "Moctezuma"
+  },
   "moda-design": {
    "name": "Moda Design",
    "k": "b"
@@ -46019,6 +46386,9 @@
    "cat": "Education",
    "k": "b"
   },
+  "montecarlo": {
+   "name": "Montecarlo"
+  },
   "montefiore": {
    "name": "Montefiore",
    "k": "b"
@@ -46031,6 +46401,24 @@
    "bf": [
     "icon"
    ]
+  },
+  "monterrey": {
+   "name": "Monterrey",
+   "domain": "rayados.com",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "aliases": [
+    "Rayados"
+   ],
+   "ptiers": [
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-19",
+   "market": "Rest of World"
   },
   "montezemolo": {
    "name": "Montezemolo",
@@ -47808,6 +48196,21 @@
    "name": "NECA",
    "k": "b"
   },
+  "necaxa": {
+   "name": "Necaxa",
+   "domain": "clubnecaxa.mx",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "ptiers": [
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-19",
+   "market": "Rest of World"
+  },
   "nectr": {
    "name": "Nectr",
    "cat": "Energy & utilities",
@@ -48976,6 +49379,9 @@
    "cat": "Education",
    "k": "b"
   },
+  "niasa": {
+   "name": "Niasa"
+  },
   "niasca-portofino": {
    "name": "Niasca Portofino",
    "k": "b"
@@ -49092,6 +49498,9 @@
   "nikihk": {
    "name": "Nîkihk",
    "k": "b"
+  },
+  "nikko-auto": {
+   "name": "Nikko Auto"
   },
   "nikkon-holdings": {
    "name": "Nikkon Holdings",
@@ -49252,6 +49661,10 @@
    "cat": "Automotive",
    "k": "b"
   },
+  "nissan-tijuana": {
+   "name": "Nissan Tijuana",
+   "cat": "Automotive"
+  },
   "nissei-advance": {
    "name": "Nissei Advance",
    "k": "b"
@@ -49259,6 +49672,9 @@
   "nisshin-oillio": {
    "name": "Nisshin OilliO",
    "k": "b"
+  },
+  "nissin": {
+   "name": "Nissin"
   },
   "nissin-foods": {
    "name": "Nissin Foods",
@@ -50293,6 +50709,9 @@
    "name": "NutraPreps",
    "k": "b"
   },
+  "nutri": {
+   "name": "Nutri (Lala)"
+  },
   "nutrisource": {
    "name": "NutriSource",
    "k": "b"
@@ -51179,6 +51598,9 @@
    "cat": "Airlines & travel",
    "k": "b"
   },
+  "omnibus-de-mexico": {
+   "name": "Omnibus de México"
+  },
   "omniplex-cinemas": {
    "name": "Omniplex Cinemas",
    "cat": "Hospitality & entertainment",
@@ -51532,6 +51954,9 @@
     "icon"
    ]
   },
+  "opta": {
+   "name": "Opta"
+  },
   "opta-data": {
    "name": "opta data",
    "cat": "Technology",
@@ -51544,6 +51969,9 @@
   "optima-italia": {
    "name": "Optima Italia",
    "k": "b"
+  },
+  "optimo": {
+   "name": "Óptimo"
   },
   "optimum-nutrition": {
    "name": "Optimum Nutrition",
@@ -52367,6 +52795,9 @@
    "cat": "Construction & property",
    "k": "b"
   },
+  "pack3000": {
+   "name": "Pack3000"
+  },
   "packed-up": {
    "name": "Packed Up",
    "k": "b"
@@ -52425,6 +52856,9 @@
   "paerata-rise": {
    "name": "Paerata Rise",
    "k": "b"
+  },
+  "paga-aqui": {
+   "name": "Paga Aquí"
   },
   "paganotto-caffe": {
    "name": "Paganotto Caffè",
@@ -52681,6 +53115,9 @@
   "paq-it": {
    "name": "PAQ IT",
    "k": "b"
+  },
+  "paquetexpress": {
+   "name": "Paquetexpress"
   },
   "paracelsus-kliniken": {
    "name": "Paracelsus Kliniken",
@@ -53220,6 +53657,9 @@
    "name": "Pedialyte",
    "k": "b"
   },
+  "pedigree": {
+   "name": "Pedigree"
+  },
   "pegasus-airlines": {
    "name": "Pegasus Airlines",
    "cat": "Airlines & travel",
@@ -53264,6 +53704,9 @@
   "peluso-sperandio": {
    "name": "Peluso Sperandio",
    "k": "b"
+  },
+  "penafiel": {
+   "name": "Peñafiel"
   },
   "penalty": {
    "name": "Penalty",
@@ -53331,6 +53774,9 @@
     "icon",
     "logo"
    ]
+  },
+  "penoles": {
+   "name": "Peñoles"
   },
   "penrite-oil": {
    "name": "Penrite Oil",
@@ -53496,6 +53942,9 @@
   "perdigao": {
    "name": "Perdigão",
    "k": "b"
+  },
+  "perdura": {
+   "name": "Perdura"
   },
   "perenti": {
    "name": "Perenti",
@@ -54343,6 +54792,9 @@
    ],
    "logo": "assets/logos/pirelli.png"
   },
+  "pirma": {
+   "name": "Pirma"
+  },
   "pirtek": {
    "name": "Pirtek",
    "cat": "Industrial & manufacturing",
@@ -54472,6 +54924,10 @@
    "cat": "Food & nutrition",
    "k": "b"
   },
+  "pizzad-prizza": {
+   "name": "Pizzad Prizza",
+   "cat": "Food & nutrition"
+  },
   "pizzeria-phil-and-fred": {
    "name": "Pizzeria Phil & Fred",
    "k": "b"
@@ -54586,6 +55042,9 @@
     "icon",
     "logo"
    ]
+  },
+  "playdoit": {
+   "name": "Playdoit"
   },
   "players-sports": {
    "name": "Players Sports",
@@ -55525,6 +55984,9 @@
    "name": "PREP",
    "k": "b"
   },
+  "prepa-idel": {
+   "name": "Prepa Idel"
+  },
   "presidio": {
    "name": "Presidio",
    "cat": "Technology",
@@ -55664,6 +56126,9 @@
   "primepoint": {
    "name": "Primepoint",
    "k": "b"
+  },
+  "primera-plus": {
+   "name": "Primera Plus"
   },
   "primient": {
    "name": "Primient",
@@ -56100,6 +56565,21 @@
    "name": "Publix",
    "k": "b"
   },
+  "puebla": {
+   "name": "Puebla",
+   "domain": "clubpuebla.com",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "ptiers": [
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-19",
+   "market": "Rest of World"
+  },
   "puget-sound-energy": {
    "name": "Puget Sound Energy",
    "cat": "Energy & utilities",
@@ -56171,6 +56651,21 @@
    ],
    "cat": "Apparel & footwear",
    "k": "b"
+  },
+  "pumas-unam": {
+   "name": "Pumas UNAM",
+   "domain": "pumas.mx",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "ptiers": [
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-19",
+   "market": "Rest of World"
   },
   "pump-supplies": {
    "name": "Pump Supplies",
@@ -56561,6 +57056,9 @@
    "name": "Quartz",
    "k": "b"
   },
+  "quattrocom": {
+   "name": "Quattrocom"
+  },
   "quayclean": {
    "name": "Quayclean",
    "k": "b"
@@ -56696,6 +57194,21 @@
    "name": "Queensland X-Ray",
    "k": "b",
    "cat": "Health & beauty"
+  },
+  "quer-taro": {
+   "name": "Querétaro",
+   "domain": "qfc.mx",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "ptiers": [
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-19",
+   "market": "Rest of World"
   },
   "quest-apartment-hotels": {
    "name": "Quest Apartment Hotels",
@@ -57126,6 +57639,9 @@
    "name": "Raising Cane's",
    "k": "b"
   },
+  "raiz-fcu": {
+   "name": "Raíz FCU"
+  },
   "rajasthan-royals": {
    "name": "Rajasthan Royals",
    "domain": "rajasthanroyals.com",
@@ -57191,6 +57707,9 @@
   "rally-us": {
    "name": "Rally US",
    "k": "p"
+  },
+  "raloy": {
+   "name": "Raloy"
   },
   "ralph-d-silva-motor-group": {
    "name": "Ralph D'Silva Motor Group",
@@ -57768,6 +58287,9 @@
     "Partner"
    ],
    "ptiersChecked": "2026-11-19"
+  },
+  "red-cola": {
+   "name": "Red Cola"
   },
   "red-cow-hotel": {
    "name": "Red Cow Hotel",
@@ -58358,6 +58880,9 @@
    "k": "b",
    "cat": "Construction & property"
   },
+  "restonic": {
+   "name": "Restonic"
+  },
   "restore": {
    "name": "Restore",
    "k": "b"
@@ -58894,6 +59419,9 @@
    "name": "RJO Earthworks",
    "k": "b"
   },
+  "rk": {
+   "name": "RK"
+  },
   "rkb-mainichi-broadcasting": {
    "name": "RKB Mainichi Broadcasting",
    "cat": "Media & broadcast",
@@ -59341,6 +59869,9 @@
    "name": "Rosel",
    "k": "b"
   },
+  "roshfrans": {
+   "name": "Roshfrans"
+  },
   "roshn": {
    "name": "ROSHN",
    "cat": "Construction & property",
@@ -59652,6 +60183,9 @@
   "rtp-performance": {
    "name": "RTP Performance",
    "k": "b"
+  },
+  "ruba": {
+   "name": "RUBA"
   },
   "rubbermaid-commercial-products": {
    "name": "Rubbermaid Commercial Products",
@@ -60535,6 +61069,9 @@
    "name": "Salon Warehouse",
    "k": "b"
   },
+  "salsa-huichol": {
+   "name": "Salsa Huichol"
+  },
   "salt-property": {
    "name": "Salt Property",
    "cat": "Construction & property",
@@ -60640,6 +61177,9 @@
   "samuel-adams": {
    "name": "Samuel Adams",
    "k": "b"
+  },
+  "samur": {
+   "name": "SAMUR"
   },
   "samworth-brothers": {
    "name": "Samworth Brothers",
@@ -60812,6 +61352,10 @@
     "Official partner"
    ]
   },
+  "san-martin-tequila": {
+   "name": "San Martín Tequila",
+   "cat": "Alcohol"
+  },
   "san-miguel": {
    "name": "San Miguel",
    "k": "b",
@@ -60828,6 +61372,9 @@
     "icon",
     "logo"
    ]
+  },
+  "sanatorio-espanol": {
+   "name": "Sanatorio Español"
   },
   "sandbanks": {
    "name": "Sandbanks",
@@ -60971,6 +61518,21 @@
    ],
    "cat": "Mining & resources",
    "k": "b"
+  },
+  "santos-laguna": {
+   "name": "Santos Laguna",
+   "domain": "clubsantos.mx",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "ptiers": [
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-19",
+   "market": "Rest of World"
   },
   "sanyo-electric-railway": {
    "name": "Sanyo Electric Railway",
@@ -61935,6 +62497,9 @@
    "name": "SECOM",
    "k": "b"
   },
+  "secret": {
+   "name": "Secret"
+  },
   "sector": {
    "name": "Sector",
    "k": "b"
@@ -62006,6 +62571,12 @@
   "segurlab": {
    "name": "Segurlab",
    "k": "b"
+  },
+  "seguros-atlas": {
+   "name": "Seguros Atlas"
+  },
+  "seguros-el-potosi": {
+   "name": "Seguros El Potosí"
   },
   "seguros-unimed": {
    "name": "Seguros Unimed",
@@ -63433,6 +64004,9 @@
    "name": "Sims & Blue",
    "k": "b"
   },
+  "simsa": {
+   "name": "SIMSA"
+  },
   "sinclair-broadcast-group": {
    "name": "Sinclair Broadcast Group",
    "cat": "Media & broadcast",
@@ -63910,6 +64484,9 @@
   "smart-home-sounds": {
    "name": "Smart Home Sounds",
    "k": "b"
+  },
+  "smart-supermercados": {
+   "name": "Smart Supermercados"
   },
   "smarta-energy": {
    "name": "Smarta Energy",
@@ -64492,6 +65069,9 @@
   "sorare": {
    "name": "Sorare",
    "k": "b"
+  },
+  "soriana": {
+   "name": "Soriana"
   },
   "sorodist": {
    "name": "Sorodist",
@@ -65202,6 +65782,9 @@
    "name": "Sportissimo",
    "k": "b"
   },
+  "sportiumbet": {
+   "name": "Sportiumbet"
+  },
   "sportradar": {
    "name": "Sportradar",
    "domain": "sportradar.com",
@@ -65533,6 +66116,9 @@
    ],
    "cat": "Industrial & manufacturing",
    "k": "b"
+  },
+  "srs-distribution": {
+   "name": "SRS Distribution"
   },
   "srt-logistics": {
    "name": "SRT Logistics",
@@ -67035,6 +67621,9 @@
    "name": "Supaglass",
    "k": "b"
   },
+  "super-colchones": {
+   "name": "Super Colchones"
+  },
   "super-inspect": {
    "name": "Super Inspect",
    "k": "b"
@@ -67104,6 +67693,9 @@
     "icon",
     "logo"
    ]
+  },
+  "superette": {
+   "name": "Superette"
   },
   "superfile": {
    "name": "SuperFile",
@@ -68318,6 +68910,9 @@
    "name": "Taptap Send",
    "k": "b"
   },
+  "tar": {
+   "name": "TAR"
+  },
   "taradale-rsa": {
    "name": "Taradale RSA",
    "k": "b"
@@ -68789,6 +69384,9 @@
    "name": "Teamwork Tickets",
    "k": "b"
   },
+  "tecate": {
+   "name": "Tecate"
+  },
   "tech-group": {
    "name": "Tech Group",
    "cat": "Technology",
@@ -68961,6 +69559,9 @@
   "tekwind": {
    "name": "Tekwind",
    "k": "b"
+  },
+  "telcel": {
+   "name": "Telcel"
   },
   "telcospec": {
    "name": "Telcospec",
@@ -70709,6 +71310,39 @@
    "name": "TigerTurf",
    "k": "b"
   },
+  "tigres-uanl": {
+   "name": "Tigres UANL",
+   "domain": "tigres.com.mx",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "ptiers": [
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-19",
+   "market": "Rest of World"
+  },
+  "tijuana": {
+   "name": "Tijuana",
+   "domain": "xolos.com.mx",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "aliases": [
+    "Xolos"
+   ],
+   "ptiers": [
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-19",
+   "market": "Rest of World"
+  },
   "tiktok": {
    "name": "TikTok",
    "domain": "tiktok.com",
@@ -71149,6 +71783,21 @@
    "name": "Tollon",
    "k": "b"
   },
+  "toluca": {
+   "name": "Toluca",
+   "domain": "tolucafc.com",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "ptiers": [
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-19",
+   "market": "Rest of World"
+  },
   "tom-davies": {
    "name": "Tom Davies",
    "k": "b"
@@ -71486,6 +72135,9 @@
    "cat": "Education",
    "k": "b"
   },
+  "torres-corzo": {
+   "name": "Torres Corzo"
+  },
   "torres-omar-jewelry": {
    "name": "Torres Omar Jewelry",
    "cat": "Watches & luxury",
@@ -71612,6 +72264,9 @@
   "totally-workwear-kirrawee": {
    "name": "Totally Workwear Kirrawee",
    "k": "b"
+  },
+  "totalplay": {
+   "name": "Totalplay"
   },
   "totalspan": {
    "name": "Totalspan",
@@ -72576,6 +73231,9 @@
    "name": "TTE",
    "k": "b"
   },
+  "tterra": {
+   "name": "Tterra"
+  },
   "tuatahi-fibre": {
    "name": "Tuatahi Fibre",
    "k": "b"
@@ -72590,6 +73248,9 @@
    "cat": "Media & broadcast",
    "logo": "assets/logos/tubi.png",
    "domain": "tubitv.com"
+  },
+  "tudn": {
+   "name": "TUDN"
   },
   "tudor": {
    "name": "Tudor",
@@ -72684,6 +73345,10 @@
    "name": "TV 2",
    "cat": "Media & broadcast",
    "k": "b"
+  },
+  "tv-azteca": {
+   "name": "TV Azteca",
+   "cat": "Media & broadcast"
   },
   "tv3": {
    "name": "TV3",
@@ -73577,6 +74242,9 @@
    "cat": "Airlines & travel",
    "k": "b"
   },
+  "universidad-anahuac": {
+   "name": "Universidad Anáhuac"
+  },
   "universidad-miguel-hernandez": {
    "name": "Universidad Miguel Hernández",
    "k": "b"
@@ -74229,6 +74897,10 @@
    "name": "V-Marc",
    "k": "b"
   },
+  "v-media": {
+   "name": "V Media",
+   "cat": "Media & broadcast"
+  },
   "v-ost": {
    "name": "VÖOST",
    "cat": "Health & beauty",
@@ -74724,6 +75396,9 @@
    "logo": "assets/logos/veolia.png",
    "domain": "veolia.com"
   },
+  "veova": {
+   "name": "Veova"
+  },
   "verbundvolksbank-owl": {
    "name": "Verbundvolksbank OWL",
    "k": "b"
@@ -75102,6 +75777,9 @@
   "vidres": {
    "name": "Vidres",
    "k": "b"
+  },
+  "vidusa": {
+   "name": "Vidusa"
   },
   "vienna-beef": {
    "name": "Vienna Beef",
@@ -75676,6 +76354,9 @@
     "logo"
    ]
   },
+  "viva-aerobus": {
+   "name": "Viva Aerobus"
+  },
   "viva-la-mamma": {
    "name": "Viva la Mamma",
    "k": "b"
@@ -75799,6 +76480,9 @@
    "cat": "Telco",
    "k": "b",
    "domain": "vodafone.com.fj"
+  },
+  "voit": {
+   "name": "Voit"
   },
   "volaris": {
    "name": "Volaris",
@@ -77994,6 +78678,9 @@
    "name": "WKYC",
    "k": "b"
   },
+  "wlr": {
+   "name": "WLR"
+  },
   "wlwt": {
    "name": "WLWT",
    "k": "b"
@@ -78036,6 +78723,9 @@
    "ptiers": [
     "Profile partner"
    ]
+  },
+  "wobi": {
+   "name": "WOBI"
   },
   "wodr": {
    "name": "Wodr",
@@ -78167,6 +78857,9 @@
   "woom": {
    "name": "Woom",
    "k": "b"
+  },
+  "woow": {
+   "name": "Woow"
   },
   "worcestershire-ccc": {
    "name": "Worcestershire CCC",
@@ -78673,6 +79366,9 @@
   "xefi": {
    "name": "XEFI",
    "k": "b"
+  },
+  "xentral": {
+   "name": "Xentral"
   },
   "xero": {
    "name": "Xero",
