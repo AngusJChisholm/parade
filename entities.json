@@ -8717,7 +8717,8 @@
    "k": "b"
   },
   "base-compression": {
-   "name": "BASE Compression"
+   "name": "BASE Compression",
+   "k": "b"
   },
   "base-protection": {
    "name": "BASE Protection",
@@ -8757,7 +8758,8 @@
    "ptiers": [
     "Major partner",
     "Basketball Australia partner",
-    "Supply partner"
+    "Supply partner",
+    "Official partner"
    ],
    "ptiersChecked": "2026-11-16"
   },
@@ -11646,7 +11648,8 @@
    "k": "b"
   },
   "boob-armour": {
-   "name": "Boob Armour"
+   "name": "Boob Armour",
+   "k": "b"
   },
   "boobydoo": {
    "name": "boobydoo",
@@ -20272,7 +20275,8 @@
    "k": "p",
    "ptiers": [
     "Major partner",
-    "Other partner"
+    "Other partner",
+    "Official partner"
    ],
    "ptiersChecked": "2026-11-16"
   },
@@ -60778,7 +60782,8 @@
   },
   "pitcher-partners": {
    "name": "Pitcher Partners",
-   "cat": "Professional services"
+   "cat": "Professional services",
+   "k": "b"
   },
   "pitchwise-holdings": {
    "name": "Pitchwise Holdings",
