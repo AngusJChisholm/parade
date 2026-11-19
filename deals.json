@@ -190315,10 +190315,11 @@
    "conf": "Confirmed",
    "verified": "2026-11-16",
    "datesTried": "2026-11-19",
-   "since": 2021,
-   "sinceBasis": "wayback",
+   "since": 2017,
+   "sinceBasis": "news",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "role",
+   "sinceUrl": "https://www.ausfoodnews.com.au/2017/10/16/woolworths-official-supermarket-of-netball-australia.html"
   },
   {
    "listed": "2026-11-16",
@@ -270417,10 +270418,11 @@
    "conf": "Confirmed",
    "verified": "2026-11-08",
    "datesTried": "2026-11-18",
-   "since": 2021,
-   "sinceBasis": "wayback",
+   "since": 2002,
+   "sinceBasis": "news",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "role",
+   "sinceUrl": "https://www.afl.com.au/news/837391"
   },
   {
    "listed": "2026-11-05",
@@ -293756,7 +293758,9 @@
    "verified": "2026-11-17",
    "checked": "2026-11-17",
    "ttier": "T4",
-   "tbasis": "role"
+   "tbasis": "role",
+   "since": 2021,
+   "sinceBasis": "wayback"
   },
   {
    "listed": "2026-10-30",
@@ -293774,7 +293778,9 @@
    "verified": "2026-11-17",
    "checked": "2026-11-17",
    "ttier": "T4",
-   "tbasis": "role"
+   "tbasis": "role",
+   "since": 2021,
+   "sinceBasis": "wayback"
   },
   {
    "listed": "2026-11-02",
@@ -304619,8 +304625,9 @@
    "status": "Current partner",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "since": 2021,
-   "sinceBasis": "wayback"
+   "since": 2004,
+   "sinceBasis": "news",
+   "sinceUrl": "https://cub.com.au/victoria-bitter-announces-partnership-to-become-the-official-beer-of-state-of-origin"
   },
   {
    "listed": "2026-11-16",
