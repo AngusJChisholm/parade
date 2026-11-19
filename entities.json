@@ -6997,6 +6997,10 @@
     "logo"
    ]
   },
+  "bank-of-communications": {
+   "name": "Bank of Communications",
+   "cat": "Banking & finance"
+  },
   "bank-of-ireland": {
    "name": "Bank of Ireland",
    "cat": "Banking & finance",
@@ -7006,6 +7010,10 @@
    "name": "Bank of Kyoto",
    "cat": "Banking & finance",
    "k": "b"
+  },
+  "bank-of-qingdao": {
+   "name": "Bank of Qingdao",
+   "cat": "Banking & finance"
   },
   "bank-of-queensland": {
    "name": "Bank of Queensland",
@@ -7017,6 +7025,10 @@
     "icon",
     "logo"
    ]
+  },
+  "bank-of-shanghai": {
+   "name": "Bank of Shanghai",
+   "cat": "Banking & finance"
   },
   "bank-south-pacific": {
    "name": "Bank South Pacific",
@@ -14333,6 +14345,14 @@
    ],
    "cat": "Airlines & travel",
    "k": "b"
+  },
+  "china-green-development-group": {
+   "name": "China Green Development Group",
+   "cat": "Construction & property"
+  },
+  "china-merchants-bank": {
+   "name": "China Merchants Bank",
+   "cat": "Banking & finance"
   },
   "china-open": {
    "name": "China Open",
@@ -23693,6 +23713,10 @@
    "name": "Faura",
    "k": "b"
   },
+  "faw-volkswagen": {
+   "name": "FAW-Volkswagen",
+   "cat": "Automotive"
+  },
   "fbl-sport": {
    "name": "FBL Sport",
    "cat": "Apparel & footwear",
@@ -30980,6 +31004,10 @@
    "cat": "Automotive",
    "k": "b"
   },
+  "holiday-inn": {
+   "name": "Holiday Inn (IHG)",
+   "cat": "Airlines & travel"
+  },
   "holiday-world": {
    "name": "Holiday World",
    "k": "b"
@@ -34770,6 +34798,10 @@
    "ptype": "League & competition",
    "k": "p"
   },
+  "jiahui-health": {
+   "name": "Jiahui Health",
+   "cat": "Health & beauty"
+  },
   "jiffy-lube": {
    "name": "Jiffy Lube",
    "k": "b"
@@ -34813,6 +34845,10 @@
   "jimmy-the-greek": {
    "name": "Jimmy The Greek",
    "k": "b"
+  },
+  "jinan-cultural-tourism-group": {
+   "name": "Jinan Cultural Tourism Group",
+   "cat": "Tourism & government"
   },
   "jindal-stainless": {
    "name": "Jindal Stainless",
@@ -35321,6 +35357,9 @@
   "jump": {
    "name": "Jump",
    "k": "b"
+  },
+  "juneyao-air": {
+   "name": "Juneyao Air"
   },
   "junta-de-andalucia": {
    "name": "Junta de Andalucía",
@@ -45286,6 +45325,9 @@
    "name": "Narellan Pools",
    "k": "b"
   },
+  "nari": {
+   "name": "NARI"
+  },
   "nas-mares": {
    "name": "Nas Mares",
    "k": "b"
@@ -49198,6 +49240,9 @@
     "logo"
    ]
   },
+  "onvo": {
+   "name": "ONVO"
+  },
   "ooga-shokai": {
    "name": "Ooga Shokai",
    "k": "b"
@@ -52424,6 +52469,10 @@
     "icon",
     "logo"
    ]
+  },
+  "po-xiao-new-energy": {
+   "name": "Po Xiao New Energy",
+   "cat": "Energy & utilities"
   },
   "poc": {
    "name": "POC",
@@ -57656,6 +57705,9 @@
    "name": "SAIB",
    "k": "b"
   },
+  "saic-motor": {
+   "name": "SAIC Motor"
+  },
   "saie": {
    "name": "Saie",
    "k": "b"
@@ -59828,6 +59880,21 @@
    "name": "Shandon Golf Club",
    "k": "b"
   },
+  "shandong-taishan": {
+   "name": "Shandong Taishan",
+   "domain": "lnts.com.cn",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "ptiers": [
+    "Sponsor"
+   ],
+   "ptiersChecked": "2026-11-19",
+   "market": "Asia"
+  },
   "shane-warne-legacy": {
    "name": "Shane Warne Legacy",
    "cat": "Not-for-profit",
@@ -59837,6 +59904,40 @@
    "name": "Shane Warner Engineering",
    "cat": "Media & broadcast",
    "k": "b"
+  },
+  "shanghai-port": {
+   "name": "Shanghai Port",
+   "domain": "fcshanghaiport.com",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "aliases": [
+    "Shanghai SIPG"
+   ],
+   "ptiers": [
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-19",
+   "market": "Asia"
+  },
+  "shanghai-shenhua": {
+   "name": "Shanghai Shenhua",
+   "domain": "shenhuafc.com.cn",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "ptiers": [
+    "Top partner",
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-19",
+   "market": "Asia"
   },
   "shani-s-family-eatery-and-bar": {
    "name": "Shani's Family Eatery and Bar",
@@ -60758,6 +60859,10 @@
     "icon",
     "logo"
    ]
+  },
+  "sinounited-health": {
+   "name": "SinoUnited Health",
+   "cat": "Health & beauty"
   },
   "sipenergy": {
    "name": "SIPEnergy",
@@ -63296,6 +63401,9 @@
    "name": "State Farm",
    "cat": "Agriculture",
    "k": "b"
+  },
+  "state-grid": {
+   "name": "State Grid"
   },
   "state-of-mecklenburg-vorpommern": {
    "name": "State of Mecklenburg-Vorpommern",
@@ -75870,6 +75978,16 @@
     "icon"
    ]
   },
+  "yingda-group": {
+   "name": "Yingda Group"
+  },
+  "yingda-property-insurance": {
+   "name": "Yingda Property Insurance",
+   "cat": "Insurance"
+  },
+  "yingda-trust": {
+   "name": "Yingda Trust"
+  },
   "ymca-wa": {
    "name": "YMCA WA",
    "k": "b"
@@ -76342,6 +76460,22 @@
   "zeuner": {
    "name": "Zeuner",
    "k": "b"
+  },
+  "zhejiang-fc": {
+   "name": "Zhejiang FC",
+   "domain": "zhejiangfc1998.com",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "ptiers": [
+    "Front-of-shirt partner",
+    "Kit supplier"
+   ],
+   "ptiersChecked": "2026-11-19",
+   "market": "Asia"
   },
   "zhik": {
    "name": "Zhik",
