@@ -11,7 +11,7 @@ Checks (ANZ first, then everything):
                   usually a partner that has left and needs "ended", or a wrong tag
   dup_deals       the same brand and property twice with the same date, or a "listed" entry next to a dated one
   no_broadcaster  ANZ leagues and governing bodies with no live broadcast partner
-  stale           dated deals 4+ years old with no end year and no "ended": probably over
+  stale           dated deals 4+ years old with no end year, no "ended" and not verified in the last year
   no_source       deals with no url, or still flagged needsSource
 """
 import json, re, sys, collections, datetime
@@ -104,7 +104,8 @@ def main():
     out["no_broadcaster"] = sorted(nb, key=lambda x: -x["deals"])
 
     out["stale"] = [{"deal": x["d"]["deal"], "date": x["d"].get("date") or x["d"].get("month")}
-                    for x in deals if x["ym"] is not None and now - x["ym"] >= 48 and not x["d"].get("ends") and not x["d"].get("ended")]
+                    for x in deals if x["ym"] is not None and now - x["ym"] >= 48 and not x["d"].get("ends") and not x["d"].get("ended")
+                    and not (x["d"].get("verified") or "") >= (today - datetime.timedelta(days=365)).isoformat()]
     out["no_source"] = [{"deal": x["d"]["deal"], "issue": "needsSource" if x["d"].get("needsSource") else "no url"}
                         for x in deals if x["d"].get("needsSource") or not x["d"].get("url")]
 
