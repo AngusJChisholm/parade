@@ -39,14 +39,14 @@
   },
   {
    "date": "2026-11-19",
-   "score": 50.7,
+   "score": 51.2,
    "partial": true,
    "areas": {
     "Completeness": 32.9,
     "Consistency": 37.4,
-    "Freshness": 78.6,
-    "Sources": 62.9,
-    "Logos": 52.3
+    "Freshness": 77.9,
+    "Sources": 63.5,
+    "Logos": 56.5
    },
    "metrics": {
     "Completeness": {
@@ -62,28 +62,28 @@
     "Freshness": {
      "Tier 1-2 properties checked in 30 days %": 99.2,
      "All properties checked in 90 days %": 75.7,
-     "Live rows with a past end year": 14
+     "Live rows with a past end year": 16
     },
     "Sources": {
-     "Rows on a reviewed source domain %": 99.0,
-     "Announced partnerships on an official source %": 35.4
+     "Rows on a reviewed source domain %": 98.9,
+     "Announced partnerships on an official source %": 36.2
     },
     "Logos": {
-     "Brand logo coverage (by partnerships) %": 51.4
+     "Brand logo coverage (by partnerships) %": 53.9
     }
    }
   }
  ],
  "latest": {
   "date": "2026-11-19",
-  "score": 50.7,
+  "score": 51.2,
   "partial": true,
   "areas": {
    "Completeness": 32.9,
    "Consistency": 37.4,
-   "Freshness": 78.6,
-   "Sources": 62.9,
-   "Logos": 52.3
+   "Freshness": 77.9,
+   "Sources": 63.5,
+   "Logos": 56.5
   },
   "metrics": {
    "Completeness": {
@@ -99,14 +99,14 @@
    "Freshness": {
     "Tier 1-2 properties checked in 30 days %": 99.2,
     "All properties checked in 90 days %": 75.7,
-    "Live rows with a past end year": 14
+    "Live rows with a past end year": 16
    },
    "Sources": {
-    "Rows on a reviewed source domain %": 99.0,
-    "Announced partnerships on an official source %": 35.4
+    "Rows on a reviewed source domain %": 98.9,
+    "Announced partnerships on an official source %": 36.2
    },
    "Logos": {
-    "Brand logo coverage (by partnerships) %": 51.4
+    "Brand logo coverage (by partnerships) %": 53.9
    }
   }
  }
