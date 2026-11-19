@@ -68,6 +68,14 @@ def main():
             for x in many(b):
                 rows.setdefault(res(x), []).append(d)
 
+    # region/market/sport follow the property's existing rows, so non-ANZ properties don't inherit the ANZ default
+    from collections import Counter
+    mine = [d for rs in rows.values() for d in rs]
+    for k in ("region", "market", "sport"):
+        c = Counter(d.get(k) for d in mine if d.get(k))
+        if c:
+            cfg[k] = c.most_common(1)[0][0]
+
     seen, tier, name, snap = {}, {}, {}, {}
     years = sorted(cfg["seasons"])
     for y in years:
