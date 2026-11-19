@@ -871,6 +871,9 @@
     "logo"
    ]
   },
+  "abs-assistenza": {
+   "name": "ABS Assistenza"
+  },
   "abs-computers": {
    "name": "ABS Computers",
    "cat": "Technology",
@@ -2517,6 +2520,9 @@
    "cat": "Education",
    "k": "b"
   },
+  "aledora-box": {
+   "name": "Aledora Box"
+  },
   "alessandro-berselli": {
    "name": "Alessandro Berselli",
    "k": "b"
@@ -2684,6 +2690,9 @@
    "k": "b",
    "logo": "assets/logos/allegion.png",
    "domain": "allegion.com"
+  },
+  "allegri-ecologia": {
+   "name": "Allegri Ecologia"
   },
   "allflags": {
    "name": "Allflags",
@@ -3312,6 +3321,9 @@
    "name": "Amora Hotel Brisbane",
    "cat": "Airlines & travel",
    "k": "b"
+  },
+  "amoretti": {
+   "name": "Amoretti"
   },
   "amoroso-s": {
    "name": "Amoroso's",
@@ -4076,6 +4088,10 @@
    "name": "Arena Sports",
    "cat": "Apparel & footwear",
    "k": "b"
+  },
+  "arena-sunshine": {
+   "name": "Arena Sunshine",
+   "cat": "Apparel & footwear"
   },
   "ares-management": {
    "name": "Ares Management",
@@ -5908,6 +5924,9 @@
     "icon"
    ]
   },
+  "autogrill": {
+   "name": "Autogrill"
+  },
   "autohaus-bunk": {
    "name": "Autohaus Bunk",
    "k": "b"
@@ -7565,6 +7584,23 @@
   "benetti-cesarino": {
    "name": "Benetti Cesarino",
    "k": "b"
+  },
+  "benetton-rugby": {
+   "name": "Benetton Rugby",
+   "domain": "benettonrugby.it",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "aliases": [
+    "Benetton"
+   ],
+   "ptiers": [
+    "Partner"
+   ],
+   "ptiersChecked": "2026-11-19"
   },
   "beneva": {
    "name": "Beneva",
@@ -12297,6 +12333,9 @@
    "name": "Casa de Pías",
    "k": "b"
   },
+  "casa-di-cura-citta-di-parma": {
+   "name": "Casa di Cura Città di Parma"
+  },
   "casa-lombardi": {
    "name": "Casa Lombardi",
    "k": "b"
@@ -12885,6 +12924,9 @@
   "centro-siderurgico": {
    "name": "Centro Siderurgico",
    "k": "b"
+  },
+  "centro-studi-san-nicolo": {
+   "name": "Centro Studi San Nicolò"
   },
   "centura-health": {
    "name": "Centura Health",
@@ -17152,6 +17194,9 @@
    "cat": "Education",
    "k": "b"
   },
+  "da-pian": {
+   "name": "Da Pian"
+  },
   "dabble": {
    "name": "Dabble",
    "cat": "Betting & wagering",
@@ -18543,6 +18588,9 @@
    "name": "Dignity Health",
    "cat": "Health & beauty",
    "k": "b"
+  },
+  "dimore-immobiliare": {
+   "name": "Dimore Immobiliare"
   },
   "dina-uniforms": {
    "name": "Dina Uniforms",
@@ -24803,6 +24851,9 @@
    "name": "Gaspari",
    "k": "b"
   },
+  "gasparin-servizi-costruttivi": {
+   "name": "Gasparin Servizi Costruttivi"
+  },
   "gateley": {
    "name": "Gateley",
    "k": "b"
@@ -30069,6 +30120,9 @@
    "name": "Ibotta",
    "k": "b"
   },
+  "ibsa": {
+   "name": "IBSA"
+  },
   "ibu-world-cup": {
    "name": "IBU World Cup",
    "ptype": "Event",
@@ -32500,6 +32554,9 @@
    "ptype": "Athlete & talent",
    "k": "p"
   },
+  "job-italia": {
+   "name": "Job Italia"
+  },
   "jobrad": {
    "name": "JobRad",
    "k": "b"
@@ -34693,6 +34750,9 @@
    "name": "Laberit",
    "k": "b"
   },
+  "laboratorio-rei": {
+   "name": "Laboratorio REI"
+  },
   "labour-connect": {
    "name": "Labour Connect",
    "domain": "labourconnect.com.au",
@@ -35004,6 +35064,9 @@
     "icon",
     "logo"
    ]
+  },
+  "laumas": {
+   "name": "LAUMAS"
   },
   "laundy-hotels": {
    "name": "Laundy Hotels",
@@ -38758,6 +38821,9 @@
    "name": "MediExcel",
    "k": "b"
   },
+  "medisport": {
+   "name": "Medisport"
+  },
   "medray-imaging": {
    "name": "MedRay Imaging",
    "k": "b"
@@ -41502,6 +41568,9 @@
    "name": "MVV Energie",
    "k": "b"
   },
+  "mwood": {
+   "name": "Mwood"
+  },
   "mws": {
    "name": "MWS",
    "k": "b"
@@ -43255,6 +43324,9 @@
    "name": "Nicholson",
    "cat": "Alcohol",
    "k": "b"
+  },
+  "nicola-tonon": {
+   "name": "Nicola Tonon"
   },
   "nicoll-s-limousine": {
    "name": "Nicoll's Limousine",
@@ -45091,6 +45163,9 @@
    "name": "Omaha Steaks",
    "k": "b"
   },
+  "omal": {
+   "name": "OMAL"
+  },
   "omataroa-trust": {
    "name": "Ōmataroa Trust",
    "k": "b"
@@ -45194,6 +45269,9 @@
    "name": "Ondeck",
    "cat": "Other",
    "k": "b"
+  },
+  "one": {
+   "name": "One"
   },
   "one-bore": {
    "name": "One Bore",
@@ -45695,6 +45773,9 @@
   "orsolini": {
    "name": "Orsolini",
    "k": "b"
+  },
+  "orthomedica": {
+   "name": "Orthomedica"
   },
   "orthosouth": {
    "name": "OrthoSouth",
@@ -48760,6 +48841,9 @@
    "name": "Postini Pisani",
    "k": "b"
   },
+  "postural-project": {
+   "name": "Postural Project"
+  },
   "potawatomi-sportsbook": {
    "name": "Potawatomi Sportsbook",
    "cat": "Betting & wagering",
@@ -49409,6 +49493,9 @@
    "name": "Prosciutto di Parma",
    "k": "b"
   },
+  "prosecco-doc": {
+   "name": "Prosecco DOC"
+  },
   "proserpini": {
    "name": "Proserpini",
    "k": "b"
@@ -49659,6 +49746,9 @@
     "icon",
     "logo"
    ]
+  },
+  "punto-pack": {
+   "name": "Punto Pack"
   },
   "pur-gruppe": {
    "name": "PuR Gruppe",
@@ -51871,6 +51961,9 @@
    "cat": "Other",
    "k": "b"
   },
+  "righi-ambulatori": {
+   "name": "Righi Ambulatori"
+  },
   "right2drive": {
    "name": "Right2Drive",
    "k": "b"
@@ -53662,6 +53755,9 @@
    "logo": "assets/logos/san-antonio-spurs.png",
    "domain": "nba.com"
   },
+  "san-benedetto": {
+   "name": "San Benedetto"
+  },
   "san-diego-community-power": {
    "name": "San Diego Community Power",
    "cat": "Energy & utilities",
@@ -54865,6 +54961,9 @@
   "seiri": {
    "name": "SEIRI",
    "k": "b"
+  },
+  "seisnet": {
+   "name": "Seisnet"
   },
   "sekerbank": {
    "name": "Şekerbank",
@@ -60521,6 +60620,10 @@
    "name": "Tassells",
    "k": "b"
   },
+  "taste-coffee": {
+   "name": "Taste Coffee",
+   "cat": "Non-alcoholic drinks"
+  },
   "taste-one": {
    "name": "Taste One",
    "k": "b"
@@ -60992,6 +61095,9 @@
    "name": "Telemundo",
    "k": "b"
   },
+  "telepass": {
+   "name": "Telepass"
+  },
   "telepathic-graphics": {
    "name": "Telepathic Graphics",
    "k": "b"
@@ -61325,6 +61431,9 @@
   "termoidraulica-fasoli": {
    "name": "Termoidraulica Fasoli",
    "k": "b"
+  },
+  "terra-candita": {
+   "name": "Terra Candita"
   },
   "terry-howe-printing": {
    "name": "Terry Howe Printing",
@@ -62132,6 +62241,9 @@
   "the-royce": {
    "name": "The Royce",
    "k": "b"
+  },
+  "the-rugby-catalog": {
+   "name": "The Rugby Catalog"
   },
   "the-rv-rental-factory": {
    "name": "The RV Rental Factory",
@@ -65023,6 +65135,9 @@
    "name": "United Carriers",
    "k": "b"
   },
+  "united-colors-of-benetton": {
+   "name": "United Colors of Benetton"
+  },
   "united-concordia-dental": {
    "name": "United Concordia Dental",
    "cat": "Health & beauty",
@@ -65988,6 +66103,9 @@
    "name": "Vapur",
    "k": "b"
   },
+  "var-group": {
+   "name": "Var Group"
+  },
   "variety-sa": {
    "name": "Variety SA",
    "cat": "Not-for-profit",
@@ -66124,6 +66242,9 @@
   "vendee-cyclisme": {
    "name": "Vendée Cyclisme",
    "k": "p"
+  },
+  "veneta-cucine": {
+   "name": "Veneta Cucine"
   },
   "venture-global": {
    "name": "Venture Global",
@@ -67031,6 +67152,10 @@
   "vithas": {
    "name": "Vithas",
    "k": "b"
+  },
+  "vittoria-assicurazioni": {
+   "name": "Vittoria Assicurazioni",
+   "cat": "Non-alcoholic drinks"
   },
   "viva": {
    "name": "VIVA",
@@ -70460,6 +70585,28 @@
    "k": "b",
    "logo": "assets/logos/zc-rubber.png",
    "domain": "zc-rubber.com"
+  },
+  "zebre-parma": {
+   "name": "Zebre Parma",
+   "domain": "zebreparma.it",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "aliases": [
+    "Zebre",
+    "Zebre Rugby"
+   ],
+   "ptiers": [
+    "Main, training and leisure sponsor",
+    "Kit sponsor",
+    "Gold partner",
+    "Silver partner",
+    "Official insurance partner"
+   ],
+   "ptiersChecked": "2026-11-19"
   },
   "zee-entertainment": {
    "name": "Zee Entertainment",
