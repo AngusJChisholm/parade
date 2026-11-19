@@ -951,6 +951,10 @@
    "k": "b",
    "cat": "Government & tourism"
   },
+  "abyan-capital": {
+   "name": "Abyan Capital",
+   "cat": "Banking & finance"
+  },
   "abzorb": {
    "name": "Abzorb",
    "k": "b"
@@ -2513,6 +2517,24 @@
    "name": "AkzoNobel Sikkens",
    "k": "b"
   },
+  "al-ahli": {
+   "name": "Al Ahli",
+   "domain": "alahlifc.sa",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "aliases": [
+    "Al-Ahli"
+   ],
+   "ptiers": [
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-19",
+   "market": "Middle East"
+  },
   "al-ahly": {
    "name": "Al Ahly",
    "ptype": "Club & team",
@@ -2523,10 +2545,106 @@
     "logo"
    ]
   },
+  "al-asasyah": {
+   "name": "Al Asasyah (Gree)"
+  },
   "al-balad-development-company": {
    "name": "Al Balad Development Company",
    "k": "b",
    "cat": "Construction & property"
+  },
+  "al-bassam-shemagh": {
+   "name": "Al Bassam Shemagh"
+  },
+  "al-diriyah": {
+   "name": "Al Diriyah",
+   "domain": "diriyahclub.sa",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "aliases": [
+    "Al-Diriyah"
+   ],
+   "ptiers": [
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-19",
+   "market": "Middle East"
+  },
+  "al-ettifaq": {
+   "name": "Al Ettifaq",
+   "domain": "ettifaq.com",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "aliases": [
+    "Al-Ettifaq"
+   ],
+   "ptiers": [
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-19",
+   "market": "Middle East"
+  },
+  "al-faisaly": {
+   "name": "Al Faisaly",
+   "domain": "alfaisalyfc.net",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "aliases": [
+    "Al-Faisaly"
+   ],
+   "ptiers": [
+    "Official sponsor"
+   ],
+   "ptiersChecked": "2026-11-19",
+   "market": "Middle East"
+  },
+  "al-fateh": {
+   "name": "Al Fateh",
+   "domain": "fatehclub.com",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "aliases": [
+    "Al-Fateh"
+   ],
+   "ptiers": [
+    "Official sponsor"
+   ],
+   "ptiersChecked": "2026-11-19",
+   "market": "Middle East"
+  },
+  "al-fayha": {
+   "name": "Al Fayha",
+   "domain": "alfayhasc.com",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "aliases": [
+    "Al-Fayha"
+   ],
+   "ptiers": [
+    "Sponsor"
+   ],
+   "ptiersChecked": "2026-11-19",
+   "market": "Middle East"
   },
   "al-fed": {
    "name": "Al.Fed",
@@ -2537,13 +2655,65 @@
    "k": "p",
    "domain": "alhilal.com",
    "ptype": "Club & team",
-   "market": "Middle East"
+   "market": "Middle East",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "aliases": [
+    "Al-Hilal"
+   ],
+   "ptiers": [
+    "Strategic partner",
+    "Main partner",
+    "Official partner",
+    "Official sponsor",
+    "Official supporter",
+    "Licensed partner"
+   ],
+   "ptiersChecked": "2026-11-19"
   },
   "al-ittihad": {
    "name": "Al Ittihad",
    "k": "p",
    "ptype": "Club & team",
+   "market": "Middle East",
+   "domain": "ittihadclub.sa",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "aliases": [
+    "Al-Ittihad"
+   ],
+   "ptiers": [
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-19"
+  },
+  "al-jabr-laundry": {
+   "name": "Al Jabr Laundry"
+  },
+  "al-kholood": {
+   "name": "Al Kholood",
+   "domain": "alkholoodclub.com",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "aliases": [
+    "Al-Kholood"
+   ],
+   "ptiers": [
+    "Official sponsor"
+   ],
+   "ptiersChecked": "2026-11-19",
    "market": "Middle East"
+  },
+  "al-khunaizan": {
+   "name": "Al Khunaizan"
   },
   "al-murad-tiles": {
    "name": "Al-Murad Tiles",
@@ -2557,12 +2727,37 @@
    "bf": [
     "icon",
     "logo"
-   ]
+   ],
+   "aliases": [
+    "Al-Nassr"
+   ],
+   "ptiers": [
+    "Main partner",
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-19",
+   "market": "Middle East"
   },
   "al-qadsiah": {
    "name": "Al Qadsiah",
    "ptype": "Club & team",
-   "k": "p"
+   "k": "p",
+   "domain": "alqadsiah.com",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "aliases": [
+    "Al-Qadsiah"
+   ],
+   "ptiers": [
+    "Golden partner"
+   ],
+   "ptiersChecked": "2026-11-19",
+   "market": "Middle East"
+  },
+  "al-rumaih": {
+   "name": "Al Rumaih"
   },
   "al-sadd": {
    "name": "Al Sadd",
@@ -2572,6 +2767,45 @@
    "bf": [
     "icon"
    ]
+  },
+  "al-shabab": {
+   "name": "Al Shabab",
+   "domain": "alshabab-sc.sa",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "aliases": [
+    "Al-Shabab"
+   ],
+   "ptiers": [
+    "Official sponsor"
+   ],
+   "ptiersChecked": "2026-11-19",
+   "market": "Middle East"
+  },
+  "al-taawoun": {
+   "name": "Al Taawoun",
+   "domain": "altaawounfc.com",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "aliases": [
+    "Al-Taawoun"
+   ],
+   "ptiers": [
+    "Official sponsor"
+   ],
+   "ptiersChecked": "2026-11-19",
+   "market": "Middle East"
+  },
+  "al-tayyar-dates": {
+   "name": "Al Tayyar Dates"
   },
   "ala-corporation": {
    "name": "ALA Corporation",
@@ -2667,6 +2901,9 @@
    "cat": "Retail",
    "k": "b"
   },
+  "aldrees": {
+   "name": "Aldrees"
+  },
   "aldrich-advisors": {
    "name": "Aldrich Advisors",
    "k": "b"
@@ -2683,6 +2920,9 @@
   "aleph": {
    "name": "Aleph",
    "k": "b"
+  },
+  "alesayi": {
+   "name": "Alesayi"
   },
   "alessandro-berselli": {
    "name": "Alessandro Berselli",
@@ -2708,6 +2948,9 @@
    "k": "b",
    "cat": "Automotive",
    "domain": "alfaromeo.com"
+  },
+  "alfakhera": {
+   "name": "Alfakhera"
   },
   "alfas-keiso": {
    "name": "Alfas Keiso",
@@ -3017,6 +3260,12 @@
   "almaden": {
    "name": "Almaden",
    "k": "b"
+  },
+  "almajdiah": {
+   "name": "Almajdiah"
+  },
+  "almosafer": {
+   "name": "Almosafer"
   },
   "alpaca-peruvian-charcoal-chicken": {
    "name": "Alpaca Peruvian Charcoal Chicken",
@@ -4267,6 +4516,9 @@
     "logo"
    ]
   },
+  "arabian-dyar": {
+   "name": "Arabian Dyar"
+  },
   "arakawa-chemical": {
    "name": "Arakawa Chemical",
    "k": "b"
@@ -4527,6 +4779,10 @@
    "name": "Ark Build",
    "k": "b"
   },
+  "arkan-media": {
+   "name": "Arkan Media",
+   "cat": "Media & broadcast"
+  },
   "arkema": {
    "name": "Arkema",
    "k": "b"
@@ -4594,6 +4850,9 @@
     "icon",
     "logo"
    ]
+  },
+  "aro-drilling": {
+   "name": "ARO Drilling"
   },
   "aroma-flavum": {
    "name": "Aroma Flavum",
@@ -5682,6 +5941,9 @@
     "icon"
    ]
   },
+  "atpi": {
+   "name": "ATPI"
+  },
   "atr-building-services": {
    "name": "ATR Building Services",
    "cat": "Construction & property",
@@ -6426,6 +6688,9 @@
    "name": "AV Media",
    "cat": "Media & broadcast",
    "k": "b"
+  },
+  "ava-cr7": {
+   "name": "AVA CR7"
   },
   "avalon-air": {
    "name": "Avalon Air",
@@ -7517,6 +7782,9 @@
    "name": "Batini",
    "k": "b"
   },
+  "batook": {
+   "name": "Batook"
+  },
   "batteries-expert": {
    "name": "Batteries Expert",
    "k": "b"
@@ -8247,6 +8515,9 @@
    "cat": "Agriculture",
    "k": "b"
   },
+  "berain": {
+   "name": "Berain"
+  },
   "beretta": {
    "name": "Beretta",
    "k": "b"
@@ -8345,6 +8616,9 @@
    "name": "Best Travel",
    "cat": "Airlines & travel",
    "k": "b"
+  },
+  "bestebit": {
+   "name": "Bestebit"
   },
   "bestile": {
    "name": "Bestile",
@@ -9802,6 +10076,9 @@
     "Business Partner"
    ],
    "ptiersChecked": "2026-11-17"
+  },
+  "bolt": {
+   "name": "Bolt"
   },
   "bolt-ventures": {
    "name": "Bolt Ventures",
@@ -12793,6 +13070,10 @@
    "name": "CARDO",
    "k": "b"
   },
+  "care-hospitals": {
+   "name": "Care Hospitals",
+   "cat": "Health & beauty"
+  },
   "care-wellness": {
    "name": "Care Wellness",
    "cat": "Health & beauty",
@@ -13614,6 +13895,12 @@
    "name": "Cemic",
    "k": "b"
   },
+  "cenomi": {
+   "name": "Cenomi"
+  },
+  "cenomi-centers": {
+   "name": "Cenomi Centers"
+  },
   "cenovus": {
    "name": "Cenovus",
    "k": "b"
@@ -13711,6 +13998,9 @@
   "central-taxis": {
    "name": "Central Taxis",
    "k": "b"
+  },
+  "centrco": {
+   "name": "Centrco"
   },
   "centro-bio-lab": {
    "name": "Centro Bio Lab",
@@ -14206,6 +14496,9 @@
     "icon"
    ],
    "logo": "assets/logos/chennaiyin-fc.png"
+  },
+  "cherry": {
+   "name": "Cherry"
   },
   "cherry-creek-school-district": {
    "name": "Cherry Creek School District",
@@ -18237,6 +18530,9 @@
    "name": "Cytavision",
    "k": "b"
   },
+  "czech-center": {
+   "name": "Czech Center"
+  },
   "d-c-united": {
    "name": "D.C. United",
    "domain": "dcunited.com",
@@ -18452,6 +18748,10 @@
    "name": "Dalkia",
    "k": "b"
   },
+  "dallah-hospital-al-ahsa": {
+   "name": "Dallah Hospital Al Ahsa",
+   "cat": "Health & beauty"
+  },
   "dallas-cowboys": {
    "name": "Dallas Cowboys",
    "domain": "dallascowboys.com",
@@ -18593,6 +18893,9 @@
    "name": "Dantom Electronics",
    "cat": "Technology",
    "k": "b"
+  },
+  "dar-wa-emaar": {
+   "name": "Dar Wa Emaar"
   },
   "dardi-munwurro": {
    "name": "Dardi Munwurro",
@@ -22867,6 +23170,9 @@
    "name": "Erredi Ascensori",
    "k": "b"
   },
+  "ersa-training": {
+   "name": "ERSA Training"
+  },
   "erzbistum-paderborn": {
    "name": "Erzbistum Paderborn",
    "k": "b"
@@ -24938,6 +25244,9 @@
    "name": "fischer",
    "k": "b"
   },
+  "fisher": {
+   "name": "Fisher"
+  },
   "fisher-and-paykel": {
    "name": "Fisher & Paykel",
    "cat": "Home & hardware",
@@ -24977,6 +25286,9 @@
   "fitness-outcomes": {
    "name": "Fitness Outcomes",
    "k": "b"
+  },
+  "fitness-time": {
+   "name": "Fitness Time"
   },
   "fitness-village": {
    "name": "Fitness Village",
@@ -25277,6 +25589,9 @@
    "name": "Flying Colours",
    "k": "b"
   },
+  "flynas": {
+   "name": "flynas"
+  },
   "flyte-aviation": {
    "name": "Flyte Aviation",
    "domain": "flyteaviation.com",
@@ -25297,6 +25612,9 @@
    ],
    "cat": "Insurance",
    "k": "b"
+  },
+  "fmco": {
+   "name": "FMCO"
   },
   "fmf-group": {
    "name": "FMF Group",
@@ -26787,6 +27105,9 @@
    "domain": "gates.com",
    "logo": "assets/logos/gates.png"
   },
+  "gathern": {
+   "name": "Gathern"
+  },
   "gatineau": {
    "name": "Gatineau",
    "k": "b"
@@ -28033,6 +28354,10 @@
    "cat": "Mining & resources",
    "k": "b"
   },
+  "golden-scent": {
+   "name": "Golden Scent",
+   "cat": "Mining & resources"
+  },
   "golden-state-valkyries": {
    "name": "Golden State Valkyries",
    "ptype": "Club & team",
@@ -29168,6 +29493,9 @@
    ],
    "ptiersChecked": "2026-11-19"
   },
+  "gulf-carton": {
+   "name": "Gulf Carton"
+  },
   "gulf-coast-office-products": {
    "name": "Gulf Coast Office Products",
    "k": "b"
@@ -29515,6 +29843,9 @@
    "name": "Hakuunsha",
    "k": "b"
   },
+  "hala": {
+   "name": "Hala"
+  },
   "halcol-energy": {
    "name": "Halcol Energy",
    "cat": "Energy & utilities",
@@ -29567,6 +29898,9 @@
   "halo-branded-solutions": {
    "name": "HALO Branded Solutions",
    "k": "b"
+  },
+  "hamat": {
+   "name": "Hamat"
   },
   "hamburger-jungs": {
    "name": "Hamburger Jungs",
@@ -30239,6 +30573,10 @@
    ],
    "logo": "assets/logos/hay-shed-hill-wines.png"
   },
+  "hayat-national-hospitals": {
+   "name": "Hayat National Hospitals",
+   "cat": "Health & beauty"
+  },
   "haymes-paint": {
    "name": "Haymes Paint",
    "cat": "Home & hardware",
@@ -30253,6 +30591,9 @@
    "name": "Hays Travel",
    "cat": "Airlines & travel",
    "k": "b"
+  },
+  "hayyak": {
+   "name": "Hayyak"
   },
   "hazlewoods": {
    "name": "Hazlewoods",
@@ -30381,6 +30722,10 @@
    "name": "Healthy Home",
    "cat": "Health & beauty",
    "k": "b"
+  },
+  "healthy-nook": {
+   "name": "Healthy Nook",
+   "cat": "Health & beauty"
   },
   "healthy-paws": {
    "name": "Healthy Paws",
@@ -33091,6 +33436,10 @@
     "logo"
    ]
   },
+  "imc": {
+   "name": "IMC (International Medical Center)",
+   "cat": "Health & beauty"
+  },
   "imca": {
    "name": "IMCA",
    "k": "b"
@@ -34303,6 +34652,9 @@
    "name": "Ishikawa Holdings",
    "k": "b"
   },
+  "ishraqa": {
+   "name": "Ishraqa"
+  },
   "isite-media-group": {
    "name": "iSite Media Group",
    "cat": "Media & broadcast",
@@ -34561,6 +34913,9 @@
   "ixtract": {
    "name": "Ixtract",
    "k": "b"
+  },
+  "iz": {
+   "name": "IZ"
   },
   "izac": {
    "name": "IZAC",
@@ -34825,6 +35180,9 @@
     "icon",
     "logo"
    ]
+  },
+  "jahez": {
+   "name": "Jahez"
   },
   "jake-paul-vs-mike-tyson": {
    "name": "Jake Paul vs Mike Tyson",
@@ -35092,6 +35450,9 @@
   "jean-floc-h": {
    "name": "Jean Floc'h",
    "k": "b"
+  },
+  "jeddah-central": {
+   "name": "Jeddah Central"
   },
   "jeep": {
    "name": "Jeep",
@@ -35650,6 +36011,9 @@
     "logo"
    ]
   },
+  "joint-clinic": {
+   "name": "Joint Clinic"
+  },
   "joka": {
    "name": "JOKA",
    "k": "b"
@@ -36142,6 +36506,9 @@
   "kamine": {
    "name": "Kamine",
    "k": "b"
+  },
+  "kammelna": {
+   "name": "Kammelna"
   },
   "kamo": {
    "name": "Kamo",
@@ -37076,6 +37443,9 @@
     "icon",
     "logo"
    ]
+  },
+  "kingdom-holding": {
+   "name": "Kingdom Holding"
   },
   "kingfa": {
    "name": "Kingfa",
@@ -38980,6 +39350,9 @@
    ],
    "ptype": "Other",
    "k": "p"
+  },
+  "lean": {
+   "name": "Lean"
   },
   "lean-cuisine": {
    "name": "Lean Cuisine",
@@ -41633,6 +42006,9 @@
    "name": "MandM Direct",
    "k": "b"
   },
+  "mando": {
+   "name": "Mando"
+  },
   "mandy-brighton-events": {
    "name": "Mandy Brighton Events",
    "k": "b"
@@ -41765,6 +42141,9 @@
   "mapubli": {
    "name": "Mapubli",
    "k": "b"
+  },
+  "marah": {
+   "name": "Marah"
   },
   "marathon-foods": {
    "name": "Marathon Foods",
@@ -43193,6 +43572,9 @@
    "name": "Merz Aesthetics",
    "k": "b"
   },
+  "meshkati": {
+   "name": "Meshkati"
+  },
   "mesirow": {
    "name": "Mesirow",
    "k": "b"
@@ -43753,6 +44135,9 @@
   "miko": {
    "name": "Miko",
    "k": "b"
+  },
+  "milaf-cola": {
+   "name": "Milaf Cola"
   },
   "milan-bergamo-airport": {
    "name": "Milan Bergamo Airport",
@@ -45320,6 +45705,9 @@
    "name": "Mous",
    "k": "b"
   },
+  "mouwasat": {
+   "name": "Mouwasat"
+  },
   "mova": {
    "name": "MOVA",
    "cat": "Home & hardware",
@@ -45573,6 +45961,9 @@
   "muhak": {
    "name": "Muhak",
    "k": "b"
+  },
+  "mukamalah": {
+   "name": "Mukamalah"
   },
   "mulish": {
    "name": "Mulish",
@@ -45862,6 +46253,9 @@
    "cat": "Automotive",
    "k": "b"
   },
+  "myclinic": {
+   "name": "MyClinic"
+  },
   "myer": {
    "name": "Myer",
    "cat": "Retail",
@@ -45983,6 +46377,9 @@
   "nabel": {
    "name": "Nabel",
    "k": "b"
+  },
+  "nadec": {
+   "name": "NADEC"
   },
   "nagasaki-bank": {
    "name": "Nagasaki Bank",
@@ -46363,6 +46760,9 @@
    "name": "Navitas Solar",
    "cat": "Energy & utilities",
    "k": "b"
+  },
+  "nawawi-studio": {
+   "name": "Nawawi Studio"
   },
   "naya": {
    "name": "Naya",
@@ -47657,6 +48057,9 @@
    "name": "NH Investment & Securities",
    "cat": "Banking & finance",
    "k": "b"
+  },
+  "nhc": {
+   "name": "NHC"
   },
   "nhl": {
    "name": "NHL",
@@ -49518,6 +49921,9 @@
    "name": "Officine SMAC",
    "k": "b"
   },
+  "offside": {
+   "name": "Offside"
+  },
   "og-giken": {
    "name": "OG Giken",
    "k": "b"
@@ -50806,6 +51212,9 @@
    "name": "OUC",
    "k": "b"
   },
+  "ouden": {
+   "name": "Ouden"
+  },
   "ouest-france": {
    "name": "Ouest-France",
    "k": "b"
@@ -51808,6 +52217,9 @@
    "cat": "Media & broadcast",
    "k": "b"
   },
+  "peak": {
+   "name": "Peak"
+  },
   "peak-of-the-market": {
    "name": "Peak of the Market",
    "k": "b"
@@ -52409,6 +52821,9 @@
   "petronor": {
    "name": "Petronor",
    "k": "b"
+  },
+  "petrorent": {
+   "name": "Petrorent"
   },
   "peuterey": {
    "name": "Peuterey",
@@ -54976,6 +55391,9 @@
    "name": "Q8",
    "k": "b"
   },
+  "qaid": {
+   "name": "Qaid"
+  },
   "qantas": {
    "name": "Qantas",
    "cat": "Airlines & travel",
@@ -55028,6 +55446,12 @@
     "icon",
     "logo"
    ]
+  },
+  "qiadah": {
+   "name": "Qiadah"
+  },
+  "qiddiya": {
+   "name": "Qiddiya"
   },
   "qiddiya-city": {
    "name": "Qiddiya City",
@@ -56396,6 +56820,9 @@
    "cat": "Professional services",
    "k": "b"
   },
+  "red-sea-global": {
+   "name": "Red Sea Global"
+  },
   "red-steel": {
    "name": "Red Steel",
    "cat": "Construction & property",
@@ -57128,6 +57555,9 @@
    "k": "b",
    "domain": "richmondmotorgroup.com"
   },
+  "richy": {
+   "name": "Richy"
+  },
   "ricoh": {
    "name": "Ricoh",
    "cat": "Technology",
@@ -57373,6 +57803,10 @@
    "name": "Riverside Rentals",
    "k": "b"
   },
+  "riyad-bank": {
+   "name": "Riyad Bank",
+   "cat": "Banking & finance"
+  },
   "riyadh-air": {
    "name": "Riyadh Air",
    "cat": "Airlines & travel",
@@ -57382,6 +57816,9 @@
    "name": "Riyadh Season",
    "k": "b",
    "cat": "Tourism & government"
+  },
+  "rj": {
+   "name": "RJ"
   },
   "rj-s-roofing": {
    "name": "RJ's Roofing",
@@ -57617,6 +58054,9 @@
    "name": "Rocky Mountain Hospital for Children",
    "cat": "Health & beauty",
    "k": "b"
+  },
+  "roco": {
+   "name": "Roco (Jarir)"
   },
   "rodd-gunn": {
    "name": "Rodd & Gunn",
@@ -58641,6 +59081,10 @@
     "logo"
    ]
   },
+  "sahtain-water": {
+   "name": "Sahtain Water",
+   "cat": "Non-alcoholic drinks"
+  },
   "sai-academy": {
    "name": "SAI Academy",
    "cat": "Education",
@@ -59042,6 +59486,9 @@
   "sam-mouldings": {
    "name": "SAM Mouldings",
    "k": "b"
+  },
+  "sama": {
+   "name": "Sama"
   },
   "samba-catering": {
    "name": "Samba Catering",
@@ -61221,6 +61668,9 @@
   "sherwin-williams": {
    "name": "Sherwin-Williams",
    "k": "b"
+  },
+  "shg": {
+   "name": "SHG"
   },
   "shi": {
    "name": "SHI",
@@ -63566,6 +64016,9 @@
    "name": "Sport Waikato",
    "k": "b"
   },
+  "sporta": {
+   "name": "Sporta"
+  },
   "sportautoplus": {
    "name": "SportAutoPlus",
    "k": "b"
@@ -63912,6 +64365,9 @@
    "cat": "Alcohol",
    "k": "b",
    "domain": "squealingpig.com"
+  },
+  "sraco": {
+   "name": "SRACO"
   },
   "sri-lanka-cricket": {
    "name": "Sri Lanka Cricket",
@@ -65838,6 +66294,9 @@
    "name": "SWBC PEO",
    "k": "b"
   },
+  "sweater": {
+   "name": "Sweater"
+  },
   "sweaty-betty": {
    "name": "Sweaty Betty",
    "cat": "Betting & wagering",
@@ -66563,10 +67022,20 @@
    "cat": "Health & beauty",
    "k": "b"
   },
+  "tamam-finance": {
+   "name": "Tamam Finance",
+   "cat": "Banking & finance"
+  },
   "tamboran-resources": {
    "name": "Tamboran Resources",
    "cat": "Mining & resources",
    "k": "b"
+  },
+  "tameeni": {
+   "name": "Tameeni"
+  },
+  "tamimi-markets": {
+   "name": "Tamimi Markets"
   },
   "tamko": {
    "name": "TAMKO",
@@ -66618,6 +67087,9 @@
   "tampon-tribe": {
    "name": "Tampon Tribe",
    "k": "b"
+  },
+  "tamweel-aloula": {
+   "name": "Tamweel Aloula"
   },
   "tanaka-gakushukai": {
    "name": "Tanaka Gakushukai",
@@ -66905,6 +67377,9 @@
   "taverners-victoria": {
    "name": "Taverners Victoria",
    "k": "b"
+  },
+  "tawuniya": {
+   "name": "Tawuniya"
   },
   "taxtalk": {
    "name": "taxtalk",
@@ -69089,6 +69564,9 @@
    "cat": "Construction & property",
    "k": "b"
   },
+  "timecode": {
+   "name": "Timecode"
+  },
   "tinder": {
    "name": "Tinder",
    "cat": "Technology",
@@ -70485,6 +70963,9 @@
     "logo"
    ],
    "logo": "assets/logos/treasury-wine-estates.png"
+  },
+  "tree": {
+   "name": "Tree"
   },
   "trek": {
    "name": "TREK",
@@ -74590,6 +75071,10 @@
    "name": "Wardrobe World",
    "k": "b"
   },
+  "wareed-medical-labs": {
+   "name": "Wareed Medical Labs",
+   "cat": "Health & beauty"
+  },
   "warner-bros-movie-world": {
    "name": "Warner Bros. Movie World",
    "k": "b",
@@ -75732,6 +76217,9 @@
    "cat": "Hospitality & entertainment",
    "k": "b"
   },
+  "white-screen": {
+   "name": "White Screen"
+  },
   "white-spot": {
    "name": "White Spot",
    "k": "b"
@@ -76316,6 +76804,10 @@
    "name": "Wonderful",
    "k": "b"
   },
+  "wooden-coffee": {
+   "name": "Wooden Coffee",
+   "cat": "Non-alcoholic drinks"
+  },
   "woodford-reserve": {
    "name": "Woodford Reserve",
    "cat": "Alcohol",
@@ -76713,6 +77205,9 @@
   "wtj": {
    "name": "WTJ",
    "k": "b"
+  },
+  "wtr": {
+   "name": "WTR"
   },
   "wtt-champions": {
    "name": "WTT Champions",
