@@ -13119,12 +13119,13 @@
   "canberra-united": {
    "name": "Canberra United",
    "ptiers": [
-    "Major partner",
     "Principal partner",
-    "Business United squad",
-    "Official support partner"
+    "Major partner",
+    "Official support partner",
+    "Business United squad"
    ],
-   "k": "p"
+   "k": "p",
+   "ptiersChecked": "2026-11-19"
   },
   "canberra-weekly": {
    "name": "Canberra Weekly",
