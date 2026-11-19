@@ -7,10 +7,11 @@
 seasons.json:
   {"property": "AFL", "sport": "AFL", "region": "ANZ", "market": "Australia",
    "page": "https://www.afl.com.au/about-afl/partners/corporate",
-   "seasons": {"2021": {"ts": "20210412155541", "groups": [["Premier partner", ["Toyota"]], ["Official partner", ["AAMI", ...]]]},
+   "seasons": {"2021": {"ts": "20210412155541", "page": "(optional, when the page moved)", "groups": [["Premier partner", ["Toyota"]], ["Official partner", ["AAMI", ...]]]},
                "2022": {...}},
    "same": {"McDonalds": "McDonald's"},    # optional: page name -> name used in deals.json
-   "skip": ["City of Melbourne"]}          # optional: councils, charities, the property's own sales team
+   "skip": ["City of Melbourne"],          # optional: councils, charities, the property's own sales team
+   "live": {"date": "2026-11-20", "url": "https://...", "brands": [...]}}  # optional: names on the live page today
 
 What it does
  - A brand seen in a snapshot that already has a deal with the property: its rows get "since" = the first
@@ -20,6 +21,10 @@ What it does
    and never joins a day's edition.
  - "sinceBasis": "wayback" marks a since that is only the first season in the snapshots read: a brand seen in
    the earliest snapshot may go back further.
+ - A brand still in the newest snapshot read but with no deal here is held back and listed, not ended: it is
+   most likely a current partner the live check missed. With "live" given, such a brand that's on the live page
+   gets a current "listed" row (with its since year), and one that isn't is ended at its last season seen. Set "lastIsFinal": true only when the newest snapshot
+   is older than the live page check and the brand is confirmed gone.
  - Seasons a brand skipped in the middle are listed in the dry run (a gap usually means a page change, not a break).
 Snapshots are read in Chrome (see partner_extract.md); this script only merges what was read.
 """
@@ -74,10 +79,13 @@ def main():
                     continue
                 b = res(n)
                 seen.setdefault(b, []).append(int(y)); tier.setdefault(b, t); name.setdefault(b, n)
-                snap[b] = (y, s["ts"])
+                snap[b] = (y, s["ts"], s.get("page") or cfg["page"])
     first_ts = {y: cfg["seasons"][y]["ts"] for y in years}
 
-    since_set, new_rows, gaps = [], [], []
+    since_set, new_rows, gaps, held = [], [], [], []
+    live = None
+    if cfg.get("live"):
+        live = {res(same.get(n, n)) for n in cfg["live"]["brands"]}
     for b, ys in sorted(seen.items(), key=lambda x: (x[1][0], x[0])):
         y0, y1 = min(ys), max(ys)
         missing = [y for y in range(y0, y1 + 1) if str(y) in cfg["seasons"] and y not in ys]
@@ -91,21 +99,38 @@ def main():
                     d["since"] = y0
                     d["sinceBasis"] = "wayback"  # first season seen in the snapshots read; may have started earlier
             continue
-        ly, lts = snap[b]
+        if y1 == int(years[-1]) and not cfg.get("lastIsFinal"):
+            if live is not None and b in live:  # still on the live page: a current partner the last check missed
+                y0ts = first_ts[str(y0)]
+                new_rows.append({
+                    "deal": f"{name[b]} × {prop}", "sport": cfg["sport"], "type": type_for(tier[b]),
+                    "region": cfg["region"], "market": cfg["market"],
+                    "summary": f"Listed on the {prop} partners page, and on it in every season back to {y0} (archived snapshots).",
+                    "url": cfg["live"]["url"], "tier": type_for(tier[b]), "ptier": tier[b], "status": "Current partner",
+                    "conf": "Confirmed", "listed": cfg["live"]["date"], "since": y0, "sinceBasis": "wayback",
+                    "verified": cfg["live"]["date"], "source": "wayback"})
+                continue
+            if live is None:
+                held.append(f"{name[b]} (seen {y0}-{y1})")  # in the newest snapshot but not in our current rows: check the live page
+                continue
+        ly, lts, lpage = snap[b]
         y0ts = first_ts[str(y0)]
         span = f"{y0}" if y0 == y1 else f"{y0}-{y1}"
         new_rows.append({
             "deal": f"{name[b]} × {prop}", "sport": cfg["sport"], "type": type_for(tier[b]),
             "region": cfg["region"], "market": cfg["market"],
             "summary": f"On the {prop} partners page in {span} (archived snapshots), gone by {y1 + 1}.",
-            "url": f"https://web.archive.org/web/{lts}/{cfg['page']}",
+            "url": f"https://web.archive.org/web/{lts}/{lpage}",
             "tier": type_for(tier[b]), "ptier": tier[b], "status": "Ended", "conf": "Confirmed",
             "month": f"{y0ts[:4]}-{y0ts[4:6]}", "since": y0, "sinceBasis": "wayback", "ended": y1, "ends": y1,
             "verified": TODAY, "source": "wayback"})
 
     print(f"{prop}: {len(seen)} brands across {len(years)} seasons")
     print(f"  since set on {len(since_set)} existing rows"); [print("   ", x) for x in since_set]
-    print(f"  {len(new_rows)} former partners"); [print("   ", r["deal"], r["since"], "-", r["ended"]) for r in new_rows]
+    print(f"  {len(new_rows)} new rows (former partners, plus current ones the last check missed)"); [print("   ", r["deal"], r["since"], "-", r.get("ended", "now")) for r in new_rows]
+    if held:
+        print(f"  {len(held)} held: in the newest snapshot, not in current rows (check the live page, add with partner_check):")
+        [print("   ", h) for h in held]
     if gaps:
         print("  gaps (check):"); [print("   ", g) for g in gaps]
     if write:
