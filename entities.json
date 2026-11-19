@@ -5626,7 +5626,8 @@
    "k": "p",
    "ptiers": [
     "Principal partner",
-    "Global partner"
+    "Global partner",
+    "Official partner"
    ],
    "ptiersChecked": "2026-11-16"
   },
@@ -12409,7 +12410,8 @@
    "ptiers": [
     "Principal partner",
     "Club partner",
-    "Official supplier"
+    "Official supplier",
+    "Official partner"
    ],
    "ptiersChecked": "2026-11-16"
   },
@@ -14140,7 +14142,8 @@
   },
   "camden-town-brewery": {
    "name": "Camden Town Brewery",
-   "cat": "Alcohol"
+   "cat": "Alcohol",
+   "k": "b"
   },
   "cameco": {
    "name": "Cameco",
@@ -27354,7 +27357,8 @@
    "k": "b"
   },
   "extramarks": {
-   "name": "Extramarks"
+   "name": "Extramarks",
+   "k": "b"
   },
   "extreme-h": {
    "name": "Extreme H",
@@ -30971,7 +30975,8 @@
    "domain": "ganten.com"
   },
   "ganzberg": {
-   "name": "Ganzberg"
+   "name": "Ganzberg",
+   "k": "b"
   },
   "gap-group": {
    "name": "GAP Group",
@@ -37355,7 +37360,8 @@
    "k": "b"
   },
   "hunters": {
-   "name": "Hunters"
+   "name": "Hunters",
+   "k": "b"
   },
   "huntington": {
    "name": "Huntington",
@@ -41594,7 +41600,8 @@
    "domain": "judo.bank"
   },
   "jugo": {
-   "name": "Jugo"
+   "name": "Jugo",
+   "k": "b"
   },
   "juhachi-shinwa-bank": {
    "name": "Juhachi-Shinwa Bank",
@@ -44405,7 +44412,8 @@
    "k": "b"
   },
   "labs-group": {
-   "name": "LABS Group"
+   "name": "LABS Group",
+   "k": "b"
   },
   "labsoft": {
    "name": "Labsoft",
@@ -57778,7 +57786,8 @@
    ]
   },
   "openpay": {
-   "name": "Openpay"
+   "name": "Openpay",
+   "k": "b"
   },
   "ophirum": {
    "name": "Ophirum",
@@ -62516,7 +62525,8 @@
   },
   "prime-hydration": {
    "name": "Prime Hydration",
-   "cat": "Non-alcoholic drinks"
+   "cat": "Non-alcoholic drinks",
+   "k": "b"
   },
   "prime-processors": {
    "name": "Prime Processors",
@@ -82454,7 +82464,8 @@
   },
   "ultimate-champions": {
    "name": "Ultimate Champions",
-   "cat": "Apparel & footwear"
+   "cat": "Apparel & footwear",
+   "k": "b"
   },
   "ultimate-home-solutions": {
    "name": "Ultimate Home Solutions",
