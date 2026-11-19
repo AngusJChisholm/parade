@@ -162,22 +162,6 @@
    "collected": "2026-11-18"
   },
   {
-   "deal": "nib × Richmond",
-   "rights": [
-    "joint major partner",
-    "front of AFL and AFLW guernsey"
-   ],
-   "tier": "T1",
-   "signed": 2023,
-   "term": 4,
-   "ends": 2027,
-   "endsBasis": "stated",
-   "src": "https://www.richmondfc.com.au/news/1372453/nib-extends-richmond-sponsorship-to-2027-for-mens-and-womens-teams",
-   "srcName": "Richmond FC",
-   "status": "verified",
-   "collected": "2026-11-18"
-  },
-  {
    "deal": "GWM × Richmond",
    "rights": [
     "joint major partner",
@@ -244,34 +228,6 @@
    "status": "reported",
    "collected": "2026-11-18",
    "note": "Five-year extension; signing year not confirmed, so no end year yet."
-  },
-  {
-   "deal": "Chery × St Kilda",
-   "rights": [
-    "co-principal partner of AFL program",
-    "back of AFL and AFLW guernsey",
-    "AFL neckline"
-   ],
-   "tier": "T1",
-   "src": "https://www.saints.com.au/news/1445533",
-   "srcName": "St Kilda FC",
-   "status": "verified",
-   "collected": "2026-11-18",
-   "note": "Original three-year term from October 2023; still listed as principal partner, so a renewal is likely. End not set."
-  },
-  {
-   "deal": "MG Motor × Port Adelaide",
-   "rights": [
-    "joint major partner",
-    "front of home guernsey",
-    "back of away guernsey"
-   ],
-   "tier": "T1",
-   "src": "https://mgmotor.com.au/blogs/news/mg-motor-australia-strikes-multi-year-partnership-with-port-adelaide-fc",
-   "srcName": "MG Motor Australia",
-   "status": "verified",
-   "collected": "2026-11-18",
-   "note": "Multi-year, end not stated."
   },
   {
    "deal": "Youi × Brisbane Lions",
@@ -467,22 +423,6 @@
    "srcName": "Ministry of Sport",
    "status": "reported",
    "collected": "2026-11-18"
-  },
-  {
-   "deal": "MG Motor × South Sydney Rabbitohs",
-   "rights": [
-    "major corporate partner",
-    "front of chest on NRL jersey"
-   ],
-   "tier": "T1",
-   "src": "https://www.bandt.com.au/spotlight-on-sponsors-mg-rabbitohs-celebrate-nrl-indigenous-rounds-with-powerful-artwork/",
-   "srcName": "B&T",
-   "status": "reported",
-   "collected": "2026-11-18",
-   "rightsSrc": "https://www.rabbitohs.com.au/content/mg-motor-signs-on-rabbitohs-major-corporate-partner-for-the-next-five-seasons",
-   "ends": 2026,
-   "endsBasis": "stated",
-   "note": "Five seasons from 2022; B&T says through at least the end of 2026."
   },
   {
    "deal": "Ingenia Holiday Parks × South Sydney Rabbitohs",
@@ -1712,6 +1652,477 @@
    "status": "verified",
    "collected": "2026-11-19",
    "note": "Partners page lists the park brand Warner Bros. Movie World; the agreement is with Village Roadshow Theme Parks. Duplicate rows merged here."
+  },
+  {
+   "deal": "Cardiff Motor Group × Newcastle Jets",
+   "rights": [
+    "Official car retail partner",
+    "Vehicle supply to community, elite teams and coaching staff"
+   ],
+   "tier": "T2",
+   "signed": 2024,
+   "term": 2,
+   "ends": 2026,
+   "endsBasis": "stated",
+   "src": "https://newcastlejetsfc.com.au/news/cardiff-motor-group-and-the-newcastle-jets-get-behind-the-wheel/",
+   "status": "verified",
+   "collected": "2026-11-19"
+  },
+  {
+   "deal": "Senix × Newcastle Jets",
+   "rights": [
+    "Shorts (A-League Men and A-League Women)"
+   ],
+   "tier": "T2",
+   "signed": 2025,
+   "ends": 2026,
+   "endsBasis": "stated",
+   "src": "https://newcastlejetsfc.com.au/news/senix-the-jets-form-powerful-partnership/",
+   "status": "verified",
+   "collected": "2026-11-19"
+  },
+  {
+   "deal": "Toyota × North Queensland Cowboys",
+   "rights": [
+    "Presenting partner of the NRL and NRLW teams (North Queensland Toyota Cowboys)"
+   ],
+   "tier": "T1",
+   "signed": 2024,
+   "term": 3,
+   "ends": 2027,
+   "endsBasis": "stated",
+   "src": "https://www.cowboys.com.au/news/2024/08/09/toyota-to-drive-the-cowboys-for-a-further-three-years/",
+   "status": "verified",
+   "collected": "2026-11-19"
+  },
+  {
+   "deal": "QBE × Otago Cricket",
+   "rights": [
+    "Grassroots partner: volunteers, junior cricket and girls' cricket"
+   ],
+   "tier": "T1",
+   "signed": 2026,
+   "term": 3,
+   "src": "https://www.cricketwellington.co.nz/newsarticle/161896",
+   "status": "verified",
+   "collected": "2026-11-19"
+  },
+  {
+   "deal": "CommBank × Paralympics Australia",
+   "rights": [
+    "Premium Partner and Banking Partner of the Australian Paralympic Team",
+    "Founding Partner, Premium Partner and Banking Partner of the Brisbane 2032 Olympic and Paralympic Games"
+   ],
+   "tier": "T2",
+   "signed": 2026,
+   "src": "https://www.paralympic.org/news/brisbane-2032-commonwealth-bank-founding-partner",
+   "status": "verified",
+   "collected": "2026-11-19"
+  },
+  {
+   "deal": "McDonald's × Parramatta Eels",
+   "rights": [
+    "Official restaurant and coffee partner",
+    "NRLW match day and training shorts",
+    "Goal post pads",
+    "LED signage at NRL home games"
+   ],
+   "tier": "T2",
+   "signed": 2023,
+   "ends": 2027,
+   "endsBasis": "stated",
+   "src": "https://www.parraeels.com.au/news/2023/07/07/parramatta-eels-ink-long-terms-deal-with-mcdonalds",
+   "status": "verified",
+   "collected": "2026-11-19"
+  },
+  {
+   "deal": "Actron Air × Parramatta Eels",
+   "rights": [
+    "Sleeve of NRL match day and training apparel",
+    "Matchday signage at home games",
+    "Joint digital content"
+   ],
+   "tier": "T2",
+   "signed": 2024,
+   "term": 3,
+   "ends": 2026,
+   "endsBasis": "term",
+   "src": "https://www.parraeels.com.au/news/2024/02/28/parramatta-eels-announce-three-year-partnership-extension-with-actronair/",
+   "status": "verified",
+   "collected": "2026-11-19"
+  },
+  {
+   "deal": "Hertz × Penrith Panthers",
+   "rights": [
+    "Official Car and Truck Rental Partner",
+    "20% member and fan discount on vehicle hire"
+   ],
+   "tier": "T2",
+   "signed": 2026,
+   "term": 2,
+   "ends": 2028,
+   "endsBasis": "stated",
+   "src": "https://www.penrithpanthers.com.au/news/2026/04/29/panthers-and-hertz-extend-long-standing-partnership/",
+   "status": "verified",
+   "collected": "2026-11-19"
+  },
+  {
+   "deal": "KFC × Penrith Panthers",
+   "rights": [
+    "Official shorts partner (back right panel of playing and training shorts)",
+    "Home game activations and LED signage"
+   ],
+   "tier": "T2",
+   "signed": 2026,
+   "ends": 2028,
+   "endsBasis": "stated",
+   "src": "https://www.penrithpanthers.com.au/news/2026/08/04/kfc-extends-partnership-with-panthers/",
+   "status": "verified",
+   "collected": "2026-11-19"
+  },
+  {
+   "deal": "APD Global × Perth Glory",
+   "rights": [
+    "Back of A-League Men and A-League Women home and away jerseys",
+    "Media polos and training kit",
+    "In-stadium signage"
+   ],
+   "tier": "T1",
+   "signed": 2025,
+   "src": "https://perthglory.com.au/?p=335377",
+   "status": "verified",
+   "collected": "2026-11-19"
+  },
+  {
+   "deal": "MG Motor × Port Adelaide",
+   "rights": [
+    "Front of AFL, AFLW and SANFL home, clash and special event guernseys",
+    "Naming rights to the MG High Performance Centre",
+    "Game-day activations"
+   ],
+   "tier": "T1",
+   "signed": 2025,
+   "term": 3,
+   "src": "https://www.portadelaidefc.com.au/news/1718335/port-adelaide-pens-three-year-partnership-extension-with-major-partner-mg-motor-australia",
+   "status": "verified",
+   "collected": "2026-11-19"
+  },
+  {
+   "deal": "Poolwerx × Queensland Cricket",
+   "rights": [
+    "Front of Brisbane Heat BBL and WBBL playing and training apparel",
+    "Signage and activation at Heat home games"
+   ],
+   "tier": "T2",
+   "signed": 2024,
+   "term": 2,
+   "ends": 2026,
+   "endsBasis": "term",
+   "src": "https://splash.online/articles/poolwerx-elevates-brisbane-heat-commitment",
+   "status": "reported",
+   "collected": "2026-11-19"
+  },
+  {
+   "deal": "Queensland Country Bank × Queensland Cricket",
+   "rights": [
+    "Front and back of Brisbane Heat BBL and WBBL playing and training shirts",
+    "Signage and activation at Heat home games"
+   ],
+   "tier": "T1",
+   "signed": 2024,
+   "term": 3,
+   "ends": 2027,
+   "endsBasis": "term",
+   "src": "https://qldcricket.com.au/news/4049333/severe-weather-relief",
+   "status": "verified",
+   "collected": "2026-11-19"
+  },
+  {
+   "deal": "BMS × Queensland Reds",
+   "rights": [
+    "Front of Reds Super Rugby Pacific, Super Rugby Women's and Sevens playing jerseys and training apparel",
+    "Naming rights to the National Rugby Training Centre (BMS NRTC)"
+   ],
+   "tier": "T1",
+   "signed": 2023,
+   "term": 4,
+   "ends": 2027,
+   "endsBasis": "term",
+   "src": "https://reds.rugby/news/queensland-reds-confirm-historic-fouryear-partnership-with-bms-group-20231212",
+   "status": "verified",
+   "collected": "2026-11-19"
+  },
+  {
+   "deal": "nib × Richmond",
+   "rights": [
+    "Front of AFL and AFLW guernseys",
+    "Joint major partner"
+   ],
+   "tier": "T1",
+   "term": 4,
+   "ends": 2027,
+   "endsBasis": "stated",
+   "src": "https://www.richmondfc.com.au/news/1372453/nib-extends-richmond-sponsorship-to-2027-for-mens-and-womens-teams",
+   "status": "verified",
+   "collected": "2026-11-19"
+  },
+  {
+   "deal": "A.G. Coombs × Richmond",
+   "rights": [
+    "Official facilities maintenance partner",
+    "Co-major partner of the AFLW program"
+   ],
+   "tier": "T2",
+   "term": 2,
+   "ends": 2026,
+   "endsBasis": "stated",
+   "src": "https://richmondfc.com.au/news/1603600/ag-coombs-and-richmond-extend-fruitful-partnership",
+   "status": "verified",
+   "collected": "2026-11-19"
+  },
+  {
+   "deal": "Swinburne × Richmond",
+   "rights": [
+    "Naming rights to the Swinburne Centre (Punt Road Oval)"
+   ],
+   "tier": "T1",
+   "signed": 2024,
+   "term": 4,
+   "ends": 2028,
+   "endsBasis": "stated",
+   "src": "https://www.swinburne.edu.au/news/2024/06/Richmond-and-Swinburne-partnership-to-reach-beyond-a-decade/",
+   "status": "verified",
+   "collected": "2026-11-19"
+  },
+  {
+   "deal": "Alliance Group × Rugby Southland",
+   "rights": [
+    "Logo on Stags playing kit and shorts",
+    "Logo on replica supporter jerseys"
+   ],
+   "tier": "T2",
+   "signed": 2026,
+   "src": "https://www.alliance.co.nz/alliance-group-forges-perfect-match-with-the-southland-stags/",
+   "status": "verified",
+   "collected": "2026-11-19"
+  },
+  {
+   "deal": "Delta Roofing × Rugby Southland",
+   "rights": [
+    "logo on all Stags playing jerseys"
+   ],
+   "tier": "T2",
+   "signed": 2024,
+   "src": "https://rugbysouthland.co.nz/newsarticle/139706",
+   "status": "verified",
+   "collected": "2026-11-19"
+  },
+  {
+   "deal": "Emirates × Rugby World Cup 2027",
+   "rights": [
+    "Principal Partner of Men's Rugby World Cup 2027",
+    "Pitch-side branding at Rugby World Cup",
+    "Referee naming: Emirates World Rugby Match Officials",
+    "Logo in TMO booths and on World Rugby digital channels"
+   ],
+   "tier": "T1",
+   "signed": 2025,
+   "src": "https://www.emirates.com/media-centre/emirates-and-world-rugby-commit-to-new-decade-together-cementing-one-of-rugbys-longest-running-partnerships/",
+   "status": "verified",
+   "collected": "2026-11-19"
+  },
+  {
+   "deal": "ANZ × Silver Ferns",
+   "rights": [
+    "Major sponsor of Netball New Zealand and the Silver Ferns",
+    "Front of Silver Ferns dress",
+    "Naming rights to the ANZ Premiership"
+   ],
+   "tier": "T1",
+   "signed": 2022,
+   "ends": 2027,
+   "endsBasis": "stated",
+   "src": "https://anz.com.au/newsroom/new-zealand/2022/11/anz-sponsors-silver-ferns",
+   "status": "verified",
+   "collected": "2026-11-19"
+  },
+  {
+   "deal": "CommBank × Socceroos",
+   "rights": [
+    "Naming rights partner of the CommBank Socceroos",
+    "Official Bank of the Socceroos",
+    "Presenting partner of Socceroos Fan Days",
+    "Presenting partner of Socceroos and Matildas player mascots"
+   ],
+   "tier": "T2",
+   "signed": 2025,
+   "term": 6,
+   "ends": 2031,
+   "endsBasis": "term",
+   "src": "https://footballaustralia.com.au/news/commbank-and-football-australia-sign-landmark-deal-lift-australias-biggest-game-new-heights",
+   "status": "verified",
+   "collected": "2026-11-19"
+  },
+  {
+   "deal": "RAA × South Australian Cricket Association",
+   "rights": [
+    "Branding on Adelaide Strikers BBL and WBBL playing and off-field apparel",
+    "RAA member ticket upgrades and offers",
+    "Support for SACA Emerging Leader's Program"
+   ],
+   "tier": "T2",
+   "signed": 2025,
+   "term": 3,
+   "src": "https://www.saca.com.au/news/4344657/saca-and-adelaide-strikers-announce-major-three-year-partnership-with-raa",
+   "status": "verified",
+   "collected": "2026-11-19"
+  },
+  {
+   "deal": "MG Motor × South Sydney Rabbitohs",
+   "rights": [
+    "Major corporate partner",
+    "Front of jersey (home and away)",
+    "Training kit and supporter wear",
+    "In-stadium signage"
+   ],
+   "tier": "T1",
+   "signed": 2021,
+   "term": 5,
+   "ends": 2026,
+   "endsBasis": "term",
+   "src": "https://www.rabbitohs.com.au/content/mg-motor-signs-on-rabbitohs-major-corporate-partner-for-the-next-five-seasons",
+   "status": "verified",
+   "collected": "2026-11-19"
+  },
+  {
+   "deal": "Chery × St Kilda",
+   "rights": [
+    "Back of AFL and AFLW guernseys",
+    "Neckline of men's guernsey",
+    "Off-field apparel",
+    "Official automotive partner"
+   ],
+   "tier": "T1",
+   "signed": 2023,
+   "term": 3,
+   "src": "https://www.saints.com.au/news/1445533/saints-and-chery-drive-towards-exciting-ew-future",
+   "status": "verified",
+   "collected": "2026-11-19"
+  },
+  {
+   "deal": "CMC Invest × St Kilda",
+   "rights": [
+    "logo on AFL and AFLW guernseys",
+    "co-principal partner"
+   ],
+   "tier": "T1",
+   "term": 3,
+   "ends": 2028,
+   "endsBasis": "stated",
+   "src": "https://www.saints.com.au/news/1908301/cmc-invest-extends-st-kilda-partnership-to-2028",
+   "status": "verified",
+   "collected": "2026-11-19"
+  },
+  {
+   "deal": "RSEA Safety × St Kilda",
+   "rights": [
+    "Top back of men's playing guernsey",
+    "Naming rights to RSEA Park (Moorabbin home and training base)"
+   ],
+   "tier": "T2",
+   "ends": 2027,
+   "endsBasis": "stated",
+   "src": "https://www.saints.com.au/news/1948439/rsea-signs-on-through-2027",
+   "status": "verified",
+   "collected": "2026-11-19"
+  },
+  {
+   "deal": "Westinghouse × St Kilda",
+   "rights": [
+    "Collar and chest of AFL and AFLW coach polos",
+    "Media banner",
+    "Interchange bench",
+    "Official coach partner"
+   ],
+   "tier": "T2",
+   "term": 3,
+   "src": "https://www.bandt.com.au/spotlight-on-sponsors-st-kilda-signs-on-major-partners-as-they-begin-2024-campaign/",
+   "status": "reported",
+   "collected": "2026-11-19"
+  },
+  {
+   "deal": "Repco × Supercars",
+   "rights": [
+    "Naming rights to the Repco Supercars Championship",
+    "Naming rights to the Repco Bathurst 1000"
+   ],
+   "tier": "T1",
+   "signed": 2022,
+   "ends": 2028,
+   "endsBasis": "stated",
+   "src": "https://www.supercars.com/news/championship/repco-extends-naming-rights-partnership-with-supercars/",
+   "status": "verified",
+   "collected": "2026-11-19"
+  },
+  {
+   "deal": "Macquarie University × Sydney FC",
+   "rights": [
+    "Front of men's and women's jerseys"
+   ],
+   "tier": "T1",
+   "signed": 2023,
+   "term": 5,
+   "src": "https://lighthouse.mq.edu.au/for-media/sydney-fc-announce-five-year-principal-partnership-with-macquarie-university",
+   "status": "verified",
+   "collected": "2026-11-19"
+  },
+  {
+   "deal": "Rolex × Sydney Hobart Yacht Race",
+   "rights": [
+    "Title partner and naming rights to the race"
+   ],
+   "tier": "T1",
+   "signed": 2024,
+   "term": 10,
+   "ends": 2033,
+   "endsBasis": "stated",
+   "src": "https://www.sail-world.com/news/272482/Rolex-renews-support-of-Sydney-Hobart-Yacht-Race",
+   "status": "reported",
+   "collected": "2026-11-19"
+  },
+  {
+   "deal": "Beyond Bank × Sydney Kings",
+   "rights": [
+    "Beyond Basketball School Program"
+   ],
+   "tier": "T2",
+   "signed": 2025,
+   "src": "https://www.beyondbank.com.au/news/corporate-announcements/beyond-bank-and-hoops-capital-partnership-extension/",
+   "status": "verified",
+   "collected": "2026-11-19"
+  },
+  {
+   "deal": "Volkswagen × Sydney Swans",
+   "rights": [
+    "AFL, AFLW and Academy player shorts",
+    "Coaches' match day attire"
+   ],
+   "tier": "T2",
+   "term": 5,
+   "src": "https://www.sydneyswans.com.au/news/1622575/volkswagen-extend-with-the-sydney-swans",
+   "status": "verified",
+   "collected": "2026-11-19"
+  },
+  {
+   "deal": "Homestar Finance × Sydney Thunder",
+   "rights": [
+    "front of BBL playing shirt, cap and helmet"
+   ],
+   "tier": "T1",
+   "signed": 2025,
+   "src": "https://cricexec.com/?p=71057",
+   "status": "reported",
+   "collected": "2026-11-19"
   }
  ]
 }
