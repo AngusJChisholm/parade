@@ -1,10 +1,10 @@
 {
  "generated": "2026-11-19",
  "summary": {
-  "dup_entities": 50,
-  "no_category": 5920,
+  "dup_entities": 52,
+  "no_category": 6451,
   "cat_mismatch": 135,
-  "slot_clash": 124,
+  "slot_clash": 136,
   "dup_deals": 12,
   "no_broadcaster": 18,
   "stale": 2,
@@ -14,54 +14,12 @@
  "dup_entities": [
   {
    "names": [
-    "BMW",
-    "BMW Group"
+    "Courier Mail",
+    "The Courier-Mail"
    ],
    "slugs": [
-    "bmw",
-    "bmw-group"
-   ]
-  },
-  {
-   "names": [
-    "Tourism Australia",
-    "Tourism New Zealand"
-   ],
-   "slugs": [
-    "tourism-australia",
-    "tourism-new-zealand"
-   ]
-  },
-  {
-   "names": [
-    "International Mascot",
-    "MASCOT",
-    "Mascot International"
-   ],
-   "slugs": [
-    "international-mascot",
-    "mascot",
-    "mascot-international"
-   ]
-  },
-  {
-   "names": [
-    "TAB",
-    "TAB NZ"
-   ],
-   "slugs": [
-    "tab",
-    "tab-nz"
-   ]
-  },
-  {
-   "names": [
-    "Basketball Australia",
-    "Basketball New Zealand"
-   ],
-   "slugs": [
-    "basketball-australia",
-    "basketball-new-zealand"
+    "courier-mail",
+    "the-courier-mail"
    ]
   },
   {
@@ -76,12 +34,42 @@
   },
   {
    "names": [
-    "Harness Racing Australia",
-    "Harness Racing NZ"
+    "CSP",
+    "CSP International"
    ],
    "slugs": [
-    "harness-racing-australia",
-    "harness-racing-nz"
+    "csp",
+    "csp-international"
+   ]
+  },
+  {
+   "names": [
+    "Hong Kong Jockey Club",
+    "The Hong Kong Jockey Club"
+   ],
+   "slugs": [
+    "hong-kong-jockey-club",
+    "the-hong-kong-jockey-club"
+   ]
+  },
+  {
+   "names": [
+    "TAB",
+    "TAB NZ"
+   ],
+   "slugs": [
+    "tab",
+    "tab-nz"
+   ]
+  },
+  {
+   "names": [
+    "HYROX",
+    "HYROX Australia"
+   ],
+   "slugs": [
+    "hyrox",
+    "hyrox-australia"
    ]
   },
   {
@@ -100,22 +88,34 @@
   },
   {
    "names": [
-    "Compass",
-    "Compass Group"
+    "TGI",
+    "TGI Sport"
    ],
    "slugs": [
-    "compass",
-    "compass-group"
+    "tgi",
+    "tgi-sport"
    ]
   },
   {
    "names": [
-    "ISC",
-    "ISC Sport"
+    "Athletics",
+    "Athletics Australia",
+    "Athletics New Zealand"
    ],
    "slugs": [
-    "isc",
-    "isc-sport"
+    "athletics",
+    "athletics-australia",
+    "athletics-new-zealand"
+   ]
+  },
+  {
+   "names": [
+    "PURE Sports Nutrition",
+    "Pure Nutrition"
+   ],
+   "slugs": [
+    "pure-nutrition",
+    "pure-sports-nutrition"
    ]
   },
   {
@@ -130,112 +130,32 @@
   },
   {
    "names": [
-    "Courier Mail",
-    "The Courier-Mail"
+    "News Corp",
+    "News Corp Australia"
    ],
    "slugs": [
-    "courier-mail",
-    "the-courier-mail"
+    "news-corp",
+    "news-corp-australia"
    ]
   },
   {
    "names": [
-    "Ant Group",
-    "Ant International"
+    "BCD Group",
+    "BCD Sports"
    ],
    "slugs": [
-    "ant-group",
-    "ant-international"
+    "bcd-group",
+    "bcd-sports"
    ]
   },
   {
    "names": [
-    "BDA",
-    "BDA Sports"
+    "ISC",
+    "ISC Sport"
    ],
    "slugs": [
-    "bda",
-    "bda-sports"
-   ]
-  },
-  {
-   "names": [
-    "Commonwealth Games",
-    "Commonwealth Games Australia"
-   ],
-   "slugs": [
-    "commonwealth-games",
-    "commonwealth-games-australia"
-   ]
-  },
-  {
-   "names": [
-    "HYROX",
-    "HYROX Australia"
-   ],
-   "slugs": [
-    "hyrox",
-    "hyrox-australia"
-   ]
-  },
-  {
-   "names": [
-    "Dolphins",
-    "Dolphins Group"
-   ],
-   "slugs": [
-    "dolphins",
-    "dolphins-group"
-   ]
-  },
-  {
-   "names": [
-    "Direct Global",
-    "Sports Direct"
-   ],
-   "slugs": [
-    "direct-global",
-    "sports-direct"
-   ]
-  },
-  {
-   "names": [
-    "BMS",
-    "BMS Group"
-   ],
-   "slugs": [
-    "bms",
-    "bms-group"
-   ]
-  },
-  {
-   "names": [
-    "Betsson",
-    "Betsson Sport"
-   ],
-   "slugs": [
-    "betsson",
-    "betsson-sport"
-   ]
-  },
-  {
-   "names": [
-    "Carabao",
-    "Carabao Sport"
-   ],
-   "slugs": [
-    "carabao",
-    "carabao-sport"
-   ]
-  },
-  {
-   "names": [
-    "Hockey Australia",
-    "Hockey New Zealand"
-   ],
-   "slugs": [
-    "hockey-australia",
-    "hockey-new-zealand"
+    "isc",
+    "isc-sport"
    ]
   },
   {
@@ -250,32 +170,32 @@
   },
   {
    "names": [
-    "Hong Kong Jockey Club",
-    "The Hong Kong Jockey Club"
-   ],
-   "slugs": [
-    "hong-kong-jockey-club",
-    "the-hong-kong-jockey-club"
-   ]
-  },
-  {
-   "names": [
-    "Lucozade",
-    "Lucozade Sport"
-   ],
-   "slugs": [
-    "lucozade",
-    "lucozade-sport"
-   ]
-  },
-  {
-   "names": [
     "Special Olympics",
     "Special Olympics Australia"
    ],
    "slugs": [
     "special-olympics",
     "special-olympics-australia"
+   ]
+  },
+  {
+   "names": [
+    "Carabao",
+    "Carabao Sport"
+   ],
+   "slugs": [
+    "carabao",
+    "carabao-sport"
+   ]
+  },
+  {
+   "names": [
+    "Circa",
+    "Circa Sports"
+   ],
+   "slugs": [
+    "circa",
+    "circa-sports"
    ]
   },
   {
@@ -300,12 +220,32 @@
   },
   {
    "names": [
-    "Asahi Beverages",
-    "Asahi Beverages NZ"
+    "Seven",
+    "Seven Group"
    ],
    "slugs": [
-    "asahi-beverages",
-    "asahi-beverages-nz"
+    "seven",
+    "seven-group"
+   ]
+  },
+  {
+   "names": [
+    "Clover",
+    "Clover Sport"
+   ],
+   "slugs": [
+    "clover",
+    "clover-sport"
+   ]
+  },
+  {
+   "names": [
+    "Commonwealth Games",
+    "Commonwealth Games Australia"
+   ],
+   "slugs": [
+    "commonwealth-games",
+    "commonwealth-games-australia"
    ]
   },
   {
@@ -320,6 +260,16 @@
   },
   {
    "names": [
+    "Hockey Australia",
+    "Hockey New Zealand"
+   ],
+   "slugs": [
+    "hockey-australia",
+    "hockey-new-zealand"
+   ]
+  },
+  {
+   "names": [
     "Sports Illustrated",
     "Sports Illustrated Resorts"
    ],
@@ -330,12 +280,12 @@
   },
   {
    "names": [
-    "Seven",
-    "Seven Group"
+    "Mondelēz",
+    "Mondelēz International"
    ],
    "slugs": [
-    "seven",
-    "seven-group"
+    "mondel-z",
+    "mondelez-international"
    ]
   },
   {
@@ -360,6 +310,46 @@
   },
   {
    "names": [
+    "Asahi Beverages",
+    "Asahi Beverages NZ"
+   ],
+   "slugs": [
+    "asahi-beverages",
+    "asahi-beverages-nz"
+   ]
+  },
+  {
+   "names": [
+    "One",
+    "One NZ"
+   ],
+   "slugs": [
+    "one",
+    "one-nz"
+   ]
+  },
+  {
+   "names": [
+    "Compass",
+    "Compass Group"
+   ],
+   "slugs": [
+    "compass",
+    "compass-group"
+   ]
+  },
+  {
+   "names": [
+    "Harness Racing Australia",
+    "Harness Racing NZ"
+   ],
+   "slugs": [
+    "harness-racing-australia",
+    "harness-racing-nz"
+   ]
+  },
+  {
+   "names": [
     "Victor",
     "Victor Sports"
    ],
@@ -370,22 +360,12 @@
   },
   {
    "names": [
-    "TGI",
-    "TGI Sport"
+    "BMW",
+    "BMW Group"
    ],
    "slugs": [
-    "tgi",
-    "tgi-sport"
-   ]
-  },
-  {
-   "names": [
-    "Canberra",
-    "Canberra International"
-   ],
-   "slugs": [
-    "canberra",
-    "canberra-international"
+    "bmw",
+    "bmw-group"
    ]
   },
   {
@@ -402,32 +382,32 @@
   },
   {
    "names": [
-    "PURE Sports Nutrition",
-    "Pure Nutrition"
+    "Basketball Australia",
+    "Basketball New Zealand"
    ],
    "slugs": [
-    "pure-nutrition",
-    "pure-sports-nutrition"
+    "basketball-australia",
+    "basketball-new-zealand"
    ]
   },
   {
    "names": [
-    "Kia",
-    "Kia Australia"
+    "Canberra",
+    "Canberra International"
    ],
    "slugs": [
-    "kia",
-    "kia-australia"
+    "canberra",
+    "canberra-international"
    ]
   },
   {
    "names": [
-    "BCD Group",
-    "BCD Sports"
+    "BDA",
+    "BDA Sports"
    ],
    "slugs": [
-    "bcd-group",
-    "bcd-sports"
+    "bda",
+    "bda-sports"
    ]
   },
   {
@@ -438,48 +418,6 @@
    "slugs": [
     "global-news",
     "news-australia"
-   ]
-  },
-  {
-   "names": [
-    "Clover",
-    "Clover Sport"
-   ],
-   "slugs": [
-    "clover",
-    "clover-sport"
-   ]
-  },
-  {
-   "names": [
-    "Athletics",
-    "Athletics Australia",
-    "Athletics New Zealand"
-   ],
-   "slugs": [
-    "athletics",
-    "athletics-australia",
-    "athletics-new-zealand"
-   ]
-  },
-  {
-   "names": [
-    "Mondelēz",
-    "Mondelēz International"
-   ],
-   "slugs": [
-    "mondel-z",
-    "mondelez-international"
-   ]
-  },
-  {
-   "names": [
-    "Gate",
-    "The Gate"
-   ],
-   "slugs": [
-    "gate",
-    "the-gate"
    ]
   },
   {
@@ -496,32 +434,114 @@
   },
   {
    "names": [
-    "Circa",
-    "Circa Sports"
+    "Dolphins",
+    "Dolphins Group"
    ],
    "slugs": [
-    "circa",
-    "circa-sports"
+    "dolphins",
+    "dolphins-group"
    ]
   },
   {
    "names": [
-    "One",
-    "One NZ"
+    "Ant Group",
+    "Ant International"
    ],
    "slugs": [
-    "one",
-    "one-nz"
+    "ant-group",
+    "ant-international"
    ]
   },
   {
    "names": [
-    "News Corp",
-    "News Corp Australia"
+    "Betsson",
+    "Betsson Sport"
    ],
    "slugs": [
-    "news-corp",
-    "news-corp-australia"
+    "betsson",
+    "betsson-sport"
+   ]
+  },
+  {
+   "names": [
+    "Kia",
+    "Kia Australia"
+   ],
+   "slugs": [
+    "kia",
+    "kia-australia"
+   ]
+  },
+  {
+   "names": [
+    "Gate",
+    "The Gate"
+   ],
+   "slugs": [
+    "gate",
+    "the-gate"
+   ]
+  },
+  {
+   "names": [
+    "Tourism Australia",
+    "Tourism New Zealand"
+   ],
+   "slugs": [
+    "tourism-australia",
+    "tourism-new-zealand"
+   ]
+  },
+  {
+   "names": [
+    "BRI",
+    "BRI Group"
+   ],
+   "slugs": [
+    "bri",
+    "bri-group"
+   ]
+  },
+  {
+   "names": [
+    "BMS",
+    "BMS Group"
+   ],
+   "slugs": [
+    "bms",
+    "bms-group"
+   ]
+  },
+  {
+   "names": [
+    "Direct Global",
+    "Sports Direct"
+   ],
+   "slugs": [
+    "direct-global",
+    "sports-direct"
+   ]
+  },
+  {
+   "names": [
+    "International Mascot",
+    "MASCOT",
+    "Mascot International"
+   ],
+   "slugs": [
+    "international-mascot",
+    "mascot",
+    "mascot-international"
+   ]
+  },
+  {
+   "names": [
+    "Lucozade",
+    "Lucozade Sport"
+   ],
+   "slugs": [
+    "lucozade",
+    "lucozade-sport"
    ]
   }
  ],
@@ -530,6 +550,11 @@
    "brand": "Shift4",
    "slug": "shift4",
    "deals": 18
+  },
+  {
+   "brand": "Meiji Yasuda",
+   "slug": "meiji-yasuda",
+   "deals": 16
   },
   {
    "brand": "Sherwin-Williams",
@@ -575,6 +600,11 @@
    "brand": "Coors Light",
    "slug": "coors-light",
    "deals": 10
+  },
+  {
+   "brand": "Pia",
+   "slug": "pia",
+   "deals": 9
   },
   {
    "brand": "Big Ant Studios",
@@ -632,6 +662,11 @@
    "deals": 8
   },
   {
+   "brand": "docomo",
+   "slug": "docomo",
+   "deals": 7
+  },
+  {
    "brand": "Sparco",
    "slug": "sparco",
    "deals": 7
@@ -680,6 +715,11 @@
    "brand": "Surfside",
    "slug": "surfside",
    "deals": 7
+  },
+  {
+   "brand": "SCO Group",
+   "slug": "sco-group",
+   "deals": 6
   },
   {
    "brand": "Nationwide",
@@ -1225,6 +1265,36 @@
    "brand": "VPA",
    "slug": "vpa",
    "deals": 4
+  },
+  {
+   "brand": "King's Hawaiian",
+   "slug": "king-s-hawaiian",
+   "deals": 3
+  },
+  {
+   "brand": "Daiwa Securities",
+   "slug": "daiwa-securities",
+   "deals": 3
+  },
+  {
+   "brand": "JR West",
+   "slug": "jr-west",
+   "deals": 3
+  },
+  {
+   "brand": "Kyocera",
+   "slug": "kyocera",
+   "deals": 3
+  },
+  {
+   "brand": "AGEKKE",
+   "slug": "agekke",
+   "deals": 3
+  },
+  {
+   "brand": "SMBC",
+   "slug": "smbc",
+   "deals": 3
   },
   {
    "brand": "playR",
@@ -1795,6 +1865,81 @@
    "brand": "GSA",
    "slug": "gsa",
    "deals": 3
+  },
+  {
+   "brand": "Football Manager",
+   "slug": "football-manager",
+   "deals": 2
+  },
+  {
+   "brand": "Showa Nishikawa",
+   "slug": "showa-nishikawa",
+   "deals": 2
+  },
+  {
+   "brand": "Yokohama Shimizu",
+   "slug": "yokohama-shimizu",
+   "deals": 2
+  },
+  {
+   "brand": "Kaneyoshi",
+   "slug": "kaneyoshi",
+   "deals": 2
+  },
+  {
+   "brand": "SMBC Nikko Securities",
+   "slug": "smbc-nikko-securities",
+   "deals": 2
+  },
+  {
+   "brand": "Mizuho Securities",
+   "slug": "mizuho-securities",
+   "deals": 2
+  },
+  {
+   "brand": "EDION",
+   "slug": "edion",
+   "deals": 2
+  },
+  {
+   "brand": "Taihei Dengyo",
+   "slug": "taihei-dengyo",
+   "deals": 2
+  },
+  {
+   "brand": "JA Ibaraki",
+   "slug": "ja-ibaraki",
+   "deals": 2
+  },
+  {
+   "brand": "JR East",
+   "slug": "jr-east",
+   "deals": 2
+  },
+  {
+   "brand": "Semlinks",
+   "slug": "semlinks",
+   "deals": 2
+  },
+  {
+   "brand": "LIXIL",
+   "slug": "lixil",
+   "deals": 2
+  },
+  {
+   "brand": "Takenaka Corporation",
+   "slug": "takenaka-corporation",
+   "deals": 2
+  },
+  {
+   "brand": "CBC",
+   "slug": "cbc",
+   "deals": 2
+  },
+  {
+   "brand": "YANMAR",
+   "slug": "yanmar",
+   "deals": 2
   },
   {
    "brand": "JSW Paints",
@@ -3467,11 +3612,6 @@
    "deals": 2
   },
   {
-   "brand": "King's Hawaiian",
-   "slug": "king-s-hawaiian",
-   "deals": 2
-  },
-  {
    "brand": "Imperial Brady",
    "slug": "imperial-brady",
    "deals": 2
@@ -3834,11 +3974,6 @@
   {
    "brand": "Vivint",
    "slug": "vivint",
-   "deals": 2
-  },
-  {
-   "brand": "Kyocera",
-   "slug": "kyocera",
    "deals": 2
   },
   {
@@ -4400,6 +4535,2561 @@
    "brand": "John R Turk",
    "slug": "john-r-turk",
    "deals": 2
+  },
+  {
+   "brand": "NISMO",
+   "slug": "nismo",
+   "deals": 1
+  },
+  {
+   "brand": "Shin-Yokohama Station Kaihatsu",
+   "slug": "shin-yokohama-station-kaihatsu",
+   "deals": 1
+  },
+  {
+   "brand": "Fujiya",
+   "slug": "fujiya",
+   "deals": 1
+  },
+  {
+   "brand": "VOLZ",
+   "slug": "volz",
+   "deals": 1
+  },
+  {
+   "brand": "Kankyo Works",
+   "slug": "kankyo-works",
+   "deals": 1
+  },
+  {
+   "brand": "Nihon Kogakuin",
+   "slug": "nihon-kogakuin",
+   "deals": 1
+  },
+  {
+   "brand": "Autocom Japan",
+   "slug": "autocom-japan",
+   "deals": 1
+  },
+  {
+   "brand": "Lemington",
+   "slug": "lemington",
+   "deals": 1
+  },
+  {
+   "brand": "Kingfa",
+   "slug": "kingfa",
+   "deals": 1
+  },
+  {
+   "brand": "Morinaga",
+   "slug": "morinaga",
+   "deals": 1
+  },
+  {
+   "brand": "Anest Iwata",
+   "slug": "anest-iwata",
+   "deals": 1
+  },
+  {
+   "brand": "NK Planning",
+   "slug": "nk-planning",
+   "deals": 1
+  },
+  {
+   "brand": "Money Forward",
+   "slug": "money-forward",
+   "deals": 1
+  },
+  {
+   "brand": "Sakata Seed",
+   "slug": "sakata-seed",
+   "deals": 1
+  },
+  {
+   "brand": "Nisshin OilliO",
+   "slug": "nisshin-oillio",
+   "deals": 1
+  },
+  {
+   "brand": "Draft",
+   "slug": "draft",
+   "deals": 1
+  },
+  {
+   "brand": "Rakuten Securities",
+   "slug": "rakuten-securities",
+   "deals": 1
+  },
+  {
+   "brand": "Aoyama Shoji",
+   "slug": "aoyama-shoji",
+   "deals": 1
+  },
+  {
+   "brand": "Yamasoro",
+   "slug": "yamasoro",
+   "deals": 1
+  },
+  {
+   "brand": "Paidy",
+   "slug": "paidy",
+   "deals": 1
+  },
+  {
+   "brand": "Fujiko",
+   "slug": "fujiko",
+   "deals": 1
+  },
+  {
+   "brand": "BofA Securities",
+   "slug": "bofa-securities",
+   "deals": 1
+  },
+  {
+   "brand": "Japan Tour Service",
+   "slug": "japan-tour-service",
+   "deals": 1
+  },
+  {
+   "brand": "JA Hyogo Shinren",
+   "slug": "ja-hyogo-shinren",
+   "deals": 1
+  },
+  {
+   "brand": "JRA Hanshin Racecourse",
+   "slug": "jra-hanshin-racecourse",
+   "deals": 1
+  },
+  {
+   "brand": "G-7 Holdings",
+   "slug": "g-7-holdings",
+   "deals": 1
+  },
+  {
+   "brand": "Kobe Bussan",
+   "slug": "kobe-bussan",
+   "deals": 1
+  },
+  {
+   "brand": "Kiku-Masamune",
+   "slug": "kiku-masamune",
+   "deals": 1
+  },
+  {
+   "brand": "Kamine",
+   "slug": "kamine",
+   "deals": 1
+  },
+  {
+   "brand": "R.L Waffle",
+   "slug": "r-l-waffle",
+   "deals": 1
+  },
+  {
+   "brand": "Micware",
+   "slug": "micware",
+   "deals": 1
+  },
+  {
+   "brand": "Japan Engine Corporation",
+   "slug": "japan-engine-corporation",
+   "deals": 1
+  },
+  {
+   "brand": "Rakuten Mobile",
+   "slug": "rakuten-mobile",
+   "deals": 1
+  },
+  {
+   "brand": "Rakuten toto",
+   "slug": "rakuten-toto",
+   "deals": 1
+  },
+  {
+   "brand": "Rakuten Card",
+   "slug": "rakuten-card",
+   "deals": 1
+  },
+  {
+   "brand": "Bishop",
+   "slug": "bishop",
+   "deals": 1
+  },
+  {
+   "brand": "Noevir",
+   "slug": "noevir",
+   "deals": 1
+  },
+  {
+   "brand": "Debs",
+   "slug": "debs",
+   "deals": 1
+  },
+  {
+   "brand": "Kawasaki Heavy Industries",
+   "slug": "kawasaki-heavy-industries",
+   "deals": 1
+  },
+  {
+   "brand": "Suzette Holdings",
+   "slug": "suzette-holdings",
+   "deals": 1
+  },
+  {
+   "brand": "Adachi",
+   "slug": "adachi",
+   "deals": 1
+  },
+  {
+   "brand": "Sakinaga Kaiun",
+   "slug": "sakinaga-kaiun",
+   "deals": 1
+  },
+  {
+   "brand": "Isahaya Green Kaihatsu",
+   "slug": "isahaya-green-kaihatsu",
+   "deals": 1
+  },
+  {
+   "brand": "Oedo Onsen Monogatari",
+   "slug": "oedo-onsen-monogatari",
+   "deals": 1
+  },
+  {
+   "brand": "Ellena",
+   "slug": "ellena",
+   "deals": 1
+  },
+  {
+   "brand": "Keiseikai",
+   "slug": "keiseikai",
+   "deals": 1
+  },
+  {
+   "brand": "Fukusaya",
+   "slug": "fukusaya",
+   "deals": 1
+  },
+  {
+   "brand": "Saikai Toki",
+   "slug": "saikai-toki",
+   "deals": 1
+  },
+  {
+   "brand": "Maeda Clinic",
+   "slug": "maeda-clinic",
+   "deals": 1
+  },
+  {
+   "brand": "Iwasaki Honpo",
+   "slug": "iwasaki-honpo",
+   "deals": 1
+  },
+  {
+   "brand": "Sun Heights",
+   "slug": "sun-heights",
+   "deals": 1
+  },
+  {
+   "brand": "CCH",
+   "slug": "cch",
+   "deals": 1
+  },
+  {
+   "brand": "Eco Motion",
+   "slug": "eco-motion",
+   "deals": 1
+  },
+  {
+   "brand": "Matsufuji Group",
+   "slug": "matsufuji-group",
+   "deals": 1
+  },
+  {
+   "brand": "Koun Holdings",
+   "slug": "koun-holdings",
+   "deals": 1
+  },
+  {
+   "brand": "Yamazen",
+   "slug": "yamazen",
+   "deals": 1
+  },
+  {
+   "brand": "Alinco",
+   "slug": "alinco",
+   "deals": 1
+  },
+  {
+   "brand": "Fuji Kigyo",
+   "slug": "fuji-kigyo",
+   "deals": 1
+  },
+  {
+   "brand": "Yamafuku",
+   "slug": "yamafuku",
+   "deals": 1
+  },
+  {
+   "brand": "Rengo",
+   "slug": "rengo",
+   "deals": 1
+  },
+  {
+   "brand": "Teijin Axia",
+   "slug": "teijin-axia",
+   "deals": 1
+  },
+  {
+   "brand": "TOPPAN",
+   "slug": "toppan",
+   "deals": 1
+  },
+  {
+   "brand": "Net Protections",
+   "slug": "net-protections",
+   "deals": 1
+  },
+  {
+   "brand": "FanBridge Cashless",
+   "slug": "fanbridge-cashless",
+   "deals": 1
+  },
+  {
+   "brand": "Moririn",
+   "slug": "moririn",
+   "deals": 1
+  },
+  {
+   "brand": "transcosmos",
+   "slug": "transcosmos",
+   "deals": 1
+  },
+  {
+   "brand": "Oshima Shipbuilding",
+   "slug": "oshima-shipbuilding",
+   "deals": 1
+  },
+  {
+   "brand": "SoftBank (Y!mobile)",
+   "slug": "softbank",
+   "deals": 1
+  },
+  {
+   "brand": "Memolead",
+   "slug": "memolead",
+   "deals": 1
+  },
+  {
+   "brand": "Japanet Holdings",
+   "slug": "japanet-holdings",
+   "deals": 1
+  },
+  {
+   "brand": "Renaissance",
+   "slug": "renaissance",
+   "deals": 1
+  },
+  {
+   "brand": "Rhythm",
+   "slug": "rhythm",
+   "deals": 1
+  },
+  {
+   "brand": "Fujishima Kensetsu",
+   "slug": "fujishima-kensetsu",
+   "deals": 1
+  },
+  {
+   "brand": "Family Hikkoshi Center",
+   "slug": "family-hikkoshi-center",
+   "deals": 1
+  },
+  {
+   "brand": "Vitabrid Japan",
+   "slug": "vitabrid-japan",
+   "deals": 1
+  },
+  {
+   "brand": "BizReach",
+   "slug": "bizreach",
+   "deals": 1
+  },
+  {
+   "brand": "Tohshin Partners",
+   "slug": "tohshin-partners",
+   "deals": 1
+  },
+  {
+   "brand": "Tokyo Tenryu",
+   "slug": "tokyo-tenryu",
+   "deals": 1
+  },
+  {
+   "brand": "Denkichi",
+   "slug": "denkichi",
+   "deals": 1
+  },
+  {
+   "brand": "Ceremony",
+   "slug": "ceremony",
+   "deals": 1
+  },
+  {
+   "brand": "J:COM",
+   "slug": "j-com",
+   "deals": 1
+  },
+  {
+   "brand": "JA Group Saitama",
+   "slug": "ja-group-saitama",
+   "deals": 1
+  },
+  {
+   "brand": "Kokudai Seminar",
+   "slug": "kokudai-seminar",
+   "deals": 1
+  },
+  {
+   "brand": "Orizon Systems",
+   "slug": "orizon-systems",
+   "deals": 1
+  },
+  {
+   "brand": "Eco Keikaku",
+   "slug": "eco-keikaku",
+   "deals": 1
+  },
+  {
+   "brand": "Way",
+   "slug": "way",
+   "deals": 1
+  },
+  {
+   "brand": "AZ-COM Maruwa Holdings",
+   "slug": "az-com-maruwa-holdings",
+   "deals": 1
+  },
+  {
+   "brand": "Azabu Tailor",
+   "slug": "azabu-tailor",
+   "deals": 1
+  },
+  {
+   "brand": "Aidma Holdings",
+   "slug": "aidma-holdings",
+   "deals": 1
+  },
+  {
+   "brand": "Teikei",
+   "slug": "teikei",
+   "deals": 1
+  },
+  {
+   "brand": "EneCle",
+   "slug": "enecle",
+   "deals": 1
+  },
+  {
+   "brand": "POLUS",
+   "slug": "polus",
+   "deals": 1
+  },
+  {
+   "brand": "Shochiku",
+   "slug": "shochiku",
+   "deals": 1
+  },
+  {
+   "brand": "Tokyo Green",
+   "slug": "tokyo-green",
+   "deals": 1
+  },
+  {
+   "brand": "Athleta",
+   "slug": "athleta",
+   "deals": 1
+  },
+  {
+   "brand": "Xebio Group",
+   "slug": "xebio-group",
+   "deals": 1
+  },
+  {
+   "brand": "Yaguchi",
+   "slug": "yaguchi",
+   "deals": 1
+  },
+  {
+   "brand": "BRI Group",
+   "slug": "bri-group",
+   "deals": 1
+  },
+  {
+   "brand": "Goodcom Asset",
+   "slug": "goodcom-asset",
+   "deals": 1
+  },
+  {
+   "brand": "Classmethod",
+   "slug": "classmethod",
+   "deals": 1
+  },
+  {
+   "brand": "MJS (Miroku Jyoho Service)",
+   "slug": "mjs",
+   "deals": 1
+  },
+  {
+   "brand": "Alpha Club Shizuoka",
+   "slug": "alpha-club-shizuoka",
+   "deals": 1
+  },
+  {
+   "brand": "Suzuyo Rent-a-Car",
+   "slug": "suzuyo-rent-a-car",
+   "deals": 1
+  },
+  {
+   "brand": "JR Tokai Tours",
+   "slug": "jr-tokai-tours",
+   "deals": 1
+  },
+  {
+   "brand": "Corelex",
+   "slug": "corelex",
+   "deals": 1
+  },
+  {
+   "brand": "Suruga-ya",
+   "slug": "suruga-ya",
+   "deals": 1
+  },
+  {
+   "brand": "Aono",
+   "slug": "aono",
+   "deals": 1
+  },
+  {
+   "brand": "Bee",
+   "slug": "bee",
+   "deals": 1
+  },
+  {
+   "brand": "Chubu Eisei Kensa Center",
+   "slug": "chubu-eisei-kensa-center",
+   "deals": 1
+  },
+  {
+   "brand": "S-Trust",
+   "slug": "s-trust",
+   "deals": 1
+  },
+  {
+   "brand": "Plus One",
+   "slug": "plus-one",
+   "deals": 1
+  },
+  {
+   "brand": "Fuji Kogyo",
+   "slug": "fuji-kogyo",
+   "deals": 1
+  },
+  {
+   "brand": "Kasuga Paper",
+   "slug": "kasuga-paper",
+   "deals": 1
+  },
+  {
+   "brand": "Shizuoka Sangyosha",
+   "slug": "shizuoka-sangyosha",
+   "deals": 1
+  },
+  {
+   "brand": "TOKAI LIBMO",
+   "slug": "tokai-libmo",
+   "deals": 1
+  },
+  {
+   "brand": "Glico",
+   "slug": "glico",
+   "deals": 1
+  },
+  {
+   "brand": "Kyowa Ika Kikai",
+   "slug": "kyowa-ika-kikai",
+   "deals": 1
+  },
+  {
+   "brand": "Sumiya Denki",
+   "slug": "sumiya-denki",
+   "deals": 1
+  },
+  {
+   "brand": "Shizuoka Shimbun",
+   "slug": "shizuoka-shimbun",
+   "deals": 1
+  },
+  {
+   "brand": "Suzuyo Shoji",
+   "slug": "suzuyo-shoji",
+   "deals": 1
+  },
+  {
+   "brand": "Shizutetsu",
+   "slug": "shizutetsu",
+   "deals": 1
+  },
+  {
+   "brand": "Suruga Giken",
+   "slug": "suruga-giken",
+   "deals": 1
+  },
+  {
+   "brand": "DyDo",
+   "slug": "dydo",
+   "deals": 1
+  },
+  {
+   "brand": "Harada Seicha",
+   "slug": "harada-seicha",
+   "deals": 1
+  },
+  {
+   "brand": "Star Micronics",
+   "slug": "star-micronics",
+   "deals": 1
+  },
+  {
+   "brand": "Taica",
+   "slug": "taica",
+   "deals": 1
+  },
+  {
+   "brand": "I.Tec",
+   "slug": "i-tec",
+   "deals": 1
+  },
+  {
+   "brand": "IAI",
+   "slug": "iai",
+   "deals": 1
+  },
+  {
+   "brand": "Suzuyo",
+   "slug": "suzuyo",
+   "deals": 1
+  },
+  {
+   "brand": "Koshiba Cleaning",
+   "slug": "koshiba-cleaning",
+   "deals": 1
+  },
+  {
+   "brand": "ECC",
+   "slug": "ecc",
+   "deals": 1
+  },
+  {
+   "brand": "Yofuku no Aoyama",
+   "slug": "yofuku-no-aoyama",
+   "deals": 1
+  },
+  {
+   "brand": "Yamasa",
+   "slug": "yamasa",
+   "deals": 1
+  },
+  {
+   "brand": "Ryowa House",
+   "slug": "ryowa-house",
+   "deals": 1
+  },
+  {
+   "brand": "Ryobi",
+   "slug": "ryobi",
+   "deals": 1
+  },
+  {
+   "brand": "Miyamoto Koki",
+   "slug": "miyamoto-koki",
+   "deals": 1
+  },
+  {
+   "brand": "Boat Race Miyajima",
+   "slug": "boat-race-miyajima",
+   "deals": 1
+  },
+  {
+   "brand": "Midori Group",
+   "slug": "midori-group",
+   "deals": 1
+  },
+  {
+   "brand": "Futaba Kogyo",
+   "slug": "futaba-kogyo",
+   "deals": 1
+  },
+  {
+   "brand": "Fujita",
+   "slug": "fujita",
+   "deals": 1
+  },
+  {
+   "brand": "Fuji",
+   "slug": "fuji",
+   "deals": 1
+  },
+  {
+   "brand": "Nishikawa Rubber",
+   "slug": "nishikawa-rubber",
+   "deals": 1
+  },
+  {
+   "brand": "DreamArts",
+   "slug": "dreamarts",
+   "deals": 1
+  },
+  {
+   "brand": "Chudenko",
+   "slug": "chudenko",
+   "deals": 1
+  },
+  {
+   "brand": "Tanaka Gakushukai",
+   "slug": "tanaka-gakushukai",
+   "deals": 1
+  },
+  {
+   "brand": "Shokkyo",
+   "slug": "shokkyo",
+   "deals": 1
+  },
+  {
+   "brand": "Japan Marine United",
+   "slug": "japan-marine-united",
+   "deals": 1
+  },
+  {
+   "brand": "JFE Project One",
+   "slug": "jfe-project-one",
+   "deals": 1
+  },
+  {
+   "brand": "Sankyo Display",
+   "slug": "sankyo-display",
+   "deals": 1
+  },
+  {
+   "brand": "Gojinsha Group",
+   "slug": "gojinsha-group",
+   "deals": 1
+  },
+  {
+   "brand": "Hiroshima Kenshin",
+   "slug": "hiroshima-kenshin",
+   "deals": 1
+  },
+  {
+   "brand": "Career Collège Japan",
+   "slug": "career-college-japan",
+   "deals": 1
+  },
+  {
+   "brand": "Orico",
+   "slug": "orico",
+   "deals": 1
+  },
+  {
+   "brand": "Ooga Shokai",
+   "slug": "ooga-shokai",
+   "deals": 1
+  },
+  {
+   "brand": "Enecom",
+   "slug": "enecom",
+   "deals": 1
+  },
+  {
+   "brand": "Wants",
+   "slug": "wants",
+   "deals": 1
+  },
+  {
+   "brand": "Interface",
+   "slug": "interface",
+   "deals": 1
+  },
+  {
+   "brand": "Ideal",
+   "slug": "ideal",
+   "deals": 1
+  },
+  {
+   "brand": "Ichikawa",
+   "slug": "ichikawa",
+   "deals": 1
+  },
+  {
+   "brand": "Urban Cycle Parks Hiroshima",
+   "slug": "urban-cycle-parks-hiroshima",
+   "deals": 1
+  },
+  {
+   "brand": "Hokoku",
+   "slug": "hokoku",
+   "deals": 1
+  },
+  {
+   "brand": "Teral",
+   "slug": "teral",
+   "deals": 1
+  },
+  {
+   "brand": "Youme Town (Izumi)",
+   "slug": "youme-town",
+   "deals": 1
+  },
+  {
+   "brand": "Marui Sangyo",
+   "slug": "marui-sangyo",
+   "deals": 1
+  },
+  {
+   "brand": "MIRAINI Holdings",
+   "slug": "miraini-holdings",
+   "deals": 1
+  },
+  {
+   "brand": "Nextep Solutions",
+   "slug": "nextep-solutions",
+   "deals": 1
+  },
+  {
+   "brand": "Niyu",
+   "slug": "niyu",
+   "deals": 1
+  },
+  {
+   "brand": "DONUTS",
+   "slug": "donuts",
+   "deals": 1
+  },
+  {
+   "brand": "Tokai Tokyo Securities",
+   "slug": "tokai-tokyo-securities",
+   "deals": 1
+  },
+  {
+   "brand": "Daihatsu",
+   "slug": "daihatsu",
+   "deals": 1
+  },
+  {
+   "brand": "Senon",
+   "slug": "senon",
+   "deals": 1
+  },
+  {
+   "brand": "Suzuran Clinic",
+   "slug": "suzuran-clinic",
+   "deals": 1
+  },
+  {
+   "brand": "Komehyo",
+   "slug": "komehyo",
+   "deals": 1
+  },
+  {
+   "brand": "Kuroyanagi",
+   "slug": "kuroyanagi",
+   "deals": 1
+  },
+  {
+   "brand": "Gigas K's Denki",
+   "slug": "gigas-k-s-denki",
+   "deals": 1
+  },
+  {
+   "brand": "Ontech",
+   "slug": "ontech",
+   "deals": 1
+  },
+  {
+   "brand": "Okaya Koki",
+   "slug": "okaya-koki",
+   "deals": 1
+  },
+  {
+   "brand": "LBC",
+   "slug": "lbc",
+   "deals": 1
+  },
+  {
+   "brand": "NTP Group",
+   "slug": "ntp-group",
+   "deals": 1
+  },
+  {
+   "brand": "Aisin",
+   "slug": "aisin",
+   "deals": 1
+  },
+  {
+   "brand": "Work Staff",
+   "slug": "work-staff",
+   "deals": 1
+  },
+  {
+   "brand": "Proto Corporation (Goo-net)",
+   "slug": "proto-corporation",
+   "deals": 1
+  },
+  {
+   "brand": "Ito & Co.",
+   "slug": "ito-and-co",
+   "deals": 1
+  },
+  {
+   "brand": "K-MAX",
+   "slug": "k-max",
+   "deals": 1
+  },
+  {
+   "brand": "Okano Unso",
+   "slug": "okano-unso",
+   "deals": 1
+  },
+  {
+   "brand": "Takei",
+   "slug": "takei",
+   "deals": 1
+  },
+  {
+   "brand": "Canda",
+   "slug": "canda",
+   "deals": 1
+  },
+  {
+   "brand": "Koryo",
+   "slug": "koryo",
+   "deals": 1
+  },
+  {
+   "brand": "Sanyu",
+   "slug": "sanyu",
+   "deals": 1
+  },
+  {
+   "brand": "Isozaki Tax Office",
+   "slug": "isozaki-tax-office",
+   "deals": 1
+  },
+  {
+   "brand": "Nexwill",
+   "slug": "nexwill",
+   "deals": 1
+  },
+  {
+   "brand": "Cosmo Style",
+   "slug": "cosmo-style",
+   "deals": 1
+  },
+  {
+   "brand": "Okawa Seira",
+   "slug": "okawa-seira",
+   "deals": 1
+  },
+  {
+   "brand": "Cleaning Senka",
+   "slug": "cleaning-senka",
+   "deals": 1
+  },
+  {
+   "brand": "Soccer Junky",
+   "slug": "soccer-junky",
+   "deals": 1
+  },
+  {
+   "brand": "Mito Securities",
+   "slug": "mito-securities",
+   "deals": 1
+  },
+  {
+   "brand": "Yamashin",
+   "slug": "yamashin",
+   "deals": 1
+  },
+  {
+   "brand": "Suzunui Kogyo",
+   "slug": "suzunui-kogyo",
+   "deals": 1
+  },
+  {
+   "brand": "Ibaraki Kotsu",
+   "slug": "ibaraki-kotsu",
+   "deals": 1
+  },
+  {
+   "brand": "Sustainable Holdings",
+   "slug": "sustainable-holdings",
+   "deals": 1
+  },
+  {
+   "brand": "Heltec",
+   "slug": "heltec",
+   "deals": 1
+  },
+  {
+   "brand": "Adastria",
+   "slug": "adastria",
+   "deals": 1
+  },
+  {
+   "brand": "JX Advanced Metals",
+   "slug": "jx-advanced-metals",
+   "deals": 1
+  },
+  {
+   "brand": "K's Denki",
+   "slug": "k-s-denki",
+   "deals": 1
+  },
+  {
+   "brand": "RENCA",
+   "slug": "renca",
+   "deals": 1
+  },
+  {
+   "brand": "Liviluck",
+   "slug": "liviluck",
+   "deals": 1
+  },
+  {
+   "brand": "Yojiya",
+   "slug": "yojiya",
+   "deals": 1
+  },
+  {
+   "brand": "Murata Manufacturing",
+   "slug": "murata-manufacturing",
+   "deals": 1
+  },
+  {
+   "brand": "Murata Machinery",
+   "slug": "murata-machinery",
+   "deals": 1
+  },
+  {
+   "brand": "myProduct",
+   "slug": "myproduct",
+   "deals": 1
+  },
+  {
+   "brand": "Boat Race Biwako",
+   "slug": "boat-race-biwako",
+   "deals": 1
+  },
+  {
+   "brand": "Fukuda Metal Foil & Powder",
+   "slug": "fukuda-metal-foil-and-powder",
+   "deals": 1
+  },
+  {
+   "brand": "JRA Kyoto Racecourse",
+   "slug": "jra-kyoto-racecourse",
+   "deals": 1
+  },
+  {
+   "brand": "Nidec",
+   "slug": "nidec",
+   "deals": 1
+  },
+  {
+   "brand": "Tokiwa Unyu",
+   "slug": "tokiwa-unyu",
+   "deals": 1
+  },
+  {
+   "brand": "Dai-ichi Life",
+   "slug": "dai-ichi-life",
+   "deals": 1
+  },
+  {
+   "brand": "Shintoshi Kikaku",
+   "slug": "shintoshi-kikaku",
+   "deals": 1
+  },
+  {
+   "brand": "Shimadzu",
+   "slug": "shimadzu",
+   "deals": 1
+  },
+  {
+   "brand": "Sun Contact Lens",
+   "slug": "sun-contact-lens",
+   "deals": 1
+  },
+  {
+   "brand": "COCON Karasuma",
+   "slug": "cocon-karasuma",
+   "deals": 1
+  },
+  {
+   "brand": "Kyowa Setsubi",
+   "slug": "kyowa-setsubi",
+   "deals": 1
+  },
+  {
+   "brand": "Kyoto Shimbun",
+   "slug": "kyoto-shimbun",
+   "deals": 1
+  },
+  {
+   "brand": "Kyocera Document Solutions",
+   "slug": "kyocera-document-solutions",
+   "deals": 1
+  },
+  {
+   "brand": "Kyocera Communication Systems",
+   "slug": "kyocera-communication-systems",
+   "deals": 1
+  },
+  {
+   "brand": "Kyoei Seicha",
+   "slug": "kyoei-seicha",
+   "deals": 1
+  },
+  {
+   "brand": "Kansai Signal Service",
+   "slug": "kansai-signal-service",
+   "deals": 1
+  },
+  {
+   "brand": "Nabel",
+   "slug": "nabel",
+   "deals": 1
+  },
+  {
+   "brand": "Wacoal",
+   "slug": "wacoal",
+   "deals": 1
+  },
+  {
+   "brand": "Horiba",
+   "slug": "horiba",
+   "deals": 1
+  },
+  {
+   "brand": "KDDI",
+   "slug": "kddi",
+   "deals": 1
+  },
+  {
+   "brand": "Yushin Unyu",
+   "slug": "yushin-unyu",
+   "deals": 1
+  },
+  {
+   "brand": "Marukome",
+   "slug": "marukome",
+   "deals": 1
+  },
+  {
+   "brand": "Hakuto",
+   "slug": "hakuto",
+   "deals": 1
+  },
+  {
+   "brand": "NOCTY",
+   "slug": "nocty",
+   "deals": 1
+  },
+  {
+   "brand": "Tokyo Electron Device",
+   "slug": "tokyo-electron-device",
+   "deals": 1
+  },
+  {
+   "brand": "Dear Staff",
+   "slug": "dear-staff",
+   "deals": 1
+  },
+  {
+   "brand": "Daisho Denshi",
+   "slug": "daisho-denshi",
+   "deals": 1
+  },
+  {
+   "brand": "JA Ceresa Kawasaki",
+   "slug": "ja-ceresa-kawasaki",
+   "deals": 1
+  },
+  {
+   "brand": "Sanko Kensetsu",
+   "slug": "sanko-kensetsu",
+   "deals": 1
+  },
+  {
+   "brand": "Thermos",
+   "slug": "thermos",
+   "deals": 1
+  },
+  {
+   "brand": "Kitaura Kogyo",
+   "slug": "kitaura-kogyo",
+   "deals": 1
+  },
+  {
+   "brand": "Kajigaya Clinic",
+   "slug": "kajigaya-clinic",
+   "deals": 1
+  },
+  {
+   "brand": "Kaga FEI",
+   "slug": "kaga-fei",
+   "deals": 1
+  },
+  {
+   "brand": "Elephant Stone",
+   "slug": "elephant-stone",
+   "deals": 1
+  },
+  {
+   "brand": "Wisdom",
+   "slug": "wisdom",
+   "deals": 1
+  },
+  {
+   "brand": "iTSCOM",
+   "slug": "itscom",
+   "deals": 1
+  },
+  {
+   "brand": "ants",
+   "slug": "ants",
+   "deals": 1
+  },
+  {
+   "brand": "Alpha Systems",
+   "slug": "alpha-systems",
+   "deals": 1
+  },
+  {
+   "brand": "Altekna",
+   "slug": "altekna",
+   "deals": 1
+  },
+  {
+   "brand": "RN Goto",
+   "slug": "rn-goto",
+   "deals": 1
+  },
+  {
+   "brand": "Wako Shoji",
+   "slug": "wako-shoji",
+   "deals": 1
+  },
+  {
+   "brand": "Ridgelinez",
+   "slug": "ridgelinez",
+   "deals": 1
+  },
+  {
+   "brand": "Matsuo Komuten",
+   "slug": "matsuo-komuten",
+   "deals": 1
+  },
+  {
+   "brand": "Promise",
+   "slug": "promise",
+   "deals": 1
+  },
+  {
+   "brand": "Natural Science",
+   "slug": "natural-science",
+   "deals": 1
+  },
+  {
+   "brand": "Teikoku Tsushin Kogyo (Noble)",
+   "slug": "teikoku-tsushin-kogyo",
+   "deals": 1
+  },
+  {
+   "brand": "Shimizu Shoten",
+   "slug": "shimizu-shoten",
+   "deals": 1
+  },
+  {
+   "brand": "Orihica",
+   "slug": "orihica",
+   "deals": 1
+  },
+  {
+   "brand": "Arax",
+   "slug": "arax",
+   "deals": 1
+  },
+  {
+   "brand": "Anker Japan",
+   "slug": "anker-japan",
+   "deals": 1
+  },
+  {
+   "brand": "Tempur",
+   "slug": "tempur",
+   "deals": 1
+  },
+  {
+   "brand": "Order Suit SADA",
+   "slug": "order-suit-sada",
+   "deals": 1
+  },
+  {
+   "brand": "Hoshi Kokoku",
+   "slug": "hoshi-kokoku",
+   "deals": 1
+  },
+  {
+   "brand": "rinato",
+   "slug": "rinato",
+   "deals": 1
+  },
+  {
+   "brand": "Sun Advance",
+   "slug": "sun-advance",
+   "deals": 1
+  },
+  {
+   "brand": "Sumigomu Sangyo",
+   "slug": "sumigomu-sangyo",
+   "deals": 1
+  },
+  {
+   "brand": "Mabuchi Motor",
+   "slug": "mabuchi-motor",
+   "deals": 1
+  },
+  {
+   "brand": "Lawson",
+   "slug": "lawson",
+   "deals": 1
+  },
+  {
+   "brand": "Hitachi Plant Services",
+   "slug": "hitachi-plant-services",
+   "deals": 1
+  },
+  {
+   "brand": "Hitachi Systems",
+   "slug": "hitachi-systems",
+   "deals": 1
+  },
+  {
+   "brand": "Sankyo Frontier",
+   "slug": "sankyo-frontier",
+   "deals": 1
+  },
+  {
+   "brand": "Aflac",
+   "slug": "aflac",
+   "deals": 1
+  },
+  {
+   "brand": "Kodomo Circle",
+   "slug": "kodomo-circle",
+   "deals": 1
+  },
+  {
+   "brand": "Yamato Protec",
+   "slug": "yamato-protec",
+   "deals": 1
+  },
+  {
+   "brand": "Raksul",
+   "slug": "raksul",
+   "deals": 1
+  },
+  {
+   "brand": "Namegata Unso",
+   "slug": "namegata-unso",
+   "deals": 1
+  },
+  {
+   "brand": "Stract",
+   "slug": "stract",
+   "deals": 1
+  },
+  {
+   "brand": "AlbaLink",
+   "slug": "albalink",
+   "deals": 1
+  },
+  {
+   "brand": "Naoi Auto",
+   "slug": "naoi-auto",
+   "deals": 1
+  },
+  {
+   "brand": "Aktio",
+   "slug": "aktio",
+   "deals": 1
+  },
+  {
+   "brand": "Matsuyama Kozai",
+   "slug": "matsuyama-kozai",
+   "deals": 1
+  },
+  {
+   "brand": "Kasumi",
+   "slug": "kasumi",
+   "deals": 1
+  },
+  {
+   "brand": "Minato Unso",
+   "slug": "minato-unso",
+   "deals": 1
+  },
+  {
+   "brand": "Juwa",
+   "slug": "juwa",
+   "deals": 1
+  },
+  {
+   "brand": "Ibaraki Shimbun",
+   "slug": "ibaraki-shimbun",
+   "deals": 1
+  },
+  {
+   "brand": "Sekisho",
+   "slug": "sekisho",
+   "deals": 1
+  },
+  {
+   "brand": "Asobica",
+   "slug": "asobica",
+   "deals": 1
+  },
+  {
+   "brand": "TSKG Holdings",
+   "slug": "tskg-holdings",
+   "deals": 1
+  },
+  {
+   "brand": "Nippon Paper Crecia",
+   "slug": "nippon-paper-crecia",
+   "deals": 1
+  },
+  {
+   "brand": "NURO",
+   "slug": "nuro",
+   "deals": 1
+  },
+  {
+   "brand": "Asuene",
+   "slug": "asuene",
+   "deals": 1
+  },
+  {
+   "brand": "Beetle Management",
+   "slug": "beetle-management",
+   "deals": 1
+  },
+  {
+   "brand": "Nippon Denko",
+   "slug": "nippon-denko",
+   "deals": 1
+  },
+  {
+   "brand": "Lucky (Ibaraki)",
+   "slug": "lucky",
+   "deals": 1
+  },
+  {
+   "brand": "Kakuichi",
+   "slug": "kakuichi",
+   "deals": 1
+  },
+  {
+   "brand": "United",
+   "slug": "united",
+   "deals": 1
+  },
+  {
+   "brand": "Tokyu Land",
+   "slug": "tokyu-land",
+   "deals": 1
+  },
+  {
+   "brand": "JVCKenwood",
+   "slug": "jvckenwood",
+   "deals": 1
+  },
+  {
+   "brand": "Sanoh",
+   "slug": "sanoh",
+   "deals": 1
+  },
+  {
+   "brand": "Mercari",
+   "slug": "mercari",
+   "deals": 1
+  },
+  {
+   "brand": "Joso Kanko",
+   "slug": "joso-kanko",
+   "deals": 1
+  },
+  {
+   "brand": "TTE",
+   "slug": "tte",
+   "deals": 1
+  },
+  {
+   "brand": "Showa Sangyo",
+   "slug": "showa-sangyo",
+   "deals": 1
+  },
+  {
+   "brand": "Riso Kagaku",
+   "slug": "riso-kagaku",
+   "deals": 1
+  },
+  {
+   "brand": "Kaneka",
+   "slug": "kaneka",
+   "deals": 1
+  },
+  {
+   "brand": "Yellow Hat",
+   "slug": "yellow-hat",
+   "deals": 1
+  },
+  {
+   "brand": "Wada-gumi",
+   "slug": "wada-gumi",
+   "deals": 1
+  },
+  {
+   "brand": "LUMINE",
+   "slug": "lumine",
+   "deals": 1
+  },
+  {
+   "brand": "Yoshida Kogyo",
+   "slug": "yoshida-kogyo",
+   "deals": 1
+  },
+  {
+   "brand": "Yamazaki Baking",
+   "slug": "yamazaki-baking",
+   "deals": 1
+  },
+  {
+   "brand": "Miyabi Plant",
+   "slug": "miyabi-plant",
+   "deals": 1
+  },
+  {
+   "brand": "bayfm",
+   "slug": "bayfm",
+   "deals": 1
+  },
+  {
+   "brand": "Furukawa Sangyo",
+   "slug": "furukawa-sangyo",
+   "deals": 1
+  },
+  {
+   "brand": "Nihon Dengi",
+   "slug": "nihon-dengi",
+   "deals": 1
+  },
+  {
+   "brand": "Nippon Densetsu Kogyo",
+   "slug": "nippon-densetsu-kogyo",
+   "deals": 1
+  },
+  {
+   "brand": "Nippon Signal",
+   "slug": "nippon-signal",
+   "deals": 1
+  },
+  {
+   "brand": "Chiba Higashi Kensetsu",
+   "slug": "chiba-higashi-kensetsu",
+   "deals": 1
+  },
+  {
+   "brand": "Chiba Nippo",
+   "slug": "chiba-nippo",
+   "deals": 1
+  },
+  {
+   "brand": "SoulSyncs",
+   "slug": "soulsyncs",
+   "deals": 1
+  },
+  {
+   "brand": "CSP",
+   "slug": "csp",
+   "deals": 1
+  },
+  {
+   "brand": "Shapo",
+   "slug": "shapo",
+   "deals": 1
+  },
+  {
+   "brand": "JR East Shoji",
+   "slug": "jr-east-shoji",
+   "deals": 1
+  },
+  {
+   "brand": "JR East Cross Station",
+   "slug": "jr-east-cross-station",
+   "deals": 1
+  },
+  {
+   "brand": "Sateraito Office",
+   "slug": "sateraito-office",
+   "deals": 1
+  },
+  {
+   "brand": "Globo",
+   "slug": "globo",
+   "deals": 1
+  },
+  {
+   "brand": "Iwashiro Kozai",
+   "slug": "iwashiro-kozai",
+   "deals": 1
+  },
+  {
+   "brand": "Ichishin",
+   "slug": "ichishin",
+   "deals": 1
+  },
+  {
+   "brand": "atré",
+   "slug": "atre",
+   "deals": 1
+  },
+  {
+   "brand": "RT Trading",
+   "slug": "rt-trading",
+   "deals": 1
+  },
+  {
+   "brand": "Perie",
+   "slug": "perie",
+   "deals": 1
+  },
+  {
+   "brand": "Mitsui Chemicals",
+   "slug": "mitsui-chemicals",
+   "deals": 1
+  },
+  {
+   "brand": "E-Table",
+   "slug": "e-table",
+   "deals": 1
+  },
+  {
+   "brand": "Expocity",
+   "slug": "expocity",
+   "deals": 1
+  },
+  {
+   "brand": "Arakawa Chemical",
+   "slug": "arakawa-chemical",
+   "deals": 1
+  },
+  {
+   "brand": "Mitsunami",
+   "slug": "mitsunami",
+   "deals": 1
+  },
+  {
+   "brand": "DCP",
+   "slug": "dcp",
+   "deals": 1
+  },
+  {
+   "brand": "Joy Heart",
+   "slug": "joy-heart",
+   "deals": 1
+  },
+  {
+   "brand": "Cherry Golf",
+   "slug": "cherry-golf",
+   "deals": 1
+  },
+  {
+   "brand": "Shift Plus",
+   "slug": "shift-plus",
+   "deals": 1
+  },
+  {
+   "brand": "Teinen Sangyo",
+   "slug": "teinen-sangyo",
+   "deals": 1
+  },
+  {
+   "brand": "Osaka Monorail",
+   "slug": "osaka-monorail",
+   "deals": 1
+  },
+  {
+   "brand": "Dream Team",
+   "slug": "dream-team",
+   "deals": 1
+  },
+  {
+   "brand": "Futaba Denki Tsushin",
+   "slug": "futaba-denki-tsushin",
+   "deals": 1
+  },
+  {
+   "brand": "Daimatsu",
+   "slug": "daimatsu",
+   "deals": 1
+  },
+  {
+   "brand": "Zero Crest",
+   "slug": "zero-crest",
+   "deals": 1
+  },
+  {
+   "brand": "Morita",
+   "slug": "morita",
+   "deals": 1
+  },
+  {
+   "brand": "Heisei Iryo Gakuen",
+   "slug": "heisei-iryo-gakuen",
+   "deals": 1
+  },
+  {
+   "brand": "funs",
+   "slug": "funs",
+   "deals": 1
+  },
+  {
+   "brand": "BayCurrent",
+   "slug": "baycurrent",
+   "deals": 1
+  },
+  {
+   "brand": "SCSK",
+   "slug": "scsk",
+   "deals": 1
+  },
+  {
+   "brand": "Showa Kako",
+   "slug": "showa-kako",
+   "deals": 1
+  },
+  {
+   "brand": "Daicel",
+   "slug": "daicel",
+   "deals": 1
+  },
+  {
+   "brand": "Funai Soken",
+   "slug": "funai-soken",
+   "deals": 1
+  },
+  {
+   "brand": "Nichieco",
+   "slug": "nichieco",
+   "deals": 1
+  },
+  {
+   "brand": "WAO Corporation",
+   "slug": "wao-corporation",
+   "deals": 1
+  },
+  {
+   "brand": "Benesse",
+   "slug": "benesse",
+   "deals": 1
+  },
+  {
+   "brand": "Taion",
+   "slug": "taion",
+   "deals": 1
+  },
+  {
+   "brand": "Hagihara Industries",
+   "slug": "hagihara-industries",
+   "deals": 1
+  },
+  {
+   "brand": "Shinsei Denki",
+   "slug": "shinsei-denki",
+   "deals": 1
+  },
+  {
+   "brand": "Shinnichiro",
+   "slug": "shinnichiro",
+   "deals": 1
+  },
+  {
+   "brand": "Kurabo",
+   "slug": "kurabo",
+   "deals": 1
+  },
+  {
+   "brand": "Seitsu Group",
+   "slug": "seitsu-group",
+   "deals": 1
+  },
+  {
+   "brand": "Hattori Kogyo",
+   "slug": "hattori-kogyo",
+   "deals": 1
+  },
+  {
+   "brand": "Carion",
+   "slug": "carion",
+   "deals": 1
+  },
+  {
+   "brand": "Ishikawa Holdings",
+   "slug": "ishikawa-holdings",
+   "deals": 1
+  },
+  {
+   "brand": "OM Sangyo",
+   "slug": "om-sangyo",
+   "deals": 1
+  },
+  {
+   "brand": "Minoru Sangyo",
+   "slug": "minoru-sangyo",
+   "deals": 1
+  },
+  {
+   "brand": "TECOPARK",
+   "slug": "tecopark",
+   "deals": 1
+  },
+  {
+   "brand": "Nakashima Propeller",
+   "slug": "nakashima-propeller",
+   "deals": 1
+  },
+  {
+   "brand": "JTB",
+   "slug": "jtb",
+   "deals": 1
+  },
+  {
+   "brand": "KIG",
+   "slug": "kig",
+   "deals": 1
+  },
+  {
+   "brand": "Haruyama",
+   "slug": "haruyama",
+   "deals": 1
+  },
+  {
+   "brand": "Tombow",
+   "slug": "tombow",
+   "deals": 1
+  },
+  {
+   "brand": "OG Giken",
+   "slug": "og-giken",
+   "deals": 1
+  },
+  {
+   "brand": "KAAZ",
+   "slug": "kaaz",
+   "deals": 1
+  },
+  {
+   "brand": "Suenaga Group",
+   "slug": "suenaga-group",
+   "deals": 1
+  },
+  {
+   "brand": "Penalty",
+   "slug": "penalty",
+   "deals": 1
+  },
+  {
+   "brand": "Bisho",
+   "slug": "bisho",
+   "deals": 1
+  },
+  {
+   "brand": "Sanyo Shimbun",
+   "slug": "sanyo-shimbun",
+   "deals": 1
+  },
+  {
+   "brand": "Tomiya Corporation",
+   "slug": "tomiya-corporation",
+   "deals": 1
+  },
+  {
+   "brand": "Okanetsu Kogyo",
+   "slug": "okanetsu-kogyo",
+   "deals": 1
+  },
+  {
+   "brand": "Ryobi Systems",
+   "slug": "ryobi-systems",
+   "deals": 1
+  },
+  {
+   "brand": "Serio",
+   "slug": "serio",
+   "deals": 1
+  },
+  {
+   "brand": "GROP",
+   "slug": "grop",
+   "deals": 1
+  },
+  {
+   "brand": "Nichiban",
+   "slug": "nichiban",
+   "deals": 1
+  },
+  {
+   "brand": "Nishikawa",
+   "slug": "nishikawa",
+   "deals": 1
+  },
+  {
+   "brand": "Kinniku Shokudo",
+   "slug": "kinniku-shokudo",
+   "deals": 1
+  },
+  {
+   "brand": "Sysmex",
+   "slug": "sysmex",
+   "deals": 1
+  },
+  {
+   "brand": "Identity Partners",
+   "slug": "identity-partners",
+   "deals": 1
+  },
+  {
+   "brand": "SHIPS",
+   "slug": "ships",
+   "deals": 1
+  },
+  {
+   "brand": "Live Board",
+   "slug": "live-board",
+   "deals": 1
+  },
+  {
+   "brand": "Regina Clinic",
+   "slug": "regina-clinic",
+   "deals": 1
+  },
+  {
+   "brand": "NEP",
+   "slug": "nep",
+   "deals": 1
+  },
+  {
+   "brand": "Marutone",
+   "slug": "marutone",
+   "deals": 1
+  },
+  {
+   "brand": "Boat Race Heiwajima",
+   "slug": "boat-race-heiwajima",
+   "deals": 1
+  },
+  {
+   "brand": "Pocket Card",
+   "slug": "pocket-card",
+   "deals": 1
+  },
+  {
+   "brand": "PLAUD",
+   "slug": "plaud",
+   "deals": 1
+  },
+  {
+   "brand": "Tokyo Joypolis",
+   "slug": "tokyo-joypolis",
+   "deals": 1
+  },
+  {
+   "brand": "DYM",
+   "slug": "dym",
+   "deals": 1
+  },
+  {
+   "brand": "Stylem",
+   "slug": "stylem",
+   "deals": 1
+  },
+  {
+   "brand": "Jackery",
+   "slug": "jackery",
+   "deals": 1
+  },
+  {
+   "brand": "Kao (Bioré)",
+   "slug": "kao",
+   "deals": 1
+  },
+  {
+   "brand": "INPEX",
+   "slug": "inpex",
+   "deals": 1
+  },
+  {
+   "brand": "Invisalign Japan",
+   "slug": "invisalign-japan",
+   "deals": 1
+  },
+  {
+   "brand": "Innovators Brain",
+   "slug": "innovators-brain",
+   "deals": 1
+  },
+  {
+   "brand": "Altius Link",
+   "slug": "altius-link",
+   "deals": 1
+  },
+  {
+   "brand": "Playaz4Playaz",
+   "slug": "playaz4playaz",
+   "deals": 1
+  },
+  {
+   "brand": "Tokyo LNG Tanker",
+   "slug": "tokyo-lng-tanker",
+   "deals": 1
+  },
+  {
+   "brand": "Fuji Kizai",
+   "slug": "fuji-kizai",
+   "deals": 1
+  },
+  {
+   "brand": "First Partner",
+   "slug": "first-partner",
+   "deals": 1
+  },
+  {
+   "brand": "Sieg",
+   "slug": "sieg",
+   "deals": 1
+  },
+  {
+   "brand": "Euro Sports",
+   "slug": "euro-sports",
+   "deals": 1
+  },
+  {
+   "brand": "Ajinomoto (amino VITAL)",
+   "slug": "ajinomoto",
+   "deals": 1
+  },
+  {
+   "brand": "Kandenko",
+   "slug": "kandenko",
+   "deals": 1
+  },
+  {
+   "brand": "NYK Line",
+   "slug": "nyk-line",
+   "deals": 1
+  },
+  {
+   "brand": "Shimizu Octo",
+   "slug": "shimizu-octo",
+   "deals": 1
+  },
+  {
+   "brand": "Fintokei",
+   "slug": "fintokei",
+   "deals": 1
+  },
+  {
+   "brand": "Mitsui Fudosan Residential",
+   "slug": "mitsui-fudosan-residential",
+   "deals": 1
+  },
+  {
+   "brand": "Ohya Unso",
+   "slug": "ohya-unso",
+   "deals": 1
+  },
+  {
+   "brand": "Akagi",
+   "slug": "akagi",
+   "deals": 1
+  },
+  {
+   "brand": "Sumitomo Corporation",
+   "slug": "sumitomo-corporation",
+   "deals": 1
+  },
+  {
+   "brand": "Mitsui O.S.K. Lines",
+   "slug": "mitsui-o-s-k-lines",
+   "deals": 1
+  },
+  {
+   "brand": "Shimizu Corporation",
+   "slug": "shimizu-corporation",
+   "deals": 1
+  },
+  {
+   "brand": "Keio",
+   "slug": "keio",
+   "deals": 1
+  },
+  {
+   "brand": "Mitsui & Co.",
+   "slug": "mitsui-and-co",
+   "deals": 1
+  },
+  {
+   "brand": "MIXI",
+   "slug": "mixi",
+   "deals": 1
+  },
+  {
+   "brand": "WCK Salon",
+   "slug": "wck-salon",
+   "deals": 1
+  },
+  {
+   "brand": "SYLA Holdings",
+   "slug": "syla-holdings",
+   "deals": 1
+  },
+  {
+   "brand": "Nagataya",
+   "slug": "nagataya",
+   "deals": 1
+  },
+  {
+   "brand": "HiPro",
+   "slug": "hipro",
+   "deals": 1
+  },
+  {
+   "brand": "Machida Tokyu Twins",
+   "slug": "machida-tokyu-twins",
+   "deals": 1
+  },
+  {
+   "brand": "Too",
+   "slug": "too",
+   "deals": 1
+  },
+  {
+   "brand": "AKRacing",
+   "slug": "akracing",
+   "deals": 1
+  },
+  {
+   "brand": "Tama Park",
+   "slug": "tama-park",
+   "deals": 1
+  },
+  {
+   "brand": "Sponichi",
+   "slug": "sponichi",
+   "deals": 1
+  },
+  {
+   "brand": "Kansei Pipe",
+   "slug": "kansei-pipe",
+   "deals": 1
+  },
+  {
+   "brand": "Kamo",
+   "slug": "kamo",
+   "deals": 1
+  },
+  {
+   "brand": "Basic",
+   "slug": "basic",
+   "deals": 1
+  },
+  {
+   "brand": "Grand Heart Machida",
+   "slug": "grand-heart-machida",
+   "deals": 1
+  },
+  {
+   "brand": "Bluestone",
+   "slug": "bluestone",
+   "deals": 1
+  },
+  {
+   "brand": "Skyedge",
+   "slug": "skyedge",
+   "deals": 1
+  },
+  {
+   "brand": "Ebatens",
+   "slug": "ebatens",
+   "deals": 1
+  },
+  {
+   "brand": "IR Robotics",
+   "slug": "ir-robotics",
+   "deals": 1
+  },
+  {
+   "brand": "Sho Seikei",
+   "slug": "sho-seikei",
+   "deals": 1
+  },
+  {
+   "brand": "Grandberry Park",
+   "slug": "grandberry-park",
+   "deals": 1
+  },
+  {
+   "brand": "Shoei",
+   "slug": "shoei",
+   "deals": 1
+  },
+  {
+   "brand": "Otsuka Shokai",
+   "slug": "otsuka-shokai",
+   "deals": 1
+  },
+  {
+   "brand": "MicroAd",
+   "slug": "microad",
+   "deals": 1
+  },
+  {
+   "brand": "Gion",
+   "slug": "gion",
+   "deals": 1
+  },
+  {
+   "brand": "Capsule-Z",
+   "slug": "capsule-z",
+   "deals": 1
+  },
+  {
+   "brand": "Marui",
+   "slug": "marui",
+   "deals": 1
+  },
+  {
+   "brand": "EPOS Card",
+   "slug": "epos-card",
+   "deals": 1
+  },
+  {
+   "brand": "Art Moving Center",
+   "slug": "art-moving-center",
+   "deals": 1
+  },
+  {
+   "brand": "Clasty",
+   "slug": "clasty",
+   "deals": 1
+  },
+  {
+   "brand": "Eagle Kenso",
+   "slug": "eagle-kenso",
+   "deals": 1
+  },
+  {
+   "brand": "Yoshida Sangyo",
+   "slug": "yoshida-sangyo",
+   "deals": 1
+  },
+  {
+   "brand": "Scalp D (ANGFA)",
+   "slug": "scalp-d",
+   "deals": 1
+  },
+  {
+   "brand": "Avex",
+   "slug": "avex",
+   "deals": 1
+  },
+  {
+   "brand": "Rudel",
+   "slug": "rudel",
+   "deals": 1
+  },
+  {
+   "brand": "Odakyu",
+   "slug": "odakyu",
+   "deals": 1
+  },
+  {
+   "brand": "Leverages",
+   "slug": "leverages",
+   "deals": 1
+  },
+  {
+   "brand": "Yoshikawa Seisakusho",
+   "slug": "yoshikawa-seisakusho",
+   "deals": 1
+  },
+  {
+   "brand": "Meimon Taiyo Ferry",
+   "slug": "meimon-taiyo-ferry",
+   "deals": 1
+  },
+  {
+   "brand": "SMFL",
+   "slug": "smfl",
+   "deals": 1
+  },
+  {
+   "brand": "Makotoya",
+   "slug": "makotoya",
+   "deals": 1
+  },
+  {
+   "brand": "Fuji Tekko",
+   "slug": "fuji-tekko",
+   "deals": 1
+  },
+  {
+   "brand": "Finnair",
+   "slug": "finnair",
+   "deals": 1
+  },
+  {
+   "brand": "Nakanishi Metal Works",
+   "slug": "nakanishi-metal-works",
+   "deals": 1
+  },
+  {
+   "brand": "Tennoji MIO",
+   "slug": "tennoji-mio",
+   "deals": 1
+  },
+  {
+   "brand": "Takeden",
+   "slug": "takeden",
+   "deals": 1
+  },
+  {
+   "brand": "Swissôtel Nankai Osaka",
+   "slug": "swissotel-nankai-osaka",
+   "deals": 1
+  },
+  {
+   "brand": "Kyoshin Gakuen",
+   "slug": "kyoshin-gakuen",
+   "deals": 1
+  },
+  {
+   "brand": "Kushikatsu Oji",
+   "slug": "kushikatsu-oji",
+   "deals": 1
+  },
+  {
+   "brand": "Kinki Iryo Senmon Gakko",
+   "slug": "kinki-iryo-senmon-gakko",
+   "deals": 1
+  },
+  {
+   "brand": "Osaka Metro",
+   "slug": "osaka-metro",
+   "deals": 1
+  },
+  {
+   "brand": "Osaka Seikei Gakuen",
+   "slug": "osaka-seikei-gakuen",
+   "deals": 1
+  },
+  {
+   "brand": "Osaka Izumi Co-op",
+   "slug": "osaka-izumi-co-op",
+   "deals": 1
+  },
+  {
+   "brand": "L Holdings",
+   "slug": "l-holdings",
+   "deals": 1
+  },
+  {
+   "brand": "Inaba Denki Sangyo",
+   "slug": "inaba-denki-sangyo",
+   "deals": 1
+  },
+  {
+   "brand": "Apri",
+   "slug": "apri",
+   "deals": 1
+  },
+  {
+   "brand": "Up Gakushukai",
+   "slug": "up-gakushukai",
+   "deals": 1
+  },
+  {
+   "brand": "Asver",
+   "slug": "asver",
+   "deals": 1
+  },
+  {
+   "brand": "Takoyaki Wanaka",
+   "slug": "takoyaki-wanaka",
+   "deals": 1
+  },
+  {
+   "brand": "Life Corporation",
+   "slug": "life-corporation",
+   "deals": 1
+  },
+  {
+   "brand": "Yamataka",
+   "slug": "yamataka",
+   "deals": 1
+  },
+  {
+   "brand": "Hashida Giken",
+   "slug": "hashida-giken",
+   "deals": 1
+  },
+  {
+   "brand": "Washoku Sato",
+   "slug": "washoku-sato",
+   "deals": 1
+  },
+  {
+   "brand": "Daihen",
+   "slug": "daihen",
+   "deals": 1
+  },
+  {
+   "brand": "Elecom",
+   "slug": "elecom",
+   "deals": 1
+  },
+  {
+   "brand": "Nikkon Holdings",
+   "slug": "nikkon-holdings",
+   "deals": 1
+  },
+  {
+   "brand": "Yodoko",
+   "slug": "yodoko",
+   "deals": 1
+  },
+  {
+   "brand": "Capcom",
+   "slug": "capcom",
+   "deals": 1
+  },
+  {
+   "brand": "Best Denki",
+   "slug": "best-denki",
+   "deals": 1
+  },
+  {
+   "brand": "Fukuoka Logitem",
+   "slug": "fukuoka-logitem",
+   "deals": 1
+  },
+  {
+   "brand": "Pietro",
+   "slug": "pietro",
+   "deals": 1
+  },
+  {
+   "brand": "Hakuunsha",
+   "slug": "hakuunsha",
+   "deals": 1
+  },
+  {
+   "brand": "Nishitetsu",
+   "slug": "nishitetsu",
+   "deals": 1
+  },
+  {
+   "brand": "Kentaku Partners",
+   "slug": "kentaku-partners",
+   "deals": 1
+  },
+  {
+   "brand": "Kraftia",
+   "slug": "kraftia",
+   "deals": 1
+  },
+  {
+   "brand": "Orec",
+   "slug": "orec",
+   "deals": 1
+  },
+  {
+   "brand": "At Home",
+   "slug": "at-home",
+   "deals": 1
+  },
+  {
+   "brand": "Pleast",
+   "slug": "pleast",
+   "deals": 1
+  },
+  {
+   "brand": "Fukuya",
+   "slug": "fukuya",
+   "deals": 1
+  },
+  {
+   "brand": "N-Park",
+   "slug": "n-park",
+   "deals": 1
+  },
+  {
+   "brand": "Kouken Kogyo",
+   "slug": "kouken-kogyo",
+   "deals": 1
+  },
+  {
+   "brand": "Aiwa Chisho",
+   "slug": "aiwa-chisho",
+   "deals": 1
+  },
+  {
+   "brand": "EGO Sport",
+   "slug": "ego-sport",
+   "deals": 1
+  },
+  {
+   "brand": "SystemSoft",
+   "slug": "systemsoft",
+   "deals": 1
+  },
+  {
+   "brand": "Soft Service",
+   "slug": "soft-service",
+   "deals": 1
+  },
+  {
+   "brand": "Apamanshop",
+   "slug": "apamanshop",
+   "deals": 1
+  },
+  {
+   "brand": "Shinnihonseiyaku",
+   "slug": "shinnihonseiyaku",
+   "deals": 1
   },
   {
    "brand": "KRAFTON",
@@ -6534,11 +9224,6 @@
   {
    "brand": "Stiftelsen VI",
    "slug": "stiftelsen-vi",
-   "deals": 1
-  },
-  {
-   "brand": "YANMAR",
-   "slug": "yanmar",
    "deals": 1
   },
   {
@@ -19217,11 +21902,6 @@
    "deals": 1
   },
   {
-   "brand": "Football Manager",
-   "slug": "football-manager",
-   "deals": 1
-  },
-  {
    "brand": "Easterseals Southern California",
    "slug": "easterseals-southern-california",
    "deals": 1
@@ -27917,11 +30597,6 @@
    "deals": 1
   },
   {
-   "brand": "CBC",
-   "slug": "cbc",
-   "deals": 1
-  },
-  {
    "brand": "Kingsgrove Sports Centre",
    "slug": "kingsgrove-sports-centre",
    "deals": 1
@@ -30171,6 +32846,13 @@
    "deals": 8
   },
   {
+   "brand": "PwC",
+   "slug": "pwc",
+   "cat": "Professional services",
+   "rules_say": "Technology",
+   "deals": 5
+  },
+  {
    "brand": "Jones Radiology",
    "slug": "jones-radiology",
    "cat": "Health & beauty",
@@ -30189,13 +32871,6 @@
    "slug": "the-courier-mail",
    "cat": "Media & broadcast",
    "rules_say": "Logistics & transport",
-   "deals": 4
-  },
-  {
-   "brand": "PwC",
-   "slug": "pwc",
-   "cat": "Professional services",
-   "rules_say": "Technology",
    "deals": 4
   },
   {
@@ -30225,6 +32900,13 @@
    "cat": "Health & beauty",
    "rules_say": "Media & broadcast",
    "deals": 4
+  },
+  {
+   "brand": "Toyo Tires",
+   "slug": "toyo-tires",
+   "cat": "Automotive",
+   "rules_say": "Collectibles & licensing",
+   "deals": 3
   },
   {
    "brand": "Siemens",
@@ -30483,13 +33165,6 @@
    "slug": "maurice-blackburn",
    "cat": "Professional services",
    "rules_say": "Apparel & footwear",
-   "deals": 2
-  },
-  {
-   "brand": "Toyo Tires",
-   "slug": "toyo-tires",
-   "cat": "Automotive",
-   "rules_say": "Collectibles & licensing",
    "deals": 2
   },
   {
@@ -31703,6 +34378,23 @@
    ]
   },
   {
+   "property": "Avispa Fukuoka",
+   "anz": false,
+   "slot": "Beer & cider",
+   "partners": [
+    {
+     "brand": "KBC Kyushu Asahi Broadcasting",
+     "since": "listed",
+     "ends": null
+    },
+    {
+     "brand": "Kirin",
+     "since": "listed",
+     "ends": null
+    }
+   ]
+  },
+  {
    "property": "BC Lions",
    "anz": false,
    "slot": "Banks",
@@ -31860,6 +34552,28 @@
     },
     {
      "brand": "Lexus",
+     "since": "listed",
+     "ends": null
+    }
+   ]
+  },
+  {
+   "property": "Cerezo Osaka",
+   "anz": false,
+   "slot": "Banks",
+   "partners": [
+    {
+     "brand": "Kiyo Bank",
+     "since": "listed",
+     "ends": null
+    },
+    {
+     "brand": "Osaka City Shinkin Bank",
+     "since": "listed",
+     "ends": null
+    },
+    {
+     "brand": "Resona Bank",
      "since": "listed",
      "ends": null
     }
@@ -32078,6 +34792,45 @@
    ]
   },
   {
+   "property": "FC Tokyo",
+   "anz": false,
+   "slot": "Banks",
+   "partners": [
+    {
+     "brand": "UI Bank",
+     "since": "listed",
+     "ends": null
+    },
+    {
+     "brand": "Kiraboshi Bank",
+     "since": "listed",
+     "ends": null
+    }
+   ]
+  },
+  {
+   "property": "Fagiano Okayama",
+   "anz": false,
+   "slot": "Banks",
+   "partners": [
+    {
+     "brand": "Tomato Bank",
+     "since": "listed",
+     "ends": null
+    },
+    {
+     "brand": "Okayama Shinkin Bank",
+     "since": "listed",
+     "ends": null
+    },
+    {
+     "brand": "Chugoku Bank",
+     "since": "listed",
+     "ends": null
+    }
+   ]
+  },
+  {
    "property": "Gujarat Titans",
    "anz": false,
    "slot": "Banks",
@@ -32263,6 +35016,40 @@
    ]
   },
   {
+   "property": "Kawasaki Frontale",
+   "anz": false,
+   "slot": "Banks",
+   "partners": [
+    {
+     "brand": "Mizuho Bank",
+     "since": "listed",
+     "ends": null
+    },
+    {
+     "brand": "Kawasaki Shinkin Bank",
+     "since": "listed",
+     "ends": null
+    }
+   ]
+  },
+  {
+   "property": "Kyoto Sanga",
+   "anz": false,
+   "slot": "Banks",
+   "partners": [
+    {
+     "brand": "MUFG Bank",
+     "since": "listed",
+     "ends": null
+    },
+    {
+     "brand": "Bank of Kyoto",
+     "since": "listed",
+     "ends": null
+    }
+   ]
+  },
+  {
    "property": "LA28",
    "anz": false,
    "slot": "Telco",
@@ -32437,6 +35224,23 @@
     },
     {
      "brand": "Blaze Credit Union",
+     "since": "listed",
+     "ends": null
+    }
+   ]
+  },
+  {
+   "property": "Mito HollyHock",
+   "anz": false,
+   "slot": "Banks",
+   "partners": [
+    {
+     "brand": "Mito Shinkin Bank",
+     "since": "listed",
+     "ends": null
+    },
+    {
+     "brand": "Joyo Bank",
      "since": "listed",
      "ends": null
     }
@@ -33125,6 +35929,23 @@
    ]
   },
   {
+   "property": "Sanfrecce Hiroshima",
+   "anz": false,
+   "slot": "Beer & cider",
+   "partners": [
+    {
+     "brand": "Asahi-EC",
+     "since": "listed",
+     "ends": null
+    },
+    {
+     "brand": "Asahi Kogyo",
+     "since": "listed",
+     "ends": null
+    }
+   ]
+  },
+  {
    "property": "Saskatchewan Roughriders",
    "anz": false,
    "slot": "Quick service food",
@@ -33136,6 +35957,28 @@
     },
     {
      "brand": "Jersey Mike's Subs",
+     "since": "listed",
+     "ends": null
+    }
+   ]
+  },
+  {
+   "property": "Shimizu S-Pulse",
+   "anz": false,
+   "slot": "Banks",
+   "partners": [
+    {
+     "brand": "JA Bank Shizuoka",
+     "since": "listed",
+     "ends": null
+    },
+    {
+     "brand": "Shizuoka Bank",
+     "since": "listed",
+     "ends": null
+    },
+    {
+     "brand": "Shimizu Bank",
      "since": "listed",
      "ends": null
     }
@@ -33227,6 +36070,28 @@
    ]
   },
   {
+   "property": "Urawa Red Diamonds",
+   "anz": false,
+   "slot": "Banks",
+   "partners": [
+    {
+     "brand": "Mitsubishi UFJ Trust and Banking",
+     "since": "listed",
+     "ends": null
+    },
+    {
+     "brand": "MUFG Bank",
+     "since": "listed",
+     "ends": null
+    },
+    {
+     "brand": "Saitama Ken Shinkin Bank",
+     "since": "listed",
+     "ends": null
+    }
+   ]
+  },
+  {
    "property": "Utah Jazz",
    "anz": false,
    "slot": "Banks",
@@ -33300,6 +36165,23 @@
    ]
   },
   {
+   "property": "V-Varen Nagasaki",
+   "anz": false,
+   "slot": "Banks",
+   "partners": [
+    {
+     "brand": "Nagasaki Bank",
+     "since": "listed",
+     "ends": null
+    },
+    {
+     "brand": "Juhachi-Shinwa Bank",
+     "since": "listed",
+     "ends": null
+    }
+   ]
+  },
+  {
    "property": "VfB Stuttgart",
    "anz": false,
    "slot": "Car makers",
@@ -33311,6 +36193,23 @@
     },
     {
      "brand": "Mercedes-Benz",
+     "since": "listed",
+     "ends": null
+    }
+   ]
+  },
+  {
+   "property": "Vissel Kobe",
+   "anz": false,
+   "slot": "Banks",
+   "partners": [
+    {
+     "brand": "Rakuten Bank",
+     "since": "listed",
+     "ends": null
+    },
+    {
+     "brand": "Mizuho Bank",
      "since": "listed",
      "ends": null
     }
