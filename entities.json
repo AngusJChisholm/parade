@@ -223,7 +223,8 @@
    "k": "b"
   },
   "23rd-street-distillery": {
-   "name": "23rd Street Distillery"
+   "name": "23rd Street Distillery",
+   "k": "b"
   },
   "23xi-racing": {
    "name": "23XI Racing",
@@ -10330,11 +10331,13 @@
   },
   "bikeexchange": {
    "name": "BikeExchange",
-   "cat": "Sporting goods & equipment"
+   "cat": "Sporting goods & equipment",
+   "k": "b"
   },
   "bikesportz": {
    "name": "Bikesportz",
-   "cat": "Sporting goods & equipment"
+   "cat": "Sporting goods & equipment",
+   "k": "b"
   },
   "bildgroup": {
    "name": "BildGroup",
@@ -13113,10 +13116,12 @@
    "k": "b"
   },
   "budgy-smuggler": {
-   "name": "Budgy Smuggler"
+   "name": "Budgy Smuggler",
+   "k": "b"
   },
   "buds-and-blooms": {
-   "name": "Buds and Blooms"
+   "name": "Buds and Blooms",
+   "k": "b"
   },
   "buds-and-blooms-florist": {
    "name": "Buds and Blooms Florist",
@@ -29321,7 +29326,8 @@
    "k": "b"
   },
   "focus": {
-   "name": "Focus"
+   "name": "Focus",
+   "k": "b"
   },
   "focus-construct": {
    "name": "Focus Construct",
@@ -29365,7 +29371,8 @@
    "domain": "acquasantonio.com"
   },
   "fonz": {
-   "name": "FONZ"
+   "name": "FONZ",
+   "k": "b"
   },
   "food-4-fitness": {
    "name": "Food 4 Fitness",
@@ -30471,7 +30478,8 @@
    "k": "b"
   },
   "fulgaz": {
-   "name": "FulGaz"
+   "name": "FulGaz",
+   "k": "b"
   },
   "fulham": {
    "name": "Fulham",
@@ -31309,7 +31317,8 @@
    "k": "b"
   },
   "gelista": {
-   "name": "Gelista"
+   "name": "Gelista",
+   "k": "b"
   },
   "gellerts": {
    "name": "Gellerts",
@@ -33683,7 +33692,8 @@
   },
   "gu-energy": {
    "name": "GU Energy",
-   "cat": "Energy & utilities"
+   "cat": "Energy & utilities",
+   "k": "b"
   },
   "guadalajara-chivas": {
    "name": "Guadalajara (Chivas)",
@@ -35028,7 +35038,8 @@
   },
   "hays": {
    "name": "Hays",
-   "cat": "Professional services"
+   "cat": "Professional services",
+   "k": "b"
   },
   "hays-travel": {
    "name": "Hays Travel",
@@ -39103,7 +39114,8 @@
    "domain": "interface.co.jp"
   },
   "interflora": {
-   "name": "Interflora"
+   "name": "Interflora",
+   "k": "b"
   },
   "interform": {
    "name": "Interform",
@@ -44848,7 +44860,8 @@
    "k": "b"
   },
   "lazer": {
-   "name": "Lazer"
+   "name": "Lazer",
+   "k": "b"
   },
   "lazio": {
    "name": "Lazio",
@@ -45525,7 +45538,8 @@
    "k": "b"
   },
   "let-s-go-motorhomes": {
-   "name": "Let's Go Motorhomes"
+   "name": "Let's Go Motorhomes",
+   "k": "b"
   },
   "letsbet": {
    "name": "LetsBet",
@@ -59810,7 +59824,8 @@
    "domain": "nationalguard.com"
   },
   "penny-s-hill": {
-   "name": "Penny's Hill"
+   "name": "Penny's Hill",
+   "k": "b"
   },
   "penny-s-pork-crackling": {
    "name": "Penny's Pork Crackling",
@@ -69916,10 +69931,12 @@
    "k": "b"
   },
   "seppeltsfield": {
-   "name": "Seppeltsfield"
+   "name": "Seppeltsfield",
+   "k": "b"
   },
   "seppeltsfield-road-distillers": {
-   "name": "Seppeltsfield Road Distillers"
+   "name": "Seppeltsfield Road Distillers",
+   "k": "b"
   },
   "septa": {
    "name": "SEPTA",
@@ -71505,7 +71522,8 @@
   },
   "skip-capital": {
    "name": "Skip Capital",
-   "cat": "Banking & finance"
+   "cat": "Banking & finance",
+   "k": "b"
   },
   "skipthedishes": {
    "name": "SkipTheDishes",
@@ -76108,7 +76126,8 @@
     "Title, strategic and presenting partner",
     "Strategic partner",
     "Official event partner and supplier",
-    "Media partner"
+    "Media partner",
+    "Official partner"
    ],
    "ptiersChecked": "2026-11-17"
   },
@@ -79364,7 +79383,8 @@
   },
   "three-oaks-cider": {
    "name": "Three Oaks Cider",
-   "cat": "Alcohol"
+   "cat": "Alcohol",
+   "k": "b"
   },
   "three-shires-hospital": {
    "name": "Three Shires Hospital",
@@ -80747,7 +80767,8 @@
     "Premier partner",
     "Major partner",
     "Corporate partner",
-    "Host council"
+    "Host council",
+    "Official partner"
    ],
    "logo": "assets/logos/tour-down-under.png",
    "ptiersChecked": "2026-11-17"
@@ -83593,7 +83614,8 @@
   },
   "vale-brewing": {
    "name": "Vale Brewing",
-   "cat": "Alcohol"
+   "cat": "Alcohol",
+   "k": "b"
   },
   "vale-electrics": {
    "name": "Vale Electrics",
@@ -89676,7 +89698,8 @@
    ]
   },
   "zwift": {
-   "name": "Zwift"
+   "name": "Zwift",
+   "k": "b"
   }
  },
  "leagues": [
