@@ -34,7 +34,7 @@ function run(){
   const brands=D.brands.filter(r=>hay(r).includes(v)&&eOk(r)).sort((a,b)=>score(a)-score(b)||b.n-a.n);
   const props=D.props.filter(r=>hay(r).includes(v)&&eOk(r)).sort((a,b)=>score(a)-score(b)||b.cur-a.cur||b.n-a.n);
   const deals=D.deals.filter(d=>norm([d.deal,d.sport,d.type,d.tier,d.summary||""].join(" ")).includes(v)&&dOk(d)).sort((a,b)=>S.sortKey(b).localeCompare(S.sortKey(a)));
-  const news=[...D.deals.filter(d=>d.slug&&d.article&&d.date&&norm((d.headline||"")+" "+d.deal).includes(v)&&dOk(d)).map(d=>({k:"Partnership",date:d.date,h:d.headline||d.deal,slug:d.slug,img:d.image})),
+  const news=[...D.deals.filter(d=>d.slug&&d.article&&d.date&&norm((d.headline||"")+" "+d.deal).includes(v)&&dOk(d)).map(d=>({k:"Partnership",date:d.added||d.date,h:d.headline||d.deal,slug:d.slug,img:d.image})),
     ...F.filter(f=>norm(f.headline+" "+(f.descriptor||"")+" "+(f.sport||"")).includes(v)).map(f=>({k:f.label||"Feature",date:f.date,h:f.headline,slug:f.slug,img:f.image}))].sort((a,b)=>b.date.localeCompare(a.date));
   const top=[...brands.slice(0,1),...props.slice(0,1)].sort((a,b)=>score(a)-score(b)||b.n-a.n)[0];
   const T=[["all","All",brands.length+props.length+deals.length+news.length],["brands","Brands",brands.length],["props","Properties",props.length],["deals","Partnerships",deals.length],["news","News",news.length]];

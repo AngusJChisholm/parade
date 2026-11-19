@@ -157,7 +157,7 @@ function render(){stamp();feed();movers();leagues()}
 
 Promise.all([S.load(),feats]).then(([d,Fj])=>{
   D=d;
-  const arts=[...D.deals.filter(d=>d.article&&d.slug&&d.date),...(Fj.features||[]).filter(f=>f.slug&&f.article&&f.date).map(f=>({date:f.date,headline:f.headline,deal:f.descriptor||"",summary:(f.article||{}).standfirst,slug:f.slug,article:f.article,image:f.image,label:f.label||"Feature",_f:1,_bs:[],_ps:[]}))]
+  const arts=[...D.deals.filter(d=>d.article&&d.slug&&d.date).map(d=>({...d,date:d.added||d.date})),...(Fj.features||[]).filter(f=>f.slug&&f.article&&f.date).map(f=>({date:f.date,headline:f.headline,deal:f.descriptor||"",summary:(f.article||{}).standfirst,slug:f.slug,article:f.article,image:f.image,label:f.label||"Feature",_f:1,_bs:[],_ps:[]}))]
     .sort((a,b)=>b.date.localeCompare(a.date)||(b._f||0)-(a._f||0));
   const top=arts[0];
   if(top){const lk=(top._bs||[]).length&&(top._ps||[]).length?`<span class="lk">${pairM(top,34)}</span>`:"";

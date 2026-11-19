@@ -17,7 +17,7 @@ Promise.all([
   fetch("deals.json",{cache:"no-cache"}).then(r=>r.json()),
   fetch("features.json",{cache:"no-cache"}).then(r=>r.ok?r.json():{features:[]}).catch(()=>({features:[]}))
 ]).then(([d,fj])=>{
-  const leads=(d.deals||[]).filter(x=>x.slug&&x.article&&x.date).map(x=>({kind:"deal",date:x.date,head:x.headline||x.deal,sub:x.deal,
+  const leads=(d.deals||[]).filter(x=>x.slug&&x.article&&x.date).map(x=>({kind:"deal",date:x.added||x.date,head:x.headline||x.deal,sub:x.deal,
     stand:(x.article&&x.article.standfirst)||x.summary||"",label:x.sport,region:x.market||x.region,image:x.image,slug:x.slug}));
   const feats=(fj.features||[]).filter(x=>x.slug&&x.article&&x.date&&x.headline).map(x=>({kind:"feature",date:x.date,head:x.headline,sub:x.descriptor||"",
     stand:(x.article&&x.article.standfirst)||"",label:x.topic||"Feature",region:x.region,image:x.image,slug:x.slug}));
