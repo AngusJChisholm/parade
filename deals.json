@@ -8336,16 +8336,27 @@
    "sport": "Sailing",
    "type": "Principal partner",
    "region": "ANZ",
-   "summary": "Listed as a principal sponsor on Cruising Yacht Club of Australia's official partners page.",
-   "url": "https://cyca.com.au/?p=3102",
+   "summary": "Rolex renewed its naming rights partnership of the Rolex Sydney Hobart Yacht Race with the CYCA for another ten years, through the 2033 edition. This extends a relationship that began in 2002.",
+   "url": "https://www.sail-world.com/news/272482/Rolex-renews-support-of-Sydney-Hobart-Yacht-Race",
    "status": "Current partner",
    "market": "ANZ",
    "ptier": "Principal sponsor",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2024-03-11",
+   "term": 10,
+   "ends": 2033,
+   "endsLock": true,
+   "endsSrc": "https://www.sail-world.com/news/272482/Rolex-renews-support-of-Sydney-Hobart-Yacht-Race",
+   "rights": [
+    "naming rights to the Sydney Hobart Yacht Race"
+   ],
+   "rightsSrc": "https://www.sail-world.com/news/272482/Rolex-renews-support-of-Sydney-Hobart-Yacht-Race",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2033,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -139217,6 +139228,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -140681,6 +140693,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -140690,16 +140703,28 @@
    "sport": "Netball",
    "type": "Major partner",
    "region": "ANZ",
-   "summary": "Listed as a major partner on Netball Australia's official partners page.",
-   "url": "https://netball.com.au/partners",
+   "summary": "Nissan recommitted to Netball Australia for five more years, with branding on Australian Diamonds bibs and court signage during Super Netball.",
+   "url": "https://insidersport.com/2022/04/04/nissan-continues-netball-australia-commitment-in-triple-partnership-extension/",
    "status": "Current partner",
    "market": "ANZ",
    "ptier": "Major partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2022-04-04",
+   "term": 5,
+   "ends": 2026,
+   "endsLock": true,
+   "endsSrc": "https://insidersport.com/2022/04/04/nissan-continues-netball-australia-commitment-in-triple-partnership-extension/",
+   "rights": [
+    "Australian Diamonds bib branding",
+    "Court signage during Suncorp Super Netball"
+   ],
+   "rightsSrc": "https://insidersport.com/2022/04/04/nissan-continues-netball-australia-commitment-in-triple-partnership-extension/",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2026,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-16",
@@ -140724,16 +140749,29 @@
    "sport": "Netball",
    "type": "Principal partner",
    "region": "ANZ",
-   "summary": "Listed as a principal partner on Netball Australia's official partners page.",
-   "url": "https://netball.com.au/partners",
+   "summary": "Suncorp renewed as principal partner of Netball Australia for up to five more years, keeping naming rights to Suncorp Super Netball and major partner status for NetSetGO and the Diamonds. SportBusiness reports the term as 2022 to 2026.",
+   "url": "https://act.netball.com.au/news/suncorp-renews-principal-partnership",
    "status": "Current partner",
    "market": "ANZ",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2021-08-30",
+   "term": 5,
+   "ends": 2026,
+   "endsLock": true,
+   "endsSrc": "https://sponsorship.sportbusiness.com/news/suncorp-signs-long-term-extension-with-netball-australia",
+   "rights": [
+    "Naming rights to Suncorp Super Netball",
+    "Principal partner of Netball Australia",
+    "Major partner of NetSetGO and Australian Diamonds"
+   ],
+   "rightsSrc": "https://act.netball.com.au/news/suncorp-renews-principal-partnership",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2026,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-16",
@@ -150024,6 +150062,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -150041,6 +150080,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -150058,6 +150098,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -150075,6 +150116,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -150227,6 +150269,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -150236,16 +150279,24 @@
    "sport": "Rugby union",
    "type": "Major partner",
    "region": "ANZ",
-   "summary": "Listed as a turbos major team partner on Manawatū Rugby's official partners page.",
-   "url": "https://www.manawaturugby.co.nz/commercial/our-partners-1",
+   "summary": "Property Brokers extends its support of Manawatū Rugby for the 2026 season, appearing on the Turbos playing shorts.",
+   "url": "https://www.sporty.co.nz/manawaturugby/newsarticle/166399",
    "status": "Current partner",
    "market": "ANZ",
    "ptier": "Turbos major team partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2026-06-03",
+   "ends": 2026,
+   "rights": [
+    "Turbos playing shorts"
+   ],
+   "rightsSrc": "https://www.sporty.co.nz/manawaturugby/newsarticle/166399",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2026,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-16",
@@ -150261,6 +150312,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -150270,16 +150322,24 @@
    "sport": "Rugby union",
    "type": "Major partner",
    "region": "ANZ",
-   "summary": "Listed as a turbos major team partner on Manawatū Rugby's official partners page.",
-   "url": "https://www.manawaturugby.co.nz/commercial/our-partners-1",
+   "summary": "Bell-Booth strengthens its longstanding support of Manawatū Rugby, featuring on the front of both Turbos and Cyclones playing shorts for 2026.",
+   "url": "https://www.sporty.co.nz/manawaturugby/newsarticle/166345",
    "status": "Current partner",
    "market": "ANZ",
    "ptier": "Turbos major team partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2026-06-02",
+   "ends": 2026,
+   "rights": [
+    "Front of playing shorts (Turbos and Cyclones)"
+   ],
+   "rightsSrc": "https://www.sporty.co.nz/manawaturugby/newsarticle/166345",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2026,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-16",
@@ -150295,6 +150355,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -150312,8 +150373,15 @@
    "tier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
+   "rights": [
+    "Team naming rights (Higgins Concrete Manawatū Turbos)",
+    "Front of jersey",
+    "Principal partner"
+   ],
+   "rightsSrc": "https://www.sporty.co.nz/manawaturugby/newsarticle/166191",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-16",
@@ -150809,6 +150877,7 @@
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "rights"
   },
@@ -150826,6 +150895,7 @@
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "rights"
   },
@@ -150843,6 +150913,7 @@
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "rights"
   },
@@ -150860,6 +150931,7 @@
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "rights"
   },
@@ -150877,6 +150949,7 @@
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "rights"
   },
@@ -150894,6 +150967,7 @@
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "rights"
   },
@@ -158275,6 +158349,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -158292,6 +158367,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -158301,16 +158377,16 @@
    "sport": "Netball",
    "type": "Principal partner",
    "region": "ANZ",
-   "summary": "Listed as a principal partner on Mainland Tactix's official partners page.",
-   "url": "https://www.tactixnetball.co.nz/tactix/partners.html",
+   "summary": "VIP Frames and Trusses, a major partner since 2023, steps up to naming rights partner of the Tactix for 2025 with an option for two further years; the team still carries the VIP name in 2026.",
+   "url": "https://tactixnetball.co.nz/tactix/news/new-naming-rights-partner-for-tactix.html",
    "status": "Current partner",
    "market": "ANZ",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "ttier": "T1",
-   "tbasis": "role"
+   "date": "2025-02-21",
+   "ends": 2025
   },
   {
    "listed": "2026-11-16",
@@ -160778,6 +160854,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "role"
   },
@@ -161747,6 +161824,7 @@
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "rights"
   },
@@ -164730,16 +164808,28 @@
    "sport": "Rugby union",
    "type": "Principal partner",
    "region": "ANZ",
-   "summary": "Listed as a principal partner on NSW Waratahs's official partners page.",
-   "url": "https://waratahs.rugby/rugby/our-partners",
+   "summary": "Knight Frank extended its principal partnership with the NSW Waratahs Women for three more years, also covering the wider women's training squad, Sydney women's competition and Sevens. It covers the women's side only; the men's team is not mentioned.",
+   "url": "https://waratahs.rugby/news/knight-frank-extends-support-of-the-nsw-waratahs-womens-for-another-three-years-2024117",
    "status": "Current partner",
    "market": "ANZ",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2024-11-07",
+   "term": 3,
+   "ends": 2027,
+   "endsLock": true,
+   "endsSrc": "https://waratahs.rugby/news/knight-frank-extends-support-of-the-nsw-waratahs-womens-for-another-three-years-2024117",
+   "rights": [
+    "Front of jersey (NSW Waratahs Women)",
+    "Principal partner (NSW Waratahs Women)"
+   ],
+   "rightsSrc": "https://waratahs.rugby/news/knight-frank-extends-support-of-the-nsw-waratahs-womens-for-another-three-years-2024117",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2027,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-16",
@@ -167850,8 +167940,18 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "ends": 2028,
+   "endsLock": true,
+   "endsSrc": "https://www.melbourneutd.com.au/news/trojan-tools-extends-long-standing-partnership-with-united",
+   "datesTried": "2026-11-19",
+   "rights": [
+    "back of jersey"
+   ],
+   "rightsSrc": "https://www.melbourneutd.com.au/news/trojan-tools-extends-long-standing-partnership-with-united",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2028,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-16",
@@ -167867,6 +167967,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -181767,7 +181868,7 @@
    "url": "https://melbournevixens.com.au/news/partners/melbourne-vixens-welcome-axs-as-new-major-partner",
    "conf": "Confirmed",
    "verified": "2026-09-06",
-   "tends": 2028,
+   "tends": 2029,
    "tendsBasis": "league"
   },
   {
@@ -186610,7 +186711,7 @@
    "verified": "2026-06-23",
    "ttier": "T4",
    "tbasis": "role",
-   "tends": 2028,
+   "tends": 2029,
    "tendsBasis": "league"
   },
   {
@@ -192556,7 +192657,7 @@
    "checked": "2026-11-16",
    "conf": "Reported",
    "verified": "2026-11-16",
-   "tends": 2028,
+   "tends": 2029,
    "tendsBasis": "league"
   },
   {
@@ -195688,7 +195789,7 @@
    "url": "https://melbournevixens.com.au/news/partners/jellis-craig-takes-centre-court-with-melbourne-vixens",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "tends": 2028,
+   "tends": 2029,
    "tendsBasis": "league"
   },
   {
@@ -196981,7 +197082,7 @@
    "url": "https://qld.netball.com.au/news/nq-and-queensland-firebirds-announce-mcdonalds-partnership",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "tends": 2027,
+   "tends": 2028,
    "tendsBasis": "league"
   },
   {
@@ -206236,7 +206337,7 @@
    "verified": "2026-11-16",
    "ttier": "Kit",
    "tbasis": "rights",
-   "tends": 2026,
+   "tends": 2027,
    "tendsBasis": "league"
   },
   {
@@ -207126,7 +207227,7 @@
    "checked": "2026-11-16",
    "conf": "Reported",
    "verified": "2026-11-16",
-   "tends": 2027,
+   "tends": 2028,
    "tendsBasis": "league"
   },
   {
@@ -208429,7 +208530,7 @@
    "checked": "2026-11-16",
    "conf": "Reported",
    "verified": "2026-11-16",
-   "tends": 2028,
+   "tends": 2029,
    "tendsBasis": "league"
   },
   {
@@ -208475,7 +208576,7 @@
    "checked": "2026-11-16",
    "conf": "Reported",
    "verified": "2026-11-16",
-   "tends": 2028,
+   "tends": 2029,
    "tendsBasis": "league"
   },
   {
@@ -209351,7 +209452,7 @@
    "checked": "2026-11-16",
    "conf": "Reported",
    "verified": "2026-11-16",
-   "tends": 2027,
+   "tends": 2028,
    "tendsBasis": "league"
   },
   {
@@ -210882,7 +210983,7 @@
    "market": "ANZ",
    "conf": "Reported",
    "verified": "2026-03-06",
-   "tends": 2028,
+   "tends": 2029,
    "tendsBasis": "league"
   },
   {
@@ -211859,7 +211960,7 @@
    "verified": "2026-11-16",
    "ttier": "T2",
    "tbasis": "role",
-   "tends": 2028,
+   "tends": 2029,
    "tendsBasis": "league"
   },
   {
@@ -222189,8 +222290,8 @@
    "sport": "AFL",
    "type": "Guernsey partner",
    "region": "ANZ",
-   "summary": "Listed as a guernsey partner on the club's official partners page.",
-   "url": "https://www.essendonfc.com.au/partners",
+   "summary": "Liberty signed a multi-year extension as Essendon's official financial services partner, with its logo on the back of the AFL and AFLW guernseys and an expansion to the VFLW. No length was stated.",
+   "url": "https://www.liberty.com.au/media-releases/liberty-extends-essendon-football-club-partnership",
    "tier": "Official partner",
    "status": "Current partner",
    "ptier": "Guernsey partner",
@@ -222198,12 +222299,14 @@
    "conf": "Confirmed",
    "verified": "2026-11-03",
    "rights": [
-    "top back of AFL and AFLW guernsey",
-    "official financial services partner"
+    "back of AFL and AFLW guernsey"
    ],
    "rightsSrc": "https://www.essendonfc.com.au/news/1527348/essendon-liberty-extend-partnership",
+   "date": "2024-04-11",
    "ttier": "T2",
-   "tbasis": "sourced"
+   "tbasis": "sourced",
+   "tends": 2027,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-10-30",
@@ -222514,8 +222617,8 @@
    "sport": "AFL",
    "type": "Major partner",
    "region": "ANZ",
-   "summary": "Woodside extended as Fremantle's co-major partner and Indigenous Program Partner to the end of 2027.",
-   "url": "https://www.fremantlefc.com.au/news/1706016/fremantle-and-woodside-energy-strengthen-ongoing-partnership-to-2027",
+   "summary": "Woodside extended its 15-year partnership with Fremantle by two years, to the end of 2027, as co-major partner, Indigenous program partner and supporter of the Next Generation Academy. The date comes from press coverage because the club release carries no date.",
+   "url": "https://businessnews.com.au/article/Woodside-extends-Dockers-sponsorship",
    "tier": "Principal & major",
    "status": "Current partner",
    "ends": 2027,
@@ -222525,10 +222628,14 @@
    "verified": "2026-11-05",
    "rights": [
     "co-major partner",
-    "front of AFL guernsey",
-    "Indigenous program partner"
+    "Indigenous program partner",
+    "Next Generation Academy supporter"
    ],
-   "rightsSrc": "https://www.bandt.com.au/spotlight-on-sponsors-freemantle-dockers-accused-of-not-taking-climate-concerns-into-consideration-when-selecting-sponsors/",
+   "rightsSrc": "https://www.fremantlefc.com.au/news/1706016/fremantle-and-woodside-energy-strengthen-ongoing-partnership-to-2027",
+   "date": "2024-12-19",
+   "term": 2,
+   "endsLock": true,
+   "endsSrc": "https://www.fremantlefc.com.au/news/1706016/fremantle-and-woodside-energy-strengthen-ongoing-partnership-to-2027",
    "ttier": "T1",
    "tbasis": "sourced",
    "tends": 2027,
@@ -222540,16 +222647,28 @@
    "sport": "AFL",
    "type": "Premier partner",
    "region": "ANZ",
-   "summary": "Listed as a premier partner on the club's official partners page.",
-   "url": "https://www.fremantlefc.com.au/partners",
+   "summary": "DP World was elevated to premier partner, which extended its agreement by one year to the end of 2026. It added the top back of the guernsey (AFLW from 2024, AFL from 2025) to its AFL and AFLW shorts branding.",
+   "url": "https://www.dpworld.com/en/news/releases/australia/dp-world-elevated-to-premier-partner-of-fremantle-dockers",
    "tier": "Principal & major",
    "status": "Current partner",
    "ptier": "Premier partner",
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-05",
+   "date": "2024-08-27",
+   "term": 1,
+   "ends": 2026,
+   "endsLock": true,
+   "endsSrc": "https://fremantlefc.com.au/news/1636861/dp-world-elevated-to-premier-partner-of-fremantle-dockers",
+   "rights": [
+    "top back of guernsey (AFL and AFLW)",
+    "AFL and AFLW shorts"
+   ],
+   "rightsSrc": "https://fremantlefc.com.au/news/1636861/dp-world-elevated-to-premier-partner-of-fremantle-dockers",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2026,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-10-30",
@@ -222816,8 +222935,8 @@
    "sport": "AFL",
    "type": "Major partner",
    "region": "ANZ",
-   "summary": "Simonds Homes stepped up to Major Partner from 2026 on a three-year extension to 2028, moving to the back of the guernsey.",
-   "url": "https://www.geelongcats.com.au/news/1907859/from-homes-to-back-of-jumper-simonds-homes-builds-on-cats-partnership",
+   "summary": "Simonds Homes was elevated to major partner and extended for three more years, to the end of the 2028 season. It replaces Ford on the lower back of the Geelong guernsey. The date comes from press coverage because the club release carries no date.",
+   "url": "https://ministryofsport.com/geelong-cats-restructure-sponsorship-tier/",
    "tier": "Principal & major",
    "status": "Current partner",
    "term": 3,
@@ -222827,10 +222946,12 @@
    "conf": "Confirmed",
    "verified": "2026-11-03",
    "rights": [
-    "major partner",
     "lower back of AFL guernsey"
    ],
    "rightsSrc": "https://www.geelongcats.com.au/news/1907859/from-homes-to-back-of-jumper-simonds-homes-builds-on-cats-partnership",
+   "date": "2025-11-18",
+   "endsLock": true,
+   "endsSrc": "https://www.geelongcats.com.au/news/1907859/from-homes-to-back-of-jumper-simonds-homes-builds-on-cats-partnership",
    "ttier": "T2",
    "tbasis": "sourced",
    "tends": 2028,
@@ -223381,6 +223502,7 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-08",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "role"
   },
@@ -224090,16 +224212,25 @@
    "sport": "AFL",
    "type": "Premier partner",
    "region": "ANZ",
-   "summary": "Listed as a premier partner on the club's official partners page.",
-   "url": "https://www.hawthornfc.com.au/partners",
+   "summary": "Superhero joined Hawthorn as a premier partner and official superannuation and share trading partner across the AFL and AFLW teams in a multi-year partnership (club release exists but carries no visible date; date from B&T).",
+   "url": "https://www.bandt.com.au/a-new-era-for-hawthorn-hawks-soar-to-new-heights-with-superhero-partnership/",
    "tier": "Principal & major",
    "status": "Current partner",
    "ptier": "Premier partner",
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-03",
+   "date": "2024-11-01",
+   "rights": [
+    "back of playing guernsey",
+    "front and back of training and off-field apparel",
+    "official superannuation and share trading partner"
+   ],
+   "rightsSrc": "https://hawthornfc.com.au/news/1686731/hawthorn-joins-forces-with-superhero",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2027,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-10-30",
@@ -224334,16 +224465,25 @@
    "sport": "AFL",
    "type": "Major partner",
    "region": "ANZ",
-   "summary": "Listed as a major partner on the club's official partners page.",
-   "url": "https://www.melbournefc.com.au/partners",
+   "summary": "Hertz was elevated to co-principal partner of Melbourne Football Club from 2024, with its logo on the back of the AFL guernsey and the front of the AFLW guernsey. Note: a July 2026 club release puts Polestar on the front of the AFLW guernsey for 2026, so the AFLW front placement appears to have moved.",
+   "url": "https://mumbrella.com.au/hertz-australia-tapped-as-co-principal-partner-for-mfc-807450",
    "tier": "Principal & major",
    "status": "Current partner",
    "ptier": "Major partner",
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-03",
+   "date": "2023-11-20",
+   "ends": 2026,
+   "rights": [
+    "back of AFL guernsey",
+    "co-principal partner"
+   ],
+   "rightsSrc": "https://www.melbournefc.com.au/news/1467076/hertz-drives-forward-as-co-principal-partner-of-melbourne-football-club",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2026,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-10-30",
@@ -224359,8 +224499,13 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-03",
+   "datesTried": "2026-11-19",
+   "rights": [
+    "official apparel partner"
+   ],
+   "rightsSrc": "https://www.melbournefc.com.au/news/2034775/demons-united-with-new-balance",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-10-30",
@@ -224385,16 +224530,19 @@
    "sport": "AFL",
    "type": "Major partner",
    "region": "ANZ",
-   "summary": "Listed as a major partner on the club's official partners page.",
-   "url": "https://www.melbournefc.com.au/partners",
+   "summary": "Danone's YoPRO signed a new partnership with Melbourne Football Club from the 2023 season; no later renewal announcement found. Mumbrella reported it on 16 to 17 February 2023.",
+   "url": "https://melbournefc.com.au/news/1271037/yopro-to-fuel-dees-in-2023",
    "tier": "Principal & major",
    "status": "Current partner",
    "ptier": "Major partner",
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-03",
+   "month": "2023-02",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "role",
+   "tends": 2026,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-10-30",
@@ -227665,6 +227813,7 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-12",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "role"
   },
@@ -227674,16 +227823,16 @@
    "sport": "Football",
    "type": "Major partner",
    "region": "ANZ",
-   "summary": "Listed as a major partner on the club's official partners page.",
-   "url": "https://www.melbournecityfc.com.au/partners",
+   "summary": "Asahi Super Dry, official beer partner since 2022 through the City Football Group global partnership, expanded its agreement with Asahi Super Dry 0.0% becoming official men's training kit partner for 2023/24.",
+   "url": "https://melbournecityfc.com.au/news/20230804-asahi-super-dry",
    "tier": "Principal & major",
    "status": "Current partner",
    "ptier": "Major partner",
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-12",
-   "ttier": "T2",
-   "tbasis": "role"
+   "date": "2023-08-04",
+   "ends": 2024
   },
   {
    "listed": "2026-10-30",
@@ -227691,16 +227840,28 @@
    "sport": "Football",
    "type": "Major partner",
    "region": "ANZ",
-   "summary": "Listed as a major partner on the club's official partners page.",
-   "url": "https://www.melbournecityfc.com.au/partners",
+   "summary": "ctrl:cyber signed a multi-year partnership with Melbourne City taking naming rights to the Casey Fields training base and the A-League Women's home pitch, plus kit branding. The CEO referred to branding over the next three years, but no end year is stated.",
+   "url": "https://melbournecityfc.com.au/news/20241018-ctrl-cyber/",
    "tier": "Principal & major",
    "status": "Current partner",
    "ptier": "Major partner",
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-12",
+   "date": "2024-10-18",
+   "term": 3,
+   "ends": 2027,
+   "endsEst": true,
+   "rights": [
+    "naming rights to City Football Academy, Melbourne - ctrl:cyber Campus",
+    "naming rights to the ctrl:cyber Pitch (A-League Women's home pitch)",
+    "logo on A-League Men's, A-League Women's and Academy kits"
+   ],
+   "rightsSrc": "https://melbournecityfc.com.au/news/20241018-ctrl-cyber/",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2027,
+   "tendsBasis": "term"
   },
   {
    "listed": "2026-10-30",
@@ -227716,6 +227877,7 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-12",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -227733,6 +227895,7 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-12",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -227750,8 +227913,13 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-12",
+   "datesTried": "2026-11-19",
+   "rights": [
+    "kit supplier"
+   ],
+   "rightsSrc": "https://melbournecityfc.com.au/?p=9805",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-10-30",
@@ -227759,16 +227927,25 @@
    "sport": "Football",
    "type": "Premier partner",
    "region": "ANZ",
-   "summary": "Listed as a premier partner on the club's official partners page.",
-   "url": "https://www.melbournecityfc.com.au/partners",
+   "summary": "AXS joined Melbourne City as Premier Partner and official ticketing partner for A-League Men's and Women's home matches at AAMI Park, part of AXS taking on ticketing for seven Melbourne clubs.",
+   "url": "https://melbournecityfc.com.au/?p=339831",
    "tier": "Principal & major",
    "status": "Current partner",
    "ptier": "Premier partner",
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-12",
+   "date": "2026-08-31",
+   "rights": [
+    "official ticketing partner for A-League Men's and A-League Women's fixtures at AAMI Park",
+    "AXS presence in City Square",
+    "AXS Seat Upgrade"
+   ],
+   "rightsSrc": "https://melbournecityfc.com.au/?p=339831",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2029,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-10-30",
@@ -227801,6 +227978,7 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-12",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -227810,16 +227988,24 @@
    "sport": "Football",
    "type": "Premier partner",
    "region": "ANZ",
-   "summary": "Listed as a premier partner on the club's official partners page.",
-   "url": "https://www.melbournecityfc.com.au/partners",
+   "summary": "Federation University became Melbourne City's official tertiary education partner in a long-term agreement, with its logo on the back of the A-League Women's shorts.",
+   "url": "https://melbournecityfc.com.au/news/federation-university-australia-becomes-official-tertiary-education-partner-of-melbourne-city-fc/",
    "tier": "Principal & major",
    "status": "Current partner",
    "ptier": "Premier partner",
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-12",
+   "date": "2023-09-08",
+   "rights": [
+    "official tertiary education partner",
+    "back of A-League Women's playing shorts"
+   ],
+   "rightsSrc": "https://melbournecityfc.com.au/news/federation-university-australia-becomes-official-tertiary-education-partner-of-melbourne-city-fc/",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2026,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-10-30",
@@ -228989,16 +229175,31 @@
    "sport": "Football",
    "type": "Principal partner",
    "region": "ANZ",
-   "summary": "Listed as a principal partner in Melbourne Victory's partner listings.",
-   "url": "https://melbournevictory.com.au/news/category/commercial-news",
+   "summary": "Turkish Airlines signed as Melbourne Victory's Principal Partner for three years from the 2024/25 season, on the front of the men's, women's and academy shirts.",
+   "url": "https://melbournevictory.com.au/news/melbourne-victory-lands-turkish-airlines-as-its-new-principal-partner/",
    "tier": "Principal & major",
    "status": "Current partner",
    "ptier": "Principal partner",
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-12",
+   "date": "2024-03-04",
+   "term": 3,
+   "ends": 2027,
+   "endsLock": true,
+   "endsSrc": "https://melbournevictory.com.au/news/melbourne-victory-lands-turkish-airlines-as-its-new-principal-partner/",
+   "rights": [
+    "Principal partner",
+    "Front of shirt (A-League Men, A-League Women, Academy)",
+    "Signage",
+    "In-stadium activations",
+    "Digital channels"
+   ],
+   "rightsSrc": "https://melbournevictory.com.au/news/melbourne-victory-lands-turkish-airlines-as-its-new-principal-partner/",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2027,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-10-30",
@@ -229014,6 +229215,7 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-12",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -229023,16 +229225,25 @@
    "sport": "Football",
    "type": "Major partner",
    "region": "ANZ",
-   "summary": "Listed as a major partner in Melbourne Victory's partner listings.",
-   "url": "https://melbournevictory.com.au/news/category/commercial-news",
+   "summary": "Aussie joins Melbourne Victory as a Major Partner with category exclusivity, in a joint venture partnership also covering Western Sydney Wanderers, with identical kit, broadcast and community assets at both clubs.",
+   "url": "https://melbournevictory.com.au/?p=357631",
    "tier": "Principal & major",
    "status": "Current partner",
    "ptier": "Major partner",
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-12",
+   "date": "2026-05-22",
+   "rights": [
+    "Category exclusivity",
+    "Broadcast assets",
+    "Community assets"
+   ],
+   "rightsSrc": "https://melbournevictory.com.au/?p=357631",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2029,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-10-30",
@@ -229057,16 +229268,27 @@
    "sport": "Football",
    "type": "Major partner",
    "region": "ANZ",
-   "summary": "Listed as a major partner in Melbourne Victory's partner listings.",
-   "url": "https://melbournevictory.com.au/news/category/commercial-news",
+   "summary": "Checkpoint Building Surveyors extends with Melbourne Victory for two more seasons, staying on the shorts of the men's, women's and academy teams.",
+   "url": "https://melbournevictory.com.au/?p=346876",
    "tier": "Principal & major",
    "status": "Current partner",
    "ptier": "Major partner",
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-12",
+   "date": "2025-06-18",
+   "term": 2,
+   "ends": 2027,
+   "endsLock": true,
+   "endsSrc": "https://melbournevictory.com.au/?p=346876",
+   "rights": [
+    "Shorts (A-League Men, A-League Women, Academy)"
+   ],
+   "rightsSrc": "https://melbournevictory.com.au/?p=346876",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2027,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-10-30",
@@ -229185,8 +229407,8 @@
    "sport": "Cricket",
    "type": "Major partner",
    "region": "ANZ",
-   "summary": "Listed as a major partner on the club's official partners page.",
-   "url": "https://www.melbournerenegades.com.au/partners",
+   "summary": "RMIT renewed with the Renegades as WBBL major partner, with its logo on the front of the WBBL playing shirt; no later renewal found.",
+   "url": "https://melbournerenegades.com.au/news/4155656/rmit-wbbl-major-partner",
    "tier": "Principal & major",
    "status": "Current partner",
    "ptier": "Major partner",
@@ -229194,8 +229416,15 @@
    "checked": "2026-11-16",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2024-10-25",
+   "rights": [
+    "front of WBBL playing shirt"
+   ],
+   "rightsSrc": "https://melbournerenegades.com.au/news/4155656/rmit-wbbl-major-partner",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2026,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-10-30",
@@ -229730,6 +229959,7 @@
    "checked": "2026-11-16",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "role"
   },
@@ -229748,6 +229978,7 @@
    "checked": "2026-11-16",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "role"
   },
@@ -230559,6 +230790,7 @@
     "sleeves of jersey"
    ],
    "rightsSrc": "https://www.sharks.com.au/news/2025/11/13/sharks-pay-tribute-to-2016-as-new-home-jersey-revealed",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "sourced"
   },
@@ -230580,6 +230812,7 @@
     "top back of jersey"
    ],
    "rightsSrc": "https://www.sharks.com.au/news/2025/11/13/sharks-pay-tribute-to-2016-as-new-home-jersey-revealed",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "sourced"
   },
@@ -230672,6 +230905,7 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-10",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -230681,16 +230915,27 @@
    "sport": "NRL",
    "type": "Premier partner",
    "region": "ANZ",
-   "summary": "Listed as a premier partner on the club's official partners page.",
-   "url": "https://www.dolphinsnrl.com.au/partners/",
+   "summary": "Anglo American became a Premier Partner from 2024, with back of jersey branding, official mining partner and community partner status, presenting rights to the Dolphins Cup, and founding sponsorship of the Women's Academy. No term was stated.",
+   "url": "https://dolphinsnrl.com.au/news/2023/08/21/dolphins-welcome-anglo-american-to-the-team-as-mining-and-community-partner",
    "tier": "Principal & major",
    "status": "Current partner",
    "ptier": "Premier partner",
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-10",
+   "date": "2023-08-21",
+   "rights": [
+    "back of jersey",
+    "official mining partner",
+    "community partner",
+    "presenting partner of the Dolphins Cup",
+    "founding sponsor of the Women's Academy"
+   ],
+   "rightsSrc": "https://dolphinsnrl.com.au/news/2023/08/21/dolphins-welcome-anglo-american-to-the-team-as-mining-and-community-partner",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2026,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-10-30",
@@ -230706,6 +230951,7 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-10",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -230723,6 +230969,7 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-10",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -230732,16 +230979,28 @@
    "sport": "NRL",
    "type": "Major partner",
    "region": "ANZ",
-   "summary": "Listed as a major partner on the club's official partners page.",
-   "url": "https://www.dolphinsnrl.com.au/partners/",
+   "summary": "Rapidline stepped up to official partner, with branding on the back of the NRL playing shorts and on training shirts and singlets for the 2026 and 2027 seasons.",
+   "url": "https://www.dolphinsnrl.com.au/news/2025/12/17/rapidline-grows-local-support-into-official-dolphins-partnership",
    "tier": "Principal & major",
    "status": "Current partner",
    "ptier": "Major partner",
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-10",
+   "date": "2025-12-17",
+   "term": 2,
+   "ends": 2027,
+   "endsLock": true,
+   "endsSrc": "https://www.dolphinsnrl.com.au/news/2025/12/17/rapidline-grows-local-support-into-official-dolphins-partnership",
+   "rights": [
+    "back of NRL playing shorts",
+    "training shirts and singlets"
+   ],
+   "rightsSrc": "https://www.dolphinsnrl.com.au/news/2025/12/17/rapidline-grows-local-support-into-official-dolphins-partnership",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2027,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-10-30",
@@ -231188,16 +231447,16 @@
    "sport": "NRL",
    "type": "Principal partner",
    "region": "ANZ",
-   "summary": "Listed as a principal partner on the club's official partners page.",
-   "url": "https://www.titans.com.au/about/partners/",
+   "summary": "The Lottery Office, principal partner since the 2024 season (announced 2 November 2023), expanded its partnership to cover the Titans NRLW team, staying on the front of the NRL jersey. No later renewal found; the 2023 release only committed to at least the 2024 and 2025 seasons.",
+   "url": "https://titans.com.au/news/2024/07/23/the-lottery-office-expand-partnership-to-titans-nrlw",
    "tier": "Principal & major",
    "status": "Current partner",
    "ptier": "Principal partner",
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-10",
-   "ttier": "T1",
-   "tbasis": "role"
+   "date": "2024-07-24",
+   "ends": 2024
   },
   {
    "listed": "2026-10-30",
@@ -231205,16 +231464,27 @@
    "sport": "NRL",
    "type": "Premier partner",
    "region": "ANZ",
-   "summary": "Listed as a premier partner on the club's official partners page.",
-   "url": "https://www.titans.com.au/about/partners/",
+   "summary": "Dynasty Sport, the club's apparel supplier since 2019, signed a three-year extension covering NRL, NRLW, netball and Leagueability apparel.",
+   "url": "https://titans.com.au/news/2024/11/01/draft--dynasty-release",
    "tier": "Principal & major",
    "status": "Current partner",
    "ptier": "Premier partner",
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-10",
+   "date": "2024-11-07",
+   "term": 3,
+   "ends": 2027,
+   "endsLock": true,
+   "endsSrc": "https://titans.com.au/news/2024/11/01/draft--dynasty-release",
+   "rights": [
+    "official apparel supplier (NRL, NRLW, netball, Leagueability)"
+   ],
+   "rightsSrc": "https://titans.com.au/news/2024/11/01/draft--dynasty-release",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2027,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-10-30",
@@ -231222,16 +231492,28 @@
    "sport": "NRL",
    "type": "Premier partner",
    "region": "ANZ",
-   "summary": "Listed as a premier partner on the club's official partners page.",
-   "url": "https://www.titans.com.au/about/partners/",
+   "summary": "EMF Australia joined the Titans as a premier partner for three seasons, its first partnership with an NRL club.",
+   "url": "https://www.titans.com.au/news/2025/02/10/titans-raise-the-bar-with-new-emf-australia-partnership/",
    "tier": "Principal & major",
    "status": "Current partner",
    "ptier": "Premier partner",
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-10",
+   "date": "2025-02-10",
+   "term": 3,
+   "ends": 2027,
+   "endsLock": true,
+   "endsSrc": "https://www.titans.com.au/news/2025/02/10/titans-raise-the-bar-with-new-emf-australia-partnership/",
+   "rights": [
+    "sleeve of NRL playing jersey",
+    "NRL and NRLW training shorts"
+   ],
+   "rightsSrc": "https://www.titans.com.au/news/2025/02/10/titans-raise-the-bar-with-new-emf-australia-partnership/",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2027,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-10-30",
@@ -231239,16 +231521,29 @@
    "sport": "NRL",
    "type": "Premier partner",
    "region": "ANZ",
-   "summary": "Listed as a premier partner on the club's official partners page.",
-   "url": "https://www.titans.com.au/about/partners/",
+   "summary": "McDonald's signed a five-year extension as premier partner, keeping its shorts and post pad branding and presenting rights to the Titans v Broncos Local Derby.",
+   "url": "https://www.titans.com.au/news/2025/12/06/fan-favourites-to-return-with-maccas-extension/",
    "tier": "Principal & major",
    "status": "Current partner",
    "ptier": "Premier partner",
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-10",
+   "date": "2025-12-06",
+   "term": 5,
+   "ends": 2030,
+   "endsLock": true,
+   "endsSrc": "https://www.titans.com.au/news/2025/12/06/fan-favourites-to-return-with-maccas-extension/",
+   "rights": [
+    "back of playing shorts",
+    "post pads",
+    "presenting partner of the Local Derby"
+   ],
+   "rightsSrc": "https://www.titans.com.au/news/2025/12/06/fan-favourites-to-return-with-maccas-extension/",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2030,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-10-30",
@@ -231421,16 +231716,16 @@
    "sport": "NRL",
    "type": "NRLW major partner",
    "region": "ANZ",
-   "summary": "Listed as a nRLW major partner on the club's official partners page.",
-   "url": "https://www.titans.com.au/about/partners/",
+   "summary": "outsource Financial, an NRLW supporter since 2022, stepped up to NRLW major partner with front of jersey placement for 2024 and beyond. No later renewal found.",
+   "url": "https://www.titans.com.au/news/2024/01/28/outsource-financial-expand-titans-nrlw-investment-with-new-major-partnership",
    "tier": "Principal & major",
    "status": "Current partner",
    "ptier": "NRLW major partner",
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-10",
-   "ttier": "T2",
-   "tbasis": "role"
+   "date": "2024-01-29",
+   "ends": 2024
   },
   {
    "listed": "2026-10-30",
@@ -231743,16 +232038,24 @@
    "sport": "NRL",
    "type": "Major partner",
    "region": "ANZ",
-   "summary": "Listed as a major partner on the club's official partners page.",
-   "url": "https://www.seaeagles.com.au/corporate/partners/",
+   "summary": "Industree Group continues its four-year association with the Sea Eagles, backing the Sea Eagles Foundation and holding naming rights to the Industree Group Sports Lounge at 4 Pines Park; no current jersey rights stated.",
+   "url": "https://seaeagles.com.au/news/2024/09/10/industree-group-continues-to-support-sea-eagles-foundation",
    "tier": "Principal & major",
    "status": "Current partner",
    "ptier": "Major partner",
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-05",
+   "date": "2024-09-10",
+   "rights": [
+    "Naming rights to the Industree Group Sports Lounge (Jane Try Stand, 4 Pines Park)",
+    "Match-day partnership"
+   ],
+   "rightsSrc": "https://seaeagles.com.au/news/2024/09/10/industree-group-continues-to-support-sea-eagles-foundation",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2027,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-10-30",
@@ -231760,16 +232063,27 @@
    "sport": "NRL",
    "type": "Major partner",
    "region": "ANZ",
-   "summary": "Listed as a major partner on the club's official partners page.",
-   "url": "https://www.seaeagles.com.au/corporate/partners/",
+   "summary": "KFC extends with the Sea Eagles for three seasons from 2024, moving to the lower back of all playing jerseys.",
+   "url": "https://www.seaeagles.com.au/news/2024/01/18/kfc-extends-partnership-with-sea-eagles",
    "tier": "Principal & major",
    "status": "Current partner",
    "ptier": "Major partner",
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-05",
+   "date": "2024-01-18",
+   "term": 3,
+   "ends": 2026,
+   "endsLock": true,
+   "endsSrc": "https://www.seaeagles.com.au/news/2024/01/18/kfc-extends-partnership-with-sea-eagles",
+   "rights": [
+    "Lower back of playing jerseys"
+   ],
+   "rightsSrc": "https://www.seaeagles.com.au/news/2024/01/18/kfc-extends-partnership-with-sea-eagles",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2026,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-10-30",
@@ -231828,8 +232142,8 @@
    "sport": "NRL",
    "type": "Major partner",
    "region": "ANZ",
-   "summary": "Listed as a major partner on the club's official partners page.",
-   "url": "https://www.melbournestorm.com.au/corporate/partners/",
+   "summary": "RedZed extended its major partnership with Melbourne Storm for a further three years, keeping the front of the jersey until the end of the 2028 season.",
+   "url": "https://www.melbournestorm.com.au/news/2025/03/05/storm-and-redzed-extend-major-partnership-to-2028/",
    "tier": "Principal & major",
    "status": "Current partner",
    "ptier": "Major partner",
@@ -231837,13 +232151,14 @@
    "conf": "Confirmed",
    "verified": "2026-11-05",
    "rights": [
-    "major partner",
-    "front of NRL jersey"
+    "front of jersey"
    ],
    "rightsSrc": "https://www.melbournestorm.com.au/news/2025/03/05/storm-and-redzed-extend-major-partnership-to-2028/",
    "ends": 2028,
    "endsLock": true,
    "endsSrc": "https://www.melbournestorm.com.au/news/2025/03/05/storm-and-redzed-extend-major-partnership-to-2028/",
+   "date": "2025-03-05",
+   "term": 3,
    "ttier": "T1",
    "tbasis": "sourced",
    "tends": 2028,
@@ -233037,16 +233352,27 @@
    "sport": "NRL",
    "type": "Principal partner",
    "region": "ANZ",
-   "summary": "Listed as a principal partner on the club's official partners page.",
-   "url": "https://www.warriors.kiwi/corporate/partnerships/official-sponsors/",
+   "summary": "One NZ renewed its naming rights partnership for five more years at the 2026 season launch, taking the relationship (since 1999 as Vodafone) to 33 years.",
+   "url": "https://www.warriors.kiwi/news/2026/02/25/one-new-zealand-extends-partnership-to-33-years/",
    "tier": "Principal & major",
    "status": "Current partner",
    "ptier": "Principal partner",
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-05",
+   "date": "2026-02-25",
+   "term": 5,
+   "ends": 2031,
+   "endsLock": true,
+   "endsSrc": "https://www.warriors.kiwi/news/2026/02/25/one-new-zealand-extends-partnership-to-33-years/",
+   "rights": [
+    "Naming rights to the club (One New Zealand Warriors)"
+   ],
+   "rightsSrc": "https://www.warriors.kiwi/news/2026/02/25/one-new-zealand-extends-partnership-to-33-years/",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2031,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-10-30",
@@ -233062,6 +233388,7 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-05",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -233079,6 +233406,7 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-05",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -236090,8 +236418,8 @@
    "sport": "Basketball",
    "type": "Naming rights",
    "region": "ANZ",
-   "summary": "Listed as a naming rights on the club's official partners page.",
-   "url": "https://www.nzbreakers.basketball/partners",
+   "summary": "BNZ became naming rights partner of the NZ Breakers (now the BNZ Breakers) and also backed Basketball New Zealand's Kiwi Hoops junior programme. Term not stated.",
+   "url": "https://www.bnz.co.nz/about-us/news/bnz-scores-naming-rights-partnership-with-the-nz-breakers-teams-up-with-kiwi-hoops-to-grow-grassroots-basketball",
    "tier": "Naming rights",
    "status": "Current partner",
    "ptier": "Naming rights partner",
@@ -236099,8 +236427,13 @@
    "checked": "2026-11-16",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2023-08-10",
+   "rights": [
+    "Naming rights to the team (BNZ Breakers)"
+   ],
+   "rightsSrc": "https://www.bnz.co.nz/about-us/news/bnz-scores-naming-rights-partnership-with-the-nz-breakers-teams-up-with-kiwi-hoops-to-grow-grassroots-basketball",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-10-30",
@@ -236117,8 +236450,14 @@
    "checked": "2026-11-16",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "term": 2,
+   "datesTried": "2026-11-19",
+   "rights": [
+    "Uniform branding"
+   ],
+   "rightsSrc": "https://www.nzbreakers.basketball/news/burger-king-re-signs-with-breakers-for-two-further-years",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-10-30",
@@ -236135,6 +236474,7 @@
    "checked": "2026-11-16",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -237749,6 +238089,7 @@
    "checked": "2026-11-16",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -237799,6 +238140,7 @@
    "checked": "2026-11-16",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "role"
   },
@@ -238068,8 +238410,8 @@
    "sport": "Netball",
    "type": "Principal partner",
    "region": "ANZ",
-   "summary": "Listed as a principal partner on the club's official partners page.",
-   "url": "https://melbournevixens.com.au/team/partners",
+   "summary": "WorkSafe Victoria renewed as Principal Partner of Netball Victoria and the Melbourne Vixens for five years to 2027, on the front of the home and away dresses.",
+   "url": "https://vic.netball.com.au/news/netball-victoria-melbourne-vixens-welcome-new-principal-partner",
    "tier": "Principal & major",
    "status": "Current partner",
    "ptier": "Principal partner",
@@ -238077,8 +238419,20 @@
    "checked": "2026-11-16",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2023-03-03",
+   "term": 5,
+   "ends": 2027,
+   "endsLock": true,
+   "endsSrc": "https://vic.netball.com.au/news/netball-victoria-melbourne-vixens-welcome-new-principal-partner",
+   "rights": [
+    "Principal partner",
+    "Front of home and away dresses"
+   ],
+   "rightsSrc": "https://vic.netball.com.au/news/netball-victoria-melbourne-vixens-welcome-new-principal-partner",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2027,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-10-30",
@@ -238095,6 +238449,8 @@
    "checked": "2026-11-16",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "term": 3,
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -238113,6 +238469,7 @@
    "checked": "2026-11-16",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -238131,6 +238488,8 @@
    "checked": "2026-11-16",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "term": 3,
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -238140,8 +238499,8 @@
    "sport": "Netball",
    "type": "Major partner",
    "region": "ANZ",
-   "summary": "Listed as a major partner on the club's official partners page.",
-   "url": "https://melbournevixens.com.au/team/partners",
+   "summary": "Aware Super partners with the Melbourne Vixens (alongside other Super Netball clubs) for the 2025 and 2026 seasons, with its logo on bibs and dress fronts. That term has now passed, so a renewal may exist.",
+   "url": "https://aware.com.au/member/about-us/newsroom/february-2025/aware-scores-a-goal-with-super-netball-partnership-first",
    "tier": "Principal & major",
    "status": "Current partner",
    "ptier": "Major partner",
@@ -238149,8 +238508,20 @@
    "checked": "2026-11-16",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2025-02-11",
+   "term": 2,
+   "ends": 2026,
+   "endsLock": true,
+   "endsSrc": "https://aware.com.au/member/about-us/newsroom/february-2025/aware-scores-a-goal-with-super-netball-partnership-first",
+   "rights": [
+    "Bibs",
+    "Front of dress"
+   ],
+   "rightsSrc": "https://aware.com.au/member/about-us/newsroom/february-2025/aware-scores-a-goal-with-super-netball-partnership-first",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2026,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-10-30",
@@ -238273,6 +238644,7 @@
    "checked": "2026-11-16",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "role"
   },
@@ -238291,6 +238663,7 @@
    "checked": "2026-11-16",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -238309,6 +238682,7 @@
    "checked": "2026-11-16",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -247893,6 +248267,7 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-10",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -250015,16 +250390,30 @@
    "sport": "NRL",
    "type": "Premier partner",
    "region": "ANZ",
-   "summary": "Listed as a premier partner on NRL's official partners page.",
-   "url": "https://nrl.com/about-us/partners",
+   "summary": "Telstra and the NRL agree a new five-year partnership keeping Telstra as naming rights partner of the NRL and NRLW Premierships until 2027, with a digital and innovation component.",
+   "url": "https://nrl.com/news/2022/09/05/nrl-and-telstra-celebrate-new-partnership",
    "ptier": "Premier partner",
    "market": "ANZ",
    "tier": "Principal & major",
    "status": "Current partner",
    "conf": "Confirmed",
    "verified": "2026-11-12",
+   "date": "2022-09-05",
+   "term": 5,
+   "ends": 2027,
+   "endsLock": true,
+   "endsSrc": "https://nrl.com/news/2022/09/05/nrl-and-telstra-celebrate-new-partnership",
+   "rights": [
+    "Naming rights to the NRL Premiership",
+    "Naming rights to the NRLW Premiership",
+    "NRL app digital partnership",
+    "Joint innovation fund"
+   ],
+   "rightsSrc": "https://nrl.com/news/2022/09/05/nrl-and-telstra-celebrate-new-partnership",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2027,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-12",
@@ -250494,16 +250883,26 @@
    "sport": "Football",
    "type": "Major sponsor",
    "region": "ANZ",
-   "summary": "Listed as a major sponsor on Macarthur FC's official partners page.",
-   "url": "https://macarthurfc.com.au/our-partners/",
+   "summary": "Better Life Mobile joins Macarthur as a major partner for the 2025/26 A-League season, taking the jersey sleeve.",
+   "url": "https://macarthurfc.com.au/news/macarthur-bulls-fc-welcomes-better-life-mobile-as-major-partner/",
    "ptier": "Major sponsor",
    "market": "ANZ",
    "tier": "Principal & major",
    "status": "Current partner",
    "conf": "Confirmed",
    "verified": "2026-11-12",
+   "date": "2025-11-13",
+   "ends": 2026,
+   "rights": [
+    "Jersey sleeve (2025/26)",
+    "Match-day signage",
+    "Club communications and supporter channels"
+   ],
+   "rightsSrc": "https://macarthurfc.com.au/news/macarthur-bulls-fc-welcomes-better-life-mobile-as-major-partner/",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2026,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-12",
@@ -250511,16 +250910,22 @@
    "sport": "Football",
    "type": "Major sponsor",
    "region": "ANZ",
-   "summary": "Listed as a major sponsor on Macarthur FC's official partners page.",
-   "url": "https://macarthurfc.com.au/our-partners/",
+   "summary": "Cabravale Club Resorts renews with Macarthur for a sixth straight season as a major sponsor (one-year extension).",
+   "url": "https://macarthurfc.com.au/?p=330637",
    "ptier": "Major sponsor",
    "market": "ANZ",
    "tier": "Principal & major",
    "status": "Current partner",
    "conf": "Confirmed",
    "verified": "2026-11-12",
+   "date": "2025-08-07",
+   "term": 1,
+   "ends": 2026,
+   "endsEst": true,
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "role",
+   "tends": 2026,
+   "tendsBasis": "term"
   },
   {
    "date": "2025-10-01",
@@ -250623,16 +251028,29 @@
    "sport": "Football",
    "type": "Major partner",
    "region": "ANZ",
-   "summary": "Listed as a major partner on Newcastle Jets's official partners page.",
-   "url": "https://newcastlejetsfc.com.au/our-partners/",
+   "summary": "nib became principal partner of the Jets' A-League Women team for two seasons, with front-of-jersey branding, and official health care provider of the club.",
+   "url": "https://newcastlejetsfc.com.au/news/newcastle-jets-and-nib-announce-landmark-partnership/",
    "ptier": "Major partner",
    "market": "ANZ",
    "tier": "Principal & major",
    "status": "Current partner",
    "conf": "Confirmed",
    "verified": "2026-11-12",
+   "date": "2025-10-08",
+   "term": 2,
+   "ends": 2027,
+   "endsLock": true,
+   "endsSrc": "https://newcastlejetsfc.com.au/news/newcastle-jets-and-nib-announce-landmark-partnership/",
+   "rights": [
+    "Front of jersey (A-League Women)",
+    "Principal partner (A-League Women)",
+    "Official health care provider"
+   ],
+   "rightsSrc": "https://newcastlejetsfc.com.au/news/newcastle-jets-and-nib-announce-landmark-partnership/",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2027,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-12",
@@ -250708,16 +251126,28 @@
    "sport": "Football",
    "type": "Premier partner",
    "region": "ANZ",
-   "summary": "Listed as a premier partner on Melbourne Victory's official partners page.",
-   "url": "https://melbournevictory.com.au/club/partners/",
+   "summary": "AIA Australia named Melbourne Victory's Health and Wellbeing Partner and Official Life and Health Insurer for 2024/25 through 2025/26. That term has now passed and AIA is still listed, so a later renewal may exist.",
+   "url": "https://melbournevictory.com.au/?p=343732",
    "ptier": "Premier partner",
    "market": "ANZ",
    "tier": "Principal & major",
    "status": "Current partner",
    "conf": "Confirmed",
    "verified": "2026-11-12",
+   "date": "2024-11-20",
+   "ends": 2026,
+   "endsLock": true,
+   "endsSrc": "https://melbournevictory.com.au/?p=343732",
+   "rights": [
+    "Official life and health insurer",
+    "Naming rights to Health and Wellbeing communications",
+    "A-League Men training apparel"
+   ],
+   "rightsSrc": "https://melbournevictory.com.au/?p=343732",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2026,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-12",
@@ -250725,16 +251155,28 @@
    "sport": "Football",
    "type": "Premier partner",
    "region": "ANZ",
-   "summary": "Listed as a premier partner on Melbourne Victory's official partners page.",
-   "url": "https://melbournevictory.com.au/club/partners/",
+   "summary": "Comwire IT signs a three-year partnership as Melbourne Victory's Premier Partner and exclusive IT Managed Services Partner.",
+   "url": "https://melbournevictory.com.au/?p=343997",
    "ptier": "Premier partner",
    "market": "ANZ",
    "tier": "Principal & major",
    "status": "Current partner",
    "conf": "Confirmed",
    "verified": "2026-11-12",
+   "date": "2024-12-30",
+   "term": 3,
+   "ends": 2027,
+   "endsEst": true,
+   "rights": [
+    "Exclusive IT managed services partner",
+    "LED signage",
+    "Branding on coaches' IT equipment"
+   ],
+   "rightsSrc": "https://melbournevictory.com.au/?p=343997",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2027,
+   "tendsBasis": "term"
   },
   {
    "listed": "2026-11-12",
@@ -250750,6 +251192,7 @@
    "status": "Current partner",
    "conf": "Confirmed",
    "verified": "2026-11-12",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -250767,6 +251210,7 @@
    "status": "Current partner",
    "conf": "Confirmed",
    "verified": "2026-11-12",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -251918,6 +252362,7 @@
    "checked": "2026-11-16",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "rights"
   },
@@ -254274,16 +254719,23 @@
    "sport": "Rugby union",
    "type": "Principal partner",
    "region": "ANZ",
-   "summary": "Listed as a principal partner on Fijian Drua's official partners page.",
-   "url": "https://drua.rugby/our-drua-vuvale",
+   "summary": "Rooster Chicken, the Drua's first sponsor from 2021, renewed its partnership ahead of the 2026 Super Rugby Pacific season. No term was stated. The club page lists it as major sponsor and official chicken supplier.",
+   "url": "https://www.fbcnews.com.fj/?p=755567",
    "status": "Current partner",
    "market": "ANZ",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2025-11-13",
+   "rights": [
+    "official chicken supplier"
+   ],
+   "rightsSrc": "https://drua.rugby/content/rooster-chicken-renews-proud-drua-partnership-on-four-year-anniversary-of-historic-sponsorship",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2028,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-11-17",
@@ -254291,16 +254743,22 @@
    "sport": "Rugby union",
    "type": "Principal partner",
    "region": "ANZ",
-   "summary": "Listed as a principal partner on Fijian Drua's official partners page.",
-   "url": "https://drua.rugby/our-drua-vuvale",
+   "summary": "The Australian Government committed four more years of support for the Fijian Drua and Fijiana Drua, delivered through PacificAus Sports. The release names no seasons or end year.",
+   "url": "https://ministers.dfat.gov.au/minister/pat-conroy/media-release/rugby-brings-australia-and-fiji-closer-together",
    "status": "Current partner",
    "market": "ANZ",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2023-10-16",
+   "term": 4,
+   "ends": 2027,
+   "endsEst": true,
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "role",
+   "tends": 2027,
+   "tendsBasis": "term"
   },
   {
    "listed": "2026-11-17",
@@ -254308,16 +254766,25 @@
    "sport": "Rugby union",
    "type": "Principal partner",
    "region": "ANZ",
-   "summary": "Listed as a principal partner on Fijian Drua's official partners page.",
-   "url": "https://drua.rugby/our-drua-vuvale",
+   "summary": "Swire Shipping extended its naming rights partnership with the Fijian Drua, staying as front of jersey sponsor for the men and keeping its jersey presence with the Drua Women. No length was reported.",
+   "url": "https://fijionenews.com.fj/swire-shipping-extends-fijian-drua-sponsorship/",
    "status": "Current partner",
    "market": "ANZ",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2026-05-26",
+   "rights": [
+    "naming rights (men's team)",
+    "front of jersey (men's)",
+    "jersey branding (Drua Women)"
+   ],
+   "rightsSrc": "https://fijionenews.com.fj/swire-shipping-extends-fijian-drua-sponsorship/",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2029,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-11-17",
@@ -254985,16 +255452,27 @@
    "sport": "Basketball",
    "type": "Naming rights",
    "region": "ANZ",
-   "summary": "Listed as a naming rights partner on NBL's official partners page.",
-   "url": "https://www.nbl.com.au/partners",
+   "summary": "Hungry Jack's extends as NBL naming rights partner for five more seasons, to at least the end of 2028/29.",
+   "url": "https://nbl.com.au/news/nbl-better-with-hungry-jacks",
    "status": "Current partner",
    "market": "ANZ",
    "ptier": "Naming rights partner",
    "tier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2024-06-18",
+   "term": 5,
+   "ends": 2029,
+   "endsLock": true,
+   "endsSrc": "https://nbl.com.au/news/nbl-better-with-hungry-jacks",
+   "rights": [
+    "Naming rights to the NBL"
+   ],
+   "rightsSrc": "https://nbl.com.au/news/nbl-better-with-hungry-jacks",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced",
+   "tends": 2029,
+   "tendsBasis": "stated"
   },
   {
    "deal": "Mission Foods × Western Bulldogs",
@@ -255055,8 +255533,8 @@
    "deal": "Reozone × Cronulla Sharks",
    "sport": "NRL",
    "type": "Partner",
-   "summary": "Reozone stays on the lower back of the Sharks' NRL jersey for 2026.",
-   "url": "https://www.sharks.com.au/news/2025/11/13/sharks-pay-tribute-to-2016-as-new-home-jersey-revealed",
+   "summary": "Steel supplier Reozone joined the Sharks from 2025 with its branding on the lower back of the NRL jersey, and it stays in that spot on the 2026 jersey. No term was stated.",
+   "url": "https://www.sharks.com.au/news/2024/12/17/sharks-steeled-for-success-with-reozones-backing/",
    "tier": "Shirt & kit placement",
    "status": "Current partner",
    "listed": "2026-11-18",
@@ -255067,10 +255545,11 @@
    "added": "2026-11-18",
    "ends": 2026,
    "rights": [
-    "lower back of jersey"
+    "lower back of NRL jersey"
    ],
    "rightsSrc": "https://www.sharks.com.au/news/2025/11/13/sharks-pay-tribute-to-2016-as-new-home-jersey-revealed",
    "ptier": "Partner",
+   "date": "2024-12-17",
    "ttier": "T2",
    "tbasis": "sourced",
    "tends": 2026,
