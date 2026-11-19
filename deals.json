@@ -48597,11 +48597,11 @@
    "ends": 2028,
    "endsEst": true,
    "ptier": "Official partner",
+   "listed": "2026-10-30",
    "ttier": "T3",
    "tbasis": "category",
    "tends": 2028,
-   "tendsBasis": "term",
-   "listed": "2026-10-30"
+   "tendsBasis": "term"
   },
   {
    "date": "2026-11-18",
@@ -51647,9 +51647,9 @@
    "verified": "2026-11-18",
    "conf": "Reported",
    "ptier": "Team Suppliers",
+   "listed": "2026-11-18",
    "ttier": "T4",
-   "tbasis": "role",
-   "listed": "2026-11-18"
+   "tbasis": "role"
   },
   {
    "date": "2026-01-15",
@@ -53487,11 +53487,11 @@
    "verified": "2026-11-18",
    "ends": 2027,
    "ptier": "Senior partner",
+   "listed": "2026-11-14",
    "ttier": "T3",
    "tbasis": "category",
    "tends": 2027,
-   "tendsBasis": "stated",
-   "listed": "2026-11-14"
+   "tendsBasis": "stated"
   },
   {
    "date": "2026-11-17",
@@ -223456,11 +223456,11 @@
    "ends": 2029,
    "market": "ANZ",
    "conf": "Reported",
-   "verified": "2026-11-10",
+   "verified": "2026-11-17",
    "ptier": "Official partner",
+   "listed": "2026-11-17",
    "tends": 2029,
-   "tendsBasis": "stated",
-   "listed": "2026-11-17"
+   "tendsBasis": "stated"
   },
   {
    "date": "2026-11-05",
@@ -224527,13 +224527,13 @@
    "ends": 2032,
    "market": "Europe",
    "conf": "Confirmed",
-   "verified": "2026-11-03",
+   "verified": "2026-11-17",
    "ptier": "Stadium Naming Rights Partner",
+   "listed": "2026-11-17",
    "ttier": "T1",
    "tbasis": "rights",
    "tends": 2032,
-   "tendsBasis": "stated",
-   "listed": "2026-11-17"
+   "tendsBasis": "stated"
   },
   {
    "date": "2026-10-30",
@@ -230376,10 +230376,10 @@
    "ends": 2036,
    "endsLock": true,
    "conf": "Confirmed",
-   "verified": "2026-09-09",
+   "verified": "2026-11-17",
+   "listed": "2026-11-17",
    "tends": 2036,
-   "tendsBasis": "stated",
-   "listed": "2026-11-17"
+   "tendsBasis": "stated"
   },
   {
    "date": "2026-09-07",
@@ -230919,10 +230919,10 @@
    "url": "https://www.nbl.com.au/news/nbl-and-wnbl-announce-expanded-partnership-with-mortgage-choice",
    "conf": "Confirmed",
    "ptier": "Profile partner",
-   "tends": 2028,
-   "tendsBasis": "league",
    "listed": "2026-11-17",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "tends": 2028,
+   "tendsBasis": "league"
   },
   {
    "month": "2026-09",
@@ -233478,14 +233478,14 @@
    "endsEst": true,
    "ptier": "Official partner",
    "market": "ANZ",
-   "conf": "Unverified",
+   "conf": "Confirmed",
    "verified": "2026-08-18",
    "sourceTried": "2026-11-17",
+   "url": "https://www.gwsgiants.com.au/news/1645985/a-giant-partnership-to-support-aflw-athletes",
    "ttier": "T2",
    "tbasis": "role",
    "tends": 2029,
-   "tendsBasis": "term",
-   "url": "https://www.gwsgiants.com.au/news/1645985/a-giant-partnership-to-support-aflw-athletes"
+   "tendsBasis": "term"
   },
   {
    "date": "2026-08-18",
@@ -233652,12 +233652,12 @@
    "ends": 2028,
    "endsEst": true,
    "market": "ANZ",
-   "conf": "Unverified",
+   "conf": "Confirmed",
    "verified": "2026-08-18",
    "sourceTried": "2026-11-17",
+   "url": "https://www.workplacelaw.com.au/posts/melbourne-city-fc-and-workplace-law-extend-partnership",
    "tends": 2028,
-   "tendsBasis": "term",
-   "url": "https://www.workplacelaw.com.au/posts/melbourne-city-fc-and-workplace-law-extend-partnership"
+   "tendsBasis": "term"
   },
   {
    "date": "2026-08-18",
@@ -233697,12 +233697,12 @@
    "tier": "Official partner",
    "status": "New",
    "market": "ANZ",
-   "conf": "Unverified",
+   "conf": "Confirmed",
    "verified": "2026-08-18",
    "sourceTried": "2026-11-17",
+   "url": "https://www.accorstadium.com.au/accor_stadium_partners",
    "ttier": "T3",
-   "tbasis": "category",
-   "url": "https://www.accorstadium.com.au/accor_stadium_partners"
+   "tbasis": "category"
   },
   {
    "date": "2026-08-18",
@@ -233714,12 +233714,12 @@
    "tier": "Official partner",
    "status": "New",
    "market": "ANZ",
-   "conf": "Unverified",
+   "conf": "Confirmed",
    "verified": "2026-08-18",
    "sourceTried": "2026-11-17",
+   "url": "https://www.accorstadium.com.au/accor_stadium_partners",
    "ttier": "T3",
-   "tbasis": "category",
-   "url": "https://www.accorstadium.com.au/accor_stadium_partners"
+   "tbasis": "category"
   },
   {
    "date": "2026-08-18",
@@ -233731,12 +233731,12 @@
    "tier": "Official partner",
    "status": "New",
    "market": "ANZ",
-   "conf": "Unverified",
+   "conf": "Confirmed",
    "verified": "2026-08-18",
    "sourceTried": "2026-11-17",
+   "url": "https://www.accorstadium.com.au/accor_stadium_partners",
    "ttier": "T3",
-   "tbasis": "category",
-   "url": "https://www.accorstadium.com.au/accor_stadium_partners"
+   "tbasis": "category"
   },
   {
    "date": "2026-08-18",
@@ -233748,12 +233748,12 @@
    "tier": "Official partner",
    "status": "New",
    "market": "ANZ",
-   "conf": "Unverified",
+   "conf": "Confirmed",
    "verified": "2026-08-18",
    "sourceTried": "2026-11-17",
+   "url": "https://www.accorstadium.com.au/accor_stadium_partners",
    "ttier": "T3",
-   "tbasis": "category",
-   "url": "https://www.accorstadium.com.au/accor_stadium_partners"
+   "tbasis": "category"
   },
   {
    "date": "2026-08-25",
@@ -234308,14 +234308,14 @@
    "ends": 2030,
    "endsEst": true,
    "market": "ANZ",
-   "conf": "Unverified",
+   "conf": "Confirmed",
    "verified": "2026-09-08",
    "sourceTried": "2026-11-17",
+   "url": "https://www.olympics.com.au/news/australian-sporting-organisations-welcome-extension-of-australia-pacific-olympic-and-paralympic-partnership/",
    "ttier": "Gov",
    "tbasis": "role",
    "tends": 2030,
-   "tendsBasis": "term",
-   "url": "https://www.olympics.com.au/news/australian-sporting-organisations-welcome-extension-of-australia-pacific-olympic-and-paralympic-partnership/"
+   "tendsBasis": "term"
   },
   {
    "date": "2026-09-08",
@@ -234461,12 +234461,12 @@
    "ends": 2028,
    "endsEst": true,
    "market": "ANZ",
-   "conf": "Unverified",
+   "conf": "Reported",
    "verified": "2026-07-21",
    "sourceTried": "2026-11-17",
+   "url": "https://www.linkedin.com/posts/townsville-fire-limited_two-more-years-of-making-noise-together-activity-7483718857912758272-K49T",
    "tends": 2028,
-   "tendsBasis": "term",
-   "url": "https://www.linkedin.com/posts/townsville-fire-limited_two-more-years-of-making-noise-together-activity-7483718857912758272-K49T"
+   "tendsBasis": "term"
   },
   {
    "date": "2026-07-21",
@@ -234734,14 +234734,14 @@
    "tier": "Official partner",
    "status": "New",
    "market": "ANZ",
-   "conf": "Unverified",
+   "conf": "Reported",
    "verified": "2026-07-28",
    "sourceTried": "2026-11-17",
+   "url": "https://www.linkedin.com/posts/victor_sports_were-thrilled-to-partner-with-the-brisbane-activity-7486158231023644672-b24Q",
    "ttier": "T4",
    "tbasis": "role",
    "tends": 2028,
-   "tendsBasis": "league",
-   "url": "https://www.linkedin.com/posts/victor_sports_were-thrilled-to-partner-with-the-brisbane-activity-7486158231023644672-b24Q"
+   "tendsBasis": "league"
   },
   {
    "date": "2026-07-28",
@@ -234753,12 +234753,12 @@
    "tier": "Official partner",
    "status": "New",
    "market": "ANZ",
-   "conf": "Unverified",
+   "conf": "Reported",
    "verified": "2026-07-28",
    "sourceTried": "2026-11-17",
+   "url": "https://www.facebook.com/brisbaneroarfc/posts/brisbane-roar-are-pleased-to-welcome-audio-technica-on-board-as-club-partner-to-/1665091792283652/",
    "tends": 2029,
-   "tendsBasis": "league",
-   "url": "https://www.facebook.com/brisbaneroarfc/posts/brisbane-roar-are-pleased-to-welcome-audio-technica-on-board-as-club-partner-to-/1665091792283652/"
+   "tendsBasis": "league"
   },
   {
    "date": "2026-07-28",
@@ -234978,14 +234978,14 @@
    "tier": "Shirt & kit placement",
    "status": "New",
    "market": "ANZ",
-   "conf": "Unverified",
+   "conf": "Reported",
    "verified": "2026-08-04",
    "sourceTried": "2026-11-17",
+   "url": "https://www.facebook.com/RecoveryPartnersAus/posts/we-are-an-official-apparel-partner-for-the-nrlw-bulldogs-in-2026check-out-some-p/1517720263488569/",
    "ttier": "T2",
    "tbasis": "rights",
    "tends": 2029,
-   "tendsBasis": "league",
-   "url": "https://www.facebook.com/RecoveryPartnersAus/posts/we-are-an-official-apparel-partner-for-the-nrlw-bulldogs-in-2026check-out-some-p/1517720263488569/"
+   "tendsBasis": "league"
   },
   {
    "date": "2026-08-04",
@@ -235100,13 +235100,13 @@
    "tier": "Kit & apparel",
    "status": "Renewal",
    "market": "ANZ",
-   "conf": "Unverified",
+   "conf": "Reported",
    "verified": "2026-08-04",
+   "url": "https://www.kappaaustralia.com.au/collections/kappa-x-a-league-all-stars-2026",
    "ttier": "Kit",
    "tbasis": "rights",
    "tends": 2029,
-   "tendsBasis": "league",
-   "url": "https://www.kappaaustralia.com.au/collections/kappa-x-a-league-all-stars-2026"
+   "tendsBasis": "league"
   },
   {
    "date": "2026-08-04",
@@ -235407,12 +235407,12 @@
    "tier": "Official partner",
    "status": "Renewal",
    "market": "ANZ",
-   "conf": "Unverified",
+   "conf": "Reported",
    "verified": "2026-08-11",
    "sourceTried": "2026-11-17",
+   "url": "https://www.facebook.com/brisbaneroarfc/posts/back-on-board-for-season-202627-stoked-to-have-you-with-us-guzmanygomez/1684787383647426/",
    "tends": 2029,
-   "tendsBasis": "league",
-   "url": "https://www.facebook.com/brisbaneroarfc/posts/back-on-board-for-season-202627-stoked-to-have-you-with-us-guzmanygomez/1684787383647426/"
+   "tendsBasis": "league"
   },
   {
    "date": "2026-08-10",
@@ -235568,11 +235568,11 @@
    "market": "ANZ",
    "ptier": "Partner",
    "checked": "2026-11-16",
-   "conf": "Unverified",
+   "conf": "Reported",
    "verified": "2026-11-16",
+   "url": "https://www.linkedin.com/posts/hurricanes_the-hurricanes-are-proud-to-partner-with-activity-7472769007604039680-L7Dx",
    "tends": 2029,
-   "tendsBasis": "league",
-   "url": "https://www.linkedin.com/posts/hurricanes_the-hurricanes-are-proud-to-partner-with-activity-7472769007604039680-L7Dx"
+   "tendsBasis": "league"
   },
   {
    "date": "2026-06-23",
@@ -236544,13 +236544,13 @@
    "tier": "Official partner",
    "status": "Renewal",
    "market": "ANZ",
-   "conf": "Unverified",
+   "conf": "Reported",
    "verified": "2026-07-14",
+   "url": "https://www.facebook.com/radiologyvictoria/posts/were-proud-to-be-the-the-official-radiology-partner-of-the-geelong-cats-go-cats/732523139715340/",
    "ttier": "T3",
    "tbasis": "category",
    "tends": 2029,
-   "tendsBasis": "league",
-   "url": "https://www.facebook.com/radiologyvictoria/posts/were-proud-to-be-the-the-official-radiology-partner-of-the-geelong-cats-go-cats/732523139715340/"
+   "tendsBasis": "league"
   },
   {
    "date": "2026-07-14",
@@ -236698,14 +236698,14 @@
    "tier": "Official partner",
    "status": "Renewal",
    "market": "ANZ",
-   "conf": "Unverified",
+   "conf": "Confirmed",
    "verified": "2026-07-14",
    "sourceTried": "2026-11-17",
+   "url": "https://www.brisbanebullets.com.au/news/brisbane-bullets-welcome-sirromet-wines",
    "ttier": "T3",
    "tbasis": "category",
    "tends": 2028,
-   "tendsBasis": "league",
-   "url": "https://www.brisbanebullets.com.au/news/brisbane-bullets-welcome-sirromet-wines"
+   "tendsBasis": "league"
   },
   {
    "date": "2026-07-14",
@@ -237171,12 +237171,12 @@
    "status": "Renewal",
    "market": "ANZ",
    "checked": "2026-11-16",
-   "conf": "Unverified",
+   "conf": "Confirmed",
    "verified": "2026-11-16",
    "sourceTried": "2026-11-17",
+   "url": "https://www.cricketnsw.com.au/news/4578141/kingsgrove-sports-extends-longstanding-partnership-with-cricket-nsw",
    "ttier": "T1",
-   "tbasis": "rights",
-   "url": "https://www.cricketnsw.com.au/news/4578141/kingsgrove-sports-extends-longstanding-partnership-with-cricket-nsw"
+   "tbasis": "rights"
   },
   {
    "date": "2026-09-22",
@@ -237206,7 +237206,7 @@
    "tier": "Official partner",
    "status": "New",
    "market": "ANZ",
-   "conf": "Unverified",
+   "conf": "Reported",
    "verified": "2026-11-19",
    "sourceTried": "2026-11-17",
    "ptier": "Official partner",
@@ -238257,11 +238257,11 @@
    "endsEst": true,
    "market": "ANZ",
    "ptier": "Senior partner",
-   "conf": "Unverified",
+   "conf": "Confirmed",
    "verified": "2025-08-19",
+   "url": "https://wswanderersfc.com.au/news/wanderers-partner-mcdonalds-launch-wanderers-meal/",
    "tends": 2027,
-   "tendsBasis": "term",
-   "url": "https://wswanderersfc.com.au/news/wanderers-partner-mcdonalds-launch-wanderers-meal/"
+   "tendsBasis": "term"
   },
   {
    "date": "2025-09-09",
@@ -238332,7 +238332,7 @@
    "status": "New",
    "ends": 2025,
    "market": "ANZ",
-   "conf": "Unverified",
+   "conf": "Confirmed",
    "verified": "2025-09-09",
    "ended": 2025,
    "url": "https://hockeyone.com.au/news/hockey-one-league-announces-one-active-as-new-naming-rights-partner/"
@@ -241281,7 +241281,7 @@
    "status": "New",
    "market": "Asia",
    "conf": "Reported",
-   "verified": "2026-03-20",
+   "verified": "2026-11-19",
    "ptier": "Official partner",
    "listed": "2026-11-19"
   },
@@ -241912,13 +241912,13 @@
    "status": "New",
    "market": "ANZ",
    "ptier": "Official partner",
-   "conf": "Unverified",
+   "conf": "Confirmed",
    "verified": "2025-02-18",
+   "url": "https://www.nrl.com/news/2025/02/07/nrl-secures-naming-rights-partner-for-pre-season-challenge/",
    "ttier": "T1",
    "tbasis": "rights",
    "tends": 2028,
-   "tendsBasis": "league",
-   "url": "https://www.nrl.com/news/2025/02/07/nrl-secures-naming-rights-partner-for-pre-season-challenge/"
+   "tendsBasis": "league"
   },
   {
    "date": "2025-02-18",
@@ -242006,7 +242006,7 @@
    "status": "New",
    "ends": 2025,
    "market": "ANZ",
-   "conf": "Unverified",
+   "conf": "Reported",
    "verified": "2025-02-18",
    "ended": 2025,
    "url": "https://www.facebook.com/adelaideunited/posts/adelaide-united-is-excited-to-be-partnering-with-teamviewer-safe-easy-access-req/1193104949482788/"
@@ -242639,7 +242639,7 @@
    "tier": "Official partner",
    "status": "Renewal",
    "market": "ANZ",
-   "conf": "Unverified",
+   "conf": "Confirmed",
    "verified": "2025-06-25",
    "url": "https://www.racv.com.au/about-racv/newsroom/netball-victoria-partnership.html"
   },
@@ -243456,11 +243456,11 @@
    "tier": "Naming rights",
    "status": "New",
    "market": "ANZ",
-   "conf": "Unverified",
+   "conf": "Confirmed",
    "verified": "2025-08-13",
+   "url": "https://www.supercars.com/news/supercars-news-2025-global-giant-backing-cameron-hill-ipswich-team-sinopec-matt-stone-racing-new-livery",
    "ttier": "T1",
-   "tbasis": "rights",
-   "url": "https://www.supercars.com/news/supercars-news-2025-global-giant-backing-cameron-hill-ipswich-team-sinopec-matt-stone-racing-new-livery"
+   "tbasis": "rights"
   },
   {
    "date": "2025-08-13",
@@ -243750,12 +243750,12 @@
    "ends": 2029,
    "endsEst": true,
    "market": "ANZ",
-   "conf": "Unverified",
+   "conf": "Confirmed",
    "verified": "2026-02-18",
    "sourceTried": "2026-11-17",
+   "url": "https://motorsport.org.au/media/news/detail/2026/02/13/michelin-renews-commitment-to-motorsport-governing-body/",
    "tends": 2029,
-   "tendsBasis": "term",
-   "url": "https://motorsport.org.au/media/news/detail/2026/02/13/michelin-renews-commitment-to-motorsport-governing-body/"
+   "tendsBasis": "term"
   },
   {
    "date": "2026-02-18",
@@ -245166,13 +245166,13 @@
    "tier": "Principal & major",
    "status": "New",
    "market": "ANZ",
-   "conf": "Unverified",
+   "conf": "Confirmed",
    "verified": "2025-07-16",
+   "url": "https://sydneyfc.com/news/sydney-fc-welcomes-stanley-1913-as-official-hydration-partner/",
    "ttier": "T2",
    "tbasis": "role",
    "tends": 2028,
-   "tendsBasis": "league",
-   "url": "https://sydneyfc.com/news/sydney-fc-welcomes-stanley-1913-as-official-hydration-partner/"
+   "tendsBasis": "league"
   },
   {
    "date": "2025-07-16",
@@ -245243,11 +245243,11 @@
    "ends": 2030,
    "endsEst": true,
    "market": "ANZ",
-   "conf": "Unverified",
+   "conf": "Reported",
    "verified": "2025-07-16",
+   "url": "https://www.linkedin.com/posts/asahibeverages_few-teams-work-harder-than-the-sydney-roosters-activity-7350675991612043264-psuy",
    "tends": 2030,
-   "tendsBasis": "term",
-   "url": "https://www.linkedin.com/posts/asahibeverages_few-teams-work-harder-than-the-sydney-roosters-activity-7350675991612043264-psuy"
+   "tendsBasis": "term"
   },
   {
    "date": "2025-07-16",
@@ -245455,11 +245455,11 @@
    "market": "ANZ",
    "ptier": "Supplier",
    "checked": "2026-11-16",
-   "conf": "Unverified",
+   "conf": "Reported",
    "verified": "2026-11-16",
+   "url": "https://www.linkedin.com/posts/hurricanes_hurricanesrugby-partnership-webdesign-activity-7333636675778002944-9YFn",
    "tends": 2028,
-   "tendsBasis": "league",
-   "url": "https://www.linkedin.com/posts/hurricanes_hurricanesrugby-partnership-webdesign-activity-7333636675778002944-9YFn"
+   "tendsBasis": "league"
   },
   {
    "date": "2025-11-12",
@@ -246650,7 +246650,7 @@
    "market": "ANZ",
    "ptier": "Partner",
    "checked": "2026-11-16",
-   "conf": "Unverified",
+   "conf": "Confirmed",
    "verified": "2026-11-16",
    "url": "https://www.nzfootball.co.nz/newsarticle/151268"
   },
@@ -246867,11 +246867,11 @@
    "market": "ANZ",
    "ptier": "Major partner",
    "checked": "2026-11-16",
-   "conf": "Unverified",
+   "conf": "Confirmed",
    "verified": "2026-11-16",
+   "url": "https://www.melbourneutd.com.au/news/ozito-helping-united-build-towards-success",
    "tends": 2027,
-   "tendsBasis": "league",
-   "url": "https://www.melbourneutd.com.au/news/ozito-helping-united-build-towards-success"
+   "tendsBasis": "league"
   },
   {
    "date": "2025-09-17",
@@ -247023,11 +247023,11 @@
    "status": "New",
    "market": "ANZ",
    "ptier": "Business partner",
-   "conf": "Unverified",
+   "conf": "Reported",
    "verified": "2025-09-17",
+   "url": "https://www.facebook.com/wswanderersfc/videos/when-passion-meets-teamwork-magic-happensdaiwa-australias-dyfc-anglers-took-the-/1263502645831785/",
    "tends": 2028,
-   "tendsBasis": "league",
-   "url": "https://www.facebook.com/wswanderersfc/videos/when-passion-meets-teamwork-magic-happensdaiwa-australias-dyfc-anglers-took-the-/1263502645831785/"
+   "tendsBasis": "league"
   },
   {
    "date": "2025-09-17",
@@ -247160,11 +247160,11 @@
    "status": "Renewal",
    "market": "ANZ",
    "checked": "2026-11-16",
-   "conf": "Unverified",
+   "conf": "Confirmed",
    "verified": "2026-11-16",
+   "url": "https://www.melbournestars.com.au/news/4363975/intrepid-travel-returns-as-platinum-partner-for-melbourne-stars",
    "tends": 2027,
-   "tendsBasis": "league",
-   "url": "https://www.melbournestars.com.au/news/4363975/intrepid-travel-returns-as-platinum-partner-for-melbourne-stars"
+   "tendsBasis": "league"
   },
   {
    "date": "2025-09-23",
@@ -299966,7 +299966,7 @@
    "tier": "Official partner",
    "ptier": "Major partner",
    "conf": "Confirmed",
-   "verified": "2026-11-20"
+   "verified": "2022-10-28"
   },
   {
    "listed": "2026-11-12",
@@ -301493,7 +301493,7 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-20",
+   "verified": "2026-11-16",
    "ttier": "T3",
    "tbasis": "category"
   },
