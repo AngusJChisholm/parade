@@ -33,7 +33,7 @@ def recently_tried(d):
 
 def group(d):
     if not d.get("ended") and isinstance(d.get("ends"), int) and d["ends"] < TODAY.year:
-        return 1
+        return None if recently_tried(d) else 1
     if not is_current(d) or d.get("date") or d.get("month") or recently_tried(d):
         return None
     top = d.get("ttier") in ("T1", "T2")
