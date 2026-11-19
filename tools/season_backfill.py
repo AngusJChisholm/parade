@@ -81,6 +81,8 @@ def main():
                 seen.setdefault(b, []).append(int(y)); tier.setdefault(b, t); name.setdefault(b, n)
                 snap[b] = (y, s["ts"], s.get("page") or cfg["page"])
     first_ts = {y: cfg["seasons"][y]["ts"] for y in years}
+    later = [int(y) for y in years] + ([int(cfg["live"]["date"][:4])] if cfg.get("live") else [])
+    nxt = lambda y: next((z for z in later if z > y), y + 1)  # the next snapshot that no longer shows it
 
     since_set, new_rows, gaps, held = [], [], [], []
     live = None
@@ -119,7 +121,7 @@ def main():
         new_rows.append({
             "deal": f"{name[b]} × {prop}", "sport": cfg["sport"], "type": type_for(tier[b]),
             "region": cfg["region"], "market": cfg["market"],
-            "summary": f"On the {prop} partners page in {span} (archived snapshots), gone by {y1 + 1}.",
+            "summary": f"On the {prop} partners page in {span} (archived snapshots), gone by {nxt(y1)}.",
             "url": f"https://web.archive.org/web/{lts}/{lpage}",
             "tier": type_for(tier[b]), "ptier": tier[b], "status": "Ended", "conf": "Confirmed",
             "month": f"{y0ts[:4]}-{y0ts[4:6]}", "since": y0, "sinceBasis": "wayback", "ended": y1, "ends": y1,
