@@ -188812,10 +188812,11 @@
    "conf": "Confirmed",
    "verified": "2026-11-16",
    "datesTried": "2026-11-19",
-   "since": 2021,
-   "sinceBasis": "wayback",
+   "since": 1999,
+   "sinceBasis": "news",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "role",
+   "sinceUrl": "https://www.isportconnect.com/anz-renews-new-zealand-cricket-sponsorship"
   },
   {
    "listed": "2026-11-16",
@@ -190343,12 +190344,13 @@
     "Court signage during Suncorp Super Netball"
    ],
    "rightsSrc": "https://insidersport.com/2022/04/04/nissan-continues-netball-australia-commitment-in-triple-partnership-extension/",
-   "since": 2021,
-   "sinceBasis": "wayback",
+   "since": 2017,
+   "sinceBasis": "news",
    "ttier": "T2",
    "tbasis": "sourced",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "sinceUrl": "https://nt.netball.com.au/news/nissan-drives-support-netball"
   },
   {
    "listed": "2026-11-16",
@@ -190373,9 +190375,9 @@
    "sport": "Netball",
    "type": "Principal partner",
    "region": "ANZ",
-   "summary": "Suncorp renewed as principal partner of Netball Australia for up to five more years, keeping naming rights to Suncorp Super Netball and major partner status for NetSetGO and the Diamonds. SportBusiness reports the term as 2022 to 2026.",
-   "url": "https://act.netball.com.au/news/suncorp-renews-principal-partnership",
-   "status": "Current partner",
+   "summary": "Principal partner of Netball Australia and naming rights partner of Super Netball from 2017. Suncorp did not renew after the 2026 season, its last under the Suncorp Super Netball name.",
+   "url": "https://en.wikipedia.org/wiki/2026_Suncorp_Super_Netball_season",
+   "status": "Ended",
    "market": "ANZ",
    "ptier": "Principal partner",
    "tier": "Principal & major",
@@ -190392,12 +190394,15 @@
     "Major partner of NetSetGO and Australian Diamonds"
    ],
    "rightsSrc": "https://act.netball.com.au/news/suncorp-renews-principal-partnership",
-   "since": 2021,
-   "sinceBasis": "wayback",
+   "since": 2017,
+   "sinceBasis": "news",
    "ttier": "T1",
    "tbasis": "sourced",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "sinceUrl": "https://www.suncorpgroup.com.au/news/news/suncorp-renews-netball-principal-partnership",
+   "ended": 2026,
+   "checked": "2026-11-20"
   },
   {
    "listed": "2026-11-16",
@@ -234629,10 +234634,11 @@
    "market": "ANZ",
    "conf": "Reported",
    "verified": "2026-03-14",
-   "since": 2021,
-   "sinceBasis": "wayback",
+   "since": 2017,
+   "sinceBasis": "news",
    "tends": 2029,
-   "tendsBasis": "league"
+   "tendsBasis": "league",
+   "sinceUrl": "https://www.afl.com.au/news/555711/statement-afl-extends-partnership-with-aami"
   },
   {
    "date": "2026-03-14",
@@ -235108,10 +235114,11 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-02-05",
-   "since": 2021,
-   "sinceBasis": "wayback",
+   "since": 2011,
+   "sinceBasis": "news",
    "tends": 2030,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "sinceUrl": "https://www.afl.com.au/news/1463658/afl-and-virgin-australia-renewed-partnership-soars-to-new-heights/amp"
   },
   {
    "date": "2026-02-19",
@@ -248707,10 +248714,11 @@
    "endsEst": true,
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "since": 2021,
-   "sinceBasis": "wayback",
+   "since": 2009,
+   "sinceBasis": "news",
    "tends": 2028,
-   "tendsBasis": "term"
+   "tendsBasis": "term",
+   "sinceUrl": "https://www.nzc.nz/news-items/ford-nz-and-nzc-renew-partnership"
   },
   {
    "date": "2025-05-28",
@@ -270232,10 +270240,11 @@
    "market": "ANZ",
    "conf": "Reported",
    "verified": "2025-03-13",
-   "since": 2021,
-   "sinceBasis": "wayback",
+   "since": 2002,
+   "sinceBasis": "news",
    "tends": 2028,
-   "tendsBasis": "league"
+   "tendsBasis": "league",
+   "sinceUrl": "https://news.nab.com.au/news/nab-is-inaugural-sponsor-of-afl-womens-league"
   },
   {
    "listed": "2026-11-05",
@@ -270261,12 +270270,13 @@
     "Official automotive partner of AFLW"
    ],
    "rightsSrc": "https://www.afl.com.au/news/1035653/toyota-australia-and-the-afl-renew-the-largest-sporting-partnership-in-australia",
-   "since": 2021,
-   "sinceBasis": "wayback",
+   "since": 2004,
+   "sinceBasis": "news",
    "ttier": "T3",
    "tbasis": "sourced",
    "tends": 2027,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "sinceUrl": "https://www.afl.com.au/news/1035653/toyota-australia-and-the-afl-renew-the-largest-sporting-partnership-in-australia"
   },
   {
    "listed": "2026-11-05",
@@ -300160,8 +300170,9 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-06",
-   "since": 2021,
-   "sinceBasis": "wayback"
+   "since": 2020,
+   "sinceBasis": "news",
+   "sinceUrl": "https://netball.com.au/news/origin-energy-extends-partnership"
   },
   {
    "listed": "2026-11-08",
@@ -304268,12 +304279,13 @@
     "Joint innovation fund"
    ],
    "rightsSrc": "https://nrl.com/news/2022/09/05/nrl-and-telstra-celebrate-new-partnership",
-   "since": 2021,
-   "sinceBasis": "wayback",
+   "since": 2001,
+   "sinceBasis": "news",
    "ttier": "T2",
    "tbasis": "sourced",
    "tends": 2027,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "sinceUrl": "https://sponsorship.sportbusiness.com/news/telstra-targeting-extension-of-long-running-nrl-partnership"
   },
   {
    "listed": "2026-11-12",
@@ -305980,10 +305992,11 @@
    "checked": "2026-11-16",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "since": 2021,
-   "sinceBasis": "wayback",
+   "since": 1999,
+   "sinceBasis": "news",
    "ttier": "Kit",
-   "tbasis": "rights"
+   "tbasis": "rights",
+   "sinceUrl": "https://www.just-drinks.com/?p=107726"
   },
   {
    "listed": "2026-11-14",
@@ -306056,8 +306069,9 @@
    "checked": "2026-11-16",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "since": 2021,
-   "sinceBasis": "wayback"
+   "since": 1986,
+   "sinceBasis": "news",
+   "sinceUrl": "https://steinlager.com/all-blacks"
   },
   {
    "listed": "2026-11-14",
@@ -309450,12 +309464,13 @@
     "Naming rights to the NBL"
    ],
    "rightsSrc": "https://nbl.com.au/news/nbl-better-with-hungry-jacks",
-   "since": 2021,
-   "sinceBasis": "wayback",
+   "since": 2017,
+   "sinceBasis": "news",
    "ttier": "T1",
    "tbasis": "sourced",
    "tends": 2029,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "sinceUrl": "https://mumbrella.com.au/hungry-jacks-to-be-the-naming-rights-holder-of-nbl-475786"
   },
   {
    "deal": "Mission Foods × Western Bulldogs",
