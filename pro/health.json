@@ -43,10 +43,10 @@
    "partial": true,
    "areas": {
     "Completeness": 32.5,
-    "Consistency": 37.9,
+    "Consistency": 38.0,
     "Freshness": 55.3,
     "Sources": 63.6,
-    "Logos": 63.8
+    "Logos": 63.7
    },
    "metrics": {
     "Completeness": {
@@ -56,7 +56,7 @@
      "Major partner-page rows with announcement date %": 0.0
     },
     "Consistency": {
-     "Rows on controlled lists %": 71.5,
+     "Rows on controlled lists %": 71.6,
      "Open duplicates": 53
     },
     "Freshness": {
@@ -69,7 +69,7 @@
      "Announced partnerships on an official source %": 36.1
     },
     "Logos": {
-     "Brand logo coverage (by partnerships) %": 58.3
+     "Brand logo coverage (by partnerships) %": 58.2
     }
    }
   }
@@ -80,10 +80,10 @@
   "partial": true,
   "areas": {
    "Completeness": 32.5,
-   "Consistency": 37.9,
+   "Consistency": 38.0,
    "Freshness": 55.3,
    "Sources": 63.6,
-   "Logos": 63.8
+   "Logos": 63.7
   },
   "metrics": {
    "Completeness": {
@@ -93,7 +93,7 @@
     "Major partner-page rows with announcement date %": 0.0
    },
    "Consistency": {
-    "Rows on controlled lists %": 71.5,
+    "Rows on controlled lists %": 71.6,
     "Open duplicates": 53
    },
    "Freshness": {
@@ -106,7 +106,7 @@
     "Announced partnerships on an official source %": 36.1
    },
    "Logos": {
-    "Brand logo coverage (by partnerships) %": 58.3
+    "Brand logo coverage (by partnerships) %": 58.2
    }
   }
  }
