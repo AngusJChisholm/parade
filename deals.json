@@ -52599,7 +52599,7 @@
    "sport": "Sailing",
    "type": "Title partner",
    "region": "Global",
-   "summary": "Britain's Women's America's Cup team races as Cobham-Ultra GB2, led by Hannah Mills.",
+   "summary": "Britain's women's America's Cup team rebranded as Cobham-Ultra GB2, with Cobham-Ultra backing the team as title partner for a second campaign.",
    "url": "https://www.allatsea.co.uk/?p=43088",
    "tier": "Title sponsor",
    "status": "Current partner",
@@ -52608,8 +52608,13 @@
    "verified": "2026-11-18",
    "conf": "Reported",
    "ptier": "Title partner",
+   "date": "2026-08-04",
+   "rights": [
+    "title partner (team name Cobham-Ultra GB2)"
+   ],
+   "rightsSrc": "https://www.allatsea.co.uk/?p=43088",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced"
   },
   {
    "deal": "Brisbane Economic Development Agency × Brisbane International",
@@ -92234,16 +92239,21 @@
    "sport": "Rugby union",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner on Wales Rugby's official partners page.",
-   "url": "https://www.wru.wales/",
+   "summary": "Go.Compare became the first back of shirt sponsor of Wales' senior and pathway men's and women's teams in a multi-year, seven-figure partnership. No later renewal found.",
+   "url": "https://www.wru.wales/2023/07/go-compare-backs-wales-teams/",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "month": "2023-07",
+   "rights": [
+    "back of shirt (senior and pathway men's and women's teams)"
+   ],
+   "rightsSrc": "https://www.wru.wales/2023/07/go-compare-backs-wales-teams/",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -92251,16 +92261,22 @@
    "sport": "Rugby union",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner on Wales Rugby's official partners page.",
-   "url": "https://www.wru.wales/",
+   "summary": "Vodafone became principal partner of Welsh rugby in a multi-year agreement including front of shirt and back of shorts for the senior men's and pathway teams. No later renewal found.",
+   "url": "https://www.vodafone.co.uk/newscentre/news/wru-major-new-front-of-shirt-deal-with-wales-senior-mens-team/",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2023-06-20",
+   "rights": [
+    "Front of shirt (senior men's and pathway teams)",
+    "Back of shorts"
+   ],
+   "rightsSrc": "https://www.vodafone.co.uk/newscentre/news/wru-major-new-front-of-shirt-deal-with-wales-senior-mens-team/",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -92268,16 +92284,26 @@
    "sport": "Rugby union",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner on Wales Rugby's official partners page.",
-   "url": "https://www.wru.wales/",
+   "summary": "Macron replaced Under Armour as WRU kit supplier in a seven-year partnership including about £6m of kit for community clubs. No extension found.",
+   "url": "https://rugbypass.com/news/welsh-rugby-union-clinches-6million-kit-deal",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2020-09-16",
+   "term": 7,
+   "ends": 2027,
+   "endsEst": true,
+   "rights": [
+    "official kit supplier (team and leisurewear, replica and merchandise)"
+   ],
+   "rightsSrc": "https://rugbypass.com/news/welsh-rugby-union-clinches-6million-kit-deal",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2027,
+   "tendsBasis": "term"
   },
   {
    "listed": "2026-11-17",
@@ -92285,16 +92311,26 @@
    "sport": "Rugby union",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner on Wales Rugby's official partners page.",
-   "url": "https://www.wru.wales/",
+   "summary": "Principality Building Society renewed the naming rights to Principality Stadium until 2030.",
+   "url": "https://www.principalitystadium.wales/?p=4495",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2026-02-02",
+   "ends": 2030,
+   "endsLock": true,
+   "endsSrc": "https://www.principalitystadium.wales/?p=4495",
+   "rights": [
+    "stadium naming rights (Principality Stadium)"
+   ],
+   "rightsSrc": "https://www.principalitystadium.wales/?p=4495",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2030,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -92581,6 +92617,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "role"
   },
@@ -92590,16 +92627,22 @@
    "sport": "Rugby union",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner on Scotland Rugby's official partners page.",
-   "url": "https://scottishrugby.org/",
+   "summary": "Multi-year principal partner agreement covering the Scotland men's front of shirt and title sponsorship of the club leagues.",
+   "url": "https://scottishrugby.org/news-and-features/scottish-rugby-and-arnold-clark-drive-home-new-partnership/",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2024-07-29",
+   "rights": [
+    "Front of jersey (Scotland men)",
+    "Title sponsor of men's and women's Premiership and National Leagues"
+   ],
+   "rightsSrc": "https://scottishrugby.org/news-and-features/scottish-rugby-and-arnold-clark-drive-home-new-partnership/",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -92607,16 +92650,22 @@
    "sport": "Rugby union",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner on Scotland Rugby's official partners page.",
-   "url": "https://scottishrugby.org/",
+   "summary": "Multi-year principal partnership with back-of-shirt rights on the Scotland men's and women's senior teams and support of the pathway.",
+   "url": "https://scottishrugby.org/news-and-features/vodafone-to-become-a-principal-partner-of-scottish-rugby-in-multi-year-deal/",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2024-08-28",
+   "rights": [
+    "Back of jersey (Scotland men and women)",
+    "Principal partner of the Women's Pathway"
+   ],
+   "rightsSrc": "https://scottishrugby.org/news-and-features/vodafone-to-become-a-principal-partner-of-scottish-rugby-in-multi-year-deal/",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -92624,16 +92673,26 @@
    "sport": "Rugby union",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner on Scotland Rugby's official partners page.",
-   "url": "https://scottishrugby.org/",
+   "summary": "Five-year partnership making Scottish Gas naming partner of Murrayfield and front-of-shirt sponsor of Scotland Women, with Hive naming Edinburgh Rugby's stadium.",
+   "url": "https://edinburghrugby.org/news-and-features/edinburgh-rugby-stadium-renamed-as-part-of-scottish-rugby-partnership-with-scottish-gas/",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2023-07-13",
+   "term": 5,
+   "ends": 2028,
+   "endsEst": true,
+   "rights": [
+    "Stadium naming rights (Scottish Gas Murrayfield)"
+   ],
+   "rightsSrc": "https://edinburghrugby.org/news-and-features/edinburgh-rugby-stadium-renamed-as-part-of-scottish-rugby-partnership-with-scottish-gas/",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2028,
+   "tendsBasis": "term"
   },
   {
    "listed": "2026-11-17",
@@ -93698,7 +93757,7 @@
    "sport": "Netball",
    "type": "Official partner",
    "region": "Global",
-   "summary": "Named principal partner, front of dress and training wear (renewed 2026/27) in an official announcement.",
+   "summary": "E.ON continued its longstanding Nottingham Forest partnership into the 2026/27 season, including the front of the Forest Netball dress.",
    "url": "https://news.eonenergy.com/news/e-on-uk-continues-longstanding-partnership-with-nottingham-forest-into-202627-season",
    "status": "Current partner",
    "market": "UK & Ireland",
@@ -93708,8 +93767,13 @@
    "ends": 2027,
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2026-07-02",
+   "rights": [
+    "Front of Forest Netball dress"
+   ],
+   "rightsSrc": "https://news.eonenergy.com/news/e-on-uk-continues-longstanding-partnership-with-nottingham-forest-into-202627-season",
    "ttier": "T1",
-   "tbasis": "rights",
+   "tbasis": "sourced",
    "tends": 2027,
    "tendsBasis": "stated"
   },
@@ -93719,8 +93783,8 @@
    "sport": "Netball",
    "type": "Official partner",
    "region": "Global",
-   "summary": "Named principal partner, front of dress (multi-year from 2026/27) in an official announcement.",
-   "url": "https://www.insideworldfootball.com/2026/08/18/marex-invests-in-nottingham-forest-shirt-sponsorship/",
+   "summary": "Marex's multi-year Nottingham Forest principal partnership includes branding on the Forest netball team dresses.",
+   "url": "https://www.marex.com/news/2026/08/marex-announces-multi-year-principal-partnership-with-nottingham-forest-football-club",
    "status": "Current partner",
    "market": "UK & Ireland",
    "tier": "Official partner",
@@ -93729,8 +93793,13 @@
    "ends": 2027,
    "conf": "Reported",
    "verified": "2026-11-17",
+   "date": "2026-08-18",
+   "rights": [
+    "Branding on Forest netball team dresses"
+   ],
+   "rightsSrc": "https://www.marex.com/news/2026/08/marex-announces-multi-year-principal-partnership-with-nottingham-forest-football-club",
    "ttier": "T1",
-   "tbasis": "rights",
+   "tbasis": "sourced",
    "tends": 2027,
    "tendsBasis": "stated"
   },
@@ -94197,16 +94266,29 @@
    "sport": "Netball",
    "type": "Official partner",
    "region": "Global",
-   "summary": "Listed as a title partner on Manchester Thunder's official partners page.",
-   "url": "https://www.thundernetball.co.uk/partners/",
+   "summary": "AO extended its title sponsorship of Manchester Thunder by five years and took team naming rights, with the club renamed AO Manchester Thunder.",
+   "url": "https://www.thenetballshow.co.uk/2026/02/11/ao-manchester-thunder-are-here/",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Title partner",
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2026-02-11",
+   "term": 5,
+   "ends": 2031,
+   "endsEst": true,
+   "rights": [
+    "Team naming rights (AO Manchester Thunder)",
+    "Dresses",
+    "Training kit",
+    "Match-day court branding"
+   ],
+   "rightsSrc": "https://www.prolificnorth.co.uk/?p=137309",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced",
+   "tends": 2031,
+   "tendsBasis": "term"
   },
   {
    "listed": "2026-11-17",
@@ -94342,16 +94424,29 @@
    "sport": "Netball",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner on London Pulse's official partners page.",
-   "url": "https://londonpulsenetball.com/",
+   "summary": "Copper Box Arena and its operator GLL agreed a 10-year partnership keeping London Pulse at the venue, with GLL providing fitness and conditioning facilities and GLL Sport Foundation support.",
+   "url": "https://copperboxarena.org.uk/news/copper-box-arena-announces-10-year-partnership-with-london-pulse",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2024-10-24",
+   "term": 10,
+   "ends": 2034,
+   "endsEst": true,
+   "rights": [
+    "Home venue (Copper Box Arena)",
+    "Fitness, strength and conditioning facilities",
+    "GLL Sport Foundation player support",
+    "Hosts London Pulse Corporate Cup"
+   ],
+   "rightsSrc": "https://copperboxarena.org.uk/news/copper-box-arena-announces-10-year-partnership-with-london-pulse",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2034,
+   "tendsBasis": "term"
   },
   {
    "listed": "2026-11-17",
@@ -94367,6 +94462,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "role"
   },
@@ -94376,16 +94472,26 @@
    "sport": "Netball",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner on London Pulse's official partners page.",
-   "url": "https://londonpulsenetball.com/",
+   "summary": "London Pulse renewed its kit partnership with Flyhawk through to 2028, the fifth year of a partnership that began in 2021.",
+   "url": "https://www.thenetballshow.co.uk/2026/01/16/london-pulse-extend-flyhawk-partnership/",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2026-01-16",
+   "ends": 2028,
+   "endsLock": true,
+   "endsSrc": "https://www.thenetballshow.co.uk/2026/01/16/london-pulse-extend-flyhawk-partnership/",
+   "rights": [
+    "Kit supplier"
+   ],
+   "rightsSrc": "https://www.thenetballshow.co.uk/2026/01/16/london-pulse-extend-flyhawk-partnership/",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2028,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -94393,16 +94499,27 @@
    "sport": "Netball",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner on London Pulse's official partners page.",
-   "url": "https://londonpulsenetball.com/",
+   "summary": "FatFace signed a three-year partnership as London Pulse lead sponsor from the 2025 Netball Super League season, with its logo on the front of the dress.",
+   "url": "https://www.thenetballshow.co.uk/?p=8546",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2025-01-28",
+   "term": 3,
+   "ends": 2027,
+   "endsLock": true,
+   "endsSrc": "https://www.netballsl.com/news/london-pulse-reveal-clothing-brand-fatface-as-lead-sponsor-ahead-of-2025-nsl-season",
+   "rights": [
+    "Front of dress"
+   ],
+   "rightsSrc": "https://www.netballsl.com/news/london-pulse-reveal-clothing-brand-fatface-as-lead-sponsor-ahead-of-2025-nsl-season",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2027,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -95053,6 +95170,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "role"
   },
@@ -95662,16 +95780,29 @@
    "sport": "Cricket",
    "type": "Major partner",
    "region": "Global",
-   "summary": "Listed as a major partner on Sussex Cricket's official partners page.",
-   "url": "https://sussexcricket.co.uk/",
+   "summary": "Further four-year partnership backing Sussex disability cricket, including kit branding and principal partner of the Super 9s, D40 and VI teams.",
+   "url": "https://sussexcricket.co.uk/news/webtrends-optimize-extends-sponsorship-deal",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Major partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2024-01-18",
+   "term": 4,
+   "ends": 2028,
+   "endsEst": true,
+   "rights": [
+    "Front and back of Disability team match kits",
+    "Principal partner of Super 9s, D40 and VI teams",
+    "Headline sponsor of DIScoverABILITY Day",
+    "Corporate box"
+   ],
+   "rightsSrc": "https://sussexcricket.co.uk/news/webtrends-optimize-extends-sponsorship-deal",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2028,
+   "tendsBasis": "term"
   },
   {
    "listed": "2026-11-17",
@@ -95679,16 +95810,23 @@
    "sport": "Cricket",
    "type": "Major partner",
    "region": "Global",
-   "summary": "Listed as a major partner on Sussex Cricket's official partners page.",
-   "url": "https://sussexcricket.co.uk/",
+   "summary": "Renewed partnership stepping Focus Group up to major partner, with the County Ground's Executive Lounge renamed the Focus Group Executive Lounge.",
+   "url": "https://sussexcricket.co.uk/news/focus-group-take-over-executive-lounge",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Major partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2026-04-28",
+   "rights": [
+    "Naming rights to the Focus Group Executive Lounge"
+   ],
+   "rightsSrc": "https://sussexcricket.co.uk/news/focus-group-take-over-executive-lounge",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-11-17",
@@ -95696,16 +95834,24 @@
    "sport": "Cricket",
    "type": "Major partner",
    "region": "Global",
-   "summary": "Listed as a major partner on Sussex Cricket's official partners page.",
-   "url": "https://sussexcricket.co.uk/",
+   "summary": "Continuing partnership covering sponsorship of the Sussex Cricket League and naming of the Dean Wilson Boundary Rooms from the 2025 season.",
+   "url": "https://sussexcricket.co.uk/news/sussex-celebrates-partnership-dean-wilson",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Major partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2025-08-14",
+   "rights": [
+    "Sussex Cricket League sponsorship",
+    "Naming rights to the Dean Wilson Boundary Rooms"
+   ],
+   "rightsSrc": "https://sussexcricket.co.uk/news/sussex-celebrates-partnership-dean-wilson",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2029,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-11-17",
@@ -95721,6 +95867,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -95738,6 +95885,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -97267,16 +97415,27 @@
    "sport": "Cricket",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal club partner on Northamptonshire CCC's official partners page.",
-   "url": "https://nccc.co.uk/partners/",
+   "summary": "NME Electrical & Solar PV stepped up to principal partner of Northamptonshire for 2026, taking naming rights to the Blast + stand.",
+   "url": "https://nccc.co.uk/news/nme-electrical-and-solar-pv-become-principal-partners/",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal club partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2026-04-03",
+   "ends": 2026,
+   "rights": [
+    "Naming and branding rights to the Blast + stand",
+    "Perimeter fencing branding in front of the stand",
+    "Player sponsorship (Raphy Weatherall)",
+    "T20 hospitality"
+   ],
+   "rightsSrc": "https://nccc.co.uk/news/nme-electrical-and-solar-pv-become-principal-partners/",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2026,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -97284,16 +97443,26 @@
    "sport": "Cricket",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal club partner on Northamptonshire CCC's official partners page.",
-   "url": "https://nccc.co.uk/partners/",
+   "summary": "Dafabet extended as Northamptonshire's principal partner, adding the front of the men's One Day Cup shirt for the first time.",
+   "url": "https://nccc.co.uk/news/dafabet-continue-as-principal-partner-of-the-club/",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal club partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2026-01-29",
+   "rights": [
+    "Front of men's One Day Cup shirt",
+    "Collar and back of neck on men's T20 kit",
+    "Lead partner of the club livestream",
+    "Ground signage"
+   ],
+   "rightsSrc": "https://nccc.co.uk/news/dafabet-continue-as-principal-partner-of-the-club/",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-11-17",
@@ -97301,16 +97470,29 @@
    "sport": "Cricket",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal club partner on Northamptonshire CCC's official partners page.",
-   "url": "https://nccc.co.uk/partners/",
+   "summary": "ECL Civil Engineering extended as principal partner for another four years.",
+   "url": "https://nccc.co.uk/news/ecl-civil-engineering-continue-as-principal-partner-of-nccc/",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal club partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2025-04-10",
+   "term": 4,
+   "ends": 2029,
+   "endsEst": true,
+   "rights": [
+    "Back and collar of County Championship playing shirt",
+    "Spencer Pavilion branding",
+    "Main scoreboard branding",
+    "Branding above the sky boxes"
+   ],
+   "rightsSrc": "https://nccc.co.uk/news/ecl-civil-engineering-continue-as-principal-partner-of-nccc/",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2029,
+   "tendsBasis": "term"
   },
   {
    "listed": "2026-11-17",
@@ -97318,16 +97500,26 @@
    "sport": "Cricket",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal club partner on Northamptonshire CCC's official partners page.",
-   "url": "https://nccc.co.uk/partners/",
+   "summary": "cinch signed a six-year naming rights partnership, renaming the ground the cinch County Ground; this builds on its expanded principal partnership announced in March 2026 (front of men's training kit).",
+   "url": "https://www.cinch.co.uk/announcements/cinch-news/northamptonshire-county-cricket-club-and-cinch-announce-landmark-naming-rights-deal",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal club partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2026-05-08",
+   "term": 6,
+   "ends": 2032,
+   "endsEst": true,
+   "rights": [
+    "Naming rights to the ground (cinch County Ground)"
+   ],
+   "rightsSrc": "https://www.cinch.co.uk/announcements/cinch-news/northamptonshire-county-cricket-club-and-cinch-announce-landmark-naming-rights-deal",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2032,
+   "tendsBasis": "term"
   },
   {
    "listed": "2026-11-17",
@@ -97335,16 +97527,27 @@
    "sport": "Cricket",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal club partner on Northamptonshire CCC's official partners page.",
-   "url": "https://nccc.co.uk/partners/",
+   "summary": "Hevey extended its principal club partnership by three years, until 2028, keeping naming of the Hevey Suite.",
+   "url": "https://nccc.co.uk/news/northamptonshire-and-hevey-extend-partnership-into-15th-year/",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal club partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2025-06-06",
+   "term": 3,
+   "ends": 2028,
+   "endsLock": true,
+   "endsSrc": "https://nccc.co.uk/news/northamptonshire-and-hevey-extend-partnership-into-15th-year/",
+   "rights": [
+    "Naming rights to the Hevey Suite (players' pavilion and restaurant)"
+   ],
+   "rightsSrc": "https://nccc.co.uk/news/northamptonshire-and-hevey-extend-partnership-into-15th-year/",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2028,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -97352,16 +97555,28 @@
    "sport": "Cricket",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal club partner on Northamptonshire CCC's official partners page.",
-   "url": "https://nccc.co.uk/partners/",
+   "summary": "Curo Wealth renewed as a principal partner for three years, with naming rights to the Curo Lounge.",
+   "url": "https://nccc.co.uk/news/curo-wealth-continue-as-principal-partner/",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal club partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2025-02-20",
+   "term": 3,
+   "ends": 2028,
+   "endsEst": true,
+   "rights": [
+    "Naming and branding rights to the Curo Lounge (Turner Stand)",
+    "T20 hospitality",
+    "Player sponsorship (Ricardo Vasconcelos)"
+   ],
+   "rightsSrc": "https://nccc.co.uk/news/curo-wealth-continue-as-principal-partner/",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2028,
+   "tendsBasis": "term"
   },
   {
    "listed": "2026-11-17",
@@ -97534,16 +97749,29 @@
    "sport": "Cricket",
    "type": "Major partner",
    "region": "Global",
-   "summary": "Listed as a major sponsor on Middlesex Cricket's official partners page.",
-   "url": "https://www.middlesexccc.com/type/sponsors",
+   "summary": "Saffery joined Middlesex as Accountancy Partner and a major partner in a new two-year partnership covering the 2026/27 and 2027/28 seasons.",
+   "url": "https://www.saffery.com/insights/news/saffery-announces-two-season-sponsorship-of-middlesex-cricket/",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Major sponsor",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2026-07-10",
+   "term": 2,
+   "ends": 2028,
+   "endsLock": true,
+   "endsSrc": "https://www.saffery.com/insights/news/saffery-announces-two-season-sponsorship-of-middlesex-cricket/",
+   "rights": [
+    "Branding on Vitality T20 Blast and Metro One-Day Cup kits",
+    "Pitchside branding at outgrounds",
+    "Official accountancy partner"
+   ],
+   "rightsSrc": "https://www.middlesexccc.com/news/2026/07/middlesex-cricket-announce-new-partnership-with-accountancy-and-business-development-firm-saffery",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2028,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -97559,6 +97787,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -97576,6 +97805,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -97585,16 +97815,24 @@
    "sport": "Cricket",
    "type": "Major partner",
    "region": "Global",
-   "summary": "Listed as a major sponsor on Middlesex Cricket's official partners page.",
-   "url": "https://www.middlesexccc.com/type/sponsors",
+   "summary": "Castore became Middlesex's kit partner in a multi-year partnership from the 2024 season, supplying men's, women's, EPG and Sunrisers kit.",
+   "url": "https://castore.com/blogs/press/multi-year-partnership-with-middlesex-cricket",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Major sponsor",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2024-02-06",
+   "rights": [
+    "Official kit supplier (playing kit and training wear for men's, women's, EPG and Sunrisers)",
+    "Replica and leisurewear retail"
+   ],
+   "rightsSrc": "https://castore.com/blogs/press/multi-year-partnership-with-middlesex-cricket",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2028,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-11-17",
@@ -97602,16 +97840,24 @@
    "sport": "Cricket",
    "type": "Major partner",
    "region": "Global",
-   "summary": "Listed as a major sponsor on Middlesex Cricket's official partners page.",
-   "url": "https://www.middlesexccc.com/type/sponsors",
+   "summary": "Dafabet became Middlesex's principal partner in a multi-year partnership, with its logo on the men's playing shirts in all three domestic competitions (month from the club URL; no date printed).",
+   "url": "https://www.middlesexccc.com/news/2024/03/middlesex-announce-dafabet-as-new-principal-partner-in-multi-year-deal",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Major sponsor",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "month": "2024-03",
+   "rights": [
+    "Logo on Middlesex Men's playing shirts in all three domestic competitions",
+    "Headline sponsor of the club's live streaming service"
+   ],
+   "rightsSrc": "https://www.middlesexccc.com/news/2024/03/middlesex-announce-dafabet-as-new-principal-partner-in-multi-year-deal",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2028,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-11-17",
@@ -97619,16 +97865,29 @@
    "sport": "Cricket",
    "type": "Major partner",
    "region": "Global",
-   "summary": "Listed as a major sponsor on Middlesex Cricket's official partners page.",
-   "url": "https://www.middlesexccc.com/type/sponsors",
+   "summary": "Middlesex announced a two-year partnership with IBC Buying Group (club release dated February 2026 by URL; day from trade press).",
+   "url": "https://www.buildersmerchantsnews.co.uk/IBC-announces-partnership-with-MCCC/59576",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Major sponsor",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2026-02-17",
+   "term": 2,
+   "ends": 2028,
+   "endsEst": true,
+   "rights": [
+    "Premium hospitality",
+    "Branded presence at high-profile matches",
+    "Co-created digital content",
+    "Dedicated brand page on the club website"
+   ],
+   "rightsSrc": "https://www.buildersmerchantsnews.co.uk/IBC-announces-partnership-with-MCCC/59576",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2028,
+   "tendsBasis": "term"
   },
   {
    "listed": "2026-11-17",
@@ -98643,16 +98902,29 @@
    "sport": "Cricket",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner on Lancashire Cricket's official partners page.",
-   "url": "https://cricket.lancashirecricket.co.uk/",
+   "summary": "Emirates signed a seven-year extension with Lancashire Cricket until 2029, keeping Emirates Old Trafford naming rights, principal partner status and the Lancashire Lightning T20 shirt.",
+   "url": "https://www.sportcal.com/sponsorship/lancashire-ccc-and-emirates-agree-seven-year-sponsorship-renewal/",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2022-05-23",
+   "term": 7,
+   "ends": 2029,
+   "endsLock": true,
+   "endsSrc": "https://cricket.lancashirecricket.co.uk/news/2022-news/lancashire-cricket-and-emirates-sign-long-term-partnership-extension/",
+   "rights": [
+    "Stadium naming rights (Emirates Old Trafford)",
+    "Lancashire Lightning T20 shirt",
+    "Emirates Business Class Lounge in the Pavilion"
+   ],
+   "rightsSrc": "https://cricket.lancashirecricket.co.uk/news/2022-news/lancashire-cricket-and-emirates-sign-long-term-partnership-extension/",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2029,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -98743,6 +99015,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -98760,6 +99033,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -98903,7 +99177,9 @@
    ],
    "rightsSrc": "https://www.utilitabowl.com/cricket/news/newly-named-utilita-bowl-strives-to-become-the-worlds-greenest-cricket-ground-in-new-multi-year-partnership/",
    "ttier": "T1",
-   "tbasis": "sourced"
+   "tbasis": "sourced",
+   "tends": 2028,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-11-17",
@@ -99694,7 +99970,9 @@
    ],
    "rightsSrc": "https://essexcricket.org.uk/2025/03/19/price-forbes-sign-up-as-new-principal-partner",
    "ttier": "T1",
-   "tbasis": "sourced"
+   "tbasis": "sourced",
+   "tends": 2029,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-11-17",
@@ -99716,7 +99994,9 @@
    ],
    "rightsSrc": "https://essexcricket.org.uk/2025/02/13/ambassador-cruise-line-become-ground-naming-partner",
    "ttier": "T1",
-   "tbasis": "sourced"
+   "tbasis": "sourced",
+   "tends": 2029,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-11-17",
@@ -100404,7 +100684,9 @@
    ],
    "rightsSrc": "https://www.durhamcricket.co.uk/news-and-media/durham-cricket-riverside-ground-renamed-banks-homes-riverside-in-new-ground-naming-rights-deal/",
    "ttier": "T1",
-   "tbasis": "sourced"
+   "tbasis": "sourced",
+   "tends": 2029,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-11-17",
@@ -100559,8 +100841,8 @@
    "sport": "Cricket",
    "type": "Jersey partner",
    "region": "Global",
-   "summary": "Named official sleeve partner in an official announcement.",
-   "url": "https://sportsmintmedia.com/the-hundred-welsh-fire-expand-commercial-roster-through-three-strategic-partnerships/",
+   "summary": "Matchbook became Welsh Fire's sleeve partner for the 2026 season of The Hundred (reported by the law firm that advised Welsh Fire).",
+   "url": "https://www.hughjames.com/blog/welsh-fire-advised-matchbook-partnership/",
    "status": "Current partner",
    "market": "UK & Ireland",
    "tier": "Official partner",
@@ -100568,8 +100850,16 @@
    "ptier": "Jersey partner",
    "conf": "Reported",
    "verified": "2026-11-17",
+   "date": "2026-07-27",
+   "ends": 2026,
+   "rights": [
+    "sleeve of men's and women's playing shirts"
+   ],
+   "rightsSrc": "https://www.hughjames.com/blog/welsh-fire-advised-matchbook-partnership/",
    "ttier": "T2",
-   "tbasis": "rights"
+   "tbasis": "sourced",
+   "tends": 2026,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -100577,8 +100867,8 @@
    "sport": "Cricket",
    "type": "Jersey partner",
    "region": "Global",
-   "summary": "Named front-of-shirt partner in an official announcement.",
-   "url": "https://www.infinite.com/welshfire/",
+   "summary": "Infinite Computer Solutions named Welsh Fire's front of shirt partner for the 2026 season of The Hundred (brand release).",
+   "url": "https://www.infinite.com/infinite-computer-solutions-named-front-of-shirt-partner-of-welsh-fire-for-2026-season/",
    "status": "Current partner",
    "market": "UK & Ireland",
    "tier": "Official partner",
@@ -100586,8 +100876,16 @@
    "ptier": "Jersey partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2026-07-20",
+   "ends": 2026,
+   "rights": [
+    "front of men's and women's playing shirts"
+   ],
+   "rightsSrc": "https://www.infinite.com/infinite-computer-solutions-named-front-of-shirt-partner-of-welsh-fire-for-2026-season/",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced",
+   "tends": 2026,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -100613,7 +100911,7 @@
    "sport": "Cricket",
    "type": "Official partner",
    "region": "Global",
-   "summary": "Named official helmet and neck protection provider (through 2030) in an official announcement.",
+   "summary": "Masuri named Trent Rockets' official and exclusive helmet and neck protection provider in a new partnership running to 2030.",
    "url": "https://350653.nottsccc.co.uk/news/2026/july/trent-rockets-and-masuri-announce-new-official-partnership.html",
    "status": "Current partner",
    "market": "UK & Ireland",
@@ -100623,8 +100921,17 @@
    "ptier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2026-07-23",
+   "endsLock": true,
+   "endsSrc": "https://350653.nottsccc.co.uk/news/2026/july/trent-rockets-and-masuri-announce-new-official-partnership.html",
+   "rights": [
+    "official and exclusive helmet and neck protection provider",
+    "helmet supply for players",
+    "matchday branding and hospitality rights"
+   ],
+   "rightsSrc": "https://350653.nottsccc.co.uk/news/2026/july/trent-rockets-and-masuri-announce-new-official-partnership.html",
    "ttier": "T2",
-   "tbasis": "rights",
+   "tbasis": "sourced",
    "tends": 2030,
    "tendsBasis": "stated"
   },
@@ -100634,7 +100941,7 @@
    "sport": "Cricket",
    "type": "Jersey partner",
    "region": "Global",
-   "summary": "Named official sleeve partner in an official announcement.",
+   "summary": "Prezzo Italian named Trent Rockets' official sleeve partner for the 2026 edition of The Hundred.",
    "url": "https://www.trentbridge.co.uk/news/2026/july/prezzo-italian-announced-as-trent-rockets-official-sleeve-partner.html",
    "status": "Current partner",
    "market": "UK & Ireland",
@@ -100643,8 +100950,16 @@
    "ptier": "Jersey partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2026-07-17",
+   "ends": 2026,
+   "rights": [
+    "sleeve of men's and women's playing shirts"
+   ],
+   "rightsSrc": "https://www.trentbridge.co.uk/news/2026/july/prezzo-italian-announced-as-trent-rockets-official-sleeve-partner.html",
    "ttier": "T2",
-   "tbasis": "rights"
+   "tbasis": "sourced",
+   "tends": 2026,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -100652,7 +100967,7 @@
    "sport": "Cricket",
    "type": "Jersey partner",
    "region": "Global",
-   "summary": "Named front-of-shirt partner in an official announcement.",
+   "summary": "Vitality named Trent Rockets' front of shirt partner for the 2026 edition of The Hundred.",
    "url": "https://www.trentbridge.co.uk/news/2026/july/vitality-announced-as-new-front-of-shirt-partnership-for-trent-rockets.html",
    "status": "Current partner",
    "market": "UK & Ireland",
@@ -100661,8 +100976,17 @@
    "ptier": "Jersey partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2026-07-16",
+   "ends": 2026,
+   "rights": [
+    "front of men's and women's playing shirts",
+    "replica kit"
+   ],
+   "rightsSrc": "https://www.trentbridge.co.uk/news/2026/july/vitality-announced-as-new-front-of-shirt-partnership-for-trent-rockets.html",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced",
+   "tends": 2026,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -100713,6 +101037,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "role"
   },
@@ -100775,6 +101100,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "role"
   },
@@ -100784,16 +101110,17 @@
    "sport": "Cricket",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a team principal partner on Southern Brave's official partners page.",
-   "url": "https://www.southernbrave.com/",
+   "summary": "New multi-year principal partnership giving DP World front-of-shirt rights on the Southern Brave men's and women's teams from 2026.",
+   "url": "https://www.sportcal.com/news/manchester-super-giants-and-southern-brave-strike-front-of-shirt-deals/",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Team principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "month": "2026-07",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "rights"
   },
   {
    "listed": "2026-11-17",
@@ -100880,16 +101207,21 @@
    "sport": "Cricket",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner on London Spirit's official partners page.",
-   "url": "https://www.londonspirit.com/partners",
+   "summary": "Barclays became London Spirit's principal partner under the new ownership, replacing Tyrrells on the front of the playing kit. Term not stated.",
+   "url": "https://www.sportcal.com/newsletters/london-spirit-kicks-off-new-ownership-era-with-barclays-nike-deals",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2026-01-19",
+   "rights": [
+    "Front of playing kit"
+   ],
+   "rightsSrc": "https://www.sportcal.com/newsletters/london-spirit-kicks-off-new-ownership-era-with-barclays-nike-deals",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -101220,6 +101552,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "role"
   },
@@ -101237,6 +101570,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "role"
   },
@@ -101254,6 +101588,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "role"
   },
@@ -101271,6 +101606,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "role"
   },
@@ -101288,6 +101624,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "role"
   },
@@ -104134,6 +104471,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "role"
   },
@@ -104143,16 +104481,28 @@
    "sport": "Rugby league",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal club partner on St Helens's official partners page.",
-   "url": "https://www.saintsrlfc.com/",
+   "summary": "Increased three-season extension as principal kit partner on the first team home and away shirts, running to 2027.",
+   "url": "https://www.saintsrlfc.com/2024/10/25/home-bargains-extend-partnership-with-saints-to-2027/",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal club partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2024-10-25",
+   "term": 3,
+   "ends": 2027,
+   "endsLock": true,
+   "endsSrc": "https://www.saintsrlfc.com/2024/10/25/home-bargains-extend-partnership-with-saints-to-2027/",
+   "rights": [
+    "Front of jersey (main front, home and away)",
+    "Principal kit partner"
+   ],
+   "rightsSrc": "https://www.saintsrlfc.com/2024/10/25/home-bargains-extend-partnership-with-saints-to-2027/",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2027,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -104160,16 +104510,27 @@
    "sport": "Rugby league",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal club partner on St Helens's official partners page.",
-   "url": "https://www.saintsrlfc.com/",
+   "summary": "Ten-year agreement including stadium naming rights (The BrewDog Stadium), principal club partner status and pouring rights from 2026; the club confirmed on 25 March 2026 the partnership continues under BrewDog's new Tilray ownership.",
+   "url": "https://www.saintsrlfc.com/2025/10/20/st-helens-r-f-c-announces-landmark-partnership-with-brewdog-welcome-to-the-brewdog-stadium/",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal club partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2025-10-20",
+   "term": 10,
+   "ends": 2035,
+   "endsEst": true,
+   "rights": [
+    "Stadium naming rights (The BrewDog Stadium)",
+    "Pouring rights partner"
+   ],
+   "rightsSrc": "https://www.saintsrlfc.com/2025/10/20/st-helens-r-f-c-announces-landmark-partnership-with-brewdog-welcome-to-the-brewdog-stadium/",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2035,
+   "tendsBasis": "term"
   },
   {
    "listed": "2026-11-17",
@@ -104651,16 +105012,28 @@
    "sport": "Rugby league",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal club sponsor on Leigh Leopards's official partners page.",
-   "url": "https://leighleopards.co.uk/",
+   "summary": "Jet2 returns as Leigh Leopards' principal club partner for a second year, covering the 2026 Super League season.",
+   "url": "https://leighleopards.co.uk/?p=72212",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal club sponsor",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2025-12-01",
+   "term": 1,
+   "ends": 2026,
+   "endsLock": true,
+   "endsSrc": "https://leighleopards.co.uk/?p=72212",
+   "rights": [
+    "Logo on playing shirts",
+    "Branding at Leopards Den stadium"
+   ],
+   "rightsSrc": "https://leighleopards.co.uk/?p=72212",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2026,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -109213,16 +109586,29 @@
    "sport": "Rugby union",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner on Scarlets's official partners page.",
-   "url": "https://www.scarlets.wales/partners/",
+   "summary": "Renewed for a third successive season (2026-27) as principal commercial partner and front-of-shirt sponsor.",
+   "url": "https://www.scarlets.wales/article/gavin-griffiths-group-to-be-front-of-shirt-sponsor-for-third-year/",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2026-08-12",
+   "term": 1,
+   "ends": 2027,
+   "endsLock": true,
+   "endsSrc": "https://www.scarlets.wales/article/gavin-griffiths-group-to-be-front-of-shirt-sponsor-for-third-year/",
+   "rights": [
+    "Front of jersey (URC and EPCR Challenge Cup playing jerseys)",
+    "Official waste and recycling partner",
+    "Stadium, website and social media branding"
+   ],
+   "rightsSrc": "https://www.scarlets.wales/article/gavin-griffiths-group-to-be-front-of-shirt-sponsor-for-third-year/",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2027,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -112498,16 +112884,16 @@
    "sport": "Rugby union",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner on Ulster Rugby's official partners page.",
-   "url": "https://ulster.rugby/corporate/partners-ulster-rugby",
+   "summary": "Castore signed a multi-year kit supply partnership with Ulster Rugby from the 2024/25 season, also managing the province's online retail.",
+   "url": "https://ulster.rugby/content/ulster-rugby-partners-with-castore-in-innovative-new-multi-year-kit-deal-partnership",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "ttier": "T1",
-   "tbasis": "role"
+   "date": "2024-05-29",
+   "ends": 2025
   },
   {
    "listed": "2026-11-17",
@@ -112515,16 +112901,27 @@
    "sport": "Rugby union",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner on Ulster Rugby's official partners page.",
-   "url": "https://ulster.rugby/corporate/partners-ulster-rugby",
+   "summary": "Bank of Ireland extended its Ulster Rugby sponsorship by five years to 2028, broadening support to include the women's side.",
+   "url": "https://ulster.rugby/content/bank-of-ireland-extends-ulster-rugby-sponsorship-agreement-by-five-years",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2024-04-17",
+   "term": 5,
+   "ends": 2028,
+   "endsLock": true,
+   "endsSrc": "https://ulster.rugby/content/bank-of-ireland-extends-ulster-rugby-sponsorship-agreement-by-five-years",
+   "rights": [
+    "women's team sponsorship"
+   ],
+   "rightsSrc": "https://ulster.rugby/content/bank-of-ireland-extends-ulster-rugby-sponsorship-agreement-by-five-years",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2028,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -112532,16 +112929,27 @@
    "sport": "Rugby union",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner on Ulster Rugby's official partners page.",
-   "url": "https://ulster.rugby/corporate/partners-ulster-rugby",
+   "summary": "SAM Mouldings signed a five-year contract as Ulster Rugby's principal partner and official front of shirt and training partner across all senior, academy and age grade teams.",
+   "url": "https://ulster.rugby/content/ulster-rugby-announces-sam-mouldings-as-principal-partner-front-of-shirt-and-training-partner",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2025-03-25",
+   "term": 5,
+   "ends": 2030,
+   "endsEst": true,
+   "rights": [
+    "front of shirt (senior men's, women's, academy and age grade)",
+    "training kit partner"
+   ],
+   "rightsSrc": "https://ulster.rugby/content/ulster-rugby-announces-sam-mouldings-as-principal-partner-front-of-shirt-and-training-partner",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2030,
+   "tendsBasis": "term"
   },
   {
    "listed": "2026-11-17",
@@ -113061,16 +113469,28 @@
    "sport": "Rugby union",
    "type": "Official partner",
    "region": "Global",
-   "summary": "Listed as a title sponsor on Munster Rugby's official partners page.",
-   "url": "https://www.munsterrugby.ie/sponsors",
+   "summary": "Bank of Ireland signed new five-year sponsorship agreements with all four provinces including Munster, running until 2028 and adding sponsorship of the Munster Women's team.",
+   "url": "https://www.rte.ie/news/business/2024/0417/1444116-boi-agrees-new-5-year-sponsorship-deal-with-provinces",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Title sponsor",
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2024-04-17",
+   "term": 5,
+   "ends": 2028,
+   "endsLock": true,
+   "endsSrc": "https://bankofireland.com/about-bank-of-ireland/press-releases/2024/bank-of-ireland-announces-new-five-year-sponsorship-agreements-of-connacht-leinster-munster-and-ulster-rugby/",
+   "rights": [
+    "Sponsor of Munster Rugby",
+    "Sponsor of Munster Women's team"
+   ],
+   "rightsSrc": "https://bankofireland.com/about-bank-of-ireland/press-releases/2024/bank-of-ireland-announces-new-five-year-sponsorship-agreements-of-connacht-leinster-munster-and-ulster-rugby/",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced",
+   "tends": 2028,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -114085,16 +114505,24 @@
    "sport": "Rugby union",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Listed as a stadium naming rights on Sale Sharks's official partners page.",
-   "url": "https://www.salesharks.com/our-partners/",
+   "summary": "Multi-year partnership renaming the Salford Community Stadium as the CorpAcq Stadium from the 2025/26 Gallagher PREM season.",
+   "url": "https://www.salesharks.com/?p=86575",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Stadium naming rights",
    "tier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2025-09-18",
+   "ends": 2026,
+   "rights": [
+    "Stadium naming rights (CorpAcq Stadium)"
+   ],
+   "rightsSrc": "https://www.salesharks.com/?p=86575",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced",
+   "tends": 2026,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -114477,16 +114905,24 @@
    "sport": "Rugby union",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner on Northampton Saints's official partners page.",
-   "url": "https://www.northamptonsaints.co.uk/partners/partnerships/our-partners",
+   "summary": "DPD became Northampton Saints' principal partner in a multi-year partnership, with branding on the front and back of home and away shirts and naming rights to the East Stand (year inferred from page; printed as Tuesday 21 July).",
+   "url": "https://www.northamptonsaints.co.uk/news/dpd-principal-partner",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2026-07-21",
+   "rights": [
+    "Front of home and away playing shirts",
+    "Back of home and away playing shirts",
+    "Trainingwear",
+    "Naming rights to the East Stand (DPD Stand)"
+   ],
+   "rightsSrc": "https://www.northamptonsaints.co.uk/news/dpd-principal-partner",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -117833,6 +118269,7 @@
    "tier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "rights"
   },
@@ -118841,6 +119278,7 @@
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "rights"
   },
@@ -118850,16 +119288,27 @@
    "sport": "Football",
    "type": "Official partner",
    "region": "Global",
-   "summary": "Listed as a title partner on Kilmarnock's official partners page.",
-   "url": "https://kilmarnockfc.co.uk/club/partners/",
+   "summary": "Annandale Home Improvements signed a two-year partnership as Kilmarnock's bottom back of shirt partner, starting with the 2026/27 kits.",
+   "url": "https://kilmarnockfc.co.uk/?p=67174",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Title partner",
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2026-06-26",
+   "term": 2,
+   "ends": 2028,
+   "endsLock": true,
+   "endsSrc": "https://kilmarnockfc.co.uk/?p=67174",
+   "rights": [
+    "Bottom back of shirt (first team and women's kits)"
+   ],
+   "rightsSrc": "https://kilmarnockfc.co.uk/?p=67174",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced",
+   "tends": 2028,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -118867,16 +119316,26 @@
    "sport": "Football",
    "type": "Official partner",
    "region": "Global",
-   "summary": "Listed as a title partner on Kilmarnock's official partners page.",
-   "url": "https://kilmarnockfc.co.uk/club/partners/",
+   "summary": "hummel extended its technical kit partnership with Kilmarnock until the end of the 2029/30 season, covering men's, women's and academy kit.",
+   "url": "https://kilmarnockfc.co.uk/?p=56180",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Title partner",
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2025-04-18",
+   "ends": 2030,
+   "endsLock": true,
+   "endsSrc": "https://kilmarnockfc.co.uk/?p=56180",
+   "rights": [
+    "Technical kit supplier (matchday and training wear, men's, women's and academy)"
+   ],
+   "rightsSrc": "https://kilmarnockfc.co.uk/?p=56180",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced",
+   "tends": 2030,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -118884,16 +119343,27 @@
    "sport": "Football",
    "type": "Official partner",
    "region": "Global",
-   "summary": "Listed as a title partner on Kilmarnock's official partners page.",
-   "url": "https://kilmarnockfc.co.uk/club/partners/",
+   "summary": "TicketCo, already the club's ticketing provider, became presenting partner of Kilmarnock Women for two seasons.",
+   "url": "https://kilmarnockfc.co.uk/news/ticketco-backs-kilmarnock-women-in-new-two-year-partnership/",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Title partner",
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2025-10-09",
+   "term": 2,
+   "ends": 2027,
+   "endsEst": true,
+   "rights": [
+    "Presenting partner of Kilmarnock Women",
+    "Ticketing provider"
+   ],
+   "rightsSrc": "https://kilmarnockfc.co.uk/news/ticketco-backs-kilmarnock-women-in-new-two-year-partnership/",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced",
+   "tends": 2027,
+   "tendsBasis": "term"
   },
   {
    "listed": "2026-11-17",
@@ -118901,16 +119371,27 @@
    "sport": "Football",
    "type": "Official partner",
    "region": "Global",
-   "summary": "Listed as a title partner on Kilmarnock's official partners page.",
-   "url": "https://kilmarnockfc.co.uk/club/partners/",
+   "summary": "Redrock Automation continues as Kilmarnock's left sleeve sponsor for the 2026/27 season, a partnership running since 2022.",
+   "url": "https://kilmarnockfc.co.uk/news/redrock-continue-as-sleeve-sponsor/",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Title partner",
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2026-06-19",
+   "term": 1,
+   "ends": 2027,
+   "endsLock": true,
+   "endsSrc": "https://kilmarnockfc.co.uk/news/redrock-continue-as-sleeve-sponsor/",
+   "rights": [
+    "Left sleeve (first team, reserves, under-18s)"
+   ],
+   "rightsSrc": "https://kilmarnockfc.co.uk/news/redrock-continue-as-sleeve-sponsor/",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced",
+   "tends": 2027,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -118918,16 +119399,24 @@
    "sport": "Football",
    "type": "Official partner",
    "region": "Global",
-   "summary": "Listed as a title partner on Kilmarnock's official partners page.",
-   "url": "https://kilmarnockfc.co.uk/club/partners/",
+   "summary": "Hamilton Tarmac extended as Kilmarnock's official training wear partner for 2026/27; no fixed end is stated.",
+   "url": "https://kilmarnockfc.co.uk/news/training-wear-partnership-with-hamilton-tarmac-extended/",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Title partner",
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2026-06-23",
+   "ends": 2027,
+   "rights": [
+    "Official training wear partner"
+   ],
+   "rightsSrc": "https://kilmarnockfc.co.uk/news/training-wear-partnership-with-hamilton-tarmac-extended/",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced",
+   "tends": 2027,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -118935,16 +119424,27 @@
    "sport": "Football",
    "type": "Official partner",
    "region": "Global",
-   "summary": "Listed as a title partner on Kilmarnock's official partners page.",
-   "url": "https://kilmarnockfc.co.uk/club/partners/",
+   "summary": "James Frew Ltd renewed for a further year as Kilmarnock's front of shirt (title shirt) partner for 2026/27, after an original three-year agreement from 2023.",
+   "url": "https://kilmarnockfc.co.uk/news/successful-james-frew-partnership-continues/",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Title partner",
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2026-06-05",
+   "term": 1,
+   "ends": 2027,
+   "endsLock": true,
+   "endsSrc": "https://kilmarnockfc.co.uk/news/successful-james-frew-partnership-continues/",
+   "rights": [
+    "Front of shirt (official title shirt partner)"
+   ],
+   "rightsSrc": "https://kilmarnockfc.co.uk/news/successful-james-frew-partnership-continues/",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced",
+   "tends": 2027,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -118952,16 +119452,21 @@
    "sport": "Football",
    "type": "Official partner",
    "region": "Global",
-   "summary": "Listed as a title partner on Kilmarnock's official partners page.",
-   "url": "https://kilmarnockfc.co.uk/club/partners/",
+   "summary": "Billy Bowie Special Projects took stadium naming rights, renaming the ground The BBSP Stadium, Rugby Park, in a six-figure partnership. No term or later renewal was found.",
+   "url": "https://kilmarnockfc.co.uk/?p=9014",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Title partner",
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2020-08-07",
+   "rights": [
+    "Stadium naming rights (The BBSP Stadium, Rugby Park)"
+   ],
+   "rightsSrc": "https://kilmarnockfc.co.uk/?p=9014",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -134120,16 +134625,21 @@
    "sport": "NWSL",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner on Boston Legacy FC's official partners page.",
-   "url": "https://bostonlegacyfc.com/pages/partners",
+   "summary": "Hyundai Motor America became Boston Legacy FC's inaugural sleeve partner in a multi-year agreement from 2026.",
+   "url": "https://tools.prnewswire.com/en-us/live/20772/release/20260204LA80275",
    "status": "Current partner",
    "market": "North America",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2026-02-04",
+   "rights": [
+    "Right sleeve of jersey"
+   ],
+   "rightsSrc": "https://tools.prnewswire.com/en-us/live/20772/release/20260204LA80275",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -134137,16 +134647,23 @@
    "sport": "NWSL",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner on Boston Legacy FC's official partners page.",
-   "url": "https://bostonlegacyfc.com/pages/partners",
+   "summary": "Voya Financial signed a multi-year partnership as Boston Legacy FC's lower back-of-kit sponsor and exclusive financial services partner from 2026.",
+   "url": "https://www.voya.com/news/2026/01/boston-legacy-fc-signs-back-kit-partnership-voya-financial",
    "status": "Current partner",
    "market": "North America",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2026-01-16",
+   "rights": [
+    "Lower back of jersey",
+    "Exclusive financial services category partner",
+    "The Voya Grove community hub"
+   ],
+   "rightsSrc": "https://www.voya.com/news/2026/01/boston-legacy-fc-signs-back-kit-partnership-voya-financial",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -134154,16 +134671,21 @@
    "sport": "NWSL",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner on Boston Legacy FC's official partners page.",
-   "url": "https://bostonlegacyfc.com/pages/partners",
+   "summary": "TJ Maxx became Boston Legacy FC's inaugural front-of-kit partner in a multi-year agreement from the 2026 season.",
+   "url": "https://bostonlegacyfc.com/blogs/press/boston-legacy-football-club-announces-inaugural-front-of-kit-partnership-with-tj-maxx",
    "status": "Current partner",
    "market": "North America",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2025-10-14",
+   "rights": [
+    "Front of jersey"
+   ],
+   "rightsSrc": "https://bostonlegacyfc.com/blogs/press/boston-legacy-football-club-announces-inaugural-front-of-kit-partnership-with-tj-maxx",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -134396,16 +134918,21 @@
    "sport": "NWSL",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a founding partner on Bay FC's official partners page.",
-   "url": "https://bayfc.com/partners/",
+   "summary": "Trader Joe's signed a multi-year founding partner sponsorship with Bay FC including the lower back of the on-field jersey.",
+   "url": "https://bayfc.com/press-releases/bay-fc-teams-up-with-trader-joes-for-back-of-kit-jersey-placement-and-founding-partner-sponsorship/",
    "status": "Current partner",
    "market": "North America",
    "ptier": "Founding partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2024-09-06",
+   "rights": [
+    "Lower back of jersey"
+   ],
+   "rightsSrc": "https://bayfc.com/press-releases/bay-fc-teams-up-with-trader-joes-for-back-of-kit-jersey-placement-and-founding-partner-sponsorship/",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -134421,6 +134948,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "role"
   },
@@ -134430,16 +134958,21 @@
    "sport": "NWSL",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a founding partner on Bay FC's official partners page.",
-   "url": "https://bayfc.com/partners/",
+   "summary": "PNC Bank signed a multi-year founding partner sponsorship with Bay FC focused on women's financial success, including the Goals for Grants program.",
+   "url": "https://bayfc.com/?p=5313",
    "status": "Current partner",
    "market": "North America",
    "ptier": "Founding partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2024-02-07",
+   "rights": [
+    "Goals for Grants powered by PNC"
+   ],
+   "rightsSrc": "https://bayfc.com/?p=5313",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -134447,16 +134980,22 @@
    "sport": "NWSL",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a founding partner on Bay FC's official partners page.",
-   "url": "https://bayfc.com/partners/",
+   "summary": "Visa signed a multi-year partnership as Bay FC's founding partner and official payment services partner, with its logo on the right sleeve.",
+   "url": "https://bayfc.com/press-releases/bay-fc-announces-visa-as-founding-partner/",
    "status": "Current partner",
    "market": "North America",
    "ptier": "Founding partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2024-03-29",
+   "rights": [
+    "Right sleeve of jersey",
+    "Official payment services partner"
+   ],
+   "rightsSrc": "https://bayfc.com/press-releases/bay-fc-announces-visa-as-founding-partner/",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -134464,16 +135003,27 @@
    "sport": "NWSL",
    "type": "Official partner",
    "region": "Global",
-   "summary": "Listed as a front of kit partner on Bay FC's official partners page.",
-   "url": "https://bayfc.com/partners/",
+   "summary": "Sutter Health became Bay FC's first founding partner, front-of-kit partner and official medical provider in a multi-year partnership through 2028.",
+   "url": "https://bayfc.com/?p=4793",
    "status": "Current partner",
    "market": "North America",
    "ptier": "Front of kit partner",
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2023-12-13",
+   "ends": 2028,
+   "endsLock": true,
+   "endsSrc": "https://bayfc.com/?p=4793",
+   "rights": [
+    "Front of jersey",
+    "Official medical provider"
+   ],
+   "rightsSrc": "https://bayfc.com/?p=4793",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced",
+   "tends": 2028,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -151902,16 +152452,22 @@
    "sport": "MLS",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a founding partner on Charlotte FC's official partners page.",
-   "url": "https://www.charlottefootballclub.com/partnerships",
+   "summary": "Thompson signed a multi-year partnership as Charlotte FC's main training kit partner and presenting partner of full-time graphics.",
+   "url": "https://www.charlottefootballclub.com/news/charlotte-fc-announces-multi-year-partnership-with-thompson-child-and-family-focus",
    "status": "Current partner",
    "market": "North America",
    "ptier": "Founding partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2026-01-12",
+   "rights": [
+    "Front of training kit",
+    "Presenting partner of full-time graphics"
+   ],
+   "rightsSrc": "https://www.charlottefootballclub.com/news/charlotte-fc-announces-multi-year-partnership-with-thompson-child-and-family-focus",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -153099,16 +153655,24 @@
    "sport": "MLS",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Listed as a naming rights on Austin FC's official partners page.",
-   "url": "https://www.austinfc.com/club/corporate-partners",
+   "summary": "Q2 signed a multi-year naming rights partnership for Austin FC's stadium, now Q2 Stadium.",
+   "url": "https://www.q2.com/newsroom/press/austin-fc-q2-stadium",
    "status": "Current partner",
    "market": "North America",
    "ptier": "Naming rights",
    "tier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2021-01-25",
+   "rights": [
+    "Stadium naming rights (Q2 Stadium)",
+    "Official financial experience and technology sponsor",
+    "Q2 Field Club premium seating",
+    "Rooftop signage"
+   ],
+   "rightsSrc": "https://www.q2.com/newsroom/press/austin-fc-q2-stadium",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -153975,7 +154539,7 @@
    "sport": "NHL",
    "type": "Official partner",
    "region": "Global",
-   "summary": "Named official helmet logo partner in an official Anaheim Ducks announcement.",
+   "summary": "Disneyland Resort named the Ducks' official helmet logo sponsor from the 2026-27 NHL season.",
    "url": "https://www.nhl.com/ducks/news/ducks-announce-disneyland-resort-as-official-helmet-logo-sponsor",
    "status": "Current partner",
    "market": "North America",
@@ -153983,8 +154547,16 @@
    "ptier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2026-09-10",
+   "ends": 2027,
+   "rights": [
+    "helmet logo"
+   ],
+   "rightsSrc": "https://www.nhl.com/ducks/news/ducks-announce-disneyland-resort-as-official-helmet-logo-sponsor",
    "ttier": "T2",
-   "tbasis": "rights"
+   "tbasis": "sourced",
+   "tends": 2027,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -156702,6 +157274,7 @@
    "ptier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "rights"
   },
@@ -160659,7 +161232,7 @@
    "sport": "MLB",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Named official bank and Truist Club naming partner in an official Baltimore Orioles announcement.",
+   "summary": "Truist became the Orioles' official bank in a multi-year partnership that includes the Truist Club premium space behind home plate at Camden Yards.",
    "url": "https://www.mlb.com/press-release/press-release-orioles-announce-truist-as-official-bank",
    "status": "Current partner",
    "market": "North America",
@@ -160668,8 +161241,14 @@
    "ptier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2026-03-19",
+   "rights": [
+    "Official bank",
+    "Ballpark signage"
+   ],
+   "rightsSrc": "https://www.mlb.com/press-release/press-release-orioles-announce-truist-as-official-bank",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -161305,6 +161884,7 @@
    "ptier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "rights"
   },
@@ -171137,8 +171717,8 @@
    "sport": "NFL",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Named training facility naming partner in an official Carolina Panthers announcement.",
-   "url": "https://www.panthers.com/news/carolina-panthers-unveil-atrium-health-training-facility-naming-partnership",
+   "summary": "Atrium Health is the naming partner of the Panthers' new uptown Charlotte training facility, the Atrium Health Training Facility, due before the 2027 training camp.",
+   "url": "https://panthers.com/news/carolina-panthers-unveil-atrium-health-training-facility-naming-partnership",
    "status": "Current partner",
    "market": "North America",
    "tier": "Official partner",
@@ -171146,8 +171726,13 @@
    "announced": "2026-04-16",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2026-04-16",
+   "rights": [
+    "Naming rights to the Atrium Health Training Facility"
+   ],
+   "rightsSrc": "https://panthers.com/news/carolina-panthers-unveil-atrium-health-training-facility-naming-partnership",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-16",
@@ -171365,8 +171950,8 @@
    "sport": "NFL",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Named stadium naming rights partner in an official Buffalo Bills announcement.",
-   "url": "https://buffalobills.com/news/bills-highmark-blue-cross-blue-shield-of-western-new-york-stadium-naming-rights",
+   "summary": "Highmark extended its stadium naming rights to the Bills' new stadium, which opened in 2026 as Highmark Stadium (original naming of the old venue was March 2021).",
+   "url": "https://www.buffalobills.com/news/the-future-is-bright-bills-and-highmark-announce-naming-rights-deal-for-new-bill",
    "status": "Current partner",
    "market": "North America",
    "tier": "Official partner",
@@ -171374,8 +171959,13 @@
    "announced": "2021-03-29",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2023-06-05",
+   "rights": [
+    "Stadium naming rights (Highmark Stadium)"
+   ],
+   "rightsSrc": "https://www.buffalobills.com/news/the-future-is-bright-bills-and-highmark-announce-naming-rights-deal-for-new-bill",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-16",
@@ -171383,7 +171973,7 @@
    "sport": "NFL",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Named founding partner and official ticketing partner in an official Buffalo Bills announcement.",
+   "summary": "Ticketmaster became the first founding partner of the new Highmark Stadium, continuing as the Bills' primary ticketing and resale partner.",
    "url": "https://buffalobills.com/news/buffalo-bills-announce-ticketmaster-as-first-founding-partner-for-new-highmark-stadium",
    "status": "Current partner",
    "market": "North America",
@@ -171392,8 +171982,15 @@
    "announced": "2025-01-16",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2025-01-16",
+   "rights": [
+    "Founding partner of new Highmark Stadium",
+    "Exclusive primary ticketing partner",
+    "Official resale marketplace"
+   ],
+   "rightsSrc": "https://buffalobills.com/news/buffalo-bills-announce-ticketmaster-as-first-founding-partner-for-new-highmark-stadium",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-16",
@@ -171401,8 +171998,8 @@
    "sport": "NFL",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Named founding partner and official automotive partner in an official Buffalo Bills announcement.",
-   "url": "https://www.buffalobills.com/news/toyota-named-founding-partner-at-highmark-stadium-continues-as-official-automotive-partner-of-the-buffalo-bills",
+   "summary": "Toyota signed a multi-year agreement as a founding partner of the new Highmark Stadium and continues as the Bills' official automotive partner.",
+   "url": "https://buffalobills.com/news/toyota-named-founding-partner-at-highmark-stadium-continues-as-official-automotive-partner-of-the-buffalo-bills",
    "status": "Current partner",
    "market": "North America",
    "tier": "Official partner",
@@ -171410,8 +172007,15 @@
    "announced": "2026-05-29",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2026-05-29",
+   "rights": [
+    "Founding partner of Highmark Stadium",
+    "Official automotive partner",
+    "Stadium branding and vehicle displays"
+   ],
+   "rightsSrc": "https://buffalobills.com/news/toyota-named-founding-partner-at-highmark-stadium-continues-as-official-automotive-partner-of-the-buffalo-bills",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-16",
@@ -171419,7 +172023,7 @@
    "sport": "NFL",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Named founding partner and official bank in an official Buffalo Bills announcement.",
+   "summary": "M&T Bank signed a multi-year extension as official bank of the Bills, adding founding partner status at the new Highmark Stadium.",
    "url": "https://www.buffalobills.com/news/m-t-bank-and-buffalo-bills-extend-official-bank-partnership",
    "status": "Current partner",
    "market": "North America",
@@ -171428,8 +172032,16 @@
    "announced": "2025-05-28",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2025-05-28",
+   "rights": [
+    "Official bank",
+    "Founding partner of Highmark Stadium",
+    "Training camp cornerstone partner",
+    "Exclusive Bills-branded debit cards"
+   ],
+   "rightsSrc": "https://www.buffalobills.com/news/m-t-bank-and-buffalo-bills-extend-official-bank-partnership",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-16",
@@ -171561,7 +172173,7 @@
    "sport": "NFL",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Named WiFi partner and Xfinity FlockYard naming partner in an official Baltimore Ravens announcement.",
+   "summary": "Xfinity takes naming rights to the Xfinity FlockYard hospitality space at M&T Bank Stadium and becomes the Ravens' WiFi partner.",
    "url": "https://www.baltimoreravens.com/news/baltimore-ravens-and-xfinity-announce-partnership-featuring-naming-right-to-the-xfinity-flockyard-at-m-t-bank-stadium",
    "status": "Current partner",
    "market": "North America",
@@ -171570,8 +172182,15 @@
    "announced": "2026-09-11",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2026-09-11",
+   "rights": [
+    "Naming rights to the Xfinity FlockYard hospitality space",
+    "WiFi partner",
+    "Presenting partner of Ravens Kickoff Week, Ravens Rising Stars Relay and Ravens Wired"
+   ],
+   "rightsSrc": "https://www.baltimoreravens.com/news/baltimore-ravens-and-xfinity-announce-partnership-featuring-naming-right-to-the-xfinity-flockyard-at-m-t-bank-stadium",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-16",
@@ -179644,16 +180263,27 @@
    "sport": "NFL",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Listed as a naming rights partner on Atlanta Falcons's official partners page.",
-   "url": "https://www.atlantafalcons.com/team/partners",
+   "summary": "Mercedes-Benz holds naming rights to the Falcons' home, Mercedes-Benz Stadium, under an agreement running through 2042.",
+   "url": "https://atlantafalcons.com/news/mercedes-benz-named-partner-of-new-stadium-15734751",
    "status": "Current partner",
    "market": "North America",
    "ptier": "Naming rights partner",
    "tier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2015-08-24",
+   "ends": 2042,
+   "endsLock": true,
+   "endsSrc": "https://atlantafalcons.com/news/mercedes-benz-named-partner-of-new-stadium-15734751",
+   "rights": [
+    "Stadium naming rights (Mercedes-Benz Stadium)",
+    "Branding on stadium roof, plazas, signage, club areas and video halo board"
+   ],
+   "rightsSrc": "https://www.media.mbusa.com/releases/it-s-official-mercedes-benz-signs-naming-rights-agreement-for-iconic-new-venue-in-atlanta",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced",
+   "tends": 2042,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-16",
@@ -180820,16 +181450,22 @@
    "sport": "Football",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner on Sunderland's official partners page.",
-   "url": "https://www.safc.com/club-information/partners",
+   "summary": "New multi-year extension of the technical kit partnership, agreed two years into the original arrangement that began in 2024.",
+   "url": "https://www.insideworldfootball.com/2026/04/24/hummel-entrench-sunderland-kit-deal-extension/",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2026-04-24",
+   "term": 2,
+   "ends": 2028,
+   "endsEst": true,
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "role",
+   "tends": 2028,
+   "tendsBasis": "term"
   },
   {
    "listed": "2026-11-16",
@@ -180837,16 +181473,28 @@
    "sport": "Football",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner on Sunderland's official partners page.",
-   "url": "https://www.safc.com/club-information/partners",
+   "summary": "Long-term retail partnership to 2034 making Fanatics exclusive operator of the club's online and stadium stores. Year inferred from the release's 'Apr 30' date and the club's 2024/april news URL.",
+   "url": "https://www.fanaticsinc.com/press-releases/safc-partners-with-fanatics-to-reimagine-retail-experience-for-fans",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "month": "2024-04",
+   "term": 10,
+   "ends": 2034,
+   "endsLock": true,
+   "endsSrc": "https://www.fanaticsinc.com/press-releases/safc-partners-with-fanatics-to-reimagine-retail-experience-for-fans",
+   "rights": [
+    "Exclusive operator of online store",
+    "Exclusive operator of stadium retail store"
+   ],
+   "rightsSrc": "https://www.fanaticsinc.com/press-releases/safc-partners-with-fanatics-to-reimagine-retail-experience-for-fans",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2034,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-16",
@@ -180929,16 +181577,16 @@
    "sport": "Football",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal club partner on Nottingham Forest's official partners page.",
-   "url": "https://www.nottinghamforest.co.uk/",
+   "summary": "Nottingham Forest returned to adidas in a multi-year kit supplier partnership from 2023/24 covering the men's, women's and academy teams.",
+   "url": "https://www.thebusinessdesk.com/eastmidlands/?p=2073012",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal club partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "ttier": "T1",
-   "tbasis": "role"
+   "date": "2023-06-28",
+   "ends": 2024
   },
   {
    "listed": "2026-11-16",
@@ -180946,16 +181594,24 @@
    "sport": "Football",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal club partner on Nottingham Forest's official partners page.",
-   "url": "https://www.nottinghamforest.co.uk/",
+   "summary": "Marex became Nottingham Forest's principal partner in a multi-year front-of-shirt partnership from 2026/27 across the men's, women's and netball teams.",
+   "url": "https://www.marex.com/news/2026/08/marex-announces-multi-year-principal-partnership-with-nottingham-forest-football-club",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal club partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2026-08-18",
+   "ends": 2027,
+   "rights": [
+    "Front of shirt on men's and women's playing and replica shirts"
+   ],
+   "rightsSrc": "https://www.marex.com/news/2026/08/marex-announces-multi-year-principal-partnership-with-nottingham-forest-football-club",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2027,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-16",
@@ -181493,16 +182149,28 @@
    "sport": "Football",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner on Manchester United's official partners page.",
-   "url": "https://www.manutd.com/en/partners",
+   "summary": "Manchester United and Qualcomm extended and expanded the Snapdragon principal shirt partnership, six weeks after it began, to run until 2029 (date from the Business Wire release ID).",
+   "url": "https://www.businesswire.com/news/home/20240815782554/en",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2024-08-15",
+   "ends": 2029,
+   "endsLock": true,
+   "endsSrc": "https://www.businesswire.com/news/home/20240815782554/en",
+   "rights": [
+    "Front of shirt (home, away and third kits)",
+    "Back of shirt logo beneath squad numbers in 2024/25 (WSL and selected matches)",
+    "Expanded rights in the PC category"
+   ],
+   "rightsSrc": "https://www.businesswire.com/news/home/20240815782554/en",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2029,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-16",
@@ -181510,16 +182178,28 @@
    "sport": "Football",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner on Manchester United's official partners page.",
-   "url": "https://www.manutd.com/en/partners",
+   "summary": "Manchester United renewed its kit supplier partnership with adidas for a further 10 years, worth at least 900 million pounds, running until June 2035.",
+   "url": "https://fashionunited.uk/news/business/adidas-renews-1-1-billion-dollar-partnership-with-manchester-united/2023080170863",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2023-08-01",
+   "term": 10,
+   "ends": 2035,
+   "endsLock": true,
+   "endsSrc": "https://sportbusiness.com/news/manchester-united-announces-record-90m-per-year-adidas-extension",
+   "value": "900 million pounds",
+   "rights": [
+    "Official kit supplier"
+   ],
+   "rightsSrc": "https://sportbusiness.com/news/manchester-united-announces-record-90m-per-year-adidas-extension",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2035,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-16",
@@ -186513,7 +187193,8 @@
    "conf": "Confirmed",
    "verified": "2026-11-16",
    "date": "2024-05-20",
-   "ends": 2025
+   "ends": 2025,
+   "datesTried": "2026-11-19"
   },
   {
    "listed": "2026-11-16",
@@ -264112,7 +264793,9 @@
    "conf": "Reported",
    "verified": "2026-11-17",
    "ptier": "Main sponsor",
-   "checked": "2026-11-17"
+   "checked": "2026-11-17",
+   "tends": 2029,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-03-20",
@@ -264712,7 +265395,9 @@
    "conf": "Reported",
    "verified": "2026-11-17",
    "ptier": "Official club partner",
-   "checked": "2026-11-17"
+   "checked": "2026-11-17",
+   "tends": 2029,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-02-18",
@@ -289484,8 +290169,8 @@
    "sport": "Netball",
    "type": "Principal partner",
    "region": "ANZ",
-   "summary": "Listed as a principal partner on the club's official partners page.",
-   "url": "https://westcoastfever.com.au/partners",
+   "summary": "Gold Industry Group renewed as joint principal partner of the West Coast Fever for three years, backed by its gold mining members.",
+   "url": "https://westcoastfever.com.au/news/gold-industry-backs-female-sport-6-million-netball-wa-partnership",
    "tier": "Principal & major",
    "status": "Current partner",
    "ptier": "Principal partner",
@@ -289494,8 +290179,14 @@
    "conf": "Confirmed",
    "verified": "2026-11-16",
    "datesTried": "2026-11-19",
+   "date": "2024-11-15",
+   "term": 3,
+   "ends": 2027,
+   "endsEst": true,
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "role",
+   "tends": 2027,
+   "tendsBasis": "term"
   },
   {
    "listed": "2026-10-30",
@@ -306917,7 +307608,8 @@
    "sinceBasis": "wayback",
    "verified": "2026-11-20",
    "source": "wayback",
-   "ends": 2025
+   "ends": 2025,
+   "datesTried": "2026-11-19"
   },
   {
    "deal": "Thirst Crusher × NRL",
