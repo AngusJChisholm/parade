@@ -2122,6 +2122,9 @@
    "ptype": "Governing body",
    "k": "p"
   },
+  "afrihost": {
+   "name": "Afrihost"
+  },
   "afrika-banque": {
    "name": "Afrika Banque",
    "k": "b"
@@ -4085,6 +4088,10 @@
    "name": "Anchor",
    "cat": "Food & nutrition",
    "k": "b"
+  },
+  "anchor-capital": {
+   "name": "Anchor Capital",
+   "cat": "Banking & finance"
   },
   "anchor-security": {
    "name": "Anchor Security",
@@ -7430,6 +7437,9 @@
    "name": "Baillie & Lewis",
    "k": "b"
   },
+  "baji": {
+   "name": "Baji"
+  },
   "baker-hughes": {
    "name": "Baker Hughes",
    "k": "b"
@@ -10345,6 +10355,9 @@
    "name": "Boden Group",
    "k": "b"
   },
+  "bodivite": {
+   "name": "Bodivite"
+  },
   "bodo-glimt": {
    "name": "Bodø/Glimt",
    "k": "p",
@@ -12478,6 +12491,10 @@
    "cat": "Non-alcoholic drinks",
    "k": "b"
   },
+  "cadbury-dairy-milk-ice-cream": {
+   "name": "Cadbury Dairy Milk Ice Cream",
+   "cat": "Non-alcoholic drinks"
+  },
   "caddick-developments": {
    "name": "Caddick Developments",
    "cat": "Construction & property",
@@ -14513,6 +14530,9 @@
   "centro-tolzu": {
    "name": "Centro Tolzu",
    "k": "b"
+  },
+  "centrum": {
+   "name": "Centrum"
   },
   "centura-health": {
    "name": "Centura Health",
@@ -19875,6 +19895,10 @@
    "k": "b",
    "cat": "Betting & wagering"
   },
+  "debonairs-pizza": {
+   "name": "Debonairs Pizza",
+   "cat": "Food & nutrition"
+  },
   "debs": {
    "name": "Debs",
    "k": "b"
@@ -21972,6 +21996,21 @@
   "durant-cricket": {
    "name": "Durant Cricket",
    "k": "b"
+  },
+  "durban-s-super-giants": {
+   "name": "Durban's Super Giants",
+   "domain": "durbanssupergiants.com",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "ptiers": [
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-19",
+   "market": "Rest of World"
   },
   "durex": {
    "name": "Durex",
@@ -24860,6 +24899,9 @@
    "name": "Fairmont St Andrews",
    "k": "b"
   },
+  "fairtree": {
+   "name": "Fairtree"
+  },
   "fairview": {
    "name": "Fairview",
    "k": "b"
@@ -26090,6 +26132,9 @@
    "name": "fischer",
    "k": "b"
   },
+  "fishaways": {
+   "name": "Fishaways"
+  },
   "fisher": {
    "name": "Fisher",
    "k": "b"
@@ -26121,6 +26166,10 @@
    "name": "Fit Milk",
    "cat": "Non-alcoholic drinks",
    "k": "b"
+  },
+  "fit-sports-drink": {
+   "name": "FIT Sports Drink",
+   "cat": "Non-alcoholic drinks"
   },
   "fiti": {
    "name": "Fiti",
@@ -31740,6 +31789,10 @@
    "k": "b",
    "domain": "head.com"
   },
+  "head-and-shoulders": {
+   "name": "Head & Shoulders",
+   "cat": "Sporting goods & equipment"
+  },
   "health-management": {
    "name": "Health Management",
    "k": "b",
@@ -32476,6 +32529,9 @@
   "hinterland-aviation": {
    "name": "Hinterland Aviation",
    "k": "b"
+  },
+  "hippo-co-za": {
+   "name": "Hippo.co.za"
   },
   "hipro": {
    "name": "HiPro",
@@ -37095,6 +37151,22 @@
    "name": "JobRad",
    "k": "b"
   },
+  "joburg-super-kings": {
+   "name": "Joburg Super Kings",
+   "domain": "joburgsuperkings.com",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "ptiers": [
+    "Principal sponsor",
+    "Sponsor"
+   ],
+   "ptiersChecked": "2026-11-19",
+   "market": "Rest of World"
+  },
   "joby-aviation": {
    "name": "Joby Aviation",
    "k": "b"
@@ -39786,6 +39858,9 @@
   "l-holdings": {
    "name": "L Holdings",
    "k": "b"
+  },
+  "l-inc": {
+   "name": "L-Inc"
   },
   "l-independant": {
    "name": "L'Indépendant",
@@ -45200,7 +45275,17 @@
    "name": "MI Cape Town",
    "ptype": "Club & team",
    "k": "p",
-   "domain": "micapetown.com"
+   "domain": "micapetown.com",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "ptiers": [
+    "Associate partner",
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-19",
+   "market": "Rest of World"
   },
   "mi-costenita": {
    "name": "Mi Costeñita",
@@ -47282,6 +47367,9 @@
   "mr-binman": {
    "name": "Mr Binman",
    "k": "b"
+  },
+  "mr-d": {
+   "name": "Mr D"
   },
   "mr-lube": {
    "name": "Mr. Lube",
@@ -53012,6 +53100,23 @@
     "icon"
    ]
   },
+  "paarl-royals": {
+   "name": "Paarl Royals",
+   "domain": "paarlroyals.com",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "ptiers": [
+    "Lead principal sponsor",
+    "Principal sponsor",
+    "Associate sponsor"
+   ],
+   "ptiersChecked": "2026-11-19",
+   "market": "Rest of World"
+  },
   "pacaembu-construtora": {
    "name": "Pacaembu Construtora",
    "k": "b"
@@ -53871,6 +53976,9 @@
   "peach-hampers": {
    "name": "Peach Hampers",
    "k": "b"
+  },
+  "peach-payments": {
+   "name": "Peach Payments"
   },
   "peachie-clean": {
    "name": "Peachie Clean",
@@ -55665,6 +55773,10 @@
     "logo"
    ]
   },
+  "pollen-finance": {
+   "name": "Pollen Finance",
+   "cat": "Banking & finance"
+  },
   "pollo-campero": {
    "name": "Pollo Campero",
    "k": "b"
@@ -56306,6 +56418,22 @@
   "prestons": {
    "name": "Prestons",
    "k": "b"
+  },
+  "pretoria-capitals": {
+   "name": "Pretoria Capitals",
+   "domain": "pretoria-capitals.com",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "ptiers": [
+    "Official principal partner",
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-19",
+   "market": "Rest of World"
   },
   "prezero": {
    "name": "PreZero",
@@ -59624,6 +59752,9 @@
    "name": "Rise 96.5",
    "k": "b"
   },
+  "rise-up-group": {
+   "name": "Rise Up Group"
+  },
   "rise-worldwide": {
    "name": "RISE Worldwide",
    "cat": "Professional services",
@@ -62867,6 +62998,9 @@
    "bf": [
     "icon"
    ]
+  },
+  "sedgars-sport": {
+   "name": "Sedgars Sport"
   },
   "sedulo": {
    "name": "Sedulo",
@@ -66986,6 +67120,9 @@
     "logo"
    ]
   },
+  "starluxe": {
+   "name": "Starluxe"
+  },
   "starmaxx": {
    "name": "starmaxx",
    "k": "b"
@@ -67102,6 +67239,9 @@
    "name": "Steelphalt",
    "cat": "Construction & property",
    "k": "b"
+  },
+  "steers": {
+   "name": "Steers"
   },
   "stefan-diamonds": {
    "name": "Stefan Diamonds",
@@ -67887,6 +68027,23 @@
   "sunny-kids": {
    "name": "Sunny Kids",
    "k": "b"
+  },
+  "sunrisers-eastern-cape": {
+   "name": "Sunrisers Eastern Cape",
+   "domain": "sunriserseasterncape.co",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "ptiers": [
+    "Principal partner",
+    "Official partner",
+    "Official concession partner"
+   ],
+   "ptiersChecked": "2026-11-19",
+   "market": "Rest of World"
   },
   "sunrisers-hyderabad": {
    "name": "Sunrisers Hyderabad",
@@ -75716,6 +75873,9 @@
    "cat": "Non-alcoholic drinks",
    "k": "b"
   },
+  "velociti-group-holdings": {
+   "name": "Velociti Group Holdings"
+  },
   "velocity-black": {
    "name": "Velocity Black",
    "cat": "Hospitality & entertainment",
@@ -78872,6 +79032,9 @@
     "Exclusive Suppliers"
    ],
    "ptiersChecked": "2026-11-16"
+  },
+  "wimpy": {
+   "name": "Wimpy"
   },
   "win": {
    "name": "WIN",
