@@ -1104,6 +1104,9 @@
     "logo"
    ]
   },
+  "ace": {
+   "name": "ACE"
+  },
   "ace-competitions": {
    "name": "Ace Competitions",
    "k": "b"
@@ -1200,6 +1203,9 @@
    "k": "b",
    "logo": "assets/logos/acme-whistles.png",
    "domain": "acmewhistles.co.uk"
+  },
+  "acn": {
+   "name": "ACN"
   },
   "acorn-kia": {
    "name": "Acorn Kia",
@@ -1377,6 +1383,9 @@
   "ad-gefrin": {
    "name": "Ad Gefrin",
    "k": "b"
+  },
+  "ad-hazama": {
+   "name": "AD Hazama"
   },
   "adachi": {
    "name": "Adachi",
@@ -1824,6 +1833,13 @@
    "name": "AEI",
    "k": "b"
   },
+  "aeon-hokkaido": {
+   "name": "Aeon Hokkaido"
+  },
+  "aeon-retail": {
+   "name": "Aeon Retail",
+   "cat": "Retail"
+  },
   "aep": {
    "name": "AEP",
    "k": "b"
@@ -2178,11 +2194,17 @@
    "name": "AIM Sport",
    "k": "b"
   },
+  "aim-universe": {
+   "name": "Aim Universe"
+  },
   "aims": {
    "name": "AIMS",
    "cat": "Fintech, crypto & trading",
    "k": "b",
    "domain": "aimsfx.com"
+  },
+  "ain-holdings": {
+   "name": "Ain Holdings"
   },
   "ainslie-ainslie": {
    "name": "Ainslie + Ainslie",
@@ -2200,6 +2222,9 @@
   "air-canada": {
    "name": "Air Canada",
    "k": "b"
+  },
+  "air-do": {
+   "name": "AIR DO"
   },
   "air-india-express": {
    "name": "Air India Express",
@@ -2660,6 +2685,9 @@
    "k": "b",
    "cat": "Automotive",
    "domain": "alfaromeo.com"
+  },
+  "alfas-keiso": {
+   "name": "Alfas Keiso"
   },
   "alfatech": {
    "name": "AlfaTech",
@@ -3268,6 +3296,9 @@
    "name": "Ambiente e Salute",
    "k": "b"
   },
+  "ambitious": {
+   "name": "Ambitious"
+  },
   "ambra": {
    "name": "Ambra",
    "k": "b"
@@ -3580,6 +3611,9 @@
     "icon",
     "logo"
    ]
+  },
+  "ana": {
+   "name": "ANA"
   },
   "anaconda": {
    "name": "Anaconda",
@@ -4382,6 +4416,9 @@
    "name": "Argosped",
    "k": "b"
   },
+  "ariake": {
+   "name": "Ariake"
+  },
   "arianna-milia": {
    "name": "Arianna Milia",
    "k": "b"
@@ -4931,6 +4968,9 @@
    "name": "Asisa",
    "k": "b"
   },
+  "ask-gate": {
+   "name": "Ask Gate"
+  },
   "asm-global": {
    "name": "ASM Global",
    "k": "b"
@@ -5078,6 +5118,9 @@
     "icon",
     "logo"
    ]
+  },
+  "astrolab": {
+   "name": "Astrolab"
   },
   "astroturf": {
    "name": "AstroTurf",
@@ -6962,6 +7005,10 @@
    "cat": "Banking & finance",
    "k": "b"
   },
+  "bandai": {
+   "name": "Bandai",
+   "cat": "Gaming & esports"
+  },
   "bandai-namco": {
    "name": "Bandai Namco",
    "cat": "Gaming & esports",
@@ -7994,6 +8041,9 @@
    "cat": "Telco",
    "k": "b"
   },
+  "bellco": {
+   "name": "Bellco"
+  },
   "belt-up": {
    "name": "Belt Up",
    "k": "b"
@@ -8525,6 +8575,9 @@
   "bibigo": {
    "name": "bibigo",
    "k": "b"
+  },
+  "bic-camera": {
+   "name": "Bic Camera"
   },
   "bico-de-xeado": {
    "name": "Bico de Xeado",
@@ -9199,6 +9252,9 @@
    "cat": "Food & nutrition",
    "k": "b"
   },
+  "bloom-build": {
+   "name": "Bloom Build"
+  },
   "bloom-energy": {
    "name": "Bloom Energy",
    "domain": "bloomenergy.com",
@@ -9542,6 +9598,12 @@
   "boat-race-miyajima": {
    "name": "Boat Race Miyajima",
    "k": "b"
+  },
+  "boat-race-shinkokai": {
+   "name": "BOAT RACE Shinkokai"
+  },
+  "boat-race-tokoname": {
+   "name": "Boat Race Tokoname"
   },
   "bob-hook-chevrolet": {
    "name": "Bob Hook Chevrolet",
@@ -11032,6 +11094,9 @@
    "name": "Budweiser 0.0",
    "cat": "Alcohol",
    "k": "b"
+  },
+  "buena-vista": {
+   "name": "Buena Vista"
   },
   "buffalo-bills": {
    "name": "Buffalo Bills",
@@ -12563,6 +12628,9 @@
   "carbon-savers": {
    "name": "Carbon Savers",
    "k": "b"
+  },
+  "carcon": {
+   "name": "Carcon"
   },
   "cardiff-city": {
    "name": "Cardiff City",
@@ -14117,6 +14185,17 @@
    "name": "Chiba Higashi Kensetsu",
    "k": "b"
   },
+  "chiba-lotte-marines": {
+   "name": "Chiba Lotte Marines",
+   "domain": "marines.co.jp",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "market": "Asia"
+  },
   "chiba-nippo": {
    "name": "Chiba Nippo",
    "k": "b"
@@ -14532,6 +14611,27 @@
   "chungho-e-and-s": {
    "name": "Chungho E&S",
    "k": "b"
+  },
+  "chunichi-building": {
+   "name": "Chunichi Building",
+   "cat": "Construction & property"
+  },
+  "chunichi-dragons": {
+   "name": "Chunichi Dragons",
+   "domain": "dragons.co.jp",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "ptiers": [
+    "Official partner",
+    "Official gold sponsor",
+    "Official silver sponsor"
+   ],
+   "ptiersChecked": "2026-11-19",
+   "market": "Asia"
   },
   "chupps": {
    "name": "Chupps",
@@ -15445,6 +15545,9 @@
   "cnbc": {
    "name": "CNBC",
    "k": "b"
+  },
+  "cnci-group": {
+   "name": "CNCI Group"
   },
   "cncity-energy": {
    "name": "CNCITY Energy",
@@ -17791,6 +17894,10 @@
     "logo"
    ]
   },
+  "ctc": {
+   "name": "CTC (Chubu Telecommunications)",
+   "cat": "Telco"
+  },
   "ctfd-group": {
    "name": "CTFD Group",
    "k": "b"
@@ -19015,6 +19122,9 @@
    "name": "Denkichi",
    "k": "b"
   },
+  "denkodo": {
+   "name": "Denkodo (K's Denki)"
+  },
   "denman-prospect": {
    "name": "Denman Prospect",
    "k": "b"
@@ -19843,6 +19953,10 @@
   "docomo": {
    "name": "docomo",
    "k": "b"
+  },
+  "docomo-smtb-net-bank": {
+   "name": "docomo SMTB Net Bank",
+   "cat": "Banking & finance"
   },
   "docteur-du-pare-brise": {
    "name": "Docteur du Pare-Brise",
@@ -22477,6 +22591,10 @@
     "logo"
    ]
   },
+  "epson": {
+   "name": "Epson",
+   "cat": "Technology"
+  },
   "epysa": {
    "name": "EPYSA",
    "k": "b"
@@ -22583,6 +22701,9 @@
   "erzbistum-paderborn": {
    "name": "Erzbistum Paderborn",
    "k": "b"
+  },
+  "es-con-japan": {
+   "name": "ES-CON Japan"
   },
   "es-electricite-de-strasbourg": {
    "name": "ÉS Électricité de Strasbourg",
@@ -23182,6 +23303,10 @@
     "icon",
     "logo"
    ]
+  },
+  "exdream-real-estate": {
+   "name": "Exdream Real Estate",
+   "cat": "Construction & property"
   },
   "exein": {
    "name": "Exein",
@@ -25884,6 +26009,9 @@
    "name": "Fuji",
    "k": "b"
   },
+  "fuji-corporation": {
+   "name": "Fuji Corporation"
+  },
   "fuji-electric": {
    "name": "Fuji Electric",
    "cat": "Energy & utilities",
@@ -25934,6 +26062,9 @@
    "name": "Fujita",
    "k": "b"
   },
+  "fujita-kinzoku": {
+   "name": "Fujita Kinzoku"
+  },
   "fujitsu": {
    "name": "Fujitsu",
    "cat": "Technology",
@@ -25948,6 +26079,9 @@
    "name": "Fujiya",
    "k": "b"
   },
+  "fukuda-denshi": {
+   "name": "Fukuda Denshi"
+  },
   "fukuda-metal-foil-and-powder": {
    "name": "Fukuda Metal Foil & Powder",
    "k": "b"
@@ -25955,6 +26089,17 @@
   "fukuoka-logitem": {
    "name": "Fukuoka Logitem",
    "k": "b"
+  },
+  "fukuoka-softbank-hawks": {
+   "name": "Fukuoka SoftBank Hawks",
+   "domain": "softbankhawks.co.jp",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "market": "Asia"
   },
   "fukuoka-toyopet": {
    "name": "Fukuoka Toyopet",
@@ -26113,6 +26258,10 @@
   "future-ticketing": {
    "name": "Future Ticketing",
    "k": "b"
+  },
+  "fwd-life-insurance": {
+   "name": "FWD Life Insurance",
+   "cat": "Insurance"
   },
   "fxpro": {
    "name": "FxPro",
@@ -26546,6 +26695,9 @@
    "ptiers": [
     "Title partner"
    ]
+  },
+  "gbiate": {
+   "name": "Gbiate"
   },
   "gd-goenka": {
    "name": "GD Goenka",
@@ -28063,6 +28215,9 @@
    "name": "Granarolo",
    "k": "b"
   },
+  "grand-anest": {
+   "name": "Grand Anest"
+  },
   "grand-casino": {
    "name": "Grand Casino",
    "cat": "Betting & wagering",
@@ -29355,6 +29510,17 @@
   "hansemerkur": {
    "name": "HanseMerkur",
    "k": "b"
+  },
+  "hanshin-tigers": {
+   "name": "Hanshin Tigers",
+   "domain": "hanshintigers.jp",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "market": "Asia"
   },
   "hanson-plywood": {
    "name": "Hanson Plywood",
@@ -30716,6 +30882,17 @@
    "cat": "Education",
    "k": "b"
   },
+  "hiroshima-toyo-carp": {
+   "name": "Hiroshima Toyo Carp",
+   "domain": "carp.co.jp",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "market": "Asia"
+  },
   "hisense": {
    "name": "Hisense",
    "domain": "hisense.com",
@@ -30994,9 +31171,39 @@
     "logo"
    ]
   },
+  "hokkaido-coca-cola-bottling": {
+   "name": "Hokkaido Coca-Cola Bottling",
+   "cat": "Non-alcoholic drinks"
+  },
+  "hokkaido-nippon-ham-fighters": {
+   "name": "Hokkaido Nippon-Ham Fighters",
+   "domain": "fighters.co.jp",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "ptiers": [
+    "Official premium sponsor",
+    "Official sponsor"
+   ],
+   "ptiersChecked": "2026-11-19",
+   "market": "Asia"
+  },
+  "hokkaido-shimbun": {
+   "name": "Hokkaido Shimbun"
+  },
   "hokoku": {
    "name": "Hokoku",
    "k": "b"
+  },
+  "hokuren": {
+   "name": "Hokuren"
+  },
+  "hokuyo-bank": {
+   "name": "Hokuyo Bank",
+   "cat": "Banking & finance"
   },
   "hola-health": {
    "name": "Hola Health",
@@ -31274,6 +31481,9 @@
    "name": "HOT 91.1",
    "k": "b",
    "cat": "Media & broadcast"
+  },
+  "hot-pepper-gourmet": {
+   "name": "Hot Pepper Gourmet"
   },
   "hot-sausage-company": {
    "name": "Hot Sausage Company",
@@ -32270,6 +32480,9 @@
    "name": "Ichishin",
    "k": "b"
   },
+  "ichiyoshi-securities": {
+   "name": "Ichiyoshi Securities"
+  },
   "ici-roussillon": {
    "name": "ici Roussillon",
    "k": "b"
@@ -32316,6 +32529,9 @@
   "idegy": {
    "name": "Idegy",
    "k": "b"
+  },
+  "idemitsu": {
+   "name": "Idemitsu"
   },
   "identity-partners": {
    "name": "Identity Partners",
@@ -32615,6 +32831,9 @@
     "icon",
     "logo"
    ]
+  },
+  "imca": {
+   "name": "IMCA"
   },
   "imed-hospitales": {
    "name": "IMED Hospitales",
@@ -33706,6 +33925,9 @@
    "cat": "Energy & utilities",
    "k": "b"
   },
+  "iris-ohyama": {
+   "name": "Iris Ohyama"
+  },
   "irish-examiner": {
    "name": "Irish Examiner",
    "k": "b"
@@ -33956,6 +34178,9 @@
    ],
    "ptiersChecked": "2026-11-18"
   },
+  "itami-sangyo": {
+   "name": "Itami Sangyo"
+  },
   "itc-master-chef": {
    "name": "ITC Master Chef",
    "k": "b"
@@ -33983,6 +34208,9 @@
   "ito-group": {
    "name": "Ito Group",
    "k": "b"
+  },
+  "itochu": {
+   "name": "Itochu"
   },
   "itrust": {
    "name": "iTrust",
@@ -34033,6 +34261,9 @@
    "name": "ivo",
    "k": "b"
   },
+  "iwakura-kensetsu": {
+   "name": "Iwakura Kensetsu"
+  },
   "iwasaki-honpo": {
    "name": "Iwasaki Honpo",
    "k": "b"
@@ -34040,6 +34271,9 @@
   "iwashiro-kozai": {
    "name": "Iwashiro Kozai",
    "k": "b"
+  },
+  "iwata-chizaki": {
+   "name": "Iwata Chizaki"
   },
   "iwc-schaffhausen": {
    "name": "IWC Schaffhausen",
@@ -34112,6 +34346,13 @@
     "icon"
    ]
   },
+  "j-sports": {
+   "name": "J Sports"
+  },
+  "ja-bank-aichi": {
+   "name": "JA Bank Aichi",
+   "cat": "Banking & finance"
+  },
   "ja-bank-shizuoka": {
    "name": "JA Bank Shizuoka",
    "cat": "Banking & finance",
@@ -34132,6 +34373,9 @@
   "ja-ibaraki": {
    "name": "JA Ibaraki",
    "k": "b"
+  },
+  "ja-kyosai": {
+   "name": "JA Kyosai"
   },
   "jaaq": {
    "name": "JAAQ",
@@ -34156,6 +34400,9 @@
   "jacanna": {
    "name": "Jacanna",
    "k": "b"
+  },
+  "jaccs": {
+   "name": "JACCS"
   },
   "jack-daniel-s": {
    "name": "Jack Daniel's",
@@ -35013,6 +35260,9 @@
    "name": "JOGA",
    "k": "b"
   },
+  "jogu-atom": {
+   "name": "Jogu Atom"
+  },
   "johan-cruyff-institute": {
    "name": "Johan Cruyff Institute",
    "cat": "Education",
@@ -35217,6 +35467,13 @@
    "cat": "Logistics & transport",
    "k": "b"
   },
+  "jr-central-building": {
+   "name": "JR Central Building",
+   "cat": "Construction & property"
+  },
+  "jr-central-takashimaya": {
+   "name": "JR Central Takashimaya"
+  },
   "jr-east": {
    "name": "JR East",
    "k": "b"
@@ -35285,6 +35542,9 @@
    "name": "JSW Powersports",
    "cat": "Energy & utilities",
    "k": "b"
+  },
+  "jt": {
+   "name": "JT"
   },
   "jtb": {
    "name": "JTB",
@@ -35374,6 +35634,9 @@
   "junta-de-andalucia": {
    "name": "Junta de Andalucía",
    "k": "b"
+  },
+  "juren": {
+   "name": "JUREN"
   },
   "jurovich-surveying": {
    "name": "Jurovich Surveying",
@@ -35533,6 +35796,9 @@
    "name": "Kaga FEI",
    "k": "b"
   },
+  "kahoku-shimpo": {
+   "name": "Kahoku Shimpo"
+  },
   "kaiser-permanente": {
    "name": "Kaiser Permanente",
    "k": "b"
@@ -35601,6 +35867,9 @@
    "name": "Kamps",
    "k": "b"
   },
+  "kanadevia": {
+   "name": "Kanadevia"
+  },
   "kandenko": {
    "name": "Kandenko",
    "k": "b"
@@ -35628,9 +35897,16 @@
     "logo"
    ]
   },
+  "kankyo-station": {
+   "name": "Kankyo Station"
+  },
   "kankyo-works": {
    "name": "Kankyo Works",
    "k": "b"
+  },
+  "kansai-mirai-bank": {
+   "name": "Kansai Mirai Bank",
+   "cat": "Banking & finance"
   },
   "kansai-signal-service": {
    "name": "Kansai Signal Service",
@@ -35996,6 +36272,10 @@
    "name": "Keio",
    "k": "b"
   },
+  "keisei-electric-railway": {
+   "name": "Keisei Electric Railway",
+   "cat": "Energy & utilities"
+  },
   "keiseikai": {
    "name": "Keiseikai",
    "k": "b"
@@ -36276,6 +36556,9 @@
    "name": "Kibble",
    "k": "b"
   },
+  "kibouken": {
+   "name": "Kibouken"
+  },
   "kick": {
    "name": "KICK",
    "cat": "Media & broadcast",
@@ -36527,6 +36810,10 @@
    "name": "Kinniku Shokudo",
    "k": "b"
   },
+  "kintetsu-department-store": {
+   "name": "Kintetsu Department Store",
+   "cat": "Tourism & government"
+  },
   "kinto": {
    "name": "Kinto",
    "k": "b"
@@ -36555,6 +36842,10 @@
     "icon",
     "logo"
    ]
+  },
+  "kirin-brewery": {
+   "name": "Kirin Brewery",
+   "cat": "Alcohol"
   },
   "kirkburton-electrical": {
    "name": "Kirkburton Electrical",
@@ -36875,6 +37166,9 @@
    "cat": "Industrial & manufacturing",
    "k": "b"
   },
+  "komatsu-bussan": {
+   "name": "Komatsu Bussan"
+  },
   "komehyo": {
    "name": "Komehyo",
    "k": "b"
@@ -36923,6 +37217,9 @@
   "konig-pilsener": {
    "name": "König Pilsener",
    "k": "b"
+  },
+  "konoike": {
+   "name": "Konoike"
   },
   "konqa": {
    "name": "Konqa",
@@ -37045,6 +37342,9 @@
     "icon",
     "logo"
    ]
+  },
+  "kosaido": {
+   "name": "Kosaido"
   },
   "koshiba-cleaning": {
    "name": "Koshiba Cleaning",
@@ -37274,6 +37574,9 @@
    "name": "Kukri",
    "k": "b"
   },
+  "kumashu-komuten": {
+   "name": "Kumashu Komuten"
+  },
   "kumho-hwasun-resort": {
    "name": "Kumho Hwasun Resort",
    "cat": "Airlines & travel",
@@ -37385,6 +37688,9 @@
   "kyocera-document-solutions": {
    "name": "Kyocera Document Solutions",
    "k": "b"
+  },
+  "kyoei": {
+   "name": "Kyoei"
   },
   "kyoei-seicha": {
    "name": "Kyoei Seicha",
@@ -41203,6 +41509,12 @@
    "name": "Maruchan",
    "k": "b"
   },
+  "maruha-nichiro": {
+   "name": "Maruha Nichiro"
+  },
+  "maruhan": {
+   "name": "Maruhan"
+  },
   "marui": {
    "name": "Marui",
    "k": "b"
@@ -41214,6 +41526,9 @@
   "marukome": {
    "name": "Marukome",
    "k": "b"
+  },
+  "marunaka-sogo-shoji": {
+   "name": "Marunaka Sogo Shoji"
   },
   "marutone": {
    "name": "Marutone",
@@ -42034,6 +42349,9 @@
   "meine-volksbank-raiffeisenbank": {
    "name": "meine Volksbank Raiffeisenbank",
    "k": "b"
+  },
+  "meitetsu": {
+   "name": "Meitetsu"
   },
   "melbourne": {
    "name": "Melbourne",
@@ -43067,6 +43385,10 @@
    "name": "Milkbasket",
    "cat": "Non-alcoholic drinks",
    "k": "b"
+  },
+  "milkland-hokkaido": {
+   "name": "Milkland Hokkaido",
+   "cat": "Non-alcoholic drinks"
   },
   "mill-hill-school": {
    "name": "Mill Hill School",
@@ -45102,6 +45424,9 @@
    "name": "MYES",
    "k": "b"
   },
+  "mynavi": {
+   "name": "Mynavi"
+  },
   "mynd-drinks": {
    "name": "MYND Drinks",
    "k": "b"
@@ -45217,6 +45542,9 @@
    "cat": "Media & broadcast",
    "k": "b"
   },
+  "nagase": {
+   "name": "Nagase (Toshin)"
+  },
   "nagata-brewing-machinery": {
    "name": "Nagata Brewing Machinery",
    "cat": "Alcohol",
@@ -45242,6 +45570,10 @@
    ],
    "ptiersChecked": "2026-11-19",
    "market": "Asia"
+  },
+  "nagoya-university-of-arts": {
+   "name": "Nagoya University of Arts",
+   "cat": "Education"
   },
   "nakanishi-metal-works": {
    "name": "Nakanishi Metal Works",
@@ -46634,6 +46966,9 @@
    "cat": "Media & broadcast",
    "k": "b"
   },
+  "newsedtech": {
+   "name": "NewsedTech"
+  },
   "newstalk": {
    "name": "Newstalk",
    "k": "b"
@@ -46944,6 +47279,12 @@
    "name": "Nihon Kogakuin",
    "k": "b"
   },
+  "nihon-trim": {
+   "name": "Nihon Trim"
+  },
+  "nihon-tsushin-kiki": {
+   "name": "Nihon Tsushin Kiki"
+  },
   "nikaido-shuzou": {
    "name": "Nikaido Shuzou",
    "k": "b"
@@ -47125,9 +47466,16 @@
    "cat": "Automotive",
    "k": "b"
   },
+  "nissei-advance": {
+   "name": "Nissei Advance"
+  },
   "nisshin-oillio": {
    "name": "Nisshin OilliO",
    "k": "b"
+  },
+  "nissin-foods": {
+   "name": "Nissin Foods",
+   "cat": "Food & nutrition"
   },
   "nissui": {
    "name": "Nissui",
@@ -47142,6 +47490,9 @@
    "k": "b",
    "domain": "niterragroup.com",
    "logo": "assets/logos/niterra.png"
+  },
+  "nitori": {
+   "name": "Nitori"
   },
   "nitto-atp-finals": {
    "name": "Nitto ATP Finals",
@@ -47269,6 +47620,15 @@
   "noevir": {
    "name": "Noevir",
    "k": "b"
+  },
+  "noguchi-kanko": {
+   "name": "Noguchi Kanko"
+  },
+  "nohmi-bosai": {
+   "name": "Nohmi Bosai"
+  },
+  "nojima": {
+   "name": "Nojima"
   },
   "noleggiare": {
    "name": "Noleggiare",
@@ -48472,6 +48832,9 @@
    "name": "OANDA",
    "k": "b"
   },
+  "obayashi": {
+   "name": "Obayashi"
+  },
   "object-1": {
    "name": "Object 1",
    "cat": "Construction & property",
@@ -48759,6 +49122,9 @@
    "name": "Ojeong Bon Hospital",
    "cat": "Health & beauty",
    "k": "b"
+  },
+  "okamoto-holdings": {
+   "name": "Okamoto Holdings"
   },
   "okanetsu-kogyo": {
    "name": "Okanetsu Kogyo",
@@ -49255,6 +49621,9 @@
    "name": "ONVO",
    "k": "b"
   },
+  "onward": {
+   "name": "Onward"
+  },
   "ooga-shokai": {
    "name": "Ooga Shokai",
    "k": "b"
@@ -49297,6 +49666,9 @@
     "icon",
     "logo"
    ]
+  },
+  "open-house": {
+   "name": "Open House"
   },
   "open-sb": {
    "name": "Open SB",
@@ -49554,6 +49926,22 @@
    "logo": "assets/logos/orix.png",
    "domain": "orix.co.jp"
   },
+  "orix-buffaloes": {
+   "name": "Orix Buffaloes",
+   "domain": "buffaloes.co.jp",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "ptiers": [
+    "Official sponsor",
+    "Sponsor"
+   ],
+   "ptiersChecked": "2026-11-19",
+   "market": "Asia"
+  },
   "orizon-systems": {
    "name": "Orizon Systems",
    "k": "b"
@@ -49760,6 +50148,9 @@
   "ostrica-ubriaca": {
    "name": "Ostrica Ubriaca",
    "k": "b"
+  },
+  "otafuku-glove": {
+   "name": "Otafuku Glove"
   },
   "otago-community-trust": {
    "name": "Otago Community Trust",
@@ -52398,6 +52789,9 @@
    "name": "Plumbing World",
    "cat": "Construction & property",
    "k": "b"
+  },
+  "plus-by-plus": {
+   "name": "Plus by Plus"
   },
   "plus-one": {
    "name": "Plus One",
@@ -57730,6 +58124,9 @@
    "name": "Saikai Toki",
    "k": "b"
   },
+  "saikyu-kogyo": {
+   "name": "Saikyu Kogyo"
+  },
   "sail-nova-scotia": {
    "name": "Sail Nova Scotia",
    "k": "b",
@@ -57983,6 +58380,17 @@
    "cat": "Banking & finance",
    "k": "b"
   },
+  "saitama-seibu-lions": {
+   "name": "Saitama Seibu Lions",
+   "domain": "seibulions.jp",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "market": "Asia"
+  },
   "sakata-seed": {
    "name": "Sakata Seed",
    "k": "b"
@@ -58131,6 +58539,9 @@
   "samty": {
    "name": "Samty",
    "k": "b"
+  },
+  "samty-holdings": {
+   "name": "Samty Holdings"
   },
   "samuel-adams": {
    "name": "Samuel Adams",
@@ -58379,6 +58790,9 @@
    "name": "Sanko Kensetsu",
    "k": "b"
   },
+  "sankyo-denki": {
+   "name": "Sankyo Denki"
+  },
   "sankyo-display": {
    "name": "Sankyo Display",
    "k": "b"
@@ -58386,6 +58800,13 @@
   "sankyo-frontier": {
    "name": "Sankyo Frontier",
    "k": "b"
+  },
+  "sankyo-seiko": {
+   "name": "Sankyo Seiko",
+   "cat": "Watches & luxury"
+  },
+  "sankyu": {
+   "name": "Sankyu"
   },
   "sanlucar": {
    "name": "SanLucar",
@@ -58475,6 +58896,13 @@
    "k": "b",
    "domain": "sap.com",
    "logo": "assets/logos/sap.png"
+  },
+  "sapporo-breweries": {
+   "name": "Sapporo Breweries",
+   "cat": "Alcohol"
+  },
+  "sapporo-drugstore": {
+   "name": "Sapporo Drugstore"
   },
   "saputo": {
    "name": "Saputo",
@@ -58597,6 +59025,10 @@
    "name": "SATI",
    "k": "b"
   },
+  "sato-pharmaceutical": {
+   "name": "Sato Pharmaceutical",
+   "cat": "Health & beauty"
+  },
   "saturn-petcare": {
    "name": "Saturn Petcare",
    "k": "b"
@@ -58671,6 +59103,10 @@
   "sberna": {
    "name": "Sberna",
    "k": "b"
+  },
+  "sbi-insurance": {
+   "name": "SBI Insurance",
+   "cat": "Insurance"
   },
   "sbi-life": {
    "name": "SBI Life",
@@ -59374,6 +59810,9 @@
    "name": "SEC",
    "k": "b"
   },
+  "secom": {
+   "name": "SECOM"
+  },
   "sector": {
    "name": "Sector",
    "k": "b"
@@ -59445,6 +59884,9 @@
   "seiboth-ingenieure": {
    "name": "Seiboth Ingenieure",
    "k": "b"
+  },
+  "seicomart": {
+   "name": "Seicomart"
   },
   "seiko": {
    "name": "Seiko",
@@ -59603,6 +60045,9 @@
    "k": "b",
    "domain": "senix.com.au"
   },
+  "senko": {
+   "name": "Senko"
+  },
   "senne": {
    "name": "SENNÉ",
    "k": "b"
@@ -59620,6 +60065,9 @@
   "senon": {
    "name": "Senon",
    "k": "b"
+  },
+  "sense-trust": {
+   "name": "Sense Trust"
   },
   "sensi-gelateria": {
    "name": "Sensi Gelateria",
@@ -60317,6 +60765,9 @@
   "shintoshi-kikaku": {
    "name": "Shintoshi Kikaku",
    "k": "b"
+  },
+  "shinwa-holdings": {
+   "name": "Shinwa Holdings"
   },
   "ship-healthcare-holdings": {
    "name": "Ship Healthcare Holdings",
@@ -61842,6 +62293,9 @@
   "soprema": {
    "name": "Soprema",
    "k": "b"
+  },
+  "soramame-company": {
+   "name": "Soramame Company"
   },
   "sorare": {
    "name": "Sorare",
@@ -63978,6 +64432,13 @@
    "logo": "assets/logos/suffolk-new-college.png",
    "domain": "suffolk.ac.uk"
   },
+  "sugimoto-meat": {
+   "name": "Sugimoto Meat",
+   "cat": "Food & nutrition"
+  },
+  "sugimoto-shoji": {
+   "name": "Sugimoto Shoji"
+  },
   "sui": {
    "name": "Sui",
    "cat": "Fintech, crypto & trading",
@@ -65405,6 +65866,9 @@
     "logo"
    ]
   },
+  "taiyo-life": {
+   "name": "Taiyo Life"
+  },
   "takana-seiyo-hospital": {
    "name": "Takana Seiyo Hospital",
    "cat": "Health & beauty",
@@ -65871,6 +66335,9 @@
    "name": "Tayto",
    "k": "b"
   },
+  "tbt-holdings": {
+   "name": "TbT Holdings"
+  },
   "tc-group": {
    "name": "TC Group",
    "k": "b"
@@ -66203,10 +66670,16 @@
    "cat": "Professional services",
    "k": "b"
   },
+  "tekwind": {
+   "name": "Tekwind"
+  },
   "telcospec": {
    "name": "Telcospec",
    "cat": "Telco",
    "k": "b"
+  },
+  "tele-marker-group": {
+   "name": "Tele Marker Group"
   },
   "teleclub": {
    "name": "Teleclub",
@@ -67818,6 +68291,9 @@
    "name": "Ticino Lamiere",
    "k": "b"
   },
+  "ticket-pia-nagoya": {
+   "name": "Ticket Pia Nagoya"
+  },
   "ticketco": {
    "name": "TicketCo",
    "k": "b"
@@ -68150,6 +68626,9 @@
    "cat": "Media & broadcast",
    "k": "b"
   },
+  "toa": {
+   "name": "Toa"
+  },
   "toa-civil-and-construction": {
    "name": "Toa Civil and Construction",
    "cat": "Construction & property",
@@ -68163,6 +68642,9 @@
   "toby-s-estate": {
    "name": "Toby's Estate",
    "k": "b"
+  },
+  "toconnect": {
+   "name": "ToConnect"
   },
   "today-fm": {
    "name": "Today FM",
@@ -68191,10 +68673,38 @@
    "name": "TOGA Group",
    "k": "b"
   },
+  "tohmei-group": {
+   "name": "Tohmei Group"
+  },
+  "toho-gas": {
+   "name": "Toho Gas",
+   "cat": "Energy & utilities"
+  },
   "toho-resort": {
    "name": "Toho Resort",
    "cat": "Airlines & travel",
    "k": "b"
+  },
+  "tohoku-rakuten-golden-eagles": {
+   "name": "Tohoku Rakuten Golden Eagles",
+   "domain": "rakuteneagles.jp",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "ptiers": [
+    "Official top sponsor",
+    "Official platinum sponsor",
+    "Official gold sponsor"
+   ],
+   "ptiersChecked": "2026-11-19",
+   "market": "Asia"
+  },
+  "tohoku-rokin-bank": {
+   "name": "Tohoku Rokin Bank",
+   "cat": "Banking & finance"
   },
   "tohshin-partners": {
    "name": "Tohshin Partners",
@@ -68209,6 +68719,10 @@
    "name": "TOKAI LIBMO",
    "k": "b"
   },
+  "tokai-radio": {
+   "name": "Tokai Radio",
+   "cat": "Media & broadcast"
+  },
   "tokai-rokin-bank": {
    "name": "Tokai Rokin Bank",
    "cat": "Banking & finance",
@@ -68221,6 +68735,10 @@
   "tokiwa-unyu": {
    "name": "Tokiwa Unyu",
    "k": "b"
+  },
+  "toko-electrical-construction": {
+   "name": "Toko Electrical Construction",
+   "cat": "Energy & utilities"
   },
   "tokyo-electron": {
    "name": "Tokyo Electron",
@@ -68243,6 +68761,10 @@
    "name": "Tokyo Joypolis",
    "k": "b"
   },
+  "tokyo-kiraboshi-financial-group": {
+   "name": "Tokyo Kiraboshi Financial Group",
+   "cat": "Banking & finance"
+  },
   "tokyo-lng-tanker": {
    "name": "Tokyo LNG Tanker",
    "k": "b"
@@ -68262,6 +68784,23 @@
    ],
    "ptiers": [
     "Top partner"
+   ],
+   "ptiersChecked": "2026-11-19",
+   "market": "Asia"
+  },
+  "tokyo-yakult-swallows": {
+   "name": "Tokyo Yakult Swallows",
+   "domain": "yakult-swallows.co.jp",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "ptiers": [
+    "Top sponsor",
+    "Business partner",
+    "Official sponsor"
    ],
    "ptiersChecked": "2026-11-19",
    "market": "Asia"
@@ -68785,6 +69324,9 @@
    "ptype": "Club & team",
    "k": "p"
   },
+  "touei-housing": {
+   "name": "Touei Housing"
+  },
   "toulouse-fc": {
    "name": "Toulouse FC",
    "domain": "toulousefc.com",
@@ -68958,6 +69500,10 @@
     "icon",
     "logo"
    ]
+  },
+  "toyoda-gosei": {
+   "name": "Toyoda Gosei",
+   "cat": "Collectibles & licensing"
   },
   "toyota": {
    "name": "Toyota",
@@ -69679,6 +70225,13 @@
    "name": "TSN 690",
    "k": "b"
   },
+  "tsuji-hongo-tax-accountants": {
+   "name": "Tsuji Hongo Tax Accountants",
+   "cat": "Professional services"
+  },
+  "tsuken": {
+   "name": "Tsuken"
+  },
   "tsunami-nutrition": {
    "name": "Tsunami Nutrition",
    "k": "b"
@@ -69976,6 +70529,9 @@
    "name": "UA92",
    "k": "b"
   },
+  "uacj": {
+   "name": "UACJ"
+  },
   "uae-pro-league": {
    "name": "UAE Pro League",
    "k": "p",
@@ -70072,6 +70628,9 @@
    "name": "UCLA Health",
    "cat": "Health & beauty",
    "k": "b"
+  },
+  "ucs": {
+   "name": "UCS"
   },
   "ucsf-health": {
    "name": "UCSF Health",
@@ -73839,6 +74398,9 @@
    "cat": "Banking & finance",
    "k": "b"
   },
+  "well-venus": {
+   "name": "Well Venus"
+  },
   "wellbeing-for-all": {
    "name": "Wellbeing For All",
    "cat": "Health & beauty",
@@ -74627,6 +75189,9 @@
   "willans": {
    "name": "Willans",
    "k": "b"
+  },
+  "willbe": {
+   "name": "Willbe"
   },
   "william-adams-cat": {
    "name": "William Adams CAT",
@@ -75854,6 +76419,9 @@
    "cat": "Logistics & transport",
    "k": "b"
   },
+  "yamaya": {
+   "name": "Yamaya"
+  },
   "yamazaki-baking": {
    "name": "Yamazaki Baking",
    "k": "b"
@@ -76015,6 +76583,9 @@
    "name": "YO1 uPVC",
    "k": "b"
   },
+  "yodobashi-camera": {
+   "name": "Yodobashi Camera"
+  },
   "yodoko": {
    "name": "Yodoko",
    "k": "b"
@@ -76036,6 +76607,21 @@
     "icon",
     "logo"
    ]
+  },
+  "yokohama-dena-baystars": {
+   "name": "Yokohama DeNA BayStars",
+   "domain": "baystars.co.jp",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "ptiers": [
+    "Sponsor"
+   ],
+   "ptiersChecked": "2026-11-19",
+   "market": "Asia"
   },
   "yokohama-f-marinos": {
    "name": "Yokohama F. Marinos",
@@ -76065,6 +76651,17 @@
    "name": "Yokohama Shinkin Bank",
    "cat": "Banking & finance",
    "k": "b"
+  },
+  "yomiuri-giants": {
+   "name": "Yomiuri Giants",
+   "domain": "giants.jp",
+   "ptype": "Club & team",
+   "k": "p",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "market": "Asia"
   },
   "yonex": {
    "name": "Yonex",
