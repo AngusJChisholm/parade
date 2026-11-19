@@ -194,16 +194,21 @@
    "sport": "Basketball",
    "type": "Major partner",
    "region": "ANZ",
-   "summary": "Listed as a major partner on UC Capitals's official partners page.",
-   "url": "https://uccapitals.wnbl.com.au/corporate/partners",
+   "summary": "UC Capitals renewed their partnership with Event AV Services (EAVS) for a second consecutive season (WNBL26), covering AV and gameday production. The first agreement was announced on 18 December 2024.",
+   "url": "https://uccapitals.wnbl.com.au/news/uc-capitals-partner-with-event-av-services-to-elevate-gameday-experience-for-wnbl26",
    "status": "Current partner",
    "market": "ANZ",
    "ptier": "Major partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-19",
+   "date": "2025-10-17",
+   "rights": [
+    "AV and gameday production partner"
+   ],
+   "rightsSrc": "https://uccapitals.wnbl.com.au/news/uc-capitals-partner-with-event-av-services-to-elevate-gameday-experience-for-wnbl26",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-19",
@@ -219,6 +224,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-19",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -901,6 +907,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-19",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -918,6 +925,7 @@
    "tier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-19",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "rights"
   },
@@ -1267,6 +1275,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-19",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -1276,16 +1285,21 @@
    "sport": "Basketball",
    "type": "Major partner",
    "region": "ANZ",
-   "summary": "Listed as a major partner on Geelong Venom's official partners page.",
-   "url": "https://geelongvenom.wnbl.com.au/partners",
+   "summary": "Gawk Outdoor joined Geelong United's new WNBL side as a Major Partner, providing billboard advertising across regional Victoria for the Founding Membership campaign. The month comes from the club's URL path because the page shows no date. Gawk is still listed as a Major Partner on the July 2025 Venom rebrand release.",
+   "url": "https://www.geelongunitedbasketball.com.au/2024/07/geelong-united-welcomes-gawk",
    "status": "Current partner",
    "market": "ANZ",
    "ptier": "Major partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-19",
+   "month": "2024-07",
+   "rights": [
+    "Billboard advertising across regional Victoria (Geelong, Torquay) for the Founding Membership campaign"
+   ],
+   "rightsSrc": "https://www.geelongunitedbasketball.com.au/2024/07/geelong-united-welcomes-gawk",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-19",
@@ -1301,6 +1315,7 @@
    "tier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-19",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "rights"
   },
@@ -51291,6 +51306,7 @@
    "verified": "2026-11-18",
    "conf": "Reported",
    "ptier": "Title partner",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "rights"
   },
@@ -51301,8 +51317,8 @@
    "sport": "Sailing",
    "type": "Presenting and title partner",
    "region": "ANZ",
-   "summary": "KPMG presents the Perth Sail Grand Prix and titles the KPMG Sydney Sail Grand Prix, a Sydney deal that dates back to 2023.",
-   "url": "https://www.sportcal.com/newsletters/sailgp-expands-deal-with-kpmg-in-digital-push",
+   "summary": "SailGP expanded its partnership with KPMG, which was title partner of the Sydney Sail Grand Prix, so that from 2026 KPMG acts as regional partner for the Perth and Sydney races as part of a wider digital partnership.",
+   "url": "https://www.sportcal.com/sponsorship/sailgp-expands-deal-with-kpmg-in-digital-push/",
    "tier": "Title sponsor",
    "status": "Current partner",
    "market": "ANZ",
@@ -51310,8 +51326,13 @@
    "verified": "2026-11-18",
    "conf": "Reported",
    "ptier": "Presenting and title partner",
+   "date": "2025-11-21",
+   "rights": [
+    "regional partner for Perth and Sydney races (from 2026)"
+   ],
+   "rightsSrc": "https://www.sportcal.com/sponsorship/sailgp-expands-deal-with-kpmg-in-digital-push/",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-18",
@@ -55821,8 +55842,8 @@
    "sport": "Tennis",
    "type": "Naming rights",
    "region": "ANZ",
-   "summary": "McDonald's backs Tennis Queensland's Macca's JDS junior series.",
-   "url": "https://www.tennis.com.au/qld/about-us/who-we-are/our-partners",
+   "summary": "Tennis Queensland named McDonald's naming rights partner of the Junior Development Series Queensland. The naming rights cover the program, not Tennis Queensland itself, and the release does not say whether this is a new agreement or a renewal.",
+   "url": "https://www.tennis.com.au/qld/news/2025/05/06/junior-development-series-queensland-serving-up-success-with-mcdonalds",
    "tier": "Naming rights",
    "status": "Current partner",
    "market": "ANZ",
@@ -55832,8 +55853,13 @@
    "conf": "Confirmed",
    "verified": "2026-11-18",
    "ptier": "Naming rights",
+   "date": "2025-05-06",
+   "rights": [
+    "naming rights to Junior Development Series Queensland"
+   ],
+   "rightsSrc": "https://www.tennis.com.au/qld/news/2025/05/06/junior-development-series-queensland-serving-up-success-with-mcdonalds",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced"
   },
   {
    "deal": "Wilson × Alex de Minaur",
@@ -92998,16 +93024,24 @@
    "sport": "Rugby union",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a lions women principal partner on British & Irish Lions's official partners page.",
-   "url": "https://www.lionsrugby.com/en",
+   "summary": "Nike became the Lions' official kit supplier, exclusive kit supplier for the first Lions Women's tour to New Zealand in 2027 and a principal partner of the Howden Lions Women's Series.",
+   "url": "https://www.lionsrugby.com/en/news/british-and-irish-lions-agree-partnership-with-nike",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Lions Women principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2026-01-14",
+   "rights": [
+    "official kit supplier",
+    "exclusive kit supplier Lions Women 2027",
+    "principal partner Howden British & Irish Lions Women's Series 2027",
+    "principal partner Lions Origins Clubs and Schools"
+   ],
+   "rightsSrc": "https://www.lionsrugby.com/en/news/british-and-irish-lions-agree-partnership-with-nike",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -93015,16 +93049,22 @@
    "sport": "Rugby union",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a lions women principal partner on British & Irish Lions's official partners page.",
-   "url": "https://www.lionsrugby.com/en",
+   "summary": "Howden confirmed as Series Title Partner of the inaugural Lions Women's tour to New Zealand, extending its four-year principal partnership signed in July 2023 that included the 2025 men's front of jersey.",
+   "url": "https://www.lionsrugby.com/en/news/british-irish-lions-womens-team-launched",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Lions Women principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2024-01-16",
+   "rights": [
+    "series title partner (Howden British & Irish Lions Women's Series)",
+    "Lions Origin Clubs community programme"
+   ],
+   "rightsSrc": "https://www.lionsrugby.com/en/news/british-irish-lions-womens-team-launched",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -93032,16 +93072,22 @@
    "sport": "Rugby union",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a lions women principal partner on British & Irish Lions's official partners page.",
-   "url": "https://www.lionsrugby.com/en",
+   "summary": "Royal London confirmed as Founding Partner of the Lions Women's team and front-of-jersey sponsor, also funding women's pathway grants across the four unions.",
+   "url": "https://www.lionsrugby.com/en/news/british-irish-lions-womens-team-launched",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Lions Women principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2024-01-16",
+   "rights": [
+    "front of jersey (Lions Women)",
+    "founding partner of Lions Women"
+   ],
+   "rightsSrc": "https://www.lionsrugby.com/en/news/british-irish-lions-womens-team-launched",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -93777,7 +93823,7 @@
    "sport": "Netball",
    "type": "Official partner",
    "region": "Global",
-   "summary": "Named official partner (front of dress) in an official Birmingham Panthers announcement.",
+   "summary": "Hengistbury joined Birmingham Panthers as an official partner for the 2026 Netball Super League season, with its name on the front of the playing dress and media access to tell the squad's stories.",
    "url": "https://www.birminghampanthers.com/news-article/hengistbury-and-birmingham-panthers-announce-strategic-partnership-to-elevate-women-in-sport/",
    "status": "Current partner",
    "market": "UK & Ireland",
@@ -93786,8 +93832,17 @@
    "ptier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2026-03-12",
+   "ends": 2026,
+   "rights": [
+    "front of dress",
+    "media and content access"
+   ],
+   "rightsSrc": "https://www.birminghampanthers.com/news-article/hengistbury-and-birmingham-panthers-announce-strategic-partnership-to-elevate-women-in-sport/",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced",
+   "tends": 2026,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -94543,6 +94598,7 @@
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "rights"
   },
@@ -98833,16 +98889,21 @@
    "sport": "Cricket",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Listed as a ground naming rights partner on Hampshire Cricket's official partners page.",
-   "url": "https://www.utilitabowl.com/cricket/club/sponsors-and-partners/",
+   "summary": "Multi-year partnership in which Utilita Energy took naming rights to Hampshire's ground, renamed Utilita Bowl, with a green energy programme. Term not stated.",
+   "url": "https://www.utilitabowl.com/cricket/news/newly-named-utilita-bowl-strives-to-become-the-worlds-greenest-cricket-ground-in-new-multi-year-partnership/",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Ground naming rights partner",
    "tier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2024-01-19",
+   "rights": [
+    "ground naming rights (Utilita Bowl)"
+   ],
+   "rightsSrc": "https://www.utilitabowl.com/cricket/news/newly-named-utilita-bowl-strives-to-become-the-worlds-greenest-cricket-ground-in-new-multi-year-partnership/",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -99377,8 +99438,14 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "datesTried": "2026-11-19",
+   "rights": [
+    "front of shirt (Vitality Blast, men's and women's)",
+    "principal T20 partner"
+   ],
+   "rightsSrc": "https://www.dragonsports.co.uk/news/dragonbet-unveiled-as-glamorgan-crickets-new-t20-blast-front-of-shirt-partner-for-2026-season",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -99583,16 +99650,27 @@
    "sport": "Cricket",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner on Essex Cricket's official partners page.",
-   "url": "https://essexcricket.org.uk/partners/",
+   "summary": "Existing principal partner Woodland Group sponsors Essex's 150th anniversary year in 2026 and is front-of-shirt partner for the County Championship side; relationship spans about 15 years. No contract term stated.",
+   "url": "https://essexcricket.org.uk/2026/01/14/woodland-group-sponsor-150th-anniversary-year/",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2026-01-14",
+   "term": 15,
+   "ends": 2041,
+   "endsEst": true,
+   "rights": [
+    "front of shirt (County Championship)",
+    "150th anniversary sponsor"
+   ],
+   "rightsSrc": "https://essexcricket.org.uk/2026/01/14/woodland-group-sponsor-150th-anniversary-year/",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2041,
+   "tendsBasis": "term"
   },
   {
    "listed": "2026-11-17",
@@ -99600,16 +99678,23 @@
    "sport": "Cricket",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner on Essex Cricket's official partners page.",
-   "url": "https://essexcricket.org.uk/partners/",
+   "summary": "Price Forbes expanded its existing partnership to become an Essex principal partner, with training-wear front branding and naming of the Graham Gooch Cricket Centre.",
+   "url": "https://essexcricket.org.uk/2025/03/19/price-forbes-sign-up-as-new-principal-partner",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2025-03-19",
+   "rights": [
+    "front of training wear",
+    "naming rights to the Graham Gooch Cricket Centre",
+    "nets and ground branding"
+   ],
+   "rightsSrc": "https://essexcricket.org.uk/2025/03/19/price-forbes-sign-up-as-new-principal-partner",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -99617,16 +99702,21 @@
    "sport": "Cricket",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Listed as a ground naming rights on Essex Cricket's official partners page.",
-   "url": "https://essexcricket.org.uk/partners/",
+   "summary": "Multi-year agreement giving Ambassador Cruise Line naming rights to Essex's Chelmsford ground, now the Ambassador Cruise Line Ground.",
+   "url": "https://essexcricket.org.uk/2025/02/13/ambassador-cruise-line-become-ground-naming-partner",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Ground naming rights",
    "tier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2025-02-13",
+   "rights": [
+    "ground naming rights (Ambassador Cruise Line Ground, Chelmsford)"
+   ],
+   "rightsSrc": "https://essexcricket.org.uk/2025/02/13/ambassador-cruise-line-become-ground-naming-partner",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -100299,16 +100389,22 @@
    "sport": "Cricket",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner on Durham Cricket's official partners page.",
-   "url": "https://www.durhamcricket.co.uk/partners2026/",
+   "summary": "Multi-year partnership in which Banks Group became Durham's principal partner and the Riverside was renamed Banks Homes Riverside, with branding on men's, women's and Pathway kits.",
+   "url": "https://www.durhamcricket.co.uk/news-and-media/durham-cricket-riverside-ground-renamed-banks-homes-riverside-in-new-ground-naming-rights-deal/",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2025-04-01",
+   "rights": [
+    "ground naming rights (Banks Homes Riverside)",
+    "kit branding (men's, women's and Pathway teams)"
+   ],
+   "rightsSrc": "https://www.durhamcricket.co.uk/news-and-media/durham-cricket-riverside-ground-renamed-banks-homes-riverside-in-new-ground-naming-rights-deal/",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -100406,16 +100502,22 @@
    "sport": "Cricket",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner & ground sponsor on Derbyshire CCC's official partners page.",
-   "url": "https://derbyshireccc.com/",
+   "summary": "Two-year partnership with Central Co-op, including naming of the Central Co-op County Ground; the ground was renamed The OurCoop County Ground from 1 July 2026 under the same partnership.",
+   "url": "https://derbyshireccc.com/2025/05/derbyshire-announce-partnership-with-central-co-op/",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal partner & ground sponsor",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2025-05-30",
+   "term": 2,
+   "ends": 2027,
+   "endsEst": true,
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "role",
+   "tends": 2027,
+   "tendsBasis": "term"
   },
   {
    "listed": "2026-11-17",
@@ -105515,16 +105617,27 @@
    "sport": "Rugby league",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner on Hull KR's official partners page.",
-   "url": "https://hullkr.co.uk/",
+   "summary": "Hünnebeck joined Hull KR as principal partner in the principal shirt position for the 2026 and 2027 seasons.",
+   "url": "https://hullkr.co.uk/news/hull-kr-welcome-huennebeck-as-a-new-principal-partner",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2025-09-30",
+   "term": 2,
+   "ends": 2027,
+   "endsLock": true,
+   "endsSrc": "https://hullkr.co.uk/news/hull-kr-welcome-huennebeck-as-a-new-principal-partner",
+   "rights": [
+    "principal shirt position"
+   ],
+   "rightsSrc": "https://hullkr.co.uk/news/hull-kr-welcome-huennebeck-as-a-new-principal-partner",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2027,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -105532,16 +105645,27 @@
    "sport": "Rugby league",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner on Hull KR's official partners page.",
-   "url": "https://hullkr.co.uk/",
+   "summary": "Two-year extension of Sewell Group's stadium naming rights (Sewell Group Craven Park) and principal partnership, to the end of the 2027 season.",
+   "url": "https://sewell-group.co.uk/partnership-extension-with-treble-winners-hull-kr/",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2025-10-24",
+   "term": 2,
+   "ends": 2027,
+   "endsLock": true,
+   "endsSrc": "https://sewell-group.co.uk/partnership-extension-with-treble-winners-hull-kr/",
+   "rights": [
+    "stadium naming rights (Sewell Group Craven Park)"
+   ],
+   "rightsSrc": "https://sewell-group.co.uk/partnership-extension-with-treble-winners-hull-kr/",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2027,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -106802,6 +106926,7 @@
    "tier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "rights"
   },
@@ -108038,16 +108163,27 @@
    "sport": "Rugby league",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Listed as a stadium naming partner on Castleford Tigers's official partners page.",
-   "url": "https://castlefordtigers.com/sponsorship/kit-partnerships",
+   "summary": "OneBore Tunnelling took two-year naming rights to Wheldon Road, now The OneBore Stadium, effective immediately in August 2025.",
+   "url": "https://castlefordtigers.com/article/41/tigers-secure-landmark-stadium-partnership",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Stadium naming partner",
    "tier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2025-08-12",
+   "term": 2,
+   "ends": 2027,
+   "endsLock": true,
+   "endsSrc": "https://castlefordtigers.com/article/41/tigers-secure-landmark-stadium-partnership",
+   "rights": [
+    "stadium naming rights (The OneBore Stadium)"
+   ],
+   "rightsSrc": "https://castlefordtigers.com/article/41/tigers-secure-landmark-stadium-partnership",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced",
+   "tends": 2027,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -110678,16 +110814,24 @@
    "sport": "Rugby union",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner on Cardiff Rugby's official partners page.",
-   "url": "https://www.cardiffrugby.wales/our-partners/",
+   "summary": "RSK joined Cardiff Rugby as principal partner and shirt sponsor in August 2023 and remains on the front of the 2025/26 home shirt; no later renewal announcement found.",
+   "url": "https://www.cardiffrugby.wales/news/rsk-teams-up-with-cardiff-rugby-to-drive-sustainability-success/",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2023-08-30",
+   "ends": 2026,
+   "rights": [
+    "front of shirt"
+   ],
+   "rightsSrc": "https://www.cardiffrugby.wales/news/new-kit-2025/",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2026,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -110965,16 +111109,26 @@
    "sport": "Rugby union",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Listed as a stadium naming partner on Edinburgh Rugby's official partners page.",
-   "url": "https://edinburghrugby.org/commercial/sponsors-and-partners/",
+   "summary": "Five-year Scottish Rugby partnership with Scottish Gas under which Edinburgh Rugby's home was renamed Hive Stadium (Scottish Gas also took Murrayfield naming). End year not stated.",
+   "url": "https://edinburghrugby.org/news-and-features/edinburgh-rugby-stadium-renamed-as-part-of-scottish-rugby-partnership-with-scottish-gas/",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Stadium naming partner",
    "tier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2023-07-13",
+   "term": 5,
+   "ends": 2028,
+   "endsEst": true,
+   "rights": [
+    "stadium naming rights (Hive Stadium)"
+   ],
+   "rightsSrc": "https://edinburghrugby.org/news-and-features/edinburgh-rugby-stadium-renamed-as-part-of-scottish-rugby-partnership-with-scottish-gas/",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced",
+   "tends": 2028,
+   "tendsBasis": "term"
   },
   {
    "listed": "2026-11-17",
@@ -111778,16 +111932,27 @@
    "sport": "Rugby union",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Listed as a stadium naming partner on Connacht Rugby's official partners page.",
-   "url": "https://www.connachtrugby.ie/our-partners/",
+   "summary": "Twelve-year naming rights partnership renaming The Sportsground as Dexcom Stadium ahead of its redevelopment.",
+   "url": "https://www.rte.ie/sport/rugby/2024/0118/1427396-connacht-announce-stadium-plans-and-naming-rights-deal",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Stadium naming partner",
    "tier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2024-01-18",
+   "term": 12,
+   "ends": 2036,
+   "endsLock": true,
+   "endsSrc": "https://www.rte.ie/sport/rugby/2024/0118/1427396-connacht-announce-stadium-plans-and-naming-rights-deal",
+   "rights": [
+    "stadium naming rights (Dexcom Stadium)"
+   ],
+   "rightsSrc": "https://www.rte.ie/sport/rugby/2024/0118/1427396-connacht-announce-stadium-plans-and-naming-rights-deal",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced",
+   "tends": 2036,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -111795,16 +111960,27 @@
    "sport": "Rugby union",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner on Connacht Rugby's official partners page.",
-   "url": "https://www.connachtrugby.ie/our-partners/",
+   "summary": "Extension of Genesys's principal partnership until 2027, with its branding across all Connacht apparel including matchday kit for the men's and women's teams.",
+   "url": "https://www.connachtrugby.ie/news/connacht-rugby-and-genesys-join-forces-until-2027/bp3092/",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2024-08-07",
+   "ends": 2027,
+   "endsLock": true,
+   "endsSrc": "https://www.connachtrugby.ie/news/connacht-rugby-and-genesys-join-forces-until-2027/bp3092/",
+   "rights": [
+    "matchday kit branding (men's and women's)",
+    "all club apparel"
+   ],
+   "rightsSrc": "https://www.connachtrugby.ie/news/connacht-rugby-and-genesys-join-forces-until-2027/bp3092/",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2027,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -116504,8 +116680,13 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "datesTried": "2026-11-19",
+   "rights": [
+    "front of shirt (Bristol Bears Women)"
+   ],
+   "rightsSrc": "https://xledger.com/uk/?p=17755",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -116521,6 +116702,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "role"
   },
@@ -116530,16 +116712,24 @@
    "sport": "Rugby union",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner on Bristol Bears's official partners page.",
-   "url": "https://www.bristolbearsrugby.com/our-club-partners/",
+   "summary": "Multi-year partnership making Good Energy the training kit partner for Bristol Bears men and women from the 2025/26 season.",
+   "url": "https://www.goodenergy.co.uk/press-releases/new-training-kit-partner-for-bristol-bears-thats-good-energy/",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2025-05-22",
+   "ends": 2026,
+   "rights": [
+    "training kit (men's and women's)"
+   ],
+   "rightsSrc": "https://www.goodenergy.co.uk/press-releases/new-training-kit-partner-for-bristol-bears-thats-good-energy/",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2026,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -116547,16 +116737,26 @@
    "sport": "Rugby union",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner on Bristol Bears's official partners page.",
-   "url": "https://www.bristolbearsrugby.com/our-club-partners/",
+   "summary": "Multi-year principal partnership from 2026/27 with shirt branding for the men's and women's teams, principal partner of the Bristol Bears Foundation and preferred legal services provider.",
+   "url": "https://www.footanstey.com/?p=18616",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2026-07-02",
+   "ends": 2027,
+   "rights": [
+    "shirt branding (men's and women's teams)",
+    "principal partner of Bristol Bears Foundation",
+    "preferred exclusive legal services provider"
+   ],
+   "rightsSrc": "https://www.footanstey.com/?p=18616",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2027,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -117360,6 +117560,7 @@
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "rights"
   },
@@ -119225,16 +119426,27 @@
    "sport": "Football",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner on Hearts's official partners page.",
-   "url": "https://www.heartsfc.co.uk/pages/official-club-partners",
+   "summary": "hummel returned as Hearts' technical kit partner on a five-year agreement from 2025/26 (seasons 2025/26 to 2029/30).",
+   "url": "https://www.heartsfc.co.uk/blogs/news/hummel-to-become-new-technical-kit-supplier",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2025-02-14",
+   "term": 5,
+   "ends": 2030,
+   "endsLock": true,
+   "endsSrc": "https://www.heartsfc.co.uk/blogs/news/hummel-to-become-new-technical-kit-supplier",
+   "rights": [
+    "technical kit supplier"
+   ],
+   "rightsSrc": "https://www.heartsfc.co.uk/blogs/news/hummel-to-become-new-technical-kit-supplier",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2030,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -119242,16 +119454,27 @@
    "sport": "Football",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner on Hearts's official partners page.",
-   "url": "https://www.heartsfc.co.uk/pages/official-club-partners",
+   "summary": "Three-year front-of-shirt partnership from 2024/25 on men's and women's home, away and third kits (seasons 2024/25 to 2026/27).",
+   "url": "https://www.heartsfc.co.uk/blogs/news/stellar-omada-new-front-of-shirt-partner",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2024-03-15",
+   "term": 3,
+   "ends": 2027,
+   "endsLock": true,
+   "endsSrc": "https://www.heartsfc.co.uk/blogs/news/stellar-omada-new-front-of-shirt-partner",
+   "rights": [
+    "front of shirt (men's and women's)"
+   ],
+   "rightsSrc": "https://www.heartsfc.co.uk/blogs/news/stellar-omada-new-front-of-shirt-partner",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2027,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -120542,6 +120765,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "role"
   },
@@ -121009,16 +121233,28 @@
    "sport": "Football",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner on Aberdeen's official partners page.",
-   "url": "https://www.afc.co.uk/en/commercial/partnerships",
+   "summary": "Boskalis renewed as principal partner of AFC Women for three more years, keeping its branding on the women's playing kit and adding support for the AFC Girls Academy.",
+   "url": "https://www.afc.co.uk/en/news/boskalis-continue-to-champion-afc-women",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2024-07-09",
+   "term": 3,
+   "ends": 2027,
+   "endsEst": true,
+   "rights": [
+    "principal partner of AFC Women",
+    "front of AFC Women playing kit",
+    "AFC Girls Academy support"
+   ],
+   "rightsSrc": "https://www.afc.co.uk/en/news/boskalis-continue-to-champion-afc-women",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2027,
+   "tendsBasis": "term"
   },
   {
    "listed": "2026-11-17",
@@ -121026,16 +121262,26 @@
    "sport": "Football",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner on Aberdeen's official partners page.",
-   "url": "https://www.afc.co.uk/en/commercial/partnerships",
+   "summary": "Aberdeen signed a multi-year partnership with Macron as Official Technical Partner from the 2026/27 season, replacing adidas after 15 years.",
+   "url": "https://www.afc.co.uk/en/news/aberdeen-fc-announces-record-breaking-partnership-with-macron",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2026-06-04",
+   "ends": 2027,
+   "rights": [
+    "Official Technical Partner",
+    "kit and training apparel for First Team, Academy and Women",
+    "supporter clothing and merchandise"
+   ],
+   "rightsSrc": "https://www.afc.co.uk/en/news/aberdeen-fc-announces-record-breaking-partnership-with-macron",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2027,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -121043,16 +121289,28 @@
    "sport": "Football",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner on Aberdeen's official partners page.",
-   "url": "https://www.afc.co.uk/en/commercial/partnerships",
+   "summary": "TEXO extended its shirt sponsorship of Aberdeen on a multi-year agreement running to summer 2028, which the club called the biggest commercial partnership in its history. The release was posted by Aberdeen FC on the Aberdeen and Grampian Chamber of Commerce site.",
+   "url": "https://www.agcc.co.uk/news-article/texo-extends-partnership-with-aberdeen-fc-as-shirt-sponsor-on-multi-year-deal",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2025-05-19",
+   "ends": 2028,
+   "endsLock": true,
+   "endsSrc": "https://www.agcc.co.uk/news-article/texo-extends-partnership-with-aberdeen-fc-as-shirt-sponsor-on-multi-year-deal",
+   "rights": [
+    "shirt sponsor",
+    "branding on men's first team and academy match and training kits",
+    "replica shirts"
+   ],
+   "rightsSrc": "https://www.agcc.co.uk/news-article/texo-extends-partnership-with-aberdeen-fc-as-shirt-sponsor-on-multi-year-deal",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2028,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -183272,6 +183530,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "role"
   },
@@ -183281,16 +183540,24 @@
    "sport": "Football",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal club partner on Hull City's official partners page.",
-   "url": "https://www.wearehullcity.co.uk/",
+   "summary": "Hull-born OXEN Sports replaced Kappa as Hull City's kit supplier from 2026/27, supplying on-pitch and training apparel plus a retail range. Term not stated.",
+   "url": "https://www.hellorayo.co.uk/hits-radio/east-yorkshire/news/hull-city-oxen-sports-partnership-retro-home-kit-reveal",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal club partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2026-06-11",
+   "ends": 2027,
+   "rights": [
+    "technical kit supplier (on-pitch and training apparel)"
+   ],
+   "rightsSrc": "https://www.hellorayo.co.uk/hits-radio/east-yorkshire/news/hull-city-oxen-sports-partnership-retro-home-kit-reveal",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2027,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-16",
@@ -183306,6 +183573,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "role"
   },
@@ -183315,16 +183583,29 @@
    "sport": "Football",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal club partner on Hull City's official partners page.",
-   "url": "https://www.wearehullcity.co.uk/",
+   "summary": "Corendon Airlines renewed as Hull City's front-of-shirt sponsor for three more seasons from 2026/27 (to 2028/29), also keeping the Raich Carter Suite naming. A 2025 extension had run to 2027.",
+   "url": "https://www.sportcal.com/sponsorship/soccer-wrap-aston-villa-hull-city-real-betis-osasuna-juventus/",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal club partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2026-07-24",
+   "term": 3,
+   "ends": 2029,
+   "endsLock": true,
+   "endsSrc": "https://www.sportcal.com/sponsorship/soccer-wrap-aston-villa-hull-city-real-betis-osasuna-juventus/",
+   "rights": [
+    "front of shirt",
+    "hospitality suite naming (Corendon Airlines Raich Carter Suite)",
+    "official travel partner"
+   ],
+   "rightsSrc": "https://www.sportcal.com/sponsorship/soccer-wrap-aston-villa-hull-city-real-betis-osasuna-juventus/",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2029,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-16",
@@ -183910,16 +184191,24 @@
    "sport": "Football",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal club partner on Fulham's official partners page.",
-   "url": "https://www.fulhamfc.com/",
+   "summary": "Extended partnership making HiBob a Fulham principal partner and official sleeve partner, debuting on the third kit on 29 November 2025. Term not stated.",
+   "url": "https://www.hibob.com/news/fulham-fc-announces-extended-partnership-with-hibob-as-official-sleeve-partner-principal-partner/",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal club partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2025-12-15",
+   "rights": [
+    "sleeve",
+    "official HCM platform"
+   ],
+   "rightsSrc": "https://www.hibob.com/news/fulham-fc-announces-extended-partnership-with-hibob-as-official-sleeve-partner-principal-partner/",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-11-16",
@@ -183935,6 +184224,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "role"
   },
@@ -184979,16 +185269,22 @@
    "sport": "Football",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner on Coventry City's official partners page.",
-   "url": "https://www.ccfc.co.uk/",
+   "summary": "Coventry Building Society continues as Coventry City's official training partner for the Premier League return, with added stadium, LED and media exposure; it first took the role in August 2025.",
+   "url": "https://www.insideworldfootball.com/2026/08/24/newcastle-sign-sumup-to-training-kit-coventry-gear-up-for-geely-sleeve-sponsorship/",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "month": "2026-08",
+   "rights": [
+    "official training partner",
+    "pitch-side LED boards"
+   ],
+   "rightsSrc": "https://www.insideworldfootball.com/2026/08/24/newcastle-sign-sumup-to-training-kit-coventry-gear-up-for-geely-sleeve-sponsorship/",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-16",
@@ -184996,16 +185292,25 @@
    "sport": "Football",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner on Coventry City's official partners page.",
-   "url": "https://www.ccfc.co.uk/",
+   "summary": "Geely Auto UK becomes Coventry City's sleeve sponsor and official vehicle partner on a multi-year agreement from 2026/27.",
+   "url": "https://www.insideworldfootball.com/2026/08/24/newcastle-sign-sumup-to-training-kit-coventry-gear-up-for-geely-sleeve-sponsorship/",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "month": "2026-08",
+   "ends": 2027,
+   "rights": [
+    "sleeve (men's first-team shirt)",
+    "official vehicle partner"
+   ],
+   "rightsSrc": "https://www.insideworldfootball.com/2026/08/24/newcastle-sign-sumup-to-training-kit-coventry-gear-up-for-geely-sleeve-sponsorship/",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2027,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-16",
@@ -185013,16 +185318,27 @@
    "sport": "Football",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner on Coventry City's official partners page.",
-   "url": "https://www.ccfc.co.uk/",
+   "summary": "Monzo renewed as Coventry City's front-of-shirt principal partner with a one-year extension covering the 2026/27 season, its third straight year.",
+   "url": "https://www.insideworldfootball.com/2026/05/14/monzo-maintains-link-coventry-city-ahead-english-premier-league-return/",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2026-05-14",
+   "term": 1,
+   "ends": 2027,
+   "endsLock": true,
+   "endsSrc": "https://www.insideworldfootball.com/2026/05/14/monzo-maintains-link-coventry-city-ahead-english-premier-league-return/",
+   "rights": [
+    "front of shirt"
+   ],
+   "rightsSrc": "https://www.insideworldfootball.com/2026/05/14/monzo-maintains-link-coventry-city-ahead-english-premier-league-return/",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2027,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-16",
@@ -185346,16 +185662,27 @@
    "sport": "Football",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner on Chelsea's official partners page.",
-   "url": "https://www.chelseafc.com/en/club-partners",
+   "summary": "Fifteen-year technical kit partnership from 2017/18 covering the first team, Academy and women's sides, the largest commercial agreement in Chelsea's history.",
+   "url": "https://www.irishtimes.com/sport/soccer/english-soccer/chelsea-confirm-66m-a-season-kit-deal-with-nike-1.2828525",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2016-10-13",
+   "term": 15,
+   "ends": 2032,
+   "endsLock": true,
+   "endsSrc": "https://www.irishtimes.com/sport/soccer/english-soccer/chelsea-confirm-66m-a-season-kit-deal-with-nike-1.2828525",
+   "rights": [
+    "kit supplier (first team, Academy, women's)"
+   ],
+   "rightsSrc": "https://www.rte.ie/sport/soccer/2016/1013/823841-chelsea-kit",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2032,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-16",
@@ -185729,16 +186056,28 @@
    "sport": "Football",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner on Brentford's official partners page.",
-   "url": "https://www.brentfordfc.com/en/club-partners-and-suppliers",
+   "summary": "Five-year renewal making Hollywoodbets Brentford's official betting partner, with in-stadium matchday branding; it left the front of shirt after 2025/26 under the Premier League's withdrawal of gambling front-of-shirt sponsorship.",
+   "url": "https://www.brentfordfc.com/en/news/club-news-brentford-fc-partnership-extension-hollywoodbets-official-betting-partner",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2026-08-14",
+   "term": 5,
+   "ends": 2026,
+   "rights": [
+    "official betting partner",
+    "in-stadium matchday branding",
+    "first-team access",
+    "matchday hosting at Gtech Community Stadium"
+   ],
+   "rightsSrc": "https://www.brentfordfc.com/en/news/club-news-brentford-fc-partnership-extension-hollywoodbets-official-betting-partner",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2026,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-16",
@@ -185746,16 +186085,23 @@
    "sport": "Football",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner on Brentford's official partners page.",
-   "url": "https://www.brentfordfc.com/en/club-partners-and-suppliers",
+   "summary": "Joma replaced Umbro as Brentford's official kit partner on a multi-year agreement starting July 2025.",
+   "url": "https://www.brentfordfc.com/en/news/club-news-brentford-announce-joma-as-new-official-kit-partner",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2025-05-21",
+   "rights": [
+    "official kit partner"
+   ],
+   "rightsSrc": "https://www.brentfordfc.com/en/news/club-news-brentford-announce-joma-as-new-official-kit-partner",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-11-16",
@@ -185763,16 +186109,28 @@
    "sport": "Football",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner on Brentford's official partners page.",
-   "url": "https://www.brentfordfc.com/en/club-partners-and-suppliers",
+   "summary": "Ten-year stadium naming rights partnership renaming Brentford Community Stadium as the Gtech Community Stadium.",
+   "url": "https://www.brentfordfc.com/en/news/article/gtech-announced-as-stadium-naming-rights-partner",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2022-07-28",
+   "term": 10,
+   "ends": 2032,
+   "endsLock": true,
+   "endsSrc": "https://www.brentfordfc.com/en/news/article/gtech-announced-as-stadium-naming-rights-partner",
+   "rights": [
+    "stadium naming rights (Gtech Community Stadium)",
+    "stadium branding and signage"
+   ],
+   "rightsSrc": "https://www.brentfordfc.com/en/news/article/gtech-announced-as-stadium-naming-rights-partner",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2032,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-16",
@@ -186116,16 +186474,27 @@
    "sport": "Football",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner on Aston Villa's official partners page.",
-   "url": "https://www.avfc.co.uk/partners",
+   "summary": "Aston Villa signed a three-year extension with Kaizen Gaming running through 2028-29, with Betano moving from front of shirt to sleeve partner because of the Premier League's ban on betting brands on shirt fronts from 2026-27.",
+   "url": "https://www.sportcal.com/?p=152400",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2026-07-24",
+   "term": 3,
+   "ends": 2029,
+   "endsLock": true,
+   "endsSrc": "https://www.sportcal.com/?p=152400",
+   "rights": [
+    "sleeve of shirt"
+   ],
+   "rightsSrc": "https://www.sportcal.com/?p=152400",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2029,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-16",
@@ -186133,16 +186502,16 @@
    "sport": "Football",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner on Aston Villa's official partners page.",
-   "url": "https://www.avfc.co.uk/partners",
+   "summary": "Aston Villa signed a multi-year partnership with adidas as official kit partner from 2024/25, replacing Castore.",
+   "url": "https://avfc.co.uk/news/2024/may/20/adidas-and-aston-villa-football-club-announce-multi-year-partnership",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "ttier": "T1",
-   "tbasis": "role"
+   "date": "2024-05-20",
+   "ends": 2025
   },
   {
    "listed": "2026-11-16",
@@ -186330,16 +186699,25 @@
    "sport": "Football",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner on Arsenal's official partners page.",
-   "url": "https://www.arsenal.com/the-club/sponsors-partners",
+   "summary": "Sobha Realty expanded its Arsenal partnership, first signed in 2023, to become the club's first training ground naming rights partner (Sobha Realty Training Centre) and training kit sleeve partner for the men's and women's teams.",
+   "url": "https://www.sportcal.com/newsletters/sobha-realty-secures-arsenal-training-ground-naming-rights-in-expanded-deal",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2024-02-02",
+   "rights": [
+    "naming rights to Sobha Realty Training Centre",
+    "training kit sleeve (men's and women's teams)",
+    "naming rights to The WM Club hospitality suite"
+   ],
+   "rightsSrc": "https://www.sportcal.com/newsletters/sobha-realty-secures-arsenal-training-ground-naming-rights-in-expanded-deal",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2029,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-11-16",
@@ -186347,16 +186725,28 @@
    "sport": "Football",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a principal partner on Arsenal's official partners page.",
-   "url": "https://www.arsenal.com/the-club/sponsors-partners",
+   "summary": "Arsenal extended its adidas kit partnership by six seasons to 2030, with enhanced marketing rights for Arsenal Women.",
+   "url": "https://www.sportcal.com/sponsorship/arsenal-and-adidas-prolong-kit-deal-until-2030-liverpool-partner-with-coca-cola",
    "status": "Current partner",
    "market": "UK & Ireland",
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2022-09-30",
+   "term": 6,
+   "ends": 2030,
+   "endsLock": true,
+   "endsSrc": "https://www.sportcal.com/sponsorship/arsenal-and-adidas-prolong-kit-deal-until-2030-liverpool-partner-with-coca-cola",
+   "rights": [
+    "kit supplier",
+    "enhanced marketing rights for Arsenal Women"
+   ],
+   "rightsSrc": "https://www.sportcal.com/sponsorship/arsenal-and-adidas-prolong-kit-deal-until-2030-liverpool-partner-with-coca-cola",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2030,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-16",
@@ -190875,6 +191265,7 @@
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "rights"
   },
@@ -190892,6 +191283,7 @@
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "rights"
   },
@@ -190909,6 +191301,7 @@
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "rights"
   },
@@ -190926,6 +191319,7 @@
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "rights"
   },
@@ -190943,6 +191337,7 @@
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "rights"
   },
@@ -190960,6 +191355,7 @@
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "rights"
   },
@@ -190977,6 +191373,7 @@
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "rights"
   },
@@ -190994,6 +191391,7 @@
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "rights"
   },
@@ -191011,6 +191409,7 @@
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "rights"
   },
@@ -191028,6 +191427,7 @@
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "rights"
   },
@@ -191045,6 +191445,7 @@
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "rights"
   },
@@ -191062,6 +191463,7 @@
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "rights"
   },
@@ -191079,6 +191481,7 @@
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "rights"
   },
@@ -191096,6 +191499,7 @@
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "rights"
   },
@@ -191113,6 +191517,7 @@
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "rights"
   },
@@ -191130,6 +191535,7 @@
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "rights"
   },
@@ -191147,6 +191553,7 @@
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "rights"
   },
@@ -191164,6 +191571,7 @@
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "rights"
   },
@@ -191181,6 +191589,7 @@
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "rights"
   },
@@ -191198,6 +191607,7 @@
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "rights"
   },
@@ -191215,6 +191625,7 @@
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "rights"
   },
@@ -191361,6 +191772,7 @@
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "rights"
   },
@@ -191395,6 +191807,7 @@
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "rights"
   },
@@ -195115,6 +195528,7 @@
    "tier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "rights"
   },
@@ -195132,6 +195546,7 @@
    "tier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "rights"
   },
@@ -195167,6 +195582,7 @@
    "tier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "rights"
   },
@@ -195184,6 +195600,7 @@
    "tier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "rights"
   },
@@ -195255,6 +195672,7 @@
    "tier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "rights"
   },
@@ -195272,6 +195690,7 @@
    "tier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "rights"
   },
@@ -195344,6 +195763,7 @@
    "conf": "Confirmed",
    "verified": "2026-11-16",
    "slotOk": true,
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "rights"
   },
@@ -195361,6 +195781,7 @@
    "tier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "rights"
   },
@@ -195378,6 +195799,7 @@
    "tier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "rights"
   },
@@ -195441,6 +195863,7 @@
    "tier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T1",
    "tbasis": "rights"
   },
@@ -208688,6 +209111,7 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -217578,12 +218002,12 @@
    "ptier": "Official partner",
    "conf": "Reported",
    "verified": "2026-11-16",
+   "since": 2025,
+   "sinceBasis": "wayback",
    "ttier": "Kit",
    "tbasis": "rights",
    "tends": 2029,
-   "tendsBasis": "league",
-   "since": 2025,
-   "sinceBasis": "wayback"
+   "tendsBasis": "league"
   },
   {
    "date": "2026-11-16",
@@ -225450,7 +225874,9 @@
    "ptier": "Official club partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-10-28",
@@ -225819,7 +226245,9 @@
    "conf": "Confirmed",
    "verified": "2026-11-16",
    "ttier": "T2",
-   "tbasis": "rights"
+   "tbasis": "rights",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-10-24",
@@ -226009,7 +226437,9 @@
    "conf": "Confirmed",
    "verified": "2026-11-16",
    "ttier": "T3",
-   "tbasis": "category"
+   "tbasis": "category",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-10-22",
@@ -227765,7 +228195,9 @@
    "status": "Renewal",
    "market": "UK & Ireland",
    "conf": "Reported",
-   "verified": "2026-10-16"
+   "verified": "2026-10-16",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-10-13",
@@ -228302,7 +228734,9 @@
    "conf": "Confirmed",
    "verified": "2026-11-16",
    "ttier": "T3",
-   "tbasis": "category"
+   "tbasis": "category",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-10-09",
@@ -229118,7 +229552,9 @@
    "conf": "Confirmed",
    "verified": "2026-10-08",
    "ttier": "T4",
-   "tbasis": "role"
+   "tbasis": "role",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-10-05",
@@ -230008,7 +230444,9 @@
    "conf": "Reported",
    "verified": "2026-11-16",
    "ttier": "T2",
-   "tbasis": "rights"
+   "tbasis": "rights",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-09-09",
@@ -230024,7 +230462,9 @@
    "checked": "2026-11-16",
    "url": "https://www.sportcal.com/sponsorship/sunderland-shuffle-into-sleeve-deal-newcastle-extend-with-leovegas/",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-09-10",
@@ -230091,7 +230531,9 @@
    "conf": "Confirmed",
    "verified": "2026-09-09",
    "ttier": "T2",
-   "tbasis": "rights"
+   "tbasis": "rights",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-09-08",
@@ -230125,7 +230567,9 @@
    "checked": "2026-11-16",
    "url": "https://www.manutd.com/en/news/sumup-is-united-official-sleeve-partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-09-08",
@@ -230757,7 +231201,9 @@
    "ptier": "Official partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-08-26",
@@ -231150,7 +231596,9 @@
    "conf": "Reported",
    "verified": "2026-11-16",
    "ttier": "Kit",
-   "tbasis": "rights"
+   "tbasis": "rights",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-08-03",
@@ -231219,7 +231667,9 @@
    "ptier": "Principal club partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-07-23",
@@ -231307,7 +231757,9 @@
    "conf": "Reported",
    "verified": "2026-11-16",
    "ttier": "Gov",
-   "tbasis": "role"
+   "tbasis": "role",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-07-07",
@@ -231360,7 +231812,9 @@
    "conf": "Reported",
    "verified": "2026-11-16",
    "ttier": "T3",
-   "tbasis": "category"
+   "tbasis": "category",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-07-08",
@@ -231492,7 +231946,9 @@
    "ptier": "Official partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-06-25",
@@ -231972,12 +232428,12 @@
    "ptier": "Official partner",
    "conf": "Reported",
    "verified": "2026-04-29",
+   "since": 2021,
+   "sinceBasis": "wayback",
    "ttier": "T3",
    "tbasis": "category",
    "tends": 2029,
-   "tendsBasis": "term",
-   "since": 2021,
-   "sinceBasis": "wayback"
+   "tendsBasis": "term"
   },
   {
    "date": "2026-04-29",
@@ -232079,7 +232535,9 @@
    "conf": "Reported",
    "verified": "2026-11-16",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "role",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-04-17",
@@ -232189,7 +232647,9 @@
    "ptier": "Global partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-04-03",
@@ -233159,7 +233619,9 @@
    "ptier": "Official club partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-01-09",
@@ -238501,7 +238963,9 @@
    "conf": "Reported",
    "verified": "2026-11-16",
    "ttier": "T3",
-   "tbasis": "category"
+   "tbasis": "category",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-07-10",
@@ -238565,7 +239029,9 @@
    "conf": "Reported",
    "verified": "2026-07-07",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "rights",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-07-06",
@@ -238718,7 +239184,9 @@
    "conf": "Reported",
    "verified": "2026-11-16",
    "ttier": "Gov",
-   "tbasis": "role"
+   "tbasis": "role",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-06-18",
@@ -238808,7 +239276,9 @@
    "ptier": "Global partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-06-16",
@@ -238824,7 +239294,9 @@
    "ptier": "Men's team partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-06-06",
@@ -238884,7 +239356,9 @@
    "conf": "Reported",
    "verified": "2026-06-03",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "rights",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-06-03",
@@ -238900,7 +239374,9 @@
    "ptier": "Official club partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-05-23",
@@ -238977,7 +239453,9 @@
    "conf": "Reported",
    "verified": "2026-07-03",
    "ttier": "T2",
-   "tbasis": "rights"
+   "tbasis": "rights",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-07-03",
@@ -238993,7 +239471,9 @@
    "ptier": "Men's team partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-07-03",
@@ -239125,7 +239605,9 @@
    "conf": "Reported",
    "verified": "2026-11-16",
    "ttier": "T2",
-   "tbasis": "rights"
+   "tbasis": "rights",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-06-30",
@@ -239190,7 +239672,9 @@
    "ptier": "Official supplier",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-06-27",
@@ -239218,7 +239702,9 @@
    "status": "Extension",
    "market": "UK & Ireland",
    "conf": "Reported",
-   "verified": "2026-06-24"
+   "verified": "2026-06-24",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-06-24",
@@ -239757,7 +240243,9 @@
    "conf": "Reported",
    "verified": "2026-11-16",
    "ttier": "Kit",
-   "tbasis": "rights"
+   "tbasis": "rights",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-05-06",
@@ -240351,7 +240839,9 @@
    "conf": "Reported",
    "verified": "2026-11-16",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "rights",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-03-28",
@@ -240819,7 +241309,9 @@
    "ptier": "Global partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-03-10",
@@ -241158,7 +241650,9 @@
    "ptier": "Global partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-03-13",
@@ -241708,12 +242202,12 @@
    "conf": "Confirmed",
    "verified": "2025-02-18",
    "url": "https://www.nrl.com/news/2025/02/07/nrl-secures-naming-rights-partner-for-pre-season-challenge/",
+   "since": 2025,
+   "sinceBasis": "wayback",
    "ttier": "T1",
    "tbasis": "rights",
    "tends": 2028,
-   "tendsBasis": "league",
-   "since": 2025,
-   "sinceBasis": "wayback"
+   "tendsBasis": "league"
   },
   {
    "date": "2025-02-18",
@@ -247545,7 +248039,9 @@
    "ptier": "Main club partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-08-05",
@@ -247625,7 +248121,9 @@
    "ptier": "Official partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-08-11",
@@ -247877,7 +248375,9 @@
    "ptier": "Principal club partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-08-05",
@@ -247965,7 +248465,9 @@
    "ptier": "Global partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-08-14",
@@ -247981,7 +248483,9 @@
    "ptier": "Global partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-08-19",
@@ -248032,7 +248536,9 @@
    "ptier": "Global partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-08-18",
@@ -248085,7 +248591,9 @@
    "ptier": "Official women's partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-08-29",
@@ -248101,7 +248609,9 @@
    "ptier": "Principal partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-08-28",
@@ -248190,7 +248700,9 @@
    "ptier": "Club partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-09-01",
@@ -248220,7 +248732,9 @@
    "ptier": "Official partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-08-31",
@@ -248236,7 +248750,9 @@
    "ptier": "Men's team partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-08-29",
@@ -248312,7 +248828,9 @@
    "ptier": "Official club partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-09-03",
@@ -248361,7 +248879,9 @@
    "ptier": "Men's team partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-09-11",
@@ -248488,7 +249008,9 @@
    "ptier": "Global partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-09-19",
@@ -248607,7 +249129,9 @@
    "ptier": "Official partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-09-26",
@@ -248667,7 +249191,9 @@
    "ptier": "Official club partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-09-28",
@@ -248727,7 +249253,9 @@
    "ptier": "Official partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-10-05",
@@ -249247,7 +249775,9 @@
    "ptier": "Official club partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-11-01",
@@ -249263,7 +249793,9 @@
    "ptier": "Official club partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-11-01",
@@ -249441,7 +249973,9 @@
    "ptier": "Global partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-10-10",
@@ -249593,7 +250127,9 @@
    "ptier": "Global partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-09-12",
@@ -249708,7 +250244,9 @@
    "conf": "Reported",
    "verified": "2026-11-16",
    "ttier": "T2",
-   "tbasis": "rights"
+   "tbasis": "rights",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-09-05",
@@ -249772,7 +250310,9 @@
    "conf": "Reported",
    "verified": "2026-11-16",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "rights",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-12-12",
@@ -249816,7 +250356,9 @@
    "conf": "Reported",
    "verified": "2025-11-29",
    "ttier": "T4",
-   "tbasis": "role"
+   "tbasis": "role",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-11-29",
@@ -250287,7 +250829,9 @@
    "ptier": "Club partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-11-07",
@@ -250360,7 +250904,9 @@
    "status": "New",
    "market": "UK & Ireland",
    "conf": "Reported",
-   "verified": "2025-11-07"
+   "verified": "2025-11-07",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-10-29",
@@ -250658,7 +251204,9 @@
    "ptier": "Official club partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-10-07",
@@ -250822,7 +251370,9 @@
    "ptier": "Global partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-09-22",
@@ -251111,7 +251661,9 @@
    "conf": "Reported",
    "verified": "2026-11-16",
    "ttier": "T4",
-   "tbasis": "role"
+   "tbasis": "role",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-08-28",
@@ -251177,7 +251729,9 @@
    "ptier": "Regional partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-08-23",
@@ -251193,7 +251747,9 @@
    "ptier": "Official club partner & supplier",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-08-23",
@@ -251486,7 +252042,9 @@
    "ptier": "Official partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-08-16",
@@ -251502,7 +252060,9 @@
    "ptier": "Global partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-08-16",
@@ -251518,7 +252078,9 @@
    "ptier": "Global partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-08-13",
@@ -251553,7 +252115,9 @@
    "ptier": "Club partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-08-12",
@@ -251569,7 +252133,9 @@
    "ptier": "Official partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-08-05",
@@ -251658,7 +252224,9 @@
    "ptier": "Official club partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-07-23",
@@ -251734,7 +252302,9 @@
    "ptier": "Global partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-07-22",
@@ -251893,7 +252463,9 @@
    "ptier": "Official global club partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-08-11",
@@ -251937,7 +252509,9 @@
    "ptier": "Official partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-08-09",
@@ -251953,7 +252527,9 @@
    "ptier": "Official partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-08-09",
@@ -251971,7 +252547,9 @@
    "conf": "Reported",
    "verified": "2026-11-16",
    "ttier": "T4",
-   "tbasis": "role"
+   "tbasis": "role",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-08-09",
@@ -252024,7 +252602,9 @@
    "ptier": "Principal club partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-08-07",
@@ -252180,7 +252760,9 @@
    "ptier": "Global partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-07-29",
@@ -252231,7 +252813,9 @@
    "status": "Extension",
    "market": "UK & Ireland",
    "conf": "Reported",
-   "verified": "2025-07-25"
+   "verified": "2025-07-25",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-07-21",
@@ -252261,7 +252845,9 @@
    "conf": "Reported",
    "verified": "2025-07-21",
    "ttier": "T4",
-   "tbasis": "role"
+   "tbasis": "role",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-07-19",
@@ -252277,7 +252863,9 @@
    "conf": "Reported",
    "verified": "2025-07-19",
    "ttier": "Media",
-   "tbasis": "rights"
+   "tbasis": "rights",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-07-18",
@@ -252309,7 +252897,9 @@
    "ptier": "Global partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-07-17",
@@ -252325,7 +252915,9 @@
    "ptier": "Official club partner & supplier",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-07-17",
@@ -252356,7 +252948,9 @@
    "ptier": "Global partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-07-16",
@@ -252395,7 +252989,9 @@
    "conf": "Reported",
    "verified": "2026-11-16",
    "ttier": "Kit",
-   "tbasis": "rights"
+   "tbasis": "rights",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-07-15",
@@ -252506,7 +253102,9 @@
    "conf": "Reported",
    "verified": "2026-11-16",
    "ttier": "Kit",
-   "tbasis": "rights"
+   "tbasis": "rights",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-07-04",
@@ -252665,7 +253263,9 @@
    "ptier": "Club partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-06-28",
@@ -252761,7 +253361,9 @@
    "status": "Extension",
    "market": "UK & Ireland",
    "conf": "Reported",
-   "verified": "2025-06-19"
+   "verified": "2025-06-19",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-06-18",
@@ -252779,7 +253381,9 @@
    "conf": "Reported",
    "verified": "2026-11-16",
    "ttier": "T2",
-   "tbasis": "rights"
+   "tbasis": "rights",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-06-17",
@@ -252930,7 +253534,9 @@
    "ptier": "Official partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-06-09",
@@ -253087,7 +253693,9 @@
    "status": "New",
    "market": "UK & Ireland",
    "conf": "Reported",
-   "verified": "2025-07-02"
+   "verified": "2025-07-02",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-07-01",
@@ -253134,7 +253742,9 @@
    "ptier": "Global partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-07-01",
@@ -253387,7 +253997,9 @@
    "ptier": "Global partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-05-30",
@@ -253620,10 +254232,10 @@
    "ptier": "Major partner",
    "conf": "Reported",
    "verified": "2026-04-30",
-   "tends": 2029,
-   "tendsBasis": "league",
    "since": 2021,
-   "sinceBasis": "wayback"
+   "sinceBasis": "wayback",
+   "tends": 2029,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-04-29",
@@ -255373,10 +255985,10 @@
    "ptier": "Official partner",
    "conf": "Reported",
    "verified": "2024-11-08",
-   "tends": 2026,
-   "tendsBasis": "term",
    "since": 2025,
-   "sinceBasis": "wayback"
+   "sinceBasis": "wayback",
+   "tends": 2026,
+   "tendsBasis": "term"
   },
   {
    "date": "2025-01-16",
@@ -255806,7 +256418,9 @@
    "conf": "Reported",
    "verified": "2026-11-16",
    "ttier": "Kit",
-   "tbasis": "rights"
+   "tbasis": "rights",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-03-10",
@@ -255825,10 +256439,10 @@
    "ptier": "Major partner",
    "conf": "Reported",
    "verified": "2025-03-10",
-   "tends": 2029,
-   "tendsBasis": "term",
    "since": 2021,
-   "sinceBasis": "wayback"
+   "sinceBasis": "wayback",
+   "tends": 2029,
+   "tendsBasis": "term"
   },
   {
    "date": "2025-03-06",
@@ -257089,7 +257703,9 @@
    "conf": "Reported",
    "verified": "2025-07-02",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "role",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-07-02",
@@ -258554,7 +259170,9 @@
    "ptier": "Global partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-11-25",
@@ -258604,7 +259222,9 @@
    "ptier": "Official club partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-11-20",
@@ -259163,10 +259783,10 @@
    "ptier": "Major partner",
    "conf": "Reported",
    "verified": "2025-10-03",
-   "tends": 2029,
-   "tendsBasis": "stated",
    "since": 2021,
-   "sinceBasis": "wayback"
+   "sinceBasis": "wayback",
+   "tends": 2029,
+   "tendsBasis": "stated"
   },
   {
    "date": "2025-10-03",
@@ -261813,7 +262433,9 @@
    "status": "New",
    "market": "UK & Ireland",
    "conf": "Reported",
-   "verified": "2026-07-01"
+   "verified": "2026-07-01",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-06-29",
@@ -262260,7 +262882,9 @@
    "ptier": "Official partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2029,
+   "tendsBasis": "league"
   },
   {
    "date": "2024-09-03",
@@ -262292,7 +262916,9 @@
    "conf": "Reported",
    "verified": "2026-11-16",
    "ttier": "T3",
-   "tbasis": "category"
+   "tbasis": "category",
+   "tends": 2029,
+   "tendsBasis": "league"
   },
   {
    "date": "2024-09-03",
@@ -262375,7 +263001,9 @@
    "conf": "Reported",
    "verified": "2024-09-20",
    "ttier": "T3",
-   "tbasis": "category"
+   "tbasis": "category",
+   "tends": 2029,
+   "tendsBasis": "league"
   },
   {
    "date": "2024-10-13",
@@ -262412,7 +263040,9 @@
    "conf": "Reported",
    "verified": "2024-10-05",
    "ttier": "Gov",
-   "tbasis": "role"
+   "tbasis": "role",
+   "tends": 2029,
+   "tendsBasis": "league"
   },
   {
    "date": "2024-10-05",
@@ -262428,7 +263058,9 @@
    "ptier": "Global partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2029,
+   "tendsBasis": "league"
   },
   {
    "date": "2024-10-13",
@@ -262479,7 +263111,9 @@
    "ptier": "Official club partner & supplier",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2029,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-05-15",
@@ -262704,7 +263338,9 @@
    "conf": "Reported",
    "verified": "2026-11-16",
    "ttier": "T2",
-   "tbasis": "rights"
+   "tbasis": "rights",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-05-09",
@@ -263206,7 +263842,9 @@
    "conf": "Reported",
    "verified": "2026-11-16",
    "ttier": "T3",
-   "tbasis": "category"
+   "tbasis": "category",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-04-07",
@@ -263577,7 +264215,9 @@
    "conf": "Reported",
    "verified": "2026-11-16",
    "ttier": "Gov",
-   "tbasis": "role"
+   "tbasis": "role",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-03-15",
@@ -263929,7 +264569,9 @@
    "ptier": "Global partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-02-24",
@@ -264315,7 +264957,9 @@
    "ptier": "Regional partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-01-31",
@@ -264442,7 +265086,9 @@
    "conf": "Reported",
    "verified": "2026-11-16",
    "ttier": "T2",
-   "tbasis": "rights"
+   "tbasis": "rights",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-01-25",
@@ -264621,7 +265267,9 @@
    "ptier": "Global partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-01-16",
@@ -265036,7 +265684,9 @@
    "ptier": "Men's team partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2029,
+   "tendsBasis": "league"
   },
   {
    "date": "2024-12-16",
@@ -265114,7 +265764,9 @@
    "conf": "Reported",
    "verified": "2024-12-13",
    "ttier": "Media",
-   "tbasis": "rights"
+   "tbasis": "rights",
+   "tends": 2029,
+   "tendsBasis": "league"
   },
   {
    "date": "2024-12-13",
@@ -265343,7 +265995,9 @@
    "status": "New",
    "market": "UK & Ireland",
    "conf": "Reported",
-   "verified": "2024-12-03"
+   "verified": "2024-12-03",
+   "tends": 2029,
+   "tendsBasis": "league"
   },
   {
    "date": "2024-12-03",
@@ -265464,7 +266118,9 @@
    "ptier": "Official club partner & supplier",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2029,
+   "tendsBasis": "league"
   },
   {
    "date": "2024-11-28",
@@ -265588,7 +266244,9 @@
    "market": "UK & Ireland",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2029,
+   "tendsBasis": "league"
   },
   {
    "date": "2024-11-22",
@@ -265620,7 +266278,9 @@
    "conf": "Reported",
    "verified": "2024-11-22",
    "ttier": "T3",
-   "tbasis": "category"
+   "tbasis": "category",
+   "tends": 2029,
+   "tendsBasis": "league"
   },
   {
    "date": "2024-11-22",
@@ -265696,7 +266356,9 @@
    "ptier": "Local partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2029,
+   "tendsBasis": "league"
   },
   {
    "date": "2024-11-18",
@@ -265855,7 +266517,9 @@
    "status": "New",
    "market": "UK & Ireland",
    "conf": "Reported",
-   "verified": "2024-11-15"
+   "verified": "2024-11-15",
+   "tends": 2029,
+   "tendsBasis": "league"
   },
   {
    "date": "2024-11-14",
@@ -266027,7 +266691,9 @@
    "ptier": "Official partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2029,
+   "tendsBasis": "league"
   },
   {
    "date": "2024-11-07",
@@ -266190,7 +266856,9 @@
    "ptier": "Official partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2029,
+   "tendsBasis": "league"
   },
   {
    "date": "2024-11-02",
@@ -266520,7 +267188,9 @@
    "conf": "Reported",
    "verified": "2026-11-16",
    "ttier": "T3",
-   "tbasis": "category"
+   "tbasis": "category",
+   "tends": 2029,
+   "tendsBasis": "league"
   },
   {
    "date": "2024-10-16",
@@ -266737,7 +267407,9 @@
    "market": "UK & Ireland",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2029,
+   "tendsBasis": "league"
   },
   {
    "date": "2024-09-28",
@@ -266892,7 +267564,9 @@
    "status": "New",
    "market": "UK & Ireland",
    "conf": "Reported",
-   "verified": "2024-09-21"
+   "verified": "2024-09-21",
+   "tends": 2029,
+   "tendsBasis": "league"
   },
   {
    "date": "2024-09-21",
@@ -266908,7 +267582,9 @@
    "ptier": "Official women's partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2029,
+   "tendsBasis": "league"
   },
   {
    "date": "2024-09-20",
@@ -267019,7 +267695,9 @@
    "ptier": "Official partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2029,
+   "tendsBasis": "league"
   },
   {
    "date": "2024-09-13",
@@ -267121,7 +267799,9 @@
    "status": "Renewal",
    "market": "UK & Ireland",
    "conf": "Reported",
-   "verified": "2024-09-05"
+   "verified": "2024-09-05",
+   "tends": 2029,
+   "tendsBasis": "league"
   },
   {
    "date": "2024-09-05",
@@ -268514,7 +269194,9 @@
    "conf": "Reported",
    "verified": "2026-11-16",
    "ttier": "T2",
-   "tbasis": "rights"
+   "tbasis": "rights",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-09-10",
@@ -268634,7 +269316,9 @@
    "ptier": "Global partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-08-20",
@@ -268699,7 +269383,9 @@
    "conf": "Reported",
    "verified": "2026-08-11",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "rights",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-08-10",
@@ -268812,7 +269498,9 @@
    "ptier": "Official partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-07-29",
@@ -268951,7 +269639,9 @@
    "status": "New",
    "market": "UK & Ireland",
    "conf": "Reported",
-   "verified": "2026-07-16"
+   "verified": "2026-07-16",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-07-16",
@@ -269162,7 +269852,9 @@
    "ptier": "Global partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-06-19",
@@ -269310,7 +270002,9 @@
    "conf": "Reported",
    "verified": "2026-11-16",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "rights",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-05-26",
@@ -269881,7 +270575,9 @@
    "ptier": "Regional partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-02-07",
@@ -275727,8 +276423,8 @@
    "sport": "AFL",
    "type": "Major partner",
    "region": "ANZ",
-   "summary": "Listed as a major partner on the club's official partners page.",
-   "url": "https://www.westernbulldogs.com.au/partners",
+   "summary": "Victoria University and the Western Bulldogs renewed their partnership for a further five years.",
+   "url": "https://vu.edu.au/about-vu/news-events/news/vu-western-bulldogs-renew-partnership-for-five-years",
    "tier": "Principal & major",
    "status": "Current partner",
    "ptier": "Major partner",
@@ -275740,8 +276436,14 @@
     "front of AFLW guernsey"
    ],
    "rightsSrc": "https://vu.edu.au/about-vu/news-events/news/victoria-university-elevated-to-co-major-partner-of-aflw-bulldogs",
+   "date": "2023-05-29",
+   "term": 5,
+   "ends": 2028,
+   "endsEst": true,
    "ttier": "T1",
-   "tbasis": "sourced"
+   "tbasis": "sourced",
+   "tends": 2028,
+   "tendsBasis": "term"
   },
   {
    "listed": "2026-10-30",
@@ -275791,8 +276493,18 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-03",
+   "term": 4,
+   "datesTried": "2026-11-19",
+   "rights": [
+    "Official AFL Coaches Partner",
+    "logo on AFL coaching panel apparel",
+    "coaches' box branding",
+    "interchange bench signage",
+    "media backdrop"
+   ],
+   "rightsSrc": "https://www.westernbulldogs.com.au/news/1499678/bulldogs-and-people-first-bank-elevate-partnership",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-10-30",
@@ -288644,6 +289356,7 @@
    "checked": "2026-11-16",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -288662,6 +289375,7 @@
    "checked": "2026-11-16",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -288680,6 +289394,7 @@
    "checked": "2026-11-16",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -288698,6 +289413,7 @@
    "checked": "2026-11-16",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "datesTried": "2026-11-19",
    "ttier": "T2",
    "tbasis": "role"
   },
@@ -288707,8 +289423,8 @@
    "sport": "Netball",
    "type": "Major partner",
    "region": "ANZ",
-   "summary": "Listed as a major partner on the club's official partners page.",
-   "url": "https://westcoastfever.com.au/partners",
+   "summary": "Aware Super joined West Coast Fever as part of a multi-club Super Netball partnership covering the 2025 and 2026 seasons.",
+   "url": "https://westcoastfever.com.au/news/aware-super-joins-green-army-part-super-netball-partnership-first",
    "tier": "Principal & major",
    "status": "Current partner",
    "ptier": "Major partner",
@@ -288716,8 +289432,21 @@
    "checked": "2026-11-16",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2025-02-11",
+   "term": 2,
+   "ends": 2026,
+   "endsLock": true,
+   "endsSrc": "https://westcoastfever.com.au/news/aware-super-joins-green-army-part-super-netball-partnership-first",
+   "rights": [
+    "logo on playing bibs",
+    "logo on dress fronts",
+    "Super Helpful Round"
+   ],
+   "rightsSrc": "https://westcoastfever.com.au/news/aware-super-joins-green-army-part-super-netball-partnership-first",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2026,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-10-30",
@@ -291381,12 +292110,12 @@
    "market": "ANZ",
    "conf": "Reported",
    "verified": "2026-11-05",
+   "since": 2021,
+   "sinceBasis": "wayback",
    "ttier": "Media",
    "tbasis": "rights",
    "tends": 2034,
-   "tendsBasis": "stated",
-   "since": 2021,
-   "sinceBasis": "wayback"
+   "tendsBasis": "stated"
   },
   {
    "added": "2026-11-05",
@@ -291406,12 +292135,12 @@
    "market": "ANZ",
    "conf": "Reported",
    "verified": "2026-11-05",
+   "since": 2021,
+   "sinceBasis": "wayback",
    "ttier": "Media",
    "tbasis": "rights",
    "tends": 2034,
-   "tendsBasis": "stated",
-   "since": 2021,
-   "sinceBasis": "wayback"
+   "tendsBasis": "stated"
   },
   {
    "added": "2026-11-05",
@@ -299712,12 +300441,12 @@
     "Joint innovation fund"
    ],
    "rightsSrc": "https://nrl.com/news/2022/09/05/nrl-and-telstra-celebrate-new-partnership",
+   "since": 2021,
+   "sinceBasis": "wayback",
    "ttier": "T2",
    "tbasis": "sourced",
    "tends": 2027,
-   "tendsBasis": "stated",
-   "since": 2021,
-   "sinceBasis": "wayback"
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-12",
@@ -299963,12 +300692,12 @@
    "ptier": "Official partner",
    "conf": "Confirmed",
    "verified": "2024-10-05",
+   "since": 2025,
+   "sinceBasis": "wayback",
    "ttier": "T3",
    "tbasis": "category",
    "tends": 2027,
-   "tendsBasis": "league",
-   "since": 2025,
-   "sinceBasis": "wayback"
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-11-12",
@@ -304829,8 +305558,8 @@
    "sport": "AFL",
    "type": "Major partner",
    "region": "ANZ",
-   "summary": "Mission Foods holds the front of the Bulldogs' AFL guernsey and naming rights to Mission Whitten Oval, on a five-year extension taking the partnership to 20 years by 2028.",
-   "url": "https://www.westernbulldogs.com.au/news/1371451/mission-foods-bulldogs-to-reach-20-year-milestone",
+   "summary": "Mission Foods expanded its major partnership with the Western Bulldogs to take naming rights to the club's Footscray headquarters, now Mission Whitten Oval, for at least five years, while keeping its logo on the front of the AFL guernsey. A 2023 club release extended the major partnership by five years to 2028; the 2024 naming rights run at least five years, so no single end year is given.",
+   "url": "https://austadiums.com/news/1356/western-bulldogs-unveil-new-name-for-whitten-oval",
    "tier": "Principal & major",
    "status": "Current partner",
    "market": "ANZ",
@@ -304842,13 +305571,13 @@
    "endsLock": true,
    "endsSrc": "https://westernbulldogs.com.au/news/1494690/mission-whitten-oval-home-of-the-western-bulldogs",
    "rights": [
-    "major partner",
-    "front of AFL guernsey",
-    "naming rights to Mission Whitten Oval"
+    "naming rights to Mission Whitten Oval",
+    "front of AFL guernsey"
    ],
-   "rightsSrc": "https://westernbulldogs.com.au/news/1494690/mission-whitten-oval-home-of-the-western-bulldogs",
+   "rightsSrc": "https://www.westernbulldogs.com.au/news/1494690/mission-whitten-oval-home-of-the-western-bulldogs",
    "term": 5,
    "ptier": "Major partner",
+   "date": "2024-02-27",
    "ttier": "T1",
    "tbasis": "sourced",
    "tends": 2028,
@@ -305508,7 +306237,9 @@
    "since": 2021,
    "sinceBasis": "wayback",
    "verified": "2026-11-20",
-   "source": "wayback"
+   "source": "wayback",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "deal": "EISS Super × NRL",
@@ -305722,7 +306453,9 @@
    "since": 2021,
    "sinceBasis": "wayback",
    "verified": "2026-11-20",
-   "source": "wayback"
+   "source": "wayback",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "deal": "Therabody × NRL",
@@ -305760,7 +306493,9 @@
    "since": 2021,
    "sinceBasis": "wayback",
    "verified": "2026-11-20",
-   "source": "wayback"
+   "source": "wayback",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "deal": "Tourism WA × NRL",
@@ -305778,7 +306513,9 @@
    "since": 2021,
    "sinceBasis": "wayback",
    "verified": "2026-11-20",
-   "source": "wayback"
+   "source": "wayback",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "deal": "Triple M × NRL",
@@ -305814,7 +306551,9 @@
    "since": 2021,
    "sinceBasis": "wayback",
    "verified": "2026-11-20",
-   "source": "wayback"
+   "source": "wayback",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "deal": "Weber × NRL",
@@ -305950,7 +306689,8 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-20",
-   "source": "wayback"
+   "source": "wayback",
+   "ends": 2025
   },
   {
    "deal": "Thirst Crusher × NRL",
