@@ -4418,7 +4418,7 @@
   },
   "anz-explorer": {
    "name": "ANZ Explorer",
-   "cat": "Banking & finance",
+   "cat": "Other",
    "k": "b"
   },
   "anz-fiji": {
@@ -5332,7 +5332,8 @@
    ],
    "bf": [
     "logo"
-   ]
+   ],
+   "parent": "asahi-beverages"
   },
   "asahi-beverages": {
    "name": "Asahi Beverages",
@@ -8823,7 +8824,7 @@
   },
   "bell-booth": {
    "name": "Bell-Booth",
-   "cat": "Telco",
+   "cat": "Home & hardware",
    "k": "b"
   },
   "bell-brothers": {
@@ -8878,7 +8879,7 @@
   },
   "bendigo-scaffolding": {
    "name": "Bendigo Scaffolding",
-   "cat": "Banking & finance",
+   "cat": "Construction & property",
    "k": "b"
   },
   "bendigo-spirit": {
@@ -8895,8 +8896,9 @@
   },
   "bendigo-toyota": {
    "name": "Bendigo Toyota",
-   "cat": "Banking & finance",
-   "k": "b"
+   "cat": "Automotive",
+   "k": "b",
+   "sub": "Car dealers"
   },
   "bendon-lingerie": {
    "name": "Bendon Lingerie",
@@ -10094,7 +10096,8 @@
    "domain": "bleasdale.com.au",
    "bf": [
     "icon"
-   ]
+   ],
+   "sub": "Wine"
   },
   "blendio": {
    "name": "Blendio",
@@ -13911,7 +13914,8 @@
    "aliases": [
     "CUB",
     "Carlton and United Breweries"
-   ]
+   ],
+   "parent": "asahi-beverages"
   },
   "carlton-draught": {
    "name": "Carlton Draught",
@@ -31033,7 +31037,8 @@
     "logo"
    ],
    "cat": "Alcohol",
-   "k": "b"
+   "k": "b",
+   "parent": "diageo"
   },
   "gujarat-titans": {
    "name": "Gujarat Titans",
@@ -36347,8 +36352,9 @@
     "icon",
     "logo"
    ],
-   "cat": "Energy & utilities",
-   "k": "b"
+   "cat": "Technology",
+   "k": "b",
+   "sub": "Software & cloud"
   },
   "iris-ohyama": {
    "name": "Iris Ohyama",
@@ -53160,7 +53166,8 @@
    "name": "Optus Business Centre",
    "domain": "optus.com.au",
    "k": "b",
-   "cat": "Telco"
+   "cat": "Telco",
+   "parent": "optus"
   },
   "optus-stadium": {
    "name": "Optus Stadium",
@@ -56989,7 +56996,8 @@
    "bf": [
     "icon",
     "logo"
-   ]
+   ],
+   "sub": "Renewables & solar"
   },
   "powercor": {
    "name": "Powercor",
@@ -61061,7 +61069,7 @@
   "rogers-willex": {
    "name": "Rogers Willex",
    "k": "b",
-   "cat": "Telco"
+   "cat": "Professional services"
   },
   "rogg-objekteinrichtungen": {
    "name": "Rogg Objekteinrichtungen",
@@ -66922,7 +66930,8 @@
   "spark-business-hub": {
    "name": "Spark Business Hub",
    "cat": "Telco",
-   "k": "b"
+   "k": "b",
+   "parent": "spark"
   },
   "sparkasse-bremen": {
    "name": "Sparkasse Bremen",
@@ -69665,7 +69674,7 @@
   },
   "swimz-bendigo": {
    "name": "Swimz Bendigo",
-   "cat": "Banking & finance",
+   "cat": "Other",
    "k": "b"
   },
   "swinburne": {
@@ -71182,7 +71191,8 @@
   "telcospec": {
    "name": "Telcospec",
    "cat": "Telco",
-   "k": "b"
+   "k": "b",
+   "sub": "Telco infrastructure"
   },
   "tele-marker-group": {
    "name": "Tele Marker Group",

@@ -23,6 +23,7 @@ import match as M
 from category_rules import classify as catrule
 
 # Slots where a property almost always has only one partner at a time.
+# A deal row with "slotOk": true was checked and really does sit alongside another partner in its slot.
 EXCLUSIVE = {"Banks", "Car makers", "Telco", "Airlines", "Energy retail", "Beer & cider", "Performance & kit",
              "Health insurance", "Supermarkets", "Quick service food", "Payments & cards", "Fuel & oil",
              "Ticketing", "Energy drinks", "Sports & hydration", "Tyres", "Watches"}
@@ -66,19 +67,24 @@ def main():
             mism.append({"brand": nm(b), "slug": b, "cat": c, "rules_say": r, "deals": len(rs)})
     out["cat_mismatch"] = sorted(mism, key=lambda x: -x["deals"])
 
+    def top(b, seen=()):
+        par = (ent.get(b) or {}).get("parent")
+        return top(par, seen + (b,)) if par and par not in seen else b
+
     clash = []
     for p, rs in m.P.items():
         by = collections.defaultdict(dict)
         for r in rs:
             sub = m.sub.get(r["b"])
-            if r["live"] and sub in EXCLUSIVE:
-                prev = by[sub].get(r["b"])
+            if r["live"] and sub in EXCLUSIVE and not r["d"].get("slotOk"):
+                fam = top(r["b"])  # a beer brand and its brewer, or a store and its telco, are one partner
+                prev = by[sub].get(fam)
                 if not prev or r["ym"] > prev["ym"]:
-                    by[sub][r["b"]] = r
+                    by[sub][fam] = r
         for sub, bs in by.items():
             if len(bs) > 1:
                 clash.append({"property": nm(p), "anz": anz(p), "slot": sub,
-                              "partners": [{"brand": nm(b), "since": M.fmt_ym(r["ym"]) if r["dated"] else "listed",
+                              "partners": [{"brand": nm(r["b"]), "since": M.fmt_ym(r["ym"]) if r["dated"] else "listed",
                                             "ends": r["d"].get("ends")} for b, r in sorted(bs.items(), key=lambda x: -x[1]["ym"])]})
     out["slot_clash"] = sorted(clash, key=lambda x: (not x["anz"], x["property"]))
 
