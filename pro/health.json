@@ -39,14 +39,14 @@
   },
   {
    "date": "2026-11-19",
-   "score": 52.0,
+   "score": 52.3,
    "partial": true,
    "areas": {
     "Completeness": 32.9,
-    "Consistency": 43.0,
-    "Freshness": 72.6,
+    "Consistency": 42.9,
+    "Freshness": 72.3,
     "Sources": 63.5,
-    "Logos": 61.3
+    "Logos": 64.3
    },
    "metrics": {
     "Completeness": {
@@ -56,34 +56,34 @@
      "Major partner-page rows with announcement date %": 0.0
     },
     "Consistency": {
-     "Rows on controlled lists %": 72.4,
+     "Rows on controlled lists %": 72.3,
      "Open duplicates": 45
     },
     "Freshness": {
      "Tier 1-2 properties checked in 30 days %": 99.2,
      "All properties checked in 90 days %": 75.7,
-     "Live rows with a past end year": 32
+     "Live rows with a past end year": 33
     },
     "Sources": {
      "Rows on a reviewed source domain %": 98.9,
      "Announced partnerships on an official source %": 36.2
     },
     "Logos": {
-     "Brand logo coverage (by partnerships) %": 56.8
+     "Brand logo coverage (by partnerships) %": 58.6
     }
    }
   }
  ],
  "latest": {
   "date": "2026-11-19",
-  "score": 52.0,
+  "score": 52.3,
   "partial": true,
   "areas": {
    "Completeness": 32.9,
-   "Consistency": 43.0,
-   "Freshness": 72.6,
+   "Consistency": 42.9,
+   "Freshness": 72.3,
    "Sources": 63.5,
-   "Logos": 61.3
+   "Logos": 64.3
   },
   "metrics": {
    "Completeness": {
@@ -93,20 +93,20 @@
     "Major partner-page rows with announcement date %": 0.0
    },
    "Consistency": {
-    "Rows on controlled lists %": 72.4,
+    "Rows on controlled lists %": 72.3,
     "Open duplicates": 45
    },
    "Freshness": {
     "Tier 1-2 properties checked in 30 days %": 99.2,
     "All properties checked in 90 days %": 75.7,
-    "Live rows with a past end year": 32
+    "Live rows with a past end year": 33
    },
    "Sources": {
     "Rows on a reviewed source domain %": 98.9,
     "Announced partnerships on an official source %": 36.2
    },
    "Logos": {
-    "Brand logo coverage (by partnerships) %": 56.8
+    "Brand logo coverage (by partnerships) %": 58.6
    }
   }
  }

@@ -226365,12 +226365,12 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-10-30",
+   "since": 2025,
+   "sinceBasis": "wayback",
    "ttier": "Kit",
    "tbasis": "rights",
    "tends": 2029,
-   "tendsBasis": "league",
-   "since": 2025,
-   "sinceBasis": "wayback"
+   "tendsBasis": "league"
   },
   {
    "date": "2026-10-30",
@@ -246669,12 +246669,12 @@
     "sleeves"
    ],
    "rightsSrc": "https://ministryofsport.com/?p=51906",
+   "since": 2022,
+   "sinceBasis": "wayback",
    "ttier": "T1",
    "tbasis": "sourced",
    "tends": 2026,
-   "tendsBasis": "stated",
-   "since": 2022,
-   "sinceBasis": "wayback"
+   "tendsBasis": "stated"
   },
   {
    "date": "2025-11-12",
@@ -261114,10 +261114,10 @@
    "market": "ANZ",
    "conf": "Reported",
    "verified": "2026-03-03",
-   "tends": 2029,
-   "tendsBasis": "league",
    "since": 2023,
-   "sinceBasis": "wayback"
+   "sinceBasis": "wayback",
+   "tends": 2029,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-03-03",
@@ -261421,12 +261421,12 @@
    "market": "ANZ",
    "conf": "Reported",
    "verified": "2026-03-05",
+   "since": 2023,
+   "sinceBasis": "wayback",
    "ttier": "T4",
    "tbasis": "role",
    "tends": 2029,
-   "tendsBasis": "league",
-   "since": 2023,
-   "sinceBasis": "wayback"
+   "tendsBasis": "league"
   },
   {
    "date": "2026-03-05",
@@ -269520,10 +269520,10 @@
    "market": "ANZ",
    "conf": "Reported",
    "verified": "2025-01-29",
-   "tends": 2028,
-   "tendsBasis": "league",
    "since": 2025,
-   "sinceBasis": "wayback"
+   "sinceBasis": "wayback",
+   "tends": 2028,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-01-29",
@@ -281814,10 +281814,10 @@
    "conf": "Confirmed",
    "verified": "2026-11-10",
    "datesTried": "2026-11-19",
-   "ttier": "T2",
-   "tbasis": "role",
    "since": 2025,
-   "sinceBasis": "wayback"
+   "sinceBasis": "wayback",
+   "ttier": "T2",
+   "tbasis": "role"
   },
   {
    "listed": "2026-10-30",
@@ -281842,12 +281842,12 @@
     "founding sponsor of the Women's Academy"
    ],
    "rightsSrc": "https://dolphinsnrl.com.au/news/2023/08/21/dolphins-welcome-anglo-american-to-the-team-as-mining-and-community-partner",
+   "since": 2024,
+   "sinceBasis": "wayback",
    "ttier": "T2",
    "tbasis": "sourced",
    "tends": 2026,
-   "tendsBasis": "league",
-   "since": 2024,
-   "sinceBasis": "wayback"
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-10-30",
@@ -281882,10 +281882,10 @@
    "conf": "Confirmed",
    "verified": "2026-11-10",
    "datesTried": "2026-11-19",
-   "ttier": "T2",
-   "tbasis": "role",
    "since": 2023,
-   "sinceBasis": "wayback"
+   "sinceBasis": "wayback",
+   "ttier": "T2",
+   "tbasis": "role"
   },
   {
    "listed": "2026-10-30",
@@ -300442,10 +300442,10 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-10",
-   "ttier": "T3",
-   "tbasis": "category",
    "since": 2023,
-   "sinceBasis": "wayback"
+   "sinceBasis": "wayback",
+   "ttier": "T3",
+   "tbasis": "category"
   },
   {
    "listed": "2026-11-10",
@@ -315447,7 +315447,6 @@
    "sinceBasis": "wayback",
    "ended": 2025,
    "ends": 2025,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -315467,7 +315466,6 @@
    "sinceBasis": "wayback",
    "ended": 2024,
    "ends": 2024,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -315485,7 +315483,7 @@
    "listed": "2026-08-09",
    "since": 2022,
    "sinceBasis": "wayback",
-   "verified": "2026-08-09",
+   "verified": "2026-11-10",
    "source": "wayback"
   },
   {
@@ -315505,7 +315503,6 @@
    "sinceBasis": "wayback",
    "ended": 2024,
    "ends": 2024,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -315525,7 +315522,6 @@
    "sinceBasis": "wayback",
    "ended": 2023,
    "ends": 2023,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -315543,7 +315539,7 @@
    "listed": "2026-08-09",
    "since": 2023,
    "sinceBasis": "wayback",
-   "verified": "2026-08-09",
+   "verified": "2026-11-10",
    "source": "wayback"
   },
   {
@@ -315563,7 +315559,6 @@
    "sinceBasis": "wayback",
    "ended": 2025,
    "ends": 2025,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -315583,7 +315578,6 @@
    "sinceBasis": "wayback",
    "ended": 2025,
    "ends": 2025,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -315601,7 +315595,7 @@
    "listed": "2026-08-09",
    "since": 2023,
    "sinceBasis": "wayback",
-   "verified": "2026-08-09",
+   "verified": "2026-11-10",
    "source": "wayback"
   },
   {
@@ -315621,7 +315615,6 @@
    "sinceBasis": "wayback",
    "ended": 2024,
    "ends": 2024,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -315641,7 +315634,6 @@
    "sinceBasis": "wayback",
    "ended": 2025,
    "ends": 2025,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -315661,7 +315653,6 @@
    "sinceBasis": "wayback",
    "ended": 2025,
    "ends": 2025,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -315681,7 +315672,6 @@
    "sinceBasis": "wayback",
    "ended": 2025,
    "ends": 2025,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -315699,7 +315689,7 @@
    "listed": "2026-08-09",
    "since": 2024,
    "sinceBasis": "wayback",
-   "verified": "2026-08-09",
+   "verified": "2026-11-10",
    "source": "wayback"
   },
   {
@@ -315717,7 +315707,7 @@
    "listed": "2026-08-09",
    "since": 2025,
    "sinceBasis": "wayback",
-   "verified": "2026-08-09",
+   "verified": "2026-11-10",
    "source": "wayback",
    "ends": 2025
   }
