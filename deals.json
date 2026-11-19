@@ -217935,10 +217935,10 @@
    "tier": "Media & broadcast",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "ttier": "Media",
-   "tbasis": "rights",
    "since": 2023,
-   "sinceBasis": "wayback"
+   "sinceBasis": "wayback",
+   "ttier": "Media",
+   "tbasis": "rights"
   },
   {
    "listed": "2026-11-16",
@@ -217954,10 +217954,10 @@
    "tier": "Media & broadcast",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "ttier": "Media",
-   "tbasis": "rights",
    "since": 2023,
-   "sinceBasis": "wayback"
+   "sinceBasis": "wayback",
+   "ttier": "Media",
+   "tbasis": "rights"
   },
   {
    "listed": "2026-11-16",
@@ -224411,12 +224411,12 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-10",
+   "since": 2021,
+   "sinceBasis": "wayback",
    "ttier": "T2",
    "tbasis": "rights",
    "tends": 2029,
-   "tendsBasis": "term",
-   "since": 2021,
-   "sinceBasis": "wayback"
+   "tendsBasis": "term"
   },
   {
    "date": "2026-11-06",
@@ -225245,12 +225245,12 @@
    "checked": "2026-11-16",
    "conf": "Reported",
    "verified": "2026-11-16",
+   "since": 2024,
+   "sinceBasis": "wayback",
    "ttier": "T2",
    "tbasis": "rights",
    "tends": 2028,
-   "tendsBasis": "league",
-   "since": 2024,
-   "sinceBasis": "wayback"
+   "tendsBasis": "league"
   },
   {
    "date": "2026-10-28",
@@ -231853,12 +231853,12 @@
    "market": "ANZ",
    "conf": "Reported",
    "verified": "2026-09-03",
+   "since": 2022,
+   "sinceBasis": "wayback",
    "ttier": "T1",
    "tbasis": "role",
    "tends": 2029,
-   "tendsBasis": "term",
-   "since": 2022,
-   "sinceBasis": "wayback"
+   "tendsBasis": "term"
   },
   {
    "month": "2026-09",
@@ -239491,10 +239491,10 @@
    "endsLock": true,
    "conf": "Confirmed",
    "verified": "2025-09-09",
-   "tends": 2027,
-   "tendsBasis": "stated",
    "since": 2022,
-   "sinceBasis": "wayback"
+   "sinceBasis": "wayback",
+   "tends": 2027,
+   "tendsBasis": "stated"
   },
   {
    "date": "2025-09-09",
@@ -243430,12 +243430,12 @@
    "url": "https://nectr.com.au/news-and-resources/nectr-expands-penrith-panthers-partnership-in-2026-and-beyond/",
    "conf": "Confirmed",
    "verified": "2025-12-03",
+   "since": 2025,
+   "sinceBasis": "wayback",
    "ttier": "T1",
    "tbasis": "rights",
    "tends": 2028,
-   "tendsBasis": "league",
-   "since": 2025,
-   "sinceBasis": "wayback"
+   "tendsBasis": "league"
   },
   {
    "date": "2025-12-03",
@@ -243932,10 +243932,10 @@
    "endsLock": true,
    "conf": "Confirmed",
    "verified": "2025-06-25",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "since": 2023,
-   "sinceBasis": "wayback"
+   "sinceBasis": "wayback",
+   "tends": 2026,
+   "tendsBasis": "stated"
   },
   {
    "date": "2025-06-25",
@@ -244835,10 +244835,10 @@
    "conf": "Confirmed",
    "verified": "2026-02-18",
    "endsLock": true,
-   "tends": 2030,
-   "tendsBasis": "term",
    "since": 2021,
-   "sinceBasis": "wayback"
+   "sinceBasis": "wayback",
+   "tends": 2030,
+   "tendsBasis": "term"
   },
   {
    "date": "2026-02-18",
@@ -247042,12 +247042,12 @@
    "endsLock": true,
    "conf": "Confirmed",
    "verified": "2025-05-21",
+   "since": 2022,
+   "sinceBasis": "wayback",
    "ttier": "T2",
    "tbasis": "role",
    "tends": 2026,
-   "tendsBasis": "stated",
-   "since": 2022,
-   "sinceBasis": "wayback"
+   "tendsBasis": "stated"
   },
   {
    "date": "2025-05-21",
@@ -247630,10 +247630,10 @@
    "url": "https://www.penrithpanthers.com.au/news/2025/10/23/westfund-renews-panthers-foundation-commitment/",
    "conf": "Confirmed",
    "verified": "2025-11-05",
-   "tends": 2028,
-   "tendsBasis": "league",
    "since": 2022,
-   "sinceBasis": "wayback"
+   "sinceBasis": "wayback",
+   "tends": 2028,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-11-05",
@@ -248265,12 +248265,12 @@
    "url": "https://perthglory.com.au/news/glory-brews-up-exciting-new-partnership-with-muzz-buzz/",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "since": 2025,
+   "sinceBasis": "wayback",
    "ttier": "T2",
    "tbasis": "role",
    "tends": 2027,
-   "tendsBasis": "term",
-   "since": 2025,
-   "sinceBasis": "wayback"
+   "tendsBasis": "term"
   },
   {
    "date": "2025-09-17",
@@ -248730,10 +248730,10 @@
    "endsLock": true,
    "conf": "Confirmed",
    "verified": "2024-10-02",
-   "tends": 2031,
-   "tendsBasis": "stated",
    "since": 2022,
-   "sinceBasis": "wayback"
+   "sinceBasis": "wayback",
+   "tends": 2031,
+   "tendsBasis": "stated"
   },
   {
    "date": "2024-10-02",
@@ -251634,12 +251634,12 @@
    "checked": "2026-11-16",
    "conf": "Reported",
    "verified": "2026-11-16",
+   "since": 2025,
+   "sinceBasis": "wayback",
    "ttier": "T2",
    "tbasis": "role",
    "tends": 2027,
-   "tendsBasis": "league",
-   "since": 2025,
-   "sinceBasis": "wayback"
+   "tendsBasis": "league"
   },
   {
    "date": "2025-10-31",
@@ -255973,10 +255973,10 @@
    "market": "ANZ",
    "conf": "Reported",
    "verified": "2025-08-11",
-   "tends": 2028,
-   "tendsBasis": "league",
    "since": 2023,
-   "sinceBasis": "wayback"
+   "sinceBasis": "wayback",
+   "tends": 2028,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-08-06",
@@ -256292,10 +256292,10 @@
    "market": "ANZ",
    "conf": "Reported",
    "verified": "2025-09-05",
-   "tends": 2028,
-   "tendsBasis": "league",
    "since": 2022,
-   "sinceBasis": "wayback"
+   "sinceBasis": "wayback",
+   "tends": 2028,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-09-05",
@@ -276110,12 +276110,12 @@
    "term": 3,
    "ends": 2028,
    "endsEst": true,
+   "since": 2021,
+   "sinceBasis": "wayback",
    "ttier": "T1",
    "tbasis": "sourced",
    "tends": 2028,
-   "tendsBasis": "term",
-   "since": 2021,
-   "sinceBasis": "wayback"
+   "tendsBasis": "term"
   },
   {
    "listed": "2026-10-30",
@@ -280203,12 +280203,12 @@
     "In-stadium signage"
    ],
    "rightsSrc": "https://perthglory.com.au/?p=335377",
+   "since": 2025,
+   "sinceBasis": "wayback",
    "ttier": "T1",
    "tbasis": "sourced",
    "tends": 2028,
-   "tendsBasis": "league",
-   "since": 2025,
-   "sinceBasis": "wayback"
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-10-30",
@@ -285479,12 +285479,12 @@
     "20% member and fan discount on vehicle hire"
    ],
    "rightsSrc": "https://www.penrithpanthers.com.au/news/2026/04/29/panthers-and-hertz-extend-long-standing-partnership/",
+   "since": 2022,
+   "sinceBasis": "wayback",
    "ttier": "T2",
    "tbasis": "sourced",
    "tends": 2028,
-   "tendsBasis": "stated",
-   "since": 2022,
-   "sinceBasis": "wayback"
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-10-30",
@@ -285501,10 +285501,10 @@
    "conf": "Confirmed",
    "verified": "2026-11-05",
    "datesTried": "2026-11-19",
-   "ttier": "T2",
-   "tbasis": "role",
    "since": 2022,
-   "sinceBasis": "wayback"
+   "sinceBasis": "wayback",
+   "ttier": "T2",
+   "tbasis": "role"
   },
   {
    "listed": "2026-10-30",
@@ -285529,12 +285529,12 @@
     "Home game activations and LED signage"
    ],
    "rightsSrc": "https://www.penrithpanthers.com.au/news/2026/08/04/kfc-extends-partnership-with-panthers/",
+   "since": 2022,
+   "sinceBasis": "wayback",
    "ttier": "T2",
    "tbasis": "sourced",
    "tends": 2028,
-   "tendsBasis": "stated",
-   "since": 2022,
-   "sinceBasis": "wayback"
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-10-30",
@@ -294958,10 +294958,10 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-05",
-   "ttier": "T3",
-   "tbasis": "category",
    "since": 2023,
-   "sinceBasis": "wayback"
+   "sinceBasis": "wayback",
+   "ttier": "T3",
+   "tbasis": "category"
   },
   {
    "listed": "2026-11-05",
@@ -298661,12 +298661,12 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-03-30",
+   "since": 2022,
+   "sinceBasis": "wayback",
    "ttier": "T2",
    "tbasis": "role",
    "tends": 2029,
-   "tendsBasis": "league",
-   "since": 2022,
-   "sinceBasis": "wayback"
+   "tendsBasis": "league"
   },
   {
    "date": "2024-09-27",
@@ -328639,7 +328639,6 @@
    "sinceBasis": "wayback",
    "ended": 2022,
    "ends": 2022,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -328659,7 +328658,6 @@
    "sinceBasis": "wayback",
    "ended": 2022,
    "ends": 2022,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -328679,7 +328677,6 @@
    "sinceBasis": "wayback",
    "ended": 2022,
    "ends": 2022,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -328699,7 +328696,6 @@
    "sinceBasis": "wayback",
    "ended": 2022,
    "ends": 2022,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -328719,7 +328715,6 @@
    "sinceBasis": "wayback",
    "ended": 2021,
    "ends": 2021,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -328739,7 +328734,6 @@
    "sinceBasis": "wayback",
    "ended": 2021,
    "ends": 2021,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -328759,7 +328753,6 @@
    "sinceBasis": "wayback",
    "ended": 2022,
    "ends": 2022,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -328779,7 +328772,6 @@
    "sinceBasis": "wayback",
    "ended": 2022,
    "ends": 2022,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -328799,7 +328791,6 @@
    "sinceBasis": "wayback",
    "ended": 2022,
    "ends": 2022,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -328819,7 +328810,6 @@
    "sinceBasis": "wayback",
    "ended": 2021,
    "ends": 2021,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -328839,7 +328829,6 @@
    "sinceBasis": "wayback",
    "ended": 2021,
    "ends": 2021,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -328859,7 +328848,6 @@
    "sinceBasis": "wayback",
    "ended": 2022,
    "ends": 2022,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -328879,7 +328867,6 @@
    "sinceBasis": "wayback",
    "ended": 2021,
    "ends": 2021,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -328899,7 +328886,6 @@
    "sinceBasis": "wayback",
    "ended": 2021,
    "ends": 2021,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -328919,7 +328905,6 @@
    "sinceBasis": "wayback",
    "ended": 2024,
    "ends": 2024,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -328939,7 +328924,6 @@
    "sinceBasis": "wayback",
    "ended": 2023,
    "ends": 2023,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -328959,7 +328943,6 @@
    "sinceBasis": "wayback",
    "ended": 2023,
    "ends": 2023,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -328979,7 +328962,6 @@
    "sinceBasis": "wayback",
    "ended": 2022,
    "ends": 2022,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -328999,7 +328981,6 @@
    "sinceBasis": "wayback",
    "ended": 2023,
    "ends": 2023,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -329019,7 +329000,6 @@
    "sinceBasis": "wayback",
    "ended": 2022,
    "ends": 2022,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -329039,7 +329019,6 @@
    "sinceBasis": "wayback",
    "ended": 2022,
    "ends": 2022,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -329059,7 +329038,6 @@
    "sinceBasis": "wayback",
    "ended": 2022,
    "ends": 2022,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -329079,7 +329057,6 @@
    "sinceBasis": "wayback",
    "ended": 2022,
    "ends": 2022,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -329099,7 +329076,6 @@
    "sinceBasis": "wayback",
    "ended": 2022,
    "ends": 2022,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -329119,7 +329095,6 @@
    "sinceBasis": "wayback",
    "ended": 2023,
    "ends": 2023,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -329139,7 +329114,6 @@
    "sinceBasis": "wayback",
    "ended": 2022,
    "ends": 2022,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -329159,7 +329133,6 @@
    "sinceBasis": "wayback",
    "ended": 2022,
    "ends": 2022,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -329179,7 +329152,6 @@
    "sinceBasis": "wayback",
    "ended": 2022,
    "ends": 2022,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -329199,7 +329171,6 @@
    "sinceBasis": "wayback",
    "ended": 2024,
    "ends": 2024,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -329219,7 +329190,6 @@
    "sinceBasis": "wayback",
    "ended": 2025,
    "ends": 2025,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -329239,7 +329209,6 @@
    "sinceBasis": "wayback",
    "ended": 2025,
    "ends": 2025,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -329257,7 +329226,7 @@
    "listed": "2026-08-07",
    "since": 2023,
    "sinceBasis": "wayback",
-   "verified": "2026-08-07",
+   "verified": "2026-11-16",
    "source": "wayback"
   },
   {
@@ -329277,7 +329246,6 @@
    "sinceBasis": "wayback",
    "ended": 2023,
    "ends": 2023,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -329297,7 +329265,6 @@
    "sinceBasis": "wayback",
    "ended": 2023,
    "ends": 2023,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -329317,7 +329284,6 @@
    "sinceBasis": "wayback",
    "ended": 2023,
    "ends": 2023,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -329337,7 +329303,6 @@
    "sinceBasis": "wayback",
    "ended": 2025,
    "ends": 2025,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -329355,7 +329320,7 @@
    "listed": "2026-08-07",
    "since": 2024,
    "sinceBasis": "wayback",
-   "verified": "2026-08-07",
+   "verified": "2026-11-16",
    "source": "wayback"
   },
   {
@@ -329375,7 +329340,6 @@
    "sinceBasis": "wayback",
    "ended": 2025,
    "ends": 2025,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -329395,7 +329359,6 @@
    "sinceBasis": "wayback",
    "ended": 2025,
    "ends": 2025,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -329415,7 +329378,6 @@
    "sinceBasis": "wayback",
    "ended": 2024,
    "ends": 2024,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -329433,7 +329395,7 @@
    "listed": "2026-08-07",
    "since": 2024,
    "sinceBasis": "wayback",
-   "verified": "2026-08-07",
+   "verified": "2026-11-16",
    "source": "wayback"
   },
   {
@@ -329453,7 +329415,6 @@
    "sinceBasis": "wayback",
    "ended": 2025,
    "ends": 2025,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -329473,7 +329434,6 @@
    "sinceBasis": "wayback",
    "ended": 2025,
    "ends": 2025,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -329493,7 +329453,6 @@
    "sinceBasis": "wayback",
    "ended": 2025,
    "ends": 2025,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -329513,7 +329472,6 @@
    "sinceBasis": "wayback",
    "ended": 2023,
    "ends": 2023,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -329533,7 +329491,6 @@
    "sinceBasis": "wayback",
    "ended": 2022,
    "ends": 2022,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -329553,7 +329510,6 @@
    "sinceBasis": "wayback",
    "ended": 2022,
    "ends": 2022,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -329573,7 +329529,6 @@
    "sinceBasis": "wayback",
    "ended": 2023,
    "ends": 2023,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -329593,7 +329548,6 @@
    "sinceBasis": "wayback",
    "ended": 2022,
    "ends": 2022,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -329613,7 +329567,6 @@
    "sinceBasis": "wayback",
    "ended": 2024,
    "ends": 2024,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -329633,7 +329586,6 @@
    "sinceBasis": "wayback",
    "ended": 2023,
    "ends": 2023,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -329653,7 +329605,6 @@
    "sinceBasis": "wayback",
    "ended": 2023,
    "ends": 2023,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -329673,7 +329624,6 @@
    "sinceBasis": "wayback",
    "ended": 2022,
    "ends": 2022,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -329693,7 +329643,6 @@
    "sinceBasis": "wayback",
    "ended": 2022,
    "ends": 2022,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -329713,7 +329662,6 @@
    "sinceBasis": "wayback",
    "ended": 2022,
    "ends": 2022,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -329733,7 +329681,6 @@
    "sinceBasis": "wayback",
    "ended": 2024,
    "ends": 2024,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -329753,7 +329700,6 @@
    "sinceBasis": "wayback",
    "ended": 2024,
    "ends": 2024,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -329773,7 +329719,6 @@
    "sinceBasis": "wayback",
    "ended": 2022,
    "ends": 2022,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -329793,7 +329738,6 @@
    "sinceBasis": "wayback",
    "ended": 2022,
    "ends": 2022,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -329813,7 +329757,6 @@
    "sinceBasis": "wayback",
    "ended": 2022,
    "ends": 2022,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -329833,7 +329776,6 @@
    "sinceBasis": "wayback",
    "ended": 2025,
    "ends": 2025,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -329853,7 +329795,6 @@
    "sinceBasis": "wayback",
    "ended": 2022,
    "ends": 2022,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -329871,7 +329812,7 @@
    "listed": "2026-05-16",
    "since": 2022,
    "sinceBasis": "wayback",
-   "verified": "2026-05-16",
+   "verified": "2026-11-05",
    "source": "wayback"
   },
   {
@@ -329891,7 +329832,6 @@
    "sinceBasis": "wayback",
    "ended": 2024,
    "ends": 2024,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -329911,7 +329851,6 @@
    "sinceBasis": "wayback",
    "ended": 2022,
    "ends": 2022,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -329931,7 +329870,6 @@
    "sinceBasis": "wayback",
    "ended": 2024,
    "ends": 2024,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -329951,7 +329889,6 @@
    "sinceBasis": "wayback",
    "ended": 2023,
    "ends": 2023,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -329971,7 +329908,6 @@
    "sinceBasis": "wayback",
    "ended": 2023,
    "ends": 2023,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -329991,7 +329927,6 @@
    "sinceBasis": "wayback",
    "ended": 2024,
    "ends": 2024,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -330011,7 +329946,6 @@
    "sinceBasis": "wayback",
    "ended": 2024,
    "ends": 2024,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -330031,7 +329965,6 @@
    "sinceBasis": "wayback",
    "ended": 2023,
    "ends": 2023,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -330049,7 +329982,7 @@
    "listed": "2026-05-16",
    "since": 2022,
    "sinceBasis": "wayback",
-   "verified": "2026-05-16",
+   "verified": "2026-11-05",
    "source": "wayback"
   },
   {
@@ -330069,7 +330002,6 @@
    "sinceBasis": "wayback",
    "ended": 2025,
    "ends": 2025,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -330089,7 +330021,6 @@
    "sinceBasis": "wayback",
    "ended": 2023,
    "ends": 2023,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -330109,7 +330040,6 @@
    "sinceBasis": "wayback",
    "ended": 2025,
    "ends": 2025,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -330129,7 +330059,6 @@
    "sinceBasis": "wayback",
    "ended": 2023,
    "ends": 2023,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -330149,7 +330078,6 @@
    "sinceBasis": "wayback",
    "ended": 2022,
    "ends": 2022,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -330169,7 +330097,6 @@
    "sinceBasis": "wayback",
    "ended": 2022,
    "ends": 2022,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -330189,7 +330116,6 @@
    "sinceBasis": "wayback",
    "ended": 2025,
    "ends": 2025,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -330209,7 +330135,6 @@
    "sinceBasis": "wayback",
    "ended": 2025,
    "ends": 2025,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -330229,7 +330154,6 @@
    "sinceBasis": "wayback",
    "ended": 2022,
    "ends": 2022,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -330249,7 +330173,6 @@
    "sinceBasis": "wayback",
    "ended": 2022,
    "ends": 2022,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -330269,7 +330192,6 @@
    "sinceBasis": "wayback",
    "ended": 2023,
    "ends": 2023,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -330289,7 +330211,6 @@
    "sinceBasis": "wayback",
    "ended": 2022,
    "ends": 2022,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -330309,7 +330230,6 @@
    "sinceBasis": "wayback",
    "ended": 2022,
    "ends": 2022,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -330329,7 +330249,6 @@
    "sinceBasis": "wayback",
    "ended": 2025,
    "ends": 2025,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -330349,7 +330268,6 @@
    "sinceBasis": "wayback",
    "ended": 2022,
    "ends": 2022,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -330369,7 +330287,6 @@
    "sinceBasis": "wayback",
    "ended": 2022,
    "ends": 2022,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -330389,7 +330306,6 @@
    "sinceBasis": "wayback",
    "ended": 2022,
    "ends": 2022,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -330409,7 +330325,6 @@
    "sinceBasis": "wayback",
    "ended": 2023,
    "ends": 2023,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -330429,7 +330344,6 @@
    "sinceBasis": "wayback",
    "ended": 2022,
    "ends": 2022,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -330449,7 +330363,6 @@
    "sinceBasis": "wayback",
    "ended": 2023,
    "ends": 2023,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -330469,7 +330382,6 @@
    "sinceBasis": "wayback",
    "ended": 2022,
    "ends": 2022,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -330489,7 +330401,6 @@
    "sinceBasis": "wayback",
    "ended": 2022,
    "ends": 2022,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -330509,7 +330420,6 @@
    "sinceBasis": "wayback",
    "ended": 2022,
    "ends": 2022,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -330529,7 +330439,6 @@
    "sinceBasis": "wayback",
    "ended": 2022,
    "ends": 2022,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -330549,7 +330458,6 @@
    "sinceBasis": "wayback",
    "ended": 2022,
    "ends": 2022,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -330567,7 +330475,7 @@
    "listed": "2026-05-16",
    "since": 2022,
    "sinceBasis": "wayback",
-   "verified": "2026-05-16",
+   "verified": "2026-11-05",
    "source": "wayback"
   },
   {
@@ -330587,7 +330495,6 @@
    "sinceBasis": "wayback",
    "ended": 2022,
    "ends": 2022,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -330607,7 +330514,6 @@
    "sinceBasis": "wayback",
    "ended": 2023,
    "ends": 2023,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -330627,7 +330533,6 @@
    "sinceBasis": "wayback",
    "ended": 2023,
    "ends": 2023,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -330647,7 +330552,6 @@
    "sinceBasis": "wayback",
    "ended": 2025,
    "ends": 2025,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -330667,7 +330571,6 @@
    "sinceBasis": "wayback",
    "ended": 2023,
    "ends": 2023,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -330687,7 +330590,6 @@
    "sinceBasis": "wayback",
    "ended": 2025,
    "ends": 2025,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -330707,7 +330609,6 @@
    "sinceBasis": "wayback",
    "ended": 2025,
    "ends": 2025,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -330727,7 +330628,6 @@
    "sinceBasis": "wayback",
    "ended": 2024,
    "ends": 2024,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -330747,7 +330647,6 @@
    "sinceBasis": "wayback",
    "ended": 2023,
    "ends": 2023,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -330767,7 +330666,6 @@
    "sinceBasis": "wayback",
    "ended": 2023,
    "ends": 2023,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -330787,7 +330685,6 @@
    "sinceBasis": "wayback",
    "ended": 2025,
    "ends": 2025,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -330807,7 +330704,6 @@
    "sinceBasis": "wayback",
    "ended": 2024,
    "ends": 2024,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -330827,7 +330723,6 @@
    "sinceBasis": "wayback",
    "ended": 2024,
    "ends": 2024,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -330847,7 +330742,6 @@
    "sinceBasis": "wayback",
    "ended": 2024,
    "ends": 2024,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -330867,7 +330761,6 @@
    "sinceBasis": "wayback",
    "ended": 2025,
    "ends": 2025,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -330887,7 +330780,6 @@
    "sinceBasis": "wayback",
    "ended": 2025,
    "ends": 2025,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -330907,7 +330799,6 @@
    "sinceBasis": "wayback",
    "ended": 2025,
    "ends": 2025,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -330927,7 +330818,6 @@
    "sinceBasis": "wayback",
    "ended": 2023,
    "ends": 2023,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -330947,7 +330837,6 @@
    "sinceBasis": "wayback",
    "ended": 2023,
    "ends": 2023,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -330967,7 +330856,6 @@
    "sinceBasis": "wayback",
    "ended": 2025,
    "ends": 2025,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -330987,7 +330875,6 @@
    "sinceBasis": "wayback",
    "ended": 2023,
    "ends": 2023,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -331007,7 +330894,6 @@
    "sinceBasis": "wayback",
    "ended": 2025,
    "ends": 2025,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -331027,7 +330913,6 @@
    "sinceBasis": "wayback",
    "ended": 2023,
    "ends": 2023,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -331047,7 +330932,6 @@
    "sinceBasis": "wayback",
    "ended": 2024,
    "ends": 2024,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -331067,7 +330951,6 @@
    "sinceBasis": "wayback",
    "ended": 2024,
    "ends": 2024,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -331085,7 +330968,7 @@
    "listed": "2026-05-16",
    "since": 2023,
    "sinceBasis": "wayback",
-   "verified": "2026-05-16",
+   "verified": "2026-11-05",
    "source": "wayback"
   },
   {
@@ -331105,7 +330988,6 @@
    "sinceBasis": "wayback",
    "ended": 2025,
    "ends": 2025,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -331125,7 +331007,6 @@
    "sinceBasis": "wayback",
    "ended": 2025,
    "ends": 2025,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -331145,7 +331026,6 @@
    "sinceBasis": "wayback",
    "ended": 2024,
    "ends": 2024,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -331165,7 +331045,6 @@
    "sinceBasis": "wayback",
    "ended": 2025,
    "ends": 2025,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -331185,7 +331064,6 @@
    "sinceBasis": "wayback",
    "ended": 2025,
    "ends": 2025,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -331205,7 +331083,6 @@
    "sinceBasis": "wayback",
    "ended": 2024,
    "ends": 2024,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -331225,7 +331102,6 @@
    "sinceBasis": "wayback",
    "ended": 2025,
    "ends": 2025,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -331245,7 +331121,6 @@
    "sinceBasis": "wayback",
    "ended": 2025,
    "ends": 2025,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -331265,7 +331140,6 @@
    "sinceBasis": "wayback",
    "ended": 2025,
    "ends": 2025,
-   "verified": "2026-11-20",
    "source": "wayback"
   },
   {
@@ -331285,7 +331159,6 @@
    "sinceBasis": "wayback",
    "ended": 2025,
    "ends": 2025,
-   "verified": "2026-11-20",
    "source": "wayback"
   }
  ]
