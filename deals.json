@@ -54098,7 +54098,9 @@
    "ends": 2026,
    "endsEst": true,
    "conf": "Reported",
-   "verified": "2026-11-18"
+   "verified": "2026-11-18",
+   "since": 2023,
+   "sinceBasis": "wayback"
   },
   {
    "deal": "Accor × Australian Open",
@@ -54547,7 +54549,9 @@
    "month": "2018-12",
    "conf": "Reported",
    "verified": "2026-11-18",
-   "ends": 2022
+   "ends": 2022,
+   "since": 2022,
+   "sinceBasis": "wayback"
   },
   {
    "deal": "Uber Eats × Australian Open",
@@ -54655,7 +54659,9 @@
    "month": "2023-12",
    "conf": "Reported",
    "verified": "2026-11-18",
-   "ends": 2024
+   "ends": 2024,
+   "since": 2023,
+   "sinceBasis": "wayback"
   },
   {
    "deal": "Life-Space × Australian Open",
@@ -54672,7 +54678,9 @@
    "ended": 2025,
    "month": "2022-11",
    "conf": "Reported",
-   "verified": "2026-11-18"
+   "verified": "2026-11-18",
+   "since": 2022,
+   "sinceBasis": "wayback"
   },
   {
    "deal": "Penfolds × Australian Open",
@@ -54689,7 +54697,9 @@
    "ended": 2024,
    "month": "2022-01",
    "conf": "Reported",
-   "verified": "2026-11-18"
+   "verified": "2026-11-18",
+   "since": 2023,
+   "sinceBasis": "wayback"
   },
   {
    "deal": "Squealing Pig × Australian Open",
@@ -54708,7 +54718,9 @@
    "ends": 2025,
    "conf": "Reported",
    "verified": "2026-11-18",
-   "endsLock": true
+   "endsLock": true,
+   "since": 2023,
+   "sinceBasis": "wayback"
   },
   {
    "deal": "Somersby × Australian Open",
@@ -54815,7 +54827,9 @@
    "ended": 2026,
    "conf": "Confirmed",
    "verified": "2026-11-18",
-   "date": "2021-12-01"
+   "date": "2021-12-01",
+   "since": 2023,
+   "sinceBasis": "wayback"
   },
   {
    "deal": "Balter × Australian Open",
@@ -55575,7 +55589,9 @@
    "ttier": "T1",
    "tbasis": "rights",
    "tends": 2027,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "since": 2024,
+   "sinceBasis": "wayback"
   },
   {
    "deal": "De Cecco × Australian Open",
@@ -190842,7 +190858,9 @@
    "conf": "Confirmed",
    "verified": "2026-11-16",
    "ttier": "Media",
-   "tbasis": "rights"
+   "tbasis": "rights",
+   "since": 2021,
+   "sinceBasis": "wayback"
   },
   {
    "listed": "2026-11-16",
@@ -190859,7 +190877,9 @@
    "conf": "Confirmed",
    "verified": "2026-11-16",
    "ttier": "Media",
-   "tbasis": "rights"
+   "tbasis": "rights",
+   "since": 2021,
+   "sinceBasis": "wayback"
   },
   {
    "listed": "2026-11-16",
@@ -190889,7 +190909,9 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "since": 2024,
+   "sinceBasis": "wayback"
   },
   {
    "listed": "2026-11-16",
@@ -190904,7 +190926,9 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "since": 2024,
+   "sinceBasis": "wayback"
   },
   {
    "listed": "2026-11-16",
@@ -190919,7 +190943,9 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "since": 2021,
+   "sinceBasis": "wayback"
   },
   {
    "listed": "2026-11-16",
@@ -190934,7 +190960,9 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "since": 2021,
+   "sinceBasis": "wayback"
   },
   {
    "listed": "2026-11-16",
@@ -190965,7 +190993,9 @@
    "ttier": "T2",
    "tbasis": "sourced",
    "tends": 2031,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "since": 2021,
+   "sinceBasis": "wayback"
   },
   {
    "listed": "2026-11-16",
@@ -216090,7 +216120,9 @@
    "ptier": "Corporate partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "since": 2023,
+   "sinceBasis": "wayback"
   },
   {
    "listed": "2026-11-16",
@@ -216120,7 +216152,9 @@
    "ptier": "Corporate partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "since": 2021,
+   "sinceBasis": "wayback"
   },
   {
    "listed": "2026-11-16",
@@ -216135,7 +216169,9 @@
    "ptier": "Corporate partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "since": 2025,
+   "sinceBasis": "wayback"
   },
   {
    "listed": "2026-11-16",
@@ -216150,7 +216186,9 @@
    "ptier": "Corporate partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "since": 2023,
+   "sinceBasis": "wayback"
   },
   {
    "listed": "2026-11-16",
@@ -216165,7 +216203,9 @@
    "ptier": "Corporate partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "since": 2025,
+   "sinceBasis": "wayback"
   },
   {
    "listed": "2026-11-16",
@@ -216180,7 +216220,9 @@
    "ptier": "Corporate partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "since": 2021,
+   "sinceBasis": "wayback"
   },
   {
    "listed": "2026-11-16",
@@ -216195,7 +216237,9 @@
    "ptier": "Corporate partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "since": 2021,
+   "sinceBasis": "wayback"
   },
   {
    "listed": "2026-11-16",
@@ -216210,7 +216254,9 @@
    "ptier": "Corporate partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "since": 2025,
+   "sinceBasis": "wayback"
   },
   {
    "listed": "2026-11-16",
@@ -216257,7 +216303,9 @@
    "ptier": "Corporate partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "since": 2023,
+   "sinceBasis": "wayback"
   },
   {
    "listed": "2026-11-16",
@@ -216272,7 +216320,9 @@
    "ptier": "Premium partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "since": 2025,
+   "sinceBasis": "wayback"
   },
   {
    "listed": "2026-11-16",
@@ -216287,7 +216337,9 @@
    "ptier": "Premium partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "since": 2022,
+   "sinceBasis": "wayback"
   },
   {
    "listed": "2026-11-16",
@@ -216302,7 +216354,9 @@
    "ptier": "Premium partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "since": 2023,
+   "sinceBasis": "wayback"
   },
   {
    "listed": "2026-11-16",
@@ -216317,7 +216371,9 @@
    "ptier": "Premium partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "since": 2022,
+   "sinceBasis": "wayback"
   },
   {
    "listed": "2026-11-16",
@@ -219693,7 +219749,9 @@
    "conf": "Confirmed",
    "verified": "2026-11-16",
    "ttier": "Kit",
-   "tbasis": "rights"
+   "tbasis": "rights",
+   "since": 2021,
+   "sinceBasis": "wayback"
   },
   {
    "listed": "2026-11-16",
@@ -219711,7 +219769,9 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "since": 2021,
+   "sinceBasis": "wayback"
   },
   {
    "listed": "2026-11-16",
@@ -219729,7 +219789,9 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "since": 2021,
+   "sinceBasis": "wayback"
   },
   {
    "listed": "2026-11-16",
@@ -219747,7 +219809,9 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "since": 2024,
+   "sinceBasis": "wayback"
   },
   {
    "listed": "2026-11-16",
@@ -219765,7 +219829,9 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "since": 2024,
+   "sinceBasis": "wayback"
   },
   {
    "listed": "2026-11-16",
@@ -219785,7 +219851,9 @@
    "conf": "Confirmed",
    "verified": "2026-11-16",
    "ttier": "Media",
-   "tbasis": "rights"
+   "tbasis": "rights",
+   "since": 2021,
+   "sinceBasis": "wayback"
   },
   {
    "listed": "2026-11-16",
@@ -219805,7 +219873,9 @@
    "conf": "Confirmed",
    "verified": "2026-11-16",
    "ttier": "Media",
-   "tbasis": "rights"
+   "tbasis": "rights",
+   "since": 2021,
+   "sinceBasis": "wayback"
   },
   {
    "listed": "2026-11-16",
@@ -227116,7 +227186,9 @@
    "conf": "Reported",
    "verified": "2026-11-16",
    "tends": 2029,
-   "tendsBasis": "league"
+   "tendsBasis": "league",
+   "since": 2021,
+   "sinceBasis": "wayback"
   },
   {
    "date": "2026-10-29",
@@ -234914,7 +234986,9 @@
    "ttier": "T3",
    "tbasis": "category",
    "tends": 2031,
-   "tendsBasis": "league"
+   "tendsBasis": "league",
+   "since": 2025,
+   "sinceBasis": "wayback"
   },
   {
    "date": "2026-01-15",
@@ -236785,7 +236859,9 @@
    "conf": "Confirmed",
    "verified": "2026-11-16",
    "tends": 2027,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "since": 2024,
+   "sinceBasis": "wayback"
   },
   {
    "date": "2026-08-04",
@@ -240369,7 +240445,9 @@
    "conf": "Confirmed",
    "verified": "2026-11-16",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "since": 2021,
+   "sinceBasis": "wayback"
   },
   {
    "date": "2025-09-30",
@@ -247034,7 +247112,9 @@
    "conf": "Confirmed",
    "verified": "2026-11-16",
    "tends": 2028,
-   "tendsBasis": "league"
+   "tendsBasis": "league",
+   "since": 2024,
+   "sinceBasis": "wayback"
   },
   {
    "date": "2025-07-16",
@@ -248862,7 +248942,9 @@
    "conf": "Confirmed",
    "verified": "2026-11-16",
    "tends": 2028,
-   "tendsBasis": "league"
+   "tendsBasis": "league",
+   "since": 2025,
+   "sinceBasis": "wayback"
   },
   {
    "date": "2025-09-17",
@@ -252673,7 +252755,9 @@
    "verified": "2026-11-17",
    "checked": "2026-11-17",
    "tends": 2030,
-   "tendsBasis": "league"
+   "tendsBasis": "league",
+   "since": 2025,
+   "sinceBasis": "wayback"
   },
   {
    "date": "2025-10-18",
@@ -253420,7 +253504,9 @@
    "verified": "2026-11-17",
    "checked": "2026-11-17",
    "tends": 2030,
-   "tendsBasis": "league"
+   "tendsBasis": "league",
+   "since": 2024,
+   "sinceBasis": "wayback"
   },
   {
    "date": "2025-12-18",
@@ -257722,7 +257808,9 @@
    "ended": 2025,
    "market": "ANZ",
    "conf": "Reported",
-   "verified": "2025-01-07"
+   "verified": "2025-01-07",
+   "since": 2024,
+   "sinceBasis": "wayback"
   },
   {
    "date": "2025-01-07",
@@ -267979,7 +268067,9 @@
    "verified": "2026-11-17",
    "checked": "2026-11-17",
    "tends": 2029,
-   "tendsBasis": "league"
+   "tendsBasis": "league",
+   "since": 2024,
+   "sinceBasis": "wayback"
   },
   {
    "date": "2024-11-25",
@@ -270671,7 +270761,9 @@
    "verified": "2026-11-17",
    "checked": "2026-11-17",
    "tends": 2029,
-   "tendsBasis": "league"
+   "tendsBasis": "league",
+   "since": 2024,
+   "sinceBasis": "wayback"
   },
   {
    "date": "2026-10-14",
@@ -292903,7 +292995,9 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "checked": "2026-11-17"
+   "checked": "2026-11-17",
+   "since": 2024,
+   "sinceBasis": "wayback"
   },
   {
    "listed": "2026-10-30",
@@ -292990,7 +293084,9 @@
    "market": "ANZ",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "checked": "2026-11-17"
+   "checked": "2026-11-17",
+   "since": 2025,
+   "sinceBasis": "wayback"
   },
   {
    "listed": "2026-10-30",
@@ -343991,6 +344087,661 @@
    "sinceBasis": "wayback",
    "ended": 2022,
    "ends": 2022,
+   "verified": "2026-11-20",
+   "source": "wayback"
+  },
+  {
+   "deal": "Bartercard × Wellington Phoenix",
+   "sport": "Football",
+   "type": "Official partner",
+   "region": "ANZ",
+   "market": "ANZ",
+   "summary": "Listed on the Wellington Phoenix partners page, and on it in every season back to 2021 (archived snapshots).",
+   "url": "https://web.archive.org/web/20260714042751/https://wellingtonphoenix.com/our-partners/",
+   "tier": "Official partner",
+   "ptier": "Official partner",
+   "status": "Current partner",
+   "conf": "Confirmed",
+   "listed": "2026-07-14",
+   "since": 2021,
+   "sinceBasis": "wayback",
+   "verified": "2026-07-14",
+   "source": "wayback"
+  },
+  {
+   "deal": "ELMO Software × Wellington Phoenix",
+   "sport": "Football",
+   "type": "Official partner",
+   "region": "ANZ",
+   "market": "ANZ",
+   "summary": "On the Wellington Phoenix partners page in 2021-2024 (archived snapshots), gone by 2025.",
+   "url": "https://web.archive.org/web/20241203060007/https://wellingtonphoenix.com/our-partners/",
+   "tier": "Official partner",
+   "ptier": "Official partner",
+   "status": "Ended",
+   "conf": "Confirmed",
+   "month": "2021-12",
+   "since": 2021,
+   "sinceBasis": "wayback",
+   "ended": 2024,
+   "ends": 2024,
+   "verified": "2026-11-20",
+   "source": "wayback"
+  },
+  {
+   "deal": "Emporio × Wellington Phoenix",
+   "sport": "Football",
+   "type": "Official partner",
+   "region": "ANZ",
+   "market": "ANZ",
+   "summary": "On the Wellington Phoenix partners page in 2021-2024 (archived snapshots), gone by 2025.",
+   "url": "https://web.archive.org/web/20241203060007/https://wellingtonphoenix.com/our-partners/",
+   "tier": "Official partner",
+   "ptier": "Official partner",
+   "status": "Ended",
+   "conf": "Confirmed",
+   "month": "2021-12",
+   "since": 2021,
+   "sinceBasis": "wayback",
+   "ended": 2024,
+   "ends": 2024,
+   "verified": "2026-11-20",
+   "source": "wayback"
+  },
+  {
+   "deal": "Gibsons Heat × Wellington Phoenix",
+   "sport": "Football",
+   "type": "Official partner",
+   "region": "ANZ",
+   "market": "ANZ",
+   "summary": "On the Wellington Phoenix partners page in 2021-2022 (archived snapshots), gone by 2023.",
+   "url": "https://web.archive.org/web/20221203162931/https://wellingtonphoenix.com/our-partners/",
+   "tier": "Official partner",
+   "ptier": "Official partner",
+   "status": "Ended",
+   "conf": "Confirmed",
+   "month": "2021-12",
+   "since": 2021,
+   "sinceBasis": "wayback",
+   "ended": 2022,
+   "ends": 2022,
+   "verified": "2026-11-20",
+   "source": "wayback"
+  },
+  {
+   "deal": "IHG × Wellington Phoenix",
+   "sport": "Football",
+   "type": "Official partner",
+   "region": "ANZ",
+   "market": "ANZ",
+   "summary": "On the Wellington Phoenix partners page in 2021-2023 (archived snapshots), gone by 2024.",
+   "url": "https://web.archive.org/web/20230901220122/https://wellingtonphoenix.com/our-partners/",
+   "tier": "Official partner",
+   "ptier": "Official partner",
+   "status": "Ended",
+   "conf": "Confirmed",
+   "month": "2021-12",
+   "since": 2021,
+   "sinceBasis": "wayback",
+   "ended": 2023,
+   "ends": 2023,
+   "verified": "2026-11-20",
+   "source": "wayback"
+  },
+  {
+   "deal": "New Balance × Wellington Phoenix",
+   "sport": "Football",
+   "type": "Official partner",
+   "region": "ANZ",
+   "market": "ANZ",
+   "summary": "On the Wellington Phoenix partners page in 2021-2024 (archived snapshots), gone by 2025.",
+   "url": "https://web.archive.org/web/20241203060007/https://wellingtonphoenix.com/our-partners/",
+   "tier": "Official partner",
+   "ptier": "Official partner",
+   "status": "Ended",
+   "conf": "Confirmed",
+   "month": "2021-12",
+   "since": 2021,
+   "sinceBasis": "wayback",
+   "ended": 2024,
+   "ends": 2024,
+   "verified": "2026-11-20",
+   "source": "wayback"
+  },
+  {
+   "deal": "Paladin × Wellington Phoenix",
+   "sport": "Football",
+   "type": "Official partner",
+   "region": "ANZ",
+   "market": "ANZ",
+   "summary": "On the Wellington Phoenix partners page in 2021-2024 (archived snapshots), gone by 2025.",
+   "url": "https://web.archive.org/web/20241203060007/https://wellingtonphoenix.com/our-partners/",
+   "tier": "Official partner",
+   "ptier": "Official partner",
+   "status": "Ended",
+   "conf": "Confirmed",
+   "month": "2021-12",
+   "since": 2021,
+   "sinceBasis": "wayback",
+   "ended": 2024,
+   "ends": 2024,
+   "verified": "2026-11-20",
+   "source": "wayback"
+  },
+  {
+   "deal": "Revvies × Wellington Phoenix",
+   "sport": "Football",
+   "type": "Official partner",
+   "region": "ANZ",
+   "market": "ANZ",
+   "summary": "On the Wellington Phoenix partners page in 2021-2022 (archived snapshots), gone by 2023.",
+   "url": "https://web.archive.org/web/20221203162931/https://wellingtonphoenix.com/our-partners/",
+   "tier": "Official partner",
+   "ptier": "Official partner",
+   "status": "Ended",
+   "conf": "Confirmed",
+   "month": "2021-12",
+   "since": 2021,
+   "sinceBasis": "wayback",
+   "ended": 2022,
+   "ends": 2022,
+   "verified": "2026-11-20",
+   "source": "wayback"
+  },
+  {
+   "deal": "Spark × Wellington Phoenix",
+   "sport": "Football",
+   "type": "Official partner",
+   "region": "ANZ",
+   "market": "ANZ",
+   "summary": "On the Wellington Phoenix partners page in 2021-2023 (archived snapshots), gone by 2024.",
+   "url": "https://web.archive.org/web/20230901220122/https://wellingtonphoenix.com/our-partners/",
+   "tier": "Official partner",
+   "ptier": "Official partner",
+   "status": "Ended",
+   "conf": "Confirmed",
+   "month": "2021-12",
+   "since": 2021,
+   "sinceBasis": "wayback",
+   "ended": 2023,
+   "ends": 2023,
+   "verified": "2026-11-20",
+   "source": "wayback"
+  },
+  {
+   "deal": "Comrad × Wellington Phoenix",
+   "sport": "Football",
+   "type": "Official partner",
+   "region": "ANZ",
+   "market": "ANZ",
+   "summary": "On the Wellington Phoenix partners page in 2022-2023 (archived snapshots), gone by 2024.",
+   "url": "https://web.archive.org/web/20230901220122/https://wellingtonphoenix.com/our-partners/",
+   "tier": "Official partner",
+   "ptier": "Official partner",
+   "status": "Ended",
+   "conf": "Confirmed",
+   "month": "2022-12",
+   "since": 2022,
+   "sinceBasis": "wayback",
+   "ended": 2023,
+   "ends": 2023,
+   "verified": "2026-11-20",
+   "source": "wayback"
+  },
+  {
+   "deal": "Quarterpast × Wellington Phoenix",
+   "sport": "Football",
+   "type": "Official partner",
+   "region": "ANZ",
+   "market": "ANZ",
+   "summary": "On the Wellington Phoenix partners page in 2022-2023 (archived snapshots), gone by 2024.",
+   "url": "https://web.archive.org/web/20230901220122/https://wellingtonphoenix.com/our-partners/",
+   "tier": "Official partner",
+   "ptier": "Official partner",
+   "status": "Ended",
+   "conf": "Confirmed",
+   "month": "2022-12",
+   "since": 2022,
+   "sinceBasis": "wayback",
+   "ended": 2023,
+   "ends": 2023,
+   "verified": "2026-11-20",
+   "source": "wayback"
+  },
+  {
+   "deal": "Shott Beverages × Wellington Phoenix",
+   "sport": "Football",
+   "type": "Official partner",
+   "region": "ANZ",
+   "market": "ANZ",
+   "summary": "On the Wellington Phoenix partners page in 2022-2023 (archived snapshots), gone by 2024.",
+   "url": "https://web.archive.org/web/20230901220122/https://wellingtonphoenix.com/our-partners/",
+   "tier": "Official partner",
+   "ptier": "Official partner",
+   "status": "Ended",
+   "conf": "Confirmed",
+   "month": "2022-12",
+   "since": 2022,
+   "sinceBasis": "wayback",
+   "ended": 2023,
+   "ends": 2023,
+   "verified": "2026-11-20",
+   "source": "wayback"
+  },
+  {
+   "deal": "Anytime Fitness × Wellington Phoenix",
+   "sport": "Football",
+   "type": "Official partner",
+   "region": "ANZ",
+   "market": "ANZ",
+   "summary": "On the Wellington Phoenix partners page in 2023-2024 (archived snapshots), gone by 2025.",
+   "url": "https://web.archive.org/web/20241203060007/https://wellingtonphoenix.com/our-partners/",
+   "tier": "Official partner",
+   "ptier": "Official partner",
+   "status": "Ended",
+   "conf": "Confirmed",
+   "month": "2023-09",
+   "since": 2023,
+   "sinceBasis": "wayback",
+   "ended": 2024,
+   "ends": 2024,
+   "verified": "2026-11-20",
+   "source": "wayback"
+  },
+  {
+   "deal": "Body of Work × Wellington Phoenix",
+   "sport": "Football",
+   "type": "Official partner",
+   "region": "ANZ",
+   "market": "ANZ",
+   "summary": "On the Wellington Phoenix partners page in 2023-2024 (archived snapshots), gone by 2025.",
+   "url": "https://web.archive.org/web/20241203060007/https://wellingtonphoenix.com/our-partners/",
+   "tier": "Official partner",
+   "ptier": "Official partner",
+   "status": "Ended",
+   "conf": "Confirmed",
+   "month": "2023-09",
+   "since": 2023,
+   "sinceBasis": "wayback",
+   "ended": 2024,
+   "ends": 2024,
+   "verified": "2026-11-20",
+   "source": "wayback"
+  },
+  {
+   "deal": "Budget × Wellington Phoenix",
+   "sport": "Football",
+   "type": "Official partner",
+   "region": "ANZ",
+   "market": "ANZ",
+   "summary": "On the Wellington Phoenix partners page in 2023-2024 (archived snapshots), gone by 2025.",
+   "url": "https://web.archive.org/web/20241203060007/https://wellingtonphoenix.com/our-partners/",
+   "tier": "Official partner",
+   "ptier": "Official partner",
+   "status": "Ended",
+   "conf": "Confirmed",
+   "month": "2023-09",
+   "since": 2023,
+   "sinceBasis": "wayback",
+   "ended": 2024,
+   "ends": 2024,
+   "verified": "2026-11-20",
+   "source": "wayback"
+  },
+  {
+   "deal": "Kapura × Wellington Phoenix",
+   "sport": "Football",
+   "type": "Official partner",
+   "region": "ANZ",
+   "market": "ANZ",
+   "summary": "On the Wellington Phoenix partners page in 2023 (archived snapshots), gone by 2024.",
+   "url": "https://web.archive.org/web/20230901220122/https://wellingtonphoenix.com/our-partners/",
+   "tier": "Official partner",
+   "ptier": "Official partner",
+   "status": "Ended",
+   "conf": "Confirmed",
+   "month": "2023-09",
+   "since": 2023,
+   "sinceBasis": "wayback",
+   "ended": 2023,
+   "ends": 2023,
+   "verified": "2026-11-20",
+   "source": "wayback"
+  },
+  {
+   "deal": "VX Sport × Wellington Phoenix",
+   "sport": "Football",
+   "type": "Official partner",
+   "region": "ANZ",
+   "market": "ANZ",
+   "summary": "On the Wellington Phoenix partners page in 2023-2024 (archived snapshots), gone by 2025.",
+   "url": "https://web.archive.org/web/20241203060007/https://wellingtonphoenix.com/our-partners/",
+   "tier": "Official partner",
+   "ptier": "Official partner",
+   "status": "Ended",
+   "conf": "Confirmed",
+   "month": "2023-09",
+   "since": 2023,
+   "sinceBasis": "wayback",
+   "ended": 2024,
+   "ends": 2024,
+   "verified": "2026-11-20",
+   "source": "wayback"
+  },
+  {
+   "deal": "Radix Nutrition × Wellington Phoenix",
+   "sport": "Football",
+   "type": "Official partner",
+   "region": "ANZ",
+   "market": "ANZ",
+   "summary": "On the Wellington Phoenix partners page in 2024 (archived snapshots), gone by 2025.",
+   "url": "https://web.archive.org/web/20241203060007/https://wellingtonphoenix.com/our-partners/",
+   "tier": "Official partner",
+   "ptier": "Official partner",
+   "status": "Ended",
+   "conf": "Confirmed",
+   "month": "2024-12",
+   "since": 2024,
+   "sinceBasis": "wayback",
+   "ended": 2024,
+   "ends": 2024,
+   "verified": "2026-11-20",
+   "source": "wayback"
+  },
+  {
+   "deal": "Science in Sport × Wellington Phoenix",
+   "sport": "Football",
+   "type": "Official partner",
+   "region": "ANZ",
+   "market": "ANZ",
+   "summary": "On the Wellington Phoenix partners page in 2024 (archived snapshots), gone by 2025.",
+   "url": "https://web.archive.org/web/20241203060007/https://wellingtonphoenix.com/our-partners/",
+   "tier": "Official partner",
+   "ptier": "Official partner",
+   "status": "Ended",
+   "conf": "Confirmed",
+   "month": "2024-12",
+   "since": 2024,
+   "sinceBasis": "wayback",
+   "ended": 2024,
+   "ends": 2024,
+   "verified": "2026-11-20",
+   "source": "wayback"
+  },
+  {
+   "deal": "USL Medical × Wellington Phoenix",
+   "sport": "Football",
+   "type": "Official partner",
+   "region": "ANZ",
+   "market": "ANZ",
+   "summary": "Listed on the Wellington Phoenix partners page, and on it in every season back to 2025 (archived snapshots).",
+   "url": "https://web.archive.org/web/20260714042751/https://wellingtonphoenix.com/our-partners/",
+   "tier": "Official partner",
+   "ptier": "Official partner",
+   "status": "Current partner",
+   "conf": "Confirmed",
+   "listed": "2026-07-14",
+   "since": 2025,
+   "sinceBasis": "wayback",
+   "verified": "2026-07-14",
+   "source": "wayback",
+   "ends": 2025
+  },
+  {
+   "deal": "EZZ × Australian Open",
+   "sport": "Tennis",
+   "type": "Official partner",
+   "region": "ANZ",
+   "market": "ANZ",
+   "summary": "Listed on the Australian Open partners page, and on it in every season back to 2024 (archived snapshots).",
+   "url": "https://web.archive.org/web/20260904070828/https://ausopen.com/partners",
+   "tier": "Official partner",
+   "ptier": "Official partner",
+   "status": "Current partner",
+   "conf": "Confirmed",
+   "listed": "2026-09-04",
+   "since": 2024,
+   "sinceBasis": "wayback",
+   "verified": "2026-09-04",
+   "source": "wayback"
+  },
+  {
+   "deal": "Pantene × CommBank Matildas",
+   "sport": "Football",
+   "type": "Official partner",
+   "region": "ANZ",
+   "market": "ANZ",
+   "summary": "On the CommBank Matildas partners page in 2021 (archived snapshots), gone by 2022.",
+   "url": "https://web.archive.org/web/20211102101351/https://matildas.com.au/partners",
+   "tier": "Official partner",
+   "ptier": "Official partner",
+   "status": "Ended",
+   "conf": "Confirmed",
+   "month": "2021-11",
+   "since": 2021,
+   "sinceBasis": "wayback",
+   "ended": 2021,
+   "ends": 2021,
+   "verified": "2026-11-20",
+   "source": "wayback"
+  },
+  {
+   "deal": "Priceline × CommBank Matildas",
+   "sport": "Football",
+   "type": "Official partner",
+   "region": "ANZ",
+   "market": "ANZ",
+   "summary": "On the CommBank Matildas partners page in 2021-2022 (archived snapshots), gone by 2023.",
+   "url": "https://web.archive.org/web/20221225175909/https://matildas.com.au/partners",
+   "tier": "Official partner",
+   "ptier": "Official partner",
+   "status": "Ended",
+   "conf": "Confirmed",
+   "month": "2021-11",
+   "since": 2021,
+   "sinceBasis": "wayback",
+   "ended": 2022,
+   "ends": 2022,
+   "verified": "2026-11-20",
+   "source": "wayback"
+  },
+  {
+   "deal": "Rebel × CommBank Matildas",
+   "sport": "Football",
+   "type": "Official partner",
+   "region": "ANZ",
+   "market": "ANZ",
+   "summary": "On the CommBank Matildas partners page in 2021-2023 (archived snapshots), gone by 2024.",
+   "url": "https://web.archive.org/web/20231205080808/https://matildas.com.au/partners",
+   "tier": "Official partner",
+   "ptier": "Official partner",
+   "status": "Ended",
+   "conf": "Confirmed",
+   "month": "2021-11",
+   "since": 2021,
+   "sinceBasis": "wayback",
+   "ended": 2023,
+   "ends": 2023,
+   "verified": "2026-11-20",
+   "source": "wayback"
+  },
+  {
+   "deal": "Seven Consulting × CommBank Matildas",
+   "sport": "Football",
+   "type": "Official partner",
+   "region": "ANZ",
+   "market": "ANZ",
+   "summary": "On the CommBank Matildas partners page in 2021-2022 (archived snapshots), gone by 2023.",
+   "url": "https://web.archive.org/web/20221225175909/https://matildas.com.au/partners",
+   "tier": "Official partner",
+   "ptier": "Official partner",
+   "status": "Ended",
+   "conf": "Confirmed",
+   "month": "2021-11",
+   "since": 2021,
+   "sinceBasis": "wayback",
+   "ended": 2022,
+   "ends": 2022,
+   "verified": "2026-11-20",
+   "source": "wayback"
+  },
+  {
+   "deal": "CUPRA × CommBank Matildas",
+   "sport": "Football",
+   "type": "Official partner",
+   "region": "ANZ",
+   "market": "ANZ",
+   "summary": "On the CommBank Matildas partners page in 2022-2024 (archived snapshots), gone by 2025.",
+   "url": "https://web.archive.org/web/20241201094059/https://matildas.com.au/partners",
+   "tier": "Official partner",
+   "ptier": "Official partner",
+   "status": "Ended",
+   "conf": "Confirmed",
+   "month": "2022-12",
+   "since": 2022,
+   "sinceBasis": "wayback",
+   "ended": 2024,
+   "ends": 2024,
+   "verified": "2026-11-20",
+   "source": "wayback"
+  },
+  {
+   "deal": "LEGO × CommBank Matildas",
+   "sport": "Football",
+   "type": "Official partner",
+   "region": "ANZ",
+   "market": "ANZ",
+   "summary": "On the CommBank Matildas partners page in 2022-2024 (archived snapshots), gone by 2025.",
+   "url": "https://web.archive.org/web/20241201094059/https://matildas.com.au/partners",
+   "tier": "Official partner",
+   "ptier": "Official partner",
+   "status": "Ended",
+   "conf": "Confirmed",
+   "month": "2022-12",
+   "since": 2022,
+   "sinceBasis": "wayback",
+   "ended": 2024,
+   "ends": 2024,
+   "verified": "2026-11-20",
+   "source": "wayback"
+  },
+  {
+   "deal": "Subway × CommBank Matildas",
+   "sport": "Football",
+   "type": "Official partner",
+   "region": "ANZ",
+   "market": "ANZ",
+   "summary": "On the CommBank Matildas partners page in 2022-2024 (archived snapshots), gone by 2025.",
+   "url": "https://web.archive.org/web/20241201094059/https://matildas.com.au/partners",
+   "tier": "Official partner",
+   "ptier": "Official partner",
+   "status": "Ended",
+   "conf": "Confirmed",
+   "month": "2022-12",
+   "since": 2022,
+   "sinceBasis": "wayback",
+   "ended": 2024,
+   "ends": 2024,
+   "verified": "2026-11-20",
+   "source": "wayback"
+  },
+  {
+   "deal": "LCI Melbourne × CommBank Matildas",
+   "sport": "Football",
+   "type": "Official partner",
+   "region": "ANZ",
+   "market": "ANZ",
+   "summary": "On the CommBank Matildas partners page in 2024-2025 (archived snapshots), gone by 2026.",
+   "url": "https://web.archive.org/web/20251206054555/https://matildas.com.au/partners",
+   "tier": "Official partner",
+   "ptier": "Official partner",
+   "status": "Ended",
+   "conf": "Confirmed",
+   "month": "2024-12",
+   "since": 2024,
+   "sinceBasis": "wayback",
+   "ended": 2025,
+   "ends": 2025,
+   "verified": "2026-11-20",
+   "source": "wayback"
+  },
+  {
+   "deal": "CUPRA × Socceroos",
+   "sport": "Football",
+   "type": "Official partner",
+   "region": "ANZ",
+   "market": "ANZ",
+   "summary": "On the Socceroos partners page in 2022-2024 (archived snapshots), gone by 2025.",
+   "url": "https://web.archive.org/web/20241203192540/https://socceroos.com.au/partners",
+   "tier": "Official partner",
+   "ptier": "Official partner",
+   "status": "Ended",
+   "conf": "Confirmed",
+   "month": "2022-10",
+   "since": 2022,
+   "sinceBasis": "wayback",
+   "ended": 2024,
+   "ends": 2024,
+   "verified": "2026-11-20",
+   "source": "wayback"
+  },
+  {
+   "deal": "Subway × Socceroos",
+   "sport": "Football",
+   "type": "Official partner",
+   "region": "ANZ",
+   "market": "ANZ",
+   "summary": "On the Socceroos partners page in 2022-2024 (archived snapshots), gone by 2025.",
+   "url": "https://web.archive.org/web/20241203192540/https://socceroos.com.au/partners",
+   "tier": "Official partner",
+   "ptier": "Official partner",
+   "status": "Ended",
+   "conf": "Confirmed",
+   "month": "2022-10",
+   "since": 2022,
+   "sinceBasis": "wayback",
+   "ended": 2024,
+   "ends": 2024,
+   "verified": "2026-11-20",
+   "source": "wayback"
+  },
+  {
+   "deal": "LEGO × Socceroos",
+   "sport": "Football",
+   "type": "Official partner",
+   "region": "ANZ",
+   "market": "ANZ",
+   "summary": "On the Socceroos partners page in 2023-2024 (archived snapshots), gone by 2025.",
+   "url": "https://web.archive.org/web/20241203192540/https://socceroos.com.au/partners",
+   "tier": "Official partner",
+   "ptier": "Official partner",
+   "status": "Ended",
+   "conf": "Confirmed",
+   "month": "2023-12",
+   "since": 2023,
+   "sinceBasis": "wayback",
+   "ended": 2024,
+   "ends": 2024,
+   "verified": "2026-11-20",
+   "source": "wayback"
+  },
+  {
+   "deal": "LCI Melbourne × Socceroos",
+   "sport": "Football",
+   "type": "Official partner",
+   "region": "ANZ",
+   "market": "ANZ",
+   "summary": "On the Socceroos partners page in 2024-2025 (archived snapshots), gone by 2026.",
+   "url": "https://web.archive.org/web/20251207052454/https://socceroos.com.au/partners",
+   "tier": "Official partner",
+   "ptier": "Official partner",
+   "status": "Ended",
+   "conf": "Confirmed",
+   "month": "2024-12",
+   "since": 2024,
+   "sinceBasis": "wayback",
+   "ended": 2025,
+   "ends": 2025,
    "verified": "2026-11-20",
    "source": "wayback"
   }
