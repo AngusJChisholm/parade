@@ -18912,11 +18912,6 @@
    "name": "Coupang",
    "k": "b"
   },
-  "courier-mail": {
-   "name": "Courier Mail",
-   "k": "b",
-   "cat": "Logistics & transport"
-  },
   "courtside-melbourne": {
    "name": "Courtside Melbourne",
    "k": "b"
@@ -23096,14 +23091,13 @@
    "name": "Dynamoney",
    "k": "b"
   },
-  "dynasty": {
-   "name": "Dynasty",
-   "k": "b",
-   "domain": "dynastysport.co.nz"
-  },
   "dynasty-sport": {
    "name": "Dynasty Sport",
-   "k": "b"
+   "k": "b",
+   "domain": "dynastysport.co.nz",
+   "aliases": [
+    "Dynasty"
+   ]
   },
   "dynatrace": {
    "name": "Dynatrace",
@@ -31902,11 +31896,10 @@
    "k": "b"
   },
   "guardian-venue-management": {
-   "name": "Guardian Venue Management"
-  },
-  "guardian-venue-management-international": {
-   "name": "Guardian Venue Management International",
-   "k": "b"
+   "name": "Guardian Venue Management",
+   "aliases": [
+    "Guardian Venue Management International"
+   ]
   },
   "guardians-league": {
    "name": "Guardians League",
@@ -34561,12 +34554,6 @@
     "logo"
    ]
   },
-  "hong-kong-jockey-club": {
-   "name": "Hong Kong Jockey Club",
-   "domain": "hkjc.com",
-   "k": "b",
-   "cat": "Sport & events"
-  },
   "hong-kong-sar-government": {
    "name": "Hong Kong SAR Government",
    "k": "b",
@@ -35513,15 +35500,9 @@
    ],
    "ptype": "Event",
    "k": "p",
-   "logo": "assets/logos/hyrox.png"
-  },
-  "hyrox-australia": {
-   "name": "HYROX Australia",
-   "ptype": "Event",
-   "k": "p",
-   "domain": "hyrox.com",
-   "bf": [
-    "icon"
+   "logo": "assets/logos/hyrox.png",
+   "aliases": [
+    "HYROX Australia"
    ]
   },
   "hyrox-india": {
@@ -40339,12 +40320,10 @@
    ],
    "cat": "Automotive",
    "k": "b",
-   "logo": "assets/logos/kia.png"
-  },
-  "kia-australia": {
-   "name": "Kia Australia",
-   "k": "b",
-   "cat": "Automotive"
+   "logo": "assets/logos/kia.png",
+   "aliases": [
+    "Kia Australia"
+   ]
   },
   "kia-tigers": {
    "name": "KIA Tigers",
@@ -47319,15 +47298,13 @@
    "cat": "Sporting goods & equipment",
    "k": "b"
   },
-  "mgm-resorts": {
-   "name": "MGM Resorts",
-   "cat": "Airlines & travel",
-   "k": "b"
-  },
   "mgm-resorts-international": {
    "name": "MGM Resorts International",
    "cat": "Airlines & travel",
-   "k": "b"
+   "k": "b",
+   "aliases": [
+    "MGM Resorts"
+   ]
   },
   "mgs-seguros": {
    "name": "MGS Seguros",
@@ -48775,19 +48752,18 @@
    "cat": "Technology",
    "domain": "monday.com"
   },
-  "mondel-z": {
-   "name": "Mondelēz",
-   "cat": "Food & nutrition",
+  "mondelez-international": {
+   "name": "Mondelēz International",
    "k": "b",
    "domain": "mondelezinternational.com",
+   "cat": "Food & nutrition",
    "bf": [
     "icon",
     "logo"
+   ],
+   "aliases": [
+    "Mondelēz"
    ]
-  },
-  "mondelez-international": {
-   "name": "Mondelēz International",
-   "k": "b"
   },
   "mondetta": {
    "name": "Mondetta",
@@ -49671,14 +49647,13 @@
    "name": "Mt. Olive Pickles",
    "k": "b"
   },
-  "mtc": {
-   "name": "MTC",
-   "k": "b",
-   "domain": "mtcmedia.co.uk"
-  },
   "mtc-australia": {
    "name": "MTC Australia",
-   "k": "b"
+   "k": "b",
+   "domain": "mtcmedia.co.uk",
+   "aliases": [
+    "MTC"
+   ]
   },
   "mtc-futureready": {
    "name": "MTC FutureReady",
@@ -52046,11 +52021,10 @@
   },
   "niedax": {
    "name": "Niedax",
-   "k": "b"
-  },
-  "niedax-group": {
-   "name": "NIEDAX GROUP",
-   "k": "b"
+   "k": "b",
+   "aliases": [
+    "NIEDAX GROUP"
+   ]
   },
   "nielsen": {
    "name": "Nielsen",
@@ -61353,12 +61327,11 @@
    "k": "b"
   },
   "recovery-partners": {
-   "name": "Recovery Partners"
-  },
-  "recovery-partners-australia": {
-   "name": "Recovery Partners Australia",
+   "name": "Recovery Partners",
    "cat": "Professional services",
-   "k": "b"
+   "aliases": [
+    "Recovery Partners Australia"
+   ]
   },
   "recyclers": {
    "name": "Recyclers",
@@ -64420,11 +64393,10 @@
   },
   "samty": {
    "name": "Samty",
-   "k": "b"
-  },
-  "samty-holdings": {
-   "name": "Samty Holdings",
-   "k": "b"
+   "k": "b",
+   "aliases": [
+    "Samty Holdings"
+   ]
   },
   "samuel-adams": {
    "name": "Samuel Adams",
@@ -69263,10 +69235,6 @@
   },
   "sporting-ads": {
    "name": "Sporting Ads",
-   "k": "b"
-  },
-  "sporting-globe": {
-   "name": "Sporting Globe",
    "k": "b"
   },
   "sporting-kansas-city": {
@@ -74156,7 +74124,10 @@
    "name": "The Courier-Mail",
    "cat": "Media & broadcast",
    "k": "b",
-   "domain": "couriermail.com.au"
+   "domain": "couriermail.com.au",
+   "aliases": [
+    "Courier Mail"
+   ]
   },
   "the-cube": {
    "name": "The Cube",
@@ -74358,7 +74329,11 @@
   "the-hong-kong-jockey-club": {
    "name": "The Hong Kong Jockey Club",
    "cat": "Apparel & footwear",
-   "k": "b"
+   "k": "b",
+   "domain": "hkjc.com",
+   "aliases": [
+    "Hong Kong Jockey Club"
+   ]
   },
   "the-hospital-research-foundation": {
    "name": "The Hospital Research Foundation",
@@ -74686,7 +74661,10 @@
     "icon"
    ],
    "cat": "Hospitality & entertainment",
-   "k": "b"
+   "k": "b",
+   "aliases": [
+    "Sporting Globe"
+   ]
   },
   "the-star": {
    "name": "The Star",
@@ -79783,10 +79761,6 @@
    "name": "Victa",
    "k": "b"
   },
-  "victor": {
-   "name": "Victor",
-   "k": "b"
-  },
   "victor-school-sports-club-supplies": {
    "name": "Victor School & Sports Club Supplies",
    "k": "b",
@@ -79797,7 +79771,10 @@
    "domain": "victorsports.com.au",
    "cat": "Sporting goods & equipment",
    "k": "b",
-   "sub": "Sports medicine & strapping"
+   "sub": "Sports medicine & strapping",
+   "aliases": [
+    "Victor"
+   ]
   },
   "victor-sports-club-supplies": {
    "name": "Victor Sports Club Supplies",
