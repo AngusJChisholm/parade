@@ -428,6 +428,9 @@
    "ptype": "Club & team",
    "k": "p"
   },
+  "8pm": {
+   "name": "8PM"
+  },
   "8th-and-roast": {
    "name": "8th & Roast",
    "k": "b"
@@ -2070,6 +2073,14 @@
    "cat": "Energy & utilities",
    "k": "b"
   },
+  "ai-mobile": {
+   "name": "AI+ Mobile",
+   "cat": "Technology"
+  },
+  "ai-nova": {
+   "name": "AI+ Nova",
+   "cat": "Technology"
+  },
   "ai-smartphone": {
    "name": "Ai+ Smartphone",
    "cat": "Technology",
@@ -2193,6 +2204,9 @@
   "air-transat": {
    "name": "Air Transat",
    "k": "b"
+  },
+  "airasia": {
+   "name": "AirAsia"
   },
   "airbnb": {
    "name": "Airbnb",
@@ -2678,6 +2692,9 @@
    "name": "All Mower Spares",
    "k": "b"
   },
+  "all-seasons": {
+   "name": "All Seasons"
+  },
   "all-seasons-water": {
    "name": "All Seasons Water",
    "cat": "Non-alcoholic drinks",
@@ -3082,6 +3099,9 @@
    "name": "Amaro Montenegro",
    "k": "b"
   },
+  "amaron": {
+   "name": "Amaron"
+  },
   "amazon": {
    "name": "Amazon",
    "cat": "Technology",
@@ -3439,6 +3459,14 @@
    ],
    "cat": "Food & nutrition",
    "k": "b"
+  },
+  "amul-ice-cream": {
+   "name": "Amul Ice Cream",
+   "cat": "Food & nutrition"
+  },
+  "amul-protein": {
+   "name": "Amul Protein",
+   "cat": "Food & nutrition"
   },
   "amusnet": {
    "name": "Amusnet",
@@ -4848,6 +4876,9 @@
    "name": "Astonish",
    "k": "b"
   },
+  "astral-pipes": {
+   "name": "Astral Pipes"
+  },
   "astrea": {
    "name": "Astrea",
    "k": "b"
@@ -6205,6 +6236,9 @@
    "cat": "Automotive",
    "k": "b"
   },
+  "avon-cycles": {
+   "name": "Avon Cycles"
+  },
   "avs": {
    "name": "AVS",
    "k": "b"
@@ -6381,6 +6415,9 @@
     "logo"
    ]
   },
+  "baashyaam": {
+   "name": "Baashyaam"
+  },
   "babcock": {
    "name": "Babcock",
    "k": "b"
@@ -6548,6 +6585,9 @@
   "ballena": {
    "name": "Ballena",
    "k": "b"
+  },
+  "baller-athletik": {
+   "name": "Baller Athletik"
   },
   "baller-league": {
    "name": "Baller League",
@@ -7554,6 +7594,10 @@
    "name": "Beehive Meals",
    "k": "b"
   },
+  "beers-group": {
+   "name": "Beers Group",
+   "cat": "Alcohol"
+  },
   "bef-group": {
    "name": "BEF Group",
    "k": "b"
@@ -8111,6 +8155,9 @@
    "name": "BGame",
    "k": "b"
   },
+  "bgauss": {
+   "name": "BGauss"
+  },
   "bgh": {
    "name": "BGH",
    "cat": "Home & hardware",
@@ -8120,6 +8167,9 @@
     "icon"
    ],
    "logo": "assets/logos/bgh.png"
+  },
+  "bgmi": {
+   "name": "BGMI"
   },
   "bgv-badische-versicherungen": {
    "name": "BGV Badische Versicherungen",
@@ -8133,6 +8183,9 @@
    "name": "Bhana Family Farms",
    "cat": "Agriculture",
    "k": "b"
+  },
+  "bharat-taxi": {
+   "name": "Bharat Taxi"
   },
   "bhp": {
    "name": "BHP",
@@ -8218,6 +8271,9 @@
    "name": "Big Brothers Big Sisters",
    "cat": "Technology",
    "k": "b"
+  },
+  "big-fm": {
+   "name": "Big FM"
   },
   "big-front-door": {
    "name": "Big Front Door",
@@ -9225,6 +9281,9 @@
    "name": "Bold Vets",
    "k": "b"
   },
+  "boldfit": {
+   "name": "BoldFit"
+  },
   "boldyn-networks": {
    "name": "Boldyn Networks",
    "cat": "Media & broadcast",
@@ -9299,6 +9358,10 @@
   "bonardi": {
    "name": "Bonardi",
    "k": "b"
+  },
+  "bonbloc-ai": {
+   "name": "Bonbloc AI",
+   "cat": "Technology"
   },
   "boncharge": {
    "name": "Boncharge",
@@ -10309,6 +10372,9 @@
     "logo"
    ]
   },
+  "british-empire": {
+   "name": "British Empire"
+  },
   "british-school": {
    "name": "British School",
    "cat": "Education",
@@ -10582,6 +10648,10 @@
    "name": "Budweiser",
    "cat": "Alcohol",
    "k": "b"
+  },
+  "budweiser-0-0": {
+   "name": "Budweiser 0.0",
+   "cat": "Alcohol"
   },
   "buffalo-bills": {
    "name": "Buffalo Bills",
@@ -11139,6 +11209,10 @@
    ],
    "cat": "Food & nutrition",
    "k": "b"
+  },
+  "cadbury-dairy-milk": {
+   "name": "Cadbury Dairy Milk",
+   "cat": "Non-alcoholic drinks"
   },
   "caddick-developments": {
    "name": "Caddick Developments",
@@ -13527,7 +13601,18 @@
    "ptype": "Club & team",
    "k": "p",
    "domain": "chennaisuperkings.com",
-   "logo": "assets/logos/chennai-super-kings.png"
+   "logo": "assets/logos/chennai-super-kings.png",
+   "bf": [
+    "icon",
+    "logo"
+   ],
+   "ptiers": [
+    "Principal partner",
+    "Major partner",
+    "Associate partner",
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-19"
   },
   "chennaiyin-fc": {
    "name": "Chennaiyin FC",
@@ -13555,6 +13640,9 @@
     "icon"
    ],
    "k": "b"
+  },
+  "chetak": {
+   "name": "Chetak"
   },
   "cheurlin-champagne": {
    "name": "Cheurlin Champagne",
@@ -13958,6 +14046,9 @@
     "logo"
    ]
   },
+  "chupps": {
+   "name": "Chupps"
+  },
   "church-s": {
    "name": "Church's",
    "k": "b"
@@ -14320,6 +14411,10 @@
    "name": "City of Victor Harbor",
    "cat": "Tourism & government",
    "k": "b"
+  },
+  "city-union-bank": {
+   "name": "City Union Bank",
+   "cat": "Banking & finance"
   },
   "city-wide": {
    "name": "City Wide",
@@ -15100,6 +15195,10 @@
     "logo"
    ]
   },
+  "colgate-total": {
+   "name": "Colgate Total",
+   "cat": "Health & beauty"
+  },
   "collectibol": {
    "name": "Collectibol",
    "k": "b"
@@ -15632,6 +15731,9 @@
   "confirmed360": {
    "name": "Confirmed360",
    "k": "b"
+  },
+  "confirmtkt": {
+   "name": "ConfirmTkt"
   },
   "confluent": {
    "name": "Confluent",
@@ -16626,6 +16728,12 @@
    "cat": "Apparel & footwear",
    "k": "b"
   },
+  "crex": {
+   "name": "CREX"
+  },
+  "cricbuzz": {
+   "name": "Cricbuzz"
+  },
   "crich": {
    "name": "Crich",
    "k": "b"
@@ -16651,6 +16759,9 @@
   "cricket-express": {
    "name": "Cricket Express",
    "k": "b"
+  },
+  "cricket-icons": {
+   "name": "Cricket Icons"
   },
   "cricket-ireland": {
    "name": "Cricket Ireland",
@@ -18112,7 +18223,18 @@
    "bf": [
     "icon",
     "logo"
-   ]
+   ],
+   "ptiers": [
+    "Title partner",
+    "Principal partner",
+    "Associate partner",
+    "Official partner",
+    "Exclusive ticketing partner",
+    "Principal partner (women)",
+    "Associate partner (women)",
+    "Official partner (women)"
+   ],
+   "ptiersChecked": "2026-11-19"
   },
   "delisso": {
    "name": "Delisso",
@@ -18651,6 +18773,9 @@
    "cat": "Home & hardware",
    "k": "b"
   },
+  "dewon": {
+   "name": "Dewon"
+  },
   "dex": {
    "name": "DEX",
    "k": "b"
@@ -18824,6 +18949,9 @@
    "cat": "Technology",
    "k": "b"
   },
+  "digitek": {
+   "name": "Digitek"
+  },
   "dignity-health": {
    "name": "Dignity Health",
    "cat": "Health & beauty",
@@ -18908,6 +19036,10 @@
    "name": "Diseko",
    "k": "b"
   },
+  "disha-eye-hospitals": {
+   "name": "Disha Eye Hospitals",
+   "cat": "Health & beauty"
+  },
   "disney": {
    "name": "Disney",
    "cat": "Media & broadcast",
@@ -18942,6 +19074,9 @@
   "distinctive-landscapes": {
    "name": "Distinctive Landscapes",
    "k": "b"
+  },
+  "district": {
+   "name": "District"
   },
   "ditcon": {
    "name": "Ditcon",
@@ -19380,6 +19515,9 @@
    "name": "Dr Pepper",
    "k": "b"
   },
+  "dr-reddy-s": {
+   "name": "Dr. Reddy's"
+  },
   "dr-schlotmann": {
    "name": "Dr. Schlotmann",
    "k": "b"
@@ -19463,6 +19601,9 @@
    "bf": [
     "icon"
    ]
+  },
+  "dream11": {
+   "name": "Dream11"
   },
   "dreame": {
    "name": "Dreame",
@@ -20291,6 +20432,9 @@
    "name": "Ecomembrane",
    "k": "b"
   },
+  "econama": {
+   "name": "Econama"
+  },
   "econofitness": {
    "name": "Econofitness",
    "k": "b"
@@ -20979,6 +21123,9 @@
    "cat": "Alcohol",
    "k": "b"
   },
+  "em": {
+   "name": "EM"
+  },
   "em-workwear": {
    "name": "EM Workwear",
    "k": "b"
@@ -21101,6 +21248,9 @@
    "name": "Emme2",
    "k": "b"
   },
+  "emmvee": {
+   "name": "Emmvee"
+  },
   "emory-healthcare": {
    "name": "Emory Healthcare",
    "cat": "Health & beauty",
@@ -21129,6 +21279,9 @@
   "enbw": {
    "name": "EnBW",
    "k": "b"
+  },
+  "encalm": {
+   "name": "Encalm"
   },
   "encore": {
    "name": "Encore",
@@ -21559,6 +21712,10 @@
     "icon",
     "logo"
    ]
+  },
+  "equitas-small-finance-bank": {
+   "name": "Equitas Small Finance Bank",
+   "cat": "Banking & finance"
   },
   "equity-one": {
    "name": "Equity One",
@@ -23048,6 +23205,9 @@
    "cat": "Hospitality & entertainment",
    "k": "b"
   },
+  "fever-fm": {
+   "name": "Fever FM"
+  },
   "fever-tree": {
    "name": "Fever-Tree",
    "k": "b"
@@ -23070,6 +23230,9 @@
     "icon",
     "logo"
    ]
+  },
+  "fiatpe": {
+   "name": "FiatPe"
   },
   "fiba": {
    "name": "FIBA",
@@ -23321,6 +23484,9 @@
   "fink-golfwear": {
    "name": "Fink Golfwear",
    "k": "b"
+  },
+  "finkeda": {
+   "name": "Finkeda"
   },
   "finley-s": {
    "name": "Finley's",
@@ -24703,6 +24869,9 @@
    "cat": "Banking & finance",
    "k": "b"
   },
+  "froute": {
+   "name": "Froute"
+  },
   "frsecure": {
    "name": "FRSecure",
    "k": "b"
@@ -25287,6 +25456,9 @@
     "Title partner"
    ]
   },
+  "gd-goenka": {
+   "name": "GD Goenka"
+  },
   "gdi": {
    "name": "GDI",
    "k": "b"
@@ -25722,6 +25894,9 @@
    "name": "ggm Gastro",
    "k": "b"
   },
+  "ghar-soaps": {
+   "name": "Ghar Soaps"
+  },
   "gharieni": {
    "name": "Gharieni",
    "k": "b"
@@ -25915,6 +26090,9 @@
   "giustiauto": {
    "name": "Giustiauto",
    "k": "b"
+  },
+  "gk-tmt": {
+   "name": "GK TMT"
   },
   "gl-events": {
    "name": "GL events",
@@ -26219,6 +26397,9 @@
   "gocompare": {
    "name": "GoCompare",
    "k": "b"
+  },
+  "goel-tmt": {
+   "name": "Goel TMT"
   },
   "going-up-elevators": {
    "name": "Going Up Elevators",
@@ -26561,6 +26742,10 @@
     "Google Pixel"
    ]
   },
+  "google-ai-mode": {
+   "name": "Google AI Mode",
+   "cat": "Technology"
+  },
   "google-cloud": {
    "name": "Google Cloud",
    "cat": "Technology",
@@ -26571,6 +26756,10 @@
     "icon",
     "logo"
    ]
+  },
+  "google-search": {
+   "name": "Google Search",
+   "cat": "Technology"
   },
   "gordon-flesch-company": {
    "name": "Gordon Flesch Company",
@@ -27443,7 +27632,16 @@
     "logo"
    ],
    "ptype": "Club & team",
-   "k": "p"
+   "k": "p",
+   "ptiers": [
+    "Principal partner",
+    "Associate partner",
+    "Official partner",
+    "Merchandise partner",
+    "Radio partner",
+    "Official ticketing partner"
+   ],
+   "ptiersChecked": "2026-11-19"
   },
   "gulf-coast-office-products": {
    "name": "Gulf Coast Office Products",
@@ -28164,6 +28362,10 @@
    "name": "Harves",
    "k": "b"
   },
+  "harvest-gold": {
+   "name": "Harvest Gold",
+   "cat": "Mining & resources"
+  },
   "harvey": {
    "name": "Harvey",
    "domain": "harvey.ai",
@@ -28417,6 +28619,9 @@
     "icon",
     "logo"
    ]
+  },
+  "hcg": {
+   "name": "HCG"
   },
   "hcl": {
    "name": "HCL",
@@ -28847,6 +29052,9 @@
    "cat": "Health & beauty",
    "k": "b"
   },
+  "hero-fincorp": {
+   "name": "Hero FinCorp"
+  },
   "hero-motocorp": {
    "name": "Hero MotoCorp",
    "cat": "Automotive",
@@ -28926,6 +29134,9 @@
   "hewlett-packard-enterprise": {
    "name": "Hewlett Packard Enterprise",
    "k": "b"
+  },
+  "hexafun": {
+   "name": "Hexafun"
   },
   "hexagon": {
    "name": "Hexagon",
@@ -29050,6 +29261,9 @@
    "cat": "Automotive",
    "k": "b"
   },
+  "highland-lifespaces": {
+   "name": "Highland Lifespaces"
+  },
   "highland-property": {
    "name": "Highland Property",
    "k": "b",
@@ -29132,6 +29346,9 @@
   "hilzinger": {
    "name": "Hilzinger",
    "k": "b"
+  },
+  "himalaya": {
+   "name": "Himalaya"
   },
   "hims-and-hers": {
    "name": "Hims & Hers",
@@ -31043,6 +31260,10 @@
    "name": "In-Shape Fitness",
    "k": "b"
   },
+  "ina-solar": {
+   "name": "INA Solar",
+   "cat": "Energy & utilities"
+  },
   "inalpi": {
    "name": "Inalpi",
    "k": "b"
@@ -32175,6 +32396,9 @@
    ],
    "ptiersChecked": "2026-11-18"
   },
+  "itc-master-chef": {
+   "name": "ITC Master Chef"
+  },
   "itch": {
    "name": "itch",
    "k": "b"
@@ -32347,6 +32571,9 @@
    "name": "Jack Grealish",
    "ptype": "Athlete & talent",
    "k": "p"
+  },
+  "jack-olivol": {
+   "name": "Jack Olivol"
   },
   "jack-rabbit": {
    "name": "Jack Rabbit",
@@ -32892,6 +33119,9 @@
    "name": "Jimmy The Greek",
    "k": "b"
   },
+  "jindal-stainless": {
+   "name": "Jindal Stainless"
+  },
   "jinkosolar": {
    "name": "JinkoSolar",
    "k": "b"
@@ -32899,6 +33129,10 @@
   "jinro": {
    "name": "Jinro",
    "k": "b"
+  },
+  "jio": {
+   "name": "Jio",
+   "cat": "Telco"
   },
   "jiostar": {
    "name": "JioStar",
@@ -32936,6 +33170,10 @@
     "icon",
     "logo"
    ]
+  },
+  "jk-super-cement": {
+   "name": "JK Super Cement",
+   "cat": "Construction & property"
   },
   "jk-williams": {
    "name": "JK Williams",
@@ -33190,6 +33428,9 @@
    "name": "Jove Group",
    "k": "b"
   },
+  "joy": {
+   "name": "Joy"
+  },
   "joy-montaggi": {
    "name": "Joy Montaggi",
    "k": "b"
@@ -33230,6 +33471,9 @@
    "bf": [
     "icon"
    ]
+  },
+  "jsw-paints": {
+   "name": "JSW Paints"
   },
   "jsw-powersports": {
    "name": "JSW Powersports",
@@ -33444,6 +33688,9 @@
    "name": "Kaiyun",
    "k": "b"
   },
+  "kajaria": {
+   "name": "Kajaria"
+  },
   "kale-print": {
    "name": "Kale Print",
    "k": "b"
@@ -33462,6 +33709,9 @@
    ],
    "cat": "Betting & wagering",
    "k": "b"
+  },
+  "kalyan-jewellers": {
+   "name": "Kalyan Jewellers"
   },
   "kama": {
    "name": "Kama",
@@ -33639,6 +33889,10 @@
   "kaust": {
    "name": "KAUST",
    "k": "b"
+  },
+  "kauvery-hospital": {
+   "name": "Kauvery Hospital",
+   "cat": "Health & beauty"
   },
   "kavak": {
    "name": "KAVAK",
@@ -34420,6 +34674,9 @@
     "logo"
    ]
   },
+  "kns": {
+   "name": "KNS"
+  },
   "knuckle-up": {
    "name": "Knuckle Up",
    "k": "b"
@@ -34513,7 +34770,16 @@
    "bf": [
     "icon",
     "logo"
-   ]
+   ],
+   "ptiers": [
+    "Title partner",
+    "Principal partner",
+    "Associate sponsor",
+    "Global beverage partner",
+    "Official partner",
+    "Licensing and merchandising partner"
+   ],
+   "ptiersChecked": "2026-11-19"
   },
   "kollective": {
    "name": "Kollective",
@@ -34695,6 +34961,12 @@
    "name": "Kosner",
    "k": "b"
   },
+  "kotak-life": {
+   "name": "Kotak Life"
+  },
+  "kp-group": {
+   "name": "KP Group"
+  },
   "kp-snacks": {
    "name": "KP Snacks",
    "cat": "Food & nutrition",
@@ -34719,6 +34991,9 @@
    "name": "KPP",
    "k": "b"
   },
+  "kpt-pipes": {
+   "name": "KPT Pipes"
+  },
   "kraft-heinz": {
    "name": "Kraft Heinz",
    "domain": "kraftheinz.com",
@@ -34728,6 +35003,9 @@
    ],
    "cat": "Food & nutrition",
    "k": "b"
+  },
+  "krafton": {
+   "name": "KRAFTON"
   },
   "kraken": {
    "name": "Kraken",
@@ -34814,6 +35092,9 @@
    "name": "KSL Sports",
    "k": "b"
   },
+  "kt-men": {
+   "name": "KT Men"
+  },
   "kti": {
    "name": "KTI",
    "k": "b"
@@ -34865,6 +35146,9 @@
     "icon",
     "logo"
    ]
+  },
+  "kuhl": {
+   "name": "KUHL"
   },
   "kuhl-entsorgung-and-recycling": {
    "name": "Kühl Entsorgung & Recycling",
@@ -35288,6 +35572,9 @@
    "name": "Laiterie de Coaticook",
    "k": "b"
   },
+  "lakme": {
+   "name": "Lakmé"
+  },
   "laliga": {
    "name": "LaLiga",
    "domain": "laliga.com",
@@ -35541,6 +35828,9 @@
   "lauria-impianti": {
    "name": "Lauria Impianti",
    "k": "b"
+  },
+  "lauritz-knudsen": {
+   "name": "Lauritz Knudsen"
   },
   "lauxes-grates": {
    "name": "Lauxes Grates",
@@ -37305,6 +37595,9 @@
    "cat": "Betting & wagering",
    "k": "b"
   },
+  "lotus": {
+   "name": "Lotus"
+  },
   "lotus-living": {
    "name": "Lotus Living",
    "k": "b"
@@ -37464,6 +37757,9 @@
     "icon"
    ]
   },
+  "lubi-pumps": {
+   "name": "Lubi Pumps"
+  },
   "luca-barbagli-assicurazioni": {
    "name": "Luca Barbagli Assicurazioni",
    "k": "b"
@@ -37501,7 +37797,14 @@
    ],
    "ptype": "Club & team",
    "k": "p",
-   "logo": "assets/logos/lucknow-super-giants.png"
+   "logo": "assets/logos/lucknow-super-giants.png",
+   "ptiers": [
+    "Main principal partner",
+    "Principal partner",
+    "Associate sponsor",
+    "Official partner"
+   ],
+   "ptiersChecked": "2026-11-19"
   },
   "lucky-tiger-competitions": {
    "name": "Lucky Tiger Competitions",
@@ -38011,6 +38314,10 @@
    "name": "Maharaja",
    "k": "b"
   },
+  "maharashtra-tourism": {
+   "name": "Maharashtra Tourism",
+   "cat": "Tourism & government"
+  },
   "mahindra": {
    "name": "Mahindra",
    "cat": "Automotive",
@@ -38344,6 +38651,10 @@
     "icon",
     "logo"
    ]
+  },
+  "manipal-hospitals": {
+   "name": "Manipal Hospitals",
+   "cat": "Health & beauty"
   },
   "manitoba-hydro": {
    "name": "Manitoba Hydro",
@@ -38867,6 +39178,13 @@
   "mauser-mobel": {
    "name": "Mauser Möbel",
    "k": "b"
+  },
+  "max-fresh": {
+   "name": "Max Fresh"
+  },
+  "max-healthcare": {
+   "name": "Max Healthcare",
+   "cat": "Health & beauty"
   },
   "max-recycle": {
    "name": "Max Recycle",
@@ -40387,6 +40705,10 @@
    "cat": "Non-alcoholic drinks",
    "k": "b"
   },
+  "milkbasket": {
+   "name": "Milkbasket",
+   "cat": "Non-alcoholic drinks"
+  },
   "mill-hill-school": {
    "name": "Mill Hill School",
    "cat": "Education",
@@ -40433,6 +40755,9 @@
    ],
    "cat": "Non-alcoholic drinks",
    "k": "b"
+  },
+  "milton": {
+   "name": "Milton"
   },
   "milwaukee-brewers": {
    "name": "Milwaukee Brewers",
@@ -40916,6 +41241,9 @@
   "mobicomm": {
    "name": "MobiComm",
    "k": "b"
+  },
+  "mobikwik": {
+   "name": "MobiKwik"
   },
   "mobil": {
    "name": "Mobil",
@@ -42005,7 +42333,17 @@
     "logo"
    ],
    "ptype": "Club & team",
-   "k": "p"
+   "k": "p",
+   "ptiers": [
+    "Principal partner",
+    "Associate partner",
+    "Official partner",
+    "Merchandise licensee",
+    "Principal partner (women)",
+    "Associate partner (women)",
+    "Official partner (women)"
+   ],
+   "ptiersChecked": "2026-11-19"
   },
   "mumbai-schools-sports-association": {
    "name": "Mumbai Schools Sports Association",
@@ -42361,6 +42699,9 @@
     "logo"
    ]
   },
+  "nandini": {
+   "name": "Nandini"
+  },
   "napa": {
    "name": "NAPA",
    "cat": "Automotive",
@@ -42609,10 +42950,20 @@
     "logo"
    ]
   },
+  "navi": {
+   "name": "Navi"
+  },
+  "navi-upi": {
+   "name": "Navi UPI"
+  },
   "navigation-homes": {
    "name": "Navigation Homes",
    "cat": "Construction & property",
    "k": "b"
+  },
+  "navitas-solar": {
+   "name": "Navitas Solar",
+   "cat": "Energy & utilities"
   },
   "naya": {
    "name": "Naya",
@@ -43773,6 +44124,9 @@
    "name": "Nextbet",
    "k": "b"
   },
+  "nextcare": {
+   "name": "NextCare"
+  },
   "nexus": {
    "name": "Nexus",
    "k": "b"
@@ -44086,6 +44440,9 @@
     "icon",
     "logo"
    ]
+  },
+  "nivia": {
+   "name": "Nivia"
   },
   "nix-biosensors": {
    "name": "Nix Biosensors",
@@ -45071,6 +45428,9 @@
    "name": "NVP",
    "k": "b"
   },
+  "nvy": {
+   "name": "NVY"
+  },
   "nw-group": {
    "name": "NW Group",
    "k": "b"
@@ -45339,6 +45699,9 @@
    "name": "Oaks Hotels",
    "cat": "Airlines & travel",
    "k": "b"
+  },
+  "oaksmith": {
+   "name": "Oaksmith"
   },
   "oanda": {
    "name": "OANDA",
@@ -45681,6 +46044,10 @@
   "olio-anfosso": {
    "name": "Olio Anfosso",
    "k": "b"
+  },
+  "olio-pizza": {
+   "name": "Olio Pizza",
+   "cat": "Food & nutrition"
   },
   "olipop": {
    "name": "OLIPOP",
@@ -47272,6 +47639,9 @@
    "name": "ParkSmarter",
    "k": "b"
   },
+  "parksons-cartamundi": {
+   "name": "Parksons Cartamundi"
+  },
   "parkwood-village": {
    "name": "Parkwood Village",
    "k": "b"
@@ -47400,6 +47770,9 @@
   "pathe": {
    "name": "Pathé",
    "k": "b"
+  },
+  "patheazy-labs": {
+   "name": "Patheazy Labs"
   },
   "pathways-financial-credit-union": {
    "name": "Pathways Financial Credit Union",
@@ -48947,6 +49320,9 @@
    "name": "PlayNow",
    "k": "b"
   },
+  "playr": {
+   "name": "playR"
+  },
   "playreplay": {
    "name": "PlayReplay",
    "cat": "Technology",
@@ -49276,6 +49652,10 @@
    "name": "Poolwerx",
    "k": "b",
    "cat": "Home & hardware"
+  },
+  "poornima-university": {
+   "name": "Poornima University",
+   "cat": "Education"
   },
   "pop-n-good": {
    "name": "Pop'n'Good",
@@ -50390,7 +50770,15 @@
    ],
    "ptype": "Club & team",
    "k": "p",
-   "logo": "assets/logos/punjab-kings.png"
+   "logo": "assets/logos/punjab-kings.png",
+   "ptiers": [
+    "Title sponsor",
+    "Principal sponsor",
+    "Official partner",
+    "Merchandise partner",
+    "Global kit and merchandise partner"
+   ],
+   "ptiersChecked": "2026-11-19"
   },
   "punjas": {
    "name": "Punjas",
@@ -51144,6 +51532,10 @@
    "cat": "Media & broadcast",
    "k": "b"
   },
+  "radio-city": {
+   "name": "Radio City",
+   "cat": "Media & broadcast"
+  },
   "radio-emscher-lippe": {
    "name": "Radio Emscher Lippe",
    "cat": "Media & broadcast",
@@ -51153,6 +51545,10 @@
    "name": "Radio Kalimba",
    "cat": "Media & broadcast",
    "k": "b"
+  },
+  "radio-mirchi": {
+   "name": "Radio Mirchi",
+   "cat": "Media & broadcast"
   },
   "radio-one": {
    "name": "Radio One",
@@ -51275,7 +51671,15 @@
    ],
    "ptype": "Club & team",
    "k": "p",
-   "logo": "assets/logos/rajasthan-royals.png"
+   "logo": "assets/logos/rajasthan-royals.png",
+   "ptiers": [
+    "Title sponsor",
+    "Principal sponsor",
+    "Associate sponsor",
+    "Official partner",
+    "Official merchandise partner"
+   ],
+   "ptiersChecked": "2026-11-19"
   },
   "rakuten": {
    "name": "Rakuten",
@@ -51669,6 +52073,9 @@
     "Official partner"
    ],
    "ptiersChecked": "2026-11-17"
+  },
+  "real-cricket": {
+   "name": "Real Cricket"
   },
   "real-madrid": {
    "name": "Real Madrid",
@@ -52118,6 +52525,10 @@
    "name": "Relay Port Agency",
    "cat": "Professional services",
    "k": "b"
+  },
+  "reliance-digital": {
+   "name": "Reliance Digital",
+   "cat": "Technology"
   },
   "reliant": {
    "name": "Reliant",
@@ -53469,6 +53880,10 @@
     "logo"
    ]
   },
+  "royal-challenge-packaged-drinking-water": {
+   "name": "Royal Challenge Packaged Drinking Water",
+   "cat": "Non-alcoholic drinks"
+  },
   "royal-challengers-bengaluru": {
    "name": "Royal Challengers Bengaluru",
    "domain": "royalchallengers.com",
@@ -53477,12 +53892,26 @@
     "logo"
    ],
    "ptype": "Club & team",
-   "k": "p"
+   "k": "p",
+   "ptiers": [
+    "Main principal partner",
+    "Principal partner",
+    "Associate partner",
+    "Official partner",
+    "Title sponsor (women)",
+    "Principal partner (women)",
+    "Associate partner (women)",
+    "Official partner (women)"
+   ],
+   "ptiersChecked": "2026-11-19"
   },
   "royal-farms": {
    "name": "Royal Farms",
    "cat": "Agriculture",
    "k": "b"
+  },
+  "royal-green": {
+   "name": "Royal Green"
   },
   "royal-london": {
    "name": "Royal London",
@@ -55697,6 +56126,10 @@
    "cat": "Watches & luxury",
    "k": "b"
   },
+  "seiko-prospex": {
+   "name": "Seiko Prospex",
+   "cat": "Watches & luxury"
+  },
   "seiri": {
    "name": "SEIRI",
    "k": "b"
@@ -57142,6 +57575,9 @@
     "logo"
    ]
   },
+  "skybags": {
+   "name": "Skybags"
+  },
   "skycity": {
    "name": "SkyCity",
    "domain": "skycity.co.nz",
@@ -57605,6 +58041,9 @@
   "sofitex": {
    "name": "Sofitex",
    "k": "b"
+  },
+  "soframycin": {
+   "name": "Soframycin"
   },
   "softball-australia": {
    "name": "Softball Australia",
@@ -58184,6 +58623,9 @@
    "name": "Sparkling Ice",
    "k": "b"
   },
+  "sparsh-cctv": {
+   "name": "Sparsh CCTV"
+  },
   "spartan-race": {
    "name": "Spartan Race",
    "k": "b",
@@ -58357,6 +58799,9 @@
   "spitfire": {
    "name": "Spitfire",
    "k": "b"
+  },
+  "spitze": {
+   "name": "Spitze"
   },
   "splash-palace": {
    "name": "Splash Palace",
@@ -59693,6 +60138,9 @@
    "cat": "Media & broadcast",
    "k": "b"
   },
+  "streax": {
+   "name": "Streax"
+  },
   "street-lighting-supplies": {
    "name": "Street Lighting Supplies",
    "k": "b"
@@ -60109,7 +60557,14 @@
     "logo"
    ],
    "ptype": "Club & team",
-   "k": "p"
+   "k": "p",
+   "ptiers": [
+    "Title sponsor",
+    "Principal sponsor",
+    "Official partner",
+    "Official merchandise partner"
+   ],
+   "ptiersChecked": "2026-11-19"
   },
   "sunrisers-leeds": {
    "name": "Sunrisers Leeds",
@@ -60340,6 +60795,9 @@
    "name": "Supporting Disabilities Australia",
    "k": "b"
   },
+  "supradyn": {
+   "name": "Supradyn"
+  },
   "supreme-siteworks": {
    "name": "Supreme Siteworks",
    "k": "b"
@@ -60356,6 +60814,9 @@
    "bf": [
     "icon"
    ]
+  },
+  "surf-excel": {
+   "name": "Surf Excel"
   },
   "surf-life-saving-queensland": {
    "name": "Surf Life Saving Queensland",
@@ -60460,6 +60921,9 @@
    "name": "Sutton Dental",
    "cat": "Health & beauty",
    "k": "b"
+  },
+  "suvi": {
+   "name": "Suvi"
   },
   "suzuki": {
    "name": "Suzuki",
@@ -60963,6 +61427,9 @@
    "cat": "Technology",
    "k": "b"
   },
+  "t10-sports": {
+   "name": "T10 Sports"
+  },
   "t100-triathlon-world-tour": {
    "name": "T100 Triathlon World Tour",
    "ptype": "League & competition",
@@ -61180,6 +61647,9 @@
   "talcid": {
    "name": "Talcid",
    "k": "b"
+  },
+  "tallyprime": {
+   "name": "TallyPrime"
   },
   "tamaki-health": {
    "name": "Tāmaki Health",
@@ -62477,6 +62947,9 @@
   "the-atlanta-journal-constitution": {
    "name": "The Atlanta Journal-Constitution",
    "k": "b"
+  },
+  "the-bakers-dozen": {
+   "name": "The Bakers Dozen"
   },
   "the-baldwin-group": {
    "name": "The Baldwin Group",
@@ -64736,6 +65209,9 @@
    "name": "Trasteel",
    "k": "b"
   },
+  "travalate": {
+   "name": "Travalate"
+  },
   "travel-connection": {
    "name": "Travel Connection",
    "cat": "Airlines & travel",
@@ -66716,6 +67192,9 @@
    "name": "V Group",
    "k": "b"
   },
+  "v-marc": {
+   "name": "V-Marc"
+  },
   "v-ost": {
    "name": "VÖOST",
    "cat": "Health & beauty",
@@ -66804,6 +67283,9 @@
   "validus": {
    "name": "Validus",
    "k": "b"
+  },
+  "valiente-caps": {
+   "name": "Valiente Caps"
   },
   "valle-d-aosta": {
    "name": "Valle d'Aosta",
@@ -66960,6 +67442,9 @@
    "name": "Vanguard",
    "k": "b"
   },
+  "vany-sports": {
+   "name": "Vany Sports"
+  },
   "vapur": {
    "name": "Vapur",
    "k": "b"
@@ -67047,6 +67532,9 @@
    "cat": "Betting & wagering",
    "k": "b"
   },
+  "veedol": {
+   "name": "Veedol"
+  },
   "veg-er-for-pets": {
    "name": "VEG ER for Pets",
    "cat": "Retail",
@@ -67101,6 +67589,9 @@
   "velveeta": {
    "name": "Velveeta",
    "k": "b"
+  },
+  "velvex": {
+   "name": "Velvex"
   },
   "vena-solutions": {
    "name": "Vena Solutions",
@@ -67186,6 +67677,9 @@
     "icon",
     "logo"
    ]
+  },
+  "versant": {
+   "name": "Versant"
   },
   "versatile": {
    "name": "Versatile",
@@ -67300,6 +67794,9 @@
    "bf": [
     "icon"
    ]
+  },
+  "vi": {
+   "name": "Vi"
   },
   "vi-ma-green-expert": {
    "name": "Vi.Ma Green Expert",
@@ -68092,6 +68589,10 @@
   "vivint": {
    "name": "Vivint",
    "k": "b"
+  },
+  "vivo": {
+   "name": "vivo",
+   "cat": "Technology"
   },
   "vivo-clean": {
    "name": "Vivo Clean",
@@ -69773,6 +70274,10 @@
   "white-cross": {
    "name": "White Cross",
    "k": "b"
+  },
+  "white-gold": {
+   "name": "White Gold",
+   "cat": "Mining & resources"
   },
   "white-marquee": {
    "name": "White Marquee",
@@ -71523,6 +72028,9 @@
    "name": "Zeit Watches",
    "cat": "Watches & luxury",
    "k": "b"
+  },
+  "zelio": {
+   "name": "Zelio"
   },
   "zelle": {
    "name": "Zelle",
