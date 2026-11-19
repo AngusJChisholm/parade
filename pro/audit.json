@@ -1,10 +1,10 @@
 {
  "generated": "2026-11-19",
  "summary": {
-  "dup_entities": 52,
-  "no_category": 6537,
+  "dup_entities": 53,
+  "no_category": 6640,
   "cat_mismatch": 135,
-  "slot_clash": 140,
+  "slot_clash": 144,
   "dup_deals": 12,
   "no_broadcaster": 18,
   "stale": 2,
@@ -12,56 +12,6 @@
   "anz_slot_clash": 31
  },
  "dup_entities": [
-  {
-   "names": [
-    "Global News",
-    "News Australia"
-   ],
-   "slugs": [
-    "global-news",
-    "news-australia"
-   ]
-  },
-  {
-   "names": [
-    "One",
-    "One NZ"
-   ],
-   "slugs": [
-    "one",
-    "one-nz"
-   ]
-  },
-  {
-   "names": [
-    "MGM Resorts",
-    "MGM Resorts International"
-   ],
-   "slugs": [
-    "mgm-resorts",
-    "mgm-resorts-international"
-   ]
-  },
-  {
-   "names": [
-    "NIEDAX GROUP",
-    "Niedax"
-   ],
-   "slugs": [
-    "niedax",
-    "niedax-group"
-   ]
-  },
-  {
-   "names": [
-    "Dynasty",
-    "Dynasty Sport"
-   ],
-   "slugs": [
-    "dynasty",
-    "dynasty-sport"
-   ]
-  },
   {
    "names": [
     "CSP",
@@ -74,96 +24,12 @@
   },
   {
    "names": [
-    "Victor",
-    "Victor Sports"
+    "Circa",
+    "Circa Sports"
    ],
    "slugs": [
-    "victor",
-    "victor-sports"
-   ]
-  },
-  {
-   "names": [
-    "ArenA",
-    "Arena Group",
-    "Arena Sports"
-   ],
-   "slugs": [
-    "arena",
-    "arena-group",
-    "arena-sports"
-   ]
-  },
-  {
-   "names": [
-    "Hockey Australia",
-    "Hockey New Zealand"
-   ],
-   "slugs": [
-    "hockey-australia",
-    "hockey-new-zealand"
-   ]
-  },
-  {
-   "names": [
-    "Canberra",
-    "Canberra International"
-   ],
-   "slugs": [
-    "canberra",
-    "canberra-international"
-   ]
-  },
-  {
-   "names": [
-    "Seven",
-    "Seven Group"
-   ],
-   "slugs": [
-    "seven",
-    "seven-group"
-   ]
-  },
-  {
-   "names": [
-    "Special Olympics",
-    "Special Olympics Australia"
-   ],
-   "slugs": [
-    "special-olympics",
-    "special-olympics-australia"
-   ]
-  },
-  {
-   "names": [
-    "BMS",
-    "BMS Group"
-   ],
-   "slugs": [
-    "bms",
-    "bms-group"
-   ]
-  },
-  {
-   "names": [
-    "International Mascot",
-    "MASCOT",
-    "Mascot International"
-   ],
-   "slugs": [
-    "international-mascot",
-    "mascot",
-    "mascot-international"
-   ]
-  },
-  {
-   "names": [
-    "Courier Mail",
-    "The Courier-Mail"
-   ],
-   "slugs": [
-    "courier-mail",
-    "the-courier-mail"
+    "circa",
+    "circa-sports"
    ]
   },
   {
@@ -178,22 +44,52 @@
   },
   {
    "names": [
-    "Dolphins",
-    "Dolphins Group"
+    "Dynasty",
+    "Dynasty Sport"
    ],
    "slugs": [
-    "dolphins",
-    "dolphins-group"
+    "dynasty",
+    "dynasty-sport"
    ]
   },
   {
    "names": [
-    "BDA",
-    "BDA Sports"
+    "Betsson",
+    "Betsson Sport"
    ],
    "slugs": [
-    "bda",
-    "bda-sports"
+    "betsson",
+    "betsson-sport"
+   ]
+  },
+  {
+   "names": [
+    "ISC",
+    "ISC Sport"
+   ],
+   "slugs": [
+    "isc",
+    "isc-sport"
+   ]
+  },
+  {
+   "names": [
+    "Commonwealth Games",
+    "Commonwealth Games Australia"
+   ],
+   "slugs": [
+    "commonwealth-games",
+    "commonwealth-games-australia"
+   ]
+  },
+  {
+   "names": [
+    "Hockey Australia",
+    "Hockey New Zealand"
+   ],
+   "slugs": [
+    "hockey-australia",
+    "hockey-new-zealand"
    ]
   },
   {
@@ -212,46 +108,6 @@
   },
   {
    "names": [
-    "BRI",
-    "BRI Group"
-   ],
-   "slugs": [
-    "bri",
-    "bri-group"
-   ]
-  },
-  {
-   "names": [
-    "ISC",
-    "ISC Sport"
-   ],
-   "slugs": [
-    "isc",
-    "isc-sport"
-   ]
-  },
-  {
-   "names": [
-    "Basketball Australia",
-    "Basketball New Zealand"
-   ],
-   "slugs": [
-    "basketball-australia",
-    "basketball-new-zealand"
-   ]
-  },
-  {
-   "names": [
-    "Gate",
-    "The Gate"
-   ],
-   "slugs": [
-    "gate",
-    "the-gate"
-   ]
-  },
-  {
-   "names": [
     "News Corp",
     "News Corp Australia"
    ],
@@ -262,42 +118,12 @@
   },
   {
    "names": [
-    "Hong Kong Jockey Club",
-    "The Hong Kong Jockey Club"
+    "BRI",
+    "BRI Group"
    ],
    "slugs": [
-    "hong-kong-jockey-club",
-    "the-hong-kong-jockey-club"
-   ]
-  },
-  {
-   "names": [
-    "BMW",
-    "BMW Group"
-   ],
-   "slugs": [
-    "bmw",
-    "bmw-group"
-   ]
-  },
-  {
-   "names": [
-    "Sports Illustrated",
-    "Sports Illustrated Resorts"
-   ],
-   "slugs": [
-    "sports-illustrated",
-    "sports-illustrated-resorts"
-   ]
-  },
-  {
-   "names": [
-    "Betsson",
-    "Betsson Sport"
-   ],
-   "slugs": [
-    "betsson",
-    "betsson-sport"
+    "bri",
+    "bri-group"
    ]
   },
   {
@@ -312,62 +138,44 @@
   },
   {
    "names": [
-    "TGI",
-    "TGI Sport"
+    "Sports Illustrated",
+    "Sports Illustrated Resorts"
    ],
    "slugs": [
-    "tgi",
-    "tgi-sport"
+    "sports-illustrated",
+    "sports-illustrated-resorts"
    ]
   },
   {
    "names": [
-    "Southern Trust",
-    "The Southern Trust"
+    "One",
+    "One NZ"
    ],
    "slugs": [
-    "southern-trust",
-    "the-southern-trust"
+    "one",
+    "one-nz"
    ]
   },
   {
    "names": [
-    "Clover",
-    "Clover Sport"
+    "International Mascot",
+    "MASCOT",
+    "Mascot International"
    ],
    "slugs": [
-    "clover",
-    "clover-sport"
+    "international-mascot",
+    "mascot",
+    "mascot-international"
    ]
   },
   {
    "names": [
-    "TAB",
-    "TAB NZ"
+    "BCD Group",
+    "BCD Sports"
    ],
    "slugs": [
-    "tab",
-    "tab-nz"
-   ]
-  },
-  {
-   "names": [
-    "Lucozade",
-    "Lucozade Sport"
-   ],
-   "slugs": [
-    "lucozade",
-    "lucozade-sport"
-   ]
-  },
-  {
-   "names": [
-    "Kia",
-    "Kia Australia"
-   ],
-   "slugs": [
-    "kia",
-    "kia-australia"
+    "bcd-group",
+    "bcd-sports"
    ]
   },
   {
@@ -378,6 +186,46 @@
    "slugs": [
     "pure-nutrition",
     "pure-sports-nutrition"
+   ]
+  },
+  {
+   "names": [
+    "HYROX",
+    "HYROX Australia"
+   ],
+   "slugs": [
+    "hyrox",
+    "hyrox-australia"
+   ]
+  },
+  {
+   "names": [
+    "Canberra",
+    "Canberra International"
+   ],
+   "slugs": [
+    "canberra",
+    "canberra-international"
+   ]
+  },
+  {
+   "names": [
+    "Dolphins",
+    "Dolphins Group"
+   ],
+   "slugs": [
+    "dolphins",
+    "dolphins-group"
+   ]
+  },
+  {
+   "names": [
+    "Cube",
+    "The Cube"
+   ],
+   "slugs": [
+    "cube",
+    "the-cube"
    ]
   },
   {
@@ -394,22 +242,12 @@
   },
   {
    "names": [
-    "Commonwealth Games",
-    "Commonwealth Games Australia"
+    "NIEDAX GROUP",
+    "Niedax"
    ],
    "slugs": [
-    "commonwealth-games",
-    "commonwealth-games-australia"
-   ]
-  },
-  {
-   "names": [
-    "Ant Group",
-    "Ant International"
-   ],
-   "slugs": [
-    "ant-group",
-    "ant-international"
+    "niedax",
+    "niedax-group"
    ]
   },
   {
@@ -424,82 +262,12 @@
   },
   {
    "names": [
-    "Nation",
-    "Sport Nation"
+    "Ant Group",
+    "Ant International"
    ],
    "slugs": [
-    "nation",
-    "sport-nation"
-   ]
-  },
-  {
-   "names": [
-    "Harness Racing Australia",
-    "Harness Racing NZ"
-   ],
-   "slugs": [
-    "harness-racing-australia",
-    "harness-racing-nz"
-   ]
-  },
-  {
-   "names": [
-    "Circa",
-    "Circa Sports"
-   ],
-   "slugs": [
-    "circa",
-    "circa-sports"
-   ]
-  },
-  {
-   "names": [
-    "MTC",
-    "MTC Australia"
-   ],
-   "slugs": [
-    "mtc",
-    "mtc-australia"
-   ]
-  },
-  {
-   "names": [
-    "BCD Group",
-    "BCD Sports"
-   ],
-   "slugs": [
-    "bcd-group",
-    "bcd-sports"
-   ]
-  },
-  {
-   "names": [
-    "Asahi Beverages",
-    "Asahi Beverages NZ"
-   ],
-   "slugs": [
-    "asahi-beverages",
-    "asahi-beverages-nz"
-   ]
-  },
-  {
-   "names": [
-    "Compass",
-    "Compass Group"
-   ],
-   "slugs": [
-    "compass",
-    "compass-group"
-   ]
-  },
-  {
-   "names": [
-    "Cube",
-    "The Cube"
-   ],
-   "slugs": [
-    "cube",
-    "the-cube"
+    "ant-group",
+    "ant-international"
    ]
   },
   {
@@ -516,22 +284,22 @@
   },
   {
    "names": [
-    "Tourism Australia",
-    "Tourism New Zealand"
+    "Southern Trust",
+    "The Southern Trust"
    ],
    "slugs": [
-    "tourism-australia",
-    "tourism-new-zealand"
+    "southern-trust",
+    "the-southern-trust"
    ]
   },
   {
    "names": [
-    "HYROX",
-    "HYROX Australia"
+    "Compass",
+    "Compass Group"
    ],
    "slugs": [
-    "hyrox",
-    "hyrox-australia"
+    "compass",
+    "compass-group"
    ]
   },
   {
@@ -542,6 +310,248 @@
    "slugs": [
     "carabao",
     "carabao-sport"
+   ]
+  },
+  {
+   "names": [
+    "MTC",
+    "MTC Australia"
+   ],
+   "slugs": [
+    "mtc",
+    "mtc-australia"
+   ]
+  },
+  {
+   "names": [
+    "BDA",
+    "BDA Sports"
+   ],
+   "slugs": [
+    "bda",
+    "bda-sports"
+   ]
+  },
+  {
+   "names": [
+    "Gate",
+    "The Gate"
+   ],
+   "slugs": [
+    "gate",
+    "the-gate"
+   ]
+  },
+  {
+   "names": [
+    "TGI",
+    "TGI Sport"
+   ],
+   "slugs": [
+    "tgi",
+    "tgi-sport"
+   ]
+  },
+  {
+   "names": [
+    "Tourism Australia",
+    "Tourism New Zealand"
+   ],
+   "slugs": [
+    "tourism-australia",
+    "tourism-new-zealand"
+   ]
+  },
+  {
+   "names": [
+    "Courier Mail",
+    "The Courier-Mail"
+   ],
+   "slugs": [
+    "courier-mail",
+    "the-courier-mail"
+   ]
+  },
+  {
+   "names": [
+    "BMS",
+    "BMS Group"
+   ],
+   "slugs": [
+    "bms",
+    "bms-group"
+   ]
+  },
+  {
+   "names": [
+    "Basketball Australia",
+    "Basketball New Zealand"
+   ],
+   "slugs": [
+    "basketball-australia",
+    "basketball-new-zealand"
+   ]
+  },
+  {
+   "names": [
+    "Special Olympics",
+    "Special Olympics Australia"
+   ],
+   "slugs": [
+    "special-olympics",
+    "special-olympics-australia"
+   ]
+  },
+  {
+   "names": [
+    "Seven",
+    "Seven Group"
+   ],
+   "slugs": [
+    "seven",
+    "seven-group"
+   ]
+  },
+  {
+   "names": [
+    "Victor",
+    "Victor Sports"
+   ],
+   "slugs": [
+    "victor",
+    "victor-sports"
+   ]
+  },
+  {
+   "names": [
+    "Global News",
+    "News Australia"
+   ],
+   "slugs": [
+    "global-news",
+    "news-australia"
+   ]
+  },
+  {
+   "names": [
+    "Hong Kong Jockey Club",
+    "The Hong Kong Jockey Club"
+   ],
+   "slugs": [
+    "hong-kong-jockey-club",
+    "the-hong-kong-jockey-club"
+   ]
+  },
+  {
+   "names": [
+    "Clover",
+    "Clover Sport"
+   ],
+   "slugs": [
+    "clover",
+    "clover-sport"
+   ]
+  },
+  {
+   "names": [
+    "Asahi Beverages",
+    "Asahi Beverages NZ"
+   ],
+   "slugs": [
+    "asahi-beverages",
+    "asahi-beverages-nz"
+   ]
+  },
+  {
+   "names": [
+    "BMW",
+    "BMW Group"
+   ],
+   "slugs": [
+    "bmw",
+    "bmw-group"
+   ]
+  },
+  {
+   "names": [
+    "MGM Resorts",
+    "MGM Resorts International"
+   ],
+   "slugs": [
+    "mgm-resorts",
+    "mgm-resorts-international"
+   ]
+  },
+  {
+   "names": [
+    "Samty",
+    "Samty Holdings"
+   ],
+   "slugs": [
+    "samty",
+    "samty-holdings"
+   ]
+  },
+  {
+   "names": [
+    "Kia",
+    "Kia Australia"
+   ],
+   "slugs": [
+    "kia",
+    "kia-australia"
+   ]
+  },
+  {
+   "names": [
+    "Harness Racing Australia",
+    "Harness Racing NZ"
+   ],
+   "slugs": [
+    "harness-racing-australia",
+    "harness-racing-nz"
+   ]
+  },
+  {
+   "names": [
+    "ArenA",
+    "Arena Group",
+    "Arena Sports"
+   ],
+   "slugs": [
+    "arena",
+    "arena-group",
+    "arena-sports"
+   ]
+  },
+  {
+   "names": [
+    "Nation",
+    "Sport Nation"
+   ],
+   "slugs": [
+    "nation",
+    "sport-nation"
+   ]
+  },
+  {
+   "names": [
+    "Lucozade",
+    "Lucozade Sport"
+   ],
+   "slugs": [
+    "lucozade",
+    "lucozade-sport"
+   ]
+  },
+  {
+   "names": [
+    "TAB",
+    "TAB NZ"
+   ],
+   "slugs": [
+    "tab",
+    "tab-nz"
    ]
   }
  ],
@@ -602,6 +612,11 @@
    "deals": 10
   },
   {
+   "brand": "docomo",
+   "slug": "docomo",
+   "deals": 9
+  },
+  {
    "brand": "Pia",
    "slug": "pia",
    "deals": 9
@@ -660,11 +675,6 @@
    "brand": "Love The Game",
    "slug": "love-the-game",
    "deals": 8
-  },
-  {
-   "brand": "docomo",
-   "slug": "docomo",
-   "deals": 7
   },
   {
    "brand": "Sparco",
@@ -955,6 +965,26 @@
    "brand": "Reclaim the Game",
    "slug": "reclaim-the-game",
    "deals": 5
+  },
+  {
+   "brand": "AGEKKE",
+   "slug": "agekke",
+   "deals": 4
+  },
+  {
+   "brand": "SMBC",
+   "slug": "smbc",
+   "deals": 4
+  },
+  {
+   "brand": "Daiwa Securities",
+   "slug": "daiwa-securities",
+   "deals": 4
+  },
+  {
+   "brand": "SMBC Nikko Securities",
+   "slug": "smbc-nikko-securities",
+   "deals": 4
   },
   {
    "brand": "Cricket Icons",
@@ -1267,6 +1297,26 @@
    "deals": 4
   },
   {
+   "brand": "Aoyama Shoji",
+   "slug": "aoyama-shoji",
+   "deals": 3
+  },
+  {
+   "brand": "JR East",
+   "slug": "jr-east",
+   "deals": 3
+  },
+  {
+   "brand": "JTB",
+   "slug": "jtb",
+   "deals": 3
+  },
+  {
+   "brand": "EDION",
+   "slug": "edion",
+   "deals": 3
+  },
+  {
    "brand": "Ticketlink",
    "slug": "ticketlink",
    "deals": 3
@@ -1282,11 +1332,6 @@
    "deals": 3
   },
   {
-   "brand": "Daiwa Securities",
-   "slug": "daiwa-securities",
-   "deals": 3
-  },
-  {
    "brand": "JR West",
    "slug": "jr-west",
    "deals": 3
@@ -1294,16 +1339,6 @@
   {
    "brand": "Kyocera",
    "slug": "kyocera",
-   "deals": 3
-  },
-  {
-   "brand": "AGEKKE",
-   "slug": "agekke",
-   "deals": 3
-  },
-  {
-   "brand": "SMBC",
-   "slug": "smbc",
    "deals": 3
   },
   {
@@ -1877,6 +1912,56 @@
    "deals": 3
   },
   {
+   "brand": "Kao (Bioré)",
+   "slug": "kao",
+   "deals": 2
+  },
+  {
+   "brand": "Kansei Pipe",
+   "slug": "kansei-pipe",
+   "deals": 2
+  },
+  {
+   "brand": "ACN",
+   "slug": "acn",
+   "deals": 2
+  },
+  {
+   "brand": "JT",
+   "slug": "jt",
+   "deals": 2
+  },
+  {
+   "brand": "Bic Camera",
+   "slug": "bic-camera",
+   "deals": 2
+  },
+  {
+   "brand": "J Sports",
+   "slug": "j-sports",
+   "deals": 2
+  },
+  {
+   "brand": "EPOS Card",
+   "slug": "epos-card",
+   "deals": 2
+  },
+  {
+   "brand": "Mercari",
+   "slug": "mercari",
+   "deals": 2
+  },
+  {
+   "brand": "Lawson",
+   "slug": "lawson",
+   "deals": 2
+  },
+  {
+   "brand": "Proto Corporation (Goo-net)",
+   "slug": "proto-corporation",
+   "deals": 2
+  },
+  {
    "brand": "Alipay+",
    "slug": "alipay",
    "deals": 2
@@ -1912,18 +1997,8 @@
    "deals": 2
   },
   {
-   "brand": "SMBC Nikko Securities",
-   "slug": "smbc-nikko-securities",
-   "deals": 2
-  },
-  {
    "brand": "Mizuho Securities",
    "slug": "mizuho-securities",
-   "deals": 2
-  },
-  {
-   "brand": "EDION",
-   "slug": "edion",
    "deals": 2
   },
   {
@@ -1934,11 +2009,6 @@
   {
    "brand": "JA Ibaraki",
    "slug": "ja-ibaraki",
-   "deals": 2
-  },
-  {
-   "brand": "JR East",
-   "slug": "jr-east",
    "deals": 2
   },
   {
@@ -4562,6 +4632,501 @@
    "deals": 2
   },
   {
+   "brand": "Ariake",
+   "slug": "ariake",
+   "deals": 1
+  },
+  {
+   "brand": "Maruha Nichiro",
+   "slug": "maruha-nichiro",
+   "deals": 1
+  },
+  {
+   "brand": "Nojima",
+   "slug": "nojima",
+   "deals": 1
+  },
+  {
+   "brand": "Konoike",
+   "slug": "konoike",
+   "deals": 1
+  },
+  {
+   "brand": "Kosaido",
+   "slug": "kosaido",
+   "deals": 1
+  },
+  {
+   "brand": "Kyoei",
+   "slug": "kyoei",
+   "deals": 1
+  },
+  {
+   "brand": "Kankyo Station",
+   "slug": "kankyo-station",
+   "deals": 1
+  },
+  {
+   "brand": "Kanadevia",
+   "slug": "kanadevia",
+   "deals": 1
+  },
+  {
+   "brand": "Carcon",
+   "slug": "carcon",
+   "deals": 1
+  },
+  {
+   "brand": "Onward",
+   "slug": "onward",
+   "deals": 1
+  },
+  {
+   "brand": "Itochu",
+   "slug": "itochu",
+   "deals": 1
+  },
+  {
+   "brand": "Ichiyoshi Securities",
+   "slug": "ichiyoshi-securities",
+   "deals": 1
+  },
+  {
+   "brand": "AD Hazama",
+   "slug": "ad-hazama",
+   "deals": 1
+  },
+  {
+   "brand": "Astrolab",
+   "slug": "astrolab",
+   "deals": 1
+  },
+  {
+   "brand": "Aim Universe",
+   "slug": "aim-universe",
+   "deals": 1
+  },
+  {
+   "brand": "UACJ",
+   "slug": "uacj",
+   "deals": 1
+  },
+  {
+   "brand": "Mynavi",
+   "slug": "mynavi",
+   "deals": 1
+  },
+  {
+   "brand": "Open House",
+   "slug": "open-house",
+   "deals": 1
+  },
+  {
+   "brand": "Bloom Build",
+   "slug": "bloom-build",
+   "deals": 1
+  },
+  {
+   "brand": "Denkodo (K's Denki)",
+   "slug": "denkodo",
+   "deals": 1
+  },
+  {
+   "brand": "Sankyu",
+   "slug": "sankyu",
+   "deals": 1
+  },
+  {
+   "brand": "Komatsu Bussan",
+   "slug": "komatsu-bussan",
+   "deals": 1
+  },
+  {
+   "brand": "Kahoku Shimpo",
+   "slug": "kahoku-shimpo",
+   "deals": 1
+  },
+  {
+   "brand": "Alfas Keiso",
+   "slug": "alfas-keiso",
+   "deals": 1
+  },
+  {
+   "brand": "BOAT RACE Shinkokai",
+   "slug": "boat-race-shinkokai",
+   "deals": 1
+  },
+  {
+   "brand": "Yodobashi Camera",
+   "slug": "yodobashi-camera",
+   "deals": 1
+  },
+  {
+   "brand": "Yamaya",
+   "slug": "yamaya",
+   "deals": 1
+  },
+  {
+   "brand": "Fuji Corporation",
+   "slug": "fuji-corporation",
+   "deals": 1
+  },
+  {
+   "brand": "Fukuda Denshi",
+   "slug": "fukuda-denshi",
+   "deals": 1
+  },
+  {
+   "brand": "Iris Ohyama",
+   "slug": "iris-ohyama",
+   "deals": 1
+  },
+  {
+   "brand": "Hot Pepper Gourmet",
+   "slug": "hot-pepper-gourmet",
+   "deals": 1
+  },
+  {
+   "brand": "Plus by Plus",
+   "slug": "plus-by-plus",
+   "deals": 1
+  },
+  {
+   "brand": "Fujita Kinzoku",
+   "slug": "fujita-kinzoku",
+   "deals": 1
+  },
+  {
+   "brand": "Buena Vista",
+   "slug": "buena-vista",
+   "deals": 1
+  },
+  {
+   "brand": "Nihon Trim",
+   "slug": "nihon-trim",
+   "deals": 1
+  },
+  {
+   "brand": "Nihon Tsushin Kiki",
+   "slug": "nihon-tsushin-kiki",
+   "deals": 1
+  },
+  {
+   "brand": "Nissei Advance",
+   "slug": "nissei-advance",
+   "deals": 1
+  },
+  {
+   "brand": "Touei Housing",
+   "slug": "touei-housing",
+   "deals": 1
+  },
+  {
+   "brand": "Taiyo Life",
+   "slug": "taiyo-life",
+   "deals": 1
+  },
+  {
+   "brand": "Sense Trust",
+   "slug": "sense-trust",
+   "deals": 1
+  },
+  {
+   "brand": "Senko",
+   "slug": "senko",
+   "deals": 1
+  },
+  {
+   "brand": "Sugimoto Shoji",
+   "slug": "sugimoto-shoji",
+   "deals": 1
+  },
+  {
+   "brand": "Shinwa Holdings",
+   "slug": "shinwa-holdings",
+   "deals": 1
+  },
+  {
+   "brand": "JUREN",
+   "slug": "juren",
+   "deals": 1
+  },
+  {
+   "brand": "Sankyo Denki",
+   "slug": "sankyo-denki",
+   "deals": 1
+  },
+  {
+   "brand": "Grand Anest",
+   "slug": "grand-anest",
+   "deals": 1
+  },
+  {
+   "brand": "Kumashu Komuten",
+   "slug": "kumashu-komuten",
+   "deals": 1
+  },
+  {
+   "brand": "Gbiate",
+   "slug": "gbiate",
+   "deals": 1
+  },
+  {
+   "brand": "Kibouken",
+   "slug": "kibouken",
+   "deals": 1
+  },
+  {
+   "brand": "Otafuku Glove",
+   "slug": "otafuku-glove",
+   "deals": 1
+  },
+  {
+   "brand": "Itami Sangyo",
+   "slug": "itami-sangyo",
+   "deals": 1
+  },
+  {
+   "brand": "IMCA",
+   "slug": "imca",
+   "deals": 1
+  },
+  {
+   "brand": "Samty Holdings",
+   "slug": "samty-holdings",
+   "deals": 1
+  },
+  {
+   "brand": "Noguchi Kanko",
+   "slug": "noguchi-kanko",
+   "deals": 1
+  },
+  {
+   "brand": "Nohmi Bosai",
+   "slug": "nohmi-bosai",
+   "deals": 1
+  },
+  {
+   "brand": "Nagase (Toshin)",
+   "slug": "nagase",
+   "deals": 1
+  },
+  {
+   "brand": "ToConnect",
+   "slug": "toconnect",
+   "deals": 1
+  },
+  {
+   "brand": "Tele Marker Group",
+   "slug": "tele-marker-group",
+   "deals": 1
+  },
+  {
+   "brand": "TbT Holdings",
+   "slug": "tbt-holdings",
+   "deals": 1
+  },
+  {
+   "brand": "Tsuken",
+   "slug": "tsuken",
+   "deals": 1
+  },
+  {
+   "brand": "Soramame Company",
+   "slug": "soramame-company",
+   "deals": 1
+  },
+  {
+   "brand": "ANA",
+   "slug": "ana",
+   "deals": 1
+  },
+  {
+   "brand": "JA Kyosai",
+   "slug": "ja-kyosai",
+   "deals": 1
+  },
+  {
+   "brand": "SECOM",
+   "slug": "secom",
+   "deals": 1
+  },
+  {
+   "brand": "Jogu Atom",
+   "slug": "jogu-atom",
+   "deals": 1
+  },
+  {
+   "brand": "Sapporo Drugstore",
+   "slug": "sapporo-drugstore",
+   "deals": 1
+  },
+  {
+   "brand": "Saikyu Kogyo",
+   "slug": "saikyu-kogyo",
+   "deals": 1
+  },
+  {
+   "brand": "Obayashi",
+   "slug": "obayashi",
+   "deals": 1
+  },
+  {
+   "brand": "AIR DO",
+   "slug": "air-do",
+   "deals": 1
+  },
+  {
+   "brand": "ACE",
+   "slug": "ace",
+   "deals": 1
+  },
+  {
+   "brand": "Well Venus",
+   "slug": "well-venus",
+   "deals": 1
+  },
+  {
+   "brand": "Willbe",
+   "slug": "willbe",
+   "deals": 1
+  },
+  {
+   "brand": "Iwata Chizaki",
+   "slug": "iwata-chizaki",
+   "deals": 1
+  },
+  {
+   "brand": "Iwakura Kensetsu",
+   "slug": "iwakura-kensetsu",
+   "deals": 1
+  },
+  {
+   "brand": "Ambitious",
+   "slug": "ambitious",
+   "deals": 1
+  },
+  {
+   "brand": "Ask Gate",
+   "slug": "ask-gate",
+   "deals": 1
+  },
+  {
+   "brand": "Marunaka Sogo Shoji",
+   "slug": "marunaka-sogo-shoji",
+   "deals": 1
+  },
+  {
+   "brand": "Maruhan",
+   "slug": "maruhan",
+   "deals": 1
+  },
+  {
+   "brand": "Hokkaido Shimbun",
+   "slug": "hokkaido-shimbun",
+   "deals": 1
+  },
+  {
+   "brand": "Hokuren",
+   "slug": "hokuren",
+   "deals": 1
+  },
+  {
+   "brand": "Bellco",
+   "slug": "bellco",
+   "deals": 1
+  },
+  {
+   "brand": "Nitori",
+   "slug": "nitori",
+   "deals": 1
+  },
+  {
+   "brand": "Toa",
+   "slug": "toa",
+   "deals": 1
+  },
+  {
+   "brand": "JACCS",
+   "slug": "jaccs",
+   "deals": 1
+  },
+  {
+   "brand": "Seicomart",
+   "slug": "seicomart",
+   "deals": 1
+  },
+  {
+   "brand": "Okamoto Holdings",
+   "slug": "okamoto-holdings",
+   "deals": 1
+  },
+  {
+   "brand": "ES-CON Japan",
+   "slug": "es-con-japan",
+   "deals": 1
+  },
+  {
+   "brand": "Idemitsu",
+   "slug": "idemitsu",
+   "deals": 1
+  },
+  {
+   "brand": "Aeon Hokkaido",
+   "slug": "aeon-hokkaido",
+   "deals": 1
+  },
+  {
+   "brand": "Ain Holdings",
+   "slug": "ain-holdings",
+   "deals": 1
+  },
+  {
+   "brand": "UCS",
+   "slug": "ucs",
+   "deals": 1
+  },
+  {
+   "brand": "JR Central Takashimaya",
+   "slug": "jr-central-takashimaya",
+   "deals": 1
+  },
+  {
+   "brand": "CNCI Group",
+   "slug": "cnci-group",
+   "deals": 1
+  },
+  {
+   "brand": "Boat Race Tokoname",
+   "slug": "boat-race-tokoname",
+   "deals": 1
+  },
+  {
+   "brand": "NewsedTech",
+   "slug": "newsedtech",
+   "deals": 1
+  },
+  {
+   "brand": "Tohmei Group",
+   "slug": "tohmei-group",
+   "deals": 1
+  },
+  {
+   "brand": "Tekwind",
+   "slug": "tekwind",
+   "deals": 1
+  },
+  {
+   "brand": "Ticket Pia Nagoya",
+   "slug": "ticket-pia-nagoya",
+   "deals": 1
+  },
+  {
+   "brand": "Meitetsu",
+   "slug": "meitetsu",
+   "deals": 1
+  },
+  {
    "brand": "ONVO",
    "slug": "onvo",
    "deals": 1
@@ -5059,11 +5624,6 @@
   {
    "brand": "Rakuten Securities",
    "slug": "rakuten-securities",
-   "deals": 1
-  },
-  {
-   "brand": "Aoyama Shoji",
-   "slug": "aoyama-shoji",
    "deals": 1
   },
   {
@@ -5882,11 +6442,6 @@
    "deals": 1
   },
   {
-   "brand": "Proto Corporation (Goo-net)",
-   "slug": "proto-corporation",
-   "deals": 1
-  },
-  {
    "brand": "Ito & Co.",
    "slug": "ito-and-co",
    "deals": 1
@@ -6312,11 +6867,6 @@
    "deals": 1
   },
   {
-   "brand": "Lawson",
-   "slug": "lawson",
-   "deals": 1
-  },
-  {
    "brand": "Hitachi Plant Services",
    "slug": "hitachi-plant-services",
    "deals": 1
@@ -6469,11 +7019,6 @@
   {
    "brand": "Sanoh",
    "slug": "sanoh",
-   "deals": 1
-  },
-  {
-   "brand": "Mercari",
-   "slug": "mercari",
    "deals": 1
   },
   {
@@ -6822,11 +7367,6 @@
    "deals": 1
   },
   {
-   "brand": "JTB",
-   "slug": "jtb",
-   "deals": 1
-  },
-  {
    "brand": "KIG",
    "slug": "kig",
    "deals": 1
@@ -6979,11 +7519,6 @@
   {
    "brand": "Jackery",
    "slug": "jackery",
-   "deals": 1
-  },
-  {
-   "brand": "Kao (Bioré)",
-   "slug": "kao",
    "deals": 1
   },
   {
@@ -7152,11 +7687,6 @@
    "deals": 1
   },
   {
-   "brand": "Kansei Pipe",
-   "slug": "kansei-pipe",
-   "deals": 1
-  },
-  {
    "brand": "Kamo",
    "slug": "kamo",
    "deals": 1
@@ -7229,11 +7759,6 @@
   {
    "brand": "Marui",
    "slug": "marui",
-   "deals": 1
-  },
-  {
-   "brand": "EPOS Card",
-   "slug": "epos-card",
    "deals": 1
   },
   {
@@ -35066,6 +35591,23 @@
    ]
   },
   {
+   "property": "Chunichi Dragons",
+   "anz": false,
+   "slot": "Banks",
+   "partners": [
+    {
+     "brand": "JA Bank Aichi",
+     "since": "listed",
+     "ends": null
+    },
+    {
+     "brand": "Tokai Rokin Bank",
+     "since": "listed",
+     "ends": null
+    }
+   ]
+  },
+  {
    "property": "Cleveland Browns",
    "anz": false,
    "slot": "Banks",
@@ -35289,6 +35831,50 @@
     },
     {
      "brand": "Kwangju Bank",
+     "since": "listed",
+     "ends": null
+    }
+   ]
+  },
+  {
+   "property": "Hokkaido Nippon-Ham Fighters",
+   "anz": false,
+   "slot": "Beer & cider",
+   "partners": [
+    {
+     "brand": "Asahi Breweries",
+     "since": "listed",
+     "ends": null
+    },
+    {
+     "brand": "Sapporo Breweries",
+     "since": "listed",
+     "ends": null
+    },
+    {
+     "brand": "Kirin Brewery",
+     "since": "listed",
+     "ends": null
+    }
+   ]
+  },
+  {
+   "property": "Hokkaido Nippon-Ham Fighters",
+   "anz": false,
+   "slot": "Banks",
+   "partners": [
+    {
+     "brand": "MUFG Bank",
+     "since": "listed",
+     "ends": null
+    },
+    {
+     "brand": "Hokuyo Bank",
+     "since": "listed",
+     "ends": null
+    },
+    {
+     "brand": "docomo SMTB Net Bank",
      "since": "listed",
      "ends": null
     }
@@ -36528,6 +37114,28 @@
     },
     {
      "brand": "Union Home Mortgage",
+     "since": "listed",
+     "ends": null
+    }
+   ]
+  },
+  {
+   "property": "Tokyo Yakult Swallows",
+   "anz": false,
+   "slot": "Beer & cider",
+   "partners": [
+    {
+     "brand": "Sapporo Breweries",
+     "since": "listed",
+     "ends": null
+    },
+    {
+     "brand": "Asahi Breweries",
+     "since": "listed",
+     "ends": null
+    },
+    {
+     "brand": "Kirin",
      "since": "listed",
      "ends": null
     }
