@@ -121,7 +121,8 @@ def main():
         new_rows.append({
             "deal": f"{name[b]} × {prop}", "sport": cfg["sport"], "type": type_for(tier[b]),
             "region": cfg["region"], "market": cfg["market"],
-            "summary": f"On the {prop} partners page in {span} (archived snapshots), gone by {nxt(y1)}.",
+            "summary": (f"On the {prop} partners page in {span} (archived snapshots), gone by {nxt(y1)}." if not str(nxt(y1)).isdigit() or int(nxt(y1)) - y1 <= 1
+                        else f"On the {prop} partners page in {span} (archived snapshots). No usable snapshot for {y1+1}-{int(nxt(y1))-1}; gone by {nxt(y1)}."),
             "url": f"https://web.archive.org/web/{lts}/{lpage}",
             "tier": type_for(tier[b]), "ptier": tier[b], "status": "Ended", "conf": "Confirmed",
             "month": f"{y0ts[:4]}-{y0ts[4:6]}", "since": y0, "sinceBasis": "wayback", "ended": y1, "ends": y1,
