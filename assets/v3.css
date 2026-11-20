@@ -52,7 +52,7 @@
 .side3 a.s:last-of-type{padding-bottom:0}
 .side3 a.s{display:grid;grid-template-columns:112px minmax(0,1fr);gap:14px;align-items:center;padding:14px 0;border-bottom:1px solid var(--line)}
 .side3 a.s:last-of-type{border-bottom:0}
-.side3 .im{height:84px;border-radius:10px;background:var(--canvas) center/cover no-repeat}
+.side3 .im{height:84px;border-radius:6px;background:var(--canvas) center/cover no-repeat}
 .side3 b{display:block;margin-top:6px;font-weight:800;font-size:16px;line-height:1.2}
 .side3 a.s:hover b{text-decoration:underline;text-underline-offset:3px}
 
@@ -60,7 +60,7 @@
 .feed3{display:flex;gap:48px;flex-wrap:wrap}
 .feed3>div{flex:1 1 520px;min-width:0}
 .feed3>div+div{border-left:1px solid var(--line);padding-left:24px}
-.fr{display:grid;grid-template-columns:116px auto minmax(0,1fr) auto;gap:14px;align-items:center;padding:12px 8px;border-radius:10px}
+.fr{display:grid;grid-template-columns:116px auto minmax(0,1fr) auto;gap:14px;align-items:center;padding:12px 8px;border-radius:6px}
 .fr:hover{background:var(--canvas)}
 .fr .lg{--s:26px}.fr .pair{gap:4px}
 .fr b{font-weight:800;font-size:15px;overflow-wrap:anywhere}
@@ -83,7 +83,7 @@
 /* Movers */
 .mv3{display:flex;gap:48px;flex-wrap:wrap}
 .mv3>div{flex:1 1 360px;min-width:0}
-.mr{display:grid;grid-template-columns:30px minmax(0,1fr) auto auto;gap:12px;align-items:center;padding:11px 6px;border-radius:10px}
+.mr{display:grid;grid-template-columns:30px minmax(0,1fr) auto auto;gap:12px;align-items:center;padding:11px 6px;border-radius:6px}
 .mr:hover{background:var(--canvas)}
 .mr .lg{--s:30px}
 .mr b{display:block;font-weight:800;font-size:14px;text-transform:uppercase;letter-spacing:-.01em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
@@ -99,7 +99,7 @@
 @media (max-width:640px){.stats3{grid-template-columns:repeat(2,minmax(0,1fr))}.stats3>div:nth-child(3){padding-left:0;border-left:0}.stats3>div:nth-child(n+3){border-top:1px solid var(--line)}}
 
 /* Skeleton */
-.sk3{display:block;height:44px;border-radius:10px;background:linear-gradient(90deg,var(--canvas),#fafaf8,var(--canvas));background-size:200% 100%;animation:sk3 1.2s linear infinite}
+.sk3{display:block;height:44px;border-radius:6px;background:linear-gradient(90deg,var(--canvas),#fafaf8,var(--canvas));background-size:200% 100%;animation:sk3 1.2s linear infinite}
 @keyframes sk3{from{background-position:200% 0}to{background-position:0 0}}
 @media (prefers-reduced-motion:reduce){.stamp i,.sk3{animation:none}}
 

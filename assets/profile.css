@@ -43,7 +43,7 @@ header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;border-bottom:
 .m .lg,.gap .lg{width:var(--s)}
 .lg.lg-big .mono{width:100%}
 /* Brandfetch's square icon is only used when nothing else exists; round it so it reads as an app icon, not a box. */
-.lg.lg-ic img{border-radius:18%}
+.lg.lg-ic img{border-radius:6px}
 .lg.lg-big{width:clamp(180px,22vw,280px);height:clamp(140px,15vw,190px)}
 .lg.lg-big .mono{font-size:clamp(48px,6vw,80px)}
 .lga{display:inline-flex}.lga:hover .mono{border-color:var(--ink)}.lga:hover img{opacity:.8}
@@ -54,7 +54,7 @@ header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;border-bottom:
 .pt span.k{font-size:13px;color:var(--ink-3)}
 a.pt:hover{background:var(--canvas);color:var(--ink)}
 .pills{display:flex;flex-wrap:wrap;gap:8px}
-.pill{font:inherit;font-weight:800;font-size:12px;letter-spacing:.14em;text-transform:uppercase;background:var(--white);color:var(--ink);border:1px solid var(--ink);border-radius:999px;padding:10px 16px;cursor:pointer}
+.pill{font:inherit;font-weight:800;font-size:12px;letter-spacing:.14em;text-transform:uppercase;background:var(--white);color:var(--ink);border:1px solid var(--ink);border-radius:6px;padding:10px 16px;cursor:pointer}
 .pill:hover{background:var(--canvas)}.pill.on{background:var(--ink);color:var(--white)}
 .al{border-top:2px solid var(--ink)}
 .ar-h,.ar-r{display:grid;grid-template-columns:120px minmax(0,2.4fr) minmax(0,1fr) minmax(0,1.3fr) 96px;gap:20px;align-items:center;padding:18px 0;border-bottom:1px solid var(--line)}

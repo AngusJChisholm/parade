@@ -20,7 +20,7 @@
   /* Layout */
   --pad:clamp(16px,4vw,56px);
   /* Radius */
-  --r-chip:6px;--r-sm:12px;--r-md:16px;--r-lg:24px;--r-pill:999px;
+  --r-chip:6px;--r-sm:6px;--r-md:6px;--r-lg:6px;--r-pill:6px;
   /* Elevation: one shadow, for popovers only */
   --shadow-pop:0 12px 40px rgba(0,0,0,.12)
 }
@@ -47,7 +47,7 @@ header.v2 .hd-r{display:flex;align-items:center;gap:14px;margin-left:auto}
 header.v2 .hs-b{font:inherit;display:inline-flex;align-items:center;gap:12px;height:46px;width:min(420px,32vw);padding:0 8px 0 18px;border:0;border-radius:var(--r-pill);background:var(--canvas);color:var(--ink-3);font-size:14px;cursor:pointer;text-align:left}
 header.v2 .hs-b svg{width:16px;height:16px;flex:none;color:#111}
 header.v2 .hs-b .hs-t{flex:1 1 auto;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-header.v2 .hs-b kbd{font:inherit;font-size:12px;display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:8px;background:#fff;border:1px solid var(--line);color:var(--ink-3)}
+header.v2 .hs-b kbd{font:inherit;font-size:12px;display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:6px;background:#fff;border:1px solid var(--line);color:var(--ink-3)}
 header.v2 .hs-b[aria-expanded="true"]{background:#111;color:#fff}
 header.v2 .hs-b[aria-expanded="true"] svg{color:#fff}
 header.v2 .pro-b{display:inline-flex;align-items:center;height:44px;padding:0 18px;border-radius:var(--r-pill);background:#000;color:#fff!important;font-weight:800;font-size:12px;letter-spacing:.14em;text-transform:uppercase;white-space:nowrap}
@@ -64,7 +64,7 @@ header.v2 .hs input{width:100%;font:inherit;font-size:clamp(17px,1.5vw,22px);pad
 header.v2 .hs input:focus{box-shadow:0 0 0 4px var(--volt)}
 header.v2 .hs-r{margin-top:10px;border:1px solid var(--line);border-radius:var(--r-md);box-shadow:var(--shadow-pop);max-height:min(440px,60vh);overflow:auto;background:#fff;padding:6px}
 header.v2 .hs-r[hidden]{display:none}
-header.v2 .hs-r a{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:12px 16px;border-radius:10px}
+header.v2 .hs-r a{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:12px 16px;border-radius:6px}
 header.v2 .hs-r a:hover,header.v2 .hs-r a.on{background:var(--canvas)}
 header.v2 .hs-r b{font-family:var(--cond);font-stretch:68%;font-weight:800;text-transform:uppercase;font-size:20px;line-height:1}
 header.v2 .hs-r span{font-size:12px;color:var(--ink-3);white-space:nowrap}
