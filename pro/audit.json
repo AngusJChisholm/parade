@@ -2,7 +2,7 @@
  "generated": "2026-11-20",
  "summary": {
   "dup_entities": 57,
-  "no_category": 8354,
+  "no_category": 8377,
   "cat_mismatch": 142,
   "slot_clash": 120,
   "dup_deals": 0,
@@ -12,6 +12,46 @@
   "anz_slot_clash": 2
  },
  "dup_entities": [
+  {
+   "names": [
+    "Tourism Australia",
+    "Tourism New Zealand"
+   ],
+   "slugs": [
+    "tourism-australia",
+    "tourism-new-zealand"
+   ]
+  },
+  {
+   "names": [
+    "Direct Global",
+    "Sports Direct"
+   ],
+   "slugs": [
+    "direct-global",
+    "sports-direct"
+   ]
+  },
+  {
+   "names": [
+    "CSP",
+    "CSP International"
+   ],
+   "slugs": [
+    "csp",
+    "csp-international"
+   ]
+  },
+  {
+   "names": [
+    "Carabao",
+    "Carabao Sport"
+   ],
+   "slugs": [
+    "carabao",
+    "carabao-sport"
+   ]
+  },
   {
    "names": [
     "Canberra",
@@ -24,42 +64,32 @@
   },
   {
    "names": [
-    "Bonus Electrical",
-    "Bonus Electrical Group"
+    "Commonwealth Games",
+    "Commonwealth Games Australia"
    ],
    "slugs": [
-    "bonus-electrical",
-    "bonus-electrical-group"
+    "commonwealth-games",
+    "commonwealth-games-australia"
    ]
   },
   {
    "names": [
-    "Southern Trust",
-    "The Southern Trust"
+    "BMS",
+    "BMS Group"
    ],
    "slugs": [
-    "southern-trust",
-    "the-southern-trust"
+    "bms",
+    "bms-group"
    ]
   },
   {
    "names": [
-    "News Corp",
-    "News Corp Australia"
+    "Nation",
+    "Sport Nation"
    ],
    "slugs": [
-    "news-corp",
-    "news-corp-australia"
-   ]
-  },
-  {
-   "names": [
-    "Sports Illustrated",
-    "Sports Illustrated Resorts"
-   ],
-   "slugs": [
-    "sports-illustrated",
-    "sports-illustrated-resorts"
+    "nation",
+    "sport-nation"
    ]
   },
   {
@@ -76,36 +106,6 @@
   },
   {
    "names": [
-    "Jungle",
-    "Jungle Sports"
-   ],
-   "slugs": [
-    "jungle",
-    "jungle-sports"
-   ]
-  },
-  {
-   "names": [
-    "Basketball Australia",
-    "Basketball New Zealand"
-   ],
-   "slugs": [
-    "basketball-australia",
-    "basketball-new-zealand"
-   ]
-  },
-  {
-   "names": [
-    "Commonwealth Games",
-    "Commonwealth Games Australia"
-   ],
-   "slugs": [
-    "commonwealth-games",
-    "commonwealth-games-australia"
-   ]
-  },
-  {
-   "names": [
     "Global News",
     "News Australia"
    ],
@@ -116,134 +116,42 @@
   },
   {
    "names": [
-    "Moore",
-    "Moore Australia"
+    "Morson",
+    "Morson Group"
    ],
    "slugs": [
-    "moore",
-    "moore-australia"
+    "morson",
+    "morson-group"
    ]
   },
   {
    "names": [
-    "Compass",
-    "Compass Group"
+    "Special Olympics",
+    "Special Olympics Australia"
    ],
    "slugs": [
-    "compass",
-    "compass-group"
+    "special-olympics",
+    "special-olympics-australia"
    ]
   },
   {
    "names": [
-    "BCD Group",
-    "BCD Sports"
+    "Wormald",
+    "Wormald Australia"
    ],
    "slugs": [
-    "bcd-group",
-    "bcd-sports"
+    "wormald",
+    "wormald-australia"
    ]
   },
   {
    "names": [
-    "Lost Distillery",
-    "The Lost Distillery"
+    "Cooper Associates",
+    "Cooper Associates Group"
    ],
    "slugs": [
-    "lost-distillery",
-    "the-lost-distillery"
-   ]
-  },
-  {
-   "names": [
-    "Elite Sports Travel",
-    "Elite Travel"
-   ],
-   "slugs": [
-    "elite-sports-travel",
-    "elite-travel"
-   ]
-  },
-  {
-   "names": [
-    "TAB",
-    "TAB NZ"
-   ],
-   "slugs": [
-    "tab",
-    "tab-nz"
-   ]
-  },
-  {
-   "names": [
-    "Asahi Beverages",
-    "Asahi Beverages NZ"
-   ],
-   "slugs": [
-    "asahi-beverages",
-    "asahi-beverages-nz"
-   ]
-  },
-  {
-   "names": [
-    "Seven",
-    "Seven Group"
-   ],
-   "slugs": [
-    "seven",
-    "seven-group"
-   ]
-  },
-  {
-   "names": [
-    "Athletics",
-    "Athletics Australia",
-    "Athletics New Zealand"
-   ],
-   "slugs": [
-    "athletics",
-    "athletics-australia",
-    "athletics-new-zealand"
-   ]
-  },
-  {
-   "names": [
-    "BMW",
-    "BMW Group"
-   ],
-   "slugs": [
-    "bmw",
-    "bmw-group"
-   ]
-  },
-  {
-   "names": [
-    "One",
-    "One NZ"
-   ],
-   "slugs": [
-    "one",
-    "one-nz"
-   ]
-  },
-  {
-   "names": [
-    "Gate",
-    "The Gate"
-   ],
-   "slugs": [
-    "gate",
-    "the-gate"
-   ]
-  },
-  {
-   "names": [
-    "Absolut",
-    "Absolut Sport"
-   ],
-   "slugs": [
-    "absolut",
-    "absolut-sport"
+    "cooper-associates",
+    "cooper-associates-group"
    ]
   },
   {
@@ -262,156 +170,6 @@
   },
   {
    "names": [
-    "Tourism Australia",
-    "Tourism New Zealand"
-   ],
-   "slugs": [
-    "tourism-australia",
-    "tourism-new-zealand"
-   ]
-  },
-  {
-   "names": [
-    "Nation",
-    "Sport Nation"
-   ],
-   "slugs": [
-    "nation",
-    "sport-nation"
-   ]
-  },
-  {
-   "names": [
-    "Hockey Australia",
-    "Hockey New Zealand"
-   ],
-   "slugs": [
-    "hockey-australia",
-    "hockey-new-zealand"
-   ]
-  },
-  {
-   "names": [
-    "PURE Sports Nutrition",
-    "Pure Nutrition"
-   ],
-   "slugs": [
-    "pure-nutrition",
-    "pure-sports-nutrition"
-   ]
-  },
-  {
-   "names": [
-    "Torrens University",
-    "Torrens University Australia"
-   ],
-   "slugs": [
-    "torrens-university",
-    "torrens-university-australia"
-   ]
-  },
-  {
-   "names": [
-    "Circa",
-    "Circa Sports"
-   ],
-   "slugs": [
-    "circa",
-    "circa-sports"
-   ]
-  },
-  {
-   "names": [
-    "BDA",
-    "BDA Sports"
-   ],
-   "slugs": [
-    "bda",
-    "bda-sports"
-   ]
-  },
-  {
-   "names": [
-    "Lucozade",
-    "Lucozade Sport"
-   ],
-   "slugs": [
-    "lucozade",
-    "lucozade-sport"
-   ]
-  },
-  {
-   "names": [
-    "Cube",
-    "The Cube"
-   ],
-   "slugs": [
-    "cube",
-    "the-cube"
-   ]
-  },
-  {
-   "names": [
-    "Wormald",
-    "Wormald Australia"
-   ],
-   "slugs": [
-    "wormald",
-    "wormald-australia"
-   ]
-  },
-  {
-   "names": [
-    "BMS",
-    "BMS Group"
-   ],
-   "slugs": [
-    "bms",
-    "bms-group"
-   ]
-  },
-  {
-   "names": [
-    "Clover",
-    "Clover Sport"
-   ],
-   "slugs": [
-    "clover",
-    "clover-sport"
-   ]
-  },
-  {
-   "names": [
-    "TGI",
-    "TGI Sport"
-   ],
-   "slugs": [
-    "tgi",
-    "tgi-sport"
-   ]
-  },
-  {
-   "names": [
-    "Carabao",
-    "Carabao Sport"
-   ],
-   "slugs": [
-    "carabao",
-    "carabao-sport"
-   ]
-  },
-  {
-   "names": [
-    "CSP",
-    "CSP International"
-   ],
-   "slugs": [
-    "csp",
-    "csp-international"
-   ]
-  },
-  {
-   "names": [
     "Sky",
     "Sky NZ",
     "Sky Sport",
@@ -426,52 +184,224 @@
   },
   {
    "names": [
-    "Murray Timber",
-    "Murray Timber Group"
+    "Jungle",
+    "Jungle Sports"
    ],
    "slugs": [
-    "murray-timber",
-    "murray-timber-group"
+    "jungle",
+    "jungle-sports"
    ]
   },
   {
    "names": [
-    "BRI",
-    "BRI Group"
+    "ISC",
+    "ISC Sport"
    ],
    "slugs": [
-    "bri",
-    "bri-group"
+    "isc",
+    "isc-sport"
    ]
   },
   {
    "names": [
-    "Betsson",
-    "Betsson Sport"
+    "Lucozade",
+    "Lucozade Sport"
    ],
    "slugs": [
-    "betsson",
-    "betsson-sport"
+    "lucozade",
+    "lucozade-sport"
    ]
   },
   {
    "names": [
-    "RSM",
-    "RSM Australia"
+    "Clover",
+    "Clover Sport"
    ],
    "slugs": [
-    "rsm",
-    "rsm-australia"
+    "clover",
+    "clover-sport"
    ]
   },
   {
    "names": [
-    "Focus",
-    "Focus Group"
+    "News Corp",
+    "News Corp Australia"
    ],
    "slugs": [
-    "focus",
-    "focus-group"
+    "news-corp",
+    "news-corp-australia"
+   ]
+  },
+  {
+   "names": [
+    "Lost Distillery",
+    "The Lost Distillery"
+   ],
+   "slugs": [
+    "lost-distillery",
+    "the-lost-distillery"
+   ]
+  },
+  {
+   "names": [
+    "Athletics",
+    "Athletics Australia",
+    "Athletics New Zealand"
+   ],
+   "slugs": [
+    "athletics",
+    "athletics-australia",
+    "athletics-new-zealand"
+   ]
+  },
+  {
+   "names": [
+    "PURE Sports Nutrition",
+    "Pure Nutrition"
+   ],
+   "slugs": [
+    "pure-nutrition",
+    "pure-sports-nutrition"
+   ]
+  },
+  {
+   "names": [
+    "BMW",
+    "BMW Group"
+   ],
+   "slugs": [
+    "bmw",
+    "bmw-group"
+   ]
+  },
+  {
+   "names": [
+    "Southern Trust",
+    "The Southern Trust"
+   ],
+   "slugs": [
+    "southern-trust",
+    "the-southern-trust"
+   ]
+  },
+  {
+   "names": [
+    "Qube",
+    "The Qube"
+   ],
+   "slugs": [
+    "qube",
+    "the-qube"
+   ]
+  },
+  {
+   "names": [
+    "Moore",
+    "Moore Australia"
+   ],
+   "slugs": [
+    "moore",
+    "moore-australia"
+   ]
+  },
+  {
+   "names": [
+    "Sports Illustrated",
+    "Sports Illustrated Resorts"
+   ],
+   "slugs": [
+    "sports-illustrated",
+    "sports-illustrated-resorts"
+   ]
+  },
+  {
+   "names": [
+    "Cube",
+    "The Cube"
+   ],
+   "slugs": [
+    "cube",
+    "the-cube"
+   ]
+  },
+  {
+   "names": [
+    "Bonus Electrical",
+    "Bonus Electrical Group"
+   ],
+   "slugs": [
+    "bonus-electrical",
+    "bonus-electrical-group"
+   ]
+  },
+  {
+   "names": [
+    "Hockey Australia",
+    "Hockey New Zealand"
+   ],
+   "slugs": [
+    "hockey-australia",
+    "hockey-new-zealand"
+   ]
+  },
+  {
+   "names": [
+    "QMS",
+    "QMS NZ"
+   ],
+   "slugs": [
+    "qms",
+    "qms-nz"
+   ]
+  },
+  {
+   "names": [
+    "Dolphins",
+    "Dolphins Group"
+   ],
+   "slugs": [
+    "dolphins",
+    "dolphins-group"
+   ]
+  },
+  {
+   "names": [
+    "Elite Sports Travel",
+    "Elite Travel"
+   ],
+   "slugs": [
+    "elite-sports-travel",
+    "elite-travel"
+   ]
+  },
+  {
+   "names": [
+    "One",
+    "One NZ"
+   ],
+   "slugs": [
+    "one",
+    "one-nz"
+   ]
+  },
+  {
+   "names": [
+    "Circa",
+    "Circa Sports"
+   ],
+   "slugs": [
+    "circa",
+    "circa-sports"
+   ]
+  },
+  {
+   "names": [
+    "Asahi Beverages",
+    "Asahi Beverages NZ"
+   ],
+   "slugs": [
+    "asahi-beverages",
+    "asahi-beverages-nz"
    ]
   },
   {
@@ -488,92 +418,52 @@
   },
   {
    "names": [
-    "Dolphins",
-    "Dolphins Group"
+    "Basketball Australia",
+    "Basketball New Zealand"
    ],
    "slugs": [
-    "dolphins",
-    "dolphins-group"
+    "basketball-australia",
+    "basketball-new-zealand"
    ]
   },
   {
    "names": [
-    "Direct Global",
-    "Sports Direct"
+    "Focus",
+    "Focus Group"
    ],
    "slugs": [
-    "direct-global",
-    "sports-direct"
+    "focus",
+    "focus-group"
    ]
   },
   {
    "names": [
-    "Qube",
-    "The Qube"
+    "BDA",
+    "BDA Sports"
    ],
    "slugs": [
-    "qube",
-    "the-qube"
+    "bda",
+    "bda-sports"
    ]
   },
   {
    "names": [
-    "ISC",
-    "ISC Sport"
+    "BRI",
+    "BRI Group"
    ],
    "slugs": [
-    "isc",
-    "isc-sport"
+    "bri",
+    "bri-group"
    ]
   },
   {
    "names": [
-    "Special Olympics",
-    "Special Olympics Australia"
+    "Gate",
+    "The Gate"
    ],
    "slugs": [
-    "special-olympics",
-    "special-olympics-australia"
-   ]
-  },
-  {
-   "names": [
-    "Cooper Associates",
-    "Cooper Associates Group"
-   ],
-   "slugs": [
-    "cooper-associates",
-    "cooper-associates-group"
-   ]
-  },
-  {
-   "names": [
-    "Morson",
-    "Morson Group"
-   ],
-   "slugs": [
-    "morson",
-    "morson-group"
-   ]
-  },
-  {
-   "names": [
-    "QMS",
-    "QMS NZ"
-   ],
-   "slugs": [
-    "qms",
-    "qms-nz"
-   ]
-  },
-  {
-   "names": [
-    "Spark",
-    "Spark Sport"
-   ],
-   "slugs": [
-    "spark",
-    "spark-sport"
+    "gate",
+    "the-gate"
    ]
   },
   {
@@ -588,12 +478,122 @@
   },
   {
    "names": [
+    "Seven",
+    "Seven Group"
+   ],
+   "slugs": [
+    "seven",
+    "seven-group"
+   ]
+  },
+  {
+   "names": [
+    "RSM",
+    "RSM Australia"
+   ],
+   "slugs": [
+    "rsm",
+    "rsm-australia"
+   ]
+  },
+  {
+   "names": [
+    "BCD Group",
+    "BCD Sports"
+   ],
+   "slugs": [
+    "bcd-group",
+    "bcd-sports"
+   ]
+  },
+  {
+   "names": [
     "Harness Racing Australia",
     "Harness Racing NZ"
    ],
    "slugs": [
     "harness-racing-australia",
     "harness-racing-nz"
+   ]
+  },
+  {
+   "names": [
+    "Betsson",
+    "Betsson Sport"
+   ],
+   "slugs": [
+    "betsson",
+    "betsson-sport"
+   ]
+  },
+  {
+   "names": [
+    "Torrens University",
+    "Torrens University Australia"
+   ],
+   "slugs": [
+    "torrens-university",
+    "torrens-university-australia"
+   ]
+  },
+  {
+   "names": [
+    "TGI",
+    "TGI Sport"
+   ],
+   "slugs": [
+    "tgi",
+    "tgi-sport"
+   ]
+  },
+  {
+   "names": [
+    "Murray Timber",
+    "Murray Timber Group"
+   ],
+   "slugs": [
+    "murray-timber",
+    "murray-timber-group"
+   ]
+  },
+  {
+   "names": [
+    "Absolut",
+    "Absolut Sport"
+   ],
+   "slugs": [
+    "absolut",
+    "absolut-sport"
+   ]
+  },
+  {
+   "names": [
+    "TAB",
+    "TAB NZ"
+   ],
+   "slugs": [
+    "tab",
+    "tab-nz"
+   ]
+  },
+  {
+   "names": [
+    "Spark",
+    "Spark Sport"
+   ],
+   "slugs": [
+    "spark",
+    "spark-sport"
+   ]
+  },
+  {
+   "names": [
+    "Compass",
+    "Compass Group"
+   ],
+   "slugs": [
+    "compass",
+    "compass-group"
    ]
   }
  ],
@@ -714,6 +714,11 @@
    "deals": 9
   },
   {
+   "brand": "Sorare",
+   "slug": "sorare",
+   "deals": 9
+  },
+  {
    "brand": "Enel",
    "slug": "enel",
    "deals": 9
@@ -737,11 +742,6 @@
    "brand": "Barfoot & Thompson",
    "slug": "barfoot-and-thompson",
    "deals": 9
-  },
-  {
-   "brand": "Sorare",
-   "slug": "sorare",
-   "deals": 8
   },
   {
    "brand": "Vivaticket",
@@ -821,6 +821,11 @@
   {
    "brand": "Enilive",
    "slug": "enilive",
+   "deals": 7
+  },
+  {
+   "brand": "Halcón Viajes",
+   "slug": "halcon-viajes",
    "deals": 7
   },
   {
@@ -909,11 +914,6 @@
    "deals": 6
   },
   {
-   "brand": "Halcón Viajes",
-   "slug": "halcon-viajes",
-   "deals": 6
-  },
-  {
    "brand": "LANX",
    "slug": "lanx",
    "deals": 6
@@ -977,6 +977,11 @@
    "brand": "FanCraze",
    "slug": "fancraze",
    "deals": 6
+  },
+  {
+   "brand": "BH Fitness",
+   "slug": "bh-fitness",
+   "deals": 5
   },
   {
    "brand": "Enterprise",
@@ -1191,11 +1196,6 @@
   {
    "brand": "Turkey Flat",
    "slug": "turkey-flat",
-   "deals": 4
-  },
-  {
-   "brand": "BH Fitness",
-   "slug": "bh-fitness",
    "deals": 4
   },
   {
@@ -2971,6 +2971,11 @@
   {
    "brand": "Takenaka Corporation",
    "slug": "takenaka-corporation",
+   "deals": 2
+  },
+  {
+   "brand": "Nichiban",
+   "slug": "nichiban",
    "deals": 2
   },
   {
@@ -11361,11 +11366,6 @@
   {
    "brand": "GROP",
    "slug": "grop",
-   "deals": 1
-  },
-  {
-   "brand": "Nichiban",
-   "slug": "nichiban",
    "deals": 1
   },
   {
@@ -42366,6 +42366,121 @@
   {
    "brand": "T.M. Lewin",
    "slug": "t-m-lewin",
+   "deals": 1
+  },
+  {
+   "brand": "Dapper Labs",
+   "slug": "dapper-labs",
+   "deals": 1
+  },
+  {
+   "brand": "Euskaltel",
+   "slug": "euskaltel",
+   "deals": 1
+  },
+  {
+   "brand": "IC Markets",
+   "slug": "ic-markets",
+   "deals": 1
+  },
+  {
+   "brand": "SKFK",
+   "slug": "skfk",
+   "deals": 1
+  },
+  {
+   "brand": "Azpilicueta",
+   "slug": "azpilicueta",
+   "deals": 1
+  },
+  {
+   "brand": "B2BinPay",
+   "slug": "b2binpay",
+   "deals": 1
+  },
+  {
+   "brand": "Bluespace",
+   "slug": "bluespace",
+   "deals": 1
+  },
+  {
+   "brand": "Eggo",
+   "slug": "eggo",
+   "deals": 1
+  },
+  {
+   "brand": "Tell My Skin",
+   "slug": "tell-my-skin",
+   "deals": 1
+  },
+  {
+   "brand": "Entrecanales Domecq",
+   "slug": "entrecanales-domecq",
+   "deals": 1
+  },
+  {
+   "brand": "Henry Arroway",
+   "slug": "henry-arroway",
+   "deals": 1
+  },
+  {
+   "brand": "Clínica Universidad de Navarra",
+   "slug": "clinica-universidad-de-navarra",
+   "deals": 1
+  },
+  {
+   "brand": "Monbus",
+   "slug": "monbus",
+   "deals": 1
+  },
+  {
+   "brand": "Plus500",
+   "slug": "plus500",
+   "deals": 1
+  },
+  {
+   "brand": "Ria Money Transfer",
+   "slug": "ria-money-transfer",
+   "deals": 1
+  },
+  {
+   "brand": "TD Systems",
+   "slug": "td-systems",
+   "deals": 1
+  },
+  {
+   "brand": "Wanda",
+   "slug": "wanda",
+   "deals": 1
+  },
+  {
+   "brand": "WhaleFin",
+   "slug": "whalefin",
+   "deals": 1
+  },
+  {
+   "brand": "Thom Browne",
+   "slug": "thom-browne",
+   "deals": 1
+  },
+  {
+   "brand": "Yunnan Baiyao",
+   "slug": "yunnan-baiyao",
+   "deals": 1
+  },
+  {
+   "brand": "DR&N",
+   "slug": "dr-and-n",
+   "deals": 1
+  },
+  {
+   "brand": "Vitaldent",
+   "slug": "vitaldent",
+   "deals": 1
+  },
+  {
+   "brand": "Xenera",
+   "slug": "xenera",
    "deals": 1
   }
  ],
