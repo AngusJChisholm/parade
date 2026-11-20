@@ -92397,7 +92397,10 @@
    "domain": "bathurst12hour.com.au",
    "ptype": "Event",
    "k": "p",
-   "market": "ANZ"
+   "market": "ANZ",
+   "ptiers": [
+    "Official partner"
+   ]
   },
   "meguiar-s": {
    "name": "Meguiar's",
