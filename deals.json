@@ -40584,7 +40584,10 @@
    "conf": "Confirmed",
    "verified": "2026-11-19",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "role",
+   "since": 2020,
+   "sinceBasis": "news",
+   "sinceUrl": "https://www.mercedesamgf1.com/news/mercedes-announces-principal-partnership-with-ineos"
   },
   {
    "listed": "2026-11-19",
@@ -40618,7 +40621,10 @@
    "conf": "Confirmed",
    "verified": "2026-11-19",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "rights",
+   "since": 2010,
+   "sinceBasis": "news",
+   "sinceUrl": "https://www.mercedesamgf1.com/en/news/2022/09/mercedes-amg-f1-petronas-power-towards-two-decades-partnership-embrace-f1-sustainable-future"
   },
   {
    "listed": "2026-11-19",
@@ -42381,7 +42387,10 @@
    "conf": "Confirmed",
    "verified": "2026-11-19",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "rights",
+   "since": 2022,
+   "sinceBasis": "news",
+   "sinceUrl": "https://www.aramco.com/en/news-media/news/2023/aramco-extends-successful-partnership-with-aston-martin-formula-one"
   },
   {
    "listed": "2026-11-19",
@@ -93270,7 +93279,10 @@
    "ptier": "Official sponsor",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "since": 2014,
+   "sinceBasis": "news",
+   "sinceUrl": "https://www.irishrugby.ie/?p=122617"
   },
   {
    "listed": "2026-11-17",
@@ -93285,7 +93297,10 @@
    "ptier": "Official sponsor",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "since": 2016,
+   "sinceBasis": "news",
+   "sinceUrl": "https://www.irishtimes.com/business/2023/09/20/vodafone-signs-four-year-sponsorship-extension-with-irish-rugby"
   },
   {
    "listed": "2026-11-17",
@@ -93554,7 +93569,10 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "since": 2013,
+   "sinceBasis": "news",
+   "sinceUrl": "https://englandrugby.com/follow/news-and-media/rfu-guinness-renew-partnership"
   },
   {
    "listed": "2026-11-17",
@@ -93689,7 +93707,10 @@
    "ptier": "Lead partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-17"
+   "verified": "2026-11-17",
+   "since": 1995,
+   "sinceBasis": "news",
+   "sinceUrl": "https://news.virginmediao2.co.uk/?p=2107"
   },
   {
    "listed": "2026-11-17",
@@ -184143,7 +184164,10 @@
    "ptier": "Official club partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "since": 1992,
+   "sinceBasis": "news",
+   "sinceUrl": "https://www.liverpoolfc.com/news/lfc-and-carlsberg-celebrate-incredible-10-year-renewal-0"
   },
   {
    "listed": "2026-11-16",
@@ -184158,7 +184182,10 @@
    "ptier": "Official club partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "since": 2020,
+   "sinceBasis": "news",
+   "sinceUrl": "https://insideworldfootball.com/2020/10/19/expedia-take-liverpools-sleeve-focus-post-covid-journey"
   },
   {
    "listed": "2026-11-16",
@@ -184173,7 +184200,10 @@
    "ptier": "Official club partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "since": 2018,
+   "sinceBasis": "news",
+   "sinceUrl": "https://www.axa.com/press/press-releases/liverpool-fc-and-axa-celebrate-continued-growth-of-its-successful-partnership-until-2029"
   },
   {
    "listed": "2026-11-16",
@@ -184188,7 +184218,10 @@
    "ptier": "Official club partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "since": 2010,
+   "sinceBasis": "news",
+   "sinceUrl": "https://www.liverpoolfc.com/news/announcements/303010-liverpool-fc-standard-chartered-announcement"
   },
   {
    "listed": "2026-11-16",
@@ -236133,7 +236166,10 @@
    "ptier": "Title partner",
    "checked": "2026-11-19",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "rights",
+   "since": 2021,
+   "sinceBasis": "news",
+   "sinceUrl": "https://www.timeslive.co.za/motoring/motorsport/2022-02-09-oracle-signs-f1-title-sponsorship-deal-with-red-bull/"
   },
   {
    "date": "2026-03-05",
@@ -368736,6 +368772,26 @@
    "sinceBasis": "wayback",
    "ended": 2024,
    "ends": 2024,
+   "source": "wayback"
+  },
+  {
+   "deal": "T.M. Lewin × British & Irish Lions",
+   "sport": "Rugby union",
+   "type": "Official partner",
+   "region": "Global",
+   "market": "UK & Ireland",
+   "summary": "On the British & Irish Lions partners page in 2021 (archived snapshots), gone by 2022.",
+   "url": "https://web.archive.org/web/20211020020048/https://lionsrugby.com/partners",
+   "tier": "Official partner",
+   "ptier": "Official partner",
+   "status": "Ended",
+   "conf": "Confirmed",
+   "month": "2021-10",
+   "since": 2021,
+   "sinceBasis": "wayback",
+   "ended": 2021,
+   "ends": 2021,
+   "verified": "2026-11-20",
    "source": "wayback"
   }
  ]
