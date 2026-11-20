@@ -204,7 +204,7 @@ def main():
 
         page = tpl
         page = page.replace('<meta charset="utf-8">', f'<meta charset="utf-8">\n<base href="../">', 1)
-        page = re.sub(r"<title>.*?</title>", lambda m: f"<title>{esc(title)} | Sport Sport Sport</title>", page, count=1)
+        page = re.sub(r"<title>.*?</title>", lambda m: f"<title>{esc(title)} | Parade</title>", page, count=1)
         page = re.sub(r'<meta name="description" content=".*?">', lambda m: f'<meta name="description" content="{esc(desc)}">\n<link rel="canonical" href="{url}">\n<meta property="og:title" content="{esc(title)}">\n<meta property="og:description" content="{esc(desc)}">\n<meta property="og:url" content="{url}">\n<script type="application/ld+json">{jsonld}</script>', page, count=1)
         page = page.replace("<body>", f'<body data-id="{esc(slug)}">', 1)
         page = page.replace('<span id="crName" style="color:var(--ink)">Loading</span>', f'<span id="crName" style="color:var(--ink)">{esc(name)}</span>')

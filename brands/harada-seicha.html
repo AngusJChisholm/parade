@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <base href="../">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Harada Seicha sponsorships and sport partners | Sport Sport Sport</title>
+<title>Harada Seicha sponsorships and sport partners | Parade</title>
 <meta name="description" content="Harada Seicha sponsorships: 1 filed across Football. Partners include Shimizu S-Pulse.">
 <link rel="canonical" href="https://sportsportsport.com.au/brands/harada-seicha">
 <meta property="og:title" content="Harada Seicha sponsorships and sport partners">
@@ -13,7 +13,7 @@
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "Harada Seicha", "url": "https://sportsportsport.com.au/brands/harada-seicha"}</script>
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
-<meta property="og:site_name" content="Sport Sport Sport">
+<meta property="og:site_name" content="Parade">
 <meta property="og:image" content="https://sportsportsport.com.au/assets/og-image.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -104,7 +104,7 @@
 </head>
 <body data-id="harada-seicha">
 <header class="v2"><div class="wrap hd">
-<a href="./" class="logo brand-logo" aria-label="Sport Sport Sport home"><img src="assets/wordmark-black.svg" alt="Sport Sport Sport" width="56" height="42"></a>
+<a href="./" class="logo brand-logo" aria-label="Parade home"><img src="assets/wordmark-black.svg" alt="Parade" width="136" height="24"></a>
 <nav class="nav" id="nav" aria-label="Main"><a href="partnerships" data-nav="partnerships">Partnerships</a><a href="brands" data-nav="brands">Brands</a><a href="properties" data-nav="properties">Properties</a><a href="news" data-nav="news">News</a><div class="dd"><a href="insights" data-nav="insights" aria-haspopup="true">Insights</a><div class="dd-m"><a href="categories">Categories</a><a href="leagues">League maps</a><a href="compare">Compare</a></div></div></nav>
 <div class="hd-r"><button type="button" class="hs-b" id="hsB" aria-label="Search brands and properties" aria-expanded="false" aria-controls="hs"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg><span class="hs-t">Search partnerships, brands &amp; properties</span><kbd>/</kbd></button><a class="pro-b" href="pro" data-nav="pro">Partnership Pro</a></div>
 <button type="button" class="menu" id="menu" aria-expanded="false" aria-controls="nav">Menu</button>
@@ -152,9 +152,9 @@
 </main>
 
 <footer class="v2"><div class="wrap">
-<div class="ft"><a href="./" class="logo brand-logo" aria-label="Sport Sport Sport home"><img src="assets/wordmark-black.svg" alt="Sport Sport Sport" width="80" height="60"></a>
+<div class="ft"><a href="./" class="logo brand-logo" aria-label="Parade home"><img src="assets/wordmark-black.svg" alt="Parade" width="181" height="32"></a>
 <nav class="ft-l" aria-label="Footer"><div class="ft-c"><span>Database</span><a href="partnerships">Partnerships</a><a href="brands">Brands</a><a href="properties">Properties</a><a href="news">News</a></div><div class="ft-c"><span>Insights</span><a href="insights">Insights</a><a href="categories">Categories</a><a href="leagues">League maps</a><a href="compare">Compare</a></div><div class="ft-c"><span>Follow</span><a href="https://www.linkedin.com/company/sportsportsport/" target="_blank" rel="noopener">LinkedIn</a><a href="https://www.instagram.com/sportsportsport.hq/" target="_blank" rel="noopener">Instagram</a></div></nav></div>
-<div class="ft-b"><span>Filed in Melbourne. © <span id="yr">2026</span> <span data-brand="name">Sport Sport Sport</span></span></div>
+<div class="ft-b"><span>Filed in Melbourne. © <span id="yr">2026</span> <span data-brand="name">Parade</span></span></div>
 </div></footer>
 <div class="tk" id="tk" aria-label="Latest partnerships" hidden></div>
 
@@ -194,7 +194,7 @@ Promise.all([fetch("deals.json",{cache:"no-cache"}).then(r=>r.json()),L.load()])
   const endOf=d=>typeof d.ends==="number"?d.ends:+d.ends||0;
   const dfmt=s=>s?new Date(s+"T00:00:00").toLocaleDateString("en-AU",{day:"numeric",month:"short",year:"numeric"}):"";
 
-  if(!document.body.dataset.id)document.title=`${e.name} partnerships | Sport Sport Sport`;
+  if(!document.body.dataset.id)document.title=`${e.name} partnerships | Parade`;
   $("crKind").textContent=isP?"Properties":"Brands";$("crKind").href=isP?"properties":"brands";
   $("crName").textContent=e.name;
   $("kind").innerHTML=(isP?["Property",raw.ptype||e.ptype,sports.length===1?sports[0]:""]:["Brand",raw.cat||e.cat?`<a href="categories?c=${encodeURIComponent(raw.cat||e.cat)}">${esc(raw.cat||e.cat)}</a>`:""]).filter(Boolean).map(x=>/^</.test(x)?x:esc(x)).concat(regions.slice(0,2).map(esc)).join(" · ");

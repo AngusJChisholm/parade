@@ -59,7 +59,7 @@ S.load().then(D=>{
     const QUICK=["Premier League","NFL","NBA","LaLiga","IPL","Formula 1","MLB","Serie A","Bundesliga","NHL","MLS","AFL"];
     const quick=QUICK.filter(n=>leagues.some(l=>l.name===n));
     $("lgQuick").innerHTML=quick.map(n=>`<button type="button" data-lg="${esc(n)}" class="${n===st.league?"on":""}">${esc(n)}</button>`).join("");
-    $("crLg").textContent=lg.name;document.title=`${lg.name} league map | Sport Sport Sport`;
+    $("crLg").textContent=lg.name;document.title=`${lg.name} league map | Parade`;
     const mk=new Map();clubs.forEach(c=>(c.markets||new Set()).forEach(m=>mk.set(m,(mk.get(m)||0)+1)));const mkt=[...mk].sort((a,b)=>b[1]-a[1])[0];
     $("lgLbl").textContent=`League map · ${mkt?(mkt[0]==="ANZ"?"Australia & NZ":mkt[0]):lg.sport||""}`;
     $("lgSub").textContent=`Every ${lg.name} club against every sponsor category, drawn from each club's partners on file.`;

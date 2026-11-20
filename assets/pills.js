@@ -1,4 +1,4 @@
-/* Sport Sport Sport - filter bars.
+/* Parade - filter bars.
    Every filter area on the site gets the Partnerships page layout: search box with the result count beside it,
    then one even row of dropdowns. Rows of filter buttons (.pills, .cs-t, button .chips) are shown as dropdowns
    instead. The buttons stay in the page, hidden, and picking an option clicks the matching button, so each page's

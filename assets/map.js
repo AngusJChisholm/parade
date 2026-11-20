@@ -44,7 +44,7 @@ S.load().then(D=>{
     // Brands at 3+ clubs get the volt marker.
     const hot=e=>(count.get(grp(e))||0)>=3;
     const n=clubs.length;
-    document.title=`Who backs who in the ${lg.name} | Sport Sport Sport`;
+    document.title=`Who backs who in the ${lg.name} | Parade`;
     $("ph").innerHTML=`Who backs who<br>in the <span class="v">${esc(lg.name)}.</span>`;
     $("lgSel").innerHTML=S.lgOptions(leagues,st.league,lgCounts,false);$("lgSel").value=st.league;
     const filled=k=>clubs.filter(c=>grid.get(c.e.slug)[k].size).length;

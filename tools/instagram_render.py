@@ -34,7 +34,7 @@ def wordmark(colour):
     name = "wordmark-black.svg" if colour == "black" else "wordmark-white.svg"
     svg = (ROOT / "assets" / name).read_text()
     svg = re.sub(r"<\?xml[^>]*\?>", "", svg).strip()
-    return svg.replace("<svg ", '<svg class="wm" aria-label="Sport Sport Sport" role="img" ', 1)
+    return svg.replace("<svg ", '<svg class="wm" aria-label="Parade" role="img" ', 1)
 
 
 BASE_CSS = """

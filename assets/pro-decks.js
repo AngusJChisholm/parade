@@ -665,7 +665,7 @@ const script=src=>vendor[src]||(vendor[src]=new Promise((res,rej)=>{const s=docu
 const pptxLib=()=>script("assets/vendor/pptxgen.bundle.js").then(()=>window.PptxGenJS);
 const hx=c=>String(c||"#000").replace("#","").toUpperCase().slice(0,6);
 async function pptxFrom(slides,name){
-  const P=await pptxLib();const pp=new P();pp.layout="LAYOUT_WIDE";pp.author="Sport Sport Sport Pro";pp.title=name;
+  const P=await pptxLib();const pp=new P();pp.layout="LAYOUT_WIDE";pp.author="Partnership Pro";pp.title=name;
   const k=1/144; /* 1920 px across = 13.333 in */
   slides.forEach(sl=>{
     const s=pp.addSlide();s.background={color:hx(sl.bg||"#FFFFFF")};

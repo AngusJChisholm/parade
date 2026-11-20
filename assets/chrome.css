@@ -4,7 +4,7 @@
    three-column footer, live ticker fixed to the bottom. Logos never sit in boxes. */
 /* ===== DESIGN TOKENS: the single source for the whole site =====
    Every page loads this file, so tokens live here and nowhere else. Documented in the
-   "Sport Sport Sport Design System" artifact (Web section). Don't redefine these in page CSS. */
+   "Parade Design System" artifact (Web section). Don't redefine these in page CSS. */
 @font-face{font-family:"ArchivoV";src:url("fonts/Archivo[wdth,wght].ttf") format("truetype");font-weight:100 900;font-stretch:62% 125%;font-display:swap}
 :root{
   color-scheme:light;
@@ -34,7 +34,7 @@ header.v2 a{color:inherit;text-decoration:none}
 header.v2 .wrap{max-width:1440px;margin:0 auto;padding-inline:var(--pad)}
 header.v2 .hd{display:flex;align-items:center;gap:32px;height:76px;position:relative}
 header.v2 .logo{display:block;flex:none}
-header.v2 .logo img{height:38px;width:auto;display:block}
+header.v2 .logo img{height:24px;width:auto;display:block}
 header.v2 .nav{display:flex;align-items:center;gap:26px}
 header.v2 .nav a{font-weight:800;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#111;padding:6px 0}
 header.v2 .nav a:hover,header.v2 .nav a.on{color:#000;box-shadow:inset 0 -3px 0 #111}
@@ -78,7 +78,7 @@ header.v2 .hs-h a{font-weight:800;letter-spacing:.14em;text-transform:uppercase;
   header.v2 .nav.open a{padding:14px 0;border-bottom:1px solid var(--line);font-size:14px;color:#000;box-shadow:none}
   header.v2 .nav.open .dd{display:block;height:auto}
   header.v2 .nav.open .dd-m{display:block;position:static;border:0;box-shadow:none;border-radius:0;padding:0 0 0 16px;min-width:0}}
-@media (max-width:560px){header.v2 .hd{gap:10px;height:64px}header.v2 .logo img{height:32px}header.v2 .hd-r{gap:8px}header.v2 .nav.open{top:64px}
+@media (max-width:560px){header.v2 .hd{gap:10px;height:64px}header.v2 .logo img{height:22px}header.v2 .hd-r{gap:8px}header.v2 .nav.open{top:64px}
   header.v2 .hs-b{width:44px;height:44px}header.v2 .pro-b{padding:0 12px;font-size:10px;letter-spacing:.1em}}
 
 /* Footer */
@@ -86,7 +86,7 @@ footer.v2{border-top:1px solid var(--line);padding-block:clamp(40px,5vw,72px) 28
 footer.v2 a{color:inherit;text-decoration:none}
 footer.v2 .wrap{max-width:1440px;margin:0 auto;padding-inline:var(--pad)}
 footer.v2 .ft{display:flex;justify-content:space-between;gap:40px;flex-wrap:wrap;align-items:flex-start}
-footer.v2 .logo img{height:60px;width:auto;display:block}
+footer.v2 .logo img{height:32px;width:auto;display:block}
 footer.v2 .ft-l{display:flex;gap:clamp(32px,5vw,72px);flex-wrap:wrap}
 footer.v2 .ft-c{display:flex;flex-direction:column;gap:12px}
 footer.v2 .ft-c span{font-weight:800;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-3)}

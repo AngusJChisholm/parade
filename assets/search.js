@@ -19,7 +19,7 @@ function run(){
   if(!D)return;
   S.setQs({q:st.q,t:st.tab!=="all"&&st.tab});
   $("sH").textContent=st.q?`Results for “${st.q}”.`:"Search.";
-  document.title=st.q?`${st.q} | Search | Sport Sport Sport`:"Search | Sport Sport Sport";
+  document.title=st.q?`${st.q} | Search | Parade`:"Search | Parade";
   const v=norm(st.q);
   if(v.length<2){$("sTabs").innerHTML="";$("sCount").textContent="";$("sRef").hidden=true;
     $("sRes").innerHTML=`<p class="i3-sub">Type a brand, club, league, event or sport. Try <a class="more" href="search?q=afl">AFL</a> <a class="more" href="search?q=nike">Nike</a> <a class="more" href="search?q=naming">naming rights</a>.</p>`;return}

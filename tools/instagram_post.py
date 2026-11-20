@@ -1,4 +1,4 @@
-"""Sport Sport Sport Instagram autopilot. Runs every 15 minutes from GitHub Actions.
+"""Parade Instagram autopilot. Runs every 15 minutes from GitHub Actions.
 
     python3 tools/instagram_post.py plan     # prints what this run needs to do
     python3 tools/instagram_post.py render   # renders today's images, commits and pushes them

@@ -15,7 +15,7 @@ S.load().then(D=>{
 }).catch(()=>{$("view").innerHTML=`<p class="wrap note">Couldn't load categories. Refresh to try again.</p>`});
 
 function index(byCat){
-  document.title="Categories | Sport Sport Sport";
+  document.title="Categories | Parade";
   const now=new Date(),doy=(now-new Date(yr,0,1))/864e5;
   const st={m:"All",sort:"deals"};
   const inM=d=>st.m==="All"||S.mkt(d)===st.m;
@@ -61,7 +61,7 @@ function index(byCat){
 }
 function D_TOTAL(byCat){let last="";byCat.forEach(g=>g.deals.forEach(d=>{const k=d.added||d.date||"";if(k>last)last=k}));return {last}}
 function detail(c,g,q){
-  document.title=`${c} sponsors | Sport Sport Sport`;
+  document.title=`${c} sponsors | Parade`;
   const st={sport:q.get("sport")||"All",region:q.get("region")||"All"};
   const deals=[...g.deals].sort((a,b)=>S.sortKey(b).localeCompare(S.sortKey(a)));
   const sports=(()=>{const m=new Map();deals.forEach(d=>m.set(d.sport,(m.get(d.sport)||0)+1));return [...m.entries()].sort((a,b)=>b[1]-a[1]).map(x=>x[0])})();

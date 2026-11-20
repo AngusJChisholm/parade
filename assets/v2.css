@@ -23,7 +23,7 @@ body{margin:0;font-family:var(--font);font-weight:500;color:var(--ink);backgroun
 /* Header */
 header.v2{position:sticky;top:0;z-index:20;background:#fff;border-bottom:1px solid var(--line)}
 header.v2 .hd{display:flex;align-items:center;gap:32px;height:72px}
-header.v2 .logo img{height:38px;width:auto;display:block}
+header.v2 .logo img{height:24px;width:auto;display:block}
 header.v2 .nav{display:flex;gap:26px;margin-left:auto}
 header.v2 .nav a{font-weight:800;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3);padding:6px 0}
 header.v2 .nav a:hover,header.v2 .nav a.on{color:#000;box-shadow:inset 0 -3px 0 var(--volt)}
@@ -40,7 +40,7 @@ header.v2 .menu{display:none;margin-left:auto;background:none;border:1px solid #
 @media (max-width:980px){header.v2 .nav{display:none}header.v2 .menu{display:block}header.v2 .hd-r{margin-left:auto}
   header.v2 .nav.open{display:flex;position:absolute;left:0;right:0;top:72px;flex-direction:column;gap:0;background:#fff;border-bottom:1px solid var(--line);padding:4px var(--pad) 16px}
   header.v2 .nav.open a{padding:14px 0;border-bottom:1px solid var(--line);font-size:14px;color:#000;box-shadow:none}}
-@media (max-width:560px){header.v2 .hd{gap:12px;height:64px}header.v2 .hd-r .btn2{padding:10px 12px;font-size:11px}header.v2 .nav.open{top:64px}header.v2 .logo img{height:32px}}
+@media (max-width:560px){header.v2 .hd{gap:12px;height:64px}header.v2 .hd-r .btn2{padding:10px 12px;font-size:11px}header.v2 .nav.open{top:64px}header.v2 .logo img{height:22px}}
 
 /* Hero */
 .h2x{padding-block:clamp(28px,4vw,56px) clamp(24px,3vw,44px);border-bottom:1px solid var(--line)}

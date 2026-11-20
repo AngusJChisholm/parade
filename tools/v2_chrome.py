@@ -21,7 +21,7 @@ def header(p):
     insights = (f'<div class="dd"><a href="{p}insights" data-nav="insights" aria-haspopup="true">Insights</a>'
                 f'<div class="dd-m"><a href="{p}categories">Categories</a><a href="{p}leagues">League maps</a><a href="{p}compare">Compare</a></div></div>')
     return f"""<header class="v2"><div class="wrap hd">
-<a href="{p or './'}" class="logo brand-logo" aria-label="Sport Sport Sport home"><img src="{p}assets/wordmark-black.svg" alt="Sport Sport Sport" width="56" height="42"></a>
+<a href="{p or './'}" class="logo brand-logo" aria-label="Parade home"><img src="{p}assets/wordmark-black.svg" alt="Parade" width="136" height="24"></a>
 <nav class="nav" id="nav" aria-label="Main">{nav}{insights}</nav>
 <div class="hd-r"><button type="button" class="hs-b" id="hsB" aria-label="Search brands and properties" aria-expanded="false" aria-controls="hs">{SEARCH_ICON}<span class="hs-t">Search partnerships, brands &amp; properties</span><kbd>/</kbd></button><a class="pro-b" href="{p}pro" data-nav="pro">Partnership Pro</a></div>
 <button type="button" class="menu" id="menu" aria-expanded="false" aria-controls="nav">Menu</button>
@@ -37,9 +37,9 @@ def footer(p, year='<span id="yr">2026</span>'):
             + col("Insights", [("insights", "Insights"), ("categories", "Categories"), ("leagues", "League maps"), ("compare", "Compare")])
             + col("Follow", [("https://www.linkedin.com/company/sportsportsport/", "LinkedIn"), ("https://www.instagram.com/sportsportsport.hq/", "Instagram")]))
     return f"""<footer class="v2"><div class="wrap">
-<div class="ft"><a href="{p or './'}" class="logo brand-logo" aria-label="Sport Sport Sport home"><img src="{p}assets/wordmark-black.svg" alt="Sport Sport Sport" width="80" height="60"></a>
+<div class="ft"><a href="{p or './'}" class="logo brand-logo" aria-label="Parade home"><img src="{p}assets/wordmark-black.svg" alt="Parade" width="181" height="32"></a>
 <nav class="ft-l" aria-label="Footer">{cols}</nav></div>
-<div class="ft-b"><span>Filed in Melbourne. © {year} <span data-brand="name">Sport Sport Sport</span></span></div>
+<div class="ft-b"><span>Filed in Melbourne. © {year} <span data-brand="name">Parade</span></span></div>
 </div></footer>
 <div class="tk" id="tk" aria-label="Latest partnerships" hidden></div>"""
 

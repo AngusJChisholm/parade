@@ -1,4 +1,4 @@
-/* SSS Pro (pro.html): private working tool built on the deal archive.
+/* Partnership Pro (pro.html): private working tool built on the deal archive.
    Tabs: Pitch decks (assets/pro-decks.js), Scouting (Match Score suggestions, both ways), Brand finder, Category availability (open/taken by category and state), Renewal radar, Property report (partners, category gaps, prospects, peer benchmark), Watchlist, Reports (partnership report for any brand or property, saved as a PDF).
    Renewal years come in three strengths:
      Confirmed  - the announcement states when the deal ends
@@ -501,7 +501,7 @@ const MKT={b2c:"Consumer",b2b:"Business",both:"Consumer and business"};
 const PT={club:"club",body:"league or governing body",event:"event",national:"national team",athlete:"athlete",venue:"venue"};
 const yrs=(d)=>{const a=dated(d)?yearOf(d):"";const b=d.ended&&d.ended!==true?d.ended:"";return a&&b?`${a}-${b}`:a?`From ${a}`:b?`To ${b}`:"Years not confirmed"};
 const rpHead=(n,t,sub)=>`<div class="rp-h"><span class="rp-n">${String(n).padStart(2,"0")}</span><div><h2>${esc(t)}</h2>${sub?`<p>${sub}</p>`:""}</div></div>`;
-const rpFoot=(name)=>`<div class="rp-f"><img src="assets/wordmark-black.svg" alt="" width="28" height="21"><span>SSS Pro · ${esc(name)} partnership report</span><span>${NOW.toLocaleDateString("en-AU",{day:"numeric",month:"long",year:"numeric"})}</span></div>`;
+const rpFoot=(name)=>`<div class="rp-f"><img src="assets/wordmark-black.svg" alt="" width="102" height="18"><span>Partnership Pro · ${esc(name)} partnership report</span><span>${NOW.toLocaleDateString("en-AU",{day:"numeric",month:"long",year:"numeric"})}</span></div>`;
 const why=r=>`<ul class="mx-why">${(r.w||[]).map(w=>`<li>${esc(w)}</li>`).join("")}</ul>`;
 const verdict=r=>r.k==="Call now"?"Call now":r.x>=70?"Worth a call":r.x>=55?"Check first":"Long shot";
 
@@ -746,7 +746,7 @@ function brandKey(org,curL,pastL,due,ms,sub){
     curL.length?`${major} of ${curL.length} live partnerships are naming, principal or major level: ${major/Math.max(1,curL.length)>=.5?"a brand that buys big, headline positions":"mostly official-level partnerships"}.`:"",
     due.length?`${due.length} partnership${due.length===1?"":"s"} up for renewal by ${yr+2}: ${esc(due.slice(0,3).map(x=>x.d.deal).join("; "))}.`:`Nothing up for renewal before ${yr+3} on what's been announced.`,
     pastL.length?`${pastL.length} past partner${pastL.length===1?"":"s"}, most recently ${esc(pastL[0].p.name)}.`:"",
-    top?`Best new fit on SSS Pro scouting: ${esc(top.n)} (${top.x}).`:""]);
+    top?`Best new fit on Partnership Pro scouting: ${esc(top.n)} (${top.x}).`:""]);
 }
 
 function propKey(org,P,pastL,ms){
@@ -763,7 +763,7 @@ function propKey(org,P,pastL,ms){
     P.due.length?`${P.due.length} partnership${P.due.length===1?"":"s"} (${share(P.due.length,P.partners.length)}% of the portfolio) up for renewal by ${yr+2}.`:`Nothing up for renewal before ${yr+3} on what's been announced.`,
     oldest?`Longest-standing partner: ${esc(oldest.n)}, since ${oldest.s}.`:"",
     pastL.length?`${pastL.length} past partner${pastL.length===1?"":"s"} in the database.`:"",
-    top?`Best new fit on SSS Pro scouting: ${esc(top.n)} (${top.x}).`:""]);
+    top?`Best new fit on Partnership Pro scouting: ${esc(top.n)} (${top.x}).`:""]);
 }
 
 // Turns a list of sections into the cover and numbered A4 pages.
@@ -771,7 +771,7 @@ function rpBuild(e,cover,secs,O){
   O=O||{};const s=secs.filter(x=>x&&rpOpt.on(O,x.id));
   if(!s.length&&!rpOpt.on(O,"cover"))return `<p class="note">No pages ticked. Tick at least one page above to build the report.</p>`;
   return `${!rpOpt.on(O,"cover")?"":`
-  <section class="rp-pg rp-cover"><div class="rp-cw"><img src="assets/wordmark-black.svg" alt="Sport Sport Sport" width="96" height="72"><span class="rp-k">SSS Pro · Partnership report</span></div>
+  <section class="rp-pg rp-cover"><div class="rp-cw"><img src="assets/wordmark-black.svg" alt="Parade" width="226" height="40"><span class="rp-k">Partnership Pro · Partnership report</span></div>
     <div class="rp-ct">${L.mark(e,{px:96})}<h1 class="disp">${esc(e.name)}</h1><p class="rp-cs">${cover}</p></div>
     <ol class="rp-toc">${s.map(x=>`<li${x.blank?' class="rp-tb"':""}>${esc(x.t)}</li>`).join("")}</ol>
     <div class="rp-cb"><span>Prepared ${NOW.toLocaleDateString("en-AU",{day:"numeric",month:"long",year:"numeric"})}</span><span>Public information only. Built from the SSS partnerships database.</span></div></section>`}
@@ -825,13 +825,13 @@ function brandReport(org,mx){
 
   Object.assign(historyPage(mine.map(x=>x.d),[...curL.map(x=>({e:x.p,d:x.d,live:true})),...pastL.map(x=>({e:x.p,d:x.d,live:false}))],"partner"),{id:"history"}),
 
-  {id:"pitch",t:"Who to pitch",sub:"The five best SSS Pro match suggestions, with why each fits",body:`
+  {id:"pitch",t:"Who to pitch",sub:"The five best Partnership Pro match suggestions, with why each fits",body:`
     ${top.length?top.map((r,i)=>{const o=D.orgs.get(r.p);return `<div class="rp-m"><span class="rp-mi">${i+1}</span><div class="rp-mb"><div class="rp-mh">${o?logo(o.e,40):""}<div><b>${esc(r.n)}</b><span class="mute-l">${esc(r.s)} · ${esc(r.r)} reach${r.v?" · Verified":""}</span></div><span class="rp-sc">${r.x}</span><span class="basis ${bandCls(r.k)}">${esc(verdict(r))}</span></div>${why(r)}</div></div>`}).join(""):`<p class="note-s">No suggestions above 40 yet. This brand needs more partnerships in the database.</p>`}
     ${ent.length?`<div class="h3">Ways into Australia and New Zealand</div><table class="t rp-t"><tbody>${ent.slice(0,5).map(r=>`<tr><td><b>${esc(r.n)}</b><br><span class="mute-l">${esc(r.s)} · ${esc(r.r)}</span></td><td class="d">${r.x}</td><td>${why(r)}</td></tr>`).join("")}</tbody></table>`:""}`},
 
   {id:"renewals",t:"Renewals and more suggestions",sub:`Partnerships ending ${yr}-${yr+2}, then suggestions 6 to 12`,body:`
     ${due.length?`<table class="t rp-t"><thead><tr><th>Ends</th><th>Basis</th><th>Partnership</th><th>Type</th></tr></thead><tbody>${due.map(({d,r})=>`<tr><td><span class="yr">${r.end}</span></td><td>${basisTag(r)}</td><td>${esc(d.deal)}</td><td>${esc(d.tier||"")}</td></tr>`).join("")}</tbody></table>`:`<p class="note-s">Nothing due in the next two years on what's been announced.</p>`}
-    ${more.length?`<div class="h3">More SSS Pro match suggestions</div><table class="t rp-t"><thead><tr><th>#</th><th>Property</th><th>Score</th><th>Verdict</th><th>Main reason</th></tr></thead><tbody>${more.map((r,i)=>`<tr><td class="d">${i+6}</td><td><b>${esc(r.n)}</b><br><span class="mute-l">${esc(r.s)}</span></td><td class="d">${r.x}</td><td>${esc(verdict(r))}</td><td>${esc((r.w||[])[0]||"")}</td></tr>`).join("")}</tbody></table>`:""}`},
+    ${more.length?`<div class="h3">More Partnership Pro match suggestions</div><table class="t rp-t"><thead><tr><th>#</th><th>Property</th><th>Score</th><th>Verdict</th><th>Main reason</th></tr></thead><tbody>${more.map((r,i)=>`<tr><td class="d">${i+6}</td><td><b>${esc(r.n)}</b><br><span class="mute-l">${esc(r.s)}</span></td><td class="d">${r.x}</td><td>${esc(verdict(r))}</td><td>${esc((r.w||[])[0]||"")}</td></tr>`).join("")}</tbody></table>`:""}`},
 
   {id:"holds",t:"Who holds the category",sub:`${esc(cat)} partners at the properties ${esc(e.name)} should be pitching`,body:`
     ${rivals.length?`<div class="rp-riv">${rivals.map(x=>`<div>${logo(x.b,36)}<b>${esc(x.b.name)}</b><span>${x.n} of ${holds.length} targets</span></div>`).join("")}</div>`:""}
@@ -842,7 +842,7 @@ function brandReport(org,mx){
 
   {id:"sources",t:"Sources",sub:"Official announcements behind the partnerships in this report",body:`
     <ol class="rp-src">${pr.psrc?`<li>Profile: <a href="${esc(pr.psrc)}">${esc(pr.psrc)}</a></li>`:""}${src.map(d=>`<li>${esc(d.deal)}: <a href="${esc(d.url)}">${esc(d.url)}</a></li>`).join("")}</ol>
-    <p class="note-s">How it's built: every partnership is checked against an official source (the club, league or brand's own site or post) before it goes in the SSS database. Renewal years are Confirmed (end date announced), From term (length announced) or Estimate (typical term for that partnership type). Market figures cover partnerships announced in Australia and New Zealand. Suggestions use SSS Pro Match Scores, rebuilt ${esc(MX.generated)}.</p>`},
+    <p class="note-s">How it's built: every partnership is checked against an official source (the club, league or brand's own site or post) before it goes in the SSS database. Renewal years are Confirmed (end date announced), From term (length announced) or Estimate (typical term for that partnership type). Market figures cover partnerships announced in Australia and New Zealand. Suggestions use Partnership Pro Match Scores, rebuilt ${esc(MX.generated)}.</p>`},
 
   Object.assign(notesPage(N,vals),{id:"notes"})],O);
 }
@@ -877,7 +877,7 @@ function propReport(org,mx){
 
   Object.assign(historyPage(org.deals.filter(x=>x.side==="p").map(x=>x.d),[...P.partners.map(x=>({e:x.b,d:x.d,live:true})),...pastL.map(x=>({e:x.b,d:x.d,live:false}))],"partner"),{id:"history"}),
 
-  {id:"pitch",t:"Who to pitch",sub:"The five best brands from SSS Pro scouting, with why each fits",body:`
+  {id:"pitch",t:"Who to pitch",sub:"The five best brands from Partnership Pro scouting, with why each fits",body:`
     ${top.length?top.map((r,i)=>{const o=D.orgs.get(r.b);return `<div class="rp-m"><span class="rp-mi">${i+1}</span><div class="rp-mb"><div class="rp-mh">${o?logo(o.e,40):""}<div><b>${esc(r.n)}</b><span class="mute-l">${esc(r.c||"")}${r.u?` · ${esc(r.u)}`:""}</span></div><span class="rp-sc">${r.x}</span><span class="basis ${bandCls(r.k)}">${esc(verdict(r))}</span></div>${why(r)}</div></div>`}).join(""):`<p class="note-s">No suggestions above 40 yet.</p>`}
     ${more.length?`<div class="h3">More suggestions</div><table class="t rp-t"><tbody>${more.map((r,i)=>`<tr><td class="d">${i+6}</td><td><b>${esc(r.n)}</b><br><span class="mute-l">${esc(r.c||"")}</span></td><td class="d">${r.x}</td><td>${esc((r.w||[])[0]||"")}</td></tr>`).join("")}</tbody></table>`:""}
     ${ent.length?`<div class="h3">International brands that could come in</div><table class="t rp-t"><tbody>${ent.slice(0,5).map(r=>`<tr><td><b>${esc(r.n)}</b><br><span class="mute-l">${esc(r.c||"")}</span></td><td class="d">${r.x}</td><td>${esc((r.w||[])[0]||"")}</td></tr>`).join("")}</tbody></table>`:""}`},
@@ -894,7 +894,7 @@ function propReport(org,mx){
 
   {id:"sources",t:"Sources",sub:"Official announcements behind the partnerships in this report",body:`
     <ol class="rp-src">${src.map(d=>`<li>${esc(d.deal)}: <a href="${esc(d.url)}">${esc(d.url)}</a></li>`).join("")}</ol>
-    <p class="note-s">How it's built: every partnership is checked against an official source before it goes in the SSS database. "Live" means the partnership's end year hasn't passed, it was announced in the last three years, or the brand is on the current partners page. Market figures cover partnerships announced in Australia and New Zealand. Suggestions use SSS Pro Match Scores, rebuilt ${esc(MX.generated)}.</p>`},
+    <p class="note-s">How it's built: every partnership is checked against an official source before it goes in the SSS database. "Live" means the partnership's end year hasn't passed, it was announced in the last three years, or the brand is on the current partners page. Market figures cover partnerships announced in Australia and New Zealand. Suggestions use Partnership Pro Match Scores, rebuilt ${esc(MX.generated)}.</p>`},
 
   Object.assign(notesPage(N,vals),{id:"notes"})],O);
 }
