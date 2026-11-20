@@ -21,8 +21,8 @@
 <link rel="stylesheet" href="assets/follow.css?v=2">
 <link rel="stylesheet" href="assets/v3.css?v=4">
 <script src="assets/brand.js?v=1"></script>
-<link rel="stylesheet" href="assets/chrome.css?v=6">
-<script>try{if(!sessionStorage.getItem("pd-opened")&&!matchMedia("(prefers-reduced-motion: reduce)").matches)document.documentElement.classList.add("pd-arrive")}catch(e){}</script>
+<link rel="stylesheet" href="assets/chrome.css?v=7">
+<script>try{if((!sessionStorage.getItem("pd-opened")||sessionStorage.getItem("pd-flaps")==="1")&&!matchMedia("(prefers-reduced-motion: reduce)").matches)document.documentElement.classList.add("pd-arrive")}catch(e){}</script>
 </head>
 <body>
 <header class="v2"><div class="wrap hd">
@@ -170,6 +170,6 @@ Promise.all([S.load(),feats]).then(([d,Fj])=>{
 }).catch(()=>{$("stamp").innerHTML="<i></i>The partnerships file didn't load. Refresh to try again."});
 })();
 </script>
-<script src="assets/chrome.js?v=6"></script>
+<script src="assets/chrome.js?v=7"></script>
 </body>
 </html>

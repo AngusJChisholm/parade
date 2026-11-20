@@ -132,7 +132,7 @@ header.v2 .hs-r .hs-g{display:block;padding:10px 16px 4px;font-weight:800;font-s
 header.v2 .hs-r a.hs-all{margin-top:6px;background:#F4F4F1;font-weight:800}
 header.v2 .hs-r a.hs-all:hover{background:var(--volt)}
 
-/* Opening (first open only): two volt flaps sit shut with the Parade wordmark stamped across the seam,
+/* Opening (first open, and clicking into Partnership Pro): two volt flaps sit shut with the Parade wordmark stamped across the seam,
    then open on the page (same move as Riversdale Kitchen). Behaviour in chrome.js. */
 .pd-flaps{position:fixed;inset:0;z-index:1000;pointer-events:none}
 .pd-flap{position:absolute;left:0;right:0;height:50.5%;background:#D2FF3C;transition:transform .5s cubic-bezier(.7,0,.3,1)}

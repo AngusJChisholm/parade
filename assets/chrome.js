@@ -65,24 +65,40 @@
   document.addEventListener("keydown",e=>{if(e.key==="/"&&!/input|textarea|select/i.test((e.target.tagName||""))){e.preventDefault();open(true)}});
 })();
 
-/* Opening: the first time the site is opened (per browser tab), two volt flaps sit shut with the Parade
-   wordmark stamped across the seam, then open on the page. Same move as Riversdale Kitchen, once only.
-   The <head> of each page adds html.pd-arrive on that first open so the page never flashes. */
+/* Opening flaps: two volt flaps sit shut with the Parade wordmark stamped across the seam, then open on the page.
+   Same move as Riversdale Kitchen. Plays twice only: the first time the site is opened (per browser tab), and
+   when you click into Partnership Pro from the public site. The <head> of each page adds html.pd-arrive in
+   those two cases so the page never flashes. */
 (function(){
-  const H=document.documentElement,KEY="pd-opened";
-  if(!H.classList.contains("pd-arrive"))return;
-  try{sessionStorage.setItem(KEY,"1")}catch(e){}
-  if(matchMedia("(prefers-reduced-motion: reduce)").matches){H.classList.remove("pd-arrive");return}
+  const H=document.documentElement;
+  const CALM=matchMedia("(prefers-reduced-motion: reduce)").matches;
+  try{sessionStorage.setItem("pd-opened","1");sessionStorage.removeItem("pd-flaps")}catch(e){}
   const lg=document.querySelector("header.v2 .logo");
   const root=new URL(lg?lg.getAttribute("href"):"./",location.href);
+  const inPro=u=>{const s=u.pathname.slice(root.pathname.length).replace(/\.html$/,"").split("/")[0];return s==="pro"};
+  if(CALM){H.classList.remove("pd-arrive");return}
   const box=document.createElement("div");
-  box.className="pd-flaps shut now";box.setAttribute("aria-hidden","true");
+  box.className="pd-flaps";box.setAttribute("aria-hidden","true");
   box.innerHTML=`<i class="pd-flap pd-flap-t"></i><i class="pd-flap pd-flap-b"></i><span class="pd-stamp"><img src="${new URL("assets/brand/Logo/parade-logo-black.svg",root).href}" alt=""></span>`;
   document.body.appendChild(box);
-  H.classList.remove("pd-arrive");
-  // Hold shut with the wordmark on for a beat, then open and tidy up
-  requestAnimationFrame(()=>requestAnimationFrame(()=>{
-    box.classList.remove("now");
-    setTimeout(()=>{box.classList.remove("shut");setTimeout(()=>box.remove(),700)},650);
-  }));
+
+  // Arrived on a first open or into Pro: start shut, hold a beat with the wordmark on, then open
+  if(H.classList.contains("pd-arrive")){
+    box.classList.add("shut","now");H.classList.remove("pd-arrive");
+    requestAnimationFrame(()=>requestAnimationFrame(()=>{box.classList.remove("now");setTimeout(()=>box.classList.remove("shut"),650)}));
+  }
+
+  // Clicking into Partnership Pro from the public site: fold shut, then go
+  if(inPro(location))return;
+  document.addEventListener("click",e=>{
+    const a=e.target.closest("a[href]");
+    if(!a||e.defaultPrevented||e.button!==0||e.metaKey||e.ctrlKey||e.shiftKey||e.altKey||a.target||a.hasAttribute("download"))return;
+    const url=new URL(a.href,location.href);
+    if(url.origin!==location.origin||!inPro(url))return;
+    e.preventDefault();
+    try{sessionStorage.setItem("pd-flaps","1")}catch(err){}
+    box.classList.add("shut");
+    setTimeout(()=>{location.href=url.href},520);
+  });
+  window.addEventListener("pageshow",e=>{if(e.persisted)box.classList.remove("shut")});
 })();
