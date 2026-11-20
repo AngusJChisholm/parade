@@ -5,6 +5,237 @@
  },
  "deals": [
   {
+   "added": "2026-11-20",
+   "deal": "Mitchell & Ness × Big Bash League",
+   "sport": "Cricket",
+   "type": "Official partner",
+   "region": "ANZ",
+   "summary": "Listed as a partner on the official Big Bash League website.",
+   "url": "https://www.bigbash.com.au/",
+   "tier": "Official partner",
+   "status": "Current partner",
+   "market": "ANZ",
+   "conf": "Confirmed",
+   "verified": "2026-11-20",
+   "listed": "2026-11-20",
+   "ptier": "Official partner"
+  },
+  {
+   "date": "2026-02-23",
+   "added": "2026-11-20",
+   "deal": "Peet × Perth Scorchers",
+   "sport": "Cricket",
+   "type": "Partnership ends",
+   "region": "ANZ",
+   "summary": "Peet and the Scorchers conclude their eight-year partnership.",
+   "url": "https://www.perthscorchers.com.au/news/4455357/peet-and-perth-scorchers-conclude-landmark-eight-year-partnership",
+   "tier": "Official partner",
+   "status": "Ended",
+   "market": "ANZ",
+   "conf": "Confirmed",
+   "verified": "2026-11-20",
+   "ended": 2026,
+   "ends": 2026,
+   "since": 2018,
+   "term": 8
+  },
+  {
+   "date": "2026-10-19",
+   "added": "2026-11-20",
+   "deal": "Westside Auto × Perth Scorchers",
+   "sport": "Cricket",
+   "type": "Major partner extension",
+   "region": "ANZ",
+   "summary": "Westside Auto extends as the Scorchers' major partner through to the end of the 2027-28 season.",
+   "url": "https://www.perthscorchers.com.au/news/4594245/westside-auto-and-scorchers-extend-winning-partnership",
+   "tier": "Principal & major",
+   "status": "Extension",
+   "market": "ANZ",
+   "conf": "Confirmed",
+   "verified": "2026-11-20",
+   "ptier": "Major partner",
+   "ends": 2028,
+   "endsLock": true
+  },
+  {
+   "date": "2025-11-26",
+   "added": "2026-11-20",
+   "deal": "Century Cricket × Sydney Sixers",
+   "sport": "Cricket",
+   "type": "Official partner",
+   "region": "ANZ",
+   "summary": "Century Cricket partners with the Sixers to launch the Sydney Sixers T20 Youth Academy.",
+   "url": "https://www.sydneysixers.com.au/news/4408986/sixers-partner-with-century-cricket-to-launch-t20-youth-academy",
+   "tier": "Official partner",
+   "status": "New",
+   "market": "ANZ",
+   "conf": "Confirmed",
+   "verified": "2026-11-20"
+  },
+  {
+   "date": "2026-01-08",
+   "added": "2026-11-20",
+   "deal": "La Roche-Posay × Sydney Sixers",
+   "sport": "Cricket",
+   "type": "Official partner",
+   "region": "ANZ",
+   "summary": "La Roche-Posay joins the Sixers as an official supplier on a sun-smart partnership for BBL|15.",
+   "url": "https://www.sydneysixers.com.au/news/4429679/la-roche-posay-sydney-sixers-announce-sun-smart-partnership-for-bbl-15",
+   "tier": "Official partner",
+   "status": "New",
+   "market": "ANZ",
+   "conf": "Confirmed",
+   "verified": "2026-11-20",
+   "ended": 2026,
+   "ends": 2026
+  },
+  {
+   "date": "2026-10-13",
+   "added": "2026-11-20",
+   "deal": "Return and Earn × Sydney Sixers",
+   "sport": "Cricket",
+   "type": "Official partner",
+   "region": "ANZ",
+   "summary": "Return and Earn signs a one-year deal as the Sixers' official partner and official recycling partner.",
+   "url": "https://www.sydneysixers.com.au/news/4590726/sixers-and-return-and-earn-team-up-to-drive-recycling",
+   "tier": "Official partner",
+   "status": "New",
+   "market": "ANZ",
+   "conf": "Confirmed",
+   "verified": "2026-11-20",
+   "term": 1,
+   "ends": 2027
+  },
+  {
+   "date": "2025-11-26",
+   "added": "2026-11-20",
+   "deal": "Century Cricket × Sydney Thunder",
+   "sport": "Cricket",
+   "type": "Official partner",
+   "region": "ANZ",
+   "summary": "Century Cricket partners with the Thunder to run the Sydney Thunder T20 Youth Academy for players aged 10-16.",
+   "url": "https://www.sydneythunder.com.au/news/4408979/sydney-thunder-launch-t20-youth-academy",
+   "tier": "Official partner",
+   "status": "New",
+   "market": "ANZ",
+   "conf": "Confirmed",
+   "verified": "2026-11-20"
+  },
+  {
+   "date": "2025-12-15",
+   "added": "2026-11-20",
+   "deal": "Metaweb × Sydney Thunder",
+   "sport": "Cricket",
+   "type": "Official partner",
+   "region": "ANZ",
+   "summary": "MetaWeb becomes the Thunder's official digital marketing partner for BBL|15.",
+   "url": "https://www.sydneythunder.com.au/news/4419726/metaweb-announced-as-the-official-digital-marketing-partner-of-sydney-thunder",
+   "tier": "Official partner",
+   "status": "New",
+   "market": "ANZ",
+   "conf": "Confirmed",
+   "verified": "2026-11-20",
+   "ended": 2026,
+   "ends": 2026
+  },
+  {
+   "date": "2025-12-22",
+   "added": "2026-11-20",
+   "deal": "James Hardie × Melbourne Stars",
+   "sport": "Cricket",
+   "type": "Official partner",
+   "region": "ANZ",
+   "summary": "James Hardie joins the Stars as an official partner for BBL|15, its first elite domestic cricket deal.",
+   "url": "https://www.melbournestars.com.au/news/4423478/melbourne-stars-link-up-with-iconic-australian-brand-james-hardie",
+   "tier": "Official partner",
+   "status": "New",
+   "market": "ANZ",
+   "conf": "Confirmed",
+   "verified": "2026-11-20",
+   "ended": 2026,
+   "ends": 2026
+  },
+  {
+   "date": "2025-12-22",
+   "added": "2026-11-20",
+   "deal": "La Roche-Posay × Melbourne Stars",
+   "sport": "Cricket",
+   "type": "Official partner",
+   "region": "ANZ",
+   "summary": "La Roche-Posay signs a sun-smart partnership with the Stars for BBL|15.",
+   "url": "https://www.melbournestars.com.au/news/4423474/melbourne-stars-and-la-roche-posay-announce-sun-smart-partnership-for-bbl15",
+   "tier": "Official partner",
+   "status": "New",
+   "market": "ANZ",
+   "conf": "Confirmed",
+   "verified": "2026-11-20",
+   "ended": 2026,
+   "ends": 2026
+  },
+  {
+   "added": "2026-11-20",
+   "deal": "TAC × Melbourne Stars",
+   "sport": "Cricket",
+   "type": "Official partner",
+   "region": "ANZ",
+   "summary": "Listed on the Melbourne Stars's official partners page.",
+   "url": "https://www.melbournestars.com.au/partners",
+   "tier": "Official partner",
+   "status": "Current partner",
+   "market": "ANZ",
+   "conf": "Confirmed",
+   "verified": "2026-11-20",
+   "listed": "2026-11-20",
+   "ptier": "Official partner"
+  },
+  {
+   "date": "2026-01-07",
+   "added": "2026-11-20",
+   "deal": "La Roche-Posay × Brisbane Heat",
+   "sport": "Cricket",
+   "type": "Official partner",
+   "region": "ANZ",
+   "summary": "La Roche-Posay partners with the Heat on sun-smart activity for BBL|15.",
+   "url": "https://www.brisbaneheat.com.au/news/4429476/heat-partner-with-la-roche-posay",
+   "tier": "Official partner",
+   "status": "New",
+   "market": "ANZ",
+   "conf": "Confirmed",
+   "verified": "2026-11-20",
+   "ended": 2026,
+   "ends": 2026
+  },
+  {
+   "date": "2026-10-26",
+   "added": "2026-11-20",
+   "deal": "Youi × Brisbane Heat",
+   "sport": "Cricket",
+   "type": "Official partner",
+   "region": "ANZ",
+   "summary": "Youi joins the Heat as an official partner, with its logo on the club's BBL|16 playing kit, as part of its Big Bash League deal.",
+   "url": "https://www.brisbaneheat.com.au/news/4598843/heat-fans-win-with-youi-big-bash-backer-announced",
+   "tier": "Shirt & kit placement",
+   "status": "New",
+   "market": "ANZ",
+   "conf": "Confirmed",
+   "verified": "2026-11-20"
+  },
+  {
+   "date": "2026-10-26",
+   "added": "2026-11-20",
+   "deal": "Youi × Melbourne Renegades",
+   "sport": "Cricket",
+   "type": "Official partner",
+   "region": "ANZ",
+   "summary": "Youi joins the Renegades as an official partner, with its logo on the club's BBL|16 playing kit, as part of its Big Bash League deal.",
+   "url": "https://www.melbournerenegades.com.au/news/4598823/youi-backs-the-fans-who-make-the-big-bash",
+   "tier": "Shirt & kit placement",
+   "status": "New",
+   "market": "ANZ",
+   "conf": "Confirmed",
+   "verified": "2026-11-20"
+  },
+  {
    "date": "2026-11-19",
    "added": "2026-11-20",
    "deal": "TAB × Gold Coast Turf Club",
@@ -63,7 +294,7 @@
    "tbasis": "role"
   },
   {
-   "date": "2026-11-20",
+   "date": "2026-11-19",
    "added": "2026-11-20",
    "deal": "Australia Post × Sydney Thunder",
    "sport": "Cricket",
@@ -220354,36 +220585,38 @@
    "verified": "2026-11-16"
   },
   {
-   "listed": "2026-11-16",
    "deal": "Youi × Hobart Hurricanes",
    "sport": "Cricket",
    "type": "Official partner",
    "region": "ANZ",
-   "summary": "Listed as an official sponsor on Hobart Hurricanes's official partners page.",
-   "url": "https://www.hobarthurricanes.com.au/partners",
-   "status": "Current partner",
+   "summary": "Youi joins the Hurricanes as an official partner, with its logo on the club's BBL|16 playing kit, as part of its Big Bash League deal.",
+   "url": "https://www.hobarthurricanes.com.au/news/4598760/hurricanes-welcome-youi-to-the-team",
+   "status": "New",
    "market": "ANZ",
    "ptier": "Official sponsor",
-   "tier": "Official partner",
+   "tier": "Shirt & kit placement",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-20",
+   "date": "2026-10-26",
+   "added": "2026-11-20"
   },
   {
-   "listed": "2026-11-16",
    "deal": "Wilson Security × Hobart Hurricanes",
    "sport": "Cricket",
-   "type": "Official partner",
+   "type": "Official headwear partner",
    "region": "ANZ",
-   "summary": "Listed as an official sponsor on Hobart Hurricanes's official partners page.",
-   "url": "https://www.hobarthurricanes.com.au/partners",
-   "status": "Current partner",
+   "summary": "Wilson Security renews as the Hurricanes' official headwear partner, taking the deal into a 10th straight season.",
+   "url": "https://www.hobarthurricanes.com.au/news/4586683/wilson-security-renews-with-hobart-hurricanes",
+   "status": "Renewal",
    "market": "ANZ",
    "ptier": "Official sponsor",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "since": 2021,
-   "sinceBasis": "wayback"
+   "sinceBasis": "wayback",
+   "date": "2026-10-06",
+   "added": "2026-11-20"
   },
   {
    "listed": "2026-11-16",
@@ -220636,7 +220869,9 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "since": 2024,
+   "sinceBasis": "wayback"
   },
   {
    "listed": "2026-11-16",
@@ -220668,7 +220903,9 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-16",
+   "since": 2022,
+   "sinceBasis": "wayback"
   },
   {
    "listed": "2026-11-16",
@@ -221087,19 +221324,20 @@
    "verified": "2026-11-16"
   },
   {
-   "listed": "2026-11-16",
    "deal": "Youi × Melbourne Stars",
    "sport": "Cricket",
    "type": "Official partner",
    "region": "ANZ",
-   "summary": "Listed on Melbourne Stars's official partners page.",
-   "url": "https://www.melbournestars.com.au/partners",
-   "status": "Current partner",
+   "summary": "Youi joins the Stars as an official partner, with its logo on the club's BBL|16 playing kit, as part of its Big Bash League deal.",
+   "url": "https://www.melbournestars.com.au/news/4599284/youi-backs-the-fans-who-make-the-big-bash",
+   "status": "New",
    "market": "ANZ",
-   "tier": "Official partner",
+   "tier": "Shirt & kit placement",
    "ptier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-20",
+   "date": "2026-10-26",
+   "added": "2026-11-20"
   },
   {
    "listed": "2026-11-16",
@@ -221117,19 +221355,20 @@
    "verified": "2026-11-16"
   },
   {
-   "listed": "2026-11-16",
    "deal": "Youi × Sydney Thunder",
    "sport": "Cricket",
    "type": "Official partner",
    "region": "ANZ",
-   "summary": "Listed on Sydney Thunder's official partners page.",
-   "url": "https://www.sydneythunder.com.au/partners",
-   "status": "Current partner",
+   "summary": "Youi joins the Thunder as an official partner, with its logo on the club's BBL|16 playing kit, as part of its Big Bash League deal.",
+   "url": "https://www.sydneythunder.com.au/news/4598640/youi-back-the-thunder-nation",
+   "status": "New",
    "market": "ANZ",
-   "tier": "Official partner",
+   "tier": "Shirt & kit placement",
    "ptier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-20",
+   "date": "2026-10-26",
+   "added": "2026-11-20"
   },
   {
    "listed": "2026-11-16",
@@ -228888,7 +229127,7 @@
    "tendsBasis": "stated"
   },
   {
-   "date": "2026-10-28",
+   "date": "2026-10-29",
    "added": "2026-11-02",
    "deal": "Mimosa Homes × Melbourne Stars",
    "sport": "Cricket",
@@ -228900,7 +229139,7 @@
    "status": "New",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-02",
+   "verified": "2026-11-20",
    "ttier": "T3",
    "tbasis": "category",
    "tends": 2028,
@@ -228982,7 +229221,7 @@
    "marketLock": true
   },
   {
-   "date": "2026-10-30",
+   "date": "2026-10-29",
    "added": "2026-10-30",
    "deal": "Mountain Culture × Melbourne Stars",
    "sport": "Cricket",
@@ -228997,14 +229236,14 @@
    "endsEst": true,
    "market": "ANZ",
    "conf": "Reported",
-   "verified": "2026-10-30",
+   "verified": "2026-11-20",
    "ttier": "T3",
    "tbasis": "category",
    "tends": 2028,
    "tendsBasis": "term"
   },
   {
-   "date": "2026-10-30",
+   "date": "2026-10-29",
    "added": "2026-10-30",
    "deal": "Queensland Country Bank × Brisbane Heat",
    "sport": "Cricket",
@@ -229019,7 +229258,7 @@
    "ptier": "Principal partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "since": 2024,
    "sinceBasis": "wayback",
    "ttier": "T1",
@@ -229028,7 +229267,7 @@
    "tendsBasis": "stated"
   },
   {
-   "date": "2026-10-29",
+   "date": "2026-10-27",
    "added": "2026-10-30",
    "deal": "Omega × Sydney Thunder",
    "sport": "Cricket",
@@ -229044,7 +229283,7 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "ttier": "T3",
    "tbasis": "category",
    "tends": 2028,
@@ -229411,11 +229650,11 @@
    "tendsBasis": "stated"
   },
   {
-   "date": "2026-10-27",
+   "date": "2026-10-26",
    "added": "2026-10-28",
    "deal": "Green.com.au × Sydney Thunder",
    "sport": "Cricket",
-   "type": "Extension",
+   "type": "Official partner",
    "region": "ANZ",
    "summary": "Green.com.au has renewed its Sydney Thunder sponsorship for WBBL|12 and BBL|16.",
    "url": "https://www.sydneythunder.com.au/news/4598506/powering-on-sydney-thunder-and-greencomau-renew-partnership",
@@ -229426,7 +229665,7 @@
    "ends": 2027,
    "endsLock": true,
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "tends": 2027,
    "tendsBasis": "stated"
   },
@@ -231048,7 +231287,7 @@
    "tendsBasis": "stated"
   },
   {
-   "date": "2026-10-13",
+   "date": "2026-10-14",
    "added": "2026-10-20",
    "deal": "Return and Earn × Sydney Thunder",
    "sport": "Cricket",
@@ -231060,7 +231299,7 @@
    "status": "New",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-10-20",
+   "verified": "2026-11-20",
    "ttier": "Gov",
    "tbasis": "role",
    "tends": 2028,
@@ -232704,7 +232943,7 @@
    "tbasis": "rights"
   },
   {
-   "date": "2026-10-07",
+   "date": "2026-10-08",
    "added": "2026-10-14",
    "deal": "ColCap Financial Group × Sydney Thunder",
    "sport": "Cricket",
@@ -232717,7 +232956,7 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "ttier": "T1",
    "tbasis": "rights",
    "tends": 2028,
@@ -237143,7 +237382,7 @@
    "tendsBasis": "stated"
   },
   {
-   "date": "2026-08-18",
+   "date": "2026-08-14",
    "deal": "Budget × Perth Scorchers",
    "sport": "Cricket",
    "type": "Official partner",
@@ -237156,7 +237395,7 @@
    "checked": "2026-11-16",
    "url": "https://www.perthscorchers.com.au/news/4559237/perth-scorchers-and-budget-drive-new-official-partnership",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "tends": 2028,
    "tendsBasis": "league"
   },
@@ -237692,10 +237931,10 @@
    "tendsBasis": "stated"
   },
   {
-   "date": "2026-09-01",
+   "date": "2026-08-28",
    "deal": "Seiko × Brisbane Heat",
    "sport": "Cricket",
-   "type": "Partner",
+   "type": "Official partner",
    "region": "ANZ",
    "summary": "Seiko names the Heat's Celebrity First Ball activation.",
    "tier": "Official partner",
@@ -237703,7 +237942,7 @@
    "market": "ANZ",
    "url": "https://www.brisbaneheat.com.au/news/4568053/first-ball-a-must-watch-event-seiko-links-with-brisbane-heat",
    "conf": "Confirmed",
-   "verified": "2026-09-01",
+   "verified": "2026-11-20",
    "tends": 2028,
    "tendsBasis": "league"
   },
@@ -238312,10 +238551,10 @@
    "tendsBasis": "stated"
   },
   {
-   "date": "2026-07-28",
+   "date": "2026-07-27",
    "deal": "Plantation Homes × Brisbane Heat",
    "sport": "Cricket",
-   "type": "Renewal",
+   "type": "Official partner",
    "region": "ANZ",
    "summary": "Plantation Homes renews with the Brisbane Heat for two years.",
    "tier": "Official partner",
@@ -238326,7 +238565,7 @@
    "market": "ANZ",
    "url": "https://www.brisbaneheat.com.au/news/4547217/heat-build-on-success-extend-plantation-homes-partnership-monday-27-july-2026",
    "conf": "Confirmed",
-   "verified": "2026-07-28",
+   "verified": "2026-11-20",
    "since": 2024,
    "sinceBasis": "wayback",
    "tends": 2028,
@@ -240604,10 +240843,10 @@
    "tendsBasis": "stated"
   },
   {
-   "date": "2026-09-15",
+   "date": "2026-09-09",
    "deal": "Greenworks × Melbourne Stars",
    "sport": "Cricket",
-   "type": "Renewal",
+   "type": "Premier partner",
    "region": "ANZ",
    "summary": "Greenworks renews as a Melbourne Stars premier partner.",
    "tier": "Principal & major",
@@ -240618,7 +240857,7 @@
    "ends": 2028,
    "endsLock": true,
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "ttier": "T2",
    "tbasis": "role",
    "tends": 2028,
@@ -240802,7 +241041,7 @@
    "tendsBasis": "term"
   },
   {
-   "date": "2026-09-22",
+   "date": "2026-09-17",
    "deal": "AAMI × Perth Scorchers",
    "sport": "Cricket",
    "type": "Principal partner",
@@ -240815,29 +241054,29 @@
    "checked": "2026-11-16",
    "url": "https://www.perthscorchers.com.au/news/4577605/aami-to-join-scorchers-family-in-new-western-australian-community-partnership",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "ttier": "T1",
    "tbasis": "role",
    "tends": 2028,
    "tendsBasis": "league"
   },
   {
-   "date": "2026-09-22",
+   "date": "2026-09-21",
    "deal": "Tangerine × Melbourne Renegades",
    "sport": "Cricket",
-   "type": "Renewal",
+   "type": "Principal partner",
    "region": "ANZ",
-   "summary": "Tangerine renews as Renegades principal partner for a third year.",
+   "summary": "Tangerine renews for a third year and steps up to Renegades principal partner for 2026/27, on the front of the BBL and WBBL jerseys.",
    "tier": "Principal & major",
    "status": "Renewal",
    "market": "ANZ",
-   "ptier": "Platinum partner",
+   "ptier": "Principal partner",
    "checked": "2026-11-16",
    "url": "https://www.melbournerenegades.com.au/news/4579255/tangerine-named-principal-partner-for-202627",
    "ends": 2027,
    "endsLock": true,
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "since": 2024,
    "sinceBasis": "wayback",
    "ttier": "T1",
@@ -241222,10 +241461,10 @@
    "tendsBasis": "stated"
   },
   {
-   "date": "2026-10-01",
+   "date": "2026-09-30",
    "deal": "Cub Cadet × Brisbane Heat",
    "sport": "Cricket",
-   "type": "Partner",
+   "type": "Official partner",
    "region": "ANZ",
    "summary": "Cub Cadet signs with the Brisbane Heat.",
    "tier": "Official partner",
@@ -241233,7 +241472,7 @@
    "url": "https://sportsmintmedia.com/cub-cadet-takes-its-place-on-the-brisbane-heat-summer-stage/",
    "market": "ANZ",
    "conf": "Reported",
-   "verified": "2026-10-01",
+   "verified": "2026-11-20",
    "tends": 2028,
    "tendsBasis": "league"
   },
@@ -246522,11 +246761,12 @@
    "ends": 2026,
    "endsLock": true,
    "conf": "Confirmed",
-   "verified": "2025-06-25",
+   "verified": "2026-11-20",
    "since": 2023,
    "sinceBasis": "wayback",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": 2026
   },
   {
    "date": "2025-06-25",
@@ -246816,7 +247056,7 @@
    "tendsBasis": "stated"
   },
   {
-   "date": "2025-12-17",
+   "date": "2025-12-16",
    "deal": "Jones Radiology × Adelaide Strikers",
    "sport": "Cricket",
    "type": "Official partner",
@@ -246829,7 +247069,7 @@
    "checked": "2026-11-16",
    "url": "https://jonesradiology.com.au/saca-sponsorship-announcement",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "tends": 2027,
    "tendsBasis": "league"
   },
@@ -249480,11 +249720,12 @@
    "ends": 2026,
    "endsLock": true,
    "conf": "Confirmed",
-   "verified": "2025-11-12",
+   "verified": "2026-11-20",
    "since": 2023,
    "sinceBasis": "wayback",
    "tends": 2026,
-   "tendsBasis": "stated"
+   "tendsBasis": "stated",
+   "ended": true
   },
   {
    "date": "2025-11-12",
@@ -273212,10 +273453,10 @@
    "tendsBasis": "league"
   },
   {
-   "date": "2026-08-20",
+   "date": "2026-08-18",
    "deal": "Budget × Hobart Hurricanes",
    "sport": "Cricket",
-   "type": "Partnership",
+   "type": "Official vehicle rental partner",
    "region": "ANZ",
    "summary": "Budget Car & Truck Rental partners with the Hurricanes",
    "url": "https://sportsmintmedia.com/hobart-hurricanes-expand-commercial-portfolio-with-budget-car-truck-rental-partnership/",
@@ -273225,7 +273466,7 @@
    "ptier": "Official sponsor",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "tends": 2028,
    "tendsBasis": "league"
   },
@@ -283588,20 +283829,21 @@
    "tbasis": "rights"
   },
   {
-   "listed": "2026-10-30",
    "deal": "Sharp × Melbourne Stars",
    "sport": "Cricket",
-   "type": "Official partner",
+   "type": "Partnership expansion",
    "region": "ANZ",
-   "summary": "Listed as an official partner on the club's official partners page.",
-   "url": "https://www.melbournestars.com.au/partners",
+   "summary": "Cricket Victoria expands its partnership with Sharp EIT Solutions, which stays on as a Stars partner.",
+   "url": "https://www.melbournestars.com.au/news/4583462/cricket-victoria-expands-partnership-with-sharp-eit-solutions",
    "tier": "Official partner",
-   "status": "Current partner",
+   "status": "Expansion",
    "ptier": "Official partner",
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-20",
+   "date": "2026-09-30",
+   "added": "2026-11-20"
   },
   {
    "listed": "2026-10-30",
@@ -283787,20 +284029,21 @@
    "verified": "2026-11-16"
   },
   {
-   "listed": "2026-10-30",
    "deal": "CITECO × Melbourne Renegades",
    "sport": "Cricket",
    "type": "Official partner",
    "region": "ANZ",
-   "summary": "Listed as an official partner on the club's official partners page.",
-   "url": "https://www.melbournerenegades.com.au/partners",
+   "summary": "Workwear and safety brand Citeco joins the Renegades as a premium partner.",
+   "url": "https://www.melbournerenegades.com.au/news/4421888/citeco-signs-premium-partner",
    "tier": "Official partner",
-   "status": "Current partner",
+   "status": "New",
    "ptier": "Official partner",
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-20",
+   "date": "2025-12-17",
+   "added": "2026-11-20"
   },
   {
    "listed": "2026-10-30",
@@ -284219,7 +284462,9 @@
    "verified": "2026-11-16",
    "datesTried": "2026-11-19",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "role",
+   "since": 2024,
+   "sinceBasis": "wayback"
   },
   {
    "listed": "2026-10-30",
@@ -284258,7 +284503,9 @@
    "conf": "Confirmed",
    "verified": "2026-11-16",
    "ttier": "Gov",
-   "tbasis": "role"
+   "tbasis": "role",
+   "since": 2023,
+   "sinceBasis": "wayback"
   },
   {
    "listed": "2026-10-30",
@@ -313185,8 +313432,9 @@
    "listed": "2026-07-16",
    "since": 2022,
    "sinceBasis": "wayback",
-   "verified": "2026-11-16",
-   "source": "wayback"
+   "verified": "2026-11-20",
+   "source": "wayback",
+   "ended": true
   },
   {
    "deal": "Coca-Cola × Adelaide Strikers",
@@ -313224,24 +313472,6 @@
    "sinceBasis": "wayback",
    "ended": 2023,
    "ends": 2023,
-   "source": "wayback"
-  },
-  {
-   "deal": "Nova 96.9 × Adelaide Strikers",
-   "sport": "Cricket",
-   "type": "Official partner",
-   "region": "ANZ",
-   "market": "ANZ",
-   "summary": "Listed on the Adelaide Strikers partners page, and on it in every season back to 2022 (archived snapshots).",
-   "url": "https://web.archive.org/web/20260716013552/https://adelaidestrikers.com.au/corporate-partners",
-   "tier": "Official partner",
-   "ptier": "Official partner",
-   "status": "Current partner",
-   "conf": "Confirmed",
-   "listed": "2026-07-16",
-   "since": 2022,
-   "sinceBasis": "wayback",
-   "verified": "2026-11-16",
    "source": "wayback"
   },
   {
@@ -313375,24 +313605,6 @@
    "sinceBasis": "wayback",
    "ended": 2024,
    "ends": 2024,
-   "source": "wayback"
-  },
-  {
-   "deal": "News Corp Australia × Adelaide Strikers",
-   "sport": "Cricket",
-   "type": "Official partner",
-   "region": "ANZ",
-   "market": "ANZ",
-   "summary": "Listed on the Adelaide Strikers partners page, and on it in every season back to 2024 (archived snapshots).",
-   "url": "https://web.archive.org/web/20260716013552/https://adelaidestrikers.com.au/corporate-partners",
-   "tier": "Official partner",
-   "ptier": "Official partner",
-   "status": "Current partner",
-   "conf": "Confirmed",
-   "listed": "2026-07-16",
-   "since": 2024,
-   "sinceBasis": "wayback",
-   "verified": "2026-11-16",
    "source": "wayback"
   },
   {
@@ -315706,8 +315918,9 @@
    "listed": "2026-06-02",
    "since": 2021,
    "sinceBasis": "wayback",
-   "verified": "2026-11-16",
-   "source": "wayback"
+   "verified": "2026-11-20",
+   "source": "wayback",
+   "ended": true
   },
   {
    "deal": "SCA × Brisbane Heat",
@@ -315838,8 +316051,9 @@
    "listed": "2026-06-02",
    "since": 2024,
    "sinceBasis": "wayback",
-   "verified": "2026-11-16",
-   "source": "wayback"
+   "verified": "2026-11-20",
+   "source": "wayback",
+   "ended": true
   },
   {
    "deal": "Elastoplast × Brisbane Heat",
@@ -315856,9 +316070,10 @@
    "listed": "2026-06-02",
    "since": 2025,
    "sinceBasis": "wayback",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "source": "wayback",
-   "ends": 2025
+   "ends": 2025,
+   "ended": true
   },
   {
    "deal": "Event Cinemas × Brisbane Heat",
@@ -315875,9 +316090,10 @@
    "listed": "2026-06-02",
    "since": 2025,
    "sinceBasis": "wayback",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "source": "wayback",
-   "ends": 2025
+   "ends": 2025,
+   "ended": true
   },
   {
    "deal": "Frank Health Insurance × Brisbane Heat",
@@ -315894,9 +316110,10 @@
    "listed": "2026-06-02",
    "since": 2025,
    "sinceBasis": "wayback",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "source": "wayback",
-   "ends": 2025
+   "ends": 2025,
+   "ended": true
   },
   {
    "deal": "Oaks Hotels × Brisbane Heat",
@@ -315913,9 +316130,10 @@
    "listed": "2026-06-02",
    "since": 2025,
    "sinceBasis": "wayback",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "source": "wayback",
-   "ends": 2025
+   "ends": 2025,
+   "ended": true
   },
   {
    "deal": "Ponting Wines × Brisbane Heat",
@@ -315932,9 +316150,10 @@
    "listed": "2026-06-02",
    "since": 2025,
    "sinceBasis": "wayback",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "source": "wayback",
-   "ends": 2025
+   "ends": 2025,
+   "ended": true
   },
   {
    "deal": "Qscan × Brisbane Heat",
@@ -315951,9 +316170,10 @@
    "listed": "2026-06-02",
    "since": 2025,
    "sinceBasis": "wayback",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "source": "wayback",
-   "ends": 2025
+   "ends": 2025,
+   "ended": true
   },
   {
    "deal": "Shapes × Brisbane Heat",
@@ -315970,9 +316190,10 @@
    "listed": "2026-06-02",
    "since": 2025,
    "sinceBasis": "wayback",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "source": "wayback",
-   "ends": 2025
+   "ends": 2025,
+   "ended": true
   },
   {
    "deal": "Sunny Advertising × Brisbane Heat",
@@ -315989,9 +316210,10 @@
    "listed": "2026-06-02",
    "since": 2025,
    "sinceBasis": "wayback",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "source": "wayback",
-   "ends": 2025
+   "ends": 2025,
+   "ended": true
   },
   {
    "deal": "CHiQ × Brisbane Lions",
@@ -323986,8 +324208,9 @@
    "listed": "2026-07-02",
    "since": 2021,
    "sinceBasis": "wayback",
-   "verified": "2026-11-16",
-   "source": "wayback"
+   "verified": "2026-11-20",
+   "source": "wayback",
+   "ended": true
   },
   {
    "deal": "Wilson Homes × Hobart Hurricanes",
@@ -324004,8 +324227,9 @@
    "listed": "2026-07-02",
    "since": 2021,
    "sinceBasis": "wayback",
-   "verified": "2026-11-16",
-   "source": "wayback"
+   "verified": "2026-11-20",
+   "source": "wayback",
+   "ended": true
   },
   {
    "deal": "Cool Ridge × Hobart Hurricanes",
@@ -324084,24 +324308,6 @@
    "source": "wayback"
   },
   {
-   "deal": "Tasmanian × Hobart Hurricanes",
-   "sport": "Cricket",
-   "type": "Official partner",
-   "region": "ANZ",
-   "market": "ANZ",
-   "summary": "Listed on the Hobart Hurricanes partners page, and on it in every season back to 2023 (archived snapshots).",
-   "url": "https://web.archive.org/web/20260702062923/https://www.hobarthurricanes.com.au/partners",
-   "tier": "Official partner",
-   "ptier": "Official partner",
-   "status": "Current partner",
-   "conf": "Confirmed",
-   "listed": "2026-07-02",
-   "since": 2023,
-   "sinceBasis": "wayback",
-   "verified": "2026-11-16",
-   "source": "wayback"
-  },
-  {
    "deal": "Club Warehouse × Hobart Hurricanes",
    "sport": "Cricket",
    "type": "Official partner",
@@ -324121,24 +324327,6 @@
    "source": "wayback"
   },
   {
-   "deal": "Shark × Hobart Hurricanes",
-   "sport": "Cricket",
-   "type": "Official partner",
-   "region": "ANZ",
-   "market": "ANZ",
-   "summary": "Listed on the Hobart Hurricanes partners page, and on it in every season back to 2024 (archived snapshots).",
-   "url": "https://web.archive.org/web/20260702062923/https://www.hobarthurricanes.com.au/partners",
-   "tier": "Official partner",
-   "ptier": "Official partner",
-   "status": "Current partner",
-   "conf": "Confirmed",
-   "listed": "2026-07-02",
-   "since": 2024,
-   "sinceBasis": "wayback",
-   "verified": "2026-11-16",
-   "source": "wayback"
-  },
-  {
    "deal": "TasWater × Hobart Hurricanes",
    "sport": "Cricket",
    "type": "Official partner",
@@ -324153,8 +324341,9 @@
    "listed": "2026-07-02",
    "since": 2024,
    "sinceBasis": "wayback",
-   "verified": "2026-11-16",
-   "source": "wayback"
+   "verified": "2026-11-20",
+   "source": "wayback",
+   "ended": true
   },
   {
    "deal": "Aland × Macarthur FC",
@@ -337855,8 +338044,9 @@
    "listed": "2026-06-26",
    "since": 2022,
    "sinceBasis": "wayback",
-   "verified": "2026-11-16",
-   "source": "wayback"
+   "verified": "2026-11-20",
+   "source": "wayback",
+   "ended": true
   },
   {
    "deal": "SIXT × Sydney Sixers",
@@ -337892,8 +338082,9 @@
    "listed": "2026-06-26",
    "since": 2023,
    "sinceBasis": "wayback",
-   "verified": "2026-11-16",
-   "source": "wayback"
+   "verified": "2026-11-20",
+   "source": "wayback",
+   "ended": true
   },
   {
    "deal": "GWM × Sydney Sixers",
@@ -337910,9 +338101,10 @@
    "listed": "2026-06-26",
    "since": 2025,
    "sinceBasis": "wayback",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "source": "wayback",
-   "ends": 2025
+   "ends": 2025,
+   "ended": true
   },
   {
    "deal": "AIA × Sydney Swans",

@@ -9077,6 +9077,19 @@
    "name": "Bathtem",
    "k": "b"
   },
+  "bathurst-12-hour": {
+   "name": "Bathurst 12 Hour",
+   "aliases": [
+    "Meguiar's Bathurst 12 Hour"
+   ],
+   "domain": "bathurst12hour.com.au",
+   "ptype": "Event",
+   "k": "p",
+   "market": "ANZ",
+   "ptiers": [
+    "Official partner"
+   ]
+  },
   "batini": {
    "name": "Batini",
    "k": "b",
@@ -10435,7 +10448,10 @@
    ],
    "ptype": "League & competition",
    "k": "p",
-   "logo": "assets/logos/big-bash-league.png"
+   "logo": "assets/logos/big-bash-league.png",
+   "ptiers": [
+    "Official partner"
+   ]
   },
   "big-bear-academy": {
    "name": "Big Bear Academy",
@@ -16426,6 +16442,10 @@
    "cat": "Betting & wagering",
    "k": "b",
    "domain": "cnty.com"
+  },
+  "century-cricket": {
+   "name": "Century Cricket",
+   "k": "b"
   },
   "century-yuasa": {
    "name": "Century Yuasa",
@@ -50854,6 +50874,12 @@
    "name": "MegaFon",
    "k": "b"
   },
+  "meguiar-s": {
+   "name": "Meguiar's",
+   "cat": "Automotive",
+   "domain": "meguiars.com.au",
+   "k": "b"
+  },
   "meijer": {
    "name": "Meijer",
    "k": "b"
@@ -61461,6 +61487,10 @@
   },
   "pedigree": {
    "name": "Pedigree",
+   "k": "b"
+  },
+  "peet": {
+   "name": "Peet",
    "k": "b"
   },
   "pegasus-airlines": {
@@ -92387,25 +92417,6 @@
   },
   "zwift": {
    "name": "Zwift",
-   "k": "b"
-  },
-  "bathurst-12-hour": {
-   "name": "Bathurst 12 Hour",
-   "aliases": [
-    "Meguiar's Bathurst 12 Hour"
-   ],
-   "domain": "bathurst12hour.com.au",
-   "ptype": "Event",
-   "k": "p",
-   "market": "ANZ",
-   "ptiers": [
-    "Official partner"
-   ]
-  },
-  "meguiar-s": {
-   "name": "Meguiar's",
-   "cat": "Automotive",
-   "domain": "meguiars.com.au",
    "k": "b"
   }
  },
