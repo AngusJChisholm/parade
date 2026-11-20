@@ -101,9 +101,16 @@ SUBS = {
         ("Headwear & licensing", r"new era|47 brand|'47|fanatics|mitchell & ness"),
     ],
     "Energy & utilities": [
-        ("Fuel & oil", r"ampol|bp\b|shell|chevron|exxon|aramco|petronas|totalenergies|eni\b|caltex|viva energy|petrol|fuel|7-eleven"),
-        ("Renewables & solar", r"solar|renewable|wind|vestas|1komma5|tesla energy|hydro|battery"),
-        ("Energy retail", r"^(agl|origin|origin energy|energyaustralia|alinta|alinta energy|red energy|lumo|lumo energy|simply energy|powershop|momentum energy|ovo|ovo energy|engie|tango|dodo power|globird|amber|amber electric|sumo|covau|powerclub|nectr|mojo|kogan energy|meridian|genesis energy|contact energy|mercury|trustpower|electric kiwi|flick|nova energy|iren|aurora energy|synergy|ergon|energex|jemena|actewagl|powerbay)$"),
+        # Order matters: retailers are an exact-name list (anchored), then things filed here by mistake, then the
+        # rest. Energy retail is the exclusive slot (one electricity/gas retailer per property); solar, battery and
+        # EV-charging partners usually sit beside it, so Category availability shows them as "adjacent".
+        ("Energy retail", r"^(agl|origin|origin energy|energyaustralia|energy australia|alinta|alinta energy|red energy|lumo|lumo energy|simply energy|powershop|momentum energy|ovo|ovo energy|engie|tango|tango energy|dodo power|globird|globird energy|amber|amber electric|sumo|sumo energy|covau|powerclub|nectr|mojo|kogan energy|meridian|genesis|genesis energy|contact energy|mercury|trustpower|electric kiwi|flick|flick electric|nova energy|pulse energy|frank energy|iren|aurora energy|synergy|ergon|ergon energy|actewagl|powerbay|kleenheat|pacific blue|1st energy|energy locals|diamond energy|zen energy|localvolts|reamped energy|discover energy|powerdirect|energy on|yü energy|yu energy|shell energy|octopus energy|e\.on|eon next|scottish gas|british gas|good energy|outfox energy|so energy|edf|edf energy|utility warehouse|duke energy|dte energy|georgia power|puget sound energy|scana energy|peoples gas|georgia natural gas|columbia gas of ohio|cleanchoice energy|austin energy|san diego community power|san josé clean energy|phoenix natural gas|haven power|sse energy solutions|smarta energy|social energy|tokyo gas|toho gas|osaka gas|hiroshima gas|okayama gas|shizuoka gas|nippon gas \(nichigas\)|incheon city gas|kanto propane gas|pure\.energy|green power)$"),
+        ("Not energy (check category)", r"gu energy|energy drink|tnt energy|ghost energy|monster power|powerhouse fitness|powerleague|powersports|outdoor power equipment|power farming|fuel your life|holdfast fluid power"),
+        ("Networks & generation", r"ausgrid|endeavour energy|essential energy|transgrid|jemena|powercor|citipower|ausnet|power networks|gas networks|energex|tasnetworks|western power|evoenergy|counties energy|vector\b|central energy trust|squadron energy|snowy hydro|hydro tasmania|acciona|neoen|tilt renewables|iberdrola|arrow energy|arkana energy|todd energy|lng\b|enerven|vestas|atco|energy transfer|wind farm|capital power|conrad energy|sp energy networks|hitachi energy|aggreko|bloom energy"),
+        ("Fuel & oil", r"ampol|bp\b|shell\b|chevron|exxon|aramco|petronas|totalenergies|eni\b|caltex|viva energy|petrol|fuel|7-eleven|penrite|mobil\b|sinopec|gulf oil|lucas oil|castrol|\boil\b|repsol|adnoc|indianoil|phillips 66|moeve"),
+        ("Water", r"water\b"),
+        ("Renewables & solar", r"solar|renewable|battery|batteries|sipenergy|sip energy|sigenergy|voltx|power potential|1komma5|tesla energy|green\.com\.au|formbay|evie\b|zoom energy|green energy|solstice energy|\bhydro\b|wind\b|longi|anker|panasonic energy"),
+        ("Electrical & trades", r"electric|electrical|plumbing|gas works|power systems|powerline|lighting"),
     ],
     "Telco": [("Telco", r".")],
     "Tourism & government": [

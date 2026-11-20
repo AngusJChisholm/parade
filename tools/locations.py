@@ -63,19 +63,41 @@ NAME_STATE = [
     ("WA", r"\bwa\b|western australia|perth|fremantle|optus stadium|rac arena|hbf park|wa cricket|waca\b|rottnest"),
     ("TAS", r"tasmania|\btas\b|hobart|launceston|blundstone arena|ninja stadium|utas stadium|york park"),
     ("NT", r"northern territory|\bnt\b|darwin|alice springs|tio stadium"),
-    ("SA", r"south australia|\bsa\b|adelaide|sanfl|adelaide oval|coopers stadium"),
+    ("SA", r"south australia|\bsa\b|adelaide|sanfl|adelaide oval|coopers stadium|tour down under|fleurieu|barossa"),
     ("ACT", r"\bact\b|canberra|manuka|gio stadium"),
     ("QLD-REG", r"townsville|cairns|north queensland|mackay|rockhampton|toowoomba|queensland country bank stadium"),
     ("QLD", r"queensland|\bqld\b|brisbane|gold coast|sunshine coast|gabba|suncorp stadium|ipswich|moreton bay|redcliffe"),
-    ("NSW", r"\bnsw\b|new south wales|sydney|newcastle|wollongong|parramatta|penrith|illawarra|accor stadium|allianz stadium|afterpay arena|qudos bank arena|commbank stadium|scg\b|sydney cricket ground|homebush|bathurst|mount panorama|venues nsw|royal randwick|rosehill"),
+    ("NSW", r"\bnsw\b|new south wales|sydney|newcastle|wollongong|parramatta|penrith|illawarra|accor stadium|allianz stadium|afterpay arena|qudos bank arena|commbank stadium|scg\b|sydney cricket ground|homebush|bathurst|mount panorama|venues nsw|royal randwick|rosehill|central coast|city2surf|cruising yacht club|hunter valley|wagga|albury|tamworth|dubbo|coffs harbour|port macquarie|byron|kiama|orange\b"),
     ("VIC", r"victoria\b|victorian|\bvic\b|melbourne|geelong|ballarat|bendigo|mcg\b|marvel stadium|aami park|rod laver|kardinia|flemington|moonee valley|phillip island|australian open|australian grand prix"),
 ]
+
+
+# Properties the name rules can't place: Supercars teams by workshop, events by host city.
+STATE_OF = {
+    "red-energy-arena": "VIC", "hoops-capital": "NSW", "netball-world-cup": "NSW", "vafa": "VIC", "wafl": "WA",
+    "matt-stone-racing": "QLD", "triple-eight-race-engineering": "QLD", "premiair-racing": "QLD",
+    "shell-v-power-racing": "QLD", "brad-jones-racing": "NSW", "tickford-racing": "VIC", "blanchard-racing-team": "VIC",
+    "erebus-motorsport": "VIC", "grove-racing": "VIC", "walkinshaw-andretti-united": "VIC", "team-18": "NSW",
+}
+# Events split across more than one state. Each state on the list counts the property as local.
+MULTI_STATE = {"united-cup": ["NSW", "WA"], "state-of-origin": ["NSW", "QLD"]}
+
+
+def states_of(slug, name="", domain="", city=None):
+    """Every state a property counts as local in (most have one). Empty for national bodies and anything we
+    can't place."""
+    if slug in MULTI_STATE:
+        return list(MULTI_STATE[slug])
+    s = state_of(slug, name, domain, city)
+    return [s] if s else []
 
 
 def state_of(slug, name="", domain="", city=None):
     """Market code for a property ("VIC", "NSW", "QLD", "QLD-REG", "SA", "WA", "TAS", "NT", "ACT", "NZ", ...), or
     None for national bodies, overseas properties and anything we can't place. None never blocks a match."""
     import re
+    if slug in STATE_OF:
+        return STATE_OF[slug]
     c = city or CITY.get(slug)
     if c in CITY_STATE:
         return CITY_STATE[c]

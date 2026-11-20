@@ -256,6 +256,20 @@ a .cf{text-decoration:none}
 .pf-sc{display:block;font-size:11px;color:var(--ink-3);font-weight:500;margin-top:2px}
 .pf-why{font-size:12.5px;color:var(--ink-2);line-height:1.4;min-width:260px}
 #view .ctl2{margin:6px 0 12px}
+.av-s{display:inline-block;font-weight:800;font-size:10px;letter-spacing:.12em;text-transform:uppercase;padding:4px 7px 3px;border:1px solid var(--line);white-space:nowrap;border-radius:999px}
+.av-s.av-open{background:var(--volt);border-color:var(--volt);color:var(--ink)}
+.av-s.av-opening{background:var(--ink);border-color:var(--ink);color:var(--volt)}
+.av-s.av-adjacent{border-color:var(--ink);color:var(--ink)}
+.av-s.av-ending{border-style:dashed;border-color:var(--ink-3);color:var(--ink-3)}
+.av-s.av-taken{color:var(--ink-3)}
+tr.av-open td,tr.av-opening td{background:rgba(210,255,60,.14)}
+.av-p{display:flex;align-items:center;gap:6px;margin:2px 0;white-space:nowrap}
+.av-p.gone{text-decoration:line-through;opacity:.6}
+.av-p.minor{opacity:.55}
+.av-m{color:var(--ink-3);font-weight:500}
+.av-sub{display:block;font-size:12px;margin-top:2px}
+.av-t td{vertical-align:top}
+@media print{#tabs,.ctl,.ctl2,.toolrow,header,footer,.dk-hero,.pro-intro{display:none!important}.av-t{font-size:10px}}
 </style>
 <link rel="stylesheet" href="assets/follow.css?v=2">
 <script>/* Pro gate: everything stays hidden until assets/pro-auth.js lets the member in */
@@ -595,7 +609,7 @@ body.pro header.v2 .dd-m{background:#111}body.pro header.v2 .dd-m a{color:#fff}
 <span class="dk-lbl">Tools</span>
 <button class="tab" data-tab="portfolio" role="tab">Portfolio</button>
 <button class="tab" data-tab="scouting" role="tab">Matches</button>
-<button class="tab" data-tab="finder" role="tab">Brand finder</button>
+<button class="tab" data-tab="finder" role="tab">Brand finder</button> <button class="tab" data-tab="availability" role="tab">Category availability</button>
 <button class="tab" data-tab="renewals" role="tab">Renewal radar</button>
 <button class="tab" data-tab="wagering" role="tab">Wagering exit</button>
 <button class="tab" data-tab="property" role="tab">Property report</button>
@@ -630,7 +644,7 @@ body.pro header.v2 .dd-m{background:#111}body.pro header.v2 .dd-m a{color:#fff}
 <div><span class="g-t">Dashboard</span><h3>The week at a glance</h3><p>New partnerships, renewals and exits across your codes, plus the brands most active in sport right now.</p><button type="button" class="g-go" data-go="dash">Open Dashboard →</button></div>
 <div><span class="g-t">Portfolio</span><h3>Your whole stable, one view</h3><p>For rights holders selling more than one property. Every partner against every event, category coverage across the portfolio, brands to extend and new business to chase.</p><button type="button" class="g-go" data-go="portfolio">Open Portfolio →</button></div>
 <div><span class="g-t">Matches</span><h3>Who should partner with whom</h3><p>Pick a property and get ranked brands that fit it, or pick a brand and get the properties it should be talking to. Each match comes with plain reasons: category, market, audience and history.</p><button type="button" class="g-go" data-go="scouting">Open Matches →</button></div>
-<div><span class="g-t">Brand finder</span><h3>Brands spending in sport</h3><p>Filter every brand by category, code and market. See its full sport portfolio, past and present, with its parent company rolled up.</p><button type="button" class="g-go" data-go="finder">Open Brand finder →</button></div>
+<div><span class="g-t">Brand finder</span><h3>Brands spending in sport</h3><p>Filter every brand by category, code and market. See its full sport portfolio, past and present, with its parent company rolled up.</p><button type="button" class="g-go" data-go="finder">Open Brand finder →</button></div> <div><span class="g-t">Category availability</span><h3>Who has the slot free</h3><p>Pick a category and a state, e.g. energy retail in NSW. Every property comes back open, opening, adjacent or taken, with who holds it, who just left and whether the league holds it.</p><button type="button" class="g-go" data-go="availability">Open Category availability →</button></div>
 <div><span class="g-t">Renewal radar</span><h3>Who's coming up, and when</h3><p>Confirmed and estimated end dates, each labelled, so you know when a partner might be back in play before your rivals do.</p><button type="button" class="g-go" data-go="renewals">Open Renewal radar →</button></div>
 <div><span class="g-t">Wagering exit</span><h3>Every betting slot that has to go</h3><p>Live ANZ wagering partnerships and when each rolls off under the 2026 reforms. Each one is a property that needs a new partner.</p><button type="button" class="g-go" data-go="wagering">Open Wagering exit →</button></div>
 <div><span class="g-t">Property report</span><h3>Any property, in one view</h3><p>Current partners by tier, open categories and the brands that could fill them, upcoming renewals and how it stacks up against its league.</p><button type="button" class="g-go" data-go="property">Open Property report →</button></div>
@@ -673,7 +687,7 @@ if(!matchMedia("(prefers-reduced-motion: reduce)").matches)setInterval(()=>{if(!
 })();</script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="assets/pro-config.js?v=1"></script>
-<script src="assets/pro-auth.js?v=6"></script>
+<script src="assets/pro-auth.js?v=7"></script>
 <script src="assets/chrome.js?v=4"></script>
 </body>
 </html>

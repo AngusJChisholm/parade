@@ -2,12 +2,12 @@ name: Enrich deals and build brand/property pages
 
 # Runs whenever deals.json or entities.json changes (e.g. the 6am update). Adds deal type, term and end
 # year to new deals (tools/enrich.py), confidence and last-verified date (tools/confidence.py), files each property's own partner tiers (tools/ptiers.py), then rebuilds the page for every brand and property plus the
-# sitemap (tools/build_profiles.py), then rebuilds SSS Pro's partner matches and their backtest (tools/match.py).
+# sitemap (tools/build_profiles.py), then rebuilds SSS Pro's partner matches and their backtest (tools/match.py) and Category availability (tools/availability.py).
 # Its own commit triggers one more run, which finds nothing to do.
 on:
   push:
     branches: [main]
-    paths: ["deals.json", "entities.json", "tools/markets.py", "profile.html", "tools/enrich.py", "tools/build_profiles.py", "tools/ptiers.py", "tools/match.py", "tools/subcat_rules.py", "tools/locations.py", "tools/audit.py", "coverage.json", "tools/confidence.py", "tools/build_ticker.py", "data/sources.json", "data/lists.json", "tools/sources.py", "tools/validate.py", "tools/health.py", "tools/track.py", "data/track_rights.json"]
+    paths: ["deals.json", "entities.json", "tools/markets.py", "profile.html", "tools/enrich.py", "tools/build_profiles.py", "tools/ptiers.py", "tools/match.py", "tools/subcat_rules.py", "tools/locations.py", "tools/availability.py", "tools/audit.py", "coverage.json", "tools/confidence.py", "tools/build_ticker.py", "data/sources.json", "data/lists.json", "tools/sources.py", "tools/validate.py", "tools/health.py", "tools/track.py", "data/track_rights.json"]
   workflow_dispatch:
 
 concurrency:
@@ -55,6 +55,7 @@ jobs:
       - name: SSS Pro matches, backtest and data audit
         run: |
           python3 tools/match.py
+          python3 tools/availability.py
           python3 tools/audit.py
           python3 tools/health.py
 
@@ -73,9 +74,9 @@ jobs:
           git add deals.json entities.json brands properties sitemap.xml ticker.json data/sources.json
           if [ "$PRO_PRIVATE" = "1" ]; then
             # Uploaded to the private bucket, so take them out of the public repo and site.
-            git rm -q --cached --ignore-unmatch pro/matches.json pro/audit.json pro/health.json
+            git rm -q --cached --ignore-unmatch pro/matches.json pro/audit.json pro/health.json pro/availability.json
           else
-            git add -f pro/matches.json pro/audit.json pro/health.json
+            git add -f pro/matches.json pro/audit.json pro/health.json pro/availability.json
           fi
           if git diff --cached --quiet; then echo "Nothing new"; exit 0; fi
           git commit -m "Brand and property pages [skip netlify]"
