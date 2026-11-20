@@ -19,6 +19,7 @@ Liveness uses the same rule as Match Score (tools/match.py Model): not ended, an
 passed, or (with no end year) announced or last checked in the last 36 months, or listed on the official partners
 page. State comes from tools/locations.py (states_of). National bodies and leagues have no state: the page shows
 them under "National" and, for a club, flags when its league or governing body holds the slot.
+A property with "inactive" set in entities.json (an event not on next season's calendar) is left out.
 """
 import json, sys, datetime, collections
 from pathlib import Path
@@ -90,6 +91,8 @@ def main():
         if M.region[p] != "ANZ":
             continue
         e = ent.get(p) or {}
+        if e.get("inactive"):
+            continue
         rows = []
         seen = {}
         for r in M.P[p]:

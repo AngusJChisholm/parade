@@ -69898,7 +69898,8 @@
     "Strategic Partner",
     "Event Partner",
     "Official Suppliers"
-   ]
+   ],
+   "inactive": "Not on the 2027 SailGP calendar (Perth is the only Australian event in 2027)"
   },
   "sailgp-valencia-sail-grand-prix": {
    "name": "SailGP Valencia Sail Grand Prix",
@@ -92386,6 +92387,22 @@
   },
   "zwift": {
    "name": "Zwift",
+   "k": "b"
+  },
+  "bathurst-12-hour": {
+   "name": "Bathurst 12 Hour",
+   "aliases": [
+    "Meguiar's Bathurst 12 Hour"
+   ],
+   "domain": "bathurst12hour.com.au",
+   "ptype": "Event",
+   "k": "p",
+   "market": "ANZ"
+  },
+  "meguiar-s": {
+   "name": "Meguiar's",
+   "cat": "Automotive",
+   "domain": "meguiars.com.au",
    "k": "b"
   }
  },
