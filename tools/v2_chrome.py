@@ -44,6 +44,7 @@ def footer(p, year='<span id="yr">2026</span>'):
 <div class="tk" id="tk" aria-label="Latest partnerships" hidden></div>"""
 
 
+ARRIVE = '<script>try{if(sessionStorage.getItem("pd-flaps")==="1"&&!matchMedia("(prefers-reduced-motion: reduce)").matches)document.documentElement.classList.add("pd-arrive")}catch(e){}</script>'
 HEAD_RE = re.compile(r"<header\b[^>]*>.*?</header>", re.S)
 FOOT_RE = re.compile(r"<footer\b[^>]*>.*?</footer>(?:\n<div class=\"tk\" id=\"tk\"[^>]*></div>)?", re.S)
 # Old per-page menu toggles: chrome.js handles the menu now, and two toggles cancel each other out.
@@ -61,9 +62,11 @@ def apply(text, p, year=None):
     for r in OLD_MENU:
         text = r.sub("", text)
     if "chrome.css" not in text:
-        text = text.replace("</head>", f'<link rel="stylesheet" href="{p}assets/chrome.css?v=4">\n</head>', 1)
+        text = text.replace("</head>", f'<link rel="stylesheet" href="{p}assets/chrome.css?v=5">\n</head>', 1)
+    if "pd-arrive" not in text:  # page-change flaps: cover the page on arrival until chrome.js opens them
+        text = re.sub(r'(<link rel="stylesheet" href="[^"]*assets/chrome\.css[^"]*">)', lambda m: m.group(1) + "\n" + ARRIVE, text, count=1)
     if "chrome.js" not in text:
-        text = text.replace("</body>", f'<script src="{p}assets/chrome.js?v=4"></script>\n</body>', 1)
+        text = text.replace("</body>", f'<script src="{p}assets/chrome.js?v=5"></script>\n</body>', 1)
     return text
 
 
