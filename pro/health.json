@@ -75,24 +75,24 @@
   },
   {
    "date": "2026-11-20",
-   "score": 50.1,
+   "score": 50.0,
    "partial": true,
    "areas": {
-    "Completeness": 32.4,
-    "Consistency": 37.1,
+    "Completeness": 32.3,
+    "Consistency": 37.2,
     "Freshness": 68.9,
     "Sources": 63.6,
-    "Logos": 63.3
+    "Logos": 63.0
    },
    "metrics": {
     "Completeness": {
      "Key-market clubs checked %": 68.0,
      "New partnerships with term or stated end %": 26.1,
-     "Brands (2+ partnerships) with category %": 60.0,
+     "Brands (2+ partnerships) with category %": 59.8,
      "Major partner-page rows with announcement date %": 0.0
     },
     "Consistency": {
-     "Rows on controlled lists %": 71.7,
+     "Rows on controlled lists %": 71.8,
      "Open duplicates": 55
     },
     "Freshness": {
@@ -105,31 +105,31 @@
      "Announced partnerships on an official source %": 36.1
     },
     "Logos": {
-     "Brand logo coverage (by partnerships) %": 58.0
+     "Brand logo coverage (by partnerships) %": 57.8
     }
    }
   }
  ],
  "latest": {
   "date": "2026-11-20",
-  "score": 50.1,
+  "score": 50.0,
   "partial": true,
   "areas": {
-   "Completeness": 32.4,
-   "Consistency": 37.1,
+   "Completeness": 32.3,
+   "Consistency": 37.2,
    "Freshness": 68.9,
    "Sources": 63.6,
-   "Logos": 63.3
+   "Logos": 63.0
   },
   "metrics": {
    "Completeness": {
     "Key-market clubs checked %": 68.0,
     "New partnerships with term or stated end %": 26.1,
-    "Brands (2+ partnerships) with category %": 60.0,
+    "Brands (2+ partnerships) with category %": 59.8,
     "Major partner-page rows with announcement date %": 0.0
    },
    "Consistency": {
-    "Rows on controlled lists %": 71.7,
+    "Rows on controlled lists %": 71.8,
     "Open duplicates": 55
    },
    "Freshness": {
@@ -142,7 +142,7 @@
     "Announced partnerships on an official source %": 36.1
    },
    "Logos": {
-    "Brand logo coverage (by partnerships) %": 58.0
+    "Brand logo coverage (by partnerships) %": 57.8
    }
   }
  }
