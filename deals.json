@@ -40583,11 +40583,11 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-19",
-   "ttier": "T1",
-   "tbasis": "role",
    "since": 2020,
    "sinceBasis": "news",
-   "sinceUrl": "https://www.mercedesamgf1.com/news/mercedes-announces-principal-partnership-with-ineos"
+   "sinceUrl": "https://www.mercedesamgf1.com/news/mercedes-announces-principal-partnership-with-ineos",
+   "ttier": "T1",
+   "tbasis": "role"
   },
   {
    "listed": "2026-11-19",
@@ -40620,11 +40620,11 @@
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-19",
-   "ttier": "T1",
-   "tbasis": "rights",
    "since": 2010,
    "sinceBasis": "news",
-   "sinceUrl": "https://www.mercedesamgf1.com/en/news/2022/09/mercedes-amg-f1-petronas-power-towards-two-decades-partnership-embrace-f1-sustainable-future"
+   "sinceUrl": "https://www.mercedesamgf1.com/en/news/2022/09/mercedes-amg-f1-petronas-power-towards-two-decades-partnership-embrace-f1-sustainable-future",
+   "ttier": "T1",
+   "tbasis": "rights"
   },
   {
    "listed": "2026-11-19",
@@ -42386,11 +42386,11 @@
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-19",
-   "ttier": "T1",
-   "tbasis": "rights",
    "since": 2022,
    "sinceBasis": "news",
-   "sinceUrl": "https://www.aramco.com/en/news-media/news/2023/aramco-extends-successful-partnership-with-aston-martin-formula-one"
+   "sinceUrl": "https://www.aramco.com/en/news-media/news/2023/aramco-extends-successful-partnership-with-aston-martin-formula-one",
+   "ttier": "T1",
+   "tbasis": "rights"
   },
   {
    "listed": "2026-11-19",
@@ -236180,11 +236180,11 @@
    "verified": "2026-11-19",
    "ptier": "Title partner",
    "checked": "2026-11-19",
-   "ttier": "T1",
-   "tbasis": "rights",
    "since": 2021,
    "sinceBasis": "news",
-   "sinceUrl": "https://www.timeslive.co.za/motoring/motorsport/2022-02-09-oracle-signs-f1-title-sponsorship-deal-with-red-bull/"
+   "sinceUrl": "https://www.timeslive.co.za/motoring/motorsport/2022-02-09-oracle-signs-f1-title-sponsorship-deal-with-red-bull/",
+   "ttier": "T1",
+   "tbasis": "rights"
   },
   {
    "date": "2026-03-05",
@@ -368806,7 +368806,6 @@
    "sinceBasis": "wayback",
    "ended": 2021,
    "ends": 2021,
-   "verified": "2026-11-20",
    "source": "wayback"
   }
  ]
