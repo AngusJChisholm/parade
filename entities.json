@@ -12597,7 +12597,8 @@
   },
   "brecon-brewing": {
    "name": "Brecon Brewing",
-   "cat": "Alcohol"
+   "cat": "Alcohol",
+   "k": "b"
   },
   "brecon-carreg": {
    "name": "Brecon Carreg",
@@ -28093,7 +28094,8 @@
    "k": "b"
   },
   "extra": {
-   "name": "Extra"
+   "name": "Extra",
+   "k": "b"
   },
   "extramarks": {
    "name": "Extramarks",
@@ -34115,7 +34117,8 @@
    "k": "b"
   },
   "green-flag": {
-   "name": "Green Flag"
+   "name": "Green Flag",
+   "k": "b"
   },
   "green-food-maker": {
    "name": "Green Food Maker",
@@ -44120,7 +44123,8 @@
    "k": "b"
   },
   "kind": {
-   "name": "KIND"
+   "name": "KIND",
+   "k": "b"
   },
   "kind-wealth": {
    "name": "Kind Wealth",
@@ -46556,7 +46560,8 @@
    ],
    "ptiers": [
     "Headline partner",
-    "Associate partner"
+    "Associate partner",
+    "Official partner"
    ],
    "ptiersChecked": "2026-11-17"
   },
@@ -61741,7 +61746,8 @@
   },
   "perform-better": {
    "name": "Perform Better",
-   "cat": "Betting & wagering"
+   "cat": "Betting & wagering",
+   "k": "b"
   },
   "performance-physio": {
    "name": "Performance Physio",
@@ -80516,7 +80522,8 @@
    "k": "b"
   },
   "the-brogue-trader": {
-   "name": "The Brogue Trader"
+   "name": "The Brogue Trader",
+   "k": "b"
   },
   "the-broncos-club": {
    "name": "The Broncos Club",
