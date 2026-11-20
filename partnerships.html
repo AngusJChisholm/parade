@@ -430,7 +430,7 @@ a.st:hover b{box-shadow:inset 0 -.12em 0 var(--volt)}
 </div></section>
 <!-- follow:start -->
 <section class="sf" id="follow"><div class="sf-w">
-<div class="sf-r"><div><h2>The Weekly Edition.</h2><p>Every partnership from the week, in your inbox Monday mornings.</p></div>
+<div class="sf-r"><div><h2>The Edition.</h2><p>The partnerships worth knowing, straight to your inbox.</p></div>
 <div class="sf-a"><span class="sf-b sf-soon" aria-disabled="true">Coming soon</span><a class="sf-b sf-o" href="https://www.linkedin.com/company/sportsportsport/" target="_blank" rel="noopener">LinkedIn</a><a class="sf-b sf-o" href="https://www.instagram.com/sportsportsport.hq/" target="_blank" rel="noopener">Instagram</a></div></div>
 </div></section>
 <!-- follow:end -->
@@ -540,7 +540,7 @@ function newsletter(){
   const n=SITE.newsletter||{}, u=String(n.embed||"");
   if(!/^https:\/\/embeds\.beehiiv\.com\/[A-Za-z0-9-]+/.test(u))return; // keeps the "Coming soon" button
   const src=u+(u.includes("?")?"&":"?")+"slim=true";
-  $("nlF").innerHTML=`<iframe src="${esc(src)}" title="Subscribe to the Parade Weekly Edition" loading="lazy" scrolling="no"></iframe><small>No spam. Unsubscribe any time.</small>`;
+  $("nlF").innerHTML=`<iframe src="${esc(src)}" title="Subscribe to the Parade Edition" loading="lazy" scrolling="no"></iframe><small>No spam. Unsubscribe any time.</small>`;
 }
 function follow(){
   const li=SITE.linkedin, ig=SITE.instagram;
