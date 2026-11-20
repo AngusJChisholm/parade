@@ -80,7 +80,7 @@ STATE_OF = {
     "erebus-motorsport": "VIC", "grove-racing": "VIC", "walkinshaw-andretti-united": "VIC", "team-18": "NSW",
 }
 # Events split across more than one state. Each state on the list counts the property as local.
-MULTI_STATE = {"united-cup": ["NSW", "WA"], "state-of-origin": ["NSW", "QLD"]}
+MULTI_STATE = {"united-cup": ["NSW", "WA"], "state-of-origin": ["NSW", "QLD"], "sydney-hobart-yacht-race": ["NSW", "TAS"]}
 
 
 def states_of(slug, name="", domain="", city=None):
