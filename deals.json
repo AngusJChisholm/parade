@@ -55,7 +55,11 @@
    "verified": "2026-11-20",
    "ptier": "Major partner",
    "ends": 2028,
-   "endsLock": true
+   "endsLock": true,
+   "ttier": "T2",
+   "tbasis": "role",
+   "tends": 2028,
+   "tendsBasis": "stated"
   },
   {
    "date": "2025-11-26",
@@ -70,7 +74,9 @@
    "status": "New",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-20"
+   "verified": "2026-11-20",
+   "tends": 2027,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-01-08",
@@ -104,7 +110,11 @@
    "conf": "Confirmed",
    "verified": "2026-11-20",
    "term": 1,
-   "ends": 2027
+   "ends": 2027,
+   "ttier": "Gov",
+   "tbasis": "role",
+   "tends": 2027,
+   "tendsBasis": "stated"
   },
   {
    "date": "2025-11-26",
@@ -119,7 +129,9 @@
    "status": "New",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-20"
+   "verified": "2026-11-20",
+   "tends": 2027,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-12-15",
@@ -186,7 +198,9 @@
    "conf": "Confirmed",
    "verified": "2026-11-20",
    "listed": "2026-11-20",
-   "ptier": "Official partner"
+   "ptier": "Official partner",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "date": "2026-01-07",
@@ -218,7 +232,11 @@
    "status": "New",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-20"
+   "verified": "2026-11-20",
+   "ttier": "T2",
+   "tbasis": "rights",
+   "tends": 2028,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-10-26",
@@ -233,7 +251,11 @@
    "status": "New",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-20"
+   "verified": "2026-11-20",
+   "ttier": "T2",
+   "tbasis": "rights",
+   "tends": 2028,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-11-19",
@@ -220582,7 +220604,7 @@
    "ptier": "Official sponsor",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-20"
   },
   {
    "deal": "Youi × Hobart Hurricanes",
@@ -220598,7 +220620,11 @@
    "conf": "Confirmed",
    "verified": "2026-11-20",
    "date": "2026-10-26",
-   "added": "2026-11-20"
+   "added": "2026-11-20",
+   "ttier": "T2",
+   "tbasis": "rights",
+   "tends": 2028,
+   "tendsBasis": "league"
   },
   {
    "deal": "Wilson Security × Hobart Hurricanes",
@@ -220616,7 +220642,11 @@
    "since": 2021,
    "sinceBasis": "wayback",
    "date": "2026-10-06",
-   "added": "2026-11-20"
+   "added": "2026-11-20",
+   "ttier": "T3",
+   "tbasis": "category",
+   "tends": 2028,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-11-16",
@@ -220631,7 +220661,7 @@
    "ptier": "Media partner",
    "tier": "Media & broadcast",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "ttier": "Media",
    "tbasis": "rights"
   },
@@ -220648,7 +220678,7 @@
    "ptier": "Media partner",
    "tier": "Media & broadcast",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "ttier": "Media",
    "tbasis": "rights"
   },
@@ -220665,7 +220695,7 @@
    "ptier": "Media partner",
    "tier": "Media & broadcast",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "since": 2023,
    "sinceBasis": "wayback",
    "ttier": "Media",
@@ -220684,7 +220714,7 @@
    "ptier": "Media partner",
    "tier": "Media & broadcast",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "since": 2023,
    "sinceBasis": "wayback",
    "ttier": "Media",
@@ -220703,7 +220733,7 @@
    "ptier": "Charity partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "ttier": "T4",
    "tbasis": "role"
   },
@@ -220720,7 +220750,7 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "since": 2025,
    "sinceBasis": "wayback"
   },
@@ -220737,7 +220767,7 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "since": 2021,
    "sinceBasis": "wayback"
   },
@@ -220754,7 +220784,7 @@
    "ptier": "Charity partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "ttier": "T4",
    "tbasis": "role"
   },
@@ -220771,7 +220801,7 @@
    "ptier": "Supply partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "ttier": "T4",
    "tbasis": "role"
   },
@@ -220788,7 +220818,7 @@
    "ptier": "Supply partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "ttier": "T4",
    "tbasis": "role"
   },
@@ -220805,7 +220835,7 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-20"
   },
   {
    "listed": "2026-11-16",
@@ -220820,7 +220850,7 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-20"
   },
   {
    "listed": "2026-11-16",
@@ -220835,7 +220865,7 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "since": 2022,
    "sinceBasis": "wayback"
   },
@@ -220852,7 +220882,7 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "since": 2024,
    "sinceBasis": "wayback"
   },
@@ -220869,7 +220899,7 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "since": 2024,
    "sinceBasis": "wayback"
   },
@@ -220886,7 +220916,7 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "since": 2021,
    "sinceBasis": "wayback"
   },
@@ -220903,7 +220933,7 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "since": 2022,
    "sinceBasis": "wayback"
   },
@@ -220920,7 +220950,7 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "since": 2024,
    "sinceBasis": "wayback"
   },
@@ -220937,7 +220967,7 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-20"
   },
   {
    "listed": "2026-11-16",
@@ -220952,7 +220982,7 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "ttier": "Gov",
    "tbasis": "role"
   },
@@ -220969,7 +220999,7 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "since": 2021,
    "sinceBasis": "wayback"
   },
@@ -220986,7 +221016,7 @@
    "ptier": "Major partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "datesTried": "2026-11-18",
    "ttier": "T2",
    "tbasis": "role"
@@ -221004,7 +221034,7 @@
    "ptier": "Principal partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "date": "2024-12-12",
    "rights": [
     "Logo on front of men's home and away playing shirts"
@@ -221030,7 +221060,7 @@
    "ptier": "Media partner",
    "tier": "Media & broadcast",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "ttier": "Media",
    "tbasis": "rights"
   },
@@ -221047,7 +221077,7 @@
    "ptier": "Media partner",
    "tier": "Media & broadcast",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "since": 2024,
    "sinceBasis": "wayback",
    "ttier": "Media",
@@ -221066,7 +221096,7 @@
    "ptier": "Media partner",
    "tier": "Media & broadcast",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "since": 2023,
    "sinceBasis": "wayback",
    "ttier": "Media",
@@ -221085,7 +221115,7 @@
    "ptier": "Media partner",
    "tier": "Media & broadcast",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "since": 2021,
    "sinceBasis": "wayback",
    "ttier": "Media",
@@ -221104,7 +221134,7 @@
    "ptier": "Media partner",
    "tier": "Media & broadcast",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "since": 2022,
    "sinceBasis": "wayback",
    "ttier": "Media",
@@ -221123,7 +221153,7 @@
    "ptier": "Sponsor partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "since": 2024,
    "sinceBasis": "wayback"
   },
@@ -221140,7 +221170,7 @@
    "ptier": "Sponsor partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "since": 2024,
    "sinceBasis": "wayback"
   },
@@ -221157,7 +221187,7 @@
    "ptier": "Sponsor partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "since": 2024,
    "sinceBasis": "wayback"
   },
@@ -221174,7 +221204,7 @@
    "ptier": "Sponsor partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-20"
   },
   {
    "listed": "2026-11-16",
@@ -221189,7 +221219,7 @@
    "ptier": "Sponsor partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "since": 2023,
    "sinceBasis": "wayback"
   },
@@ -221206,7 +221236,7 @@
    "ptier": "Sponsor partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "since": 2021,
    "sinceBasis": "wayback"
   },
@@ -221223,7 +221253,7 @@
    "ptier": "Sponsor partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-20"
   },
   {
    "listed": "2026-11-16",
@@ -221238,7 +221268,7 @@
    "ptier": "Sponsor partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "ttier": "Gov",
    "tbasis": "role"
   },
@@ -221255,7 +221285,7 @@
    "ptier": "Sponsor partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "since": 2024,
    "sinceBasis": "wayback"
   },
@@ -221272,7 +221302,7 @@
    "ptier": "Sponsor partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "since": 2022,
    "sinceBasis": "wayback"
   },
@@ -221289,7 +221319,7 @@
    "ptier": "Sponsor partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "since": 2021,
    "sinceBasis": "wayback"
   },
@@ -221306,7 +221336,7 @@
    "ptier": "Official partner",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-20"
   },
   {
    "listed": "2026-11-16",
@@ -221321,7 +221351,7 @@
    "tier": "Official partner",
    "ptier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-20"
   },
   {
    "deal": "Youi × Melbourne Stars",
@@ -221337,7 +221367,11 @@
    "conf": "Confirmed",
    "verified": "2026-11-20",
    "date": "2026-10-26",
-   "added": "2026-11-20"
+   "added": "2026-11-20",
+   "ttier": "T2",
+   "tbasis": "rights",
+   "tends": 2028,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-11-16",
@@ -221352,7 +221386,7 @@
    "tier": "Official partner",
    "ptier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-20"
   },
   {
    "deal": "Youi × Sydney Thunder",
@@ -221368,7 +221402,11 @@
    "conf": "Confirmed",
    "verified": "2026-11-20",
    "date": "2026-10-26",
-   "added": "2026-11-20"
+   "added": "2026-11-20",
+   "ttier": "T2",
+   "tbasis": "rights",
+   "tends": 2028,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-11-16",
@@ -221383,7 +221421,7 @@
    "market": "ANZ",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "since": 2025,
    "sinceBasis": "wayback"
   },
@@ -221400,7 +221438,7 @@
    "market": "ANZ",
    "tier": "Official partner",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-20"
   },
   {
    "date": "2026-11-12",
@@ -229139,7 +229177,7 @@
    "status": "New",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-20",
+   "verified": "2026-11-02",
    "ttier": "T3",
    "tbasis": "category",
    "tends": 2028,
@@ -229236,7 +229274,7 @@
    "endsEst": true,
    "market": "ANZ",
    "conf": "Reported",
-   "verified": "2026-11-20",
+   "verified": "2026-10-30",
    "ttier": "T3",
    "tbasis": "category",
    "tends": 2028,
@@ -229258,7 +229296,7 @@
    "ptier": "Principal partner",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-20",
+   "verified": "2026-11-16",
    "since": 2024,
    "sinceBasis": "wayback",
    "ttier": "T1",
@@ -229283,7 +229321,7 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-20",
+   "verified": "2026-11-16",
    "ttier": "T3",
    "tbasis": "category",
    "tends": 2028,
@@ -229665,7 +229703,7 @@
    "ends": 2027,
    "endsLock": true,
    "conf": "Confirmed",
-   "verified": "2026-11-20",
+   "verified": "2026-11-16",
    "tends": 2027,
    "tendsBasis": "stated"
   },
@@ -231299,7 +231337,7 @@
    "status": "New",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-20",
+   "verified": "2026-10-20",
    "ttier": "Gov",
    "tbasis": "role",
    "tends": 2028,
@@ -232956,7 +232994,7 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-20",
+   "verified": "2026-11-16",
    "ttier": "T1",
    "tbasis": "rights",
    "tends": 2028,
@@ -237395,7 +237433,7 @@
    "checked": "2026-11-16",
    "url": "https://www.perthscorchers.com.au/news/4559237/perth-scorchers-and-budget-drive-new-official-partnership",
    "conf": "Confirmed",
-   "verified": "2026-11-20",
+   "verified": "2026-11-16",
    "tends": 2028,
    "tendsBasis": "league"
   },
@@ -237942,7 +237980,7 @@
    "market": "ANZ",
    "url": "https://www.brisbaneheat.com.au/news/4568053/first-ball-a-must-watch-event-seiko-links-with-brisbane-heat",
    "conf": "Confirmed",
-   "verified": "2026-11-20",
+   "verified": "2026-08-28",
    "tends": 2028,
    "tendsBasis": "league"
   },
@@ -238565,7 +238603,7 @@
    "market": "ANZ",
    "url": "https://www.brisbaneheat.com.au/news/4547217/heat-build-on-success-extend-plantation-homes-partnership-monday-27-july-2026",
    "conf": "Confirmed",
-   "verified": "2026-11-20",
+   "verified": "2026-07-27",
    "since": 2024,
    "sinceBasis": "wayback",
    "tends": 2028,
@@ -240857,7 +240895,7 @@
    "ends": 2028,
    "endsLock": true,
    "conf": "Confirmed",
-   "verified": "2026-11-20",
+   "verified": "2026-11-16",
    "ttier": "T2",
    "tbasis": "role",
    "tends": 2028,
@@ -241054,7 +241092,7 @@
    "checked": "2026-11-16",
    "url": "https://www.perthscorchers.com.au/news/4577605/aami-to-join-scorchers-family-in-new-western-australian-community-partnership",
    "conf": "Confirmed",
-   "verified": "2026-11-20",
+   "verified": "2026-11-16",
    "ttier": "T1",
    "tbasis": "role",
    "tends": 2028,
@@ -241076,7 +241114,7 @@
    "ends": 2027,
    "endsLock": true,
    "conf": "Confirmed",
-   "verified": "2026-11-20",
+   "verified": "2026-11-16",
    "since": 2024,
    "sinceBasis": "wayback",
    "ttier": "T1",
@@ -241472,7 +241510,7 @@
    "url": "https://sportsmintmedia.com/cub-cadet-takes-its-place-on-the-brisbane-heat-summer-stage/",
    "market": "ANZ",
    "conf": "Reported",
-   "verified": "2026-11-20",
+   "verified": "2026-09-30",
    "tends": 2028,
    "tendsBasis": "league"
   },
@@ -246761,11 +246799,9 @@
    "ends": 2026,
    "endsLock": true,
    "conf": "Confirmed",
-   "verified": "2026-11-20",
+   "verified": "2025-06-25",
    "since": 2023,
    "sinceBasis": "wayback",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": 2026
   },
   {
@@ -247069,7 +247105,7 @@
    "checked": "2026-11-16",
    "url": "https://jonesradiology.com.au/saca-sponsorship-announcement",
    "conf": "Confirmed",
-   "verified": "2026-11-20",
+   "verified": "2026-11-16",
    "tends": 2027,
    "tendsBasis": "league"
   },
@@ -249720,11 +249756,9 @@
    "ends": 2026,
    "endsLock": true,
    "conf": "Confirmed",
-   "verified": "2026-11-20",
+   "verified": "2025-11-12",
    "since": 2023,
    "sinceBasis": "wayback",
-   "tends": 2026,
-   "tendsBasis": "stated",
    "ended": true
   },
   {
@@ -273466,7 +273500,9 @@
    "ptier": "Official sponsor",
    "checked": "2026-11-16",
    "conf": "Reported",
-   "verified": "2026-11-20",
+   "verified": "2026-11-16",
+   "ttier": "T3",
+   "tbasis": "category",
    "tends": 2028,
    "tendsBasis": "league"
   },
@@ -283843,7 +283879,9 @@
    "conf": "Confirmed",
    "verified": "2026-11-20",
    "date": "2026-09-30",
-   "added": "2026-11-20"
+   "added": "2026-11-20",
+   "tends": 2028,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-10-30",
@@ -283859,7 +283897,7 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "since": 2021,
    "sinceBasis": "wayback"
   },
@@ -283877,7 +283915,7 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "date": "2024-10-25",
    "rights": [
     "front of WBBL playing shirt"
@@ -283904,7 +283942,7 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-20"
   },
   {
    "listed": "2026-10-30",
@@ -283920,7 +283958,7 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-20"
   },
   {
    "listed": "2026-10-30",
@@ -283936,7 +283974,7 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-20"
   },
   {
    "listed": "2026-10-30",
@@ -283952,7 +283990,7 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "ttier": "Gov",
    "tbasis": "role"
   },
@@ -283970,7 +284008,7 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "since": 2024,
    "sinceBasis": "wayback"
   },
@@ -283988,7 +284026,7 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "since": 2021,
    "sinceBasis": "wayback",
    "ttier": "Gov",
@@ -284008,7 +284046,7 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "ttier": "Gov",
    "tbasis": "role"
   },
@@ -284026,7 +284064,7 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-20"
   },
   {
    "deal": "CITECO × Melbourne Renegades",
@@ -284043,7 +284081,9 @@
    "conf": "Confirmed",
    "verified": "2026-11-20",
    "date": "2025-12-17",
-   "added": "2026-11-20"
+   "added": "2026-11-20",
+   "tends": 2027,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-10-30",
@@ -284059,7 +284099,7 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-20"
   },
   {
    "listed": "2026-10-30",
@@ -284075,7 +284115,7 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "since": 2024,
    "sinceBasis": "wayback"
   },
@@ -284093,7 +284133,7 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "since": 2024,
    "sinceBasis": "wayback",
    "ttier": "T4",
@@ -284113,7 +284153,7 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "since": 2024,
    "sinceBasis": "wayback",
    "ttier": "T4",
@@ -284133,7 +284173,7 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "since": 2024,
    "sinceBasis": "wayback",
    "ttier": "T4",
@@ -284153,7 +284193,7 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "ttier": "T4",
    "tbasis": "role"
   },
@@ -284170,7 +284210,7 @@
    "ptier": "Principal partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "ended": true,
    "since": 2021,
    "sinceBasis": "wayback"
@@ -284188,7 +284228,7 @@
    "ptier": "Principal partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "ended": true
   },
   {
@@ -284205,7 +284245,7 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "datesTried": "2026-11-19",
    "since": 2021,
    "sinceBasis": "wayback",
@@ -284225,7 +284265,7 @@
    "ptier": "Official partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "ended": true
   },
   {
@@ -284242,7 +284282,7 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "since": 2021,
    "sinceBasis": "wayback"
   },
@@ -284259,7 +284299,7 @@
    "ptier": "Official partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "ended": true
   },
   {
@@ -284275,7 +284315,7 @@
    "ptier": "Official partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "ended": true
   },
   {
@@ -284291,7 +284331,7 @@
    "ptier": "Official partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "ended": true
   },
   {
@@ -284308,7 +284348,7 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "since": 2021,
    "sinceBasis": "wayback"
   },
@@ -284326,7 +284366,7 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "ttier": "Gov",
    "tbasis": "role"
   },
@@ -284343,7 +284383,7 @@
    "ptier": "Official partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "ended": true
   },
   {
@@ -284359,7 +284399,7 @@
    "ptier": "Media partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "ended": true
   },
   {
@@ -284376,7 +284416,7 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "date": "2025-10-02",
    "term": 3,
    "ends": 2026,
@@ -284405,7 +284445,7 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "since": 2025,
    "sinceBasis": "wayback"
   },
@@ -284423,7 +284463,7 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "ttier": "Gov",
    "tbasis": "role"
   },
@@ -284440,7 +284480,7 @@
    "ptier": "Official partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "ended": true,
    "since": 2025,
    "sinceBasis": "wayback"
@@ -284459,12 +284499,12 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "datesTried": "2026-11-19",
-   "ttier": "T1",
-   "tbasis": "role",
    "since": 2024,
-   "sinceBasis": "wayback"
+   "sinceBasis": "wayback",
+   "ttier": "T1",
+   "tbasis": "role"
   },
   {
    "listed": "2026-10-30",
@@ -284480,7 +284520,7 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "datesTried": "2026-11-19",
    "since": 2024,
    "sinceBasis": "wayback",
@@ -284501,11 +284541,11 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
-   "ttier": "Gov",
-   "tbasis": "role",
+   "verified": "2026-11-20",
    "since": 2023,
-   "sinceBasis": "wayback"
+   "sinceBasis": "wayback",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "listed": "2026-10-30",
@@ -284521,7 +284561,7 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-20"
   },
   {
    "listed": "2026-10-30",
@@ -284537,7 +284577,7 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "since": 2023,
    "sinceBasis": "wayback"
   },
@@ -284555,7 +284595,7 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "since": 2021,
    "sinceBasis": "wayback"
   },
@@ -284573,7 +284613,7 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "since": 2024,
    "sinceBasis": "wayback"
   },
@@ -284591,7 +284631,7 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "since": 2022,
    "sinceBasis": "wayback"
   },
@@ -284609,7 +284649,7 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "since": 2021,
    "sinceBasis": "wayback"
   },
@@ -284626,7 +284666,7 @@
    "ptier": "Official partner",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "ended": true
   },
   {
@@ -284643,7 +284683,7 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "since": 2024,
    "sinceBasis": "wayback"
   },
@@ -284661,7 +284701,7 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "since": 2025,
    "sinceBasis": "wayback"
   },
@@ -284679,7 +284719,7 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "since": 2022,
    "sinceBasis": "wayback"
   },
@@ -284697,7 +284737,7 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16",
+   "verified": "2026-11-20",
    "since": 2025,
    "sinceBasis": "wayback"
   },
@@ -284715,7 +284755,7 @@
    "market": "ANZ",
    "checked": "2026-11-16",
    "conf": "Confirmed",
-   "verified": "2026-11-16"
+   "verified": "2026-11-20"
   },
   {
    "listed": "2026-10-30",
