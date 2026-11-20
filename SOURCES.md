@@ -1,4 +1,4 @@
-# Sport Sport Sport - deal sources
+# Parade - partnership sources
 
 The daily scan works through this list every weekday. Search it with `site:` queries for the last 24-48 hours
 (e.g. `site:sportspro.com partnership`), plus plain-language searches like "named official partner", "signs
@@ -102,7 +102,7 @@ sponsorship", "naming rights", "jersey patch", "front-of-shirt" and "extends par
 
 ### Australia
 - B&T - bandt.com.au (weekly "Spotlight On Sponsors" column)
-- Never use Scout (scoutsponsor.com or scout-sponsor.beehiiv.com) or any other paid sponsorship database: not as a source, a lead list or a link. Scout is a direct competitor to SSS Pro.
+- Never use Scout (scoutsponsor.com or scout-sponsor.beehiiv.com) or any other paid sponsorship database: not as a source, a lead list or a link. Scout is a direct competitor to Partnership Pro.
 - mi-3 - mi-3.com.au
 - Mumbrella - mumbrella.com.au
 - AdNews - adnews.com.au
@@ -196,12 +196,12 @@ The lead's deals.json "image" is the single photo for the website, LinkedIn and 
   doesn't, Angus picked the LinkedIn one: copy it into deals.json.
 
 ### 6. Weekly schedule (from 3 Nov 2026)
-SSS no longer posts deals every weekday. The week is:
-- Monday: Feature (website article, LinkedIn post + graphics, Instagram carousel). Task: "Sport Sport Sport Monday feature".
-- Tuesday: Deals. Task: "Sport Sport Sport deals (Tue/Thu)".
-- Wednesday: Data drop - one insight built from our own archive (deals.json, coverage.json, partners and properties data). Task: "Sport Sport Sport Wednesday data drop".
+Parade no longer posts deals every weekday. The week is:
+- Monday: Feature (website article, LinkedIn post + graphics, Instagram carousel). Task: "Parade Monday feature".
+- Tuesday: Deals. Task: "Parade partnerships (Tue/Thu)".
+- Wednesday: Data drop - one insight built from our own archive (deals.json, coverage.json, partners and properties data). Task: "Parade Wednesday data drop".
 - Thursday: Deals. Same task as Tuesday.
-- Friday: Deal breakdown - the week's best deal unpacked in depth. Task: "Sport Sport Sport Friday breakdown".
+- Friday: Deal breakdown - the week's best deal unpacked in depth. Task: "Parade Friday breakdown".
 - Weekends: nothing posts.
 Deal run windows: Tuesday covers everything announced since the Thursday run (the last 5 days, Fri to Tue); Thursday
 covers the last 3 days (Tue to Thu). Wherever a prompt or the skill says "last 72 hours", "last 48 hours" or "last 24

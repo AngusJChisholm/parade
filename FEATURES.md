@@ -58,6 +58,7 @@ say who a brand replaced unless an official release says so. Write in your own w
 6. **LinkedIn (post copy + 2 graphics).**
    - Write instagram/linkedin/<date>.json:
      `{"date":"YYYY-MM-DD","headline_lines":["3-5 short lines","of the headline","in caps-friendly words"],"highlight":"one line from headline_lines to colour volt","deal":"line 1 under the headline (e.g. Brand x Property, or the subject)","descriptor":"line 2 (e.g. Feature, Data drop, Breakdown)","label":"slide 2 heading","others":[{"deal":"2-5 word bold line","sub":"one short line"}, ... 3 to 5 rows],"image":"the features.json image"}`
+     Optional: "status" (a tag on the photo, e.g. "New", "Data drop") and "logos" (verified files in assets/logos/ only: {"brand":...,"property":...} for the lead, a [brand, property] list on each "others" row). Leave "logos" out and the renderer finds verified logos itself by name; with no verified logo the name stays as text.
      Slide 2 heading by day: Monday "The key points", Wednesday "The numbers", Friday "The partnership". The "image" must equal
      the features.json "image".
    - Post copy, ready to paste: a hook line, 3-4 short paragraphs with the best of the piece, one line on why it
@@ -78,7 +79,7 @@ say who a brand replaced unless an official release says so. Write in your own w
    `git fetch origin main`, rebase if needed, push to main. Then wait for the GitHub-rendered LinkedIn graphics: `git pull`
    every 30 seconds for up to 8 minutes (Monitor tool or a background loop, not a foreground sleep) until
    ig/<date>/linkedin/sss-<date>-slide1.png and -slide2.png exist. Look at both. If they never arrive, render locally
-   with tools/linkedin_graphics.py (slide 1 may be plain black without the photo) and say so. If the piece can't pass
+   with tools/linkedin_graphics.py (slide 1 shows a white card without the photo) and say so. If the piece can't pass
    the accuracy gate, publish nothing and say why.
 
 9. **Send Angus** (SendUserMessage + SendUserFile), short, same voice:
@@ -105,7 +106,7 @@ coverage.json and the properties pages. Examples: "Every NRL club's betting part
 deals in 2026". Compute every number with Python on the JSON (show the query on the fact sheet), and only use data
 sets that are complete enough to be fair: for a "every club" piece, every club in scope must be in coverage.json with a
 recent lastChecked, otherwise pick another angle or narrow it. Spot-check the 3 most important data points against the
-official partners page or release. Say what the data covers ("from the SSS database, X partnerships logged since ...").
+official partners page or release. Say what the data covers ("from the Parade database, X partnerships logged since ...").
 350-550 words, 4-6 paragraphs. The Instagram slides and LinkedIn slide 2 carry the numbers.
 
 **Friday - Breakdown** (label "Breakdown", topic "Breakdown"). Pick the best deal logged this week (Tuesday and

@@ -1,6 +1,6 @@
 # Track dates playbook (daily)
 
-The daily "SSS Track dates" task follows this file. Each run researches up to 100 partnerships from the queue and
+The daily "Parade Track dates" task follows this file. Each run researches up to 100 partnerships from the queue and
 fills in when each one was signed, how long it runs, when it ends and what the partner gets. Work through every step
 without waiting for input.
 

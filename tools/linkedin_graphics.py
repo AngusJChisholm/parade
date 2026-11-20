@@ -5,9 +5,9 @@
 spec.json: {"date":"YYYY-MM-DD","headline_lines":["MONACO'S","SHIRT FOR","EUROPE","ONLY."],
  "highlight":"EUROPE","deal":"Brand x Property","descriptor":"Deal type",
  "others":[{"deal":"Brand x Property","sub":"Sport - deal type"}, ...]}
-Optional "label": slide 2 heading (default "Recent deals"), e.g. "The numbers" on a data drop.
+Optional "label": slide 2 heading (default "Recent partnerships"), e.g. "The numbers" on a data drop.
 Optional "image": the lead's photo ("assets/..." file or an images.unsplash.com link,
-same as its deals.json "image"). Slide 1 then sits on the photo; leave it out for plain black.
+same as its deals.json "image"). Slide 1 then shows the photo in a card; leave it out for a white card with no photo.
 Optional "status": a tag on the photo, e.g. "New", "Renewal", "Upgrade".
 Optional "logos": {"brand":"assets/logos/<slug>.png","property":"assets/logos/<slug>.png"} for the lead,
 and "logos": [brand_path, property_path] on each "others" item. Only verified files in assets/logos/ are drawn;

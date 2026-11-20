@@ -96,11 +96,11 @@ def commit_push(message, *files):
     git("add", *[str(f) for f in files])
     if not git("status", "--porcelain"):
         return
-    git("-c", "user.name=SSS Instagram bot", "-c", "user.email=actions@users.noreply.github.com",
+    git("-c", "user.name=Parade Instagram bot", "-c", "user.email=actions@users.noreply.github.com",
         "commit", "-m", message + " [skip netlify]")
     for attempt in range(4):
         try:
-            git("-c", "user.name=SSS Instagram bot", "-c", "user.email=actions@users.noreply.github.com",
+            git("-c", "user.name=Parade Instagram bot", "-c", "user.email=actions@users.noreply.github.com",
                 "pull", "--rebase", "origin", "main")
             git("push", "origin", "HEAD:main")
             return
