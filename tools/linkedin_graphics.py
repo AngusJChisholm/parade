@@ -1,4 +1,4 @@
-"""Render the two daily LinkedIn graphics (1080x1080) in the fixed house layout.
+"""Render the two daily LinkedIn graphics (1080x1080) in the Parade look (tools/parade_look.py).
 
     python3 tools/linkedin_graphics.py spec.json out_dir
 
@@ -8,6 +8,7 @@ spec.json: {"date":"YYYY-MM-DD","headline_lines":["MONACO'S","SHIRT FOR","EUROPE
 Optional "label": slide 2 heading (default "Recent deals"), e.g. "The numbers" on a data drop.
 Optional "image": the lead's photo ("assets/..." file or an images.unsplash.com link,
 same as its deals.json "image"). Slide 1 then sits on the photo; leave it out for plain black.
+Optional "status": a tag on the photo, e.g. "New", "Renewal", "Upgrade".
 Optional "logos": {"brand":"assets/logos/<slug>.png","property":"assets/logos/<slug>.png"} for the lead,
 and "logos": [brand_path, property_path] on each "others" item. Only verified files in assets/logos/ are drawn;
 a missing or unknown path is skipped and the name stays as text.
@@ -16,6 +17,8 @@ Writes sss-<date>-slide1.png (headline) and sss-<date>-slide2.png (other deals).
 import base64, html, json, re, sys
 from pathlib import Path
 from playwright.sync_api import sync_playwright
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import parade_look as PL
 
 ROOT = Path(__file__).resolve().parent.parent
 e = lambda s: html.escape(str(s))
@@ -62,51 +65,61 @@ def logo_pair(paths, cls, on_photo=False):
     sep = '<span class="x">\u00d7</span>' if len(srcs) == 2 else ""
     return f'<div class="{cls}">' + sep.join(f'<img src="{x}">' for x in srcs) + '</div>'
 
+FIT = """async () => {await document.fonts.ready;
+for (const el of document.querySelectorAll('[data-fit]')) {const maxH=parseFloat(el.dataset.fit);let size=parseFloat(getComputedStyle(el).fontSize);const min=parseFloat(el.dataset.min||'40');
+while (size>min && (el.scrollHeight>maxH || el.scrollWidth>el.clientWidth+2)) {size-=Math.max(.5,size*.04);el.style.fontSize=size+'px';}}}"""
+
+
+def _p(body):
+    return f"<style>{PL.font_css()}{PL.CSS}.pf{{width:1080px;height:1080px;padding:56px}}</style>{body}"
+
+
 def slide1(s):
-    """Full photo, text on top. The photo stays bright: only a soft shade on the left, behind the text."""
+    """Parade look: rounded photo card, verified logos on white, condensed headline, one volt highlight."""
     src = photo(s.get("image"))
-    bg = (f'<div style="position:absolute;inset:0;background:url(\'{src}\') center 30%/cover"></div>'
-          '<div style="position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.62) 0%,rgba(0,0,0,.38) 45%,rgba(0,0,0,0) 78%)"></div>'
-          '<div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.18) 0%,rgba(0,0,0,0) 30%,rgba(0,0,0,0) 70%,rgba(0,0,0,.28) 100%)"></div>') if src else ""
-    lines = "".join(
-        f'<div>' + (f'<span class="hv">{e(l)}</span>' if l.strip(".,!?\' ").upper()==s.get("highlight","").strip(".,!?\' ").upper() else e(l)) + '</div>'
-        for l in s["headline_lines"])
-    return f"""<style>{css()}
-body{{background:#1a1a1a}}
-.lab{{background:#D2FF3C;color:#000;padding:10px 14px 8px;top:86px;border-radius:8px}}
-.hv{{background:#D2FF3C;color:#000;padding:0 .08em;text-shadow:none;border-radius:.09em;-webkit-box-decoration-break:clone;box-decoration-break:clone}}
-.lg{{position:absolute;left:97px;top:92px;display:flex;align-items:center;gap:22px}}
-.lg img{{height:86px;max-width:230px;object-fit:contain;filter:drop-shadow(0 2px 10px rgba(0,0,0,.35))}}
-.lg .x{{font-weight:800;font-size:44px;color:#fff;text-shadow:0 2px 12px rgba(0,0,0,.4)}}
-.c{{position:absolute;left:0;right:0;top:0;bottom:0;display:flex;flex-direction:column;justify-content:center}}
-.h{{margin-left:94px;margin-right:97px;font-weight:800;font-size:140px;font-stretch:94%;line-height:127px;text-transform:uppercase;letter-spacing:-.005em;text-shadow:0 3px 24px rgba(0,0,0,.35)}}
-.d{{position:absolute;left:97px;top:892px;font-weight:600;font-size:28px;line-height:43px;letter-spacing:.13em;text-transform:uppercase;max-width:700px;text-shadow:0 2px 14px rgba(0,0,0,.5)}}</style>
-{bg}{logo_pair([(s.get("logos") or {}).get("brand"), (s.get("logos") or {}).get("property")], "lg", on_photo=True)}<div class="c"><div class="h">{lines}</div>
-</div>
-<div class="d">{e(s['deal'])}<br>{e(s['descriptor'])}</div>
-<img class="wm" src="data:image/svg+xml;base64,{wordmark()}">"""
+    item = {"deal": s.get("deal", ""), "logos": s.get("logos")}
+    logos = PL.pair_logos(item)
+    status = s.get("status") or ""
+    pill = f'<span class="pill pv">{e(status)}</span>' if status else ""
+    card = (f'<div class="pcard" style="height:{470 if logos else 560}px;margin-top:32px">'
+            f'<div class="img" style="background-image:url(\'{src}\')"></div>{pill}</div>') if src else (f'<div style="margin-top:40px">{pill}</div>' if pill else "")
+    head = " ".join(s.get("headline_lines") or [])
+    brand, prop = PL.split_pair(s.get("deal"))
+    pair = f"<b>{e(brand)} &times; {e(prop)}</b>" if prop else f"<b>{e(brand)}</b>"
+    return _p(f"""<div class="pf"><div class="ptop">{PL.mark("black", 30)}<div class="pcount">{e(s.get("date",""))}</div></div>{card}
+{f'<div style="margin-top:34px">{logos}</div>' if logos else ""}
+<div style="flex:1;display:flex;flex-direction:column;justify-content:flex-end;gap:20px;margin-top:26px">
+<h1 class="phl" data-fit="{230 if src else 520}" data-min="48" style="font-size:{112 if src else 170}px">{PL.highlight(head, s.get("highlight"))}</h1>
+<div class="meta">{pair} &middot; {e(s.get("descriptor",""))}</div></div></div>""")
+
 
 def slide2(s):
-    """White slide (matches the website round-up). Volt is a fill behind black type, never text on white."""
-    rows = "".join(f'<div class="r">{logo_pair(o.get("logos") or [], "rl")}<div class="t"><b>{e(o["deal"])}</b><span>{e(o["sub"])}</span></div></div>' for o in s["others"][:5])
-    return f"""<style>{css()}
-body{{background:#fff;color:#000}}
-.lab{{background:#D2FF3C;color:#000;padding:10px 14px 8px;top:86px;left:97px;border-radius:8px}}
-.rows{{position:absolute;left:97px;right:96px;top:180px;border-top:2px solid #000}}
-.r{{padding:27px 0 30px;border-bottom:1px solid #DEDED8;display:flex;align-items:center;gap:26px}}.t{{flex:1;min-width:0}}
-.rl{{display:flex;align-items:center;gap:10px;flex:none}}.rl img{{width:84px;height:64px;object-fit:contain}}.rl .x{{display:none}}.r:last-child{{border-bottom:0}}
-.r b{{display:block;font-weight:800;font-size:47px;font-stretch:96%;line-height:52px;text-transform:uppercase}}
-.r span{{display:block;font-weight:400;font-size:27.5px;color:#5C5C57;margin-top:14px}}</style>
-<div class="lab">{e(s.get("label") or "Recent partnerships")}</div><div class="rows">{rows}</div>
-<img class="wm" src="data:image/svg+xml;base64,{wordmark('black')}">"""
+    """Recent partnerships: one card per partnership, logos on the left."""
+    cards = []
+    for o in s.get("others", [])[:5]:
+        sub = str(o.get("sub") or "")
+        sport, _, rest = sub.partition(" - ")
+        if not rest:
+            sport, rest = "", sub
+        cards.append('<div class="crd">' + PL.pair_logos(o) + '<div class="t">'
+                     + (f'<span class="pill pv s">{e(sport)}</span>' if sport else "")
+                     + f'<b>{e(o["deal"])}</b>' + (f'<span class="x">{e(rest)}</span>' if rest else "") + "</div></div>")
+    label = s.get("label") or "Recent partnerships"
+    words = e(label).rsplit(" ", 1)
+    title = (words[0] + ' <span class="v">' + words[1] + '.</span>') if len(words) == 2 else f'<span class="v">{e(label)}.</span>'
+    return _p(f"""<div class="pf"><div class="ptop">{PL.mark("black", 30)}<div class="pcount">{e(s.get("date",""))}</div></div>
+<div style="flex:1;display:flex;flex-direction:column;justify-content:center;gap:40px">
+<h2 class="phl" style="font-size:96px">{title}</h2>
+<div class="cards" data-fit="660" data-min="8" style="font-size:16px">{"".join(cards)}</div></div>
+<div class="pfoot"><div class="meta">Every partnership, filed &middot; link in comments</div></div></div>""")
+
 
 def render(spec, out):
     out = Path(out); out.mkdir(parents=True, exist_ok=True)
     with sync_playwright() as p:
         b = p.chromium.launch(); pg = b.new_page(viewport={"width": 1080, "height": 1080})
         for n, h in (("slide1", slide1(spec)), ("slide2", slide2(spec))):
-            pg.set_content(h, wait_until="networkidle"); pg.evaluate("document.fonts.ready")
-            assert pg.evaluate('document.fonts.check("800 50px Archivo")')
+            pg.set_content(h, wait_until="networkidle"); pg.evaluate(FIT)
             pg.screenshot(path=str(out / f"sss-{spec['date']}-{n}.png"))
         b.close()
 

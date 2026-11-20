@@ -11,11 +11,13 @@ import json
 import re
 import sys
 import unicodedata
+sys_path_added = None
 from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 MEL = ZoneInfo("Australia/Melbourne")
 VOLT = "#D2FF3C"
 SITE_LABEL = "Full database - link in bio"
@@ -588,6 +590,102 @@ def story(item):
 <div style="background:{btn_bg};color:{btn_fg};font-weight:800;font-size:26px;letter-spacing:.14em;text-transform:uppercase;padding:20px 28px">{esc(item.get('cta') or 'More on our feed')}</div></div>
 </div>"""
     return page(body, STORY_W, STORY_H, primary, fg, f".frame{{--line:{line};--muted:{fg}}}")
+
+
+
+# ---------- Parade look (20 Nov 2026) ----------
+# Every feed slide is rebuilt in the Parade design: white, rounded photo card, verified logos on white,
+# condensed caps with one rounded volt highlight, Parade mark top left. These replace the functions above.
+import parade_look as PL
+
+SWIPE_TXT = 'Swipe <svg width="34" height="18" viewBox="0 0 44 24" fill="none" stroke="currentColor" stroke-width="3.5" aria-hidden="true" style="vertical-align:-2px"><path d="M0 12h40M30 2l10 10-10 10"/></svg>'
+
+
+def _p(body):
+    return f"<style>{PL.font_css()}{PL.CSS}.pf{{width:{FEED_W}px;height:{FEED_H}px;padding:56px}}</style>{body}"
+
+
+def _top(right):
+    return f'<div class="ptop">{PL.mark("black", 32)}<div class="pcount">{right}</div></div>'
+
+
+def feed_cover(c):
+    src = photo_src(deal_image(c), FEED_W) if (c.get("image") or c.get("deal")) else ""
+    brand, prop = PL.split_pair(c.get("deal"))
+    logos = PL.pair_logos(c)
+    tag = c.get("status") or c.get("tag") or ""
+    pill = f'<span class="pill pv">{esc(tag)}</span>' if tag else ""
+    if src:
+        card = f'<div class="pcard" style="height:{640 if logos else 760}px;margin-top:36px"><div class="img" style="background-image:url(\'{src}\')"></div>{pill}</div>'
+        logo_row = f'<div style="margin-top:40px">{logos}</div>' if logos else ""
+        fit = 300 if logos else 420
+    else:
+        big = logos.replace('class="lgp"', 'class="lgp" style="gap:34px"').replace("height:88px", "") if logos else ""
+        card = (f'<div class="pcard" style="height:520px;margin-top:36px;display:flex;align-items:center;justify-content:center">'
+                f'<div style="transform:scale(1.6)">{big}</div>{pill}</div>') if logos else (f'<div style="margin-top:60px">{pill}</div>' if pill else "")
+        logo_row = ""
+        fit = 380 if logos else 700
+    pair = f"<b>{esc(brand)} &times; {esc(prop)}</b>" if prop else (f"<b>{esc(brand)}</b>" if brand else "")
+    meta = pair + (" &middot; " if pair and c.get("descriptor") else "") + esc(c.get("descriptor", ""))
+    return _p(f"""<div class="pf">{_top(SWIPE_TXT)}{card}{logo_row}
+<div style="flex:1;display:flex;flex-direction:column;justify-content:flex-end;gap:22px;margin-top:30px">
+<h1 class="phl" data-fit="{fit}" data-min="56" style="font-size:{124 if src else 170}px">{PL.highlight(c.get('headline',''), c.get('highlight'))}</h1>
+<div class="meta">{meta}</div></div></div>""")
+
+
+def rows_slide(label, title, rows, n, total, footer_right="", edge=None):
+    cards = "".join(
+        f'<div class="crd"><div class="n">{i:02d}</div><div class="t"><b>{esc(r.get("main"))}</b>'
+        + (f'<span class="x">{esc(r.get("sub"))}</span>' if r.get("sub") else "") + "</div></div>"
+        for i, r in enumerate(rows, 1))
+    title_html = f'<h2 class="phl" data-fit="270" data-min="56" style="font-size:104px">{esc(title)}</h2>' if title else ""
+    return _p(f"""<div class="pf">{_top(f"{n} / {total}")}
+<div style="flex:1;display:flex;flex-direction:column;justify-content:center;gap:48px">{title_html}
+<div class="cards" data-fit="{720 if title else 1000}" data-min="9" style="font-size:16px">{cards}</div></div>
+<div class="pfoot"><div class="meta">{esc(footer_right)}</div></div></div>""")
+
+
+def others_slide(others, n, total, edge=None):
+    cards = []
+    for o in others[:5]:
+        sub = str(o.get("sub") or "")
+        sport, _, rest = sub.partition(" - ")
+        if not rest:
+            sport, rest = "", sub
+        cards.append('<div class="crd">' + PL.pair_logos(o) + '<div class="t">'
+                     + (f'<span class="pill pv s">{esc(sport)}</span>' if sport else "")
+                     + f'<b>{esc(o["deal"])}</b>' + (f'<span class="x">{esc(rest)}</span>' if rest else "") + "</div></div>")
+    return _p(f"""<div class="pf">{_top(f"{n} / {total}")}
+<div style="flex:1;display:flex;flex-direction:column;justify-content:center;gap:44px">
+<h2 class="phl" style="font-size:104px">Recent<br><span class="v">partnerships.</span></h2>
+<div class="cards" data-fit="820" data-min="8" style="font-size:17px">{"".join(cards)}</div></div>
+<div class="pfoot"><div class="meta">{esc(SITE_LABEL)}</div></div></div>""")
+
+
+def feed_close(n, total):
+    return _p(f"""<div class="pf">{_top(f"{n} / {total}")}
+<div style="flex:1;display:flex;flex-direction:column;justify-content:center;gap:40px">
+<h2 class="phl" style="font-size:230px">Who backs<br><span class="v">who.</span></h2>
+<div class="meta">Sport partnerships &middot; Data &middot; Analysis</div>
+<div><span class="pill pk" style="font-size:24px;padding:18px 28px 16px">Follow Parade</span></div></div>
+<div class="pfoot"><div class="meta">Full database &middot; link in bio</div></div></div>""")
+
+
+def week_item(item, idx, n, total, label="The week in partnerships"):
+    src = photo_src(deal_image(item), FEED_W)
+    logos = PL.pair_logos(item)
+    num = f'<span class="pill pk">{idx:02d}</span>'
+    if src:
+        card = f'<div class="pcard" style="height:560px;margin-top:36px"><div class="img" style="background-image:url(\'{src}\')"></div><span class="pill pk" style="position:absolute;left:28px;bottom:28px">{idx:02d}</span></div>'
+    else:
+        card = f'<div style="margin-top:56px">{num}</div>'
+    logo_row = f'<div style="margin-top:40px">{logos}</div>' if logos else ""
+    meta = esc(item.get("sport", ""))
+    return _p(f"""<div class="pf">{_top(f"{n} / {total}")}{card}{logo_row}
+<div style="flex:1;display:flex;flex-direction:column;justify-content:flex-end;gap:22px;margin-top:30px">
+<h2 class="phl" data-fit="{300 if src else 560}" data-min="56" style="font-size:{112 if src else 150}px">{esc(item['deal'])}</h2>
+<div style="font-size:30px;line-height:1.35;color:#33332F">{esc(item.get('sub',''))}</div>
+<div class="meta">{meta}</div></div></div>""")
 
 
 # ---------- render ----------
