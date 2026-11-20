@@ -1,5 +1,5 @@
 {
-  "_help": "Major Australian stadiums and arenas for the 'Naming rights in market' page of SSS Pro reports. brand = current naming rights partner (null = no naming rights partner). bslug = the brand's slug in entities.json, for the logo. cap = approximate capacity. Update brand/checked when a venue changes name.",
+  "_help": "Major Australian stadiums and arenas for the 'Naming rights in market' page of Partnership Pro reports. brand = current naming rights partner (null = no naming rights partner). bslug = the brand's slug in entities.json, for the logo. cap = approximate capacity. Update brand/checked when a venue changes name.",
   "checked": "2026-11-16",
   "venues": [
     {"name": "Afterpay Arena", "orig": "Sydney Olympic Park Arena (formerly Qudos Bank Arena)", "city": "Sydney", "state": "NSW", "cap": 20000, "brand": "Afterpay", "bslug": "afterpay"},

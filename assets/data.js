@@ -2,8 +2,8 @@
    Loads deals.json + entities.json once and builds one record per brand or property.
    A name on the left of "Brand × Property" is a brand, on the right a property; anything on both sides
    is filed where it appears most (the same rule profile.html uses). */
-window.SSSData=(function(){
-  const L=window.SSSLogos;
+window.ParadeData=(function(){
+  const L=window.ParadeLogos;
   const sortKey=d=>d.date||((d.month||"0000-00")+"-00");
   const yearOf=d=>parseInt(sortKey(d).slice(0,4),10)||0;
   const fmt=d=>{if(!d.date&&!d.month)return d.announced?"Since "+new Date(d.announced+"T00:00:00").toLocaleDateString("en-AU",{month:"short",year:"numeric"}):"Current partner";const o=d.date?new Date(d.date+"T00:00:00"):new Date((d.month||"2026-01")+"-01T00:00:00");

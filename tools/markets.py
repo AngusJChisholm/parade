@@ -11,7 +11,7 @@ Rules:
   - Tag by the property's home, never the brand's. Toyota x NFL Melbourne Game is Australia.
   - An Australian brand on an overseas property goes to the property's market (National Storage x LA Rams is
     North America), so "region" ANZ doesn't always mean market Australia or New Zealand.
-  - "region" (ANZ / Global) stays as it is: the scans, SSS Pro and Instagram still use it.
+  - "region" (ANZ / Global) stays as it is: the scans, Partnership Pro and Instagram still use it.
 
 Overrides: set "market" on a property in entities.json (e.g. "market": "Asia") and every deal for it follows.
 Set "marketLock": true on a deal to keep a market set by hand.

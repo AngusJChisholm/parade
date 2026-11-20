@@ -1,4 +1,4 @@
--- SSS Pro: login, members and private data.
+-- Partnership Pro: login, members and private data.
 -- Run once in Supabase: Dashboard > SQL Editor > New query > paste this whole file > Run.
 -- Safe to run again (it only creates what's missing and replaces the policies).
 

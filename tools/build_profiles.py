@@ -155,7 +155,7 @@ def main():
         # Property pages: the property's own grouping for each partner (its "ptier", from the official partners page),
         # taken from the newest current deal with that partner. If a partner sits in more than one grouping (e.g. Toyota
         # as a platinum partner and Hilux as a competition partner), its highest grouping on the page wins.
-        # SSS's own "tier" stays on the deal for filters.
+        # Parade's own "tier" stays on the deal for filters.
         pt_of = {}
         if kind == "p":
             prank = {t: i for i, t in enumerate(e.get("ptiers") or [])}

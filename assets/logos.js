@@ -2,7 +2,7 @@
    entities.json lists every brand and rights holder: name, official domain, optional local logo file.
    Logos come from Brandfetch (hotlinked, as their terms require) once "brandfetch" in entities.json holds a client ID.
    A local file in assets/logos/ always wins. Anything without a logo gets a monogram in its club colours. */
-window.SSSLogos=(function(){
+window.ParadeLogos=(function(){
   const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
   const norm=x=>String(x||"").normalize("NFKD").replace(/[̀-ͯ]/g,"").toLowerCase().replace(/&/g," and ").replace(/[^a-z0-9()]+/g," ").trim();
   const slugify=x=>String(x||"").normalize("NFKD").replace(/[̀-ͯ]/g,"").replace(/\(.*?\)/g," ").toLowerCase().replace(/&/g," and ").replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"");
@@ -76,7 +76,7 @@ window.SSSLogos=(function(){
       if(urls.length){src=urls[0];steps=urls.slice(1).join(" ")}
     }
     // Images start without a src; the queue below loads them a few at a time as they come into view.
-    const img=src?`<img data-src="${esc(src)}"${/^https:/.test(src)?' crossorigin="anonymous"':""} alt="" decoding="async" referrerpolicy="strict-origin-when-cross-origin"${steps?` data-next="${esc(steps)}"`:""} onload="SSSLogos.ok(this)" onerror="SSSLogos.fail(this)">`:"";
+    const img=src?`<img data-src="${esc(src)}"${/^https:/.test(src)?' crossorigin="anonymous"':""} alt="" decoding="async" referrerpolicy="strict-origin-when-cross-origin"${steps?` data-next="${esc(steps)}"`:""} onload="ParadeLogos.ok(this)" onerror="ParadeLogos.fail(this)">`:"";
     queueSoon();
     return `<span class="lg${img?" has-img":""}${big?" lg-big":""}">${mono}${img}</span>`;
   }

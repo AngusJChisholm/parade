@@ -8,10 +8,10 @@
        is synced to the member's pro_state row, so it follows them to any device
      - the session lasts until the tab or browser closes (sessionStorage), so Pro asks again each visit
    Without Supabase set up: the old single password, and Pro reads pro/*.json from the site as before.
-   Once signed in, it exposes window.SSSPro.json(name) for pro.js, then loads the app scripts. */
+   Once signed in, it exposes window.ParadePro.json(name) for pro.js, then loads the app scripts. */
 (function(){
   const $=id=>document.getElementById(id);
-  const C=window.SSS_SUPABASE||{};
+  const C=window.PARADE_SUPABASE||{};
   const LIVE=!!(C.url&&C.anonKey&&window.supabase);
   const APP=["assets/logos.js?v=12","assets/pills.js?v=3","assets/data.js?v=9","assets/pro-portfolio.js?v=1","assets/pro.js?v=29"];
   const err=t=>{$("gateE").textContent=t||""};
@@ -41,7 +41,7 @@
     const K="4d533574c6b65069bd3124a0cfce762b3431575350c337a1f2749fa25d4e4f34";
     const hex=b=>Array.from(new Uint8Array(b)).map(x=>x.toString(16).padStart(2,"0")).join("");
     $("gateEm").hidden=true;$("gateC").hidden=true;msg("Sign in to open the partnerships desk.");$("gateB").textContent="Sign in";
-    window.SSSPro={json:name=>fetch("pro/"+name,{cache:"no-cache"}).then(r=>{if(!r.ok)throw new Error(name);return r.json()})};
+    window.ParadePro={json:name=>fetch("pro/"+name,{cache:"no-cache"}).then(r=>{if(!r.ok)throw new Error(name);return r.json()})};
     $("gateF").onsubmit=e=>{e.preventDefault();
       const v=$("gateP").value.trim().toLowerCase();
       crypto.subtle.digest("SHA-256",new TextEncoder().encode(v)).then(b=>{
@@ -90,7 +90,7 @@
       await sb.auth.signOut();view("email");
       err(error?"Couldn't check your access. Try again.":"This account doesn't have Pro access yet.");return;
     }
-    window.SSSPro={sb,user:session.user,json:name=>sb.storage.from("pro").download(name).then(({data,error})=>{if(error)throw error;return data.text()}).then(t=>JSON.parse(t))};
+    window.ParadePro={sb,user:session.user,json:name=>sb.storage.from("pro").download(name).then(({data,error})=>{if(error)throw error;return data.text()}).then(t=>JSON.parse(t))};
     await syncState(session.user.id);
     start(session.user.email,async()=>{await flush();await sb.auth.signOut();location.reload()});
   }

@@ -1,7 +1,7 @@
 /* Compare (compare.html?a=<slug>&b=<slug>): two brands or properties head to head. */
 (function(){
 const $=id=>document.getElementById(id);
-const L=window.SSSLogos, S=window.SSSData, esc=S.esc;
+const L=window.ParadeLogos, S=window.ParadeData, esc=S.esc;
 const yr=new Date().getFullYear();
 if($("yr"))$("yr").textContent=yr;
 

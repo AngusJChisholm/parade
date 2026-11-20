@@ -80,7 +80,7 @@
 <script>
 (function(){
 const $=id=>document.getElementById(id);
-const S=window.SSSData,L=window.SSSLogos,esc=L.esc;
+const S=window.ParadeData,L=window.ParadeLogos,esc=L.esc;
 const now=new Date(),yr=now.getFullYear(),DAY=864e5;
 const fmtD=s=>new Date(s+"T00:00:00").toLocaleDateString("en-AU",{day:"numeric",month:"short"});
 const ago=s=>{if(!s)return"";const d=Math.round((now-new Date(s+"T00:00:00"))/DAY);return d<=0?"today":d===1?"yesterday":d<7?d+" days ago":fmtD(s)};

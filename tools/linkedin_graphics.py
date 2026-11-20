@@ -12,7 +12,7 @@ Optional "status": a tag on the photo, e.g. "New", "Renewal", "Upgrade".
 Optional "logos": {"brand":"assets/logos/<slug>.png","property":"assets/logos/<slug>.png"} for the lead,
 and "logos": [brand_path, property_path] on each "others" item. Only verified files in assets/logos/ are drawn;
 a missing or unknown path is skipped and the name stays as text.
-Writes sss-<date>-slide1.png (headline) and sss-<date>-slide2.png (other deals).
+Writes parade-<date>-slide1.png (headline) and parade-<date>-slide2.png (other deals).
 """
 import base64, html, json, re, sys
 from pathlib import Path
@@ -120,7 +120,7 @@ def render(spec, out):
         b = p.chromium.launch(); pg = b.new_page(viewport={"width": 1080, "height": 1080})
         for n, h in (("slide1", slide1(spec)), ("slide2", slide2(spec))):
             pg.set_content(h, wait_until="networkidle"); pg.evaluate(FIT)
-            pg.screenshot(path=str(out / f"sss-{spec['date']}-{n}.png"))
+            pg.screenshot(path=str(out / f"parade-{spec['date']}-{n}.png"))
         b.close()
 
 if __name__ == "__main__":

@@ -1,7 +1,7 @@
 /* Brands and Properties directories (brands.html, properties.html). Data from assets/data.js. */
 (function(){
 const $=id=>document.getElementById(id);
-const L=window.SSSLogos, S=window.SSSData, esc=S.esc;
+const L=window.ParadeLogos, S=window.ParadeData, esc=S.esc;
 const IS_B=document.body.dataset.kind!=="properties";
 const PAGE=100;
 const yr=new Date().getFullYear();

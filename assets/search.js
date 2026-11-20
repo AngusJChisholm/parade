@@ -1,7 +1,7 @@
 /* Search results (search.html?q=): brands, properties, partnerships and news for one query. */
 (function(){
 const $=id=>document.getElementById(id);
-const L=window.SSSLogos,S=window.SSSData,esc=S.esc;
+const L=window.ParadeLogos,S=window.ParadeData,esc=S.esc;
 if($("yr"))$("yr").textContent=new Date().getFullYear();
 const qs=S.qs();
 const st={q:(qs.get("q")||"").trim(),tab:qs.get("t")||"all",m:"All",sport:"All",type:"",days:""};

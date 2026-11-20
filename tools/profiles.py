@@ -1,4 +1,4 @@
-"""Brand and property profiles for SSS Pro's Match Score (tools/match.py).
+"""Brand and property profiles for Partnership Pro's Match Score (tools/match.py).
 
 A match should make sense for who the brand sells to and what it stands for, not only where it already
 sponsors. Every brand and property gets a profile:

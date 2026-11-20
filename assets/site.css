@@ -126,7 +126,7 @@ a.dt:hover{background:var(--canvas);color:var(--ink)}
 .meta .tag{font-size:10px}
 .im.noimg{display:flex;align-items:center;justify-content:center;background:var(--black)}
 .im.noimg img{display:none}
-.im.noimg::after{content:"SSS";color:var(--volt);font-weight:800;font-size:40px;letter-spacing:-.04em}
+.im.noimg::after{content:"Parade";color:var(--volt);font-weight:800;font-size:40px;letter-spacing:-.04em}
 @media (max-width:900px){.ng{grid-template-columns:repeat(2,minmax(0,1fr))}.nlead{grid-template-columns:minmax(0,1fr)}}
 @media (max-width:640px){.ng{grid-template-columns:minmax(0,1fr)}.dg{grid-template-columns:repeat(2,minmax(0,1fr))}.dt{padding:20px 10px 16px}.dt .lg{--s:56px}.dt b{font-size:14px}.dt .lt{display:none}
 .top10{grid-template-columns:repeat(2,minmax(0,1fr))}.sel{flex:1 1 40%}}

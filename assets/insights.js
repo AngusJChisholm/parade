@@ -1,7 +1,7 @@
 /* Insights hub (insights.html): headline numbers and simple charts from the deal archive. */
 (function(){
 const $=id=>document.getElementById(id);
-const S=window.SSSData, esc=S.esc;
+const S=window.ParadeData, esc=S.esc;
 $("yr").textContent=new Date().getFullYear();
 const yr=new Date().getFullYear();
 const tip=$("tip");

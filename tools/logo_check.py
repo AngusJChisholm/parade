@@ -6,7 +6,7 @@ mode "all": checks every mapped entity. Slow and polite, to stay under Brandfetc
 Writes logo-report.json only. No logo images are saved."""
 import json, sys, time, urllib.parse, urllib.request
 e = json.load(open("entities.json")); cid = e["brandfetch"]; ents = e["entities"]
-UA = {"User-Agent": "Mozilla/5.0 (SSS logo check)", "Referer": "https://sportsportsport.com.au/"}
+UA = {"User-Agent": "Mozilla/5.0 (Parade logo check)", "Referer": "https://sportsportsport.com.au/"}
 def status(url):
     for attempt in range(4):
         try:

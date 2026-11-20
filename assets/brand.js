@@ -1,4 +1,4 @@
-/* Brand. The site is Parade (switched from Sport Sport Sport on 20 Nov 2026).
+/* Brand. The site is Parade.
    Anything with data-brand="name|short|platform|tagline|signoff" gets its text from here;
    .brand-logo holds the header and footer wordmark. */
 (function(){
@@ -10,7 +10,7 @@
   };
   try{var q=new URLSearchParams(location.search).get("brand");if(q&&BRANDS[q])ACTIVE=q}catch(e){}
   var B=BRANDS[ACTIVE];
-  window.SSSBrand=B;
+  window.ParadeBrand=B;
   function apply(){
     document.documentElement.setAttribute("data-brand-mode",ACTIVE);
     document.querySelectorAll("[data-brand]").forEach(function(el){var k=el.getAttribute("data-brand");if(B[k])el.textContent=B[k]});

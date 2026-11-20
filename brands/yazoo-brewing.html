@@ -163,7 +163,7 @@
 <script>
 (function(){
 const $=id=>document.getElementById(id);
-const L=window.SSSLogos, esc=L.esc;
+const L=window.ParadeLogos, esc=L.esc;
 const id=String(document.body.dataset.id||new URLSearchParams(location.search).get("id")||"").toLowerCase().replace(/[^a-z0-9-]/g,"");
 const sortKey=d=>d.date||((d.month||"0000-00")+"-00");
 const dObj=d=>d.date?new Date(d.date+"T00:00:00"):new Date((d.month||"2026-01")+"-01T00:00:00");

@@ -3,7 +3,7 @@
    from last year on only. Fast food is picked by brand name; the other columns use the entities.json category. */
 (function(){
 const $=id=>document.getElementById(id);
-const L=window.SSSLogos, S=window.SSSData, esc=S.esc;
+const L=window.ParadeLogos, S=window.ParadeData, esc=S.esc;
 const yr=new Date().getFullYear();
 $("yr").textContent=yr;
 const FAST=new Set(["mcdonald-s","kfc","hungry-jack-s","domino-s","subway","guzman-y-gomez","red-rooster","nando-s","grill-d","zambrero","oporto","chicken-treat","pizza-hut","burger-king","taco-bell","carl-s-jr","el-jannah","schnitz","muzz-buzz"]);

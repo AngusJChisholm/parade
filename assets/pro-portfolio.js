@@ -156,5 +156,5 @@ function render(c){
     };
   });
 }
-window.SSSPortfolio={render,reset(){st={}}};
+window.ParadePortfolio={render,reset(){st={}}};
 })();

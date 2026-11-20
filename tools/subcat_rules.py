@@ -1,4 +1,4 @@
-"""Sub-categories for brands, used by SSS Pro's Match Score (tools/match.py).
+"""Sub-categories for brands, used by Partnership Pro's Match Score (tools/match.py).
 
 A broad category like "Alcohol" is too blunt for clash checks: the AO has a beer, a champagne and a vodka
 partner at once. Each brand gets a sub-category from its name and website, inside its main category.

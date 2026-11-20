@@ -10,7 +10,7 @@ while page <= 40:
     if search: q["search"] = search
     url = f"https://{site}/wp-json/wp/v2/posts?" + urllib.parse.urlencode(q)
     try:
-        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (SSS archive bot)"})
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (Parade database bot)"})
         data = json.load(urllib.request.urlopen(req, timeout=30))
     except Exception as e:
         out.append({"error": str(e), "url": url}); break

@@ -28,8 +28,8 @@ Give any subagent this same rule.
 
 ## Steps
 
-1. **Repo.** Attach AngusJChisholm/sport-sport-sport with push access (add_repo), then
-   `git clone --depth 1 https://github.com/AngusJChisholm/sport-sport-sport`. Read README.md, SOURCES.md and this file.
+1. **Repo.** Attach AngusJChisholm/parade with push access (add_repo), then
+   `git clone --depth 1 https://github.com/AngusJChisholm/parade`. Read README.md, SOURCES.md and this file.
    Never change CNAME, netlify.toml or _redirects.
 
 2. **Queue.** Run `python3 tools/track_queue.py --stats`, then `python3 tools/track_queue.py 100`. Work the list in

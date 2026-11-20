@@ -1,7 +1,7 @@
 /* Renewal watch (renewals.html): deals by the year their announced term ends. */
 (function(){
 const $=id=>document.getElementById(id);
-const L=window.SSSLogos, S=window.SSSData, esc=S.esc;
+const L=window.ParadeLogos, S=window.ParadeData, esc=S.esc;
 const yr=new Date().getFullYear();
 $("yr").textContent=yr;
 const q0=S.qs();

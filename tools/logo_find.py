@@ -14,7 +14,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 E = json.load(open("entities.json")); cid = E["brandfetch"]; ents = E["entities"]
 deals = json.load(open("deals.json"))["deals"]
-UA = {"User-Agent": "Mozilla/5.0 (SSS logo find)", "Referer": "https://sportsportsport.com.au/"}
+UA = {"User-Agent": "Mozilla/5.0 (Parade logo find)", "Referer": "https://sportsportsport.com.au/"}
 SUFFIX = r"\b(fc|f c|afc|sc|cf|football club|club|ltd|limited|pty|inc|llc|plc|group|holdings|co|company|corporation|corp|australia|aus|nz|new zealand|official|the)\b"
 
 

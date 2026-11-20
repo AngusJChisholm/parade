@@ -25,8 +25,8 @@ say who a brand replaced unless an official release says so. Write in your own w
 
 ## Steps
 
-1. **Repo.** Attach AngusJChisholm/sport-sport-sport with push access (add_repo), then
-   `git clone --depth 1 https://github.com/AngusJChisholm/sport-sport-sport` (or `git pull`). Read README.md,
+1. **Repo.** Attach AngusJChisholm/parade with push access (add_repo), then
+   `git clone --depth 1 https://github.com/AngusJChisholm/parade` (or `git pull`). Read README.md,
    SOURCES.md (rules 5 and 6 especially), features.json (every piece so far: never repeat a topic), and the top 60
    entries of deals.json. Never change CNAME, netlify.toml or _redirects.
 
@@ -78,7 +78,7 @@ say who a brand replaced unless an official release says so. Write in your own w
    `git -c user.name="Angus Chisholm" -c user.email="AngusJChisholm@users.noreply.github.com" commit -m "<Label> for <date>"`,
    `git fetch origin main`, rebase if needed, push to main. Then wait for the GitHub-rendered LinkedIn graphics: `git pull`
    every 30 seconds for up to 8 minutes (Monitor tool or a background loop, not a foreground sleep) until
-   ig/<date>/linkedin/sss-<date>-slide1.png and -slide2.png exist. Look at both. If they never arrive, render locally
+   ig/<date>/linkedin/parade-<date>-slide1.png and -slide2.png exist. Look at both. If they never arrive, render locally
    with tools/linkedin_graphics.py (slide 1 shows a white card without the photo) and say so. If the piece can't pass
    the accuracy gate, publish nothing and say why.
 

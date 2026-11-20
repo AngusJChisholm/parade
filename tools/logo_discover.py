@@ -20,7 +20,7 @@ for d in deals:
         for name in side.split(" / "):
             name = name.strip()
             if name and n(name) not in known: count[name] += 1
-UA = {"User-Agent": "Mozilla/5.0 (SSS logo discover)", "Referer": "https://sportsportsport.com.au/"}
+UA = {"User-Agent": "Mozilla/5.0 (Parade logo discover)", "Referer": "https://sportsportsport.com.au/"}
 def get(url):
     for attempt in range(4):
         try:

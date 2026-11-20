@@ -1,4 +1,4 @@
-"""SSS Pro Match Score: which brands a property should approach, and which properties a brand should target.
+"""Partnership Pro Match Score: which brands a property should approach, and which properties a brand should target.
 
 Reads deals.json + entities.json and writes pro/matches.json (read by the Matches tab in pro.html).
 Also backtests itself: scores everything as the archive stood on a past date, then checks how many of the
@@ -777,7 +777,7 @@ def main():
     feedback = {"nofit": fbs.get("nofit", 0), "pitched": fbs.get("pitched", 0), "won": fbs.get("won", 0)}
     out = {"generated": today.isoformat(), "version": 4, "backtest": bt, "verified": sum(1 for p in props if props[p]["v"]),
            "feedback": feedback, "props": props, "brands": bout,
-           # Sub-category for every brand that has one, so SSS Pro reports can map a brand's whole category.
+           # Sub-category for every brand that has one, so Partnership Pro reports can map a brand's whole category.
            "subs": {b: m.sub[b] for b in sorted(m.sub) if m.sub.get(b)}}
     (ROOT / "pro").mkdir(exist_ok=True)
     (ROOT / "pro" / "matches.json").write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")

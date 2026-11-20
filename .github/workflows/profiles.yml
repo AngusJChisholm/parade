@@ -2,7 +2,7 @@ name: Enrich deals and build brand/property pages
 
 # Runs whenever deals.json or entities.json changes (e.g. the 6am update). Adds deal type, term and end
 # year to new deals (tools/enrich.py), confidence and last-verified date (tools/confidence.py), files each property's own partner tiers (tools/ptiers.py), then rebuilds the page for every brand and property plus the
-# sitemap (tools/build_profiles.py), then rebuilds SSS Pro's partner matches and their backtest (tools/match.py) and Category availability (tools/availability.py).
+# sitemap (tools/build_profiles.py), then rebuilds Partnership Pro's partner matches and their backtest (tools/match.py) and Category availability (tools/availability.py).
 # Its own commit triggers one more run, which finds nothing to do.
 on:
   push:
@@ -52,7 +52,7 @@ jobs:
       - name: Live ticker (ticker.json, read by every page)
         run: python3 tools/build_ticker.py
 
-      - name: SSS Pro matches, backtest and data audit
+      - name: Partnership Pro matches, backtest and data audit
         run: |
           python3 tools/match.py
           python3 tools/availability.py

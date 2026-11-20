@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""SSS Pro coverage helper.
+"""Partnership Pro coverage helper.
 
   python3 tools/coverage.py next 12   -> the next properties to check (never checked first, lowest tier first, then oldest)
   python3 tools/coverage.py stats     -> ANZ deal count vs target, properties checked, stale checks

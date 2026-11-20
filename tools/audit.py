@@ -1,4 +1,4 @@
-"""Data audit for the SSS archive: finds likely errors so the data (and SSS Pro's matches) stay accurate.
+"""Data audit for the Parade archive: finds likely errors so the data (and Partnership Pro's matches) stay accurate.
 
     python3 tools/audit.py          # print the summary, write pro/audit.json
     python3 tools/audit.py --full   # also print every item

@@ -16,5 +16,5 @@ jobs:
       # Results go to a side branch so they never touch the live site.
       - run: |
           mv wp-report.json /tmp/ && git checkout --orphan wp-report && git rm -rqf . && mv /tmp/wp-report.json .
-          git add wp-report.json && git -c user.name="SSS bot" -c user.email="bot@sportsportsport.com.au" commit -qm "Post list"
+          git add wp-report.json && git -c user.name="Parade bot" -c user.email="bot@sportsportsport.com.au" commit -qm "Post list"
           git push -qf origin wp-report

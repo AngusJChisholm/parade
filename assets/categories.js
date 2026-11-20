@@ -1,7 +1,7 @@
 /* Categories (categories.html): every brand category, and one category in detail with ?c=<name>. */
 (function(){
 const $=id=>document.getElementById(id);
-const L=window.SSSLogos, S=window.SSSData, esc=S.esc;
+const L=window.ParadeLogos, S=window.ParadeData, esc=S.esc;
 const yr=new Date().getFullYear();
 $("yr").textContent=yr;
 const plural=(n,a,b)=>`${n.toLocaleString("en-AU")} ${n===1?a:b}`;

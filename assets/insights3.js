@@ -1,7 +1,7 @@
 /* Insights hub v3 (insights.html) */
 (function(){
 const $=id=>document.getElementById(id);
-const L=window.SSSLogos,S=window.SSSData,esc=S.esc;
+const L=window.ParadeLogos,S=window.ParadeData,esc=S.esc;
 const yr=new Date().getFullYear(),now=new Date();
 const fmtN=n=>n.toLocaleString("en-AU");
 S.load().then(D=>{

@@ -1,8 +1,8 @@
 """Property tiers: each property's own partner groupings, as its official partners page shows them.
 
 Two layers on every deal:
-  "tier"  - SSS's own deal type (Principal & major, Official partner ...). Same meaning everywhere; used for
-            filters, insights, renewals and SSS Pro.
+  "tier"  - Parade's own deal type (Principal & major, Official partner ...). Same meaning everywhere; used for
+            filters, insights, renewals and Partnership Pro.
   "ptier" - the property's own grouping for that partner, exactly as its official partners page labels it
             (e.g. "Platinum partner", "Premier partner", "Official supplier"). Shown on the property's page.
   "ptitle"- optional: the partner's official title on that page (e.g. "Official Airline Partner").

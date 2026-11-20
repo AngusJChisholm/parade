@@ -15,7 +15,7 @@
                Needs Supabase (supabase/schema.sql section 6). The viewer is deck.html.
    Settings live in localStorage under "sssPro.decks." (synced to pro_state with the rest of Pro).
    Uploaded images and video stay in this browser's IndexedDB ("sssProMedia"). */
-window.SSSDecks=(function(){
+window.ParadeDecks=(function(){
 let X=null,D=null,L=null,S=null,MX=null,host=null;
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const W=1920,H=1080,MAXB=25,VOLT="#D2FF3C",INK="#111111",GREY="#5C5C57",LINE="#DEDED8",CANVAS="#F4F4F1";
@@ -977,10 +977,10 @@ async function editor(mode){
   if($("edImg"))$("edImg").onchange=async e=>{const f=e.target.files[0];if(!f)return;const key=`tpl:${t.id}:img:${uid()}`;await IDB.put(key,f);const im=await media(key);if(!im)return;
     const s=Math.min(.6*(t.w||W)/im.naturalWidth,.6*(t.h||H)/im.naturalHeight,1);t.layers.push({type:"img",key,x:((t.w||W)-im.naturalWidth*s)/2,y:((t.h||H)-im.naturalHeight*s)/2,w:im.naturalWidth*s,h:im.naturalHeight*s});st.selL=t.layers.length-1;layersUI();redraw()};
   $("edName").oninput=e=>{t.name=e.target.value};
-  $("edCancel").onclick=()=>{st.edit=null;st.selL=-1;studio?window.SSSDecks._studio():design()};
+  $("edCancel").onclick=()=>{st.edit=null;st.selL=-1;studio?window.ParadeDecks._studio():design()};
   $("edSave").onclick=()=>{if(!t.base&&!studio)return alert("Upload a photo first.");if(!t.layers.some(l=>l.type==="logo"))if(!confirm("There's no brand logo layer, so every brand gets the same image. Save anyway?"))return;
     const own=lib.own().filter(x=>x.id!==t.id);const save=Object.assign({},t);delete save.isNew;save.group=studio?"Studio":"Your photos";if(studio&&!save.base&&!save.w){save.w=W;save.h=H}
-    own.push(save);lib.save(own);const sel=new Set(cfg.get("tsel",[]));sel.add(t.id);cfg.set("tsel",[...sel]);st.edit=null;st.selL=-1;st.tool="sel";studio?window.SSSDecks._studio():design()};
+    own.push(save);lib.save(own);const sel=new Set(cfg.get("tsel",[]));sel.add(t.id);cfg.set("tsel",[...sel]);st.edit=null;st.selL=-1;st.tool="sel";studio?window.ParadeDecks._studio():design()};
   window.addEventListener("keydown",function kd(e){if(!document.body.contains(cv)){window.removeEventListener("keydown",kd);return}
     if((e.key==="Delete"||e.key==="Backspace")&&st.selL>=0&&!/input|textarea|select/i.test(document.activeElement.tagName)){t.layers.splice(st.selL,1);st.selL=-1;layersUI();redraw()}});
 }
@@ -1159,7 +1159,7 @@ async function exportDecks(id){
 }
 
 /* ---- Shared: secure links and analytics ---- */
-const sbx=()=>window.SSSPro&&window.SSSPro.sb?window.SSSPro.sb:null;
+const sbx=()=>window.ParadePro&&window.ParadePro.sb?window.ParadePro.sb:null;
 function shared(){
   const sb=sbx(),P=pairs();
   if(!sb){$("pdBody").innerHTML=`<div class="h3">Share links</div>
@@ -1244,7 +1244,7 @@ async function loadLinks(){
 
 /* ---------- entry point, called by pro.js for the Pitch decks tab ---------- */
 function render(ctx){
-  X=ctx;D=ctx.D;L=window.SSSLogos;S=window.SSSData;host=document.getElementById("view");
+  X=ctx;D=ctx.D;L=window.ParadeLogos;S=window.ParadeData;host=document.getElementById("view");
   host.innerHTML=`<p class="note">Loading…</p>`;
   Promise.all([ctx.mxLoad(),fonts()]).then(([mx])=>{MX=mx;shell()}).catch(err=>{console.error(err);host.innerHTML=`<p class="note">Couldn't load Pitch decks. Refresh to try again.</p>`});
 }

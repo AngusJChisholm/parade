@@ -27,7 +27,7 @@ from zoneinfo import ZoneInfo
 ROOT = Path(__file__).resolve().parent.parent
 MEL = ZoneInfo("Australia/Melbourne")
 # Images are served straight from GitHub so Instagram work never triggers a Netlify deploy (credits).
-REPO = os.environ.get("GITHUB_REPOSITORY", "AngusJChisholm/sport-sport-sport")
+REPO = os.environ.get("GITHUB_REPOSITORY", "AngusJChisholm/parade")
 IMG_BASE = f"https://raw.githubusercontent.com/{REPO}/main/ig"
 # "facebook" = Instagram account linked to a Facebook Page (Page token, never expires).
 # "instagram" = Instagram API with Instagram login (60-day token, refreshed weekly).

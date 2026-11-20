@@ -2,7 +2,7 @@
 that has no graphics yet (or whose spec changed since they were rendered).
 
 Spec: instagram/linkedin/<date>.json (same shape as tools/linkedin_graphics.py, plus optional "image").
-Output: ig/<date>/linkedin/sss-<date>-slide1.png and -slide2.png, plus a stamp of the spec it came from.
+Output: ig/<date>/linkedin/parade-<date>-slide1.png and -slide2.png, plus a stamp of the spec it came from.
 """
 import hashlib, json, sys
 from pathlib import Path

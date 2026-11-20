@@ -4,7 +4,7 @@
    Time on each slide goes back through deck_ping() every few seconds and when the page is hidden. */
 (function(){
   const $=id=>document.getElementById(id);
-  const C=window.SSS_SUPABASE||{};
+  const C=window.PARADE_SUPABASE||{};
   const id=new URLSearchParams(location.search).get("d")||"";
   const say=(t,p)=>{$("gT").textContent=t;$("gP").textContent=p||""};
   if(!C.url||!C.anonKey||!window.supabase){say("Link not available.","Share links aren't switched on yet.");return}

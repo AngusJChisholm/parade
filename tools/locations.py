@@ -1,4 +1,4 @@
-"""Home city for ANZ clubs, used by SSS Pro's Match Score (tools/match.py).
+"""Home city for ANZ clubs, used by Partnership Pro's Match Score (tools/match.py).
 
 Clubs look at other clubs in the same city across every code: a brand backing Melbourne Storm or Melbourne
 Victory is a real prospect for Collingwood. Tasmanian teams are grouped as "Tasmania" (state-wide fan bases).
