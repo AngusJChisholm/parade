@@ -1,5 +1,5 @@
 /* SSS Pro (pro.html): private working tool built on the deal archive.
-   Tabs: Pitch decks (assets/pro-decks.js), Scouting (Match Score suggestions, both ways), Brand finder, Renewal radar, Property report (partners, category gaps, prospects, peer benchmark), Watchlist, Reports (partnership report for any brand or property, saved as a PDF).
+   Tabs: Pitch decks (assets/pro-decks.js), Scouting (Match Score suggestions, both ways), Brand finder, Category availability (open/taken by category and state), Renewal radar, Property report (partners, category gaps, prospects, peer benchmark), Watchlist, Reports (partnership report for any brand or property, saved as a PDF).
    Renewal years come in three strengths:
      Confirmed  - the announcement states when the deal ends
      From term  - the announcement states the length; end year = announced year + term
@@ -1070,14 +1070,121 @@ function wagering(){
   };
   draw();
 }
+/* ---------- Category availability (pro/availability.json, built by tools/availability.py) ----------
+   Pick a category (and a sub-category inside it) and a state: every ANZ property comes back Open, Opening,
+   Adjacent, Ending or Taken for that slot. Status is worked out here from each property's partner list:
+     Taken     a live partner in that exact slot
+     Ending    the only partners in the slot have a stated end year this year or next
+     Opening   nobody live in the slot, and a partner in the category ended in the last 18 months
+     Adjacent  nobody in the slot, but a live partner elsewhere in the category (a solar partner when you sell energy retail)
+     Open      nothing in the category
+   Minor sub-categories (local tradies, things filed in the category by mistake) are listed but never change the status.
+   A club whose league or governing body holds the slot is flagged "League holds": a club deal may still work, but
+   check exclusivity and signage rules first. */
+let AV=null;
+const avLoad=()=>AV?Promise.resolve(AV):window.SSSPro.json("availability.json").then(j=>{AV=j;AV.by=new Map(j.props.map(p=>[p.s,p]));return AV});
+const AV_MINOR=new Set(["Electrical & trades","Not energy (check category)","Water"]);
+const AV_ORDER=["Opening","Open","Adjacent","Ending","Taken"];
+const AV_TIP={Open:"No partner in this category",Opening:"A partner in this category ended in the last 18 months and nobody has replaced them",Adjacent:"No partner in this slot, but a live partner elsewhere in the category: check the exclusivity wording",Ending:"The partner in this slot has a stated end year this year or next",Taken:"A live partner holds this slot"};
+const AV_STATES=[["NSW","NSW"],["VIC","VIC"],["QLD","QLD"],["SA","SA"],["WA","WA"],["TAS","TAS"],["ACT","ACT"],["NT","NT"],["NZ","NZ"],["National","National"],["All","All"]];
+const AV_TYPES=[["","All types"],["club","Clubs"],["event","Events"],["body","Leagues & bodies"],["venue","Venues"],["athlete","Athletes"]];
+const avType=t=>t==="Club & team"||t==="National team"?"club":t==="Event"?"event":t==="League & competition"||t==="Governing body"?"body":t==="Venue"?"venue":t==="Athlete & talent"?"athlete":"other";
+function avStatus(p,cat,sub){
+  const inCat=r=>r[2]===cat, inSlot=r=>inCat(r)&&(!sub||r[3]===sub), minor=r=>AV_MINOR.has(r[3]);
+  const liveR=r=>r[4]==="L"||r[4]==="E";
+  const slot=p.p.filter(r=>inSlot(r)&&liveR(r)&&(sub||!minor(r)));
+  const adj=p.p.filter(r=>inCat(r)&&liveR(r)&&!slot.includes(r));
+  // A partner that left counts toward "Opening" if it held this slot, or held a top-tier spot in the category
+  // (Squadron Energy off the Dragons' jersey opens the door for an energy retailer; a solar supplier leaving doesn't).
+  const big=r=>/principal|major|naming|platinum|premier|front|jersey|shirt|title/i.test(r[6]||"");
+  const gone=p.p.filter(r=>inCat(r)&&r[4]==="X"&&!minor(r)&&(!sub||r[3]===sub||!r[3]||big(r)));
+  const left=p.p.filter(r=>inCat(r)&&r[4]==="X"&&!gone.includes(r));
+  let st;
+  if(slot.length)st=slot.every(r=>r[4]==="E")?"Ending":"Taken";
+  else if(gone.length)st="Opening";
+  else if(adj.some(r=>!minor(r)))st="Adjacent";
+  else st="Open";
+  const upM=new Map();(p.up||[]).forEach(u=>{const q=AV.by.get(u);if(q)q.p.filter(r=>inSlot(r)&&liveR(r)&&(sub||!minor(r))).forEach(r=>{const k=r[0];if(!upM.has(k))upM.set(k,{r,q,via:[]});upM.get(k).via.push(q.n)})});
+  const up=[...upM.values()].map(x=>Object.assign(x,{q:{n:x.via.join(", ")}}));
+  return {st,slot,adj,gone,left,up};
+}
+function availability(){
+  const view=$("view");view.innerHTML=`<p class="pro-intro">Loading category availability…</p>`;
+  avLoad().then(()=>{
+    const wf=FOR.org();
+    let f=state.av;
+    if(!f){
+      f=state.av={cat:"Energy & utilities",sub:"Energy retail",st:"NSW",type:"",summer:false,nat:false,show:""};
+      // Working for a brand: open on its own category and slot
+      if(wf&&wf.kind==="brand"){const mine=AV.props.flatMap(p=>p.p).find(r=>r[0]===wf.e.slug);if(mine){f.cat=mine[2];f.sub=mine[3]||""}else if(wf.cat&&wf.cat!=="Other"){f.cat=wf.cat;f.sub=""}}
+    }
+    const cats=[...S.CATS.filter(c=>AV.cats[c]),...Object.keys(AV.cats).filter(c=>c!=="Other"&&!S.CATS.includes(c)).sort()];
+    const subs=()=>AV.cats[f.cat]||[];
+    view.innerHTML=`<p class="pro-intro">Pick a category and a state to see which properties have the slot free. <b>Open</b>: no partner in the category. <b>Opening</b>: a partner in the category ended in the last 18 months and nobody has replaced them. <b>Adjacent</b>: no partner in this slot, but a live one elsewhere in the category (a solar partner when you sell energy retail), so check the exclusivity wording. <b>Ending</b>: the slot's partner has a stated end year this year or next. <b>League holds</b> means the club's league or governing body has a partner in this slot.</p>
+    <div class="ctl"><select class="sel" id="avcat">${cats.map(c=>opt(c,f.cat)).join("")}</select>
+    <select class="sel" id="avsub"></select>
+    <select class="sel" id="avtype">${AV_TYPES.map(([v,l])=>opt(v,f.type,l)).join("")}</select>
+    ${f.st!=="National"&&f.st!=="All"?`<select class="sel" id="avnat">${opt("0",f.nat?"1":"0",f.st+" only")}${opt("1",f.nat?"1":"0","+ National properties")}</select>`:""}
+    <select class="sel" id="avshow"></select></div>
+    <div class="ctl2"><div class="pills" id="avst">${pills("avs",AV_STATES,f.st)}</div>
+    <div class="pills">${pills("avsum",[["0","Any season"],["1","Plays in summer"]],f.summer?"1":"0")}</div></div>
+    <div class="kpis" id="avk"></div>
+    <div class="res"><span class="lbl mute-l" id="avcount"></span><span class="toolrow"><button class="ghost" id="avcsv">Export CSV</button> <button class="ghost" id="avprint">Print / PDF</button></span></div><div id="avlist"></div>
+    <p class="note-s">Built ${esc(AV.generated)} from the SSS database. "Open" means nothing on file, not a confirmed vacancy: check the property's official partners page before pitching. Properties marked verified have had that page checked.</p>`;
+    const fillSub=()=>{$("avsub").innerHTML=`<option value="">Whole category</option>`+subs().map(s=>opt(s,f.sub)).join("");if(f.sub&&!subs().includes(f.sub))f.sub=""};
+    fillSub();
+    const inState=p=>{
+      if(p.parentOnly)return false;
+      if(f.st==="All")return true;
+      const nat=!p.st.length&&avType(p.t)!=="athlete";
+      if(f.st==="National")return nat;
+      return p.st.includes(f.st)||(f.nat&&nat);
+    };
+    const nameTxt=r=>`${r[1]}${r[3]?` (${r[3]})`:""}${r[5]?` to ${r[5]}`:""}`;
+    const pline=(r,cls)=>{const e=L.byId(r[0]);const t=`${esc(r[1])}${r[5]?` <span class="av-m">to ${r[5]}</span>`:""}`;return `<span class="av-p${cls?" "+cls:""}" title="${esc(r[3]||"")}${r[6]?" · "+esc(r[6]):""}">${e?logo(e,20):""}${r[7]&&/^https:\/\//.test(r[7])?`<a href="${esc(r[7])}" target="_blank" rel="noopener">${t}</a>`:t}</span>`};
+    const draw=()=>{
+      const base=AV.props.filter(p=>inState(p)&&(!f.type||avType(p.t)===f.type)&&(!f.summer||p.sum)).map(p=>Object.assign({p},avStatus(p,f.cat,f.sub)));
+      const n={};AV_ORDER.forEach(s=>n[s]=0);base.forEach(x=>n[x.st]++);
+      $("avk").innerHTML=`<div><b>${n.Open}</b><span>Open</span></div><div><b>${n.Opening}</b><span>Opening</span></div><div><b>${n.Adjacent}</b><span>Adjacent</span></div><div><b>${n.Taken+n.Ending}</b><span>Taken${n.Ending?` · ${n.Ending} ending`:""}</span></div>`;
+      $("avshow").innerHTML=[["","All statuses · "+base.length],["free","Open + Opening · "+(n.Open+n.Opening)],...AV_ORDER.map(s=>[s,`${s} · ${n[s]}`])].map(([v,l])=>opt(v,f.show,l)).join("");
+      const rows=base.filter(x=>!f.show||(f.show==="free"?x.st==="Open"||x.st==="Opening":x.st===f.show))
+        .sort((a,b)=>AV_ORDER.indexOf(a.st)-AV_ORDER.indexOf(b.st)||(b.p.sum-a.p.sum)||a.p.n.localeCompare(b.p.n));
+      state.avRows=rows;
+      $("avcount").textContent=`${rows.length} propert${rows.length===1?"y":"ies"} · ${f.sub||f.cat}${f.st!=="All"?` · ${f.st}`:""}`;
+      $("avlist").innerHTML=rows.length?`<div class="tw"><table class="t av-t"><thead><tr><th>Status</th><th>Property</th><th>Competition</th><th>Season</th><th>In this slot</th><th>Elsewhere in ${esc(f.cat)}</th><th>League holds</th></tr></thead><tbody>${rows.map(x=>{const p=x.p,e=L.byId(p.s);
+        const slotCell=x.slot.length?x.slot.map(r=>pline(r)).join(""):x.gone.length?x.gone.map(r=>pline(r,"gone")).join("")+`<span class="av-m">ended</span>`:`<span class="av-m">None on file</span>`;
+        const adjCell=x.adj.map(r=>pline(r,AV_MINOR.has(r[3])?"minor":"")).join("")+x.left.map(r=>pline(r,"gone")).join("");
+        return `<tr class="av-${x.st.toLowerCase()}"><td><span class="av-s av-${x.st.toLowerCase()}" title="${esc(AV_TIP[x.st])}">${x.st}</span></td>
+        <td><span class="dl">${e?logo(e,30):""}<a href="${esc(L.page(p.s))}"><b>${esc(p.n)}</b></a>${star(p.s)}</span><span class="av-m av-sub">${esc(p.t)}${p.c?` · ${esc(p.c)}`:p.st.length?` · ${esc(p.st.join(" / "))}`:""}${p.v?` · <span title="Official partners page last checked">verified ${esc(vfmt(p.v))}</span>`:""}</span></td>
+        <td>${esc(p.lg.join(", ")||p.sp)}</td><td>${esc(p.ssn)}</td><td>${slotCell}</td><td>${adjCell}</td>
+        <td>${x.up.length?x.up.map(({r,q})=>`<span class="av-p" title="${esc(q.n)}">${esc(r[1])} <span class="av-m">via ${esc(q.n)}</span></span>`).join(""):""}</td></tr>`}).join("")}</tbody></table></div>`:`<p class="pro-intro">No properties match. Try another state or type.</p>`;
+      state.avCsv=()=>csv([["Status","Property","Type","State","City","Competition","Season","In this slot","Ended in category","Elsewhere in category","League holds","Verified"],
+        ...rows.map(x=>[x.st,x.p.n,x.p.t,x.p.st.join(" / "),x.p.c,x.p.lg.join(", "),x.p.ssn,x.slot.map(nameTxt).join("; "),x.gone.map(nameTxt).join("; "),[...x.adj.map(nameTxt),...x.left.map(r=>nameTxt(r)+" (ended)")].join("; "),x.up.map(({r,q})=>`${r[1]} via ${q.n}`).join("; "),x.p.v])],
+        `sss-pro-availability-${(f.sub||f.cat).toLowerCase().replace(/[^a-z0-9]+/g,"-")}-${f.st.toLowerCase()}.csv`);
+    };
+    $("avcat").onchange=e=>{f.cat=e.target.value;f.sub="";fillSub();draw()};
+    $("avsub").onchange=e=>{f.sub=e.target.value;draw()};
+    $("avtype").onchange=e=>{f.type=e.target.value;draw()};
+    $("avshow").onchange=e=>{f.show=e.target.value;draw()};
+    if($("avnat"))$("avnat").onchange=e=>{f.nat=e.target.value==="1";draw()};
+    view.onclick=e=>{
+      const s=e.target.closest("[data-avs]");if(s){f.st=s.dataset.avs;availability();return}
+      const sm=e.target.closest("[data-avsum]");if(sm){f.summer=sm.dataset.avsum==="1";sm.parentNode.querySelectorAll("[data-avsum]").forEach(p=>p.classList.toggle("on",p===sm));draw();return}
+      if(e.target.id==="avcsv"&&state.avCsv)state.avCsv();
+      if(e.target.id==="avprint")window.print();
+    };
+    draw();
+  }).catch(err=>{console.error(err);view.innerHTML=`<p class="note">Couldn't load category availability. Refresh to try again.</p>`});
+}
 /* Portfolio (assets/pro-portfolio.js): one rights holder's whole stable of properties, e.g. Tennis Australia's events. */
 function portfolio(){if(window.SSSPortfolio)window.SSSPortfolio.render({D,S,L,mxLoad,renewal,basisTag,confTag,live,csv,FOR,go,state});else home()}
 /* Pitch decks (assets/pro-decks.js) is built but parked: not loaded until it's ready to go live. */
 function decks(){if(window.SSSDecks)window.SSSDecks.render({D,mxLoad});else home()}
-const TABS={home,dash:desk,portfolio,scouting,finder,renewals,wagering,property,watch:watchlist,reports,decks};
+const TABS={home,dash:desk,portfolio,scouting,finder,availability,renewals,wagering,property,watch:watchlist,reports,decks};
 const HEAD={portfolio:["Portfolio","Every property you sell, in one view: who's on what, where the open categories are across the whole portfolio, who to extend and who to call next."],
   scouting:["Matches","Who should partner with whom. Ranked by Match Score: fit with brands already backing properties like this one, plus open category gaps."],
   finder:["Brand finder","Brands spending in sport. Filter by category and the sports they back, or leave a sport out to find brands active elsewhere who haven't come into yours yet."],
+  availability:["Category availability","Pick a category and a state: every property comes back open, opening, adjacent or taken for that slot, with who holds it and who just left."],
   renewals:["Renewal radar","Confirmed and estimated end dates, each labelled, so you know when a partner might be back in play."],
   wagering:["Wagering exit","Every live ANZ partnership with a betting or wagering brand. No new wagering branding on kit or in venues from 1 January 2027, and pre-July 2026 deals roll off by 31 December 2031."],
   property:["Property report","Any property in one view: partners by tier, open categories and who could fill them, upcoming renewals and how it stacks up against its league."],

@@ -12,7 +12,7 @@ import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-FILES = ["matches.json", "audit.json", "health.json"]
+FILES = ["matches.json", "audit.json", "health.json", "availability.json"]
 
 
 def upload(base, key, name):
