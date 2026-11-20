@@ -373,7 +373,7 @@ html.locked body{padding-bottom:0}
 .gt-dots{position:absolute;right:28px;bottom:30px;display:flex;gap:6px;z-index:2}
 .gt-dots i{width:8px;height:8px;border-radius:6px;background:rgba(255,255,255,.35);transition:all .4s}
 .gt-dots i.on{width:24px;background:#fff}
-.gt-logo{position:absolute;top:32px;left:50%;transform:translateX(-50%);z-index:2;background:#000;border-radius:6px;padding:10px 14px;display:flex}
+.gt-logo{position:absolute;top:32px;left:50%;transform:translateX(-50%);z-index:2;display:flex;filter:drop-shadow(0 2px 10px rgba(0,0,0,.45))}
 .gt-logo img{height:40px;width:auto;display:block}
 .gt-r{flex:1 1 420px;min-width:0;display:flex;align-items:center;justify-content:center;padding:48px 24px}
 #gate .gate-box{max-width:440px;display:flex;flex-direction:column;gap:16px}
@@ -587,7 +587,7 @@ body.pro header.v2 .dd-m{background:#111}body.pro header.v2 .dd-m a{color:#fff}
 </header>
 <main id="main">
 <section id="gate">
-<div class="gt-ph" role="img" aria-label="Rotating sport photos"><div class="gt-sl" id="gtSl"></div><div class="gt-dots" id="gtDots"></div>
+<div class="gt-ph" role="img" aria-label="New York Knicks fans celebrating in Times Square"><div class="gt-sl"><div class="on" style="background-image:url('https://images.unsplash.com/photo-1781544053887-276f45784260?w=1600&q=80')"></div></div>
 <a href="./" class="gt-logo" aria-label="Parade home"><img src="assets/wordmark-white.png" alt="Parade" height="26"></a></div>
 <div class="gt-r"><div class="gate-box">
 <span class="gt-pill">Partnership Pro</span>
@@ -678,14 +678,7 @@ body.pro header.v2 .dd-m{background:#111}body.pro header.v2 .dd-m a{color:#fff}
 </div></template>
 <datalist id="propNames"></datalist>
 <datalist id="brandNames"></datalist>
-<script>/* Sign-in photos: four stadium shots from Unsplash, crossfading every 6 seconds */
-(function(){const sl=document.getElementById("gtSl"),dots=document.getElementById("gtDots");if(!sl)return;
-const IDS=["bC4KqJDfYMU","LemW56Wd7SE","LbT_j62t94U","RQwgctKZUic"];
-sl.innerHTML=IDS.map(id=>`<div style="background-image:url('https://unsplash.com/photos/${id}/download?w=1600')"></div>`).join("");
-dots.innerHTML=IDS.map(()=>"<i></i>").join("");let i=0;
-const on=()=>{[...sl.children].forEach((d,k)=>d.classList.toggle("on",k===i));[...dots.children].forEach((d,k)=>d.classList.toggle("on",k===i))};on();
-if(!matchMedia("(prefers-reduced-motion: reduce)").matches)setInterval(()=>{if(!document.documentElement.classList.contains("locked"))return;i=(i+1)%IDS.length;on()},6000);
-})();</script>
+
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="assets/pro-config.js?v=1"></script>
 <script src="assets/pro-auth.js?v=7"></script>
