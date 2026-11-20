@@ -75,74 +75,74 @@
   },
   {
    "date": "2026-11-20",
-   "score": 49.8,
+   "score": 49.1,
    "partial": true,
    "areas": {
     "Completeness": 32.2,
-    "Consistency": 37.2,
-    "Freshness": 68.3,
+    "Consistency": 36.0,
+    "Freshness": 66.6,
     "Sources": 63.6,
-    "Logos": 62.2
+    "Logos": 61.7
    },
    "metrics": {
     "Completeness": {
      "Key-market clubs checked %": 68.0,
      "New partnerships with term or stated end %": 26.1,
-     "Brands (2+ partnerships) with category %": 59.5,
+     "Brands (2+ partnerships) with category %": 59.4,
      "Major partner-page rows with announcement date %": 0.0
     },
     "Consistency": {
-     "Rows on controlled lists %": 72.2,
-     "Open duplicates": 56
+     "Rows on controlled lists %": 72.4,
+     "Open duplicates": 59
     },
     "Freshness": {
      "Tier 1-2 properties checked in 30 days %": 100.0,
      "All properties checked in 90 days %": 99.9,
-     "Live rows with a past end year": 95
+     "Live rows with a past end year": 101
     },
     "Sources": {
      "Rows on a reviewed source domain %": 99.0,
      "Announced partnerships on an official source %": 36.1
     },
     "Logos": {
-     "Brand logo coverage (by partnerships) %": 57.3
+     "Brand logo coverage (by partnerships) %": 57.0
     }
    }
   }
  ],
  "latest": {
   "date": "2026-11-20",
-  "score": 49.8,
+  "score": 49.1,
   "partial": true,
   "areas": {
    "Completeness": 32.2,
-   "Consistency": 37.2,
-   "Freshness": 68.3,
+   "Consistency": 36.0,
+   "Freshness": 66.6,
    "Sources": 63.6,
-   "Logos": 62.2
+   "Logos": 61.7
   },
   "metrics": {
    "Completeness": {
     "Key-market clubs checked %": 68.0,
     "New partnerships with term or stated end %": 26.1,
-    "Brands (2+ partnerships) with category %": 59.5,
+    "Brands (2+ partnerships) with category %": 59.4,
     "Major partner-page rows with announcement date %": 0.0
    },
    "Consistency": {
-    "Rows on controlled lists %": 72.2,
-    "Open duplicates": 56
+    "Rows on controlled lists %": 72.4,
+    "Open duplicates": 59
    },
    "Freshness": {
     "Tier 1-2 properties checked in 30 days %": 100.0,
     "All properties checked in 90 days %": 99.9,
-    "Live rows with a past end year": 95
+    "Live rows with a past end year": 101
    },
    "Sources": {
     "Rows on a reviewed source domain %": 99.0,
     "Announced partnerships on an official source %": 36.1
    },
    "Logos": {
-    "Brand logo coverage (by partnerships) %": 57.3
+    "Brand logo coverage (by partnerships) %": 57.0
    }
   }
  }
