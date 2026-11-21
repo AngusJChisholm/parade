@@ -355,7 +355,8 @@ def ig_cover(s, n, total):
     src = photo(s.get("image"))
     head = PL.highlight(" ".join(s.get("headline_lines") or []), s.get("highlight"))
     b, p = PL.split_pair(s.get("deal"))
-    sup = f'<b>{e(b)} &times; {e(p)}</b> &middot; {e(s.get("descriptor", ""))}'
+    pair = f'{e(b)} &times; {e(p)}' if p else e(b or s.get("deal", ""))
+    sup = f'<b>{pair}</b> &middot; {e(s.get("descriptor", ""))}'
     if not src:  # no photo: the logos carry the cover
         middle = f'<div style="flex:1;display:flex;align-items:center;justify-content:center;padding:0 30px">{lockup(item_of(s), 300, 140, white=True, name_size=80)}</div>'
         bg = ""
@@ -493,7 +494,71 @@ def render(spec, out, platforms=("linkedin", "instagram")):
         b.close()
 
 
+# ---------- Mon / Wed / Fri features in the Tue/Thu style ----------
+
+def ed_rows_slide(sl, n, total):
+    """One idea per slide (Stake editorial): label tag, sentence-case heading, clean rows."""
+    rows = "".join(f'<div class="kv" style="flex-direction:column;align-items:flex-start;gap:8px">'
+                   f'<b style="text-align:left;font-size:72px">{e(r.get("main"))}</b>'
+                   f'<span style="font-size:26px">{e(r.get("sub", ""))}</span></div>' for r in (sl.get("rows") or []))
+    label = sl.get("label")
+    tag = f'<span class="otag" style="border-color:#111;color:#111;align-self:flex-start">{e(label)}</span>' if label else ""
+    foot = f'<div class="src">{e(sl.get("source") or "Source: Parade database")}</div>'
+    return ed_page(n, total, f"""{tag}<h2>{e(sl.get("title", ""))}</h2><div>{rows}</div>""", foot)
+
+
+def feature_save(n, total, label):
+    where = "Full database: link in bio" if label == "Data drop" else "Full story: link in bio"
+    return ig_frame(f"""{ig_top(n, total)}
+<div style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:40px;text-align:center">
+<span class="otag">Who backs who</span>
+<div class="mega" style="font-size:168px">Every partnership, <span class="v" style="background:#D2FF3C;border-radius:6px;padding:0 .06em">filed.</span></div>
+<div style="font-size:32px;line-height:1.35;color:#A3A39E;max-width:780px">ANZ, North America and the UK &amp; Ireland, logged as they land.</div></div>
+<div style="display:flex;flex-direction:column;align-items:center;gap:22px"><div class="cta">Save it. Send it to a mate.</div><div class="sup"><b>{e(where)}</b></div></div>""")
+
+
+def build_feature(feed, image="", credit=""):
+    """An Instagram queue "feature" feed (cover + slides of rows) in the Tue/Thu look."""
+    c = feed.get("cover") or {}
+    words = (c.get("headline") or "").split()
+    spec = {"date": "", "status": c.get("tag"), "headline_lines": [" ".join(words)], "highlight": c.get("highlight"),
+            "deal": c.get("deal", ""), "descriptor": c.get("descriptor", ""), "image": image, "imageCredit": credit}
+    slides = feed.get("slides") or []
+    total = len(slides) + 2
+    pages = [ig_cover(spec, 1, total)]
+    for i, sl in enumerate(slides, 2):
+        pages.append(ed_rows_slide(sl, i, total))
+    pages.append(feature_save(total, total, c.get("tag")))
+    return pages
+
+
+def feature_photo(date, headline):
+    """The article photo for this exact feature (match on headline slug, not just the date: some days have two features)."""
+    want = re.sub(r"[^a-z0-9]+", "-", (headline or "").lower()).strip("-")
+    rows = [f for f in json.loads((PL.ROOT / "features.json").read_text()).get("features", []) if f.get("date") == date and f.get("image")]
+    hit = next((f for f in rows if want and want in (f.get("slug") or "")), rows[0] if rows else {})
+    return hit.get("image", ""), hit.get("imageCredit", "")
+
+
+def render_feature(queue_path, out, image="", credit=""):
+    q = json.load(open(queue_path))
+    if not image:
+        image, credit = feature_photo(Path(queue_path).stem, (q["feed"].get("cover") or {}).get("headline"))
+    pages = build_feature(q["feed"], image, credit)
+    out = Path(out); out.mkdir(parents=True, exist_ok=True)
+    with sync_playwright() as p:
+        b = p.chromium.launch(); pg = b.new_page(viewport={"width": W, "height": H})
+        for i, h in enumerate(pages, 1):
+            pg.set_content(h, wait_until="networkidle"); pg.evaluate(FIT)
+            pg.screenshot(path=str(out / f"feed-{i}.png"))
+        b.close()
+    print("feature:", q["feed"].get("cover", {}).get("tag"), len(pages), "slides")
+
+
 if __name__ == "__main__":
+    if sys.argv[1] == "--feature":  # python3 tools/parade_posts.py --feature instagram/queue/<date>.json out_dir [image] [credit]
+        render_feature(sys.argv[2], sys.argv[3], *(sys.argv[4:6]))
+        sys.exit()
     which = sys.argv[3] if len(sys.argv) > 3 else "both"
     render(json.load(open(sys.argv[1])), sys.argv[2],
            ("linkedin", "instagram") if which == "both" else (which,))
