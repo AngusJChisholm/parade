@@ -88,10 +88,72 @@ CSS = f"""
 .cta{{display:inline-flex;align-items:center;gap:18px;background:#D2FF3C;color:#111;border-radius:6px;padding:22px 30px;font-weight:800;font-size:28px;letter-spacing:.1em;text-transform:uppercase}}
 """
 
+IG_CSS = """
+/* v3: full-bleed cover (Kalshi/FOS), ringed logo circles, Stake editorial inner slides, Elevate quote card */
+.cov .bg{position:absolute;inset:0;background-size:cover;background-position:center 30%}
+.cov .fade{position:absolute;inset:0;background:linear-gradient(to bottom,rgba(17,17,17,.45) 0%,rgba(17,17,17,0) 18%,rgba(17,17,17,0) 42%,rgba(17,17,17,.9) 70%,#111 84%)}
+.rings{display:flex}
+.ring{width:210px;height:210px;border-radius:50%;background:#fff;border:7px solid #D2FF3C;display:flex;align-items:center;justify-content:center;padding:34px;box-shadow:0 14px 40px rgba(0,0,0,.35)}
+.ring+.ring{margin-left:-46px}
+.ring img{max-width:100%;max-height:100%;object-fit:contain}
+.swipe{display:inline-flex;align-items:center;gap:10px;background:#fff;color:#111;border-radius:6px;font-weight:800;font-size:20px;letter-spacing:.14em;text-transform:uppercase;padding:11px 18px 10px}
+.ed{background:#fff;color:#111}
+.ed h2{margin:0;font-weight:700;font-size:92px;line-height:1.0;letter-spacing:-.02em}
+.ed .lede{font-size:36px;line-height:1.4;color:#33332F}
+.ed hr{border:0;border-top:2px solid #DEDED8;margin:0}
+.ed .src{font-size:20px;color:#8A8A85}
+.kv{display:flex;justify-content:space-between;align-items:baseline;padding:24px 0;border-bottom:2px solid #DEDED8}
+.kv span{font-size:28px;color:#5C5C57}
+.kv b{font-weight:800;font-stretch:70%;font-size:64px;text-transform:uppercase;line-height:.9;text-align:right}
+.qbase{display:flex;justify-content:center}
+.qbase .lg{height:86px;width:220px;background:#fff;border-radius:6px;padding:14px 22px;display:flex;align-items:center;justify-content:center}
+.qbase img{max-height:100%;max-width:100%;object-fit:contain}
+.edrow{display:flex;align-items:center;gap:28px;padding:24px 0;border-top:2px solid #DEDED8}
+.edrow:last-child{border-bottom:2px solid #DEDED8}
+.edrow .lp{flex:none;width:220px;height:76px;display:flex;align-items:center;gap:12px}
+.edrow .lp .s{flex:1;height:100%;display:flex;align-items:center;justify-content:center;min-width:0}
+.edrow .lp img{max-width:100%;max-height:100%;object-fit:contain}
+.edrow .lp .sx{color:#8A8A85;font-weight:800;font-size:26px}
+.edrow .lp .nm{font-weight:800;font-stretch:72%;font-size:22px;text-transform:uppercase;color:#5C5C57;text-align:center;line-height:.95}
+.edrow b{display:block;font-weight:700;font-size:38px;line-height:1.08;letter-spacing:-.01em}
+.edrow span{display:block;font-size:24px;color:#5C5C57;margin-top:6px}
+
+/* Instagram editorial set (Kalshi / Elevate / Stake): full-bleed photo, dark fade, outlined tag, huge white caps */
+.ig{background:#111;color:#fff;padding:0}
+.ig .bg{position:absolute;inset:0;background-size:cover;background-position:center 30%}
+.ig .fade{position:absolute;inset:0;background:linear-gradient(to bottom,rgba(17,17,17,.55) 0%,rgba(17,17,17,0) 22%,rgba(17,17,17,0) 38%,rgba(17,17,17,.88) 62%,#111 76%)}
+.ig .in{position:absolute;inset:0;padding:60px 64px 64px;display:flex;flex-direction:column}
+.wl img{filter:brightness(0) invert(1)}
+.wlock{display:inline-flex;align-items:center;gap:22px;height:116px}
+.wlock .w{height:100%;width:210px;background:#fff;border-radius:6px;padding:16px 22px;display:flex;align-items:center;justify-content:center}
+.wlock img{max-height:100%;max-width:100%;object-fit:contain}
+.wlock .t{font-weight:800;font-stretch:72%;font-size:30px;text-transform:uppercase;line-height:.92;color:#111;text-align:center}
+.wlock .x{font-weight:800;font-size:52px;color:#D2FF3C;line-height:.8}
+.otag{display:inline-block;border:2.5px solid #D2FF3C;color:#D2FF3C;border-radius:6px;font-weight:800;font-size:22px;letter-spacing:.16em;text-transform:uppercase;padding:9px 16px 8px;line-height:1}
+.otag.g{border-color:#A3A39E;color:#C9C9C4}.otag.w{border-color:#fff;color:#fff}
+.mega{margin:0;font-weight:800;font-stretch:62%;text-transform:uppercase;line-height:.88;letter-spacing:-.01em;color:#fff;text-align:center}
+.mega .v{color:#111}
+.sup{font-weight:800;font-size:21px;letter-spacing:.16em;text-transform:uppercase;color:#A3A39E;text-align:center}
+.sup b{color:#fff}
+.igq{font-weight:600;font-size:52px;line-height:1.18;text-align:center;color:#fff;letter-spacing:-.005em}
+.igq u{text-decoration:none;box-shadow:inset 0 -.14em 0 #D2FF3C}
+.igfoot{display:flex;justify-content:space-between;align-items:flex-end;font-weight:800;font-size:20px;letter-spacing:.12em;text-transform:uppercase}
+.igfoot span{color:#A3A39E;font-weight:600;letter-spacing:.04em;text-transform:none;font-size:22px}
+.igrow{display:flex;align-items:center;gap:28px;padding:28px 0;border-top:1.5px solid #3A3A36}
+.igrow:last-child{border-bottom:1.5px solid #3A3A36}
+.igrow .lp{flex:none;width:230px;height:80px;display:flex;align-items:center;gap:16px}
+.igrow .lp .s{flex:1;height:100%;display:flex;align-items:center;justify-content:center;min-width:0;background:#fff;border-radius:6px;padding:10px 12px}
+.igrow .lp img{max-width:100%;max-height:100%;object-fit:contain}
+.igrow .lp .sx{color:#D2FF3C;font-weight:800;font-size:28px}
+.igrow .lp .nm{font-weight:800;font-stretch:72%;font-size:22px;text-transform:uppercase;color:#111;text-align:center;line-height:.95}
+.igrow b{display:block;font-weight:800;font-stretch:66%;font-size:54px;text-transform:uppercase;line-height:.92;color:#fff}
+.igrow span{display:block;font-size:24px;color:#A3A39E;margin-top:8px}
+"""
+
 
 def page(body, ink=False, pad=True):
     style = "" if pad else ' style="padding:0"'
-    return (f"<style>{PL.font_css()}{PL.CSS}{CSS}</style>"
+    return (f"<style>{PL.font_css()}{PL.CSS}{CSS}{IG_CSS}</style>"
             f'<div class="pf{" ink" if ink else ""}"{style}>{body}</div>')
 
 
@@ -244,6 +306,122 @@ def save_slide(n, total, platform):
 <div class="cta">{e(ask)}</div><div class="meta" style="color:#fff">{e(where)}</div></div>""", ink=True)
 
 
+# ---------- Instagram editorial set ----------
+
+STATUS_TAG = {"new": "", "upgrade": "", "expansion": "", "renewal": " g", "extension": " g", "ended": " w"}
+
+
+def otag(text):
+    if not text:
+        return ""
+    return f'<span class="otag{STATUS_TAG.get(str(text).lower(), "")}">{e(text)}</span>'
+
+
+def wlockup(item):
+    """White brand x property lockup (Elevate style). Logos become white silhouettes; no logo = the name."""
+    names = PL.split_pair(item.get("deal"))
+    parts = []
+    for path, name in zip(logo_paths(item), names):
+        src = PL.data_uri(path) if path else ""
+        parts.append(f'<div class="w"><img src="{src}" alt=""></div>' if src else f'<div class="w t">{e(name)}</div>')
+    return f'<div class="wlock">{parts[0]}<span class="x">&times;</span>{parts[1]}</div>'
+
+
+def ig_frame(inner, src=""):
+    bg = f'<div class="bg" style="background-image:url(\'{src}\')"></div><div class="fade"></div>' if src else ""
+    return page(f'{bg}<div class="in">{inner}</div>', ink=True, pad=False).replace('class="pf ink"', 'class="pf ink ig"')
+
+
+def ig_top(n, total, colour="white"):
+    return f'<div class="top">{PL.mark(colour, 30)}{count(n, total)}</div>'
+
+
+def rings(item):
+    """Kalshi / FOS style: logos in white circles ringed in volt. Only verified logos; none = no circles."""
+    out = [f'<div class="ring"><img src="{PL.data_uri(p)}" alt=""></div>' for p in logo_paths(item) if p and PL.data_uri(p)]
+    return f'<div class="rings">{"".join(out)}</div>' if out else ""
+
+
+def ig_cover(s, n, total):
+    src = photo(s.get("image"))
+    head = PL.highlight(" ".join(s.get("headline_lines") or []), s.get("highlight"))
+    b, p = PL.split_pair(s.get("deal"))
+    sup = f'<b>{e(b)} &times; {e(p)}</b> &middot; {e(s.get("descriptor", ""))}'
+    if not src:  # no photo: the logos carry the cover
+        middle = f'<div style="flex:1;display:flex;align-items:center;justify-content:center;padding:0 30px">{lockup(item_of(s), 300, 140, white=True, name_size=80)}</div>'
+        bg = ""
+    else:
+        middle = f'<div style="flex:1;display:flex;justify-content:flex-end;align-items:flex-start;padding-top:30px">{rings(item_of(s))}</div>'
+        bg = f'<div class="bg" style="background-image:url(\'{src}\')"></div><div class="fade"></div>'
+    body = f"""<div class="top">{PL.mark("white", 30)}</div>{middle}
+<div style="display:flex;flex-direction:column;align-items:center;gap:24px">{otag(s.get("status"))}
+<h1 class="mega" data-fit="420" data-min="60" style="font-size:156px;width:100%">{head}</h1>
+<div class="sup">{sup}</div><div class="swipe" style="margin-top:6px">Swipe &raquo;</div></div>"""
+    return (f"<style>{PL.font_css()}{PL.CSS}{CSS}{IG_CSS}</style>"
+            f'<div class="pf ink ig cov" style="padding:0">{bg}<div class="in">{body}</div></div>')
+
+
+def ed_page(n, total, inner, foot=""):
+    """Stake style: calm white editorial slide."""
+    return page(f"""{top(right=count(n, total))}
+<div style="flex:1;display:flex;flex-direction:column;justify-content:center;gap:40px">{inner}</div>
+{foot}""").replace('class="pf"', 'class="pf ed"')
+
+
+def ig_story(s, n, total):
+    facts = [f for f in (s.get("facts") or []) if f.get("value") and f.get("label")][:4]
+    rows = "".join(f'<div class="kv"><span>{e(f["label"])}</span><b>{e(f["value"])}</b></div>' for f in facts)
+    lede = e(s.get("summary") or "")
+    src = e(s.get("source") or "Parade database")
+    return ed_page(n, total, f"""<h2>The partnership</h2>{f'<div class="lede">{lede}</div>' if lede else ""}
+<div>{rows}</div>""", f'<div class="src">Source: {src}</div>')
+
+
+def ig_why(s, n, total):
+    return ed_page(n, total, f"""<h2>Why it matters</h2><hr>
+<div class="lede" style="font-size:44px;line-height:1.32;color:#111">{e(s["why"])}</div>""",
+                   f'<div class="src">{e(s.get("deal", ""))}</div>')
+
+
+def ig_quote(s, n, total):
+    """Elevate style: dark card, centred quote, one word underlined, name left, title right, logo at the base."""
+    q = s["quote"]
+    text = e(q["text"])
+    hw = q.get("highlight")
+    if hw and e(hw) in text:
+        text = text.replace(e(hw), f"<u>{e(hw)}</u>", 1)
+    who = ", ".join(x for x in (q.get("title"), q.get("org")) if x)
+    org_logo = ""
+    for path, name in zip(logo_paths(item_of(s)), PL.split_pair(s.get("deal"))):
+        if path and q.get("org") and q["org"].lower()[:5] in name.lower():
+            org_logo = f'<div class="qbase"><div class="lg"><img src="{PL.data_uri(path)}" alt=""></div></div>'
+    return ig_frame(f"""<div class="top" style="justify-content:center">{PL.mark("white", 30)}</div>
+<div style="flex:1;display:flex;align-items:center;justify-content:center;padding:0 16px">
+<div class="igq" data-fit="760" data-min="30">&ldquo;{text}&rdquo;</div></div>
+<div class="igfoot" style="margin-bottom:{40 if org_logo else 0}px"><div>{e(q.get("name"))}</div><span>{e(who)}</span></div>{org_logo}""")
+
+
+def ig_roundup(s, n, total, limit=4):
+    rows = []
+    for o in (s.get("others") or [])[:limit]:
+        names = PL.split_pair(o.get("deal"))
+        cells = []
+        for path, name in zip(logo_paths(o), names):
+            src = PL.data_uri(path) if path else ""
+            cells.append(f'<div class="s"><img src="{src}" alt=""></div>' if src else f'<div class="s"><div class="nm">{e(name)}</div></div>')
+        rows.append(f'<div class="edrow"><div class="lp">{cells[0]}<span class="sx">&times;</span>{cells[1]}</div>'
+                    f'<div style="min-width:0"><b>{e(o.get("deal"))}</b><span>{e(o.get("sub", ""))}</span></div></div>')
+    return ed_page(n, total, f'<h2>Also this week</h2><div data-fit="820" data-min="8">{"".join(rows)}</div>')
+
+
+def ig_save(n, total):
+    return ig_frame(f"""{ig_top(n, total)}
+<div style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:40px;text-align:center">
+<span class="otag">Who backs who</span>
+<div class="mega" style="font-size:168px">Every partnership, <span class="v" style="background:#D2FF3C;border-radius:6px;padding:0 .06em">filed.</span></div>
+<div style="font-size:32px;line-height:1.35;color:#A3A39E;max-width:780px">ANZ, North America and the UK &amp; Ireland, logged as they land.</div></div>
+<div style="display:flex;flex-direction:column;align-items:center;gap:22px"><div class="cta">Save it. Send it to a mate.</div><div class="sup"><b>Link in bio</b></div></div>""")
+
 def plan(s):
     """Slides in order. Slides without data are skipped."""
     out = ["cover"]
@@ -263,20 +441,21 @@ def plan(s):
 def build(s, platform):
     names = plan(s)
     total = len(names)
+    ig = platform == "instagram"
     pages = []
     for n, k in enumerate(names, 1):
         if k == "cover":
-            pages.append(cover(s, platform, n, total))
+            pages.append(ig_cover(s, n, total) if ig else cover(s, platform, n, total))
         elif k == "facts":
-            pages.append(facts_slide(s, n, total))
+            pages.append(ig_story(s, n, total) if ig else facts_slide(s, n, total))
         elif k == "why":
-            pages.append(why_slide(s, n, total))
+            pages.append(ig_why(s, n, total) if ig else why_slide(s, n, total))
         elif k == "quote":
-            pages.append(quote_slide(s, n, total))
+            pages.append(ig_quote(s, n, total) if ig else quote_slide(s, n, total))
         elif k == "roundup":
-            pages.append(roundup_slide(s, n, total, 4 if platform == "instagram" else 5))
+            pages.append(ig_roundup(s, n, total) if ig else roundup_slide(s, n, total, 5))
         else:
-            pages.append(save_slide(n, total, platform))
+            pages.append(ig_save(n, total) if ig else save_slide(n, total, platform))
     return names, pages
 
 
@@ -300,7 +479,7 @@ def render(spec, out, platforms=("linkedin", "instagram")):
                 from PIL import Image
                 imgs = [Image.open(f).convert("RGB") for f in files]
                 imgs[0].save(d / f"parade-{spec['date']}.pdf", save_all=True, append_images=imgs[1:], resolution=144)
-            print(f"{platform}: cover={pick_layout(spec, platform)} slides={','.join(names)}")
+            print(f"{platform}: cover={'editorial' if platform == 'instagram' else pick_layout(spec, platform)} slides={','.join(names)}")
         b.close()
 
 
