@@ -45,16 +45,13 @@ say who a brand replaced unless an official release says so. Write in your own w
    `related`: up to 6 deals that exist in deals.json exactly as their "deal" field. Run
    `python3 tools/build_articles.py`, then validate features.json with `python3 -c "import json;json.load(open('features.json'))"`.
 
-5. **Photo (required).** One free Unsplash photo used everywhere (article, LinkedIn slide 1, Instagram slide 1).
-   In order of preference: the brand central to the story (product, logo, shop, livery); a real professional game or
-   event in the right sport with play or a crowd; the right venue with a crowd. Never generic stock (ball on grass,
-   empty pitch, lone hoop, boots, posed training, park games, skylines), never the wrong code, never another club's
-   stadium or kit when the story is about one club, no rival brand front and centre, no close-ups of identifiable
-   athletes, no photo already used in deals.json or features.json. How: WebSearch with allowed_domains
+5. **Photo (required).** One photo used everywhere (article, LinkedIn slide 1, Instagram slide 1), following SOURCES.md
+   rule 5: the official announcement or media photo from the club's, league's or brand's own page first (with
+   "imageSrc" and "imageCredit"), Unsplash as the fallback. For Unsplash: WebSearch with allowed_domains
    ["unsplash.com"], fetch only unsplash.com URLs from the results, and only use free photos whose URL starts
    https://images.unsplash.com/photo- (never plus.unsplash.com, Unsplash+ or /flagged/). Store the base URL only, with
-   "imageCredit":"Unsplash". Up to 8 searches; only if none passes, publish without and tell Angus plainly.
-
+   "imageCredit":"Unsplash". Up to 8 searches; only if none passes, publish without and tell Angus plainly. Never a
+   photo lifted from someone's social post without permission.
 6. **LinkedIn (post copy + 2 graphics).**
    - Write instagram/linkedin/<date>.json:
      `{"date":"YYYY-MM-DD","headline_lines":["3-5 short lines","of the headline","in caps-friendly words"],"highlight":"one line from headline_lines to colour volt","deal":"line 1 under the headline (e.g. Brand x Property, or the subject)","descriptor":"line 2 (e.g. Feature, Data drop, Breakdown)","label":"slide 2 heading","others":[{"deal":"2-5 word bold line","sub":"one short line"}, ... 3 to 5 rows],"image":"the features.json image"}`

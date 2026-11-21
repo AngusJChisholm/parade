@@ -82,7 +82,7 @@ def slide1(s):
     status = s.get("status") or ""
     pill = f'<span class="pill pv">{e(status)}</span>' if status else ""
     card = (f'<div class="pcard" style="height:{470 if logos else 560}px;margin-top:32px">'
-            f'<div class="img" style="background-image:url(\'{src}\')"></div>{pill}</div>') if src else (f'<div style="margin-top:40px">{pill}</div>' if pill else "")
+            f'<div class="img" style="background-image:url(\'{src}\')"></div>{pill}{PL.credit_html(s.get("imageCredit"))}</div>') if src else (f'<div style="margin-top:40px">{pill}</div>' if pill else "")
     head = " ".join(s.get("headline_lines") or [])
     brand, prop = PL.split_pair(s.get("deal"))
     pair = f"<b>{e(brand)} &times; {e(prop)}</b>" if prop else f"<b>{e(brand)}</b>"
