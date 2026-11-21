@@ -249,6 +249,7 @@ def cover(s, platform, n, total):
              if has_logo else "")
     return page(f"""<div class="ph" style="bottom:{band_h}px;background-image:url('{src}')"></div>
 <div style="position:absolute;left:72px;right:72px;top:64px">{top("white", right)}</div>
+<div style="position:absolute;right:24px;bottom:{band_h + 14}px">{PL.credit_html(s.get("imageCredit")).replace('class="cred"', 'class="cred" style="font-weight:600;font-size:16px;color:#fff;text-shadow:0 1px 6px rgba(0,0,0,.7)"')}</div>
 <div class="band" style="height:{band_h}px">{logos}
 <h1 class="phl" data-fit="200" data-min="44" style="font-size:112px">{head}</h1>{meta(s)}</div>""", ink=True, pad=False)
 
@@ -361,7 +362,8 @@ def ig_cover(s, n, total):
     else:
         middle = f'<div style="flex:1;display:flex;justify-content:flex-end;align-items:flex-start;padding-top:30px">{rings(item_of(s))}</div>'
         bg = f'<div class="bg" style="background-image:url(\'{src}\')"></div><div class="fade"></div>'
-    body = f"""<div class="top">{PL.mark("white", 30)}</div>{middle}
+    cred = PL.credit_html(s.get("imageCredit")).replace('class="cred"', 'class="cred" style="font-weight:600;font-size:16px;color:#fff;text-shadow:0 1px 6px rgba(0,0,0,.7)"') if src else ""
+    body = f"""<div class="top">{PL.mark("white", 30)}{cred}</div>{middle}
 <div style="display:flex;flex-direction:column;align-items:center;gap:24px">{otag(s.get("status"))}
 <h1 class="mega" data-fit="420" data-min="60" style="font-size:156px;width:100%">{head}</h1>
 <div class="sup">{sup}</div><div class="swipe" style="margin-top:6px">Swipe &raquo;</div></div>"""
