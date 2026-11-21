@@ -114394,7 +114394,7 @@
    "sport": "Rugby union",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Castore signed a multi-year kit supply partnership with Ulster Rugby from the 2024/25 season, also managing the province's online retail.",
+   "summary": "Castore became Ulster Rugby's kit supplier in a multi-year partnership announced in May 2024, also running the province's online retail and fulfilment.",
    "url": "https://ulster.rugby/content/ulster-rugby-partners-with-castore-in-innovative-new-multi-year-kit-deal-partnership",
    "status": "Current partner",
    "market": "UK & Ireland",
@@ -114403,7 +114403,13 @@
    "conf": "Confirmed",
    "verified": "2026-11-17",
    "date": "2024-05-29",
-   "ends": 2025
+   "rights": [
+    "official kit supplier",
+    "management of online retail platforms"
+   ],
+   "rightsSrc": "https://ulster.rugby/content/ulster-rugby-partners-with-castore-in-innovative-new-multi-year-kit-deal-partnership",
+   "ttier": "T1",
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -123793,8 +123799,8 @@
    "sport": "CFL",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Named exclusive official iGaming partner with club-level naming rights (multi-year) in an official Hamilton Tiger-Cats announcement.",
-   "url": "https://www.ticats.ca/2026/07/10/hamilton-tiger-cats-announce-multi-year-partnership-with-tooniebet/",
+   "summary": "ToonieBet became the Tiger-Cats' exclusive and official iGaming partner under a multi-year partnership, including naming rights to the club level at Hamilton Stadium and two activation spaces.",
+   "url": "https://www.newswire.ca/news-releases/tooniebet-named-the-exclusive-and-official-igaming-partner-of-the-hamilton-tiger-cats-889687050.html",
    "status": "Current partner",
    "market": "North America",
    "tier": "Official partner",
@@ -123802,8 +123808,15 @@
    "ptier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "ttier": "T1",
-   "tbasis": "rights"
+   "date": "2026-06-22",
+   "rights": [
+    "official iGaming partner",
+    "club level naming rights",
+    "stadium activation spaces"
+   ],
+   "rightsSrc": "https://www.ticats.ca/2026/07/10/hamilton-tiger-cats-announce-multi-year-partnership-with-tooniebet/",
+   "ttier": "T2",
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -130868,8 +130881,8 @@
    "sport": "WNBA",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Named Mountain America Performance Center naming partner in an official Phoenix Mercury announcement.",
-   "url": "https://mercury.wnba.com/news/phoenix-mercury-rolls-out-flippers-as-2025-jersey-badge-partner",
+   "summary": "Multi-year naming rights partnership for the Mercury's practice facility, the Mountain America Performance Center, plus youth league and training camp presenting rights.",
+   "url": "https://www.macu.com/newsroom/2025/phoenix-mercury-mountain-america-performance-center",
    "status": "Current partner",
    "market": "North America",
    "tier": "Official partner",
@@ -130877,8 +130890,15 @@
    "ptier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "ttier": "T1",
-   "tbasis": "rights"
+   "date": "2025-04-23",
+   "rights": [
+    "practice facility naming rights (Mountain America Performance Center)",
+    "presenting partner of Jr. Mercury Legacy League",
+    "presenting partner of training camp"
+   ],
+   "rightsSrc": "https://www.cuinsight.com/press-release/phoenix-mercury-and-mountain-america-credit-union-announce-historic-partnership-unveil-mountain-america-performance-center/",
+   "ttier": "T2",
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -130910,8 +130930,13 @@
    "ptier": "Jersey partner",
    "conf": "Reported",
    "verified": "2026-11-17",
+   "datesTried": "2026-11-21",
+   "rights": [
+    "front of jersey"
+   ],
+   "rightsSrc": "https://mercury.wnba.com/news/mercury-announces-marquee-partnership-with-frys-food-stores-logo-to-be-featured-on-team-jerseys",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -131272,8 +131297,8 @@
    "sport": "NWSL",
    "type": "Jersey partner",
    "region": "Global",
-   "summary": "Named official fitness club partner and lower back-of-kit partner (extended) in an official San Diego Wave FC announcement.",
-   "url": "https://sandiegowavefc.com/?p=6503",
+   "summary": "Extended and expanded partnership making 24 Hour Fitness the Wave's official fitness club partner and lower back of kit partner.",
+   "url": "https://sandiegowavefc.com/san-diego-wave-fc-announces-extended-and-expanded-partnership-with-24-hour-fitness",
    "status": "Current partner",
    "market": "North America",
    "tier": "Official partner",
@@ -131281,8 +131306,15 @@
    "ptier": "Jersey partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2024-02-23",
+   "rights": [
+    "lower back of kit",
+    "official fitness club partner",
+    "Fanfest Game Zone presenting sponsor"
+   ],
+   "rightsSrc": "https://sandiegowavefc.com/san-diego-wave-fc-announces-extended-and-expanded-partnership-with-24-hour-fitness",
    "ttier": "T2",
-   "tbasis": "rights"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -131290,8 +131322,8 @@
    "sport": "NWSL",
    "type": "Jersey partner",
    "region": "Global",
-   "summary": "Named right sleeve jersey partner and founding partner in an official San Diego Wave FC announcement.",
-   "url": "https://sandiegowavefc.com/san-diego-wave-fc-unveils-new-2025-altamar-jersey/",
+   "summary": "Expanded multi-year partnership naming Dexcom the official glucose biosensing partner and jersey sleeve partner, returning for a third year on the right sleeve in 2026.",
+   "url": "https://sandiegowavefc.com/?p=6475",
    "status": "Current partner",
    "market": "North America",
    "tier": "Official partner",
@@ -131299,8 +131331,15 @@
    "ptier": "Jersey partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2024-02-22",
+   "rights": [
+    "jersey sleeve",
+    "official continuous glucose monitoring and biosensing partner",
+    "corner kick presenting partner"
+   ],
+   "rightsSrc": "https://sandiegowavefc.com/?p=6475",
    "ttier": "T2",
-   "tbasis": "rights"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -131308,8 +131347,8 @@
    "sport": "NWSL",
    "type": "Jersey partner",
    "region": "Global",
-   "summary": "Named front-of-jersey partner and official team physicians (fifth straight season) in an official San Diego Wave FC announcement.",
-   "url": "https://sandiegowavefc.com/san-diego-wave-fc-unveils-balboa-park-kit-new-community-jersey-for-2026-season/",
+   "summary": "Long-term agreement naming Kaiser Permanente the Wave's health partner and team physician provider, featured on the front of the kit for a fifth straight season in 2026.",
+   "url": "https://sandiegowavefc.com/wave-fc-names-kaiser-permanente-as-health-partner/",
    "status": "Current partner",
    "market": "North America",
    "tier": "Official partner",
@@ -131317,8 +131356,15 @@
    "ptier": "Jersey partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2022-03-15",
+   "rights": [
+    "front of jersey",
+    "official team physicians",
+    "health partner"
+   ],
+   "rightsSrc": "https://sandiegowavefc.com/san-diego-wave-fc-unveils-balboa-park-kit-new-community-jersey-for-2026-season/",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -135768,16 +135814,22 @@
    "sport": "NWSL",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a founding partner on Denver Summit FC's official partners page.",
-   "url": "https://www.denversummitfc.com/partners/",
+   "summary": "Canvas Credit Union was named a founding partner, official credit union and kit sleeve partner of Denver Summit FC, with its logo on the right sleeve of the club's first kit from 2026.",
+   "url": "https://www.denversummitfc.com/news/club-announcement/canvas-credit-union-named-founding-partner-and-kit-sleeve-partner-of-denver-summit-fc",
    "status": "Current partner",
    "market": "North America",
    "ptier": "Founding partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "ttier": "T1",
-   "tbasis": "role"
+   "date": "2026-02-19",
+   "rights": [
+    "sleeve patch",
+    "official credit union"
+   ],
+   "rightsSrc": "https://www.denversummitfc.com/news/club-announcement/canvas-credit-union-named-founding-partner-and-kit-sleeve-partner-of-denver-summit-fc",
+   "ttier": "T2",
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -135785,16 +135837,21 @@
    "sport": "NWSL",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a founding partner on Denver Summit FC's official partners page.",
-   "url": "https://www.denversummitfc.com/partners/",
+   "summary": "CommonSpirit Health, the club's first founding partner, became naming rights partner of the CommonSpirit Performance Center in Centennial, the club's training base and temporary stadium site.",
+   "url": "https://www.mountain.commonspirit.org/node/462615",
    "status": "Current partner",
    "market": "North America",
    "ptier": "Founding partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "ttier": "T1",
-   "tbasis": "role"
+   "date": "2025-09-10",
+   "rights": [
+    "performance center naming rights"
+   ],
+   "rightsSrc": "https://www.mountain.commonspirit.org/node/462615",
+   "ttier": "T2",
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -135952,16 +136009,21 @@
    "sport": "NWSL",
    "type": "Official partner",
    "region": "Global",
-   "summary": "Listed as a premier partner on Houston Dash's official partners page.",
-   "url": "https://www.houstondynamofc.com/houstondash/clubpartners",
+   "summary": "Tixr signed a multi-year ticketing partnership with Houston Dynamo FC and the Houston Dash to power ticketing for both clubs and other events at Shell Energy Stadium.",
+   "url": "https://www.houstondynamofc.com/news/houston-dynamo-fc-announce-multiyear-ticketing-partnership-with-tixr-to-improve-fan-experience-at-shell-energy-stadium-x7976",
    "status": "Current partner",
    "market": "North America",
    "ptier": "Premier partner",
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "ttier": "T2",
-   "tbasis": "role"
+   "date": "2025-11-12",
+   "rights": [
+    "ticketing provider"
+   ],
+   "rightsSrc": "https://www.houstondynamofc.com/news/houston-dynamo-fc-announce-multiyear-ticketing-partnership-with-tixr-to-improve-fan-experience-at-shell-energy-stadium-x7976",
+   "ttier": "T4",
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -135969,16 +136031,21 @@
    "sport": "NWSL",
    "type": "Official partner",
    "region": "Global",
-   "summary": "Listed as a premier partner on Houston Dash's official partners page.",
-   "url": "https://www.houstondynamofc.com/houstondash/clubpartners",
+   "summary": "Regions Bank signed a multi-year sponsorship with the Houston Dynamo and Dash, including naming of the east-side Regions Bank Club hospitality space at Shell Energy Stadium from 2026.",
+   "url": "https://www.houstondynamofc.com/news/houston-dynamo-and-dash-announce-multiyear-sponsorship-with-regions-bank",
    "status": "Current partner",
    "market": "North America",
    "ptier": "Premier partner",
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2025-09-18",
+   "rights": [
+    "hospitality club naming rights (Regions Bank Club)"
+   ],
+   "rightsSrc": "https://www.houstondynamofc.com/news/houston-dynamo-and-dash-announce-multiyear-sponsorship-with-regions-bank",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -137377,16 +137444,22 @@
    "sport": "MLS",
    "type": "Jersey partner",
    "region": "Global",
-   "summary": "Named sleeve patch partner in an official Toronto FC announcement.",
-   "url": "https://torontofc.ca/news/lg-electronics-canada-named-new-sleeve-patch-partner-of-toronto-fc",
+   "summary": "LG Electronics Canada became Toronto FC's sleeve patch partner in a multi-year partnership in 2024, also taking title of the LG West Club at BMO Field.",
+   "url": "https://ca.finance.yahoo.com/news/lg-electronics-canada-maple-leaf-113000884.html",
    "status": "Current partner",
    "market": "North America",
    "tier": "Official partner",
    "ptier": "Jersey partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2024-07-17",
+   "rights": [
+    "sleeve patch",
+    "West Club naming at BMO Field"
+   ],
+   "rightsSrc": "https://torontofc.ca/news/lg-electronics-canada-named-new-sleeve-patch-partner-of-toronto-fc",
    "ttier": "T2",
-   "tbasis": "rights"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -139020,16 +139093,23 @@
    "sport": "MLS",
    "type": "Official partner",
    "region": "Global",
-   "summary": "Listed as a back of jersey partner on San Jose Earthquakes's official partners page.",
-   "url": "https://www.sjearthquakes.com/club/partners",
+   "summary": "Dude Wipes became the Earthquakes' back of jersey partner and official wipe in a new multi-year partnership in 2026.",
+   "url": "https://www.insideworldfootball.com/2026/08/03/san-jose-earthquakes-agree-back-of-jersey-deal-with-dude-wipes/",
    "status": "Current partner",
    "market": "North America",
    "ptier": "Back of jersey partner",
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2026-08-03",
+   "rights": [
+    "back of jersey",
+    "official wipe/flushable wipe",
+    "PRIME TIME match presenting partner"
+   ],
+   "rightsSrc": "https://www.sjearthquakes.com/news/san-jose-earthquakes-and-dude-wipes-announce-official-back-of-jersey-partnership",
    "ttier": "T2",
-   "tbasis": "rights"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -139037,16 +139117,22 @@
    "sport": "MLS",
    "type": "Official partner",
    "region": "Global",
-   "summary": "Listed as a first team sleeve partner on San Jose Earthquakes's official partners page.",
-   "url": "https://www.sjearthquakes.com/club/partners",
+   "summary": "Apollo.io became the Earthquakes' sleeve partner and official go-to-market partner in a multi-year partnership in 2026.",
+   "url": "https://www.prnewswire.com/news-releases/apollo-and-san-jose-earthquakes-announce-official-sleeve-and-go-to-market-partnership-bringing-the-ai-gtm-system-to-major-league-soccer-302832676.html",
    "status": "Current partner",
    "market": "North America",
    "ptier": "First team sleeve partner",
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2026-07-23",
+   "rights": [
+    "sleeve patch",
+    "official go-to-market partner"
+   ],
+   "rightsSrc": "https://www.sjearthquakes.com/news/san-jose-earthquakes-and-apollo-announce-official-sleeve-and-go-to-market-partnership-bringing-the-ai-gtm-system-to-major-league-soccer",
    "ttier": "T2",
-   "tbasis": "rights"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -139069,16 +139155,27 @@
    "sport": "MLS",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Listed as a stadium naming rights partner on San Jose Earthquakes's official partners page.",
-   "url": "https://www.sjearthquakes.com/club/partners",
+   "summary": "PayPal holds naming rights to the Earthquakes' stadium, PayPal Park, under a 10-year partnership announced in 2021.",
+   "url": "https://newsroom.paypal-corp.com/2021-04-05-The-San-Jose-Earthquakes-Introduce-PayPal-Park",
    "status": "Current partner",
    "market": "North America",
    "ptier": "Stadium naming rights partner",
    "tier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2021-04-05",
+   "term": 10,
+   "ends": 2031,
+   "endsLock": true,
+   "endsSrc": "https://newsroom.paypal-corp.com/2021-04-05-The-San-Jose-Earthquakes-Introduce-PayPal-Park",
+   "rights": [
+    "stadium naming rights"
+   ],
+   "rightsSrc": "https://newsroom.paypal-corp.com/2021-04-05-The-San-Jose-Earthquakes-Introduce-PayPal-Park",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced",
+   "tends": 2031,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -140611,16 +140708,23 @@
    "sport": "MLS",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Listed as a stadium naming rights partner on Real Salt Lake's official partners page.",
-   "url": "https://www.rsl.com/club/partners",
+   "summary": "Stadium naming rights partnership renaming RSL's Sandy venue America First Field, with venue branding, co-branded cards and youth program sponsorship.",
+   "url": "https://www.rsl.com/news/america-first-field-is-new-name-for-real-salt-lake-s-home",
    "status": "Current partner",
    "market": "North America",
    "ptier": "Stadium naming rights partner",
    "tier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2022-09-10",
+   "rights": [
+    "stadium naming rights (America First Field)",
+    "co-branded debit and credit cards",
+    "presenting partner of RSL digital properties"
+   ],
+   "rightsSrc": "https://www.rsl.com/news/america-first-field-is-new-name-for-real-salt-lake-s-home",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -142016,16 +142120,27 @@
    "sport": "MLS",
    "type": "Official partner",
    "region": "Global",
-   "summary": "Listed as a premier partner on Philadelphia Union's official partners page.",
-   "url": "https://www.philadelphiaunion.com/club/partners",
+   "summary": "WSFS Bank extended its naming rights partnership for the WSFS Bank Sportsplex and remains the Union's official bank and wealth partner through the 2030-31 MLS season.",
+   "url": "https://www.businesswire.com/news/home/20260609502381/en/WSFS-Bank-and-Philadelphia-Union-Extend-Naming-Rights-Partnership-for-WSFS-Bank-Sportsplex",
    "status": "Current partner",
    "market": "North America",
    "ptier": "Premier partner",
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2026-06-09",
+   "ends": 2031,
+   "endsLock": true,
+   "endsSrc": "https://philadelphiaunion.com/news/philadelphia-union-wsfs-bank-extend-naming-rights-partnership-for-wsfs-bank-sportsplex",
+   "rights": [
+    "training facility naming rights (WSFS Bank Sportsplex)",
+    "official bank and wealth partner"
+   ],
+   "rightsSrc": "https://philadelphiaunion.com/news/philadelphia-union-wsfs-bank-extend-naming-rights-partnership-for-wsfs-bank-sportsplex",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2031,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -142041,8 +142156,16 @@
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "ttier": "T2",
-   "tbasis": "role"
+   "datesTried": "2026-11-21",
+   "rights": [
+    "official team physician",
+    "official health care provider",
+    "official hospital system",
+    "official adult cancer treatment center"
+   ],
+   "rightsSrc": "https://www.philadelphiaunion.com/news/penn-medicine-partners-philadelphia-union-official-health-care-provider",
+   "ttier": "T3",
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -142058,8 +142181,17 @@
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "ttier": "T2",
-   "tbasis": "role"
+   "datesTried": "2026-11-21",
+   "rights": [
+    "official physical therapy partner",
+    "presenting partner of three grass fields at WSFS Bank Sportsplex incl. first-team training field",
+    "front of kit on Player Pathway Program kits",
+    "Kids Club presenting sponsor",
+    "retail clinic tenant at WSFS Bank Sportsplex"
+   ],
+   "rightsSrc": "https://www.philadelphiaunion.com/news/philadelphia-union-announces-new-partnership-with-kinetic",
+   "ttier": "T1",
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -142067,16 +142199,25 @@
    "sport": "MLS",
    "type": "Official partner",
    "region": "Global",
-   "summary": "Listed as a premier partner on Philadelphia Union's official partners page.",
-   "url": "https://www.philadelphiaunion.com/club/partners",
+   "summary": "Multi-year renewal making IBX the Union's first official sleeve patch partner, plus naming of the IBX Gate at Subaru Park and the IBX Training Center.",
+   "url": "https://www.philadelphiaunion.com/news/philadelphia-union-independence-blue-cross-renew-partnership-sleeve-patch",
    "status": "Current partner",
    "market": "North America",
    "ptier": "Premier partner",
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "month": "2024-02",
+   "rights": [
+    "jersey sleeve patch",
+    "training apparel logo",
+    "Subaru Park entry gate naming (Independence Blue Cross Gate)",
+    "first-team training centre naming (Independence Blue Cross Training Center)",
+    "presenting partner of Sportsplex indoor turf field"
+   ],
+   "rightsSrc": "https://www.philadelphiaunion.com/news/philadelphia-union-independence-blue-cross-renew-partnership-sleeve-patch",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -142084,16 +142225,22 @@
    "sport": "MLS",
    "type": "Official partner",
    "region": "Global",
-   "summary": "Listed as a premier partner on Philadelphia Union's official partners page.",
-   "url": "https://www.philadelphiaunion.com/club/partners",
+   "summary": "Multi-year stadium naming rights partnership renaming the Union's home Subaru Park, with Subaru the official and exclusive automotive partner.",
+   "url": "https://www.philadelphiaunion.com/news/philadelphia-union-and-subaru-america-announce-stadium-naming-rights-partnership",
    "status": "Current partner",
    "market": "North America",
    "ptier": "Premier partner",
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "ttier": "T2",
-   "tbasis": "role"
+   "date": "2020-02-18",
+   "rights": [
+    "stadium naming rights (Subaru Park)",
+    "official automotive partner"
+   ],
+   "rightsSrc": "https://www.philadelphiaunion.com/news/philadelphia-union-and-subaru-america-announce-stadium-naming-rights-partnership",
+   "ttier": "T1",
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -142101,16 +142248,26 @@
    "sport": "MLS",
    "type": "Official partner",
    "region": "Global",
-   "summary": "Listed as a premier partner on Philadelphia Union's official partners page.",
-   "url": "https://www.philadelphiaunion.com/club/partners",
+   "summary": "Bimbo Bakeries USA renewed as the Union's front of kit sponsor in a multi-year renewal, reported to run through the end of 2028.",
+   "url": "https://bimbobakeriesusa.com/press/2023-01-31/philadelphia-union-and-bimbo-bakeries-usa-renew-official-jersey-partnership",
    "status": "Current partner",
    "market": "North America",
    "ptier": "Premier partner",
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "ttier": "T2",
-   "tbasis": "role"
+   "date": "2023-01-31",
+   "ends": 2028,
+   "endsLock": true,
+   "endsSrc": "https://www.inquirer.com/soccer/bimbo-sponsorship-soccer-mls-union-jersey-20260429.html",
+   "rights": [
+    "front of jersey"
+   ],
+   "rightsSrc": "https://bimbobakeriesusa.com/press/2023-01-31/philadelphia-union-and-bimbo-bakeries-usa-renew-official-jersey-partnership",
+   "ttier": "T1",
+   "tbasis": "sourced",
+   "tends": 2028,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -144095,8 +144252,14 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "ttier": "T1",
-   "tbasis": "role"
+   "datesTried": "2026-11-21",
+   "rights": [
+    "Noche Latina match presenting partner",
+    "community programme partner"
+   ],
+   "rightsSrc": "https://newyorkcityfc.com/news/new-york-city-fc-and-goya-foods-extend-partnership-to-promote-healthy-living-and-celebrate-hispanic-heritage",
+   "ttier": "T4",
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -144112,8 +144275,15 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "datesTried": "2026-11-21",
+   "rights": [
+    "front of shirt (girls teams)",
+    "official domestic SUV and truck",
+    "Street Team and youth programmes presenting partner"
+   ],
+   "rightsSrc": "https://newyorkcityfc.com/news/new-york-city-fc-expands-partnership-with-ford-and-announces-girls-teams-front-of-shirt-partner",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -144121,16 +144291,27 @@
    "sport": "MLS",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a founding partner on New York City FC's official partners page.",
-   "url": "https://www.newyorkcityfc.com/team/partnerships",
+   "summary": "Etihad Airways took 20-year naming rights to NYCFC's new Queens stadium, Etihad Park, extending a relationship that began as front-of-shirt partner in 2014.",
+   "url": "https://www.etihad.com/en/news/new-york-city-fc-and-etihad-airways-announce-etihad-park",
    "status": "Current partner",
    "market": "North America",
    "ptier": "Founding partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2024-11-21",
+   "term": 20,
+   "ends": 2044,
+   "endsEst": true,
+   "rights": [
+    "stadium naming rights",
+    "front of shirt"
+   ],
+   "rightsSrc": "https://www.etihad.com/en/news/new-york-city-fc-and-etihad-airways-announce-etihad-park",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced",
+   "tends": 2044,
+   "tendsBasis": "term"
   },
   {
    "listed": "2026-11-17",
@@ -147747,8 +147928,13 @@
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "ttier": "T1",
-   "tbasis": "role"
+   "datesTried": "2026-11-21",
+   "rights": [
+    "official on-demand delivery platform"
+   ],
+   "rightsSrc": "https://www.lafc.com/news/lafc-welcomes-doordash-as-a-golden-boot-club-partner",
+   "ttier": "T3",
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -147756,16 +147942,22 @@
    "sport": "Football",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a founding partner on LAFC's official partners page.",
-   "url": "https://www.lafc.com/club/partners",
+   "summary": "BMO expanded its multi-year LAFC partnership in 2024 to become front-of-jersey sponsor, adding to its BMO Stadium naming rights (from January 2023) and official bank status.",
+   "url": "https://newsroom.bmo.com/2024-02-15-LAFC-Announces-BMO-as-Official-Jersey-Sponsor",
    "status": "Current partner",
    "market": "North America",
    "ptier": "Founding partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2024-02-15",
+   "rights": [
+    "front of jersey",
+    "official bank"
+   ],
+   "rightsSrc": "https://www.lafc.com/news/lafc-announces-bmo-as-official-jersey-sponsor",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -148133,16 +148325,15 @@
    "sport": "MLS",
    "type": "Official partner",
    "region": "Global",
-   "summary": "Listed as a premier partner on Houston Dynamo's official partners page.",
-   "url": "https://www.houstondynamofc.com/club/partners/houston-dynamo-partners",
+   "summary": "Intermex became an official partner of Houston Dynamo FC, collaborating on in-stadium experiences, community events and Latino cultural celebrations.",
+   "url": "https://www.houstondynamofc.com/news/intermex-and-houston-dynamo-fc-partner-to-celebrate-latino-heritage-and-the-spirit-of-futbol",
    "status": "Current partner",
    "market": "North America",
    "ptier": "Premier partner",
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "ttier": "T2",
-   "tbasis": "role"
+   "date": "2025-06-03"
   },
   {
    "listed": "2026-11-17",
@@ -148150,16 +148341,23 @@
    "sport": "MLS",
    "type": "Official partner",
    "region": "Global",
-   "summary": "Listed as a premier partner on Houston Dynamo's official partners page.",
-   "url": "https://www.houstondynamofc.com/club/partners/houston-dynamo-partners",
+   "summary": "Eleven Sports Media partnered with Houston Dynamo FC to run an Associate Partner Program for local small businesses and bring its StatTV and StadiumTV technology to Shell Energy Stadium.",
+   "url": "https://www.houstondynamofc.com/news/houston-dynamo-fc-partners-with-eleven-sports-media-to-elevate-local-small-busin",
    "status": "Current partner",
    "market": "North America",
    "ptier": "Premier partner",
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "ttier": "T2",
-   "tbasis": "role"
+   "month": "2023-11",
+   "rights": [
+    "in-stadium StatTV and StadiumTV screens",
+    "presenting sponsor of Professional Lunch and Learn series",
+    "supporting sponsor of Futbolito in the City"
+   ],
+   "rightsSrc": "https://www.houstondynamofc.com/news/houston-dynamo-fc-partners-with-eleven-sports-media-to-elevate-local-small-busin",
+   "ttier": "T4",
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -148167,16 +148365,21 @@
    "sport": "MLS",
    "type": "Official partner",
    "region": "Global",
-   "summary": "Listed as a premier partner on Houston Dynamo's official partners page.",
-   "url": "https://www.houstondynamofc.com/club/partners/houston-dynamo-partners",
+   "summary": "Tixr signed a multi-year ticketing partnership with Houston Dynamo FC and the Houston Dash to power ticketing for both clubs and other events at Shell Energy Stadium.",
+   "url": "https://www.houstondynamofc.com/news/houston-dynamo-fc-announce-multiyear-ticketing-partnership-with-tixr-to-improve-fan-experience-at-shell-energy-stadium-x7976",
    "status": "Current partner",
    "market": "North America",
    "ptier": "Premier partner",
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "ttier": "T2",
-   "tbasis": "role"
+   "date": "2025-11-12",
+   "rights": [
+    "ticketing provider"
+   ],
+   "rightsSrc": "https://www.houstondynamofc.com/news/houston-dynamo-fc-announce-multiyear-ticketing-partnership-with-tixr-to-improve-fan-experience-at-shell-energy-stadium-x7976",
+   "ttier": "T4",
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -148184,16 +148387,23 @@
    "sport": "MLS",
    "type": "Official partner",
    "region": "Global",
-   "summary": "Listed as a premier partner on Houston Dynamo's official partners page.",
-   "url": "https://www.houstondynamofc.com/club/partners/houston-dynamo-partners",
+   "summary": "Texas Bay Credit Union renewed with a multi-year extension as Houston Dynamo FC's exclusive credit union partner, including the Texas Bay Credit Union Rally Tunnel at Shell Energy Stadium.",
+   "url": "https://www.houstondynamofc.com/news/houston-dynamo-fc-confirms-texas-bay-credit-union-as-the-club-s-exclusive-credit-union-partner",
    "status": "Current partner",
    "market": "North America",
    "ptier": "Premier partner",
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2026-04-21",
+   "rights": [
+    "official credit union",
+    "Rally Tunnel naming rights",
+    "presenting partner of youth soccer clinics"
+   ],
+   "rightsSrc": "https://www.houstondynamofc.com/news/houston-dynamo-fc-confirms-texas-bay-credit-union-as-the-club-s-exclusive-credit-union-partner",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -148201,16 +148411,21 @@
    "sport": "MLS",
    "type": "Official partner",
    "region": "Global",
-   "summary": "Listed as a premier partner on Houston Dynamo's official partners page.",
-   "url": "https://www.houstondynamofc.com/club/partners/houston-dynamo-partners",
+   "summary": "Regions Bank signed a multi-year sponsorship with the Houston Dynamo and Dash, renaming the Dynamo's east-side hospitality space the Regions Bank Club from 2026.",
+   "url": "https://www.houstondynamofc.com/news/houston-dynamo-and-dash-announce-multiyear-sponsorship-with-regions-bank",
    "status": "Current partner",
    "market": "North America",
    "ptier": "Premier partner",
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2025-09-18",
+   "rights": [
+    "hospitality club naming rights (Regions Bank Club)"
+   ],
+   "rightsSrc": "https://www.houstondynamofc.com/news/houston-dynamo-and-dash-announce-multiyear-sponsorship-with-regions-bank",
    "ttier": "T2",
-   "tbasis": "role"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -148218,16 +148433,27 @@
    "sport": "MLS",
    "type": "Official partner",
    "region": "Global",
-   "summary": "Listed as a premier partner on Houston Dynamo's official partners page.",
-   "url": "https://www.houstondynamofc.com/club/partners/houston-dynamo-partners",
+   "summary": "adidas supplies Houston Dynamo kits through its league-wide MLS partnership, extended in February 2023 to run until 2030.",
+   "url": "https://www.mlssoccer.com/news/major-league-soccer-and-adidas-announce-landmark-multi-year-partnership-extensio",
    "status": "Current partner",
    "market": "North America",
    "ptier": "Premier partner",
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "ttier": "T2",
-   "tbasis": "role"
+   "date": "2023-02-22",
+   "ends": 2030,
+   "endsLock": true,
+   "endsSrc": "https://www.sportcal.com/sponsorship/mls-agrees-lucrative-extension-with-long-time-partner-adidas/",
+   "rights": [
+    "kit supplier",
+    "official apparel and footwear provider"
+   ],
+   "rightsSrc": "https://www.mlssoccer.com/news/major-league-soccer-and-adidas-announce-landmark-multi-year-partnership-extensio",
+   "ttier": "T3",
+   "tbasis": "sourced",
+   "tends": 2030,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -150911,16 +151137,22 @@
    "sport": "Football",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a founding partner on Columbus Crew's official partners page.",
-   "url": "https://www.columbuscrew.com/club/partners",
+   "summary": "Vertiv became a Columbus Crew founding partner and official data centre equipment provider ahead of the club's move to its new stadium in 2021.",
+   "url": "https://legendsglobal.com/vertiv-teams-up-with-columbus-crew-sc-as-a-founding-partner/",
    "status": "Current partner",
    "market": "North America",
    "ptier": "Founding partner",
    "tier": "Principal & major",
-   "conf": "Confirmed",
+   "conf": "Reported",
    "verified": "2026-11-17",
-   "ttier": "T1",
-   "tbasis": "role"
+   "date": "2021-04-06",
+   "rights": [
+    "official data center equipment provider",
+    "stadium customer experience centre"
+   ],
+   "rightsSrc": "https://www.columbuscrew.com/news/vertiv-teams-columbus-crew-sc-founding-partner-and-supplier-data-center",
+   "ttier": "T3",
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -150928,16 +151160,22 @@
    "sport": "Football",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a founding partner on Columbus Crew's official partners page.",
-   "url": "https://www.columbuscrew.com/club/partners",
+   "summary": "DHL Supply Chain signed a multi-year partnership as Columbus Crew's official supply chain partner with its logo on the right sleeve of the home and away kits from 2025.",
+   "url": "https://www.dhl.com/us-en/home/press/press-archive/2025/columbus-crew-announce-official-partnership-with-dhl-supply-chain.html",
    "status": "Current partner",
    "market": "North America",
    "ptier": "Founding partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "ttier": "T1",
-   "tbasis": "role"
+   "date": "2025-02-05",
+   "rights": [
+    "sleeve patch",
+    "official supply chain partner"
+   ],
+   "rightsSrc": "https://www.columbuscrew.com/news/columbus-crew-announce-official-partnership-with-dhl-supply-chain-who-will-be-featured-on-kit-sleeve",
+   "ttier": "T2",
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -150945,16 +151183,22 @@
    "sport": "Football",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a founding partner on Columbus Crew's official partners page.",
-   "url": "https://www.columbuscrew.com/club/partners",
+   "summary": "OhioHealth expanded its partnership with the Crew to become a founding partner, the club's official healthcare provider and naming rights partner of the OhioHealth Performance Center training facility.",
+   "url": "https://www.mlssoccer.com/post/2020/02/25/columbus-crew-sc-announce-plans-new-training-facility-partnership-ohiohealth",
    "status": "Current partner",
    "market": "North America",
    "ptier": "Founding partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "ttier": "T1",
-   "tbasis": "role"
+   "date": "2020-02-25",
+   "rights": [
+    "training facility naming rights",
+    "official healthcare provider"
+   ],
+   "rightsSrc": "https://www.columbuscrew.com/news/columbus-crew-sc-announces-founding-partnership-ohiohealth-and-naming-rights-fut",
+   "ttier": "T2",
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -150962,16 +151206,23 @@
    "sport": "Football",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a founding partner on Columbus Crew's official partners page.",
-   "url": "https://www.columbuscrew.com/club/partners",
+   "summary": "American Electric Power signed a multi-year founding partnership with the Crew, taking entitlement of the Southeast Gate at the new stadium plus presenting rights to Military Appreciation Night and the Hometown Heroes program.",
+   "url": "https://aep.com/news/stories/read/6070/AEP-and-Columbus-Crew-SC-Team-Up-for-New-Multiyear-Partnership",
    "status": "Current partner",
    "market": "North America",
    "ptier": "Founding partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "ttier": "T1",
-   "tbasis": "role"
+   "date": "2021-04-12",
+   "rights": [
+    "Southeast Gate naming rights",
+    "presenting partner of Military Appreciation Night",
+    "presenting partner of Hometown Heroes Program"
+   ],
+   "rightsSrc": "https://aep.com/news/stories/read/6070/AEP-and-Columbus-Crew-SC-Team-Up-for-New-Multiyear-Partnership",
+   "ttier": "T2",
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -150979,16 +151230,21 @@
    "sport": "Football",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a founding partner on Columbus Crew's official partners page.",
-   "url": "https://www.columbuscrew.com/club/partners",
+   "summary": "Nationwide became the Crew's official jersey partner under a multi-year agreement, with its logo on the primary position of the kits from the 2021 season.",
+   "url": "https://www.mlssoccer.com/post/2020/02/27/columbus-crew-sc-announce-new-jersey-sponsor-partnership-nationwide",
    "status": "Current partner",
    "market": "North America",
    "ptier": "Founding partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2020-02-27",
+   "rights": [
+    "front of jersey"
+   ],
+   "rightsSrc": "https://news.nationwide.com/nationwide-columbus-crew-kick-off-new-chapter-of-winning-partnership/",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -150996,16 +151252,21 @@
    "sport": "Football",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a founding partner on Columbus Crew's official partners page.",
-   "url": "https://www.columbuscrew.com/club/partners",
+   "summary": "ScottsMiracle-Gro expanded its long-standing partnership with the Crew through a multi-year stadium naming rights agreement, renaming the venue ScottsMiracle-Gro Field from the 2026 season.",
+   "url": "https://www.columbuscrew.com/news/columbus-crew-and-scottsmiracle-gro-expand-long-standing-partnership-highlighted-by-stadium-naming-rights",
    "status": "Current partner",
    "market": "North America",
    "ptier": "Founding partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2025-11-25",
+   "rights": [
+    "stadium naming rights"
+   ],
+   "rightsSrc": "https://www.columbuscrew.com/news/columbus-crew-and-scottsmiracle-gro-expand-long-standing-partnership-highlighted-by-stadium-naming-rights",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -153526,16 +153787,23 @@
    "sport": "MLS",
    "type": "Official partner",
    "region": "Global",
-   "summary": "Listed as a sleeve partner on Chicago Fire's official partners page.",
-   "url": "https://www.chicagofirefc.com/club/partners",
+   "summary": "Magellan Corporation expanded its Chicago Fire partnership in a multi-year agreement to become the club's official jersey sleeve sponsor and presenting partner of Foundation fundraising.",
+   "url": "https://www.chicagofirefc.com/news/chicago-fire-fc-announces-magellan-corporation-as-official-jersey-sleeve-sponsor",
    "status": "Current partner",
    "market": "North America",
    "ptier": "Sleeve partner",
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2024-05-03",
+   "rights": [
+    "jersey sleeve patch",
+    "back of training tops",
+    "Chicago Fire Foundation fundraising presenting partner"
+   ],
+   "rightsSrc": "https://www.chicagofirefc.com/news/chicago-fire-fc-announces-magellan-corporation-as-official-jersey-sleeve-sponsor",
    "ttier": "T2",
-   "tbasis": "rights"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -153543,16 +153811,24 @@
    "sport": "MLS",
    "type": "Official partner",
    "region": "Global",
-   "summary": "Listed as a front of kit partner on Chicago Fire's official partners page.",
-   "url": "https://www.chicagofirefc.com/club/partners",
+   "summary": "Carvana signed a multi-year partnership as Chicago Fire's front of kit sponsor and official online auto retailer from the 2024 season.",
+   "url": "https://chicagofirefc.com/news/chicago-fire-fc-kicks-off-multi-year-partnership-with-carvana-as-official-online",
    "status": "Current partner",
    "market": "North America",
    "ptier": "Front of kit partner",
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2023-12-12",
+   "rights": [
+    "front of jersey (first team, Chicago Fire II, academy)",
+    "official online auto retailer",
+    "regular season presenting partner",
+    "Discovery Centers presenting sponsor"
+   ],
+   "rightsSrc": "https://chicagofirefc.com/news/chicago-fire-fc-kicks-off-multi-year-partnership-with-carvana-as-official-online",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -154228,16 +154504,21 @@
    "sport": "MLS",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a founding partner on Charlotte FC's official partners page.",
-   "url": "https://www.charlottefootballclub.com/partnerships",
+   "summary": "Rugs.com expanded its Charlotte FC partnership in a multi-year agreement to become the club's official kit sleeve partner and a founding-level partner.",
+   "url": "https://charlottefootballclub.com/news/charlotte-fc-expands-partnership-with-rugs-com",
    "status": "Current partner",
    "market": "North America",
    "ptier": "Founding partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "ttier": "T1",
-   "tbasis": "role"
+   "date": "2024-07-02",
+   "rights": [
+    "kit sleeve patch"
+   ],
+   "rightsSrc": "https://charlottefootballclub.com/news/charlotte-fc-expands-partnership-with-rugs-com",
+   "ttier": "T2",
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -154245,16 +154526,25 @@
    "sport": "MLS",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a founding partner on Charlotte FC's official partners page.",
-   "url": "https://www.charlottefootballclub.com/partnerships",
+   "summary": "Atrium Health became Charlotte FC's official healthcare provider and third founding partner in a multi-year partnership, with naming of the club's training facilities.",
+   "url": "https://www.charlottefootballclub.com/news/atrium-health-named-official-healthcare-provider-of-charlotte-fc",
    "status": "Current partner",
    "market": "North America",
    "ptier": "Founding partner",
    "tier": "Principal & major",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "ttier": "T1",
-   "tbasis": "role"
+   "date": "2022-02-07",
+   "rights": [
+    "official healthcare provider",
+    "training facility naming rights",
+    "training top sleeve (first team and academy)",
+    "academy match kit sleeve",
+    "Captain's Academy entitlement"
+   ],
+   "rightsSrc": "https://www.charlottefootballclub.com/news/atrium-health-named-official-healthcare-provider-of-charlotte-fc",
+   "ttier": "T2",
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -154262,16 +154552,23 @@
    "sport": "MLS",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Listed as a founding partner on Charlotte FC's official partners page.",
-   "url": "https://www.charlottefootballclub.com/partnerships",
+   "summary": "Charlotte FC and Ally extended their founding partnership in a multi-year renewal running into the next decade, with Ally staying as front of kit sponsor and official bank.",
+   "url": "https://ffnews.com/news/charlotte-fc-and-ally-announce-multi-year-extension-of-founding-partnership-208cdc4d",
    "status": "Current partner",
    "market": "North America",
    "ptier": "Founding partner",
    "tier": "Principal & major",
-   "conf": "Confirmed",
+   "conf": "Reported",
    "verified": "2026-11-17",
+   "date": "2026-10-28",
+   "rights": [
+    "front of jersey",
+    "official banking partner",
+    "Greater Goals program presenting partner"
+   ],
+   "rightsSrc": "https://ffnews.com/news/charlotte-fc-and-ally-announce-multi-year-extension-of-founding-partnership-208cdc4d",
    "ttier": "T1",
-   "tbasis": "role"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -155768,7 +156065,7 @@
    "sport": "NHL",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Named naming rights partner (SAP Center, extended) in an official San Jose Sharks announcement.",
+   "summary": "SAP extended its Sharks partnership and naming rights to SAP Center at San Jose for five years through 2028.",
    "url": "https://www.nhl.com/sharks/news/topic/partnership-announcements/sharks-and-sap-announce-partnership-extension-and-naming-rights-agreem-343337506",
    "status": "Current partner",
    "market": "North America",
@@ -155777,8 +156074,19 @@
    "ptier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2023-04-10",
+   "term": 5,
+   "ends": 2028,
+   "endsLock": true,
+   "endsSrc": "https://www.nhl.com/sharks/news/topic/partnership-announcements/sharks-and-sap-announce-partnership-extension-and-naming-rights-agreem-343337506",
+   "rights": [
+    "arena naming rights"
+   ],
+   "rightsSrc": "https://www.nhl.com/sharks/news/topic/partnership-announcements/sharks-and-sap-announce-partnership-extension-and-naming-rights-agreem-343337506",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced",
+   "tends": 2028,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -157330,7 +157638,7 @@
    "sport": "NHL",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Named arena naming rights partner in an official Tampa Bay Lightning announcement.",
+   "summary": "Benchmark International took multi-year naming rights to the Lightning's arena, renamed from Amalie Arena to Benchmark International Arena in 2025.",
    "url": "https://www.nhl.com/lightning/news/vinik-sports-group-benchmark-international-announce-multi-year-naming-rights-partnership",
    "status": "Current partner",
    "market": "North America",
@@ -157339,8 +157647,14 @@
    "ptier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2025-08-13",
+   "rights": [
+    "arena naming rights",
+    "club level naming (Benchmark International Club Level)"
+   ],
+   "rightsSrc": "https://www.nhl.com/lightning/news/vinik-sports-group-benchmark-international-announce-multi-year-naming-rights-partnership",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -157510,8 +157824,8 @@
    "sport": "NHL",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Named naming rights partner (Climate Pledge Arena) in an official Seattle Kraken announcement.",
-   "url": "https://www.nhl.com/kraken/news/amazon-naming-rights-seattle-center-arena-climate-pledge-arena-319483836",
+   "summary": "Amazon secured naming rights to the Kraken's arena, the former KeyArena, and named it Climate Pledge Arena.",
+   "url": "https://www.aboutamazon.com/news/sustainability/amazon-secures-naming-rights-to-future-home-of-seattles-new-nhl-franchise",
    "status": "Current partner",
    "market": "North America",
    "tier": "Official partner",
@@ -157519,8 +157833,13 @@
    "ptier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2020-06-25",
+   "rights": [
+    "arena naming rights"
+   ],
+   "rightsSrc": "https://www.aboutamazon.com/news/sustainability/amazon-secures-naming-rights-to-future-home-of-seattles-new-nhl-franchise",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -157528,7 +157847,7 @@
    "sport": "NHL",
    "type": "Official partner",
    "region": "Global",
-   "summary": "Named official helmet partner in an official Pittsburgh Penguins announcement.",
+   "summary": "U.S. Steel is the Penguins' official helmet partner, with its wordmark on both sides of player helmets for all games and practices through the 2026-27 season.",
    "url": "https://www.nhl.com/penguins/news/penguins-announce-u-s-steel-as-official-helmet-partner",
    "status": "Current partner",
    "market": "North America",
@@ -157537,8 +157856,18 @@
    "ptier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2026-09-16",
+   "ends": 2027,
+   "endsLock": true,
+   "endsSrc": "https://www.nhl.com/penguins/news/penguins-announce-u-s-steel-as-official-helmet-partner",
+   "rights": [
+    "helmet logo (games and practices)"
+   ],
+   "rightsSrc": "https://www.nhl.com/penguins/news/penguins-announce-u-s-steel-as-official-helmet-partner",
    "ttier": "T2",
-   "tbasis": "rights"
+   "tbasis": "sourced",
+   "tends": 2027,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -157710,7 +158039,7 @@
    "sport": "NHL",
    "type": "Official partner",
    "region": "Global",
-   "summary": "Named home and road helmet partner in an official Philadelphia Flyers announcement.",
+   "summary": "Local Chevrolet dealers are the Flyers' home and road helmet partner, with Chevrolet branding on helmets plus arena signage and a concourse vehicle display.",
    "url": "https://www.nhl.com/flyers/news/local-chevrolet-dealers-named-philadelphia-flyers-home-and-road-helmet-partner",
    "status": "Current partner",
    "market": "North America",
@@ -157719,8 +158048,15 @@
    "ptier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2024-11-20",
+   "rights": [
+    "home and road helmet logo",
+    "in-arena digital signage",
+    "concourse vehicle display"
+   ],
+   "rightsSrc": "https://www.nhl.com/flyers/news/local-chevrolet-dealers-named-philadelphia-flyers-home-and-road-helmet-partner",
    "ttier": "T2",
-   "tbasis": "rights"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -157776,8 +158112,8 @@
    "sport": "NHL",
    "type": "Official partner",
    "region": "Global",
-   "summary": "Named official partner and road helmet partner in an official Ottawa Senators announcement.",
-   "url": "https://www.nhl.com/senators/news/fullscript-becomes-official-partner-of-the-ottawa-senators-and-will-be-featured-on-road-he",
+   "summary": "Fullscript signed a multi-year partnership with the Ottawa Senators covering road helmets, on-ice branding and the Black, Red and Gold Gala title sponsorship, starting with the season that opened in October 2025.",
+   "url": "https://www.nhl.com/senators/news/fullscript-becomes-official-partner-of-the-ottawa-senators-and-will-be-featured-on-road-helmets-starting-in-2025-26-season",
    "status": "Current partner",
    "market": "North America",
    "tier": "Official partner",
@@ -157785,8 +158121,15 @@
    "ptier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2025-06-27",
+   "rights": [
+    "road helmet",
+    "on-ice logo",
+    "Black, Red & Gold Gala title sponsor"
+   ],
+   "rightsSrc": "https://www.nhl.com/senators/news/fullscript-becomes-official-partner-of-the-ottawa-senators-and-will-be-featured-on-road-helmets-starting-in-2025-26-season",
    "ttier": "T2",
-   "tbasis": "rights"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -157810,7 +158153,7 @@
    "sport": "NHL",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Named arena naming rights partner (extended) in an official Ottawa Senators announcement.",
+   "summary": "The Ottawa Senators extended Canadian Tire's naming rights to Canadian Tire Centre in Kanata, a name in place since July 2013.",
    "url": "https://www.nhl.com/senators/news/ottawa-senators-announce-extension-of-arena-naming-rights-with-canadian-tire",
    "status": "Current partner",
    "market": "North America",
@@ -157819,8 +158162,13 @@
    "ptier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2025-04-11",
+   "rights": [
+    "arena naming rights"
+   ],
+   "rightsSrc": "https://www.nhl.com/senators/news/ottawa-senators-announce-extension-of-arena-naming-rights-with-canadian-tire",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -158026,16 +158374,27 @@
    "sport": "NHL",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Named arena naming rights and helmet partner in an official Nashville Predators announcement.",
-   "url": "https://www.nhl.com/predators/news/nashville-predators-bridgestone-announce-helmet-entitlement-deal-319868374",
+   "summary": "Bridgestone holds naming rights to Bridgestone Arena, extended in 2019 through 2030, and was the Predators' helmet entitlement partner from the 2020-21 season.",
+   "url": "https://www.bridgestoneamericas.com/en/newsroom/press-releases/2019/bridgestone--nashville-predators-extend-naming-rights-agreement-",
    "status": "Current partner",
    "market": "North America",
    "tier": "Official partner",
    "ptier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2019-09-29",
+   "ends": 2030,
+   "endsLock": true,
+   "endsSrc": "https://www.bridgestoneamericas.com/en/newsroom/press-releases/2019/bridgestone--nashville-predators-extend-naming-rights-agreement-",
+   "rights": [
+    "arena naming rights",
+    "helmet"
+   ],
+   "rightsSrc": "https://www.bridgestoneamericas.com/en/press-release-details.en.2020.nashville-predators-helmet-entitlement",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced",
+   "tends": 2030,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -158253,7 +158612,7 @@
    "sport": "NHL",
    "type": "Official partner",
    "region": "Global",
-   "summary": "Named home helmet partner in an official Minnesota Wild announcement.",
+   "summary": "Blaze Credit Union is the Minnesota Wild's home helmet partner under a multi-year partnership, also presenting the Blaze Credit Union Promo Deck.",
    "url": "https://www.nhl.com/wild/news/minnesota-wild-and-blaze-credit-union-announce-multi-year-home-helmet-partnership-090925",
    "status": "Current partner",
    "market": "North America",
@@ -158262,8 +158621,14 @@
    "ptier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2025-09-09",
+   "rights": [
+    "home helmet",
+    "Promo Deck presenting sponsor"
+   ],
+   "rightsSrc": "https://www.nhl.com/wild/news/minnesota-wild-and-blaze-credit-union-announce-multi-year-home-helmet-partnership-090925",
    "ttier": "T2",
-   "tbasis": "rights"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -158271,8 +158636,8 @@
    "sport": "NHL",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Named arena naming rights partner (Grand Casino Arena) in an official Minnesota Wild announcement.",
-   "url": "https://www.nhl.com/wild/news/minnesota-sports-entertainment-and-grand-casino-announce-arena-naming-rights-partnership-0",
+   "summary": "Grand Casino, owned by the Mille Lacs Band of Ojibwe, holds 14-year naming rights to the Wild's arena, renamed Grand Casino Arena from 3 September 2025, replacing Xcel Energy.",
+   "url": "https://www.nhl.com/wild/news/minnesota-sports-entertainment-and-grand-casino-announce-arena-naming-rights-partnership-063025",
    "status": "Current partner",
    "market": "North America",
    "tier": "Official partner",
@@ -158280,8 +158645,19 @@
    "ptier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2025-06-30",
+   "term": 14,
+   "ends": 2039,
+   "endsLock": true,
+   "endsSrc": "https://www.nhl.com/wild/news/minnesota-sports-entertainment-and-grand-casino-announce-arena-naming-rights-partnership-063025",
+   "rights": [
+    "arena naming rights"
+   ],
+   "rightsSrc": "https://www.nhl.com/wild/news/minnesota-sports-entertainment-and-grand-casino-announce-arena-naming-rights-partnership-063025",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced",
+   "tends": 2039,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -158496,7 +158872,7 @@
    "sport": "NHL",
    "type": "Official partner",
    "region": "Global",
-   "summary": "Named helmet partner in an official Los Angeles Kings announcement.",
+   "summary": "Blue Shield of California became the LA Kings' official home helmet partner in October 2023 under a multi-year agreement with AEG.",
    "url": "https://www.nhl.com/kings/news/aeg-lak-announce-blue-shield-of-california-helmet-sponsor",
    "status": "Current partner",
    "market": "North America",
@@ -158505,8 +158881,13 @@
    "ptier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2023-10-03",
+   "rights": [
+    "home helmet"
+   ],
+   "rightsSrc": "https://www.nhl.com/kings/news/aeg-lak-announce-blue-shield-of-california-helmet-sponsor",
    "ttier": "T2",
-   "tbasis": "rights"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -158646,7 +159027,7 @@
    "sport": "NHL",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Named naming rights partner (Ball Arena) in an official Colorado Avalanche announcement.",
+   "summary": "Ball Corporation signed a global partnership with Kroenke Sports and Entertainment that renamed the Avalanche's home Ball Arena and brought aluminium cups to KSE venues.",
    "url": "https://www.nhl.com/avalanche/news/ball-corporation-and-kroenke-sports-announce-global-partnership-to-adv-319497034",
    "status": "Current partner",
    "market": "North America",
@@ -158655,8 +159036,14 @@
    "ptier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2020-10-22",
+   "rights": [
+    "arena naming rights",
+    "in-venue aluminium beverage packaging"
+   ],
+   "rightsSrc": "https://www.nhl.com/avalanche/news/ball-corporation-and-kroenke-sports-announce-global-partnership-to-adv-319497034",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -158835,8 +159222,19 @@
    "ptier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "ttier": "T1",
-   "tbasis": "rights"
+   "ends": 2029,
+   "endsLock": true,
+   "endsSrc": "https://nhl.com/bluejackets/news/blue-jackets-announce-diamond-cellar-as-title-partner-of-new-premier-space",
+   "datesTried": "2026-11-21",
+   "rights": [
+    "premium club naming rights (Diamond Cellar Club)",
+    "official jeweller"
+   ],
+   "rightsSrc": "https://nhl.com/bluejackets/news/blue-jackets-announce-diamond-cellar-as-title-partner-of-new-premier-space",
+   "ttier": "T2",
+   "tbasis": "sourced",
+   "tends": 2029,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -158916,6 +159314,7 @@
    "ptier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "datesTried": "2026-11-21",
    "ttier": "T1",
    "tbasis": "rights"
   },
@@ -159537,8 +159936,8 @@
    "sport": "MLB",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Named official casino and Choctaw Stadium naming partner in an official Texas Rangers announcement.",
-   "url": "https://mlb.com/press-release/press-release-texas-rangers-and-choctaw-announce-naming-rights-partnership-for-g",
+   "summary": "Choctaw took multi-year naming rights to the Rangers' former ballpark, renamed Choctaw Stadium in 2021, on top of its role as the Rangers' official casino.",
+   "url": "https://www.mlb.com/rangers/press-release/press-release-texas-rangers-and-choctaw-announce-naming-rights-partnership-for-g",
    "status": "Current partner",
    "market": "North America",
    "tier": "Official partner",
@@ -159546,8 +159945,13 @@
    "ptier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2021-08-25",
+   "rights": [
+    "stadium naming rights (Choctaw Stadium)"
+   ],
+   "rightsSrc": "https://www.mlb.com/rangers/press-release/press-release-texas-rangers-and-choctaw-announce-naming-rights-partnership-for-g",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -159555,7 +159959,7 @@
    "sport": "MLB",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Named naming rights partner (Globe Life Field, through 2048) in an official Texas Rangers announcement.",
+   "summary": "Globe Life extended its Rangers partnership through 2048, taking naming rights to the new Globe Life Field and staying the official life and health insurer.",
    "url": "https://www.mlb.com/press-release/rangers-globe-life-extend-naming-rights-partnership-for-new-ballpark-250339630",
    "status": "Current partner",
    "market": "North America",
@@ -159564,8 +159968,19 @@
    "ptier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2017-08-24",
+   "ends": 2048,
+   "endsLock": true,
+   "endsSrc": "https://www.mlb.com/press-release/rangers-globe-life-extend-naming-rights-partnership-for-new-ballpark-250339630",
+   "rights": [
+    "ballpark naming rights",
+    "official life and health insurance company"
+   ],
+   "rightsSrc": "https://www.mlb.com/press-release/rangers-globe-life-extend-naming-rights-partnership-for-new-ballpark-250339630",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced",
+   "tends": 2048,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -159682,8 +160097,13 @@
    "ptier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "ttier": "T1",
-   "tbasis": "rights"
+   "datesTried": "2026-11-21",
+   "rights": [
+    "premium club naming rights (DEX Imaging Home Plate Club)"
+   ],
+   "rightsSrc": "https://www.mlb.com/press-release/rays-elevate-fan-experience-with-major-upgrades-to-premium-spaces-at-tropicana-field-ahead-of-april-6-return-for-home-opener",
+   "ttier": "T2",
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -159700,8 +160120,13 @@
    "ptier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "ttier": "T1",
-   "tbasis": "rights"
+   "datesTried": "2026-11-21",
+   "rights": [
+    "premium club naming rights (The Baldwin Group Club)"
+   ],
+   "rightsSrc": "https://www.mlb.com/press-release/rays-elevate-fan-experience-with-major-upgrades-to-premium-spaces-at-tropicana-field-ahead-of-april-6-return-for-home-opener",
+   "ttier": "T2",
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -159718,8 +160143,13 @@
    "ptier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "ttier": "T1",
-   "tbasis": "rights"
+   "datesTried": "2026-11-21",
+   "rights": [
+    "SkyDeck naming rights (MaintenX SkyDeck)"
+   ],
+   "rightsSrc": "https://www.mlb.com/rays/press-release/rays-highlight-new-features-spaces-experiences-and-partners",
+   "ttier": "T2",
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -160023,8 +160453,8 @@
    "sport": "MLB",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Named naming rights partner (T-Mobile Park) in an official Seattle Mariners announcement.",
-   "url": "https://www.mlb.com/press-release/mariners-announce-compass-rose-circle-partners",
+   "summary": "T-Mobile holds naming rights to the Mariners' ballpark, T-Mobile Park, under a 25-year agreement signed in 2018.",
+   "url": "https://www.mlb.com/mariners/news/mariners-rename-home-facility-t-mobile-park/c-302016148",
    "status": "Current partner",
    "market": "North America",
    "tier": "Official partner",
@@ -160032,8 +160462,20 @@
    "ptier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2018-12-19",
+   "term": 25,
+   "ends": 2043,
+   "endsLock": true,
+   "endsSrc": "https://www.mlb.com/mariners/news/mariners-rename-home-facility-t-mobile-park/c-302016148",
+   "rights": [
+    "ballpark naming rights",
+    "T-Mobile 'Pen naming"
+   ],
+   "rightsSrc": "https://www.mlb.com/mariners/news/mariners-rename-home-facility-t-mobile-park/c-302016148",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced",
+   "tends": 2043,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -160390,8 +160832,8 @@
    "sport": "MLB",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Named stadium naming rights partner (Petco Park, extended) in an official San Diego Padres announcement.",
-   "url": "https://www.mlb.com/press-release/press-release-padres-petco-announce-petco-park-naming-rights-extension",
+   "summary": "Two-year extension of Petco Park naming rights through the 2027 MLB season, with ballpark signage and seasonal activations.",
+   "url": "https://mlb.com/press-release/press-release-padres-petco-announce-petco-park-naming-rights-extension",
    "status": "Current partner",
    "market": "North America",
    "tier": "Official partner",
@@ -160399,8 +160841,20 @@
    "ptier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2021-03-08",
+   "term": 2,
+   "ends": 2027,
+   "endsLock": true,
+   "endsSrc": "https://mlb.com/press-release/press-release-padres-petco-announce-petco-park-naming-rights-extension",
+   "rights": [
+    "stadium naming rights (Petco Park)",
+    "ballpark signage"
+   ],
+   "rightsSrc": "https://mlb.com/press-release/press-release-padres-petco-announce-petco-park-naming-rights-extension",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced",
+   "tends": 2027,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -160849,7 +161303,7 @@
    "sport": "MLB",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Named partner and Cadillac Club naming partner in an official New York Mets announcement.",
+   "summary": "Cadillac joined the Mets as a partner from 2023, with naming of The Cadillac Club at Payson's, a members-only club at Citi Field.",
    "url": "https://www.mlb.com/press-release/press-release-mets-unveil-the-cadillac-club-at-payson-s-cadillac-to-join-new-yor",
    "status": "Current partner",
    "market": "North America",
@@ -160858,8 +161312,13 @@
    "ptier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "ttier": "T1",
-   "tbasis": "rights"
+   "date": "2023-03-21",
+   "rights": [
+    "club naming rights (The Cadillac Club at Payson's)"
+   ],
+   "rightsSrc": "https://www.mlb.com/press-release/press-release-mets-unveil-the-cadillac-club-at-payson-s-cadillac-to-join-new-yor",
+   "ttier": "T2",
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -160883,8 +161342,8 @@
    "sport": "MLB",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Named Twins.TV naming partner in an official Minnesota Twins announcement.",
-   "url": "https://www.mlb.com/press-release/press-release-minnesota-twins-and-progressive-insurance-reach-multi-year-naming-rights-agreement-for-twins-tv-presented-by-progressive",
+   "summary": "Progressive holds multi-year naming rights to the Twins' direct-to-consumer streaming platform, Twins.TV Presented by Progressive, plus signage at Target Field.",
+   "url": "https://www.mlb.com/twins/press-release/press-release-minnesota-twins-and-progressive-insurance-reach-multi-year-naming-rights-agreement-for-twins-tv-presented-by-progressive",
    "status": "Current partner",
    "market": "North America",
    "tier": "Official partner",
@@ -160892,8 +161351,15 @@
    "ptier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "ttier": "T1",
-   "tbasis": "rights"
+   "date": "2025-03-25",
+   "rights": [
+    "broadcast platform naming rights (Twins.TV)",
+    "digital assets",
+    "Target Field signage"
+   ],
+   "rightsSrc": "https://www.mlb.com/twins/press-release/press-release-minnesota-twins-and-progressive-insurance-reach-multi-year-naming-rights-agreement-for-twins-tv-presented-by-progressive",
+   "ttier": "T2",
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -161889,7 +162355,7 @@
    "sport": "MLB",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Named ballpark naming rights partner (Daikin Park) in an official Houston Astros announcement.",
+   "summary": "Daikin Comfort Technologies signed a 15-year exclusive naming rights partnership for the Astros' ballpark, renamed Daikin Park from January 2025.",
    "url": "https://www.mlb.com/press-release/release-astros-announce-ballpark-naming-rights-partnership-with-daikin-comfort-technologies",
    "status": "Current partner",
    "market": "North America",
@@ -161898,8 +162364,19 @@
    "ptier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2024-11-18",
+   "term": 15,
+   "ends": 2039,
+   "endsLock": true,
+   "endsSrc": "https://www.mlb.com/press-release/release-astros-announce-ballpark-naming-rights-partnership-with-daikin-comfort-technologies",
+   "rights": [
+    "ballpark naming rights"
+   ],
+   "rightsSrc": "https://www.mlb.com/press-release/release-astros-announce-ballpark-naming-rights-partnership-with-daikin-comfort-technologies",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced",
+   "tends": 2039,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-17",
@@ -162139,7 +162616,7 @@
    "sport": "MLB",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Named PNC Press Club naming partner in an official Colorado Rockies announcement.",
+   "summary": "PNC Bank signed a multi-year partnership taking naming rights to the PNC Press Club premium seating area at Coors Field.",
    "url": "https://www.mlb.com/press-release/press-release-colorado-rockies-pnc-bank-announce-naming-rights-sponsorship-of-pn",
    "status": "Current partner",
    "market": "North America",
@@ -162148,8 +162625,14 @@
    "ptier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "ttier": "T1",
-   "tbasis": "rights"
+   "date": "2022-04-12",
+   "rights": [
+    "premium club naming rights (PNC Press Club)",
+    "logo below press box"
+   ],
+   "rightsSrc": "https://www.mlb.com/press-release/press-release-colorado-rockies-pnc-bank-announce-naming-rights-sponsorship-of-pn",
+   "ttier": "T2",
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -162224,8 +162707,8 @@
    "sport": "MLB",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Named stadium naming rights partner (Progressive Field, through 2036) in an official Cleveland Guardians announcement.",
-   "url": "https://www.mlb.com/press-release/press-release-cleveland-guardians-progressive-insurance-extend-naming-rights-to-progressive-field-through-2036",
+   "summary": "Progressive extended its naming rights to Progressive Field with the Cleveland Guardians for 13 years through the 2036 season, remaining the club's insurance partner.",
+   "url": "https://mlb.com/press-release/press-release-cleveland-guardians-progressive-insurance-extend-naming-rights-to-progressive-field-through-2036",
    "status": "Current partner",
    "market": "North America",
    "tier": "Official partner",
@@ -162234,8 +162717,18 @@
    "ptier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-17",
+   "date": "2024-04-03",
+   "term": 13,
+   "endsLock": true,
+   "endsSrc": "https://mlb.com/press-release/press-release-cleveland-guardians-progressive-insurance-extend-naming-rights-to-progressive-field-through-2036",
+   "rights": [
+    "stadium naming rights",
+    "official insurance partner",
+    "exterior stadium signage"
+   ],
+   "rightsSrc": "https://mlb.com/press-release/press-release-cleveland-guardians-progressive-insurance-extend-naming-rights-to-progressive-field-through-2036",
    "ttier": "T1",
-   "tbasis": "rights",
+   "tbasis": "sourced",
    "tends": 2036,
    "tendsBasis": "stated"
   },
@@ -162511,7 +163004,7 @@
    "sport": "MLB",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Named official partner and YETI Yard naming partner in an official Chicago Cubs announcement.",
+   "summary": "YETI signed a multi-year partnership with the Chicago Cubs, taking naming rights to The YETI Yard bleacher space at Wrigley Field and becoming an official partner.",
    "url": "https://www.mlb.com/press-release/press-release-wrigley-field-s-new-bleacher-space-officially-named-the-yeti-yard-as-part-of-new-multiyear-partnership",
    "status": "Current partner",
    "market": "North America",
@@ -162520,8 +163013,15 @@
    "ptier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-17",
-   "ttier": "T1",
-   "tbasis": "rights"
+   "date": "2025-03-31",
+   "rights": [
+    "YETI Yard naming rights",
+    "official partner of the Cubs and Wrigley Field",
+    "concession product sales"
+   ],
+   "rightsSrc": "https://www.mlb.com/press-release/press-release-wrigley-field-s-new-bleacher-space-officially-named-the-yeti-yard-as-part-of-new-multiyear-partnership",
+   "ttier": "T2",
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-17",
@@ -170504,8 +171004,8 @@
    "sport": "NFL",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Named stadium naming rights partner (Nissan Stadium) in an official Tennessee Titans announcement.",
-   "url": "https://www.tennesseetitans.com/news/tennessee-titans-announce-verizon-as-exclusive-wireless-telecommunications-provider-and-first-cornerstone-partner-in-new-nissan-stadium",
+   "summary": "Nissan signed a 20-year exclusive naming rights partnership for the Titans' new stadium, which keeps the Nissan Stadium name.",
+   "url": "https://www.tennesseetitans.com/news/tennessee-titans-nissan-announce-naming-rights-partnership-in-new-stadium",
    "status": "Current partner",
    "market": "North America",
    "tier": "Official partner",
@@ -170513,8 +171013,20 @@
    "announced": "2024-01-30",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2023-11-17",
+   "term": 20,
+   "ends": 2043,
+   "endsEst": true,
+   "rights": [
+    "stadium naming rights",
+    "brand experience and display areas",
+    "Titans broadcast integration"
+   ],
+   "rightsSrc": "https://www.tennesseetitans.com/news/tennessee-titans-nissan-announce-naming-rights-partnership-in-new-stadium",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced",
+   "tends": 2043,
+   "tendsBasis": "term"
   },
   {
    "listed": "2026-11-16",
@@ -170522,8 +171034,8 @@
    "sport": "NFL",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Named practice facility naming partner (Ascension Saint Thomas Sports Park) in an official Tennessee Titans announcement.",
-   "url": "https://www.tennesseetitans.com/news/tennessee-titans-and-fanatics-announce-long-term-omnichannel-retail-partnership-to-elevate-fan-experience",
+   "summary": "Saint Thomas took naming rights to the Titans' practice facility, renamed Saint Thomas Sports Park, in 2013.",
+   "url": "https://www.tennesseetitans.com/news/titans-practice-facility-renamed-saint-thomas-sports-park-10455494",
    "status": "Current partner",
    "market": "North America",
    "tier": "Official partner",
@@ -170531,6 +171043,7 @@
    "announced": "2024-04-01",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2013-07-11",
    "ttier": "T1",
    "tbasis": "rights"
   },
@@ -170624,7 +171137,7 @@
    "sport": "NFL",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Named official professional services partner and 8am Club naming partner in an official Tampa Bay Buccaneers announcement.",
+   "summary": "8am became the Buccaneers' official professional services partner in a multi-year partnership that names the 8am Club premium lounge at Raymond James Stadium.",
    "url": "https://www.buccaneers.com/longform/tampa-bay-buccaneers-announce-parntership-8am",
    "status": "Current partner",
    "market": "North America",
@@ -170633,8 +171146,17 @@
    "announced": "2026-04-02",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "ttier": "T1",
-   "tbasis": "rights"
+   "date": "2026-04-02",
+   "rights": [
+    "premium club naming rights (8am Club)",
+    "official professional services partner",
+    "stadium ribbon board and tower wall signage"
+   ],
+   "rightsSrc": "https://www.buccaneers.com/longform/tampa-bay-buccaneers-announce-parntership-8am",
+   "ttier": "T2",
+   "tbasis": "sourced",
+   "tends": 2036,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-11-16",
@@ -170843,7 +171365,7 @@
    "sport": "NFL",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Named official bank and suite level naming partner in an official Seattle Seahawks announcement.",
+   "summary": "Umpqua Bank became the Seahawks' official bank in a multi-year partnership, with naming of the Umpqua Bank Suite Level at Lumen Field and the Umpqua Bank Radio Network.",
    "url": "https://www.seahawks.com/news/seattle-seahawks-names-umpqua-bank-official-bank-partner-in-multi-year-deal",
    "status": "Current partner",
    "market": "North America",
@@ -170852,8 +171374,17 @@
    "announced": "2024-08-20",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "ttier": "T1",
-   "tbasis": "rights"
+   "date": "2024-08-20",
+   "rights": [
+    "official bank",
+    "suite level naming rights",
+    "radio network naming"
+   ],
+   "rightsSrc": "https://www.seahawks.com/news/seattle-seahawks-names-umpqua-bank-official-bank-partner-in-multi-year-deal",
+   "ttier": "T2",
+   "tbasis": "sourced",
+   "tends": 2034,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-11-16",
@@ -170979,7 +171510,7 @@
    "sport": "NFL",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Named proud partner and field seats naming partner in an official Seattle Seahawks announcement.",
+   "summary": "Dania Furniture joined the Seahawks in a multi-year partnership that names the Dania Field Seats at Lumen Field.",
    "url": "https://seahawks.com/news/seattle-seahawks-announce-partnership-with-dania-furniture",
    "status": "Current partner",
    "market": "North America",
@@ -170988,8 +171519,17 @@
    "announced": "2024-11-13",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "ttier": "T1",
-   "tbasis": "rights"
+   "date": "2024-11-13",
+   "rights": [
+    "field seats naming rights",
+    "SE tunnel wall signage",
+    "annual fan sweepstakes"
+   ],
+   "rightsSrc": "https://seahawks.com/news/seattle-seahawks-announce-partnership-with-dania-furniture",
+   "ttier": "T2",
+   "tbasis": "sourced",
+   "tends": 2034,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-11-16",
@@ -171032,8 +171572,8 @@
    "sport": "NFL",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Named stadium naming partner and first partner in Mexico and the UK in an official San Francisco 49ers announcement.",
-   "url": "https://49ers.com/news/49ers-announce-levi-s-and-united-airlines-as-first-partners-in-mexico-and-uk",
+   "summary": "10-year extension of Levi's Stadium naming rights and the 49ers team partnership, securing the name through the 2043 NFL season.",
+   "url": "https://www.49ers.com/news/levi-strauss-co-renews-commitment-to-the-bay-with-proposed-10-year-extension-of-levi-s-stadium-naming-rights-and-49ers-partnership",
    "status": "Current partner",
    "market": "North America",
    "tier": "Official partner",
@@ -171041,8 +171581,20 @@
    "announced": "2021-12-31",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2024-01-25",
+   "term": 10,
+   "ends": 2043,
+   "endsLock": true,
+   "endsSrc": "https://www.49ers.com/news/levi-strauss-co-renews-commitment-to-the-bay-with-proposed-10-year-extension-of-levi-s-stadium-naming-rights-and-49ers-partnership",
+   "rights": [
+    "stadium naming rights (Levi's Stadium)",
+    "team sponsorship incl. digital content and merchandise collaborations"
+   ],
+   "rightsSrc": "https://www.49ers.com/news/levi-strauss-co-renews-commitment-to-the-bay-with-proposed-10-year-extension-of-levi-s-stadium-naming-rights-and-49ers-partnership",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced",
+   "tends": 2043,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-16",
@@ -171084,7 +171636,7 @@
    "sport": "NFL",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Named founding partner and official intelligent data infrastructure partner in an official San Francisco 49ers announcement.",
+   "summary": "Multi-year founding level partnership naming NetApp the 49ers' official intelligent data infrastructure partner, with naming of the Levi's Stadium east side Owners Club.",
    "url": "https://www.49ers.com/news/san-francisco-49ers-and-netapp-team-up-to-elevate-operations-and-fan-experience",
    "status": "Current partner",
    "market": "North America",
@@ -171093,8 +171645,17 @@
    "announced": "2025-01-28",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "ttier": "T1",
-   "tbasis": "role"
+   "date": "2025-01-28",
+   "rights": [
+    "official intelligent data infrastructure partner",
+    "Levi's Stadium Owners Club naming",
+    "presenting sponsor of Horizon Summit"
+   ],
+   "rightsSrc": "https://www.49ers.com/news/san-francisco-49ers-and-netapp-team-up-to-elevate-operations-and-fan-experience",
+   "ttier": "T2",
+   "tbasis": "sourced",
+   "tends": 2035,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-11-16",
@@ -171102,7 +171663,7 @@
    "sport": "NFL",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Named founding partner (extended 2024) in an official San Francisco 49ers announcement.",
+   "summary": "Comcast extended its 49ers partnership in 2024, with Xfinity presenting Gate A and its fan plaza and the in-stadium Wi-Fi at Levi's Stadium.",
    "url": "https://www.49ers.com/news/49ers-and-comcast-announce-partnership-extension",
    "status": "Current partner",
    "market": "North America",
@@ -171111,8 +171672,16 @@
    "announced": "2024-08-29",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "ttier": "T1",
-   "tbasis": "role"
+   "date": "2024-08-29",
+   "rights": [
+    "Gate A entitlement and fan plaza presenting sponsor",
+    "Levi's Stadium Wi-Fi presenting sponsor"
+   ],
+   "rightsSrc": "https://www.49ers.com/news/49ers-and-comcast-announce-partnership-extension",
+   "ttier": "T2",
+   "tbasis": "sourced",
+   "tends": 2034,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-11-16",
@@ -171120,7 +171689,7 @@
    "sport": "NFL",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Named founding partner in an official San Francisco 49ers announcement.",
+   "summary": "Cache Creek Casino Resort extended its 49ers partnership in 2024, moving up to founding level with a 50-yard-line field club, players' lounge naming and stadium signage.",
    "url": "https://www.49ers.com/news/san-francisco-49ers-and-cache-creek-casino-resort-announce-partnership-extension",
    "status": "Current partner",
    "market": "North America",
@@ -171129,8 +171698,18 @@
    "announced": "2024-09-03",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "ttier": "T1",
-   "tbasis": "role"
+   "date": "2024-09-03",
+   "rights": [
+    "Cache Creek Casino Resort Field Club naming",
+    "Cache Creek Casino Resort Players' Lounge naming",
+    "play clock signage",
+    "Ring of Honor signage"
+   ],
+   "rightsSrc": "https://www.49ers.com/news/san-francisco-49ers-and-cache-creek-casino-resort-announce-partnership-extension",
+   "ttier": "T2",
+   "tbasis": "sourced",
+   "tends": 2034,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-11-16",
@@ -171226,8 +171805,8 @@
    "sport": "NFL",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Named stadium naming rights partner (Acrisure Stadium) in an official Pittsburgh Steelers announcement.",
-   "url": "https://www.acrisure.com/news/steelers-and-acrisure-announce-partnership",
+   "summary": "15-year stadium naming rights partnership renaming Heinz Field as Acrisure Stadium from the 2022 season.",
+   "url": "https://www.steelers.com/news/steelers-acrisure-announce-partnership-for-stadium-naming-rights",
    "status": "Current partner",
    "market": "North America",
    "tier": "Official partner",
@@ -171235,8 +171814,19 @@
    "announced": "2022-07-11",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2022-07-12",
+   "term": 15,
+   "ends": 2037,
+   "endsLock": true,
+   "endsSrc": "https://www.steelers.com/news/steelers-acrisure-announce-partnership-for-stadium-naming-rights",
+   "rights": [
+    "stadium naming rights (Acrisure Stadium)"
+   ],
+   "rightsSrc": "https://www.steelers.com/news/steelers-acrisure-announce-partnership-for-stadium-naming-rights",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced",
+   "tends": 2037,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-16",
@@ -171244,16 +171834,21 @@
    "sport": "NFL",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Named sports medicine partner and UPMC Rooney Sports Complex naming partner in an official Pittsburgh Steelers announcement.",
-   "url": "https://www.steelers.com/video/steelers-announce-partnership-extension-16311297",
+   "summary": "Partnership extension renewing UPMC's relationship with the Steelers and renaming the South Side training campus the UPMC Rooney Sports Complex.",
+   "url": "https://www.steelers.com/news/steelers-upmc-announce-partnership-extension-16310712",
    "status": "Current partner",
    "market": "North America",
    "tier": "Official partner",
    "ptier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "ttier": "T1",
-   "tbasis": "rights"
+   "date": "2015-11-17",
+   "rights": [
+    "training facility naming rights (UPMC Rooney Sports Complex)"
+   ],
+   "rightsSrc": "https://www.steelers.com/news/steelers-upmc-announce-partnership-extension-16310712",
+   "ttier": "T2",
+   "tbasis": "sourced"
   },
   {
    "listed": "2026-11-16",
@@ -171581,16 +172176,26 @@
    "sport": "NFL",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Named official bank and stadium naming rights partner (U.S. Bank Stadium) in an official Minnesota Vikings announcement.",
-   "url": "https://www.usbank.com/about-us-bank/news-and-stories/article-library/us-bank-named-new-official-bank-and-wealth-management-sponsor-of-the-nfl.html",
+   "summary": "U.S. Bank holds exclusive naming rights to U.S. Bank Stadium, home of the Minnesota Vikings, under a 20-year partnership announced in 2015.",
+   "url": "https://ir.usbank.com/news-events/news/news-details/2015/U.S.-Bank-and-Minnesota-Vikings-Introduce-U.S.-Bank-Stadium-Announce-Places-to-Play-Program-06-15-2015/default.aspx",
    "status": "Current partner",
    "market": "North America",
    "tier": "Official partner",
    "ptier": "Naming rights",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2015-06-15",
+   "term": 20,
+   "ends": 2035,
+   "endsEst": true,
+   "rights": [
+    "stadium naming rights"
+   ],
+   "rightsSrc": "https://ir.usbank.com/news-events/news/news-details/2015/U.S.-Bank-and-Minnesota-Vikings-Introduce-U.S.-Bank-Stadium-Announce-Places-to-Play-Program-06-15-2015/default.aspx",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced",
+   "tends": 2035,
+   "tendsBasis": "term"
   },
   {
    "listed": "2026-11-16",
@@ -171655,7 +172260,7 @@
    "sport": "NFL",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Named official luxury vehicle and North Sideline Club naming partner in an official Miami Dolphins announcement.",
+   "summary": "Lexus is the official luxury vehicle of the Miami Dolphins and Hard Rock Stadium and holds naming rights to the Lexus North Sideline Club under a multi-year partnership.",
    "url": "https://pressroom.lexus.com/miami-dolphins-lexus-announce-multi-year-partnership/",
    "status": "Current partner",
    "market": "North America",
@@ -171664,8 +172269,17 @@
    "announced": "2021-08-11",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "ttier": "T1",
-   "tbasis": "rights"
+   "date": "2021-08-11",
+   "rights": [
+    "official luxury vehicle",
+    "club naming rights (Lexus North Sideline Club)",
+    "stadium branding"
+   ],
+   "rightsSrc": "https://pressroom.lexus.com/miami-dolphins-lexus-announce-multi-year-partnership/",
+   "ttier": "T2",
+   "tbasis": "sourced",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-11-16",
@@ -172045,8 +172659,8 @@
    "sport": "NFL",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Named stadium naming rights partner (SoFi Stadium) in an official Los Angeles Chargers announcement.",
-   "url": "https://chargers.com/news/sofi-chargers-team-up-develop-future-leaders-at-sofi-stadium",
+   "summary": "SoFi holds exclusive naming rights to SoFi Stadium under a 20-year agreement and is an official partner of the Chargers and Rams.",
+   "url": "https://www.sofi.com/newsroom/sofi-takes-the-field-2/",
    "status": "Current partner",
    "market": "North America",
    "tier": "Official partner",
@@ -172054,8 +172668,18 @@
    "announced": "2020-09-17",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2019-09-15",
+   "term": 20,
+   "ends": 2039,
+   "endsEst": true,
+   "rights": [
+    "stadium naming rights"
+   ],
+   "rightsSrc": "https://www.sofi.com/newsroom/sofi-takes-the-field-2/",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced",
+   "tends": 2039,
+   "tendsBasis": "term"
   },
   {
    "listed": "2026-11-16",
@@ -172181,7 +172805,7 @@
    "sport": "NFL",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Named official gaming partner and Allegiant Stadium founding partner in an official Las Vegas Raiders announcement.",
+   "summary": "MGM Resorts is the Raiders' official gaming partner and an Allegiant Stadium founding partner, with stadium signage and naming of the west VIP entry.",
    "url": "https://raiders.com/news/mgm-resorts-named-an-official-gaming-partner-of-the-las-vegas-raiders-founding-p",
    "status": "Current partner",
    "market": "North America",
@@ -172190,8 +172814,17 @@
    "announced": "2020-01-23",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "ttier": "T1",
-   "tbasis": "role"
+   "date": "2020-01-23",
+   "rights": [
+    "official gaming partner",
+    "stadium signage",
+    "west VIP entry and drop-off zone naming rights"
+   ],
+   "rightsSrc": "https://raiders.com/news/mgm-resorts-named-an-official-gaming-partner-of-the-las-vegas-raiders-founding-p",
+   "ttier": "T2",
+   "tbasis": "sourced",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-11-16",
@@ -172199,7 +172832,7 @@
    "sport": "NFL",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Named official beer partner and Allegiant Stadium founding partner in an official Las Vegas Raiders announcement.",
+   "summary": "Molson Coors is the official domestic beer and official craft and hard seltzer of the Raiders and Allegiant Stadium, as a stadium founding partner.",
    "url": "https://raiders.com/news/molson-coors-named-an-official-beer-partner-of-the-las-vegas-raiders",
    "status": "Current partner",
    "market": "North America",
@@ -172208,8 +172841,17 @@
    "announced": "2020-07-01",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "ttier": "T1",
-   "tbasis": "role"
+   "date": "2020-07-01",
+   "rights": [
+    "official domestic beer",
+    "official craft beer and hard seltzer",
+    "branded stadium environments"
+   ],
+   "rightsSrc": "https://raiders.com/news/molson-coors-named-an-official-beer-partner-of-the-las-vegas-raiders",
+   "ttier": "T3",
+   "tbasis": "sourced",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-11-16",
@@ -172217,8 +172859,8 @@
    "sport": "NFL",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Named performance center naming partner and official healthcare partner in an official Las Vegas Raiders announcement.",
-   "url": "https://news.intermountainhealth.org/raiders-and-intermountain-healthcare-join-in-health-partnership/",
+   "summary": "Intermountain Healthcare holds naming rights to the Raiders' Performance Center and headquarters in Henderson and is the club's official healthcare partner and an Allegiant Stadium founding partner.",
+   "url": "https://raiders.com/news/raiders-and-intermountain-healthcare-join-in-health-partnership",
    "status": "Current partner",
    "market": "North America",
    "tier": "Official partner",
@@ -172226,8 +172868,16 @@
    "announced": "2019-12-03",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "ttier": "T1",
-   "tbasis": "rights"
+   "date": "2019-12-03",
+   "rights": [
+    "practice facility naming rights",
+    "official healthcare partner"
+   ],
+   "rightsSrc": "https://raiders.com/news/raiders-and-intermountain-healthcare-join-in-health-partnership",
+   "ttier": "T2",
+   "tbasis": "sourced",
+   "tends": 2029,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-11-16",
@@ -172253,7 +172903,7 @@
    "sport": "NFL",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Named official partner and Owners East Club naming partner in an official Las Vegas Raiders announcement.",
+   "summary": "Aristocrat Technologies is an official partner of the Raiders and Allegiant Stadium in the gaming machine category, with naming of the Owners East Club and the Aristocrat Club.",
    "url": "https://www.raiders.com/news/aristocrat-technologies-inc-named-an-official-partner-of-the-las-vegas-raiders-a",
    "status": "Current partner",
    "market": "North America",
@@ -172262,8 +172912,19 @@
    "announced": "2020-10-08",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "ttier": "T1",
-   "tbasis": "rights"
+   "date": "2020-10-08",
+   "rights": [
+    "Owners East Club naming rights",
+    "Aristocrat Club entitlement",
+    "stadium signage",
+    "official land-based gaming machines",
+    "Raiders 50/50 Raffle presenting sponsor"
+   ],
+   "rightsSrc": "https://www.raiders.com/news/aristocrat-technologies-inc-named-an-official-partner-of-the-las-vegas-raiders-a",
+   "ttier": "T2",
+   "tbasis": "sourced",
+   "tends": 2030,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-11-16",
@@ -172447,7 +173108,7 @@
    "sport": "NFL",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Named stadium naming partner and official global partner in an official Indianapolis Colts announcement.",
+   "summary": "Lucas Oil, long-time stadium naming partner of Lucas Oil Stadium, was named the Colts' official global partner under a multi-year partnership covering the team's marketing rights in Germany, Austria and Switzerland.",
    "url": "https://www.colts.com/news/colts-announce-lucas-oil-as-official-global-partner",
    "status": "Current partner",
    "market": "North America",
@@ -172456,8 +173117,16 @@
    "announced": "2025-08-06",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "ttier": "T1",
-   "tbasis": "rights"
+   "date": "2025-08-06",
+   "rights": [
+    "official global partner",
+    "international marketing rights (Germany, Austria, Switzerland)"
+   ],
+   "rightsSrc": "https://www.colts.com/news/colts-announce-lucas-oil-as-official-global-partner",
+   "ttier": "T3",
+   "tbasis": "sourced",
+   "tends": 2035,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-11-16",
@@ -172570,7 +173239,7 @@
    "sport": "NFL",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Named official sportsbook partner and south gate naming partner in an official Green Bay Packers announcement.",
+   "summary": "Potawatomi Sportsbook signed a multi-year partnership as the Packers' official sportsbook partner, with naming rights to Lambeau Field's south gate, title of the Champions Club and the podcast studio.",
    "url": "https://www.packers.com/news/packers-potawatomi-sportsbook-announce-new-partnership-2026",
    "status": "Current partner",
    "market": "North America",
@@ -172579,8 +173248,19 @@
    "announced": "2026-06-04",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "ttier": "T1",
-   "tbasis": "rights"
+   "date": "2026-06-02",
+   "rights": [
+    "official sportsbook partner",
+    "south gate naming rights",
+    "Champions Club title sponsorship",
+    "podcast studio naming rights",
+    "presenting sponsor of Packers Predict"
+   ],
+   "rightsSrc": "https://www.packers.com/news/packers-potawatomi-sportsbook-announce-new-partnership-2026",
+   "ttier": "T2",
+   "tbasis": "sourced",
+   "tends": 2036,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-11-16",
@@ -172742,8 +173422,8 @@
    "sport": "NFL",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Named stadium naming rights partner (Empower Field at Mile High) in an official Denver Broncos announcement.",
-   "url": "https://denverbroncos.com/news/broncos-empower-retirement-take-partnership-to-highest-level-by-introducing-empo",
+   "summary": "Empower Retirement holds stadium naming rights for Empower Field at Mile High under a 21-year agreement running through 2039.",
+   "url": "https://www.denverbroncos.com/news/broncos-agree-to-terms-with-empower-retirement-on-21-year-deal-to-name-stadium-e",
    "status": "Current partner",
    "market": "North America",
    "tier": "Official partner",
@@ -172751,8 +173431,19 @@
    "announced": "2019-09-05",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2019-09-04",
+   "term": 21,
+   "ends": 2039,
+   "endsLock": true,
+   "endsSrc": "https://www.denverbroncos.com/news/broncos-agree-to-terms-with-empower-retirement-on-21-year-deal-to-name-stadium-e",
+   "rights": [
+    "stadium naming rights"
+   ],
+   "rightsSrc": "https://www.denverbroncos.com/news/broncos-agree-to-terms-with-empower-retirement-on-21-year-deal-to-name-stadium-e",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced",
+   "tends": 2039,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-16",
@@ -172760,17 +173451,21 @@
    "sport": "NFL",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Named training facility naming partner and official health partner in an official Denver Broncos announcement.",
+   "summary": "Centura Health signed a 10-year partnership as the Broncos' official healthcare partner and training facility naming rights holder; the facility was renamed Broncos Park Powered by CommonSpirit in May 2024 as CommonSpirit replaced the Centura brand.",
    "url": "https://www.denverbroncos.com/news/denver-broncos-and-centura-health-announce-10-year-partnership-training-facility",
-   "status": "Current partner",
+   "status": "Ended",
    "market": "North America",
    "tier": "Official partner",
    "ptier": "Naming rights",
    "announced": "2023-05-15",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "ttier": "T1",
-   "tbasis": "rights"
+   "date": "2023-05-15",
+   "term": 10,
+   "ended": 2024,
+   "endedUrl": "https://www.denverbroncos.com/news/broncos-training-facility-renamed-broncos-park-powered-by-commonspirit",
+   "ends": 2033,
+   "endsEst": true
   },
   {
    "listed": "2026-11-16",
@@ -172952,7 +173647,7 @@
    "sport": "NFL",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Named stadium naming rights partner (Huntington Bank Field) and official banking partner in an official Cleveland Browns announcement.",
+   "summary": "Huntington Bank signed a 20-year partnership with the Cleveland Browns including stadium naming rights to Huntington Bank Field and official banking partner status.",
    "url": "https://www.clevelandbrowns.com/news/browns-and-huntington-bank-announce-20-year-partnership-that-includes-stadium-naming-rights",
    "status": "Current partner",
    "market": "North America",
@@ -172961,8 +173656,20 @@
    "announced": "2024-09-03",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2024-09-03",
+   "term": 20,
+   "ends": 2044,
+   "endsLock": true,
+   "endsSrc": "https://www.clevelandbrowns.com/news/browns-and-huntington-bank-announce-20-year-partnership-that-includes-stadium-naming-rights",
+   "rights": [
+    "stadium naming rights",
+    "official and exclusive banking partner"
+   ],
+   "rightsSrc": "https://www.clevelandbrowns.com/news/browns-and-huntington-bank-announce-20-year-partnership-that-includes-stadium-naming-rights",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced",
+   "tends": 2044,
+   "tendsBasis": "stated"
   },
   {
    "listed": "2026-11-16",
@@ -172970,7 +173677,7 @@
    "sport": "NFL",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Named training campus naming partner and official mortgage partner in an official Cleveland Browns announcement.",
+   "summary": "CrossCountry Mortgage signed a long-term partnership taking naming rights to the Browns' Berea training complex, the CrossCountry Mortgage Campus, as official mortgage partner.",
    "url": "https://browns.1rmg.com/?p=6934",
    "status": "Current partner",
    "market": "North America",
@@ -172979,8 +173686,17 @@
    "announced": "2021-07-22",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "ttier": "T1",
-   "tbasis": "rights"
+   "date": "2021-07-22",
+   "rights": [
+    "training facility naming rights",
+    "official mortgage partner",
+    "Browns Live: Training Camp presenting partner"
+   ],
+   "rightsSrc": "https://browns.1rmg.com/?p=6934",
+   "ttier": "T2",
+   "tbasis": "sourced",
+   "tends": 2031,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-11-16",
@@ -173092,8 +173808,8 @@
    "sport": "NFL",
    "type": "Official partner",
    "region": "Global",
-   "summary": "Named HELMETS program partner in an official Cleveland Browns announcement.",
-   "url": "https://browns.1rmg.com/?p=14291",
+   "summary": "Riddell became the Browns' partner for the HELMETS program, supplying helmets to Northeast Ohio high school and youth football teams.",
+   "url": "https://www.clevelandbrowns.com/news/browns-announce-riddell-as-new-partner-for-helmets-program",
    "status": "Current partner",
    "market": "North America",
    "tier": "Official partner",
@@ -173101,8 +173817,15 @@
    "announced": "2025-08-07",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2025-08-07",
+   "rights": [
+    "HELMETS program partner"
+   ],
+   "rightsSrc": "https://www.clevelandbrowns.com/news/browns-announce-riddell-as-new-partner-for-helmets-program",
    "ttier": "T2",
-   "tbasis": "rights"
+   "tbasis": "sourced",
+   "tends": 2035,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-11-16",
@@ -173158,7 +173881,7 @@
    "sport": "NFL",
    "type": "Naming rights",
    "region": "Global",
-   "summary": "Named indoor practice facility naming partner and official logistics partner in an official Cincinnati Bengals announcement.",
+   "summary": "Integrity Express Logistics (IEL) took naming rights to the Bengals' indoor practice facility, the IEL Indoor Facility, in a multi-year partnership as official logistics partner.",
    "url": "https://www.bengals.com/news/bengals-indoor-practice-facility-naming-rights",
    "status": "Current partner",
    "market": "North America",
@@ -173167,8 +173890,16 @@
    "announced": "2022-10-03",
    "conf": "Confirmed",
    "verified": "2026-11-16",
-   "ttier": "T1",
-   "tbasis": "rights"
+   "date": "2022-10-03",
+   "rights": [
+    "indoor practice facility naming rights",
+    "official logistics partner"
+   ],
+   "rightsSrc": "https://www.bengals.com/news/bengals-indoor-practice-facility-naming-rights",
+   "ttier": "T2",
+   "tbasis": "sourced",
+   "tends": 2032,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-11-16",
@@ -173485,7 +174216,9 @@
    ],
    "rightsSrc": "https://panthers.com/news/carolina-panthers-unveil-atrium-health-training-facility-naming-partnership",
    "ttier": "T1",
-   "tbasis": "sourced"
+   "tbasis": "sourced",
+   "tends": 2036,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-11-16",
@@ -173718,7 +174451,9 @@
    ],
    "rightsSrc": "https://www.buffalobills.com/news/the-future-is-bright-bills-and-highmark-announce-naming-rights-deal-for-new-bill",
    "ttier": "T1",
-   "tbasis": "sourced"
+   "tbasis": "sourced",
+   "tends": 2033,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-11-16",
@@ -173743,7 +174478,9 @@
    ],
    "rightsSrc": "https://buffalobills.com/news/buffalo-bills-announce-ticketmaster-as-first-founding-partner-for-new-highmark-stadium",
    "ttier": "T1",
-   "tbasis": "sourced"
+   "tbasis": "sourced",
+   "tends": 2035,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-11-16",
@@ -173768,7 +174505,9 @@
    ],
    "rightsSrc": "https://buffalobills.com/news/toyota-named-founding-partner-at-highmark-stadium-continues-as-official-automotive-partner-of-the-buffalo-bills",
    "ttier": "T1",
-   "tbasis": "sourced"
+   "tbasis": "sourced",
+   "tends": 2036,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-11-16",
@@ -173794,7 +174533,9 @@
    ],
    "rightsSrc": "https://www.buffalobills.com/news/m-t-bank-and-buffalo-bills-extend-official-bank-partnership",
    "ttier": "T1",
-   "tbasis": "sourced"
+   "tbasis": "sourced",
+   "tends": 2035,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-11-16",
@@ -173943,7 +174684,9 @@
    ],
    "rightsSrc": "https://www.baltimoreravens.com/news/baltimore-ravens-and-xfinity-announce-partnership-featuring-naming-right-to-the-xfinity-flockyard-at-m-t-bank-stadium",
    "ttier": "T1",
-   "tbasis": "sourced"
+   "tbasis": "sourced",
+   "tends": 2036,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-11-16",
@@ -183334,7 +184077,7 @@
    "sport": "Football",
    "type": "Principal partner",
    "region": "Global",
-   "summary": "Nottingham Forest returned to adidas in a multi-year kit supplier partnership from 2023/24 covering the men's, women's and academy teams.",
+   "summary": "Nottingham Forest returned to adidas in a multi-year kit supplier partnership announced in June 2023, covering the men's, women's and academy teams.",
    "url": "https://www.thebusinessdesk.com/eastmidlands/?p=2073012",
    "status": "Current partner",
    "market": "UK & Ireland",
@@ -183343,7 +184086,15 @@
    "conf": "Reported",
    "verified": "2026-11-16",
    "date": "2023-06-28",
-   "ends": 2024
+   "rights": [
+    "Official kit supplier (men's, women's and academy teams)",
+    "Manufacturer of all technical apparel"
+   ],
+   "rightsSrc": "https://www.thebusinessdesk.com/eastmidlands/?p=2073012",
+   "ttier": "T1",
+   "tbasis": "sourced",
+   "tends": 2028,
+   "tendsBasis": "league"
   },
   {
    "listed": "2026-11-16",
@@ -226222,7 +226973,9 @@
    "status": "New",
    "market": "North America",
    "conf": "Confirmed",
-   "verified": "2026-11-13"
+   "verified": "2026-11-13",
+   "tends": 2036,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-11-12",
@@ -228473,7 +229226,9 @@
    "status": "Expansion",
    "market": "North America",
    "conf": "Reported",
-   "verified": "2026-11-03"
+   "verified": "2026-11-03",
+   "tends": 2036,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-11-02",
@@ -230240,7 +230995,9 @@
    "conf": "Reported",
    "verified": "2026-10-26",
    "ttier": "T3",
-   "tbasis": "category"
+   "tbasis": "category",
+   "tends": 2036,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-10-22",
@@ -230374,7 +231131,9 @@
    "conf": "Confirmed",
    "verified": "2026-10-23",
    "ttier": "T3",
-   "tbasis": "category"
+   "tbasis": "category",
+   "tends": 2036,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-10-22",
@@ -230758,7 +231517,9 @@
    "status": "New",
    "market": "North America",
    "conf": "Confirmed",
-   "verified": "2026-10-22"
+   "verified": "2026-10-22",
+   "tends": 2036,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-10-19",
@@ -232216,7 +232977,9 @@
    "status": "New",
    "market": "North America",
    "conf": "Confirmed",
-   "verified": "2026-10-15"
+   "verified": "2026-10-15",
+   "tends": 2036,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-10-08",
@@ -233238,7 +234001,9 @@
    "market": "North America",
    "url": "https://corporate.visa.com/en/sites/visa-perspectives/press-releases/visa-expands-pro-football-partnerships.html",
    "conf": "Confirmed",
-   "verified": "2026-10-07"
+   "verified": "2026-10-07",
+   "tends": 2036,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-10-05",
@@ -234572,7 +235337,9 @@
    "market": "North America",
    "url": "https://newsroom.tiktok.com/tiktok-and-nfl-renew-partnership-with-multiyear-agreement-to-bring-global-fans-closer-to-football",
    "conf": "Reported",
-   "verified": "2026-09-06"
+   "verified": "2026-09-06",
+   "tends": 2036,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-09-03",
@@ -234928,7 +235695,9 @@
    "conf": "Reported",
    "verified": "2026-08-27",
    "ttier": "T3",
-   "tbasis": "category"
+   "tbasis": "category",
+   "tends": 2036,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-08-19",
@@ -234945,7 +235714,9 @@
    "conf": "Reported",
    "verified": "2026-08-27",
    "ttier": "T3",
-   "tbasis": "category"
+   "tbasis": "category",
+   "tends": 2036,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-08-24",
@@ -234995,7 +235766,9 @@
    "status": "Extension",
    "market": "North America",
    "conf": "Reported",
-   "verified": "2026-08-25"
+   "verified": "2026-08-25",
+   "tends": 2036,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-08-20",
@@ -236191,7 +236964,9 @@
    "conf": "Reported",
    "verified": "2026-04-20",
    "ttier": "T3",
-   "tbasis": "category"
+   "tbasis": "category",
+   "tends": 2036,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-04-16",
@@ -236395,7 +237170,9 @@
    "conf": "Reported",
    "verified": "2026-04-07",
    "ttier": "T3",
-   "tbasis": "category"
+   "tbasis": "category",
+   "tends": 2036,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-04-21",
@@ -236412,7 +237189,9 @@
    "conf": "Reported",
    "verified": "2026-04-21",
    "ttier": "T3",
-   "tbasis": "category"
+   "tbasis": "category",
+   "tends": 2036,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-01-20",
@@ -239380,7 +240159,9 @@
    "conf": "Confirmed",
    "verified": "2026-08-11",
    "ttier": "T3",
-   "tbasis": "category"
+   "tbasis": "category",
+   "tends": 2036,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-08-11",
@@ -240991,7 +241772,9 @@
    "conf": "Confirmed",
    "verified": "2026-09-15",
    "ttier": "T3",
-   "tbasis": "category"
+   "tbasis": "category",
+   "tends": 2036,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-09-22",
@@ -244149,7 +244932,9 @@
    "status": "New",
    "market": "North America",
    "conf": "Reported",
-   "verified": "2026-04-22"
+   "verified": "2026-04-22",
+   "tends": 2036,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-04-13",
@@ -244413,7 +245198,9 @@
    "status": "New",
    "market": "North America",
    "conf": "Reported",
-   "verified": "2026-05-12"
+   "verified": "2026-05-12",
+   "tends": 2036,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-05-09",
@@ -245628,7 +246415,9 @@
    "conf": "Reported",
    "verified": "2026-08-19",
    "ttier": "T3",
-   "tbasis": "category"
+   "tbasis": "category",
+   "tends": 2036,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-08-14",
@@ -246442,7 +247231,9 @@
    "market": "ANZ",
    "url": "https://www.mediaweek.com.au/hellmann-squeezes-a-multiyear-deal-with-nfl-australia",
    "conf": "Reported",
-   "verified": "2025-12-03"
+   "verified": "2025-12-03",
+   "tends": 2035,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-12-03",
@@ -247431,7 +248222,9 @@
    "conf": "Confirmed",
    "verified": "2025-08-27",
    "ttier": "Media",
-   "tbasis": "rights"
+   "tbasis": "rights",
+   "tends": 2035,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-08-13",
@@ -252337,7 +253130,9 @@
    "status": "Extension",
    "market": "North America",
    "conf": "Reported",
-   "verified": "2026-08-14"
+   "verified": "2026-08-14",
+   "tends": 2036,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-08-14",
@@ -252855,7 +253650,9 @@
    "status": "New",
    "market": "North America",
    "conf": "Reported",
-   "verified": "2026-09-14"
+   "verified": "2026-09-14",
+   "tends": 2036,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-09-12",
@@ -253764,7 +254561,9 @@
    "status": "Extension",
    "market": "North America",
    "conf": "Reported",
-   "verified": "2025-10-23"
+   "verified": "2025-10-23",
+   "tends": 2035,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-10-22",
@@ -255693,7 +256492,9 @@
    "status": "Extension",
    "market": "North America",
    "conf": "Reported",
-   "verified": "2025-08-23"
+   "verified": "2025-08-23",
+   "tends": 2035,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-12-18",
@@ -255748,7 +256549,9 @@
    "status": "New",
    "market": "ANZ",
    "conf": "Reported",
-   "verified": "2025-12-18"
+   "verified": "2025-12-18",
+   "tends": 2035,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-10-08",
@@ -259263,7 +260066,9 @@
    "status": "New",
    "market": "North America",
    "conf": "Reported",
-   "verified": "2025-09-05"
+   "verified": "2025-09-05",
+   "tends": 2035,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-09-03",
@@ -259426,7 +260231,9 @@
    "status": "New",
    "market": "North America",
    "conf": "Reported",
-   "verified": "2024-09-20"
+   "verified": "2024-09-20",
+   "tends": 2034,
+   "tendsBasis": "league"
   },
   {
    "date": "2024-09-19",
@@ -259794,7 +260601,9 @@
    "status": "New",
    "market": "North America",
    "conf": "Reported",
-   "verified": "2024-10-29"
+   "verified": "2024-10-29",
+   "tends": 2034,
+   "tendsBasis": "league"
   },
   {
    "date": "2024-10-25",
@@ -259918,7 +260727,9 @@
    "status": "New",
    "market": "North America",
    "conf": "Reported",
-   "verified": "2024-11-21"
+   "verified": "2024-11-21",
+   "tends": 2034,
+   "tendsBasis": "league"
   },
   {
    "date": "2024-11-19",
@@ -260270,7 +261081,9 @@
    "status": "New",
    "market": "North America",
    "conf": "Reported",
-   "verified": "2025-02-03"
+   "verified": "2025-02-03",
+   "tends": 2035,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-02-01",
@@ -261199,7 +262012,9 @@
    "status": "New",
    "market": "North America",
    "conf": "Reported",
-   "verified": "2025-05-13"
+   "verified": "2025-05-13",
+   "tends": 2035,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-05-13",
@@ -261699,7 +262514,9 @@
    "status": "Extension",
    "market": "North America",
    "conf": "Reported",
-   "verified": "2025-06-12"
+   "verified": "2025-06-12",
+   "tends": 2035,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-07-07",
@@ -261857,7 +262674,9 @@
    "status": "New",
    "market": "North America",
    "conf": "Reported",
-   "verified": "2025-07-09"
+   "verified": "2025-07-09",
+   "tends": 2035,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-07-08",
@@ -261968,7 +262787,9 @@
    "status": "Extension",
    "market": "North America",
    "conf": "Reported",
-   "verified": "2025-07-23"
+   "verified": "2025-07-23",
+   "tends": 2035,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-07-18",
@@ -263101,7 +263922,9 @@
    "status": "New",
    "market": "ANZ",
    "conf": "Reported",
-   "verified": "2025-12-05"
+   "verified": "2025-12-05",
+   "tends": 2035,
+   "tendsBasis": "league"
   },
   {
    "date": "2025-12-04",
@@ -264774,7 +265597,9 @@
    "conf": "Reported",
    "verified": "2026-03-17",
    "ttier": "Kit",
-   "tbasis": "rights"
+   "tbasis": "rights",
+   "tends": 2036,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-03-16",
@@ -265221,7 +266046,9 @@
    "status": "New",
    "market": "ANZ",
    "conf": "Reported",
-   "verified": "2026-04-08"
+   "verified": "2026-04-08",
+   "tends": 2036,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-04-07",
@@ -265267,7 +266094,9 @@
    "conf": "Reported",
    "verified": "2026-04-06",
    "ttier": "T3",
-   "tbasis": "category"
+   "tbasis": "category",
+   "tends": 2036,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-04-02",
@@ -265959,7 +266788,9 @@
    "conf": "Reported",
    "verified": "2026-05-15",
    "ttier": "Media",
-   "tbasis": "rights"
+   "tbasis": "rights",
+   "tends": 2036,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-05-14",
@@ -271277,7 +272108,9 @@
    "status": "New",
    "market": "North America",
    "conf": "Reported",
-   "verified": "2024-10-17"
+   "verified": "2024-10-17",
+   "tends": 2034,
+   "tendsBasis": "league"
   },
   {
    "date": "2024-10-17",
@@ -271871,7 +272704,9 @@
    "conf": "Reported",
    "verified": "2024-09-09",
    "ttier": "T3",
-   "tbasis": "category"
+   "tbasis": "category",
+   "tends": 2034,
+   "tendsBasis": "league"
   },
   {
    "date": "2024-09-09",
@@ -271908,7 +272743,9 @@
    "conf": "Reported",
    "verified": "2024-09-05",
    "ttier": "Gov",
-   "tbasis": "role"
+   "tbasis": "role",
+   "tends": 2034,
+   "tendsBasis": "league"
   },
   {
    "date": "2024-09-05",
@@ -273595,7 +274432,9 @@
    "status": "New",
    "market": "North America",
    "conf": "Reported",
-   "verified": "2026-08-01"
+   "verified": "2026-08-01",
+   "tends": 2036,
+   "tendsBasis": "league"
   },
   {
    "date": "2026-08-01",
@@ -309986,12 +310825,13 @@
    "region": "Global",
    "sport": "NBA",
    "status": "Current partner",
-   "summary": "Named official healthcare provider and performance center naming rights partner in an official Charlotte Hornets announcement.",
+   "summary": "Novant Health expanded its long-running Hornets partnership to take naming rights to the team's new Novant Health Performance Center, on top of its official healthcare and training centre rights.",
    "type": "Official partner",
    "url": "https://spectrumcentercharlotte.com/news/detail/charlotte-hornets-and-novant-health-elevate-long-term-partnership-novant-health-announced-as-naming-rights-partner-for-teams-new-state-of-the-art-performance-center",
    "tier": "Official partner",
    "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2025-03-25",
    "ttier": "T1",
    "tbasis": "rights"
   },
@@ -310234,14 +311074,26 @@
    "region": "Global",
    "sport": "NBA",
    "status": "Current partner",
-   "summary": "Named arena naming rights partner and official mortgage partner in an official Phoenix Suns announcement.",
+   "summary": "10-year arena naming rights partnership renaming the downtown Phoenix arena Mortgage Matchup Center, with Mortgage Matchup the official mortgage partner of the Suns, Mercury and Valley Suns.",
    "type": "Official partner",
-   "url": "https://www.azfamily.com/2025/10/02/phx-arena-become-mortgage-matchup-center-downtown-phoenix/?outputType=amp",
+   "url": "https://www.nba.com/suns/news/phoenix-suns-and-phoenix-mercury-announce-landmark-naming-rights-partnership-with-mortgage-matchup-ushering-in-a-new-era-in-sports-and-entertainment-at-mortgage-matchup-center",
    "tier": "Official partner",
-   "conf": "Reported",
+   "conf": "Confirmed",
    "verified": "2026-11-16",
+   "date": "2025-10-02",
+   "term": 10,
+   "ends": 2035,
+   "endsLock": true,
+   "endsSrc": "https://www.nba.com/suns/news/phoenix-suns-and-phoenix-mercury-announce-landmark-naming-rights-partnership-with-mortgage-matchup-ushering-in-a-new-era-in-sports-and-entertainment-at-mortgage-matchup-center",
+   "rights": [
+    "arena naming rights (Mortgage Matchup Center)",
+    "official mortgage partner"
+   ],
+   "rightsSrc": "https://www.nba.com/suns/news/phoenix-suns-and-phoenix-mercury-announce-landmark-naming-rights-partnership-with-mortgage-matchup-ushering-in-a-new-era-in-sports-and-entertainment-at-mortgage-matchup-center",
    "ttier": "T1",
-   "tbasis": "rights"
+   "tbasis": "sourced",
+   "tends": 2035,
+   "tendsBasis": "stated"
   },
   {
    "deal": "Sun Auto Tire & Service × Phoenix Suns",
@@ -312673,8 +313525,9 @@
    "sinceBasis": "wayback",
    "verified": "2026-11-20",
    "source": "wayback",
-   "ends": 2025,
-   "datesTried": "2026-11-19"
+   "datesTried": "2026-11-19",
+   "ttier": "Gov",
+   "tbasis": "role"
   },
   {
    "deal": "Thirst Crusher × NRL",
@@ -314250,8 +315103,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-16",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Cafe F93 × Adelaide Thunderbirds",
@@ -314326,8 +315178,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-16",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "McKenzie Property × Adelaide Thunderbirds",
@@ -314345,8 +315196,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-16",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Nova 96.9 × Adelaide Thunderbirds",
@@ -314364,8 +315214,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-16",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Oddy Media × Adelaide Thunderbirds",
@@ -314459,8 +315308,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-16",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Stanley & Co × Adelaide Thunderbirds",
@@ -314497,8 +315345,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-16",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Tree Climb × Adelaide Thunderbirds",
@@ -314535,8 +315382,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-16",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "13cabs × Brisbane Broncos",
@@ -315311,8 +316157,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-15",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Verso Development Group × Brisbane Bullets",
@@ -315349,8 +316194,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-15",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Alsco × Adelaide United",
@@ -316091,7 +316935,6 @@
    "sinceBasis": "wayback",
    "verified": "2026-11-20",
    "source": "wayback",
-   "ends": 2025,
    "ended": true
   },
   {
@@ -316111,7 +316954,6 @@
    "sinceBasis": "wayback",
    "verified": "2026-11-20",
    "source": "wayback",
-   "ends": 2025,
    "ended": true
   },
   {
@@ -316131,7 +316973,6 @@
    "sinceBasis": "wayback",
    "verified": "2026-11-20",
    "source": "wayback",
-   "ends": 2025,
    "ended": true
   },
   {
@@ -316151,7 +316992,6 @@
    "sinceBasis": "wayback",
    "verified": "2026-11-20",
    "source": "wayback",
-   "ends": 2025,
    "ended": true
   },
   {
@@ -316171,7 +317011,6 @@
    "sinceBasis": "wayback",
    "verified": "2026-11-20",
    "source": "wayback",
-   "ends": 2025,
    "ended": true
   },
   {
@@ -316191,7 +317030,6 @@
    "sinceBasis": "wayback",
    "verified": "2026-11-20",
    "source": "wayback",
-   "ends": 2025,
    "ended": true
   },
   {
@@ -316211,7 +317049,6 @@
    "sinceBasis": "wayback",
    "verified": "2026-11-20",
    "source": "wayback",
-   "ends": 2025,
    "ended": true
   },
   {
@@ -316231,7 +317068,6 @@
    "sinceBasis": "wayback",
    "verified": "2026-11-20",
    "source": "wayback",
-   "ends": 2025,
    "ended": true
   },
   {
@@ -317442,8 +318278,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-15",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Papa Macros × Brisbane Roar",
@@ -317461,8 +318296,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-15",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Performance Physio × Brisbane Roar",
@@ -317480,8 +318314,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-15",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Zeco Sports × Brisbane Roar",
@@ -318477,8 +319310,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-05",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "PPC Moulding Services × Canterbury-Bankstown Bulldogs",
@@ -318496,8 +319328,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-05",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Suttons Ford × Canterbury-Bankstown Bulldogs",
@@ -319947,8 +320778,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-10",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Rinnai × Cronulla Sharks",
@@ -319985,8 +320815,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-10",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "SIPEnergy × Cronulla Sharks",
@@ -320023,8 +320852,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-10",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Adventure Kings × Dolphins",
@@ -320304,8 +321132,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-10",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Austbrokers × Carlton",
@@ -323410,8 +324237,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-10",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "adidas × Hawthorn",
@@ -324826,8 +325652,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-12",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Dribl × Macarthur FC",
@@ -324845,8 +325670,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-12",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Red Bull × Macarthur FC",
@@ -324864,8 +325688,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-12",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Ringers Western × Macarthur FC",
@@ -324883,8 +325706,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-12",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "66fit × Manly Sea Eagles",
@@ -329424,8 +330246,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-12",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Mayfield × Melbourne Victory",
@@ -329443,8 +330264,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-12",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Net Car Leasing × Melbourne Victory",
@@ -329462,8 +330282,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-12",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Tyrepower × Melbourne Victory",
@@ -329481,8 +330300,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-12",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "2degrees × NZ Breakers",
@@ -331660,8 +332478,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-10",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "GSA Insurance Brokers × North Queensland Cowboys",
@@ -331679,8 +332496,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-10",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "INC × North Queensland Cowboys",
@@ -331698,8 +332514,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-10",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Affective Building Services × Parramatta Eels",
@@ -335924,8 +336739,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-08",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Element Live Productions × South Sydney Rabbitohs",
@@ -335943,8 +336757,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-08",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Arc Energy × St George Illawarra Dragons",
@@ -336755,8 +337568,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-03",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Signace × St Kilda",
@@ -337893,8 +338705,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-05",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Power Potential × Sydney FC",
@@ -338122,7 +338933,6 @@
    "sinceBasis": "wayback",
    "verified": "2026-11-20",
    "source": "wayback",
-   "ends": 2025,
    "ended": true
   },
   {
@@ -339429,8 +340239,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-16",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Aqualyte × Western Force",
@@ -341148,8 +341957,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-05",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "GSA Insurance Brokers × Wests Tigers",
@@ -341167,8 +341975,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-05",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "KADYN × Wests Tigers",
@@ -341186,8 +341993,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-05",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "MJS Electrical Supplies × Wests Tigers",
@@ -341205,8 +342011,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-05",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Retroair × Wests Tigers",
@@ -341224,8 +342029,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-05",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Ringers Western × Wests Tigers",
@@ -341243,8 +342047,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-05",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Sensory Gardens Australia × Wests Tigers",
@@ -341262,8 +342065,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-05",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Shane's Waterproofing × Wests Tigers",
@@ -341281,8 +342083,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-05",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Spirit Group × Wests Tigers",
@@ -341319,8 +342120,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-05",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Bartercard × Auckland FC",
@@ -344027,8 +344827,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-16",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Dryworld × Hurricanes (Super Rugby)",
@@ -344084,8 +344883,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-16",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Victoria University of Wellington × Hurricanes (Super Rugby)",
@@ -345910,8 +346708,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-16",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "USL Medical × Crusaders",
@@ -345929,8 +346726,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-16",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "VIP Trade × Crusaders",
@@ -346669,8 +347465,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-16",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "EZZ × Australian Open",
@@ -347651,8 +348446,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-16",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Active Chartered Accountants × Central Pulse",
@@ -348296,8 +349090,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-17",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Mahony Horner × Central Pulse",
@@ -348315,8 +349108,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-17",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "NW Group × Central Pulse",
@@ -348334,8 +349126,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-17",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Renaye Huia × Central Pulse",
@@ -348353,8 +349144,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-17",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Shoe Clinic × Central Pulse",
@@ -348372,8 +349162,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-17",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "True Calm Massage × Central Pulse",
@@ -348391,8 +349180,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-17",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Wellington Airport × Central Pulse",
@@ -348410,8 +349198,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-17",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Carlton Bar × Mainland Tactix",
@@ -350453,8 +351240,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-16",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "BASE Compression × Basketball Australia",
@@ -351868,8 +352654,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-05-14",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Gawk × Harness Racing Victoria",
@@ -351887,8 +352672,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-05-14",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Hertz Trucks × Harness Racing Victoria",
@@ -351906,8 +352690,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-05-14",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Lifestyle Communities × Harness Racing Victoria",
@@ -351944,8 +352727,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-05-14",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Coca-Cola Europacific Partners × Optus Stadium",
@@ -352797,8 +353579,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-17",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Puratap × South Australian Cricket Association",
@@ -353461,8 +354242,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-17",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Hays × Tour Down Under",
@@ -353613,8 +354393,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-17",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "nib × Sydney Marathon",
@@ -353708,8 +354487,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-19",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "BLK × WA Cricket",
@@ -356102,8 +356880,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-17",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Channel Finance × Motherwell",
@@ -356328,8 +357105,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-17",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "cinch × St Mirren",
@@ -357386,8 +358162,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-17",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Carlsberg × Northampton Saints",
@@ -357405,8 +358180,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-17",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "cinch × Northampton Saints",
@@ -357443,8 +358217,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-17",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Collingwood Lighting × Northampton Saints",
@@ -357481,8 +358254,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-17",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "GRS Roadstone × Northampton Saints",
@@ -357500,8 +358272,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-17",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "HCR Law × Northampton Saints",
@@ -357595,8 +358366,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-17",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Acronis × Sale Sharks",
@@ -358390,8 +359160,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-17",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Ballygowan × Ulster Rugby",
@@ -359121,8 +359890,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-17",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "HopeSpace × Connacht Rugby",
@@ -359140,8 +359908,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-17",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "AG Barr × Glasgow Warriors",
@@ -362559,8 +363326,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-17",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "ACS Stainless × Leeds Rhinos",
@@ -365798,8 +366564,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-17",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Aisys × Northamptonshire CCC",
@@ -366673,8 +367438,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-17",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Affixxius Films × Nottinghamshire CCC",
@@ -367519,8 +368283,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-17",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "adidas × Surrey Cricket",
@@ -367822,8 +368585,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-17",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Christophe Duchamp × Surrey Cricket",
@@ -367860,8 +368622,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-17",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "MyGuava × Surrey Cricket",
@@ -367898,8 +368659,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-17",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "SSE × Surrey Cricket",
@@ -367917,8 +368677,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-17",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Tata Consumer Products × Surrey Cricket",
@@ -369452,8 +370211,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-17",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Henry Arroway × Athletic Club",
@@ -369471,8 +370229,7 @@
    "since": 2025,
    "sinceBasis": "wayback",
    "verified": "2026-11-17",
-   "source": "wayback",
-   "ends": 2025
+   "source": "wayback"
   },
   {
    "deal": "Acronis × Atlético Madrid",

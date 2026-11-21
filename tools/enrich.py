@@ -107,7 +107,8 @@ def term_of(text):
 
 def ends_of(text):
     # "until 2029", "through 2027", "to the end of 2028", "through 2027-28", "until the end of the 2028 season"
-    m = re.search(r"\b(until|till|through|thru|to|into|runs to|runs until|out to)( at least)?( the end of)?( the)? (20\d\d)(?:[-/–](\d\d|20\d\d))?\b", text, re.I)
+    # ("back to 2025", as in "listed every season back to 2025", is a start year, never an end year)
+    m = re.search(r"(?<!\bback )\b(until|till|through|thru|to|into|runs to|runs until|out to)( at least)?( the end of)?( the)? (20\d\d)(?:[-/–](\d\d|20\d\d))?\b", text, re.I)
     if m:
         y = int(m.group(5))
         if m.group(6):
@@ -123,7 +124,7 @@ def ends_of(text):
             ends.append(y)
     if ends:
         return max(ends)
-    m = re.search(r"\bto (20\d\d)\b", text)
+    m = re.search(r"(?<!\bback )\bto (20\d\d)\b", text)
     if m:
         return int(m.group(1))
     return None
