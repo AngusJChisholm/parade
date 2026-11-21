@@ -89,6 +89,14 @@ CSS = f"""
 """
 
 IG_CSS = """
+/* v4: cover fades to white with ink type (no black on slide 1) */
+.cov{background:#fff !important;color:#111 !important}
+.cov .fade{background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 40%,rgba(255,255,255,.93) 63%,#fff 75%) !important}
+.cov .mega{color:#111}
+.cov .sup{color:#5C5C57}.cov .sup b{color:#111}
+.cov .otag{border-color:#111;color:#111}.cov .otag.g{border-color:#8A8A85;color:#5C5C57}
+.cov .swipe{background:#111;color:#fff}
+
 /* v3: full-bleed cover (Kalshi/FOS), ringed logo circles, Stake editorial inner slides, Elevate quote card */
 .cov .bg{position:absolute;inset:0;background-size:cover;background-position:center 30%}
 .cov .fade{position:absolute;inset:0;background:linear-gradient(to bottom,rgba(17,17,17,.45) 0%,rgba(17,17,17,0) 18%,rgba(17,17,17,0) 42%,rgba(17,17,17,.9) 70%,#111 84%)}
