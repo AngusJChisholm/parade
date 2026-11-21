@@ -30310,7 +30310,12 @@
     "logo"
    ],
    "ptype": "Governing body",
-   "k": "p"
+   "k": "p",
+   "ptiers": [
+    "Official partner",
+    "Official broadcaster partner"
+   ],
+   "ptiersChecked": "2026-11-21"
   },
   "football-manager": {
    "name": "Football Manager",
