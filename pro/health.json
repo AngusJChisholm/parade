@@ -108,17 +108,53 @@
      "Brand logo coverage (by partnerships) %": 56.9
     }
    }
+  },
+  {
+   "date": "2026-11-21",
+   "score": 49.4,
+   "partial": true,
+   "areas": {
+    "Completeness": 32.1,
+    "Consistency": 36.1,
+    "Freshness": 67.9,
+    "Sources": 64.1,
+    "Logos": 61.5
+   },
+   "metrics": {
+    "Completeness": {
+     "Key-market clubs checked %": 68.0,
+     "New partnerships with term or stated end %": 26.2,
+     "Brands (2+ partnerships) with category %": 59.2,
+     "Major partner-page rows with announcement date %": 0.0
+    },
+    "Consistency": {
+     "Rows on controlled lists %": 72.5,
+     "Open duplicates": 59
+    },
+    "Freshness": {
+     "Tier 1-2 properties checked in 30 days %": 99.2,
+     "All properties checked in 90 days %": 99.7,
+     "Live rows with a past end year": 94
+    },
+    "Sources": {
+     "Rows on a reviewed source domain %": 99.0,
+     "Announced partnerships on an official source %": 36.6
+    },
+    "Logos": {
+     "Brand logo coverage (by partnerships) %": 56.9
+    }
+   }
   }
  ],
  "latest": {
-  "date": "2026-11-20",
-  "score": 48.5,
+  "date": "2026-11-21",
+  "score": 49.4,
   "partial": true,
   "areas": {
    "Completeness": 32.1,
    "Consistency": 36.1,
-   "Freshness": 63.7,
-   "Sources": 64.0,
+   "Freshness": 67.9,
+   "Sources": 64.1,
    "Logos": 61.5
   },
   "metrics": {
@@ -133,13 +169,13 @@
     "Open duplicates": 59
    },
    "Freshness": {
-    "Tier 1-2 properties checked in 30 days %": 93.8,
-    "All properties checked in 90 days %": 98.7,
+    "Tier 1-2 properties checked in 30 days %": 99.2,
+    "All properties checked in 90 days %": 99.7,
     "Live rows with a past end year": 94
    },
    "Sources": {
     "Rows on a reviewed source domain %": 99.0,
-    "Announced partnerships on an official source %": 36.5
+    "Announced partnerships on an official source %": 36.6
    },
    "Logos": {
     "Brand logo coverage (by partnerships) %": 56.9

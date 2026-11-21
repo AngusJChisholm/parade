@@ -370266,7 +370266,12 @@
    "region": "ANZ",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-21"
+   "verified": "2023-03-27",
+   "tier": "Official partner",
+   "ends": 2026,
+   "endsEst": true,
+   "tends": 2026,
+   "tendsBasis": "term"
   },
   {
    "date": "2023-11-17",
@@ -370281,7 +370286,14 @@
    "region": "ANZ",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-21"
+   "verified": "2023-11-17",
+   "tier": "Kit & apparel",
+   "ends": 2033,
+   "endsEst": true,
+   "ttier": "Kit",
+   "tbasis": "rights",
+   "tends": 2033,
+   "tendsBasis": "term"
   },
   {
    "date": "2024-03-28",
@@ -370296,7 +370308,14 @@
    "region": "ANZ",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-21"
+   "verified": "2024-03-28",
+   "tier": "Naming rights",
+   "ends": 2028,
+   "endsEst": true,
+   "ttier": "T1",
+   "tbasis": "rights",
+   "tends": 2028,
+   "tendsBasis": "term"
   },
   {
    "date": "2024-07-23",
@@ -370310,7 +370329,10 @@
    "region": "ANZ",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-21"
+   "verified": "2024-07-23",
+   "tier": "Official partner",
+   "ttier": "T3",
+   "tbasis": "category"
   },
   {
    "listed": "2026-11-21",
@@ -370326,7 +370348,9 @@
    "region": "ANZ",
    "market": "ANZ",
    "conf": "Confirmed",
-   "verified": "2026-11-21"
+   "verified": "2026-11-21",
+   "ttier": "Media",
+   "tbasis": "rights"
   }
  ]
 }
