@@ -1,0 +1,4556 @@
+{
+ "penrith-panthers": {
+  "name": "Penrith Panthers",
+  "kind": "p",
+  "domain": "penrithpanthers.com.au",
+  "match": "website matches penrithpanthers.com.au",
+  "qid": "Q3374818",
+  "label": "Penrith Panthers",
+  "desc": "Australian rugby league football club",
+  "status": "found",
+  "file": "Penrith Panthers 60th Anniversary Logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Penrith_Panthers_60th_Anniversary_Logo.svg",
+  "clean": "trimmed to 454x468",
+  "size": [
+   454,
+   468
+  ]
+ },
+ "cronulla-sharks": {
+  "name": "Cronulla Sharks",
+  "kind": "p",
+  "domain": "sharks.com.au",
+  "match": "website matches sharks.com.au",
+  "qid": "Q3003720",
+  "label": "Cronulla-Sutherland Sharks",
+  "desc": "Australian rugby league football club",
+  "status": "found",
+  "file": "Cronulla-Sutherland Sharks logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Cronulla-Sutherland_Sharks_logo.svg",
+  "clean": "trimmed to 500x382",
+  "size": [
+   500,
+   382
+  ]
+ },
+ "wests-tigers": {
+  "name": "Wests Tigers",
+  "kind": "p",
+  "domain": "weststigers.com.au",
+  "match": "website matches weststigers.com.au",
+  "qid": "Q3567556",
+  "label": "Wests Tigers",
+  "desc": "Australian rugby league football club",
+  "status": "found",
+  "file": "Wests Tigers 2022 Logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Wests_Tigers_2022_Logo.svg",
+  "clean": "trimmed to 487x512",
+  "size": [
+   487,
+   512
+  ]
+ },
+ "gold-coast-titans": {
+  "name": "Gold Coast Titans",
+  "kind": "p",
+  "domain": "titans.com.au",
+  "match": "website matches titans.com.au",
+  "qid": "Q3109995",
+  "label": "Gold Coast Titans",
+  "desc": "Australian rugby league football club",
+  "status": "found",
+  "file": "Gold Coast Titans logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Gold_Coast_Titans_logo.svg",
+  "clean": "trimmed to 477x512",
+  "size": [
+   477,
+   512
+  ]
+ },
+ "hull-fc": {
+  "name": "Hull FC",
+  "kind": "p",
+  "domain": "hullfc.com",
+  "match": "website matches hullfc.com",
+  "qid": "Q863661",
+  "label": "Hull F.C.",
+  "desc": "English professional rugby league club",
+  "status": "found",
+  "file": "Hull F.C. logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Hull_F.C._logo.svg",
+  "clean": "trimmed to 404x456",
+  "size": [
+   404,
+   456
+  ]
+ },
+ "new-orleans-saints": {
+  "name": "New Orleans Saints",
+  "kind": "p",
+  "domain": "neworleanssaints.com",
+  "match": "website matches neworleanssaints.com",
+  "qid": "Q172435",
+  "label": "New Orleans Saints",
+  "desc": "National Football League franchise in New Orleans, Louisiana",
+  "status": "found",
+  "file": "New Orleans Saints logo.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:New_Orleans_Saints_logo.svg",
+  "clean": "trimmed to 420x512",
+  "size": [
+   420,
+   512
+  ]
+ },
+ "hurricanes": {
+  "name": "Hurricanes (Super Rugby)",
+  "kind": "p",
+  "domain": "hurricanes.co.nz",
+  "match": "no matching Wikidata item",
+  "status": "no match"
+ },
+ "philadelphia-eagles": {
+  "name": "Philadelphia Eagles",
+  "kind": "p",
+  "domain": "philadelphiaeagles.com",
+  "match": "website matches philadelphiaeagles.com",
+  "qid": "Q219714",
+  "label": "Philadelphia Eagles",
+  "desc": "National Football League franchise in Philadelphia, Pennsylvania",
+  "status": "found",
+  "file": "Philadelphia Eagles logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Philadelphia_Eagles_logo.svg",
+  "clean": "trimmed to 497x342",
+  "size": [
+   497,
+   342
+  ]
+ },
+ "ospreys": {
+  "name": "Ospreys",
+  "kind": "p",
+  "domain": "ospreysrugby.com",
+  "match": "website matches ospreysrugby.com",
+  "qid": "Q1518257",
+  "label": "Ospreys",
+  "desc": "Welsh rugby union football team",
+  "status": "found",
+  "file": "Ospreys Rugby logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Ospreys_Rugby_logo.svg",
+  "clean": "trimmed to 481x469",
+  "size": [
+   481,
+   469
+  ]
+ },
+ "coca-cola": {
+  "name": "Coca-Cola",
+  "kind": "b",
+  "domain": "coca-cola.com",
+  "match": "website matches coca-cola.com",
+  "qid": "Q2813",
+  "label": "Coca-Cola",
+  "desc": "carbonated brown-colored soft drink",
+  "status": "found",
+  "file": "Coca-Cola logo.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Coca-Cola_logo.svg",
+  "clean": "trimmed to 500x157",
+  "size": [
+   500,
+   157
+  ]
+ },
+ "durham-cricket": {
+  "name": "Durham Cricket",
+  "kind": "p",
+  "domain": "durhamcricket.co.uk",
+  "match": "no matching Wikidata item",
+  "status": "no match"
+ },
+ "philadelphia-union": {
+  "name": "Philadelphia Union",
+  "kind": "p",
+  "domain": "philadelphiaunion.com",
+  "match": "website matches philadelphiaunion.com",
+  "qid": "Q689874",
+  "label": "Philadelphia Union",
+  "desc": "Major League Soccer club based in Chester, PA",
+  "status": "found",
+  "file": "Philadelphia Union 2018 logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Philadelphia_Union_2018_logo.svg",
+  "clean": "trimmed to 500x500",
+  "size": [
+   500,
+   500
+  ]
+ },
+ "atlanta-falcons": {
+  "name": "Atlanta Falcons",
+  "kind": "p",
+  "domain": "atlantafalcons.com",
+  "match": "website matches atlantafalcons.com",
+  "qid": "Q272059",
+  "label": "Atlanta Falcons",
+  "desc": "American football team",
+  "status": "found",
+  "file": "Atlanta Falcons wordmark.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Atlanta_Falcons_wordmark.svg",
+  "clean": "trimmed to 489x103",
+  "size": [
+   489,
+   103
+  ]
+ },
+ "blues": {
+  "name": "Blues (Super Rugby)",
+  "kind": "p",
+  "domain": "blues.rugby",
+  "match": "no matching Wikidata item",
+  "status": "no match"
+ },
+ "chicago-fire": {
+  "name": "Chicago Fire",
+  "kind": "p",
+  "domain": "chicagofirefc.com",
+  "match": "website matches chicagofirefc.com",
+  "qid": "Q308683",
+  "label": "Chicago Fire FC",
+  "desc": "soccer club in Chicago, Illinois, USA",
+  "status": "found",
+  "file": "Chicago Fire logo, 2021.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Chicago_Fire_logo,_2021.svg",
+  "clean": "trimmed to 500x500",
+  "size": [
+   500,
+   500
+  ]
+ },
+ "edmonton-elks": {
+  "name": "Edmonton Elks",
+  "kind": "p",
+  "domain": "goelks.com",
+  "match": "website matches goelks.com",
+  "qid": "Q1285835",
+  "label": "Edmonton Elks",
+  "desc": "Canadian Football League team",
+  "status": "found",
+  "file": "Edmonton Elks Logo.png",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Edmonton_Elks_Logo.png",
+  "clean": "trimmed to 394x222",
+  "size": [
+   394,
+   222
+  ]
+ },
+ "columbus-crew": {
+  "name": "Columbus Crew",
+  "kind": "p",
+  "domain": "columbuscrew.com",
+  "match": "website matches columbuscrew.com",
+  "qid": "Q457163",
+  "label": "Columbus Crew",
+  "desc": "soccer club in Columbus, Ohio, USA",
+  "status": "found",
+  "file": "Columbus Crew logo 2021.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Columbus_Crew_logo_2021.svg",
+  "clean": "trimmed to 287x512",
+  "size": [
+   287,
+   512
+  ]
+ },
+ "brisbane-roar": {
+  "name": "Brisbane Roar",
+  "kind": "p",
+  "domain": "brisbaneroar.com.au",
+  "match": "website matches brisbaneroar.com.au",
+  "qid": "Q839997",
+  "label": "Brisbane Roar FC",
+  "desc": "soccer club based in Brisbane, Australia",
+  "status": "found",
+  "file": "Brisbane Roar FC logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Brisbane_Roar_FC_logo.svg",
+  "clean": "trimmed to 377x512",
+  "size": [
+   377,
+   512
+  ]
+ },
+ "austin-fc": {
+  "name": "Austin FC",
+  "kind": "p",
+  "domain": "austinfc.com",
+  "match": "website matches austinfc.com",
+  "qid": "Q60643348",
+  "label": "Austin FC",
+  "desc": "professional soccer team in Austin, Texas, United States",
+  "status": "found",
+  "file": "Austin FC wordmark green.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Austin_FC_wordmark_green.svg",
+  "clean": "trimmed to 476x70",
+  "size": [
+   476,
+   70
+  ]
+ },
+ "crystal-palace": {
+  "name": "Crystal Palace",
+  "kind": "p",
+  "domain": "cpfc.co.uk",
+  "match": "website matches cpfc.co.uk",
+  "qid": "Q19467",
+  "label": "Crystal Palace F.C.",
+  "desc": "association football club in London, England",
+  "status": "found",
+  "file": "Crystal Palace FC logo (2022).svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Crystal_Palace_FC_logo_(2022).svg",
+  "clean": "trimmed to 411x512",
+  "size": [
+   411,
+   512
+  ]
+ },
+ "adelaide-crows": {
+  "name": "Adelaide Crows",
+  "kind": "p",
+  "domain": "afc.com.au",
+  "match": "website matches afc.com.au",
+  "qid": "Q948900",
+  "label": "Adelaide Football Club",
+  "desc": "Australian rules football club",
+  "refused": [
+   "Adelaide crows icon.svg: busy background (photo or graphic, not a clean logo)"
+  ],
+  "status": "found",
+  "file": "Adelaide Crows Logo 2024.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Adelaide_Crows_Logo_2024.svg",
+  "clean": "trimmed to 491x512",
+  "size": [
+   491,
+   512
+  ]
+ },
+ "brisbane-broncos": {
+  "name": "Brisbane Broncos",
+  "kind": "p",
+  "domain": "broncos.com.au",
+  "match": "website matches broncos.com.au",
+  "qid": "Q665111",
+  "label": "Brisbane Broncos",
+  "desc": "Australian rugby league football club",
+  "status": "found",
+  "file": "Brisbane Broncos Logo 2026.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Brisbane_Broncos_Logo_2026.svg",
+  "clean": "trimmed to 343x512",
+  "size": [
+   343,
+   512
+  ]
+ },
+ "fc-cincinnati": {
+  "name": "FC Cincinnati",
+  "kind": "p",
+  "domain": "fccincinnati.com",
+  "match": "website matches fccincinnati.com",
+  "qid": "Q20855983",
+  "label": "FC Cincinnati",
+  "desc": "soccer club in Cincinnati, Ohio, USA",
+  "status": "found",
+  "file": "FC Cincinnati 2018 primary wordmark orange-blue.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:FC_Cincinnati_2018_primary_wordmark_orange-blue.svg",
+  "clean": "trimmed to 426x89",
+  "size": [
+   426,
+   89
+  ]
+ },
+ "kansas-city-chiefs": {
+  "name": "Kansas City Chiefs",
+  "kind": "p",
+  "domain": "chiefs.com",
+  "match": "website matches chiefs.com",
+  "qid": "Q223522",
+  "label": "Kansas City Chiefs",
+  "desc": "National Football League franchise in Kansas City, Missouri",
+  "status": "found",
+  "file": "Kansas City Chiefs wordmark.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Kansas_City_Chiefs_wordmark.svg",
+  "clean": "trimmed to 497x109",
+  "size": [
+   497,
+   109
+  ]
+ },
+ "sydney-fc": {
+  "name": "Sydney FC",
+  "kind": "p",
+  "domain": "sydneyfc.com",
+  "match": "website matches sydneyfc.com",
+  "qid": "Q330143",
+  "label": "Sydney FC",
+  "desc": "soccer club based in Sydney, Australia",
+  "status": "found",
+  "file": "Sydney FC Logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Sydney_FC_Logo.svg",
+  "clean": "trimmed to 401x512",
+  "size": [
+   401,
+   512
+  ]
+ },
+ "new-york-giants": {
+  "name": "New York Giants",
+  "kind": "p",
+  "domain": "giants.com",
+  "match": "website matches giants.com",
+  "qid": "Q190618",
+  "label": "New York Giants",
+  "desc": "professional American football team",
+  "status": "found",
+  "file": "New York Giants logo.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:New_York_Giants_logo.svg",
+  "clean": "trimmed to 496x384",
+  "size": [
+   496,
+   384
+  ]
+ },
+ "lafc": {
+  "name": "LAFC",
+  "kind": "p",
+  "domain": "lafc.com",
+  "match": "website matches lafc.com",
+  "qid": "Q18380286",
+  "label": "Los Angeles FC",
+  "desc": "association football club in Los Angeles, California, USA",
+  "status": "found",
+  "file": "Los Angeles Football Club.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Los_Angeles_Football_Club.svg",
+  "clean": "trimmed to 375x512",
+  "size": [
+   375,
+   512
+  ]
+ },
+ "gold-coast-suns": {
+  "name": "Gold Coast SUNS",
+  "kind": "p",
+  "domain": "goldcoastfc.com.au",
+  "match": "website matches goldcoastfc.com.au",
+  "qid": "Q1094295",
+  "label": "Gold Coast Football Club",
+  "desc": "Australian rules football club",
+  "status": "found",
+  "file": "Gold Coast Suns logo (introduced late 2024).svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Gold_Coast_Suns_logo_(introduced_late_2024).svg",
+  "clean": "trimmed to 495x404",
+  "size": [
+   495,
+   404
+  ]
+ },
+ "cardiff-rugby": {
+  "name": "Cardiff Rugby",
+  "kind": "p",
+  "domain": "cardiffrugby.wales",
+  "match": "website matches cardiffrugby.wales",
+  "qid": "Q169941",
+  "label": "Cardiff Rugby",
+  "desc": "Welsh rugby union team",
+  "refused": [
+   "Cardiff Rugby logo (2021).jpg: busy background (photo or graphic, not a clean logo)"
+  ],
+  "status": "matched, no usable logo"
+ },
+ "adidas": {
+  "name": "adidas",
+  "kind": "b",
+  "domain": "adidas.com",
+  "match": "website matches adidas.com",
+  "qid": "Q3895",
+  "label": "Adidas AG",
+  "desc": "German multinational corporation",
+  "status": "found",
+  "file": "Adidas 2022 logo.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Adidas_2022_logo.svg",
+  "clean": "trimmed to 500x297",
+  "size": [
+   500,
+   297
+  ]
+ },
+ "san-jose-earthquakes": {
+  "name": "San Jose Earthquakes",
+  "kind": "p",
+  "domain": "sjearthquakes.com",
+  "match": "website matches sjearthquakes.com",
+  "qid": "Q575370",
+  "label": "San Jose Earthquakes",
+  "desc": "Major League Soccer franchise in San Jose, California",
+  "status": "found",
+  "file": "San Jose Earthquakes wordmark black-red.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:San_Jose_Earthquakes_wordmark_black-red.svg",
+  "clean": "trimmed to 500x102",
+  "size": [
+   500,
+   102
+  ]
+ },
+ "leeds-rhinos": {
+  "name": "Leeds Rhinos",
+  "kind": "p",
+  "domain": "therhinos.co.uk",
+  "match": "website matches therhinos.co.uk",
+  "qid": "Q1202117",
+  "label": "Leeds Rhinos",
+  "desc": "English professional rugby league football club",
+  "status": "found",
+  "file": "Leeds Rhinos logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Leeds_Rhinos_logo.svg",
+  "clean": "trimmed to 500x346",
+  "size": [
+   500,
+   346
+  ]
+ },
+ "saskatchewan-roughriders": {
+  "name": "Saskatchewan Roughriders",
+  "kind": "p",
+  "domain": "riderville.com",
+  "match": "website matches riderville.com",
+  "qid": "Q596796",
+  "label": "Saskatchewan Roughriders",
+  "desc": "professional Canadian football team based in Regina, Saskatchewan",
+  "status": "found",
+  "file": "Saskatchewan Roughriders logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Saskatchewan_Roughriders_logo.svg",
+  "clean": "trimmed to 498x259",
+  "size": [
+   498,
+   259
+  ]
+ },
+ "gws-giants": {
+  "name": "GWS Giants",
+  "kind": "p",
+  "domain": "gwsgiants.com.au",
+  "match": "website matches gwsgiants.com.au",
+  "qid": "Q4119600",
+  "label": "Greater Western Sydney Giants",
+  "desc": "Australian rules football club",
+  "status": "found",
+  "file": "GWS Giants logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:GWS_Giants_logo.svg",
+  "clean": "trimmed to 496x425",
+  "size": [
+   496,
+   425
+  ]
+ },
+ "catalans-dragons": {
+  "name": "Catalans Dragons",
+  "kind": "p",
+  "domain": "catalansdragons.com",
+  "match": "website matches catalansdragons.com",
+  "qid": "Q862384",
+  "label": "Catalans Dragons",
+  "desc": "French professional rugby league club, based in Perpignan",
+  "status": "found",
+  "file": "Catalans dragons vector.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Catalans_dragons_vector.svg",
+  "clean": "trimmed to 500x318",
+  "size": [
+   500,
+   318
+  ]
+ },
+ "nrl": {
+  "name": "NRL",
+  "kind": "p",
+  "domain": "nrl.com",
+  "match": "website matches nrl.com",
+  "qid": "Q1140630",
+  "label": "National Rugby League",
+  "desc": "Australasian rugby league football competition",
+  "status": "found",
+  "file": "National Rugby League.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:National_Rugby_League.svg",
+  "clean": "trimmed to 354x450",
+  "size": [
+   354,
+   450
+  ]
+ },
+ "hull-kr": {
+  "name": "Hull KR",
+  "kind": "p",
+  "domain": "hullkr.co.uk",
+  "match": "website matches hullkr.co.uk",
+  "qid": "Q3143019",
+  "label": "Hull Kingston Rovers",
+  "desc": "English professional rugby league club",
+  "status": "found",
+  "file": "Hull Kingston Rovers Crest.png",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Hull_Kingston_Rovers_Crest.png",
+  "clean": "trimmed to 265x376",
+  "size": [
+   265,
+   376
+  ]
+ },
+ "north-carolina-courage": {
+  "name": "North Carolina Courage",
+  "kind": "p",
+  "domain": "nccourage.com",
+  "match": "website matches nccourage.com",
+  "qid": "Q28169542",
+  "label": "North Carolina Courage",
+  "desc": "American women's soccer club",
+  "status": "found",
+  "file": "North Carolina Courage logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:North_Carolina_Courage_logo.svg",
+  "clean": "white background removed; trimmed to 326x512",
+  "size": [
+   326,
+   512
+  ]
+ },
+ "st-helens": {
+  "name": "St Helens",
+  "kind": "p",
+  "domain": "saintsrlfc.com",
+  "match": "website matches saintsrlfc.com",
+  "qid": "Q1134319",
+  "label": "St Helens RLFC",
+  "desc": "English professional rugby league club",
+  "status": "found",
+  "file": "St Helens RFC.png",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:St_Helens_RFC.png",
+  "clean": "white background removed; trimmed to 175x139",
+  "size": [
+   175,
+   139
+  ]
+ },
+ "adelaide-36ers": {
+  "name": "Adelaide 36ers",
+  "kind": "p",
+  "domain": "adelaide36ers.com",
+  "match": "no matching Wikidata item",
+  "status": "no match"
+ },
+ "west-coast-eagles": {
+  "name": "West Coast Eagles",
+  "kind": "p",
+  "domain": "westcoasteagles.com.au",
+  "match": "website matches westcoasteagles.com.au",
+  "qid": "Q2742645",
+  "label": "West Coast Eagles",
+  "desc": "Australian rules football club",
+  "status": "found",
+  "file": "West Coast Eagles logo 2017.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:West_Coast_Eagles_logo_2017.svg",
+  "clean": "trimmed to 500x434",
+  "size": [
+   500,
+   434
+  ]
+ },
+ "bc-lions": {
+  "name": "BC Lions",
+  "kind": "p",
+  "domain": "bclions.com",
+  "match": "website matches bclions.com",
+  "qid": "Q919062",
+  "label": "BC Lions",
+  "desc": "Canadian football team based in Vancouver",
+  "status": "matched, no usable logo"
+ },
+ "western-sydney-wanderers": {
+  "name": "Western Sydney Wanderers",
+  "kind": "p",
+  "domain": "wswanderersfc.com.au",
+  "match": "website matches wswanderersfc.com.au",
+  "qid": "Q999035",
+  "label": "Western Sydney Wanderers FC",
+  "desc": "soccer club based in Sydney, Australia",
+  "status": "found",
+  "file": "Western Sydney Wanderers Football Club logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Western_Sydney_Wanderers_Football_Club_logo.svg",
+  "clean": "trimmed to 396x512",
+  "size": [
+   396,
+   512
+  ]
+ },
+ "montreal-alouettes": {
+  "name": "Montreal Alouettes",
+  "kind": "p",
+  "domain": "montrealalouettes.com",
+  "match": "website matches montrealalouettes.com",
+  "qid": "Q576837",
+  "label": "Montreal Alouettes",
+  "desc": "Canadian Football League team",
+  "status": "found",
+  "file": "Montreal Alouettes logo 2019.png",
+  "source": "Wikipedia lead image",
+  "page": "https://commons.wikimedia.org/wiki/File:Montreal_Alouettes_logo_2019.png",
+  "clean": "trimmed to 500x500",
+  "size": [
+   500,
+   500
+  ]
+ },
+ "newcastle-knights": {
+  "name": "Newcastle Knights",
+  "kind": "p",
+  "domain": "newcastleknights.com.au",
+  "match": "website matches newcastleknights.com.au",
+  "qid": "Q3339101",
+  "label": "Newcastle Knights",
+  "desc": "Australian men's rugby league football club",
+  "status": "found",
+  "file": "Newcastle Knights logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Newcastle_Knights_logo.svg",
+  "clean": "trimmed to 433x512",
+  "size": [
+   433,
+   512
+  ]
+ },
+ "new-york-liberty": {
+  "name": "New York Liberty",
+  "kind": "p",
+  "domain": "liberty.wnba.com",
+  "match": "website matches liberty.wnba.com",
+  "qid": "Q974705",
+  "label": "New York Liberty",
+  "desc": "American professional women's basketball team",
+  "status": "found",
+  "file": "New York Liberty logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:New_York_Liberty_logo.svg",
+  "clean": "trimmed to 418x512",
+  "size": [
+   418,
+   512
+  ]
+ },
+ "st-kilda": {
+  "name": "St Kilda",
+  "kind": "p",
+  "domain": "saints.com.au",
+  "match": "website matches saints.com.au",
+  "qid": "Q1084121",
+  "label": "St Kilda Football Club",
+  "desc": "Australian rules football club",
+  "status": "found",
+  "file": "St Kilda Football Club logo 2024.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:St_Kilda_Football_Club_logo_2024.svg",
+  "clean": "trimmed to 483x512",
+  "size": [
+   483,
+   512
+  ]
+ },
+ "somerset-ccc": {
+  "name": "Somerset CCC",
+  "kind": "p",
+  "domain": "somersetcountycc.co.uk",
+  "match": "website matches somersetcountycc.co.uk",
+  "qid": "Q3489807",
+  "label": "Somerset County Cricket Club",
+  "desc": "English county cricket club",
+  "status": "found",
+  "file": "SomersetCCCLogo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:SomersetCCCLogo.svg",
+  "clean": "trimmed to 373x457",
+  "size": [
+   373,
+   457
+  ]
+ },
+ "exeter-chiefs": {
+  "name": "Exeter Chiefs",
+  "kind": "p",
+  "domain": "exeterchiefs.co.uk",
+  "match": "website matches exeterchiefs.co.uk",
+  "qid": "Q675305",
+  "label": "Exeter Chiefs",
+  "desc": "English rugby union club, based in Exeter",
+  "status": "found",
+  "file": "Exeter Chiefs new logo 2022.png",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Exeter_Chiefs_new_logo_2022.png",
+  "clean": "trimmed to 289x361",
+  "size": [
+   289,
+   361
+  ]
+ },
+ "collingwood": {
+  "name": "Collingwood",
+  "kind": "p",
+  "domain": "collingwoodfc.com.au",
+  "match": "website matches collingwoodfc.com.au",
+  "qid": "Q249679",
+  "label": "Collingwood Football Club",
+  "desc": "Australian rules football club based in Melbourne",
+  "status": "found",
+  "file": "Collingwood Football Club Logo (2017–present).svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Collingwood_Football_Club_Logo_(2017%E2%80%93present).svg",
+  "clean": "trimmed to 404x512",
+  "size": [
+   404,
+   512
+  ]
+ },
+ "sussex-cricket": {
+  "name": "Sussex Cricket",
+  "kind": "p",
+  "domain": "sussexcricket.co.uk",
+  "match": "no matching Wikidata item",
+  "status": "no match"
+ },
+ "bath-rugby": {
+  "name": "Bath Rugby",
+  "kind": "p",
+  "domain": "bathrugby.com",
+  "match": "website matches bathrugby.com",
+  "qid": "Q810786",
+  "label": "Bath Rugby",
+  "desc": "English rugby union football club",
+  "status": "found",
+  "file": "Bath Rugby logo.png",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Bath_Rugby_logo.png",
+  "clean": "trimmed to 200x200",
+  "size": [
+   200,
+   200
+  ]
+ },
+ "kilmarnock": {
+  "name": "Kilmarnock",
+  "kind": "p",
+  "domain": "kilmarnockfc.co.uk",
+  "match": "website matches kilmarnockfc.co.uk",
+  "qid": "Q210961",
+  "label": "Kilmarnock F.C.",
+  "desc": "association football club in Kilmarnock, Scotland",
+  "status": "found",
+  "file": "Kilmarnock FC crest.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Kilmarnock_FC_crest.svg",
+  "clean": "trimmed to 430x512",
+  "size": [
+   430,
+   512
+  ]
+ },
+ "toulouse-olympique": {
+  "name": "Toulouse Olympique",
+  "kind": "p",
+  "domain": "to13.com",
+  "match": "website matches to13.com",
+  "qid": "Q3532920",
+  "label": "Toulouse Olympique",
+  "desc": "French professional rugby league club",
+  "status": "found",
+  "file": "Toulouse Olympique new logo.png",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Toulouse_Olympique_new_logo.png",
+  "clean": "trimmed to 258x305",
+  "size": [
+   258,
+   305
+  ]
+ },
+ "sale-sharks": {
+  "name": "Sale Sharks",
+  "kind": "p",
+  "domain": "salesharks.com",
+  "match": "website matches salesharks.com",
+  "qid": "Q928517",
+  "label": "Sale Sharks",
+  "desc": "English rugby union football club",
+  "status": "found",
+  "file": "Sale Sharks logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Sale_Sharks_logo.svg",
+  "clean": "trimmed to 498x370",
+  "size": [
+   498,
+   370
+  ]
+ },
+ "real-salt-lake": {
+  "name": "Real Salt Lake",
+  "kind": "p",
+  "domain": "rsl.com",
+  "match": "website matches rsl.com",
+  "qid": "Q391353",
+  "label": "Real Salt Lake",
+  "desc": "soccer club in Sandy, Utah, USA",
+  "status": "found",
+  "file": "Real Salt Lake tertiary wordmark color.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Real_Salt_Lake_tertiary_wordmark_color.svg",
+  "clean": "trimmed to 500x52",
+  "size": [
+   500,
+   52
+  ]
+ },
+ "orlando-city-sc": {
+  "name": "Orlando City SC",
+  "kind": "p",
+  "domain": "orlandocitysc.com",
+  "match": "website matches orlandocitysc.com",
+  "qid": "Q15214308",
+  "label": "Orlando City SC",
+  "desc": "soccer club in Major League Soccer",
+  "status": "found",
+  "file": "Orlando City SC wordmark purple.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Orlando_City_SC_wordmark_purple.svg",
+  "clean": "trimmed to 500x164",
+  "size": [
+   500,
+   164
+  ]
+ },
+ "new-york-city-fc": {
+  "name": "New York City FC",
+  "kind": "p",
+  "domain": "newyorkcityfc.com",
+  "match": "no matching Wikidata item",
+  "status": "no match"
+ },
+ "nashville-sc": {
+  "name": "Nashville SC",
+  "kind": "p",
+  "domain": "nashvillesc.com",
+  "match": "website matches nashvillesc.com",
+  "qid": "Q47518754",
+  "label": "Nashville SC",
+  "desc": "Major League Soccer franchise in Nashville, Tennessee",
+  "status": "found",
+  "file": "Nashville SC logo, 2020.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Nashville_SC_logo,_2020.svg",
+  "clean": "trimmed to 358x512",
+  "size": [
+   358,
+   512
+  ]
+ },
+ "minnesota-united": {
+  "name": "Minnesota United",
+  "kind": "p",
+  "domain": "mnufc.com",
+  "match": "website matches mnufc.com",
+  "qid": "Q19828435",
+  "label": "Minnesota United FC",
+  "desc": "American professional soccer club based in Saint Paul, Minnesota, United States",
+  "status": "found",
+  "file": "Minnesota United FC wordmark dark.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Minnesota_United_FC_wordmark_dark.svg",
+  "clean": "trimmed to 449x137",
+  "size": [
+   449,
+   137
+  ]
+ },
+ "arsenal": {
+  "name": "Arsenal",
+  "kind": "p",
+  "domain": "arsenal.com",
+  "match": "website matches arsenal.com",
+  "qid": "Q9617",
+  "label": "Arsenal F.C.",
+  "desc": "association football club in London, England",
+  "status": "found",
+  "file": "Arsenal FC.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Arsenal_FC.svg",
+  "clean": "trimmed to 435x512",
+  "size": [
+   435,
+   512
+  ]
+ },
+ "mclaren": {
+  "name": "McLaren",
+  "kind": "p",
+  "domain": "mclaren.com",
+  "match": "website matches mclaren.com",
+  "qid": "Q172030",
+  "label": "McLaren",
+  "desc": "British Formula One team",
+  "status": "found",
+  "file": "McLaren Racing logo.png",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:McLaren_Racing_logo.png",
+  "clean": "trimmed to 500x130",
+  "size": [
+   500,
+   130
+  ]
+ },
+ "supercars": {
+  "name": "Supercars",
+  "kind": "p",
+  "domain": "supercars.com",
+  "match": "website matches supercars.com",
+  "qid": "Q647527",
+  "label": "Supercars Championship",
+  "desc": "touring car racing category in Australia and New Zealand",
+  "status": "found",
+  "file": "Supercars Championship Logo 2021.png",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Supercars_Championship_Logo_2021.png",
+  "clean": "trimmed to 357x265",
+  "size": [
+   357,
+   265
+  ]
+ },
+ "leicestershire-ccc": {
+  "name": "Leicestershire CCC",
+  "kind": "p",
+  "domain": "leicestershireccc.co.uk",
+  "match": "website matches leicestershireccc.co.uk",
+  "qid": "Q3229147",
+  "label": "Leicestershire County Cricket Club",
+  "desc": "English cricket club",
+  "status": "found",
+  "file": "Leicestershire County Cricket Club logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Leicestershire_County_Cricket_Club_logo.svg",
+  "clean": "trimmed to 474x240",
+  "size": [
+   474,
+   240
+  ]
+ },
+ "glamorgan-cricket": {
+  "name": "Glamorgan Cricket",
+  "kind": "p",
+  "domain": "glamorgancricket.com",
+  "match": "website matches glamorgancricket.com",
+  "qid": "Q3107254",
+  "label": "Glamorgan County Cricket Club",
+  "desc": "Welsh cricket club",
+  "status": "found",
+  "file": "GlamorganCCCLogo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:GlamorganCCCLogo.svg",
+  "clean": "trimmed to 499x512",
+  "size": [
+   499,
+   512
+  ]
+ },
+ "perth-glory": {
+  "name": "Perth Glory",
+  "kind": "p",
+  "domain": "perthglory.com.au",
+  "match": "website matches perthglory.com.au",
+  "qid": "Q852033",
+  "label": "Perth Glory FC",
+  "desc": "soccer club based in Perth, Australia",
+  "status": "found",
+  "file": "Perth Glory FC logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Perth_Glory_FC_logo.svg",
+  "clean": "trimmed to 387x512",
+  "size": [
+   387,
+   512
+  ]
+ },
+ "charlotte-fc": {
+  "name": "Charlotte FC",
+  "kind": "p",
+  "domain": "charlottefootballclub.com",
+  "match": "website matches charlottefootballclub.com",
+  "qid": "Q78944434",
+  "label": "Charlotte FC",
+  "desc": "professional soccer club in Charlotte, North Carolina, USA",
+  "status": "found",
+  "file": "Charlotte FC logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Charlotte_FC_logo.svg",
+  "clean": "trimmed to 500x500",
+  "size": [
+   500,
+   500
+  ]
+ },
+ "connacht-rugby": {
+  "name": "Connacht Rugby",
+  "kind": "p",
+  "domain": "connachtrugby.ie",
+  "match": "website matches connachtrugby.ie",
+  "qid": "Q1126167",
+  "label": "Connacht Rugby",
+  "desc": "rugby union team",
+  "status": "found",
+  "file": "Connacht Rugby.png",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Connacht_Rugby.png",
+  "clean": "trimmed to 500x451",
+  "size": [
+   500,
+   451
+  ]
+ },
+ "gloucester-rugby": {
+  "name": "Gloucester Rugby",
+  "kind": "p",
+  "domain": "gloucesterrugby.co.uk",
+  "match": "website matches gloucesterrugby.co.uk",
+  "qid": "Q745758",
+  "label": "Gloucester Rugby",
+  "desc": "English rugby union football club",
+  "status": "found",
+  "file": "Gloucester Rugby (2018) logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Gloucester_Rugby_(2018)_logo.svg",
+  "clean": "trimmed to 441x512",
+  "size": [
+   441,
+   512
+  ]
+ },
+ "fc-dallas": {
+  "name": "FC Dallas",
+  "kind": "p",
+  "domain": "fcdallas.com",
+  "match": "website matches fcdallas.com",
+  "qid": "Q642291",
+  "label": "FC Dallas",
+  "desc": "soccer club in Frisco, Texas, USA",
+  "status": "found",
+  "file": "FC Dallas logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:FC_Dallas_logo.svg",
+  "clean": "trimmed to 500x501",
+  "size": [
+   500,
+   501
+  ]
+ },
+ "cf-montr-al": {
+  "name": "CF Montréal",
+  "kind": "p",
+  "domain": "cfmontreal.com",
+  "match": "website matches cfmontreal.com",
+  "qid": "Q167615",
+  "label": "CF Montréal",
+  "desc": "Canadian professional soccer team",
+  "status": "found",
+  "file": "CF Montreal wordmark black.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:CF_Montreal_wordmark_black.svg",
+  "clean": "trimmed to 498x151",
+  "size": [
+   498,
+   151
+  ]
+ },
+ "manchester-city": {
+  "name": "Manchester City",
+  "kind": "p",
+  "domain": "mancity.com",
+  "match": "website matches mancity.com",
+  "qid": "Q50602",
+  "label": "Manchester City F.C.",
+  "desc": "association football club in Manchester, England",
+  "status": "found",
+  "file": "Manchester City FC badge.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Manchester_City_FC_badge.svg",
+  "clean": "trimmed to 500x500",
+  "size": [
+   500,
+   500
+  ]
+ },
+ "new-zealand-rugby": {
+  "name": "New Zealand Rugby",
+  "kind": "p",
+  "domain": "nzrugby.co.nz",
+  "match": "website matches nzrugby.co.nz",
+  "qid": "Q1788081",
+  "label": "New Zealand Rugby",
+  "desc": "rugby union governing body",
+  "status": "found",
+  "file": "New Zealand Rugby Union logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:New_Zealand_Rugby_Union_logo.svg",
+  "clean": "trimmed to 500x412",
+  "size": [
+   500,
+   412
+  ]
+ },
+ "toyota": {
+  "name": "Toyota",
+  "kind": "b",
+  "domain": "toyota.com",
+  "match": "website matches toyota.com",
+  "qid": "Q53268",
+  "label": "Toyota",
+  "desc": "Japanese multinational automotive manufacturer",
+  "status": "found",
+  "file": "Toyota.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Toyota.svg",
+  "clean": "trimmed to 500x83",
+  "size": [
+   500,
+   83
+  ]
+ },
+ "wigan-warriors": {
+  "name": "Wigan Warriors",
+  "kind": "p",
+  "domain": "wiganwarriors.com",
+  "match": "website matches wiganwarriors.com",
+  "qid": "Q1210267",
+  "label": "Wigan Warriors",
+  "desc": "English rugby league club",
+  "status": "found",
+  "file": "Wigan Warriors Logo, November 2020.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Wigan_Warriors_Logo,_November_2020.svg",
+  "clean": "trimmed to 500x500",
+  "size": [
+   500,
+   500
+  ]
+ },
+ "winnipeg-blue-bombers": {
+  "name": "Winnipeg Blue Bombers",
+  "kind": "p",
+  "domain": "bluebombers.com",
+  "match": "website matches bluebombers.com",
+  "qid": "Q2117549",
+  "label": "Winnipeg Blue Bombers",
+  "desc": "Canadian Football Team",
+  "status": "found",
+  "file": "Winnipeg Blue Bombers Logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://commons.wikimedia.org/wiki/File:Winnipeg_Blue_Bombers_Logo.svg",
+  "clean": "trimmed to 498x386",
+  "size": [
+   498,
+   386
+  ]
+ },
+ "south-sydney-rabbitohs": {
+  "name": "South Sydney Rabbitohs",
+  "kind": "p",
+  "domain": "rabbitohs.com.au",
+  "match": "website matches rabbitohs.com.au",
+  "qid": "Q3325289",
+  "label": "South Sydney Rabbitohs",
+  "desc": "Australian rugby league football club",
+  "status": "found",
+  "file": "South Sydney Rabbitohs Logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:South_Sydney_Rabbitohs_Logo.svg",
+  "clean": "trimmed to 500x271",
+  "size": [
+   500,
+   271
+  ]
+ },
+ "aberdeen": {
+  "name": "Aberdeen",
+  "kind": "p",
+  "domain": "afc.co.uk",
+  "match": "website matches afc.co.uk",
+  "qid": "Q187326",
+  "label": "Aberdeen F.C.",
+  "desc": "association football club in Aberdeen, Scotland",
+  "status": "found",
+  "file": "Aberdeen FC stars crest.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Aberdeen_FC_stars_crest.svg",
+  "clean": "trimmed to 393x512",
+  "size": [
+   393,
+   512
+  ]
+ },
+ "gatorade": {
+  "name": "Gatorade",
+  "kind": "b",
+  "domain": "gatorade.com",
+  "match": "website matches gatorade.com",
+  "qid": "Q304992",
+  "label": "Gatorade",
+  "desc": "manufacturer of sports-themed beverage and food products",
+  "status": "found",
+  "file": "Gatorade logo.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Gatorade_logo.svg",
+  "clean": "trimmed to 417x512",
+  "size": [
+   417,
+   512
+  ]
+ },
+ "la-galaxy": {
+  "name": "LA Galaxy",
+  "kind": "p",
+  "domain": "lagalaxy.com",
+  "match": "website matches lagalaxy.com",
+  "qid": "Q204357",
+  "label": "LA Galaxy",
+  "desc": "Major League Soccer club in Los Angeles, United States",
+  "status": "found",
+  "file": "Los Angeles Galaxy logo.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Los_Angeles_Galaxy_logo.svg",
+  "clean": "trimmed to 403x512",
+  "size": [
+   403,
+   512
+  ]
+ },
+ "act-brumbies": {
+  "name": "ACT Brumbies",
+  "kind": "p",
+  "domain": "brumbies.rugby",
+  "match": "website matches brumbies.rugby",
+  "qid": "Q605245",
+  "label": "ACT Brumbies",
+  "desc": "Australian rugby union team",
+  "status": "found",
+  "file": "Brumbies Rugby logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Brumbies_Rugby_logo.svg",
+  "clean": "trimmed to 496x512",
+  "size": [
+   496,
+   512
+  ]
+ },
+ "sydney-kings": {
+  "name": "Sydney Kings",
+  "kind": "p",
+  "domain": "sydneykings.com",
+  "match": "website matches sydneykings.com",
+  "qid": "Q1174892",
+  "label": "Sydney Kings",
+  "desc": "Australian professional basketball based in Sydney, New South Wales",
+  "status": "found",
+  "file": "Sydney Kings logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Sydney_Kings_logo.svg",
+  "clean": "trimmed to 500x255",
+  "size": [
+   500,
+   255
+  ]
+ },
+ "hearts": {
+  "name": "Hearts",
+  "kind": "p",
+  "domain": "heartsfc.co.uk",
+  "match": "website matches heartsfc.co.uk",
+  "qid": "Q202093",
+  "label": "Heart of Midlothian F.C.",
+  "desc": "association football club based in Edinburgh, Scotland",
+  "status": "found",
+  "file": "Heart of Midlothian FC logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Heart_of_Midlothian_FC_logo.svg",
+  "clean": "trimmed to 500x478",
+  "size": [
+   500,
+   478
+  ]
+ },
+ "orlando-pride": {
+  "name": "Orlando Pride",
+  "kind": "p",
+  "domain": "orlandopride.com",
+  "match": "no matching Wikidata item",
+  "status": "no match"
+ },
+ "fulham": {
+  "name": "Fulham",
+  "kind": "p",
+  "domain": "fulhamfc.com",
+  "match": "website matches fulhamfc.com",
+  "qid": "Q18708",
+  "label": "Fulham F.C.",
+  "desc": "association football club in London, England",
+  "status": "found",
+  "file": "Fulham FC (shield).svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Fulham_FC_(shield).svg",
+  "clean": "trimmed to 384x512",
+  "size": [
+   384,
+   512
+  ]
+ },
+ "buffalo-sabres": {
+  "name": "Buffalo Sabres",
+  "kind": "p",
+  "domain": "sabres.com",
+  "match": "website matches sabres.com",
+  "qid": "Q131206",
+  "label": "Buffalo Sabres",
+  "desc": "National Hockey League franchise in Buffalo, New York",
+  "status": "found",
+  "file": "Buffalo Sabres Logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Buffalo_Sabres_Logo.svg",
+  "clean": "trimmed to 500x500",
+  "size": [
+   500,
+   500
+  ]
+ },
+ "glasgow-warriors": {
+  "name": "Glasgow Warriors",
+  "kind": "p",
+  "domain": "glasgowwarriors.org",
+  "match": "website matches glasgowwarriors.org",
+  "qid": "Q374981",
+  "label": "Glasgow Warriors",
+  "desc": "Scottish rugby union franchise",
+  "status": "found",
+  "file": "Glasgow Warriors Logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Glasgow_Warriors_Logo.svg",
+  "clean": "trimmed to 403x512",
+  "size": [
+   403,
+   512
+  ]
+ },
+ "everton": {
+  "name": "Everton",
+  "kind": "p",
+  "domain": "evertonfc.com",
+  "match": "website matches evertonfc.com",
+  "qid": "Q5794",
+  "label": "Everton F.C.",
+  "desc": "association football club in Liverpool, England",
+  "status": "found",
+  "file": "Everton FC logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Everton_FC_logo.svg",
+  "clean": "trimmed to 498x509",
+  "size": [
+   498,
+   509
+  ]
+ },
+ "warrington-wolves": {
+  "name": "Warrington Wolves",
+  "kind": "p",
+  "domain": "warringtonwolves.com",
+  "match": "no matching Wikidata item",
+  "status": "no match"
+ },
+ "scarlets": {
+  "name": "Scarlets",
+  "kind": "p",
+  "domain": "scarlets.wales",
+  "match": "website matches scarlets.wales",
+  "qid": "Q538747",
+  "label": "Scarlets",
+  "desc": "Welsh rugby union team",
+  "status": "found",
+  "file": "Scarlets logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Scarlets_logo.svg",
+  "clean": "trimmed to 500x238",
+  "size": [
+   500,
+   238
+  ]
+ },
+ "kansas-city-current": {
+  "name": "Kansas City Current",
+  "kind": "p",
+  "domain": "kccurrent.com",
+  "match": "no matching Wikidata item",
+  "status": "no match"
+ },
+ "netball-australia": {
+  "name": "Netball Australia",
+  "kind": "p",
+  "domain": "netball.com.au",
+  "match": "website matches netball.com.au",
+  "qid": "Q6998679",
+  "label": "Netball Australia",
+  "desc": "netball governing body",
+  "status": "found",
+  "file": "2026 Netball Australia Logo RGB.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://commons.wikimedia.org/wiki/File:2026_Netball_Australia_Logo_RGB.svg",
+  "clean": "trimmed to 483x512",
+  "size": [
+   483,
+   512
+  ]
+ },
+ "melbourne-renegades": {
+  "name": "Melbourne Renegades",
+  "kind": "p",
+  "domain": "melbournerenegades.com.au",
+  "match": "website matches melbournerenegades.com.au",
+  "qid": "Q6811864",
+  "label": "Melbourne Renegades",
+  "desc": "men's cricket team",
+  "status": "found",
+  "file": "Melbourne Renegades Logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Melbourne_Renegades_Logo.svg",
+  "clean": "trimmed to 468x458",
+  "size": [
+   468,
+   458
+  ]
+ },
+ "bristol-bears": {
+  "name": "Bristol Bears",
+  "kind": "p",
+  "domain": "bristolbearsrugby.com",
+  "match": "website matches bristolbearsrugby.com",
+  "qid": "Q917973",
+  "label": "Bristol Bears",
+  "desc": "rugby union team",
+  "status": "found",
+  "file": "Bristol Bears logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Bristol_Bears_logo.svg",
+  "clean": "trimmed to 498x512",
+  "size": [
+   498,
+   512
+  ]
+ },
+ "dundee-united": {
+  "name": "Dundee United",
+  "kind": "p",
+  "domain": "dundeeunitedfc.co.uk",
+  "match": "website matches dundeeunitedfc.co.uk",
+  "qid": "Q192873",
+  "label": "Dundee United F.C.",
+  "desc": "association football club in Dundee, Scotland",
+  "status": "found",
+  "file": "Dundee United FC crest.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Dundee_United_FC_crest.svg",
+  "clean": "trimmed to 500x500",
+  "size": [
+   500,
+   500
+  ]
+ },
+ "manchester-united": {
+  "name": "Manchester United",
+  "kind": "p",
+  "domain": "manutd.com",
+  "match": "website matches manutd.com",
+  "qid": "Q18656",
+  "label": "Manchester United F.C.",
+  "desc": "association football club in Manchester, England",
+  "status": "found",
+  "file": "Manchester United FC crest.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Manchester_United_FC_crest.svg",
+  "clean": "trimmed to 491x497",
+  "size": [
+   491,
+   497
+  ]
+ },
+ "melbourne-stars": {
+  "name": "Melbourne Stars",
+  "kind": "p",
+  "domain": "melbournestars.com.au",
+  "match": "website matches melbournestars.com.au",
+  "qid": "Q6811888",
+  "label": "Melbourne Stars",
+  "desc": "men's cricket team",
+  "status": "found",
+  "file": "Melbourne Stars logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Melbourne_Stars_logo.svg",
+  "clean": "trimmed to 472x454",
+  "size": [
+   472,
+   454
+  ]
+ },
+ "sydney-marathon": {
+  "name": "Sydney Marathon",
+  "kind": "p",
+  "domain": "tcssydneymarathon.com",
+  "match": "name + description (no website to compare)",
+  "qid": "Q15553343",
+  "label": "Sydney Marathon",
+  "desc": "marathon held annually in Sydney, Australia",
+  "status": "matched, no usable logo"
+ },
+ "wales-rugby": {
+  "name": "Wales Rugby",
+  "kind": "p",
+  "domain": "wru.wales",
+  "match": "website matches wru.wales",
+  "qid": "Q822877",
+  "label": "Wales national rugby union team",
+  "desc": "men’s rugby union team representing Wales",
+  "status": "found",
+  "file": "Welsh Rugby Union logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Welsh_Rugby_Union_logo.svg",
+  "clean": "trimmed to 387x512",
+  "size": [
+   387,
+   512
+  ]
+ },
+ "gilbert": {
+  "name": "Gilbert",
+  "kind": "b",
+  "domain": "gilbertrugby.com",
+  "match": "no matching Wikidata item",
+  "status": "no match"
+ },
+ "northampton-saints": {
+  "name": "Northampton Saints",
+  "kind": "p",
+  "domain": "northamptonsaints.co.uk",
+  "match": "website matches northamptonsaints.co.uk",
+  "qid": "Q1201283",
+  "label": "Northampton Saints",
+  "desc": "rugby union club of England",
+  "status": "found",
+  "file": "Northampton Saints Logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Northampton_Saints_Logo.svg",
+  "clean": "trimmed to 438x512",
+  "size": [
+   438,
+   512
+  ]
+ },
+ "tottenham-hotspur": {
+  "name": "Tottenham Hotspur",
+  "kind": "p",
+  "domain": "tottenhamhotspur.com",
+  "match": "website matches tottenhamhotspur.com",
+  "qid": "Q18741",
+  "label": "Tottenham Hotspur F.C.",
+  "desc": "association football club in London, England",
+  "status": "found",
+  "file": "Tottenham Hotspur.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Tottenham_Hotspur.svg",
+  "clean": "trimmed to 249x512",
+  "size": [
+   249,
+   512
+  ]
+ },
+ "new-zealand-cricket": {
+  "name": "New Zealand Cricket",
+  "kind": "p",
+  "domain": "nzc.nz",
+  "match": "website matches nzc.nz",
+  "qid": "Q1143797",
+  "label": "New Zealand national cricket team",
+  "desc": "International cricket team of New Zealand",
+  "status": "found",
+  "file": "Logo of cricket New zealand Team.png",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Logo_of_cricket_New_zealand_Team.png",
+  "clean": "trimmed to 259x284",
+  "size": [
+   259,
+   284
+  ]
+ },
+ "parramatta-eels": {
+  "name": "Parramatta Eels",
+  "kind": "p",
+  "domain": "parraeels.com.au",
+  "match": "website matches parraeels.com.au",
+  "qid": "Q3366024",
+  "label": "Parramatta Eels",
+  "desc": "Australian men's rugby league football club",
+  "status": "found",
+  "file": "Parramatta Eels logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Parramatta_Eels_logo.svg",
+  "clean": "trimmed to 500x500",
+  "size": [
+   500,
+   500
+  ]
+ },
+ "wakefield-trinity": {
+  "name": "Wakefield Trinity",
+  "kind": "p",
+  "domain": "wakefieldtrinity.com",
+  "match": "no matching Wikidata item",
+  "status": "no match"
+ },
+ "formula-1": {
+  "name": "Formula 1",
+  "kind": "p",
+  "domain": "formula1.com",
+  "match": "website matches formula1.com",
+  "qid": "Q1968",
+  "label": "Formula One",
+  "desc": "motorsport championship held worldwide",
+  "status": "found",
+  "file": "Formula One logo.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Formula_One_logo.svg",
+  "clean": "trimmed to 500x125",
+  "size": [
+   500,
+   125
+  ]
+ },
+ "gallagher": {
+  "name": "Gallagher",
+  "kind": "b",
+  "domain": "gallagher.com",
+  "match": "no matching Wikidata item",
+  "status": "no match"
+ },
+ "munster-rugby": {
+  "name": "Munster Rugby",
+  "kind": "p",
+  "domain": "munsterrugby.ie",
+  "match": "website matches munsterrugby.ie",
+  "qid": "Q1140373",
+  "label": "Munster Rugby",
+  "desc": "Irish rugby union football team",
+  "status": "found",
+  "file": "Munster Rugby logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Munster_Rugby_logo.svg",
+  "clean": "trimmed to 496x407",
+  "size": [
+   496,
+   407
+  ]
+ },
+ "portland-thorns": {
+  "name": "Portland Thorns",
+  "kind": "p",
+  "domain": "thorns.com",
+  "match": "website matches thorns.com",
+  "qid": "Q1446672",
+  "label": "Portland Thorns FC",
+  "desc": "soccer team and National Women's Soccer League franchise in Portland, Oregon, USA",
+  "status": "found",
+  "file": "Portland Thorns logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Portland_Thorns_logo.svg",
+  "clean": "trimmed to 422x512",
+  "size": [
+   422,
+   512
+  ]
+ },
+ "racing-louisville-fc": {
+  "name": "Racing Louisville FC",
+  "kind": "p",
+  "domain": "racingloufc.com",
+  "match": "website matches racingloufc.com",
+  "qid": "Q97079547",
+  "label": "Racing Louisville FC",
+  "desc": "National Women's Soccer League team in Louisville, Kentucky",
+  "status": "found",
+  "file": "Racing Louisville FC wordmark purple.png",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Racing_Louisville_FC_wordmark_purple.png",
+  "clean": "trimmed to 500x96",
+  "size": [
+   500,
+   96
+  ]
+ },
+ "angel-city-fc": {
+  "name": "Angel City FC",
+  "kind": "p",
+  "domain": "angelcity.com",
+  "match": "website matches angelcity.com",
+  "qid": "Q97609993",
+  "label": "Angel City FC",
+  "desc": "National Women's Soccer League team in Los Angeles",
+  "status": "found",
+  "file": "Angel City FC wordmark wide black.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Angel_City_FC_wordmark_wide_black.svg",
+  "clean": "trimmed to 500x45",
+  "size": [
+   500,
+   45
+  ]
+ },
+ "new-york-red-bulls": {
+  "name": "New York Red Bulls",
+  "kind": "p",
+  "domain": "newyorkredbulls.com",
+  "match": "website matches newyorkredbulls.com",
+  "qid": "Q204220",
+  "label": "Red Bull New York",
+  "desc": "Major League Soccer franchise in Harrison, New Jersey, USA",
+  "status": "found",
+  "file": "NYRB wordmark 2line color ltbg.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:NYRB_wordmark_2line_color_ltbg.svg",
+  "clean": "trimmed to 500x270",
+  "size": [
+   500,
+   270
+  ]
+ },
+ "brentford": {
+  "name": "Brentford",
+  "kind": "p",
+  "domain": "brentfordfc.com",
+  "match": "website matches brentfordfc.com",
+  "qid": "Q19571",
+  "label": "Brentford F.C.",
+  "desc": "association football club in London, England",
+  "status": "found",
+  "file": "Brentford FC crest.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Brentford_FC_crest.svg",
+  "clean": "trimmed to 500x500",
+  "size": [
+   500,
+   500
+  ]
+ },
+ "houston-dynamo": {
+  "name": "Houston Dynamo",
+  "kind": "p",
+  "domain": "houstondynamofc.com",
+  "match": "no matching Wikidata item",
+  "status": "no match"
+ },
+ "saracens": {
+  "name": "Saracens",
+  "kind": "p",
+  "domain": "saracens.com",
+  "match": "website matches saracens.com",
+  "qid": "Q9641",
+  "label": "Saracens F.C.",
+  "desc": "English rugby union football club",
+  "status": "found",
+  "file": "SaracensLogo (202122)-Dark.png",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:SaracensLogo_(202122)-Dark.png",
+  "clean": "trimmed to 453x378",
+  "size": [
+   453,
+   378
+  ]
+ },
+ "inter-miami": {
+  "name": "Inter Miami",
+  "kind": "p",
+  "domain": "intermiamicf.com",
+  "match": "website matches intermiamicf.com",
+  "qid": "Q16844931",
+  "label": "Inter Miami CF",
+  "desc": "American professional soccer club based in Miami",
+  "refused": [
+   "Inter Miami CF wordmark-full pink.png: busy background (photo or graphic, not a clean logo)"
+  ],
+  "status": "found",
+  "file": "Inter Miami CF logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Inter_Miami_CF_logo.svg",
+  "clean": "trimmed to 500x500",
+  "size": [
+   500,
+   500
+  ]
+ },
+ "fanatics": {
+  "name": "Fanatics",
+  "kind": "b",
+  "domain": "fanatics.com",
+  "match": "no matching Wikidata item",
+  "status": "no match"
+ },
+ "nottinghamshire-ccc": {
+  "name": "Nottinghamshire CCC",
+  "kind": "p",
+  "domain": "trentbridge.co.uk",
+  "match": "website matches trentbridge.co.uk",
+  "qid": "Q3344790",
+  "label": "Nottinghamshire County Cricket Club",
+  "desc": "sports club",
+  "status": "found",
+  "file": "NottinghamshireCountyCricketClubLogo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:NottinghamshireCountyCricketClubLogo.svg",
+  "clean": "trimmed to 499x427",
+  "size": [
+   499,
+   427
+  ]
+ },
+ "leigh-leopards": {
+  "name": "Leigh Leopards",
+  "kind": "p",
+  "domain": "leighleopards.co.uk",
+  "match": "no matching Wikidata item",
+  "status": "no match"
+ },
+ "castore": {
+  "name": "Castore",
+  "kind": "b",
+  "domain": "castore.com",
+  "match": "website matches castore.com",
+  "qid": "Q98142473",
+  "label": "Castore",
+  "desc": "British sportswear and athletic clothing company",
+  "status": "found",
+  "file": "Castore brand logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Castore_brand_logo.svg",
+  "clean": "trimmed to 500x413",
+  "size": [
+   500,
+   413
+  ]
+ },
+ "south-east-melbourne-phoenix": {
+  "name": "South East Melbourne Phoenix",
+  "kind": "p",
+  "domain": "semphoenix.com.au",
+  "match": "name + description (no website to compare)",
+  "qid": "Q60753752",
+  "label": "South East Melbourne Phoenix",
+  "desc": "Australian professional basketball team",
+  "status": "found",
+  "file": "South East Melbourne Phoenix logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:South_East_Melbourne_Phoenix_logo.svg",
+  "clean": "trimmed to 500x194",
+  "size": [
+   500,
+   194
+  ]
+ },
+ "nfl": {
+  "name": "NFL",
+  "kind": "p",
+  "domain": "nfl.com",
+  "match": "website matches nfl.com",
+  "qid": "Q1215884",
+  "label": "National Football League",
+  "desc": "professional American football league",
+  "status": "found",
+  "file": "NFL wordmark logo 2008.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:NFL_wordmark_logo_2008.svg",
+  "clean": "trimmed to 500x358",
+  "size": [
+   500,
+   358
+  ]
+ },
+ "england-football": {
+  "name": "England Football",
+  "kind": "p",
+  "domain": "englandfootball.com",
+  "match": "name + description (no website to compare)",
+  "qid": "Q1478144",
+  "label": "football in England",
+  "desc": "overview of association football practiced in England",
+  "status": "matched, no usable logo"
+ },
+ "seattle-sounders": {
+  "name": "Seattle Sounders",
+  "kind": "p",
+  "domain": "soundersfc.com",
+  "match": "website matches soundersfc.com",
+  "qid": "Q632511",
+  "label": "Seattle Sounders FC",
+  "desc": "American Major League Soccer team",
+  "status": "found",
+  "file": "Seattle Sounders FC wordmark.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Seattle_Sounders_FC_wordmark.svg",
+  "clean": "trimmed to 498x84",
+  "size": [
+   498,
+   84
+  ]
+ },
+ "nz-rugby-league": {
+  "name": "NZ Rugby League",
+  "kind": "p",
+  "domain": "nzrl.co.nz",
+  "match": "no matching Wikidata item",
+  "status": "no match"
+ },
+ "warwickshire-ccc": {
+  "name": "Warwickshire CCC",
+  "kind": "p",
+  "domain": "edgbaston.com",
+  "match": "no matching Wikidata item",
+  "status": "no match"
+ },
+ "bradford-bulls": {
+  "name": "Bradford Bulls",
+  "kind": "p",
+  "domain": "bradfordbulls.co.uk",
+  "match": "website matches bradfordbulls.co.uk",
+  "qid": "Q2352689",
+  "label": "Bradford Bulls",
+  "desc": "English rugby league football club",
+  "status": "found",
+  "file": "2025 Bradford Bulls Logo.png",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:2025_Bradford_Bulls_Logo.png",
+  "clean": "trimmed to 239x312",
+  "size": [
+   239,
+   312
+  ]
+ },
+ "chicago-sky": {
+  "name": "Chicago Sky",
+  "kind": "p",
+  "domain": "sky.wnba.com",
+  "match": "website matches sky.wnba.com",
+  "qid": "Q796358",
+  "label": "Chicago Sky",
+  "desc": "American professional women's basketball team",
+  "status": "found",
+  "file": "Chicago Sky logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Chicago_Sky_logo.svg",
+  "clean": "trimmed to 446x512",
+  "size": [
+   446,
+   512
+  ]
+ },
+ "liverpool-fc": {
+  "name": "Liverpool FC",
+  "kind": "p",
+  "domain": "liverpoolfc.com",
+  "match": "website matches liverpoolfc.com",
+  "qid": "Q1130849",
+  "label": "Liverpool F.C.",
+  "desc": "association football club in Liverpool, England",
+  "status": "found",
+  "file": "Logo Liverpool FC (2024).png",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Logo_Liverpool_FC_(2024).png",
+  "clean": "white background removed; trimmed to 485x175",
+  "size": [
+   485,
+   175
+  ]
+ },
+ "basketball-australia": {
+  "name": "Basketball Australia",
+  "kind": "p",
+  "domain": "australia.basketball",
+  "match": "website matches australia.basketball",
+  "qid": "Q3741153",
+  "label": "Basketball Australia",
+  "desc": "governing body for basketball in Australia",
+  "status": "found",
+  "file": "Basketball Australia logo.png",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Basketball_Australia_logo.png",
+  "clean": "trimmed to 240x96",
+  "size": [
+   240,
+   96
+  ]
+ },
+ "elastoplast": {
+  "name": "Elastoplast",
+  "kind": "b",
+  "domain": "elastoplast.co.uk",
+  "match": "no matching Wikidata item",
+  "status": "no match"
+ },
+ "haas-f1": {
+  "name": "Haas F1",
+  "kind": "p",
+  "domain": "haasf1team.com",
+  "match": "website matches haasf1team.com",
+  "qid": "Q16300222",
+  "label": "Haas F1 Team",
+  "desc": "Formula 1 team",
+  "status": "found",
+  "file": "TGR Haas F1 Team Logo (2026).svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:TGR_Haas_F1_Team_Logo_(2026).svg",
+  "clean": "trimmed to 500x458",
+  "size": [
+   500,
+   458
+  ]
+ },
+ "huddersfield-giants": {
+  "name": "Huddersfield Giants",
+  "kind": "p",
+  "domain": "giantsrl.com",
+  "match": "website matches giantsrl.com",
+  "qid": "Q3142169",
+  "label": "Huddersfield Giants",
+  "desc": "English professional rugby league football club",
+  "status": "found",
+  "file": "Huddersfield Giants 2021 logo.png",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Huddersfield_Giants_2021_logo.png",
+  "clean": "trimmed to 296x316",
+  "size": [
+   296,
+   316
+  ]
+ },
+ "leinster-rugby": {
+  "name": "Leinster Rugby",
+  "kind": "p",
+  "domain": "leinsterrugby.ie",
+  "match": "website matches leinsterrugby.ie",
+  "qid": "Q1473374",
+  "label": "Leinster Rugby",
+  "desc": "Irish rugby union team",
+  "status": "found",
+  "file": "LeinsterRugby logo 2019.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:LeinsterRugby_logo_2019.svg",
+  "clean": "trimmed to 500x450",
+  "size": [
+   500,
+   450
+  ]
+ },
+ "perth-wildcats": {
+  "name": "Perth Wildcats",
+  "kind": "p",
+  "domain": "wildcats.com.au",
+  "match": "website matches wildcats.com.au",
+  "qid": "Q2756389",
+  "label": "Perth Wildcats",
+  "desc": "basketball team based in Perth, Western Australia",
+  "status": "matched, no usable logo"
+ },
+ "telstra": {
+  "name": "Telstra",
+  "kind": "b",
+  "domain": "telstra.com.au",
+  "match": "website matches telstra.com.au",
+  "qid": "Q721162",
+  "label": "Telstra",
+  "desc": "Australian telecommunications company",
+  "status": "found",
+  "file": "Telstra logo (horizontal variant).svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Telstra_logo_(horizontal_variant).svg",
+  "clean": "trimmed to 500x138",
+  "size": [
+   500,
+   138
+  ]
+ },
+ "new-zealand-olympic-committee": {
+  "name": "New Zealand Olympic Committee",
+  "kind": "p",
+  "domain": "olympic.org.nz",
+  "match": "website matches olympic.org.nz",
+  "qid": "Q1648429",
+  "label": "New Zealand Olympic Committee",
+  "desc": "National Olympic Committee",
+  "status": "found",
+  "file": "New Zealand Olympic Committee logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:New_Zealand_Olympic_Committee_logo.svg",
+  "clean": "trimmed to 479x512",
+  "size": [
+   479,
+   512
+  ]
+ },
+ "ireland-rugby": {
+  "name": "Ireland Rugby",
+  "kind": "p",
+  "domain": "irishrugby.ie",
+  "match": "website matches irishrugby.ie",
+  "qid": "Q1672926",
+  "label": "Irish Rugby Football Union",
+  "desc": "governing body for rugby union on the island of Ireland",
+  "status": "found",
+  "file": "Irish rugby union textlogo.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Irish_rugby_union_textlogo.svg",
+  "clean": "trimmed to 492x157",
+  "size": [
+   492,
+   157
+  ]
+ },
+ "rangers": {
+  "name": "Rangers",
+  "kind": "p",
+  "domain": "rangers.co.uk",
+  "match": "website matches rangers.co.uk",
+  "qid": "Q19597",
+  "label": "Rangers F.C.",
+  "desc": "association football club in Glasgow, Scotland",
+  "status": "found",
+  "file": "Rangers FC.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Rangers_FC.svg",
+  "clean": "trimmed to 500x500",
+  "size": [
+   500,
+   500
+  ]
+ },
+ "melbourne": {
+  "name": "Melbourne",
+  "kind": "p",
+  "domain": "melbournefc.com.au",
+  "match": "website matches melbournefc.com.au",
+  "qid": "Q911681",
+  "label": "Melbourne Football Club",
+  "desc": "Australian rules football club",
+  "status": "found",
+  "file": "Melbournefc.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Melbournefc.svg",
+  "clean": "trimmed to 475x512",
+  "size": [
+   475,
+   512
+  ]
+ },
+ "worcestershire-ccc": {
+  "name": "Worcestershire CCC",
+  "kind": "p",
+  "domain": "wccc.co.uk",
+  "match": "website matches wccc.co.uk",
+  "qid": "Q2725667",
+  "label": "Worcestershire County Cricket Club",
+  "desc": "English cricket team",
+  "status": "found",
+  "file": "Worcestershire County Cricket Club logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Worcestershire_County_Cricket_Club_logo.svg",
+  "clean": "trimmed to 396x512",
+  "size": [
+   396,
+   512
+  ]
+ },
+ "dundee": {
+  "name": "Dundee",
+  "kind": "p",
+  "domain": "dundeefc.co.uk",
+  "match": "website matches dundeefc.co.uk",
+  "qid": "Q335483",
+  "label": "Dundee F.C.",
+  "desc": "association football club in Dundee, Scotland",
+  "status": "found",
+  "file": "Dundee FC 2025 Crest.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Dundee_FC_2025_Crest.svg",
+  "clean": "trimmed to 432x512",
+  "size": [
+   432,
+   512
+  ]
+ },
+ "celtic": {
+  "name": "Celtic",
+  "kind": "p",
+  "domain": "celticfc.com",
+  "match": "website matches celticfc.com",
+  "qid": "Q19593",
+  "label": "Celtic F.C.",
+  "desc": "association football club in Glasgow, Scotland",
+  "status": "found",
+  "file": "Celtic FC crest.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Celtic_FC_crest.svg",
+  "clean": "trimmed to 500x500",
+  "size": [
+   500,
+   500
+  ]
+ },
+ "utah-royals": {
+  "name": "Utah Royals",
+  "kind": "p",
+  "domain": "utahroyals.com",
+  "match": "no matching Wikidata item",
+  "status": "no match"
+ },
+ "seatgeek": {
+  "name": "SeatGeek",
+  "kind": "b",
+  "domain": "seatgeek.com",
+  "match": "website matches seatgeek.com",
+  "qid": "Q7441960",
+  "label": "SeatGeek",
+  "desc": "ticket reseller platform",
+  "status": "found",
+  "file": "Seatgeek logo.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Seatgeek_logo.svg",
+  "clean": "trimmed to 500x357",
+  "size": [
+   500,
+   357
+  ]
+ },
+ "aston-villa": {
+  "name": "Aston Villa",
+  "kind": "p",
+  "domain": "avfc.co.uk",
+  "match": "website matches avfc.co.uk",
+  "qid": "Q18711",
+  "label": "Aston Villa F.C.",
+  "desc": "association football club in Birmingham, England",
+  "status": "found",
+  "file": "Aston Villa FC new crest.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Aston_Villa_FC_new_crest.svg",
+  "clean": "trimmed to 376x512",
+  "size": [
+   376,
+   512
+  ]
+ },
+ "tasmania-jackjumpers": {
+  "name": "Tasmania JackJumpers",
+  "kind": "p",
+  "domain": "jackjumpers.com.au",
+  "match": "name + description (no website to compare)",
+  "qid": "Q104860401",
+  "label": "Tasmania JackJumpers",
+  "desc": "basketball team in Hobart, Tasmania",
+  "status": "found",
+  "file": "Tasmania JackJumpers Logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Tasmania_JackJumpers_Logo.svg",
+  "clean": "trimmed to 390x512",
+  "size": [
+   390,
+   512
+  ]
+ },
+ "nike": {
+  "name": "Nike",
+  "kind": "b",
+  "domain": "nike.com",
+  "match": "website matches nike.com",
+  "qid": "Q483915",
+  "label": "Nike",
+  "desc": "American athletic equipment company",
+  "status": "found",
+  "file": "Logo NIKE.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Logo_NIKE.svg",
+  "clean": "trimmed to 500x179",
+  "size": [
+   500,
+   179
+  ]
+ },
+ "hampshire-cricket": {
+  "name": "Hampshire Cricket",
+  "kind": "p",
+  "domain": "utilitabowl.com",
+  "match": "no matching Wikidata item",
+  "status": "no match"
+ },
+ "edinburgh-rugby": {
+  "name": "Edinburgh Rugby",
+  "kind": "p",
+  "domain": "edinburghrugby.org",
+  "match": "website matches edinburghrugby.org",
+  "qid": "Q739613",
+  "label": "Edinburgh Rugby",
+  "desc": "Scottish rugby union franchise",
+  "status": "found",
+  "file": "Edinburgh Rugby logo 2018.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Edinburgh_Rugby_logo_2018.svg",
+  "clean": "trimmed to 485x355",
+  "size": [
+   485,
+   355
+  ]
+ },
+ "dallas-wings": {
+  "name": "Dallas Wings",
+  "kind": "p",
+  "domain": "wings.wnba.com",
+  "match": "website matches wings.wnba.com",
+  "qid": "Q21334944",
+  "label": "Dallas Wings",
+  "desc": "American professional women's basketball team based in Arlington, Texas",
+  "status": "found",
+  "file": "Dallas Wings logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Dallas_Wings_logo.svg",
+  "clean": "trimmed to 500x318",
+  "size": [
+   500,
+   318
+  ]
+ },
+ "tampa-bay-rays": {
+  "name": "Tampa Bay Rays",
+  "kind": "p",
+  "domain": "raysbaseball.com",
+  "match": "no matching Wikidata item",
+  "status": "no match"
+ },
+ "kfc": {
+  "name": "KFC",
+  "kind": "b",
+  "domain": "kfc.com",
+  "match": "website matches kfc.com",
+  "qid": "Q524757",
+  "label": "KFC",
+  "desc": "American fast food restaurant chain specializing in fried chicken",
+  "status": "found",
+  "file": "KFC 2026 (wordmark).svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:KFC_2026_(wordmark).svg",
+  "clean": "trimmed to 500x156",
+  "size": [
+   500,
+   156
+  ]
+ },
+ "rugby-world-cup-2027": {
+  "name": "Rugby World Cup 2027",
+  "kind": "p",
+  "domain": "rugbyworldcup.com",
+  "match": "website matches rugbyworldcup.com",
+  "qid": "Q16640",
+  "label": "Rugby World Cup",
+  "desc": "international rugby union competition",
+  "status": "found",
+  "file": "Rugby World Cup footer logo (post-2023).svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Rugby_World_Cup_footer_logo_(post-2023).svg",
+  "clean": "trimmed to 500x174",
+  "size": [
+   500,
+   174
+  ]
+ },
+ "kooyong-classic": {
+  "name": "Kooyong Classic",
+  "kind": "p",
+  "domain": "kooyongclassic.com.au",
+  "match": "website matches kooyongclassic.com.au",
+  "qid": "Q286203",
+  "label": "AAMI Classic",
+  "desc": "annual professional tennis exhibition singles-only tournament, played on outdoor hard courts in January at Kooyong Stadium, Melbourne, Australia",
+  "status": "matched, no usable logo"
+ },
+ "england-rugby": {
+  "name": "England Rugby",
+  "kind": "p",
+  "domain": "englandrugby.com",
+  "match": "website matches englandrugby.com",
+  "qid": "Q378628",
+  "label": "England men’s national rugby union team",
+  "desc": "Men’s rugby union team representing England",
+  "status": "found",
+  "file": "England rugby shirt rose 1871.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:England_rugby_shirt_rose_1871.svg",
+  "clean": "trimmed to 376x512",
+  "size": [
+   376,
+   512
+  ]
+ },
+ "denver-summit-fc": {
+  "name": "Denver Summit FC",
+  "kind": "p",
+  "domain": "denversummitfc.com",
+  "match": "website matches denversummitfc.com",
+  "qid": "Q132067920",
+  "label": "Denver Summit FC",
+  "desc": "American women's soccer team",
+  "status": "found",
+  "file": "Denver Summit FC Wordmark Stacked Evergreen.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Denver_Summit_FC_Wordmark_Stacked_Evergreen.svg",
+  "clean": "trimmed to 500x263",
+  "size": [
+   500,
+   263
+  ]
+ },
+ "atlanta-braves": {
+  "name": "Atlanta Braves",
+  "kind": "p",
+  "domain": "braves.com",
+  "match": "no matching Wikidata item",
+  "status": "no match"
+ },
+ "wa-cricket": {
+  "name": "WA Cricket",
+  "kind": "p",
+  "domain": "wacricket.com.au",
+  "match": "no matching Wikidata item",
+  "status": "no match"
+ },
+ "cricket-victoria": {
+  "name": "Cricket Victoria",
+  "kind": "p",
+  "domain": "cricketvictoria.com.au",
+  "match": "website matches cricketvictoria.com.au",
+  "qid": "Q5184986",
+  "label": "Cricket Victoria",
+  "desc": "governing body for the sport of cricket in the Australian state of Victoria",
+  "status": "matched, no usable logo"
+ },
+ "nine": {
+  "name": "Nine",
+  "kind": "b",
+  "domain": "nine.com.au",
+  "match": "no matching Wikidata item",
+  "status": "no match"
+ },
+ "scotland-rugby": {
+  "name": "Scotland Rugby",
+  "kind": "p",
+  "domain": "scottishrugby.org",
+  "match": "name + description (no website to compare)",
+  "qid": "Q19652967",
+  "label": "Scottish Rugby Limited",
+  "desc": "operating subsidiary of the Scottish Rugby Union",
+  "status": "matched, no usable logo"
+ },
+ "perth-scorchers": {
+  "name": "Perth Scorchers",
+  "kind": "p",
+  "domain": "perthscorchers.com.au",
+  "match": "website matches perthscorchers.com.au",
+  "qid": "Q7170891",
+  "label": "Perth Scorchers",
+  "desc": "men's cricket team based in Perth, Western Australia",
+  "status": "found",
+  "file": "Perth Scorchers logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Perth_Scorchers_logo.svg",
+  "clean": "trimmed to 500x167",
+  "size": [
+   500,
+   167
+  ]
+ },
+ "lancashire-cricket": {
+  "name": "Lancashire Cricket",
+  "kind": "p",
+  "domain": "lancashirecricket.co.uk",
+  "match": "website matches lancashirecricket.co.uk",
+  "qid": "Q2725657",
+  "label": "Lancashire County Cricket Club",
+  "desc": "English cricket club",
+  "status": "found",
+  "file": "Lancashire County Cricket Club logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Lancashire_County_Cricket_Club_logo.svg",
+  "clean": "trimmed to 480x466",
+  "size": [
+   480,
+   466
+  ]
+ },
+ "st-mirren": {
+  "name": "St Mirren",
+  "kind": "p",
+  "domain": "stmirren.com",
+  "match": "website matches stmirren.com",
+  "qid": "Q319136",
+  "label": "St. Mirren F.C.",
+  "desc": "association football club in Scotland",
+  "status": "found",
+  "file": "St Mirren FC crest.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:St_Mirren_FC_crest.svg",
+  "clean": "trimmed to 500x500",
+  "size": [
+   500,
+   500
+  ]
+ },
+ "bay-fc": {
+  "name": "Bay FC",
+  "kind": "p",
+  "domain": "bayfc.com",
+  "match": "website matches bayfc.com",
+  "qid": "Q119010920",
+  "label": "Bay FC",
+  "desc": "American professional women's soccer team based in the San Francisco Bay Area of California",
+  "status": "found",
+  "file": "Bay FC logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://commons.wikimedia.org/wiki/File:Bay_FC_logo.svg",
+  "clean": "trimmed to 500x500",
+  "size": [
+   500,
+   500
+  ]
+ },
+ "kansas-city-royals": {
+  "name": "Kansas City Royals",
+  "kind": "p",
+  "domain": "royals.com",
+  "match": "name + description, country tie-break",
+  "qid": "Q744530",
+  "label": "Kansas City Royals",
+  "desc": "baseball team and Major League Baseball franchise in Kansas City, Missouri, United States",
+  "status": "found",
+  "file": "Kansas City Royals logo.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Kansas_City_Royals_logo.svg",
+  "clean": "trimmed to 443x512",
+  "size": [
+   443,
+   512
+  ]
+ },
+ "triple-m": {
+  "name": "Triple M",
+  "kind": "b",
+  "domain": "triplem.com.au",
+  "match": "name + description (no website to compare)",
+  "qid": "Q35312971",
+  "label": "Triple M Airport",
+  "desc": "airport in Carteret County, North Carolina, United States of America",
+  "status": "matched, no usable logo"
+ },
+ "wimbledon": {
+  "name": "Wimbledon",
+  "kind": "p",
+  "domain": "wimbledon.com",
+  "match": "website matches wimbledon.com",
+  "qid": "Q41520",
+  "label": "Wimbledon Championships",
+  "desc": "tennis tournament held in London",
+  "status": "found",
+  "file": "Wimbledon.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Wimbledon.svg",
+  "clean": "trimmed to 496x496",
+  "size": [
+   496,
+   496
+  ]
+ },
+ "corpay": {
+  "name": "Corpay",
+  "kind": "b",
+  "domain": "corpay.com",
+  "match": "website matches corpay.com",
+  "qid": "Q16838618",
+  "label": "Corpay",
+  "desc": "Global spend management company",
+  "status": "found",
+  "file": "Corpay Logo.png",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Corpay_Logo.png",
+  "clean": "trimmed to 178x43",
+  "size": [
+   178,
+   43
+  ]
+ },
+ "sailgp": {
+  "name": "SailGP",
+  "kind": "p",
+  "domain": "sailgp.com",
+  "match": "website matches sailgp.com",
+  "qid": "Q74108059",
+  "label": "SailGP",
+  "desc": "international sailing competition",
+  "status": "found",
+  "file": "SailGP logo.png",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:SailGP_logo.png",
+  "clean": "trimmed to 484x91",
+  "size": [
+   484,
+   91
+  ]
+ },
+ "masuri": {
+  "name": "Masuri",
+  "kind": "b",
+  "domain": "masuri.com",
+  "match": "no matching Wikidata item",
+  "status": "no match"
+ },
+ "motherwell": {
+  "name": "Motherwell",
+  "kind": "p",
+  "domain": "motherwellfc.co.uk",
+  "match": "website matches motherwellfc.co.uk",
+  "qid": "Q216523",
+  "label": "Motherwell F.C.",
+  "desc": "association football club in Motherwell, Scotland",
+  "status": "found",
+  "file": "Motherwell FC crest.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Motherwell_FC_crest.svg",
+  "clean": "trimmed to 500x482",
+  "size": [
+   500,
+   482
+  ]
+ },
+ "hyundai": {
+  "name": "Hyundai",
+  "kind": "b",
+  "domain": "hyundai.com",
+  "match": "website matches hyundai.com",
+  "qid": "Q55931",
+  "label": "Hyundai Motor Company",
+  "desc": "South Korean multinational automaker",
+  "status": "found",
+  "file": "Hyundai Motor Company logo.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Hyundai_Motor_Company_logo.svg",
+  "clean": "trimmed to 500x65",
+  "size": [
+   500,
+   65
+  ]
+ },
+ "cool-ridge": {
+  "name": "Cool Ridge",
+  "kind": "b",
+  "domain": "coolridge.com.au",
+  "match": "website matches coolridge.com.au",
+  "qid": "Q16909187",
+  "label": "Cool Ridge",
+  "desc": "Australian brand of spring water",
+  "status": "found",
+  "file": "Cool ridge logo.png",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Cool_ridge_logo.png",
+  "clean": "trimmed to 264x259",
+  "size": [
+   264,
+   259
+  ]
+ },
+ "uc-capitals": {
+  "name": "UC Capitals",
+  "kind": "p",
+  "domain": "uccapitals.com.au",
+  "match": "no matching Wikidata item",
+  "status": "no match"
+ },
+ "sydney-flames": {
+  "name": "Sydney Flames",
+  "kind": "p",
+  "domain": "sydneyflames.com.au",
+  "match": "no matching Wikidata item",
+  "status": "no match"
+ },
+ "pepsi": {
+  "name": "Pepsi",
+  "kind": "b",
+  "domain": "pepsi.com",
+  "match": "website matches pepsi.com",
+  "qid": "Q47719",
+  "label": "Pepsi",
+  "desc": "soft drink owned and manufactured by PepsiCo",
+  "status": "found",
+  "file": "Pepsi 2023.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Pepsi_2023.svg",
+  "clean": "trimmed to 500x500",
+  "size": [
+   500,
+   500
+  ]
+ },
+ "hull-city": {
+  "name": "Hull City",
+  "kind": "p",
+  "domain": "wearehullcity.co.uk",
+  "match": "website matches wearehullcity.co.uk",
+  "qid": "Q19477",
+  "label": "Hull City A.F.C.",
+  "desc": "association football club in Hull, England",
+  "status": "found",
+  "file": "Hull City A.F.C. logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Hull_City_A.F.C._logo.svg",
+  "clean": "trimmed to 404x512",
+  "size": [
+   404,
+   512
+  ]
+ },
+ "sen": {
+  "name": "SEN",
+  "kind": "b",
+  "domain": "sen.com.au",
+  "match": "no matching Wikidata item",
+  "status": "no match"
+ },
+ "molson-coors": {
+  "name": "Molson Coors",
+  "kind": "b",
+  "domain": "molsoncoors.com",
+  "match": "website matches molsoncoors.com",
+  "qid": "Q3319685",
+  "label": "Molson Coors Brewing Company",
+  "desc": "North American brewing company encompassing Molson and Coors",
+  "status": "found",
+  "file": "Molson Coors Beverage Company logo.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Molson_Coors_Beverage_Company_logo.svg",
+  "clean": "trimmed to 500x117",
+  "size": [
+   500,
+   117
+  ]
+ },
+ "middlesex-cricket": {
+  "name": "Middlesex Cricket",
+  "kind": "p",
+  "domain": "middlesexccc.com",
+  "match": "website matches middlesexccc.com",
+  "qid": "Q2725694",
+  "label": "Middlesex County Cricket Club",
+  "desc": "English cricket club",
+  "status": "found",
+  "file": "MiddlesexCCCFirstClassKit.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:MiddlesexCCCFirstClassKit.svg",
+  "clean": "trimmed to 489x488",
+  "size": [
+   489,
+   488
+  ]
+ },
+ "harlequins": {
+  "name": "Harlequins",
+  "kind": "p",
+  "domain": "harlequins.org.uk",
+  "match": "ambiguous: Q6392577 (rugby team), Q5658693 (cricket club formed in Oxford)",
+  "status": "no match"
+ },
+ "verizon": {
+  "name": "Verizon",
+  "kind": "b",
+  "domain": "verizon.com",
+  "match": "website matches verizon.com",
+  "qid": "Q467752",
+  "label": "Verizon",
+  "desc": "American broadband and telecommunications company",
+  "status": "found",
+  "file": "Verizon 2024.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Verizon_2024.svg",
+  "clean": "trimmed to 500x113",
+  "size": [
+   500,
+   113
+  ]
+ },
+ "houston-dash": {
+  "name": "Houston Dash",
+  "kind": "p",
+  "domain": "houstondash.com",
+  "match": "no matching Wikidata item",
+  "status": "no match"
+ },
+ "atlanta-united": {
+  "name": "Atlanta United",
+  "kind": "p",
+  "domain": "atlutd.com",
+  "match": "website matches atlutd.com",
+  "qid": "Q16836317",
+  "label": "Atlanta United FC",
+  "desc": "American professional soccer club based in Atlanta",
+  "status": "found",
+  "file": "Atlanta United wordmark black.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Atlanta_United_wordmark_black.svg",
+  "clean": "trimmed to 490x49",
+  "size": [
+   490,
+   49
+  ]
+ },
+ "minnesota-wild": {
+  "name": "Minnesota Wild",
+  "kind": "p",
+  "domain": "wild.com",
+  "match": "no matching Wikidata item",
+  "status": "no match"
+ },
+ "boston-red-sox": {
+  "name": "Boston Red Sox",
+  "kind": "p",
+  "domain": "redsox.com",
+  "match": "website matches redsox.com",
+  "qid": "Q213959",
+  "label": "Boston Red Sox",
+  "desc": "baseball team and Major League Baseball franchise in Boston, Massachusetts, United States",
+  "status": "found",
+  "file": "BostonRedSox CapLogo.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:BostonRedSox_CapLogo.svg",
+  "clean": "coloured tile; trimmed to 499x499",
+  "size": [
+   499,
+   499
+  ]
+ },
+ "newcastle-united": {
+  "name": "Newcastle United",
+  "kind": "p",
+  "domain": "newcastleunited.com",
+  "match": "website matches newcastleunited.com",
+  "qid": "Q18716",
+  "label": "Newcastle United F.C.",
+  "desc": "association football club in Newcastle upon Tyne, England",
+  "status": "found",
+  "file": "Newcastle United FC 2026 crest.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Newcastle_United_FC_2026_crest.svg",
+  "clean": "trimmed to 500x503",
+  "size": [
+   500,
+   503
+  ]
+ },
+ "statsports": {
+  "name": "STATSports",
+  "kind": "b",
+  "domain": "statsports.com",
+  "match": "no matching Wikidata item",
+  "status": "no match"
+ },
+ "hart-sport": {
+  "name": "HART Sport",
+  "kind": "b",
+  "domain": "hartsport.com.au",
+  "match": "name + description (no website to compare)",
+  "qid": "Q11861671",
+  "label": "Hart-Sport",
+  "desc": "Finnish sports drink",
+  "status": "matched, no usable logo"
+ },
+ "nhl": {
+  "name": "NHL",
+  "kind": "p",
+  "domain": "nhl.com",
+  "match": "website matches nhl.com",
+  "qid": "Q1215892",
+  "label": "National Hockey League",
+  "desc": "North American professional ice hockey league",
+  "status": "found",
+  "file": "National Hockey League shield.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:National_Hockey_League_shield.svg",
+  "clean": "trimmed to 452x512",
+  "size": [
+   452,
+   512
+  ]
+ },
+ "nba": {
+  "name": "NBA",
+  "kind": "p",
+  "domain": "nba.com",
+  "match": "website matches nba.com",
+  "qid": "Q155223",
+  "label": "National Basketball Association",
+  "desc": "North American professional basketball league",
+  "status": "found",
+  "file": "National Basketball Association logo 2017-present.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:National_Basketball_Association_logo_2017-present.svg",
+  "clean": "trimmed to 225x512",
+  "size": [
+   225,
+   512
+  ]
+ },
+ "fifa-world-cup": {
+  "name": "FIFA World Cup",
+  "kind": "p",
+  "domain": "fifa.com",
+  "match": "website matches fifa.com",
+  "qid": "Q19317",
+  "label": "FIFA World Cup",
+  "desc": "international association football competition contested by the senior men's national teams",
+  "refused": [
+   "FIFA World Cup Trophy photo by Djuradj Vujcic.jpg: busy background (photo or graphic, not a clean logo)"
+  ],
+  "status": "matched, no usable logo"
+ },
+ "townsville-fire": {
+  "name": "Townsville Fire",
+  "kind": "p",
+  "domain": "townsvillefire.com.au",
+  "match": "name + description (no website to compare)",
+  "qid": "Q3535968",
+  "label": "Townsville Fire",
+  "desc": "Australian women's basketball team",
+  "status": "matched, no usable logo"
+ },
+ "p-and-g": {
+  "name": "P&G",
+  "kind": "b",
+  "domain": "pg.com",
+  "match": "website matches pg.com",
+  "qid": "Q212405",
+  "label": "Procter & Gamble",
+  "desc": "American multinational consumer goods corporation",
+  "status": "found",
+  "file": "Procter & Gamble logo.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Procter_%26_Gamble_logo.svg",
+  "clean": "trimmed to 500x500",
+  "size": [
+   500,
+   500
+  ]
+ },
+ "diageo": {
+  "name": "Diageo",
+  "kind": "b",
+  "domain": "diageo.com",
+  "match": "website matches diageo.com",
+  "qid": "Q161140",
+  "label": "Diageo",
+  "desc": "multinational alcoholic beverages company",
+  "status": "found",
+  "file": "Diageo - logo (United Kingdom, 1997).svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Diageo_-_logo_(United_Kingdom,_1997).svg",
+  "clean": "trimmed to 497x107",
+  "size": [
+   497,
+   107
+  ]
+ },
+ "kent-cricket": {
+  "name": "Kent Cricket",
+  "kind": "p",
+  "domain": "kentcricket.co.uk",
+  "match": "website matches kentcricket.co.uk",
+  "qid": "Q3195284",
+  "label": "Kent County Cricket Club",
+  "desc": "English cricket club",
+  "status": "found",
+  "file": "KentCCCLogo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:KentCCCLogo.svg",
+  "clean": "trimmed to 419x489",
+  "size": [
+   419,
+   489
+  ]
+ },
+ "castleford-tigers": {
+  "name": "Castleford Tigers",
+  "kind": "p",
+  "domain": "castlefordtigers.com",
+  "match": "website matches castlefordtigers.com",
+  "qid": "Q2941467",
+  "label": "Castleford Tigers",
+  "desc": "English professional rugby league football club",
+  "status": "found",
+  "file": "Castleford Tigers new logo.png",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Castleford_Tigers_new_logo.png",
+  "clean": "trimmed to 282x350",
+  "size": [
+   282,
+   350
+  ]
+ },
+ "dragons-rfc": {
+  "name": "Dragons RFC",
+  "kind": "p",
+  "domain": "dragonsrfc.wales",
+  "match": "website matches dragonsrfc.wales",
+  "qid": "Q82216",
+  "label": "Dragons",
+  "desc": "one of the four professional Rugby Union regional teams in Wales",
+  "status": "found",
+  "file": "Dragons RFC logo.png",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Dragons_RFC_logo.png",
+  "clean": "trimmed to 280x356",
+  "size": [
+   280,
+   356
+  ]
+ },
+ "chicago-stars-fc": {
+  "name": "Chicago Stars FC",
+  "kind": "p",
+  "domain": "chicagostars.com",
+  "match": "website matches chicagostars.com",
+  "qid": "Q1071986",
+  "label": "Chicago Stars FC",
+  "desc": "women's soccer club in the United States",
+  "status": "found",
+  "file": "Logo of Chicago Stars FC.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://commons.wikimedia.org/wiki/File:Logo_of_Chicago_Stars_FC.svg",
+  "clean": "trimmed to 342x512",
+  "size": [
+   342,
+   512
+  ]
+ },
+ "columbus-blue-jackets": {
+  "name": "Columbus Blue Jackets",
+  "kind": "p",
+  "domain": "bluejackets.com",
+  "match": "no matching Wikidata item",
+  "status": "no match"
+ },
+ "miami-marlins": {
+  "name": "Miami Marlins",
+  "kind": "p",
+  "domain": "marlins.com",
+  "match": "name + description (no website to compare)",
+  "qid": "Q6827354",
+  "label": "Miami Marlins",
+  "desc": "minor league baseball team from 1956 to 1960",
+  "status": "matched, no usable logo"
+ },
+ "new-zealand-football": {
+  "name": "New Zealand Football",
+  "kind": "p",
+  "domain": "nzfootball.co.nz",
+  "match": "website matches nzfootball.co.nz",
+  "qid": "Q842596",
+  "label": "New Zealand Football",
+  "desc": "sports governing body organizing association football in New Zealand",
+  "status": "found",
+  "file": "New Zealand Football logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:New_Zealand_Football_logo.svg",
+  "clean": "trimmed to 451x512",
+  "size": [
+   451,
+   512
+  ]
+ },
+ "visa": {
+  "name": "Visa",
+  "kind": "b",
+  "domain": "visa.com",
+  "match": "website matches visa.com",
+  "qid": "Q328840",
+  "label": "Visa Inc.",
+  "desc": "American multinational financial services corporation",
+  "status": "found",
+  "file": "Visa Inc. logo (2021–present).svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Visa_Inc._logo_(2021%E2%80%93present).svg",
+  "clean": "trimmed to 500x163",
+  "size": [
+   500,
+   163
+  ]
+ },
+ "essex-cricket": {
+  "name": "Essex Cricket",
+  "kind": "p",
+  "domain": "essexcricket.org.uk",
+  "match": "website matches essexcricket.org.uk",
+  "qid": "Q3058749",
+  "label": "Essex County Cricket Club",
+  "desc": "English cricket club",
+  "status": "found",
+  "file": "EssexCountyCricketLogo2023.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:EssexCountyCricketLogo2023.svg",
+  "clean": "trimmed to 456x512",
+  "size": [
+   456,
+   512
+  ]
+ },
+ "american-express": {
+  "name": "American Express",
+  "kind": "b",
+  "domain": "americanexpress.com",
+  "match": "website matches americanexpress.com",
+  "qid": "Q194360",
+  "label": "American Express",
+  "desc": "American multinational financial services corporation",
+  "refused": [
+   "American Express logo (2018).svg: busy background (photo or graphic, not a clean logo)"
+  ],
+  "status": "found",
+  "file": "American Express logo.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:American_Express_logo.svg",
+  "clean": "trimmed to 474x473",
+  "size": [
+   474,
+   473
+  ]
+ },
+ "jameson": {
+  "name": "Jameson",
+  "kind": "b",
+  "domain": "jamesonwhiskey.com",
+  "match": "website matches jamesonwhiskey.com",
+  "qid": "Q2482",
+  "label": "Jameson",
+  "desc": "single distillery Irish whiskey",
+  "status": "found",
+  "file": "Jameson Irish Whiskey logo.png",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Jameson_Irish_Whiskey_logo.png",
+  "clean": "trimmed to 317x160",
+  "size": [
+   317,
+   160
+  ]
+ },
+ "gotham-fc": {
+  "name": "Gotham FC",
+  "kind": "p",
+  "domain": "gothamfc.com",
+  "match": "website matches gothamfc.com",
+  "qid": "Q1447181",
+  "label": "Gotham FC",
+  "desc": "professional women's soccer club in New Jersey",
+  "status": "found",
+  "file": "NJ NY Gotham FC wordmark solid.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:NJ_NY_Gotham_FC_wordmark_solid.svg",
+  "clean": "coloured tile; trimmed to 500x147",
+  "size": [
+   500,
+   147
+  ]
+ },
+ "seattle-seahawks": {
+  "name": "Seattle Seahawks",
+  "kind": "p",
+  "domain": "seahawks.com",
+  "match": "website matches seahawks.com",
+  "qid": "Q221878",
+  "label": "Seattle Seahawks",
+  "desc": "American football team",
+  "status": "found",
+  "file": "Seattle Seahawks wordmark.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Seattle_Seahawks_wordmark.svg",
+  "clean": "trimmed to 496x77",
+  "size": [
+   496,
+   77
+  ]
+ },
+ "football-australia": {
+  "name": "Football Australia",
+  "kind": "p",
+  "domain": "footballaustralia.com.au",
+  "match": "website matches footballaustralia.com.au",
+  "qid": "Q781890",
+  "label": "Football Australia",
+  "desc": "sports governing body organising soccer in Australia",
+  "status": "found",
+  "file": "Australia national football team badge.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Australia_national_football_team_badge.svg",
+  "clean": "trimmed to 491x495",
+  "size": [
+   491,
+   495
+  ]
+ },
+ "hostplus": {
+  "name": "Hostplus",
+  "kind": "b",
+  "domain": "hostplus.com.au",
+  "match": "name + description (no website to compare)",
+  "qid": "Q19874417",
+  "label": "HOSTPLUS",
+  "desc": "Australian superannuation fund",
+  "status": "found",
+  "file": "Hostplus logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Hostplus_logo.svg",
+  "clean": "coloured tile; trimmed to 500x399",
+  "size": [
+   500,
+   399
+  ]
+ },
+ "williams": {
+  "name": "Williams",
+  "kind": "p",
+  "domain": "williamsf1.com",
+  "match": "website matches williamsf1.com",
+  "qid": "Q171337",
+  "label": "Williams Racing",
+  "desc": "British Formula One team and constructor",
+  "status": "found",
+  "file": "Atlassian Williams F1 Team logo.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Atlassian_Williams_F1_Team_logo.svg",
+  "clean": "trimmed to 500x257",
+  "size": [
+   500,
+   257
+  ]
+ },
+ "us-sailgp-team": {
+  "name": "US SailGP Team",
+  "kind": "p",
+  "domain": "sailgp.com",
+  "match": "website matches sailgp.com",
+  "qid": "Q111429423",
+  "label": "United States SailGP Team",
+  "desc": "sailing team",
+  "status": "found",
+  "file": "SailGP Team USA logo.png",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:SailGP_Team_USA_logo.png",
+  "clean": "white background removed; trimmed to 224x225",
+  "size": [
+   224,
+   225
+  ]
+ },
+ "asahi": {
+  "name": "Asahi",
+  "kind": "b",
+  "domain": "asahibeer.co.jp",
+  "match": "website matches asahibeer.co.jp",
+  "qid": "Q720479",
+  "label": "Asahi Breweries",
+  "desc": "Japanese food and beverage company",
+  "status": "found",
+  "file": "Asahi logo.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Asahi_logo.svg",
+  "clean": "trimmed to 500x195",
+  "size": [
+   500,
+   195
+  ]
+ },
+ "birmingham-phoenix": {
+  "name": "Birmingham Phoenix",
+  "kind": "p",
+  "domain": "birminghamphoenix.com",
+  "match": "no matching Wikidata item",
+  "status": "no match"
+ },
+ "matchwornshirt": {
+  "name": "MatchWornShirt",
+  "kind": "b",
+  "domain": "matchwornshirt.com",
+  "match": "no matching Wikidata item",
+  "status": "no match"
+ },
+ "falkirk": {
+  "name": "Falkirk",
+  "kind": "p",
+  "domain": "falkirkfc.co.uk",
+  "match": "website matches falkirkfc.co.uk",
+  "qid": "Q219241",
+  "label": "Falkirk F.C.",
+  "desc": "association football club in Falkirk, Scotland",
+  "status": "found",
+  "file": "Falkirk FC logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Falkirk_FC_logo.svg",
+  "clean": "trimmed to 308x512",
+  "size": [
+   308,
+   512
+  ]
+ },
+ "cadbury": {
+  "name": "Cadbury",
+  "kind": "b",
+  "domain": "cadbury.co.uk",
+  "match": "website matches cadbury.co.uk",
+  "qid": "Q6677525",
+  "label": "Cadbury",
+  "desc": "British multinational confectionery company",
+  "status": "found",
+  "file": "Cadbury (2020).svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Cadbury_(2020).svg",
+  "clean": "trimmed to 500x187",
+  "size": [
+   500,
+   187
+  ]
+ },
+ "nottingham-forest": {
+  "name": "Nottingham Forest",
+  "kind": "p",
+  "domain": "nottinghamforest.co.uk",
+  "match": "website matches nottinghamforest.co.uk",
+  "qid": "Q19490",
+  "label": "Nottingham Forest F.C.",
+  "desc": "association football club in West Bridgford, England",
+  "status": "found",
+  "file": "Nottingham Forest F.C. logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Nottingham_Forest_F.C._logo.svg",
+  "clean": "trimmed to 241x512",
+  "size": [
+   241,
+   512
+  ]
+ },
+ "youi": {
+  "name": "Youi",
+  "kind": "b",
+  "domain": "youi.com.au",
+  "match": "no matching Wikidata item",
+  "status": "no match"
+ },
+ "asahi-beverages": {
+  "name": "Asahi Beverages",
+  "kind": "b",
+  "domain": "asahibeverages.com",
+  "match": "no matching Wikidata item",
+  "status": "no match"
+ },
+ "coca-cola-europacific-partners": {
+  "name": "Coca-Cola Europacific Partners",
+  "kind": "b",
+  "domain": "cocacolaep.com",
+  "match": "website matches cocacolaep.com",
+  "qid": "Q20811256",
+  "label": "Coca-Cola Europacific Partners",
+  "desc": "multinational bottling company",
+  "status": "found",
+  "file": "Coca-Cola Europacific Partners Logo 2021.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Coca-Cola_Europacific_Partners_Logo_2021.svg",
+  "clean": "trimmed to 500x90",
+  "size": [
+   500,
+   90
+  ]
+ },
+ "york-knights": {
+  "name": "York Knights",
+  "kind": "p",
+  "domain": "yorkrlfc.com",
+  "match": "no matching Wikidata item",
+  "status": "no match"
+ },
+ "st-johnstone": {
+  "name": "St Johnstone",
+  "kind": "p",
+  "domain": "perthstjohnstonefc.co.uk",
+  "match": "website matches perthstjohnstonefc.co.uk",
+  "qid": "Q268776",
+  "label": "St Johnstone F.C.",
+  "desc": "association football club based in Perth, Scotland",
+  "status": "found",
+  "file": "St Johnstone FC crest.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:St_Johnstone_FC_crest.svg",
+  "clean": "trimmed to 490x512",
+  "size": [
+   490,
+   512
+  ]
+ },
+ "jim-beam": {
+  "name": "Jim Beam",
+  "kind": "b",
+  "domain": "jimbeam.com",
+  "match": "website matches jimbeam.com",
+  "qid": "Q222787",
+  "label": "Jim Beam",
+  "desc": "American brand of bourbon whiskey",
+  "status": "found",
+  "file": "Jim Beam Logo 2023.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Jim_Beam_Logo_2023.svg",
+  "clean": "trimmed to 500x396",
+  "size": [
+   500,
+   396
+  ]
+ },
+ "seattle-mariners": {
+  "name": "Seattle Mariners",
+  "kind": "p",
+  "domain": "mariners.com",
+  "match": "no matching Wikidata item",
+  "status": "no match"
+ },
+ "san-francisco-49ers": {
+  "name": "San Francisco 49ers",
+  "kind": "p",
+  "domain": "49ers.com",
+  "match": "website matches 49ers.com",
+  "qid": "Q337758",
+  "label": "San Francisco 49ers",
+  "desc": "National Football League franchise in Santa Clara, California",
+  "status": "found",
+  "file": "San Francisco 49ers logo.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:San_Francisco_49ers_logo.svg",
+  "clean": "trimmed to 500x296",
+  "size": [
+   500,
+   296
+  ]
+ },
+ "carolina-panthers": {
+  "name": "Carolina Panthers",
+  "kind": "p",
+  "domain": "panthers.com",
+  "match": "website matches panthers.com",
+  "qid": "Q330120",
+  "label": "Carolina Panthers",
+  "desc": "National Football League franchise in Charlotte, North Carolina",
+  "status": "found",
+  "file": "Carolina Panthers wordmark.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Carolina_Panthers_wordmark.svg",
+  "clean": "trimmed to 500x193",
+  "size": [
+   500,
+   193
+  ]
+ },
+ "ricoh": {
+  "name": "Ricoh",
+  "kind": "b",
+  "domain": "ricoh.com.au",
+  "match": "name + description (no website to compare)",
+  "qid": "Q125057252",
+  "label": "Ricoh",
+  "desc": "brand of electronics",
+  "status": "found",
+  "file": "Ricoh logo 2005.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Ricoh_logo_2005.svg",
+  "clean": "trimmed to 476x86",
+  "size": [
+   476,
+   86
+  ]
+ },
+ "westfield": {
+  "name": "Westfield",
+  "kind": "b",
+  "domain": "westfield.com.au",
+  "match": "website matches westfield.com.au",
+  "qid": "Q106623253",
+  "label": "Westfield",
+  "desc": "international mall brand",
+  "status": "found",
+  "file": "The Westfield Group logo.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:The_Westfield_Group_logo.svg",
+  "clean": "trimmed to 500x161",
+  "size": [
+   500,
+   161
+  ]
+ },
+ "west-ham-united": {
+  "name": "West Ham United",
+  "kind": "p",
+  "domain": "whufc.com",
+  "match": "website matches whufc.com",
+  "qid": "Q18747",
+  "label": "West Ham United F.C.",
+  "desc": "association football club in London, England",
+  "status": "found",
+  "file": "West Ham United FC logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:West_Ham_United_FC_logo.svg",
+  "clean": "trimmed to 460x512",
+  "size": [
+   460,
+   512
+  ]
+ },
+ "ufc": {
+  "name": "UFC",
+  "kind": "p",
+  "domain": "ufc.com",
+  "match": "website matches ufc.com",
+  "qid": "Q186471",
+  "label": "Ultimate Fighting Championship",
+  "desc": "American mixed martial arts (MMA) promotion company",
+  "status": "found",
+  "file": "UFC Logo.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:UFC_Logo.svg",
+  "clean": "trimmed to 500x173",
+  "size": [
+   500,
+   173
+  ]
+ },
+ "tasmania-jewels": {
+  "name": "Tasmania Jewels",
+  "kind": "p",
+  "domain": "tasmaniajewels.com.au",
+  "match": "website matches tasmaniajewels.com.au",
+  "qid": "Q136085356",
+  "label": "Tasmania Jewels",
+  "desc": "basketball team in Hobart, Tasmania",
+  "status": "found",
+  "file": "Tasmania Jewels logo.png",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Tasmania_Jewels_logo.png",
+  "clean": "trimmed to 276x306",
+  "size": [
+   276,
+   306
+  ]
+ },
+ "yeti": {
+  "name": "YETI",
+  "kind": "b",
+  "domain": "yeti.com",
+  "match": "no matching Wikidata item",
+  "status": "no match"
+ },
+ "monster-energy": {
+  "name": "Monster Energy",
+  "kind": "b",
+  "domain": "monsterenergy.com",
+  "match": "website matches monsterenergy.com",
+  "qid": "Q544293",
+  "label": "Monster Energy",
+  "desc": "American energy drink",
+  "status": "matched, no usable logo"
+ },
+ "great-britain-sailgp-team": {
+  "name": "Great Britain SailGP Team",
+  "kind": "p",
+  "domain": "sailgp.com",
+  "match": "website matches sailgp.com",
+  "qid": "Q134412841",
+  "label": "Great Britain SailGP Team",
+  "desc": "British sailing team",
+  "status": "matched, no usable logo"
+ },
+ "woolworths": {
+  "name": "Woolworths",
+  "kind": "b",
+  "domain": "woolworths.com.au",
+  "match": "website matches woolworths.com.au",
+  "qid": "Q3249145",
+  "label": "Woolworths Supermarkets",
+  "desc": "Australian supermarket chain",
+  "status": "found",
+  "file": "Woolworths Ltd. logo (2022).svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Woolworths_Ltd._logo_(2022).svg",
+  "clean": "trimmed to 500x484",
+  "size": [
+   500,
+   484
+  ]
+ },
+ "guinness": {
+  "name": "Guinness",
+  "kind": "b",
+  "domain": "guinness.com",
+  "match": "website matches guinness.com",
+  "qid": "Q194297",
+  "label": "Guinness",
+  "desc": "Irish brand of beer",
+  "refused": [
+   "Guinness-Werbung (Görlitz).jpg: busy background (photo or graphic, not a clean logo)"
+  ],
+  "status": "found",
+  "file": "Guinness logo dark text.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Guinness_logo_dark_text.svg",
+  "clean": "trimmed to 500x422",
+  "size": [
+   500,
+   422
+  ]
+ },
+ "london-pulse": {
+  "name": "London Pulse",
+  "kind": "p",
+  "domain": "londonpulsenetball.com",
+  "match": "name + description (no website to compare)",
+  "qid": "Q56697511",
+  "label": "London Pulse",
+  "desc": "netball team",
+  "status": "matched, no usable logo"
+ },
+ "gloucestershire-cricket": {
+  "name": "Gloucestershire Cricket",
+  "kind": "p",
+  "domain": "gloscricket.co.uk",
+  "match": "website matches gloscricket.co.uk",
+  "qid": "Q2735265",
+  "label": "Gloucestershire County Cricket Club",
+  "desc": "English cricket club",
+  "status": "found",
+  "file": "Gloucest cricket logo.png",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Gloucest_cricket_logo.png",
+  "clean": "trimmed to 310x294",
+  "size": [
+   310,
+   294
+  ]
+ },
+ "o-neills": {
+  "name": "O'Neills",
+  "kind": "b",
+  "domain": "oneills.com",
+  "match": "website matches oneills.com",
+  "qid": "Q7071925",
+  "label": "O'Neills",
+  "desc": "Irish sporting goods manufacturer",
+  "status": "found",
+  "file": "Oneills logo19.png",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Oneills_logo19.png",
+  "clean": "trimmed to 485x134",
+  "size": [
+   485,
+   134
+  ]
+ },
+ "xfinity": {
+  "name": "Xfinity",
+  "kind": "b",
+  "domain": "xfinity.com",
+  "match": "website matches xfinity.com",
+  "qid": "Q5151002",
+  "label": "Xfinity",
+  "desc": "American cable provider",
+  "status": "found",
+  "file": "Xfinity 2025.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Xfinity_2025.svg",
+  "clean": "trimmed to 500x158",
+  "size": [
+   500,
+   158
+  ]
+ },
+ "tcl": {
+  "name": "TCL",
+  "kind": "b",
+  "domain": "tcl.com",
+  "match": "website matches tcl.com",
+  "qid": "Q733958",
+  "label": "TCL Technology",
+  "desc": "Chinese multinational technology company",
+  "status": "found",
+  "file": "Logo of the TCL Corporation.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Logo_of_the_TCL_Corporation.svg",
+  "clean": "coloured tile; trimmed to 500x298",
+  "size": [
+   500,
+   298
+  ]
+ },
+ "new-york-jets": {
+  "name": "New York Jets",
+  "kind": "p",
+  "domain": "newyorkjets.com",
+  "match": "website matches newyorkjets.com",
+  "qid": "Q219602",
+  "label": "New York Jets",
+  "desc": "National Football League franchise in East Rutherford, New Jersey, USA",
+  "status": "found",
+  "file": "New York Jets 2024 (wordmark).svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:New_York_Jets_2024_(wordmark).svg",
+  "clean": "trimmed to 500x157",
+  "size": [
+   500,
+   157
+  ]
+ },
+ "chicago-bears": {
+  "name": "Chicago Bears",
+  "kind": "p",
+  "domain": "chicagobears.com",
+  "match": "website matches chicagobears.com",
+  "qid": "Q205033",
+  "label": "Chicago Bears",
+  "desc": "American football team",
+  "status": "found",
+  "file": "Chicago Bears wordmark.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Chicago_Bears_wordmark.svg",
+  "clean": "trimmed to 496x72",
+  "size": [
+   496,
+   72
+  ]
+ },
+ "dazn": {
+  "name": "DAZN",
+  "kind": "b",
+  "domain": "dazn.com",
+  "match": "website matches dazn.com",
+  "qid": "Q30133334",
+  "label": "DAZN",
+  "desc": "global over-the-top sports (OTT) subscription video streaming service",
+  "status": "found",
+  "file": "DAZN Logo Master.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:DAZN_Logo_Master.svg",
+  "clean": "trimmed to 490x491",
+  "size": [
+   490,
+   491
+  ]
+ },
+ "budget": {
+  "name": "Budget",
+  "kind": "b",
+  "domain": "budget.com.au",
+  "match": "website matches budget.com.au",
+  "qid": "Q1001437",
+  "label": "Budget Rent a Car",
+  "desc": "American car rental company of Avis",
+  "status": "found",
+  "file": "Budget logo.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Budget_logo.svg",
+  "clean": "trimmed to 500x106",
+  "size": [
+   500,
+   106
+  ]
+ },
+ "qscan": {
+  "name": "Qscan",
+  "kind": "b",
+  "domain": "qscan.com.au",
+  "match": "website matches qscan.com.au",
+  "qid": "Q137830381",
+  "label": "Qscan",
+  "desc": "Australian chain of medical imaging offices",
+  "status": "matched, no usable logo"
+ },
+ "microsoft": {
+  "name": "Microsoft",
+  "kind": "b",
+  "domain": "microsoft.com",
+  "match": "website matches microsoft.com",
+  "qid": "Q2283",
+  "label": "Microsoft",
+  "desc": "American multinational technology corporation",
+  "status": "found",
+  "file": "Microsoft logo (2012).svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Microsoft_logo_(2012).svg",
+  "clean": "trimmed to 500x107",
+  "size": [
+   500,
+   107
+  ]
+ },
+ "british-and-irish-lions": {
+  "name": "British & Irish Lions",
+  "kind": "p",
+  "domain": "lionsrugby.com",
+  "match": "website matches lionsrugby.com",
+  "qid": "Q733600",
+  "label": "British & Irish Lions",
+  "desc": "British and Irish rugby union team",
+  "status": "found",
+  "file": "British & Irish Lions logo (2023).svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:British_%26_Irish_Lions_logo_(2023).svg",
+  "clean": "trimmed to 351x512",
+  "size": [
+   351,
+   512
+  ]
+ },
+ "allianz": {
+  "name": "Allianz",
+  "kind": "b",
+  "domain": "allianz.com",
+  "match": "website matches allianz.com",
+  "qid": "Q487292",
+  "label": "Allianz SE",
+  "desc": "European multinational insurance and financial services corporation",
+  "status": "found",
+  "file": "Allianz.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Allianz.svg",
+  "clean": "trimmed to 500x124",
+  "size": [
+   500,
+   124
+  ]
+ },
+ "manchester-thunder": {
+  "name": "Manchester Thunder",
+  "kind": "p",
+  "domain": "thundernetball.co.uk",
+  "match": "name + description (no website to compare)",
+  "qid": "Q22098075",
+  "label": "Manchester Thunder",
+  "desc": "netball Superleague team",
+  "status": "found",
+  "file": "Manchester Thunder logo.png",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Manchester_Thunder_logo.png",
+  "clean": "white background removed; trimmed to 194x194",
+  "size": [
+   194,
+   194
+  ]
+ },
+ "leeds-rhinos-netball": {
+  "name": "Leeds Rhinos Netball",
+  "kind": "p",
+  "domain": "netball.therhinos.co.uk",
+  "match": "name + description (no website to compare)",
+  "qid": "Q65046126",
+  "label": "Leeds Rhinos Netball",
+  "desc": "netball Superleague team",
+  "status": "matched, no usable logo"
+ },
+ "yorkshire-ccc": {
+  "name": "Yorkshire CCC",
+  "kind": "p",
+  "domain": "yorkshireccc.com",
+  "match": "website matches yorkshireccc.com",
+  "qid": "Q3177444",
+  "label": "Yorkshire County Cricket Club",
+  "desc": "English cricket club",
+  "status": "found",
+  "file": "Yorkshire County Cricket Club logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Yorkshire_County_Cricket_Club_logo.svg",
+  "clean": "trimmed to 500x422",
+  "size": [
+   500,
+   422
+  ]
+ },
+ "newcastle-red-bulls": {
+  "name": "Newcastle Red Bulls",
+  "kind": "p",
+  "domain": "newcastleredbulls.com",
+  "match": "ambiguous: Q7017414 (Defunct NBL basketball club), Q109621215 (NBL1 basketball team)",
+  "status": "no match"
+ },
+ "los-angeles-sparks": {
+  "name": "Los Angeles Sparks",
+  "kind": "p",
+  "domain": "sparks.wnba.com",
+  "match": "website matches sparks.wnba.com",
+  "qid": "Q1329633",
+  "label": "Los Angeles Sparks",
+  "desc": "American professional women's basketball team of the WNBA",
+  "status": "found",
+  "file": "Los Angeles Sparks logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Los_Angeles_Sparks_logo.svg",
+  "clean": "trimmed to 500x500",
+  "size": [
+   500,
+   500
+  ]
+ },
+ "washington-spirit": {
+  "name": "Washington Spirit",
+  "kind": "p",
+  "domain": "washingtonspirit.com",
+  "match": "website matches washingtonspirit.com",
+  "qid": "Q1446108",
+  "label": "Washington Spirit",
+  "desc": "American professional soccer team based in Washington, D.C.",
+  "status": "found",
+  "file": "Washington Spirit logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Washington_Spirit_logo.svg",
+  "clean": "trimmed to 483x512",
+  "size": [
+   483,
+   512
+  ]
+ },
+ "under-armour": {
+  "name": "Under Armour",
+  "kind": "b",
+  "domain": "underarmour.com",
+  "match": "website matches underarmour.com",
+  "qid": "Q2031485",
+  "label": "Under Armour",
+  "desc": "American sports clothing and accessories company",
+  "status": "found",
+  "file": "Under armour logo.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Under_armour_logo.svg",
+  "clean": "trimmed to 498x291",
+  "size": [
+   498,
+   291
+  ]
+ },
+ "tampa-bay-buccaneers": {
+  "name": "Tampa Bay Buccaneers",
+  "kind": "p",
+  "domain": "buccaneers.com",
+  "match": "website matches buccaneers.com",
+  "qid": "Q320476",
+  "label": "Tampa Bay Buccaneers",
+  "desc": "National Football League franchise in Tampa, Florida",
+  "status": "found",
+  "file": "Tampa Bay Buccaneers wordmark.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Tampa_Bay_Buccaneers_wordmark.svg",
+  "clean": "trimmed to 500x138",
+  "size": [
+   500,
+   138
+  ]
+ },
+ "buffalo-bills": {
+  "name": "Buffalo Bills",
+  "kind": "p",
+  "domain": "buffalobills.com",
+  "match": "website matches buffalobills.com",
+  "qid": "Q221626",
+  "label": "Buffalo Bills",
+  "desc": "National Football League franchise in Orchard Park, New York",
+  "status": "found",
+  "file": "Buffalo Bills logo 1974-present.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Buffalo_Bills_logo_1974-present.svg",
+  "clean": "trimmed to 500x334",
+  "size": [
+   500,
+   334
+  ]
+ },
+ "foxtel": {
+  "name": "Foxtel",
+  "kind": "b",
+  "domain": "foxtel.com.au",
+  "match": "website matches foxtel.com.au",
+  "qid": "Q1976628",
+  "label": "Foxtel",
+  "desc": "Australian pay television company",
+  "status": "found",
+  "file": "Foxtel logo 2020.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Foxtel_logo_2020.svg",
+  "clean": "trimmed to 498x102",
+  "size": [
+   498,
+   102
+  ]
+ },
+ "formula-e": {
+  "name": "Formula E",
+  "kind": "p",
+  "domain": "fiaformulae.com",
+  "match": "website matches fiaformulae.com",
+  "qid": "Q319565",
+  "label": "Formula E",
+  "desc": "electric auto racing championship",
+  "status": "found",
+  "file": "Formula E logo (2026).svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Formula_E_logo_(2026).svg",
+  "clean": "trimmed to 500x49",
+  "size": [
+   500,
+   49
+  ]
+ },
+ "dp-world-tour": {
+  "name": "DP World Tour",
+  "kind": "p",
+  "domain": "europeantour.com",
+  "match": "website matches europeantour.com",
+  "qid": "Q121571",
+  "label": "PGA European Tour",
+  "desc": "golf tour in Europe",
+  "status": "matched, no usable logo"
+ },
+ "hockey-australia": {
+  "name": "Hockey Australia",
+  "kind": "p",
+  "domain": "hockey.org.au",
+  "match": "website matches hockey.org.au",
+  "qid": "Q326322",
+  "label": "Hockey Australia",
+  "desc": "field hockey governing body in Australia",
+  "status": "matched, no usable logo"
+ },
+ "2xu": {
+  "name": "2XU",
+  "kind": "b",
+  "domain": "2xu.com",
+  "match": "website matches 2xu.com",
+  "qid": "Q16823650",
+  "label": "2XU",
+  "desc": "Australian sports apparel company",
+  "status": "matched, no usable logo"
+ },
+ "aami": {
+  "name": "AAMI",
+  "kind": "b",
+  "domain": "aami.com.au",
+  "match": "no matching Wikidata item",
+  "status": "no match"
+ },
+ "harvey-norman": {
+  "name": "Harvey Norman",
+  "kind": "b",
+  "domain": "harveynorman.com.au",
+  "match": "website matches harveynorman.com.au",
+  "qid": "Q4040441",
+  "label": "Harvey Norman",
+  "desc": "multi-national Australian-based retailer",
+  "status": "matched, no usable logo"
+ },
+ "tennis-australia": {
+  "name": "Tennis Australia",
+  "kind": "p",
+  "domain": "tennis.com.au",
+  "match": "website matches tennis.com.au",
+  "qid": "Q3494880",
+  "label": "Tennis Australia",
+  "desc": "The governing body for the sport of tennis in Australia.",
+  "status": "matched, no usable logo"
+ },
+ "audi": {
+  "name": "Audi",
+  "kind": "b",
+  "domain": "audi.com",
+  "match": "website matches audi.com",
+  "qid": "Q23317",
+  "label": "Audi AG",
+  "desc": "German automotive manufacturing subsidiary of Volkswagen Group",
+  "status": "found",
+  "file": "Audi-Logo 2016.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Audi-Logo_2016.svg",
+  "clean": "trimmed to 500x177",
+  "size": [
+   500,
+   177
+  ]
+ },
+ "lexus": {
+  "name": "Lexus",
+  "kind": "b",
+  "domain": "lexus.com",
+  "match": "website matches lexus.com",
+  "qid": "Q35919",
+  "label": "Lexus",
+  "desc": "Japanese brand of luxury vehicle owned by Toyota Motor Corporation",
+  "status": "found",
+  "file": "Lexus.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Lexus.svg",
+  "clean": "trimmed to 472x81",
+  "size": [
+   472,
+   81
+  ]
+ },
+ "nashville-predators": {
+  "name": "Nashville Predators",
+  "kind": "p",
+  "domain": "nashvillepredators.com",
+  "match": "no matching Wikidata item",
+  "status": "no match"
+ },
+ "texas-rangers": {
+  "name": "Texas Rangers",
+  "kind": "p",
+  "domain": "texasrangers.com",
+  "match": "name + description (no website to compare)",
+  "qid": "Q2407629",
+  "label": "Texas Rangers",
+  "desc": "group of architects who taught at the University of Texas School of Architecture",
+  "status": "matched, no usable logo"
+ },
+ "philadelphia-phillies": {
+  "name": "Philadelphia Phillies",
+  "kind": "p",
+  "domain": "phillies.com",
+  "match": "name + description (no website to compare)",
+  "qid": "Q7182765",
+  "label": "Philadelphia Phillies",
+  "desc": "professional American football team from 1902",
+  "status": "matched, no usable logo"
+ },
+ "miami-dolphins": {
+  "name": "Miami Dolphins",
+  "kind": "p",
+  "domain": "miamidolphins.com",
+  "match": "website matches miamidolphins.com",
+  "qid": "Q223243",
+  "label": "Miami Dolphins",
+  "desc": "National Football League franchise in Miami, Florida",
+  "status": "found",
+  "file": "Miami Dolphins logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Miami_Dolphins_logo.svg",
+  "clean": "trimmed to 497x392",
+  "size": [
+   497,
+   392
+  ]
+ },
+ "sky-nz": {
+  "name": "Sky NZ",
+  "kind": "b",
+  "domain": "sky.co.nz",
+  "match": "no matching Wikidata item",
+  "status": "no match"
+ },
+ "national-storage": {
+  "name": "National Storage",
+  "kind": "b",
+  "domain": "nationalstorage.com.au",
+  "match": "website matches nationalstorage.com.au",
+  "qid": "Q21178908",
+  "label": "National Storage",
+  "desc": "Australian self storage company",
+  "refused": [
+   "National Storage logo as of 2015.jpg: busy background (photo or graphic, not a clean logo)"
+  ],
+  "status": "matched, no usable logo"
+ },
+ "swyftx": {
+  "name": "Swyftx",
+  "kind": "b",
+  "domain": "swyftx.com",
+  "match": "no matching Wikidata item",
+  "status": "no match"
+ },
+ "motogp": {
+  "name": "MotoGP",
+  "kind": "p",
+  "domain": "motogp.com",
+  "match": "website matches motogp.com",
+  "qid": "Q10858737",
+  "label": "MotoGP",
+  "desc": "Motorcycling World Championship class",
+  "status": "found",
+  "file": "MotoGP logo (2024).svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:MotoGP_logo_(2024).svg",
+  "clean": "trimmed to 500x80",
+  "size": [
+   500,
+   80
+  ]
+ },
+ "mlb": {
+  "name": "MLB",
+  "kind": "p",
+  "domain": "mlb.com",
+  "match": "website matches mlb.com",
+  "qid": "Q1163715",
+  "label": "Major League Baseball",
+  "desc": "North American professional baseball league",
+  "status": "found",
+  "file": "Major League Baseball logo.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Major_League_Baseball_logo.svg",
+  "clean": "white background removed; trimmed to 472x241",
+  "size": [
+   472,
+   241
+  ]
+ },
+ "ringers-western": {
+  "name": "Ringers Western",
+  "kind": "b",
+  "domain": "ringerswestern.com",
+  "match": "name + description (no website to compare)",
+  "qid": "Q140753928",
+  "label": "Ringers western",
+  "desc": "Australian western wear and workwear brand",
+  "status": "matched, no usable logo"
+ },
+ "tab": {
+  "name": "TAB",
+  "kind": "b",
+  "domain": "tab.com.au",
+  "match": "no matching Wikidata item",
+  "status": "no match"
+ },
+ "betway": {
+  "name": "Betway",
+  "kind": "b",
+  "domain": "betway.com",
+  "match": "website matches betway.com",
+  "qid": "Q20313269",
+  "label": "Betway",
+  "desc": "online gambling company",
+  "status": "found",
+  "file": "Betway Logo (black).svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Betway_Logo_(black).svg",
+  "clean": "trimmed to 500x141",
+  "size": [
+   500,
+   141
+  ]
+ },
+ "marriott-bonvoy": {
+  "name": "Marriott Bonvoy",
+  "kind": "b",
+  "domain": "marriott.com",
+  "match": "website matches marriott.com",
+  "qid": "Q111359899",
+  "label": "Marriott Bonvoy",
+  "desc": "Marriott Bonvoy rewards program",
+  "status": "matched, no usable logo"
+ },
+ "etoro": {
+  "name": "eToro",
+  "kind": "b",
+  "domain": "etoro.com",
+  "match": "website matches etoro.com",
+  "qid": "Q5324516",
+  "label": "eToro",
+  "desc": "social trading and multi asset brokerage company",
+  "status": "found",
+  "file": "EToro Logo 2026.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:EToro_Logo_2026.svg",
+  "clean": "trimmed to 500x94",
+  "size": [
+   500,
+   94
+  ]
+ },
+ "skycity": {
+  "name": "SkyCity",
+  "kind": "b",
+  "domain": "skycity.co.nz",
+  "match": "name + description (no website to compare)",
+  "qid": "Q7537159",
+  "label": "SkyCity",
+  "desc": "defunct revolving restaurant and bar situated atop the Space Needle",
+  "status": "matched, no usable logo"
+ },
+ "visit-victoria": {
+  "name": "Visit Victoria",
+  "kind": "b",
+  "domain": "visitvictoria.com",
+  "match": "no matching Wikidata item",
+  "status": "no match"
+ },
+ "carlton-and-united-breweries": {
+  "name": "Carlton & United Breweries",
+  "kind": "b",
+  "domain": "cub.com.au",
+  "match": "website matches cub.com.au",
+  "qid": "Q5042950",
+  "label": "Carlton & United Breweries",
+  "desc": "Australian beverage manufacturer",
+  "status": "found",
+  "file": "Carlton & United Breweries logo.svg",
+  "source": "Wikipedia lead image",
+  "page": "https://en.wikipedia.org/wiki/File:Carlton_%26_United_Breweries_logo.svg",
+  "clean": "trimmed to 494x475",
+  "size": [
+   494,
+   475
+  ]
+ },
+ "dhl": {
+  "name": "DHL",
+  "kind": "b",
+  "domain": "dhl.com",
+  "match": "website matches dhl.com",
+  "qid": "Q489815",
+  "label": "DHL",
+  "desc": "German logistics company and division of Deutsche Post",
+  "refused": [
+   "DHL Logo.svg: busy background (photo or graphic, not a clean logo)"
+  ],
+  "status": "matched, no usable logo"
+ },
+ "barclays": {
+  "name": "Barclays",
+  "kind": "b",
+  "domain": "barclays.com",
+  "match": "no matching Wikidata item",
+  "status": "no match"
+ },
+ "london-mavericks": {
+  "name": "London Mavericks",
+  "kind": "p",
+  "domain": "londonmavericks.co.uk",
+  "match": "no matching Wikidata item",
+  "status": "no match"
+ },
+ "acronis": {
+  "name": "Acronis",
+  "kind": "b",
+  "domain": "acronis.com",
+  "match": "website matches acronis.com",
+  "qid": "Q342813",
+  "label": "Acronis",
+  "desc": "Swiss technology company specializing in backup and disaster recovery software and services",
+  "status": "found",
+  "file": "Acronis-logo.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Acronis-logo.svg",
+  "clean": "trimmed to 394x81",
+  "size": [
+   394,
+   81
+  ]
+ },
+ "san-diego-wave-fc": {
+  "name": "San Diego Wave FC",
+  "kind": "p",
+  "domain": "sandiegowavefc.com",
+  "match": "website matches sandiegowavefc.com",
+  "qid": "Q107324446",
+  "label": "San Diego Wave FC",
+  "desc": "American women's soccer club",
+  "status": "found",
+  "file": "San Diego Wave FC 2021 wordmark blue.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:San_Diego_Wave_FC_2021_wordmark_blue.svg",
+  "clean": "trimmed to 500x49",
+  "size": [
+   500,
+   49
+  ]
+ },
+ "athletic-brewing": {
+  "name": "Athletic Brewing",
+  "kind": "b",
+  "domain": "athleticbrewing.com",
+  "match": "website matches athleticbrewing.com",
+  "qid": "Q97642266",
+  "label": "Athletic Brewing Co.",
+  "desc": "non-alcoholic brewery based in Stratford, Connecticut, USA",
+  "status": "matched, no usable logo"
+ },
+ "sony": {
+  "name": "Sony",
+  "kind": "b",
+  "domain": "sony.com",
+  "match": "website matches sony.com",
+  "qid": "Q41187",
+  "label": "Sony Group",
+  "desc": "Japanese multinational conglomerate corporation",
+  "status": "found",
+  "file": "Sony Group logo.svg",
+  "source": "Wikidata logo (P154)",
+  "page": "https://commons.wikimedia.org/wiki/File:Sony_Group_logo.svg",
+  "clean": "trimmed to 500x89",
+  "size": [
+   500,
+   89
+  ]
+ },
+ "seattle-kraken": {
+  "name": "Seattle Kraken",
+  "kind": "p",
+  "domain": "seattlekraken.com",
+  "match": "no matching Wikidata item",
+  "status": "no match"
+ }
+}
