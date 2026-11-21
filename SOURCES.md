@@ -185,15 +185,26 @@ so don't look up or list LinkedIn URLs. After the post (outside the paste-ready 
 Switched off for good (22 Oct 2026). Queue files carry the feed carousel and caption only: no "stories",
 no "reel_caption", no "story_time". The renderer and poster skip both.
 
-### 5. One photo everywhere, free Unsplash only (2 Nov 2026)
-The lead's deals.json "image" is the single photo for the website, LinkedIn and Instagram.
-- It must be a good-quality, free Unsplash photo (https://images.unsplash.com/photo-..., never Unsplash+),
-  with "imageCredit": "Unsplash". Never a club, brand or press photo, even with credit.
+### 5. One photo everywhere: official photos first, Unsplash as the fallback (from 21 Nov 2026)
+The lead's deals.json "image" is the single photo for the website, LinkedIn and Instagram, with "imageCredit" always set.
+In order of preference:
+1. **The official announcement photo** from the club's, league's or brand's own release, newsroom or media centre (the
+   launch shot, the new kit, the signing). Use it only when the page offers it for media or editorial use, or the club or
+   brand has given permission. Store the image's own URL in "imageSrc" (from the official page you opened, never a guessed
+   URL), and set "imageCredit" to the owner exactly as they credit it (e.g. "Collingwood FC", "Getty Images for Qantas").
+   tools/fetch_photos.py (GitHub, on push) downloads it to assets/img/p/ and points "image" at the local copy.
+2. **Ask for it.** If the best photo is on the club's or brand's channels but has no clear media-use terms, don't use it
+   yet: put it in Angus's morning message with a ready-to-send request to their media or partnerships contact, and run the
+   post with option 3. Angus swaps it in once they say yes.
+3. **Free Unsplash** (https://images.unsplash.com/photo-..., never Unsplash+), "imageCredit": "Unsplash".
+Never: photos lifted from someone's Instagram or social post without permission, photo agency images (Getty, AAP,
+Imagn, Reuters) unless the club or brand released them for media use, watermarked images, or fan photos.
 - Any photo swap goes into deals.json "image" first (then re-run tools/build_articles.py). Never change the
   photo in instagram/linkedin/<date>.json or a queue file alone: the LinkedIn spec "image" must always equal
   the deals.json "image".
-- Before queuing Instagram, check the two match. If the LinkedIn spec has an Unsplash photo and deals.json
+- Before queuing Instagram, check the two match. If the LinkedIn spec has a photo and deals.json
   doesn't, Angus picked the LinkedIn one: copy it into deals.json.
+- Every graphic with a non-Unsplash photo shows the credit ("Photo: <imageCredit>").
 
 ### 6. Weekly schedule (from 3 Nov 2026)
 Parade no longer posts deals every weekday. The week is:

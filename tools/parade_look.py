@@ -130,6 +130,7 @@ body{font-family:PArchivo,'Helvetica Neue',Arial,sans-serif;font-weight:500;colo
 .pill{display:inline-flex;align-items:center;border-radius:6px;font-weight:800;font-size:20px;letter-spacing:.14em;text-transform:uppercase;padding:12px 20px 11px;line-height:1;white-space:nowrap}
 .pv{background:#D2FF3C;color:#111}.pg{background:#F4F4F1;color:#5C5C57}.pk{background:#111;color:#fff}
 .pcard .pill{position:absolute;left:28px;bottom:28px;box-shadow:0 8px 24px rgba(0,0,0,.18)}
+.pcard .cred{position:absolute;right:16px;bottom:12px;font-weight:600;font-size:15px;letter-spacing:.02em;color:#fff;text-shadow:0 1px 6px rgba(0,0,0,.7)}
 .lgp{display:flex;align-items:center;gap:22px}
 .lgp img{height:88px;max-width:260px;object-fit:contain;display:block}
 .lgp .lx{font-weight:800;font-size:40px;color:#8A8A85}
@@ -145,3 +146,9 @@ body{font-family:PArchivo,'Helvetica Neue',Arial,sans-serif;font-weight:500;colo
 .crd .lgp{flex:none;gap:.7em}.crd .lgp img{height:3.6em;max-width:5.8em;object-fit:contain}.crd .lgp .lx{display:none}
 .pfoot{display:flex;justify-content:space-between;align-items:center;flex:none}
 """
+
+
+def credit_html(credit):
+    """'Photo: X' on a photo card, for any photo that isn't Unsplash (SOURCES.md rule 5)."""
+    c = str(credit or "").strip()
+    return "" if (not c or c.lower() == "unsplash") else f'<span class="cred">Photo: {esc(c)}</span>'

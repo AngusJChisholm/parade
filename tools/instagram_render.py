@@ -372,6 +372,21 @@ def deal_image(item):
     return _DEALS.get(deal_key(item.get("deal")))
 
 
+_CREDITS = None
+
+
+def deal_credit(item):
+    if item.get("imageCredit") or item.get("credit"):
+        return item.get("imageCredit") or item.get("credit")
+    global _CREDITS
+    if _CREDITS is None:
+        try:
+            _CREDITS = {deal_key(d.get("deal")): d.get("imageCredit") for d in json.loads((ROOT / "deals.json").read_text())["deals"] if d.get("image")}
+        except Exception:
+            _CREDITS = {}
+    return _CREDITS.get(deal_key(item.get("deal")))
+
+
 def photo_src(img, w):
     import base64
     img = str(img or "")
@@ -616,7 +631,7 @@ def feed_cover(c):
     tag = c.get("status") or c.get("tag") or ""
     pill = f'<span class="pill pv">{esc(tag)}</span>' if tag else ""
     if src:
-        card = f'<div class="pcard" style="height:{640 if logos else 760}px;margin-top:36px"><div class="img" style="background-image:url(\'{src}\')"></div>{pill}</div>'
+        card = f'<div class="pcard" style="height:{640 if logos else 760}px;margin-top:36px"><div class="img" style="background-image:url(\'{src}\')"></div>{pill}{PL.credit_html(deal_credit(c))}</div>'
         logo_row = f'<div style="margin-top:40px">{logos}</div>' if logos else ""
         fit = 300 if logos else 420
     else:
